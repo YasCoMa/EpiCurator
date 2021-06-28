@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Immunology, immunopathogenesis and immunotherapeutics of COVID-19; an overview
+ </title>
+ <abstract>
+  <p>
+   Coronavirus disease 2019 (COVID-19) infection which is caused by severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has led to a “public health emergency of international concern” (PHEIC). The infection is highly contagious, has a high mortality rate, and its pathophysiology remains poorly understood. Pulmonary inflammation with substantial lung damage together with generalized immune dysregulation are major components of COVID-19 pathogenesis. The former component, lung damage, seems to be at least in part a consequence of immune dysregulation. Indeed, studies have revealed that immune alteration is not merely an association, as it might occur in systemic infections, but, very likely, the core pathogenic element of COVID-19. In addition, precise management of immune response in COVID-19, i.e. enhancing anti-viral immunity while inhibiting systemic inflammation, may be key to successful treatment. Herein, we have reviewed current evidence related to different aspects of COVID-19 immunology, including innate and adaptive immune responses against the virus and mechanisms of virus-induced immune dysregulation. Considering that current antiviral therapies are chiefly experimental, strategies to do immunotherapy for the management of disease have also been reviewed. Understanding immunology of COVID-19 is important in developing effective therapies as well as diagnostic, and prophylactic strategies for this disease.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0030">
+     In December 2019 the first cases of pneumonia caused by an unknown infectious agent were reported in Wuhan, China. The infectious agent was later discovered to be a novel beta coronavirus (β CoV) that was called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), due to its phylogenetic similarity with SARS-CoV. Infections soon became widespread in China and the rest of the world leading to the declaration of a pandemic and a “public health emergency of international concern” (PHEIC) by WHO. The so-called coronavirus disease 2019 (COVID-19) has a higher severity and mortality rate in the elderly, in patients with underlying conditions like hypertension and diabetes, and in people with diminished immune activity     . In addition to being a major threat to public health, the pandemic has also affected social life and global economy. Numerous research groups have started investigating potential antiviral agents as well as the possibility to develop a vaccine     .
+    </p>
+    <p id="p0035">
+     Pneumonia associated with lung damage is the major clinicopathological manifestation of COVID-19. Pneumonia varies from mild to severe and pathological findings range from minor serous exudates to pulmonary edema and diffuse alveolar damage. The latter underlies “acute respiratory distress syndrome” (ARDS) which is seen in some patients and might lead to decreased blood O
+     <sub>
+      2
+     </sub>
+     saturation and life-threatening hypoxemia. Involvement of cardiovascular system in the form of acute myocardial injury, thromboembolism and ischemic events has been reported     ,     ,     ,     ,     . Neurological problems including brainstem malfunction occur in some patients and might be responsible for respiratory failure even in the absence of diffuse lung damage     ,     . Nephrological and gastrointestinal involvements have also been reported     ,     . Co-occurrence of these pathologies can lead to multi-organ failure. Nonetheless, isolated lung damage seems to be the leading cause of COVID-19 fatality     ,     ,     .
+    </p>
+    <p id="p0040">
+     COVID-19 organ/tissue damage is associated with systemic inflammation and the so-called “cytokine release syndrome” (CRS). While coronaviruses have the ability to inflict direct damage to epithelial tissues through epithelial cell injury and necrosis, evidence indicates that immune system activation/perturbation is the major cause of organ/tissue damage in COVID-19     . Studies on patients with COVID-19 have shown that the virus triggers the release of various inflammatory mediators including inflammatory cytokines that are chiefly produced by monocytes and macrophages     ,     . Studies on CRS caused by SARS-CoV-2 infection have been performed on peripheral blood     ,     ,     ; nonetheless, it is likely that local concentrations of cytokines are highly enhanced in the lung tissue where alveolar macrophages are faced with a great number of viral particles     ,     . This immunological aspect of disease, as well as the urgent need to develop a vaccine, necessitates a deeper understating of COVID-19 immunology. Moreover, using cytokines, specific antibodies or convalescent plasma for disease immunotherapy demands a better understanding of SARS-CoV-2 immune system interactions.
+    </p>
+    <p id="p0045">
+     In this review, we have aimed to provide an overview of three different but related aspects of COVID-19 immunology; immune response to SARS-CoV-2, mechanisms of immune dysregulation and potential strategies to do immunotherapy for the management of disease.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Immune response to SARS-CoV-2
+    </title>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      Innate immunity
+     </title>
+     <p id="p0050">
+      Innate immunity is the first line of host defense and plays a key role in inhibiting the spread of pathogens. Unlike adaptive immunity which works by generating specific receptors (i.e. antibodies or TCRs) against microbial antigens, innate immunity is based on recognizing general molecular patterns which exist in microbial structures      . These “pathogen-associated molecular patterns” (PAMPs) are detected by evolutionarily-conserved groups of receptors named pattern recognition receptors (PRRs), which include cell surface or endosomal toll-like receptors (TLRs), retinoic acid-inducible gene I (RIG-I) and NOD-like receptors (NLRs). PAMPs associated with SARS-CoV include viral genomic ssRNA and intermediate substances produced during viral replication, i.e. dsRNA, as well as viral proteins. Coronavirus ssRNA and dsRNA molecules could be detected by several endosomal or cytosolic PRRs. Endosomal TLR3      and endosomal TLR7      have both been reported to get activated following coronavirus infection. Likewise, cytoplasmic RNA sensors, RIG-I and melanoma differentiation-associated gene 5 (MDA5), both respond to coronavirus RNAs. Several studies on SARS-CoV and MERS-CoV have shown that RIG-I mediated signaling is an important player in the induction of antiviral interferon responses against these viruses      ,      . “Stimulator of interferon genes” (STING) is another PRR which is generally known as a cytosolic DNA sensor, and while coronaviruses lack DNA, SING-mediated signaling has been reported following coronavirus infections      . Viral proteins represent a different group of PAMPs. SARS-CoV spike protein is known to interact with TLR2 and activate downstream signaling pathways      . SARS-CoV M protein also acts as a cytosolic PAMP and induces TLR-related interferon responses      . These PAMP-PRR interactions result in the activation of “inflammation-promoting” transcription factors (TF), including nuclear factor kappa B (NF-κB) and IFN regulatory factor 3 (IRF3). These transcription factors contribute to the expression of type I interferons (IFN-I) and other proinflammatory cytokines      . In comparison with other respiratory viruses, SARS-CoV-2 infection drives a lower antiviral transcriptional response that is marked by low IFNI and IFN-III levels and elevated chemokine expression, which could explain the proinflammatory disease state associated with COVID-19      . Dysregulated IFN responses are likely a consequence of effective ‘
+     </p>
+     <p id="p0055">
+      Studies on SARS-CoV have demonstrated that the virus infects different cells in respiratory system including airway and alveolar epithelial cells, vascular endothelial cells and macrophages by binding to angiotensin-converting enzyme-2 (ACE2) receptor. SARS-CoV viral particles and genome have also been identified in circulating lymphocytes and monocytes, following the systemic spread of the virus      . SARS-CoV-2 uses the same receptor for cell entry, raising the possibility that the same set of cells get targeted in COVID-19      . Of these, macrophages and lymphocytes contain all required molecular elements and are capable of raising strong cytokine and chemokine responses      .
+     </p>
+     <p id="p0060">
+      A different but related aspect of coronavirus immunopathogenesis might originate from the induction of pyroptosis in lymphocytes and macrophages      . SARS-CoV Viroporin 3a has been reported to stimulate the NOD-like receptor protein 3 activation (NLRP3) inflammasome and the secretion of IL1β in bone marrow-derived macrophages, which might contribute to pyroptosis      . Pyroptosis in turn leads to a massive increase in the levels of proinflammatory cytokines (      )      .
+      <table-wrap id="t0005" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         The innate immune response of Coronaviruses (CoV) during an infection. Innate immunity is the first line of host defense and based on recognizing general molecular patterns which exist in microbial structures such as TLR, RIG, NLRP family, and interferons.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           <bold>
+            Pattern Recognition
+           </bold>
+           <break/>
+           <bold>
+            Receptors
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Location
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Specific Examples
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Ligands (PAMPs)
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td colspan="4">
+           <bold>
+            <italic>
+             Cell-Associated:
+            </italic>
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <break/>
+           <bold>
+            Toll-like receptors
+           </bold>
+           <break/>
+           <break/>
+           <break/>
+           <inline-graphic ns0:href="fx1_lrg.gif"/>
+          </td>
+          <td>
+           <break/>
+           Plasma membrane and endosomal membranes of DCs, phagocytes, B cells, endothelial cells
+          </td>
+          <td>
+           <break/>
+           <break/>
+           TLRs 3,4,7
+          </td>
+          <td>
+           <break/>
+           <break/>
+           Viral Nucleic Acids
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <break/>
+           <break/>
+           <bold>
+            RIGI like receptors
+           </bold>
+           <break/>
+           <inline-graphic ns0:href="fx2_lrg.gif"/>
+          </td>
+          <td>
+           <break/>
+           <break/>
+           Cytosol of phagocytes and other cells
+          </td>
+          <td>
+           <break/>
+           <break/>
+           RIG-1, MDA-5
+          </td>
+          <td>
+           <break/>
+           <break/>
+           Viral RNA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <break/>
+           <break/>
+           <bold>
+            NOD-like receptors
+           </bold>
+           <break/>
+           <break/>
+           <inline-graphic ns0:href="fx3_lrg.gif"/>
+           <break/>
+           <break/>
+           <break/>
+          </td>
+          <td>
+           <break/>
+           <break/>
+           Cytosol of phagocytes,
+           <break/>
+           epithelial cells, and other cells
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+          </td>
+          <td>
+           <break/>
+           <break/>
+           NOD1/2 Bacterial cell wall peptidoglycans
+           <break/>
+           NLRP family
+           <break/>
+           (Inflammasomes)
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+          </td>
+          <td>
+           <break/>
+           <break/>
+           Bacterial cell wall peptidoglycans
+           <break/>
+           changes in cytosolic ATP and ion concentrations; lysosomal damage
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+           <break/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="4">
+           <bold>
+            <italic>
+             Soluble:
+            </italic>
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <bold>
+            Type I&amp;III interferons
+           </bold>
+           <break/>
+          </td>
+          <td>
+           Plasma
+          </td>
+          <td>
+           IFN-α, IFN-β, IFN-λ
+          </td>
+          <td>
+           Viral RNA
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      Adaptive immunity
+     </title>
+     <p id="p0065">
+      Similar to other pathogens, adaptive immune response against viruses can be categorized into humoral and cellular components. Neutralizing antibodies are the key protective players in the extracellular environment while CD8      cytotoxic T cells have a prominent role against intracellular viruses. Both elements are controlled and regulated by antigen-specific CD4      T cells.
+     </p>
+     <sec id="s0025">
+      <label>
+       2.2.1
+      </label>
+      <title>
+       HLA haplotypes and SARS-CoV-2 infection
+      </title>
+      <p id="p0070">
+       Antigen presentation cells (APCs) present pathogens antigenic peptides in the context of major histocompatibility complex (MHC) molecules. Depending on the MHC molecule, these antigens can be recognized by CD4       helper or CD8       cytotoxic T lymphocytes (CTLs). Studies on infectious diseases have repeatedly implicated “human leukocyte antigen” (HLA) as the major candidate for genetic susceptibility to infections       ,       . Different HLA alleles might have different binding specificities for microbial peptides and specific HLA haplotypes are linked to susceptibility to different types of infectious agents, e.g. leprosy, hepatitis B, tuberculosis, human immunodeficiency viruses (HIV) and influenza       . Recent studies have illustrated the correlation between susceptibility to SARS-CoV and several HLA alleles, e.g. HLA-B*4601, HLA-B*0703, HLA-DR B1*1202       , and HLA-Cw*0801       . HLA alleles including HLA-Cw1502, HLA-DR0301, and HLA-A*0201 are associated with the protection against SARS infection       . This information can be useful in devising clinical management strategies as well as predicting vaccination efficacy in various populations. In addition the HLA, polymorphisms in other genes like mannose-binding lectin (MBL) have also been associated with the risk of SARS-CoV infection       . Information regarding potential associations between HLA polymorphisms and SAR-CoV-2 susceptibility and/or disease outcome is limited       . A recent
+       <italic>
+        in silico
+       </italic>
+       analysis of virus-MHC binding affinities have shown that SARS-CoV-2 proteome can be successfully presented by diverse HLA alleles, with HLA-B*46:01 allele showing the lowest ability to present SARS-CoV-2 peptides and hence enhancing the vulnerability to SARS-CoV-2. In contrast, HLA-B*15:03 shows the capacity to present conserved SARS-CoV-2 epitopes which could implicate a better immune response       .
+      </p>
+     </sec>
+     <sec id="s0030">
+      <label>
+       2.2.2
+      </label>
+      <title>
+       Humoral immune responses
+      </title>
+      <p id="p0075">
+       Recent studies on antibody responses in COVID-19 patients have shown that the majority of patients develop virus-specific IgM and/or IgG antibodies shortly after infection. A study on 258 COVID-19 cases by Long et al. showed that in some patient’s antibody responses were detectable as early as 4 days after the onset of symptoms. When followed by sequential sampling, 94 percent of patients developed virus-specific IgM 20–22 days after disease onset, while 100% of patients were positive for virus-specific IgG       . Higher IgM/IgG titers were observed in patients with more severe disease. Of 26 patients who were initially seronegative, 7 patients developed IgM antibodies earlier than IgG and 9 patients had simultaneous seroconversion. Interestingly, 10 patients developed IgG before IgM seroconversion       . Another study on 112 patients showed that more than 51% of cases were positive for both IgM and IgG, while 41% were only positive for IgG, within 7–10 days after disease onset       . A study by Zhao et al. on 173 patients reported 82% IgM and 64% IgG seropositivity among patients       . In a more recent work, researchers investigated antibody responses against spike protein receptor binding domain (RBD) and nucleocapsid (NP) proteins separately; 94% of patients had anti-RBD IgM and 100% had anti-RBD IgG antibodies two weeks after disease onset       . Anti-NP antibodies were detected in a slightly lower number of patients (88% for NP-IgM and 94% for NP-IgG). In these studies, antibody tests have been performed using enzyme immunoassays. These assays detect antibodies regardless of their functionality and hence their results are more useful from diagnostic and epidemiological perspectives. Whether these virus-specific antibodies exert any protective effects is a question that ought to be answered by
+       <italic>
+        in vitro
+       </italic>
+       or
+       <italic>
+        in vivo
+       </italic>
+       assays which examine antibody functionality. Indeed, a study by Wang et al. has shown that virus-specific IgG could co-exist with SARS-CoV-2 virus for long periods, indicating that antibodies might not be associated with viral clearance       . Neutralizing antibodies which have the ability to block the interaction between spike protein RBD with the receptor have been reported for SARS-CoV and MERS-CoV       ,       . Results of convalescent plasma-transfer studies (discussed below) have pointed to the presence of these antibodies in people recovering from COVID-19 infection       . Indeed, there is a report by Ju et al. showing that potent anti-SARS-CoV-2 spike RBD antibodies with neutralizing ability do exist in COVID-19 patients       ,       ,       .
+      </p>
+      <p id="p0080">
+       In addition to neutralizing activity, complement activation by virus-specific antibodies is another functionality that should be considered in the context of a humoral immune response. Activation of complement system through classical (i.e. antibody-mediated) or alternative/MBL pathways can have protective and/or pathogenic effects through generation of various chemotactic/inflammatory mediators. Evidence pointing to beneficial effects of complement pathway activation in coronavirus infections is indirect and comes from studies which have shown that some virus-encoded proteins have the ability to block complement proteins       . In contrast, there is ample evidence indicating that complement activation contributes to coronavirus pathogenesis. A study by Magro et al. has shown that complement activation enhances microvascular injury and thrombosis in COVID-19 cases       . Studies on complement C3-deficient mice have demonstrated that these animals display significantly less severe disease following infection with mouse-adapted SARS-CoV strains       . Indeed, blockade of C3a and C5a has been shown to exert therapeutic effects in coronavirus-induced lung injury. Anti-C5a antibodies have been reported to protect mice from the impairments induced by MERS-CoV       ,       . Gao et al. have shown that SARS-CoV-2 N protein binds to mannose associated serine protease 2 (MASP-2), resulting in aberrant C5 activation and aggravated inflammatory lung injury       . From a pathogenesis standpoint, evaluating complement proteins, MBL and MASP-2 in the serum of COVID-19 patients can be very helpful, considering that high concentrations of these proteins could be associated with severe disease and complement-targeting therapies might prove useful. Whether severity of COVID-19 might be related with genotypes that affect complement levels is an interesting question to explore.
+      </p>
+      <p id="p0085">
+       Several studies have illustrated the protective role of RBD-specific antibodies, commonly detected in individuals recovering from SARS-CoV-2, against reinfection, even though temporarily       . Unlike the observed delayed SHM (somatic hypermutation) in some viral infections, SARS-CoV-2-infected patients demonstrate polyclonal responses with early class switching to IgG, and on a smaller scale, IgA isotypes, as well as evidence of SHM in responding clones within the initial month following the onset of disease       ,       . As for the prevalence of neutralizing antibody responses       ,       ,       , the presence of SARS-CoV-2 neutralizing serum antibodies has been shown in 67–90% of patients post-infection. Thus, the prospect of developing spike or RBD antigen based vaccines capable of stimulating B cells for a substantial proportion of the human population seems plausible       .
+      </p>
+      <p id="p0090">
+       The phenomenon named “antibody-dependent enhancement” (ADE) refers to a process whereby binding of a non-neutralizing antibody facilitates virus entry into the cells, and is likely to contribute to increased viral replication and virulence. This phenomenon has been reported for many viruses, including coronaviruses       . In the case of SARS-CoV, antibodies against spike protein are known to mediate this effect       ,       . Whether antibodies produced anti-SARS-CoV-2 or cross-reactive antibodies produced against other coronaviruses might be involved in COVID-19 pathogenesis is a possibility that needs to be investigated       .
+      </p>
+     </sec>
+     <sec id="s0035">
+      <label>
+       2.2.3
+      </label>
+      <title>
+       Cellular immune response
+      </title>
+      <p id="p0095">
+       Virus-specific CD8       cytotoxic cells represent the effector part of cell-mediated immunity against viruses. However, their activity, as well as the activity of B cells, is closely regulated by CD4       T helper cells, which are further divided into Th1, Th2, Th9, Th17 and Treg functional phenotypes       .
+      </p>
+      <p id="p0100">
+       Information regarding protective cellular immune responses in COVID-19 is limited. However, some inferences can be made from studies on lymphocyte subset frequency       ,       . Analysis of peripheral blood cells in COVID-19 patients has shown reduced numbers of CD4       and CD8       T cells, B cells and NK cells, especially in more severe cases       . An increase in the numbers of CD8       T cells and B cells has been seen in patients who respond to treatment, but not in non-responders       . These decreased numbers do not necessarily mean reduced cell activity. Immunophenotyping with cell activation markers on a single patient with reduced CD4       and CD8       T cells counts has revealed that these cells could be in a hyper-activated state, as indicated by high numbers of HLA-DR/CD38 double-positive CD4       T cells, increased frequency of proinflammatory CCR6       Th17 cells, and higher percentage of granulysin and perforin positive CD8       T cells       . Terminally differentiated CD8       T cells or exhausted CD8       T cells with increased expression of the inhibitory receptors programmed cell death protein 1 (PD-1), T Cell Immunoglobulin Mucin 3 (TIM-3), Lymphocyte-activation gene 3 (LAG-3), Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4), NKG2A and CD39 have been reported in severe cases of the disease       ,       ,       ,       ,       . It should be noted that the expression of these receptors might be a consequence of T cell exhaustion or merely due to high level of T cell activation. CD4       T cells specific for the SARS-CoV-2 spike protein, with a Th1 cell cytokine profile, have been demonstrated in acute infections       . T helper 2 (Th2) cells retain their normal responses in patients with mild symptoms despite their alterations in severe COVID-19 cases       . In view of the leading role of Th2 cell responses in a number of lung diseases, further studies on their role in COVID-19 pathogenesis seem relevant.
+      </p>
+      <p id="p0105">
+       It is not clear how effective these CD4       and CD8       T cell subsets are in protection against COVID-19 infection. This would require functional studies on virus-specific T cell subsets. Evidence from animal studies on SARS-CoV shows that CD4       T cell depletion might lead to decreased pulmonary recruitment of lymphocytes, lower titers of neutralizing antibodies and decreased production of cytokines. CD4       T cell-depleted animals have delayed clearance of SARS-CoV from lungs and more severe pneumonitis. In contrast, CD8       T cell depletion in these mice did not influence viral replication or clearance       .
+      </p>
+      <p id="p0110">
+       The question remains whether COVID-19 infection or vaccination can give rise to the formation of protective memory T cells. The results of vaccine trials are needed to address the latter question, but early data gathered from COVID-19 survivors have shown the presence of memory CD4       and CD8       T cells in 100% and 70% of convalescent cases, respectively       . It seems that different SARS-CoV-2 proteins, including spike but also nucleoprotein and membrane protein can give rise to memory T cells       .
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0040">
+    <label>
+     3
+    </label>
+    <title>
+     Dysregulation of immune system in COVID-19
+    </title>
+    <p id="p0115">
+     While COVID-19 was initially recognized as a virus-induced respiratory disease, the understanding that it was associated with immune alterations, beyond what is seen in a viral pneumonia, took shape from the very first reports that indicated changes in leukocyte numbers, inflammatory markers and response to therapy. Further cell and molecular analyses demonstrated the profound and pervasive nature of COVID-19 immune dysregulation. Studies also revealed that these immune alterations are not merely an association, as it might occur in a systemic infection, but, very likely, the core pathogenic element of COVID-19. While developing effective antiviral therapies as well as prophylactic vaccines is of immense importance for controlling COVID-19, elucidating the precise nature of these immune dysregulations and devising strategies to control them, might be as critical.
+    </p>
+    <p id="p0120">
+     As indicated above, evidence regarding immune dysregulation in COVID-19 can be categorized to two types: evidence indicating that widespread immune dysregulation occurs in COVID-19 and is associated with disease severity, and evidence indicating that immune dysregulation is indeed the driving force behind COVID-19 pathogenesis, morbidity and mortality. As discussed below, evidence of the first type (i.e. association) is mainly based on cell and molecular studies but the second type of evidence has a more clinical nature.
+    </p>
+    <sec id="s0045">
+     <label>
+      3.1
+     </label>
+     <title>
+      Dysregulation of immune cells/molecules in COVID-19
+     </title>
+     <p id="p0125">
+      The first set of findings pointing to immune alterations in COVID-19 came from routine blood cell counts which showed that the majority of patients had leukocytosis, lymphopenia and enhanced neutrophil-to-lymphocyte ratio (NLR)      ,      . These initial findings were followed by immunophenotyping and functional analyses of leukocyte subsets, as well as molecular studies, in COVID-19 cases. Qin et al. performed a study on 452 COVID-19 patients, including 286 severe cases, in Wuhan, China. Consistent with initial reports, they detected higher leukocyte numbers, lower lymphocyte counts and, higher NLR in severe cases      ,      . Immunophenotyping with T, B and, NK cells markers demonstrated that the numbers of CD3      T cells were decreased in severe cases, but the numbers of CD19      B cells and CD56      NK cells were not significantly different. Analysis of T lymphocyte subsets revealed significantly lower numbers of CD4      T cells and CD8      T cells, in severe cases compared with non-severe patients (      ). Within CD4      T cells, percentage of CD45RA      naïve T cells were higher in severe cases, but the percentage of CD45RO      memory cells were lower. Interestingly, numbers of Treg cell were significantly lower in severe cases. This was associated with a non-significant decrease in the numbers of induced Treg cells      .
+     </p>
+     <p id="p0130">
+      Another study by Chen et al. that was performed on a smaller group of patients (11 severe and 10 moderate cases), showed T cell lymphopenia and decreased absolute numbers of CD4      as well as CD8      T cells      . Whether decreased numbers of CD4      T cells is associated with functional perturbations is not clear. The study by Qin et al. showed that the percentage of IFNγ producing CD4      T cells was not different between severe and non-severe cases, whereas Chen et al. study reported lower percentage of IFNγ producing CD4      T cells.
+     </p>
+     <p id="p0135">
+      While most studies have reported diminished CD4      T cells with negligible changes in B cells and NK cells, a study on 54 COVID-19 cases in of whom 28 patients have severe respiratory failure showed depletion of CD4      T cells, as well as CD19      B cells and NK cells      . Another study by Zheng et al. also reported decreased numbers of NK and CD8      T cells in COVID-19 cases      ,      . Interestingly, this study showed that the expression of NKG2A, an inhibitory member of NKG2 family of receptors, was enhanced at the surface of NK and CD8      T cells in COVID-19 patients. This was associated with lower levels of IFNγ, granzyme B and CD107 expression in these cells, altogether pointing to the development of an exhausted phenotype. Upregulation of transcripts encoding exhaustion markers, LAG-3 and Hepatitis A virus cellular receptor 2 (HAVCR-2) were noted in scRNA-seq analyses of PBMCs from COVID-19 patients      . There is evidence pointing to decreased numbers as well as functional exhaustion of peripheral NK cells during COVID-19 infection. Whether the decrease in the number of peripheral NK cells results from NK cell trafficking to infected tissues or cell death in severe COVID-19 cases remains unknown      ,      ,      . NK cells remaining in the periphery are less likely to contribute to proinflammatory cytokine production and their exhausted phenotype might even facilitate virus dissemination      ,      .
+     </p>
+    </sec>
+    <sec id="s0050">
+     <label>
+      3.2
+     </label>
+     <title>
+      Potential mechanisms of COVID-19 lymphopenia
+     </title>
+     <p id="p0145">
+      As discussed above, lymphopenia is a characteristic finding in COVID-19 cases. However, mechanisms of SARS-CoV-2 induced lymphopenia are not clear. In general, lymphopenia can occur by three different mechanisms: 1) decreased production of lymphocytes or lymphopoiesis; 2) apoptosis and destruction of lymphocytes, and 3) lymphocyte redistribution through attachment and emigration of lymphocytes through endothelial cells (similar to neutrophil margination and efflux)      . In theory, viral infections can influence the number of circulating lymphocytes by any of these mechanisms.
+     </p>
+     <p id="p0150">
+      Infections which lead to cytokine storms can activate the hypothalamic-pituitaryadrenal axis (HPA) and cause lymphopenia as consequence of increased glucocorticoid levels. Glucocorticoids reduce lymphocyte production in primary lymphoid organs and induce apoptosis in lymphocytes      ,      .
+     </p>
+     <p id="p0155">
+      Some viruses directly target lymphocytes (e.g. HIV, VZV, and polio) and cause lymphopenia independent of systemic cytokine responses      . However, there is no evidence that SARS-CoV-2 induced lymphopenia is associated with this mechanism. Regardless of the mechanism, lymphopenia and enhanced NLR are highly correlated with COVID-19 disease severity/outcome. In addition to studies on peripheral blood, scRNA-seq studies on bronchoalveolar lavage fluid (BALF) as well as autopsy studies have provided information regarding the nature of lymphocytic infiltrate in the lungs of COVID-19 patients      ,      . Based on a recent scRNA-seq study, patients with acute disease manifest radically reduced numbers of cytotoxic T lymphocytes in the upper respiratory tract, compared with moderate cases      . T cell depletion can be attributed to either the hyperactivation of T cells or high levels of expression of pro-apoptotic molecules, such as FAS (also known as CD95), TRAIL or caspase 3      ,      .
+     </p>
+     <p id="p0160">
+      An issue which is worth investigating is whether SARS-CoV-2 induced lymphopenia is merely a disease epiphenomenon or that it is a driving force in disease pathogenesis.
+     </p>
+    </sec>
+    <sec id="s0055">
+     <label>
+      3.3
+     </label>
+     <title>
+      Monocyte/Macrophage phenotypic changes
+     </title>
+     <p id="p0165">
+      Peripheral blood leukocyte counts and flowcytometry analyses have chiefly highlighted changes in lymphocytes and their subsets in COVID-19. Nonetheless, other investigations have shown that changes in the behavior of monocytoid cells are another prominent feature of COVID-19 immune dysregulation. Absolute monocyte counts in the peripheral blood have not been different in severe COVID-19 cases      ; however, evidence indicates that the activation status of monocyte/macrophage system is profoundly altered in COVID-19. A meticulously-designed study by Giamarellos-Bourboulis et al. has shown that a subset of severe COVID-19 cases experience what authors have named “macrophage activation syndrome” (MAS)      . Classic MAS is a status of immune hyper activation which is mostly recognized in the context of autoimmune diseases and/or malignancies      . There are reports that a MAS-like syndrome occurs in cases of sepsis where it is characterized by hyper activation of tissue macrophages and overproduction of IL1β, IL18 and Ferritin      . In the report by Giamarellos-Bourboulis et al. authors have categorized immune perturbations in severe COVID-19 cases to two groups, a group where immune dysregulation is mainly driven by IL6, and a MAS group where IL1β is the key player behind immune dysregulation. Both groups display elevated levels of proinflammatory cytokines, nonetheless, the first group demonstrates higher IL6 levels, decreased levels of CD14 on monocytes and CD4      lymphopenia, whereas the latter displays higher levels of IL1β, ferritin and high scores for hemophagocytosis      . While the underlying molecular mechanisms are different, monocyte/macrophage changes in COVID-19 show a degree of similarity with the so-called familial (or primary) hemophagocytic lymphohistiocytosis (HLH), a hematological disorders which is associated with severe and unmitigated immune response. Primary HLH is caused by abnormalities in genes that regulate the degranulation of NK cells and cytotoxic CD8      lymphocytes. This results in the inability of these cells to eliminate injurious stimuli, leading to widespread immune cell activation and proinflammatory cytokine production. Increased levels of pro-inflammatory cytokines activate other cells of the immune system such as macrophages leading to organ damage and the characteristic hemophagocytosis in affected organs. HLH is considered secondary when it is triggered by an autoinflammatory or autoimmune condition, malignancy, or infection. With respect of the latter, viral infections are among known triggers of secondary HLH      ,      . Studies on H1N1 influenza have shown that a significant proportion of individuals developing disease-associated cytokine storm syndrome may have mutations in one or more of the genes associated with familial HLH (in H1N1 36% of fatalities were associated with mutations in genes associated with the perforin pathway)      . Hence, it is concievable that pathogenesis as well as clinical management of COVID-19 associated cytokine storm syndrome may, to some extent, be informed by our knowledge about familial HLH.
+     </p>
+     <p id="p0170">
+      Activation of monocyte/macrophage system in COVID-19 is supported by other studies as well. A manuscript has highlighted morphological and functional changes in COVID-19 peripheral blood monocytes      . Another study has reported the results of single-cell RNA sequencings performed on BALF from severe and mild COVID-19 cases. Results of this study illustrate that monocyte-derived FCN1      macrophages (and not alveolar macrophages) are the predominant macrophage subset in BALF of severe cases      . This is consistent with COVID-19 lung pathology reports indicating widespread infiltration of monocytes/macrophages into the lung tissue      .
+     </p>
+     <p id="p0175">
+      Studies on SARS-CoV lends support to this monocyte/macrophage-centered view of coronavirus induced immune dysregulation      . Transcriptional profiling of SARS-CoV infected macrophages, compared with macrophages infected with lowly-pathogenic 229E coronavirus has shown differential regulation of TLR/TLR signaling, cytokine and cytokine signaling genes      . Animal studies have indicated that altered macrophage behavior might play a pathogenic role in coronavirus induced lung injury      . Liao et al. study of COVD-19 cases has indicated that proinflammatory responses and activation of innate immune cells can be amplified if trafficking of peripheral monocytes is directed towards lungs followed by their differentiation into macrophages      .
+     </p>
+     <p id="p0185">
+      Thus far, limited information is available with regard to the role of DCs in COVID-19 infection. COVID-19 patients exhibit a noticeable decrease in conventional DCs and plasmacytoid DCs in peripheral blood in comparison with healthy controls      . A study has revealed a fall in the abundance of resting DCs and conversely, a rise in the frequency of activated DCs in the lungs of COVID-19 patients as opposed to the healthy controls      . More research is needed to shed light on the possible dysregulation of DCs, similar to that of monocytes and macrophages, in the context of COVID-19 infection. Considering that DCs act as the key antigen-presenting cells, their analysis will provide valuable information with regard to antigen specific T cell responses in COVID-19      .
+     </p>
+    </sec>
+    <sec id="s0060">
+     <label>
+      3.4
+     </label>
+     <title>
+      Cytokine release syndromes (CRS)
+     </title>
+     <p id="p0190">
+      Cytokine release syndrome is a consequence of uncontrolled systemic inflammation and is characterized by extensive activation of macrophages, DC cells, NK, B and T cells. CRS is associated with the production of high levels of pro-inflammatory cytokines e.g. TNFα, IL1β, IL6, IL12, IL18, IL33, IFN-I and IFNγ, as well as chemokines, e.g. CCL2, CCL3, CCL5, CXCL8, CXCL9, CXCL10. CRS can take place in a variety of conditions, including adoptive T cell therapy, graft versus host disease (GvHD) and systemic infections      . Before the emergence of COVID-19, several studies had pointed to enhanced cytokine levels in SARS-CoV and MERS-CoV infections      ,      . Likewise, occurrence of CRS in COVID-19 and its correlation with disease severity has been reported by different groups      ,      ,      . Several mechanisms have been proposed for SARS-CoV-2 induced cytokine storm      .
+     </p>
+     <p id="p0195">
+      Similar to other systemic infections, interaction of viral proteins (and viral RNA species) with PRRs is perhaps the main mechanism for extensive innate immune activation in COVID-19      ,      . However, the fact that SARS-CoV-2 (and SARS-CoV) interact with ACE2 receptor for cell entry likely adds another dimension to the cytokine storm induced by these viruses. Following binding of the virus to ACE2, the receptor gets endocytosed together with the virus. This leads to diminished levels of ACE2 at the cell surface. ACE2’s physiological function is to inactivate angiotensin II (AII) molecules produced by ACE, and hence its downregulation leads to enhanced levels of AII in circulation      . AII is generally known for its vasoconstrictive activities, but it also acts as a potent proinflammatory cytokine      ,      . Virus-induced downregulation of ACE2 with subsequent increase in AII levels might contribute to the inflammatory process, beyond what is caused by PAMP-PRR interactions. Indeed, a study by Kuba et al. has shown that AII-receptor blockers can diminish the risk of ARDS in SARS-CoV infections, further emphasizing the importance of this pathway in coronavirus-induced disease      . Another AII-related mechanism, as suggested by Hirano and Murakami, is the activation of ADAM17 by AII signaling      . ADAM17 is the enzyme responsible for TNFα maturation, but it also generates a soluble form of IL6 receptor (sIL6R), which can bind to circulating IL6. Unlike most soluble cytokine receptors which act as decoys for cytokines, this IL6-sIL6R complex can be absorbed to the surface of various cells and cause IL6 signaling, even in cells which do not express the receptor, i.e. endothelial cells and fibroblasts      . Treatment with IL6 blocker Tocilizumab leads to an increase in the numbers of circulating lymphocytes, pointing to the role of IL-6 signaling in COVID-19-associated lymphopenia      ,      .
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0065">
+    <label>
+     4
+    </label>
+    <title>
+     Immunotherapy for COVID-19
+    </title>
+    <p id="p0200">
+     Knowledge regarding potential immunotherapies for COVID-19 is still evolving. Similar to pathogenesis, part of this knowledge is derived from studies on two other highly pathogenic coronaviruses, SARS-CoV and MERS-CoV (     ).
+    </p>
+    <sec id="s0070">
+     <label>
+      4.1
+     </label>
+     <title>
+      Corticosteroids
+     </title>
+     <p id="p0205">
+      Controlling CRS seems to be critical for improving the outcome of COVD-19. Treatment with systemic corticosteroids is generally the first option for physicians to control the severity of a systemic inflammation. Studies on SARS-CoV and MERS-CoV have shown positive effects for corticosteroids in these infections. However, reports exist that, while initially beneficial, corticotherapy might lead to increased viral load in patients      ,      . Data regarding the usefulness of corticosteroids in COVID-19 is controversial      . Some findings suggesting that low to moderate doses of dexamethasone (decadron) and methylprednisolone could lower the mortality rate in patients with a severe form of the condition. It is, however, not recommended for patients with mild/moderate symptoms (non-severe). However, the vast use of corticosteroids was not advocated for, as high doses of the drug can cause more adverse than useful      .
+     </p>
+    </sec>
+    <sec id="s0075">
+     <label>
+      4.2
+     </label>
+     <title>
+      Interferons
+     </title>
+     <p id="p0210">
+      Type I interferons are known for their antiviral as well as immunomodulatory properties and interferon therapy has long been used for the treatment of chronic viral infections      . With regard to coronaviruses, several studies have pointed to the beneficial effects of treatment with interferons in MERS and SARS. Studies on MERS patients have demonstrated positive effects for treatment with interferon-β1, in combination with antiviral agents      . Likewise, studies on a primate (marmoset) model of MERS have shown the effectiveness of interferon-β1b on disease outcome      . Combination of interferon-α2b and ribavirin has reduced viral replication and inflammatory response in MERS-CoV infected macaques      . Fewer reports exist for interferon therapy in SARS-CoV. A preliminary study on SARS-CoV patients reported better outcome for patients receiving a combination of interferon-alfacon1 and corticosteroids, compared with patients treated with corticosteroids alone      . It has been suggested that treatment with interferon-lambda (IFN-λ), a type III interferon with antiviral effects, might be appropriate for COVID-19 patients and it should be considered in clinical trials      ,      . Unlike type I interferons, interferon-lambda acts through receptors that are not expressed on resting immune cells, helping to diminish systemic pro-inflammatory effects      .
+     </p>
+     <p id="p0215">
+      On the basis of the studies conducted by Bastard et al neutralizing auto-Abs against type I IFNs are detectable in 10% of terminally ill patients with COVID-19 pneumonia      . Up until the infection with COVID-19 and the subsequent subtle stimulation of type I IFNs, such auto-Abs remain silent      , indicating that even small quantities of IFNs might have protective effects in COVID-19. These findings might have clinical importance. First, convalescent plasma from such patients should not be used in clinical trials, or at least be screened for autoantibodies prior to use      . Second, as a consequence of this discovery, plasmapheresis, monoclonal Abs depleting plasmablasts, and specific inhibition of type I IFN-reactive B cells can be considered as therapeutic interventions      . Finally, in this patient group, although early treatment with IFN-α seems futile, treatment with injected or nebulized IFN-β is likely to be useful due to the scarcity of auto-Abs against IFN-β in patients with auto-Abs against type I IFNs      .
+     </p>
+    </sec>
+    <sec id="s0080">
+     <label>
+      4.3
+     </label>
+     <title>
+      Monoclonal &amp; polyclonal antibodies
+     </title>
+     <p id="p0225">
+      Passive immunotherapy with antibodies has long been used in viral infections for prophylactic and, less frequently, therapeutic purposes. Plasma obtained from vaccinated patients or patients recovering from a viral disease have been the main source of potentially protective polyclonal antibodies (pAbs), while anti-viral murine or humanized monoclonal antibodies (mAbs) or their fragments have been usually produced by experimental methods.
+     </p>
+     <p id="p0230">
+      Following exposure to a pathogen, various antibodies that target different microbial antigens are produced by humoral immune system; however, the majority of these antibodies might not yield any protective effects. For the antibodies to exert protective effects they need to target particular antigenic determinants with sufficient affinity. Studies on SARS-CoV and MERS-CoV have shown that antibodies which target domains in the spike protein are more likely to be protective      . Spike protein contains an N-terminal S1 subunit and a C-terminal S2 subunit. S1 subunit which is responsible for virus receptor binding is composed of two domains; a receptor binding domain (RBD) and an N-terminal domain (NTD). S2 subunit mediates membrane fusion      . Antibodies against S1RBD, S1NTD and S2 domains/subunit have been reported to have neutralizing effects against SARS-CoV and MERs-CoV; nonetheless, the majority belongs to anti-RBD antibodies      . Various neutralizing monoclonal antibodies have been reported for SARS-CoV (e.g. S230.15, m396, S109, S227, 80R ScFv, CR3014a and CR3022)      ,      ,      ,      and MERS-CoV (e.g. MERS27, m336, MERS-GD27 and MCA1)      ,      ,      ,      . To show their neutralizing activity, these antibodies have been tested in mouse, rabbit or primate animal models of SARS/MERS or evaluated by
+      <italic>
+       in vitro
+      </italic>
+      virus neutralization tests (VNTs). Indeed, CR3022, an antibody produced in 2006 by Ter Meulen et al. through screening an antibody phage library from a convalescent SARS-CoV patient      has been shown to bind to SARS-CoV-2 spike RBD with a KD of 6.3 nM      . Interestingly, a crystallographic study on CR3022-RBD complex has indicated that CR3022 does not interact with the receptor binding site of RBD      . Other SARS-CoV nAbs (i.e. m396 and CR3014) have also been examined but they do not bind to SARS-CoV-2 spike, perhaps due to differences in antigenic determinants between spike proteins      . While using mono/polyclonal antibodies with neutralizing abilities seems a plausible option for COVID-19 treatment. Studies on animal models of SARS-CoV have shown that presence of anti-Spike IgG could increase proinflammatory responses in the lung, perhaps through increased production of chemokines (i.e. IL8 and MCP1) and further recruitment of monocytes/macrophages      . Of interest, blocking FcγR by anti-CD64 antibodies decreased proinflammatory effects induced by anti-Spike antibodies      . These findings indicate that to harness the protective effects of nAbs, deliberate changes in the structure of the antibody or production of antibody fragments (i.e. Fab or ScFv) might be necessary.
+     </p>
+     <p id="p0235">
+      Emergence of antibody-escaping mutants and development of resistance to antibody cocktails might originate from the relatively high mutation rates of SARS-CoV-2 (as an RNA virus)      ,      ,      . Targeting different variants of spike protein can thwart viral mutation and diminish the emergence of escape mutants. Identification of humanized-mouse and human antibodies with a high affinity for the receptor binding domain of the SARS-CoV-2 spike protein has been instrumental in developing monoclonal antibodies with prophylactic/therapeutic properties      . Extensive research on different combinations of such antibodies are underway by various groups. These include COVI-Shield from Sorrento that contains a mixture of three antibodies against three regions of the SARS-CoV-2 spike protein; GSK and Vir candidates VIR-7831 and VIR-7832, and antibodies from Regeneron, Eli Lilly and Celltrion. Regeneron is in the forefront of manufacturing antibodies for clinical use; REGN-CoV-2 antibody cocktail is currently undergoing clinical trials as part of the recovery collaborative group trials (NCT04381936) in addition to phase 2/3 trials (NCT04425629, NCT04426695). In non-human primates and hamsters, promising results have emerged from a cocktail containing REGN10933 and REGN10987 antibodies      , raising the the prospect of prophylaxis for high risk populations as well as post-exposure therapeutics.
+     </p>
+    </sec>
+    <sec id="s0085">
+     <label>
+      4.4
+     </label>
+     <title>
+      Convalescent plasma therapy
+     </title>
+     <p id="p0240">
+      Convalescent plasma (CP) has been used for prophylactic and/or therapeutic purposes in infectious diseases for more than a century. Before the emergence of SARS-CoV-2, CP therapy had shown promising results in SARS and MERS patients, with treated patients exhibiting reduced disease severity and viral loads      ,      .
+     </p>
+     <p id="p0245">
+      Recent studies on limited numbers of patients have tested both the tolerability and clinical efficacy of CP therapy in COVID-19. A study by Shen et al. has reported the results of CP therapy on five critically ill COVID-19 patients in China      . Prior to administration, plasma samples were tested both for SARS-CoV-2 specific IgG (&gt;1:1000) and neutralizing antibody titers by VNT on Vero cells (&gt;40). Following plasma transfer, 4 out of 5 patients showed improved clinical status, enhanced PaO
+      <sub>
+       2
+      </sub>
+      /FiO
+      <sub>
+       2
+      </sub>
+      and decreased viral loads within 12 days. Interestingly, CP therapy led to increased titers of nAbs in plasma-transfused patients. Although this study was an uncontrolled case-series, its results pointed to the possibility of using CP for therapeutic purposes in severe COVID-19 cases      . In another study by Duan et al. 10 severe COVID-19 cases received plasma from recovered patients. Plasma samples were obtained from 39 COVID-19 cases who had recently recovered from disease, and whose neutralizing antibody titers were above 1:160      . CP-receiving patients showed significant improvement in clinical symptoms and PO
+      <sub>
+       2
+      </sub>
+      levels within 3 days after transfusion. This was associated with improvement in radiological findings, increase in lymphocyte counts and decrease in C-reactive protein (CRP) levels      . Similar to the previous study, titers of neutralizing antibodies rose in some of the patients      . It should be noted that therapeutic effects of passive immunotherapy with CP are best when it is performed early after the onset of symptoms; i.e. when the viral load is lower. In the study by Shen et al. CP therapy was initiated 10–22 days after admission of patients      . Likewise, in the study by Duan et al. the median time for plasma transfusion was 16.5 days after disease onset      . The point that both studies achieved favorable results, despite the relatively long onset-therapy interval, indicates that higher efficacies might be possible if CP therapy is initiated earlier. Another issue is that, in general, passive immunotherapies have a better efficiency when used prophylactically (compared with therapeutic uses). This adds to the potential value of this approach, at least until a vaccine becomes available.
+     </p>
+    </sec>
+    <sec id="s0090">
+     <label>
+      4.5
+     </label>
+     <title>
+      IVIg (Intravenous Immunoglobulin)
+     </title>
+     <p id="p0250">
+      IVIg treatment has been used in various immune-related disorders, including immunodeficiencies, autoimmunities, chronic inflammatory disorders and infectious diseases. When used in the context of viral infections associated with systemic inflammation, IVIg might act through two mechanisms; providing the patient with a pool of potentially cross-protective antibodies, and promoting immune regulation. The latter takes place through multiple pathways, including the blockade of proinflammatory mediators, FcγRs and leukocyte adhesion molecules, influencing T cell differentiation and neutralization of harmful autoantibodies      ,      . Studies on SARS have indicated some beneficial effects of IVIg treatment. In a study by Wang et al. IVIg therapy on SARS patients with severe leukopenia and thrombocytopenia improved leukocyte/platelet counts      . Treatment with IgM-enriched IVIg has shown some benefit in SARS cases who had not responded to corticosteroid or ribavirin therapy      . Nonetheless, a systematic review of treatment strategies in SARS did conclude that, overall, the result of IVIg therapy in SARS were inconclusive      . A multicenter study by Shao et al. with a focus on IVIg immunotherapy in COVID-19, has provided valuable information in this regard      ,      ,      ,      . Based on analyses performed on more that 300 patients, Shao et al. have reported that high dose IVIg can improve the prognosis if administered in the early phase of disease      . A retrospective study by Xie et al.      has also supported the therapeutic efficacy of IVIg if administered at early stages. Another report demonstrated that short-term moderate-dose corticosteroid plus IVIg (20 g/day) might benefit COVID-19 patients who did not respond to low dose therapy (10 g/day). In a randomized controlled study by Sakoulas et al, researchers combined IVIg treatment with methylprednisolone      . While the effect of combined treatment was positive, therapeutic effect of IVIg is hard to assess in this trial due to combination with corticosteroids. Another study has combined IVIg with Anakinra, a recombinant modified IL1 receptor antagonist      . In addition to respiratory problems, autoimmune and inflammatory diseases including Kawasaki-like pediatric inflammatory multisystemic syndrome, Guillain-Barré syndrome and idiopathic thrombocytopenic purpura have been associated with SARS-CoV-2 infection. IVIg therapy might have beneficial effects in these conditions      ,      ,      .
+     </p>
+     <p id="p0260">
+      A number of phase II, III and IV clinical trials (NCT04500067, NCT04411667, NCT04480424, NCT04432324, NCT04350580, NCT04400058, NCT04261426 and NCT04403269) that aim to assess IVIg effects in COVID-19 are underway. Until further information is availabe, it seems that critically ill patients should be prioritized in receiving IVIg given its limited supply. Combination of IVIg therapy with IL6 and IL1-targeted immunotherapies should also be considered in these patients      ,      .
+     </p>
+    </sec>
+    <sec id="s0095">
+     <label>
+      4.6
+     </label>
+     <title>
+      BCG (Bacillus Calmette-Guérin)
+     </title>
+     <p id="p0265">
+      In addition to its protective effects against Mycobacterium tuberculosis, BCG vaccine is known to exert general effects on the function of immune system. Analyses of innate immune cells (i.e. monocytes/macrophages) following BCG vaccination have shown that these cells develop an increased TNFα, IL1β and IL6 response to pathogens unrelated to mycobacteria, and express higher levels of PRRs, including TLR4 and mannose receptor      . Molecular studies have shown genome-wide epigenetic alterations in these cells following BCG vaccination      . These epigenetic and transcriptional changes are believed to underlie a particular type of innate immune memory; which, unlike adaptive immune memory, does not involve antigen-specific stimulation of lymphocytes. Some authors have used the phrase “trained immunity” to refer to these changes      ,      ,      . The possibility that BCG vaccination might have protective effects against COVID-19 has been raised in several reports, mostly based on epidemiological data, indicating that COVID-19 mortality has a negative correlation with the extent of BCG vaccination in different countries      ,      ,      ,      . Multiple clinical trials are underway to examine any possible relations between BCG vaccination and COVID-19 more precisely (NCT04328441, NCT04379336 and NCT04327206).
+     </p>
+    </sec>
+    <sec id="s0100">
+     <label>
+      4.7
+     </label>
+     <title>
+      Stem cell therapy
+     </title>
+     <p id="p0270">
+      Mesenchymal stem cells (MSCs) are known to possess immunomodulatory properties and treatment with these cells has been extensively investigated in the context of infectious and non-infectious inflammatory disorders      .
+     </p>
+     <p id="p0275">
+      Up to this date, two studies have reported beneficial effects for MSC therapy in COVID-19. In a study by Leng et al. seven COVID-19 cases, including one critically ill patient and four severe cases, received intravenous injections of clinical grade MSCs. Three severe COVID-19 cases received placebo and served as controls      . Interestingly, 2–4 days after MSC injections, all MSC-treated patients showed clinical improvement and increased PO
+      <sub>
+       2
+      </sub>
+      levels. Peripheral lymphocyte counts increased and CRP levels as well as the frequency of leukocytes with a pro-inflammatory phenotype decreased in 3–6 days. Of note, RNA-seq analysis of MSCs showed that these cells did not express ACE2 or TMPRSS2, the latter being a protease involved in virus cell entry, indicating that these cells do not get infected with the virus      .
+     </p>
+     <p id="p0280">
+      In another study by Liang et al. one critically ill COVID-19 patient showed clinical and radiological improvement after receiving umbilical cord mesenchymal stem cells      . Phase I and phase II clinical trials are currently underway to further evaluate the effects of MSC-therapy in COVID-19 cases (NCT04288102, NCT04339660).
+     </p>
+    </sec>
+    <sec id="s0105">
+     <label>
+      4.8
+     </label>
+     <title>
+      Inhibitors of cytokine signaling
+     </title>
+     <p id="p0285">
+      Widespread inflammation in COVID-19 suggests that inhibitors of proinflammatory cytokine signaling might be of therapeutic value. Tocilizumab, an IL6 receptor blocking mAb, is an approved medicine for the treatment of rheumatoid arthritis as well as CAR-T cell related CRS. The first set of evidence pointing to the usefulness of Tocilizumab in COVID-19 came from a series of case reports      ,      ,      ,      . These case reports were followed by investigations on higher numbers of patients. In one work, Sciascia et al. treated 63 severe COVID-19 cases with Tocilizumab. Clinical and laboratory data collected over the next 2 weeks, demonstrated significant improvements in blood PO
+      <sub>
+       2
+      </sub>
+      values, as well as CRP, Ferritin and D-Dimer levels in patients. Treatment also increased the overall likelihood of survival in patients      . In another study by Toniati et al. researchers treated 100 COVID-19 patients with intravenous infusions of Tocilizumab. In a 10-day period, 77 patients improved or stabilized. Of these, 66 patients displayed clearance of diffuse bilateral opacities in the lungs      . Another study analyzed the clinical outcome in 96 patients with severe to critical COVID-19 disease who received a single dose of the IL6 inhibitor Tocilizumab as a part of their treatment. Study group inculded both non-intubated and intubated patients. Data showed a non-significant trend towards lower mortality in patients with severe to critical COVID-19 disease treated with Tocilizumab. When intubated patients were excluded, those who received Tocilizumab had lower mortality      .
+     </p>
+     <p id="p0290">
+      Other inhibitors of cytokine signaling are being considered for their potential therapeutic effects in COVID-19. Of note, in a report by Aouba et al. researchers examined the effects of Anakinra, a modified version of interleukin 1 receptor antagonist, in nine moderate to severe COVID-19 cases. Of these, eight patients showed improvements at clinical and laboratory levels      .
+     </p>
+     <p id="p0295">
+      Finally, researchers have used machine learning techniques to discover potentially useful drugs for COVID-19. Considering that SARS-CoV-2 uses receptor mediated endocytosis for cell entry, Richardson et al. used BenevolentAIs knowledge graph, an AI-generated repository of medical information, to look for agents which could block this process. They focused on AAK1 (AP2-associated protein kinase 1), a regulator of receptor-mediated endocytosis. Their search led them to Baricitinib, an inhibitor of AAK1, which is also a Janus-kinase (JAK) inhibitor      . Interestingly, a later study by Cantini et al. on 12 moderate COVID-19 cases showed that Baricitinib could improve clinical and laboratory parameters in patients within 2 weeks      . Whether this effect was due to Barcitinib’s AAK1/endocytosis inhibiting activity or its role in blocking cytokine signaling is not known.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0110">
+    <label>
+     5
+    </label>
+    <title>
+     Conclusion
+    </title>
+    <p id="p0300">
+     The global public health emergency caused by SARS-CoV2 has led to concerted efforts to investigate viral transmission, pathogenesis and immune response and to develop prophylactic and therapeutic measures for disease. In addition to paving the way for developing vaccines and immunization protocols, data derived from these scientific efforts have shown that managing the interactions between virus and immune system is crucial in controlling disease morbidity and mortality. Despite current information, further investigations are needed to unravel details of the host-virus interactions at a molecular level, especially from the standpoint of human genetic heterogeneity and personalized medicine.
+    </p>
+    <p id="p0310">
+     In this review article, we discussed three different aspects of COVID-19 immunology; immune response against the virus, attributes and mechanisms of immune dysregulation, and possible strategies for immunotherapy. Due to the recent emergence of this infection, our understanding of these aspects of COVID-19 is still evolving. Nonetheless, available data have revealed the fact that, while COVID-19 manifests as a respiratory disease, it is probably better explained as a virus-induced immunopathology. In addition to efforts for developing antiviral agents and protective vaccines, understanding the intricacies of virus-immune system interaction seems essential for proper management of disease. Although many ambiguities still remain, this focused review was an attempt to provide an overview of the current understanding concerning the immune correlates of COVID-19 with the aim of assisting researchers to contemplate on novel avenues for disease prevention and control.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of Competing Interest
+    </title>
+    <p id="p0315">
+     Authors declare that they have no competing financial interests or personal relationships that could have influenced the work reported in this paper.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

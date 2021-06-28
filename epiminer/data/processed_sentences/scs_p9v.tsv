@@ -1,0 +1,5 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+4894603	body	We|substitute|Glu|with|Asp|(|E1D|and|E2D|)|and|Pro|with|Val|(|P9V|)|(|Fig|5A|)|.	Glu|Asp|E1D|E2D|Pro|P9V	6
+4894603	body	However|,|when|wild|-|type|AGIA|peptide|be|inject|,|E2D|-|or|P9V|-|tag|protein|be|efficiently|dissociate|,|respectively|.	E2D|P9V	2
+4894603	body	E2D|and|P9V|be|elute|more|efficiently|compare|with|E1D|.	E2D|P9V|E1D	3
+4894603	body	Blue|,|wild|-|type|AGIA|:|red|,|AGIA|/|E1D|;|green|,|AGIA|/|E2D|;|purple|,|AGIA|/|P9V|.	E1D|E2D|P9V	3

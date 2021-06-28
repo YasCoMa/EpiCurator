@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Immunoinformatic design of a COVID-19 subunit vaccine using entire structural immunogenic epitopes of SARS-CoV-2
+ </title>
+ <abstract>
+  <p id="Par1">
+   Coronavirus disease 2019 (COVID-19) is an acute pneumonic disease, with no prophylactic or specific therapeutical solution. Effective and rapid countermeasure against the spread of the disease’s associated virus, SARS-CoV-2, requires to incorporate the computational approach. In this study, we employed various immunoinformatics tools to design a multi-epitope vaccine polypeptide with the highest potential for activating the human immune system against SARS-CoV-2. The initial epitope set was extracted from the whole set of viral structural proteins. Potential non-toxic and non-allergenic T-cell and B-cell binding and cytokine inducing epitopes were then identified through a priori prediction. Selected epitopes were bound to each other with appropriate linkers, followed by appending a suitable adjuvant to increase the immunogenicity of the vaccine polypeptide. Molecular modelling of the 3D structure of the vaccine construct, docking, molecular dynamics simulations and free energy calculations confirmed that the vaccine peptide had high affinity for Toll-like receptor 3 binding, and that the vaccine-receptor complex was highly stable. As our vaccine polypeptide design captures the advantages of structural epitopes and simultaneously integrates precautions to avoid relevant side effects, it is suggested to be promising for elicitation of an effective and safe immune response against SARS-CoV-2 in vivo.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par2">
+     Coronaviruses (CoVs) named for the crown-like spikes on their surface are grouped into four main types, known as α, β, γ and δ     . In recent decades, new human β-CoVs have evolved from animal-infecting types, leading to intercontinental pneumonic outbreaks. Severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV) are two highlight examples, which engendered epidemics in numerous countries worldwide in 2002 and 2012, respectively. SARS-CoV-2 was a return of coronaviruses in December 2019, and is the etiologic agent for the ongoing coronavirus disease 2019 (COVID-19). The viral spill-over originated from a Wuhan seafood market, the place where horseshoe bat SARS-like coronavirus was believed to transmit to humans. By 21st September 2020, over 30.6 million cases and 950,000 deaths have been reported to World Health Organization     .
+    </p>
+    <p id="Par3">
+     Identifying an appropriate preventive, i.e. a COVID-19 vaccine, is critical for apt response to the SARS-CoV-2 mass contagion. There are diverse candidate types for immunogen development, including but not limited to live-attenuated or inactivated whole virus, DNA vaccines, vectored vaccines, subunit vaccines, and self-assembling virus-like particle vaccines, each with particular advantages and disadvantages. Vaccines based on chemically inactivated CoV virions have led to production of neutralizing antibodies with different levels of protection, but they raise potential side effects and biosafety concerns     . DNA vaccines expressing full-length spike protein or its fragments, as well as DNA priming coupled with protein boosting, have also been effective against MERS-CoV infection     . By intracellular expression of immunogenic antigens, vectored vaccines allow activation of cellular immune response in addition to humoral immunity; they have a proven safety record, however these vectors are limited to presenting one or a reduced number of CoV antigens to the immune system     . Subunit vaccines based on recombinant spike protein have been shown to be very well suited for creating immunogenicity against SARS and MERS     . While DNA, vectored and subunit candidates presenting viral epitopes can elicit a focused antibody response, their subviral components may not portray the full antigenic complexity of the virus, resulting in limited protective efficacy or immunopathology due to unbalanced immune responses     . One promising option to confront this issue is the subunit vaccines harbouring numerous and diverse antigenic elements, allowing to produce an inclusive spectrum of native viral antigens.
+    </p>
+    <p id="Par4">
+     The process of vaccine development takes at least ten years from bench research to approved vaccine use     . Identification of apt elements for developing vaccine immunogens can be promoted using chemistry and topology. As a current trend, this is becoming more of a rational design exercise, which may considerably reduce both the time and costs required for vaccine development and production     . In this study, it was hypothesized that advanced computational screening could identify suitable peptides for the construction of a subunit vaccine. We used the full set of the putative structural proteins from SARS-CoV-2 as the substance for extracting antigenic elements creating both B-cell and T-cell immunity. By integrating these peptides together, we developed a multi-epitope-based vaccine polypeptide with appropriate binding to Toll-like receptor 3 (TLR-3) to elicit an effective immune response, and with least possible toxicity and hypersensitivity. We also considered incorporating an adjuvant for augmenting the host antigen-specific immune response. As this method has been validated experimentally with designs against other pathogenic species     , we suggest that the proposed structural formulation would be potential to generate an effective immune response against the novel virus. The wet lab researchers are expected to validate our design, hoping to reach protection for the healthy community against the COVID-19 pandemic.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Results
+    </title>
+    <p id="Par5">
+     The basic steps of the procedure for designing the multi-epitope vaccine are shown in Fig.     .
+    </p>
+    <sec id="Sec3">
+     <title>
+      Structural T-cell and B-cell epitopes of SARS-CoV-2
+     </title>
+     <p id="Par6">
+      Final selected cytotoxic T lymphocyte (CTL) antigenic epitopes harboured in the structural proteins of SARS-CoV-2 are listed in Table      , indicating the epitopes for spike glycoprotein (S), envelope protein (E), membrane protein (M) and nucleocapsid phosphoprotein (N). The full sets of predicted epitopes and their properties can be found in Supplementary Tables      –      online, for S, E, M and N proteins, respectively. The IEDB MHC-II prediction tool was applied to predict helper T lymphocyte (HTL) (15-mer) epitopes and their MHC-II binding, results of which are shown in Table      , and with more detail in Supplementary Table      online. Both Tables      and      also indicate the HLA restriction of the single predicted epitopes. The peptide DVSLVKPSFYVYSRVK contained in the E protein was identified as the only linear B lymphocyte (LBL) epitope, when applying the score value &gt; 0.75 as the criterion for selection (More detail in Supplementary Table      online). Using appropriate server tools, antigenic, non-toxic and non-allergenic T-cell or B-cell epitopes that were able to induce interferon-gamma (IFN-γ), interleukin-4 (IL-4) and interleukin-10 (IL-10) cytokines were selected for the design of a multi-epitope vaccine.
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         The final set of cytotoxic T lymphocyte (CTL) epitopes selected for multi-epitope vaccine construction.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Protein
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+          <th align="left">
+           IC
+           <sub>
+            50
+           </sub>
+          </th>
+          <th align="left">
+           Antigenicity
+          </th>
+          <th align="left">
+           Allele
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           KLNDLCFTNV
+          </td>
+          <td align="left">
+           6.22
+          </td>
+          <td align="char" char=".">
+           2.6927
+          </td>
+          <td align="left">
+           HLA-A*02:03; HLA-A*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           FPNITNLCPF
+          </td>
+          <td align="left">
+           8.63
+          </td>
+          <td align="char" char=".">
+           1.3964
+          </td>
+          <td align="left">
+           HLA-B*53:01; HLA-B*35:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           FKIYSKHTPI
+          </td>
+          <td align="left">
+           9.13
+          </td>
+          <td align="char" char=".">
+           1.016
+          </td>
+          <td align="left">
+           HLA-A*02:03
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           VVFLHVTYV
+          </td>
+          <td align="left">
+           13.02
+          </td>
+          <td align="char" char=".">
+           1.5122
+          </td>
+          <td align="left">
+           HLA-A*02:03; HLA-A*02:06; HLA-A*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           ITPCSFGGV
+          </td>
+          <td align="left">
+           20.32
+          </td>
+          <td align="char" char=".">
+           1.3871
+          </td>
+          <td align="left">
+           HLA-A*68:02; HLA-A*02:06
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           EQYIKWPWYI
+          </td>
+          <td align="left">
+           21.01
+          </td>
+          <td align="char" char=".">
+           1.1122
+          </td>
+          <td align="left">
+           HLA-A*23:01; HLA-A*24:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           YYVGYLQPR
+          </td>
+          <td align="left">
+           21.9
+          </td>
+          <td align="char" char=".">
+           1.4692
+          </td>
+          <td align="left">
+           HLA-A*33:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           LPIGINITRF
+          </td>
+          <td align="left">
+           25.21
+          </td>
+          <td align="char" char=".">
+           1.3027
+          </td>
+          <td align="left">
+           HLA-B*53:01; HLA-B*35:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           VLSFELLHA
+          </td>
+          <td align="left">
+           33.91
+          </td>
+          <td align="char" char=".">
+           1.0776
+          </td>
+          <td align="left">
+           HLA-A*02:03
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           RQIAPGQTGK
+          </td>
+          <td align="left">
+           38
+          </td>
+          <td align="char" char=".">
+           1.7893
+          </td>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           SLIDLQELGK
+          </td>
+          <td align="left">
+           38.67
+          </td>
+          <td align="char" char=".">
+           1.0275
+          </td>
+          <td align="left">
+           HLA-A*11:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           QTRAGCLIGA
+          </td>
+          <td align="left">
+           39.78
+          </td>
+          <td align="char" char=".">
+           1.3933
+          </td>
+          <td align="left">
+           HLA-A*68:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           RVKNLNSSR
+          </td>
+          <td align="left">
+           4.68
+          </td>
+          <td align="char" char=".">
+           0.8998
+          </td>
+          <td align="left">
+           HLA-A*31:01; HLA-A*30:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           LLFLAFVVF
+          </td>
+          <td align="left">
+           8.32
+          </td>
+          <td align="char" char=".">
+           0.8144
+          </td>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           YVYSRVKNL
+          </td>
+          <td align="left">
+           15.74
+          </td>
+          <td align="char" char=".">
+           0.702
+          </td>
+          <td align="left">
+           HLA-A*02:03
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           VTLAILTALR
+          </td>
+          <td align="left">
+           26.92
+          </td>
+          <td align="char" char=".">
+           0.8404
+          </td>
+          <td align="left">
+           HLA-A*68:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           FVVFLLVTL
+          </td>
+          <td align="left">
+           27.7
+          </td>
+          <td align="char" char=".">
+           0.7403
+          </td>
+          <td align="left">
+           HLA-A*02:06
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           FLLVTLAIL
+          </td>
+          <td align="left">
+           39.95
+          </td>
+          <td align="char" char=".">
+           0.9645
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E
+          </td>
+          <td align="left">
+           NIVNVSLVK
+          </td>
+          <td align="left">
+           46.43
+          </td>
+          <td align="char" char=".">
+           0.931
+          </td>
+          <td align="left">
+           HLA-A*68:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           QWNLVIGFLF
+          </td>
+          <td align="left">
+           12.03
+          </td>
+          <td align="char" char=".">
+           1.2302
+          </td>
+          <td align="left">
+           HLA-A*23:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           IAMACLVGL
+          </td>
+          <td align="left">
+           13.64
+          </td>
+          <td align="char" char=".">
+           1.1306
+          </td>
+          <td align="left">
+           HLA-A*68:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           GTITVEELK
+          </td>
+          <td align="left">
+           18.08
+          </td>
+          <td align="char" char=".">
+           1.0976
+          </td>
+          <td align="left">
+           HLA-A*68:01; HLA-A*11:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           RTRSMWSFNP
+          </td>
+          <td align="left">
+           18.67
+          </td>
+          <td align="char" char=".">
+           1.591
+          </td>
+          <td align="left">
+           HLA-A*30:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           SGFAAYSRYR
+          </td>
+          <td align="left">
+           24.22
+          </td>
+          <td align="char" char=".">
+           1.0034
+          </td>
+          <td align="left">
+           HLA-A*31:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           LVIGFLFLT
+          </td>
+          <td align="left">
+           25.12
+          </td>
+          <td align="char" char=".">
+           1.2619
+          </td>
+          <td align="left">
+           HLA-A*02:06
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           FLFLTWICL
+          </td>
+          <td align="left">
+           32.26
+          </td>
+          <td align="char" char=".">
+           1.4835
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           IAIAMACLV
+          </td>
+          <td align="left">
+           34.16
+          </td>
+          <td align="char" char=".">
+           1.1704
+          </td>
+          <td align="left">
+           HLA-A*02:06
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           VTLACFVLAAV
+          </td>
+          <td align="left">
+           40.96
+          </td>
+          <td align="char" char=".">
+           1.3368
+          </td>
+          <td align="left">
+           HLA-A*02:03
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M
+          </td>
+          <td align="left">
+           SFRLFARTR
+          </td>
+          <td align="left">
+           41.19
+          </td>
+          <td align="char" char=".">
+           0.7038
+          </td>
+          <td align="left">
+           HLA-A*31:01; HLA-A*33:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           FGMSRIGMEV
+          </td>
+          <td align="left">
+           7.16
+          </td>
+          <td align="char" char=".">
+           0.88
+          </td>
+          <td align="left">
+           HLA-A*02:03; HLA-A*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           KTFPPTEPKK
+          </td>
+          <td align="left">
+           11.43
+          </td>
+          <td align="char" char=".">
+           0.7657
+          </td>
+          <td align="left">
+           HLA-A*30:01; HLA-A*11:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           KMKDLSPR
+          </td>
+          <td align="left">
+           13.15
+          </td>
+          <td align="char" char=".">
+           1.7575
+          </td>
+          <td align="left">
+           HLA-A*31:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           SSRNSTPGS
+          </td>
+          <td align="left">
+           32.96
+          </td>
+          <td align="char" char=".">
+           1.2424
+          </td>
+          <td align="left">
+           HLA-A*30:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           LSPRWYFYYL
+          </td>
+          <td align="left">
+           37.51
+          </td>
+          <td align="char" char=".">
+           1.3486
+          </td>
+          <td align="left">
+           HLA-B*08:01
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         The final set of helper T lymphocyte (HTL) epitopes selected for multi-epitope vaccine construction.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Protein
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+          <th align="left">
+           Core peptide
+          </th>
+          <th align="left">
+           Antigenicity
+          </th>
+          <th align="left">
+           Allele
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           VVLSFELLHAPATVC
+          </td>
+          <td align="left">
+           FELLHAPAT
+          </td>
+          <td align="char" char=".">
+           0.8618
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           CTFEYVSQPFLMDLE
+          </td>
+          <td align="left">
+           EYVSQPFLM
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="left">
+           HLA-DPA1*03:01/DPB1*04:02; HLA- DPA1*02:01/DPB1*01:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           SNLLLQYGSFCTQLN
+          </td>
+          <td align="left">
+           LLQYGSFCT
+          </td>
+          <td align="char" char=".">
+           0.8305
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           FEYVSQPFLMDLEGK
+          </td>
+          <td align="left">
+           EYVSQPFLM
+          </td>
+          <td align="char" char=".">
+           0.8278
+          </td>
+          <td align="left">
+           HLA-DPA1*03:01/DPB1*04:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           NLLLQYGSFCTQLNR
+          </td>
+          <td align="left">
+           LLQYGSFCT
+          </td>
+          <td align="char" char=".">
+           0.8668
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           GVYYHKNNKSWMESE
+          </td>
+          <td align="left">
+           YHKNNKSWM
+          </td>
+          <td align="char" char=".">
+           0.4684
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           LGVYYHKNNKSWMES
+          </td>
+          <td align="left">
+           YHKNNKSWM
+          </td>
+          <td align="char" char=".">
+           0.4937
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           IKWPWYIWLGFIAGL
+          </td>
+          <td align="left">
+           YIWLGFIAG
+          </td>
+          <td align="char" char=".">
+           0.9153
+          </td>
+          <td align="left">
+           HLA-DPA1*01:03/DPB1*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           FLGVYYHKNNKSWME
+          </td>
+          <td align="left">
+           YHKNNKSWM
+          </td>
+          <td align="char" char=".">
+           0.4793
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           RFASVYAWNRKRISN
+          </td>
+          <td align="left">
+           FASVYAWNR
+          </td>
+          <td align="char" char=".">
+           0.4243
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           FLPFFSNVTWFHAIH
+          </td>
+          <td align="left">
+           FSNVTWFHA
+          </td>
+          <td align="char" char=".">
+           0.4883
+          </td>
+          <td align="left">
+           HLA-DPA1*02:01/DPB1*01:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           S
+          </td>
+          <td align="left">
+           CTFEYVSQPFLMDLE
+          </td>
+          <td align="left">
+           YVSQPFLMD
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="left">
+           HLA-DPA1*01:03/DPB1*04:01; HLA-DPA1*01:03/DPB1*02:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           QIGYYRRATRRIRGG
+          </td>
+          <td align="left">
+           YRRATRRIR
+          </td>
+          <td align="char" char=".">
+           0.4614
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01; HLA-DRB5*01:01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N
+          </td>
+          <td align="left">
+           QIAQFAPSASAFFGM
+          </td>
+          <td align="left">
+           FAPSASAFF
+          </td>
+          <td align="char" char=".">
+           0.4032
+          </td>
+          <td align="left">
+           HLA-DRB1*09:01
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Multi-epitope vaccine polypeptide construction
+     </title>
+     <p id="Par7">
+      The total of 34 CTL, and 12 HTL epitopic peptides were fused to each other by KK, and GPGPG linkers, respectively, followed by adjoining a single LBL epitope using the KK linker, to create the multi-epitope peptide-based vaccine construct      . Furthermore, to boost the immunogenicity of the multi-epitope vaccine, β-defensin (GIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK) was added as an adjuvant to the amino terminus of the polypeptide using an EAAAK linker to the first CTL epitope. The primary structure of the multi-epitope subunit vaccine construct included the total of 694 amino acids (Fig.      and Supplementary Fig.      online).
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      Immunogenicity, allergenicity and physiochemical properties of the vaccine candidate
+     </title>
+     <p id="Par8">
+      Assessment of immunogenic, allergenic and solubility showed the multi-epitope vaccine candidate was of a suitable design (Table      ). The calculated molecular weight of the final vaccine polypeptide (78.35 kDa) indicated its good antigenic nature      , and the pI value of 10.38 showed the basic nature of the final vaccine candidate. The instability index of the final polypeptide (36.73) indicated its high stability. The Grand average of hydropathicity value was − 0.261, showing that the final structure is slightly hydrophilic in nature, which can lead to better connection with other proteins. Moreover, the aliphatic index of the peptide was equal to 81.44, which implied the final peptide had high thermo-stability (Table      ). Estimated half-life was 30 h in mammalian reticulocytes in vitro, and &gt; 20 h in yeast, and &gt; 10 h in
+      <italic>
+       E. coli
+      </italic>
+      in vivo.
+      <table-wrap id="Tab3">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Antigenic, allergenic and physiochemical assessments of the primary sequence of final vaccine protein.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Features
+          </th>
+          <th align="left">
+           Assessment
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Number of amino acids
+          </td>
+          <td align="left">
+           694
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molecular weight
+          </td>
+          <td align="left">
+           78,351.68 Dalton
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Theoretical pI
+          </td>
+          <td align="left">
+           10.37
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           No. of negatively charged residues (Asp + Glu)
+          </td>
+          <td align="left">
+           25
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           No. of positively charged residues (Arg + Lys)
+          </td>
+          <td align="left">
+           137
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Extinction coefficient (at 280 nm in H
+           <sub>
+            2
+           </sub>
+           O)
+          </td>
+          <td align="left">
+           120,305 M           cm
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Instability index
+          </td>
+          <td align="left">
+           36.73
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Aliphatic index
+          </td>
+          <td align="left">
+           81.44
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Grand average of hydropathicity (GRAVY)
+          </td>
+          <td align="left">
+           − 0.261
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Antigenicity
+          </td>
+          <td align="left">
+           0.7342 (VaxiJen v.2.0)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Allergenicity
+          </td>
+          <td align="left">
+           <p>
+            Probable non-allergen (AllergenFP v.1.0)
+           </p>
+           <p>
+            Probable non-allergen (AllerTOP v.2.0)
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Solubility
+          </td>
+          <td align="left">
+           0.914870 (SOLpro)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      3D structure of the vaccine polypeptide
+     </title>
+     <p id="Par9">
+      The sequence of the multi-epitope vaccine polypeptide was submitted to appropriate tools, and a refined model of its 3D structure was obtained (Supplementary Fig.      online). The output from ProSA-web validation tools showed a Z-score of -4.33, indicating the good quality of the final vaccine polypeptide structure (Supplementary Fig.      online). In addition, RAMPAGE analysis indicated that 92.3% amino acids of the final structure were in the favoured area, 6.1% were in the allowed area, and 1.6% were in the disallowed area of Ramachandran plot, reflecting a high structural quality of the constructed vaccine model (Supplementary Fig.      online).
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Conformational and linear B-cell epitopes in the vaccine polypeptide structure
+     </title>
+     <p id="Par10">
+      The total of 7 conformational epitopes with scores of 0.702 to 0.882, and 9 linear epitopes with scores of 0.7 to 0.878 were selected as the final B-cell epitopes (Fig.      , Supplementary Table      online). PI value (the score given by ElliPro) of 0.882 shows that 88.2% residues are locating in the predicted ellipsoid area of the epitope and this epitope features the highest solvent accessibility.
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Binding of the vaccine structure to TLR-3
+     </title>
+     <p id="Par11">
+      The best docked complex of the immune receptor TLR-3 with the vaccine model was identified from among various server outputs by comparing the binding free energy. Analysis of the residues contributing at the protein–protein interface showed that the C-terminal domain of the polypeptide is involved in the interaction, where residues from vaccine polypeptide form polar or non-polar contacts with three domains on the TLR-3 structure (Supplementary Fig.      online). The docked complex was further applied for running molecular dynamic (MD) simulation investigations.
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      MD relaxation and analysis of the receptor-vaccine complex
+     </title>
+     <p id="Par12">
+      The MD simulations of the docked multi-epitope-based subunit vaccine with TLR-3 as the receptor were carried out to achieve information about the conformational changes of TLR-3-vaccine polypeptide complex. Such studies were essential for several vital facets: (1) to comprehend whether the designed vaccine was stable at the bound pocket; (2) to verify that the induced conformational mobility of both TLR-3 receptor and the multi-epitope vaccine structure did not exert undesired impact on the conformation of the docked proteins; and (3) to corroborate that the epitopes of the multi-epitope vaccine were potential for efficiently being recognized by the human immune system, causing strong immune response.
+     </p>
+     <p id="Par13">
+      Three statistical factors were assessed based on 24,000 ps of simulation trajectory (Fig.      ). The root mean squared deviation (RMSD) values of TLR-3 and multi-epitope vaccine in the complex reflected the high conformational stability of the docked molecules. An average RMSD of 0.29 nm with maximum of 0.44 nm realized at 14,000 ps was noted for the TLR-3 molecule (Fig.      A). The RMSD value for the multi-epitope vaccine model (Fig.      B) showed that it mostly remained stable during simulation time, with a plateau at about 10,500 ps. The observed trends can be attributed to the moving multi-epitope vaccine at TLR-3 binding pocket in an effort to obtain a suitable and stable docked conformation.
+     </p>
+     <p id="Par14">
+      Region-wise structural fluctuations of the TLR-3-vaccine polypeptide complex were studied by calculating the root mean squared fluctuation (RMSF) parameter (Fig.      C,D). The mean RMSF calculated for TLR-3 and the multi-epitope vaccine were 0.2 nm and 0.83 nm, respectively, which were overall in favour of protein residues’ local stability. Along the vaccine sequence, residues located at the loop regions (such as I137, T138, W204, N376 and R654) had high fluctuation (Fig.      D). The flexibility of the loop regions is essential for proper holding of the vaccine at the binding pocket.
+     </p>
+     <p id="Par15">
+      The compactness of the complex structure was estimated by calculating the radius of gyration (Rg) of TLR-3 and multi-epitope peptide molecules. The related graphs (Fig.      E,F) showed that during the simulation time, TLR-3 and multi-epitope vaccine molecules had mean Rg values of about 3.56 nm and 4.87 nm, respectively. Rg fluctuations is an indication of movements and conformational changes in flexible regions of the multi-epitope vaccine peptide in the TLR-3 binding pocket. This dynamics seems essential to suitably identify the vaccine and incorporating it in the binding pocket.
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      Free energy of the binding between vaccine polypeptide and TLR-3
+     </title>
+     <p id="Par16">
+      To figure out the strength of the contact between multi-epitope vaccine and TLR-3 structures, the binding free energy between the two molecules was calculated using MMPBSA approach. According to Table      , the nonpolar element (− 136.92 kcal/mol) was an important energy term in the binding free energy of the complex. Our findings clarified that the favourable electrostatic energy (E
+      <sub>
+       ele
+      </sub>
+      = − 241.5 kcal/mol) was covered up by the huge polar energy component (ΔG
+      <sub>
+       GB
+      </sub>
+      = 240.3 kcal/mol) in the binding process of the multi-epitope vaccine polypeptide. Therefore, the nonpolar energy was known as the main driving force in the vaccine binding to TLR-3, and this hydrophobic contribution leads to a thermodynamically favourable interaction (∆G
+      <sub>
+       binding
+      </sub>
+      = − 138.11 kcal/mol). To further clarify the binding mode, the calculated energy was broken down into residue-residue pairs through the binding free energy decomposition analysis. According to the data, there were several residues of vaccine polypeptide with less than − 1.5 kcal/mol free energy of contribution in the binding mechanism. The binding pose of vaccine with the key residues are illustrated in Fig.      .
+      <table-wrap id="Tab4">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Binding free energy calculation for the multi-epitope vaccine candidate-TLR-3 complex.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Energy values (kcal/mol)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           ∆E
+           <sub>
+            ele
+           </sub>
+          </td>
+          <td align="char" char="+">
+           − 241.5 ± 14.81
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ∆E
+           <sub>
+            vdW
+           </sub>
+          </td>
+          <td align="char" char="+">
+           − 118.81 ± 9.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ∆G
+           <sub>
+            GB
+           </sub>
+          </td>
+          <td align="char" char="+">
+           240.3 ± 16.71
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ∆G
+           <sub>
+            SA
+           </sub>
+          </td>
+          <td align="char" char="+">
+           − 18.11 ± 1.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ∆E
+           <sub>
+            polar
+           </sub>
+          </td>
+          <td align="char" char="+">
+           − 1.2 ± 0.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ∆E
+           <sub>
+            non-polar
+           </sub>
+          </td>
+          <td align="char" char="+">
+           − 136.92 ± 4.07
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ∆G
+           <sub>
+            binding
+           </sub>
+          </td>
+          <td align="char" char="+">
+           − 138.11 ± 9.46
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Electrostatic contribution.
+        </p>
+        <p>
+         van der Waals contribution.
+        </p>
+        <p>
+         Polar contribution of the solvation effect.
+        </p>
+        <p>
+         Non-polar contribution of solvation effect.
+        </p>
+        <p>
+         ∆E
+         <sub>
+          polar
+         </sub>
+         = ∆E
+         <sub>
+          ele
+         </sub>
+         + ∆G
+         <sub>
+          GB
+         </sub>
+         .
+        </p>
+        <p>
+         ∆E
+         <sub>
+          non-polar
+         </sub>
+         = ∆E
+         <sub>
+          vdW
+         </sub>
+         + ∆G
+         <sub>
+          SA
+         </sub>
+         .
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec11">
+    <title>
+     Discussion
+    </title>
+    <p id="Par17">
+     Classic live or attenuated vaccines have a long history of success, however their deployment is associated with issues of biosafety such as autoimmune or strong allergic responses, plus difficulties with their synthesis and manufacture. These drawbacks might be addressed by developing fully synthetic peptide-based vaccines     . Research on COVID-19 prevention through this approach was begun immediately after release of relevant basic data such as its full genomic sequence. Specific epitope regions in SARS-CoV-2 with high homology to SARS-CoV, the best-characterized coronavirus in terms of epitope responses, were identified     . Antigenic properties of spike glycoprotein were more focused by theory and experimental researchers     . Applying this basic knowledge, a number of peptide-based designs have been presented to date, which encompass those integrating epitopes from a single or few viral protein(s)     to those considering the whole proteome of the virus     . The present research contributes to current understanding in this field by offering an alternative approach for developing a potential COVID-19 vaccine, where the entire set of structural proteins were searched for most efficacious epitopic segments.
+    </p>
+    <p id="Par18">
+     One rationale for the choice of the whole set of structural proteins of SARS-CoV-2 for epitope identification in this study, was the ample evidence on immunity-related advantages of each of the S, E, M and N proteins of SARS-CoV or SARS-CoV-2     . In addition, the choice of structural proteins as the source of epitopes implies a highly-conserved epitope set, as structural proteins are subject to less sequence or structural evolution     . We found that our proposed epitopes demonstrate overlap with similar studies which have extracted the epitopes from individual structural proteins from different sequence database entries; the similarity of findings and the conservation analyses by those research groups may also indicate the high epitope conservancy among geographical strains     . Aside from these advantages, our selection of structural epitopes aimed to cope with potential vaccine side effects, particularly the antibody-dependent enhancement of infectivity (ADEI). ADEI is a great challenge of subunit vaccines, referring to the reduced specificity in response elicitation because of the numerous conformations adopted by a peptide vaccine     . Strategies to mitigate this concern include: 1- immunofocusing by considering several most antigenic epitopes     ; 2- inclusion of structural proteins: structurally flexible coronaviral epitopes may be of limited value for in vivo immunotargeting and require to be replaced by conserved epitopes with low structural plasticity     . Structural proteins are characterized by highly conserved sequences, thus the linear epitopes remain highly stable in these proteins and the conformational epitopes preserve their structural patterns during various steps of the virus cycle. Our choice to include the full set of SARS-CoV-2 structural proteins has thus combined the advantages of augmented immunogenicity and geographical conservancy with precautions of both strategies proposed for reducing ADEI.
+    </p>
+    <p id="Par19">
+     Integrating multiple immunodominant sites of viral pathogens in the vaccine structure helps augment the antigenic effect. Reports revealed that multiple antigenic peptides induce stronger B and T cells immune responses than un-conjugated peptide epitopes     . Thus, consecutive sequences of HTL and CTL epitopic peptides were fused to each other using accepted linkers. GPGPG has been introduced as a spacer between adjacent epitopes, because of several positive contributions to the immune-modulatory function of polypeptide vaccines, including reduction of junctional epitopes, increased proteasome processing, and augmented immunogenicity     . The KK linker is the target sequence of cathepsin B, a lyzosomal protease of high importance for antigen processing. Connecting two peptide antigens together using the lysine linker helps avoid induction of antibodies to the amino acid sequence that is generated by joining of two peptides and most antibodies would be reactive to each peptide     .
+    </p>
+    <p id="Par20">
+     Epitope-based peptide vaccines induce relatively weak immune response, when used alone     . The immunoreactivity could be improved by appending proper adjuvants. The vaccine construct in this study was prepared by fusing the epitopic peptides to β-defensin as an immunogenic adjuvant. β-Defensin has previously been reported as a potent adjuvant when conjugated with MERS-CoV antigens. Vaccines containing defensins as adjuvants have been shown, both in vivo and in vitro, to activate the primary innate antiviral immune response and mediate other immunomodulatory activities against a number of viruses, including coronaviruses     . Use of appropriate adjuvants has also been shown to help induce durable IFN-γ responses     .
+    </p>
+    <p id="Par21">
+     In this study, the binding of the built vaccine model with the immune receptor TLR-3 was assessed by performing molecular docking, MD simulation and free energy calculations. Triggering TLR-3 may help induce the TLR signalling networks which activate the immune pathways evolved specifically against viral pathogens. In addition, this TLR choice was a consensus from vaccine design research works on viral/retroviral pathogens, specifically coronavirus species     . While we note that other Toll-like immune receptors such as TLR-2, -4, -5, -7 and -8 may be stimulated by the COVID-19 virus, they were not considered here as their exact roles are not established, with some possibly functioning even to the advantage of the coronavirus     .
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec12">
+    <title>
+     Conclusion
+    </title>
+    <p id="Par22">
+     In the ongoing urgent situation brought about by SARS-CoV-2, it is hard to fast counteract the circulating disease through preventative or therapeutic measures. The multi-epitope-based subunit vaccine design obtained through an immunoinformatic pipeline in this study could be promising, as it incorporates a priori bioinformatics predictions and up-to-date immunological knowledge. Despite the current highly active research community as well as the efforts of the industry section in the road to find an optimal immunogenic formulation, the extreme diversity in available design choices, with no a priori image of their effectiveness, appears as a fundamental obstacle in this route. To overcome this issue, a rapid mass design and screening strategy incorporating the same immunoinformatic approach is recommended to be developed by the research community, with the hope to find one formulation with the highest immunogenicity and biosafety.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec13">
+    <title>
+     Methodology
+    </title>
+    <sec id="Sec14">
+     <title>
+      SARS-CoV-2 structural protein sequences
+     </title>
+     <p id="Par23">
+      The amino acid sequences of SARS-CoV-2 structural proteins, including the spike glycoprotein (S), envelope protein (E), membrane protein (M), and nucleocapsid phosphoprotein (N), were retrieved using the NCBI reference genome of the virus (accession number NC_045512.2).
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      Identifying cytotoxic T lymphocyte (CTL) epitopes
+     </title>
+     <p id="Par24">
+      Predicting peptides that are capable of inducing CTL responses is a crucial step in the design of epitope-based vaccine. The MHC-I Binding tool of Immune Epitope Database and Analysis Resource (IEDB;
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/mhci">
+       http://tools.iedb.org/mhci
+      </ext-link>
+      ) was used to predict the CD8      T-cell epitopes borne in S, E, M and N proteins      . In this step, the ANN 4.0 method was set as the prediction method. The human was selected as the source species. The maximum IC
+      <sub>
+       50
+      </sub>
+      value was set to 50 nM, and percentile rank &lt; 1 was considered as threshold since lower score indicates high affinity      .
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      Identifying helper T lymphocyte (HTL) epitopes
+     </title>
+     <p id="Par25">
+      IEDB (
+      <ext-link ext-link-type="uri" ns0:href="http://www.iedb.org">
+       http://www.iedb.org
+      </ext-link>
+      ) was used to predict MHC-II binding of 15-mer epitopes for viral structural proteins against human HLAs such as HLA-DRB1*15:01, HLA-DRB4*01:01, HLA-DRB3*01:01, HLA-DRB5*01:01, HLA-DRB1*03:01, HLA-DRB3*02:02 and HLA-DRB1*07:01 (Supplementary Table      online), using NN-align 2.3 method      . The maximum IC
+      <sub>
+       50
+      </sub>
+      value of 50 nM, 500 nM and 5000 nM indicate high, intermediate and low affinity of epitopes, respectively      . The 15-mer epitopes with IC
+      <sub>
+       50
+      </sub>
+      values &lt; 50 nM were considered to be included in the vaccine polypeptide      .
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      B-cell epitopes prediction
+     </title>
+     <p id="Par26">
+      The ABCpreds server was used to predict 16-mer linear B-lymphocyte (LBL) epitopes, using a threshold of 0.51      . In addition, the ElliPro tool of IEDB was utilized to predict conformational and linear B-cell epitopes of the vaccine polypeptide.
+     </p>
+    </sec>
+    <sec id="Sec18">
+     <title>
+      Assessment of identified epitopes for antigenicity, allergenicity, and toxicity
+     </title>
+     <p id="Par27">
+      The antigenic potential of each of the T and B cells epitopes was predicted by VaxiJen v2.0 applying a threshold of 0.4      . The predicted T and B cells epitopes were then further evaluated in terms of toxicity and allergenicity, with ToxinPred and AllergenFP v1.0 servers, respectively      . Then, the ability of each of the HTL and B cell epitopes (CD4      ) to induce the secretion of cytokines, such as interferon-gamma (IFN-γ), interleukin-4 (IL-4) and interleukin-10 (IL-10), to overcome the inflammatory response and prevent tissue damage was predicted by IFNepitope, IL4pred and IL10pred server tools, respectively      . The IL4pred and IL10pred operations were carried out based on SVM method and hybrid method, respectively, with other parameters kept as default      .
+     </p>
+    </sec>
+    <sec id="Sec19">
+     <title>
+      Designing the multi-epitope vaccine polypeptide construct
+     </title>
+     <p id="Par28">
+      To develop a multi-epitope vaccine construct, we selected those predicted epitopes which demonstrated high antigenic potential, were not identified as allergic or toxic, and had good solubility when highly expressed. To construct the vaccine polypeptide, the selected CTL, HTL and LBL epitopes were fused together using appropriate linkers      . In addition, a 45-amino acid sequence prepared from β-defensin-2 protein was added to the N terminus of the vaccine sequence using the EAAAK linker, to increase the immunogenic capacity of the multi-epitope vaccine      .
+     </p>
+    </sec>
+    <sec id="Sec20">
+     <title>
+      Immunogenic, allergenic and physiochemical evaluation of vaccine construct
+     </title>
+     <p id="Par29">
+      The antigenicity of the multi-epitope vaccine polypeptide was predicted utilizing the VaxiJen v2.0 tool, with the threshold value of 0.4      . The allergenicity of the vaccine was analysed using AllerTOP v.2.0 and AllergenFP v.1.0 servers      . The ProtParam server was employed to evaluate the physical chemistry properties of the vaccine construct, such as amino acid composition, molecular weight, theoretical isoelectric point (pI), grand average of hydropathicity (GRAVY), aliphatic and instability index, and in vitro and in vivo half-life      .
+     </p>
+    </sec>
+    <sec id="Sec21">
+     <title>
+      Vaccine polypeptide structure modelling, refinement and validation
+     </title>
+     <p id="Par30">
+      The SOPMA server was applied for analysing the secondary structural properties of the multi-epitope vaccine polypeptide      . The GalaxyWEB server was employed for modelling and refinement of the 3D structure model      . The server relaxes the model structure using repacking and molecular dynamics (MD) simulation. Next, RAMPAGE server and ProSA-web tools were used to validate the refined 3D model      . All of these tools give us the overall quality of the 3D structure of the peptide vaccine.
+     </p>
+    </sec>
+    <sec id="Sec22">
+     <title>
+      Molecular docking of the vaccine polypeptide to TLR-3
+     </title>
+     <p id="Par31">
+      The binding of antigenic agents with the target immune cell protein is crucial for the creation of a suitable immune system response. For analysing the binding pattern of the multi-epitope vaccine polypeptide with TLR-3 (PDB ID: 2A0Z)      , molecular docking analysis was performed by Hdock, Zdock, Cluspro and Hawkdock      . Among the molecular species docked by each of these applications, the best outputs were extracted, followed by the four docked molecules uploaded into the Hawkdock program, and the free energy of binding of each complex calculated. Based on this screening, it was determined that the model selected from the Cluspro output had the best binding free energy. Therefore, this molecular species was chosen as the primary structure for initiating the MD simulation.
+     </p>
+    </sec>
+    <sec id="Sec23">
+     <title>
+      MD simulation of the vaccine-receptor complex
+     </title>
+     <p id="Par32">
+      To determine the structural stability and to study the molecular details of the interactions between TLR-3 and the multi-epitope vaccine polypeptide in the docked conformation, MD simulation was performed. Briefly, the system including vaccine polypeptide-TLR-3 was simulated by the Gromacs-2020 package applying OPLS-AA force field      . The complex system was solvated using TIP3P water model. Then, the genion module was utilized to neutralize the whole system. Next, the conjugate gradient algorithm was applied to minimize the energy of the system. In an NVT ensemble, the temperature of the system gradually increased from 0 to 310 K during 400 ps. Subsequently, in an NPT ensemble, 500 ps simulation was carried out at the pressure of 1 atm and the temperature of 310 K. Production simulation for 24,000 ps was then implemented. The particle-mesh Ewald (PME) and the LINCS algorithms were applied to assess all electrostatic connections and to restrain all bond lengths in the protein, respectively. Moreover, periodic boundary condition was utilized during the simulation. The final coordinates obtained for the complex system were analysed with classic MD analyses, plus the MMPBSA method for calculating the free energy of intermolecular interactions      . The results were visualized by Pymol (Schrodinger L.L.C.).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec24">
+     <p/>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

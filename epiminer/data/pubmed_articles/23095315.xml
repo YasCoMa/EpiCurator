@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Longitudinal analysis of an HLA-B*51-restricted epitope in integrase reveals immune escape in early HIV-1 infection.
+ </title>
+ <abstract>
+  <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">
+   To fully define cytotoxic T-lymphocyte (CTL) escape variants of an HLA-B*51-restricted integrase epitope in early HIV-1 infection.
+  </AbstractText>
+  <AbstractText Label="DESIGN" NlmCategory="METHODS">
+   Ninety-four longitudinally sampled acute/early HIV-1 subtype B-infected participants were assessed to determine HLA-B*51-restricted LPPVVAKEI (LI9) escape variants.
+  </AbstractText>
+  <AbstractText Label="METHODS" NlmCategory="METHODS">
+   LI9 was sequenced at baseline and subsequent time points. Interferon-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb3 (IFN\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb3) ELISpot assays were performed using serial log dilutions of variant LI9 peptides to determine the cellular response and functional avidity.
+  </AbstractText>
+  <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+   There is a significant association between HLA-B*51 expression and an evolving LI9 sequence from baseline to year 1 (P &lt; 0.0001). We detected that the V32I and P30X polymorphisms emerged within HLA-B*51 participants over time. Reversion of the P30S polymorphism was observed by year 1 in one HLA-B*51 participant. LPPIIAKEI and LPSIVAKEI had significantly lower functional avidity compared with LPPVVAKEI and so may be less well recognized by LI9-specific CTLs; a positive IFN\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb3 response to IPSVVAKEI was rarely seen. Functional avidity to wild-type LI9 inversely correlated with viral load (R = 0.448, P = 0.0485).
+  </AbstractText>
+  <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">
+   Our results provide support for the role of HLA-B*51-restricted CTLs and functional avidity in the control of early HIV-1 infection.
+  </AbstractText>
+ </abstract>
+</article>

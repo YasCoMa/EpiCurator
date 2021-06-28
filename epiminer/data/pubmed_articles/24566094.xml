@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  HLA-B*35: 05 is a protective allele with a unique structure among HIV-1 CRF01_AE-infected Thais, in whom the B*57 frequency is low.
+ </title>
+ <abstract>
+  <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">
+   To identify protective human leukocyte antigen (HLA) alleles in an HIV-infected south-east Asian population, in whom HLA-B*57 prevalence is lower than other ethnic groups, and HIV-1 CRF01_AE is the dominant circulating subtype.
+  </AbstractText>
+  <AbstractText Label="DESIGN" NlmCategory="METHODS">
+   Cross-sectional study of Thai patients with chronic HIV infection.
+  </AbstractText>
+  <AbstractText Label="METHODS" NlmCategory="METHODS">
+   Five hundred and fifty-seven HIV-1 CRF01_AE-infected Thais were recruited. Their HLA type and viral load were determined to statistically analyze the association of each allele in viral control. In-silico molecular dynamics was also used to evaluate the effect of HLA structure variants on epitope binding.
+  </AbstractText>
+  <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+   HLA-B*35:05 was identified as the most protective allele (P=0.003, q=0.17), along with HLA-B*57:01 (P=0.044, q=0.31). Structurally, HLA-B*35:05 belonged to the HLA-B*35-PY group of HLA-B*35 alleles; however, unlike the other HLA-B*35 alleles that carry Arg (R) at residue 97, it has unique sequences at T94, L95, and S97, located within the peptide-binding groove. Analysis of the three-dimensional HLA structure and molecular dynamics indicates that S97 in HLA-B*35:05 leads to less flexibility in the groove, and shorter distances between the \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb1-helixes compared with the disease-susceptible HLA-B*35-PY allele, HLA-B*35:01.
+  </AbstractText>
+  <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">
+   These data indicate the existence of a protective effect of HLA-B*57 across ethnic groups and highlight HLA-B*35:05 as an allele uniquely protective in subtype CRF01_AE-infected Thais. The divergence of HLA-B*35:05 from conventional HLA-B*35-PY structural sequences at the peptide-binding groove is consistent with previous studies that have identified HLA residue 97 as strongly influential in shaping HLA impact on immune control of HIV, and that a more restricted peptide-binding motif may be associated with improved control.
+  </AbstractText>
+ </abstract>
+</article>

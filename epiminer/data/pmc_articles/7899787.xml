@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Scouting the receptor-binding domain of SARS coronavirus 2: a comprehensive immunoinformatics inquisition
+ </title>
+ <abstract>
+  <p>
+   <bold>
+    Aim:
+   </bold>
+   December 2019 witnessed the emergence of a worldwide outbreak of a novel strain of coronavirus (CoV) termed SARS-CoV-2. Several preventive strategies are being developed, such as vaccines, to stop the spread of infection.
+   <bold>
+    Materials &amp; methods:
+   </bold>
+   A comprehensive immunoinformatics approach was used to map conserved peptide sequences on the receptor binding domain of SARS-CoV-2 for their B-cell, T-helper &amp; T-cytotoxic cell epitope profiles.
+   <bold>
+    Results &amp; conclusion:
+   </bold>
+   The antigenic B-cell epitopes were LFRKSN and SYGFQPT. Among T-cell epitopes, CVADYSVLY and FTNVYADSF exhibited affinity for MHC class I, while YRLFRKSNL and VYAWNRKRI exhibited affinity for of MHC class II alleles. The overlapping epitope between B- and T-cells was YRLFRKSNL. The deployment of these epitopes in potential vaccine development against COVID-19 may help in slowing down the SARS-CoV-2 spread.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="S0001" sec-type="materials|methods">
+    <title>
+     Materials &amp; methods
+    </title>
+    <p>
+     To identify the presence of antigenic epitopes within the RBD of S glycoprotein of SARS-CoV-2,
+     <italic>
+      in silico
+     </italic>
+     analysis was performed (     ). The antigenicity of RBD was determined through VaxiJen v2.0. It is an alignment-free method for prediction of antigenicity. It predicts the antigenicity of proteins on the basis of physicochemical properties of amino acids [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="S0002">
+    <title>
+     Sequence retrieval &amp; multiple sequence alignment
+    </title>
+    <p>
+     Protein sequences of S glycoprotein of SARS-CoV-2 (reported till 31 March 2020) were retrieved from National Center for Biotechnology Information. The sequences reported from China, Australia, USA, Taiwan, India, Pakistan, Nepal, Italy, Sweden, Brazil, Vietnam, Spain, Colombia, Peru and Japan were selected for analysis. The sequence of S glycoprotein from BatCoV RaTG13 (GISAID accession no. EPI_ISL_402131) and SARS CoV ZJ02 (Accession No. ABB29898) were used as reference for comparison. Sequence analysis was performed to ascertain the changes in the RBD of S glycoprotein. Multiple sequence alignments were performed using Clustal X. The consensus sequence of SARS-CoV-2 was used as input for epitope prediction.
+    </p>
+    <sec id="S0003">
+     <title>
+      B-cell epitope prediction
+     </title>
+     <p>
+      For identification of B-cell epitopes, Immune Epitope Database (IEDB) and BepiPred-2.0 were used [      ,      ]. The consensus sequence of SARS-CoV-2 was used to predict B-cell epitopes through Karplus &amp; Schulz flexibility, Kolaskar &amp; Tongaonkar antigenicity, Chou &amp; Fasman beta-turn, Emini surface accessibility and BepiPred linear epitope prediction methods. Kolaskar &amp; Tongaonkar method predicted antigenicity on the basis of amino acid abundances in naturally occurring epitopes as well as their physicochemical properties. The default threshold was set to 1.00 for antigenicity determination [      ]. Emini surface accessibility method predicts the surface accessibility of epitopes as the surface accessible peptides recognized by the immune system [      ]. Chou &amp; Fasman beta-turn method was used to predict the antigenic regions, exhibiting beta turn as the beta turns are usually hydrophilic in nature and highly accessible [      ]. Karplus &amp; Schulz flexibility method predicts those antigens that are exhibiting flexible amino acids in nature as flexibility is correlated with antigenicity [      ]. BepiPred prediction method based on hidden Markov model predicts linear epitopes in protein [      ]. The B-cell epitopes were also predicted using ElliPro, which identifies linear and discontinuous epitopes in protein structure. It calculates the protrusion index (PI) of the residues and then cluster the residues on the basis of protrusion index values [      ].
+     </p>
+    </sec>
+    <sec id="S0004">
+     <title>
+      T-cell epitope prediction
+     </title>
+     <p>
+      For vaccine development, cytotoxic T-lymphocyte (CTL) epitopes play an important role. Hence the T-cell epitopes were identified that have the ability to bind with MHC class I (MHC-I) and class II (MHC-II). CTL epitopes were identified through NetCTL 1.2 server. It is based on artificial neural network and trained on different human MHC alleles for prediction of epitopes [      ]. The IEDB and NetMHCI 4.0 server were used to predict the binding of epitopes with MHC-I. NetMHCI 4.0 predicts the binding affinity through artificial neural network by schooling 81 distinct HLA-A, -B, -C and -E human MHC alleles [      ]. T-helper cell epitopes were predicted through IEDB and NetMHCII 2.3 server [      ]. The epitopes were predicted having high affinity toward HLA-DR, -DQ and -DP. The length of the predicted epitopes was set to be 9-mer epitopes as it is reported that most HLA molecules have a strong preference for binding 9-mer epitopes [      ]. For all the T-cell epitopes the threshold for predicting the binding affinity was set to ≤500 nM.
+     </p>
+    </sec>
+    <sec id="S0005">
+     <title>
+      B- &amp; T-cell epitopes feature profiling
+     </title>
+     <p>
+      B- and T-cell epitopes were further scrutinized for their enzymatic digestion, toxicity, hydrophobicity and physiochemical properties. The digestion of peptides with enzymes is an important parameter in vaccine development as the peptides that are digested by many enzymes are usually rendered unstable. Hence, the digestion of peptides by different enzymes was predicted through protein-digest server. AntiangioPred was used to predict the mutational variability and other physicochemical properties of peptides. It is based on machine learning model that is generated on the basis of already reported anti-angiogenic peptide [      ]. ClanTOX predicted toxicity of peptides [      ]. It is trained on set of ion-channel inhibitors and a set of nontoxin proteins. Based on the model, the program predicts the toxicity of input peptide. Antigenicity of peptides was predicted through Immunomedicine group server. For a peptide to be antigenic the threshold is 1.0. Antigenic prediction is based on physicochemical properties of epitopes like hydrophilicity, flexibility and accessibility [      ].
+     </p>
+    </sec>
+    <sec id="S0006">
+     <title>
+      Human proteome analysis for nonhuman homologues
+     </title>
+     <p>
+      To avert autoimmunity, vaccine contenders were screened for human and nonhuman homologues. The nonhuman homologues were identified by scrutinizing selected epitopes sharing &lt;30% identity with human proteome, via BLASTp analysis.
+     </p>
+    </sec>
+    <sec id="S0007">
+     <title>
+      Docking of T-cell epitopes with MHC-I &amp; MHC-II alleles
+     </title>
+     <p>
+      The peptides that showed affinity for maximum number of MHC-I and MHC-II alleles were selected for interaction analysis. The structure of peptides was modeled through PEPFOLD server [      ] followed by energy minimization. In case of MHC-I, the common allele between the peptides was selected for docking. Hence, the crystal structure of human
+      <italic>
+       HLA-A*0101
+      </italic>
+      was downloaded from Protein Databank (PDB; PDB ID: 6AT9: resolution = 2.9 Å). Same criterion was followed for MHC-II alleles and for that the crystal structure of
+      <italic>
+       HLA-DRB5*01:01
+      </italic>
+      (PDB ID: 1FV1: resolution = 1.9 Å) was also downloaded from PDB. Both the structures after ligand removal underwent protonation followed by energy minimization by AMBER99 force field. In order to analyze the inhibitory potential of peptides the docking of MHC-I specific peptides was executed with the
+      <italic>
+       HLA-A*0101
+      </italic>
+      alleles, while the MHC-II specific peptides were docked with HLA-DRB5_0101. The docking studies were accomplished with induced fit docking protocol implemented in molecular operating environment (MOE) version 2016.08. By using, triangle match as placement method with London-dG scoring and GBVI/WSA dG rescoring function, 50 poses of each peptide were generated. Interaction analysis was done using MOE and PyMOL v2.3.
+     </p>
+    </sec>
+    <sec id="S0008">
+     <title>
+      Interaction analysis of BatCoV RaTG13 with bat ACE2
+     </title>
+     <p>
+      After identification of vaccine epitopes, we further explored whether these vaccine epitopes harbor any important residues that could be involved in binding of SARS-CoV-2 with human ACE2 (hACE2) and BatCoV RaTG13 with bat ACE2 (bACE2). The interactions of SARS-CoV-2 with hACE2 were recently reported by Lan
+      <italic>
+       et al
+      </italic>
+      [      ]. The interaction analysis of BatCoV RaTG13 with bACE2 was performed in the current study. To the best of our knowledge, the structure of RBD of BatCoV RaTG13 as well as bACE2 has not been determined yet. Hence the structure of both the proteins was determined through homology modeling using Modeller V9.23. BatCoV RaTG13 was modeled using SARS-CoV as template (PDB ID: 2GHV). While bACE2 was modeled using hACE (PDB ID: 1R42) as template. The generated model was subjected to model evaluation and structural validation via Ramachandran plot, PROSA, ERRAT, QMEAN and MolProbity. Ramachandran plot calculates the presence of amino acid residues in allowed, favored and outlier regions on the basis of torsional angles (Ψ and Φ) of amino acids [      ]. PROSA reveal the quality of model by estimating any error in the models. It also calculates the score of model on the basis of experimentally reported (x-ray and nuclear magnetic resonance) structures of proteins [      ]. Qualitative model energy analysis (QMEAN) apprises the geometry of protein structure by measuring the torsion angles on three consecutive amino acid residues [      ]. MolProbity evaluates the protein structure by assessing its geometry [      ]. ERRAT gauged the quality of model by analyzing the statistics between nonbonded interactions and different type of atoms and compared these values with the extremely refined structures [      ]. The best model was then subjected to energy minimization using AMBER99 force field implemented in MOE. Docking of BatCoV RaTG13:bACE2 was performed using HADDOCK web server [      ]. Analysis of protein–protein interactions was performed through pdbSum [      ] and PyMOL v2.3.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="S0009" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="S0010">
+     <title>
+      Multiple sequence alignment
+     </title>
+     <p>
+      RBD of SARS-CoV-2 is 192 amino acids long (within position 330–522 amino acids) lying in S1 region of S glycoprotein. When comparing the receptor binding motif with the BatCoV RaTG13 there was variation between the two virus strains (
+      <ext-link ext-link-type="uri" ns0:href="https://www.futuremedicine.com/doi/suppl/10.2217/fvl-2020-0269">
+       Supplementary Figure 1
+      </ext-link>
+      ). The important changes were observed at position 439 (Lys→Asn), 440 (His→Asn), 441 (Ile→Leu), 443 (Thr→Lys), 445 (Glu→Val), 449 (Phe→Tyr), 459 (Ala→Ser), 478 (Lys→Thr), 483 (Gln→Val), 484 (Thr→Glu), 486 (Leu→Phe), 490 (Tyr→Phe), 492 (Ile→Leu), 493 (Tyr→Gln), 494 (Arg→Ser), 498 (Tyr→Gln), 501 (Asp→Asn) and 505 (His→Tyr). The changes at positions 441, 486, 492, 493, 498 and 505 may not have any obvious effect on binding due to similar properties of amino acids.
+     </p>
+    </sec>
+    <sec id="S0011">
+     <title>
+      B-cell epitopes within RBD
+     </title>
+     <p>
+      Continuous B-cell epitopes were predicted using B-cell epitope prediction methods on IEDB server. The Kolaskar &amp; Tongaonkar method predicted 11 antigenic epitopes in the RBD (      ), which can prompt B-cell responses. Surface accessibility analysis revealed four epitopes with surface accessibility (      ). Flexibility of epitopes is a measure of antigenicity [      ]. The flexible epitopes in RBD were at positions 352–362, 380–392, 400–410, 421–433, 434–451, 454–473, 472–487 and 495–506. Beta-turns are the more flexible regions of the protein. According to Chou &amp; Fasman predictions the beta-turn epitopes were at positions 437–443, 455–468, 422–428 and 495–500. Linear epitopes determined by BepiPred method are shown in      . On the basis of consensus of all the methods, the peptides that can induce B-cell response were placed at positions 423–428, 455–461 and 494–500. The 423–428, 455–461 and 494–500, were the peptides that may prompt B-cell responses as predicted by ElliPro method. The mapping of epitopes on 3D structure of protein is shown in
+      <ext-link ext-link-type="uri" ns0:href="https://www.futuremedicine.com/doi/suppl/10.2217/fvl-2020-0269">
+       Supplementary Figure 2
+      </ext-link>
+      .
+     </p>
+     <table-wrap id="T1" orientation="portrait" position="float">
+      <label>
+       Table 1.
+       <x xml:space="preserve">
+       </x>
+      </label>
+      <caption>
+       <title>
+        Prediction of B-cell epitopes by Kolaskar &amp; Tongaonkar, Emini surface accessibility and BepiPred methods.
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+       </colgroup>
+       <thead valign="top">
+        <tr>
+         <th align="left">
+          S. No.
+         </th>
+         <th align="left">
+          Start position
+         </th>
+         <th align="left">
+          End position
+         </th>
+         <th align="left">
+          Peptide
+         </th>
+         <th align="left">
+          Peptide length
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" colspan="5">
+          <bold>
+           Kolaskar &amp; Tongaonkar method
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          334
+         </td>
+         <td align="left">
+          341
+         </td>
+         <td align="left">
+          NLCPFGEV
+         </td>
+         <td align="left">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          347
+         </td>
+         <td align="left">
+          353
+         </td>
+         <td align="left">
+          FASVYAW
+         </td>
+         <td align="left">
+          7
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          358
+         </td>
+         <td align="left">
+          372
+         </td>
+         <td align="left">
+          ISNCVADYSVLYNSA
+         </td>
+         <td align="left">
+          15
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          374
+         </td>
+         <td align="left">
+          385
+         </td>
+         <td align="left">
+          FSTFKCYGVSPT
+         </td>
+         <td align="left">
+          12
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          387
+         </td>
+         <td align="left">
+          404
+         </td>
+         <td align="left">
+          LNDLCFTNVYADSFVIRG
+         </td>
+         <td align="left">
+          18
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          6.
+         </td>
+         <td align="left">
+          407
+         </td>
+         <td align="left">
+          412
+         </td>
+         <td align="left">
+          VRQIAP
+         </td>
+         <td align="left">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          7.
+         </td>
+         <td align="left">
+          429
+         </td>
+         <td align="left">
+          436
+         </td>
+         <td align="left">
+          FTGCVIAW
+         </td>
+         <td align="left">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          8.
+         </td>
+         <td align="left">
+          455
+         </td>
+         <td align="left">
+          461
+         </td>
+         <td align="left">
+          LFRKSNL
+         </td>
+         <td align="left">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          9.
+         </td>
+         <td align="left">
+          423
+         </td>
+         <td align="left">
+          428
+         </td>
+         <td align="left">
+          YKLPDD
+         </td>
+         <td align="left">
+          5
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          10.
+         </td>
+         <td align="left">
+          470
+         </td>
+         <td align="left">
+          478
+         </td>
+         <td align="left">
+          TEIYQAGST
+         </td>
+         <td align="left">
+          9
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          11.
+         </td>
+         <td align="left">
+          494
+         </td>
+         <td align="left">
+          500
+         </td>
+         <td align="left">
+          SYGFQPT
+         </td>
+         <td align="left">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5">
+          <bold>
+           Emini method
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          419
+         </td>
+         <td align="left">
+          428
+         </td>
+         <td align="left">
+          ADYNYKLPDD
+         </td>
+         <td align="left">
+          10
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          437
+         </td>
+         <td align="left">
+          442
+         </td>
+         <td align="left">
+          NSNNLD
+         </td>
+         <td align="left">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          455
+         </td>
+         <td align="left">
+          468
+         </td>
+         <td align="left">
+          LFRKSNLKPFERDI
+         </td>
+         <td align="left">
+          14
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          495
+         </td>
+         <td align="left">
+          500
+         </td>
+         <td align="left">
+          YGFQPT
+         </td>
+         <td align="left">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5">
+          <bold>
+           BepiPred method
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          382
+         </td>
+         <td align="left">
+          385
+         </td>
+         <td align="left">
+          VSPT
+         </td>
+         <td align="left">
+          4
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          407
+         </td>
+         <td align="left">
+          420
+         </td>
+         <td align="left">
+          VRQIAPGQTGKIAD
+         </td>
+         <td align="left">
+          14
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          423
+         </td>
+         <td align="left">
+          428
+         </td>
+         <td align="left">
+          YKLPDD
+         </td>
+         <td align="left">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          439
+         </td>
+         <td align="left">
+          447
+         </td>
+         <td align="left">
+          NNLDSKVGG
+         </td>
+         <td align="left">
+          9
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          461
+         </td>
+         <td align="left">
+          463
+         </td>
+         <td align="left">
+          LKP
+         </td>
+         <td align="left">
+          3
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          6.
+         </td>
+         <td align="left">
+          466
+         </td>
+         <td align="left">
+          467
+         </td>
+         <td align="left">
+          RD
+         </td>
+         <td align="left">
+          2
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          7.
+         </td>
+         <td align="left">
+          469
+         </td>
+         <td align="left">
+          469
+         </td>
+         <td align="left">
+          S
+         </td>
+         <td align="left">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          8.
+         </td>
+         <td align="left">
+          473
+         </td>
+         <td align="left">
+          483
+         </td>
+         <td align="left">
+          YQAGSTPCNGV
+         </td>
+         <td align="left">
+          11
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          9.
+         </td>
+         <td align="left">
+          495
+         </td>
+         <td align="left">
+          506
+         </td>
+         <td align="left">
+          YGFQPTNGVGYQ
+         </td>
+         <td align="left">
+          12
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec id="S0012">
+     <title>
+      Cytotoxic T-cell epitope prediction
+     </title>
+     <p>
+      The default setting in the NetCTL server was used to predict T-cell epitopes. On the basis of highest combinatorial scores, five epitopes (with NetCTL score = 1.1–2.5 nM) were opted for subsequent analysis (      ). On the basis of NetCTL scores the peptide with the highest score (2.5 nM) had sequence CVADYSVLY. Further analysis of all the five peptides for their binding with MHC-I showed that peptide CVADYSVLY illustrated binding with maximum MHC-I alleles (
+      <italic>
+       HLA-A*26:01, HLA-A*01:01, HLA-A*30:02, HLA-B*35:01, HLA-A*11:01, HLA-B*15:01, HLA-A*68:01, HLA-A*03:01, HLA-B*53:01 and HLA-C*07:01
+      </italic>
+      ). The next peptide showing the binding with maximum number of alleles was FTNVYADSF.
+     </p>
+     <table-wrap id="T2" orientation="portrait" position="float">
+      <label>
+       Table 2.
+       <x xml:space="preserve">
+       </x>
+      </label>
+      <caption>
+       <title>
+        T-cell epitopes predicted to be recognized by MHC class I and class II alleles.
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+       </colgroup>
+       <thead valign="top">
+        <tr>
+         <th align="center" colspan="3">
+          T-cell epitopes bind to specific MHC-I alleles
+         </th>
+        </tr>
+        <tr>
+         <th align="left">
+          S. No.
+         </th>
+         <th align="left">
+          Peptide
+         </th>
+         <th align="left">
+          MHC-I binding
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          NATRFASVY
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           HLA-B*35:01
+           <break/>
+           HLA-A*01:01
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          RISNCVADY
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           HLA-A*30:02, HLA-B*15:01, HLA-A*03:01 and HLA-A*01:01
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          CVADYSVLY
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           HLA-A*26:01, HLA-A*01:01, HLA-A*30:02, HLA-B*35:01, HLA-A*11:01, HLA-B*15:01, HLA-A*68:01, HLA-A*03:01, HLA-B*53:01 and HLA-C*07:01
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          FTNVYADSF
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           HLA-A*01:01, HLA-B*15:01, HLA-B*15:03, HLA-B*15:17, HLA-A*25:01, HLA-A*26:01, HLA-B*08:03, HLA-B*58:01, HLA-B*53:01 and HLA-C*03:03
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          ERDISTEIY
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           HLA-A*01:01
+          </italic>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col align="left" width="30pt"/>
+        <col align="left" width="70pt"/>
+        <col align="left" width="390pt"/>
+       </colgroup>
+       <thead valign="top">
+        <tr>
+         <th align="center" colspan="3">
+          <bold>
+           T-cell epitopes bind to specific MHC-II alleles
+          </bold>
+         </th>
+        </tr>
+        <tr>
+         <th align="left">
+          <bold>
+           S. No.
+          </bold>
+         </th>
+         <th align="left">
+          <bold>
+           Peptide
+          </bold>
+         </th>
+         <th align="left">
+          <bold>
+           MHC-II binding
+          </bold>
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          FELLHAPAT
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB1_0101 and DRB1_1001
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          FNATRFAS
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB1_0402
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          TGCVIAWNS
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB1_0403 and DRB3_0202
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          FRKSNLKPF
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB1_0701
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          YRLFRKSNL
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB1_0103, DRB1_0701, DRB1_0801, DRB1_0802, DRB1_1602, DRB4_0103, DRB1_1001, DRB1_1101, DRB1_1501, DRB4_0103 and DRB5_0101
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          6.
+         </td>
+         <td align="left">
+          VYAWNRKRI
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB1_1101, DRB1_1301, DRB4_0103, DRB5_0101, DRB1_0402 and DRB3_0202
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          7.
+         </td>
+         <td align="left">
+          FERDISTEI
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB3_0101
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          8.
+         </td>
+         <td align="left">
+          IRGDEVRQI
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB3_0101
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          9.
+         </td>
+         <td align="left">
+          VLYNSASFS
+         </td>
+         <td align="left">
+          <italic toggle="yes">
+           DRB3_0202
+          </italic>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         MHC-I: MHC class I; MHC-II: MHC class II.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="S0013">
+     <title>
+      Helper T-cell epitope prediction
+     </title>
+     <p>
+      A total of nine peptides were predicted which exhibited strong affinity for MHC-II alleles (      ). Among these the peptide YRLFRKSNL and VYAWNRKRI reflected affinity for maximum number of alleles. YRLFRKSNL held strong affinity with large number of MHC-II allele including:
+      <italic>
+       DRB1_0103, DRB1_0701, DRB1_0801, DRB1_0802, DRB1_1602, DRB4_0103, DRB1_1001, DRB1_1101, DRB1_1501, DRB4_0103 and DRB5_0101.
+      </italic>
+     </p>
+    </sec>
+    <sec id="S0014">
+     <title>
+      B- &amp; T-cell epitopes feature profiling
+     </title>
+     <p>
+      To identify the best epitope for vaccine construction, different features of T-cell epitopes were determined (      ). The identified epitopes did not exhibit any homology with human proteins, were conserved and predicted to be nontoxic. The peptides which were digested by fewer enzymes have been considered good potential vaccine candidates (      ). Antigenicity of the peptides depicted that CTL specific peptides can be antigenic except the peptide ERDISTEIY. In case of helper T-cell epitopes, FELLHAPAT, TGCVIAWNS and VLYNSASFS were highly antigenic. In case of B-cell epitopes, all the three peptides were antigenic.
+     </p>
+     <table-wrap id="T3" orientation="portrait" position="float">
+      <label>
+       Table 3.
+       <x xml:space="preserve">
+       </x>
+      </label>
+      <caption>
+       <title>
+        Profiling of MHC class I, class II and B-cell specific peptides.
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+       </colgroup>
+       <thead valign="top">
+        <tr>
+         <th align="left">
+          S. No.
+         </th>
+         <th align="left">
+          Peptide
+         </th>
+         <th align="left">
+          Homology with human proteins (Y/N)
+         </th>
+         <th align="left">
+          Mutation (Y/N)
+         </th>
+         <th align="left">
+          Toxicity (Y/N)
+         </th>
+         <th align="left">
+          Hydrophobicity
+         </th>
+         <th align="left">
+          Charge
+         </th>
+         <th align="left">
+          Molecular weight
+         </th>
+         <th align="left">
+          Antigenicity
+         </th>
+         <th align="left">
+          Nondigesting enzymes
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" colspan="10">
+          <bold>
+           MHC-I peptide
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          NATRFASVY
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.13
+         </td>
+         <td align="left">
+          1.0
+         </td>
+         <td align="left">
+          1028.24
+         </td>
+         <td align="left">
+          1.03
+         </td>
+         <td align="left">
+          Cyanogen bromide, idosobenzoate, proline endopept, staph protease, trypsin K and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          RISNCVADY
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.20
+         </td>
+         <td align="left">
+          0.00
+         </td>
+         <td align="left">
+          1040.27
+         </td>
+         <td align="left">
+          1.07
+         </td>
+         <td align="left">
+          Cymotrypsin, cyanogen bromide, trypsin K, endopept, staph protease andidosobenzoate
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          CVADYSVLY
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          0.11
+         </td>
+         <td align="left">
+          -1.00
+         </td>
+         <td align="left">
+          1032.29
+         </td>
+         <td align="left">
+          1.18
+         </td>
+         <td align="left">
+          Trypsin, clostripain, cyanogen bromide, idosobenzoate, proline endopept, staph protease, trypsin K and trypsin R
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          FTNVYADSF
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          0.03
+         </td>
+         <td align="left">
+          -1.0
+         </td>
+         <td align="left">
+          10632.24
+         </td>
+         <td align="left">
+          1.03
+         </td>
+         <td align="left">
+          Trypsin, clostripain, cyanogen bromide, idosobenzoate, proline endopept, staph protease, trypsin K and trypsin R
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          ERDISTEIY
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.30
+         </td>
+         <td align="left">
+          -2.0
+         </td>
+         <td align="left">
+          1125.30
+         </td>
+         <td align="left">
+          0.95
+         </td>
+         <td align="left">
+          Cymotrypsin, cyanogen bromide, idosobenzoate, proline endopept and trypsin K
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="10">
+          <bold>
+           MHC-II peptide
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          FELLHAPAT
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          0.10
+         </td>
+         <td align="left">
+          -0.5
+         </td>
+         <td align="left">
+          998.27
+         </td>
+         <td align="left">
+          1.09
+         </td>
+         <td align="left">
+          Trypsin, clostripain, cyanogen bromide, idosobenzoate, trypsin K, trypsin R and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          FNATRFAS
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.14
+         </td>
+         <td align="left">
+          1.0
+         </td>
+         <td align="left">
+          913.09
+         </td>
+         <td align="left">
+          0.98
+         </td>
+         <td align="left">
+          Cyanogen bromide, idosobenzoate, proline endopept, staph protease, N trypsin K and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          TGCVIAWNS
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          0.11
+         </td>
+         <td align="left">
+          0.0
+         </td>
+         <td align="left">
+          950.20
+         </td>
+         <td align="left">
+          1.05
+         </td>
+         <td align="left">
+          Trypsin, clostripain, cyanogen bromide, proline endopept, staph protease, trypsin K, trypsin R and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          FRKSNLKPF
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.35
+         </td>
+         <td align="left">
+          3.0
+         </td>
+         <td align="left">
+          1136.48
+         </td>
+         <td align="left">
+          0.99
+         </td>
+         <td align="left">
+          Cyanogen bromide, idosobenzoate, staph protease and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          YRLFRKSNL
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.43
+         </td>
+         <td align="left">
+          3.0
+         </td>
+         <td align="left">
+          1196.54
+         </td>
+         <td align="left">
+          0.99
+         </td>
+         <td align="left">
+          Cyanogen bromide, idosobenzoate, proline endopept, staph protease and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          6.
+         </td>
+         <td align="left">
+          VYAWNRKRI
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.03
+         </td>
+         <td align="left">
+          3.0
+         </td>
+         <td align="left">
+          1205.55
+         </td>
+         <td align="left">
+          0.99
+         </td>
+         <td align="left">
+          Cyanogen bromide, proline endopept, staph protease and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          7.
+         </td>
+         <td align="left">
+          FERDISTEI
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.23
+         </td>
+         <td align="left">
+          -2.0
+         </td>
+         <td align="left">
+          1109.32
+         </td>
+         <td align="left">
+          0.95
+         </td>
+         <td align="left">
+          Cyanogen bromide, idosobenzoate, proline endopept and trypsin K
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          8.
+         </td>
+         <td align="left">
+          IRGDEVRQI
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.38
+         </td>
+         <td align="left">
+          0.00
+         </td>
+         <td align="left">
+          1085.36
+         </td>
+         <td align="left">
+          0.98
+         </td>
+         <td align="left">
+          Cymotrypsin, cyanogen bromide, idosobenzoate, proline endopept and trypsin K
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          9.
+         </td>
+         <td align="left">
+          VLYNSASFS
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          0.06
+         </td>
+         <td align="left">
+          0.00
+         </td>
+         <td align="left">
+          987.19
+         </td>
+         <td align="left">
+          1.09
+         </td>
+         <td align="left">
+          Trypsin, clostripain, cyanogen bromide, idosobenzoate, proline endopept, staph protease, trypsin K, trypsin R and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="10">
+          <bold>
+           B-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          YKLPDD
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.34
+         </td>
+         <td align="left">
+          -1.00
+         </td>
+         <td align="left">
+          749.89
+         </td>
+         <td align="left">
+          1.05
+         </td>
+         <td align="left">
+          Clostripain, cyanogen bromide, idosobenzoate, staph protease, trypsin R and elastase
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          LFRKSN
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.44
+         </td>
+         <td align="left">
+          2.00
+         </td>
+         <td align="left">
+          763.97
+         </td>
+         <td align="left">
+          1.03
+         </td>
+         <td align="left">
+          Cyanogen bromide, idosobenzoate, proline endopept, staph protease and AspN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          SYGFQPT
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          N
+         </td>
+         <td align="left">
+          -0.06
+         </td>
+         <td align="left">
+          0.00
+         </td>
+         <td align="left">
+          798.94
+         </td>
+         <td align="left">
+          1.03
+         </td>
+         <td align="left">
+          Trypsin, clostripain, cyanogen bromide, idosobenzoate, staph protease, trypsin K, trypsin R, elastase and AspN
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         Prediction of their toxicity, mutation, homologs present in human proteome, antigenicity, digestion with enzymes and other physiochemical properties as charge, weight and hydrophobicity.
+        </p>
+       </fn>
+       <fn>
+        <p>
+         MHC-I: MHC class I; MHC-II: MHC class II; N: No; Y: Yes.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="S0015">
+     <title>
+      Interaction analysis of CTL epitopes with MHC-I specific alleles
+     </title>
+     <p>
+      Two peptides (CVADYSVLY and FTNVYADSF) with the maximum number of bindings with HLA alleles were selected for interaction analysis. PEPFOLD created five models for each peptide and the model with the best score was selected for further analysis.
+      <italic>
+       HLA-A*0101
+      </italic>
+      was selected as representative allele for interaction analysis. The docking of HLA-A with the top ranking peptide resulted in generation of 50 complexes for each peptide. The peptide 3 (CVADYSVLY) binds with HLA with binding energy of -11.3 KJ/mol, while a detailed interaction analysis revealed that peptide had H-bonding interactions with Asp-115, Arg-156, Tyr-99 and Asn-77 (      A). Peptide 4 (FTNVYADSF) bound with the HLA-A with an energy value of -12.6 KJ/mol. The peptide exhibited H-bonding interactions with Glu-63, Arg-156, Gln-155, Asn-77, Thr-143 and Lys-146 (      B).
+     </p>
+    </sec>
+    <sec id="S0016">
+     <title>
+      Interaction analysis of helper T lymphocyte epitopes with MHC-II specific alleles
+     </title>
+     <p>
+      Two of the peptides (YRLFRKSNL and VYAWNRKRI) that showed affinity with maximum number of MHC-II alleles were selected for interaction analysis. Docking of peptides with HLA-DRB5 depicted both the peptides to be binding with strong affinity. The peptide 6 and peptide 5 with maximum number of alleles were used to study affinity of these peptides with
+      <italic>
+       DRB5_0101
+      </italic>
+      . Peptide 5 (YRLFRKSNL) bound with the energy of -10.2 KJ/mol while peptide 6 (VYAWNRKRI) bound with the energy of -11.3 KJ/mol. The residues Asp-70, Asn-62, Arg-71 and Glu-55 of HLA-DRB5 were having H-bonding interactions with peptide 5 (      C). Interaction analysis revealed that Ser-53, Asp-11, Asp-30 and Asp-70 of HLA-DRB5 exhibited H-bonding interactions with peptide 6 (      D).
+     </p>
+    </sec>
+    <sec id="S0017">
+     <title>
+      Interaction analysis of BatCoV RaTG13 with bACE2
+     </title>
+     <p>
+      The interactions of BatCoV RaTG13 with bACE2 were done using HADDOCK. There were 155 different complexes of BatCoV RaTG13:bACE2 that were generated, which clustered into 12 groups.
+      <ext-link ext-link-type="uri" ns0:href="https://www.futuremedicine.com/doi/suppl/10.2217/fvl-2020-0269">
+       Supplementary Table 1
+      </ext-link>
+      shows the Z scores of all the seven clusters, size of each cluster, root-mean-square deviation (RMSD) from the overall lowest energy structure, and energy values of electrostatic, Van der Waals, and desolvation. The cluster with the best HADDOCK score (-178.9 ± 3.6) was further used for analysis. Detailed interaction analysis showed that 26 residues of bACE2 and nine residues of BatCoV RaTG13 were present at the interface. These residues were involved in 12 H-bonded, two salt bridges and 157 nonbonded contacts. The detailed interactions are shown in      and      .
+     </p>
+     <table-wrap id="T4" orientation="portrait" position="float">
+      <label>
+       Table 4.
+       <x xml:space="preserve">
+       </x>
+      </label>
+      <caption>
+       <title>
+        Interactions of bat coronavirus RaTG13 with bat angiotensin-converting enzyme2.
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+        <col align="left"/>
+       </colgroup>
+       <thead valign="top">
+        <tr>
+         <th align="center" colspan="2">
+          bACE2
+         </th>
+         <th align="left">
+         </th>
+         <th align="center" colspan="2">
+          BatCoV RaTG13
+         </th>
+        </tr>
+        <tr>
+         <th align="left">
+          S. No.
+         </th>
+         <th align="left">
+          Residue name
+         </th>
+         <th align="left">
+          Type of interactions
+         </th>
+         <th align="left">
+          Residue name
+         </th>
+         <th align="left">
+          Distance (Å)
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left">
+          1.
+         </td>
+         <td align="left">
+          Glu-24
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Tyr-473
+         </td>
+         <td align="left">
+          2.73
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2.
+         </td>
+         <td align="left">
+          Asp-30
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Lys-417
+         </td>
+         <td align="left">
+          2.63
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          3.
+         </td>
+         <td align="left">
+          Thr-30
+          <break/>
+          Lys-353
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          His-505
+         </td>
+         <td align="left">
+          2.78
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          4.
+         </td>
+         <td align="left">
+          Lys-35
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Arg-494
+         </td>
+         <td align="left">
+          3.08
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          5.
+         </td>
+         <td align="left">
+          Asp-38
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Tyr-498
+         </td>
+         <td align="left">
+          2.55
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          6.
+         </td>
+         <td align="left">
+          Gln-42
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Glu-445
+         </td>
+         <td align="left">
+          2.73
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          7.
+         </td>
+         <td align="left">
+          Lys-61
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Glu-445
+         </td>
+         <td align="left">
+          2.86
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          8.
+         </td>
+         <td align="left">
+          Leu-79
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Tyr-489
+         </td>
+         <td align="left">
+          2.84
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          9.
+         </td>
+         <td align="left">
+          Asn-82
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Asn-487
+         </td>
+         <td align="left">
+          3.03
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          10.
+         </td>
+         <td align="left">
+          Lys-31
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Leu-455
+          <break/>
+          Phe-456
+         </td>
+         <td align="left">
+          2.01
+          <break/>
+          3.8
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          11.
+         </td>
+         <td align="left">
+          Gln-42
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Tyr-489
+         </td>
+         <td align="left">
+          3.4
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          12.
+         </td>
+         <td align="left">
+          His-41
+         </td>
+         <td align="left">
+          H-bond
+         </td>
+         <td align="left">
+          Asp-501
+         </td>
+         <td align="left">
+          3.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          13.
+         </td>
+         <td align="left">
+          Asp-30
+         </td>
+         <td align="left">
+          Salt bridge
+         </td>
+         <td align="left">
+          Lys-417
+         </td>
+         <td align="left">
+          2.63
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          14.
+         </td>
+         <td align="left">
+          Lys-61
+         </td>
+         <td align="left">
+          Salt bridge
+         </td>
+         <td align="left">
+          Glu-445
+         </td>
+         <td align="left">
+          2.77
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         bACE2: Bat ACE2; BatCoV: Bat coronavirus.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      The important residues of BatCoV RaTG13 that were involved in interactions with bACE2 are Lys-417, Leu-455, Phe-456, Asn-487, Tyr-489, Asp-501 and His-505. The important conserved residues of BatCoV RaTG13 that involved in interactions and demonstrated overlapping with epitopes were Leu-455 and Phe-456. These residues lay within the B-cell epitope (455-LFRKSN-461) and T-cell epitope (453-YRLFRKSNL-461). The important interacting residues of BatCoV RaTG13 with bACE2 and a comparison with SARS CoV2:hACE2 are shown in      .
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="S0018" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     Research on various CoV species earlier has been continually reported since the last one and a half decade after the emergence of SARS, for annotating signatures and virulence factors [     ]. Viral entry receptors are crucial in viral life cycle, sustenance and egress [     ]. Realizing their particular tissue tropism further augments their importance for therapeutic targeting and restricting viral entry into cell which can abolish infectivity altogether.
+    </p>
+    <p>
+     In case of SARS-CoV and MERS-CoV, S protein and specially S1 regions have been the prime focus in developing immune strategies against these strains [     ]. Similar strategy can be employed by investigating the S protein for identifying immune epitopes against SARS-COV-2. Vaccines against SARS-CoV-2 can serve as one of the most promising modes of containing COVID-19 pandemic. To date no reliable treatment options are available for COVID-19, so logically vaccine against it is a much needed solution. As the global burden of infectivity by COVID-19 pandemic is increasing every day, computational biology aided vaccine design for SARS-CoV-2 with removal of unnecessary antigenic load and screened allergic response can provide the characteristic immune response required for preventing SARS-CoV-2 infection. Similar to SARS-CoV and MERS-CoV, S1 region of CVOID-19 harbors the RBD which is involved in the entry of virus into a host cell. Hence, the identification of antigenic peptides within RBD can be a good strategy to forestall infection. The present study focused on deriving immunogenic epitopes capable of triggering both humoral and cell mediated immune response, on the basis of high degree of comparative sequence similarity of RBD from BatCoV RaTG13 with SARS-CoV-2. Previously, immunogenic epitopes for SARS-CoV-2 by immunoinformatics method have been reported in comparison with SARS-CoV [     ]. Using this approach may yield rather specific epitopes against SARS-CoV-2. Contextually, cross-reactivity of SARS-CoV antibodies against SARS-CoV-2 epitopes is also under debate and is providing useful information against potential SARS-CoV-2 host immune response [     ,     ,     ].
+    </p>
+    <p>
+     Current results from analysis of RBD of SARS-CoV-2 revealed that 423-YKLPDD-428, 455-LFRKSN-461 and 494-SYGFQPT-500 are the B-cell epitopes that are highly antigenic. The two epitopes lie in receptor binding motif and also muddled in interactions with hACE2 [     ]. The Leu-455, Phe-456, Ser-494 and Thr-500 were the conserved residues among all the SARS-CoV-2 sequences hooked in interactions with hACE2. In case of T-cell epitopes, several epitopes were identified from IEDB and NetCTL and the peptides manifesting affinity with maximum number of MHC-I/MHC-II alleles were further selected for analysis. Previously, it has been reported that peptides showing affinity with maximum number of HLA alleles could be very antigenic [     ,     ]. In case of CTL epitopes, two epitopes (peptide 3: CVADYSVLY and peptide 4: FTNVYADSF) were found to be highly antigenic and also showed strong binding with HLA-A allele. HLA are polymorphic proteins with variable expression in different population. Therefore, a vaccine which is suited for all population without inciting any autoimmunity met by for T-cell epitopes by HLA selectivity is crucial for an effective vaccine candidate [     ]. In case of HLA-A*0101, the already docked peptide in crystal structure (PDB ID: 6AT9) has shown interactions with Tyr-7, Phe-9, Phe-33, Val-34, Tyr-59, Glu-63, Asn-77, Tyr-84, Ile-97, Tyr-99, Thr-143, Lys-146, Trp-147, Gln-155, Arg-156 and Tyr-159 of HLA-A [     ]. Peptide 3 (CVADYSVLY) has paraded interactions with Arg-156, Tyr-99 and Asn-77 while peptide 4 (FTNVYADSF) showed interactions with maximum number of amino acids (Glu-63, Arg-156, Gln-155, Asn-77, Thr-143 and Lys-146). In case of helper T-cell epitopes, YRLFRKSNL and VYAWNRKRI illustrated affinity with maximum number of MHC-II alleles. One of the MHC-II allele HLA-
+     <italic>
+      DRB5*0101
+     </italic>
+     was used to study possible interactions of peptide with HLA-DR. In case of HLA-
+     <italic>
+      DRB5*0101
+     </italic>
+     (PDB ID: 1FV1) the crystallized structure displayed interactions with Asp-9, Phe-12, Glu-55, Met-23, Ser-53, Asn-62, Asp-66, Asn-69, Asp-11, Tyr-13, Asp-70, Arg-71, Tyr-78 and Asn-82 [     ]. When we studied peptide 5 (YRLFRKSNL), Asn-62, Arg-71 and Glu-55 were residues important for binding of peptide. In case of peptide 6 (VYAWNRKRI), the Ser-53, Asp-11 and Asp-70 were involved in interactions with peptide. The interaction as well as binding energy data depicted these two peptides to be binding with HLA-DRB5 and can be used in vaccine construction. The peptide 453-YRLFRKSNL-461, present within the receptor binding motif and Leu-455 and Phe-456 illustrated interactions with hACE2 [     ] as well as bACE2.
+    </p>
+    <p>
+     On the basis of different properties of these selected B- and T-cell epitopes, it can be observed that these epitopes were 100% conserved from the reported data, as predicted by conservation analysis. These peptides also did not exhibited homology with any human protein hence may not incite any autoimmunity. These peptides did not display any toxicity. The digesting enzyme data showed these peptides to be indigestible by a range of enzymes and hence are safer to use for vaccine development (     ). The B- and T-cell epitopes (LFRKSN and YRLFRKSNL) are overlapping, hence the presence of YRLFRKSNL in vaccine construct along with other peptides may enhance the efficacy of a vaccine. The analysis on the sequences submitted until October 2020 has shown that all the predicted epitopes have been fairly conserved except one change observed in T-cell epitope (453-YRLFRKSNL-461) region at position 453 as Y453F. This mutation was labeled as mink mutation and found in SARS-CoV-2 sequences obtained from Denmark, South Africa and The Netherlands [     ,     ]. The results proposed herein are preliminary and further
+     <italic>
+      in vitro
+     </italic>
+     and
+     <italic>
+      in vivo
+     </italic>
+     testing is required for the proposed vaccinable targets of SARS-CoV-2. Based on the study results, the predicted epitopes harbor attractive capability to be considered for ascertaining therapeutic potency. The identified epitopes from this study can further be investigated along with conserved region epitopes of S protein for molecular simulation studies, in construction of experimental vaccine constructs and for considering its potential as a peptide based vaccine.
+    </p>
+    <p>
+     Cumulatively, the detailed interaction analysis of BatCoV RaTG13 has shown that hydrophobic and charged residues have been involved in binding with bACE2. Analogous pattern has been observed in binding of SARS-CoV-2 with hACE2 receptor [     ]. The important residues of BatCoV RaTG13 that were involved in interactions with bACE2 are Lys-417, Leu-455, Phe-456, Asn-487, Tyr-489, Asp-501 and His-505. The residues at these positions in SARS-CoV-2 were also involved in interactions with hACE2 [     ]. Among them Lys-417, Leu-455, Phe-456, Asn-487 and Tyr-489 were the conserved residues (     ).
+    </p>
+    <p>
+     Designing an effective vaccine against viral infection such as COVID-19 is tricky. On one hand, it has to be ensured that the vaccinable epitopes hold enough antigenic potential to mount a befitting yet specific immune response so as to rapidly clear the infection if the need arises; on the other hand, the host immune response should not be strong enough to trigger chronic inflammation which in case of COVID-19 might significantly deteriorate lung infection. Lung as an organ is highly sensitive to inflammatory changes initiated by a surge of cytokine response [     ]. Mutations in the viral genome are capacitating CoVs to breach species barrier repeatedly. As the CoVs harbor an error-prone RNA dependent-RNA polymerase, it may engender recombination events with mutational diversity, concocting therapeutic challenges and survival advantage to the virus [     ]. This has been the case observed in SARS-CoV epidemic of 2004 [     ,     ]. It is of grave concern that SARS-CoV-2 has the potential to reach pandemic proportions while considering the low persistent R
+     <sub>
+      o
+     </sub>
+     estimates. As bats are considered primary hosts for CoV species, it will be interesting to scrutinize how bats evade viral entry as previous studies have identified bats evolving a mechanism for defying interferon pathway activation by the STING interferon pathway [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="S0019" sec-type="conclusions">
+    <title>
+     Conclusion
+    </title>
+    <p>
+     The current study proposed the identification of potential multiple epitopes for vaccine development against SARS-CoV-2. The potential vaccine epitopes have been rigorously screened for multiple HLA, B-Cell, CTL and helper T lymphocyte epitopes thus augmenting its capability in inducing both humoral and cellular immune responses. Furthermore, it can be co-opted with adjuvant treatment in further enhancing viral disease control. The epitopes were further screened and validated for 100% conservancy with nonoverlapping human proteome thus additionally reducing the chances of autoimmunogenic side effects. The molecular docking of epitopes with HLA alleles were further validated for their mode of binding patterns and analysis of binding energy affinities.
+    </p>
+    <boxed-text id="BB1" orientation="portrait" position="float">
+     <caption>
+      <title>
+       Summary points
+      </title>
+     </caption>
+     <list list-type="bullet">
+      <list-item>
+       <p>
+        The December of 2019 witnessed emergence of worldwide outbreak by a novel strain of coronavirus (CoV) termed SARS-CoV-2.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        There is no therapeutic or preventive strategy like vaccine developed so far to overcome infection.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        The receptor binding domain of SARS-Cov-2 for any potential vaccine epitopes were explored using immunoinformatics approach.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        The B-cell epitopes LFRKSN and SYGFQPT, were found to be highly antigenic. Among T-cell epitopes, the epitope CVADYSVLY and FTNVYADSF were antigenic and exhibited affinity for maximum number of MHC class I alleles. The T-cell epitopes YRLFRKSNL and VYAWNRKRI displayed affinity for maximum number of MHC class II alleles. The overlapping epitope among B- and T-cells was YRLFRKSNL.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        The epitopes were further screened and validated for 100% conservancy with nonoverlapping human proteome thus additionally reducing the chances of autoimmune side effects.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        The important conserved residues of BatCoV RaTG13, the Leu-455 and Phe-456 that have been involved in interactions, also demonstrated overlap with epitopes. These residues lay within the B-cell epitope (455-LFRKSN-461) and T-cell epitope (453-YRLFRKSNL-461).
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        The deployment of these epitopes in potential vaccine against COVID-19 may help in sweeping the COVID-19 infectious spread.
+       </p>
+      </list-item>
+     </list>
+    </boxed-text>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary Material
+    </title>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <p>
+    The COVID-19 pandemic [    ] with its widespread pathogenesis on human body reminds us of the SARS and Middle East respiratory syndrome (MERS) epidemics [    ,    ]. Before the emergence of SARS family-mediated epidemics, coronaviruses (CoVs) were not a notable pathogenic entity, although they have been cited in the literature since the 1960s [    ]. Besides SARS-CoV-2, the SARS-CoV and MERS-CoV were other famous coronaviral strains known for crossing the species barrier and infecting humans, while 229E, NL63(alpha), OC43 and HKU1 (beta) strains of CoVs caused common cold in humans [    ]. The SARS-CoV that surfaced during 2002–2003 in China, infected almost 8000 individuals and caused 774 causalities in 37 countries [    ,    ] while MERS-CoV emerged in 2012 and infected 2494 humans causing 858 mortalities [    ,    ,    ]. The ongoing epidemic of SARS-CoV-2 has affected more than 13 million and caused 0.5 million deaths globally up to 15 July 2020 [    ]. The detailed viral sequence of SARS-CoV-2 indicates a genetic similarity to its earlier family members SARS and MERS, harboring six open reading frames [    ]. The genome of CoVs is generally 27–35 kb, stuffed inside a nucleocapsid protein envelope. There are three structural proteins associated with viral envelope: membrane, envelope and spike (S) proteins [    ]. The S protein is essential for viral entry into host but also impels tissue tropism, host diversity as well as host immune responses [    ]. The S protein constitutes S1 and S2 subunits where S1 harbors receptor-binding domain (RBD) while S2 aids in virus–host cell fusion. Interestingly, the S gene of CoVs has been noticeable for the most recurring recombination breakpoints in SARS-CoV [    ]. In case of SARS CoV, the main entry receptor on host cell is ACE2 [    ] while in case of MERS-CoV, the primary entry receptor is dipeptidyl peptidase 4 (also known as CD26) [    ]. Comparatively, the genomes of SARS-CoV and MERS-CoV although harboring significant similarity, they potentially harbor variation, particularly from the antigenic response they might generate with reference to RBD [    ].
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    Receptor-binding protein has been previously targeted for vaccinable solutions [    ,    ]. However, from the evolutionary standpoint, coronaviral RBD is reported as a hypervariable region [    ]. There are no approved treatments or vaccines available to tackle COVID-19 thus far; however, development has been fast tracked. Contextually, vaccinomics approach exploits immunogenomics of SARS-CoV-2 RBD that can lead to potential vaccine candidate identification. Immunoinformatics driven in-depth analysis can aid in identifying repertoire of viral antigenic epitopes that may be either linear or discontinuous and it also helps in identifying whether these epitopes are immunogenic or virulent [    ]. A comprehensive immunoinformatics data mining of SARS-CoV-2 RBD can increase our understanding for its antigenic profile. Encouragingly enough, epitope prediction analyses were reported earlier for SARS and MERS strains [    ,    ] and more recently for SARS-CoV-2 [    ].
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    Numerous studies have reported bats as the primary reservoirs of SARS and MERS viruses [    ,    ]; however, rodent origin has also been reported [    ,    ]. A recently reported strain derived from bats, the bat CoV (BatCoV RaTG13) shares more than 96% homology with SARS-CoV-2 and 93% with its S protein, rendering it to be a close relative of SARS-CoV-2 [    ]. Anatomically, conservative peptide sequence of coronaviral RBD compared with the closest known zoonotic coronaviral strain can provide better potential vaccine candidates for human testing. After the emergence of COVID-19 pandemic, SARS-CoV-2 surface protein has been repeatedly utilized for the identification of potential vaccine epitopes for SARS-CoV-2 [    ]. However, there has also been simultaneous speculation regarding potential existence of cross resistance epitopes between SARS-CoV-2 and SARS-CoV [    ,    ,    ]. Earlier, the computational probing of protein structures for respiratory infections via employment of docking methods has added useful information to stereochemical properties, virus binding mediated host receptor conformational transformation and binding preferences [    ]. Contextually, viral receptor interactions were considered valuable in the instances of picornaviruses, influenza, HIV and CoVs [    ,    ]. For the SARS-CoV-2-induced infection, the basic reproduction number for viral transmissibility (R
+    <sub>
+     o
+    </sub>
+    ) as per various estimates is around 1.1–5.5 [    ,    ]. Since this threshold suggests very high infectivity rate, it is pertinent to target the viral binding region with vaccines to prevent infection.
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    Vaccinable peptide sequence for epitope based vaccine in case of alphaviruses, hepatitis B and C, HIV, HPV, and influenza viruses for recognition of potent immunogens has given propitious results [    ]. Several studies reported on SARS and MERS CoV strains provided useful information regarding the potential epitopes retained by these strains [    ], while, the data in context pertinent to SARS-CoV-2 are insufficient. The global COVID-19 pandemic has sparked rigorous R&amp;D activity for vaccine development, and in a matter of just 4 months, various potential vaccine candidates are in the preclinical and clinical development phases [    ]. The clinical behavior of SARS-CoV-2, infecting people around the world, with varied clinical symptomatology, ranging from completely asymptomatic to rapidly progressing lethal respiratory insufficiency demands the utilization of thorough and rapid novel technology platforms with more vaccinable options against SARS-CoV-2 [    ,    ].
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    This study reports key findings vis-a-vis SARS-CoV-2 RBD for its variable and conservative residues in comparison with BatCoV RaTG13 strain, which can be considered immunogenic epitopes for potential multi-epitope vaccine candidate for SARS-CoV-2 in the backdrop of its binding orientation.
+   </p>
+  </textgroup>
+ </sentences>
+</article>

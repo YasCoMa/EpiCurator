@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Targeting the SARS-CoV2 nucleocapsid protein for potential therapeutics using immuno-informatics and structure-based drug discovery techniques
+ </title>
+ <abstract>
+  <p>
+   <list id="lis0005" list-type="simple">
+    <list-item id="lsti0005">
+     <label>
+      •
+     </label>
+     <p id="par0005">
+      SKQLQQSMSSADS      and      RRIRGGDGKMKDL      sequences of N-protein are predicted to induce B-cell memory response .
+     </p>
+    </list-item>
+    <list-item id="lsti0010">
+     <label>
+      •
+     </label>
+     <p id="par0010">
+      SSPDDQIGY      and      AQFAPSASAFFGMSR      are predicted to elicit T-cell-mediated immune response with accompanied memory.
+     </p>
+    </list-item>
+    <list-item id="lsti0015">
+     <label>
+      •
+     </label>
+     <p id="par0015">
+      AQFAPSASAFFGMSR      is predicted to cross-react with SARS-CoV1, MERS-CoV and hCoV−OC43.
+     </p>
+    </list-item>
+    <list-item id="lsti0020">
+     <label>
+      •
+     </label>
+     <p id="par0020">
+      Zidovudine triphosphate is a potential inhibitor of the N-terminal domain of SARS-CoV2 N-protein.
+     </p>
+    </list-item>
+   </list>
+  </p>
+  <p>
+   The occurrence of the SARS-CoV2 infection has become a worldwide threat and the urgent need to discover therapeutic interventions remains paramount. The primary roles of the coronavirus nucleocapsid (N) protein are to interact with the viral genome and pack them into ribonucleoprotein complex. It also plays critical roles at many stages of the viral life cycle. Herein, we explore the N protein of SARS-CoV2 to identify promising epitope-based vaccine candidates and target the N-terminal domain of SARS-CoV2 N-protein for potential inhibitors using an integrative bioinformatics approach. We identified B-cell epitopes and T-cell epitopes that are non-toxic, non-allergenic, capable of inducing IFN-γ and structurally stable with high global population coverage of response. The   SKQLQQSMSSADS   and   RRIRGGDGKMKDL   sequences of N-protein were identified to induce B-cell immunity. We also identified   SSPDDQIGY   and   AQFAPSASAFFGMSR   as potential T-cell epitopes that form stable structures with human leucocyte antigens. We have also identified zidovudine triphosphate, an anti-HIV agent, as a potential inhibitor of the N-terminal domain of SARS-CoV2 N-protein based on docking and simulation analysis and should be considered for experimental validations. The findings of this study can help fast-track the discovery of therapeutic options to combat COVID-19.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="par0025">
+     The global incidence of the coronavirus disease 2019 (COVID-19) has an estimated 20 million cases with over 740, 000 deaths as per current data available on 12th August 2020. The disease is caused by the severe acute respiratory syndrome coronavirus-2 (SARS-CoV2), the newest member of the family
+     <italic>
+      Coronaviridae
+     </italic>
+     . SARS-CoV2, SARS-CoV1 and Middle East Severe Acute Respiratory Syndrome Coronavirus (MERS-CoV) belong to the genus
+     <italic>
+      Betacoronavirus,
+     </italic>
+     thus, share particular genomic and proteomic similarities. It has been reported that SARS-CoV2 genome shares approximately 80 % and 50 % similarity with SARS-CoV1 and MERS-CoV, respectively [     ,     ]. The structural proteins and enzymes of SARS-CoV2 are 90 % homologous to those of SARS-CoV1 and MERS-CoV [     ]. The clinical symptoms at the early stages of the disease include fever, fatigue and dry cough [     ,     ]. Progression of the disease to a severe case is manifested as pneumonia and is usually accompanied by dyspnea and dry cough [     ]. There are several complications associated with the SARS disease which include acute respiratory distress syndrome (ARDS), organ dysfunction, cardiac injury and systemic inflammation [     ,     ]. The structural proteins of SARS-CoV2 namely; spike (S) glycoprotein, envelope (E), membrane (M) and nucleocapsid (N) proteins, play crucial roles during entry and survival of the virus in the host cell. The primary roles of the coronavirus N protein are to interacts with the viral genome and pack them into ribonucleoprotein (RNP) structure [     ,     ,     ]. Notwithstanding, the coronavirus N protein is multifunctional, having critical roles at many stages of the viral life cycle [     ]. Notable among them are viral budding [     ], viral assembly [     ], regulation of host cell cycle [     ] and regulation of viral mRNA replication [     ,     ]. Considering the roles of the N protein and its high expression during viral infections, the N protein can be a promising target for drug and vaccine development. Targeting the N-protein provides opportunities to interfere with coronavirus assembly, transcription and replication. With the progression of the COVID-19 pandemic, search for pharmaceutical options are mainly driven by drug repurposing to reduce the drug discovery timeline [     ].
+    </p>
+    <p id="par0030">
+     Considering the novelty and timing of COVID-19, research groups are beginning to understand aspects of the immunological response to the SARS-CoV2 to aid in the discovery of vaccines. The quest for safe and effective vaccines for COVID-19 has resulted in potential candidates with varying strategies and stages of developments. According to reports by the World Health Organization (WHO) on 10th August 2020, 28 vaccine candidates have been registered and are currently in clinical evaluations and 139 candidates in pre-clinical evaluations [     ]. Many of these candidates are sub-unit vaccines, as they provide a more logistically workable approach [     ] and are capable of inducing both cellular and humoral responses [     ]. Majority of the candidates in clinical evaluations target the S protein, considering its immuno-dominant nature. However, there are reports that depict the N-protein as highly immunogenic with antigenic regions that are highly conserved across the coronaviruses [     ,     ,     ,     ,     ,     ]. The conventional approaches for epitope-based vaccine identification are resource-demanding, thus, designing epitope-based vaccines using bioinformatics offer a safer, inexpensive and more effective approach. In this paper, we integrate immuno-informatics, structure-based drug discovery and other computational methods to identify potential epitope-based vaccine and drug candidates that target the N-protein of SARS-CoV2. The results reveal potential N-protein epitopes that are highly immunogenic and elicit B-cell immunity, T-cell immunity, virus-specific antibody neutralization and natural killer cell-mediated immunity. The anti-HIV agent, zidovudine triphosphate was identified to potentially inhibit the N-terminal domain of SARS-CoV2 N-protein based on binding energy and simulation analysis.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec0010">
+    <label>
+     2
+    </label>
+    <title>
+     Methods
+    </title>
+    <sec id="sec0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      Immuno-informatics approach
+     </title>
+     <sec id="sec0020">
+      <label>
+       2.1.1
+      </label>
+      <title>
+       Protein structure preparations
+      </title>
+      <p id="par0035">
+       The SARS-CoV2 nucleocapsid protein (N-protein) sequence was fetched from the NCBI protein database (
+       <ext-link ext-link-type="uri" id="intr0005" ns0:href="https://www.ncbi.nlm.nih.gov/protein/QIC53221.1">
+        https://www.ncbi.nlm.nih.gov/protein/QIC53221.1
+       </ext-link>
+       ) and human leucocyte antigen (HLA) protein sequences were retrieved from the UniProt database (
+       <ext-link ext-link-type="uri" id="intr0010" ns0:href="https://www.uniprot.org/">
+        https://www.uniprot.org/
+       </ext-link>
+       ). We used the SWISS-MODEL server (
+       <ext-link ext-link-type="uri" id="intr0015" ns0:href="https://www.swissmodel.expasy.org/">
+        https://www.swissmodel.expasy.org/
+       </ext-link>
+       ) to generate structures of the SARS-CoV2 N-protein and the HLA proteins based on the co-ordinates of their respective homologous protein structures available at the protein data bank (
+       <ext-link ext-link-type="uri" id="intr0020" ns0:href="https://www.rcsb.org/">
+        https://www.rcsb.org/
+       </ext-link>
+       ).
+      </p>
+     </sec>
+     <sec id="sec0025">
+      <label>
+       2.1.2
+      </label>
+      <title>
+       Epitope prediction and assessment
+      </title>
+      <sec id="sec0030">
+       <label>
+        2.1.2.1
+       </label>
+       <title>
+        B-cell epitopes
+       </title>
+       <p id="par0040">
+        The linear and discontinuous B-cell epitopes were predicted using Bepipred 2.0 (
+        <ext-link ext-link-type="uri" id="intr0025" ns0:href="http://www.cbs.dtu.dk/services/BepiPred/index.php">
+         http://www.cbs.dtu.dk/services/BepiPred/index.php
+        </ext-link>
+        ) and ElliPro (
+        <ext-link ext-link-type="uri" id="intr0030" ns0:href="http://tools.iedb.org/ellipro/">
+         http://tools.iedb.org/ellipro/
+        </ext-link>
+        ), respectively. We used the interface provided by the IEBD web server (
+        <ext-link ext-link-type="uri" id="intr0035" ns0:href="http://www.iedb.org/">
+         http://www.iedb.org/
+        </ext-link>
+        ) for the predictions. Bepipred 2.0 uses a Random Forest regression algorithm to predict the probability that a residue of the antigenic protein is a member of an epitope [        ]. The algorithm considers several properties of the antigenic residues including surface accessibility, hydrophobicity, secondary structure and polarity [        ]. ElliPro combines three algorithms to predict discontinuous epitopes from a protein structure [        ]. The first algorithm reconfigures the shape and surface of the query protein structure into an ellipsoid. Based on the ellipsoid shape, another algorithm estimates the protrusion index (PI) of each residue such that when a particular residue is seen outside the ellipsoid shape after 70 % of the protein atoms are captured within the ellipsoid shape, then the PI of that residue is 0.7. The last algorithm then determines the discontinuous epitopes by clustering neighboring residues based on a PI cut-off.
+       </p>
+      </sec>
+      <sec id="sec0035">
+       <label>
+        2.1.2.2
+       </label>
+       <title>
+        T-cell epitopes
+       </title>
+       <p id="par0045">
+        All T-cell epitopes were predicted using the IEBD web server (
+        <ext-link ext-link-type="uri" id="intr0040" ns0:href="http://www.iedb.org/">
+         http://www.iedb.org/
+        </ext-link>
+        ). The T-cell epitope predictions were based on the peptides affinity to major histocompatibility complexes (MHC) or HLA. Both class I MHC-binding peptides and class II MHC-binding peptides were predicted. For the class I MHC-binding peptides, a reference set consisting of several alleles each of HLA-A, HLA-B and HLA-C was used. Similarly, a reference set of MHC class II alleles was used for the prediction of class II MHC-binding peptides. The IEBD recommended prediction algorithms were employed in both cases.
+       </p>
+      </sec>
+      <sec id="sec0040">
+       <label>
+        2.1.2.3
+       </label>
+       <title>
+        Epitope assessment
+       </title>
+       <p id="par0050">
+        The predicted epitopes were assessed based on toxicity, allergenicity and ability to induce IFN-γ. The toxicity of the peptides was predicted using a support vector machine-based algorithm developed by Gupta et al. [        ]. We used AllerTop [        ] to predict the antigenicity of each peptide. The ability of the epitopes to induce IFN-γ was predicted by IFNepitope [        ] using the hybrid approach (motif and support vector machine).
+       </p>
+      </sec>
+      <sec id="sec0045">
+       <label>
+        2.1.2.4
+       </label>
+       <title>
+        Epitope modeling and stability studies
+       </title>
+       <p id="par0055">
+        Structural configurations of the selected epitopes were modeled using PEP-FOLD 3 [        ]. The peptide models were then simulated using GROMACS 2020.3, following the protocol described in section        .7. A 20 ns run was performed for each epitope and their root mean square deviation was computed using the GROMACS analysis tool.
+       </p>
+      </sec>
+     </sec>
+     <sec id="sec0050">
+      <label>
+       2.1.3
+      </label>
+      <title>
+       Population coverage analysis
+      </title>
+      <p id="par0060">
+       The population coverage analysis tool available at IEBD (
+       <ext-link ext-link-type="uri" id="intr0045" ns0:href="http://tools.iedb.org/population">
+        http://tools.iedb.org/population
+       </ext-link>
+       ) was used to predict the percentage of individuals that would respond to the epitope(s) based on the HLA allele genotypic frequency within their ethnicities/areas. The frequency of HLA genotype within a population is provided by the Allele frequency database (
+       <ext-link ext-link-type="uri" id="intr0050" ns0:href="http://www.allelefrequencies.net/">
+        http://www.allelefrequencies.net/
+       </ext-link>
+       ).
+      </p>
+     </sec>
+     <sec id="sec0055">
+      <label>
+       2.1.4
+      </label>
+      <title>
+       Epitope conservation analysis
+      </title>
+      <p id="par0065">
+       The occurrence of the epitope sequence in other related coronaviruses was analyzed using Clustal omega (
+       <ext-link ext-link-type="uri" id="intr0055" ns0:href="https://www.ebi.ac.uk/Tools/msa/clustalo/">
+        https://www.ebi.ac.uk/Tools/msa/clustalo/
+       </ext-link>
+       ). The N-protein of SARS-CoV1, MERS-CoV, Human coronaviruses (hCoV) OC43 and NL63 were considered for the homology analysis, noting the conservation of the epitope sequences across the related coronaviruses.
+      </p>
+     </sec>
+     <sec id="sec0060">
+      <label>
+       2.1.5
+      </label>
+      <title>
+       Molecular docking of epitopes with HLA proteins
+      </title>
+      <p id="par0070">
+       The best binding conformation of the epitope-HLA complex was determined with Cluspro 2.0 server [       ] using the antibody model [       ]. The Cluspro algorithm performs three steps in the protein-protein binding prediction [       ]. The algorithm performs a rigid-body docking on a very large set of conformations using a Fast Fourier Transform (FFT)-dependent algorithm called PIPER [       ,       ]. The docked conformations are the clustered based on root mean square deviation to select representative conformations of lowest energy [       ]. The last computational step is energy minimization of the top conformations from step 2 using CHARMM force field [       ]. The server is available at
+       <ext-link ext-link-type="uri" id="intr0060" ns0:href="https://cluspro.bu.edu/home.php">
+        https://cluspro.bu.edu/home.php
+       </ext-link>
+       .
+      </p>
+     </sec>
+     <sec id="sec0065">
+      <label>
+       2.1.6
+      </label>
+      <title>
+       Molecular dynamics simulation of complexes
+      </title>
+      <p id="par0075">
+       The proteins were subjected to molecular dynamics simulations using GROMACS 2020.3 software suite [       ] and CHARMM 2019 force filed. The structures were centered in a dodecahedron box, at least 1 nm from the edges and solvated with spc216 water model. The system was electrostatically neutralized with 0.154 M NaCl. In order to get rid of inappropriate geometry and steric hindrances, energy minimization was performed on the system using the steepest descent algorithm for 10,000 steps with a maximum force threshold of 100 kJ/mol/nm. Van der-Waals interactions were treated with a single cut-off of 1.216 nm and long-range electrostatics were treated with the Particle-Mesh Ewald (PME) method with 0.16 FFT grid spacing and 4th order B-spline interpolation. Neighbor search was performed every 20 steps using the grid method with Verlet cut-off scheme. Protein and non-protein components of the system were independently coupled to v-rescale thermostat and an isotropic Berendsen algorithm for pressure coupling. The pressure was maintained by weak coupling to a reference pressure of 1 bar, with an isothermal compressibility of 4.6 × 10−5 bar       . The bond lengths within the protein were constrained using the LINCS algorithm. The system was subjected to a 400 ps NVT and NPT equilibration, followed by 200 ns simulation using the leap-frog integrator. The trajectories were analyzed with built-in GROMACS commands and all graphic data were generated with the GRACE tool (
+       <ext-link ext-link-type="uri" id="intr0065" ns0:href="http://plasma-gate.weizmann.ac.il/Grace">
+        http://plasma-gate.weizmann.ac.il/Grace
+       </ext-link>
+       ).
+      </p>
+     </sec>
+     <sec id="sec0070">
+      <label>
+       2.1.7
+      </label>
+      <title>
+       Immune simulation
+      </title>
+      <p id="par0080">
+       The immune response that would be elicited by the predicted epitopes was simulated using the C-ImmSim server (
+       <ext-link ext-link-type="uri" id="intr0070" ns0:href="http://150.146.2.1/C-IMMSIM/index.php">
+        http://150.146.2.1/C-IMMSIM/index.php
+       </ext-link>
+       ). C-ImmSim is based on the models developed by Celada-Seiden [       ,       ,       ] and operates as an agent-based model that uses machine learning techniques to simulate the immune response towards a particular pathogen. The players of the immune system are represented as agents and the interactions between the agents are guided by set of rules that emanate from present understanding of immunological principles. These principles that are incorporated into the C-ImmSim algorithm include MHC restriction [       ], development of memory [       ,       ], clonal deletion theory [       ], processing and presentation of antigens [       ,       ,       ] among others [       ]. The algorithm does well to mimic the immune system as it simultaneously simulates immunological processes in the bone marrow (production of lymphoid and myeloid cells), the thymus (T-cell education), and the lymphatic system (immune surveillance) [       ]. Three injections were given according to the dose series of 0, 2 and 6 months. All simulation parameters were set at default with time steps set at 1, 180, and 360 (each time step represent 8 h in reality).
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec0075">
+     <label>
+      2.2
+     </label>
+     <title>
+      Structure-based drug discovery
+     </title>
+     <sec id="sec0080">
+      <label>
+       2.2.1
+      </label>
+      <title>
+       Structure preparation
+      </title>
+      <p id="par0085">
+       In our structure-based drug discovery approach, we targeted the N-terminal domain of SARS-CoV2 N-protein because the domain is reported to have binding pockets for ribonucleoside 5′- monophosphates such as adenosine 5′-monophosphate (AMP) [       ]. We then retrieved an experimental structure of a related coronavirus in complex with AMP to aid in our analysis of the ligand’s binding site in SARS-CoV2 N-protein. The receptor (SARS-CoV2 N-protein) was energy minimized for 10,000 steps using GROMACS 2020.3 and the low-energy structure was used for the analysis.
+      </p>
+     </sec>
+     <sec id="sec0085">
+      <label>
+       2.2.2
+      </label>
+      <title>
+       AMP binding site analysis
+      </title>
+      <p id="par0090">
+       The AMP binding site in the N-terminal domain of SARS-CoV2 N-protein was elucidated through alignment of protein structures using PyMol 2.2 [       ]. The algorithm performs sequence alignment followed by a structural superposition, and then cycle refinement in order to reject structural outliers found during the fitting. Since we were also interested in the all-atom root mean square deviation, we turned off the refinement process.
+      </p>
+     </sec>
+     <sec id="sec0090">
+      <label>
+       2.2.3
+      </label>
+      <title>
+       Discovery of potential N-protein NTD inhibitors
+      </title>
+      <p id="par0095">
+       The N-terminal domain of the SARS-CoV2 nucleocapsid protein was targeted for potential inhibitors using a library of approved antiviral drugs. The active site of the N-protein NTD accomodates nucleic acid substrates when packing the viral genome into a ribonucleoprotein complex. Targeting the N-protein can provide means to interrupt critical stages of the virus life cycle like virus assembly, transcription and replication processes. Thus, existing antiviral agents known to interfere with viral processes such as reverse transcription, virus integration, viral transcription and translation were considered because their mechanisms involve viral genetic materials. A set of 21 antiviral agents were randomly selected for this study. The selected ligands have a wide inhibitory spectrum including nucleoside analogues, nucleoside reverse transcriptase inhibitors, integrase inhibitors and acyclic guanosine analogues. The 3D structures of the drug candidates were generated with UCSF Chimera 1.14 [       ] using their SMILE strings obtained from PubChem (
+       <ext-link ext-link-type="uri" id="intr0075" ns0:href="https://pubchem.ncbi.nlm.nih.gov/">
+        https://pubchem.ncbi.nlm.nih.gov/
+       </ext-link>
+       ). Ligands and receptor preparations were performed with AutoDock 4.2.6 tools [       ]. AutoDock compatible structure files (pdbqt formats) were generated for both ligands and receptor after addition of hydrogen atoms and computation of Gasteiger charges. The Lamarckian genetic algorithm (LGA) was used and search parameters were set as follows; 50 GA runs, population size of 150, a maximum number of 25,000,000 energy evaluations, 27,000 number of generations, mutation rate of 0.02, and a crossover rate of 0.8. Grid was centered on the binding pocket of AMP and the size configured with dimensions 54, 52 and 48 along the x, y, and z-axis, respectively and 0.375 Å spacing. RMS cluster tolerance was set to 2.0 Å. We clustered the docking conformations based on root mean square deviation and a tolerance of 2.0 Å. The docked conformations were evaluated on the basis of binding energy and frequency of pose (cluster).
+      </p>
+     </sec>
+     <sec id="sec0095">
+      <label>
+       2.2.4
+      </label>
+      <title>
+       Binding energy analysis: MM/PBSA approach
+      </title>
+      <p id="par0100">
+       The energy terms governing the protein-ligand interactions were analyzed using the MM-PBSA (Molecular Mechanics with Poisson–Boltzmann Surface Area) approach [       ]. All energy terms were calculated by the g_mmpbsa 5.1.2 tool [       ] based on simulation trajectories. We used GROMACS 5.1.5 (compatible with the g_mmpbsa tool) to run all the simulations following the protocol discussed in section       .7 with slight modifications. We performed NVT and NPT equilibrations for 200 ps each under constraint conditions followed by 5 independent simulations each lasting for 1 ns with a sampling frequency of 10 ps. Frames from the last 500 ps of each run were used for the binding energy calculations.
+      </p>
+     </sec>
+     <sec id="sec0100">
+      <label>
+       2.2.5
+      </label>
+      <title>
+       Simulation of protein-ligand complexes
+      </title>
+      <p id="par0105">
+       The behavior of the protein-ligand complexes at the atomistic level was elucidated with molecular dynamics simulation using the method described in section       .7 with some modifications. Ligand topologies were generated by the Swiss Param server (
+       <ext-link ext-link-type="uri" id="intr0080" ns0:href="http://www.swissparam.ch/">
+        http://www.swissparam.ch/
+       </ext-link>
+       ). Each complex was simulated for 100 ns. RMSD calculation was performed with the 100 ns simulation trajectory while the last 80 ns simulation trajectory was used for all other protein-ligand complex analysis.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec0105">
+    <label>
+     3
+    </label>
+    <title>
+     Results
+    </title>
+    <sec id="sec0110">
+     <label>
+      3.1
+     </label>
+     <title>
+      Immuno-informatics approach
+     </title>
+     <sec id="sec0115">
+      <label>
+       3.1.1
+      </label>
+      <title>
+       Prediction of B-cell epitopes
+      </title>
+      <p id="par0110">
+       To determine the regions of SARS-CoV2 N-protein that may induce B-cell immunity, we predicted both linear and discontinuous B-cell epitopes using Bepipred 2.0 and Ellipro, respectively. The N-protein sequence obtained from the NCBI protein database (Accession number: QIC53221.1) was used for the prediction of the linear epitopes. The discontinuous epitopes, on the other hand, were predicted using a 3D structural conformation of the SARS-CoV2 N-protein. Structures of N-protein C-terminal domain and N-terminal domain were modeled as separate molecules using SWISS-MODEL (       ). The built structures were used to predict the discontinuous epitopes. Using a prediction cut-off of 0.5, the Bepipred 2.0 server predicted 11 candidates of varying residual length ranging from 6 to 52. The Ellipro server predicted 5 and 7 epitope candidates mapped to the C-terminal and N-terminal domains, respectively.
+      </p>
+     </sec>
+     <sec id="sec0120">
+      <label>
+       3.1.2
+      </label>
+      <title>
+       Prediction of T-cell epitopes
+      </title>
+      <p id="par0115">
+       We also predicted epitopes that may induce T-cell response against SARS-CoV2, based on ability to interact with specific HLA alleles. With over 3400 predicted MHC class I restricted epitopes, consideration was given to those below a percentile rank of 0.5 %. The percentile rank represents a randomly selected number of epitopes that are graded better than the candidate of interest, hence, a lower percentile rank is preferred.
+      </p>
+     </sec>
+     <sec id="sec0125">
+      <label>
+       3.1.3
+      </label>
+      <title>
+       Assessment of epitopes
+      </title>
+      <p id="par0120">
+       As potential vaccine candidates, the predicted epitopes were profiled according to their toxicity, allergenicity and ability to induce IFN-γ. For the B-cell epitopes, preference was given to the non-toxins and non-allergen candidates with 8–11 amino acid residues. This resulted in 4 B-cell epitope candidates. The MHC-restricted epitopes that were predicted to be non-toxic, non-allergic and capable of inducing IFN-γ were considered for further analysis. This resulted in a total of 9 MHC-restricted epitopes. The sequences of the selected epitopes after the evaluation process are shown in       .
+       <table-wrap id="tbl0005" position="float">
+        <label>
+         Table 1
+        </label>
+        <caption>
+         <p>
+          Evaluation and characterization of epitopes. The predicted HLA allele that binds well to the MHC-restricted epitopes are also provided.
+         </p>
+        </caption>
+        <alt-text id="at0050">
+         Table 1
+        </alt-text>
+        <table frame="hsides" rules="groups">
+         <tbody>
+          <tr>
+           <td align="left"/>
+           <td align="left" colspan="7">
+            <italic>
+             <bold>
+              B-cell epitope
+             </bold>
+            </italic>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Candidate
+           </td>
+           <td align="left">
+            Peptide
+           </td>
+           <td align="left">
+            Length
+           </td>
+           <td align="left">
+            Toxicity
+           </td>
+           <td align="left">
+            Allergenicity
+           </td>
+           <td align="left">
+            RMSD (nm)
+           </td>
+           <td align="left"/>
+           <td align="left"/>
+          </tr>
+          <tr>
+           <td align="left">
+            1
+           </td>
+           <td align="left">
+            AGLPYGANK
+           </td>
+           <td align="left">
+            9
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            0.47
+           </td>
+           <td align="left"/>
+           <td align="left"/>
+          </tr>
+          <tr>
+           <td align="left">
+            2
+           </td>
+           <td align="left">
+            <bold>
+             SKQLQQSMSSADS
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             13
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Non-toxin
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Probable non-allergen
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             0.14
+            </bold>
+           </td>
+           <td align="left"/>
+           <td align="left"/>
+          </tr>
+          <tr>
+           <td align="left">
+            3
+           </td>
+           <td align="left">
+            <bold>
+             RRIRGGDGKMKDL
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             13
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Non-toxin
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Probable non-allergen
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             0.24
+            </bold>
+           </td>
+           <td align="left"/>
+           <td align="left"/>
+          </tr>
+          <tr>
+           <td align="left">
+            4
+           </td>
+           <td align="left">
+            LPQGTTLPKGF
+           </td>
+           <td align="left">
+            11
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            0.39
+           </td>
+           <td align="left"/>
+           <td align="left"/>
+          </tr>
+          <tr>
+           <td align="left"/>
+           <td align="left" colspan="7">
+            <bold>
+             <italic>
+              MHC I
+             </italic>
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left"/>
+           <td align="left">
+            <bold>
+             Peptide
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             length
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Toxicity
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Allergenicity
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             IFN-γ
+            </bold>
+            induction
+           </td>
+           <td align="left">
+            <bold>
+             RMSD (nm)
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             HLA allele
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            1
+           </td>
+           <td align="left">
+            KTFPPTEPK
+           </td>
+           <td align="left">
+            9
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            Positive
+           </td>
+           <td align="left">
+            0.52
+           </td>
+           <td align="left">
+            HLA-A*11:01, HLA-A*03:01, HLA-A*30:01, HLA-A*31:01, HLA-A*68:01, HLA-A*32:01, HLA-A*30:02, HLA-A*33:01, HLA-B*57:01, HLA-B*58:01, HLA-A*26:01, HLA-A*01:01, HLA-B*15:01, HLA-B*07:02
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            2
+           </td>
+           <td align="left">
+            <bold>
+             SSPDDQIGY
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             9
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Non-toxin
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Probable non-allergen
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Positive
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             0.26
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             HLA-A*01:01, HLA-A*26:01, HLA-A*30:02, HLA-B*35:01, HLA-B*58:01, HLA-B*15:01, HLA-B*57:01, HLA-A*68:01, HLA-B*53:01, HLA-A*32:01, HLA-A*11:01, HLA-A*03:01, HLA-B*44:03, HLA-B*44:02, HLA-A*68:02, HLA-A*33:01
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            3
+           </td>
+           <td align="left">
+            SSPDDQIGYY
+           </td>
+           <td align="left">
+            10
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            Positive
+           </td>
+           <td align="left">
+            0.35
+           </td>
+           <td align="left">
+            HLA-A*01:01, HLA-A*30:02, HLA-B*35:01, HLA-A*26:01, HLA-B*53:01, HLA-B*57:01, HLA-B*58:01, HLA-B*15:01, HLA-A*11:01, HLA-A*68:01, HLA-B*07:02, HLA-B*44:03, HLA-A*03:01, HLA-B*44:02, HLA-A*32:01, HLA-B*51:01
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            4
+           </td>
+           <td align="left">
+            VTPSGTWLTY
+           </td>
+           <td align="left">
+            10
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            Positive
+           </td>
+           <td align="left">
+            0.3
+           </td>
+           <td align="left">
+            HLA-A*01:01, HLA-A*30:02, HLA-B*35:01, HLA-A*26:01, HLA-B*53:01, HLA-B*15:01, HLA-B*58:01, HLA-B*57:01, HLA-A*11:01, HLA-A*32:01, HLA-B*07:02, HLA-A*03:01, HLA-A*68:01, HLA-A*24:02, HLA-B*51:01, HLA-A*23:01, HLA-A*30:01, HLA-A*33:01, HLA-A*31:01, HLA-B*44:03, HLA-B*44:02
+           </td>
+          </tr>
+          <tr>
+           <td align="left"/>
+           <td align="left" colspan="7">
+            <bold>
+             <italic>
+              MHC II
+             </italic>
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            1
+           </td>
+           <td align="left">
+            <bold>
+             AQFAPSASAFFGMSR
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             15
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Non-toxin
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Probable non-allergen
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Positive
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             0.23
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             HLA-DRB5*01:01, HLA-DRB5*01:01, HLA-DRB4*01:01, HLA-DRB4*01:01, HLA-DRB1*11:01, HLA-DRB1*12:01, HLA-DRB1*01:01
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            2
+           </td>
+           <td align="left">
+            <bold>
+             IAQFAPSASAFFGMS
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             15
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Non-toxin
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Probable non-allergen
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Positive
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             0.24
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             HLA-DQA1*01:01/DQB1*05:01, HLA-DQA1*03:01/DQB1*03:02, HLA-DRB1*11:01, HLA-DRB1*01:01, HLA-DRB3*01:01, HLA-DPA1*02:01/DPB1*14:01, HLA-DRB1*09:01, HLA-DRB1*12:01
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            3
+           </td>
+           <td align="left">
+            <bold>
+             PQIAQFAPSASAFFG
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             15
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Non-toxin
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Probable non-allergen
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             Positive
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             0.24
+            </bold>
+           </td>
+           <td align="left">
+            <bold>
+             HLA-DRB1*04:05, HLA-DRB1*04:01, HLA-DRB4*01:01, HLA-DQA1*04:01/DQB1*04:02, HLA-DRB3*01:01, HLA-DQA1*04:01/DQB1*04:02, HLA-DRB3*02:02, HLA-DRB1*15:01, HLA-DPA1*02:01/DPB1*05:01
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            4
+           </td>
+           <td align="left">
+            QIAQFAPSASAFFGM
+           </td>
+           <td align="left">
+            15
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            Positive
+           </td>
+           <td align="left">
+            0.37
+           </td>
+           <td align="left">
+            HLA-DPA1*01:03/DPB1*02:01, HLA-DQA1*01:02/DQB1*06:02, HLA-DPA1*02:01/DPB1*01:01, HLA-DPA1*02:01/DPB1*01:01, HLA-DPA1*03:01/DPB1*04:02, HLA-DQA1*03:01/DQB1*03:02, HLA-DRB5*01:01, HLA-DPA1*03:01/DPB1*04:02, HLA-DRB5*01:01
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            5
+           </td>
+           <td align="left">
+            WPQIAQFAPSASAFF
+           </td>
+           <td align="left">
+            15
+           </td>
+           <td align="left">
+            Non-toxin
+           </td>
+           <td align="left">
+            Probable non-allergen
+           </td>
+           <td align="left">
+            Positive
+           </td>
+           <td align="left">
+            0.29
+           </td>
+           <td align="left">
+            HLA-DRB4*01:01, HLA-DPA1*02:01/DPB1*14:01, HLA-DRB4*01:01, HLA-DRB1*11:01, HLA-DRB1*04:01, HLA-DPA1*01:03/DPB1*02:01, HLA-DPA1*02:01/DPB1*01:01, HLA-DRB5*01:01
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <table-wrap-foot>
+         <fn>
+          <p>
+           RMSD was calculated after least square fitting of Cα atoms. The epitope candidates considered for further analysis are in bold.
+          </p>
+         </fn>
+        </table-wrap-foot>
+       </table-wrap>
+      </p>
+     </sec>
+     <sec id="sec0130">
+      <label>
+       3.1.4
+      </label>
+      <title>
+       Epitope stability studies
+      </title>
+      <p id="par0125">
+       We performed molecular dynamics simulation for all the selected epitopes in order to inspect the stability of the peptides at the atomistic level. Prior to that, we built structural models for the epitopes using the PEP-FOLD3.5 server. The root mean square deviation (RMSD) from a 20 ns simulation was computed for each peptide and the results are shown in       . The RMSD tool compares the simulating model to the initial structural configuration (reference structure) and computes the deviation between the two structures. The epitopes with low RMSD values were selected for further analysis.
+      </p>
+     </sec>
+     <sec id="sec0135">
+      <label>
+       3.1.5
+      </label>
+      <title>
+       Population coverage analysis of MHC restricted epitopes
+      </title>
+      <p id="par0130">
+       The aim of the population coverage analysis was to predict the percentage of a population that would respond to the epitopes, considering the frequency of HLA genotypic traits in the population. In general, a higher fraction of the population was predicted to respond to the MHCI-restricted epitope than the MHCII-restricted epitopes. Considering the global population, 75.47 % of individuals would respond to the MHCI-restricted epitope while 56.23 % of the individuals would respond to the MHCII-restricted epitopes (       A and B). The lowest population coverage for the epitopes (both MHC I and II) was recorded in Central America and the highest recorded in East Asia (       C). The South African population did not respond very well to the MHCII-restricted epitopes, although there was a significant population coverage in other regions of Africa. The best coverage of the MHCI-restricted epitope was observed in Europe, South Asia, Africa, North and Southern America and the Oceania.
+      </p>
+     </sec>
+     <sec id="sec0140">
+      <label>
+       3.1.6
+      </label>
+      <title>
+       Epitope sequence conservation analysis
+      </title>
+      <p id="par0135">
+       In order to check the cross-reactivity of the predicted epitopes across other related coronaviruses, a multiple sequence alignment study was performed using Clustal omega server. The N-protein sequence of SARS-CoV2 was aligned with N-protein sequences of SARS-CoV1, MERS-CoV, hCoV−OC43 and hCoV-NL63. The alignments of the protein sequences are shown       . Interestingly, the sequences of the MHCII-restricted epitopes were highly homologous to sequences of all the related coronaviruses except hCoV-NL63 and the MHCI-restricted epitope sequence was highly homologous to only the SARS-CoV1 N protein. The linear B-cell epitope, on other hand, shared low homology to N protein of SARS-CoV1 but none to the other related coronaviruses.
+      </p>
+     </sec>
+     <sec id="sec0145">
+      <label>
+       3.1.7
+      </label>
+      <title>
+       Structural studies of HLA-epitope complexes
+      </title>
+      <p id="par0140">
+       The interaction between the selected epitopes and their respective HLA proteins were studied using docking and simulation analysis. We predicted the binding conformations of the T-cell epitopes to HLA alleles using the Cluspro 2 server. The best binding conformations of the T-cell epitopes to their respective HLA alleles are shown in       . We used HLA-A*03:01 and HLA-B*35:01 as the representative MHC class I proteins and HLA-DRB1*09:01 as the representative MHC class II protein. To further characterize the HLA-epitope interactions, we evaluated the structural properties and behavior of the complexes from a simulation trajectory using root mean square deviation, number of hydrogen bonds, and minimum distance. The structural properties and dynamics of the HLA-epitope complexes from 200 ns simulations are shown in       . The HLA-A*03:01-       SSPDDQIGY       complex deviated less from its reference structure during the simulation than the HLA-B*35:01-       SSPDDQIGY       complex (       A) and a higher number of hydrogen bonds were formed between       SSPDDQIGY       and HLA-A*03:01 (       C), suggesting a better interaction and a more stable complex when compared to the HLA-B*35:01-       SSPDDQIGY       complex. The MHCII-restricted epitopes       AQFAPSASAFFGMSR       ,       IAQFAPSASAFFGMS       and       PQIAQFAPSASAFFG       were docked to HLA-DRB1*09:01 and simulated to study the epitope-HLA interactions. Although structural deviation was not significantly different for the MHCII-epitope complexes (       B), the HLA-DRB1*09:01-       AQFAPSASAFFGMSR       complex seems to form the highest number of hydrogen bonds among the MHCII-restricted epitopes with ≈11 hydrogen bonds (       D). The results also suggest that the epitopes remained in close proximity to the HLA alleles with minimum distances ranging from 0.15 to 0.20 nm (       E, F).
+      </p>
+     </sec>
+     <sec id="sec0150">
+      <label>
+       3.1.8
+      </label>
+      <title>
+       Simulation of immune response
+      </title>
+      <p id="par0145">
+       We used the C-ImmSim server to simulate the immune response to the SARS-CoV2 N-protein in order to predict the immune response profile of the selected epitopes. The response elicited by antibodies, B-cells, T-cells and cytokines are shown in       . We simulated the response for a period of 1 year after three series of antigen injections. The second dose was given 2 months after the first and the third given in the 6th month (0, 2, 6 months). High levels of IgG + IgM immunocomplex and IgM were observed. The levels of these antibodies were low after the first injection but increased significantly following subsequent doses and this was accompanied by a concomitant reduction of antigen levels (       A). The major cytokines observed were IFN- γ and IL-2 (       B). Protection from B-cells and T-cells were notable along with development of immune memory. The immune memory developed by both B-cells and T-cells lasted for the period of the simulation (       C, D). Other immune cells, including T-cytotoxic cells and natural killer cells, also elicited strong immune response to the antigen (       E, F).
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec0155">
+     <label>
+      3.2
+     </label>
+     <title>
+      Structure-based drug design
+     </title>
+     <sec id="sec0160">
+      <label>
+       3.2.1
+      </label>
+      <title>
+       Ligand binding site analysis
+      </title>
+      <p id="par0150">
+       The N-terminal domain (NTD) of the nucleocapsid protein of the coronaviruses has a binding pocket for ribonucleoside 5′-monophosphates and forms complexes with them during the packing of viral RNA. While, the crystal structure of SARS-CoV2 NTD in complex with ribonucleoside 5′-monophosphates remains to be elucidated, the NTD of HCoV−OC43 N-protein in complex with adenosine 5′- monophosphate (AMP) has been solved and available at the PDB (ID: 4LI4). Using superposition and structural alignment analysis, we predicted the binding pocket of AMP in the SARS-CoV2 N-protein NTD based on the structural configuration of the PDB entry 4LI4. The structure of the N-protein NTD deviated from that of hCoV−OC43 with RMSD of 2.2 nm. The binding conformation of the AMP in its binding pocket was then determined through docking analysis. The structural alignment, superposition and AMP interactions at the binding site have been provided in       . AMP has polar interactions with residues S51, F53, A55, Y109, Y116 and R149 in the SARS-CoV2 N-protein NTD. The corresponding interacting residues in the hCoV N-protein NTD are also shown (see       B).
+      </p>
+     </sec>
+     <sec id="sec0165">
+      <label>
+       3.2.2
+      </label>
+      <title>
+       Discovery of potential inhibitors the N-terminal domain
+      </title>
+      <p id="par0155">
+       A library of 21 antiviral drugs with varying targets was used in our virtual screening analysis. The nomenclature, molecular weight, chemical structure and autodock score (estimated free energy of binding) are provided in       . Among the studied ligands, pleconaril (PLE), raltegravir (RAL) and zidovudine triphosphate (ZTP) recorded higher free energy of binding than AMP. The binding energy is referred to as ‘autodock score’ because the value, although efficient at discriminating suitable ligands from non-suitable ones, does not accurately represent the binding affinity.
+       <table-wrap id="tbl0010" position="float">
+        <label>
+         Table 2
+        </label>
+        <caption>
+         <p>
+          List of ligands used for the virtual screening. Their binding energies based on autodock analysis are also shown.
+         </p>
+        </caption>
+        <alt-text id="at0055">
+         Table 2
+        </alt-text>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th align="left">
+            Ligand
+           </th>
+           <th align="left">
+            IUPAC nomenclature
+           </th>
+           <th align="left">
+            M.W(g/mol)
+           </th>
+           <th align="left">
+            Chemical representation
+           </th>
+           <th align="left">
+            Binding energy (kcal/mol)
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td align="left">
+            Adenosine 5′-monophosphate
+           </td>
+           <td align="left">
+            [(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate
+           </td>
+           <td align="left">
+            347.22
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx1_lrg.gif"/>
+           </td>
+           <td align="left">
+            −4.94
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Amprenavir
+           </td>
+           <td align="left">
+            [(3S)-oxolan-3-yl] N-[(2S,3R)-4-[(4-aminophenyl)sulfonyl-(2-methylpropyl)amino]-3-hydroxy-1-phenylbutan-2-yl]carbamate
+           </td>
+           <td align="left">
+            505.6
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx2_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.24
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Entecavir
+           </td>
+           <td align="left">
+            2-amino-9-[(1S,3R,4S)-4-hydroxy-3-(hydroxymethyl)-2-methylidenecyclopentyl]-1H-purin-6-one
+           </td>
+           <td align="left">
+            277.28
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx3_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.28
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Indinavir
+           </td>
+           <td align="left">
+            (2S)-1-[(2S,4R)-4-benzyl-2-hydroxy-5-[[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]amino]-5-oxopentyl]-N-tert-butyl-4-(pyridin-3-ylmethyl)piperazine-2-carboxamide
+           </td>
+           <td align="left">
+            613.8
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx4_lrg.gif"/>
+           </td>
+           <td align="left">
+            −2.85
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Pleconaril
+           </td>
+           <td align="left">
+            3-[3,5-dimethyl-4-[3-(3-methyl-1,2-oxazol-5-yl)propoxy]phenyl]-5-(trifluoromethyl)-1,2,4-oxadiazole
+           </td>
+           <td align="left">
+            381.3
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx5_lrg.gif"/>
+           </td>
+           <td align="left">
+            −5.44
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Raltegravir
+           </td>
+           <td align="left">
+            N-[2-[4-[(4-fluorophenyl)methylcarbamoyl]-5-hydroxy-1-methyl-6-oxopyrimidin-2-yl]propan-2-yl]-5-methyl-1,3,4-oxadiazole-2-carboxamide
+           </td>
+           <td align="left">
+            444.4
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx6_lrg.gif"/>
+           </td>
+           <td align="left">
+            −5.5
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Trifluridine
+           </td>
+           <td align="left">
+            1-[(2R,4S,5R)-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]-5-(trifluoromethyl)pyrimidine-2,4-dione
+           </td>
+           <td align="left">
+            296.2
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx7_lrg.gif"/>
+           </td>
+           <td align="left">
+            −4.26
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Umifenovir
+           </td>
+           <td align="left">
+            ethyl 6-bromo-4-[(dimethylamino)methyl]-5-hydroxy-1-methyl-2-(phenylsulfanylmethyl)indole-3-carboxylate
+           </td>
+           <td align="left">
+            477.4
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx8_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.62
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Vicriviroc
+           </td>
+           <td align="left">
+            (4,6-dimethylpyrimidin-5-yl)-[4-[(3S)-4-[(1R)-2-methoxy-1-[4-(trifluoromethyl)phenyl]ethyl]-3-methylpiperazin-1-yl]-4-methylpiperidin-1-yl]methanone
+           </td>
+           <td align="left">
+            533.6
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx9_lrg.gif"/>
+           </td>
+           <td align="left">
+            −4.3
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Zalcitabine
+           </td>
+           <td align="left">
+            4-amino-1-[(2R,5S)-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one
+           </td>
+           <td align="left">
+            211.22
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx10_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.48
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Penciclovir
+           </td>
+           <td align="left">
+            2-amino-9-[4-hydroxy-3-(hydroxymethyl)butyl]-1H-purin-6-one
+           </td>
+           <td align="left">
+            253.26
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx11_lrg.gif"/>
+           </td>
+           <td align="left">
+            −2.87
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Brivudine
+           </td>
+           <td align="left">
+            5-[(E)-2-bromoethenyl]-1-[(2R,4S,5R)-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione
+           </td>
+           <td align="left">
+            333.13
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx12_lrg.gif"/>
+           </td>
+           <td align="left">
+            −4.87
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Famciclovir
+           </td>
+           <td align="left">
+            [2-(acetyloxymethyl)-4-(2-aminopurin-9-yl)butyl] acetate
+           </td>
+           <td align="left">
+            321.33
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx13_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.61
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Cidofovir
+           </td>
+           <td align="left">
+            [(2S)-1-(4-amino-2-oxopyrimidin-1-yl)-3-hydroxypropan-2-yl]oxymethylphosphonic acid
+           </td>
+           <td align="left">
+            279.19
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx14_lrg.gif"/>
+           </td>
+           <td align="left">
+            −2.83
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Ganciclovir
+           </td>
+           <td align="left">
+            2-amino-9-(1,3-dihydroxypropan-2-yloxymethyl)-1H-purin-6-one
+           </td>
+           <td align="left">
+            255.23
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx15_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.58
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Valgancyclovir
+           </td>
+           <td align="left">
+            [2-[(2-amino-6-oxo-1H-purin-9-yl)methoxy]-3-hydroxypropyl] (2S)-2-amino-3-methylbutanoate
+           </td>
+           <td align="left">
+            354.36
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx16_lrg.gif"/>
+           </td>
+           <td align="left">
+            −2.18
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Acyclovir
+           </td>
+           <td align="left">
+            2-amino-9-(2-hydroxyethoxymethyl)-1H-purin-6-one
+           </td>
+           <td align="left">
+            225.2
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx17_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.17
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Valacyclovir
+           </td>
+           <td align="left">
+            2-[(2-amino-6-oxo-1H-purin-9-yl)methoxy]ethyl (2S)-2-amino-3-methylbutanoate
+           </td>
+           <td align="left">
+            324.34
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx18_lrg.gif"/>
+           </td>
+           <td align="left">
+            −2.26
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Ribavirin
+           </td>
+           <td align="left">
+            1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1,2,4-triazole-3-carboxamide
+           </td>
+           <td align="left">
+            244.2
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx19_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.02
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Remdesivir
+           </td>
+           <td align="left">
+            2-ethylbutyl (2S)-2-[[[(2R,3S,4R,5R)-5-(4-aminopyrrolo[2,1-f][1,2,4]triazin-7-yl)-5-cyano-3,4-dihydroxyoxolan-2-yl]methoxy-phenoxyphosphoryl]amino]propanoate
+           </td>
+           <td align="left">
+            602.6
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx20_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.02
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Zidovudine triphosphate
+           </td>
+           <td align="left">
+            [[(2S,3S,5R)-3-azido-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate
+           </td>
+           <td align="left">
+            469.2
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx21_lrg.gif"/>
+           </td>
+           <td align="left">
+            −7.83
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            Lamivudine triphosphate
+           </td>
+           <td align="left">
+            [[(2R,5S)-5-(4-amino-2-oxopyrimidin-1-yl)-1,3-oxathiolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate
+           </td>
+           <td align="left">
+            469.2
+           </td>
+           <td align="left">
+            <inline-graphic ns0:href="fx22_lrg.gif"/>
+           </td>
+           <td align="left">
+            −3.09
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </table-wrap>
+      </p>
+     </sec>
+     <sec id="sec0170">
+      <label>
+       3.2.3
+      </label>
+      <title>
+       MM/PBSA binding energy analysis
+      </title>
+      <p id="par0160">
+       The molecular mechanics with Poisson-Boltzmann and surface area solvation (MM/PBSA) method of binding energy calculation is designed to be more accurate than the docking and scoring approach. For g_mmpbsa binding energy calculations, three energy terms are used namely molecular mechanics, polar solvation and non-polar solvation energies. The molecular mechanics potential energy includes energy of bonded and non-bonded interactions (Van-der Waals and electrostatic energies). The polar solvation term is calculated by solving the Poisson-Boltzmann equation [       ]. The non-polar solvation term was calculated using the solvent accessible surface area (SASA) model and indicates repulsion and attraction between solvent and solute [       ]. The total binding energy of ZTP (-1312.837 kJ/mol) is significantly higher as compared to AMP (-108.234 kJ/mol) with major contributions from the electrostatic terms in both cases (       ).
+       <table-wrap id="tbl0015" position="float">
+        <label>
+         Table 3
+        </label>
+        <caption>
+         <p>
+          MM/PBSA calculations of energy terms and binding energy governing the protein-ligand interactions.
+         </p>
+        </caption>
+        <alt-text id="at0060">
+         Table 3
+        </alt-text>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th align="left"/>
+           <th align="left" colspan="4">
+            Energy terms (kJ/mol)
+           </th>
+           <th align="left"/>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td align="left">
+            Ligand
+           </td>
+           <td align="left">
+            Van der Waal
+           </td>
+           <td align="left">
+            Electrostatics
+           </td>
+           <td align="left">
+            Polar solvation
+           </td>
+           <td align="left">
+            Non-polar solvation (SASA)
+           </td>
+           <td align="left">
+            Binding energy (kJ/mol)
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            AMP
+           </td>
+           <td align="left">
+            −0.001
+           </td>
+           <td align="left">
+            −106.428
+           </td>
+           <td align="left">
+            −1.855
+           </td>
+           <td align="left">
+            0.051
+           </td>
+           <td align="left">
+            −108.234
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            RAL
+           </td>
+           <td align="left">
+            −0.002
+           </td>
+           <td align="left">
+            0.175
+           </td>
+           <td align="left">
+            −8.177
+           </td>
+           <td align="left">
+            0.068
+           </td>
+           <td align="left">
+            −7.936
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            ZTP
+           </td>
+           <td align="left">
+            −15.851
+           </td>
+           <td align="left">
+            −2012.207
+           </td>
+           <td align="left">
+            721.787
+           </td>
+           <td align="left">
+            −6.565
+           </td>
+           <td align="left">
+            −1312.837
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            PLE
+           </td>
+           <td align="left">
+            −43.228
+           </td>
+           <td align="left">
+            −3.938
+           </td>
+           <td align="left">
+            23.653
+           </td>
+           <td align="left">
+            −6.002
+           </td>
+           <td align="left">
+            −29.514
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </table-wrap>
+      </p>
+     </sec>
+     <sec id="sec0175">
+      <label>
+       3.2.4
+      </label>
+      <title>
+       Simulation of protein-ligand complex
+      </title>
+      <p id="par0165">
+       The 100 ns simulation revealed that the NTD-ZTP complex seems to be the most stable with RMSD of ≈ 0.3 nm while the NTD-AMP complex recorded RMSD of ≈ 0.35 nm (       A). Evolution of the total hydrogen bonds between the ligands and the NTD are shown in (       B) and ranged from 2 to 8 hydrogen bonds for NTD-AMP and NTD-ZTP complexes. The minimum distance between ligands and the protein (       C) ranged from 0.15 to 0.25 nm, suggesting close proximity especially for ZTP (≈ 0.15 nm). The compactness of the ZTP-NTD complex seems to be significantly low as compared to AMP-ZTP complex (see       D). Root Mean Square Fluctuations (RMSF) values for residues 91–102 (residues of the β-hairpin) were significantly higher upon binding of AMP than ZTP (       A). The flexibility of the β-hairpin residues was similar for the NTD and NTD-AMP complex. ZTP occupied the binding pocket of AMP and interacts with residues T49, S51, F53, R88, Y109, Y111 and R149 (       B).
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec0180">
+    <label>
+     4
+    </label>
+    <title>
+     Discussion
+    </title>
+    <p id="par0170">
+     A number of B-cell and T-cell epitopes have been identified using immuno-informatics which were subjected to stringent assessment and evaluation analysis based on desirable immunogenic properties such as allergenicity, toxicity, IFN-γ induction and structural stability. The N-protein epitopes     SKQLQQSMSSADS     and     RRIRGGDGKMKDL     were selected as potential epitope-based vaccine candidates capable of inducing B-cell immunity against SARS-CoV2 infection. Based on evaluation performance, MHCI-restricted epitope     SSPDDQIGY     and MHCII-restricted epitopes     AQFAPSASAFFGMSR     ,     IAQFAPSASAFFGMS     and     PQIAQFAPSASAFFG     were selected for further evaluations on the basis of cross reactivity across related coronaviruses and population coverage of their response.
+    </p>
+    <p id="par0175">
+     A possibility of memory T-cell cross-reactivity specific to the S-protein has been suggested by Braun et al. [     ] and a scenario of cross-reactivity in relations to SARS-CoV1 and endemic CoV has also been reported [     ]. Based on sequence alignment analysis, our results suggest a possible MHCII-restricted epitope-induced T-cell cross-reactivity to SARS-CoV1, MERS-CoV, hCoV−OC43 and hCoV-NL63. Moreover, the HLA-I restricted epitope is predicted to induce T-cell immunity in SARS-CoV1.
+    </p>
+    <p id="par0180">
+     Presentation of antigenic peptides by MHC for recognition by immune cells during COVID-19 infection is not clearly defined, however, extrapolating knowledge from previous coronaviruses suggests presentation by both MHCI and MHCII alleles [     ]. The relevance of demonstrating the HLA-epitope complex formation and interactions cannot be disregarded. The epitopes were docked to specific HLA-alleles and the best docked conformations were further characterized by simulation analysis. The findings indicate that the HLA-A*03:01-     SSPDDQIGY     complex is a more stable structure than HLA-B*35:01-     SSPDDQIGY     based on RMSD analysis, hydrogen bonds formed and proximity of epitope to HLA protein. Similarly, the HLA-DRB1*09:01-     AQFAPSASAFFGMSR     complex was the most stable among the MHCII-restricted epitope candidates. Collectively, our results show that the epitopes (     SSPDDQIGY     and     AQFAPSASAFFGMSR     ) can bind efficiently and form stable structures with their respective HLA proteins.
+    </p>
+    <p id="par0185">
+     Although we have an incomplete understanding of the immunological responses during the SARS-CoV2 infection, findings from research on previous coronavirus outbreaks (SARS-CoV1 and MERS-CoV) and the emerged findings on immunologic characteristics of COVID-19 provide substantial answers. Available information suggests the involvement of innate immunity, T- and B-cell immunity as well as specific antiviral neutralizing antibodies in the immunological responses during SARS-CoV2 infection [     ,     ,     ]. Simulation of the immune responses to the N-protein of SARS-CoV2 yielded results that correlate well with the emerging data on immunological profile of COVID-19. Upon repeated injection of the antigen (N-protein), aspects of innate immunity (Natural killer cells), B- and T-cell immunity and antibody-mediated neutralization were observed accompanied by development of immunological memory that lasted for several months. Both T-helper and T-cytotoxic cell-mediated immunity were observed upon exposure to the N-protein, however, only T-helper cells developed memory for the antigen. Protein specific T-cell responses with induction of IFN-γ, TNF-a, and IL-2 have been detected in COVID-19 patients [     ]. Recognition of S and N protein epitopes by virus specific T-helper and T-cytotoxic cells during the COVID-19 infection have also been reported [     ]. Immunological characteristics of SARS-CoV1 infection include the development of CD4 and CD8 memory T-cells which persisted for over 4 years [     ]. The extent of memory T-cell immunity against COVID-19 is yet to be elucidated, however, our results indicate a different scenario as observed for the SARS-CoV1 infection. The B-cells also elicited a robust response to the SARS-CoV2 N-protein just that the memory B-cell faded significantly over time as compared to the memory T-helper cells. Long term protection courtesy of memory B-cells have been confirmed in SARS-CoV1 infections [     ,     ] and emerging evidence are supporting a similar situation for COVID-19 [     ,     ,     ] but the exact life-span is yet to be known.
+    </p>
+    <p id="par0190">
+     The B-cell immunity during SARS-CoV2 infection is further confirmed by the detection of virus-specific immunoglobulin titers with particular affinity for S- and N- protein epitopes after about a week of infection [     ,     ,     ]. Current reports suggest IgM, IgG and IgA responses as the main antibody neutralization during the SARS-CoV2 infection with the detection of IgM response at the early stages (7 days of infection) followed by IgG and IgA upon progression to an acute stage [     ,     ]. Our computational results agree well with these findings. According to the immune simulation analysis, immunocomplex IgG + IgM and IgM are the antibodies responsible for antigen neutralization during the early stages of exposure. IgA was, however not detected but the source of this discrepancy may be attributed to the antigenic protein used as target.
+    </p>
+    <p id="par0195">
+     Exposure to the N-protein also elicited certain aspects of both adaptive and innate immune response. According to our computational results, IFN-γ and IL-2 elicited robust responses to the antigen with significant levels of natural killer (NK) cells also being detected. Possible NK-mediated response to the SARS-CoV2 infection has been reported by Pinto et al. [     ] and evidence of reduced levels of NK cells in the peripheral blood of infected individuals have also emerged [     ,     ].
+    </p>
+    <p id="par0200">
+     Taking into consideration the novelty of the SARS-CoV2 infection and our limited understanding of its dynamics, other therapeutic options are mandatory for complete containment of the pandemic. If the effects of the vaccine fades over time provided the virus develops means to evade immunity, drugs can be used to eliminate symptoms faster. Moreover, populations or individuals that do not respond well to the vaccine would rely on drugs for managing the pandemic. In view of this, we targeted the N-terminal domain (NTD) of SARS-CoV2 N-protein for potential drug candidates. The NTD, otherwise known as the RNA-binding domain, plays important roles during package of viral genome into a ribonucleoprotein complex [     ,     ]. Kang et al. [     ] solved the structure of the NTD of SARS-CoV2 N-protein (PDB ID: 6M3M) and identified potential pockets for drug targeting. Considering the urgent need to contain the SARS-CoV2 infection, drug repurposing seems to be the best tool in the search for therapeutic options. Existing drugs for different targets such as chloroquine, remdesivir, lopinavir, ribavirin and ritonavir have been re-oriented to target the SARS-CoV2 and several
+     <italic>
+      in-vitro
+     </italic>
+     and
+     <italic>
+      in-vivo
+     </italic>
+     studies are providing positive outcomes [     ,     ,     ]. Based on MM/PBSA binding energy calculations and molecular dynamics simulation analysis, zidovudine triphosphate (ZTP) has higher affinity and interacts better with the NTD of N-protein than AMP. ZTP is an anti-HIV agent that targets the viral reverse transcriptase, thus interfering with the reverse transcription process [     ]. Residual fluctuation analysis from the simulation studies revealed that upon binding of ZTP, the flexibility of the NTD β-hairpin (basic palm) residues significantly reduce. The impact could be detrimental for the NTD considering the roles of the flexible, positively charged β-hairpin. The β-hairpin has been proposed to be essential for RNA packaging by interacting with phosphate groups of the viral RNA [     ,     ,     ]. This observation together with the high binding affinity depicts ZTP as a promising N-protein inhibitor and should be further validated by experimental studies.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec0185">
+    <label>
+     5
+    </label>
+    <title>
+     Conclusion
+    </title>
+    <p id="par0205">
+     We have explored the SARS-CoV2 N-protein for potential epitope-based vaccine candidates using immuno-informatics and identified an antiviral drug that binds to the ribonucleoside 5′-monophosphate binding pocket in the N-terminal domain (NTD) of SARS-CoV2 N-protein with much greater affinity and stability. In view of this, we have identified B-cell epitopes (     SKQLQQSMSSADS     and     RRIRGGDGKMKDL     ), MHCI-restricted epitope (     SSPDDQIGY     ) and MHCII-restricted epitope (     AQFAPSASAFFGMSR     ) based on performance after stringent evaluation and profiling analysis on the basis of certain desirable vaccine characteristics. We also identified zidovudine triphosphate as a promising inhibitor of the NTD of SARS-CoV2 N-protein. The limitations of our study cannot be disregarded as experimental data are needed to validate our findings. Nonetheless, the integrative bioinformatics methods we used will significantly save time and cost for research communities using wet-laboratory approaches and clinical studies. As the need for COVID-19 therapeutics grow by the day, our findings will assist research scientists to fast-track the discovery of vaccines and drugs to contain the SARS-CoV2 infection.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec0190">
+    <title>
+     Authors contribution
+    </title>
+    <p id="par0210">
+     AK and EA: conception and design of study, AK, EA, SOP, SAS: Acquisition of data: AK, EA, SOP, SAS: Analysis and interpretation of data, AK, EA, SOP, SAS: Drafting and final revision of manuscript.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec0195" sec-type="data-availability">
+    <title>
+     Data availability
+    </title>
+    <p id="par0215">
+     Data is available upon request
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of Competing Interest
+    </title>
+    <p id="par0220">
+     The authors declare they have no competing interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

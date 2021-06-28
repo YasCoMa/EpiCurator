@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Association of HLA Class I Genotypes With Severity of Coronavirus Disease-19
+ </title>
+ <abstract>
+  <p>
+   Human leukocyte antigen (HLA) class I molecules play a crucial role in the development of a specific immune response to viral infections by presenting viral peptides at the cell surface where they will be further recognized by T cells. In the present manuscript, we explored whether HLA class I genotypes can be associated with the critical course of Coronavirus Disease-19 by searching possible connections between genotypes of deceased patients and their age at death. HLA-A, HLA-B, and HLA-C genotypes of
+   <italic>
+    n
+   </italic>
+   = 111 deceased patients with COVID-19 (Moscow, Russia) and
+   <italic>
+    n
+   </italic>
+   = 428 volunteers were identified with next-generation sequencing. Deceased patients were split into two groups according to age at the time of death:
+   <italic>
+    n
+   </italic>
+   = 26 adult patients aged below 60 and
+   <italic>
+    n
+   </italic>
+   = 85 elderly patients over 60. With the use of HLA class I genotypes, we developed a risk score (RS) which was associated with the ability to present severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) peptides by the HLA class I molecule set of an individual. The resulting RS was significantly higher in the group of deceased adults compared to elderly adults [
+   <italic>
+    p
+   </italic>
+   = 0.00348, area under the receiver operating characteristic curve (
+   <italic>
+    AUC ROC
+   </italic>
+   = 0.68)]. In particular, presence of HLA-A   01:01 allele was associated with high risk, while HLA-A   02:01 and HLA-A   03:01 mainly contributed to low risk. The analysis of patients with homozygosity strongly highlighted these results: homozygosity by HLA-A   01:01 accompanied early deaths, while only one HLA-A   02:01 homozygote died before 60 years of age. Application of the constructed RS model to an independent Spanish patients cohort (
+   <italic>
+    n
+   </italic>
+   = 45) revealed that the score was also associated with the severity of the disease. The obtained results suggest the important role of HLA class I peptide presentation in the development of a specific immune response to COVID-19.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     1. Introduction
+    </title>
+    <p>
+     Human leukocyte antigen (HLA) class I molecules are one of the key mediators of the first links in the development of a specific immune response to Coronavirus Disease-19 (COVID-19) infection. Right after entering the cell, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) induces the translation of its proteins. Some of these proteins enter the proteasomes of the infected cell, become cleaved to peptides the length of 8–12 amino acid residues, and bind to HLA class I receptors. After binding, the complex consisting of the HLA class I molecule and the peptide is transferred to the surface of the infected cell, where it can interact with the T cell receptor of CD8     T lymphocytes. In response to the interaction, the CD8     T lymphocyte activates and starts to divide; in 5–7 days, a population of virus-specific cytotoxic CD8     T lymphocytes capable of destroying infected cells using perforins and serine proteases is formed (     ). The crucial role of long-term CD8     T cells activation in the immune response to COVID-19 has been recently studied in a cohort of patients who had mild disease (     ,     ).
+    </p>
+    <p>
+     There are three main types of HLA class I receptors: HLA-A, HLA-B, and HLA-C. Receptors of every type are present in two variants inherited from parents. There exist dozens of variants of each allele of HLA-I receptors; every allele has an individual ability to recognize various foreign proteins. The distribution of alleles is population/country specific (     ).
+    </p>
+    <p>
+     Individual combinations of HLA class I receptors essentially affect the severity of multiple infectious diseases, including malaria (     ), tuberculosis (     ), HIV (     ), and viral hepatitis (     ). There are a number of reported interconnections between the HLA genotype and the sensitivity to SARS-CoV-2. For example, the alleles HLA-B     07:03 (     ), HLA-B     46:01 (     ), and HLA-C     08:01 (     ) are factors of predisposition to a severe form of the disease, and the allele HLA-C     15:02 is associated with a mild form (     ).
+    </p>
+    <p>
+     Information on the interconnection of HLA class I genotype and severity of the course of COVID-19 caused by SARS-CoV-2 is sparse. A sample of 45 patients with varying severity of COVID-19 was used to confirm the results of the theoretical modeling of interaction of SARS-CoV-2 peptides with various HLA-I alleles (     ). It was demonstrated that the number of peptides with a high interaction constant are connected with individual HLA genotypes: the more viral peptides with high affinity bind to HLA class I, the easier the course of the disease. It was also shown that the frequency of the occurrence of HLA-A     01:01 and HLA-A     02:01 alleles is related to the number of infections and mortality rate in different regions of Italy (     ).
+    </p>
+    <p>
+     In the present study, we explored whether HLA class I genotypes can be a factor contributing to the critical course of COVID-19. For that, we performed HLA genotyping for
+     <italic>
+      n
+     </italic>
+     = 111 deceased patients with COVID-19 and the control group (
+     <italic>
+      n
+     </italic>
+     = 428), and searched for putative associations between genotypes and age at death. Since the total number of distinct HLA class I genotypes is too high to perform frequency-based analysis, we assigned scores to each allele based on capability of presenting SARS-CoV-2 peptides. The obtained scores allowed us to make a valid statistical comparison between HLA genotypes in groups of deceased adults (completed age at death not &gt;60 years,
+     <italic>
+      n
+     </italic>
+     = 26), elderly adults (age at death over 60,
+     <italic>
+      n
+     </italic>
+     = 85), and the control. Special attention was paid to “extreme” cases formed by homozygous individuals by some HLA genes. Additionally, we assessed the contribution of each viral protein to the constructed risk model.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="materials and methods">
+    <title>
+     2. Materials and Methods
+    </title>
+    <sec>
+     <title>
+      2.1. Design and Participants
+     </title>
+     <p>
+      There were 111 patients infected with COVID-19 enrolled in O.M. Filatov City Clinical Hospital, (Moscow, Russia) who died between May and July 2020. All patients had at least one positive test result for SARS-CoV-2 by reverse transcription PCR (RT-qPCR) from nasopharyngeal swabs or bronchoalveolar lavage. Patients with pathologies that led to greater morbidity or who had additional immunosuppression (patients with HIV, active cancer in treatment with chemotherapy, immunodeficiency, autoimmune diseases with immunosuppressants, and transplants) were not included in the study. Blood (2 ml) was collected by the medical practitioner from the right ventricle in an ethylenediaminetetraacetic acid (EDTA) vial
+      <italic>
+       post-mortem
+      </italic>
+      . Patients were divided into two groups according to their age at death: adults (age ≤ 60,
+      <italic>
+       n
+      </italic>
+      = 26) and elderly adults (age &gt;60,
+      <italic>
+       n
+      </italic>
+      = 85).
+     </p>
+     <p>
+      The control group of 428 volunteers was established with the use of electronic HLA genotype records of the Federal Register of Bone Marrow Donors (Pirogov Russian National Research Medical University). All patients or their next of kin gave informed consent for participation in the study.
+     </p>
+     <p>
+      The study protocol was reviewed and approved by the Local Ethics Committee at the Pirogov Russian National Research Medical University (Meeting No. 194 of March 16 2020, Protocol No. 2020/07); the study was conducted in accordance with the Declaration of Helsinki.
+     </p>
+    </sec>
+    <sec>
+     <title>
+      2.2. Human Leukocyte Antigen Class I Genotyping With Targeted Next-Generation Sequencing
+     </title>
+     <p>
+      Genomic DNA was isolated from frozen collected anticoagulated whole blood samples using the QIAamp DNA Blood Mini Kit on the automatic workstation QIACube (QIAGEN GmbH, Hilden, Germany). HLA-A, HLA-B, and HLA-C genes were sequenced with the MiSeq platform (Illumina, San Diego, CA, USA) through exons 2–4 in both directions using reagent kit HLA-Expert (DNA-Technology LLC, Moscow, Russia) and annotated using the database of the human major histocompatibility complex (MHC) sequences IMGT/HLA v3.41.0 (      ). Processed genotype data are available in      .
+     </p>
+    </sec>
+    <sec>
+     <title>
+      2.3. Severe Acute Respiratory Syndrome Coronavirus 2 Protein Sequences
+     </title>
+     <p>
+      Publicly available SARS-CoV-2 proteomes derived from patients infected in Moscow (
+      <italic>
+       n
+      </italic>
+      = 79) were obtained from GISAID (      ) (full list of IDs is presented within      ). Clustal Omega v1.2.4 was used to construct multiple sequence alignment for each viral protein (      ). The obtained alignment had no gaps and rare mutations: only 117 out of 9,719 positions (1.2%) contained more than one amino acid variant. Moreover, distribution of non-major amino acid fractions at mutation sites was also concentrated near zero: maximum fraction was equal to 22.8% (18 out of 79 viruses), 0.95 quantile was equal to 5.1% (four viruses) and upper quartile was equal to 1.3% (one virus with mismatched amino acids).
+     </p>
+     <p>
+      Since many research groups use the reference SARS-CoV-2 genome and proteome sequences (Wuhan-Hu-1, NCBI Reference Sequence: NC_045512.2), we compared the obtained alignment with the mentioned reference. Two protein sequences differed in four positions (0.04%) located within the NSP12, N, and S viral proteins. Such differences can indeed lead to functional diversity of analyzed proteins, but will be totally negligible for further analysis.
+     </p>
+    </sec>
+    <sec>
+     <title>
+      2.4. Prediction of Viral Peptides and Assessment of Their Binding Affinities to HLA Class I Molecules
+     </title>
+     <p>
+      We applied the procedure described by Nguen et al. (      ) to the consensus protein sequences of viruses isolated from patients in Moscow. Specifically, for each amino acid of each viral protein, we assessed the probability of proteasomal cleavage in the considered site using NetChop v3.1 (      ). The set of viral peptides was generated by taking all possible 8- to 12-mers with proteasomal cleavage probability &lt;0.1 at both ends of a sequence.
+     </p>
+     <p>
+      Binding affinities were predicted using netMHCpan v4.1 (      ) for all viral peptides (
+      <italic>
+       n
+      </italic>
+      = 15,314) and HLA alleles present in our cohorts of deceased and control patients (
+      <italic>
+       n
+      </italic>
+      = 107). Peptides with a weak binding affinity to all considered alleles were discarded (
+      <italic>
+       IC
+      </italic>
+      <sub>
+       50
+      </sub>
+      affinity values above 500 nM as recommended by netMHCpan developers). For the remaining 6,548 peptides, all affinities were inverted, multiplied by 500 and log
+      <sub>
+       10
+      </sub>
+      -transformed. Thus, the resulting score was equal to zero for peptides with a weak binding affinity threshold (500 nM) and equal to one for a high binding affinity (50 nM). Raw and processed matrices are presented in      .
+     </p>
+    </sec>
+    <sec>
+     <title>
+      2.5. Statistical Analysis
+     </title>
+     <p>
+      Allele frequencies in considered cohorts were estimated by dividing the number of occurrences of a given allele in individuals by the doubled total number of individuals (i.e., identical alleles of homozygous individuals were counted as two occurrences). The following functions from the scipy.stats Python module (      ) were used to conduct statistical testing: fisher_exact for Fishers exact test, mannwhitneyu for Mann-Whitney
+      <italic>
+       U
+      </italic>
+      test. The Benjamini-Hochberg procedure was used to perform multiple testing corrections. Principal component analysis was conducted with the scikit-learn Python module (      ). Permutation test for assessing significance of area under the receiver operating characteristic curve (AUC ROC) values was done with
+      <italic>
+       n
+      </italic>
+      = 10      label permutations. Plots were constructed with Seaborn and Matplotlib (      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     3. Results
+    </title>
+    <sec>
+     <title>
+      3.1. Distribution of HLA Class I Gene Alleles in the Cohort of Deceased COVID-19 Patients and the Control Group
+     </title>
+     <p>
+      We performed HLA class I genotyping for
+      <italic>
+       n
+      </italic>
+      = 111 deceased patients with confirmed COVID-19 (Moscow, Russia) and the control group consisting of volunteers (
+      <italic>
+       n
+      </italic>
+      = 428). Deceased patients were divided into two groups: adults (age at death ≤ 60 years) and elderly adults (age at death over 60 years). Demographic and clinical data of these cohorts are summarized in      . Although patients with severe comorbidities were excluded from the study, 76.6% of deceased patients had at least one underlying disease. Only cerebrovascular disease had a statistically significant odds ratio when comparing groups of adults and elderly adults (3.8 vs. 34.1%, Fishers exact test
+      <italic>
+       p
+      </italic>
+      = 1.89 × 10      ). Other cardiovascular diseases like coronary artery disease and heart failure were also more frequent in the group of elderly individuals which, however, was not statistically significant. Interestingly, arterial hypertension was diagnosed in 11.5% of adult patients and 24.7% of older adults, which was generally less than populational level in Russia (about 50%) (      ). Percentage of diabetes cases was about 3.5% in both analyzed groups, which is a typical value for the current population of Russia (      ). Also, frequencies of chronic kidney disease (stages 4–5) in both groups (23.1% for adults and 16.5% for elderly individuals) was significantly higher compared to the background populational value (about 0.05%) (      ).
+     </p>
+     <table-wrap id="T1" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Demographic and clinical data in the cohort of deceased patients with COVID-19.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th colspan="1" rowspan="1"/>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Deceased, age ≤ 60,
+           <italic>
+            n
+           </italic>
+           = 26
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Deceased, age &gt; 60,
+           <italic>
+            n
+           </italic>
+           = 85
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            p
+           </italic>
+          </bold>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Age, completed years, median (Q25–Q75)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          54.5 (45.25–57)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          79 (70–84)
+         </td>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1" valign="top">
+          <bold>
+           Gender
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Female
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (38.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          42 (49.4%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.375
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Male
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (61.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          43 (50.6%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.375
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1" valign="top">
+          <bold>
+           Comorbidities
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          None
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (30.8%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18 (21.2%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.305
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (42.3%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          43 (50.6%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.507
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          &gt;1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7 (26.9%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24 (28.2%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1" valign="top">
+          <bold>
+           Cardiovascular disease
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Arterial hypertension
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (11.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21 (24.7%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.184
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Coronary artery disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1 (3.8%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9 (10.6%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.448
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Cardiac infarction
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1 (3.8%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.4%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.555
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Heart failure
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0 (0.0%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9 (10.6%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.113
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Stroke
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (7.7%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7 (8.2%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Cerebrovascular disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1 (3.8%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29 (34.1%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           1.89 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1" valign="top">
+          <bold>
+           Metabolic disease
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Obesity
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1 (3.8%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1 (1.2%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.415
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Diabetes
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1 (3.8%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (3.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Chronic obstructive pulmonary disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (7.7%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (3.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.333
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Neoplasma
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5 (19.2%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (9.4%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.179
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1" valign="top">
+          <bold>
+           Others
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Alcoholic liver disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (7.7%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.4%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.233
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Gastric ulcer
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (11.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (3.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.140
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Chronic kidney disease, stages 4–5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (23.1%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (16.5%)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.560
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        <italic>
+         Comorbidity ratios were compared with Fishers exact test. Bold values indicate p &lt; 0.05
+        </italic>
+        .
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      First, we tested whether frequency of a single allele can differentiate individuals from three groups: adult patients who died from COVID-19, elderly patients who died from COVID-19, and the control group. Distribution of major HLA-A, HLA-B, and HLA-C alleles in these three groups is summarized in      . Fishers exact test was used to make formal statistical comparisons. As a result, we found that for all possible group comparisons not a single allele had an odds ratio, which can be considered statistically significant after multiple testing correction (all corrected
+      <italic>
+       p
+      </italic>
+      -values were equal to 1). However, few of them were differentially enriched if no multiple testing corrections were applied (      ).
+     </p>
+    </sec>
+    <sec>
+     <title>
+      3.2. Binding Affinities of Viral Peptides to HLA Class I Molecules
+     </title>
+     <p>
+      Since sizes of considered cohorts were insufficient for performing frequency analysis at the level of full HLA class I genotypes, we transformed patient genotypes from discrete space to numerical units associated with the potential of interactions with SARS-CoV-2 peptides. To implement this idea, we first constructed a matrix of binding affinities of viral peptides to HLA-A, HLA-B, and HLA-C alleles. For that, we first made computational predictions of viral peptides derived from SARS-CoV-2 strains isolated in Moscow. Then, binding affinities were calculated for each of the predicted peptides and each allele present in patients from the analyzed cohorts.
+     </p>
+     <p>
+      As a result, we obtained a matrix containing affinity values for 6,548 peptides and 107 alleles of genes from major HLA class I. To establish a positive relationship between values from the matrix and binding potential, all affinities were inverted and scaled by a value of 500 nM (the conventional threshold for binding ability). Simultaneous hierarchical clustering was applied to identify groups of similar peptides and HLA-A, HLA-B, and HLA-C alleles (      ). As can be seen, both alleles and peptides clearly formed several dense clusters. The most presented alleles of HLA-A (HLA-A      01:01, HLA-A      02:01, HLA-A      03:01, and HLA-A      24:02) fell in different clusters, while for HLA-B and HLA-C, some major alleles were grouped together (e.g., HLA-B      07:02, HLA-B      08:01, HLA-C      06:02, HLA-C      07:01, and HLA-C      07:02).
+     </p>
+     <p>
+      Note that alleles with similar peptide binding profiles can be linked to different alleles of remaining genes. For example, consider closely clustered alleles HLA-C      06:02, HLA-C      07:01, and HLA-C      07:02. From the analysis of the contingency table of allele pairs in the control group (      ), it follows that each of these alleles has its own spectrum of associated alleles. Specifically, HLA-C      06:02 usually appears with HLA-B      13:02 (Fishers exact test
+      <italic>
+       p
+      </italic>
+      = 3.18 × 10      ), HLA-C      07:01 is linked to HLA-A      01:01 (
+      <italic>
+       p
+      </italic>
+      = 2.97 × 10      ) and HLA-B      08:01 (
+      <italic>
+       p
+      </italic>
+      = 3.15 × 10      ), while HLA-C      07:02 is coupled with HLA-A      03:01 (
+      <italic>
+       p
+      </italic>
+      = 9.66 × 10      ) and HLA-B      07:02 (
+      <italic>
+       p
+      </italic>
+      = 2.72 × 10      ). Interestingly, such linked alleles can have different peptide binding patterns (e.g., see weakly overlapped bars for HLA-A      01:01 and HLA-A      03:01 in      ).
+     </p>
+    </sec>
+    <sec>
+     <title>
+      3.3. Risk Score Based on Peptide-HLA Binding Affinity Is Associated With Early COVID-19 Deaths
+     </title>
+     <p>
+      For each of the considered HLA-A, HLA-B, and HLA-C alleles, we obtained the list of binding affinities to 6,548 unique SARS-CoV-2 peptides. In order to calculate aggregate information on the potential of presenting SARS-CoV-2 peptides by each allele, we used principal component analysis (PCA). In this framework 6,548-element affinity vectors are replaced by the most informative linear combinations of their components. For HLA-A and HLA-C, we found four principal components (PCs), each of which explained at least 5% of data variance, while for HLA-B, the number of essential components was equal to five (      ). Signs of components were set in the way to achieve positive correlation of component values with age of death of deceased patients.
+     </p>
+     <p>
+      For each individual, HLA class I gene, and PC, we summed PC values associated with two corresponding alleles. After that, we analyzed differences of obtained scores in adult and elderly patients who died from COVID-19. Three of the resulting PCs demonstrated statistically significant differences according to the Mann-Whitney
+      <italic>
+       U
+      </italic>
+      test. This list included the second and third PCs of HLA-A, and the fourth PC of HLA-C, while no PCs of HLA-B separated the analyzed groups significantly. As an aggregate risk score (RS), we considered the sum of these three components (for convenience, we linearly scaled the range of RS to the [0, 100] interval). The obtained score also significantly separated groups with
+      <italic>
+       p
+      </italic>
+      = 3.48 × 10      (U test) and AUC ROC equal to 0.68 (permutation test
+      <italic>
+       p
+      </italic>
+      = 3.10 × 10      ), see      (full information is listed in      ). Interestingly, the difference of RS distributions in the cohort of adult patients and the control group was also statistically significant (
+      <italic>
+       U
+      </italic>
+      test
+      <italic>
+       p
+      </italic>
+      = 3.31 × 10      ), while the difference between the elderly and control groups was not (
+      <italic>
+       p
+      </italic>
+      = 0.283).
+     </p>
+     <p>
+      In order to characterize the association between RS and age at death more precisely, we partitioned the range of RS into three groups: low, medium, and high (      ). The lower and higher thresholds were calculated in a way to minimize
+      <italic>
+       p
+      </italic>
+      -value for Fishers exact test applied to the number of adult and elderly patients in the whole cohort and in the low/high risk groups, respectively. Interestingly, such partitioning led to significant separation of adult patients both from the elderly and control subjects in the low and high risk groups, while no significance was found within the middle group (      ).
+     </p>
+     <p>
+      Then, we performed enrichment analysis to identify alleles significantly contributing to each of the RS groups (      ). As it can be seen, frequencies of several alleles were dramatically higher in some RS groups. Specifically, HLA-A      02:01 and HLA-A      03:01 were highly overrepresented in the low risk group and completely absent in the high risk group, while the most enriched allele in the high risk group was HLA-A      01:01. Reciprocally to HLA-A      02:01 and HLA-A      03:01 cases, not a single individual in the low risk group carried the HLA-A      01:01 allele. Complete information on allele frequencies in the RS groups is presented in      .
+     </p>
+     <table-wrap id="T2" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Enrichment analysis of risk score groups.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th colspan="1" rowspan="1"/>
+         <th colspan="1" rowspan="1"/>
+         <th align="center" colspan="3" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           Deceased
+          </bold>
+         </th>
+         <th align="center" colspan="3" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           Control
+          </bold>
+         </th>
+        </tr>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           RS group
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Allele
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Percentage, RS group (%)
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Percentage, cohort (%)
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            p
+           </italic>
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Percentage, RS group (%)
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Percentage, cohort (%)
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            p
+           </italic>
+          </bold>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Low
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          27.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           7.54 × 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           1.60 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          02:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          44.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0146
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          37.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           7.65 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          11:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.051
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           7.59 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-B          15:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.350
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.022
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-C          08:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.580
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0334
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-C          05:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.870
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0230
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Medium
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          01:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.239
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           2.65 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          24:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.360
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          17.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           5.06 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          High
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          01:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          54.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           2.15 × 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           1.50 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-B          37:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0331
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.600
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-C          06:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0364
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.557
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          24:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0400
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           2.88 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          26:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0459
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           4.23 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-B          08:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0680
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0148
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-B          38:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0780
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           1.35 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-C          07:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.283
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           8.380 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-C          12:03
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.304
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          32.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           5.530 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-A          25:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.772
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           2.079 × 10
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          HLA-B          18:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.790
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.0134
+          </bold>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        <italic>
+         One-sided Fishers exact test was used to identify HLA-A, HLA-B, and HLA-C alleles overrepresented in each of the RS groups in cohorts of deceased and control individuals. Data shown for alleles with p &lt; 0.05 in at least one of cohorts and with frequency over 5% in at least one of four considered conditions. Bold values indicate p &lt; 0.05
+        </italic>
+        .
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Finally, we assessed the contribution of individual peptides from different viral proteins to the RS. Contribution of a peptide to RS was calculated as an absolute value of the sum of corresponding PC coefficients (PC2 and PC3 for HLA-A, and PC4 for HLA-C). Then, the set of the most RS contributing peptides was composed by taking the top 5% of peptides from the corresponding distribution. The results of the procedure are summarized in      : distribution of peptides with the strongest contributions over SARS-CoV-2 proteins was similar to the one calculated for all peptides after multiple testing correction. Without the correction, only non-structural protein 8 (NSP8) had a statistically significant odds ratio. Thus, considered peptides were spread over proteins without any significant dependence on contribution to the RS.
+     </p>
+     <table-wrap id="T3" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        Distribution of peptides and viral proteins and their contribution to the RS.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Protein
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Percentage, important peptides (%)
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Percentage, all peptides (%)
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Odds ratio
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            p
+           </italic>
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           FDR
+          </bold>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.164
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.682
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0647
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.539
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.186
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.582
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.724
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.953
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.528
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.825
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP14
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.439
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.784
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.423
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.814
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NS3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.215
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.597
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP16
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.339
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.770
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0532
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.665
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.508
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.847
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.737
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.921
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP15
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0800
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.500
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           9.84 × 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.246
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NS7a
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.640
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.889
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.806
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.959
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          E
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NS8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.272
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.679
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.584
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.859
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.178
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.637
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NS6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NS7b
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.405
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.845
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.083
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.417
+         </td>
+        </tr>
+        <tr>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NSP11
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.000
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        <italic>
+         Fishers exact test was used to compare fractions of each protein in the most RS contributing and all peptides. Bold values indicate p &lt; 0.05
+        </italic>
+        .
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec>
+     <title>
+      3.4. The RS Is Associated With Severity of COVID-19 in the Cohort of Spanish Patients
+     </title>
+     <p>
+      To see whether the proposed RS was associated with different patterns of the disease severity, we re-analyzed data from a recently published study on the role of HLA class I genotypes in COVID-19 in a cohort of Spanish patients (      ). The data included genotypes of patients with severe (
+      <italic>
+       n
+      </italic>
+      = 20), moderate (
+      <italic>
+       n
+      </italic>
+      = 20), and mild (
+      <italic>
+       n
+      </italic>
+      = 5) SARS-CoV-2 infection. The RS model was applied to the data with no re-tuning of coefficients, and the same PCA weights were used for cohort-specific alleles. As a results, we found statistically significant dominance of RSs in patients with severe symptoms compared to moderate (
+      <italic>
+       U
+      </italic>
+      test
+      <italic>
+       p
+      </italic>
+      = 0.0157) and mild (
+      <italic>
+       p
+      </italic>
+      = 0.0161) patients, while, despite the matching direction, no statistical significance was found for the comparison of patients with moderate and mild infection (
+      <italic>
+       p
+      </italic>
+      = 0.0926), possibly due to the low sample size (      ). Thus, the developed model allowed us to find dependencies between HLA class I genotypes and severity of the disease in the independent patient cohort from another population.
+     </p>
+    </sec>
+    <sec>
+     <title>
+      3.5. Human Leukocyte Antigen Class I Homozygosity Is a Double-Edged Sword for COVID-19 Risk
+     </title>
+     <p>
+      When analyzing the high RS group, we noticed that more than half (five out of eight) deceased patients containing HLA-A      01:01 alleles were homozygous by this allele, while the medium group had not a single individual homozygous by HLA-A      01:01 (Fishers exact test
+      <italic>
+       p
+      </italic>
+      = 0.0103). The distribution of homozygous individual by HLA-A      01:01 among the groups of deceased patients and the control group proved its negative role. It turned out that the distribution in the deceased group (4 out of 26 patients who died &lt;60, and 1 out of 85 patients who died &gt;60) leads to two statistically significant differences:
+      <italic>
+       p
+      </italic>
+      -value of Fishers exact test comparing the adults group with the elderly group equals 3.10 × 10      , and
+      <italic>
+       p
+      </italic>
+      -value of the test comparing the adults group and the control group equals 0.0104 (8 out of 428 members of the control group were homozygous by HLA-A      01:01). However, the difference between the elderly group and the control group is statistically insignificant (
+      <italic>
+       p
+      </italic>
+      = 0.155). Interestingly, there were no other statistically significant differences in the distribution of homozygosity between the groups.
+     </p>
+     <p>
+      Generally, the average age of death for patients homozygous by any allele was significantly less compared to heterozygous ones (Mann-Whitney
+      <italic>
+       U
+      </italic>
+      test
+      <italic>
+       p
+      </italic>
+      = 6.45 × 10      ,      ). Also, the fraction of homozygous patients was higher in the group of deceased adults (42.3%) compared both to elderly patients (15.3%, Fishers exact test
+      <italic>
+       p
+      </italic>
+      = 6.03 × 10      ) and the control group (19.2%,
+      <italic>
+       p
+      </italic>
+      = 9.80 × 10      ). Difference between the elderly and control groups was not statistically significant (
+      <italic>
+       p
+      </italic>
+      = 0.448).
+     </p>
+     <p>
+      However, the low risk group also contained homozygous individuals: all homozygosity cases by HLA-A      02:01 (six cases) and HLA-A      03:01 (two cases) alleles were associated with low risk. These assignments were in agreement with age of death: only one patient homozygous by HLA-A      02:01 had not passed the 60 years age of death threshold. Thus, homozygosity by HLA class I genes is generally associated with poor prognosis except for some alleles like HLA-A      02:01 and HLA-A      03:01 with “relevant” peptide-binding profiles.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="discussion">
+    <title>
+     4. Discussion
+    </title>
+    <p>
+     In the current study, we presented the characteristics of a large cohort of deceased patients with COVID-19 from O.M. Filatov City Clinical Hospital in Moscow, Russia. The clinical characteristics of these patients indicated that the HLA genotype, age, and underlying diseases were the most important risk factors for death. In our population, the median age of deceased patients was 73.0 years. Three previous studies reported an average age in non-survivors to be 78.0, 65.8, and 70.7 years old, respectively (     –     ). Our data are in line with the literature reaffirming that advanced age is one of the strongest predictors of death in patients with SARS-CoV-2 (     ).
+    </p>
+    <p>
+     The majority of deceased patients at age &lt;60 were men (61.5%), while the populational level for this age category in Russia was 48% (     ). Such imbalance is in agreement with information that COVID-19 is more prevalent in men (     ). This trend continued in the group of the elderly adults where sex distribution was close to uniform, while only 37.5% of the population from this age group was male.
+    </p>
+    <p>
+     Only 18 deceased elderly patients (21.2%) had no comorbidities. A number of previous studies mentioned a high percentage of comorbidities in a group of patients with the severe course of COVID-19 (     ,     ,     ). At the same time, we were unable to find statistically significant differences in fractions on different comorbidities between the adult and elderly groups except the percentage of cerebrovascular disease. Specifically, only one adult (3.8%) had suffered from this disease compared to 29 individuals (34.1%) from the elderly group. The results of previously conducted meta-analysis of 1,558 individuals infected by COVID-19 already highlighted cerebrovascular disease as a risk factor for COVID-19 infection; however, this was not associated with increased mortality (     ). It is well-known that frequency of cardiovascular comorbidities increases with age (     ), and in total with age-related decrease in T cell receptor repertoires, it negatively affects the prognosis of COVID-19 (     ).
+    </p>
+    <p>
+     Differences of frequencies of HLA class I alleles were not statistically significant after multiple testing corrections both in comparisons between deceased patients and control groups, and the deaths of adults vs. elderly subjects. Previously, Wang with co-authors performed comparisons of allele frequencies between groups of Chinese individuals infected with COVID-19 and controls, which resulted in significant difference only for rare alleles, such as HLA-C     07:29 and HLA-B     15:27 (     ). Thus, the analysis of the whole HLA class I genotype should be performed to identify possible associations with clinical information.
+    </p>
+    <p>
+     Since the available cohort size is insufficient to deeply cover possible genotypes (two alleles for each of HLA-A, HLA-B, and HLA-C genes), we assigned a numerical value to each allele associated with the aggregate binding affinity of viral peptides to the corresponding receptor. The obtained RS separated adult patients who died due to COVID-19 from both the elderly subjects and the control group with a statistical significance. A conceptually similar technique was used by Iturrieta-Zuazo et al.: allele score was calculated as a number of tightly binding viral peptides (affinity &lt;50 nM) (     ). However, our PC-based approach can be more robust since it does not depend on any threshold. Application of the constructed model to their data additionally validated robustness of the approach, allowing us to discriminate groups of patients with severe, moderate, and mild disease course in a statistically significant way.
+    </p>
+    <p>
+     To identify extreme values of RS, we split its range into low, medium, and high risk groups. Three HLA-A alleles were highly overrepresented in these groups: HLA-A     02:01 and HLA-A     03:01 were tightly associated with low risk while HLA-A     01:01 contributed to the high risk group. Connection of HLA-A     01:01 and HLA-A     02:01 alleles with COVID-19 morbidity and mortality was already mentioned in the existing literature, namely, frequency of HLA-A     01:01 in Italian regions positively correlated both with the number of COVID-19 cases and deaths, while significant negative correlation was observed for HLA-A     02:01 (     ).
+    </p>
+    <p>
+     An interesting illustration for the role of HLA-A     01:01 and HLA-A     02:01/HLA-A     03.01 was discovered during the analysis of homozygous individuals. Homozygosity only by HLA-A     01:01 as well as homozygosity by any allele were significantly associated with the earlier age of death compared to the corresponding heterozygous individuals. Such observations were already noted for some other infectious diseases. For example, a limited number of recognized peptides due to HLA class I homozygosity led to a higher progression rate from HIV to AIDS (     ). On the contrary, we found that only one out of eight HLA-A     02:01 or HLA-A     03:01 individuals with homozygosity died before 60 years of age. This fact can also be observed in the dataset recently published by Warren with co-authors (     ): none out of the four COVID-19 patients homozygous by HLA-A     02:01 or HLA-A     03:01 had a severe course of COVID-19 and were admitted to the intensive care unit. Moreover, the control non-infected group contained significantly a higher fraction of such homozygotes: seven out of 26 non-infected controls (26.9%) vs. four out of 100 infected (4%) patients (Fishers exact test
+     <italic>
+      p
+     </italic>
+     = 1.40 × 10     ). Thus, presentation of “important” viral peptides with doubled intensity can enhance immune response showing that HLA class I homozygosity can act like a double-edged sword.
+    </p>
+    <p>
+     Since RS was constructed as a linear combination of peptide-HLA binding affinities, it was possible to rank peptides according to their contribution to the RS. Only one protein, NSP8, had a statistically significant fraction of RS contributing peptides, which, however, was negligible after multiple testing corrections. Thus, the most “important” peptides were spread across viral proteins proportional to their total fractions (see     ). Grifoni et al. also made a computational prediction of CD8     T cell epitopes by taking the top 1% of peptides according to their binding affinity to 12 common HLA class I alleles (     ). In total, 628 peptides were predicted, which significantly intersected with our list of the most “important” peptides: 198 out of 328 epitopes predicted by our analysis were present in the list provided (     ). Further experimental validation with the use of “megapools” demonstrated strong T cell immune response to these peptides in a cohort of 20 recovered patients (     ). As in our case, immunopeptidome was not limited to any particular protein.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="data-availability">
+    <title>
+     Data Availability Statement
+    </title>
+    <p>
+     The original contributions presented in the study are included in the article/     , further inquiries can be directed to the corresponding author/s.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6">
+    <title>
+     Ethics Statement
+    </title>
+    <p>
+     The studies involving human participants were reviewed and approved by the Local Ethics Committee at the Pirogov Russian National Research Medical University (Meeting No. 194 of March 16 2020, Protocol No. 2020/07). The patients/participants provided their written informed consent to participate in this study.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     MS, SN, and AT: conceptualization and validation. MS, SN, TJ, AG, IG, VV, and AT: methodology, investigation, and writing (review and editing). SN and AG: software and formal analysis. MS and SN: writing (original draft). All authors contributed to the article and approved the submitted version.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="conf1" sec-type="COI-statement">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

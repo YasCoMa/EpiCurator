@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Perspectives and Challenges in the Fight Against COVID-19: The Role of Genetic Variability
+ </title>
+ <abstract>
+  <p>
+   In the last year, the advent of the COVID-19 pandemic brought a new consideration for the multidisciplinary sciences. The unknown mechanisms of infection used by SARS-CoV-2 and the absence of effective antiviral pharmacological therapy, diagnosis methods, and vaccines evoked scientific efforts on the COVID-19 outcome. In general, COVID-19 clinical features are a result of local and systemic inflammatory processes that are enhanced by some preexistent comorbidities, such as diabetes, obesity, cardiovascular, and pulmonary diseases, and biological factors, like gender and age. However, the discrepancies in COVID-19 clinical signs observed among those patients lead to investigations about the critical factors that deeply influence disease severity and death. Herein, we present the viral infection mechanisms and its consequences after blocking the angiotensin-converting enzyme 2 (ACE2) axis in different tissues and the progression of inflammatory and immunological reactions, especially the influence of genetic features on those differential clinical responses. Furthermore, we discuss the role of genotype as an essential indicator of COVID-19 susceptibility, considering the expression profiles, polymorphisms, gene identification, and epigenetic modifications of viral entry factors and their recognition, as well as the infection effects on cell signaling molecule expression, which amplifies disease severity.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     COVID-19, the disease caused by the new coronavirus SARS-CoV-2, was first reported on December 29, 2019 in the city of Wuhan, China (     ), and since then, more than a year later, we are living through a pandemic that has challenged doctors and scientists worldwide. SARS-CoV-2 has already infected 106,797,721 people and caused more than 2,341,145 deaths worldwide (     ), with the main problem being the immune response that occurs in individuals. This is due to some peculiarities that SARS-Cov-2 presents, in particular the use of the angiotensin-converting enzyme 2 (ACE2) receptor to insert into human cells. Molecular study of the virus showed that it is a single-stranded RNA virus with a positive envelope (29.8 kb) that has six common open reading frames (ORFs) and several accessory genes (     ;     ) (     ).
+    </p>
+    <p>
+     Sequence analysis showed that the viral genome found in different patients was highly conserved (     ;     ), indicating a recent evolution. The amino acid sequence of the experimental receptor binding domain of SARS-CoV-2 resembles that of SARS-CoV, the virus that triggered an outbreak in 2003, indicating that these viruses recognize the same receptor (     ). Knowing the origin and structure of the new coronavirus, as well as its interaction with human cells, was a very important step for the confrontation that is currently being waged.
+    </p>
+    <p>
+     It is well known that while there are cases of individuals who are resistant to SARS-CoV-2 infection or asymptomatic, there is also a high rate of patients who progress to the severe form of the disease and die. This reality triggers several provocative questions.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2">
+    <title>
+     What Leads SARS-CoV-2 to Cause People Major Problems?
+    </title>
+    <p>
+     ACE2 enzyme acts as a receptor responsible for viral binding to the cells (     ;     ). A peculiarity of SARS-CoV-2 is the surface protein (Spike, S) (     ), which mediates virus recognition by human cells, that has a 10- to 20-fold higher affinity to ACE2 in comparison to the surface proteins of SARS-CoV, which contributes to its high infection and dissemination rates (     ). Such differences occur due to structural changes resulting from a four-residue motif (residues 482–485: Gly-Val-Glu-Gly) in the binding region, which makes the protein ridge more compact and allows better contact with the hACE2 N-terminal helix (     ;     ). Those structural features are essential to understand how ACE2-SARS-CoV-2 binding is processed.
+    </p>
+    <p>
+     In this scenario, the comprehension of ACE2 physiological functions and specific features could explain how comorbidities (hypertension, diabetes, obesity, and immunological diseases) and other biological factors (older age, male gender) can contribute to enhance the symptoms’ severity, with progression to death, evoked by COVID-19.
+    </p>
+    <p>
+     The ACE2 receptor exerts a pivotal role by regulating the degradation of Ang II in Ang 1-7
+     <italic>
+      via
+     </italic>
+     the G-protein accoupled Mas receptors axis, especially in the lungs. The protective functions associated with the ACE2 axis is a result of Ang 1-7 production, which leads to anti-inflammatory effects, the reduction of lymphocytes and neutrophils infiltration with decreased perivascular and bronchial inflammation. These effects are counter-regulated by AngII-mediated responses, such as myocardial and endothelial disfunction, hypertension associated with obesity, and coagulation alterations (     ).
+    </p>
+    <p>
+     Conversely, impaired ACE2 function in the lungs is responsible for increasing free-bradykinin levels, activating pro-inflammatory cytokines release, and pulmonary injury. Notably, Mas receptor activation stimulates prostacyclin and nitric oxide (NO) release in platelets, evoking anti-thrombotic effects. Additionally, Mas receptors are also expressed in the pancreas, improving perivascular blood flow, and in cardiac adipocytes, preserving cardiac function (     ;     ). In this sense, it was possible to predict that the deficiency of or a reduction in the physiological function of ACE2 may favor pulmonary inflammation, thrombosis, obesity-induced hypertension, adipose tissue inflammation, and cardiac failure, which is especially detrimental to the baseline risk of COVID-19 patients (     ).
+    </p>
+    <p>
+     Different morbidities, such as obesity, old age, and chronic obstructive pulmonary disease (COPD) are associated with severe COVID-19 symptoms, which, in general, are supra regulated by dipeptidyl peptidase-4 (DPP-4) (     ). In addition, both DPP-4 and ACE2 are dysregulated proteins in diabetes, so it may be possible for diabetic patients to present more severe cases of COVID-19 due to the increased levels of these proteases (     ). Studies have also shown that ACE2 overexpression occurs in the nasal and oropharyngeal epithelium of individuals who are more vulnerable to severe COVID-19 symptoms (     ;     ;     ).
+    </p>
+    <p>
+     investigated the presence of ACE2 in different tissues and observed that this receptor is highly abundant in the lung and small intestine epithelium, as well as in the vascular endothelium. Those observations were reinforced by findings on the overexpression of ACE2 in alveolar epithelial cells and enterocytes, which compose potential target organs of SARS-CoV-2 (     ). Specifically, expression of the ACE2 gene is concentrated in type I (oxygen and carbon dioxide exchanges) and II pneumocytes (alveolar surfactant production), and the profile of gene expression varies from individual to individual (     ). In the presence of SARS-CoV-2 infection, pneumocyte types I and II are damaged, decreasing the production of alveolar surfactants, which implies reduced pulmonary elasticity and pneumocytes type I repair. These factors result in pulmonary fibrosis and inefficient gas exchange (     ).
+    </p>
+    <p>
+     The large contact surface of alveolar epithelial tissue associated with the high expression levels of SARS-CoV-2 entry factors in bronchial secretory cells and nasal epithelial cells emphasizes that some individuals are more vulnerable to respiratory failure than others. Additionally, microarray database analysis reported that infection-related factors are also highly expressed in the gastrointestinal system, explaining the diarrhea and virus isolation from stool samples (     ). Therefore, the respiratory and gastrointestinal tracts represent the most frequent routes of virus access to the body. A structural study showed that, in addition to showing high levels of expression in the small intestine, ACE2 also has significant expression in the testicles, kidneys, heart, thyroid, and adipose tissue, with lower expression in the spleen, bone marrow, brain, blood cells, blood vessels, and muscles (     ).
+    </p>
+    <p>
+     Initially, SARS-CoV-2 mediated infection is dependent on the viral S1 domain binding to ACE2 and their cleavage by the transmembrane serine protease 2 (TMPRSS2), whereas the viral S2 domain is responsible for conformational changes that drive the fusion process between viral and host cell membranes (     ;     ). Those events are followed by virus entry and its replication in the cells (     ;     ). However, other molecular factors have been implicated as essential not only for viral entry but mainly for infection progressive cellular effects, such as the membrane anchored metalloproteinase domain-containing protein 17 (ADAM 17), which evokes the ACE2 shedding mechanism (     ;     ).
+    </p>
+    <p>
+     Virus binding induces ACE2 deficiency, amplifying the dysregulation between the ACE-Ang II-AT1 (type 1 receptor for angiotensin II) receptor and the ACE2-Ang 1-7-Mas receptor axis since there is a reduction in ACE2 catalytic properties favoring the ACE-Ang II-AT1 receptor pathway. Moreover, the renin–angiotensin–aldosterone system imbalance evokes pronounced detrimental effects in all COVID-19 stages, since multiple organ failure and a hyperinflammatory response are the main clinical findings in severe cases (     ).
+    </p>
+    <p>
+     The dysregulation of the ACE2/Ang II/AT1R axis, attenuation of the ACE2/Mas receptor axis, and increase in the activation of the ACE2/bradykinin B1R/DABK pathway and their complementary cascades are the main molecular interactions that support the cytokine storm (     ;     ). Once the virus binds to ACE2, this enzyme does not convert Ang II into Ang 1-7, making it impossible to activate MasR and form the complex to control inflammation. In the absence of Ang 1-7, there is also an increase in the expression of p38 MAPK and NFk-β pathways and inflammatory factors, as well as the binding of Ang II to the AT1R receptor, triggering pro-inflammatory responses and, as a result, pulmonary deterioration (     ;     ;     ) (     ).
+    </p>
+    <p>
+     The increase in Ang II and the consequent activation of its AT1R receptor also hyperactivate the complement system cascade, causing even more inflammatory responses, inducing vasoconstriction, increasing oxidative stress, and promoting inflammation and fibrosis (     ;     ). In addition, there is an increase in the activity of the inflammatory lung factor [des-Arg9]-BK (DABK), which also causes the exacerbated release of cytokines (     ). These events justify the relationship between a high viral load, severe lung damage, and Ang II levels in serum samples from patients infected with SARS-CoV-2 (     ).
+    </p>
+    <p>
+     Lymphopenia is one of the immunological responses characteristic of severe cases of COVID-19 accompanied by a marked decrease in the absolute number of circulating CD4+ cells, CD8+ cells, B cells, and natural killer cells (NK) (     ;     ), as well as a decrease in other cell types and increased levels of pro-inflammatory cytokines (     ;     ). The binding of SARS-CoV-2 with the ACE-2 receptor and the consequent change in the ACE-cascade triggers several molecular processes that lead to the overproduction of cytokines and hyperinflammation, and the activation of some cells that play a role in the immune system (     ;     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3">
+    <title>
+     An Explosive Response
+    </title>
+    <p>
+     The dysregulation of the immune system triggers the evolution of COVID-19 to its severe form in some patients (     ;     ), and respiratory failure is generally associated with this characteristic and not necessarily with increased viral load (     ). The simultaneous activation of both innate and adaptative immune systems through the binding of SARS-CoV-2 to the cell receptor makes the immune system reaction more damaging to the cells than the virus itself. In this way, the events following infection lead to severe inflammatory disorders with a possible progression to death (     ;     ).
+    </p>
+    <p>
+     A study by     concluded that a stronger antibody response is associated with delayed viral clearance and consequently more severe symptoms of the disease. Patients with COVID-19 and lower IgG titers experienced faster viral clearance when compared to patients with COVID-19 and higher IgG titers. Another study showed that asymptomatic individuals had lower IgG titers compared to those that were symptomatic (p=0.005) 3–4 weeks after exposure to SARS-CoV-2, and this difference remained during the convalescent phase (p=0.02), 8 weeks after hospital discharge (     ). This imbalance in immune response may occur due to a mechanism known as antibody-dependent enhancement (ADE), where there is an increase in pathogenicity in the presence of sub-neutralizing and non-neutralizing antibodies that facilitate viral entry into cells, triggering an increase in infection and virulence (     ). Other immunological studies on SARS-CoV suggest that anti-SARS-CoV-2 antibodies may intensify COVID-19 symptoms through the ADE mechanism, increasing infection or triggering detrimental immunopathology (     ).
+    </p>
+    <p>
+     According to     , this phenomenon occurs when non-neutralizing or sub-neutralizing antibodies bind to viral antigens without blocking or eliminating infection and, in an unexpected way, facilitate viral entry into the cells through the interaction with crystallizable fragments or receptors’ complements. Even if there is no active viral replication, the facilitated viral entry into cells can lead to the activation of macrophages, monocytes, and B cells and the production of tumor necrosis factor alpha (TNFα) and interleukins 6 and 10 (IL-6 and IL-10), affecting disease prognosis, an approach previously observed by     . This event may be responsible for the increase in the number of immune cells observed in patients with a poor prognosis.
+    </p>
+    <p>
+     The ADE mechanism is mediated by immunoglobulin receptor Fc(R), which has a pivotal role in immune response, controlling innate and humoral immunities that are essential for responses against infections and the prevention of chronic inflammation and autoimmune diseases. In addition, these immunoregulatory processes may play a role in the pathogenesis of the disease, triggering responses such as the release of cytokines and phagocytosis. Notably, these receptors have a large genetic polymorphism, with a variation in the immune response according to the presented gene (     ;     ), which may contribute to a larger or smaller immune response regarding infection by SARS-CoV-2.
+    </p>
+    <p>
+     A study by     reported that changes in peripheral blood inflammatory cells may signal the severity and spread of COVID-19. In this study, patients with severe infection showed a decrease in the number of lymphocytes, eosinophils, basophils, and an increase in neutrophil count. A decrease was observed in the total count of T lymphocytes (T CD4+, T CD8+), as well as NK cells 2 weeks after the treatment of patients who posteriorly died. Although there is a decrease in CD4 and CD8 lymphocyte cells and NK cells in the most severe cases of COVID-19, hyperactive circulating monocytes continue to produce proinflammatory cytokines, such as TNFα and IL-6. The hyperactivation of monocytes, decrease of lymphocytes, and high IL-6 release causes low expression of the cell surface receptor encoded by the human leukocyte complex (HLA-DR). As a result, there may be a failure in antigen presentation preventing the action of the immune system against the virus, followed by hyperinflammation due to the high production of pro-inflammatory cytokines (     ).
+    </p>
+    <p>
+     In the study performed by     , most patients with severe COVID-19 symptoms showed an increase in cytokine and chemokine serum levels, in addition to high production of neutrophils and low production of lymphocytes, indicating that the hyperinflammatory response was responsible for the severity of the disease. The impaired immune system, with damaged T lymphocytes, may cause greater susceptibility to secondary pulmonary bacterial infections, which justifies the use of some antibiotics as an adjunctive pharmacological therapy.
+    </p>
+    <p>
+     Thus, a cytokine storm is one of the main characteristics of severe cases of SARS-CoV-2 infection, being associated with the severity of the disease and mortality (     ;     ). It involves the uncontrolled release of a large amount of pro-inflammatory cytokines, such as TNFα, IL-6, and IL-1β, in a systemic way (     ). This reaction is formed by complex interconnected networks that interact in different ways, showing us that there are several molecular mechanisms to be unveiled (     ). In summary, the consequence of infection by SARS-CoV-2 is that patients have increased serum levels of IL-6, IL-1β, IL-2, IL-8, IL-17, colony stimulating factor of granulocytes (G-CSF), granulocyte and macrophage colony stimulating factor (GMCSF), interferon gamma-induced protein 10 (IP-10), monocyte-1 protein-chemoattractant-1 (MCP-1), chemokine 3 ligand (CCL3), and TNFα (     ;     ).
+    </p>
+    <p>
+     In this way, the reason why SARS-CoV-2 differentially changes the organism’s response and which strategies organisms use to fight infection are questions to be elucidated. According to     , there is evidence that the circulating IL-6 levels are intricately linked to the severity of infection in patients with COVID-19, especially in those with lung injury. IL-6 is a pleiotropic multifunctional cytokine that plays an important role in human metabolism (     ). Its action is mainly linked to lymphocyte proliferation, antibody production and multiplication, and differentiation of hematopoietic cells, targeting B cells, T cells, neutrophils, eosinophils, and basophils. IL-6 is associated with diseases including leukemia, hypertension, atherosclerosis, and different types of malignant tumors. The greatest production of this cytokine occurs in T cells, endothelial cells, fibroblasts, macrophages, and monocytes (     ). An increase of pro-inflammatory cytokines was detected in the serum of patients infected by coronaviruses SARS-CoV and MERS-CoV, being related to inflammation and lung damage (     ;     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4">
+    <title>
+     Understanding the Course of the Immune Response
+    </title>
+    <p>
+     As previously discussed, in addition to respiratory failure due to pulmonary inflammation, patients with severe COVID-19 symptoms may have systemic inflammation that causes damage to multiple organs, with distinct immune reactions among individuals. A current study, named ENE-COVID, which is being performed by the Spanish Ministry of Health and the Carlos III Institute of Public Health, showed that the majority of Spain’s population, one of the European populations most affected by COVID-19, had negative serology for SARS-CoV-2. Only 5% of more than 61,000 participants in the study had serum prevalence for IgG antibodies, of which one third were asymptomatic. Among the patients with positive results for COVID-19 as determined by qRT-PCR, 90% of serum prevalence was observed 14 days after diagnosis. From these results, it was concluded that herd immunity cannot be achieved without major side effects and a high mortality rate in the susceptible population (     ).
+    </p>
+    <p>
+     In a study by     , serum samples were collected from 65 patients diagnosed with COVID-19 by qRT-PCR and from 31 healthcare workers with positive serology and analyzed sequentially up to 94 days after the appearance of symptoms for neutralizing antibody responses. Eight days after the onset of symptoms, 95% of patients diagnosed with COVID-19 showed serum conversion and neutralizing antibody activity, with greater antibody responses in the most severe cases of the disease. However, over time, more than 60 days after the onset of symptoms, the antibody levels of most studied participants decreased, with a faster decline in those who had shown low antibody activity at the beginning. This fact was also investigated by     , who reported that the sensibility of a given antigen-based test for N protein decreased from &gt;95% to 85%, 61–80 days after diagnosis, and to 71%, 81–100 days after diagnosis, confirming that it is inadequate for serum prevalence studies or for individuals who show long-term chronic symptoms. Other immune mechanisms, such as long-term memory T-cell responses, play an important role in protecting against serious infections or diseases (     ;     ), however, the detailed analysis of responses of T cells is currently not viable in a high-performance clinical environment (     ).
+    </p>
+    <p>
+     Knowing the mechanisms and long-term kinetics of antibody titers, as well as the effectiveness of serological assays, is essential for a precise interpretation of disease progression (     ;     ;     ); however, specific IgM and IgG antibodies are mostly investigated for the peak surface glycoprotein (S) and nucleocapsid protein (N) (     ). In the future, it may be difficult to both verify seropositive individuals and study the immunization time of individuals and populations (herd immunization). In this way, new studies are developed in an attempt to improve the evaluation of the immune response through the identification of more specific regions for both early and late responses, such as ORF8 and ORF3b regions (     ;     ).
+    </p>
+    <p>
+     Regarding herd immunity,     developed a mathematical model in which they evaluated how far preventive measures can lead to herd immunity for SARS-CoV-2. They applied the model in four different hypothetical populations, considering variations in age and activity levels, with the implementation of preventive measures. It was observed that the population heterogeneity, mainly related to variations in social activity, reduced the acquisition of herd immunity from 60% to 43%, considering the classic level for homogeneous populations. In the current scenario, considering the wide heterogeneity among populations, it is possible to predict the unattainability of herd immunity.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5">
+    <title>
+     Predicting the Future: the Genotype as an Indicator of Susceptibility
+    </title>
+    <p>
+     Several factors cause variations in individuals’ responses to SARS-CoV-2, including viral load, genetic susceptibility, and concomitant pathological conditions (     ). The fact that some individuals have exacerbated inflammatory reactions and others do not gives rise to different phenotypes of the disease that are linked to genetic factors (     ). According to     , there are different receptors that are potentially involved with SARS-CoV-2 infection in epithelial barriers and immune cells, and their differential expression, depending on age, gender, presence of other characteristics, such as obesity, smoking, and polymorphisms, and the state of the disease, can contribute to the patterns of morbidity and severity of COVID-19 symptoms.
+    </p>
+    <p>
+     Therefore, we must remember that individuals are genetically distinct, which can contribute to the identification of different levels of disease severity. In addition to the comprehension of the molecular mechanisms involved in SARS-CoV-2 infection, it is necessary to understand the host organism’s reaction to infection.
+    </p>
+    <p>
+     This raised the question: are individual differences responsible for the lethality of the disease? An initial investigation carried out by some researchers in relation to gender and age showed that there is no difference between males and females or between people of different ages in terms of infection and transmission (     ;     ), which makes us believe that the individual responses after infection have great importance in determining the development of the disease (     ;     ;     ).
+    </p>
+    <p>
+     This has led researchers to several questions. Is it possible to predict a genetic composition that is less able to fight infection? Are we in a genomic era where genetic screening can identify the most resistant and the most susceptible individuals to new diseases? Could these results contribute to a more specific clinical assessment of infected individuals? To discuss these issues, the study of virus entry factors, expression profiles, polymorphisms, and epigenetic modifications may be important tools to detect susceptible individuals, which could facilitate control of COVID-19 outcomes (     ).
+    </p>
+    <p>
+     Since studies do not show difference between individuals in terms of transmission and infection by the SARS-CoV-2 virus, it is essential to assess individual responses and how they can be differentiated.
+    </p>
+    <p>
+     Almost 1 year since the start of COVID-19 pandemic, reports have shown that most patients who needed hospitalization, intensive care, intubation, and eventually died were male, with numbers 1.5- to 2-fold higher when compared to females (     ). Another study showed that in relation to the studied COVID-19 cases, men showed greater complications with more severe symptoms than women (p=0.035). In the public data set, the number of men who died of COVID-19 was 2.4-fold greater than that of women (70.3%
+     <italic>
+      vs
+     </italic>
+     . 29.7%, p=0.016) (     ).
+    </p>
+    <p>
+     In the United States, where the test to diagnose SARS-CoV-2 infection was prioritized for people with symptoms, the diagnostic rates were similar for both genders, but the male mortality rate was 1.5-fold higher than that of females (     ). There are reports that females have more effective innate and adaptative immunity responses to antigenic challenges (     ;     ). In addition, women respond better to different types of vaccines (     ;     ;     ).
+    </p>
+    <p>
+     According to     , the relationship between deaths from COVID-19 and the gender of patients may provide clues in the search for solutions to control the disease. Differences in chromosomes, genes, and hormones are influenced according to the individual’s gender which causes varied responses to several diseases, including COVID-19. Gender may be considered when analyzing clinical trials in relation to SARS-CoV-2 infection, as gender differences may reveal different approaches that are necessary for the treatment of patients with COVID-19, such as estrogen-related compounds and androgen receptor antagonists (     ).
+    </p>
+    <p>
+     Thus, the possible polymorphisms or loss of heterozygosity of some genes in males can interfere in the response to the virus, since the fact that females have two X chromosomes could be considered an advantage. Even with the inactivation of one X chromosome, this advantage is maintained since the process occurs randomly, allowing heterozygosity, a fact that is impossible in males due to the presence of a single X chromosome. The X chromosome has the ACE-2 gene, as well as genes related to the immune system responsible for innate and adaptive immune responses (     ). The androgen receptor (AR), toll-like receptor 7 (TLR7), toll-like receptor 8 (TLR8), kinase 1 associated with the interleukin-1 receptor (IRAK1), beta chain of cytochrome B-245 (CYBB), fork head box P3 (FOXP3), and CD40 ligand (CD40L) are among X chromosome genes involved in innate and adaptive immunity (     ).
+    </p>
+    <p>
+     The AR gene is responsible for the synthesis of a signal transduction protein and transcription factor, necessary for the development and expression of male phenotypes. In addition, signaling of this gene leads to several chemical activations and deactivations in the immune system, such as the inhibition of antibody production, cell differentiation
+     <italic>
+      via
+     </italic>
+     granulocytes, regulation of the chemotactic capacity of macrophages, regulation of T and B cell function, activation of the immune response of T cells by Th1, and inactivation of type I interferon (IFN type I) signaling pathways (     ;     ;     ).
+    </p>
+    <p>
+     The main hormones that bind to AR are dihydrotestosterone (DHT), testosterone, androstenedione, and dehydroepiandrosterone (DHEA), which are synthesized from cholesterol. Of these four androgens, only DHT cannot be converted to estrogen, so studies using DHT are more easily interpreted. It is interesting to remember that testosterone is present in greater quantity in adult males, which can lead to a response stimulation
+     <italic>
+      via
+     </italic>
+     Th1. Remarkably, the AR gene has polymorphs that influence the intensity of androgen signaling, and it affects both men and women (     ). Many differences in immune cells result from exposure to androgens, showing that there is a relationship between immunity and the gender of individuals. The suppression of immune reactivity and androgen-mediated inflammation raises the threshold for the development of autoimmunity; however, further studies are still needed to elucidate these mechanisms (     ).
+    </p>
+    <p>
+     The TLR7 and TLR8 genes, together with TLR4, which is on chromosome 4, mediate part of the innate immune response because they are in one of the three classes of pattern recognition receptors, the toll-like receptors (TLRs). They specifically regulate the production of type 1 IFN and other cytokines so that sexual dimorphism may be observed during antiviral responses (     ). Studies carried out using female lymphocytes reported that T and B cells showed biallelic expression of TLR7 and increased transcription of immune related genes linked to the X chromosome (     ). It would explain the 10-fold higher expression of TLR in females when compared to male cells (     ), as well as the lower production of INF- α. Male peripheral blood mononuclear cells produced lower levels of IFN-α after stimulation by the ligand TLR7 and higher levels of the immunosuppressive cytokine IL-10 after stimulation by ligands TLR8 and TLR9 (     ).
+    </p>
+    <p>
+     The IRAK1 gene is the key encoder of the intracellular signaling pathway of TLR/IL-1R and assists the recognition of viruses by TLR7/8 and the production of IFN- α, being one of the main genes that contribute to the divergence of responses related to gender after trauma and sepsis (     ;     ). The IRAK1 haplotype contributes to differentiated immunomodulation between the genders in all ethnic groups in relation to inflammatory responses. It probably occurs due to polymorphisms in the gene (     ).
+    </p>
+    <p>
+     The CYBB gene was identified as possibly responsible for the innate immune response, contributing to the activation of an intracellular oxidative explosion for the production of superoxide in phagocytes, encoding catalytic subunits of NADPH oxidase and, consequently, causing the death of microorganisms by phagocytosis (     ;     ).
+    </p>
+    <p>
+     The FOXP3 and CD40L genes cooperate in the adaptive immune response (     ). The protein synthesized by the FOXP3 gene is a key regulator of T cell activation, more specifically Treg (regulatory T cells) that prevent autoimmunity (     ). The protein synthesized by CD40L is responsible for transmembrane signaling involved in the activation of platelet, endothelial, and immunological cells. It acts in antigen presentation, in the activation of B cells, and in the differentiation of T cells (     ;     ), which could be involved in the differential development of disseminated intravascular coagulation in some patients.
+    </p>
+    <p>
+     In addition to those genes, several genetic factors, such as inactivation of the X chromosome and cell mosaicism, may be responsible for the hyperresponsiveness of the female immune system (     ;     ;     ). An interesting factor regarding the different mediation of the immune response in men and women is that the immune response mediated by antibodies in women is stimulated predominantly by type 2 T helper cells (Th2), whereas in men, type 1 T helper cells (Th1) are predominant (     ).
+    </p>
+    <p>
+     The gender-bias in response to immunological problems has already been shown by     , considering rheumatic diseases, where it was shown that, in addition to the heterozygosity that occurs in females, different genders go through different situations since birth, with molding of the epigenome and microchimerism. The author showed that men and women are genetically, epigenetically, hormonally, and chemically different, which has an influence on the health and success of long-term treatment. A better understanding and exploration of these differences is necessary to progress in the treatment and management of all patients. There is evidence that targeting candidate genes or reversing epigenetic dysregulation according to gender may be more effective and beneficial than current therapies (     ). Broadening the discussion of the topic, genetic, and epigenetic differences can be parameters to assess, in response to the presence of the virus, as they can be crucial in viral recognition and individual immune response, influencing the severity of SARS-CoV-2 infection. An example of epigenetic interference is the low susceptibility of children to SARS-CoV-2 infection, which can be explained, among several factors, by the high expression of ACE-2, which in spite of being the viral receptor, ends up having a protective effect on the lungs. The high expression of ACE2 enables the binding of the receptor to Ang II (     ) even in the presence of the virus, without altering the signaling cascade activated after the coupling of viral particles. In addition, children have a more effective innate immune system, with the ability to fight infection immediately upon infection, showing high regeneration of the alveolar epithelium (     ). Additionally, it was found that children’s nasal epithelium, the first region of SARS-CoV-2 contact with the organism, presents low expression of ACE2, hampering virus binding (     ).
+    </p>
+    <p>
+     In this context, other essential factors to be considered are the relationships between the levels of expression, polymorphisms, and epigenetic alterations, specifically for the viral entry factors ACE2, ADAM17, and TMPRSS2, since they are implicated in both susceptibility to viral infection in target cells and COVID-19 progressive symptoms (     ;     ).
+    </p>
+    <p>
+     For small bowel infections, the ACE2-TMPRSS2 and four serine protease axes also exert an essential role, being responsible for virus attachment and its internalization, explaining the gastrointestinal viral tropism (     ;     ). However, the presence of other elements on enterocytes, such as furin and B0AT1, an aminoacid transporter, can influence viral infection and its consequences. Intestinal viral infection includes the initial Spike cleavage by TMPRSS2 and furin, in segments 1 and 2, followed by S1 coupling with ACE2, while S2 mediates the membrane fusion. One of the main steps during SARS-CoV-2 bowel infection is the relationship between ACE2 and B0AT1, since B0AT1 function is regulated by the ACE2-like protein, viral coupling to ACE2 also blocks amino acid transporter activity. These effects lead to pathological conditions, similar to colitis, due to amino acid transport depletion, especially tryptophan, towards enterocytes’ apical membrane with successive activation of the mTOR pathway, evoking the inflammatory process (     ). Notably, its consequences on intestinal permeability and tissue exposition to other microbial toxins, enterocytes’ apoptosis, and microbiome dysbiosis amplifies inflammation from local to systemic coverage (     ). Then, in the presence of diabetes, inflammatory bowel diseases, and obesity as preexistent conditions, microbiome dysbiosis is markedly one of the main elements for enhancing the inflammatory consequences of viral infection.
+    </p>
+    <p>
+     Recent studies reported polymorphisms in the ACE2 gene in Chinese (     ), Canadian (     ), Indian (     ), and Brazilian (     ) populations.     conducted a study with database analysis and observed that the ACE2 gene has 1,700 variants, of which 11 variants were associated with increased expression of ACE2 in tissues, which can lead to differentiated infectivity by SARS-CoV-2. Different ACE2 variants related to hypertension manifestations were detected and low ACE2 mRNA expression levels were associated with hypertension, dyslipidemia, and heart failure, influencing SARS-CoV-2 infection susceptibility (     ). In a complementary way, the expression of ACE2 was downregulated in infected cells (     ).
+    </p>
+    <p>
+     Other epidemiological investigations discussed the differential incidence of ACE insertion (I)/deletion (D) polymorphisms among populations and its correlations with viral infection, mortality rate, and recovered clinical cases. In fact, the highest ACE levels were attributed to the dominant allele of ACE I/D polymorphism, revealing a positive correlation between its frequency and infected people in Asian populations. This finding was associated with the presence of comorbidities (hypertension, type-2 diabetes, hyperlipidemia, for example), but no relationships were observed for ACE I/D polymorphisms and the recovery rate of infected patients (     ). In a complementary way, a clinical study in Spain observed that ACE I/D polymorphisms were related to viral infection, depending on clinical hypertension severity (     ), indicating that both genetic and clinical factors are simultaneously implicated in COVID-19 outcomes.
+    </p>
+    <p>
+     In other analyses, it was reported that ACE2 expression was associated with differences in minor allele frequencies among populations, since Asian people express higher ACE2 levels than Caucasians. Additionally, single nucleotide polymorphisms (SNPs) were investigated for ADAM17 and TMPRSS2, indicating that some TMPRSS2 genotypes are more susceptible to other viral infections, such as H1N1, while ADAM17 expression quantitative trait loci are related to the modulation of the ACE2 shedding process (     ). This could be explained by the suppression of the ACE2 shedding barrier and the production of soluble form of ACE2 in the presence of a high viral load, which enables infection. Other polymorphisms with effects on COVID-19 progression were also observed in non-coding sequences for cathepsin L, monocyte chemoattractant protein-1 (CCL2), and neutrophil elastase genes, enhancing virus infection and inflammation (     ;     ).
+    </p>
+    <p>
+     In addition to expression levels and polymorphisms, ACE2 is extensively regulated by post-translational mechanisms. Those epigenetic modifications include glycosylation, phosphorylation, and shedding processes. In conditions of cellular stress, such as during inflammation, NAD-dependent deacetylase SIRT1 is linked to the ACE2 promoter, favoring its transcription. However, DNA methylation in the ACE2 promoter was lower in lung epithelial cells when compared to other target cells, indicating its high transcription levels in lung tissue, which allows viral infection (     ;     ).
+    </p>
+    <p>
+     Taken together, those factors belong to a complex mechanism involving mutations affecting the essential molecular components for viral entry (ACE2, ADAM17, and TMPRSS2); changes in their mRNA expression and post-translational regulation, implicated the severity of clinical symptoms observed in the presence or absence of patients’ comorbidities.
+    </p>
+    <p>
+     compared variations of the TMPRSS2 gene between populations in Italy and other Europeans and Asians. The study indicated that the TMPRSS2 gene and its genetic variants may be promising for disease modulation, suggesting that ACE2 may not be the only target of the virus. In the same way, other genes may be responsible for presenting alterations that may interfere in the individual response to the virus (     ).
+    </p>
+    <table-wrap id="T1" position="float">
+     <label>
+      Table 1
+     </label>
+     <caption>
+      <p>
+       Location and description of genetic polymorphisms that may be involved with a higher probability of COVID-19 severity.
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th align="left" colspan="1" rowspan="1" valign="top">
+         Locus
+        </th>
+        <th align="center" colspan="1" rowspan="1" valign="top">
+         Gene
+        </th>
+        <th align="left" colspan="1" rowspan="1" valign="top">
+         Localization/Function of protein
+        </th>
+        <th align="left" colspan="1" rowspan="1" valign="top">
+         Polymorphisms + SARS-CoV-2
+        </th>
+        <th align="left" colspan="1" rowspan="1" valign="top">
+         References
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="2" valign="top">
+         <bold>
+          Xp22.2
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="2" valign="top">
+         <bold>
+          ACE2
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="2" valign="top">
+         SARS-CoV-2 receptor,
+         <break/>
+         Heart, lungs, nervous system, liver, and kidney cells
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          Arg514-Gly
+         </bold>
+         <break/>
+         Cardiovascular and pulmonary conditions due to alteration of the AGT-ACE2 pathway
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          Ser19-Pro
+         </bold>
+         <break/>
+         <bold>
+          Glu329-Gly
+         </bold>
+         <break/>
+         Low binding affinity and lack of some of the key residues in the complex formation with the Spike SARS-CoV-2 protein
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          2p25.1
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          ADAM17
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Release of ACE2 into the extracellular space
+         <break/>
+         Endothelial cell, astrocytes, and neurons
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Evaluations of SNPs showed susceptible variations
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          2q24.2
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          DPP4
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         SARS-CoV-2 co-receptor
+         <break/>
+         Blood circulation and endothelial cells, including capillaries that surround endocrine and intestinal organs
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         –
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          15q26.1
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          PCSK3
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Viral pre-activation
+         <break/>
+         Pulmonary epithelium and fibroblasts
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          Arg298Gln
+         </bold>
+         <break/>
+         Influence on the recognition of the target RxxR sequence within the SARS-CoV-2 spike protein
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          19q13.32
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          ApoE
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Co-expressed where the ACE2 receptor is highly expressed
+         <break/>
+         Alveolar type II cells, lung
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          e          allele
+         </bold>
+         <break/>
+         <bold>
+          Cys112Arg
+         </bold>
+         <break/>
+         Serious disease, regardless of pre-existing dementia, cardiovascular disease, and type 2 diabetes
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          Xp22.2
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          TLR7
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Essential component of innate immunity
+         <break/>
+         intracellularly, in the endosomes
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          Val795Phe
+         </bold>
+         <break/>
+         Serious disease
+         <break/>
+         Allele homozygosis may have an adverse impact on the natural history and prognosis of COVID-19 in males
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          4q35.1
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          TLR3
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         NF-kappa-B activation, IRF3 nuclear translocation, cytokine secretion, and inflammatory response
+         <break/>
+         Endoplasmic reticulum membrane
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Ser339fs/WT
+         <break/>
+         Pro554Ser/WT
+         <break/>
+         Trp769*/WT
+         <break/>
+         Met870Val/WT
+         <break/>
+         Rare loss-of-function variants
+        </td>
+        <td align="left" colspan="1" rowspan="3" valign="top"/>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="2" valign="top">
+         <bold>
+          11p15.5
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="2" valign="top">
+         <bold>
+          IRF7
+         </bold>
+        </td>
+        <td align="left" colspan="1" rowspan="2" valign="top">
+         Key transcriptional regulator of immune responses dependent on interferon type I (IFN) which plays a critical role in the innate immune response against DNA and RNA viruses. It regulates the transcription of IFN type I genes (IFN-alpha and IFN-beta) and genes stimulated by IFN (ISG) by binding to an interferon-stimulated response element (ISRE) in their promoters.
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         Pro364fs/
+         <break/>
+         Pro364fs
+         <break/>
+         Rare loss-of-function variants
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         <bold>
+          Met371Val/
+         </bold>
+         <break/>
+         <bold>
+          Asp117Asn
+         </bold>
+         <break/>
+         Rare loss-of-function variants
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+    <p>
+     Human leukocyte antigen (HLA) genes, HLA-A, -B, and -C, among others, are located on chromosome 6 (6p21.34) and encode proteins involved in the processing and presentation of antigens, as well as a wide range of other immunological functions (     ). The connection of these genes with coronavirus infection was mentioned by     , who showed that the smallest binding peptides for SARS-CoV-1 were found for HLA-B * 46: 01. Furthermore,     performed an in silico analysis covering the binding affinity of the viral peptide-MHC class I in 145 HLA-A, -B, and -C genotypes and found that HLA-B * 46: 01 also occurred for SARS-CoV-2, suggesting that this allelic variant leads to vulnerability to the disease. However, the HLA B * 15: 03 variant was linked with the ability to present SARS-CoV-2 peptides, suggesting cross-protection with immunity based on T cells. However,     presented preliminary results, where HLA-A * 11: 01, -B * 51: 01, and -C * 14: 02 alleles showed connection with worse clinical outcomes in patients with COVID-19.
+    </p>
+    <p>
+     performed a meta-analysis of broad genomic association in which they analyzed SNPs in patients with severe acute respiratory syndrome by SARS-CoV-2 and control individuals in Italy and Spain. Two loci associated with respiratory failure in COVID-19 were found, one of which was the GA-G insertion-deletion variant in locus 3p21.31 that is composed of six genes (SLC6A20, LZTFL1, CCR9, FYCO1, CXCR6, and XCR1). Some of these genes are associated with greater severity of COVID-19 symptoms. The SLC6A20 gene synthesizes the SIT1 protein, which together with LZTFL1, interacts with ACE2 cell receptors. The other genes encode chemokine receptors of the C-C and CXC families, which control cell migration associated with immune surveillance by trafficking effector cells to sites of infection and inflammation. According to     , this genomic sequence, a 49.4 kb haplotype, previously identified by     , was inherited from a Neanderthal who lived in Croatia 50,000 years ago and has a frequency of 30% in the South Asians, 8% in Europeans, and 4% in the American population. Despite the variations in the frequency of this genomic sequence, there are no differences in disease severity around the world due to several non-genetic factors, such as multiple comorbidities, advanced age, physical inactivity, and smoking, among others, which also contribute to respiratory failure.
+    </p>
+    <p>
+     The other region studied by     regarding SARS-CoV-2 infection was the SNP A or C at locus 9q34.2, which is related to the ABO blood system, and showed the highest susceptibility of individuals in group A and the lowest susceptibility of individuals in group O. Other studies investigated patients in relation to blood groups and showed that patients in blood group O, regardless of Rh, had a lower incidence of SARS-CoV-2 infection, with individuals in group A being more sensitive and prone to disease, presenting a higher frequency among patients with COVID-19, in addition to being the most serious cases (     ). The authors suggested that the biological mechanisms included in these results may be related to other biological effects of the identified variant, including stabilization of the von Willebrand factor or the development of neutralizing antibodies against protein-bound N-glycans (     ;     ).
+    </p>
+    <p>
+     Other studies have shown evidence of the increased probability of individuals in blood group A to have COVID-19 (     ). A possible explanation for this would be the fact that anti-A antibodies could inhibit the interaction of the Spike protein with the ACE-2 receptor (     ). Therefore, blood group O appears to be protective, while group A may be more susceptible to the disease. In this way, patients in group A deserve greater attention when infected by SARS-CoV-2, and further molecular studies are also needed to obtain answers regarding the real protective role of the O antigen (     ).
+    </p>
+    <p>
+     Another hypothesis is that susceptibility to SARS-CoV-2 may also be related to the composition of the intestinal microbiota. Based on the proteomic profile of patients with COVID-19,     conducted a study in which they observed the direct relationship between the characteristics of the intestinal microbiota of some healthy individuals, generally older, and the abnormal activation of pro-inflammatory cytokines, which can determine the predisposition to the severe form of COVID-19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6">
+    <title>
+     Perspectives in the Diagnosis and Treatment of COVID-19: the Contribution of Genetic Analysis
+    </title>
+    <p>
+     Knowledge of the patients’ immune phenotype/genotype is necessary to understand the complexity of COVID-19 (     ). Knowing the changes in the signaling pathways caused by the infection can also contribute to the elucidation of the molecular cascades that trigger infection and the severity of the clinical symptoms. So, it is necessary to find molecular targets and alternatives to prevent the progression of COVID-19 (     ).
+    </p>
+    <p>
+     Given the information collected since the pandemic began, it is almost certain that the organism’s success in overcoming COVID-19 is linked to the genetics of each individual, their polymorphisms, their patterns of gene expression, and possibly the diversity of intestinal microbiota. However, there are still no parameters to assess genetic markers in individuals. According to     , in view of the multifactorial genetic impact for the risk of SARS-CoV-2 infection and disease severity, there is the possibility of assessing SNP profiles of the ACE2, ADAM17, and TMPRSS2 genes in an attempt to identify vulnerable populations, creating a risk score.
+    </p>
+    <p>
+     A study that is being conducted at the Center for Human Genome and Stem Cell Studies at the University of São Paulo (Brazil) aims to investigate the genome of super-resistant individuals and individuals susceptible to SARS-CoV-2. It is seeking to understand the factors associated with cases of nonagenarians with diabetes and hypertension that have recovered from the disease and young people with no history of chronic diseases that have died. According to the researchers, individuals who develop severe forms may have so-called “risk genes”, while the infected group that does not develop the severe form of the disease, has “protective genes” (     ). An international consortium, the COVID Human Genetic Effort, is currently focused on investigating naturally resistant individuals and healthy young patients who developed severe symptoms. This group of researchers considers these studies a promising tool to understand the genetic determinants of COVID-19 (     ).
+    </p>
+    <p>
+     In this context, the need for genomic analysis and its application in diagnostic medicine is emphasized, since the identification of some genetic patterns can contribute to the clinical evaluation of patients and the amplification of choices for the treatment of each individual. As in other events related to infectious diseases throughout history, this new stage features the possibility to develop new skills and use different tools to guide and assist health professionals in different phases of the treatment and diagnosis of COVID- 19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     All authors contributed to the article and approved the submitted version. All the authors contributed equally to this work.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s8" sec-type="funding-information">
+    <title>
+     Funding
+    </title>
+    <p>
+     The authors are supported by Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) [Grant #2020/05816-2 (MG-C), #2019/20303-4 (DRA) and #2017/13328-5 (RL)], Conselho Nacional de Desenvolvimento Científico e Tecnológico [CNPq proc 307718/2019-0 (DRA)] and Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001 (CTB).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s9" sec-type="COI-statement">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

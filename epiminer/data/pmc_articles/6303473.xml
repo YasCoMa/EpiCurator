@@ -1,0 +1,2220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Broad CD8
+ </title>
+ <abstract>
+  <p id="Par1">
+   Newly-emerged and vaccine-mismatched influenza A viruses (IAVs) result in a rapid global spread of the virus due to minimal antibody-mediated immunity. In that case, established CD8   T-cells can reduce disease severity. However, as mutations occur sporadically within immunogenic IAV-derived T-cell peptides, understanding of T-cell receptor (TCRαβ) cross-reactivity towards IAV variants is needed for a vaccine design. Here, we investigate TCRαβ cross-strain recognition across IAV variants within two immunodominant human IAV-specific CD8   T-cell epitopes, HLA-B*37:01-restricted NP
+   <sub>
+    338-346
+   </sub>
+   (B37-NP
+   <sub>
+    338
+   </sub>
+   ) and HLA-A*01:01-restricted NP
+   <sub>
+    44-52
+   </sub>
+   (A1-NP
+   <sub>
+    44
+   </sub>
+   ). We find high abundance of cross-reactive TCRαβ clonotypes recognizing distinct IAV variants. Structures of the wild-type and variant peptides revealed preserved conformation of the bound peptides. Structures of a cross-reactive TCR-HLA-B37-NP
+   <sub>
+    338
+   </sub>
+   complex suggest that the conserved conformation of the variants underpins TCR cross-reactivity. Overall, cross-reactive CD8   T-cell responses, underpinned by conserved epitope structure, facilitates recognition of distinct IAV variants, thus CD8   T-cell-targeted vaccines could provide protection across different IAV strains.
+  </p>
+  <p id="Par2">
+   Mutations within immunological epitope containing regions of influenza A virus can impair the established immune response between influenza strains and could impact rational vaccine design. Here Grant et al. examine the presence, structural impact and cross reactivity of two human immunodominant influenza epitope variants.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1" sec-type="introduction">
+    <title>
+     Introduction
+    </title>
+    <p id="Par3">
+     Influenza A viruses (IAVs) rapidly evolve and cause significant morbidity and mortality (reviewed in refs.     ). Annual epidemics are responsible for &gt;500,000 deaths worldwide     , while pandemics can cause &gt;50 million deaths (reviewed in ref.     ). Although vaccines are available, they primarily induce neutralizing antibodies directed towards the rapidly mutating surface glycoproteins, rather than cross-reactive CD8     T cell immunity     , mandating that these vaccines are updated and administered annually (reviewed in ref.     ). Furthermore, these vaccines are fallible when the circulating strains do not match the predicted vaccine strains     or in a scenario when a novel viral subtype enters the population. Thus there is an urgent need to understand correlates of T cell protection towards IAV to provide effective influenza vaccine design.
+    </p>
+    <p id="Par4">
+     In the absence of neutralizing antibodies, strain cross-reactive CD8     T cells can protect against IAVs. Murine studies show that CD8     T cells correlate with decreased morbidity and mortality following IAV infection     and can provide protection during infection with heterosubtypic IAV strains     . Human studies are consistent with murine data. Namely, published evidence shows that prominence of influenza-specific CD8     T cells correlates with lower viral titers     and decreased disease severity     during IAV infection. Furthermore, CD8     T cells primed with seasonal circulating IAV strains can cross-react with pandemic H1N1 (pH1N1) or variant seasonal peptides     or virulent H7N9 and H5N1 avian IAV-derived peptides     . Together, these data suggest that an IAV-specific CD8     T cell-mediated vaccine can provide broad cross-reactive immunity across distinct influenza A strains and subtypes for both conserved and variable CD8     T cell epitopes.
+    </p>
+    <p id="Par5">
+     It is well established that CD8     T cells with diverse T cell receptor (TCR) repertoires are greatly beneficial for disease outcome, contributing to reduced disease severity     , enhanced CD8     T cell function     , cross-reactivity across different peptide variants     , and preventing viral escape     . Importantly, although CD8     TCRs are typically highly specific for their cognate peptide, they can also recognize a broad range of peptide variants, thus allowing CD8     T cells to have a powerful capacity to recognize not only their cognate peptide but also a range of viral mutants     . In case of highly mutating influenza viruses, such cross-reactive CD8     T cells are highly desirable as they elicit immune responses towards multiple viral strains and hence provide cross-strain protection.
+    </p>
+    <p id="Par6">
+     The precise mechanisms underlying cross-recognition by influenza-specific CD8     TCRs in humans are unclear. To date, TCRαβ repertoires have only been dissected for two immunodominant influenza-specific human epitopes, HLA-A*02:01-restricted M1
+     <sub>
+      58
+     </sub>
+     and HLA-B*35:01/*35:03/*07:02-restricted NP
+     <sub>
+      418
+     </sub>
+     , providing ∼50% of the cumulative population coverage. Thus it is important to understand cross-reactivity and diversity of CD8     T cell TCRαβ repertoires directed against other prominent IAV-specific epitopes, if we are to rationally design a broadly protective CD8     T cell-mediated influenza vaccine.
+    </p>
+    <p id="Par7">
+     Here we use an ex vivo multiplex reverse transcription polymerase chain reaction (RT-PCR) approach     to analyze paired TCRαβ repertoires for two additional prominent human CD8     T cell epitopes, HLA-B*37:01-restricted NP
+     <sub>
+      338–346
+     </sub>
+     -FEDLRVLSF (NP
+     <sub>
+      338
+     </sub>
+     )     and HLA-A*01:01-restricted NP
+     <sub>
+      44–52
+     </sub>
+     CTELKLSDY (NP
+     <sub>
+      44
+     </sub>
+     )     , restricted by alleles that are frequent in the human population (∼19% of the cumulative coverage). We identify cross-reactive TCRαβ clonotypes capable of recognizing the wild-type (WT) peptide and peptide variants. This is most prominent in HLA-B*37:01-expressing donors, where distinct and cross-reactive NP
+     <sub>
+      338
+     </sub>
+     -specific TCRαβ clonotypes bound each of the NP
+     <sub>
+      338
+     </sub>
+     -WT, NP
+     <sub>
+      338
+     </sub>
+     -L7S, and NP
+     <sub>
+      338
+     </sub>
+     -V6L variants (93–100% of distinct IAV strains), highlighting their potential to provide protection against distinct influenza strains and subtypes. Our structural analysis reveals that the variants adopt a similar conformation than the WT epitope for both HLA-A*01:01 (HLA-A1) and HLA-B*37:01 (HLA-B37) molecules, providing a molecular basis for CD8     TCRαβ cross-reactivity. Structural analysis indicates that molecular similarity may underpin how an HLA-B37-restricted cross-reactive TCRαβ, clone EM2, can recognize the variants. Thus our data suggest that structural resemblance underpins cross-reactivity of HLA-B37     NP
+     <sub>
+      338
+     </sub>
+     CD8     and HLA-A1     NP
+     <sub>
+      44
+     </sub>
+     CD8     T cells, despite their diverse TCR repertoires between individuals towards those two epitopes.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="Sec3">
+     <title>
+      Only HLA-B37      donors elicit a NP
+      <sub>
+       388
+      </sub>
+      CD8      T cell response
+     </title>
+     <p id="Par8">
+      Our previous work identified NP
+      <sub>
+       338
+      </sub>
+      as an immunodominant CD8      T cell epitope in individuals expressing HLA-B37      . However, NP
+      <sub>
+       338
+      </sub>
+      was previously reported to be restricted by HLA-B*44:03      . Thus we first investigated whether the NP
+      <sub>
+       338
+      </sub>
+      peptide can be presented by other HLA allomorphs using the online SYFPETHI peptide-binding prediction tool      . A high prediction binding score for the NP
+      <sub>
+       338
+      </sub>
+      peptide was obtained for HLA-B37, HLA-B*44:02, and HLA-B*18:01 (HLA-B18) (Table      ). The SYFPETHI website contains only the HLA-B*44:02 in its database but not the closely related allomorphs, such as HLA-B*44:03 and HLA-B*44:05      . The high prediction binding score for the NP
+      <sub>
+       338
+      </sub>
+      peptide obtained for HLA-B*44:02 is likely to be shared by HLA-B*44:03 and HLA-B*44:05 (HLA-B44), given their known overlapping peptide repertoire      . Both HLA-B44      and HLA-B18      display a preference for P2-E and PΩ-F/Y in their bound peptides, and both residues are present in the IAV-derived NP
+      <sub>
+       338
+      </sub>
+      peptide.
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         HLA alleles predicted to bind the WT NP
+         <sub>
+          338–346
+         </sub>
+         FEDLRVLSF peptide
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Prediction score range
+          </th>
+          <th>
+           HLA allele
+          </th>
+          <th>
+           Prediction score
+          </th>
+          <th>
+           HLA superfamily
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           &gt;20
+          </td>
+          <td>
+           <bold>
+            B*37
+           </bold>
+          </td>
+          <td>
+           <bold>
+            33
+           </bold>
+          </td>
+          <td>
+           <bold>
+            B44
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           <bold>
+            B*44:02
+           </bold>
+          </td>
+          <td>
+           <bold>
+            25
+           </bold>
+          </td>
+          <td>
+           <bold>
+            B44
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           <bold>
+            B*18
+           </bold>
+          </td>
+          <td>
+           <bold>
+            22
+           </bold>
+          </td>
+          <td>
+           <bold>
+            B44
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           15–20
+          </td>
+          <td>
+           B*08
+          </td>
+          <td>
+           17
+          </td>
+          <td>
+           B8
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*40:01
+          </td>
+          <td>
+           17
+          </td>
+          <td>
+           B44
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*45:01
+          </td>
+          <td>
+           17
+          </td>
+          <td>
+           B44
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*41:01
+          </td>
+          <td>
+           16
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*14:02
+          </td>
+          <td>
+           15
+          </td>
+          <td>
+           B27
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*53:01
+          </td>
+          <td>
+           15
+          </td>
+          <td>
+           B7
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*38:01
+          </td>
+          <td>
+           15
+          </td>
+          <td>
+           B27
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           B*13
+          </td>
+          <td>
+           3
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           A*68:01
+          </td>
+          <td>
+           2
+          </td>
+          <td>
+           A3
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         The
+         <ext-link ext-link-type="uri" ns0:href="http://www.syfpeithi.de/bin/MHCServer.dll/Info.htm">
+          http://www.syfpeithi.de/bin/MHCServer.dll/Info.htm
+         </ext-link>
+         prediction tool was used to assign a prediction score that the WT NP
+         <sub>
+          338
+         </sub>
+         peptide would be bound by the particular HLA allele. Prediction scores were grouped into a predicted score range for clarity. ND refers to HLA alleles, which have not been assigned a HLA superfamily. Alleles in bold were selected for further analysis
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par9">
+      We first refolded the NP
+      <sub>
+       338
+      </sub>
+      peptide with HLA-B37, HLA-B18, and HLA-B44 molecules and assessed the stability of each peptide–HLA (pHLA) complex. We used HLA-B*44:05 molecule as the refold yield was higher for this allomorph than for the HLA-B*44:02/03. The NP
+      <sub>
+       338
+      </sub>
+      peptide could bind each of the three HLA molecules (HLA-B37, -B18, and -B*44:05); however, the stability of HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      was superior by 6 °C to HLA-B18-NP
+      <sub>
+       338
+      </sub>
+      and by 14 °C to HLA-B*44:05-NP
+      <sub>
+       338
+      </sub>
+      (Supplementary Table      ).
+     </p>
+     <p id="Par10">
+      We then solved the binary structures of the NP
+      <sub>
+       338
+      </sub>
+      peptide presented by HLA-B37, HLA-B18, and HLA-B44 (Supplementary Table      , Fig.      ). The NP
+      <sub>
+       338
+      </sub>
+      peptide adopted an extended conformation in the cleft of HLA-B37, with the P2-Glu and P9-Phe acting as anchor residues in the B- and F-pocket of HLA-B37, respectively      . In addition to the primary anchor residues, the P5-Arg acted as a secondary anchor residue, fully buried into the F-pocket, and formed a salt bridge with Asp77 from the α1-helix in the HLA-B37 molecule (Fig.      ). The remaining six residues were all solvent exposed and represented potential contacts for the TCR. Comparison of the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      with HLA-B18-NP
+      <sub>
+       338
+      </sub>
+      and HLA-B44-NP
+      <sub>
+       338
+      </sub>
+      complexes show an overall similar HLA-binding cleft (Fig.      ), with a root mean square deviation (r.m.s.d.) of 0.2 and 0.4 Å, respectively. Similar to the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      structure, the NP
+      <sub>
+       338
+      </sub>
+      peptide was anchored to HLA-B18 and HLA-B44 by P2-Glu and P9-Phe. However, the NP
+      <sub>
+       338
+      </sub>
+      peptide adopted a strikingly distinct conformation when bound to HLA-B37 as compared with HLA-B18 (r.m.s.d. of the peptide 1.7 Å) and HLA-B44 (r.m.s.d. of 1.8 Å for the peptide). In HLA-B18, P5-Arg is partially buried in the D-/E-pocket and only exposed its guanidinium group to the solvent, stabilized by a salt bridge with the peptide P3-Asp (Fig.      ). Polymorphism at position 116 between the two HLA molecules change the architecture of the peptide. The HLA-B18 contains a small Ser116, while the HLA-B37 has a large Phe116. As a result, P9-Phe of the peptide is anchored deeper in the cleft in the HLA-B18 molecule, which would sterically clash with the P5-Arg conformation observed in HLA-B37. In addition, the salt bridge observed in HLA-B37 between Asp77 and P5-Arg would be lacking in HLA-B18 due to the presence of Ser77. In HLA-B44, P5-Arg was fully exposed to the solvent (Fig.      ). Owing to the presence of four tyrosine residues (9, 74, 99, 116) in the cleft of HLA-B44 located underneath P5-Arg, Arg cannot be accommodated inside the cleft and adopt a different conformation from the one observed in HLA-B37, that only shares Tyr74. The additional anchor residue observed in the B37-NP
+      <sub>
+       338
+      </sub>
+      complex could explain the higher stability of this pHLA complex (Supplementary Table      ). These distinct conformations adopted by the NP
+      <sub>
+       338
+      </sub>
+      peptide, due to HLA polymorphism, changed the surface presented to the TCR. On one hand, the NP
+      <sub>
+       338
+      </sub>
+      peptide revealed a hydrophobic surface when bound to HLA-B37, while on the other, it was an epitope with central positively charged residues in the cleft of HLA-B18 and HLA-B44.
+     </p>
+     <p id="Par11">
+      We next probed memory NP
+      <sub>
+       338
+      </sub>
+      CD8      T cell responses in individuals expressing HLA-B*37:01, HLA-B*44:02, HLA-B*44:03, or HLA-B*18:01 (Fig.      , Supplementary Table      ) by stimulating their peripheral blood mononuclear cells (PBMCs) with a pool of NP
+      <sub>
+       338
+      </sub>
+      peptides corresponding to the main variants in the circulating influenza A strains (Table      ). Following 10–16 days of peptide stimulation, we detected robust CD8      T cell responses by interferon-γ (IFNγ) and tumor necrosis factor-α (TNFα) production as well as CD107a expression in the majority (4/5) of HLA-B37      donors (Fig.      ), with a high level of polyfunctionality (Fig.      ). However, NP
+      <sub>
+       338
+      </sub>
+      CD8      T cell responses were undetectable in all (5/5) HLA-B*44:02, HLA-B*44:03, or HLA-B*18:01 individuals (Fig.      ), despite their CD8      T cells having responded strongly to non-specific stimulation by phorbol 12-myristate 13-acetate or Concanavalin A (Fig.      ).
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Conservation of NP
+         <sub>
+          338
+         </sub>
+         epitope in distinct IAV strains
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Sequence
+          </th>
+          <th>
+           Abbreviation
+          </th>
+          <th colspan="9">
+           Frequency
+          </th>
+         </tr>
+         <tr>
+          <th/>
+          <th/>
+          <th colspan="3">
+           IAV—H1N1
+          </th>
+          <th colspan="3">
+           IAV—H3N2
+          </th>
+          <th colspan="3">
+           Other IAV strains
+          </th>
+         </tr>
+         <tr>
+          <th/>
+          <th/>
+          <th>
+           All
+          </th>
+          <th>
+           Aust
+          </th>
+          <th>
+           Vacc
+          </th>
+          <th>
+           All
+          </th>
+          <th>
+           Aust
+          </th>
+          <th>
+           Vacc
+          </th>
+          <th>
+           pH1N1 All
+          </th>
+          <th>
+           H5N1 All
+          </th>
+          <th>
+           H7N9 All
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <italic>
+            FE
+           </italic>
+           <italic>
+            <underline>
+             D
+            </underline>
+           </italic>
+           <italic>
+            LR
+           </italic>
+           <italic>
+            <underline>
+             V
+            </underline>
+           </italic>
+           <italic>
+            LS
+           </italic>
+           <italic>
+            <underline>
+             F
+            </underline>
+           </italic>
+          </td>
+          <td>
+           <italic>
+            WT
+           </italic>
+          </td>
+          <td>
+           <italic>
+            0.9
+           </italic>
+          </td>
+          <td/>
+          <td/>
+          <td>
+           <italic>
+            2.4
+           </italic>
+          </td>
+          <td>
+           <italic>
+            1.9
+           </italic>
+          </td>
+          <td>
+           <italic>
+            6.3
+           </italic>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            FE
+           </italic>
+           <italic>
+            <underline>
+             D
+            </underline>
+           </italic>
+           <italic>
+            LR
+           </italic>
+           <italic>
+            <underline>
+             V
+            </underline>
+           </italic>
+           <bold>
+            <italic>
+             S
+            </italic>
+           </bold>
+           <italic>
+            S
+           </italic>
+           <italic>
+            <underline>
+             F
+            </underline>
+           </italic>
+          </td>
+          <td>
+           <italic>
+            L7S
+           </italic>
+          </td>
+          <td>
+           <italic>
+            96.5
+           </italic>
+          </td>
+          <td>
+           <italic>
+            93.0
+           </italic>
+          </td>
+          <td>
+           <italic>
+            100.0
+           </italic>
+          </td>
+          <td>
+           <italic>
+            1.3
+           </italic>
+          </td>
+          <td>
+           <italic>
+            1.3
+           </italic>
+          </td>
+          <td/>
+          <td>
+           <italic>
+            98.5
+           </italic>
+          </td>
+          <td>
+           <italic>
+            95.9
+           </italic>
+          </td>
+          <td>
+           <italic>
+            100.0
+           </italic>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <bold>
+            <italic>
+             FE
+            </italic>
+           </bold>
+           <italic>
+            <underline>
+             D
+            </underline>
+           </italic>
+           <bold>
+            <italic>
+             LR
+            </italic>
+           </bold>
+           <bold>
+            <italic>
+             <underline>
+              L
+             </underline>
+            </italic>
+           </bold>
+           <bold>
+            <italic>
+             LS
+            </italic>
+           </bold>
+           <italic>
+            <underline>
+             F
+            </underline>
+           </italic>
+          </td>
+          <td>
+           <italic>
+            V6L
+           </italic>
+          </td>
+          <td>
+           <italic>
+            0.8
+           </italic>
+          </td>
+          <td/>
+          <td/>
+          <td>
+           <italic>
+            95.6
+           </italic>
+          </td>
+          <td>
+           <italic>
+            96.9
+           </italic>
+          </td>
+          <td>
+           <italic>
+            93.8
+           </italic>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           <bold>
+            I
+           </bold>
+           R
+           <underline>
+            V
+           </underline>
+           <bold>
+            S
+           </bold>
+           S
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           L4I+L7S
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           4.7
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <underline>
+            V
+           </underline>
+           <bold>
+            S
+           </bold>
+           S
+           <bold>
+            <underline>
+             L
+            </underline>
+           </bold>
+          </td>
+          <td>
+           L7S+F9L
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           2.3
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <bold>
+            <underline>
+             I
+            </underline>
+           </bold>
+           <bold>
+            S
+           </bold>
+           S
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           V6I+L7S
+          </td>
+          <td>
+           0.5
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.7
+          </td>
+          <td>
+           3.1
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <underline>
+            V
+           </underline>
+           <bold>
+            SG
+           </bold>
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           L7S+S8G
+          </td>
+          <td>
+           0.8
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.5
+          </td>
+          <td>
+           1.0
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           L
+           <bold>
+            I
+           </bold>
+           <underline>
+            V
+           </underline>
+           <bold>
+            S
+           </bold>
+           S
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           R5I+L7S
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           L
+           <bold>
+            K
+           </bold>
+           <underline>
+            V
+           </underline>
+           LS
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           R5K
+          </td>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <underline>
+            V
+           </underline>
+           <bold>
+            S
+           </bold>
+           S
+           <bold>
+            <underline>
+             Y
+            </underline>
+           </bold>
+          </td>
+          <td>
+           L7S+F9Y
+          </td>
+          <td>
+           0.2
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.2
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <underline>
+            V
+           </underline>
+           <bold>
+            T
+           </bold>
+           S
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           L7T
+          </td>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           L
+           <bold>
+            G
+           </bold>
+           <bold>
+            <underline>
+             L
+            </underline>
+           </bold>
+           LS
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           R5G+V6L
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           L
+           <bold>
+            K
+           </bold>
+           <bold>
+            <underline>
+             L
+            </underline>
+           </bold>
+           LS
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           R5K+V6L
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.3
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <bold>
+            <underline>
+             I
+            </underline>
+           </bold>
+           LS
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           V6I
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FE
+           <underline>
+            D
+           </underline>
+           LR
+           <bold>
+            <underline>
+             L
+            </underline>
+           </bold>
+           L
+           <bold>
+            N
+           </bold>
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           V6L+S8N
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           <bold>
+            S
+           </bold>
+           E
+           <underline>
+            D
+           </underline>
+           LR
+           <bold>
+            <underline>
+             L
+            </underline>
+           </bold>
+           LS
+           <underline>
+            F
+           </underline>
+          </td>
+          <td>
+           F1S+V6L
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0.1
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           Number of sequences
+          </td>
+          <td/>
+          <td>
+           1155
+          </td>
+          <td>
+           43
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           1264
+          </td>
+          <td>
+           159
+          </td>
+          <td>
+           16
+          </td>
+          <td>
+           858
+          </td>
+          <td>
+           97
+          </td>
+          <td>
+           39
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Coverage of selected strains (%)
+          </td>
+          <td/>
+          <td>
+           98.1
+          </td>
+          <td>
+           93.0
+          </td>
+          <td>
+           100.0
+          </td>
+          <td>
+           99.4
+          </td>
+          <td>
+           100.0
+          </td>
+          <td>
+           100.0
+          </td>
+          <td>
+           98.5
+          </td>
+          <td>
+           95.9
+          </td>
+          <td>
+           100.0
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Sequences were obtained from the NCBI Influenza Research Database
+         <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database">
+          https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database
+         </ext-link>
+         . Full-length sequences of Australian (denoted Aust), vaccine (denoted Vacc) and pH1N1, H5N1 and H7N9 were obtained and were aligned using the influenza database. Underlined are anchor residues for HLA-B*37:01, and mutations are shown in bold. The first three rows in italics represent sequences chosen for further analysis
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par12">
+      Overall, these data suggest that HLA-B37, but not HLA-B44 or HLA-B18, represents the HLA restriction for the NP
+      <sub>
+       338
+      </sub>
+      peptide. The lack of NP
+      <sub>
+       338
+      </sub>
+      CD8      T cell responses in the context of HLA-B44 and HLA-B18 might be due to the distinct conformations, or lower stability, of NP
+      <sub>
+       338
+      </sub>
+      as compared to HLA-B37.
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Cross-reactive NP
+      <sub>
+       338
+      </sub>
+      CD8      T cells towards NP
+      <sub>
+       338
+      </sub>
+      variants
+     </title>
+     <p id="Par13">
+      Having shown robust NP
+      <sub>
+       338
+      </sub>
+      CD8      T cell responses in HLA-B37 donors, we next determined the level of cross-recognition towards the main NP
+      <sub>
+       338
+      </sub>
+      variants occurring in IAVs. Our conservation analysis of the NP
+      <sub>
+       338
+      </sub>
+      viral peptides across vaccine and circulating IAV strains, including pH1N1, H5N1, and H7N9, found 16 natural variants of NP
+      <sub>
+       338
+      </sub>
+      peptide (Table      ), with the most common mutations occurring at position (P) 5, 6, and 7 of the peptide. Two major variants; FEDLRV
+      <underline>
+       S
+      </underline>
+      SF (NP
+      <sub>
+       338
+      </sub>
+      -L7S) and FEDLR
+      <underline>
+       L
+      </underline>
+      LSF (NP
+      <sub>
+       338
+      </sub>
+      -V6L) were dominant in H1N1, pH1N1, H5N1, and H7N9 or H3N2 strains, respectively, representing 93–100% of the distinct strains and were thus selected in addition to the previously published (WT) peptide for further analysis.
+     </p>
+     <p id="Par14">
+      To assess the cross-reactive potential of HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      CD8      T cells, pooled or variant-specific NP
+      <sub>
+       338
+      </sub>
+      T cell lines were generated using PBMCs from HLA-B37      donors. We also generated HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      and mutant HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -V6L and HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -L7S tetramers. The ability to recognize, and functionally respond, to each of the NP
+      <sub>
+       338
+      </sub>
+      variant was then assessed using tetramers and an intracellular cytokine staining assay, respectively (Fig.      ). Staining with all three pHLA tetramers and functional assays showed similar proportions of CD8      T cell staining/functional levels in all WT or variant-specific NP
+      <sub>
+       338
+      </sub>
+      -T cell lines (Fig.      ), suggesting that the majority of NP
+      <sub>
+       338
+      </sub>
+      -specific CD8      T cell lines were able to cross-recognize (Fig.      ) and respond to (Fig.      ) each of the three distinct peptides, indicating broad cross-reactivity towards these epitopes (Fig.      ). Interestingly, the NP
+      <sub>
+       338
+      </sub>
+      -V6L tetramer showed a slightly stronger staining than the WT and NP
+      <sub>
+       338
+      </sub>
+      -L7S tetramers (Fig.      ).
+     </p>
+     <p id="Par15">
+      CD8      T cell lines typically recognized and responded most prominently to the peptide they were generated against, with the lowest level of cross-reactivity being observed by the NP
+      <sub>
+       338
+      </sub>
+      -V6L-specific CD8      T cell lines, when stimulated with the NP
+      <sub>
+       338
+      </sub>
+      -WT (21.45 ± 18.86% by tetramer, 20.98 ± 19.80% by IFNγ, and 18.88±18.90% by TNFα) and NP
+      <sub>
+       338
+      </sub>
+      -L7S variant (16.31 ± 14.47% by tetramer, 13.63 ± 12.04% by IFNγ, and 13.04 ± 11.65% by TNFα). These data suggest that a high level of cross-reactivity across different variants exists, although some variant-specific reactivity can be also detected. These data highlight that such cross-reactive CD8      T cells may offer protection against H1N1, H5N1, H7N9, and possibly other novel IAV strains.
+     </p>
+     <p id="Par16">
+      To further assess whether the WT NP
+      <sub>
+       338
+      </sub>
+      peptide elicited CD8      T cell responses of high functional avidity, CD8      T cell lines were generated against the WT NP
+      <sub>
+       338
+      </sub>
+      peptide (
+      <italic>
+       n
+      </italic>
+      = 3), and their functional response was assessed towards decreasing concentrations of the WT NP
+      <sub>
+       338
+      </sub>
+      peptide (Fig.      ). All data were normalized to the maximal response (when stimulated with maximum peptide). High and stable functional avidity towards NP
+      <sub>
+       338
+      </sub>
+      (IFNγ, TNFα, and CD107a) was observed in cell lines derived from all three donors (Fig.      ).
+     </p>
+     <p id="Par17">
+      Our data show that HLA-B37      individuals display polyfunctional and highly cross-reactive CD8      T cell response to the NP
+      <sub>
+       338
+      </sub>
+      epitope and its major variants.
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      NP
+      <sub>
+       338
+      </sub>
+      variants are molecular mimics of the WT NP
+      <sub>
+       338
+      </sub>
+      epitope
+     </title>
+     <p id="Par18">
+      To understand the molecular basis of HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      CD8      T cell cross-reactivity, we solved the structures of two major NP
+      <sub>
+       338
+      </sub>
+      variants, namely, NP
+      <sub>
+       338
+      </sub>
+      -V6L and NP
+      <sub>
+       338
+      </sub>
+      -L7S in complex with HLA-B37 (Fig.      ; Supplementary Table      ). Both peptides bound HLA-B37 in an extended conformation with the canonical P2-Glu and P9-Phe      , while P5-Arg acted as a secondary anchor residue (Fig.      ). Superimposition of the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      binding cleft with either HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -V6L (Fig.      ) or HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -L7S (Fig.      ) revealed a similar conformation of the HLA-binding cleft (r.m.s.d. of 0.08 Å). In addition, the peptides adopted a similar conformation as the NP
+      <sub>
+       338
+      </sub>
+      peptide with an r.m.s.d. of 0.12 and 0.09 Å, respectively (Fig.      ). The hydrophobic P6-Val residue sits near the α2-helix and interacts with Val152, Gln155, and Asp156 of the HLA (Fig.      ). The substitution of P6-Val for P6-Leu in the H3N2 was readily accommodated in the HLA-B37 cleft and did not change either the peptide or HLA conformation (Fig.      ). The P7-Leu residue sits above Trp147, with its side chain interacting with Ala150, Val152, and Lys146 (Fig.      ). The substitution from P7-Leu to P7-Ser did not impact the conformation of either the peptide or HLA molecule (Fig.      ). We also showed that the two NP
+      <sub>
+       338
+      </sub>
+      variants could stabilize HLA-B37 as efficiently as the NP
+      <sub>
+       338
+      </sub>
+      WT peptide (Supplementary Table      ).
+     </p>
+     <p id="Par19">
+      Overall, the two major variants of the NP
+      <sub>
+       338
+      </sub>
+      epitope adopted the same conformation as the NP
+      <sub>
+       338
+      </sub>
+      epitope and represent molecular mimics of the WT peptide, which might favor T cell cross-reactivity.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Key TCRs cross-recognize NP
+      <sub>
+       338
+      </sub>
+      variants directly ex vivo
+     </title>
+     <p id="Par20">
+      To investigate HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      CD8      T cell cross-reactivity at a molecular level, PBMCs from healthy HLA-B37      donors (
+      <italic>
+       n
+      </italic>
+      = 3) were stained with WT and variant HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      tetramers individually, magnetically enriched, and single-cell sorted. TCRαβ repertoire was determined using a multiplex RT-PCR      . As expected, prominent CD8      T cell memory pools could be detected directly ex vivo using NP
+      <sub>
+       338
+      </sub>
+      , NP
+      <sub>
+       338
+      </sub>
+      -V6L, and NP
+      <sub>
+       338
+      </sub>
+      -L7S tetramers (Fig.      ), with magnetic enrichment increasing the proportion of NP
+      <sub>
+       338
+      </sub>
+      -specific CD8      T cells &gt;100-fold. CD8      T cells directed at the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      epitopes in healthy donors were of the memory phenotypes characterized by CD27      and CD45RA      expression (Fig.      ). Interestingly, NP
+      <sub>
+       338
+      </sub>
+      -V6L-specific CD8      T cells were found at the highest average frequency, at 1 in every 5.97 × 10      CD8      T cells, followed by NP
+      <sub>
+       338
+      </sub>
+      and then NP
+      <sub>
+       338
+      </sub>
+      -L7S-specific CD8      T cells found at frequencies of 1 in 2.31 × 10      and 1.86 × 10      CD8      T cells, respectively (Fig.      ).
+     </p>
+     <p id="Par21">
+      The TCRαβ repertoire across all three donors (Fig.      , Supplementary Table      ) was entirely private, meaning no shared TCRαβs were detected between the donors, and of comparable diversity, comprising 13.67 ± 5.77, 11.67 ± 0.58, and 10.33 ± 2.08 distinct TCRαβ clonotypes (Donors 1–3, respectively). A TRBV19 bias was detected in all donors (19.01 ± 18.54%, 39.88 ± 27.32%, and 37.36 ± 33.49% in Donors 1–3, respectively), while Donor 1 displayed an additional TRBV27 bias (26.01 ± 16.12%; Fig.      , Supplementary Table      ). Interestingly, only one or two high-frequency but unique clonotypes were able to cross-recognize all three NP
+      <sub>
+       338
+      </sub>
+      variants, and 69.24 ± 16.65%, 44.25 ± 34.87%, and 53.45 ± 5.76% cross-reactivity was observed in Donors 1–3, respectively. Interestingly, each of these donors utilized different pairings to achieve universal cross-reactivity. Donor 1 favored TRAV14/TRBV20-1 and TRAV29/TRBV27, Donor 2 TRAV35/TRBV19, and Donor 3 TRAV23/TRBV27 and TRAV21/TRBV9 pairings (Supplementary Table      ). In addition, TRBV19      cross-reactive TCR clonotypes were detected in all donors.
+     </p>
+     <p id="Par22">
+      With respect to the CDR3α/β length, 9-mer CDR3α and 9-10-mer CDR3β loops were preferentially used for the recognition of NP
+      <sub>
+       338
+      </sub>
+      (Fig.      ). Together, these data highlight the potential of common HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      CD8      TCRαβ clonotypes to provide protection against distinct IAV strains.
+     </p>
+     <p id="Par23">
+      The frequency of cross-reactivity was increased (81.35 ± 19.72%) following in vitro expansion with the WT NP
+      <sub>
+       338
+      </sub>
+      peptide (Supplementary Fig.      ). Donor 3’s TCRαβ repertoire was more restricted following in vitro amplification comprising fewer distinct clonotypes (7.33 ± 2.08) and displayed a stronger TRBV19 bias (Supplementary Fig.      ). Again, 7–10-mer CDR3α and 8–9-mer CDR3β lengths were preferred in the recognition of NP
+      <sub>
+       338
+      </sub>
+      (Supplementary Fig.      ). A single TCRαβ clonotype (termed EM2: TRAV30/TRBV19, CDR3α: CGTERSGGYQKVTF, and CDR3β: CASSMSAMGTEAFF) was able to cross-react with all three NP
+      <sub>
+       338
+      </sub>
+      peptides, therefore providing universal HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      CD8      recognition.
+     </p>
+     <p id="Par24">
+      Overall, despite entirely private TCRαβ repertoires being detected within each individual, a high level of inter-variant cross-reactivity was achieved in each donor, facilitated by key TCRs.
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Biased TRBV19      TCR chains mainly contacts the HLA-B37
+     </title>
+     <p id="Par25">
+      To further understand the molecular mechanism underlying T cell cross-reactivity, we then investigated the cross-reactive clonotype described above (EM2 TCR; TRAV30/TRBV19, Supplementary Table      ) that was able to recognize NP
+      <sub>
+       338
+      </sub>
+      and its two most common variants. We solved the structure of the EM2 TCR in complex with HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      (Supplementary Table      , Fig.      ). The EM2 TCR docked centrally onto HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      with a 66° angle (Fig.      ), falling in the range previously observed for TCR-pHLA-I (average of 63°)      . The buried surface area (BSA) of the complex was of ~1800 Å      , also falling in the previously observed range for TCR-pHLA-I (average of 1900 Å      )      . The EM2 TCR α-chain contributes to 40% of the contact surface (Fig.      ), while the biased TRBV19      β-chain contributes to 60% of the BSA, providing a direct basis for the TRBV19 bias observed in HLA-B37      donors in response to NP
+      <sub>
+       338
+      </sub>
+      and its variants. The peptide contributed to 25% of the pHLA BSA, with all six solvent-exposed residues contacted by the EM2 TCR. CDR2β (27%), CDR3α (23%), and CDR3β (20%) are the highest contributors to the BSA, followed by CDR1α, CDR2α, and CDR1β (6–8% each), as well as the framework (FW) residues of the β-chain (9%) (Fig.      ).
+     </p>
+     <p id="Par26">
+      All of the CDR loops of the EM2 TCR contacted the HLA-B37 molecule (Fig.      ), with the addition of two FW residues from the β-chain (Gln67β and Lys83β). From the EM2 α-chain, the CDR1/2 loops contributed to ~10% of the TCR-HLA BSA and 16% for the CDR3α (Supplementary Table      ). The CDR1/2α loops made a contact with the region before the hinge of the HLA α2-helix (residue 151–158, Fig.      ), while the CDR3α loop contacted the N-terminal part of the HLA α1-helix (residues 58 and 62, Fig.      ). Within the β-chain, the CDR1 made only few contacts with the HLA (~2% TCR-HLA BSA), and the contacts were driven by CDR2β (34%), CDR3β (14%), as well as FWβ (11%) (Fig.      ). The CDR3β loop contact with the HLA focused mostly on Gln155, which has its side chain sandwiched by the Tyr30α (CDR1α) and the      SAMGT      motif from the CDR3β loop (Supplementary Table      , Fig.      ). The FW residue Lys83β formed a network of salt bridge with the HLA-B37 Glu76 and CDR1β Asp30, hovering above P8-Ser (Fig.      ). The CDR2β loop form a hairpin loop that sat above the HLA α1-helix covering a large stretch of the HLA helix spanning from residue 65 to 79 (Fig.      and Supplementary Table      ). The residue Gln67β from the FW, located downstream of the CDR2β loop was also contacting the α1-helix of the HLA-B37 molecule. Gln57β, Asn60β, Asp61β, and Gln67β were forming a large hydrogen network with the HLA-B37 molecule.
+     </p>
+     <p id="Par27">
+      Overall, CDR2β and FWβ make extensive interaction with the HLA-B37 molecule, providing a basis for the strong bias TRBV19      usage observed in the donors.
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      EM2 TCR contacts the NP
+      <sub>
+       338
+      </sub>
+      peptide via a hydrophobic network
+     </title>
+     <p id="Par28">
+      The peptide is predominantly contacted by CDR3α (47%) and CDR3β (26%), as well as by CDR1β (17%) and CDR2β (10%) (Fig.      , Supplementary Table      ). The motif SGG within the CDR3α loop, with small or no side chain, allow the loop to be in close proximity and lodge itself between the side chains of P1-Phe and P3-Asp (Fig.      ). The proximity of the loop allows the Gln113α to form hydrogen bonds with P3-Asp of the peptide and hydrophobic interaction with P4-Leu. Therefore, CDR3α loop forms a lid-like structure that covers the N-terminal part of the peptide (Supplementary Table      ). Within the EM2 TCR β-chain, all the CDR loops were contacting the peptide C-terminal section from residue P4-Leu to P8-Ser. P4-Leu was contacted by Gln57β from the CDR2β loop, while the CDR1β loop was interacting with both P7-Leu and P8-Ser that form a hydrogen bond with Asp30β (Supplementary Table      ). P6-Val and P7-Leu were both contacted by the CDR3β loop that sat on top of the central region of the peptide and form Van der Waals interaction. The      MSAM      motif from the CDR3β loop could hover on the central part of the peptide due to the small side chains of the      SA      residues. The CDR3β loop was thus making contacts with P6–P7 residues of the peptide mainly via Van der Waals bonds (Supplementary Table      ).
+     </p>
+     <p id="Par29">
+      Interestingly, the comparison of HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      in its free and liganded state with the EM2 TCR revealed that the peptide (r.m.s.d. of 0.2 Å) and HLA-B37 (r.m.s.d. of 0.3 Å) did not change conformation upon TCR binding (Fig.      ). The hydrophobic nature of the interaction between the EM2 TCR and the NP
+      <sub>
+       338
+      </sub>
+      peptide is complementary with the conformation of the NP
+      <sub>
+       338
+      </sub>
+      peptide bound to HLA-B37 that presents only the hydrophobic residue to the TCR. This might explain the lack of response for NP
+      <sub>
+       338
+      </sub>
+      when presented by both HLA-B18 and HLA-B44 molecules, in which the peptide presents its charged P5-Arg to the TCR (Fig.      ).
+     </p>
+     <p id="Par30">
+      Altogether, the structure of the EM2 TCR–HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      complex revealed that the TCR is using hydrophobic interaction from its CDR3 loops to engage with the all stretch of the NP
+      <sub>
+       338
+      </sub>
+      peptide.
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      EM2 TCR affinity for NP
+      <sub>
+       388
+      </sub>
+      -V6L is higher than for NP
+      <sub>
+       388
+      </sub>
+      -WT
+     </title>
+     <p id="Par31">
+      We next evaluated the ability of the EM2 TCR to recognize the NP
+      <sub>
+       338
+      </sub>
+      and its two major variants (NP
+      <sub>
+       338
+      </sub>
+      -V6L and NP
+      <sub>
+       338
+      </sub>
+      -L7S) using surface plasmon resonance (Fig.      ; Supplementary Table      ). The EM2 TCR bound to the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      complex with a
+      <italic>
+       K
+      </italic>
+      <sub>
+       d
+      </sub>
+      of ~130 µM (Fig.      ), displaying a low affinity for an antiviral CD8      T cell, the average being 35 µM      . The EM2 TCR bound to NP
+      <sub>
+       338
+      </sub>
+      -L7S with a similar affinity to the one observed for the NP
+      <sub>
+       338
+      </sub>
+      bound to HLA-B37 (
+      <italic>
+       K
+      </italic>
+      <sub>
+       d
+      </sub>
+      ~ 150 µM, Fig.      ). Interestingly, the EM2 TCR affinity was increased by four-fold for the NP
+      <sub>
+       338
+      </sub>
+      -V6L (
+      <italic>
+       K
+      </italic>
+      <sub>
+       d
+      </sub>
+      ~ 30 µM, Fig.      ) compared to NP
+      <sub>
+       338
+      </sub>
+      when bound to HLA-B37.
+     </p>
+     <p id="Par32">
+      The structures of each NP
+      <sub>
+       338
+      </sub>
+      and variants in complex with the HLA-B37 molecule (Fig.      , Supplementary Table      ) allowed us to understand the impact of the NP
+      <sub>
+       338
+      </sub>
+      mutation onto the EM2 TCR recognition. Overlay of the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -L7S with the EM2 TCR-HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      structures showed that the smaller P7-Ser would be readily accommodated by the EM2 TCR without structural changes (Fig.      ). This might explain the similar affinity observed for the EM2 TCR towards both peptides (K
+      <sub>
+       d
+      </sub>
+      ~ 130–150 µM). In a similar fashion, an overlay of the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -V6L with the EM2 TCR-HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      structures (Fig.      ) shows that the larger side chain of the P7-Leu might create additional contact with the CDR3β loop and might in turn provide a basis for the improved affinity observed for the EM2 TCR towards the HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      -V6L (
+      <italic>
+       K
+      </italic>
+      <sub>
+       d
+      </sub>
+      ~ 30 µM).
+     </p>
+     <p id="Par33">
+      Thus our data demonstrate that CD8      T cell cross-reactivity in the context of NP
+      <sub>
+       338
+      </sub>
+      peptide and its variants is favored by similar conformations adopted by the epitopes.
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      Key TCRs are cross-reactive towards A1-NP
+      <sub>
+       44
+      </sub>
+      variants
+     </title>
+     <p id="Par34">
+      To investigate whether cross-reactivity and thus protection against distinct IAV strains is NP
+      <sub>
+       338
+      </sub>
+      -specific or occurs towards other IAV-specific epitopes, we assessed CD8      T cell responses towards the HLA-A1-restricted NP
+      <sub>
+       44
+      </sub>
+      peptide (Fig.      ). Conservation analysis revealed that there were two major variants of the peptide, the CTELKLSDY (NP
+      <sub>
+       44
+      </sub>
+      ) and the S7N mutant CTELKLNDY (NP
+      <sub>
+       44
+      </sub>
+      -S7N), covering 34–100% of H3N2, H7N9, H5N1, and H1N1 virus strains (Supplementary Table      ). To investigate cross-reactivity towards these variant NP
+      <sub>
+       44
+      </sub>
+      peptides, PBMCs from healthy HLA-A1      donors (
+      <italic>
+       n
+      </italic>
+      = 3) were tetramer stained with each of the NP
+      <sub>
+       44
+      </sub>
+      variants directly ex vivo and magnetically enriched and single-cell sorted (Fig.      ). The TCRαβ repertoire was then determined using multiplex RT-PCR (Fig.      ). Two of the three donors (Donors 1 and 20) had both NP
+      <sub>
+       44
+      </sub>
+      - and NP
+      <sub>
+       44
+      </sub>
+      -S7N-specific CD8      T cell populations. Interestingly, Donor 21 had only a NP
+      <sub>
+       44
+      </sub>
+      -specific CD8      T cell population, with no detectable S7N-specific CD8      T cell population (Fig.      ). A predominant TRAV8-2      TCRα chain expressing a CDR3α sequence CVVSDRNFNKFYF paired with multiple distinct TCRβs and was detected in two out of three donors (Supplementary Table      ). Similar to the NP
+      <sub>
+       338
+      </sub>
+      system, specific clonotypes isolated from Donor 1 could recognize both NP
+      <sub>
+       44
+      </sub>
+      variants, while the remainder of the repertoire was variant specific (Fig.      ). Interestingly, the TCRαβ repertoire of Donor 20 was entirely NP
+      <sub>
+       44
+      </sub>
+      variant specific. We previously solved the structures of both NP
+      <sub>
+       44
+      </sub>
+      and NP
+      <sub>
+       44
+      </sub>
+      -S7N peptides in complex with the HLA-A1 molecule      . In similar fashion as HLA-B37 and the NP
+      <sub>
+       338
+      </sub>
+      variants, the NP
+      <sub>
+       44
+      </sub>
+      variants adopted similar conformation in the cleft of HLA-A1 molecule. This suggests that here too molecular similarity might underpin CD8      T cell cross-reactivity and favor the recognition of multiple IAV strains.
+     </p>
+     <p id="Par35">
+      Overall, these data show that TCRαβ cross-reactivity is not limited to the recognition of HLA-B37-NP
+      <sub>
+       338
+      </sub>
+      and highlight the importance of cross-reactive CD8      T cells in the recognition of virus-infected cells and thus their potential to protect against distinct IAV strains.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec11" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p id="Par36">
+     There is great interest in the development of a universal CD8     T cell-mediated vaccine towards IAV. However, to realize this, first a thorough understanding of prominent human influenza-specific CD8     T cell epitopes is needed. We have previously shown that NP is the most immunogenic antigen in both HLA-A*02:01-positive     and -negative individuals     . However, as the conservation of the known influenza epitopes varies between 16% and 56%, depending on ethnicity     , understanding inter-epitope cross-recognition across diverse IAV strains is needed. In this study, we have used the variable NP
+     <sub>
+      338
+     </sub>
+     and NP
+     <sub>
+      44
+     </sub>
+     peptides to dissect CD8     T cell recognition of different peptide variants and thus distinct IAV strains.
+    </p>
+    <p id="Par37">
+     NP
+     <sub>
+      338
+     </sub>
+     has two major variant peptides, covering ~93% (NP
+     <sub>
+      338
+     </sub>
+     -L7S) and ~96% (NP
+     <sub>
+      338
+     </sub>
+     -V6L) of H1N1 and H3N2 viruses, respectively. Although CD8     T cell responses are highly peptide specific     , they can tolerate variations within CD8     T cell peptides     . We identified functional cross-reactivity towards the variant NP
+     <sub>
+      338
+     </sub>
+     peptides, albeit to different levels. Using a multiplex RT-PCR for the detection of the TCRαβ repertoire directly ex vivo, we confirmed that CD8     T cells were cross-reactive towards these distinct NP
+     <sub>
+      338
+     </sub>
+     variants, at a clonotypic level, with ∼55% TCRαβ repertoire being capable of recognizing multiple NP
+     <sub>
+      338
+     </sub>
+     variants. Interestingly, unique clonotypes with distinct TRAV–TRBV pairings in each individual recognized all three NP
+     <sub>
+      338
+     </sub>
+     variants. Furthermore, this cross-reactivity was increased following in vitro amplification, potentially suggesting that activation increases expansion of cross-reactive clones, allowing certain TCRαβ clonotypes to recognize distinct viral variants and potentially prevent viral escape. Additionally, we showed that the importance of cross-reactive TCRαβ repertoires is not limited to the recognition of NP
+     <sub>
+      338
+     </sub>
+     and that cross-reactive CD8     TCRαβ can recognize HLA-A1-restricted NP
+     <sub>
+      44
+     </sub>
+     variant peptides.
+    </p>
+    <p id="Par38">
+     To understand the molecular basis of cross-reactive TCRαβ recognition, we solved the structure of NP
+     <sub>
+      338
+     </sub>
+     and its variants bound to the HLA-B37 molecule, as well as the structure of a cross-reactive TCR in complex with HLA-B37-NP
+     <sub>
+      338
+     </sub>
+     . First, our data show that the two NP
+     <sub>
+      338
+     </sub>
+     variants were structural mimics of the WT peptide. Second, the NP
+     <sub>
+      338
+     </sub>
+     peptide conformation was not altered by TCR engagement, and therefore the conserved structure of the NP
+     <sub>
+      338
+     </sub>
+     variants favored TCR cross-reactivity, a mechanism that is thought to underpin cross-reactivity and alloreactivity more broadly     . The structures also demonstrated that only HLA-B37, and not HLA-B18 nor HLA-B44, binds the NP
+     <sub>
+      338
+     </sub>
+     with a secondary anchor residue (P5-Arg), revealing the hydrophobic surface of the NP
+     <sub>
+      338
+     </sub>
+     peptide, which might help cross-reactivity     . This hydrophobic surface of the NP
+     <sub>
+      338
+     </sub>
+     was disrupted when the peptide was presented by HLA-B44 or HLA-B18 molecules, which exposed the charged P5-Arg, and for which no T cell recognition was observed.
+    </p>
+    <p id="Par39">
+     Together, these data imply that HLA-B37     donors may have a level of protection against H1N1, pH1N1, H3N2, H5N1, H7N9, and possibly novel IAV strains. Furthermore, the findings highlight the potential of inducing inter-strain cross-protection by the inclusion of a single peptide variant in a CD8     T cell-mediated vaccine, suggesting that vaccine epitope identification will no longer need to focus solely on conserved epitopes for universal inter-strain cross-protection.
+    </p>
+    <p id="Par40">
+     Diverse and cross-reactive TCR repertoires are important for viral control and preventing viral escape     , and we thus dissected the importance of TCRαβ diversity in the recognition of the variant NP
+     <sub>
+      338
+     </sub>
+     peptides. Our data show that cross-recognition of distinct IAV strains is underpinned by a diverse TCR repertoire and surprisingly that no shared clonotypes could be detected between individuals. This highlights that cross-reactivity and TCRαβ repertoire diversity may provide further protection against distinct IAV strains. Furthermore, TCRαβ diversity is likely to aid in limiting viral escape, offering protection against any quasispecies that arise during infection. Additionally, we have shown that cross-reactivity towards distinct IAV strains is not limited to HLA-B37-NP
+     <sub>
+      338
+     </sub>
+     , and cross-reactive TCRs towards the HLA-A1-restricted NP
+     <sub>
+      44
+     </sub>
+     were also observed. In both contexts, we have isolated cross-reactive clonotypes that were not shared between individuals, showing the plasticity of the TCR repertoire whereby multiple TCRs are able to cross-react and provide protection against multiple IAV strains.
+    </p>
+    <p id="Par41">
+     Overall, our study provides evidence that inter-epitope cross-reactivity is common for the human influenza epitopes and occurs for prominent HLA-B37-restricted NP
+     <sub>
+      338
+     </sub>
+     and HLA-A1-restricted NP
+     <sub>
+      44
+     </sub>
+     epitopes, in addition to previously published HLA-A*02:01-restricted M1
+     <sub>
+      58
+     </sub>
+     . CD8     T cells can recognize variations within CD8     T cell epitopes and cross-reactive CD8     TCRαβ repertoires can recognize variant HLA-B37-restricted NP
+     <sub>
+      338
+     </sub>
+     and HLA-A1-restricted NP
+     <sub>
+      44
+     </sub>
+     peptides across donors. Together, these data highlight the importance of CD8     T cell cross-reactivity and diversity in the protection against distinct IAV strains and the induction of such diverse and cross-reactive CD8     T cells by a CD8     T cell-mediated vaccine could provide universal and superior protection against distinct IAV strains.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec12">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec13">
+     <title>
+      Ethics statement
+     </title>
+     <p id="Par42">
+      All work was undertaken in line with the Australian National Health and Medical Research Council (NHMRC) Code of Practice, with ethics approval by the University of Melbourne Human Ethics Committee, ethics numbers 0931311 and 1443389. Australian Red Cross Blood donors provided written informed consent on the day of their blood donation. Written informed consent was obtained from all healthy blood donors. Donor information including HLA typing result is reported in Supplementary Table      .
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      NP
+      <sub>
+       338
+      </sub>
+      conservation analysis
+     </title>
+     <p id="Par43">
+      Full-length vaccine, Australian, pH1N1, H5N1, and H7N9 isolates with identical sequences collapsed were obtained from the NCBI Influenza Research Database
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database">
+       https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database
+      </ext-link>
+      in February 2018. Sequences were aligned using
+      <ext-link ext-link-type="uri" ns0:href="https://www.fludb.org/brc/home.spg?decorator=influenza">
+       https://www.fludb.org/brc/home.spg?decorator=influenza
+      </ext-link>
+      .
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      Antigen-presenting cell lines (APC lines)
+     </title>
+     <p id="Par44">
+      APC lines were kindly provided by Professor James McCluskey (University of Melbourne, VIC, Australia; C1R-B*44:03) and Dr. Nicole Mifsud (Monash University, VIC, Australia; C1R-B*18:01). The A2-20091204 (HLA-B*37:01      ) BLCL cells were provided by Professor Weisan Chen (LaTrobe University, VIC, Australia).
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      Isolation of PBMCs
+     </title>
+     <p id="Par45">
+      Buffy coats were obtained from the Australian Red Cross Blood Service (ARCBS) and whole blood donations from healthy volunteers. PBMCs were separated using density gradient separation and were cryopreserved until use. All samples were HLA-typed by the Victorian Transplant and Immunogenetics Service (VTIS, West Melbourne, VIC, Australia) at the ARCBS tissue-typing Laboratory.
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      Generation of NP
+      <sub>
+       338
+      </sub>
+      -specific CD8      T cell lines
+     </title>
+     <p id="Par46">
+      PBMCs were used to generate CD8      T cell lines at a 1:2 stimulator-to-responder ratio. Stimulator PBMCs were washed in fetal calf serum (FCS)-free media and were pulsed with 10 μM (unless otherwise stated) peptide for 90 min at 37 °C with 5% CO
+      <sub>
+       2
+      </sub>
+      . Stimulator PBMCs were washed twice and added to the responder PBMCs. Cells were cultured for 10–16 days and supplemented twice weekly with 10 U/mL rIL-2 (Roche, Basel, Switzerland) from day 4.
+     </p>
+    </sec>
+    <sec id="Sec18">
+     <title>
+      Intracellular cytokine staining
+     </title>
+     <p id="Par47">
+      APC lines expressing HLA-B*37:01, HLA-B*18:01 or HLA-B*44:03 were pulsed with 10 μM peptide (unless otherwise stated) in FCS-free media for 1 h at 37 °C with 5% CO
+      <sub>
+       2
+      </sub>
+      . APCs were subsequently washed twice and added to CD8      T cell lines at 1:2 APC-to-T cell ratio. Alternatively, CD8      T cell lines from HLA-B*44:02      donors were stimulated directly with 1 μM peptide without APCs. Cells were co-cultured for 5–6 h in the presence of 10 U/mL IL-2, 5 μM Monensin A (Sigma Aldrich, MO, USA) and Golgi-Stop (BD eBiosciences, CA, USA) with aCD107a-FITC/AF488 (1:100–1:200; eBiosciences # 53-1079-41, CA, USA) for 5 h. Following activation, cells were surface stained for 30 min with αCD3-PE (1:25–1:50; BD Pharmingen # 555333, CA, USA), αCD8-APC (1:50–1:100; BD Biosciences # 340584, CA, USA) with or without Live/Dead-NIR (1:1000; Molecular Probes Cat#L10119, MA, USA), or αCD3-Pey7 (1:50–1:100; eBiosciences # 25-0038-42), αCD8-PerCPCy5.5 (1:50; BD Biosciences # 341051) and Live/Dead-NIR (1:1000; Molecular Probes #L10119). Cells were then fixed with 1% paraformaldehyde (PFA; Electron Microscopy Sciences, PA, USA) or BD-Fix-Perm buffer (BD Biosciences) for 15–20 min. Cells were intracellularly stained for 30 min or overnight with anti-IFNγ-PerCPCy5.5 (1:100; eBiosciences #45-7319-41) and anti-TNFα-PeCy7 (1:100; BD Pharmingen #557647, CA, USA), anti-IFNγ-PE (1:40; BD Biosciences #340452) and anti-TNFα-APC (1:50–1:100; BD Biosciences #340534) or anti-IFNγ-V500 (1:50–1:100; BD Horizon #561980, NY, USA) and anti-TNFα-APC (1:50–1:100; BD Biosciences #340534) in perm wash buffer (BD Biosciences), or 0.3% Saponin (Sigma, MO, USA), respectively. Cells were washed, acquired on the BD FACS Canto II (BD Biosciences) and analyzed using the Flowjo software version 9.7.6 (Treestar, OR, USA).
+     </p>
+    </sec>
+    <sec id="Sec19">
+     <title>
+      Tetramer staining of CD8      T cell lines
+     </title>
+     <p id="Par48">
+      CD8      T cells were stained with tetramers for 1 h at room temperature in the dark. Cells were washed and surface stained for 30 min with αCD3-PeCy7 (1:50–1:100; eBiosciences #25-0038-42) or αCD3-PB (1:50–1:100; Biolegend #300431, SD, USA) with αCD8-PerCPCy5.5 (1:50; BD Biosciences #341051), αCD27-APC (1:50–1:100; BD Biosciences #337169), αCD45RA-FITC (1:50–1:100; BD Pharmingen #555488) and Live/Dead-NIR (1:1000; Molecular Probes #L10119) at 4 °C, then either fixed with 1% PFA (Electron Microscopy Sciences), and acquired on the BD FACS Canto II (BD Biosciences) or resuspended in sort buffer and single-cell sorted on the BD Aria III (BD Biosciences).
+     </p>
+    </sec>
+    <sec id="Sec20">
+     <title>
+      Ex vivo magnetic enrichment of PBMCs
+     </title>
+     <p id="Par49">
+      In all, 1–2 × 10      PBMCs from HLA-B*37:01      donors were FcR blocked in MACS buffer (phosphate-buffered saline (PBS), 0.5% bovine serum albumin (BSA); Gibco, CA, USA, 0.2 nM EDTA; Ajax Finechem, NSW, Australia) for 15 min at 4 °C (Miltenyi Biotech, Bergisch Gladbach, Germany) and tetramer stained with variant-specific tetramers conjugated to PE in MACS buffer for 1 h at room temperature. Cells were washed, a small amount was removed for unenriched control, and labeled with anti-PE microbeads (Miltenyi Biotech, Bergisch Gladbach, Germany) for 30 min at 4 °C. Following washing, cells were enriched by passing twice over LS magnetic columns (Miltenyi Biotech, Bergisch Gladbach, Germany)      . Bound cells were eluted in MACS buffer. All samples (unenriched, enriched, and flow-through) were surface stained for 30 min with αCD3-PeCy7 (eBiosciences), αCD8-PerCPCy5.5 (BD Biosciences), Live/Dead-NIR (Molecular Probes), αCD14-APCH7 (BD Pharmingen), αCD4-APCH7 (BD Biosciences), αCD19-APCH7 (Biolegend), αCD27-APC (BD Biosciences) and αCD45RA-FITC (BD Pharmingen) at 4 °C in the dark. Lymphocytes were washed, re-suspended in sort buffer (PBS, 0.1% BSA; Gibco, CA, USA), and were acquired on the BD Aria III.
+     </p>
+    </sec>
+    <sec id="Sec21">
+     <title>
+      Single-cell multiplex RT-PCR for TCRαβ analysis
+     </title>
+     <p id="Par50">
+      Epitope-specific CD8      T cells from PBMCs or CD8      T cell lines were tetramer and antibody stained, as described above. Following surface staining, cells were re-suspended in sort buffer (PBS+0.1% BSA). Single epitope-specific CD8      T cells were sorted on the BD FACS Aria III (BD Biosciences) directly into PCR plates (Eppendorf, Hamburg, Germany). cDNA was synthesized using the VILO RT Kit at 1/20 of the manufacturers recommendation, supplemented with 0.1% Triton X (Sigma, MO, USA)      . The resulting cDNA was subject to a nested PCR containing 40-Vα and 27-Vβ primers and Cα and Cβ primers (Supplementary Table      ). PCR products were purified using Exo-Sap or Exo-Star (GE Healthcare, Buckinghamshire, UK) and were sequenced using BigDyeV3.1 (Applied Biosystems, CA, USA). Sequencing products were cleaned using DyeEx sequencing plates (Qiagen, Limburg, Netherlands) and sequencing was performed by the Department of Pathology at the University of Melbourne (Melbourne, VIC, Australia). Sequences were analyzed using Finch TV (Geospiza, WA, USA) and the IMGT query software      (
+      <ext-link ext-link-type="uri" ns0:href="http://www.imgt.org/IMGT_vquest">
+       www.imgt.org/IMGT_vquest
+      </ext-link>
+      ). CDR3 amino acid sequences described within the text are productive (no stop codons and an in-frame junction) TCRαβ pairs and start from CDR3-position 1, as determined by the IMGT query software. CDR3 length is calculated from position 4 and excludes the final xF motifs. TRAV and TRBV nomenclature was derived from IMGT
+      <ext-link ext-link-type="uri" ns0:href="http://www.imgt.org/IMGTrepertoire/LocusGenes/#J">
+       www.imgt.org/IMGTrepertoire/LocusGenes/#J
+      </ext-link>
+      .
+     </p>
+     <p id="Par51">
+      NP
+      <sub>
+       338
+      </sub>
+      CD8      T cells with two alpha or beta chains were dissected by performing the internal round of PCR with the specific individual primers and subsequently sequenced using the relevant constant reverse primer or variable-specific primers (Supplementary Table      ). Where possible, both chains were resolved; however, in a few instances only the dominant chain could be resolved. TRBV19      TCRβs were sequenced with the TRBV19 forward primer (and are thus referred to as TRBV19) and CDR3 regions were determined using the EXPASY translate tool.
+     </p>
+     <p id="Par52">
+      In cases when NP
+      <sub>
+       338
+      </sub>
+      CD8      TCRα or TCRβ chains could not be resolved, sequences (two cells per clonotype) were resolved by cloning and colony PCR. PCR products were ligated into a pGEM-T Easy Vector (Promega, WI, USA) overnight at 16 °C. DH5α cells were then transformed with this vector and were grown, plated on Luria agar plates (containing 100 μg/mL ampicillin, Media Preparation Unit, Department of Microbiology and Immunology, University of Melbourne, VIC, Australia) for 16–18 h, and were selected using X-gal (800 μg). Individual transformed colonies were amplified by PCR with 20 pmol sense and anti-sense vector primers (Supplementary Table      ). PCR were amplified as follows: 1 cycle of 95 °C for 5 min, 30 cycles of 95 °C for 30 s, 57 °C for 30 s, and 72 °C for 1 min, followed by 1 cycle of 95 °C for 1 min, 57 °C for 1 min, and 72 °C for 7 min. Products were visualized on a 2% agarose gel and were sequenced as above with 5 pmol of sense vector primer (Supplementary Table      ).
+     </p>
+    </sec>
+    <sec id="Sec22">
+     <title>
+      Protein expression, purification, and crystallization
+     </title>
+     <p id="Par53">
+      The EM2 TCR contained an engineered disulfide linkage in the constant domains between the TRAC and TRBC. The α- and β-chains were expressed separately as inclusion bodies in a BL21
+      <italic>
+       Escherichia coli
+      </italic>
+      strain. The inclusion bodies were washed and suspended in 6 M guanidine, then mixed into a cold refolding solution containing 5 M urea, 100 mM Tris-HCL (pH 8), 2 mM EDTA, 400 mM L-arginine-HCl, 0.5 mM oxidized glutathione, and 5 mM reduced glutathione. The refolding solution was dialyzed after 3 days against 10 mM Tris-HCl (pH 8) and 150 mM NaCl and then purified using anion exchange and size exclusion columns      . All peptides were purchased from Genescript (NJ, USA). HLA-B*37:01      -restricted peptides include WT-NP
+      <sub>
+       338-346
+      </sub>
+      (FEDLRVLSF), L7S-NP
+      <sub>
+       338-346
+      </sub>
+      (FEDLRVSSF), and V6L-NP
+      <sub>
+       338-346
+      </sub>
+      (FEDLRLLSF). Soluble class I heterodimers (with or without BirA tag at the C-terminal) of HLA-B*18:01 and HLA-B*44:05 containing the NP
+      <sub>
+       338
+      </sub>
+      peptides and HLA-B*37:01 containing the NP
+      <sub>
+       338
+      </sub>
+      and variant NP
+      <sub>
+       338
+      </sub>
+      -L7S and NP
+      <sub>
+       338
+      </sub>
+      -V6L peptides were prepared similarly to the TCR without urea in the refolding solution      . Crystals of the EM2 TCR–HLA-B*37:01-NP
+      <sub>
+       338
+      </sub>
+      complex or the pHLA individually in 10 mM Tris-HCl (pH 8.0) and 150 mM NaCl were grown by the hanging-drop, vapor-diffusion method at 20 °C with a protein to reservoir drop ratio of 1:1 and a protein concentration of 6–10 mg/mL. The pHLA crystals formed in 20% PEG 6000, 0.2 M NaCl, 0.1 M Na citrate pH 6.5 while the EM2 TCR-HLA-B*37:01-NP
+      <sub>
+       338
+      </sub>
+      complex crystals formed in 19% PEG 3350 and 0.2 M di-ammonium tartrate. Monomers of pHLA with the BirA tag construct were biotinylated and tetramerized in a 1:4 ratio with PE-streptavidin (Life Technologies, CA, USA) in 6 additions over the course of 1 h.
+     </p>
+    </sec>
+    <sec id="Sec23">
+     <title>
+      Data collection and structure determination
+     </title>
+     <p id="Par54">
+      Crystals were soaked in a cryoprotectant solution containing mother liquor solution with the PEG concentration increased to 30% (weight per volume) and then flash frozen in liquid nitrogen. Data were collected on the MX1 beamline at the Australian Synchrotron, Clayton using the ADSC-Quantum 210 CCD detector (at 100 K)      . Data were processed using the XDS software      and scaled using the XSCALE software      . The pHLA and EM2 TCR-HLA-B*37:01-NP
+      <sub>
+       338
+      </sub>
+      complex structures were determined by molecular replacement using the PHASER      program with the HLA-A*02:01-NLV complex as the search model for the HLA without the peptide (Protein Data Bank accession number, 3GSO      ) and the LC13 TCR for the TCR (Protein Data Bank accession number, 1KGC      ). Manual model building was conducted using the Coot software      followed by maximum-likelihood refinement with PHENIX      and Buster programs      . The TCR was numbered using the IMGT nomenclature      . The final models have been validated using the Protein Data Base validation website and the final refinement statistics are summarized in Supplementary table      . Coordinates were validated by the PDB database. All molecular graphic representations were created using PyMol      .
+     </p>
+    </sec>
+    <sec id="Sec24">
+     <title>
+      Thermal stability assay
+     </title>
+     <p id="Par55">
+      The thermal stability assay was performed in the Real Time Detection system (Corbett RotorGene 3000) using the fluorescent dye Sypro orange to monitor protein unfolding. The pHLA complexes (5 and 10 μM) in 10 mM Tris-HCl pH 8 and 150 mM NaCl were heated from 30 to 95 °C with a heating rate of 1 °C/min. The fluorescence intensity was measured with excitation at 530 nm and emission at 555 nm. The thermal melt point (Tm) represents the temperature for which 50% of the protein is unfolded.
+     </p>
+    </sec>
+    <sec id="Sec25">
+     <title>
+      Surface plasmon resonance measurement and analysis
+     </title>
+     <p id="Par56">
+      Surface plasmon resonance experiments were conducted at 25 °C on the BIAcore 3000 instrument with TBS buffer (10 mM Tris-HCl, pH 8, 150 mM NaCl, and 0.005% surfactant P20). TBS buffer was supplemented with 1% BSA to prevent non-specific binding. The human TCR-specific monoclonal antibody, 12H8 antibody      , was coupled to research-grade CM5 chips with standard amine coupling. The experiment was conducted with one empty flow cell (use for subtraction as blank) and one flow cell with the EM2 TCR captured to approximately 300 response unit per flow cell onto the 12H8 antibody      . Then a concentration range of 200 µM maximum of the pHLA complexes were passed over all the flow cells. The final response was calculated by subtracting the response of the antibody alone and that of EM2 TCR. BIAevaluation Version 3.1 was used for data analysis using the 1:1 Langmuir binding model. Experiments were carried out in duplicate (
+      <italic>
+       n
+      </italic>
+      = 2).
+     </p>
+    </sec>
+    <sec id="Sec26">
+     <title>
+      Statistical analyses
+     </title>
+     <p id="Par57">
+      All statistical analyses were undertaken using Prism 6 (GraphPad, CA, USA). A Dunnetts two-way analysis of variance was used for all non-parametric non-paired analysis where multiple comparisons were made. Statistical significance was defined as *
+      <italic>
+       p
+      </italic>
+      ≤ 0.05, **
+      <italic>
+       p
+      </italic>
+      ≤ 0.01, and ***
+      <italic>
+       p
+      </italic>
+      ≤ 0.001.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec27">
+     <p/>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

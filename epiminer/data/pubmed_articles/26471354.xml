@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Presentation of available CTL epitopes that induction of cell-mediated immune response against HIV-1 Koran clade B strain using computational technology.
+ </title>
+ <abstract>
+  <AbstractText Label="OBJECTIVE">
+   Theoretical predicting cytotoxic T lymphocyte (CTL) epitopes are an important tool in vaccine design and CTL therapy for enhancing our understanding of the cellular immune system. We would like to identify available CTL epitopes against HIV-1 Korean clade B. CTL activity was assessed in freshly isolated peripheral blood mononuclear cells from Korean HIV patients in order to assess whether these CTL epitopes induce a cell-mediated immune response (CMI).
+  </AbstractText>
+  <AbstractText Label="METHODS">
+   NetCTLpan1.1 software, which is the most popular prediction computer software package, and full atom-based simulation (FABS), which is a 3D modelling system for binding activity between epitopes and human leucocyte antigen (HLA) molecules, were used to predict the peptide-spanning Env region binding to HLA-A*24:02, HLA-A*02:01 and HLA-B*15:01, which are frequently found in the Korean population. Granzyme B and interferon-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb3 ELISPOT assays were used to determine whether identified CTL epitopes induce CMI.
+  </AbstractText>
+  <AbstractText Label="RESULTS">
+   Three HIV-1 Korean clade B-specific Env CTL epitopes were identified: Gp41-RYL and Gp41-RQG are localized within gp41, and Gp120-LLQ within gp120. In in vitro assays using granzyme B ELISPOT, Gp120-LLQ and Gp41-RQG induced epitope-specific CTL responses in HLA-restricted cells. In ex vivo assay using IFN-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb3 ELISPOT, cell-mediated immune responses to Gp41-RYL were present in 50% of HLA-matched patients, and responses to Gp120-LLQ and Gp41-RQG were found in 33% of HLA-matched patients.
+  </AbstractText>
+  <AbstractText Label="CONCLUSION">
+   In this study, we found that a prediction pipeline for CTL epitopes might be based on the most popular computer prediction software and FABS methods. Our results suggest that these CTL epitopes may provide useful tools and information for the development of a therapeutic vaccine against HIV-1 Korean clade B.
+  </AbstractText>
+ </abstract>
+</article>

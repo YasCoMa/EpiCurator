@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Genetic variability in COVID-19-related genes in the Brazilian population
+ </title>
+ <abstract>
+  <p id="Par1">
+   SARS-CoV-2 utilizes the angiotensin-converting enzyme 2 (ACE2) receptor and transmembrane serine protease (TMPRSS2) to infect human lung cells. Previous studies have suggested that different host
+   <italic>
+    ACE2
+   </italic>
+   and
+   <italic>
+    TMPRSS2
+   </italic>
+   genetic backgrounds might contribute to differences in the rate of SARS-CoV-2 infection or COVID-19 severity. Recent studies have also shown that variants in 15 genes related to type I interferon immunity to influenza virus might predispose patients toward life-threatening COVID-19 pneumonia. Other genes (
+   <italic>
+    SLC6A20, LZTFL1, CCR9, FYCO1, CXCR6, XCR1, IL6, CTSL
+   </italic>
+   ,
+   <italic>
+    ABO
+   </italic>
+   , and
+   <italic>
+    FURIN
+   </italic>
+   ) and
+   <italic>
+    HLA
+   </italic>
+   alleles have also been implicated in the response to infection with SARS-CoV-2. Currently, Brazil has recorded the third-highest number of COVID-19 cases worldwide. We aimed to investigate the genetic variation present in COVID-19-related genes in the Brazilian population. We analyzed 27 candidate genes and
+   <italic>
+    HLA
+   </italic>
+   alleles in 954 admixed Brazilian exomes. We used the information available in two public databases (
+   <ext-link ext-link-type="uri" ns0:href="http://www.bipmed.org">
+    http://www.bipmed.org
+   </ext-link>
+   and
+   <ext-link ext-link-type="uri" ns0:href="http://abraom.ib.usp.br/">
+    http://abraom.ib.usp.br/
+   </ext-link>
+   ) and additional exomes from individuals born in southeast Brazil, the region of the country with the highest number of COVID-19 patients. Variant allele frequencies were compared with the 1000 Genomes Project phase 3 (1KGP) and gnomAD databases. We detected 395 nonsynonymous variants; of these, 325 were also found in the 1KGP and/or gnomAD. Six of these variants were previously reported to influence the rate of infection or clinical prognosis of COVID-19. The remaining 70 variants were identified exclusively in the Brazilian sample, with a mean allele frequency of 0.0025. In silico analysis revealed that seven of these variants are predicted to affect protein function. Furthermore, we identified
+   <italic>
+    HLA
+   </italic>
+   alleles previously associated with the COVID-19 response at loci
+   <italic>
+    DQB1
+   </italic>
+   and
+   <italic>
+    DRB1
+   </italic>
+   . Our results showed genetic variability common to other populations and rare and ultrarare variants exclusively found in the Brazilian population. These findings might lead to differences in the rate of infection or response to infection by SARS-CoV-2 and should be further investigated in patients with this disease.
+  </p>
+  <p id="Par2">
+   Genetic variants in the Brazilian population do not appear to explain the relatively high overall rates of COVID-19 cases compared to other countries, but could be relevant for risk assessment at the individual level. Iscia Lopes-Cendes of the University of Campinas and colleagues in Brazil examined gene sequences for variations in 27 genes reported to influence COVID-19 infection in Brazilians of mixed heritage and of people born in the southeast where case numbers are high. These studies included the
+   <italic>
+    ACE2
+   </italic>
+   gene that codes for a receptor allowing SARS-CoV-2 to enter host cells. Genetic variants were also identified in two international genome databases. Seventy variants were unique to Brazilians, but computer modeling predicted only seven variants that could affect protein function. The team also looked for and found variants that could affect individual immunity to COVID-19. Similar genetic studies could help identify at-risk individuals and therapeutic targets.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1" sec-type="introduction">
+    <title>
+     Introduction
+    </title>
+    <p id="Par3">
+     COVID-19 disease, caused by the coronavirus SARS-CoV-2, is currently a worldwide pandemic. SARS-CoV-2 used its spike protein to enter human lung cells, a process primed by the host serine protease TMPRSS2, followed by angiotensin-converting enzyme 2 (ACE2) receptor binding and proteolysis, with activation of membrane fusion within endosomes by cathepsin L (CTSL)     . The main feature of SARS-CoV-2 infection is preactivation of the spike protein by FURIN inside the host cell, which leads to increased SARS-CoV-2 spread into lung cells and increased virulence     . Rapid SARS-CoV-2 infection leads to an exacerbated immune reaction, and a few studies have shown that increased levels of IL-6 (an essential immune response mediator) are associated with an increased inflammatory response, respiratory failure, increased probability of intubation, the presence of clinical complications, and higher mortality in patients with COVID-19     . Additional studies have found enrichment of rare variants predicted to be loss-of-function mutations in genes related to type I interferon (IFN) immunity to influenza virus (
+     <italic>
+      TLR3
+     </italic>
+     ,
+     <italic>
+      TICAM1
+     </italic>
+     ,
+     <italic>
+      TRIF
+     </italic>
+     ,
+     <italic>
+      UNC93B1
+     </italic>
+     ,
+     <italic>
+      TRAF3
+     </italic>
+     ,
+     <italic>
+      TBK1
+     </italic>
+     ,
+     <italic>
+      IRF3
+     </italic>
+     ,
+     <italic>
+      NEMO
+     </italic>
+     ,
+     <italic>
+      IKBKG
+     </italic>
+     ,
+     <italic>
+      IFNAR1
+     </italic>
+     ,
+     <italic>
+      IFNAR2
+     </italic>
+     ,
+     <italic>
+      STAT1
+     </italic>
+     ,
+     <italic>
+      STAT2
+     </italic>
+     ,
+     <italic>
+      IRF7
+     </italic>
+     , and
+     <italic>
+      IRF9
+     </italic>
+     ) among patients with life-threatening COVID-19 pneumonia     .
+    </p>
+    <p id="Par4">
+     Moreover, specific variants in the genes
+     <italic>
+      ACE2
+     </italic>
+     and
+     <italic>
+      TMPRSS2
+     </italic>
+     have been reported among diverse populations worldwide, suggesting that different host genetic backgrounds might contribute to differences in COVID-19 infection and severity     . Ellinghaus et al.     performed a genome-wide association study (GWAS) including Italian and Spanish patients with confirmed COVID-19 and controls and identified six candidate genes associated with the COVID-19 response on chromosome (chr) 3p21.31 (
+     <italic>
+      SLC6A20
+     </italic>
+     ,
+     <italic>
+      LZTFL1
+     </italic>
+     ,
+     <italic>
+      FYCO1
+     </italic>
+     ,
+     <italic>
+      CXCR6
+     </italic>
+     ,
+     <italic>
+      XCR1
+     </italic>
+     ,
+     <italic>
+      CCR9
+     </italic>
+     ) and one on chr 9q34.2, the locus harboring genes encoding ABO blood group antigens. A subsequent, more extensive study replicated the association between the locus on chr 3p21.31 and COVID-19. This work revealed a core haplotype ranging from 45,859,651 bp to 45,909,024 bp that was inherited from Neanderthals and is currently carried by ~50% of people in South Asia and ~16% of people in Europe     . Interestingly, no evidence of association was found for the previously identified candidate genes potentially involved in the response to infection by SARS-CoV-2, namely,
+     <italic>
+      ACE2
+     </italic>
+     ,
+     <italic>
+      TMPRSS2
+     </italic>
+     ,
+     <italic>
+      FURIN
+     </italic>
+     , and
+     <italic>
+      IL6
+     </italic>
+     .
+    </p>
+    <p id="Par5">
+     Furthermore, one significant factor modulating resistance or susceptibility to viral infections is the human leukocyte antigen (HLA) system.
+     <italic>
+      HLA
+     </italic>
+     polymorphism results from a set of amino acid substitutions in the peptide-binding groove of HLA molecules, producing variability in the peptide epitope-binding site and presentation to T cells, which may protect against epidemic infection     . Thus, genetic variability in
+     <italic>
+      HLA
+     </italic>
+     alleles might influence the immune response in patients with COVID-19, thereby modulating disease severity. Indeed, in silico analysis has found that
+     <italic>
+      HLA-B*46:01
+     </italic>
+     has the fewest predicted binding sites for SARS-CoV-2 peptides and that
+     <italic>
+      HLA-B*15:03
+     </italic>
+     shows the greatest capacity to present highly conserved shared SARS-CoV-2 peptides to immune cells     .
+    </p>
+    <p id="Par6">
+     Brazil has reported the third-highest number of COVID-19 infections worldwide (updated on September 28th, 2020;
+     <ext-link ext-link-type="uri" ns0:href="https://covid19.who.int/">
+      https://covid19.who.int/
+     </ext-link>
+     ;
+     <ext-link ext-link-type="uri" ns0:href="https://coronavirus.jhu.edu/map.html">
+      https://coronavirus.jhu.edu/map.html
+     </ext-link>
+     ), and the highest number of cases is concentrated in the southeastern region of the country (updated on September 28th, 2020;
+     <ext-link ext-link-type="uri" ns0:href="https://covid.saude.gov.br/">
+      https://covid.saude.gov.br/
+     </ext-link>
+     ). A feature of Brazilian individuals is an admixed genome, encompassing European, sub-Saharan African, and Native-Americans as the three main ancestry populations     , and the distribution of ancestry components varies remarkably throughout the genome     . Furthermore, it has been demonstrated that a significant proportion of genetic variability in admixed Brazilians remains undiscovered     and that genetic variability may lead to a differential response to infection     . Therefore, we aimed to investigate the genetic variation present in COVID-19-related genes in the Brazilian population.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="Sec3">
+     <title>
+      Exome analysis
+     </title>
+     <p id="Par7">
+      We found 7172 variants among the candidate genes analyzed (Supplementary Table      ). Of these, 395 variants putatively impact protein function, including 354 nonsynonymous variants, seven frameshift substitutions, three in-frame deletions, one in-frame insertion, 12 stop-gain mutations, two start-loss mutations, and 16 splice site mutations (Supplementary Table      ). Three-hundred and twenty-five of the variants are present in the gnomAD and/or 1000 Genome Project phase 3 (1KGP) databases, including 56 common variants, with an alternative allele frequency (AAF) ≥ 0.01, and 269 rare variants (AAF &lt; 0.01) (Supplementary Data      ). Although the AAF of the admixed Brazilian sample follows the distribution of non-Finish Europeans (NFE)/Europeans (EUR), sub-Saharan Africans (AFR), and admixed Americans (AMR) in the gnomAD and 1KGP databases (Supplementary Table      ), we observed differences in the AAF of these common and rare variants in the admixed Brazilian sample compared to the gnomAD      and/or 1KGP      databases (Supplementary Table      and Supplementary Data      ). Interestingly, we also detected some variability in the AAF among samples from different Brazilian towns and the two public databases of genomic information on the Brazilian population: BIPMed      (
+      <ext-link ext-link-type="uri" ns0:href="http://www.bipmed.org">
+       www.bipmed.org
+      </ext-link>
+      ) and ABraOM      (
+      <ext-link ext-link-type="uri" ns0:href="http://abraom.ib.usp.br/">
+       http://abraom.ib.usp.br/
+      </ext-link>
+      ) (Supplementary Table      ).
+     </p>
+     <p id="Par8">
+      More importantly, 70 variants are exclusive to the Brazilian sample, including 11 variants in genes related to type I interferon (INF) immunity to influenza virus      , six in candidate genes for COVID-19 response identified by GWAS      , and five related to SARS-CoV-2 entry into lung cells and virus replication      . These variants are ultrarare, presenting a mean AF of 0.0025 (Supplementary Data      ). Among them, we found one in the dataset from Belo Horizonte and two in the ABraOM database, involving
+      <italic>
+       ACE2
+      </italic>
+      p.Arg219Cys, and one in the dataset from Barretos and two in the ABraOM database, involving
+      <italic>
+       ACE2
+      </italic>
+      p.Leu731Phe; the
+      <italic>
+       TMPRSS2
+      </italic>
+      p.Val160Met variant is present in samples from all different Brazilian towns and the two public databases (BIPMed and ABraOM), with an AAF ranging from 0.1333 in Belo Horizonte to 0.2931 in Campinas. Among the reported variants in genes influencing type I INF immunity to influenza virus      , we found three variants in the ABraOM database (
+      <italic>
+       TLR3
+      </italic>
+      p.Pro554Ser,
+      <italic>
+       IFR3
+      </italic>
+      p.Asn146Lys and
+      <italic>
+       IRF7
+      </italic>
+      p.Pro246Ser) (Supplementary Data      and      ).
+     </p>
+     <p id="Par9">
+      In addition, we identified five variants (rs35044562, rs34326463, rs35508621, rs67959919, and rs35624553), previously described by Zeberg &amp; Pääbo      . These were only found in the samples from Ribeirão Preto and the BIPMed dataset (rs34326463), Campinas (rs35044562, and rs35508621), and the ABraOM dataset (rs35044562, rs35508621, rs67959919, and rs35624553) (Table      ).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Alternative allele frequency (AAF) of variants encompassing the haplotype described by Zeberg and Pääbo         and the alleles present in Neanderthal samples.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           dbSNP
+          </th>
+          <th>
+           Chr
+          </th>
+          <th>
+           Pos
+          </th>
+          <th>
+           ALT
+          </th>
+          <th>
+           Brazil AF
+          </th>
+          <th>
+           Allele
+          </th>
+          <th>
+           Campinas
+          </th>
+          <th>
+           Barretos
+          </th>
+          <th>
+           Ribeirão Preto
+          </th>
+          <th>
+           Belo Horizonte
+          </th>
+          <th>
+           BIPMed
+          </th>
+          <th>
+           ABraOM
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           rs35044562
+          </td>
+          <td>
+           3
+          </td>
+          <td>
+           45909024
+          </td>
+          <td>
+           G
+          </td>
+          <td>
+           0.0011
+          </td>
+          <td>
+           G
+          </td>
+          <td>
+           0.0862
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0279
+          </td>
+          <td>
+           0.0311
+          </td>
+         </tr>
+         <tr>
+          <td>
+           rs34326463
+          </td>
+          <td>
+           3
+          </td>
+          <td>
+           45899651
+          </td>
+          <td>
+           G
+          </td>
+          <td>
+           0.0011
+          </td>
+          <td>
+           G
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0357
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+         </tr>
+         <tr>
+          <td>
+           rs35508621
+          </td>
+          <td>
+           3
+          </td>
+          <td>
+           45880481
+          </td>
+          <td>
+           C
+          </td>
+          <td>
+           0.0011
+          </td>
+          <td>
+           C
+          </td>
+          <td>
+           0.0345
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0039
+          </td>
+         </tr>
+         <tr>
+          <td>
+           rs67959919
+          </td>
+          <td>
+           3
+          </td>
+          <td>
+           45871908
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           0.0011
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0039
+          </td>
+         </tr>
+         <tr>
+          <td>
+           rs35624553
+          </td>
+          <td>
+           3
+          </td>
+          <td>
+           45867440
+          </td>
+          <td>
+           G
+          </td>
+          <td>
+           0.0262
+          </td>
+          <td>
+           G
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0000
+          </td>
+          <td>
+           0.0039
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Data extracted from Zeberg and Pääbo         .
+        </p>
+        <p>
+         Positions are based on the GRCh37 assembly.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      In silico predictions
+     </title>
+     <p id="Par10">
+      We identified seven variants predicted to affect protein function in the 12 algorithms used: p.Phe249Ser, p.Gly164Val, and p.Leu25Pro in
+      <italic>
+       SLC6A20
+      </italic>
+      ; p.Leu96Arg in
+      <italic>
+       LZTFL1
+      </italic>
+      ; p.Tyr287Ser in
+      <italic>
+       XCR1
+      </italic>
+      ; and p.Gly146Ser and p.Asn414Ser in
+      <italic>
+       FURIN
+      </italic>
+      (Table      ). The variant p.Gly146Ser in the
+      <italic>
+       FURIN
+      </italic>
+      gene is also predicted to destabilize the protein (ΔΔG: −1.576 kcal/mol). The p.Phe249Ser variant is present in samples from Barretos, the BIPMed dataset, gnomAD, and 1KGP (NFE/EUR, AFR, AMR, and SAS populations). In contrast, the p.Gly164Val variant is present in the ABraOM dataset, gnomAD, and 1KGP (NFE/EUR populations) and the p.Gly146Ser variant in the ABraOM dataset, gnomAD, and 1KGP (NFE/EUR, AFR, AMR, EAS, and SAS populations). Notably, four of the variants predicted to be deleterious are found exclusively in admixed Brazilian individuals (p.Leu25Pro in Barretos; p.Leu96Arg in the ABraOM dataset; p.Tyr287Ser in Belo Horizonte; and p.Asn414Ser in the BIPMed dataset). Also, we found the variant p.Pro554Ser in the
+      <italic>
+       TLR3
+      </italic>
+      gene, which is predicted as deleterious. However, the variant in the
+      <italic>
+       IFR3
+      </italic>
+      gene, (p.Asn146Lys) and in the
+      <italic>
+       IRF7
+      </italic>
+      gene (p.Pro246Ser) were not predicted to be deleterious according to our analysis (Supplementary Data      ).
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Alternative allele frequency of the deleterious variants found in the four COVID-related genes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th/>
+          <th/>
+          <th colspan="11">
+           Alternative allele frequency
+          </th>
+         </tr>
+         <tr>
+          <th>
+           Genes
+          </th>
+          <th>
+           Variant
+          </th>
+          <th>
+           Campinas
+          </th>
+          <th>
+           Barretos
+          </th>
+          <th>
+           Ribeirão Preto
+          </th>
+          <th>
+           Belo Horizonte
+          </th>
+          <th>
+           ABraOM
+          </th>
+          <th>
+           BIPMed
+          </th>
+          <th>
+           NFE
+          </th>
+          <th>
+           AFR
+          </th>
+          <th>
+           AMR
+          </th>
+          <th>
+           EAS
+          </th>
+          <th>
+           SAS
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <italic>
+            SLC6A20
+           </italic>
+          </td>
+          <td>
+           p.Phe249Ser
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0167
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0008
+          </td>
+          <td>
+           0.0019
+          </td>
+          <td>
+           0.0005
+          </td>
+          <td>
+           0.0615
+          </td>
+          <td>
+           0.0003
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0084
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            SLC6A20
+           </italic>
+          </td>
+          <td>
+           p.Gly164Val
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0008
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0088
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            SLC6A20
+           </italic>
+          </td>
+          <td>
+           p.Leu25Pro
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0167
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            LZTFL1
+           </italic>
+          </td>
+          <td>
+           p.Leu96Arg
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0008
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            XCR1
+           </italic>
+          </td>
+          <td>
+           p.Tyr287Ser
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0167
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            FURIN
+           </italic>
+          </td>
+          <td>
+           p.Gly146Ser
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0008
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0004
+          </td>
+          <td>
+           0.0002
+          </td>
+          <td>
+           0.0005
+          </td>
+          <td>
+           0.0544
+          </td>
+          <td>
+           0.0327
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            FURIN
+           </italic>
+          </td>
+          <td>
+           p.Asn414Ser
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.0019
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         <italic>
+          NFE
+         </italic>
+         non-Finish European,
+         <italic>
+          AFR
+         </italic>
+         sub-Saharan African/African-American,
+         <italic>
+          AMR
+         </italic>
+         admixed Americans/Latinos,
+         <italic>
+          EAS
+         </italic>
+         east Asians,
+         <italic>
+          SAS
+         </italic>
+         south Asians.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par11">
+      We did not observe any predicted deleterious variants in
+      <italic>
+       ACE2
+      </italic>
+      and
+      <italic>
+       TMPRSS2
+      </italic>
+      based on our 12 algorithm criteria. However, Hou et al.      applied only Polyphen2 and CADD scores to variants in
+      <italic>
+       ACE2
+      </italic>
+      and
+      <italic>
+       TMPRSS2
+      </italic>
+      (Polyphen2 &gt; 0.96 and CADD &gt; 20 as the cutoff). Therefore, only variants defined as “probably damaging” by Polyphen2 (
+      <ext-link ext-link-type="uri" ns0:href="http://genetics.bwh.harvard.edu/pph2/dokuwiki/overview">
+       http://genetics.bwh.harvard.edu/pph2/dokuwiki/overview
+      </ext-link>
+      ) and CADD ( &gt; 20) were included. We found 79 variants predicted to affect protein function, including the p.Val160Met variant in
+      <italic>
+       TMPRSS2
+      </italic>
+      reported by Hou et al.      and the p.Pro554Ser variant in
+      <italic>
+       TLR3
+      </italic>
+      previously reported by Zhang et al.      (Supplementary Data      ).
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      HLA analysis
+     </title>
+     <p id="Par12">
+      Overall, we identified 331 different
+      <italic>
+       HLA
+      </italic>
+      alleles in the admixed Brazilian samples. Of these, three
+      <italic>
+       HLA
+      </italic>
+      alleles have been previously associated with the COVID-19 response      . We compared the frequency of these
+      <italic>
+       HLA
+      </italic>
+      alleles in admixed Brazilians and in populations that occupy the top 10 positions for most cases of COVID-19 and the five populations less affected by the disease, including the United States, India, Russia, Colombia, Peru, Mexico, Spain, Argentina, South Africa, Japan, Australia, South Korea, Vietnam, and Taiwan. The frequency of these alleles is described in Supplementary Data      . The
+      <italic>
+       HLA-B*46:01
+      </italic>
+      ,
+      <italic>
+       HLA-B*27:07
+      </italic>
+      ,
+      <italic>
+       HLA-B*15:27
+      </italic>
+      , and
+      <italic>
+       HLA-C*07:29
+      </italic>
+      alleles are absent in the Brazilian samples. The
+      <italic>
+       HLA-C*07:29
+      </italic>
+      allele is also absent from other populations and is present at a low frequency (AF = 0.0003) in the Indian population.
+      <italic>
+       HLA-B*15:27
+      </italic>
+      was identified in Vietnam, Taiwan, Japan, with an AF &gt; 0.01, and Spain, with an AF &lt; 0.0001.
+      <italic>
+       HLA-B*27:07
+      </italic>
+      was detected at a low frequency in India, Colombia, Spain, and South Africa;
+      <italic>
+       HLA-B*46:01
+      </italic>
+      allele is present in Russia, Mexico, Vietnam, Taiwan, and Japan.
+     </p>
+     <p id="Par13">
+      Sixty-six Brazilian individuals (17.1%) carry the
+      <italic>
+       HLA-DQB1*06:02
+      </italic>
+      allele (AF = 0.08938) and 47 individuals (12.2%) the
+      <italic>
+       HLA-DRB1*15:01
+      </italic>
+      allele (AF = 0.06477); 32 individuals (8.29%) harbor both the
+      <italic>
+       HLA-DRB1*15:01
+      </italic>
+      and
+      <italic>
+       HLA-DQB1*06:02
+      </italic>
+      alleles. The populations of continents other than Oceania also have these two
+      <italic>
+       HLA
+      </italic>
+      alleles (
+      <italic>
+       HLA-DRB1*15:01
+      </italic>
+      and
+      <italic>
+       HLA-DQB1*06:02
+      </italic>
+      ), with an AF &gt; 0.01. Additionally, 15 Brazilian individuals (3.88%) carry
+      <italic>
+       HLA-B*15:03
+      </italic>
+      (AF = 0.02073), which is predicted to have the greatest capacity to present SARS-CoV-2 peptides to immune cells      . This allele was not found in the Asian population of Japan, South Korea, or Vietnam (Supplementary Data      ).
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      In silico analysis of viral peptide-HLA class I- and II- binding affinity
+     </title>
+     <p id="Par14">
+      To verify the potential for an
+      <italic>
+       HLA
+      </italic>
+      allele type to produce an antiviral response to SARS-CoV-2, we performed
+      <italic>
+       HLA
+      </italic>
+      - binding affinity analyses on the SARS-CoV-2 proteome. We tested 42 HLA-A, 77 HLA-B, 38 HLA-C, 60 HLA-DP (DPA1/DPB1), 145 HLA-DQ (DQA1/DQB1), 46 HLA-DRB1, 4 DRB3, 2 DRB4, and 6 DRB5 proteins.
+     </p>
+     <p id="Par15">
+      The SARS-CoV-2 proteome exhibits a diversity of
+      <italic>
+       HLA
+      </italic>
+      alleles from classes I and II (Supplementary Table      ). HLA proteins are predicted to bind a small proportion of all possible SARS-CoV-2-derived peptides with high affinity (on average 0.5% for HLA class I and 2% for HLA class II). Additionally, we found a small proportion of weak binders (on average, 1.5% for HLA class I and 8.2% for class II). Most of the HLA proteins do not bind either class I (on average &gt;96%) or II (on average &gt;89%) molecules (Supplementary Data      ). Supplementary Data      shows a list of the strongest HLA binders (&gt;300 peptides bound at high affinity) of SARS-CoV-2 peptides. These are found at loci
+      <italic>
+       HLA-A
+      </italic>
+      ,
+      <italic>
+       -B
+      </italic>
+      ,
+      <italic>
+       -C
+      </italic>
+      , and
+      <italic>
+       -DQ
+      </italic>
+      . When comparing HLA class I and class II, HLA molecules do not share similar characteristics or partial amino acid sequences.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec7" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p id="Par16">
+     Accessing the genomic sequences of the general population is relevant for identifying the genetic variability involved in the molecular mechanisms of infection     . Additionally, it is known that the admixed Brazilian population is underrepresented in large public databases     , and previous studies have revealed variants exclusively present in Brazilian individuals     . Thus, we hypothesize that rare or ultrarare variants of large effect sizes might make an essential contribution to COVID-19 infection in the Brazilian population.
+    </p>
+    <p id="Par17">
+     We studied 27 human COVID-19-related genes and the
+     <italic>
+      HLA
+     </italic>
+     region in two public genomic databases of admixed Brazilians (BIPMed and ABraOM) and additional samples from individuals born in three different towns of southeastern Brazil. We examined the variants and
+     <italic>
+      HLA
+     </italic>
+     alleles found in these samples and compared them with worldwide populations. We also report variants constituting a haplotype at locus 3p21.31 that is described as being inherited from Neanderthals     .
+    </p>
+    <p id="Par18">
+     Previous studies have shown that the
+     <italic>
+      ACE2
+     </italic>
+     ,
+     <italic>
+      TMPRSS2
+     </italic>
+     ,
+     <italic>
+      CTSL
+     </italic>
+     ,
+     <italic>
+      FURIN
+     </italic>
+     , and
+     <italic>
+      IL6
+     </italic>
+     genes, as well as the
+     <italic>
+      HLA
+     </italic>
+     region, may be involved in SARS-CoV-2 infection     and the immune response     . Furthermore, variants at loci 3p21.31 and 9q34.2 (encompassing
+     <italic>
+      SLC6A20
+     </italic>
+     ,
+     <italic>
+      LZTFL1
+     </italic>
+     ,
+     <italic>
+      FYCO1
+     </italic>
+     ,
+     <italic>
+      CXCR6
+     </italic>
+     ,
+     <italic>
+      XCR1
+     </italic>
+     ,
+     <italic>
+      CCR9
+     </italic>
+     , and
+     <italic>
+      ABO
+     </italic>
+     ) have been associated with Spanish and Italian patients with COVID-19     , and different variants affect predisposition toward life-threatening illness in COVID-19 patients of different ancestries     .
+    </p>
+    <p id="Par19">
+     Overall, analysis of genetic variability in candidate genes for specific populations can help identify individuals at a higher risk of infection or severe disease by constructing risk haplotypes, which may also provide therapeutic targets for the development of more effective treatments and the control of COVID-19     . Thus, in addition to investigating genetic variability in 27 candidate genes, we extended our analysis to include
+     <italic>
+      HLA
+     </italic>
+     alleles, which influence the immunological response to many infectious agents     . We report the first comprehensive study of the genetic variability of genes related to COVID-19 in admixed individuals from Latin America, a population strongly affected by the COVID-19 pandemic, both in terms of the number of infected individuals and the severity of disease, leading to increased death rates (updated on September 28th, 2020;
+     <ext-link ext-link-type="uri" ns0:href="https://covid19.who.int/">
+      https://covid19.who.int/
+     </ext-link>
+     ;
+     <ext-link ext-link-type="uri" ns0:href="https://coronavirus.jhu.edu/map.html">
+      https://coronavirus.jhu.edu/map.html
+     </ext-link>
+     ). Indeed, in the USA, remarkable disparities in SARS-CoV-2 infection based on ethnicity have been shown, with Hispanic/Latino and African-American individuals presenting higher SARS-CoV-2 infection rates and risk mortality than “non-Hispanic white” Americans     . Therefore, by examining population genomics data, one may gain insight into disease-related variants, which may be disproportionally represented in specific populations     . Furthermore, by evaluating individuals with unknown information regarding SARS-CoV-2 infection, one can achieve the random distribution of these variants, allowing for better estimates of the distribution of population allele frequencies.
+    </p>
+    <p id="Par20">
+     The spread of COVID-19 infection displays geographical variation. Most COVID-19-related deaths are being reported in the Americas, Europe, and Southeast Asia, with fewer deaths in Oceania and East Asia. Considering the ratio of deaths to the total number of cases, Mexico has the highest proportion, at 10%, whereas the USA, Brazil, Colombia, Australia, and Vietnam have a proportion of ~3% (“
+     <ext-link ext-link-type="uri" ns0:href="https://www.worldometers.info/coronavirus/">
+      https://www.worldometers.info/coronavirus/
+     </ext-link>
+     ”; accessed on 04/24/2020). The reasons for this geographical variation are still unclear.
+    </p>
+    <p id="Par21">
+     We identified small AF differences in the 395 candidate variants identified among Brazilian samples, strengthening the hypothesis that different genetic backgrounds might influence SARS-CoV-2 infection and behavior in human host cells     . Moreover, this study and previous works     identified individuals who carry unique deleterious variants, which may influence gene function and potentially lead to different responses to SARS-CoV-2 infection on an individual scale. Nevertheless, the rather similar distribution of AFs among Brazilians and their ancestry populations (NFE/EUR and AFR), as well as other admixed Americans (AMR), and the fact that the unique variants identified in the Brazilian population are rare or ultrarare indicate that the admixed Brazilian genetic background is not sufficient to influence SARS-CoV-2 infection on a population scale. However, we cannot exclude the possibility that some of the rare and ultrarare variants identified in Brazilian individuals in this study may affect disease risk at the individual level. In general, predisposition toward infectious diseases is most likely multifactorial, with genetic and environmental influences     . When examining the genetic component of susceptibility to infection, the literature highlights polygenic inheritance; indeed, several variants have been associated with infectious disease, each leading to small increments of disease risk     . In this context, rare variants may also play a relevant role in infectious diseases, such as in HIV-1     , HSV-1     , and invasive meningococcal disease     , as well as reported previously for COVID-19     .
+    </p>
+    <p id="Par22">
+     Zeberg and Pääbo     have shown that a major genetic risk factor for severe COVID-19 may be inherited from Neanderthals     . This finding is important on a regional scale, as 4% of the admixed Americans analyzed by Zeberg and Pääbo     (including 1533 Brazilian controls from the BRACOVID dataset) presented the core haplotype derived from Neanderthals. Interestingly, data from Campinas, Ribeirão Preto, and the BIPMed dataset showed only one allele, and Barretos and Belo Horizonte did not present any allele deriving from Neanderthals in the core haplotype reported. Therefore, if further studies demonstrate that the Neanderthal-derived locus indeed confers a genetic risk to COVID-19, this information should be carefully evaluated in additional admixed Brazilian samples from different geographic areas.
+    </p>
+    <p id="Par23">
+     Currently, there is no consensus regarding a possible association of
+     <italic>
+      HLA
+     </italic>
+     alleles and susceptibility to COVID-19. For example, Ellinghaus et al.     did not find any evidence of an association between
+     <italic>
+      HLA
+     </italic>
+     and COVID-19. Conversely,
+     <italic>
+      HLA-DRB1*15:01
+     </italic>
+     ,
+     <italic>
+      HLA-DQB1*06:02
+     </italic>
+     , and
+     <italic>
+      HLA-B*27:07
+     </italic>
+     alleles have been associated with Italian cases of an extremely severe or severe form of COVID-19     , and an increased frequency of
+     <italic>
+      HLA-C*07:29
+     </italic>
+     and
+     <italic>
+      HLA-B*15:27
+     </italic>
+     was detected in Chinese patients with COVID-19 in comparison to the Chinese control population     . Interestingly, the
+     <italic>
+      HLA-C*07:29
+     </italic>
+     allele was absent from the Brazilian admixed samples included in the present study and in all populations used in the comparisons, except for individuals from India, where this allele occurs at a low frequency (0.0003). On the other hand, the
+     <italic>
+      HLA-B*15:27
+     </italic>
+     allele was identified in individuals from three Asian countries (Vietnam, Taiwan, and Japan), with an AF &gt; 0.01, and at a low frequency in Spain (0.0001) but is absent in Brazilian samples. The
+     <italic>
+      HLA-B*27:07
+     </italic>
+     allele was detected in Italian individuals with a severe manifestation of COVID-19 and also identified in India, Colombia, Spain, and South Africa but not in populations from Asia and Oceania (countries that are less affected by COVID-19) and Brazil. In contrast,
+     <italic>
+      HLA-DQB1*06:02
+     </italic>
+     is present in all populations surveyed in this study, including Brazilian individuals (17.1%), with the exception of individuals from Australia. The
+     <italic>
+      HLA-DRB1*15:01
+     </italic>
+     allele is also present in all populations investigated in this study, including Brazilian individuals (12.2%), but not in individuals from Australia and Peru. Interestingly, 8.29% of Brazilian individuals carry both the
+     <italic>
+      HLA-DRB1*15:01
+     </italic>
+     and
+     <italic>
+      HLA-DQB1*06:02
+     </italic>
+     alleles. It is important to point out that our study has a significant advantage over previous reports about the study of HLA in the Brazilian population, as we performed NGS-based HLA typing, which has a high resolution     .
+    </p>
+    <p id="Par24">
+     The
+     <italic>
+      HLA-A
+     </italic>
+     ,
+     <italic>
+      -B
+     </italic>
+     , -C, and
+     <italic>
+      -DQ
+     </italic>
+     loci present haplotypes in the Brazilian samples that encode strong binders of SARS-CoV-2 peptides, especially for the
+     <italic>
+      HLA-A
+     </italic>
+     locus (20 alleles, Table     ). One hypothesis is that those who express strong HLA binders, i.e., those in which HLA sites would be more efficient at binding SARS-CoV-2 peptides and presenting it to the immune system, would be less susceptible to infection or would develop only mild disease. In our analysis, this low-risk category, strongest binders, included individuals caring
+     <italic>
+      HLA
+     </italic>
+     alleles predicted to encode proteins binding &gt;300 peptides of the SARS-CoV-2 at high affinity. Thus, considering sites on
+     <italic>
+      HLA A
+     </italic>
+     , -
+     <italic>
+      B
+     </italic>
+     , -
+     <italic>
+      C
+     </italic>
+     , and -
+     <italic>
+      DQA1-DQB1
+     </italic>
+     , the proportion of strongest binders in the Brazilian population may be up to 51% (198 individuals), and some individuals carry alleles for the strongest binders at more than one site (Table     ). Accordingly, we firmly believe that this issue should be further investigated in large cohorts of patients with COVID-19 in the Brazilian population.
+     <table-wrap id="Tab3">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        List of the strongest HLA binders (&gt;300 peptides bound at high affinity) of SARS-CoV-2 peptides and frequency in the Brazilian sample.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          <italic>
+           HLA
+          </italic>
+         </th>
+         <th>
+          <italic>
+           HLA
+          </italic>
+          alleles
+         </th>
+         <th>
+          Allele frequency
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td rowspan="20">
+          <italic>
+           HLA-A
+          </italic>
+         </td>
+         <td>
+          <italic>
+           A*01:01
+          </italic>
+         </td>
+         <td>
+          0.10233
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*11:01
+          </italic>
+         </td>
+         <td>
+          0.04145
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*11:67
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*23:01
+          </italic>
+         </td>
+         <td>
+          0.03756
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*23:17
+          </italic>
+         </td>
+         <td>
+          0.00389
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*24:02
+          </italic>
+         </td>
+         <td>
+          0.10104
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*24:03
+          </italic>
+         </td>
+         <td>
+          0.00259
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*24:05
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*25:01
+          </italic>
+         </td>
+         <td>
+          0.00389
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*26:01
+          </italic>
+         </td>
+         <td>
+          0.02979
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*26:02
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*26:08
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*29:01
+          </italic>
+         </td>
+         <td>
+          0.00259
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*29:02
+          </italic>
+         </td>
+         <td>
+          0.04534
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*29:119
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*30:02
+          </italic>
+         </td>
+         <td>
+          0.02591
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*30:04
+          </italic>
+         </td>
+         <td>
+          0.00259
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*34:02
+          </italic>
+         </td>
+         <td>
+          0.00777
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*36:01
+          </italic>
+         </td>
+         <td>
+          0.00389
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           A*80:01
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          <italic>
+           HLA-B
+          </italic>
+         </td>
+         <td>
+          <italic>
+           B*15:08
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           B*15:11
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="5">
+          <italic>
+           HLA-C
+          </italic>
+         </td>
+         <td>
+          <italic>
+           C*03:02
+          </italic>
+         </td>
+         <td>
+          0.00389
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           C*07:02
+          </italic>
+         </td>
+         <td>
+          0.05699
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           C*07:50
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           C*14:02
+          </italic>
+         </td>
+         <td>
+          0.02979
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           C*14:03
+          </italic>
+         </td>
+         <td>
+          0.00259
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="4">
+          <italic>
+           HLA-DQ
+          </italic>
+         </td>
+         <td>
+          <italic>
+           DQA1*02:01-DQB1*04:02
+          </italic>
+         </td>
+         <td>
+          0.00259
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           DQA1*03:01-DQB1*04:02
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           DQA1*03:03-DQB1*04:01
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           DQA1*03:03-DQB1*04:02
+          </italic>
+         </td>
+         <td>
+          0.00130
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <p id="Par25">
+     When comparing different populations, we found marked variability in the frequency of the different
+     <italic>
+      HLA
+     </italic>
+     alleles putatively associated with severe manifestation of COVID-19, such as
+     <italic>
+      HLA-DRB1*15:01
+     </italic>
+     ,
+     <italic>
+      HLA-DQB1*06:02
+     </italic>
+     , and
+     <italic>
+      HLA-B*27:07
+     </italic>
+     alleles     . Overall, 10% of Brazilian individuals carry at least two of the alleles associated with severe manifestation of COVID-19. Interestingly, the same alleles are absent in individuals from Australia. Variability in the frequency of
+     <italic>
+      HLA
+     </italic>
+     alleles previously associated with COVID-19 highlights the importance of considering ethnic and geographic origin when performing studies investigating the role of
+     <italic>
+      HLA
+     </italic>
+     alleles and disease. Thus, it seems likely that different population-specific haplotypes may be associated with an increased genetic risk of the disease in different populations.
+    </p>
+    <p id="Par26">
+     In conclusion, we detected three rare and four ultrarare variants in four COVID-19-related genes,
+     <italic>
+      SLC6A20, LZTFL1, XCR1
+     </italic>
+     and
+     <italic>
+      FURIN
+     </italic>
+     , that are present only in the Brazilian dataset and predicted to affect protein function. Furthermore, we identified
+     <italic>
+      HLA
+     </italic>
+     alleles previously associated with the COVID-19 immunological response and 31
+     <italic>
+      HLA
+     </italic>
+     alleles predicted to encode strong binders to SARS-CoV-2 peptides at loci
+     <italic>
+      -A
+     </italic>
+     ,
+     <italic>
+      -B
+     </italic>
+     ,
+     <italic>
+      -C
+     </italic>
+     , and
+     <italic>
+      -DQ
+     </italic>
+     , which indicates the importance of further investigation on the role of
+     <italic>
+      HLA
+     </italic>
+     haplotypes as modulators of the response to infection with SARS-CoV-2. Although variants of COVID-19-related genes predicted to affect protein function are rare in admixed Brazilians (varying from 0.0001 to 0.0032), they also emerge as candidates for modulating the response to infection by SARS-CoV-2 in the Brazilian population. Furthermore, our study suggests the utility of population genomic studies in the context of precision health to stratify risk of infections.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec8">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec9">
+     <title>
+      Subjects
+     </title>
+     <p id="Par27">
+      We evaluated exomes of 257 individuals from the BIPMed dataset      and 609 from the ABraOM dataset      and an additional 88 exomes from individuals born in three towns in southeastern Brazil: Barretos (
+      <italic>
+       N
+      </italic>
+      = 30), Ribeirão Preto (
+      <italic>
+       N
+      </italic>
+      = 30), located in the state of São Paulo, and Belo Horizonte (
+      <italic>
+       N
+      </italic>
+      = 28), the capital of the state of Minas Gerais. Among the BIPMed individuals, information about their city of birth was available for 193. The HLA region was sequenced in 386 individuals, including 257 from BIPMed, 88 additional exomes, and an additional 41 individuals (22 from southeast Brazil). We signed terms of data privacy to obtain permission to use the raw data from BIPMed and ABraOM public databases as well as the raw data of the 88 exomes from Barretos, Ribeirão Preto, and Belo Horizonte. This study was approved by the University of Campinas Research Ethics Committee (UNICAMP, Campinas, São Paulo, Brazil). All methods were performed according to the relevant guidelines and regulations.
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      Exome analysis
+     </title>
+     <p id="Par28">
+      Whole-exome data were stored in variant call format (VCF) files built-in GRCh37 assembly. Gene regions were extracted by
+      <italic>
+       VCFtools
+      </italic>
+      based on the position reported in Ensembl GRCh37 Release 101      (Supplementary Table      ). Consequences of variants were annotated from each gene region by ANNOVAR software (version 2019Oct24)      using the following flags:
+      <italic>
+       -otherinfo
+      </italic>
+      (to include Brazil AF);
+      <italic>
+       -onetranscript
+      </italic>
+      ;
+      <italic>
+       -buildver hg19
+      </italic>
+      ;
+      <italic>
+       -remove
+      </italic>
+      ;
+      <italic>
+       -protocol refGene, gnomad211_exome
+      </italic>
+      ;
+      <italic>
+       ALL.sites.2015_08
+      </italic>
+      ;
+      <italic>
+       EUR.sites.2015_08
+      </italic>
+      ;
+      <italic>
+       AFR.sites.2015_08
+      </italic>
+      ;
+      <italic>
+       AMR.sites.2015_08
+      </italic>
+      ;
+      <italic>
+       EAS.sites.2015_08
+      </italic>
+      ;
+      <italic>
+       SAS.sites.2015_08
+      </italic>
+      ;
+      <italic>
+       -operation g,f
+      </italic>
+      ; and
+      <italic>
+       -nastring
+      </italic>
+      . ANNOVAR software provides allele frequency (AF) information for African/African-American (AFR/AFA), Latino/admixed American (LAT/AMR), East Asian (EAS), non-Finish European (NFE), and South Asian (SAS) populations from the gnomAD exome dataset      , as well as sub-Saharan Africans (AFR), Europeans (EUR), admixed Americans (AMR), East Asians (EAS), and South Asians (SAS) from the 1KGP phase 3 dataset      . In addition, we annotated variants that were not identified by ANNOVAR using the Variant Effect Prediction (VEP) algorithm      , with the following parameters:
+      <italic>
+       --buffer_size 500
+      </italic>
+      ;
+      <italic>
+       --canonical
+      </italic>
+      ;
+      <italic>
+       --distance 5000
+      </italic>
+      ;
+      <italic>
+       --species homo_sapiens
+      </italic>
+      ;
+      <italic>
+       --symbol
+      </italic>
+      . We defined rare variants as those with allele frequency &lt; 0.01      ; ultrarare variants are rare variants present in our data but absent in gnomAD and 1KGP      .
+     </p>
+     <p id="Par29">
+      To evaluate regional variability among Brazilian samples, we separated the samples based on the city in which the individuals were born, including 32 individuals from Campinas extracted from the BIPMed dataset.
+     </p>
+    </sec>
+    <sec id="Sec11">
+     <title>
+      In silico prediction analysis
+     </title>
+     <p id="Par30">
+      To predict the impact on protein function of the nonsynonymous variants identified, we applied the following computer algorithms, which are currently recommended by the ACMG/AMP guidelines: PANTHER      , MutationTaster      , Condel      , PROVEAN      , PolyPhen2      , Sort Intolerant from tolerant (SIFT)      , Align Grantham Variation/Grantham Difference score (GVGD)      , Combined Annotation Dependent Depletion (CADD)      , PhD-SNPg      , Functional Analysis through Hidden Markov Models (FATHMM)      , SNPs&amp;GO      , and MutPred2 (
+      <ext-link ext-link-type="uri" ns0:href="http://mutpred.mutdb.org">
+       http://mutpred.mutdb.org
+      </ext-link>
+      ).
+     </p>
+     <p id="Par31">
+      For Align-GVGD, we classified the variants based on the graded classifier, with a cutoff of C35 or higher for deleterious classification. For CADD, we used the PHRED-like score with a cutoff of 20, below which variants were classified as benign and otherwise deleterious. For MutPred2, we considered a score threshold of 0.50 for pathogenicity. For all other algorithms, we considered the classification provided as output.
+     </p>
+     <p id="Par32">
+      We used the DynaMut server (
+      <ext-link ext-link-type="uri" ns0:href="http://biosig.unimelb.edu.au/dynamut/">
+       http://biosig.unimelb.edu.au/dynamut/
+      </ext-link>
+      ) to assess the impact of mutations on protein dynamics and stability      . The server requires an input file of protein structure in PDB format or by providing the four-letter accession code for any entry at the Protein Data Bank database (PDB;
+      <ext-link ext-link-type="uri" ns0:href="http://wwpdb.org/">
+       http://wwpdb.org
+      </ext-link>
+      ). The used code for the
+      <italic>
+       FURIN
+      </italic>
+      gene was 5jxg. The other proteins are not available in PDB.
+     </p>
+    </sec>
+    <sec id="Sec12">
+     <title>
+      HLA analysis
+     </title>
+     <p id="Par33">
+      We sequenced 11
+      <italic>
+       HLA
+      </italic>
+      loci (
+      <italic>
+       HLA-A, HLA-B, HLA-C, HLA-DRB1, HLA-DQB1, HLA-DPB1, HLA-DQA1, HLA-DPA1, HLA-DRB3, HLA-DRB4, HLA-DRB5
+      </italic>
+      ) in 298 samples using NGSgo      panels (GenDx, Utrecht, The Netherlands). The DNA libraries were loaded onto a MiSeq Sequencer (Illumina Inc., San Diego, CA, USA), and the data were analyzed with NGSengine v.2.16.2 software (GenDx, Utrecht, The Netherlands). We determined
+      <italic>
+       HLA
+      </italic>
+      alleles from the remaining 88 exomes using the HLA-HD (HLA typing from High-quality Dictionary) tool v.1.3.0      . The IPD-IMGT/HLA database release 3.40.0      was used as a reference. Although we obtained results with six- and eight-digit precision, we restricted the results to four-digit accuracy for comparison with published data.
+      <italic>
+       HLA
+      </italic>
+      allele frequencies were calculated by Arlequin v.3.5.2.2 software      .
+     </p>
+    </sec>
+    <sec id="Sec13">
+     <title>
+      In silico analysis of viral peptide-HLA class I- and II- binding affinity
+     </title>
+     <p id="Par34">
+      We performed in silico analysis of viral peptide-HLA class I- and II- binding affinity across HLA proteins found in our population for the entire SARS-CoV-2 proteome. All
+      <italic>
+       HLA-A
+      </italic>
+      ,
+      <italic>
+       -B
+      </italic>
+      , and
+      <italic>
+       -C
+      </italic>
+      alleles were selected to assess the peptide‐binding affinity of their corresponding proteins HLA-A, HLA-B, and HLA-C, respectively.
+      <italic>
+       HLA-DR
+      </italic>
+      is represented by HLA-DRA/DRB1 dimer. Since HLA-DRA is considered monomorphic, we only used HLA-DRB1.
+      <italic>
+       HLA-DP
+      </italic>
+      and
+      <italic>
+       HLA-DQ
+      </italic>
+      are represented by the HLA-DPA1/DPB1 dimer and HLA-DQA1/DQB1 dimer, respectively.
+     </p>
+     <p id="Par35">
+      FASTA-formatted protein sequence data were retrieved from the National Center of Biotechnology Information (NCBI) database (
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/Sars-cov-2">
+       https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/Sars-cov-2
+      </ext-link>
+      ). The following eleven protein viral products were used in the analyses: ORF1ab (YP_009724389.1), surface glycoprotein (S) (YP_009724390.1), ORF3a (YP_009724391.1), envelope (E) (YP_009724392.1), membrane glycoprotein (M) (YP_009724393.1), ORF6 (YP_009724394.1), ORF7a (YP_009724395.1), ORF7b (YP_009725318.1), ORF8 (YP_009724396.1), nucleocapsid (N) (YP_009724397.2), and ORF10 (YP_009725255.1).
+     </p>
+     <p id="Par36">
+      We k-merized these sequences into 8- to 12-mers to assess HLA class I-peptide-binding affinity and into 15-mers to assess HLA class II-binding affinity across the entire proteome. Predictions for HLA were performed using different
+      <italic>
+       HLA
+      </italic>
+      alleles found in our population with netMHCpan v4.1 for class I      and NetMHCIIpan-3.2 for class II      . We followed the NetMHCpan recommendations, in which the information of strong MHC binder (SB) or weak MHC binder (WB) is based on a %Rank score. We used the default, %Rank &lt; 0.5% and %Rank &lt; 2% thresholds to detect SBs and WBs, respectively, for class I and %Rank &lt; 2% and %Rank &lt; 10% for SBs and WBs, respectively, for class II.
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      HLA allele and haplotype frequencies of other populations
+     </title>
+     <p id="Par37">
+      <italic>
+       HLA
+      </italic>
+      frequency data were obtained from Allele Frequency Net Database (
+      <ext-link ext-link-type="uri" ns0:href="http://www.allelefrequencies.net/">
+       http://www.allelefrequencies.net/
+      </ext-link>
+      )      for 10 distinct populations that are most and least affected by COVID-19. We checked the
+      <italic>
+       HLA
+      </italic>
+      of the populations that occupied the top 10 positions (USA, India, Brazil, Russia, Colombia, Peru, Spain, Mexico, Argentina, South Africa) and those that were less affected (Australia, Vietnam, Taiwan, Japan, and South Korea) (accessed on 04/24/2020,
+      <ext-link ext-link-type="uri" ns0:href="https://www.worldometers.info/coronavirus/">
+       https://www.worldometers.info/coronavirus/
+      </ext-link>
+      ) according to the availability of these data in Allele Frequency Net Database.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec15">
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

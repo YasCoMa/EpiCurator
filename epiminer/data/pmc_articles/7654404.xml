@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Association between HLA gene polymorphisms and mortality of COVID‐19: An in silico analysis
+ </title>
+ <abstract>
+  <p>
+   The emergence of SARS‐CoV‐2 has caused global public health and economic crisis. Human leukocyte antigen (HLA) is a critical component of the viral antigen presentation pathway and plays essential roles in conferring differential viral susceptibility and severity of diseases. However, the association between HLA gene polymorphisms and risk for COVID‐19 has not been fully elucidated. We hypothesized that HLA genotypes might impact on the differences in morbidity and mortality of COVID‐19 across countries.
+  </p>
+  <p>
+   We conducted in silico analyses and examined an association of HLA gene polymorphisms with prevalence and mortality of COVID‐19 by using publicly available databases.
+  </p>
+  <p>
+   We found that a possible association between HLA‐A*02:01 and an increased risk for COVID‐19. HLA‐A*02:01 had a relatively lower capacity to present SARS‐CoV‐2 antigens compared with other frequent HLA class I molecules, HLA‐A*11:01 or HLA‐A*24:02.
+  </p>
+  <p>
+   This study suggests that individuals with HLA‐A*11:01 or HLA‐A*24:02 genotypes may generate efficiently T‐cell‐mediated antiviral responses to SARS‐CoV‐2 compared with HLA‐A*02:01. The differences in HLA genotypes may potentially alter the course of the disease and its transmission.
+  </p>
+  <p>
+   We conducted in silico analyses and examined an association of HLA gene polymorphisms with prevalence and mortality of COVID‐19 by using publicly available databases. We found that the association between HLA‐A*02:01 and increased risk for COVID‐19 is probably due to the lower capacity of the genotype to present SARS‐CoV‐2 antigens. Our study suggests that identifying the HLA genotype associated with the severity of COVID‐19 or susceptibility to SARS‐CoV‐2 may support future vaccination strategies to genotypically at‐risk populations.
+   <boxed-text content-type="graphic" orientation="portrait" position="anchor">
+    <graphic id="nlm-graphic-1" ns0:href="IID3-8-684-g004.jpg" orientation="portrait" position="anchor"/>
+   </boxed-text>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="iid3358-sec-0050">
+    <label>
+     1
+    </label>
+    <title>
+     INTRODUCTION
+    </title>
+    <p>
+     The emergence of severe acute respiratory syndrome coronavirus 2 (SARS‐CoV‐2) and its spread have caused global public health and economic crisis.     ,     ,     Many countries were being forced to introduce strict limitations to reduce the risk of contagion, and the coronavirus disease 2019 (COVID‐19) was considered pandemic since March 11, 2020.     ,     As of August 20, 2020, there are over 22.2 million confirmed cases of COVID‐19 worldwide, with total deaths exceeding 781,000 (WHO Coronavirus Disease (COVID‐19) Dashboard;
+     <ext-link ext-link-type="uri" ns0:href="https://covid19.who.int">
+      https://covid19.who.int
+     </ext-link>
+     ). Given the severity of the disease, understanding host immune response and the rapid development of effective vaccines against SARS‐CoV‐2 are urgently needed.
+    </p>
+    <p>
+     The COVID‐19 pandemic originated in China and it has quickly spread all over the world.     However, there are striking differences in the morbidity and mortality of COVID‐19 among countries (WHO Coronavirus Disease (COVID‐19) Dashboard;
+     <ext-link ext-link-type="uri" ns0:href="https://covid19.who.int">
+      https://covid19.who.int
+     </ext-link>
+     ).     For instance, Italy, Spain, and France have imposed nationwide lockdown to combat the spread of SARS‐CoV‐2, but COVID‐19 morbidity and mortality are still high. Japan is one of the first countries that recorded the first case in the earliest phase of this pandemic, but the morbidity and mortality are still low despite the Japanese government just keeps applying mild measures to mitigate the spread of the virus. A number of factors have been proposed to impact the morbidity and mortality of SARS‐CoV‐2, and these include geographical, social, and biological factors such as temperature, humidity, life expectancy, average income, social norms, Bacillus Calmette‐Guérin (BCG) vaccination policy, and genetic factors.     ,     ,
+    </p>
+    <p>
+     In this study, we hypothesized that HLA genotypes may differentially induce the T‐cell‐mediated antiviral response to SARS‐CoV‐2, and could potentially impact the prevalence of COVID‐19 and mortality by SARS‐CoV‐2 among countries. In other words, if the most common HLA alleles in the population could provide a protective effect on COVID‐19, a significant reduction of the spread of SARS‐CoV‐2 and a reduced mortality rate may be induced, and then the differences in the frequency of HLA allele resistant to COVID‐19 lead to the country‐by‐country difference in COVID‐19 morbidity and mortality. If HLA genetic variation affects the course of COVID‐19, HLA typing could improve the assessment of viral severity in the population and could help identify individuals at higher risk from the disease. Individuals with high‐risk HLA types could be prioritized for vaccination after developing vaccines against SARS‐CoV‐2.     Therefore, understanding the impact of HLA gene polymorphisms on the differences in morbidity and mortality of SARS‐CoV‐2 among countries is a critical and urgent challenge in COVID‐19 pandemic.     ,
+    </p>
+    <p>
+     Human leukocyte antigen (HLA) is a critical component of the viral antigen presentation pathway and plays essential roles in conferring differential viral susceptibility and severity of diseases.     ,     ,     ,     It is considered that the diversity of HLA molecules at the population level makes it possible to maximize the probability that at least some individuals within the general population mount an immune attack against an emerging infection and can survive.     ,     Importantly, polymorphisms in the HLA have been shown to impact susceptibility to SARS‐CoV introduced to humans earlier in the 21st century.     ,     In disease caused by SARS‐CoV in 2003, increased severity among individuals with HLA‐B*46:01 has been shown.     In addition, studies have demonstrated a possible association between HLA gene polymorphisms and susceptibility to SARS‐CoV.     ,     Recently, Nguyen et al.     have reported that HLA‐B*46:01 as the HLA allele with the fewest predicted binding peptides for SARS‐CoV‐2 as well as SARS‐CoV. These results suggest that pairing HLA typing with COVID‐19 testing could improve assessment of the severity of the disease caused by SARS‐CoV‐2.     ,     However, the association between HLA gene polymorphisms and risk for COVID‐19 has not been fully elucidated.     ,     ,     ,     ,     Further research is urgently needed to harness the immune response and develop effective vaccines against SARS‐CoV‐2.
+    </p>
+    <p>
+     Here, we show a possible association between HLA‐A*02:01 and an increased risk for COVID‐19. We first focused on the global distribution of HLA gene polymorphism and examined the association of the most frequent HLA alleles in countries with prevalence and mortality of COVID‐19. Then, we employed computational in silico binding prediction of HLA class I alleles for SARS‐CoV‐2 peptides. HLA‐A*02:01 is predicted to have a relatively lower capacity to present SARS‐CoV‐2 antigens compared with other frequent HLA class I molecules (HLA‐A*11:01 or HLA‐A*24:02), suggesting that individuals with HLA‐A*11:01 or HLA‐A*24:02 genotypes may generate efficiently T‐cell‐mediated antiviral responses to SARS‐CoV‐2 compared with HLA‐A*02:01. The differences in HLA genotypes may potentially alter the course of the disease and its transmission. Our study suggests that identifying the HLA genotypes associated with the severity of COVID‐19 or susceptibility to SARS‐CoV‐2 may support future vaccination strategies to genotypically at‐risk populations.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="iid3358-sec-0060" sec-type="materials-and-methods">
+    <label>
+     2
+    </label>
+    <title>
+     MATERIALS AND METHODS
+    </title>
+    <sec id="iid3358-sec-0070">
+     <label>
+      2.1
+     </label>
+     <title>
+      HLA allele frequency analysis in 19 countries
+     </title>
+     <p>
+      Nineteen countries with high or low mortality for COVID‐19 as of April 24, 2020 were selected. Frequencies of HLA class I alleles (HLA‐A, ‐B, and ‐C) and HLA class II alleles (HLA‐DPB1, ‐DQB1, and ‐DRB1) in different 19 countries were searched by a publicly available database, Allele Frequency Net Database (
+      <ext-link ext-link-type="uri" ns0:href="http://www.allelefrequencies.net">
+       http://www.allelefrequencies.net
+      </ext-link>
+      ), using an HLA searching option (HLA classical allele freq search). The most frequent HLA genotypes were selected for each country (Tables      and      ). HLA frequency data from a race, which consists of the majority of the population in each country, were used for the analysis. HLA frequency data from minorities of the population were excluded from the analysis. There was not enough data of HLA frequency for Canada, New Zealand, and the Russian Federation; thus these three countries were searched, but not included in the analysis.
+     </p>
+     <table-wrap content-type="Table" id="iid3358-tbl-0001" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Common HLA alleles in 19 countries, confirmed cases and deaths caused by COVID‐19 as of April 24, 2020
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Country
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Australia
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Belgium
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Brazil
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          China
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          France
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Germany
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          India
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Iran
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Israel
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Italy
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Japan
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Mexico
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Singapore
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          South Korea
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Spain
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Thailand
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Turkey
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          England
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          U.S.A.
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐A*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐B*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          13:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          40:06
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          51:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          52:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          40:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          18:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          46:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐C*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          01:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          06:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          01:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          01:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐DPB1*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐DQB1*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          06:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          06:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐DRB1*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:04
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:06
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Confirmed cases
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          276
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3768
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          220
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          60
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1848
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1835
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1084
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1807
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          7874
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          97
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          83
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1988
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          211
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4596
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          41
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1280
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2099
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2576
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Deaths
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3.2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          571
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          14.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          337
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          65.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          0.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          68.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          23.4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1059
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          7.6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2.1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4.7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          478
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          0.7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          31.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          285
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          131
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="iid3358-tbl1-note-0001">
+        <p>
+         <italic>
+          Note
+         </italic>
+         : Nineteen countries with high or low mortality for COVID‐19 were selected. Frequencies of three HLA class I alleles (A, B, and C) and three HLA class II alleles (DPB1, DQB1, and DRB1) in different 19 countries were searched by a publicly available database (Allele Frequency Net Database,
+         <ext-link ext-link-type="uri" ns0:href="http://www.allelefrequencies.net">
+          http://www.allelefrequencies.net
+         </ext-link>
+         ). The most frequent HLA alleles are selected for each country. HLA frequency data from a race, which consists of the majority of each country, were used for analysis. For all countries, the HLA frequency data of minorities were excluded from the analysis. There was not enough data for Canada and New Zealand. Total confirmed cases per million population and total deaths per million population for COVID‐19 are indicated. Data on COVID‐19 cases and death per country were obtained from the World Health Organization (WHO) coronavirus disease (COVID‐2019) situation reports (
+         <ext-link ext-link-type="uri" ns0:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">
+          https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
+         </ext-link>
+         ) on April 24, 2020. Data of the total population of countries were obtained from the WHO website (
+         <ext-link ext-link-type="uri" ns0:href="https://www.who.int/countries/en/">
+          https://www.who.int/countries/en/
+         </ext-link>
+         ).
+        </p>
+       </fn>
+       <fn id="iid3358-tbl1-note-0002">
+        <p>
+         Abbreviations: Abbreviations: HLA, human leukocyte antigen; N/A, not applicable.
+        </p>
+       </fn>
+      </table-wrap-foot>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+     <table-wrap content-type="Table" id="iid3358-tbl-0002" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Common HLA alleles in 19 countries, confirmed cases and deaths caused by COVID‐19 as of August 15, 2020
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Country
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Australia
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Belgium
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Brazil
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          China
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          France
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Germany
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          India
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Iran
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Israel
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Italy
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Japan
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Mexico
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Singapore
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          South Korea
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Spain
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Thailand
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Turkey
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          England
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          U.S.A.
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐A*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          24:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐B*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          13:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          40:06
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          51:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          52:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          40:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          18:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          46:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐C*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          01:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          06:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          01:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          01:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐DPB1*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐DQB1*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          06:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          06:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          05:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA‐DRB1*
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N/A
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:04
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          08:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          04:06
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Confirmed cases
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          943
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6781
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15,530
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          64
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3073
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2720
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1908
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4220
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          10,801
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          10,479
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          419
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3965
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          9886
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          296
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          73,965
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          48
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3105
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4809
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          16,150
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Deaths
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          874
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          508
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          468
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          113
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          37
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          240
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          78
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1460
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          8.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          434
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          617
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          75
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          629
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          515
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="iid3358-tbl2-note-0001">
+        <p>
+         <italic>
+          Note
+         </italic>
+         : Nineteen countries with high or low mortality for COVID‐19 were selected. Frequencies of three HLA class I alleles (A, B, and C) and three HLA class II alleles (DPB1, DQB1, and DRB1) in different 19 countries were searched by a publicly available database (Allele Frequency Net Database,
+         <ext-link ext-link-type="uri" ns0:href="http://www.allelefrequencies.net">
+          http://www.allelefrequencies.net
+         </ext-link>
+         ). The most frequent HLA alleles are selected for each country. HLA frequency data from a race, which consists of the majority of each country, were used for analysis. For all countries, HLA frequency data of minorities were excluded from the analysis. There was not enough data for Canada and New Zealand. Total confirmed cases per million population and total deaths per million population for COVID‐19 are indicated. Data on COVID‐19 cases and death per country were obtained from the World Health Organization (WHO) coronavirus disease (COVID‐2019) situation reports (
+         <ext-link ext-link-type="uri" ns0:href="http://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">
+          https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
+         </ext-link>
+         ) on August 15, 2020. Data on the total population of countries were obtained from the WHO website (
+         <ext-link ext-link-type="uri" ns0:href="http://www.who.int/countries/en/">
+          https://www.who.int/countries/en/
+         </ext-link>
+         ).
+        </p>
+       </fn>
+       <fn id="iid3358-tbl2-note-0002">
+        <p>
+         Abbreviations: HLA, human leukocyte antigen; N/A, not applicable.
+        </p>
+       </fn>
+      </table-wrap-foot>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="iid3358-sec-0080">
+     <label>
+      2.2
+     </label>
+     <title>
+      COVID‐19 cases and deaths per country
+     </title>
+     <p>
+      Data on COVID‐19 cases and death per country were obtained from the World Health Organization (WHO) coronavirus disease (COVID‐2019) situation reports (
+      <ext-link ext-link-type="uri" ns0:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">
+       https://www.who.int/emergencies/diseases/novel-corona-virus-2019/situation-reports
+      </ext-link>
+      ) on April 24, 2020 and on August 15, 2020. Data on the total population of countries were obtained from the WHO website (
+      <ext-link ext-link-type="uri" ns0:href="https://www.who.int/countries/en/">
+       https://www.who.int/countries/en/
+      </ext-link>
+      ). Total confirmed cases per million population and total deaths per million population for COVID‐19 were calculated for each country (Tables      and      ).
+     </p>
+    </sec>
+    <sec id="iid3358-sec-0090">
+     <label>
+      2.3
+     </label>
+     <title>
+      SARS‐CoV‐2 CD8      T‐cell epitope prediction
+     </title>
+     <p>
+      We employed computational in silico binding prediction of the HLA class I alleles for SARS‐CoV‐2 peptides. We aimed to calculate the total number of SARS‐CoV‐2 peptides, which HLA class I alleles are predicted to bind. To calculate the number of bound peptides by each allele we used the HLA‐peptide binding prediction algorithms, the Immune Epitope Database and Analysis Resource (IEDB; T‐cell epitope prediction tool, Prediction Method Version 2.23,
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/main/tcell/">
+       http://tools.iedb.org/main/tcell/
+      </ext-link>
+      ). Epitope prediction was carried out using the reference SARS‐CoV‐2 isolate, Wuhan‐Hu‐1. Protein sequences from the entire SARS‐CoV‐2 proteome were obtained from the SARS‐CoV‐2 reference sequence (GenBank: MN908947.3).      The HLA class I molecules typically bind peptides 8–11 amino acids.      Thus, HLA binding affinity of all possible 8‐mer to 11‐mer across the entire SARS‐CoV‐2 proteome was assessed. The SARS‐CoV‐2 protein sequences were run against HLA alleles using the NetMHCpan EL 4.0 algorithm available at the IEDB (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/mhci/">
+       http://tools.iedb.org/mhci/
+      </ext-link>
+      ) and a size range of 8–11‐mers.      ,      Eight to eleven contiguous amino acids sliding one amino acid residue were taken through the full sequence of the entire SARS‐CoV‐2 proteome. Top 0.5%, 0.5% &lt; percentile rank ≤ 1%, and 1% &lt; percentile rank ≤ 2% epitopes ranked based on prediction score (high to low predicted binding affinity to HLA‐A*02:01, HLA‐A*11:01, or HLA‐A*24:02), were selected for each HLA class I allele analyzed      and the total numbers of predicted 8–11‐mer SARS‐CoV‐2 T‐cell epitopes per HLA class I genotype were counted.
+     </p>
+    </sec>
+    <sec id="iid3358-sec-0100">
+     <label>
+      2.4
+     </label>
+     <title>
+      Statistical analysis
+     </title>
+     <p>
+      The differences of deaths per 10      population and confirmed cases per 10      population for COVID‐19 between countries in which HLA‐A*02:01 is the most frequent in the population (HLA‐A*02:01 group) and countries in which other HLA genotypes (HLA‐A*11:01 and HLA‐A*24:02) are the most frequent in the population (non‐HLA‐A*02:01 group) were evaluated by permuted Brunner–Munzel test.      Spearmans correlation coefficients and simple linear regression model were employed to examine the relationship between deaths per 10      population and confirmed cases per 10      population for COVID‐19 according to HLA genotypes. Moreover, the difference of deaths per 10      population between HLA‐A*02:01 and non‐HLA‐A*02:01 groups was employed by analysis of covariance (ANCOVA) based on confirmed cases per 10      population for COVID‐19. Analyses were performed using R version 3.5.2 (The R Foundation for Statistical Computing) with the level of statistical significance set at
+      <italic>
+       p
+      </italic>
+      &lt; .05.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="iid3358-sec-0110" sec-type="results">
+    <label>
+     3
+    </label>
+    <title>
+     RESULTS
+    </title>
+    <sec id="iid3358-sec-0120">
+     <label>
+      3.1
+     </label>
+     <title>
+      HLA genotypes may impact on the differences in morbidity and mortality of COVID‐19 across countries
+     </title>
+     <p>
+      We hypothesized that the most common HLA genotypes in the population might affect the differences in morbidity and mortality of COVID‐19 among countries. We first focused on the global distribution of HLA gene polymorphism. To evaluate our hypothesis, we examined the association of the most frequent HLA alleles in countries with prevalence and mortality of COVID‐19 by using publicly available databases. The HLA frequency data from 19 countries with high or low mortality for COVID‐19 were analyzed. We searched the frequencies of HLA class I alleles (HLA‐A, ‐B, and ‐C) and HLA class II alleles (HLA‐DPB1, ‐DQB1, and ‐DRB1) in 19 countries by a publicly available database (Allele Frequency Net Database,
+      <ext-link ext-link-type="uri" ns0:href="http://www.allelefrequencies.net">
+       http://www.allelefrequencies.net
+      </ext-link>
+      ). Then, the most common HLA alleles were selected for each country (Tables      and      ).
+     </p>
+     <p>
+      Among the frequent HLA genotypes, we found that the most frequent HLA alleles, HLA‐A*02:01, ‐C*07:01, ‐DPB1*04:01, and ‐DQB1*03:01, are shared by more than half of the countries. Thus, we focused on these HLA genotypes and divided the 19 countries into two groups: countries in which these HLA genotypes are the most frequent in the population versus countries in which other HLA genotypes are the most frequent in the population. Then, we examined the association of the most frequent HLA genotypes with the total confirmed cases per million population and total deaths per million population for COVID‐19 (Tables      and      ).
+     </p>
+     <p>
+      Although HLA‐C, ‐DPB1, or ‐DQB1 alleles did not show significant differences between countries in total confirmed cases and deaths caused by COVID‐19, HLA‐A allele showed noticeable results (Figure      ). As of April 24, 2020, the countries in which HLA‐A*02:01 is the most frequent in the population (HLA‐A*02:01 group) had total confirmed cases with median 1842 cases per million population. In contrast, the countries in which other HLA genotypes, HLA‐A*24:02 or HLA‐A*11:01, are the most frequent in the population (non‐HLA‐A*02:01 group) had lower total confirmed cases with median 97 cases per million population. This difference between HLA‐A*02:01 and non‐HLA‐A*02:01 groups was significant (
+      <italic>
+       p
+      </italic>
+      = .01; permuted Brunner–Munzel test; Figure      , left panel). Similarly, HLA‐A*02:01 is significantly correlated with an increase of total deaths per million population caused by COVID‐19 (HLA‐A*02:01 vs. HLA‐A*24:02 or HLA‐A*11:01; median, 98 vs. 2.5;
+      <italic>
+       p
+      </italic>
+      = .003; Figure      , right panel). We also analyzed the updated data of morbidity and mortality of COVID‐19 as of August 15, 2020. We confirmed that HLA‐A*02:01 is significantly associated with an increase of total COVID‐19 confirmed cases per million population (HLA‐A*02:01 vs. HLA‐A*24:02 or HLA‐A*11:01; median, 5795 vs. 419;
+      <italic>
+       p
+      </italic>
+      = .013; Figure      , left panel) and total deaths per million population caused by COVID‐19 (HLA‐A*02:01 vs. HLA‐A*24:02 or HLA‐A*11:01; median, 488 vs. 6.1;
+      <italic>
+       p
+      </italic>
+      &lt; .001; Figure      , right panel).
+     </p>
+     <p>
+      To assess the association between deaths and confirmed cases for COVID‐19, according to HLA genotypes, we used Spearmans correlation analysis. In HLA‐A*02:01 group, deaths for COVID‐19 showed a trend toward increase according to the rise in confirmed cases as of  April 24 and August 15, 2020 (Figure      ). The association between death per 10      population, confirmed cases per 10      population, and HLA class I genotypes (HLA‐A*02:01, HLA‐A*11:01, and HLA‐A*24:02) are shown in Figure      . The results of the univariate regression analysis also showed similar results (Table S1).
+     </p>
+     <p>
+      To exclude the possibility that the number of deaths caused by COVID‐19 was simply increased according to an increase of confirmed cases of COVID‐19 regardless of HLA genotypes, we next performed ANCOVA and adjusted the number of confirmed cases of COVID‐19 between HLA‐A*02:01 and non‐HLA‐A*02:01 groups. Accordingly, the confirmed cases of COVID‐19 as of August 15, 2020 was associated with an increase of deaths in HLA‐A*02:01 (
+      <italic>
+       p
+      </italic>
+      = .005; 95% confidence interval [CI]: 0.25–1.01; Table      ). Moreover, our analysis showed an increase of deaths caused by COVID‐19 in HLA‐A*02:01 group compared with non‐HLA‐A*02:01 group (
+      <italic>
+       p
+      </italic>
+      = .020; 95% CI: 0.46–3.37; Table      ). These results suggest a possible association between HLA‐A*02:01 and an increased risk for COVID‐19. Data as of April 24, 2020 are shown in Table S2. Geographical frequent HLA allele distribution for HLA‐A*02:01, HLA‐A*24:02, and HLA‐A*11:01 among the 19 countries is shown in Supplementary Figure      .
+     </p>
+     <table-wrap content-type="Table" id="iid3358-tbl-0003" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        Results of ANCOVA as of August 15, 2020
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th colspan="1" rowspan="1" valign="bottom">
+          Endogenous variable
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Exogenous variable
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Estimate
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          <italic>
+           SE
+          </italic>
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          <italic>
+           p
+          </italic>
+          value
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          95% CI
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          Log (deaths)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Intercept
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          −1.80
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1.33
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          .19
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          −4.41, 0.81
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top"/>
+         <td colspan="1" rowspan="1" valign="top">
+          Log (confirmed cases)
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.63
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1.94
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          .005
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.25, 1.01
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top"/>
+         <td colspan="1" rowspan="1" valign="top">
+          non‐HLA‐A*02:01 (Ref.)
+         </td>
+         <td colspan="1" rowspan="1" valign="top"/>
+         <td colspan="1" rowspan="1" valign="top"/>
+         <td colspan="1" rowspan="1" valign="top"/>
+         <td colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top"/>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*02:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          1.91
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          0.74
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          .020
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.46, 3.37
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="iid3358-tbl3-note-0001">
+        <p>
+         <italic>
+          Note
+         </italic>
+         : Total confirmed cases per million population (confirmed cases) and total deaths per million population (deaths) for COVID‐19 are calculated.
+        </p>
+       </fn>
+       <fn id="iid3358-tbl3-note-0002">
+        <p>
+         Abbreviations: ANCOVA, analysis of covariance; CI, confidence interval; HLA, human leukocyte antigen; Ref., reference.
+        </p>
+       </fn>
+      </table-wrap-foot>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="iid3358-sec-0130">
+     <label>
+      3.2
+     </label>
+     <title>
+      HLA‐A*02:01 may have a lower capacity to present SARS‐CoV‐2 antigens compared with HLA‐A*11:01 and HLA‐A*24:02
+     </title>
+     <p>
+      Next, we hypothesized that these HLA class I genotypes (HLA‐A*02:01, HLA‐A*11:01, and HLA‐A*24:02) may differentially generate T‐cell‐mediated antiviral response and could potentially alter the course of the disease and its transmission. To explore the potential for an HLA allele to produce an antiviral response, we assessed the HLA binding affinity of possible 8–11‐mer from the entire SARS‐CoV‐2 proteome (MN908947.3). We performed an in silico analysis of HLA class I binding predictions using the Net MHC pan 4.0 EL algorithm available at the IEDB.      For each HLA class I allele analyzed, we selected the top 0.5%, 1%, and 2% scoring peptides in the SARS‐CoV‐2 sequence, as ranked based on prediction.      ,      The total numbers of possible SARS‐CoV‐2 antigens, which have high to low binding affinity to HLA‐A*02:01, HLA‐A*11:01, or HLA‐A*24:02, were counted. Interestingly, both HLA‐A*11:01 and HLA‐A*24:02 had a relatively larger capacity to present SARS‐CoV‐2 antigens compared with HLA‐A*02:01 (Figure      ). Although HLA‐A*11:01 had a relatively larger capacity to present SARS‐CoV‐2 antigens compared with HLA‐A*02:01 only in peptides predicted high binding affinity, HLA‐A*24:02 was predicted to have the largest capacity to present SARS‐CoV‐2‐derived antigens, which have high to low binding affinity (Figures      and S2). These results suggest that individuals with HLA‐A*11:01 and HLA‐A*24:02 genotypes may generate efficiently T‐cell‐mediated antiviral responses to SARS‐CoV‐2 compared with HLA‐A*02:01, and could potentially alter the course of the disease and its transmission.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="iid3358-sec-0140" sec-type="discussion">
+    <label>
+     4
+    </label>
+    <title>
+     DISCUSSION
+    </title>
+    <p>
+     We propose a hypothesis that HLA genotypes may impact the differences in morbidity and mortality of COVID‐19 across countries based on our preliminary data from in silico analyses, which indicated a possible association between HLA‐A*02:01 and an increased risk for COVID‐19 due to lower capacity to present SARS‐CoV‐2 antigens.
+    </p>
+    <p>
+     HLA class I is a critical component of the viral antigen presentation pathway and confer differential viral susceptibility and severity of the disease.     ,     A virus infects cells directly through the interactions between virus particles and their receptors at the cell surface. After a virus infects a cell, the virus uses the protein synthesis machinery of the host cell to synthesize its own proteins.     ,     Some of the synthesized viral proteins are degraded into 8–11‐mer peptide fragments, which bind to HLA class I molecules if they have sufficient binding affinity. Then, the HLA class I peptide complex is presented on the cell surface of an infected cell. Viral specific CD8     T cells can recognize the HLA class I peptide complex and induce apoptosis of the infected cell. Therefore, CD8     T cells control viral infection through its direct cytotoxic activity and pro‐inflammatory cytokine productions. Recent studies have shown that SARS‐CoV‐2‐specific CD8     T cells can be detected in peripheral blood mononuclear cells of COVID‐19 patients,     ,     ,     ,     suggesting that some SARS‐CoV‐2‐derived peptides can be naturally processed in human cells, presented on HLA class I molecules and induce SARS‐CoV‐2‐specific cytotoxic CD8     T cells in vivo. Accumulating evidence highlights the importance of investigating associations between HLA variation and the development and/or severity of COVID‐19.     ,     ,
+    </p>
+    <p>
+     In a recent study of in silico binding affinity predictions across 145 different HLA‐A, ‐B, and ‐C alleles, Nguyen et al.     have identified that HLA‐B*46:01 as the HLA allele with the fewest predicted binding peptides for SARS‐CoV‐2. To assess the potential for cross‐protective immunity conferred by prior exposure to common human coronaviruses, the study focused on 48 highly conserved amino acid sequence spans among all known human coronaviruses. For these potentially cross‐protective peptides, binding affinity predictions across 145 different HLA‐class I alleles were performed. Then, HLA‐A*02:02, HLA‐B*15:03, and HLA‐C*12:03 alleles were found as the top presenters of conserved peptides. Among the three HLA‐class I alleles, HLA‐B*15:03 has been shown to have the greatest capacity to present highly conserved SARS‐CoV‐2 peptides that are shared among common human coronaviruses.
+    </p>
+    <p>
+     The severe COVID‐19 genome‐wide association study (GWAS) group have conducted a genome‐wide association study involving 835 patients with COVID‐19 and 1255 control participants from Italy and 775 patients with COVID‐19 and 950 control participants from Spain.     In this study, extensive analysis of the classical HLA loci showed no significant allele associations with either COVID‐19 or disease severity in Spain and Italy. In addition, this study reported that analyses of heterozygote and divergent allele advantage or the predicted number of HLA‐bound SARS‐CoV‐2 peptides did not show significant associations with COVID‐19.     Wang et al. have studied HLA allele frequencies in Chinese Han individuals with COVID‐19. An association between HLA allele distribution in COVID‐19 patients and healthy individuals was assessed.     In this study, 82 patients with COVID‐19 were genotyped for HLA‐A, ‐B, ‐C, ‐DRB1, ‐DRB3/4/5, ‐DQA1, ‐DQB1, ‐DPA1, and ‐DPB1 loci using next‐generation sequencing. This study reported that frequencies of the HLA‐C*07:29 and HLA‐B*15:27 alleles were higher in COVID‐19 patients than those in the control population. Two different studies from Wang et al.     and the severe COVID‐19 GWAS group were conducted in different countries, which might have led to different results.
+    </p>
+    <p>
+     In our study, we focused on the global distribution of HLA gene polymorphism. We hypothesized that the most common HLA genotypes in the population might affect the differences in morbidity and mortality of SARS‐CoV‐2 among countries. Therefore, we first searched the frequencies of HLA class I and HLA class II alleles in different 19 countries and selected the most common HLA alleles for each country. Among the frequent HLA genotypes, we found that HLA‐A*02:01, ‐C*07:01, ‐DPB1*04:01, and ‐DQB1*03:01 are shared by more than half of the countries. Thus, we focused on these HLA alleles and divided the 19 countries into two groups and then compared morbidity/mortality of SARS‐CoV‐2 between these two groups. Finally, we found a possible association between HLA‐A*02:01 and an increased risk for COVID‐19. Our analyses showed different results from recent studies.     ,     ,     We took different approaches from previous studies to assess the association between HLA genotypes and COVID‐19, which might be one of the reasons why different results were obtained in the current study. To resolve these discrepancies, further studies at a global level are urgently required.
+    </p>
+    <p>
+     More than 15,000 different classical HLA class I and II alleles have been identified.     The diversity of HLA molecules and the complex HLA haplotypes at the population level may buffer against the lack of presentation from a single poorly presenting allele and can mount an immune attack against COVID‐19. In the current study, we did not assess the impact of frequent HLA haplotypes on the prevalence and mortality of COVID‐19, which needs to be assessed in future studies.
+    </p>
+    <p>
+     This study has limitations in view of the retrospective nature. The results of the current study may be affected by unknown confounding factors. There are many factors that could potentially impact on morbidity and mortality for COVID‐19: geographical, social, and biological factors such as temperature, humidity, life expectancy, age, comorbidity, average income, social norms, social distancing measures, face mask wearing rate, BCG vaccination policy, genetic factors other than HLA, and the time since the onset of COVID‐19 epidemic.     ,     ,     ,     ,     ,     These all factors may serve as a potentially confounding factor. These elements might affect the observed relationships between COVID‐19 prevalence/mortality and common HLA genotypes by affecting both the susceptibility to SARS‐CoV‐2 and population characteristics in an indirect manner. However, we did not address these possible confounding factors. We explored only a limited set of data from selected countries. In addition, the results shown in the current study entirely originated from in silico analyses. In vitro analysis of SARS‐CoV‐2‐specific T‐cell induction and cytotoxic efficiency of the induced CD8     T cells need to be investigated by using SARS‐CoV‐2 protein and peripheral blood mononuclear cells from healthy donors with HLA‐A*02:01, HLA‐A*11:01, or HLA‐A*24:02. Genotypic heterogeneity or in vivo evolution of SARS‐CoV‐2 could modify the repertoire of viral epitopes presented by HLA,     ,     which we did not assess in the current study. Hoffmann et al.     have shown that SARS‐CoV‐2 uses the SARS‐CoV receptor angiotensin‐converting enzyme 2 (ACE2) for entry and the serine protease transmembrane serine protease 2 (TMPRSS2) for S protein priming, indicating SARS‐CoV‐2 infection depends on the host cell factors ACE2 and TMPRSS2. These studies suggest that host genetic variation could modulate the host‐pathogen interface in an HLA‐independent manner. However, we also did not assess these possibilities in this study. Therefore, our findings should be interpreted with caution and our hypothesis needs to be further investigated. Although we are unable to obtain HLA genotype information for patients with COVID‐19 at this time, our hypothesis proposed here could be clinically validated by integrating HLA typing into prospective COVID‐19 clinical studies. Prospective studies are urgently needed at a global level.
+    </p>
+    <p>
+     Harnessing the HLA function clinically is a challenging mission.     ,     ,     ,     The progress in characterizing HLA diversity and HLA associations with human disease improved our understanding of HLA function for clinical benefit.     It is considered that the capacity to stratify patients based on their HLA genotypes and to administer antigen‐specific, patient‐tailored disease prevention, presents an especially attractive target with the current aim of achieving precision or personalized medicine.     ,     Identifying the HLA genotype associated with the severity of COVID‐19 or susceptibility to SARS‐CoV‐2 may support future vaccination strategies to genotypically at‐risk populations.     ,     Individuals with high‐risk HLA types could be prioritized for vaccines against SARS‐CoV‐2, which may lead to effectively reduce the COVID‐19 morbidity and mortality.     ,     Our study may provide new insights into the COVID‐19 pandemic and improve our understanding of host immune response against SARS‐CoV‐2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="iid3358-sec-0160" sec-type="COI-statement">
+    <title>
+     CONFLICT OF INTERESTS
+    </title>
+    <p>
+     The authors declare that there are no conflict of interests.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="iid3358-sec-0170">
+    <title>
+     ETHICS STATEMENT
+    </title>
+    <p>
+     The present study was approved by the Kumamoto University Institutional Review Board (IRB number, 2020; approval date, April 17, 2020). This study was prepared in accordance with the Helsinki Declaration.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="iid3358-sec-0180">
+    <title>
+     AUTHOR CONTRIBUTIONS
+    </title>
+    <p>
+     <italic>
+      Conception and design
+     </italic>
+     : Yusuke Tomita and Tokunori Ikeda.
+     <italic>
+      Acquisition of data
+     </italic>
+     : Yusuke Tomita, Tokunori Ikeda, and Ryo Sato.
+     <italic>
+      Analysis and interpretation of data
+     </italic>
+     : Yusuke Tomita, Tokunori Ikeda, and Ryo Sato.
+     <italic>
+      Study supervision
+     </italic>
+     : Yusuke Tomita, Tokunori Ikeda, and Takuro Sakagami.
+     <italic>
+      Writing, review, and/or revision of the manuscript
+     </italic>
+     : All authors.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supporting information
+    </title>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

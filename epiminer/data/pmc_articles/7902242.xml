@@ -1,0 +1,3908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Bioinformatics Analysis of SARS-CoV-2 to Approach an Effective Vaccine Candidate Against COVID-19
+ </title>
+ <abstract>
+  <p id="Par1">
+   The emerging Coronavirus Disease 2019 (COVID-19) pandemic has posed a serious threat to the public health worldwide, demanding urgent vaccine provide. According to the virus feature as an RNA virus, a high rate of mutations imposes some vaccine design difficulties. Bioinformatics tools have been widely used to make advantage of conserved regions as well as immunogenicity. In this study, we aimed at immunoinformatic evaluation of SARS-CoV-2 proteins conservancy and immunogenicity to design a preventive vaccine candidate. Spike, Membrane and Nucleocapsid amino acid sequences were obtained, and four possible fusion proteins were assessed and compared in terms of structural features and immunogenicity, and population coverage. MHC-I and MHC-II T-cell epitopes, the linear and conformational B-cell epitopes were evaluated. Among the predicted models, the truncated form of Spike in fusion with M and N protein applying AAY linker has high rate of MHC-I and MCH-II epitopes with high antigenicity and acceptable population coverage of 82.95% in Iran and 92.51% in Europe. The in silico study provided truncated Spike-M-N SARS-CoV-2 as a potential preventive vaccine candidate for further in vivo evaluation.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par9">
+     The COVID-19 pandemic caused by the SARS-CoV-2 virus has unexpectedly affected global health since emerging. As of 1 December 2020, more 68 million cases have been confirmed in 216 countries with more than 1.5 million deaths which clearly shows that a protective vaccine is urgently needed although several knowledge are still on this virus [     ].
+    </p>
+    <p id="Par10">
+     SARS-CoV-2 genome with ~ 30 kb size encodes multiple spike (S) protein, the envelope (E) protein, the membrane (M) protein, and the nucleocapsid (N) proteins and some non-structural ones. The spike (S) protein has pivotal roles in receptor binding, angiotensin-converting enzyme 2 (ACE2), and also membrane fusion. Therefore, it is widely investigated as an attractive antigen in vaccine designs aiming at virus binding/fusion blocking antibodies to neutralize virus infection. Since SARS-CoV is an RNA virus that imposes an error-prone genome and results in host immune response escape, targeting the full-length S protein in vaccine studies have not brought protective immunity against SARS outbreaks [     –     ]. Although the spike protein is a promising protective immunogenic, antigen design optimization is critical to achieving optimal immune response. The S1 subunit includes the minimal receptor-binding domain (RBD, 318–510 aa), a conserved target for neutralizing antibody induction [     –     ]. Therefore, this region could be more practical in comparison with full-length S protein.
+    </p>
+    <p id="Par11">
+     The membrane glycoprotein)M) provides coronavirus assembly, is the most abundant envelope protein that facilitates viral components sortation and incorporation into virions coronavirus assembly [     –     ]. M protein binding helps the virus to stabilize nucleocapsids and accelerates completion of viral assembly by N protein-RNA complex stabilization [     ,     ]. The nucleocapsid protein (N) as a multifunctional RNA-binding protein is essential for viral RNA replication and transcription. It also has many vital roles in the viral RNA genome packaging, regulation of viral RNA synthesis in replication/transcription, and infected cell metabolism modulation. Some studies demonstrated that N protein regulates host–pathogen interactions, including actin reorganization, cell cycle progress, and apoptosis. This protein is also considered highly immunogenic based on abundantly expression during infection [     –     ].
+    </p>
+    <p id="Par12">
+     According to the critical demand on developing safe, effective approaches against SARS-CoV-2 have stepped on the way with some clinical evaluation worldwide [     –     ]. There is no doubt that any approaches with generated vaccines could be highly valuable in possible outbreaks and probable seasonal re-emerging which is mainly depended on long-term protection evolution. MERS-CoV and SARS-CoV-1 vaccines progressions over the last years are crucial keys given their genetic similarity which provides vital awareness for SARS-CoV-2 vaccine development [     –     ].
+    </p>
+    <p id="Par13">
+     Therefore, multiple platforms have been under development since the emerging, including DNA- and RNA-based platforms and recombinant-subunit vaccines. Nevertheless, SARS-CoV-2 vaccine development poses some challenges even with novel platforms. For instance, preclinical studies on SARS and MERS vaccine candidates have brought concerns about exacerbating lung disease as an outcome of antibody-dependent enhancement or direct impact. Hence, testing in a suitable animal model and rigorous safety monitoring in clinical trials will be critical [     ,     ].
+    </p>
+    <p id="Par14">
+     Traditional approaches in vaccination based on laboratory experiments in the outbreak situation could not meet the urgent needs, and many therapeutic agents are being investigated [     –     ]. Bioinformatics study is a strong tool specified in sortation, organization, and process large amounts of available data generated from other experiments to provide a large-scale immunological platform within a limited time. Since the virus genome and its protein sequences information are available, the presented epitopes and the virus characteristics could be predicted by in silico analysis, which significantly accelerates the progress of vaccine development [     –     ].
+    </p>
+    <p id="Par15">
+     In this study, we aimed at B-cell and T-cell epitope prediction of SARS-CoV-2s Spike SARS-CoV-2 Spike receptor-binding domain (RBD), M and N protein as fusion proteins and comparison in silico immunogenicity by applying bioinformatics methods to provide a subunit vaccine candidate against COVID-19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Materials and Methods
+    </title>
+    <sec id="Sec3">
+     <title>
+      Sequence Retrieval
+     </title>
+     <p id="Par16">
+      Viral amino acid sequences of SARS-CoV-2 Spike (S), Membrane (M) and nucleocapsid (N) proteins (accession numbers S: YP_009724390.1, QIX12195.1, QJD47706.1, QJD47860.1, QJD25757.1, QIU78767.1, QIX12148.2, QIU80900.1, BCB97891.1, M: YP_009724393.1, QJD47709.1 QJD47863.1 QJD25760.1 QIU78770.1 QIX12151.1 QIX12198.1 QIU80903.1, BCB97894.1 and N: YP_009724397.2, QIU78775.1, QIX12156.1, QIX12203.1, MT186677.1, QIU80910.1, MT186677.1, BCB97898.1) were obtained from the GenBank [      ]. The whole process is simply shown in Fig.      .
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      T-Cell Epitope and Antigenicity Prediction
+     </title>
+     <p id="Par17">
+      The obtained sequences were submitted to MHCI- and MHCII-binding prediction tool
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/mhc/n">
+       http://tools.iedb.org/mhc/n
+      </ext-link>
+      in IEDB using different methods including Artificial Neural Network (ANN), Stabilized Matrix Method (SMM) or Scoring Matrices derived from Combinatorial Peptide Libraries (Comblib_Sidney2008) method. MHC-NP net CTLpan1.1server [      –      ] and RankPEP server were also applied. The outcomes from all applied tools were in a similar range. Therefore, here, the IEDB outputs are reported.
+     </p>
+     <p id="Par18">
+      T-cell epitopes lengths were defined as 9-mer for MHC class I and 15-mer for MHC class II for BALB/c and human separately. BALB/c MHC class I alleles included H2-Dd, H2-Kd and H2-Ld and MHC class II alleles were selected H2-IAd and H2-IEd. According to diversity of antigens and the recognition extent by the variable HLA molecules in a population and in considering the most popular HLA in the Persian population based on the available report [      –      ], HLA-A*01, 02, 03, 11, 24, 26, 32, HLA-B*35, 51, 50, 27, 57 for MHC class I and HLA-DRB1*15, 11, 13, 03, 04, 07 for MHC class II were selected. The peptides which were predicted to bind to MHC class I and II molecules with percentile rank ≤ 1 were considered epitopic sequences.
+     </p>
+     <p id="Par19">
+      The VaxiJen v2.0 online antigen prediction tool was applied to assess the antigenicity scores of predicted epitopes [      ,      ], which provides antigen sorting according to the protein physicochemical qualities without the sequence alignment usage. Epitopes with antigenic score &gt; 0.5 were considered antigenic.
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      Toxicity Analysis
+     </title>
+     <p id="Par20">
+      We investigated the selected model of 4 for toxicity using ToxinPred [      ]. This tool provides the confirmation of non-toxicity of epitopes for the host according to all physic-chemical parameters.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Population Coverage and Epitope Conservancy
+     </title>
+     <p id="Par21">
+      MHC I and MHC II potential binders from the selected fusion form of model 4 were computed for population coverage analysis against the whole world population, especially the Persian population, with the selected human MHC I and MHC II interacting molecules using the IEDB population coverage calculation tool. Population coverage calculation is based on total HLA hits score which is achieved from the IEDB. These data are derived from a relative of an allele’s relative frequency at a particular locus in a population (Sequence identity threshold ≥ 100). In addition, we assessed the conservancy level of each potential epitope by searching identities in 10 amino acid sequences of S protein, 12 amino acid sequences of M protein and 12 amino acid sequences of N protein from different geographical area retrieved from the database.
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      B-Cell Epitope Prediction
+     </title>
+     <p id="Par22">
+      BepiPred linear epitope prediction server [      ] from the Immune Epitope Database was applied to predict linear B cell epitopes with threshold 0.35 and epitopes length is varied from 6 to higher residues.
+     </p>
+     <p id="Par23">
+      For Recognition of other physicochemical properties of amino acids such as the antigenicity (Kolaskar and Tongaonkar) [      ], surface accessibility [      ], flexibility (Karplus and Schulz) [      ], hydrophilicity [      ] and beta-turns (Chou and Fasman) [      ] methods were also assessed by the available tools at the platform of Immune Epitope Database (IEDB) Analysis Resource (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/bcell">
+       http://tools.iedb.org/bcell
+      </ext-link>
+      ). The protein sequence scanning window length for all methods was adjusted to seven residues. We applied ElliPro [      ] at IEDB online tool for discontinuous B-cell epitope prediction with minimum score value set at 0.50. This method predicts epitopes by considering both the sequence- and structure-based information.
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Structural Analysis
+     </title>
+     <p id="Par24">
+      Physicochemical properties of fragments including weight, aliphatic index and Grand average of hydropathicity (GRAVY), theoretical pI and atomic composition were analyzed using Expasy’s ProtParam server [      ]. Self-optimized prediction method with alignment (SOPMA) and Jpred tools were applied to generate and evaluate the secondary structure and assessment of a-helix, b sheets, random coils of the proteins [      ,      ]
+      <italic>
+       .
+      </italic>
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Homology Modeling and Validation
+     </title>
+     <p id="Par25">
+      The 3D model were analyzed using the Threading ASSEmbly Refinement (I-TASSER) online server program [      ] and IntFOLD Integrated Protein Structure and Function Prediction Server [      ] that provides 3D models along with confidence score (C-Score) and model quality score. The further pattern evaluation was done by three indicators: Stereochemical qualities, C-score and DFIRE2 energy profile [      ]. The Stereo chemical analysis of the 3D model was assessed by PROCHECK, ERRAT, VERIFY 3D and verified by structural Analysis and Verification server [      –      ].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec10">
+    <title>
+     Results
+    </title>
+    <p id="Par26">
+     The amino acid sequences of chain B, SARS-CoV-2 Spike receptor-binding domain (RBD), Spike, Membrane and Nucleocapsid proteins were obtained and four fusion forms as shown in Fig.     were predicted to be compared in term of immunogenicity. A proteasomal linker (AAY) was used to fuse the applied proteins.
+    </p>
+    <sec id="Sec11">
+     <title>
+      MHC Class I and II Binding Prediction in BALB/c
+     </title>
+     <p id="Par27">
+      We applied 9-mer and 15-mer lengths coverage of T-cell epitopes to design a vaccine model. Spike, M and N proteins were subjected to IEDB MHC I and MHCII binding prediction tool. The IEDB recommended, RANKPEP, net CTLpan1.1, MHC-NP, and netMHCpan3.0 server were used to predict the epitopes from selected proteins. High-affinity peptides with antigenic features are listed in Tables      and      (percentile rank ≤ 1).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         BALB/c MHC class I epitopes in predicted models
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Antigenicity score
+          </th>
+          <th align="left">
+           Percentile rank
+          </th>
+          <th align="left">
+           Allele
+          </th>
+          <th align="left">
+           Length
+          </th>
+          <th align="left">
+           End
+          </th>
+          <th align="left">
+           Start
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="7">
+           Model 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.426
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           69
+          </td>
+          <td align="char" char=".">
+           61
+          </td>
+          <td align="left">
+           CYGVSPTKL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.596
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           195
+          </td>
+          <td align="char" char=".">
+           187
+          </td>
+          <td align="left">
+           YQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.578
+          </td>
+          <td align="char" char=".">
+           0.64
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           178
+          </td>
+          <td align="char" char=".">
+           170
+          </td>
+          <td align="left">
+           CYFPLQSYG
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5003
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           40
+          </td>
+          <td align="char" char=".">
+           32
+          </td>
+          <td align="left">
+           VYAWNRKRI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5107
+          </td>
+          <td align="char" char=".">
+           0.8
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           179
+          </td>
+          <td align="char" char=".">
+           171
+          </td>
+          <td align="left">
+           YFPLQSYGF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5453
+          </td>
+          <td align="char" char=".">
+           0.92
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           174
+          </td>
+          <td align="char" char=".">
+           166
+          </td>
+          <td align="left">
+           EGFNCYFPL
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="7">
+           Model 2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4263
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           69
+          </td>
+          <td align="char" char=".">
+           61
+          </td>
+          <td align="left">
+           CYGVSPTKL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5964
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           195
+          </td>
+          <td align="char" char=".">
+           187
+          </td>
+          <td align="left">
+           YQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4821
+          </td>
+          <td align="char" char=".">
+           0.4
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           314
+          </td>
+          <td align="char" char=".">
+           306
+          </td>
+          <td align="left">
+           SYFIASFRL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.578
+          </td>
+          <td align="char" char=".">
+           0.64
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           178
+          </td>
+          <td align="char" char=".">
+           170
+          </td>
+          <td align="left">
+           CYFPLQSYG
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.734
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           550
+          </td>
+          <td align="char" char=".">
+           542
+          </td>
+          <td align="left">
+           SPRWYFYYL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5003
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           40
+          </td>
+          <td align="char" char=".">
+           32
+          </td>
+          <td align="left">
+           VYAWNRKRI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8519
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           625
+          </td>
+          <td align="char" char=".">
+           617
+          </td>
+          <td align="left">
+           SQASSRSSS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.611
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           746
+          </td>
+          <td align="char" char=".">
+           738
+          </td>
+          <td align="left">
+           WPQIAQFAP
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5107
+          </td>
+          <td align="char" char=".">
+           0.8
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           179
+          </td>
+          <td align="char" char=".">
+           171
+          </td>
+          <td align="left">
+           YFPLQSYGF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5453
+          </td>
+          <td align="char" char=".">
+           0.92
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           174
+          </td>
+          <td align="char" char=".">
+           166
+          </td>
+          <td align="left">
+           EGFNCYFPL
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="7">
+           Model 3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4177
+          </td>
+          <td align="char" char=".">
+           0.2
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           898
+          </td>
+          <td align="char" char=".">
+           890
+          </td>
+          <td align="left">
+           QYIKWPWYI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4263
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           69
+          </td>
+          <td align="char" char=".">
+           61
+          </td>
+          <td align="left">
+           CYGVSPTKL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.596
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           195
+          </td>
+          <td align="char" char=".">
+           187
+          </td>
+          <td align="left">
+           YQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8274
+          </td>
+          <td align="char" char=".">
+           0.62
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           396
+          </td>
+          <td align="char" char=".">
+           388
+          </td>
+          <td align="left">
+           AYSNNSIAI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.578
+          </td>
+          <td align="char" char=".">
+           0.64
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           178
+          </td>
+          <td align="char" char=".">
+           170
+          </td>
+          <td align="left">
+           CYFPLQSYG
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5003
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           40
+          </td>
+          <td align="char" char=".">
+           32
+          </td>
+          <td align="left">
+           VYAWNRKRI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.853
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           408
+          </td>
+          <td align="char" char=".">
+           400
+          </td>
+          <td align="left">
+           FTISVTTEI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.29
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           445
+          </td>
+          <td align="char" char=".">
+           437
+          </td>
+          <td align="left">
+           QYGSFCTQL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5107
+          </td>
+          <td align="char" char=".">
+           0.8
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           179
+          </td>
+          <td align="char" char=".">
+           171
+          </td>
+          <td align="left">
+           YFPLQSYGF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5453
+          </td>
+          <td align="char" char=".">
+           0.92
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           174
+          </td>
+          <td align="char" char=".">
+           166
+          </td>
+          <td align="left">
+           EGFNCYFPL
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="7">
+           Model 4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4177
+          </td>
+          <td align="char" char=".">
+           0.2
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           898
+          </td>
+          <td align="char" char=".">
+           890
+          </td>
+          <td align="left">
+           QYIKWPWYI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4263
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           69
+          </td>
+          <td align="char" char=".">
+           61
+          </td>
+          <td align="left">
+           CYGVSPTKL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5964
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           195
+          </td>
+          <td align="char" char=".">
+           187
+          </td>
+          <td align="left">
+           YQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4821
+          </td>
+          <td align="char" char=".">
+           0.4
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           363
+          </td>
+          <td align="char" char=".">
+           355
+          </td>
+          <td align="left">
+           SYQTQTNSP
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8274
+          </td>
+          <td align="char" char=".">
+           0.62
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           396
+          </td>
+          <td align="char" char=".">
+           388
+          </td>
+          <td align="left">
+           AYSNNSIAI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.578
+          </td>
+          <td align="char" char=".">
+           0.64
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           178
+          </td>
+          <td align="char" char=".">
+           170
+          </td>
+          <td align="left">
+           CYFPLQSYG
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.734
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           1296
+          </td>
+          <td align="char" char=".">
+           1288
+          </td>
+          <td align="left">
+           SPRWYFYYL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5003
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           40
+          </td>
+          <td align="char" char=".">
+           32
+          </td>
+          <td align="left">
+           VYAWNRKRI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8535
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           408
+          </td>
+          <td align="char" char=".">
+           400
+          </td>
+          <td align="left">
+           FTISVTTEI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2906
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           445
+          </td>
+          <td align="char" char=".">
+           437
+          </td>
+          <td align="left">
+           QYGSFCTQL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8519
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           H-2-Kd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           1371
+          </td>
+          <td align="char" char=".">
+           1363
+          </td>
+          <td align="left">
+           SQASSRSSS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.611
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           1492
+          </td>
+          <td align="char" char=".">
+           1484
+          </td>
+          <td align="left">
+           WPQIAQFAP
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5107
+          </td>
+          <td align="char" char=".">
+           0.8
+          </td>
+          <td align="left">
+           H-2-Dd
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           179
+          </td>
+          <td align="char" char=".">
+           171
+          </td>
+          <td align="left">
+           YFPLQSYGF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5453
+          </td>
+          <td align="char" char=".">
+           0.92
+          </td>
+          <td align="left">
+           H-2-Ld
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           174
+          </td>
+          <td align="char" char=".">
+           166
+          </td>
+          <td align="left">
+           EGFNCYFPL
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         BALB/c MHC class II epitopes in predicted models
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Antigenicity score
+          </th>
+          <th align="left">
+           Percentile rank
+          </th>
+          <th align="left">
+           Allele
+          </th>
+          <th align="left">
+           Length
+          </th>
+          <th align="left">
+           End
+          </th>
+          <th align="left">
+           Start
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="7">
+           Model 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.3676
+          </td>
+          <td align="char" char=".">
+           0.07
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           29
+          </td>
+          <td align="char" char=".">
+           43
+          </td>
+          <td align="left">
+           FASVYAWNRKRISNC
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4243
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           28
+          </td>
+          <td align="char" char=".">
+           42
+          </td>
+          <td align="left">
+           RFASVYAWNRKRISN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.3086
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           30
+          </td>
+          <td align="char" char=".">
+           44
+          </td>
+          <td align="left">
+           ASVYAWNRKRISNCV
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4963
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="char" char=".">
+           41
+          </td>
+          <td align="left">
+           TRFASVYAWNRKRIS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.1089
+          </td>
+          <td align="char" char=".">
+           0.17
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           130
+          </td>
+          <td align="char" char=".">
+           144
+          </td>
+          <td align="left">
+           NYNYLYRLFRKSNLK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.2254
+          </td>
+          <td align="char" char=".">
+           0.17
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           131
+          </td>
+          <td align="char" char=".">
+           145
+          </td>
+          <td align="left">
+           YNYLYRLFRKSNLKP
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.3301
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           31
+          </td>
+          <td align="char" char=".">
+           45
+          </td>
+          <td align="left">
+           SVYAWNRKRISNCVA
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.1801
+          </td>
+          <td align="char" char=".">
+           0.36
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           129
+          </td>
+          <td align="char" char=".">
+           143
+          </td>
+          <td align="left">
+           GNYNYLYRLFRKSNL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.0415
+          </td>
+          <td align="char" char=".">
+           0.38
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           132
+          </td>
+          <td align="char" char=".">
+           146
+          </td>
+          <td align="left">
+           NYLYRLFRKSNLKPF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.0814
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           133
+          </td>
+          <td align="char" char=".">
+           147
+          </td>
+          <td align="left">
+           YLYRLFRKSNLKPFE
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.0207
+          </td>
+          <td align="char" char=".">
+           0.74
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           128
+          </td>
+          <td align="char" char=".">
+           142
+          </td>
+          <td align="left">
+           GGNYNYLYRLFRKSN
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="7">
+           Model 2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4243
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           42
+          </td>
+          <td align="char" char=".">
+           28
+          </td>
+          <td align="left">
+           RFASVYAWNRKRISN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4614
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-Ied
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           534
+          </td>
+          <td align="char" char=".">
+           520
+          </td>
+          <td align="left">
+           QIGYYRRATRRIRGG
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4963
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           41
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="left">
+           TRFASVYAWNRKRIS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4072
+          </td>
+          <td align="char" char=".">
+           0.27
+          </td>
+          <td align="left">
+           H2-Ied
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           322
+          </td>
+          <td align="char" char=".">
+           308
+          </td>
+          <td align="left">
+           FIASFRLFARTRSMW
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6649
+          </td>
+          <td align="char" char=".">
+           0.27
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           535
+          </td>
+          <td align="char" char=".">
+           521
+          </td>
+          <td align="left">
+           IGYYRRATRRIRGGD
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4424
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           323
+          </td>
+          <td align="char" char=".">
+           309
+          </td>
+          <td align="left">
+           IASFRLFARTRSMWS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7304
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="left">
+           H2-Ied
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           324
+          </td>
+          <td align="char" char=".">
+           310
+          </td>
+          <td align="left">
+           ASFRLFARTRSMWSF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7955
+          </td>
+          <td align="char" char=".">
+           0.73
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           325
+          </td>
+          <td align="char" char=".">
+           311
+          </td>
+          <td align="left">
+           SFRLFARTRSMWSFN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7387
+          </td>
+          <td align="char" char=".">
+           0.94
+          </td>
+          <td align="left">
+           H2-Ied
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           260
+          </td>
+          <td align="char" char=".">
+           246
+          </td>
+          <td align="left">
+           LLQFAYANRNRFLYI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8634
+          </td>
+          <td align="char" char=".">
+           0.98
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           416
+          </td>
+          <td align="char" char=".">
+           402
+          </td>
+          <td align="left">
+           DSGFAAYSRYRIGNY
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="7">
+           Model 3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4243
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           42
+          </td>
+          <td align="char" char=".">
+           28
+          </td>
+          <td align="left">
+           RFASVYAWNRKRISN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4963
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-Ied
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           41
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="left">
+           TRFASVYAWNRKRIS
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="7">
+           Model 4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4243
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           42
+          </td>
+          <td align="char" char=".">
+           28
+          </td>
+          <td align="left">
+           RFASVYAWNRKRISN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4614
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1280
+          </td>
+          <td align="char" char=".">
+           1266
+          </td>
+          <td align="left">
+           QIGYYRRATRRIRGG
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4963
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           41
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="left">
+           TRFASVYAWNRKRIS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4072
+          </td>
+          <td align="char" char=".">
+           0.27
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1068
+          </td>
+          <td align="char" char=".">
+           1054
+          </td>
+          <td align="left">
+           FIASFRLFARTRSMW
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6649
+          </td>
+          <td align="char" char=".">
+           0.27
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1281
+          </td>
+          <td align="char" char=".">
+           1267
+          </td>
+          <td align="left">
+           IGYYRRATRRIRGGD
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.4424
+          </td>
+          <td align="char" char=".">
+           0.3
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1069
+          </td>
+          <td align="char" char=".">
+           1055
+          </td>
+          <td align="left">
+           IASFRLFARTRSMWS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7304
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1070
+          </td>
+          <td align="char" char=".">
+           1056
+          </td>
+          <td align="left">
+           ASFRLFARTRSMWSF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7955
+          </td>
+          <td align="char" char=".">
+           0.73
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1071
+          </td>
+          <td align="char" char=".">
+           1057
+          </td>
+          <td align="left">
+           SFRLFARTRSMWSFN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7387
+          </td>
+          <td align="char" char=".">
+           0.94
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1006
+          </td>
+          <td align="char" char=".">
+           992
+          </td>
+          <td align="left">
+           LLQFAYANRNRFLYI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8741
+          </td>
+          <td align="char" char=".">
+           0.98
+          </td>
+          <td align="left">
+           H2-IEd
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="char" char=".">
+           1162
+          </td>
+          <td align="char" char=".">
+           1148
+          </td>
+          <td align="left">
+           DSGFAAYSRYRIGNY
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="Par28">
+      According to the generated data, in comparison between MCHI and MHCII in predicted models, the number of MHCI epitopes are clearly higher, meaning that the designed models could elicit cellular immunity responses in a mouse model. Moreover, among the 4 models, the last one, which is composed of truncated Spike, full M and full N proteins includes 14 MHCI epitopes with high antigenic scores rather than other models. In contrast with MHCI, analysis MHCII binders, only predicted model 2 and model 4 contain epitopic peptides with high antigenicity score (&gt; 0.5).
+     </p>
+    </sec>
+    <sec id="Sec12">
+     <title>
+      Human T-Cell Epitope Prediction
+     </title>
+     <p id="Par29">
+      According to the T-cell epitopes in mice, Models 2 and 4 had more antigenic epitopes. Therefore, we continued T-cell epitopes in human most prevalent HLA I and HLA II. The results are summarized in Tables      and      . Model 2 and Model 4 contain at least 166 and 300 epitopes, respectively, from which we here only report the highly antigenic ones. Therefore, we continued the human epitope prediction study with truncated Spike + full M + full N as the best model. This fusion form has also 42 HLA class II epitopes (percentile rank &lt; 1), from which 29 binders were assessed antigenic and are shown in Table      .
+      <table-wrap id="Tab3">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Human class I epitopes in predicted model 4
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Antigenicity score
+          </th>
+          <th align="left">
+           Percentile rank
+          </th>
+          <th align="left">
+           Allele
+          </th>
+          <th align="left">
+           Toxicity
+          </th>
+          <th align="left">
+           End
+          </th>
+          <th align="left">
+           Start
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           0.7571
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1552
+          </td>
+          <td align="char" char=".">
+           1544
+          </td>
+          <td align="left">
+           KTFPPTEPK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7571
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-A*11:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1552
+          </td>
+          <td align="char" char=".">
+           1544
+          </td>
+          <td align="left">
+           KTFPPTEPK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8132
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-A*11:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           755
+          </td>
+          <td align="char" char=".">
+           747
+          </td>
+          <td align="left">
+           VTYVPAQEK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7014
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           710
+          </td>
+          <td align="char" char=".">
+           702
+          </td>
+          <td align="left">
+           ASANLAATK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4278
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-B*35:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           586
+          </td>
+          <td align="char" char=".">
+           578
+          </td>
+          <td align="left">
+           IPFAMQMAY
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5669
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-B*57:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1457
+          </td>
+          <td align="char" char=".">
+           1449
+          </td>
+          <td align="left">
+           KAYNVTQAF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.882
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-B*51:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           404
+          </td>
+          <td align="char" char=".">
+           396
+          </td>
+          <td align="left">
+           IPTNFTISV
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5669
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-B*57:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1457
+          </td>
+          <td align="char" char=".">
+           1449
+          </td>
+          <td align="left">
+           KAYNVTQAF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8132
+          </td>
+          <td align="char" char=".">
+           0.01
+          </td>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           755
+          </td>
+          <td align="char" char=".">
+           747
+          </td>
+          <td align="left">
+           VTYVPAQEK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4177
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           HLA-A*24:02
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           898
+          </td>
+          <td align="char" char=".">
+           890
+          </td>
+          <td align="left">
+           QYIKWPWYI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.7462
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           HLA-B*57:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1291
+          </td>
+          <td align="char" char=".">
+           1283
+          </td>
+          <td align="left">
+           KMKDLSPRW
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.53
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           HLA-B*50:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           871
+          </td>
+          <td align="char" char=".">
+           863
+          </td>
+          <td align="left">
+           KEIDRLNEV
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7052
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           HLA-B*51:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           402
+          </td>
+          <td align="char" char=".">
+           394
+          </td>
+          <td align="left">
+           IAIPTNFTI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2394
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           HLA-B*27:02
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1070
+          </td>
+          <td align="char" char=".">
+           1062
+          </td>
+          <td align="left">
+           ARTRSMWSF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.7462
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           HLA-B*57:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1291
+          </td>
+          <td align="char" char=".">
+           1283
+          </td>
+          <td align="left">
+           KMKDLSPRW
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5107
+          </td>
+          <td align="char" char=".">
+           0.03
+          </td>
+          <td align="left">
+           HLA-A*24:02
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           179
+          </td>
+          <td align="char" char=".">
+           171
+          </td>
+          <td align="left">
+           YFPLQSYGF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.1141
+          </td>
+          <td align="char" char=".">
+           0.03
+          </td>
+          <td align="left">
+           HLA-B*27:02
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           17
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           VRFPNITNL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.6639
+          </td>
+          <td align="char" char=".">
+           0.04
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           107
+          </td>
+          <td align="char" char=".">
+           99
+          </td>
+          <td align="left">
+           KIADYNYKL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8597
+          </td>
+          <td align="char" char=".">
+           0.04
+          </td>
+          <td align="left">
+           HLA-B*50:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1100
+          </td>
+          <td align="char" char=".">
+           1092
+          </td>
+          <td align="left">
+           LESELVIGA
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5781
+          </td>
+          <td align="char" char=".">
+           0.04
+          </td>
+          <td align="left">
+           HLA-A*11:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           517
+          </td>
+          <td align="char" char=".">
+           509
+          </td>
+          <td align="left">
+           TLADAGFIK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7785
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="left">
+           HLA-B*35:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1003
+          </td>
+          <td align="char" char=".">
+           995
+          </td>
+          <td align="left">
+           FAYANRNRF
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.9457
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="left">
+           HLA-B*35:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1136
+          </td>
+          <td align="char" char=".">
+           1128
+          </td>
+          <td align="left">
+           VATSRTLSY
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6409
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="left">
+           HLA-B*50:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1102
+          </td>
+          <td align="char" char=".">
+           1094
+          </td>
+          <td align="left">
+           SELVIGAVI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7585
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="left">
+           HLA-B*51:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1257
+          </td>
+          <td align="char" char=".">
+           1249
+          </td>
+          <td align="left">
+           FPRGQGVPI
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab4">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Human MHC class II epitopes in predicted Model 4
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Antigenicity score
+          </th>
+          <th align="left">
+           Percentile rank
+          </th>
+          <th align="left">
+           Allele
+          </th>
+          <th align="left">
+           Toxicity
+          </th>
+          <th align="left">
+           End
+          </th>
+          <th align="left">
+           Start
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           0.6031
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1414
+          </td>
+          <td align="char" char=".">
+           1400
+          </td>
+          <td align="left">
+           AALALLLLDRLNQLE
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5057
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1415
+          </td>
+          <td align="char" char=".">
+           1401
+          </td>
+          <td align="left">
+           ALALLLLDRLNQLES
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5669
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1417
+          </td>
+          <td align="char" char=".">
+           1403
+          </td>
+          <td align="left">
+           ALLLLDRLNQLESKM
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5531
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1413
+          </td>
+          <td align="char" char=".">
+           1399
+          </td>
+          <td align="left">
+           DAALALLLLDRLNQL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7357
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1416
+          </td>
+          <td align="char" char=".">
+           1402
+          </td>
+          <td align="left">
+           LALLLLDRLNQLESK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6286
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1418
+          </td>
+          <td align="char" char=".">
+           1404
+          </td>
+          <td align="left">
+           LLLLDRLNQLESKMS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6019
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Toxin
+          </td>
+          <td align="char" char=".">
+           918
+          </td>
+          <td align="char" char=".">
+           904
+          </td>
+          <td align="left">
+           AGLIAIVMVTIMLCC
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6693
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Toxin
+          </td>
+          <td align="char" char=".">
+           919
+          </td>
+          <td align="char" char=".">
+           905
+          </td>
+          <td align="left">
+           GLIAIVMVTIMLCCM
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7442
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Toxin
+          </td>
+          <td align="char" char=".">
+           921
+          </td>
+          <td align="char" char=".">
+           907
+          </td>
+          <td align="left">
+           IAIVMVTIMLCCMTS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6171
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="left">
+           HLA-DRB1*11:04
+          </td>
+          <td align="left">
+           Toxin
+          </td>
+          <td align="char" char=".">
+           920
+          </td>
+          <td align="char" char=".">
+           906
+          </td>
+          <td align="left">
+           LIAIVMVTIMLCCMT
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6806
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           409
+          </td>
+          <td align="char" char=".">
+           395
+          </td>
+          <td align="left">
+           AIPTNFTISVTTEIL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7719
+          </td>
+          <td align="char" char=".">
+           0.4
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           408
+          </td>
+          <td align="char" char=".">
+           394
+          </td>
+          <td align="left">
+           IAIPTNFTISVTTEI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.1349
+          </td>
+          <td align="char" char=".">
+           0.51
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           411
+          </td>
+          <td align="char" char=".">
+           397
+          </td>
+          <td align="left">
+           PTNFTISVTTEILPV
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8294
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           410
+          </td>
+          <td align="char" char=".">
+           396
+          </td>
+          <td align="left">
+           IPTNFTISVTTEILP
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.1691
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           412
+          </td>
+          <td align="char" char=".">
+           398
+          </td>
+          <td align="left">
+           TNFTISVTTEILPVS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6336
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           445
+          </td>
+          <td align="char" char=".">
+           431
+          </td>
+          <td align="left">
+           CSNLLLQYGSFCTQL
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.9934
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1525
+          </td>
+          <td align="char" char=".">
+           1511
+          </td>
+          <td align="left">
+           GTWLTYTGAIKLDDK
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6215
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1524
+          </td>
+          <td align="char" char=".">
+           1510
+          </td>
+          <td align="left">
+           SGTWLTYTGAIKLDD
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2416
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1526
+          </td>
+          <td align="char" char=".">
+           1512
+          </td>
+          <td align="left">
+           TWLTYTGAIKLDDKD
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8305
+          </td>
+          <td align="char" char=".">
+           0.6
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           446
+          </td>
+          <td align="char" char=".">
+           432
+          </td>
+          <td align="left">
+           SNLLLQYGSFCTQLN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6128
+          </td>
+          <td align="char" char=".">
+           0.69
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           19
+          </td>
+          <td align="char" char=".">
+           5
+          </td>
+          <td align="left">
+           TESIVRFPNITNLCP
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2905
+          </td>
+          <td align="char" char=".">
+           0.7
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1034
+          </td>
+          <td align="char" char=".">
+           1020
+          </td>
+          <td align="left">
+           LACFVLAAVYRINWI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7635
+          </td>
+          <td align="char" char=".">
+           0.72
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           444
+          </td>
+          <td align="char" char=".">
+           430
+          </td>
+          <td align="left">
+           ECSNLLLQYGSFCTQ
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8668
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           447
+          </td>
+          <td align="char" char=".">
+           433
+          </td>
+          <td align="left">
+           NLLLQYGSFCTQLNR
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8548
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1031
+          </td>
+          <td align="char" char=".">
+           1017
+          </td>
+          <td align="left">
+           PVTLACFVLAAVYRI
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.0450
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1032
+          </td>
+          <td align="char" char=".">
+           1018
+          </td>
+          <td align="left">
+           VTLACFVLAAVYRIN
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.1115
+          </td>
+          <td align="char" char=".">
+           0.88
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1035
+          </td>
+          <td align="char" char=".">
+           1021
+          </td>
+          <td align="left">
+           ACFVLAAVYRINWIT
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.3132
+          </td>
+          <td align="char" char=".">
+           0.88
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           1033
+          </td>
+          <td align="char" char=".">
+           1019
+          </td>
+          <td align="left">
+           TLACFVLAAVYRINW
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6125
+          </td>
+          <td align="char" char=".">
+           0.92
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           Non-toxin
+          </td>
+          <td align="char" char=".">
+           20
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           ESIVRFPNITNLCPF
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec13">
+     <title>
+      Toxicity Analysis
+     </title>
+     <p id="Par30">
+      Model 4 at the final step was tested for toxicity using ToxinPred tool, as shown in Tables      and      .
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      Population Coverage and Conservancy Analysis
+     </title>
+     <p id="Par31">
+      Peptides predicted to interact with MHCI and II molecules in the selected Model 4 were tested for population coverage analysis using the IEDB population coverage tool to cover most HIV chronic infected individuals specifically the Persian population. Furthermore, we selected North America, Southwest Asia, South Asia, Europe, South America and Africa continent. The results of total population coverage in Persian and the other populations are listed in Table      . The selected Model 4 has an acceptable coverage of 82.95% for MHC class I and II in the Persian population. To identify the Conservancy of predicted peptides of Model 4, we used the IEDB tool. Therefore, all peptides (with an antigenic score &gt; 0.5) were submitted against related S, N, M sequences at a high threshold. Finally, we determined all epitopes were fully conserved (100%) epitopes.
+      <table-wrap id="Tab5">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         Predicted epitopes of Model 4 interacting with combined of human MHC class I and II among different population worldwide
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Average of epitope hits
+          </th>
+          <th align="left">
+           MHCI and MHCII Combined PPC           (%)
+          </th>
+          <th align="left">
+           Population
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           4.92
+          </td>
+          <td align="char" char=".">
+           82.95
+          </td>
+          <td align="left">
+           Iran
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4.86
+          </td>
+          <td align="char" char=".">
+           74.74
+          </td>
+          <td align="left">
+           Southwest Asia
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7.03
+          </td>
+          <td align="char" char=".">
+           79.57
+          </td>
+          <td align="left">
+           South Asia
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7.87
+          </td>
+          <td align="char" char=".">
+           92.51
+          </td>
+          <td align="left">
+           Europe
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6.83
+          </td>
+          <td align="char" char=".">
+           89.20
+          </td>
+          <td align="left">
+           North America
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3.21
+          </td>
+          <td align="char" char=".">
+           64.37
+          </td>
+          <td align="left">
+           South America
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3.04
+          </td>
+          <td align="char" char=".">
+           48.97
+          </td>
+          <td align="left">
+           Africa
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Projected population coverage
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      B-Cell Epitopes Recognition
+     </title>
+     <p id="Par32">
+      The four predicted models were assessed by BepiPred server, and the antigenicity of predicted epitopes was evaluated by VaxiJen. The amino acid sequences, peptide lengths, and positions of these epitopes are shown in Table      .
+     </p>
+     <p id="Par33">
+      Among the predicted models, Model 2 (RBD + M + N) and Model 4 (Truncated Spike + M + N) have a high number of B-cell epitopes in comparison with the other models in agreement with T-cell prediction. Moreover, Model 4 includes 14 B-cell antigenic epitopes which shows to have the highest potency in the humoral response.
+     </p>
+     <p id="Par34">
+      Surface accessibility, flexibility, hydrophilicity and antigenicity are essential features of B cell antigenic indexes in vaccine design. The selected Model 4 was assessed by different prediction at the BepiPred Sequential B-Cell Epitope Predictor, as shown in Fig.      .
+     </p>
+     <p id="Par35">
+      In order to find conformational B-cell epitope in 3D structure, Ellipro was used. Ellipro predicted six discontinues epitopes for Model 1 with maximum score of 0.942 and minimum score of 0.542, eight epitopes for model 2 with maximum score of 0.802 and minimum score of 0.502 and nine epitopes for model 3 with maximum score of 0.816 and minimum score of 0.55 (data were not shown). Ellipro predicted a total of 61 discontinues epitopes for the chosen Model 4 with a maximum score of 0.994. Those scores greater than 0.8 were selected (Table      ).
+      <table-wrap id="Tab6">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         B-cell linear epitopes for selected Model 4
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Antigenicity
+          </th>
+          <th align="left">
+           Length
+          </th>
+          <th align="left">
+           B cell (position)
+          </th>
+          <th align="left">
+           Proteins
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           1.2606
+          </td>
+          <td align="char" char=".">
+           14
+          </td>
+          <td align="left">
+           VRQIAPGQTGKIAD (89)
+          </td>
+          <td align="left" rowspan="4">
+           Model 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7136
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           YGFQPTNGVGYQ (177)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8904
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           NNLDSKVGG (121)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.3668
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           RVQPTE (1)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5455
+          </td>
+          <td align="char" char=".">
+           53
+          </td>
+          <td align="left">
+           GTTLPKGFYAEGSRGGSQASSRSSSRSRNSSRNSTPGSSRGTSPARMAGNGGD (601)
+          </td>
+          <td align="left" rowspan="12">
+           Model 2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5302
+          </td>
+          <td align="char" char=".">
+           38
+          </td>
+          <td align="left">
+           SKMSGKGQQQQGQTVTKKSAAEASKKPRQKRTATKAYN (669)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5605
+          </td>
+          <td align="char" char=".">
+           30
+          </td>
+          <td align="left">
+           KTFPPTEPKKDKKKKADETQALPQRQKKQQ (798)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5570
+          </td>
+          <td align="char" char=".">
+           28
+          </td>
+          <td align="left">
+           QHGKEDLKFPRGQGVPINTNSSPDDQIG (495)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.1728
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="left">
+           AFGRRGPEQTQGNFG (710)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2606
+          </td>
+          <td align="char" char=".">
+           14
+          </td>
+          <td align="left">
+           VRQIAPGQTGKIAD (89)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7136
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           YGFQPTNGVGYQ (177)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8771
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           RIRGGDGKMKDL (530)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2.1298
+          </td>
+          <td align="char" char=".">
+           10
+          </td>
+          <td align="left">
+           KLDDKDPNFK (775)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8904
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           NNLDSKVGG (121)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.3668
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           RVQPTE (1)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6838
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           TDYKHW (733)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2606
+          </td>
+          <td align="char" char=".">
+           14
+          </td>
+          <td align="left">
+           VRQIAPGQTGKIAD (89)
+          </td>
+          <td align="left" rowspan="6">
+           Model 3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7136
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           YGFQPTNGVGYQ (177)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5322
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           ILPDPSKPSKRS (487)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4039
+          </td>
+          <td align="char" char=".">
+           11
+          </td>
+          <td align="left">
+           KNHTSPDVDLG (839)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8904
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           NNLDSKVGG (121)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.3668
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           RVQPTE (1)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5455
+          </td>
+          <td align="char" char=".">
+           53
+          </td>
+          <td align="left">
+           GTTLPKGFYAEGSRGGSQASSRSSSRSRNSSRNSTPGSSRGTSPARMAGNGGD (1347)
+          </td>
+          <td align="left" rowspan="14">
+           Model 4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5302
+          </td>
+          <td align="char" char=".">
+           38
+          </td>
+          <td align="left">
+           SKMSGKGQQQQGQTVTKKSAAEASKKPRQKRTATKAYN (1415)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5605
+          </td>
+          <td align="char" char=".">
+           30
+          </td>
+          <td align="left">
+           KTFPPTEPKKDKKKKADETQALPQRQKKQQ (1544)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.1728
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+          <td align="left">
+           AFGRRGPEQTQGNFG (1456)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.2606
+          </td>
+          <td align="char" char=".">
+           14
+          </td>
+          <td align="left">
+           VRQIAPGQTGKIAD (89)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7136
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           YGFQPTNGVGYQ (177)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.5322
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           ILPDPSKPSKRS (487)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8771
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           RIRGGDGKMKDL (1276)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.4039
+          </td>
+          <td align="char" char=".">
+           11
+          </td>
+          <td align="left">
+           KNHTSPDVDLG (839)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2.1298
+          </td>
+          <td align="char" char=".">
+           10
+          </td>
+          <td align="left">
+           KLDDKDPNFK (1521)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.8904
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           NNLDSKVGG (121)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1.3668
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           RVQPTE (1)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.7417
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           DSLSST (618)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           0.6838
+          </td>
+          <td align="char" char=".">
+           6
+          </td>
+          <td align="left">
+           TDYKHW (1479)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      Primary and Secondary Structure Analysis
+     </title>
+     <p id="Par36">
+      Physiochemical characterization of selected Model 4 fusion protein was achieved using Expasy’s ProtParam server based on estimated molecular weight, theoretical isoelectric point, and average hydropathicity that indicates the solubility and hydrophobicity of protein. The fusion Model 4 with 1602 amino acids and 176.443 Da with pI: 8.77 and 157 positively charged residues (Arg + Lys) in the polypeptide and 134 negatively charged residues (Asp + Glu). This Model is also predicted to be soluble and hydrophilic (Grand average of hydropathicity (GRAVY): − 0.234).
+     </p>
+     <p id="Par37">
+      SOPMA tool was used to predict secondary structure of Model 4 features, including alpha helixes, beta turns, random coils contribution, and C-score. Random coils and extended strands greater ratios are correlated with protein antigenic epitope formation enhancement. Subsequently, it is composed of 31.27% α-helix and 4.99% β-sheet, which beside the 42.88% of random coils, which is potential to form higher antigenic epitopes (Fig.      a).
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      Homology Modeling Prediction and Validation
+     </title>
+     <p id="Par38">
+      The three-dimensional structure of Model 4 was predicted using the IntFOLD Integrated Protein Structure and Function Prediction Server, which generates five top models with global model quality score. The one with the highest global model quality score represents the best model. This value of selected Model 4 was in the acceptable score. Chimera version v1.2 was applied to generate the protein image [      ] (Fig.      b). Moreover, the Ramachandran plot generated by the PROCHECK. Described the amino acid positions in the plot as well as the overall quality of the protein model. The plot showed that 91.7% amino acids were arranged in most favored core regions with 7% in allowed region, 1.1% generously allowed region, and 0.3% in disallowed region (Fig.      c). Z-Score for 3D structure of model was − 5.62.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec18">
+    <title>
+     Discussion
+    </title>
+    <p id="Par39">
+     Apart from the human coronaviruses, which are continuously circulating among human population, the originated viruses from animals have been shown to be lethal pathogens via crossing species barriers. Effective preventive approaches are urgent needs at the current situation. Potent epitopic vaccines predicted by bioinformatic analysis makes the vaccine design straightforward and fast compared to traditional vaccine approaches, which has been used in COVID-19 vaccine design recently [     ,     –     ].
+    </p>
+    <p id="Par40">
+     In this study, we evaluated four possible fusion forms of structural SARS-CoV-2 proteins in order to achieve the most immunogenic protein, which could elicit humoral and cellular immune responses as well. The amino acid sequences were applied to predict the probable antigenic epitopes of T-Cell, linear and conformational B-cell.
+    </p>
+    <p id="Par41">
+     Among the four analyzed models, we found model 4 composed of truncated Spike, the full form of M and N proteins (S: 528–1293 + AAY + M + AAY + N) is the most immunogenic fusion form. The evaluation of Murine T-cell epitopes showed that it contains 14 MHCI binders which are all antigenic and also 10 MHCII peptides from which 5 are antigenic epitopes. Human investigation resulted in 24 highly immunogenic human MHC class I and 29 human MHC class II. Moreover, there are four epitopes, including KTFPPTEPK, VTYVPAQEK, KAYNVTQAF and KMKDLSPRW, which can bind to different HLAs.
+    </p>
+    <p id="Par42">
+     B-cell evaluation also showed that this model contains 14 B-cell linear and 61 discontinues epitopes with maximum score of 0.994. Therefore, the in silico comparative analysis predicted this model to have a high potency in both immune arms induction. Structural analysis revealed that the selected model is a 176.443 Da protein composed of 1602 amino acids and 42.88% of random coils. In addition, the Ramachandran plot showed that 91.7% amino acids were arranged in most favored core regions. The predicted model is totally non-toxin with a great rate of population coverage especially in Iran and the Europe.
+    </p>
+    <p id="Par43">
+     In a study by Joshi et al., SARS-COV-2 multiple virus proteins were assessed by in-silico methods. The obtained results showed that two epitopes ITLCFTLKR and VYQLRARSV are highly practical after docking and molecular dynamics simulation. Furthermore, these two epitopes were subjected to population coverage and toxicity analysis [     ]. In our study, KTFPPTEPK from N protein was found highly potential to associate with two frequent HLA-A*03:01 and HLA-A*11:01. It is also a part of B-cell epitopes KTFPPTEPKKDKKKKADETQALPQRQKKQQ with a high score in the predicted method (Table     ).
+     <table-wrap id="Tab7">
+      <label>
+       Table 7
+      </label>
+      <caption>
+       <p>
+        Discontinuous B-cell epitopes predicted by Ellipro for model 4
+       </p>
+      </caption>
+      <graphic id="MO5" ns0:href="12033_2021_303_Tab7a_HTML" position="anchor"/>
+      <graphic id="MO6" ns0:href="12033_2021_303_Tab7b_HTML" position="anchor"/>
+      <graphic id="MO7" ns0:href="12033_2021_303_Tab7c_HTML" position="anchor"/>
+      <graphic id="MO8" ns0:href="12033_2021_303_Tab7d_HTML" position="anchor"/>
+      <graphic id="MO9" ns0:href="12033_2021_303_Tab7e_HTML" position="anchor"/>
+      <graphic id="MO10" ns0:href="12033_2021_303_Tab7f_HTML" position="anchor"/>
+      <graphic id="MO11" ns0:href="12033_2021_303_Tab7g_HTML" position="anchor"/>
+      <graphic id="MO12" ns0:href="12033_2021_303_Tab7h_HTML" position="anchor"/>
+     </table-wrap>
+    </p>
+    <p id="Par44">
+     Chen et al. investigated another in silico analysis [     ]. They predicted 63 sequential B-cell epitopes of spike protein. They also showed that four peptides of Spike, including S 315–324, S 333–338, S 648–663 and S 1064–1079 are highly antigenic with optimum surface accessibility. In our study, one of the discontinuous B-cell predictions includes 38 residues (residues: L900, G901, F902, I903, A904, G905, L906, I907, A908, I909, V910, M911, V912, T913, I914, M915, L916, C917, C918, M919, T920, S921, C922, C923, S924, C925, L926, K927, G928, C929, C930, S931, C932, G933, S934, C935, C936, K937) with high score of 0.886. They also assessed HLA-binding peptides of nucleocapsid protein, which led to 81 and 64 peptides able to bind to MHC class I and MHC class II molecules. The HLA I and HLA II binders in our study were predicted lower due to the fact that we only considered the antigenic peptides at the high threshold (Tables     and     ).
+    </p>
+    <p id="Par45">
+     The other bioinformatics-based assessment to achieve a vaccine against SARS-CoV-2 by Sahoo et al. focused on T-cell epitopes of similar targets including S, M and N [     ]. Their study showed 36 T-cell potential epitopes that interacting with MHC-I alleles and also 25 T-cell epitopes interacting with MHC-II alleles. Among the predicted peptides, IGYYRRATR and YYRRATRRI from N protein and FRLFARTRS, FIASFRLFA and FARTRSMWS from M are predicted to interact by human alleles. These peptides are also supposed to be a BALB/c MHCII binder in our study (Table     ). FVLAAVYRI from M protein is predicted to interact with 31 HLA II and 3 HLA I. In our study, this peptide is also a part of seven HLA II-predicted epitopes (Table     ).
+    </p>
+    <p id="Par46">
+     Therefore, immunoinformatics approaches have been already used identification of possible epitopes of novel human coronavirus, SARS-CoV-2. The outbreak of infection caused by this virus has brought great obstacles and challenges to public health. Thus, fast identification of immune epitopes and possible viral immunogenic products would be a superior way to monitor the candidates for vaccine development in comparison with other approaches at the impending pandemic era.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec19">
+    <title>
+     Conclusion
+    </title>
+    <p id="Par47">
+     This study resulted in possible fusion forms prediction of SARS-CoV-2 structural proteins, which could be potential targets of neutralizing antibodies. The in silico evaluation of different fusion models have been effective in selecting the best fused model of S, M and N proteins. Truncated Spike + M + N is composed of 24 highly immunogenic human MHC class I and 29 MHC class II with 82.95% population coverage in Iran along with 14 B-cell linear and 61 discontinues epitopes.
+    </p>
+    <p id="Par48">
+     The selected recombinant protein could highly elicit immune responses and will be evaluated in vitro and in vivo at the next step.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

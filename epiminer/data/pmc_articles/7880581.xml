@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  COVID-19 and autoimmune diseases
+ </title>
+ <abstract>
+  <p>
+   The aim of this study was to evaluate the relationship between infection with SARS-CoV-2 and autoimmunity.
+  </p>
+  <p>
+   Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome (SARS) associated coronavirus 2 (SARS-CoV-2). Although most of the infected individuals are asymptomatic, a proportion of patients with COVID-19 develop severe disease with multiple organ injuries. Evidence suggests that some medications used to treat autoimmune rheumatologic diseases might have therapeutic effect in patients with severe COVID-19 infections, drawing attention to the relationship between COVID-19 and autoimmune diseases. COVID-19 shares similarities with autoimmune diseases in clinical manifestations, immune responses and pathogenic mechanisms. Robust immune reactions participate in the pathogenesis of both disease conditions. Autoantibodies as a hallmark of autoimmune diseases can also be detected in COVID-19 patients. Moreover, some patients have been reported to develop autoimmune diseases, such as Guillain--Barré syndrome or systemic lupus erythematosus, after COVID-19 infection. It is speculated that SARS-CoV-2 can disturb self-tolerance and trigger autoimmune responses through cross-reactivity with host cells. The infection risk and prognosis of COVID-19 in patients with autoimmune diseases remains controversial, but patient adherence to medication regimens to prevent autoimmune disease flares is strongly recommended.
+  </p>
+  <p>
+   We present a review of the association between COVID-19 and autoimmune diseases, focusing on similarities in immune responses, cross-reactivity of SARS-CoV-2, the development of autoimmune diseases in COVID-19 patients and the risk of COVID-19 infection in patients with preexisting autoimmune conditions.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec sec-type="intro">
+    <title>
+     INTRODUCTION
+    </title>
+    <p>
+     Since December 2019, a novel infection named coronavirus disease 2019 (COVID-19) broke out in Wuhan, China, and has been sweeping across the globe. COVID-19 was officially declared a pandemic by WHO on 11 March 2020 [     ]. The disease is caused by a newly identified strain of severe acute respiratory syndrome (SARS) associated coronavirus, which was named SARS-CoV-2 after SARS-CoV that caused the epidemic of SARS in 2002 [     ].
+    </p>
+    <p>
+     SARS-CoV-2 belongs to the coronavirus family, which are enveloped viruses with a spherical morphology and a single-stranded RNA (ssRNA) genome [     ]. The spike glycoproteins (S protein) cross through the peplos of the virus and form a crown-like surface [     ]. Through the receptor binding domain (RBD) located in the S1 subunit of the S protein, the virus can ligate to the host cell receptor angiotensin-converting enzyme 2 (ACE2) and invade into the cell [     –     ].
+    </p>
+    <p>
+     In many cases, hosts infected by SARS-CoV-2 present with flu-like symptoms, such as fever, fatigue and dry cough. Headache, myalgia, sore throat, nausea and diarrhoea can also be seen in patients with COVID-19 [     ,     ]. Shortness of breath and hypoxemia occur in severe cases. In critical cases, the disease progresses rapidly and patients can develop septic shock and multiorgan dysfunction [     ]. As such, COVID-19 can be a systemic disease affecting multiple organ systems, including the skin, kidneys, respiratory system, cardiovascular system, digestive system, nervous system and haematological system [     ]. The dysregulated immune response and increased pro-inflammatory cytokines induced by SARS-CoV-2 contribute to the disease pathogenesis and organ damage, which brought attention to immune-regulatory therapy in the treatment of COVID-19 [     ]. Medications used to treat autoimmune diseases are widely used in critical cases of COVID-19 [     ]. Further, some autoantibodies can be detected in patients with COVID-19 [     ]. These observations suggest that examining pathways known to contribute to the pathogenesis of autoimmunity might provide clues to better understand and treat COVID-19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec>
+    <title>
+     SIMILARITIES IN IMMUNE RESPONSES BETWEEN SARS-COV-2 INFECTION AND AUTOIMMUNE DISEASES
+    </title>
+    <p>
+     Autoimmune diseases are characterized by the existence of autoantibodies and perpetuated inflammatory reactions due to the loss of immune tolerance and dysregulated immune system, leading to target organ damage and malfunction [     ]. These immune-mediated injuries also exist in COVID-19 (Fig.     ). Infection with SARS-CoV-2 induces immune reactions, which might have important implications in the development of vaccine strategies against this virus [     ]. T cell immunity plays a central role in the control of SARS-CoV-2 infection. Antigen-specific CD4     and CD8     T cells and neutralizing antibody responses play protective roles against SARS-CoV-2, while impaired adaptive immune responses such as scarcity of naive T cells may lead to poor disease outcomes [     ].
+    </p>
+    <p>
+     In clinical laboratory tests, lymphopenia (lymphocyte count ≤1.0 x 10     /l) is associated with severe illness in COVID-19 patients and might be a prognostic factor for disease severity and mortality [     –     ]. Another notable haemocytological change is neutrophilia and associated excessive neutrophil extracellular traps, which paralleled lung injury in severe COVID-19 patients [     ]. Therefore, the immune response is a double-edged sword in COVID-19, with outcomes affected by the degree of cytokine imbalance and activation of immune cells. Excessive production and release of pro-inflammatory cytokines and chemokines can cause severe organ damage in critical cases, which is observed in autoimmune diseases as well. In COVID-19 patients, pro-inflammatory cytokines and chemokines, including interleukin (IL)-1, IL-2, IL-6, IL-8, IL-10, IL-17, IL-18, CXCL10 and CCL2, increased significantly and the expression levels of some of these cytokines, such as IL-1, IL-6, IL-10 and IL-18, have been demonstrated to be associated with disease severity [     –     ]. Similar to autoimmune diseases, damage-associated molecular patterns (DAMPs) also participate in the pathogenesis of COVID-19 and are related to disease outcome. Chen
+     <italic>
+      et al.
+     </italic>
+     [     ] revealed that serum levels of S100A8/A9 and HMGB1 increased significantly in patients with severe COVID-19 and that significant elevation of the two DAMPs was associated with higher mortality.
+    </p>
+    <p>
+     Activation and infiltration of immune cells participate in the pathogenesis of organ injury in patients with COVID-19. Macrophage activation syndrome (MAS) could be a continuum of cytokine storm syndrome leading to life-threatening complications in COVID-19 [     ]. In this condition, activated macrophages will produce excessive pro-inflammatory cytokines, polarize into the inflammatory M1 phenotype and exhibit cytotoxic dysfunction [     ]. Recently, Conti
+     <italic>
+      et al.
+     </italic>
+     [     ] proposed that SARS-CoV-2 activated mast cells could release histamine to increase IL-1 levels to initiate cytokine storm and aggravate lung injury. Woodruff
+     <italic>
+      et al.
+     </italic>
+     [     ] found extrafollicular B cell activation in critically ill patients with COVID-19, similar to what has been observed in autoimmunity. Further, extrafollicular B cell activation correlated strongly with the production of high concentrations of SARS-CoV-2 specific neutralizing antibodies and poor disease outcome [     ]. Peripheral blood B-cell subpopulations are altered during COVID-19. In COVID-19 patients, atypical memory B-cells (CD21     /CD27     /CD10     ) expanded significantly, while classical memory B-cells (CD21     /CD27     /CD10     ) were significantly reduced [     ]. Analysis of immune profiles of severe COVID-19 patients revealed an increased proportion of mature natural killer (NK) cells and decreased proportion of T-cell numbers [     ].
+    </p>
+    <p>
+     Similar to some autoimmune and immune-mediated thromboinflammatory diseases, including lupus, antiphospholipid syndrome and ANCA-associated vasculitis, neutrophil activation and neutrophil extracellular trap production (NETosis) appear to have a pathogenic role in COVID-19. Zuo
+     <italic>
+      et al.
+     </italic>
+     [     ] reported increased markers of NETs in sera from patients with COVID-19, and significantly more in patients requiring mechanical ventilation. In-vitro experiments demonstrated that sera from COVID-19 patients triggered NETosis in normal neutrophils, similar to sera from patients with antiphospholipid syndrome [     ,     ].
+    </p>
+    <p>
+     In severe and critical cases, immunomodulatory drugs and biological agents targeting pro-inflammatory cytokines have been applied to contain the robust immune response in COVID-19. Corticosteroids, JAK inhibitors, IL-1 blockade and IL-6 receptor antagonists, which are familiar to rheumatologists, have been used to treat COVID-19 patients [     –     ]. Similarities in immunopathogenesis of COVID-19 and autoimmune diseases are summarized in Table     .
+    </p>
+    <table-wrap id="T1" orientation="portrait" position="float">
+     <label>
+      Table 1
+     </label>
+     <caption>
+      <p>
+       Similarities in immunopathogenesis of COVID-19 and autoimmune diseases
+      </p>
+     </caption>
+     <table border="0" frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Items
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         COVID-19 immunological features similar to autoimmune diseases
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Refs.
+        </td>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Innate immune cells
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Overactivation of monocytes, macrophages, mast cells and neutrophils. Increased proportion of mature natural killer (NK) cells.
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ,         ,         ,         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Adaptive immune cells
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Decreased T-cell numbers, altered B-cell subsets, dysregulation of T cells and B cells.
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ,         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Cytokines and chemokines
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Increased levels of IL-1, IL-2, IL-6, IL-8, IL-10, IL-17, IL-18, CXCL10, CCL2.
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         –         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Autoantibodies
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         ANA, APL, lupus anticoagulant, cold agglutinins, anti-Ro/SSA antibodies, anti-Caspr2 antibody, anti GD1b antibody, anti-MOG antibody
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ,         ,         ,         ,         –         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Clinical conditions
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Immune-mediated haemolysis, decreased white blood cell counts, cytokine storm syndrome, macrophage activation syndrome, procoagulant condition
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ,         ,         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Other immunopathogenesis
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Increased levels of DAMPs, molecular mimicry
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ]
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec>
+    <title>
+     MOLECULAR MIMICRY AND SARS-COV-2
+    </title>
+    <p>
+     The production of autoantibodies is a key feature of autoimmune diseases. However, the underlying mechanisms are complicated and still not fully understood. Molecular mimicry by infectious pathogens is believed to be one of the mechanisms [     ]. Viral infection can disturb immunologic tolerance by exposure of antigen epitopes that elicit cross-reactive antibodies. There are a large number of reports indicating antigenic mimicry between viral and human proteins. Perhaps one of the most established examples of molecular mimicry in autoimmunity is the immune response to Epstein–Barr virus (EBV) in lupus patients [     ]. An abnormal immune repose to Epstein–Barr virus Nuclear Antigen-1 (EBNA-1) can induce an autoimmune response targeting the Sm and Ro autoantigen systems [     ]. Cross-reactivity between anti-EBNA-1 antibodies and myelin basic protein in patients with multiple sclerosis has also been demonstrated [     ]. Moreover, EBNA-1 showed structural similarity with β synuclein, a brain protein implicated in multiple sclerosis, and predicted to bind HLA class II DR2b (HLA-DRB1∗15 : 01) [     ]. In-silico analysis revealed that an envelope protein of human endogenous retroviruses (HERV) shares similar sequence with three myelin proteins that induced an autoimmune response in multiple sclerosis and was predicted to bind to HLA-DRB1∗15 : 01. Basavalingappa
+     <italic>
+      et al.
+     </italic>
+     [     ] demonstrated that Coxsackievirus B3 (CVB3) infection can induce the generation of autoreactive T cells for multiple antigens.
+    </p>
+    <p>
+     Some epitopes from SARS-CoV-2 were revealed to exhibit cross-reactivity with autoantigens. Anand
+     <italic>
+      et al.
+     </italic>
+     [     ] reported that a unique S1/S2 cleavage site in SARS-CoV-2 identically mimicked a FURIN-cleavable peptide on the human epithelial sodium channel α-subunit (ENaC-α), which plays a critical role in the homeostasis of airway surface liquid. Mimicry between SARS-CoV-2 and three proteins namely DAB1, AIFM and SURF1 that are present in the human brainstem pre-Bötzinger complex (preBötC) may contribute to the respiratory failure in COVID-19 [     ]. In addition, SARS-CoV-2 infection can elicit autoimmune responses through molecular mimicry. Marino Gammazza
+     <italic>
+      et al.
+     </italic>
+     [     ] compared viral proteins with human molecular chaperones and postulated that the chaperones, most of which were heat shock proteins, could participate in molecular mimicry phenomena after SARS-CoV-2 infection. Furthermore, Lucchese and Flöel [     ] compared viral amino acid sequence with human autoantigens associated with immune-mediated polyneuropathies and showed that peptides embedded in immunoreactive epitopes of SARS-CoV-2 shared the same sequence with human heat shock proteins 90 and 60 that are associated with Guillain-Barré syndrome and other autoimmune diseases. Venkatakrishnan
+     <italic>
+      et al.
+     </italic>
+     [     ] reported 33 distinct 8-mer or 9-mer peptides with potential cross-reactivity between SARS-CoV-2 and the human reference proteome, among which 20 human peptides have not been observed in any previous coronavirus strains. Moreover, four of these human 8-mer/9-mer peptides mimicked by SARS-CoV-2 showed similarity with host pulmonary-arterial peptides and were predicted to bind with HLA-B∗40 : 01, HLA-B∗40 : 02, and HLA-B∗35 : 01 [     ]. A recent study analysed sharing between hexapeptides that define minimal epitopic sequences of the virus and the human proteome, and documented numerous immunoreactive epitopes shared with human proteins [     ]. The results of this study imply the possibility that SARS-CoV-2 might induce cross-reactivity with host autoantigens and offer hints to possibly explain the various clinical manifestations and pathologies involving different organs and systems after SARS-CoV-2 infection.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="subjects">
+    <title>
+     AUTOANTIBODIES IN PATIENTS WITH COVID-19
+    </title>
+    <p>
+     Autoantibodies known to occur in a number of autoimmune diseases have been detected in patients with COVID-19 (Table     ). Pascolini
+     <italic>
+      et al.
+     </italic>
+     [     ] determined the presence of antinuclear antibodies (ANA), anticytoplasmic neutrophil antibodies (ANCA) and antiantiphospholipid (APL) antibodies in 33 consecutive patients with COVID-19. The results showed that 45% of the patients were positive for at least one autoantibody and patients with positive autoantibodies tended to have a worse prognosis and a significantly higher respiratory rate at admission. The positive rate for ANA was 33%, the positive rate for anticardiolipin antibodies (IgG and/or IgM) was 24% and three patients tested positive for antiβ2-glycoprotein-I antibodies (IgG and/or IgM) (9%). However, ANCA was negative in all patients [     ]. Coagulopathy is a threatening complication of SARS-CoV-2 infection. Recently, a cohort study was performed in Montefiore Medical Center to assess lupus anticoagulant positivity in COVID-19 patients. The researchers found that patients with COVID-19 had an increased incidence of lupus anticoagulant positivity compared with controls who tested negative by COVID-19 reverse transcriptase–PCR. In addition, COVID-19 patients with positive lupus anticoagulant had an increased rate of thrombosis [     ]. Amezcua-Guerra
+     <italic>
+      et al.
+     </italic>
+     [     ] also demonstrated a higher frequency of APL antibodies in patients with severe and critical COVID-19, and that the presence of APL antibodies seems to be associated with a hyperinflammatory state with extremely high levels of ferritin, C reactive protein and IL-6, and with pulmonary thromboembolism. The data discussed above provide a possible explanation for the hypercoagulable state in severe and critical COVID-19 cases and indicate that SARS-CoV-2 can induce autoimmune responses.
+    </p>
+    <table-wrap id="T2" orientation="portrait" position="float">
+     <label>
+      Table 2
+     </label>
+     <caption>
+      <p>
+       Autoantibodies detected in patients with COVID-19
+      </p>
+     </caption>
+     <table border="0" frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Autoantibodies
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Clinical significance
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Refs.
+        </td>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         ANA
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Poor prognosis and a significant higher respiratory rate
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         APL
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Poor prognosis and a significant higher respiratory ratePossible association with a hyperinflammatory state and thrombosis and thromboembolism
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Lupus anticoagulant
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         A higher rate of thrombosis
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Cold agglutinins
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Haemolytic anaemia.Complicating laboratory assessment and renal replacement therapy
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ,         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Anti-Ro/SSA antibodies
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Possible association with severe pneumonia
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Anti-Caspr2 antibody
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Unclear
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Anti-GD1b antibody
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Unclear
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Anti-MOG antibody
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Unclear
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Red cell bound antibodies
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Associated with the severity of anaemia
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         [         ]
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+    <p>
+     In COVID-19 patients presenting with neurological symptoms, the existence of autoantibodies against contactin-associated protein 2 (anti-Caspr2), ganglioside GD1b (anti-GD1b) and myelin oligodendrocyte glycoprotein (anti-MOG) has been shown in case reports or retrospective studies [     ,     ]. However, the clinical significance of these antibodies remains unclear. In addition, there are case reports demonstrating the presence of cold agglutinins and autoantibodies against RBC antigens in critically ill patients with COVID-19 [     ], and the presence of anti-Ro/SSA antibodies in patients with aggravated COVID-19 pneumonia [     ]. A research including 113 samples studied red cell antibodies by direct and indirect antiglobulin test (DAT or IAT). A positive DAT was found in 46% of COVID-19 patients, which was significantly higher than that in non-COVID-19 controls. The presence of red cell membrane bound immunoglobulins contributes to haemolytic anaemia and is related to the severity of anaemia in COVID-19 [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec>
+    <title>
+     DEVELOPMENT OF AUTOIMMUNE DISEASES AFTER SARS-COV-2 INFECTION
+    </title>
+    <p>
+     Because SARS-CoV-2 infection can break immune tolerance and trigger autoimmune responses, it is also likely to induce clinical autoimmunity. Indeed, many reports have confirmed the development of autoimmune diseases after SARS-CoV-2 infection. Cold agglutinin syndrome (CAS) and autoimmune haemolytic anaemia have been reported as a complication of COVID-19 [     ,     ,     ]. Meanwhile, Guillain--Barré syndrome (GBS) is also emerging as an autoimmune disease that may occur in COVID-19 patients. In most cases of COVID-19 associated GBS SARS-CoV-2 antibodies cannot be detected in the cerebrospinal fluid (CSF); however, Gigli
+     <italic>
+      et al.
+     </italic>
+     [     ] recently reported a case of GBS with a positive test for the SARS-CoV-2 antibodies in the CSF [     ,     ]. The mechanisms of how SARS-CoV-2 triggers GBS are debated. However, immune cross reaction between epitopes and host antigens may be a possible explanation [     ]. Recently, a case of systemic lupus erythematosus has also been reported to be triggered by SARS-CoV-2 [     ]. It is possible that additional autoimmune diseases induced by SARS-CoV-2 will be reported in the future.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="subjects">
+    <title>
+     RISK OF PATIENTS WITH AUTOIMMUNE DISEASES DURING THE COVID-19 PANDEMIC
+    </title>
+    <p>
+     Autoimmune diseases are heterogeneous and linked to a dysregulated immune system. Most of the patients with autoimmune diseases have received or are receiving immunomodulatory medications or biological agents. During the pandemic of COVID-19, a proportion of the autoimmune disease patients suspended their medication due to fear of the immunosuppressive effect of medications or lack of availabilities [     ], and decreased medical visits because of concerns of the contagious nature of SARS-CoV-2 [     ]. However, disrupted continuity of medical care and medication nonadherence are associated with rheumatologic disease flares and worsened disease activity [     ]. Therefore, building a reliable telemedicine platform and education on medication adherence should be strongly recommended.
+    </p>
+    <p>
+     Since the beginning of this pandemic, infection risk in patients with autoimmune diseases has been a subject of interest [     ,     ,     ]. The results of a cross-sectional study conducted in northeast Italy indicated that autoimmune disease patients had a similar rate of infection of SARS-CoV-2 compared with the general population [     ]. Another Italian study performed in Milan also confirmed that autoimmune disease is not a risk factor of being positive for COVID-19 [     ]. To the contrary, the results of a multicentre retrospective study conducted in Hubei, China, indicated that patients with autoimmune diseases might be more susceptible to SARS-CoV-2 infection compared with controls. Further, this study examined family members of the patients that resided at the same environment during the outbreak as controls [     ]. Of interest, the study from Milan indicated that patients with autoimmune diseases do not have a worse prognosis compared with non-autoimmune disease individuals [     ]. However, a Spanish study revealed that hospitalized patients with autoimmune diseases have a more severe course of COVID-19 [     ]. At this time, until more data become available, it is crucial to emphasize the importance of physical distancing, wearing masks and frequent hand washing for everyone and especially in our patients with autoimmune diseases. Adherence to medications is also very important to prevent flares of autoimmune diseases that might result in organ damage.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="conclusion">
+    <title>
+     CONCLUSION
+    </title>
+    <p>
+     COVID-19 is a novel pandemic that has had significant global health consequences. Similar to systemic autoimmune diseases, COVID-19 can present with heterogeneous and systemic clinical manifestations. To some extent, there are similarities in the immune response in both disease conditions, and organ damage in COVID-19 appears to be largely immune-mediated, similar to autoimmune diseases. The SARS-CoV-2 virus can disturb self-tolerance of host antigens at least in part through molecular mimicry. Indeed, the development of autoantibodies and sometimes organ-specific (e.g. GBS) or systemic (e.g. SLE-like disease) autoimmunity has been observed in COVID-19. Overall, more data are needed to further understand the relationship between COVID-19 and autoimmunity and characterize the risk and severity of COVID-19 in patients with preexisting autoimmune diseases.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec>
+    <title>
+     Acknowledgements
+    </title>
+    <p>
+     None.
+    </p>
+    <sec>
+     <title>
+      Financial support and sponsorship
+     </title>
+     <p>
+      This study is supported by grants from the National Natural Science Foundation for Young Scientists of China (Grant No. 81502732) to Y.L., and an urgent grant of Hunan Province for fighting against coronavirus disease- 2019 epidemic (2020SK3005) to Q.L. A.H.S is supported by the National Institutes of Health (NIH) grants number R01AI097134 and R01AR070148, and the Lupus Research Alliance.
+     </p>
+    </sec>
+    <sec sec-type="COI-statement">
+     <title>
+      Conflicts of interest
+     </title>
+     <p>
+      There are no conflicts of interest.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

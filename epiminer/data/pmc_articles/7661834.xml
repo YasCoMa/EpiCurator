@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Infections of the lung: a predictive, preventive and personalized perspective through the lens of evolution, the emergence of SARS-CoV-2 and its pathogenesis
+ </title>
+ <abstract>
+  <p id="Par1">
+   The long evolutionary battle between humans and pathogens has played an important role in shaping the current network of host-pathogen interactions. Each organ brings new challenges from the perspective of a pathogen to establish a suitable niche for survival while subverting the protective mechanisms of the host. Lungs, the organ for oxygen exchange, have been an easy target for pathogens due to its accessibility. The organ has evolved diverse capabilities to provide the flexibility required for an organism’s health and at the same time maintain protective functionality to prevent and resolve assault by pathogens. The pathogenic invasions are strongly challenged by healthy lung architecture which includes the presence and activity of the epithelium, mucous, antimicrobial proteins, surfactants, and immune cells. Competitively, the pathogens in the form of viruses, bacteria, and fungi have evolved an arsenal of strategies that can over-ride the host’s protective mechanisms. While bacteria such as
+   <italic>
+    Mycobacterium tuberculosis
+   </italic>
+   (
+   <italic>
+    M. tuberculosis
+   </italic>
+   ) can survive in dormant form for years before getting active in humans, novel pathogens can wreak havoc as they pose a high risk of morbidity and mortality in a very short duration of time. Recently, a coronavirus strain SARS-CoV-2 has caused a pandemic which provides us an opportunity to look at the host manipulative strategies used by respiratory pathogens. Their ability to hide, modify, evade, and exploit cell’s processes are key to their survival. While pathogens like
+   <italic>
+    M. tuberculosis
+   </italic>
+   have been infecting humans for thousands of years, SARS-CoV-2 has been the cause of the recent pandemic. Molecular understanding of the strategies used by these pathogens could greatly serve in design of predictive, preventive, personalized medicine (PPPM). In this article, we have emphasized on the clinically relevant evasive strategies of the pathogens in the lungs with emphasis on
+   <italic>
+    M. tuberculosis
+   </italic>
+   and SARS-CoV-2. The molecular basis of these evasive strategies illuminated through advances in genomics, cell, and structural biology can assist in the mapping of vulnerable molecular networks which can be exploited translationally. These evolutionary approaches can further assist in generating screening and therapeutic options for susceptible populations and could be a promising approach for the prediction, prevention of disease, and the development of personalized medicines. Further, tailoring the clinical data of COVID-19 patients with their physiological responses in light of known host-respiratory pathogen interactions can provide opportunities to improve patient profiling and stratification according to identified therapeutic targets.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par2">
+     Respiratory infections cause millions of deaths throughout the world, as evidenced by the recent COVID-19 pandemic that is associated with over 1.1 million deaths by October 2020 (
+     <ext-link ext-link-type="uri" ns0:href="https://www.worldometers.info/coronavirus/">
+      https://www.worldometers.info/coronavirus/
+     </ext-link>
+     ). Throughout human history, pathogens have significantly afflicted humanity in the form of plague, malaria, tuberculosis, and respiratory infections. By comparison, respiratory infections in the form of tuberculosis or flu infections are associated with the highest rates of deaths. It is natural to believe that lungs, the organ of gaseous exchange, are constantly bombarded by thousands of pathogens, noxious compounds, and harmless matter. Exploration of the interactions between these environmental assaults and human tissues can greatly improve the understanding of health and diseased conditions of humans.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Evolutionary dynamics of host-pathogen interaction
+    </title>
+    <p id="Par3">
+     According to a study, 100,000 bacteria per liter of air are present in a city environment and an average person inhales 10,000 l of air in a day [     ]. How does the airway and lung combat this constant attack of matter and microbes? How does it differentiate harmless from toxic? As the world is currently undergoing a COVID-19 pandemic, it provides us with an opportunity to revisit these mechanisms along with diverse strategies of pathogens through the lens of evolution. In this review article, we will start with the evolutionary dynamics of the host-pathogen arm’s race, which is the constant driver of immune diversity in humans. Further, we will discuss mechanisms through which pathogens overcome these barriers in innovative ways. Later, co-evolved strategies of the host-pathogen interaction in bacteria, fungi, and viruses will be discussed with a specific focus on
+     <italic>
+      M. tuberculosis
+     </italic>
+     (being one of the oldest pathogens of humans) and respiratory viruses with a focus on SARS-CoV-2 (the cause of recent pandemic). Since the COVID-19 patients have shown diversed clinical manifestations and have varied response to treatments, understanding these host-pathogen interactions can assist in the identification of clinically useful targets and pathways (Fig.     ) to assist in improved patient stratification and to develop personalized medical profile for treatment.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec3">
+    <title>
+     Red queen concept of host-pathogen evolutionary dynamics
+    </title>
+    <p id="Par4">
+     The battle between humans and pathogens has shaped each other’s features throughout evolution. To fit in the environment, species work under pressures induced by environmental, pathogenic, and dietary stresses which need constant adaptation by the host. This requirement for continuous adaptation for survival does not translate into an increase in reproductive fitness yet is the central concept in evolutionary studies. For this phenomenon, the term “Red queen dynamics” has been coined for the host-pathogen arms race whereby pathogen and host constantly co-evolves for their survival [     ]. In Lewis Carroll’s “Alice in The Wonderland- Through the looking glass”, the red queen and Alice keep on running without reaching anywhere. It is said that “...it takes all the running you can do, to keep in the same place”. Analogously, it was proposed by Leigh Van Valen that species co-evolve as they compete with pathogens and enemies but never increase their fitness as any advantage in the form of an adaptation is matched by a counter-adaptation [     ]. Similarly, an analogy of “arms race” is developed from military vernacular where any progress in arms development is closely equaled by the countries in a quest to stay ahead of others. In the context of biology, pathogens adapt rapidly and have a small lifespan whereas, organisms such as humans have a long lifespan but adapt slowly. Although humans and pathogens are at two extremes, they share a unique characteristic which balances this struggle for survival. Pathogens are very quick and evolve rapidly to create diversity. On the other hand, immune system’s deployment of mediators of innate and adaptive immune response with massive combination such as 10     unique antibodies plays a significant role in tackling pathogens.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec4">
+    <title>
+     Molecular mimicry strategies of host evasion
+    </title>
+    <p id="Par5">
+     Another phenomenon through which pathogen can increase its survival is through “molecular mimicry.” The influenza virus depicts an interesting example regarding “genomic mimicry.” Over many generations, the influenza virus reduced the frequency of CpG dinucleotides to levels comparable to human hosts [     ]. Thus, RNA viruses under selective pressure have developed genomic features that are similar to their hosts. This mimicry prevents detection from the host’s innate immune system which recognizes foreign nucleic acids based on conserved motifs. Further, a diverse array of evolutionary adaptations has resulted in the selection of “mimic” or “decoy” molecules secreted by pathogens that evade host detection. A study has identified 100 potential mimicry relationship between pathogens and human proteins. The evolutionary mechanisms could be due to the sharing of genomic sequences through lateral transfer or independent convergent of parallel evolution. The utilization of mimic molecules is evolutionary successful for pathogen as it can regulate the host’s response to increasing its survival [     ]. Pathogenic mimic molecules resemble the host’s functional molecules essential in the extracellular matrix, cell adhesion, metabolism, and immune signaling [     ]. Cytomegalovirus produces UL97 protein, an ortholog of cyclin-dependent kinase, that stimulates the cell cycle via phosphorylation of Retinoblastoma protein [     ]. Another cytomegalovirus clinical strain Toledo has microRNA expressed from the viral genome which targets regulated on activation, normal T cell expressed, and secreted (RANTES) mRNA and leads to its degradation [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec5">
+    <title>
+     Evolutionary strategies for the virulence and transmission of the pathogen
+    </title>
+    <p id="Par6">
+     The pathogen aims to succeed in virulence and transmission. It secretes toxins, damages the cell properties, exploits nutrients, to develop virulence. The host-pathogen interaction is played by two factors. The pathogen with high virulence will kill the host whereas a pathogen with reduced damage to the host, might evade immune response which can lead to better transmission which is quantified as R
+     <sub>
+      0
+     </sub>
+     . R
+     <sub>
+      0
+     </sub>
+     , a basic reproduction number that denotes the number of secondary infections from a primary source of infection. R
+     <sub>
+      0
+     </sub>
+     is a critical estimation of disease transmission throughout a population. An infection with R
+     <sub>
+      0
+     </sub>
+     &lt; 1 has a transmission potential of less than one person and is expected to be stopped from spreading. SARS-CoV has an estimated R
+     <sub>
+      0
+     </sub>
+     of 2.5 (range 1.8–3.6) compared to R
+     <sub>
+      0
+     </sub>
+     of 1.5 of the 2009 influenza pandemic, and R
+     <sub>
+      0
+     </sub>
+     of 12–18 for measles [     ,     ]. The pathogens at two extremes are termed as “killer-like” as the relatively short duration of disease causes these pathogens to reproduce at a much rapid rate. Comparably, the “milker-like” strategy is visible when pathogen reproduces slowly with less damage to the host [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec6">
+    <title>
+     Genetic diversity in
+     <italic>
+      Homo sapiens
+     </italic>
+     and pathogenic pressure
+    </title>
+    <p id="Par7">
+     The genetic diversity of
+     <italic>
+      Homo sapiens
+     </italic>
+     has imprints of past conflicts with pathogens. The environment, diet, climate, and pathogens have shaped allelic frequency in humans. It was found out that pathogenic diversity is the best predictor of allelic frequency single nucleotide polymorphism (SNP) [     ]. Throughout human evolution, genes related to innate immunity genes have undergone purifying selection indicating their essentiality. The period of Neolithic transition, characterized by a shift from a hunter-gatherer lifestyle to a farming lifestyle, was associated with the highest variations in genes of innate immunity [     ]. Further in humans, 1/3rd of mutations in conserved proteins are due to evolutionary pressure by viruses [     ]. Pathogens have shaped the evolution of mammals for millions of years. Viruses have been the predominant drivers of adaptation in humans. Modern humans have shared their existence with other hominins until 30–40 thousand years ago. There have been periods of hybridization between ancient hominins like Neanderthals and Denisovans and ancestors of modern-day humans. The modern-day non-African humans share 2% ancestry from Neanderthals and populations of Melanesian descent share 2–5% ancestry from Denisovans [     ]. It is believed that these interchanged genomic regions or “introgressed sequences” might have played an important role in the adaptation and diversity of modern humans. The utilization of advanced genomics on ancient tissue samples of Neanderthals has shed light on the evolution of the immune system. The segments of the Neanderthal gene which are present in humans are predominantly virus interacting proteins (VIPs) interacting with RNA viruses [     ]. From the immunological perspective, innate immune genes are under strong purifying selection. Pathogen recognition receptors such as TLRs, NLRs, MYD88, TRIF, type-I IFN, and IFN-γ are part of a battery of immune mediators which contributes to immune response. In the human genome, 200 immunity-related genes have shown positive selection [     ]. This highlights the benefit of these variants in coping with pathogenic pressure [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec7">
+    <title>
+     Antigenic diversity of pathogens
+    </title>
+    <p id="Par8">
+     While the evolution of the host’s ability to detect Pathogen associate molecular patterns (PAMPs) gives them an advantage against pathogens, co-evolution by pathogens resulted in strategies to overcome these barriers. One of the most significant features which make infectious agents more virulent is the generation of antigenic variation in the form of alterations in surface proteins and carbohydrate moieties. Pathogens can generate antigenic diversity that can evade the host’s immune response [     ]. The viruses have an extraordinary ability to generate antigenic diversity which is only matched by the ability of the human body to generate antibodies. The genomic information of 10     antibodies and rearranged T cell receptor increases the information present in the genome by four-fold [     ]. This huge diversity of antigen recognition plays a significant role in combating pathogens and toxins. The antibody generation is a part of cell-mediated immunity which plays its part after a primary immune response has been activated. The evolution of antibody diversity is equally interesting. The evolution of V(D)J recombination for antibody diversity has roots in retroelements. It has been thought that retrotransposons played a critical role in the origin and development of V(D)J recombination which later developed in full-fledged antibody generation machinery. V(D)J recombination of antibody diversity might be the result of the insertion of jumping genes or transposons into the genome of vertebrates. There have been many pieces of evidence that hint in that direction. The structure of
+     <italic>
+      RAG
+     </italic>
+     locus and RSSs resembles transposable elements. A model exists whereby transposons with
+     <italic>
+      RAG
+     </italic>
+     genes with RSS ends transposed in the primordial antigen receptor gene in the genome of prehistoric vertebrates. Throughout evolution, transposons got removed and RSSs were present, and duplications, transpositions, and mutations gave rise to TCR and BCR loci of modern mammals [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec8">
+    <title>
+     Strategies of the immune cells to detect and neutralize pathogens
+    </title>
+    <p id="Par9">
+     How do the innate immune cells communicate with the adaptive immune cells? The human immune system has evolved various strategies to detect and neutralize foreign invaders. Major histocompatibility complex (MHC) receptors play a vital role in transferring the immune response to the adaptive immune system. MHC receptors are an array of protein receptors present on the cells which present peptides of abnormal or pathogenic origin to T cell receptors for initiation of the humoral immune response [     ]. All the cells in the human body except erythrocytes possess MHC class I, which presents antigens to T cytotoxic cells. Abnormal proteins of intracellular pathogens are presented by MHC class I to T cytotoxic cells to generate cell-mediated immune responses. The antigen-binding sites on the MHC are essential for binding to the antigens and are strongly preserved through natural selection. These genes showcase balancing selection with the highest polymorphism observed in the human population with the highest of 499 alleles of HLA-B loci alone [     ]. The polymorphism of MHCs is correlated with pathogenic diversity for the antigen-binding sites [     ]. Another type of MHC is denoted as MHC class II which is present on antigen-presenting cells (APCs). APCs like macrophages and dendritic cells uptake the antigen, perform antigenic processing, and present epitopes for T cell activation. The innate and adaptive immune responses communicate seamlessly to protect hosts.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec9">
+    <title>
+     Evolutionary conserved strategies for extracellular and intracellular detection of pathogens by human body
+    </title>
+    <p id="Par10">
+     Microbes express or secrete molecules that are not produced by eukaryotic cells. These molecular signatures or microbial “nonself” patterns of the microbes are detected by the host’s immune system. Pattern recognition rectors (PRRs) are a set of evolutionarily conserved proteins that are expressed by macrophages, neutrophils, dendritic cells, and epithelial cells that are continuously exposed to microbial infiltrating locations. Toll-like receptors (TLRs) and C-type lectins (CTLs) probe the extracellular and endosomal membranes for pathogen-associated molecular patterns (PAMPs). The TLRs are evolutionary conserved and have been found to play role in host defense of animals and plants. The name Toll is derived from the dorsal-ventral axis of drosophila. There are at least ten identified TLRs in human which identify a battery of foreign signatures. These TLRs can identify diverse types of microbial ligands for example TLR1, TLR2, and TLR6 identifies lipoprotein, TLR3 identifies dsRNA, TLR9 unmethylated CpG DNA, and TLR5 recognizes flagellin [     ]. The microbial sequences PAMPS which are detected by TLRs are evolutionarily constrained with very little flexibility to evolve. TLR5 targets highly conserved regions of flagellin protein essential for bacterial motility. Mutation in these regions is not possible for bacteria as they are essential for motility, providing an adaptive advantage for the host [     ]. Apart from the establishment of sensors on the cell surface, the interior of the cells is equally armed with sensors in the event of a breach of the cell membrane. DNA sensors like DNA-dependent activator of IRFs (DAI) and absent in melanoma 2 (AIM2) and RNA sensors like retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated protein 5 (MDA-5) are present for intracellular detection of pathogens. Further, nucleotide-binding domain, leucine-rich repeat-containing (NOD-like) receptors identify intracellular PAMPS and generate inflammatory response especially with activation of interleukin 1β (IL-1β) [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec10">
+    <title>
+     Protective mechanisms of human lungs: the battleground of pathogenic assaults
+    </title>
+    <p id="Par11">
+     The respiratory system evolved for the efficient exchange of gases, predominantly the intake of oxygen and the release of CO
+     <sub>
+      2
+     </sub>
+     . The system involves the upper respiratory tract which includes the nasal cavity to the larynx. The airway tract is made up of trachea, bronchi, bronchioles, and alveoli. The alveoli have the largest surface area exposed to the external environment. Humans have evolved an immune system capable of dealing with the outside threat without any compromise to the normal functioning of respiration. Along with the air, a vast amount of aerosol also passes through the lungs exposing lung tissues to bacteria and viruses. As life evolved on the land, the constant exposure to the environment led to the evolution of strategies which endowed lungs to differentiate between harmful and innocuous materials and respond to these threats. Lungs possess the first line of defense which can mount a very effective innate immune response against pathogens. The complex interactions of the innate immune response with infiltrating immune cells decide the outcome of the host-antigen interaction.
+    </p>
+    <p id="Par12">
+     First, a broad barrier to the inhaled particles and toxins is the mucociliary system which expels it out of the airway tract. Smaller particles and some microbes and viruses can escape the mucous entrapment and can get deposited deeper up to the alveolar surface. The alveolar surface of the lung is huge with an approximate size of 140 m     of which 93% of cells are type II pneumocytes. Type I pneumocytes are squamous cells that perform the gas exchange and transport of fluids. Type II produces surfactants, cytokines, and enzymes [     ].
+    </p>
+    <p id="Par13">
+     The epithelial tissue of the respiratory system plays an important role as the first line of defense against foreign particles and pathogens. The pulmonary epithelial membrane forms a tight junction which forms an impenetrable layer for microbes and noxious materials. The ciliated cells in the epithelium constantly throw mucous or any trapped particles upwards away from the lungs. Specifically, ciliated columnar cells perform the mechanical movement as hundreds of cilia which moves in a concerted fashion to throw mucous trapped with dust and microbes to the throat. The epithelium lining includes several secretory cells with different functions. The fluids and mucous in the airway linings prevent the growth of bacteria due to the presence of lysozyme, lactoferrin, complement system, and antimicrobial proteins. Lysozyme causes hydrolysis of peptidoglycan rich bacterial membranes. Lactoferrin sequesters free iron and negatively affect its availability for bacterial metabolism. Collectins (SP-A SP-D) assist in phagocytosis by macrophages. Goblet cells secrete mucous that covers the lining of airway tracts. Club cells and other secretory cells perform an immunomodulatory function. They perform biotransformation whereby they are involved in detoxification using cytochrome P450 and other monooxygenases [     ]. Basal cells with the high mitotic potential to replace the epithelial lining. Brush cells are the regulator of type 2 immune response. Other cells include neuroendocrine cells, monocytes which play a significant role in smooth muscle functioning and mucous production respectively [     ]. When a pathogen triggers PAMP, these epithelial cells produce a range of pro-inflammatory cytokines and chemokines to attract neutrophils and macrophages.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec11">
+    <title>
+     Innate and adaptive immunity
+    </title>
+    <p id="Par14">
+     When infection with bacteria, viruses, or fungi is detected, the epithelial cells, alveolar macrophages, and dendritic cells generate a primary wave of an immune response. These cells in the lungs secrete several cytokines and chemokines which can interact with immune cells. They express pattern recognition receptors (PRRs) like RIG-I-like receptors (RLRs), Toll-like receptors (TLRs), and nucleotide oligomerization domain (NOD)­like receptors (NLRs). The PAMPs are recognized by PRR which are present on the surface and inside the cell. TLRs identify on the surface. Intracellular PRRs like MDA5 and RIG-1 recognizes double-stranded RNA which are products of viral origin as the mammalian RNA is capped. In an event of detection downstream signaling with pro-inflammatory type I and type III interferon response, the subsequent interferon-stimulated genes curbs the infection and assists in the initiation of the adaptive immune response. Most importantly, trained immunity has been observed in cells of innate immunity like macrophages whereby epigenetic changes are made. These differences are not genetic, cannot be inherited as it does not involve mutation and recombination. Instead, these immune cells become “trained” which respond more effectively on subsequent exposure to the pathogen [     ]. In a study, it was found that alveolar macrophages (AM) have “trained immunity” against adenoviral infection, high MHC II expression, high glycolysis, and chemokine production. The IFN-γ producing CD8+ T cells play a role in the priming of these cells, but the maintenance is independent of T cell influence. Memory AM plays an important role in subsequent exposure by rapidly secreting chemokines and neutrophil attraction. These observations have challenged the accepted dogma of the conventional direction of the immune process from innate-to adaptive [     ]. Similarly, Memory B cells have been found to generate a rapid response to influenza infection upon secondary infection [     ].
+    </p>
+    <p id="Par15">
+     Alveolar macrophages form the bulk of leukocytes in the lungs and the presence of neutrophils and leukocytes is less than 5%. Normally, monocytes originate from the bone marrow hematopoietic stem cells which remain in circulation and transform into macrophages. Comparatively, alveolar macrophages arise from yolk sac progenitor cells without any major contribution from the circulating monocytes [     ]. These have a remarkable capacity for self-renewal, which is the primary source of replenishment throughout life. Under steady conditions, macrophages clear particulates and cellular debris from the airways. There is a constant input of negative stimuli from epithelial cells to prevent the activation of these macrophages. TGFβ, IL10, and CD200 play a significant role in this mechanism [     ]. Macrophages can blunt the inflammatory signaling in epithelial cells as it was shown that SOCS1 secreted by macrophages in the exosomes and was endocytosed by epithelial cells [     ]. Further, macrophages with TGFβ and retinoic acid can also convert naïve or activated T cells to FoxP3     regulatory T cells. The communication between epithelial cells and macrophages and the generation of T
+     <sub>
+      reg
+     </sub>
+     cells limits immune induced damage [     ]. Innate lymphoid cells are innate immune cells that are flexible and their function ranges from tissue repair to generation of protective immunity.
+    </p>
+    <p id="Par16">
+     Interaction of different immune cells plays a critical role in generation and maintenance of adaptive immune response. Once dendritic cells as professional antigen-presenting cells, phagocytose pathogens move toward the lymph node to initiate cell-mediated immune response. Dendritic cells present processed antigens to specific naïve T cells which then clonally expand to give rise to thousands of cells. These cells can form part of central memory T cells (T
+     <sub>
+      CM
+     </sub>
+     ) or effector memory T cells (T
+     <sub>
+      EM
+     </sub>
+     ). T
+     <sub>
+      EM
+     </sub>
+     cells can further diversify into effector cells that interact in concert with other immune cells and secrete immunomodulatory molecules like IFN-γ or IL-17 to mount an immune system against the pathogens [     ]. Further, some of the T cells acquire characteristics that lead to the formation of tissue-resident T memory cells (T
+     <sub>
+      RM
+     </sub>
+     ) which has shown to play a critical role in maintaining long-term immune response [     ]. T
+     <sub>
+      RM
+     </sub>
+     cells are present in healthy lungs and can respond to the external threat quickly. T
+     <sub>
+      RM
+     </sub>
+     cell interaction with T cells also generates sustained antibody response against respiratory pathogens [     ]. The innate and adaptive immune cells function in concert to neutralize pathogens and rapid response against the same threats due to memory cells to prevent against subsequent infections.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec12">
+    <title>
+     Healthy lung microbiota
+    </title>
+    <p id="Par17">
+     A normal healthy respiratory tract provides a niche to certain microbes that are in a commensal or symbiotic relationship with the human body. In general, there are 10     human cells inside the body with corresponding 10-fold high unicellular organisms (bacteria, fungi, archaea). Humans have 100 trillion cells and commensal microbes are present at 10-fold higher numbers than cells in the body [     ]. Although most of the commensals are present in the GI tract, lungs also have their microbiota. Commensal microbes utilize several tactics to resist the growth of pathogenic organisms through several strategies.
+     <italic>
+      S. salivarius
+     </italic>
+     blocks the adhesion sites of
+     <italic>
+      S pneumoniae
+     </italic>
+     and produces bacteriocins to prevent its growth [     ,     ].
+     <italic>
+      Staphylococcus lugdunensis
+     </italic>
+     produces an antibiotic named lugdunin which significantly competitively excluded colonization of
+     <italic>
+      S. aureus
+     </italic>
+     [     ]. Therefore, lung microbiota also plays a significant part in shaping the immune system by influencing immune tolerance and activation of immune cells [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec13">
+    <title>
+     Manipulative strategies of respiratory pathogens
+    </title>
+    <p id="Par18">
+     Viruses, bacteria, and fungi can cause infection in humans. Although the human immune system is capable of handling infections certain predispositions like age, immune-compromised state due to organ transplantation, or HIV increases the risk of complications associated with these microorganisms. Nevertheless, these pathogens have evasive strategies that make them successful at infecting humans (Fig.     ). Viruses are obligate intracellular parasites and depend on the host’s machinery for survival. They can shut off the host’s transcription, hide inside double-membrane vesicles, and prevent the expression of antiviral genes among many others. The evasive strategies of common respiratory pathogens are discussed in Table     . Although microbes have developed different ways of manipulating and exploiting host cells, few of them show similarities in interaction with the host. Among these,
+     <italic>
+      M. tuberculosis
+     </italic>
+     is one of the oldest and remains one of the deadliest vectors of higher mortality and shows similarity in host interaction with SARS-CoV-2 [     ]. Therefore, it is essential to discuss
+     <italic>
+      M. tuberculosis
+     </italic>
+     pathogenesis before moving into a recent pandemic by SARS-CoV-2.
+     <table-wrap id="Tab1">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Different respiratory pathogens and their evasive strategies. Although the human immune system is capable of handling infections, some pathogens have developed successful strategies to infect the lungs. They can either hijack host cellular machinery, or they can shut off the host’s transcription, or hide inside double-membrane vesicles, or prevent the expression of antiviral genes among many others. The evasive strategies of common respiratory pathogens are discussed in the given table in alphabetical order
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Pathogen
+         </th>
+         <th>
+          Evolutionary evasive strategies
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td colspan="2">
+          Viruses
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Adenoviruses
+         </td>
+         <td>
+          Prevents expression of MHC II, perturbs intracellular trafficking pathways, and inhibits internalization of TNFR1 to prevent apoptosis [          ,          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Coronavirus
+         </td>
+         <td>
+          Shutting down of host gene expression, capping viral RNA, and degradation of p53 to prevent apoptosis [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Cytomegalovirus
+         </td>
+         <td>
+          Generates decoy cytokine receptors which act as cytokine sink reducing the concentration and dampening of the host’s inflammatory response [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Epstein-Barr virus
+         </td>
+         <td>
+          Inhibits production of IFN-A -antiviral cytokine, resistance to apoptosis [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Influenza virus
+         </td>
+         <td>
+          To evade the host’s viral sensing mechanisms, the virus performs transcription and replication in the host’s nucleus. Further, it does cap-snatching to steal short 5’capped transcripts to prime viral transcription [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Parainfluenza virus
+         </td>
+         <td>
+          Human parainfluenza virus (hPIV-3) upregulates the expression of immunosuppressive cytokine IL-10, downregulates T cell proliferation, and apoptosis [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Respiratory syncytial virus (RSV)
+         </td>
+         <td>
+          Decreases the translational efficiency of the host’s innate immune molecules like surfactant protein A [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Rhinovirus
+         </td>
+         <td>
+          Shuts-off host’s cap-dependent protein synthesis machinery by cleaving the translation initiation factor. Meanwhile, viral translation remains unaffected as it depends on internal ribosomal entry sites (IRES) [          ].
+         </td>
+        </tr>
+        <tr>
+         <td colspan="2">
+          Bacteria
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Chlamydia pneumonia
+          </italic>
+         </td>
+         <td>
+          Degradation of the host’s proteins to avoid detection [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Coxiella Burnetii
+          </italic>
+         </td>
+         <td>
+          Generation of the protective parasitophorous vacuole (PV) which prevents oxidative and nitrosative stress [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Haemophilus influenzae
+          </italic>
+         </td>
+         <td>
+          P5 protein secreted by
+          <italic>
+           Haemophilus influenzae
+          </italic>
+          binds to CD66 or CEACAM1 receptor leading to immune suppression [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Klebsiella pneumoniae
+          </italic>
+         </td>
+         <td>
+          Subversion of phagocytosis by neutrophils and macrophages [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Legionella pneumophila
+          </italic>
+         </td>
+         <td>
+          Hijacks ER-derived membrane for replicating structures and interferes with autophagy [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Mycobacterium tuberculosis
+          </italic>
+         </td>
+         <td>
+          Prevents phagosome acidification and phagolysosomal fusion in macrophages [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Mycoplasma pneumoniae
+          </italic>
+         </td>
+         <td>
+          Reduction in expression of capsular polysaccharides, higher capacity to adhere, and invade epithelial cells [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Neisseria gonorrhoeae
+          </italic>
+         </td>
+         <td>
+          Active extrusion of cationic antimicrobial peptide (CAMP) is by MtrCDE efflux pumps present in
+          <italic>
+           Neisseria gonorrhoeae
+          </italic>
+          [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Pseudomonas aeruginosa
+          </italic>
+         </td>
+         <td>
+          Secretes exopolysaccharides and proteases which impairs the host’s immunity and degrades cytokines, chemokines, and antimicrobial peptides [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Staphylococcus
+          </italic>
+          spp.
+         </td>
+         <td>
+          Evasion of host’s antimicrobial peptides (AMP) through reduction of negative charge on the surface thus deflecting CAMPs. Secretes proteases to degrade human AMP [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Streptococci
+          </italic>
+          spp.
+         </td>
+         <td>
+          Interference in complement activation [          ] .
+         </td>
+        </tr>
+        <tr>
+         <td colspan="2">
+          Fungi
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Aspergillus
+          </italic>
+          spp.
+         </td>
+         <td>
+          Aspf2 secreted by
+          <italic>
+           A. fumigatus
+          </italic>
+          reduces complement activation [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Blastomyces dermatitidis
+          </italic>
+         </td>
+         <td>
+          Inhibition of nitric oxide production [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Candida albicans
+          </italic>
+         </td>
+         <td>
+          Generation of biofilm to resist antifungal activity, production of asteroid bodies to trap IgGs and IgMs [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Coccidioides
+          </italic>
+         </td>
+         <td>
+          The secretion of metalloproteinase by
+          <italic>
+           Coccidioides posadasii
+          </italic>
+          degrades immunogenic cell surface antigen which leads to failure in detection by the host [          ].
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <italic>
+           Histoplasma capsulatum
+          </italic>
+         </td>
+         <td>
+          Degradation of reactive oxygen species (ROS) and modulation of phagolysosomal fusion [          ].
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec14">
+    <title>
+     Pathogenesis and manipulation by the ancient of all the foes:
+     <italic>
+      Mycobacterium tuberculosis
+     </italic>
+    </title>
+    <p id="Par19">
+     <italic>
+      Mycobacterium tuberculosis
+     </italic>
+     (
+     <italic>
+      M. tuberculosis
+     </italic>
+     ) is one of the oldest pathogenic organisms at nearly 3 million years old which overlaps with early hominins [     ].
+     <italic>
+      M. tuberculosis
+     </italic>
+     has been one of the deadliest diseases in the past and contributed to 20% of all human deaths between the seventeenth and nineteenth centuries and kills around 1.5 million individuals alone in 2018. Whole-genome analyses identified that the
+     <italic>
+      M. tuberculosis
+     </italic>
+     complex emerged around 70 k years ago and accompanied humans which moved out of Africa [     ]. The co-evolution between
+     <italic>
+      M. tuberculosis
+     </italic>
+     and humans has resulted in partial immunity whereby survival of host and pathogen is high from the beginning as
+     <italic>
+      M. tuberculosis
+     </italic>
+     lacks many signature properties of other pathogenic bacteria infecting lungs, including lack of capsule, adhesins, and flagella for motility. While other bacteria like streptococci and
+     <italic>
+      Corynebacterium diphtheriae
+     </italic>
+     adhere to the nasopharynx and cause symptoms of infection,
+     <italic>
+      M. tuberculosis
+     </italic>
+     travels in small droplets to reach lower alveolar spaces of the lung. As the endogenous microbiota biomass decreases from the upper tract to the lower tract, it can partially explain the strategy of other pathogens that have to compete with other commensals whereas, very few commensals reside in the lower lung [     ].
+     <italic>
+      M. tuberculosis
+     </italic>
+     infects macrophages, the innate immune phagocytic cells compared to epithelial cells. This gives them the advantage to reach the tissue that others can barely reach, achieve latency, and get activated when the right conditions emerge. In a study, tuberculosis was found to reappear after decades of initial infection [     ]. Pathogenic mycobacteria can survive and replicate in amoeba, and the factors needed for survival may overlap between macrophages and amoeba [     ]. The evolutionary origins of
+     <italic>
+      M. tuberculosis
+     </italic>
+     infecting the macrophages are thought to be an extension of the ancient survival of
+     <italic>
+      M. tuberculosis
+     </italic>
+     in free-living amoeba. The pathogen has one of the most elaborative escape mechanisms. It has a latency of decades before reactivating in immunocompromised patients. Ancients strains of
+     <italic>
+      M. tuberculosis
+     </italic>
+     have been living in dangerous environments for survival and they use several strategies to evade host’s wrath.
+     <italic>
+      M. tuberculosis
+     </italic>
+     prevents phagolysosomal fusion and survives in non-acidified endosomes but bacteria can break out of the endosome and reside in the cytosol.
+    </p>
+    <p id="Par20">
+     <italic>
+      M. tuberculosis
+     </italic>
+     manipulation and evasive tactics exist at several levels. Lipoarabinomannan, a mycobacterial glycoprotein, has been known to affect macrophage immune response. It scavenges free oxygen in the macrophages and limits transcription of IFN-γ regulated genes to aid in
+     <italic>
+      M. tuberculosis
+     </italic>
+     survival [     ]
+     <italic>
+      .
+     </italic>
+     Further,
+     <italic>
+      M. tuberculosis
+     </italic>
+     interferes with signal transduction by altering the cAMP production in the cell. Cytokine expression and synthesis of other immune effectors is dependent on the synthesis of second messengers. Cyclic nucleotides (cAMP and cGMP) are second messenger molecules that connect extracellular signals to downstream gene expression. In macrophages, cAMP stimulates protein kinase A which leads to phosphorylation of cAMP response element-binding protein (CREB) and downstream expression of cytokines. Pathogens have evolved to alter the concentration of cAMP in the host cells by disrupting host cells adenylate cyclase, the enzyme required for cAMP production or secretion of adenylate cyclase exotoxins. One of these toxins secreted by
+     <italic>
+      Bordetella pertussis
+     </italic>
+     gets activated inside the host cell by calmodulin to promote the synthesis of cAMP [     ].
+     <italic>
+      M. tuberculosis
+     </italic>
+     genome contains 17 adenylate cyclase genes among which at least 1 is essential for the pathogenesis of tuberculosis.
+     <italic>
+      M. tuberculosis
+     </italic>
+     intoxication of the host cell’s with bacterially derived cAMP alters the host’s immune cell function by early secretion of TNF-α. Although lower quantities of TNF-α are known to contain higher
+     <italic>
+      M. tuberculosis
+     </italic>
+     concentration leads to the formation of necrotic granuloma providing a conducive environment for bacterial growth and dissemination [     ]. Granulomas are aggregates of fibroblasts, immune cells. They are one of the hallmarks of tuberculosis. They were thought to contain the infection, but recent pieces of evidence have suggested that they can assist in survival
+     <italic>
+      M. tuberculosis. M. tuberculosis
+     </italic>
+     infected macrophages coax surrounding epithelial cells to secrete metalloproteinase-9 (MMP-9) which enhancing the infiltration of macrophages in granuloma [     ]. The modulation of the immune program in macrophages and the exploitation of epithelial cells for the influx of more macrophages assist in the survival and niche expansion of
+     <italic>
+      M. tuberculosis
+     </italic>
+     .
+     <italic>
+      M. tuberculosis
+     </italic>
+     selectively infects permissive macrophages compared to microbicidal macrophages. It uses phthiocerol dimycoceroserate (PDIM) lipids to mask pathogen-associated molecular patterns (PAMPs) to escape immune recognition [     ]. Once the pathogen is endocytosed, there is a process of its fusion with lysosome which destroys the pathogens through acidification of these membranes.
+     <italic>
+      M. tuberculosis
+     </italic>
+     inhibits this maturation of phagolysosome through the secretion of proteins- Early secretory antigenic target (ESAT-6) and ATP1/2 which prevent the decrease in pH by inhibiting the accumulation of GTP enzymes [     ].
+     <italic>
+      M. tuberculosis
+     </italic>
+     thus prevents the acidification of phagosomes and enhances its survival in the macrophages.
+    </p>
+    <p id="Par21">
+     <italic>
+      M. tuberculosis
+     </italic>
+     modulates cell death of macrophages to increase its dissemination potential. This is achieved by balancing two common modes of cell death, apoptosis, and necrosis. Apoptosis is programmed cell death whereby; the outcome is small apoptotic vesicles. These vesicles are endocytosed by dendritic cells which generate a cell-mediated immune response. Attenuated
+     <italic>
+      M. tuberculosis
+     </italic>
+     induces apoptosis in the infected macrophages which leads to cross-priming of T cytotoxic cells leading to mycobacterial growth. On the other hand, pathogenic
+     <italic>
+      M. tuberculosis
+     </italic>
+     balances cell death in favor of necrosis which leads to intracellular dissemination of
+     <italic>
+      M. tuberculosis
+     </italic>
+     which during rupture of infected macrophage infects other macrophages [     ]. SigH, a stress response factor, assists in the survival of
+     <italic>
+      M. tuberculosis
+     </italic>
+     in inhibiting redox, heat-shock, acidic and hypoxic conditions by regulating the expression of nearly 700
+     <italic>
+      M. tuberculosis
+     </italic>
+     genes. SigH regulon modulates the host immune system by reducing clearance by immune cells, extend
+     <italic>
+      M. tuberculosis
+     </italic>
+     survival and replication in the lungs. The pro-inflammatory environment in the lungs is countered by these downstream genes, the target being COX2 which interferes with the p53 dependent apoptosis [     ]. Thus,
+     <italic>
+      M. tuberculosis
+     </italic>
+     has inherited a unique mechanism for survival which includes modulation of phagosome maturation, modulation of necrosis of host cells for dissemination, downregulation of immune gene expression, and formation of granuloma for the spread of disease.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec15">
+    <title>
+     Viruses: smallest biological entities with massively manipulative features
+    </title>
+    <sec id="Sec16">
+     <title>
+      Manipulating features of virus
+     </title>
+     <p id="Par22">
+      When a virus with RNA as a genetic material enters human cells, its double-stranded RNA is detected by immune cells as a eukaryotic cell does not produce it. To circumvent detection, viruses evolved a double-membrane structure to shield their replication [      ]. CoVs (Coronaviruses) and rhinoviruses generate double-membrane vesicle (DMV) or replication organelles (RO’s) specifically for this purpose. Nonstructural proteins encoded by the CoV genome, Nsp3, and nsp4 form hydrophobic peptides which create membrane-bound vesicles [      ]. The fact that these viruses can form a DMV does not shield them from the innate immune system as it has developed mechanisms to recognize these structures. Guanylate-binding proteins (GBPs) can bind to these replication organelles to produce type-I and type III interferon response to inhibit viral infection [      ]. The influenza virus avoids detection by shifting its replication inside the nucleus. It was believed that RNA sensors like RIG or TLR are absent in the nucleus, which could be the reason, but recent observations have indicated that RIG-1 can also get activated inside the nucleus [      ]. As a result, downstream signaling produces IFN-1 against the virus which prevents further infection [      ]. Here, we see that both viruses and hosts have developed continuous arms race mechanisms.
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      Evasive strategies of the viruses
+     </title>
+     <p id="Par23">
+      Viruses also protect their 5′-terminus to prevent detection by the host system. These strategies involve, using a structure that mimics a 5′-cap, stealing short transcript from the host, or encoding a cap structure from the RNA viral genome. Rhinovirus produces VPg protein which attaches to 5′ end. It uses an internal ribosomal entry site (IRES) and does not depend on the cap structure for translation. Influenza viruses steal eukaryotic 5’capped transcripts to prime viral transcription. RSVs and CoV generate their cap structure. To avoid detection by MDA5 intracellular viral RNA sensor, and avoid damaging type-I interferon secretion, CoV encodes for an enzyme from nsp16 which adds 2’-O methylation of the cap structure [      ]. Viruses can also utilize its encoded viral endoribonuclease to cleave the host’s RNA to prevent transcription of innate antiviral immunity. Influenza virus secretes a novel protein, PA-X suppressed host protein synthesis through mRNA decay [      ]. Another pathway called nonsense mediated decay is activated in the cells to identify aberrant features and prime them for degradation. CoV mRNA is detected by NMD machinery for degradation. Further, this process is inhibited by the N protein of the CoV. Until the accumulation of a sufficient threshold of N protein NMD method can stall viral replication for a brief time [      ]. Further, SARS-CoV nsp1 binds to the 40S subunit of the ribosome to shut down all the mRNA translation in the cell. The complex of the 40S ribosome subunit and nsp1 also modified 5′ region of mRNA which degrades the mRNA [      ]. This two-pronged strategy suppresses future translation as well as degrades existing mRNAs translationally incompetent. How does CoV make sure that its RNA is not degraded? There is a difference in the structure of both eukaryotic and viral mRNAs. The presence of a 5′ end leader sequence prevents it from endonucleolytic cleavage and can additionally recruit the host’s proteins for protection from the cleavage [      ]. Interestingly, MERS-CoV has achieved the ability to specificity block the translation of the host’s protein whereas continuing its synthesis. The localization of SARS-CoV nsp1 is present only in the cytosol, while MERS nsp1 is also present in the nucleus. CoVs selectively target mRNAs that are actively being transported to the nucleus whereas preventing the cytosolic mRNAs so that virally encode RNA is transcribed [      ]. The proteinase encoded by rhinoviruses cleaves eIF4G to halt cap-dependent translation in the host’s cell [      ]. The translation of the viral RNA continues as it is dependent on the internal ribosomal entry site (IRES).
+     </p>
+     <p id="Par24">
+      One of the interesting feature of virus-host interaction is the formation of stress granules. It is a form of defensive tactics used by the cell which concentrates untranslated RNAs upon detection of a virus. PKR dependent phosphorylation of eiF2alpha stalls the translation in the cell and initiates the formation of stress granules. As all the RNAs from the viral and cellular origin are concentrated in a form of cytoplasmic foci, trapped viral RNAs can be detected through the host’s RNA sensors, RIG-1 and MDA5 [      ]. MERS-CoV encodes a 4a protein that binds to dsRNA from the virus and impedes protein kinase R (PKR) activation and formation of stress granules [      ]. Additionally, SARS-CoV expresses mimic in the form of papain-like protease (PLpro) which also acts as a deubiquitinating (DUB) enzyme [      ]. It has a similarity to the host’s HAUSP/USP7. SARS CoV’s PLpro physically interacts and stabilizes E3 ligase RCHY1 and leads to degradation of p53 which further can inhibit apoptosis [      ].
+     </p>
+    </sec>
+    <sec id="Sec18">
+     <title>
+      Features of SARS-CoV-2
+     </title>
+     <p id="Par25">
+      Coronavirus disease (COVID-19) is caused by SARS-CoV-2 which is the cause of global pandemic (
+      <ext-link ext-link-type="uri" ns0:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-">
+       https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-
+      </ext-link>
+      (covid-2019). Coronaviruses are positive-sense, single-stranded RNA viruses of the order
+      <italic>
+       Nidovirales
+      </italic>
+      and family
+      <italic>
+       Coronaviridae
+      </italic>
+      . It belongs to the genus beta-coronaviridae. Seven different coronaviruses have infected humans in the past, all of which crossed the species barrier and have an animal origin. Four of the coronaviruses (HCoV-NL63, HCoV-229E, HCoV-OC43, and HKU1) cause mild infections in children, elderly, and immunocompetent individuals [      ]. Three highly pathogenic species are SARS-CoV in 2003, MERS-CoV in 2012, and most recently SARS-CoV2 in 2019. SARS-CoV led to 774 deaths and MERS-CoV caused 858 deaths [      ]. SARS-CoV-2 has caused more than 1.18 million deaths worldwide as of 29 October 2020. These have caused severe respiratory syndromes in humans. The fatality rate of MERS-CoV was highest (34.4%), while SARS-CoV (9.5%) and SARS-CoV2 (2.3%) showed relatively lower mortality [      ].
+     </p>
+     <p id="Par26">
+      As an intracellular pathogen, coronavirus entry into the host cell is critical for viral replication. The viral membrane is constituted by transmembrane (M) protein, spike (S) protein, and envelope (E) protein [      ]. The spike (S) protein is the most critical component for the entry of coronavirus into the host cell. It is functionally composed of two subunits: bulb (S1) and stalk (S2). CoVs bind to cell surface enzymes for entry into the host cell. Angiotensin-converting enzyme 2 (ACE2) is a surface receptor for SARS-CoV and SARS-CoV-2 [      ]. Aminopeptidase N CD13 (APN) for HCoV-229E. MERS-CoV binds to Dipeptidyl peptidase 4 (DPP4), HCoV-OC43, and HCoV-HKU1 binds to 9-O-acetylated sialic acid [      ]. Once the S1 domain matches with the cognate receptor conformational changes in the S2 domain leads to the fusion of cellular and viral membrane thus, releasing nucleocapsid in the cytosol. Further, non-endosomal pathways are also used to enter the host cell. The host’s transmembrane protease serine 2 (TMPRSS2) causes cleavage of S1/S2 for activated S protein required for the fusion with the cell membrane [      ]. SARS-CoV-2 utilizes the ACE2 receptor to enter and TMPRSS2 to prime S protein. Due to their role in viral cell entry, TMPRSS2 inhibitor has been proposed as a treatment option for COVID-19 patients [      ].
+     </p>
+     <p id="Par27">
+      SARS-CoV and SARS-CoV2 S1 protein contain a receptor-binding domain (RBD) which recognizes the ACE-2 receptor. The RBD has 2 conformations- its standing-up position is essential for receptor binding, while the lying-down position helps in evasion of the immune system. RBD structures although look similar but have evolved distinct variations as revealed by crystallography [      ]. Receptor-binding domains (RBD) of SARS-CoV have been studied structurally between different strains of CoV and hosts. Crystal structures have revealed the presence of a receptor-binding motif (RBM) which contacts ACE2 for fusion. The ACE2 receptors have two SARS-CoV binding hotspot regions which are critical for SARS-CoV binding. The mutations in RBM regions in these hotspots lead to variations in pathogenicity, disease severity, and cross-species transmission. SARS-CoV2 RBM has a larger interface with more contacts with ACE2 sites compared to ACE1. Surface plasmon resonance (SPR) identified a higher ACE2 binding affinity of CoV2 RBD compared to CoV RBD. Another structural difference exists in the ACE-2 binding ridge where the conformation of the loops differs between CoV and CoV2. CoV has 3 residue motif formed of proline-proline-alanine whereas CoV2 has 4-residue motif of glycine-valine/glutamine-glutamate/threonine-glycine [      ]. The critical difference of the flexible glycine which provides different conformation and when combined with additional hydrogen bonds leads to more compact conformation. Additional binding sites attach to the hydrophobic pockets of ACE2. These molecular and structural variations lead to much favorable binding of CoV2 compared to CoV1. The CoV2 binding to the ACE2 receptor is up to 20 times higher than SARS S protein which can explain its rapid transmission. Once the H-CoV is inside the host cell, the genomic RNA acts as a transcript for translation of ORF1a which produces polyprotein pp1a (440–500 kDa). Further, H-CoV utilizes frameshifting to extract longer transcripts from the genomic RNA. RNA pseudoknot in the ORF1a and slippery sequence leads to the frameshifting of up to 30% of ribosomes crossing over to ORF1b producing pp1ab [      ]. The cleavage of polypeptides pp1a and pp1ab produces nonstructural proteins that play a vital role in viral replication. Nsp1 binds to 40S ribosomal subunits and blocks the mRNA entry tunnel which results in the shutdown of translation [      ]. This fits in the evolutionarily conserved strategy of preventing the translation of antiviral immune mediators and increasing its replication at the same time.
+     </p>
+    </sec>
+    <sec id="Sec19">
+     <title>
+      Suppression of interferon system by coronaviruses
+     </title>
+     <p id="Par28">
+      Humans have powerful type I and type III interferon immune response that interferes at every step of viral replication. These cytokines activate hundreds of genes interferon-stimulated genes (ISGs) which are essential for antiviral immunity. Although both the interferons participate in the generation of antiviral state, type I immune response is more rapid in terms of inducing downstream genes. Pathogens have evolved mechanisms to suppress and modulate the IFN response of the host. The agents of pandemics like SARS-CoV-2, SARS-CoV, and MERS-CoV generate a much poorer type I and type III immune response compared to HCoV-229E, a mild coronavirus strain [      ,      ]. This suppression of type I and type III immune response could be a success factor for higher transmission rates and mortality. Initially, the detection of CoV is essential for the generation of an effective immune response, and pathogenic motifs are recognized by TLRs and RLRs. Immune escape mechanisms of CoV include a double-membrane structure to evade detection and the addition of 5′ mimic cap on the viral RNA. Nsp14 protein of the CoV has a guanine-N7-methyltransferase activity which is further modified by 2’-O-methyl-transferase activity of Nsp16 which helps in evasion from detection by MDA5 [      ]. Further, the M protein of CoV physically associates with RIG-1 and other associated proteins to the double-membrane structure. Subsequently, the activation of the IRF3/IRF7 transcription factor essential for the production of type 1 interferons [      ]. CoV proteins can block IFN signaling pathways and ISGs activation. Nsp1 of SARS-CoV inhibits the phosphorylation of STAT1 affecting transcription of ISGs. ORF6 has shown to block transcription of ISGs and translocation of STAT1 to the nucleus [      ]. Further, SARS-CoV can also modulate the balance between interferon response and pro-inflammatory mediators. The recognition of viral protein triggers both interferon response (I and III) and NF-κΒ-mediated generation of pro-inflammatory cytokines like IL-1, IL-6, and TNF-α [      ]. SARS-CoV-2 reduces the expression of antiviral type I and type III interferon system whereas maintained exuberant pro-inflammatory response [      ].
+     </p>
+    </sec>
+    <sec id="Sec20">
+     <title>
+      Overlaps of
+      <italic>
+       M. tuberculosis
+      </italic>
+      and SARS-CoV-2 interactions in the host cell
+     </title>
+     <p id="Par29">
+      Intracellular bacteria partly depend on host factors while viruses completely depend on the cell’s machinery. In both cases, they interact with the host protein network and modulate it in favor of their survival and transmission. In a recent study, it was shown that some of these factors might overlap between viruses and bacteria. In this particular study, 26 SARS-CoV-2 proteins and physically associated host proteins were mapped in cell lines leading to the identification of 332 interactions [      ]. This study identified almost 40% of host proteins interacting with CoV-2 to be of vesicle trafficking or endosomal compartments. In comparison with the interactive map of other organisms,
+      <italic>
+       M. tuberculosis
+      </italic>
+      showed similar host protein interactions [      ]. Most importantly, immune signaling pathways perturbed by CoV-2 proteins were also identified in this study. The viral protein targets diverse players and innate antiviral immunity, which are given in Table      .
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Different targets of SARS-CoV2 proteins. SARS-CoV2 is comprised of several proteins, which interact with diverse components in the host cell. Here is the summary of key protein interactors and functional deficits by different protein components of SARS-CoV2 [         ]
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           SARS-CoV-2 proteins
+          </th>
+          <th>
+           Key host protein interactors and functional perturbances
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Spike protein
+          </td>
+          <td>
+           Palmitoylation of Spike protein through protein acyltransferase
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Envelope protein
+          </td>
+          <td>
+           Epigenetic regulation of immunoregulatory genes and cell cycle by interacting with bromodomain extra terminal proteins (BET)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Membrane protein
+          </td>
+          <td>
+           Mitochondrial metabolism, solute transport, and ER morphology
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nucleocapsid protein
+          </td>
+          <td>
+           Regulation of stress granule
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp1
+          </td>
+          <td>
+           Suppression of host antiviral response interacts with DNA polymerase and Plakophilin
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp2, Nsp3
+          </td>
+          <td>
+           Translational repression
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp4
+          </td>
+          <td>
+           Stabilization of double-membrane vesicle in the cytoplasm
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp5
+          </td>
+          <td>
+           Epigenetic regulation of histones interacts with HDAC2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp6
+          </td>
+          <td>
+           Dysregulation of autophagosome fusion with the lysosome
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp7
+          </td>
+          <td>
+           Interacts with proteins of electron transport, membrane trafficking, and GPCR signaling.
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp8
+          </td>
+          <td>
+           Interacts with the mitochondrial ribosome, signal recognition particle, and exosomes
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp9
+          </td>
+          <td>
+           Interacts with Nuclear pore complex and Fibrillin
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp10
+          </td>
+          <td>
+           Might hijack clathrin endocytosis processes, interacts with endoplasmic reticulum and Golgi apparatus
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp11
+          </td>
+          <td>
+           Interacts with tubulin folding pathway proteins
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp12
+          </td>
+          <td>
+           Interacts with proteins of the spliceosome
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp13
+          </td>
+          <td>
+           Interacts with Golgi, centrosome, and Protein Kinase A signaling proteins
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp14
+          </td>
+          <td>
+           Its methyltransferase activity assists in the capping of viral mRNA interact with the purine metabolism pathway
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp15
+          </td>
+          <td>
+           Interacts with nuclear-cytoplasmic transport and protein trafficking
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nsp16
+          </td>
+          <td>
+           Modifies the cap structure of viral mRNA, alters the antiviral response
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf3a
+          </td>
+          <td>
+           Contributes to pulmonary pathology, disturbance of heme metabolism, autophagosome maturation, and ER stress
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf3b
+          </td>
+          <td>
+           Interferon antagonist interacts with cardiolipin biosynthesis
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf6
+          </td>
+          <td>
+           Interferon antagonist interacts with nuclear pore proteins
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf7a
+          </td>
+          <td>
+           Interacts with nuclear chaperone and transport of ribosomal proteins
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf8
+          </td>
+          <td>
+           Induces ER stress, interacts with ECM organization, glycosylation, and glycosaminoglycan synthesis
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf9b
+          </td>
+          <td>
+           Dampens interferon response by degrading Mitochondrial antiviral-signaling protein (MAVS)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf9c
+          </td>
+          <td>
+           Interacts with proteins of electron transport and GPI-anchor biosynthesis
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Orf10
+          </td>
+          <td>
+           Degrades viral restriction factors through the hijacking of Cul2 complexes
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec21">
+     <title>
+      Overlap of coronavirus and
+      <italic>
+       M. tuberculosis
+      </italic>
+      interactions in host cell
+     </title>
+     <p id="Par30">
+      There was a similarity observed in the interaction of Mannosyl-Oligosaccharide Glucosidase (MOGS) with both the proteins of SARS-CoV-2 (Nsp7) and
+      <italic>
+       M. tuberculosis
+      </italic>
+      (Ppe11) [      ]. MOGS is involved in congenital disorders of glycosylation. There is reduced susceptibility of viral infections in patients with defects in MOGS. In this disorder, the half-life of immunoglobulins is shortened which compromises cellular entry and impairs viral replication [      ]. Nsp8 was found to interact with factors differentially expressed during lung infection. One of the factors is NKRF (NFKB repressor) which is expressed in higher amounts in alveolar macrophages of pulmonary tuberculosis patients. NKRF reduces antiviral immunity by repressing IP-10 and IL-8 [      ]. The contact by
+      <italic>
+       M. tuberculosis
+      </italic>
+      initiates an inflammatory reaction along with an increase in the production of NKRF which in turn dampens the immune response. In another study, NKRF was found to inhibit chemokine synthesis in PBMCs and alveolar macrophages [      ]. Orf3a protein was found to interact with proteins of autophagy and organelle localization [      ]. One of the interesting targets was Heme oxygenase-1 (HMOX) is involved in heme catabolism into CO, Fe, and biliverdin. The cleavage of heme dampens immune response as it induces anti-inflammatory cytokines IL-10 and IL-1RA. Further, higher expression of HMOX1 is linked with inhibition of MHC II and CD8+ T cell response [      ]. During
+      <italic>
+       M. tuberculosis
+      </italic>
+      infection, CO induces Dos regulon which led to an increase in the production of HMOX gene product [      ]. Thus, the anti-inflammatory and anti-apoptotic activity of HMOX, which is beneficial for
+      <italic>
+       M. tuberculosis
+      </italic>
+      survival but should be further explored for SARS-CoV-2. Other cellular pathways overlap as they are targeted both by
+      <italic>
+       M. tuberculosis
+      </italic>
+      and SARS-CoV-2. Protein-protein interaction studies have identified interactions between key pathogenic proteins and host proteins of several pathways [      ,      ] (Fig.      ). One such pathway is RNA processing which involves pathways responsible for modification of cellular RNA, predominantly 5’capping, splicing, and 3’end processing and transportation for translation to protein. Enhanced intracellular survival (EIS) arrests phagosome maturation and combined with SapM, LrpG, and PDIM inhibits autophagy [      ]. One of the interesting pathways of overlap between
+      <italic>
+       M. tuberculosis
+      </italic>
+      and SARS-CoV-2 is of homotypic fusion and vacuole protein sorting (HOPS) tethering complex. Proteins of the HOPS complex interacts with Orf3a of SARS-CoV-2 and LpqN of
+      <italic>
+       M. tuberculosis
+      </italic>
+      and can affect vesicle fusion. Apart from these cellular interactions, MHC seems to be another attractive target for modulation for these pathogens, as it prevents the initiation of the immune response. Antigenic peptides are processed and presented by APC’s MHC class II for initiation of CD4+ T cell response.
+      <italic>
+       M. tuberculosis
+      </italic>
+      can modulate the antigenic presentation at several steps [      ]. It can inhibit the proteolysis in the phagosomes, downregulation of MHC II, and inhibition of peptide loading. In SARS-CoV-2, recently a preprinted article has reported that Orf8 protein binds to the class I MHC in the lysosomes and disrupts antigen presentation necessary for the generation of T cell response [      ].
+     </p>
+     <p id="Par31">
+      Another pathway that has recently come into the spotlight is apoptosis. It is a programmed cell death pathway which is essential for the immune response against the pathogen.
+      <italic>
+       M. tuberculosis
+      </italic>
+      utilizes various proteins like PtpA, NuoG, and PknE to modulate apoptosis [      ]. In SARS-CoV-2, Orf3a has been recently found to demonstrated weaker apoptotic activity compared to SARS-CoV [      ]. This immune evasive mechanism might allow the virus to escape early detection and might fuel the spread by asymptomatic or mild patients.
+     </p>
+    </sec>
+    <sec id="Sec22">
+     <title>
+      SARS-CoV: essential clinical insights for personalized medicine
+     </title>
+     <p id="Par32">
+      Inflammation is the first line of defense against pathogens. The innate immune system provides an early mechanism of host protection by producing type I interferons, complement proteins, chemokines, and cytokines to limit viral infection [      ,      ]. While a robust innate immune response is necessary to elicit protective adaptive immunity, a prolonged and/or overactive immune response contributes toward pathological tissue injury [      ]. Interestingly, preclinical studies showed that excess cytokine release after SARS-CoV infection dampened adaptive immunity [      ]. In line with this observation, despite an increase in leukocyte activation and massive release of pro-inflammatory cytokines, SARS-CoV-2 infection is associated with lymphopenia, including suppression of both CD4      and CD8      T cells as well as the increased appearance of exhausted T cells [      –      ]. Given this progression, significant attention has been focused on the development of a “cytokine storm,” the rapid pathological release of excess cytokines, which is associated with high fever, respiratory distress, multi-organ failure, and increased mortality over the first 2 weeks in COVID-19 patients [      ].
+     </p>
+     <p id="Par33">
+      Critically ill COVID-19 patients exhibited an increased ratio of white blood cells/lymphocytes and higher plasma levels of C-reactive protein (CRP), IL-2, IL-7, IL-10, GSCF, IP10 (CXCL10), MCP-1 (CCL2), MIP-1α (CCL3), and TNF-α, as compared to non-ICU patients [      ,      ,      ]. Inflammatory cytokines, such as IL-6, IL-10, and TNF-α, are elevated following infection with SARS-CoV-2 and are believed to orchestrate a cytokine storm [      –      ]. Given these appreciated detrimental effects, several clinical trials using tocilizumab, an IL-6 receptor antagonist (NCT04306705, NCT04322773), sarilumab, an IL-6 receptor antagonist (NCT04322773, NCT04315298), or clazakizumab, an IL-6 neutralizing antibody (NCT04343989; NCT04348500) were initiated as potential therapies to limit the cytokine storm in COVID-19 patients. In recently published results, IL-6 blockade was found to be associated with reduced mortality in patients that had C-reactive protein (CRP) at the concentration of 15 mg/dL or higher (NCT04347993). These results match with other trials (CORIMUNO-TOCI trial) which showed that patients who are progressing toward hyperinflammatory states as shown by their CRP levels [      ]. Although it appears that the suppression of hyperinflammatory states by blocking IL-6 can assist in the treatment of COVID patients, there are contradictions in its effectiveness (COVACTA trial; NCT04320615) hints at the inherent variability and inflammatory status of the patient population [      ].
+     </p>
+     <p id="Par34">
+      From the evolutionary perspective, pathogen competes against the immune system to strike an optimal balance between virulence and transmission. The host initiates and propagates the immune response to contain the infection. In the absence of proper calibration, the influx of immune mediators contributes to collateral damage in the patient’s tissue. The mortality risk is increased in patients with perturbed immune systems with comorbidities (age, immunosuppressive condition, cardiovascular diseases, etc.). Further, most of the SARS-CoV-2 infected individuals have mild symptoms but there is a substantial proportion of asymptomatic individuals that can spread the virus much more efficiently [      ]. The genomic variability in individuals can explain the spectrum of symptomatic and asymptomatic patients observed due to SARS-CoV-2 infection. Moreover, the genetic variations in human leukocyte antigen (HLA), which is responsible for the presentation of antigens for the initiation of the adaptive immune system, have shown differential susceptibility to the virus. In the case of SARS-CoV, higher susceptibility was found to be associated with a particular genotype (HLA-B*46:01) and preliminary bioinformatics findings hint at the same variant for SARS-CoV-2 [      ,      ]. The individuals with this variant have the lowest number of predicted binding sites for SARS-CoV-2 which puts these patients at heightened risk of infection and mortality. On the other hand, HLA-B*15:03 showed the highest propensity to bind SARS-CoV-2 and generation of T cell based immunity [      ]. As discussed, the variability at the genomic level and gene expression of immune mediators can both affect the individual pathological trajectory. As presented in Fig.      , further understanding of this network of pathogen-host interaction can assist in better prediction, personalization and therapeutics.
+     </p>
+    </sec>
+    <sec id="Sec23">
+     <title>
+      Challenges and recommendations for innovative PPPM strategies
+     </title>
+     <p id="Par35">
+      The COVID-19 pandemic is an evolving situation and has afflicted the entire planet. Lack of SARS-CoV-2 specific antivirals and vaccination, the pandemic of COVID-19 remains the most significant challenge to our health care system till date. Insufficient, discrete, clinical outcomes, inconclusive evidence of different therapeutic interventions have substantially added to the course of the disease. Therefore, the current and past pandemic situation should be analyzed by studying the evolution of infection and evaluating potential strategies to prevent a present and future scenario. The real-time monitoring of individuals based on laboratory tests is the optimal evidence-based predictive and preventive strategy in the case of a pandemic [      ]. Also, real-time predictive, preventive, and personalized (PPP) solutions may integrate data from the internet, wearable or mobile device, and individual inputs from registered users under strong security and privacy act, and thus can operate as human-computer interactions (social machines) to provide predictive and preventive inputs with the evolving situation [      ]. In contrast, lack of PPP may lead to incorrect political decisions causing either chronic mass-quarantine which may lead to a long-term economic crisis or under-restriction of movement of the population that may lead to a post-containment pandemic rebound [      ].
+     </p>
+     <p id="Par36">
+      Now, since the revelation of certain medical conditions, because COVID-19 has taken focus, patients and physicians both have to learn about its potential risks and benefits and have to revisit infection mechanisms adopted by pathogens like
+      <italic>
+       M. tuberculosis
+      </italic>
+      . Throughout human evolution, respiratory pathogens with diverse cellular and immune evasive tactics have constantly targeted lungs. The overlap of intracellular niches between these pathogen hints at the core pathways that are subjected to the modulation for their survival. The complex evolutionary paths and genetic diversity of these pathogens coupled with genotypic variations in humans display a spectrum of manifestations in humans ranging from asymptomatic to fatal in some cases. These centrally important pathways are hijacked in nature by both chronic pathogens like
+      <italic>
+       M. tuberculosis
+      </italic>
+      and acute pathogens like SARS-CoV-2. These pathogens have evolved to target essential pathways that are indispensable for human hosts. As such, targeting receptors or inhibiting the functioning of certain organelle might seem like an attractive therapeutic approach. These targetable modules are important for normal functioning and must be critically assessed before designing therapeutic approaches.
+     </p>
+     <p id="Par37">
+      Inflammation is a significant factor in any viral infection and attracts major attention of medical and scientific world during this pandemic. Early stage of inflammation orchestrated by innate immune system provides an initial mechanism to limit viral infection by release of type I interferons (IFN), complement proteins, and chemokines/cytokines [      ,      ]. While this initial innate immune response is essential to prompt antiviral adaptive immunity, continued and/or overcharged immune response may add to exaggerated pathology [      ]. Interestingly, excessive cytokine release after SARS-CoV infection inhibited adaptive immunity [      ]. In line with this, despite of an increased activation of leukocyte and substantial release of pro-inflammatory cytokines, SARS-CoV-2 infection causes lymphopenia and has shown to reduce population of both CD4+ and CD8+ T cells, while increase number of exhausted T cells [      ,      ,      ]. Given this progression, the swift pathological release of excessive amount of cytokines, termed as “cytokine storm” and is concomitant to high fever, respiratory distress, multi-organ failure, and increased mortality in COVID-19 patients [      ,      ,      ]. Clinically, the cytokine storm associated with acute respiratory distress syndrome (ARDS) is the leading cause of mortality in severe cases of some respiratory viral infections, including COVID-19 [      ,      ]. The anti-inflammatory treatment such as cannabidiol (CBD) has shown to reduce cytokine storm and to reverse the symptoms of ARDS in acute phase of lung infection relevant to COVID-19 [      ,      ]. However, chronic immune interactions and physiological responses to COVID-19 are still elusive, and need special attention and combined effort from medical and scientific experts to find the therapeutic targets as the chances of reinfection in recovered COVID-19 patients cannot be avoided. Further, identifying key molecular pathways relevant for pathophysiology of COVID-19 at acute and chronic stages maybe considered a novel and viable perspective for both predictive as well as individualized medicine and targeted therapeutic modality.
+     </p>
+     <p id="Par38">
+      Among the varied spectrum of clinical manifestation of COVID-19, individualized patient profiling is instrumental for improved patient stratification and personalisation of medical services. This will provide us a better understanding of the causes of COVID-19 going twisted, proposing a new effective norms for patients’ profiling and stratification under the perspective of “Predictive, Preventive, and Personalized Medicine (PPPM)” as in other diseases [      ,      ]. The majority of therapies centered on dampening of the inflammatory response after SARS-CoV-2 infection, leaving COVID-19 largely unaddressed in many other physiological aspects, owing to four main factors. The first is novelty and evolving nature of SARS-CoV-2 and COVID-19 disease; secondly, the complexity of the inflammatory pathways in COVID-19; the third is the dual influence, local and systemic, of SARS-CoV-2; and the third is the limited knowledge of genetic and contingent causes of distrupted physiologic progression in COVID-19. In order to inform policymakers, practitioners and users more clearly, future studies related to new medicines and vaccines should be performed by following uniform guidelines and reporting of patient outcomes [      ]. In addition, better understanding of mechanisms responsible for the pathophysiology of infectious disease would establish more certain platform for PPPM effectively [      ]. Hence, further studies are needed to identify functional links between infectious disease like COVID-19 and physiological system, and to translate them according to PPPM-guidelines to provide higher standards of health care to affected patient [      ]. The facts based on individualized patient profiles should be thoroughly analyzed and subsequent hypotheses should be offered as suggestive of appropriate predictive diagnostics and targeted preventive measures [      ].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec24">
+    <title>
+     Conclusion and future directions
+    </title>
+    <p id="Par39">
+     COVID-19 patients need great medical support from early diagnosis and prognostic evaluation to personalized therapeutic regimes and a better prediction of treatment outcomes. For example, a decline in platelet count at an early stage of COVID-19 may significantly reflect the pathophysiological status of patients [     ]. Further, lung or whole-body imaging along with advanced data acquisition and analysis has become a major important tool to identify the disease and proper treatment benefits clinically. However, the lack of specific biomarkers to identify persons at risk for secondary damage after the infection is an avenue for a major improvement in the field. The first step would be to identify key molecular pathways relevant to the pathophysiology of the disease and may be considered a novel and viable perspective for both predictive as well as personalized medicine and targeted therapeutic modality. In light of systemic alteration, because it may seem that the impact of the mechanistic approach would be diminished, at least in the short-term, therefore, multi-omics (genomics, transcriptomics, proteomics and metabolomics) would be highly recommended and useful. An established biomarker panel is considered as a powerful tool for personalized medicine as for an individualized patient profiling and improved multi-level diagnostics. A major requisite to achieve this is an increased interaction between basic scientists and clinicians concerning preventive, predictive, and personalized medicines (PPPM) in infectious diseases.
+    </p>
+    <p id="Par40">
+     Recent advances in genetics, immunology, and microbiology have enhanced the better understanding and treatment of infectious diseases, and has brought closer the three Ps (personalized, predictive, and preventive medicine) in healthcare [     –     ]. Further, the scientific field has shown great promise in the fight against infectious pathogens including novel SARS-CoV-2; however, a more personalized and logical approach is essential to develop specific treatment regime to each patient and to avoid undesired effects. To disperse clear information to practitioners, policymakers, and users, future studies should adhere to uniform guidelines and uniform reporting of patient outcomes [     ]. In addition, a better understanding of mechanisms related to the pathophysiology of infectious diseases, and the involvement of a multi-organ approach, would establish a more effective ground for PPPM [     ]. Hence, to achieve this, further studies are required to find targeted links between infectious disease like COVID-19 or,
+     <italic>
+      M. tuberculosis
+     </italic>
+     infection, and host, and to translate them according to PPPM-guidelines to provide higher standards of future health care to the affected patient [     ]. Also, rather than generalizing for broad populations, networks of important cellular and immune processes can be individually targeted as a therapeutic approach. Thus, the network of the intracellular, genetic, epigenetic, and immune perturbations by these pathogens can highlight the molecules of these pathways essential for pathogenesis. Further, host variations in these pathways and molecules should be explored as susceptibility factors. Genomic variations, structural alterations, and variable gene expression can help us identify vulnerable populations. Also, variability due to immune senescence, sex, and comorbidities form additional covariates that can assist in pathogenic reproduction. The compendium of evolutionary significant perturbations can be used for predictive screening within the population for novel therapies and can also be helpful to design an efficient, yet essentially safe universal vaccine without compromising the health status of each and every individual who voluntarily decides to undergo vaccination as a preventive measure. Taken together, safety privileges, antiviral activities, and genomically encoded host interaction factors confirmed pathological features of respiratory pathogens and their potential in affecting human health. Bringing new acquired knowledge from lab to clinic might be instrumental in preventing primary and secondary infection in patients with comorbid conditions. Therefore, individualized diagnosis and treatment are highly recommended to the health benefits of COVID-19 patients.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Spike protein-based epitopes predicted against SARS-CoV-2 through literature mining.
+ </title>
+ <abstract>
+  <AbstractText Label="Background" NlmCategory="UNASSIGNED">
+   With the diffusion of SARS-CoV-2 around the world, human health is being threatened. As there is no effective vaccine yet, the development of the vaccine is urgently in progress.
+  </AbstractText>
+  <AbstractText Label="Materials and methods" NlmCategory="UNASSIGNED">
+   Immunoinformatics methods were applied to predict epitopes from the Spike protein through mining literature associated with B- and T-cell epitopes prediction published or preprinted since the outbreak of the virus till June 1, 2020. 3D structure of the Spike protein were obtained (PDB ID: 6VSB) for prediction of discontinuous B-cell epitopes and localization of epitopes in the hotspot regions.
+  </AbstractText>
+  <AbstractText Label="Results" NlmCategory="UNASSIGNED">
+   Methods provided by the Immune Epitope Database (IEDB) server were the most frequently used to predict epitopes. Sequence alignment of the epitopes extracted from literature with the Spike protein demonstrated that the epitopes in different studies converged to multiple short hotspot regions. There were three hotspot regions found in RBD of the Spike protein harboring B-cell linear epitopes (RQIAPGQTGKIADYNYKLPD, SYGFQPTNGVGYQ and YAWNRKRISNCVA) predicted to have high antigenicity score. Two T-cell epitopes (KPFERDISTEIYQ and NYNYLYRLFR) predicted to be highly antigenic in the original studies were discovered in the hotspot region. Toxicity and allergenicity analysis confirmed all the five epitopes are of non-toxin, and four of them are of non-allergen. The five epitopes identified in hotspot regions of RBD were found fully exposed based on the 3D structure of the Spike protein.
+  </AbstractText>
+  <AbstractText Label="Conclusion" NlmCategory="UNASSIGNED">
+   The five epitopes we discovered from literature mining may be potential candidates for diagnostics and vaccine development against SARS-CoV-2.
+  </AbstractText>
+ </abstract>
+</article>

@@ -1,0 +1,12 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+3365113	body	Kd|value|from|0.4|nM|to|13|µM|could|be|determine|with|this|assay|;|the|Kd|between|SNAP|-|bind|MTX|and|eDHFR|F31V|,|L54G|in|the|absence|of|NADPH|be|too|high|to|measure|.	SNAP|MTX|L54G|NADPH	4
+3365113	body	The|datum|clearly|show|that|NADPH|stabilize|the|complex|formation|between|MTX|tracer|and|eDHFR|WT|(|8|-|fold|)|,|as|well|as|eDHFR|L54I|(|180|-|fold|)|,|L54G|(|280|-|fold|)|,|or|F31V|,|L54G|(|not|calculate|)|.	NADPH|L54G|L54G	3
+3365113	body	(|C|)|SNAP|-|base|TR|-|FRET|competition|assay|use|indicate|concentration|of|SNAP|-|eDHFR|WT|,|L54I|and|L54G|.	SNAP|TR|SNAP|L54I|L54G	5
+3365113	body	Concentration|of|MTX|-|SNAP|-|EGFP|be|1|nM|,|2|nM|,|and|30|nM|for|SNAP|-|eDHFR|WT|,|L54I|and|L54G|,|respectively|.	MTX|SNAP|SNAP|L54I|L54G	5
+3365113	body	NADPH|WT|L54I|L54G|F31V|,|L54G|−|3.3±0.6|nM|140±40|nM|13±1|µM|*|&|gt|;|50|µM|*|+|0.41±0.07|nM|0.76±0.4|nM|46±7|nM|1.9±0.1|µM|*|Value|be|the|mean±standard|deviation|(|SD|)|from|2–6|independent|experiment|.	L54G	1
+3365113	body	Receptor|concentration|use|in|each|experiment|in|the|absence|of|NADPH|be|0.02|,|0.3|,|1|and|3|nM|for|WT|,|0.3|,|1|and|3|nM|for|L54I|,|1|and|3|nM|for|L54G|and|F31V|,|L54G|.	NADPH|L54G|L54G	3
+3365113	body	Receptor|concentration|use|in|the|presence|of|NADPH|be|0.02|,|0.03|,|0.1|and|0.3|nM|for|WT|,|0.1|,|0.3|and|0.5|nM|for|L54I|,|0.1|,|0.5|and|30|nM|for|L54G|and|F31V|,|L54G|.	NADPH|L54I|L54G|L54G	4
+3365113	body	Measurement|of|the|Kd|value|of|these|DHFR|inhibitor|for|SNAP|-|eDHFR|mutant|L54I|and|L54G|reveal|that|Leu54|be|important|for|methotrexate|binding|but|not|for|the|binding|of|other|DHFR|inhibitor|(|Table|2|and|Figure|3C|)|.	SNAP|L54G|Leu54	3
+3365113	body	The|fluorescence|signal|of|bind|647|-|SNAP|-|eDHFR|WT|and|mutant|be|quantify|(|Figure|5C|)|,|and|the|datum|show|that|this|assay|be|able|to|detect|the|interaction|of|MTX|with|the|eDHFR|F31V|,|L54G|in|the|presence|of|NADPH|,|but|not|the|interaction|of|MTX|with|eDHFR|L54G|in|the|absence|of|NADPH|.	SNAP|MTX|L54G|NADPH|MTX|NADPH	6
+3365113	body	It|be|possible|to|detect|crosslinke|with|eDHFR|L54G|(|without|NADPH|)|but|not|with|the|eDHFR|F31V|,|L54G|(|without|NADPH|)|.	L54G|NADPH	2
+3365113	body	Time|course|experiment|show|that|it|take|4|day|for|SNAP|-|eDHFR|WT|and|2|h|for|SNAP|-|eDHFR|L54I|and|L54G|to|reach|equilibrium|(|Figure|S4|)|.	SNAP|SNAP|L54G	3

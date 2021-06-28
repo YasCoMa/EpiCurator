@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Inflammation, Immunity and Immunogenetics in COVID-19: A Narrative Review
+ </title>
+ <abstract>
+  <p id="Par1">
+   The novel Coronavirus Disease 2019 (COVID-19), that began in Wuhan Province, China was labelled as an International Public Health Emergency on January 30, 2020 and later was declared a pandemic by the World Health Organisation (WHO) on March 11, 2020. The causative agent, SARS-CoV-2 was the third coronavirus responsible for causing major disease outbreaks in human population after Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS) caused by SARS-CoV and MERS-CoV respectively. The patients of COVID-19 present with a clinical feature resembling mild form of viral pneumonia which in certain cases progress to a severe form characterised by adult respiratory distress syndrome (ARDS) and/or multiorgan failure leading to death. The transition from mild to severe form of COVID-19 is affected by a lot of factors like age, co-morbidities etc. In the absence of an absolute cure, it is essential to explore the molecular pathogenesis of the disease to identify people at risk of developing severity so that alternative treatment modalities may be planned. The aim of this review is to provide an update on the general characteristics of SARS-CoV-2 and highlight the inflammatory changes and immune dysregulation that may help in identification of molecular predictors of disease severity.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par2">
+     Novel coronavirus disease, now known as COVID-19, originated as viral pneumonia of unknown origin in the small province of Wuhan, China during December 2019. The causative agent was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by the International virus classification commission. There have been two coronavirus mediated epidemic outbreak in the past two decades: Severe Acute Respiratory Syndrome (SARS) in 2002 and Middle East Respiratory Syndrome (MERS) in 2012. Within three months, the spread of COVID-19 to various countries of the world causing rapid rise in morbidity and mortality compelled the World Health Organisation (WHO) to declare it a pandemic on March 11, 2020. As of May 27, 2020, around 54,88,825 diagnosed cases of COVID-19 with 3,49,095 deaths have been reported (Source: WHO COVID-19 Situation Report 128) [     ]. In India, the total number of confirmed cases are 151,767 with 4337 deaths till date [     ].
+    </p>
+    <p id="Par3">
+     During the last 4 months, several studies on COVID-19 have reported the clinical features, laboratory findings and diagnostic evaluation of individuals suffering from this disease. The mortality rate varies among various countries and depends on the patient clinical profile and presence of other comorbidities. Most of the patients with COVID-19 suffer a mild course of disease manifesting clinical features of a viral pneumonia and gradually recover with supportive treatment. But a proportion of them deteriorate to the severe form characterised by loss of respiratory function progressing to adult respiratory distress syndrome with occasional multiorgan failure [     ]. A vaccine to treat this disease is still under development and till then the only way to slow down the disease spread is by restricting the infectivity, which is being tried by initiating social distancing and lockdown measures. Thus, in the absence of any absolute cure, it becomes essential to delineate the molecular mechanisms of this virus. It is now known, like SARS and MERS, there is a considerable amount of immune dysregulation which may aid in the understanding of the pathophysiology of this disease. The aim of this review is to summarize the inflammatory changes and immune dysregulation to outline the possible underlying immunological mechanisms of COVID-19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     What is SARS-CoV-2
+    </title>
+    <p id="Par4">
+     International Virus Classification Commission has replaced the earlier name of novel coronavirus 2019 (nCoV-19) by SARS like coronavirus 2 or simply SARS-CoV-2. It is a member of the coronaviridae family. These viruses are enveloped positive sense single strand RNA viruses (Genome size 36–42 kb, Diameter: 60–140 nm) having surface projections like a crown under the electron microscope. This crown like appearance is the basis behind the name, coronavirus. So far, four different genera of coronaviruses have been identified (α, β, γ, δ), among which two members of the α-genera (229E and NL63) and two of the β-genera (HKU1 and OC43) are known to cause mild respiratory illnesses in humans. In the past 20 years, two members of the β-genera (SARS-CoV and MERS-CoV) have been responsible for the epidemic outbreaks of SARS and MERS respectively. When people started being admitted in hospitals of Wuhan, China with features of fever, fatigue and ARDS resembling pneumonia of unknown origin during December 2019, the viral genome sequencing of five such patients revealed the identity of a previously unknown β- genera CoV. This novel coronavirus had 88% sequence similarity with two bat-derived SARS-CoV like coronaviruses, bat-SL-CoVZC45 and bat-SL-CoVZXC21, and approximately 50% similarity with MERS-CoV [     ].
+    </p>
+    <p id="Par5">
+     Like typical CoVs, there are at least ten open reading frames (ORFs) in the genome of SARS-CoV-2. ORF1a/b, the first ORF is about 75% of total viral RNA and is translated into two large polyproteins. These polyproteins are processed into a host of non-structural proteins (nsp’s) that constitutes the viral replicase transcriptase complex. These nsp’s help in viral replication and transcription by rearranging the membranes originating from the rough endoplasmic reticulum into membranous vesicles. The remaining ORFs present in the other 25% genome encodes for spike (S), envelope (E), nucleocapsid (N) and membrane (M) proteins; the four main structural proteins of the virus [     ,     ]. They also encode for various accessory proteins that do not play a role in viral replication. Their functions have not been identified so far.
+    </p>
+    <p id="Par6">
+     It has been established that the SARS-CoV-2 needs the angiotensin-converting enzyme 2 (ACE2) receptor, primarily located in lung and gastrointestinal epithelia, to gain entry inside cells. The strength of binding by the receptor binding motif or the S protein is a significant predictor of the pathogenesis of infection [     ]. Earlier, the SARS-CoV, which most likely originated in bats, had a similar requirement of ACE2 receptors, and gradually adapted to ACE2 receptors of other species and eventually infected humans. The changes in the S protein in SARS-CoV-2 in comparison to SARS-CoV and other marine and bat forms of coronaviruses clearly indicate several synonymous mutations and non-synonymous substitutions in the related gene [     ]. All these genomic changes have rendered the SARS-CoV-2 capable for the attachment to human cells. The other member, MERS-CoV can bind to a functional receptor Dipeptidyl Peptidase 4 (DPP4) of multiple species including humans.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec3">
+    <title>
+     Clinical and Laboratory Features of COVID-19
+    </title>
+    <p id="Par7">
+     A lot of studies on the clinical and laboratory characteristics of COVID-19 have been published in the last four months mostly on Chinese population. Recently, studies based on populations from other countries like Singapore, United States, European countries are also being reported. The major clinical manifestations of patients with COVID-19 includes fever, dry cough, sore throat, muscle pain and fatigue which in some cases may progress to severe symptoms like acute respiratory distress syndrome requiring critical care in the form of Intensive Care Unit (ICU) admission and mechanical ventilation.
+    </p>
+    <p id="Par8">
+     From the meta-analysis of 19 different studies, the most common clinical manifestations among the 656 COVID-19 patients were fever, cough, and dyspnoea. Among all the patients, around 32.8% developed ARDS, 20.3% patients required critical care, and 6.2% developed shock. Fatal outcomes were observed in 13.9% patients. Old age (&gt; 60 years) was significantly associated with the severity of the disease [     ]. These findings were supported by another meta-analysis which included eight studies comprising of 46,248 infected patients. Further, hypertension, diseases of respiratory and cardiovascular system were significant risk factors for severity of COVID-19 [     ]. Smoking history and diabetes were also added to the list of comorbidities following the meta-analysis of Emami et al., in which the data of 76,993 patients were systematically analysed [     ]. Among the routine laboratory parameters, alanine transaminase (ALT), lactate dehydrogenase (LDH), D-dimer, C-Reactive Protein, ferritin were significantly elevated in severe cases of COVID-19 in comparison to non-severe cases. A significantly lower absolute number of lymphocytes, CD4     T and CD8     T cells along with downregulation of IFN-γ expression in severe cases was also observed [     ]. In another pre-print, Xiang et al. reported serum urea, creatinine and cystatin C may be potential biomarkers in severity of COVID-19 [     ]. Huang et al. reported higher plasma levels of interleukins (IL-2, IL-7, IL-10) and other inflammatory markers (GSCF, IP10, MCP1, MIP1A and TNF-α) in COVID-19 patients requiring ICU care versus non-ICU patients [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec4">
+    <title>
+     Inflammation, Immune Cell Dysregulation and Immunogenetics in COVID-19
+    </title>
+    <p id="Par9">
+     It is now known that an underlying cytokine storm syndrome and alteration of expression of immune cells may be responsible for the disease progression from mild to severe form. Similar findings were observed in SARS-CoV and MERS-CoV infection. Thus, in the present state, when the pathogenic mechanisms of SARS-CoV-2 is yet to be elucidated, the knowledge regarding the changes in cytokines and other immune dysregulation reported in various population studies can help in identifying key molecular predictors that can be further explored for a deeper understanding of the molecular pathogenesis of COVID-19.
+    </p>
+    <sec id="Sec5">
+     <title>
+      Inflammation
+     </title>
+     <p id="Par10">
+      Cytokines and chemokines are critical mediators of the immune system and play a pivotal role in anti-viral immunity. Studies have demonstrated that the primary cause of ARDS and multi-organ failure in COVID-19 to be associated with cytokine storm [      ]. The inflammatory response plays a major role in COVID-19 pathogenesis, while cytokine storm increases the severity of the disease. Cytokine storm (CS) is a phenomenon of excessive inflammatory reaction mediated by the rapid production of large amounts of cytokines in response to infection [      ]. In COVID-19, there is an initial delay in cytokine and chemokine secretion by innate immune cells with subsequent surge in pro-inflammatory cytokines and chemokines (IL-6, TNF- α, IL-8, MCP-1, IL-1 β, CCL2, CCL5, and IFNs) by the activated macrophages and other recruited lymphocytes. These cytokines induce the recruitment and activation of adaptive immune cells like T cells, neutrophils and NK cells along with further production of pro-inflammatory cytokines, thereby causing a cytokine storm and tissue damage.
+     </p>
+     <p id="Par11">
+      Most studies have drawn a parallel between the immune dysregulation due to COVID-19 and the phenomena seen in SARS-CoV and MERS-CoV [      ]. At the early stage of SARS-CoV and MERS CoV disease, there is a delayed release of IFN-1 and IFN-α/β, primarily by dendritic cells, macrophages, and respiratory epithelial cells which is followed by increasing levels of pro-inflammatory cytokines as the disease progresses [      ]. The rapid surge in pro-inflammatory cytokines leads to inflammatory infiltration of lung tissue by neutrophils and monocytes and cause lung injury. Moreover, increased levels of pro-inflammatory cytokines stimulate T cell apoptosis and delay viral clearance [      ]. Enhanced viral replication and heightened pro-inflammatory response injure the lung epithelial lining, causing deterioration of the alveolar cellular barriers. The endothelial cells are also damaged, leading to changes in the microvasculature. Both of these injuries result in tissue hypoxia and Acute Respiratory Distress Syndrome (ARDS) [      ,      ]. Since the genome of the SARS-CoV-2 virus is related to SARS-CoV and MERS-CoV, similar assumptions can be expected about the role of the host immune system towards this virus. Uncontrolled viral replication results in delayed anti-viral IFN response, which in turn mounts an influx of neutrophils and macrophages at the site of injury with a concomitant surge of pro-inflammatory cytokines, i.e., cytokine storm and thus leading to inflammatory injury to the respiratory system [      ].
+     </p>
+     <p id="Par12">
+      The cytokines elevated in the serum of COVID-19 patients are IL-1β, IL-2, IL-7, IL-8, IL-9, IL-10, IL-17, G-CSF, GM-CSF, IFN-γ, TNF-α, IP10, MCP1, MIP1A, and MIP1B. In particular, IL-6, IL-1, and TNF-α, i.e., cytokines secreted by macrophages, were found to be significantly higher in severe cases when compared to non-severe cases [      ] (Table      ).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Changes in cytokine levels of severe cases when compared to mild cases or healthy controls of COVID-19 disease
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Sn. no
+          </th>
+          <th align="left">
+           Authors
+          </th>
+          <th align="left">
+           Location
+          </th>
+          <th align="left">
+           Date of publication
+          </th>
+          <th align="left">
+           Sample size
+          </th>
+          <th align="left">
+           IL-1β
+          </th>
+          <th align="left">
+           IL-2
+          </th>
+          <th align="left">
+           IL-2R
+          </th>
+          <th align="left">
+           IL-4
+          </th>
+          <th align="left">
+           IL-6
+          </th>
+          <th align="left">
+           IL-7
+          </th>
+          <th align="left">
+           IL-8
+          </th>
+          <th align="left">
+           IL-10
+          </th>
+          <th align="left">
+           IL-17
+          </th>
+          <th align="left">
+           TNF-α
+          </th>
+          <th align="left">
+           IFN-γ
+          </th>
+          <th align="left">
+           Remarks
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           Huang et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           24/01/2020
+          </td>
+          <td align="left">
+           41
+          </td>
+          <td align="left">
+           ↑*
+          </td>
+          <td align="left">
+           ↑*
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑*
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑**
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           Compared with non-ICU patients, ICU patients had higher plasma levels of IL2, IL7, IL10, GSCF, IP10, MCP1, MIP1A, and TNFα
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2
+          </td>
+          <td align="left">
+           Chen et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           29/01/2020
+          </td>
+          <td align="left">
+           99
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           52% of COVID-19 cases reported higher IL-6 levels than healthy controls. Older men with comorbidities and higher IL-6 levels are risk factors for developing ARDS
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3
+          </td>
+          <td align="left">
+           Wan et al. [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           12/02/2020
+          </td>
+          <td align="left">
+           123
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↓
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           IL-6, IL-10 and TNF-α can be used as to predict transition from mild to severe disease
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4
+          </td>
+          <td align="left">
+           Diao et al. (Pre-print) [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           20/02/2020
+          </td>
+          <td align="left">
+           522
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           IL-6, IL10 and TNF-α significantly increased in severe cases and inversely correlated with Total T cell, CD4, CD8 cells
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5
+          </td>
+          <td align="left">
+           Zhang et al. (Pre-print) [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           27/02/2020
+          </td>
+          <td align="left">
+           1334
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           Assessed IL-6 levels on admission and 24 h prior to death IL-6 were &gt; 10 pg/ml in ICU cases 24 h prior to death
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6
+          </td>
+          <td align="left">
+           Sun et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           02/03/2020
+          </td>
+          <td align="left">
+           8
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+           (2/8)
+          </td>
+          <td align="left">
+           <bold>
+            -
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            -
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+           (5/8)
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+           (2/8)
+          </td>
+          <td align="left">
+           Only some of the pediatric cases with severe disease had increased cytokine levels
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7
+          </td>
+          <td align="left">
+           Chen et al. (pre-print) [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           03/03/2020
+          </td>
+          <td align="left">
+           48
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           tenfold increase of IL-6 in critically ill patients correlated with viral RNAaemia
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8
+          </td>
+          <td align="left">
+           Zhou et al. [           ]
+          </td>
+          <td align="left">
+           Beijing, China
+          </td>
+          <td align="left">
+           09/03/2020
+          </td>
+          <td align="left">
+           191
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           Old age, higher SOFA score and D-dimer and IL-6 levels are risk factors for mortality in adult patients
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           9
+          </td>
+          <td align="left">
+           Liu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           10/03/2020
+          </td>
+          <td align="left">
+           69
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           IL-6 levels can be a marker of disease progression and severity
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10
+          </td>
+          <td align="left">
+           Qin et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           12/03/2020
+          </td>
+          <td align="left">
+           452
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           Significantly high levels of pro-inflammatory cytokines were observed in severe cases
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11
+          </td>
+          <td align="left">
+           Wu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           13/03/2020
+          </td>
+          <td align="left">
+           201
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <p>
+            <bold>
+             ↑
+            </bold>
+           </p>
+           <p>
+            <bold>
+             ↑
+            </bold>
+           </p>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           IL-6 was more significantly high in non-survivors and survivors when compared to severe and non-s
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12
+          </td>
+          <td align="left">
+           Wang et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           16/03/2020
+          </td>
+          <td align="left">
+           69
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           increase of inflammatory cytokines, induced a mortality rate of 7.5%
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13
+          </td>
+          <td align="left">
+           Chen et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           27/03/2020
+          </td>
+          <td align="left">
+           21
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           Significant imbalance in cytokines in association with immune cell dysregulation is observed in severe cases
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14
+          </td>
+          <td align="left">
+           Herold et al. (pre-print) [           ]
+          </td>
+          <td align="left">
+           Germany
+          </td>
+          <td align="left">
+           10/04/2020
+          </td>
+          <td align="left">
+           40
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           22-fold increased risk of respiratory failure with higher IL-6 levels
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15
+          </td>
+          <td align="left">
+           Liu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           11/04/2020
+          </td>
+          <td align="left">
+           140
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ↑
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           Serum levels of IL-6 and CRP can effectively assess disease severity and predict disease outcome
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16
+          </td>
+          <td align="left">
+           He et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           12/04/2020
+          </td>
+          <td align="left">
+           204
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           No significant difference was observed in IL-6, IL-10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           17
+          </td>
+          <td align="left">
+           Zhu et al. (pre-print) [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           17/04/2020
+          </td>
+          <td align="left">
+           127
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           IL-6 plays a key role in severity of diseases and can be used as potential marker for monitoring disease progression
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           18
+          </td>
+          <td align="left">
+           Liu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           18/04/2020
+          </td>
+          <td align="left">
+           40
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           Kinetic difference in cytokine levels between severe and non-severe cases were observed
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           19
+          </td>
+          <td align="left">
+           Ouyang et al. [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           20/04/2020
+          </td>
+          <td align="left">
+           11
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           -
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           Difference in cytokine levels were compared between mild and severe cases in pre- and post-treatment groups
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           20
+          </td>
+          <td align="left">
+           Evangelos et al. [           ]
+          </td>
+          <td align="left">
+           Greece
+          </td>
+          <td align="left">
+           21/04/2020
+          </td>
+          <td align="left">
+           54
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           Studied immune changes in severe COVID-19 cases in relation to H1N1 cases, bacterial pneumonia and healthy controls in addition to comparison with intermediate cases of COVID-19
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           21
+          </td>
+          <td align="left">
+           Wang et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           23/04/2020
+          </td>
+          <td align="left">
+           65
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           <bold>
+            –
+           </bold>
+          </td>
+          <td align="left">
+           High IL-2R supports hyperfunction of Th cells and IL-10 supports degradation of Tregs
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Indicates changes in severe cases when compared to healthy controls or reference range
+        </p>
+        <p>
+         Indicated changes in non-survivors when compared with survivors, rest indicates in comparison to mild cases of COVID-19
+        </p>
+        <p>
+         <italic>
+          ND
+         </italic>
+         indicates no difference observed when compared to mild cases or healthy controls; *
+         <italic>
+          p
+         </italic>
+         &lt; 0.05; **
+         <italic>
+          p
+         </italic>
+         &lt; 0.01; ***
+         <italic>
+          p
+         </italic>
+         &lt; 0.001
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par13">
+      IL-6 is a potent pro-inflammatory cytokine that plays a primary role in cytokine storm and, therefore, needs special attention in COVID-19. It is a multifunctional cytokine involved in the formation of follicular helper T cells, differentiation of Th17 cell subsets, and generation of plasma cells. It is also known to inhibit IFN-γ and thereby suppress CD8 + cytotoxic T cells [      ]. IL-6 induces T cell exhaustion as indicated by markers such as PD-1 and Tim-3. Thus, T cell-mediated immune response might be suppressed during cytokine storm by IL-6 [      ]. Increased IL-6 levels and its positive correlation with disease severity is suggestive of its role in disease progression [      –      ]. Recently, a study from Germany reported a 22-fold increased risk of respiratory failure with median time to mechanical ventilation of 1.5 days in cases with IL-6 levels &gt; 80 pg/ml [      ]. Higher circulating levels of IL-6 were also reported even 24-h before death [      ,      ]. Therefore, IL-6, either as a single parameter or in association with other parameters, could be used for early identification of patients at risk for respiratory failure.
+     </p>
+     <p id="Par14">
+      TNF-α, a pro-inflammatory cytokine acting via its receptor TNFR1, may lead to apoptosis of aged T cells that express high TNFR1 [      ]. Therefore, it is also known as a pro-apoptotic cytokine. Few studies on COVID-19 patients reported a negative correlation of TNF-α with T cell count [      ,      ,      ]. TNF-α levels were significantly higher in elderly patients (&gt; 60 years) along with reduced T cell counts and increased levels of T cell exhaustion markers (PD1 and Tim-3). This finding speculates the role of TNF-α as a negative regulator of T cell survival or proliferation [      ]. However, a few studies reported no significant difference in TNF-α levels in COVID-19 patients [      ,      ].
+     </p>
+     <p id="Par15">
+      IL-1β and its family (IL-18, IL-33) are significant players in ARDS and are known to increase the recruitment of immune cells and subsequent cytokine production [      ]. IL-1 receptor signalling is involved in inflammatory damage to the respiratory epithelium. In a study, the daily transcriptomic profiling of three COVID-19 patients revealed IL-1 to show significant expression changes prior to deterioration of respiratory function. All the other pro-inflammatory cytokines were induced only after appearance of symptoms of respiratory dysfunction. This brief report hints at the plausible role of the IL-1 pathway in the initial progression of COVID-19 related lung immunopathology [      ]. IL-1ß and TNF-α are cytokines that are required for the development of Th17 cells and help in Th17 mediated immune response and increased vascular permeability [      ]. The cytokines of the Th17 pathway like IL-17 and GM-CSF increase in COVID-19 patients [      ]. Also, increased expression of Th17 cells in peripheral blood of COVID-19 patients suggests a role for Th17 cells in the cytokine storm in COVID-19, as also reported in the patients of SARS and MERS [      ].
+     </p>
+     <p id="Par16">
+      Significantly elevated levels of IL-2, IL-7, IL-17, IL-10, MCP- 1, MIP-1A, and TNF-α were reported in severely ill patients in comparison to non-severely ill patients, suggestive of diverse cytokine profile in the two groups and involvement of cytokine storm in disease progression and severity [      ]. An increased concentration of IL-1ß, IP-10, IFN-γ, and MCP-1 leads to the activation of Th1 cell response, which further aggravates the cytokine storm. A similar rise in pro-inflammatory cytokines occurred in SARS-CoV and MERS-CoV infection [      ,      ]. Contrary to SARS, an increase in anti-inflammatory cytokines of Th2 cells (IL-4 and IL-10) were also seen in SARS-CoV-2 patients [      ]. The implications of this finding are still yet to be clarified.
+     </p>
+     <p id="Par17">
+      High serum cytokine levels in SARS-CoV-2 patients correlated with decreased T cell count in the peripheral blood suggesting a plausible role in disease progression. Diao et al. reviewed total T cell count, and IL-2, IL-4, IL-6, IL-10, TNF-α, and IFN-γ in 522 COVID-19 patients admitted to two different hospitals in China and 40 healthy individuals and reported significantly higher levels of IL-6, IL-10, and TNF-α. Correlation analysis revealed a negative correlation between total cell count, CD4 + , and CD8 + cells and these interleukins. Further, in the ten follow up patients, IL-6, IL-10, TNF-α, and IFN-γ levels were significantly decreased in the recovery period than during the illness. At the same time, the T cell counts recovered to normal levels, thereby suggesting that the decline in T cell is again associated with the surge of inflammatory cytokines in COVID-19 patients [      ]. A similar negative correlation between T cell counts and interleukins was also reported in other studies [      ,      ]. On the contrary Wan et al., who observed the associations of lymphocyte subsets, cytokines with disease evolution in 123 Chinese COVID-19 patients (102 mild and 21 severe), reported significantly different CD4 + T, CD8 + T, IL-6, IL-10 and PII between the two groups. In the mild group, significant positive correlations were observed between CD4 + T and CD8 + T, and between IL-6 and IL-10. Patients of mild group and with IL-6 within reference range had higher survival rates. But there was no correlation between cell count and interleukins [      ].
+     </p>
+     <p id="Par18">
+      A recent study attempted to immunophenotype the anti-viral response in COVID-19 patients by single-cell transcriptome sequencing, using PBMCs of 4 patients (male young, male elderly, female young, female elderly), collected pre-ICU, during ICU and post ICU. There was a significant increase in monocytes and plasmacytoid dendritic cell populations in the ICU samples when compared to pre and post ICU samples [      ]. Therefore, there is evidence of delayed or dampened type 1 interferon response in the initial stages of the infection with subsequent increase with active viral replication, a phenomenon also to be a part of SARS-CoV pathogenesis [      ,      ] A reported gene signature in the ICU samples showed elevated expression of interferon-stimulated genes (ISGs) like IFITM1 when compared to pre and post ICU samples, suggestive of a critical viral load regulated Type 1 Interferon response (Type-1 IFN response) in the disease progression and onset of ARDS [      ].
+     </p>
+     <p id="Par19">
+      COVID-19 induced ARDS and mortality may be mediated by many factors. Alteration of both innate and adaptive components of the immune system in terms of dampened T cell response, neutrophilia, and delayed Type-1 IFN response plays a significant role. Additionally, increased expression of granulysin and perforin, increase in macrophage activated cytokines like IL-1ß, IL-6, and TNF-α leading to cytokine storm and increased T cell exhaustion might further contribute to the molecular pathogenesis. Approximately 15% of patients suffering from COVID-19 progress to critically ill severe cases with the clinical symptoms of respiratory failure requiring ventilator support. A cytokine storm accompanies the transition from mild to severe form of the disease in COVID-19 patients.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Immune Cell Subset Dysregulation
+     </title>
+     <p id="Par20">
+      An efficient synergy between innate and adaptive lineages of immune system is a preliminary requirement for effective disposal of invading pathogens. Cells of innate immunity (monocyte, macrophage, granulocytes, and dendritic cells) are the first to act whenever there is an invasion by foreign molecules. The main function of innate immunity includes opsonization and direct clearance by complement activation in addition to elimination via phagocytosis. However, another important function is also to process and appropriately present the invading pathogen in order to activate the cells of adaptive immune system. Responses from adaptive immune cells not only aim to eradicate the pathogen but also reserves a memory of it for future protection. In addition, adaptive immunity also plays a crucial role in regulating the extent of immune response to prevent overstimulation and host injury. Our understanding of SARS and MERS, though still limited, have shown us that disease pathogenesis included host immune dysregulation along with direct damage caused by the viruses [      ] Understanding the dysregulation of innate and adaptive immunity cell subsets may thus provide substantial insight into the immunopathogenesis of SARS-CoV-2.
+     </p>
+     <p id="Par21">
+      While the major mode of transmission of SARS-CoV-2 is primarily aerosolized droplets, there is a possibility that a faeco-oral route also exists [      ]. Initial symptoms of the disease include fever, dry cough and rarely dyspnoea, body ache, headache and diarrhoea. Viral load is said to reach its peak 10 days post onset of symptom [      ]. Studies assessing the clinical features of COVID-19 patients have reported that the mean time for admission after onset of symptoms was 7 days (IQR 4–8) while ARDS typically set in on 9      day (IQR 8–14) (27%). Admission in intensive care unit and/or requirement of mechanical ventilation was seen in 16% cases with a mean time of 10.5 days (IQR 8–17) [      ]. SARS-CoV-2 is known to infect cells via the surface receptors ACE2 and TMPRSS2 [      ]. The cells are then known to undergo viral replication induced pyroptosis leading to release of IL-1β and Damage Associated Molecular Patterns (DAMPS) and Pathogen Associated Molecular Patterns (PAMPS) such as ATP, Viral nucleic acid and ASC oligomers. These molecules induce the generation of pro-inflammatory cytokines and chemokines such as IL-6, IL-10, Macrophage Chemoattractant Protein-1 (MCP-1), Macrophage Inflammatory Protein-1α (MIP-1α), Macrophage Inflammatory Protein-1β (MIP-1β), from the adjacent epithelial cells and alveolar macrophages. The resultant microenvironment therefore attracts cells of both innate and adaptive immunity and pro-inflammatory cascade sets in [      ,      ]. In the case of mild form of the disease the infected cells and viral particles are rapidly cleared away by macrophages or neutralized by antibodies without any resulting damage to the airways from the host response. However, in some cases the disease progression has been seen to take a turn for the worse and is characterized by excessive cellular infiltration and a systemic cytokine storm [      ,      ]. Clinically, this can be diagnosed as ARDS which is known to be the major cause of fatality in severe COVID-19 cases [      ]. While age and co-morbidities have been identified to be associated with COVID-19 induced severe respiratory distress syndrome, underlying mechanisms responsible for the cytokine storm and immune dysregulation in uncontrolled disease are yet to be identified. IL-2, IL-7, IL-10, G-CSF, IP10, MCP1, MIP1A, and TNFα were also higher in patients requiring ICU that non-ICU patients, suggesting a possible different cytokine profile in severe and mild cases [      ].
+     </p>
+     <p id="Par22">
+      Lung macrophages are therefore among the primary players in both effective host immunity against SARS-CoV-2 and in uncontrolled immunopathology of COVID-19. Studies which investigated the monocyte, macrophage lineage in COVID-19 patients have concluded that these cell lineages contribute to the cytokine storm by secretion of MCP-1, IP-10 and MIP-1α [      ]. Single cell RNA-sequencing based characterization of Broncho Alveolar Lavage Fluid (BALF) from three severely ill, three mild COVID-19 patients and eight healthy controls have revealed that a monocyte derived FCN-1      macrophages were the predominant macrophage in the BALF [      ]. These macrophages are known to be highly inflammatory and capable of producing large amounts of inflammatory cytokines and are also known to be involved in cytokine storm [      ]. Analysis of peripheral blood mononuclear cell (PBMC) subsets in COVID-19 patients have also shown an elevated level of CD14      and CD16      monocyte subset when compared to healthy controls. The level of this highly inflammatory monocyte subset was also seen to be higher in COVID-19 cases requiring intensive care [      ]. These monocytes also showed higher expression of IL-6 and GM-CSF, thus suggesting a pivotal role in the advent of cytokine storm [      ]. HLA-DR expression on CD14      monocytes of COVID-19 patients were found to be significantly low among severe cases when compared to mild cases, the levels of which improved on treatment with IL-6 inhibitor (Toclizumab) [      ]. Higher levels of CCL-2 (monocyte chemotactic factor) was also seen in blood of COVID-19 patients along with increased transcription of its receptor CCR-2 [      ].
+     </p>
+     <p id="Par23">
+      Early studies from Wuhan, China reported normal total leukocyte count with an imbalance between neutrophil and lymphocyte proportions in COVID-19 cases [      ,      ,      ]. Wu et al. studied the immune profile of 201 COVID-19 cases and reported significantly high neutrophil counts. There was also a significant reduction in total lymphocyte count resulting in skewed Neutrophil to Lymphocyte Ratio (NLR) [      ]. Neutrophilia and lymphocytopenia were common findings presented by several authors and these findings were more significant among severe cases when compared to mild cases or healthy controls [      ,      ,      ,      ,      ]. Pro-inflammatory cytokines and chemokines (IL-6, TNF, MCP-1) released in response to local inflammation of infected lung epithelial cells and macrophages attract leukocytes and macrophages but not neutrophils to the site of inflammation. This could explain the observed peripheral lymphopenia and neutrophilia. Proportion of other granulocytes such as monocytes, basophils and eosinophils were observed to be low or within normal limits [      ,      ,      ].
+     </p>
+     <p id="Par24">
+      Cells of the adaptive immune system are activated in response to antigen presentation and cytokine released by macrophages and dendritic cells on viral invasion. A moderate decrease in B and NK cells with a significant decrease in total T cell count have been observed in COVID-19 cases [      ,      ,      ,      ,      ,      –      ] (Table      ). A retrospective study involving 452 COVID- 19 patients reported significantly lower levels of T cells, B cells, NK cells and CD4      T helper cell subset showed the most significant reduction in severe cases when compared mild cases. Immuno-suppressive Treg cells were also reported to be significantly lower among the cases showing severe disease progression. The authors have thus reported that the T lymphocyte subset might be especially vulnerable to dysregulation in COVID-19 [      ]. Higher viral load was also reported to be associated with severe disease spectrum [      ]. Another study on 16 COVID-19 patients attempted to differentiate between severe and mild cases with respect to activation, function and exhaustion of CD4      and CD8      T cells along with other lymphocyte populations in peripheral blood of 10 mild and 6 severe cases. The authors reported significant decrease in function of CD4      T, increased activation of CD8      T cells which subsequently might lead to exhaustion of CD8      and reduced cellular immune response to COVID-19 [      ]. Existing T cells were found to be in hyperactivated state as indicated by CD69, CD38 and CD44 expression in addition to OX40 and 41BB expression by CD4      and CD8      T cells, respectively [      ]. OX40 and 41BB are Tumor Necrosis Factor Receptors (TNFR) implicated in T cell mediated cytokine production and stimulation of other T cells. In addition to functional T cell markers, exhaustion markers i.e. Tim-3 and PD-1 co-expression were also found to be significantly expressed in severe cases [      ,      ,      ]. In contrary to adult cases, a study on 8 paediatric patients showed an increase in CD4      and CD8      cells with a decrease in NK cells [      ]. In general, paediatric patients showed better prognosis than adult patients, which could be due to lower concentration of memory T cells to mount a cytotoxic response potent enough to cause tissue damage.
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Changes in lymphocyte population in severe cases when compared to mild cases or healthy controls of COVID-19 disease
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           S. no
+          </th>
+          <th align="left">
+           Study
+          </th>
+          <th align="left">
+           Location
+          </th>
+          <th align="left">
+           Date of publication
+          </th>
+          <th align="left">
+           Sample size
+          </th>
+          <th align="left">
+           CD3
+          </th>
+          <th align="left">
+           CD4 T cells
+          </th>
+          <th align="left">
+           CD8 T cells
+          </th>
+          <th align="left">
+           T cell exhaustion
+          </th>
+          <th align="left">
+           T cell activation
+          </th>
+          <th align="left">
+           T helper subsets
+          </th>
+          <th align="left">
+           T regs
+          </th>
+          <th align="left">
+           B cells
+          </th>
+          <th align="left">
+           NK cells
+          </th>
+          <th align="left">
+           Remarks
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           Wan et al. [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           12/02/2020
+          </td>
+          <td align="left">
+           123
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           T lymphocytes were more inhibited in severe patients
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2
+          </td>
+          <td align="left">
+           Diao et al. (Pre-print) [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           20/02/2020
+          </td>
+          <td align="left">
+           522 Cases
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Increased PD-1           CD8           Cells &amp; Tim-3           CD4           T cells in ICU patients
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3
+          </td>
+          <td align="left">
+           Zhou et al. [           ]
+          </td>
+          <td align="left">
+           Nanchang, China
+          </td>
+          <td align="left">
+           22/02/2020
+          </td>
+          <td align="left">
+           17
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Total lymphocyte count was associated with progression of disease
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4
+          </td>
+          <td align="left">
+           Zhang et al. (Pre-print) [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           27/02/2020
+          </td>
+          <td align="left">
+           1334
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           Checked cell counts on admission and 24 h prior to death. Low lymphocyte count on admission might indicate poor prognosis
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5
+          </td>
+          <td align="left">
+           Sun et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           02/03/2020
+          </td>
+          <td align="left">
+           8
+          </td>
+          <td align="left">
+           ↑ (2/8)
+          </td>
+          <td align="left">
+           ↑ (4/8)
+          </td>
+          <td align="left">
+           ↑ (1/8)
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓ (4/8)
+          </td>
+          <td align="left">
+           Increase in Total T cell count
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6
+          </td>
+          <td align="left">
+           Liu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           10/03/2020
+          </td>
+          <td align="left">
+           69
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           Lymphocytopenia including all cell populations was observed in severe cases
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7
+          </td>
+          <td align="left">
+           Qin et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           12/03/2020
+          </td>
+          <td align="left">
+           452 (44)
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↑Naïve ↓Memory
+          </td>
+          <td align="left">
+           ↓           Both naïve and induced
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           Decrease in Treg population may add to hyperactive immune response
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8
+          </td>
+          <td align="left">
+           Wu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           13/03/2020
+          </td>
+          <td align="left">
+           201
+          </td>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p>
+            ↓
+           </p>
+          </td>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p>
+            ↓
+           </p>
+          </td>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p>
+            ↓
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Persistence and gradual increase in lymphocytes may be required for effective immunity against SARS-CoV-2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           9
+          </td>
+          <td align="left">
+           Wang et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           16/03/2020
+          </td>
+          <td align="left">
+           69
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Older patients or those with underlying comorbidities are at higher risk of death
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10
+          </td>
+          <td align="left">
+           Chen et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           27/03/2020
+          </td>
+          <td align="left">
+           21
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <p>
+            ↑            CD45RA
+           </p>
+           <p>
+            ↓ CD45RO
+           </p>
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↑
+          </td>
+          <td align="left">
+           Suppressed IFN-γ by T cell may be related to disease severity
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11
+          </td>
+          <td align="left">
+           Wang et al. [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           30/03/2020
+          </td>
+          <td align="left">
+           60
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           CD8 + T cells tend to be an independent predictor for COVID-19 severity and treatment efficiency
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12
+          </td>
+          <td align="left">
+           He et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           12/04/2020
+          </td>
+          <td align="left">
+           204
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           Level of T lymphocyte could be used as an indicator for prediction of severity and prognosis of patients with COVID-19 pneumonia
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13
+          </td>
+          <td align="left">
+           Liu et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan, China
+          </td>
+          <td align="left">
+           18/04/2020
+          </td>
+          <td align="left">
+           40
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           Kinetic difference in immune cells between severe and non-severe cases were observed
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14
+          </td>
+          <td align="left">
+           Ouyang et al. [           ]
+          </td>
+          <td align="left">
+           China
+          </td>
+          <td align="left">
+           20/04/2020
+          </td>
+          <td align="left">
+           11
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           DEG of Th17 were downregulated
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Decreased T cell proportion with down-regulated gene expression related to T cell activation and differentiation are responsible for disease severity
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15
+          </td>
+          <td align="left">
+           Evangelos et al. [           ]
+          </td>
+          <td align="left">
+           Greece
+          </td>
+          <td align="left">
+           21/04/2020
+          </td>
+          <td align="left">
+           54
+          </td>
+          <td align="left"/>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p>
+            CD45
+           </p>
+          </td>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p>
+            CD45
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ↑ CD45
+          </td>
+          <td align="left">
+           ↓ CD45
+          </td>
+          <td align="left">
+           Also observed significant reduction in HLA-DR expression on monocytes that improved with IL-6 inhibitor by in-vitro study
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16
+          </td>
+          <td align="left">
+           Wang et al. [           ]
+          </td>
+          <td align="left">
+           Wuhan China
+          </td>
+          <td align="left">
+           23/04/2020
+          </td>
+          <td align="left">
+           65
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p/>
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           <p>
+            ↑
+           </p>
+           <p>
+            PD-1            CD8            &amp;CD4
+           </p>
+           <p>
+            ↑ Tim-3            CD4            &amp; CD8
+           </p>
+          </td>
+          <td align="left">
+           <p>
+            ↑
+           </p>
+           <p>
+            HLA-DR CD4
+           </p>
+           <p>
+            ↑
+           </p>
+           <p>
+            HLA-DR CD8
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <p>
+            ↓
+           </p>
+           <p>
+            CD45RA
+           </p>
+          </td>
+          <td align="left">
+           ↓
+          </td>
+          <td align="left">
+           ND
+          </td>
+          <td align="left">
+           IFN-γ producing ability of T cells were increased. In addition, expression of DC subsets were studied
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Indicates changes in severe cases when compared to healthy controls or reference range
+        </p>
+        <p>
+         Indicated changes in non-survivors when compared with survivors, rest indicates changes in severe cases in comparison to mild cases of COVID-19
+        </p>
+        <p>
+         <italic>
+          ND
+         </italic>
+         indicates no difference observed when compared to mild cases or healthy controls; *
+         <italic>
+          p
+         </italic>
+         &lt; 0.05; **
+         <italic>
+          p
+         </italic>
+         &lt; 0.01; ***
+         <italic>
+          p
+         </italic>
+         &lt; 0.001
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par25">
+      Th follicular cells (Tfh) are required for activation differentiation of B cells and are thus important for antibody mediated viral clearance. Tfh count was reported to be elevated in mild and recovering COVID-19 patients when compared to healthy controls [      ,      ]. A case study on a patient with non-severe COVID-19 revealed an increase in circulating Tfh at the same time of viral load decreasing to below lower limit of detection (Ct value = 45). Recruitment to peripheral circulation of immune cells including Tfh seemed to herald the resolution of symptoms in this case [      ]. Interestingly, authors of another article which is in pre-print stage, have reported increased CD8      T cell exhaustion (assessed by expression of PD-1) and increased Tfh cells in the peripheral blood of 38 non-severe COVID-19 patients compared to healthy controls [      ].
+     </p>
+     <p id="Par26">
+      Among the cytokines seen to be elevated in COVID-19, some are Th17 pathway specific such as IL-17, IL-1β, TNFα and GM-CSF [      ]. These findings have prompted various authors to investigate the role of Th17 in SARS-CoV-2 induced severe COVID-19 cases. A case study on a patient with severe COVID-19 reported an elevated count of Th17 cells, activated CD8      and CD4      T cells [      ]. Another study reported a decrease in Th17 subset, as indicated by low IL-17 secretion [      ]. Thus, further studies are required to delineate the role of Th17 specific response in COVID-19.
+     </p>
+     <p id="Par27">
+      A recent review suggested that major host immune dysregulations include dampened Type-1 IFN response, viral load induced hyperinflammation and recruitment of proinflammatory cells like neutrophils and monocytes [      ]. Type-1 IFN response is crucial for induction of effective adaptive response and controlling viral replication. A study, conducted for immunophenotyping the antiviral response in COVID-19 patients, used PBMCs of 4 patients (male young, male elderly, female young, female elderly), collected pre-ICU, during ICU and post ICU. As per the finding by single cell transcriptome sequencing, the authors have reported a significant increase in monocytes and plasmacytoid dendritic cell (pDC) populations in the ICU samples [      ]. The authors have also reported a gene signature in the ICU samples which showed elevated expression of DDX58, IRF8, TLR7 and interferon stimulated genes (ISGs) like IFITM1, when compared to per and post ICU samples. There is therefore evidence of delayed or dampened Type-1 IFN response in the initial stages of the infection with subsequent increase with active viral replication, a phenomenon also reported to be part of the pathogenesis of SARS-CoV [      ,      ]. In a subsequent study involving profiling of immune cells, whole blood transcriptome and cytokine levels in 50 COVID-19 patients of varying severity authors reported a significant impaired Type-1 IFN response in the critical patients. This impaired Type-1 IFN response characterized by reduced levels of IFN-α and IFN-ß along with high IL-6 and TNF-α levels. The study also revealed a significant downregulation of 6 ISGs which specify Type-1 IFN response in the severe COVID-19 cases. pDC population was also reduced in patients in comparison to healthy controls [      ].
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Immunogenetics
+     </title>
+     <p id="Par28">
+      In the present scenario where every other day newer and broader clinical aspects of COVID-19 are being searched, focus also needs to be diverted towards one important issue i.e. why there is so much diversity in the response elicited towards the same disease by different individuals. SARS CoV-2 is a novel corona virus, despite this fact some patients developed a wide range of symptoms with severe abnormalities, on the other hand some are completely asymptomatic.
+     </p>
+     <p id="Par29">
+      Morbidity and mortality from diseases have a direct link with an individuals’ response to the disease [      ]. Host genetic variation plays an important role in the varied immune response which in turn results in different disease outcome between individuals. Polymeric genes of host and their regulatory network influence immune responses to foreign compounds. There is correlation between underlying genetic traits and phenotypes displayed [      ]. The host genetic variation impacts virus induced immune responses by individuals [      ].
+     </p>
+     <p id="Par30">
+      Variability across human genes involved in antigen presentation to T lymphocytes is the major factor determining susceptibility or resistance to a wide range of infections. Human Leukocyte Antigen (HLA), Major Histocompatibility Complex (MHC) are molecules shown to regulate varied level of viral susceptibility and differential response. The MHC gene family is comprised of 3 main subfamilies class I, II and III genes located in proximity on chromosome 6. HLA- A,B,C belonging to MHC Class-I and HLA-DP, DM, DO, DQ, and DR belonging to MHC class II mediate antigen presentation to T cells. HLA of class I and II reside on cell membranes of all nucleated cells and antigen presenting cells, respectively. MHC-I and II both have extracellular domains that form the peptide binding groove where antigenic peptide derived from different sources bind. The bound antigens based on their source intracellular (endogenous) or extracellular (exogenous) are presented either to CD8      or to CD4      cells by MHC-I or MHC-II, respectively [      ].
+     </p>
+     <p id="Par31">
+      HLA has already been studied as a major component of immune system responsible for varied immune response to pathogens. HLA genotype plays an important role in differential regulation and activation of T cells as well as disease transmission and duration [      ]. Studies reported an increased severity towards the closely related SARS-CoV diseases in individuals with HLA-B*46:01 genotype. Similarly, response to disease caused by other unrelated viruses such as Human Immunodeficiency Virus 1 (HIV-1), dengue virus is also linked with respective HLA genotype of the host. In case of HIV, HLA-A*02:05 reduces the risk of seroconversion [      ], while in dengue HLA alleles: HLA-A*0207, HLA-B*51 were associated with susceptibility towards severe secondary disease among native Thais [      ].
+     </p>
+     <p id="Par32">
+      Studies have also investigated human genotype to determine putative HLA alleles and their affinity towards novel coronavirus SARS-CoV-2. Nguyen et al. performed an in-silico analysis to check the binding affinity of viral peptide-MHC class I across 145 different HLA types. Of the total alleles studied HLA-A*02:02, B*15:03, C*12:03 were the most efficient conserved peptide presenters while HLA-A*25:01, B*46:01, C*01:02 were shown to have very fewer binding peptides for SARS-CoV-2. In addition, there were 56 other different HLA alleles in humans which did not show any appreciable binding affinity. All the three major class I genes exhibit similarity in peptide presentation across entire virus (SARS-CoV-2) proteome and are independent of stage (early or late) of peptide and its production time [      ]. HLA-B*46:01 allele was found to have the least predicted binding sites for SARS-CoV-2 and therefore individuals with this allele have less active immune response and thus more vulnerable to infection, similar findings were reported in case of SARS-CoV infections.
+     </p>
+     <p id="Par33">
+      A difference in HLA haplotype may influence the individuals’ response to SARS-CoV-2 infection and certain haplotypes may be associated with increased disease severity, thus, HLA genotyping may assist in identifying individuals at risk. Therefore, HLA testing is highly recommended along with COVID-19 testing to enhance the sensitivity and to predict susceptibility to disease severity. It is a rapid and reliable method that will assist in planning future vaccination strategy.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec8">
+    <title>
+     Conclusion
+    </title>
+    <p id="Par34">
+     Human infections with coronavirus such as SARS and MERS have occurred in the past, however, the present infection with SARS-CoV-2 has evolved to become a pandemic, in contrast to the rest. SARS-CoV-2 has shown to have similarities with its predecessors i.e. SARS-CoV and MERS-CoV in terms of genome sequence, receptor affinity, pathogenesis and disease presentation. However, our knowledge of MERS or SARS has not been enough to curb current COVID-19 pandemic, hence mandating the need to expand our knowledge on SARS-CoV-2. Only a small proportion of the infected patients progress to severe stage needing critical care. Thus, in absence of proper cure, it becomes essential to delineate the factors that may aid in the severity assessment of the disease. If individuals at risk of developing severe symptoms can be identified early, management of the disease may improve to a significant extent.
+    </p>
+    <p id="Par35">
+     In this review, we have attempted to brief the virology and associated pathogenesis, particularly in aspects of immunopathology. Invasion of lung epithelial cells and probably certain immune cells directly, by SARS-CoV-2 via infectious aerosolized droplets, heralds the infection. Peripheral neutrophilia and lymphocytopenia associated with delayed but exaggerated immune response mediate the fatal ARDS, multi-organ dysfunction resulting in death of COVID-19 patients. While male gender, increasing age and co-morbidities have shown to be risk factors for severe disease, IL-6 and TNF-α were found to be potential markers of disease severity. IL-1ß mediated pyroptosis and tissue injury can be hypothesised to be a major molecular mechanism underlying pathogenesis of COVID-19 [     ]. Cytokine storm, a phenomenon long studied in sepsis associated conditions, has no successful effective management so far [     ]. Future studies in different population groups should be designed with an aim to identify molecular targets that may help in early diagnosis and predicting severity of patients with COVID-19. Moreover, alternative treatment modalities like drug repurposing using interleukin inhibitors, plasma therapy is also another area that needs exploration [     ]. Thus, until a vaccine is available, the main stay of treatment in COVID-19 cases will continue to be supportive care. While, use of monoclonal antibodies, mesenchymal stem cells and plasma of recovered patients are still in experimental stage, being precautious and restricting movement is the only successful solution for reducing further spread.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

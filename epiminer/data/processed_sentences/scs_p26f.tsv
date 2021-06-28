@@ -1,0 +1,3 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+6759994	body	An|insert|encode|GFP|-|CTD|-|3x|FLAG|be|amplify|from|the|genomic|DNA|of|strain|J2CTDGF|use|the|primer|p26F|/|p27R|,|while|the|plasmid|pJ2F|be|amplify|use|the|primer|p1F|/|p28R|.	GFP|CTD|p26F|p27R|p1F|p28R	6
+6759994	body	An|insert|encode|a|GFP|-|3x|FLAG|be|amplify|from|the|genomic|DNA|of|strain|UA159GF|use|the|primer|p26F|/|p27R|,|while|the|plasmid|pJ2F|be|amplify|use|the|primer|p1F|/|p28R|.	GFP|p26F|p27R|p1F|p28R	5

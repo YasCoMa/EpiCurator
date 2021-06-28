@@ -1,0 +1,13 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+6542842	body	Result|crRNA|design|and|selection|We|identify|a|new|HLA|B|allele|that|be|similar|to|HLA-B|*|38-01-01-01|except|for|a|nine-nucleotide|deletion|(|5′-CTTGTGGAG-3′|)|at|codon|230|to|232|that|result|in|a|cod|shift|at|α3|domain|of|HLA-B38|(|Fig|.	HLA-B|HLA-B38	2
+6542842	body	The|expression|of|the|HLA-B|*|38-68Q|be|further|confirm|use|human|polyclonal|antibody|against|HLA-B38|at|neat|and|at|1|:|2|dilution|.	HLA-B|human|polyclonal|antibody|HLA-B38	5
+6542842	body	HLA-B38|antibody|recognize|epitope|at|80I|and|158|T|of|the|α1|and|α2|helix|of|HLA|class|I|molecule|.	HLA-B38|antibody|epitopes|HLA|class|I|molecule	7
+6542842	body	Luminex|SAB|testing|show|the|MFI|of|the|HLA-B38|antibody|be|22|,|636|at|neat|and|14|,|551|at|1|:|2|dilution|.	Luminex|SAB|MFI|HLA-B38|antibody	5
+6542842	body	Our|result|show|the|expression|of|HLA-B38|in|the|HLA-B|*|38-01-01-01|homozygous|cell|(|27|,|730|±|784|MFI|)|be|1.5|fold|high|than|that|of|HLA-B|*|38-68Q|/|B|*|38-01-01-01|heterozygous|cell|(|18|,|184|±|387|MFI|,|P|&|lt|;|0.0001|)|,|and|the|HLA-B|*|38-68Q|/|B|*|38-01-01-01|heterozygous|cell|be|over|1.6|fold|high|than|HLA-B|*|38-68Q|homozygous|cell|at|neat|(|11|,|427|±|190|MFI|,|P|&|lt|;|0.0001|,|Fig|.	HLA-B38|HLA-B|P|&|lt|HLA-B|HLA-B|P|&|lt	10
+6542842	body	Our|study|successfully|demonstrate|that|the|deletion|at|codon|230–232|at|exon|4|in|HLA-B|*|38-01-01-01|reduce|HLA-B38|antigen|expression|on|the|cell|surface|use|CIRSPR|/|Cas9|system|.	HLA-B|HLA-B38|antigen|CIRSPR|Cas9	5
+6542842	body	Expression|of|HLA-B38|in|the|edit|cell|line|contain|the|HLA-B|*|38-68Q|allele|be|determine|use|UCLA|serum|exchange|sample|that|contain|anti-B38|antibody|but|lack|Bw4|activity|.	HLA-B38|anti-B38|antibody|Bw4	4
+6542842	body	Analysis|of|HLA-B38|expression|be|perform|use|FlowJo|software|version|10|(|BD|,|USA|)|.	HLA-B38	1
+5009521	body	Result|:|HLA-B3801|allele|be|present|in|all|three|case|of|LTG-induced|SJS|/|TEN|suggest|a|strong|association|(|OR|37.92|;|95|%|CI|5.4–269.53|;|p|&|lt|;|0.0001|)|.	LTG-induced|SJS	2
+5009521	body	Only|2|out|of|9|SJS|/|TEN|case|induce|by|PHE|be|carrier|of|HLA-B3801|(|OR|4.74|;|95|%|CI|0.67–25.12|;|p|=|0.09|)|.		0
+5009521	body	None|of|the|12|DRESS|case|analyze|be|carrier|of|HLA-B3801|.	HLA-B3801	1
+5009521	body	Conclusion|:|Our|result|suggest|that|HLA-B3801|may|be|a|risk|factor|for|LTG-induced|SJS|/|TEN|,|in|agreement|with|previous|datum|(|Lonjou|et|al|.	HLA-B3801|LTG-induced|SJS	3

@@ -1,0 +1,2066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Vaccinomics approach for scheming potential epitope-based peptide vaccine by targeting
+ </title>
+ <abstract>
+  <p>
+   The online version contains supplementary material available at 10.1007/s40203-021-00080-3.
+  </p>
+  <p id="Par1">
+   Marburg virus is one of the world’s most threatening diseases, causing extreme hemorrhagic fever, with a death rate of up to 90%. The Food and Drug Administration (FDA) currently not authorized any treatments or vaccinations for the hindrance and post-exposure of the Marburg virus. In the present study, the vaccinomics methodology was adopted to design a potential novel peptide vaccine against the Marburg virus, targeting RNA-directed RNA polymerase (
+   <sc>
+    l
+   </sc>
+   ). A total of 48
+   <sc>
+    l
+   </sc>
+   -proteins from diverse variants of the Marburg virus were collected from the NCBI GenBank server and used to classify the best antigenic protein leading to predict equally T and B-cell epitopes. Initially, the top 26 epitopes were evaluated for the attraction with major histocompatibility complex (MHC) class I and II alleles. Finally, four prospective central epitopes NLSDLTFLI, FRYEFTRHF, YRLRNSTAL, and YRVRNVQTL were carefully chosen. Among these, FRYEFTRHF and YRVRNVQTL peptides showed 100% conservancy. Though YRLRNSTAL showed 95.74% conservancy, it demonstrated the highest combined score as T cell epitope (2.5461) and population coverage of 94.42% among the whole world population. The epitope was found non-allergenic, and docking interactions with human leukocyte antigens (HLAs) also verified. Finally, in vivo analysis of the recommended peptides might contribute to the advancement of an efficient and exclusively prevalent vaccine that would be an active route to impede the virus spreading.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par2">
+     A member of the genera Marburg virus (MABV) belongs to Filoviridae family that causes an acute life-threatening hemorrhagic fever in human being and other primates. The fever caused by MABV is identical to the Ebola virus (EBOV) disease and therefore is characterized by fever, severe inflammatory reaction, pathological coagulation, and systemic hemorrhaging (Mehedi et al.     ). To date, Marburg virus disease (MVD) is related to 469 total cases and 376 reported deaths (Peterson et al.     ; Nyakarahuka et al.     ). Though fewer cases for MABV recorded, forthcoming epidemics and the rapid expansion of MABV to non-endemic areas are of boundless distress. The mortality rate of this virus reported about 81% (Mehedi et al.     ).
+    </p>
+    <p id="Par3">
+     The Egyptian rousette (
+     <italic>
+      Rousettus aegyptiacus
+     </italic>
+     ) is publicly classified as the Marburg virus-host and has a wide geographical distribution. The pretended cause for the dispersal of MVD might be the close contact between humans and animals like, other than human primates, bats, and cattle (Towner et al.     ). It has been listed by World Health Organization (WHO) as a category 4 risk agent because of its lethality (Chosewood and Wilson     ).
+    </p>
+    <p id="Par4">
+     The Marburg virus possesses about 19 kilobase-pair long, negative sense, un-segmented RNA genome, encoding 7 open reading frames (ORF); nucleoprotein NP, virion protein (VP) 35, VP40, glycoprotein (GP), VP24, and viral RNA-dependent RNA polymerase (
+     <sc>
+      l
+     </sc>
+     ) (Feldmann et al.     ). The whole-genome of filovirus is enveloped into a single threadlike virion, having 790–970 nm length and 80 nm width (Geisbert     ). Based on the structure and functions of Marburg virus
+     <sc>
+      l
+     </sc>
+     -protein, the enzymatically active subunit (
+     <sc>
+      l
+     </sc>
+     ) of the MARV polymerase comprises of 2331 amino acids (Mühlberger et al.     ). The
+     <sc>
+      l
+     </sc>
+     -protein conjunction with VP 35, the polymerase cofactor, forms the RNA-dependent polymerase complex that is crucial for transcription and duplication of the virus (Mühlberger et al.     ).
+    </p>
+    <p id="Par5">
+     Because of the emergence of the Marburg virus outbreak, novel therapeutic targets against this pathogen need to be identified immediately. Currently, no FDA approved vaccines or drugs are available to defend the human against the Marburg virus (Brauburger et al.     ). The only prime treatment of patients during the epidemics was sympathetic care (fluids, antimicrobials, blood transfusion) (Martines et al.     ; Olival and Hayman     ).
+    </p>
+    <p id="Par6">
+     Identifying precise epitopes from pathogens causing infections has ominously advanced the progress of peptide vaccines grounded on the epitope. Better knowledge on the bio-molecular base of target identification and human leukocyte antigen (HLA) binding motives, culminated in the development of logically engineered vaccines based uniquely on algorithms forecasting the binding of the epitope to HLA (Oany et al.     ,     ,     ,     ). The epitope-based vaccine is chemically constant, more precise, and without any potentially pathogenic or oncogenic exposure (Holland and Domingo     ; Sette et al.     ), but the formulation of laboratory-based aspirant epitope is not only costly but also painstaking, requiring diverse laboratory medicine experiments for ultimate epitope choice.
+    </p>
+    <p id="Par7">
+     Vaccinomics means the implementation of combined expertise from various fields, including immunogenetics and immunogenomics, to establish and understand the immune response of candidates for the next generation vaccine (Poland et al.     ). At present, different vaccinomics databases are available for identifying particular B lymphocyte epitopes and highly sensitive and specific HLA ligands (Brusic et al.     ; Rammensee et al.     ). The vaccinomics strategy has already proved its promise with optimal findings in the detection of the retained epitope for human coronavirus (Oany     ), Ebola virus (Oany et al.     ), and
+     <italic>
+      Shigella
+     </italic>
+     (Oany et al.     ).
+    </p>
+    <p id="Par8">
+     In the present work, vaccinomics approaches have been executed to design potential conserved epitope candidate that can be used for the vaccine origination against the deadly Marburg virus, by targeting protein
+     <sc>
+      l
+     </sc>
+     , with an anticipation of further wet lab endorsement.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Methods
+    </title>
+    <p id="Par9">
+     The overall schematic diagram for vaccine designing is shown in Fig.     .
+    </p>
+    <sec id="Sec3">
+     <title>
+      Sequence collection and antigenic protein determination
+     </title>
+     <p id="Par10">
+      The
+      <sc>
+       l
+      </sc>
+      -protein sequences of the Marburg virus were collected from GenBank (Clark et al.      ) and evaluated by the Immunomedicine Group server based on the Kolaskar method (Kolaskar and Tongaonkar      ), to ascertain the maximum effective antigenic protein.
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      T-cell epitope extrapolation and affinity with MHC
+     </title>
+     <p id="Par11">
+      The epitope estimation for the corresponding protein and its affinity score with MHC class I and class II allele were determined using the previously used approach (Oany      ; Oany et al.      ). Briefly, the NetCTL server (Larsen et al.      ) assessed the effective cytotoxic T-lymphocyte epitopes from the most immunogenic protein. The default algorithms were used for this assessment. Epitopes having maximum scores were selected.
+     </p>
+     <p id="Par12">
+      The Immune Epitope Database (IEDB) T-cell epitope detection methods were utilized to determine an association with both MHC molecules (Buus et al.      ; Wang et al.      ,      ). To measure the half-maximum inhibitory concentration (IC
+      <sub>
+       50
+      </sub>
+      ) for the binding of a pre-selected 9.0-mer epitope with MHC-I, the stabilized matrix method (SMM) was employed. The IEDB-recommended approach was used to study MHC class II interaction for the particular HLA-DP, HLA-DQ, and HLA-DR loci. Taking into consideration the pre-defined 9-mer epitope and its preserved region in the Marburg virus, 15-mer epitopes were intended for binding interaction analysis of MHC-II. In case of MHC-I, the epitopes consisting of IC
+      <sub>
+       50
+      </sub>
+      &lt; 250 nM and the epitopes containing percentile rank &lt; 50 for MHC-II alleles were chosen for even more assessments.
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      Epitope management and population distribution study
+     </title>
+     <p id="Par13">
+      The aspirant epitope preservation was checked using a web-based epitope conservation method available in the IEDB research database (Bui et al.      ). The degree of conservation of each possible epitope was evaluated by taking attributes from the database of all
+      <sc>
+       l
+      </sc>
+      -protein sequences of different strains. Additionally multiple sequence alignment (MSA) was constructed by BioEdit software (Hall and Biosciences      ) and retrieved through Jalview (
+      <ext-link ext-link-type="uri" ns0:href="http://www.jalview.org/">
+       http://www.jalview.org/
+      </ext-link>
+      ) tool to identify the epitope locations inside the sequences. The phylogram was generated through the CLC Sequence Viewer (Bio-Qiagen      ). Furthermore, the WebLogo server (Crooks et al.      ) was used to visualize the conserved region of the MSA. The population distribution for the epitope was analyzed by IEDB estimation tool (Bui et al.      ), and the collective value for both MHC groups was calculated.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Homology modeling, energy minimization and structural authentication
+     </title>
+     <p id="Par14">
+      The homology model of the targeted protein was acquired by MODELLERv9 (Šali et al.      ) and the PROCHECK server of the SWISS-MODEL Workspace evaluated the projected structure (Laskowski et al.      ; Arnold et al.      ). The best suitable template was used for the construction of the model to cover the whole region of the protein. Before the assessment, the energy minimization of the structure was done by the GROMOS 96 (Scott et al.      ) force field. The superposition of the prototype and model configuration had been examined to ensure the model’s fair consistency. Additionally, the ProSA-web server (Oany et al.      ; Wiederstein and Sippl      ) was also utilized for assessing the model quality through Z-score measurement.
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Molecular docking and association of HLA allele’s scrutiny
+     </title>
+     <p id="Par15">
+      Studies of docking were also carried out using the best available epitope, adopting the method used in previous studies (Oany et al.      ,      ). Auto-Dock Vina (Trott and Olson      ) was used for the docking analysis. In our analysis we designated HLA-C*07:02 and DRB1*04:01 as the aspirants for MHC-I and II, respectively, for docking study since they are accessible hits in the Protein Data Bank (PDB) server. The structure 5VGE, HLA-C*07:02 complexes with RYR peptide, and 5JLZ-human HLA-DRB1*04:01 complexes with modified alpha-enolase peptide-were extracted from the Research Collaboratory for Structural Bioinformatics (RCSB) protein databank (Berman et al.      ). Finally, the complex-structures were generalized through PyMOL (version 1.5.0.4) for the ultimate docking analysis.
+     </p>
+     <p id="Par16">
+      For epitope 3D structure transformation, the preferred PEP-FOLD server was utilized to convert the structure from the sequences (Thévenet et al.      ). To evaluate the relationship with HLA alleles, the 9-mer epitope of the MHC I and 15-mer epitope of the MHC II molecule were used. Finally, all the proteins and the peptides were minimized using GROMOS 96 (Scott et al.      ) force field for the docking analysis through using Swiss-Pdb viewer (Guex and Peitsch      ).
+     </p>
+     <p id="Par17">
+      The grid-line for the docking of MHC-I molecules was of X: 58.9062, Y: 28.6331, and Z: 30.7545 (Angstrom) at the center of X: 16.9834, Y: − 61.6639, and Z: 17.8431 and the grid-line for the docking of MHC-II molecules was of X: 26.9773, Y: 33.5139, and Z: 26.0699 (Angstrom) at the center of X: − 41.0931, Y: 9.7731, and Z: − 26.5406. A control docking was also performed with an experimentally acknowledged peptide-MHC-compound. The human HLA-C*07:02 bound with RYR peptide (PDB ID: 5VGE) was selected for this study. The grid-line for the docking focusing at X: 25.6546, Y: − 60.4063, and Z: 11.8845.
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Allergenicity assessment and B-cell epitope detection
+     </title>
+     <p id="Par18">
+      A web-based AlgPred server was used to estimate the allergenicity of the possible epitopes (Saha and Raghava      ) by using the support vector machine (SVM) algorithm at a threshold value of − 0.4. Estimating technique follows guidelines of the Food and Agriculture Organization/World Health Organization, 2003. IEDB-AR screened the projected T-cell epitope (15-mer) using multiple web-based methods for the feasibility of the B-cell epitope (Kolaskar and Tongaonkar      ; Chou and Fasman      ; Emini et al.      ; Karplus and Schulz      ; Larsen et al.      ; Parker et al.      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec9">
+    <title>
+     Results
+    </title>
+    <sec id="Sec10">
+     <title>
+      Sequence collection and antigenic protein determination
+     </title>
+     <p id="Par19">
+      From the NCBI GenBank database, entirely 48
+      <sc>
+       l
+      </sc>
+      -protein molecules from diverse varieties of the Marburg virus were obtained. The
+      <sc>
+       l
+      </sc>
+      -proteins MSA was retrieved from the BioEdit software via ClustalW using 1000 bootstrap replicates (Figure S1). The CLC Sequence Viewer had been utilized to construct the phylogram based on MSA obtained from BioEdit, to determine the distinction between the sequences received and is depicted in the Fig.      . Finally, after subsequent evaluation from Immunomedicine Group server, the maximum antigenicity score of 1.0392 was found for the accession number AFV31373.1 (Table S1), and subsequently analyzed for the highly immunogenic epitope.
+     </p>
+    </sec>
+    <sec id="Sec11">
+     <title>
+      T-cell epitope extrapolation and affinity with MHC
+     </title>
+     <p id="Par20">
+      The NetCTLv1.2 server was utilized for the identification of T-cell epitopes where the calculation was restricted to 12 MHC-I supertypes. The top 26 epitopes (Table      ) were selected from the supertypes for further comprehensive analysis based on the cumulative values. Table      lists the restricted MHC-I alleles for which the epitope exhibited increased specificity (IC
+      <sub>
+       50
+      </sub>
+      &lt; 250 nM) and Table      displays findings from the MHC-II interaction study (percentile rank &lt; 50).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Predicted T-cell epitopes by NetCTL server on the basis of combined score
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Epitope
+          </th>
+          <th align="left">
+           Supertypes
+          </th>
+          <th align="left">
+           Start position
+          </th>
+          <th align="left">
+           Combined score
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           QSSLPVWLY
+          </td>
+          <td align="left" rowspan="3">
+           A1
+          </td>
+          <td align="left">
+           1595
+          </td>
+          <td align="char" char=".">
+           3.4352
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           YSGNIVHRY
+          </td>
+          <td align="left">
+           1288
+          </td>
+          <td align="char" char=".">
+           2.9568
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FLEKEELFY
+          </td>
+          <td align="left">
+           945
+          </td>
+          <td align="char" char=".">
+           2.8701
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           NLFDWMHFL
+          </td>
+          <td align="left" rowspan="3">
+           A2
+          </td>
+          <td align="left">
+           663
+          </td>
+          <td align="char" char=".">
+           1.5315
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           NLSDLTFLI
+          </td>
+          <td align="left">
+           1512
+          </td>
+          <td align="char" char=".">
+           1.4496
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           YILFFPFGL
+          </td>
+          <td align="left">
+           2315
+          </td>
+          <td align="char" char=".">
+           1.3993
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           RLRNSTALK
+          </td>
+          <td align="left" rowspan="3">
+           A3
+          </td>
+          <td align="left">
+           51
+          </td>
+          <td align="char" char=".">
+           1.7195
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           VTFRLMLNK
+          </td>
+          <td align="left">
+           1367
+          </td>
+          <td align="char" char=".">
+           1.6401
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLHSLMLDY
+          </td>
+          <td align="left">
+           2210
+          </td>
+          <td align="char" char=".">
+           1.5581
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           NYPASLHKF
+          </td>
+          <td align="left" rowspan="3">
+           A24
+          </td>
+          <td align="left">
+           2161
+          </td>
+          <td align="char" char=".">
+           1.9153
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SYQNFINNF
+          </td>
+          <td align="left">
+           1579
+          </td>
+          <td align="char" char=".">
+           1.8991
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KWKKTDYLF
+          </td>
+          <td align="left">
+           1961
+          </td>
+          <td align="char" char=".">
+           1.8145
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           WTIGNRAPY
+          </td>
+          <td align="left" rowspan="3">
+           A26
+          </td>
+          <td align="left">
+           1210
+          </td>
+          <td align="char" char=".">
+           2.4674
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DVANFLRAY
+          </td>
+          <td align="left">
+           1111
+          </td>
+          <td align="char" char=".">
+           2.3636
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           EFIVSVASY
+          </td>
+          <td align="left">
+           229
+          </td>
+          <td align="char" char=".">
+           1.9937
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           APSYRNFSF
+          </td>
+          <td align="left" rowspan="3">
+           B7
+          </td>
+          <td align="left">
+           545
+          </td>
+          <td align="char" char=".">
+           1.8800
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           RVSRSTLSL
+          </td>
+          <td align="left">
+           1421
+          </td>
+          <td align="char" char=".">
+           1.7969
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HPSVNRLAW
+          </td>
+          <td align="left">
+           1202
+          </td>
+          <td align="char" char=".">
+           1.6682
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KLKLKSSVM
+          </td>
+          <td align="left" rowspan="3">
+           B8
+          </td>
+          <td align="left">
+           735
+          </td>
+          <td align="char" char=".">
+           2.0038
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FIKDRATAV
+          </td>
+          <td align="left">
+           484
+          </td>
+          <td align="char" char=".">
+           1.9265
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KPKVMFETF
+          </td>
+          <td align="left">
+           403
+          </td>
+          <td align="char" char=".">
+           1.8823
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           NRWKSWFSY
+          </td>
+          <td align="left" rowspan="3">
+           B27
+          </td>
+          <td align="left">
+           1083
+          </td>
+          <td align="char" char=".">
+           1.9066
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FRYEFTRHF
+          </td>
+          <td align="left">
+           643
+          </td>
+          <td align="char" char=".">
+           1.8129
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           YRLRNSTAL
+          </td>
+          <td align="left">
+           50
+          </td>
+          <td align="char" char=".">
+           1.7871
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FHSIWDHIL
+          </td>
+          <td align="left" rowspan="3">
+           B39
+          </td>
+          <td align="left">
+           72
+          </td>
+          <td align="char" char=".">
+           2.6241
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           YRLRNSTAL
+          </td>
+          <td align="left">
+           50
+          </td>
+          <td align="char" char=".">
+           2.5461
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           YRVRNVQTL
+          </td>
+          <td align="left">
+           571
+          </td>
+          <td align="char" char=".">
+           2.4425
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           WEICARAWL
+          </td>
+          <td align="left" rowspan="3">
+           B44
+          </td>
+          <td align="left">
+           254
+          </td>
+          <td align="char" char=".">
+           1.9816
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SESESTINL
+          </td>
+          <td align="left">
+           1161
+          </td>
+          <td align="char" char=".">
+           1.8007
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           AEALLADGL
+          </td>
+          <td align="left">
+           580
+          </td>
+          <td align="char" char=".">
+           1.7186
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           LTVPFHSIW
+          </td>
+          <td align="left" rowspan="3">
+           B58
+          </td>
+          <td align="left">
+           68
+          </td>
+          <td align="char" char=".">
+           1.9674
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SSLPVWLYF
+          </td>
+          <td align="left">
+           1596
+          </td>
+          <td align="char" char=".">
+           1.9236
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KSSDVHEDF
+          </td>
+          <td align="left">
+           1803
+          </td>
+          <td align="char" char=".">
+           1.9065
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KQHIVSNSF
+          </td>
+          <td align="left" rowspan="3">
+           B62
+          </td>
+          <td align="left">
+           443
+          </td>
+          <td align="char" char=".">
+           1.4985
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           WTIGNRAPY
+          </td>
+          <td align="left">
+           1210
+          </td>
+          <td align="char" char=".">
+           1.4914
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FQSQMIKSY
+          </td>
+          <td align="left">
+           322
+          </td>
+          <td align="char" char=".">
+           1.4696
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Here, all the 12 different supertypes’ epitopes are showed
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Epitopes for CD8 + T-cell along with their interacting MHC class I alleles with affinity &lt; 250 nM
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Serial no.
+          </th>
+          <th align="left">
+           Epitope
+          </th>
+          <th align="left">
+           Interacting MHC-I allele (IC50) on the nM scale
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           1.
+          </td>
+          <td align="left">
+           QSSLPVWLY
+          </td>
+          <td align="left">
+           HLA-B*27:20 (2.03), HLA-A*32:07 (11.35), HLA-B*15:17 (19.71), HLA-C*12:03 (27.49), HLA-A*68:23 (28.10), HLA-C*03:03 (35.86), HLA-B*40:13 (42.75), HLA-C*07:01 (52.26), HLA-B*58:01 (99.15), HLA-A*32:15 (115.41), HLA-A*29:02 (120.44), HLA-B*15:02 (136.53), HLA-C*05:01 (193.05), HLA-A*01:01 (211.62)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2.
+          </td>
+          <td align="left">
+           YSGNIVHRY
+          </td>
+          <td align="left">
+           HLA-C*12:03 (22.97), HLA-A*68:23 (26.17), HLA-A*32:07 (31.05), HLA-B*15:17 (40.34), HLA-A*32:15 (44.49), HLA-B*40:13 (72.10), HLA-B*27:20 (73.03), HLA-A*29:02 (85.46), HLA-C*07:01 (90.82), HLA-A*80:01 (122.18), HLA-C*03:03 (165.81), HLA-A*01:01 (182.20), HLA-C*14:02 (212.63), HLA-A*30:02 (235.75)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3.
+          </td>
+          <td align="left">
+           FLEKEELFY
+          </td>
+          <td align="left">
+           HLA-B*27:20 (6.99), HLA-A*80:01 (11.46), HLA-C*05:01 (16.13), HLA-A*32:07 (26.98), HLA-C*12:03 (28.07), HLA-C*03:03 (65.56), HLA-A*68:23 (68.19), HLA-B*40:13 (70.30), HLA-C*14:02 (119.29), HLA-A*29:02 (147.49), HLA-A*32:15 (158.95)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4.
+          </td>
+          <td align="left">
+           NLFDWMHFL
+          </td>
+          <td align="left">
+           HLA-A*02:50 (1.48), HLA-A*02:11 (3.25), HLA-A*02:16 (4.22), HLA-A*02:02 (4.58), HLA-A*02:01 (5.31), HLA-A*02:12 (5.93), HLA-A*02:19 (8.78), HLA-A*02:03 (10.71), HLA-A*02:06 (18.77), HLA-A*32:07 (22.08), HLA-A*69:01 (23.93), HLA-B*40:13 (25.82), HLA-B*15:02 (28.26), HLA-A*68:23 (37.30), HLA-C*12:03 (39.65), HLA-A*32:15 (44.18), HLA-B*27:20 (78.61), HLA-C*07:02 (105.72), HLA-A*02:17 (108.31), HLA-C*03:03 (128.41), HLA-C*14:02 (148.46), HLA-A*68:02 (170.84)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5.
+          </td>
+          <td align="left">
+           NLSDLTFLI
+          </td>
+          <td align="left">
+           HLA-A*02:50 (3.96), HLA-A*02:02 (5.74), HLA-A*02:19 (8.41), HLA-A*32:07 (11.70), HLA-A*02:12 (21.46), HLA-A*02:01 (25.18), HLA-A*02:11 (30.43), HLA-A*02:16 (38.59), HLA-B*27:20 (40.50), HLA-A*02:03 (41.78), HLA-A*02:06 (59.78), HLA-C*12:03 (74.17), HLA-B*40:13 (81.46), HLA-A*68:23 (89.28), HLA-A*32:15 (95.12), HLA-C*03:03 (165.81), HLA-A*68:02 (169.66), HLA-C*07:01 (211.92), HLA-A*02:17 (228.38), HLA-A*69:01 (242.58)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6.
+          </td>
+          <td align="left">
+           RLRNSTALK
+          </td>
+          <td align="left">
+           HLA-A*30:01 (6.40), HLA-A*32:07 (11.86), HLA-A*03:01 (13.73), HLA-B*27:20 (22.41), HLA-A*68:23 (35.62), HLA-C*12:03 (60.15), HLA-A*32:15 (110.47), HLA-A*31:01 (111.55), HLA-A*11:01 (228.19)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7.
+          </td>
+          <td align="left">
+           VTFRLMLNK
+          </td>
+          <td align="left">
+           HLA-A*11:01 (5.61), HLA-A*68:23 (9.88), HLA-B*27:20 (12.96), HLA-C*12:03 (18.93), HLA-A*03:01 (28.69), HLA-A*32:07 (28.78), HLA-B*40:13 (34.75), HLA-A*30:01 (75.16), HLA-C*14:02 (109.55), HLA-A*68:01 (120.36), HLA-A*32:15 (179.58), HLA-A*31:01 (230.92)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8.
+          </td>
+          <td align="left">
+           NYPASLHKF
+          </td>
+          <td align="left">
+           HLA-A*24:03 (2.16), HLA-C*14:02 (5.00), HLA-A*32:07 (16.52), HLA-B*40:13 (20.56), HLA-A*02:50 (20.71), HLA-A*23:01 (30.23), HLA-A*68:23 (34.97), HLA-B*27:20 (37.02), HLA-C*12:03 (44.90), HLA-A*32:15 (63.42), HLA-B*15:02 (70.67), HLA-A*24:02 (75.79), HLA-C*07:02 (84.17)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           9.
+          </td>
+          <td align="left">
+           SYQNFINNF
+          </td>
+          <td align="left">
+           HLA-A*24:03 (1.37), HLA-A*32:07 (8.05), HLA-C*14:02 (12.35), HLA-A*68:23 (21.07), HLA-C*12:03 (43.07), HLA-A*23:01 (50.28), HLA-B*40:13 (58.87), HLA-A*24:02 (63.48), HLA-B*27:20 (68.94), HLA-C*07:02 (77.83), HLA-B*15:02 (98.45), HLA-B*15:03 (123.05), HLA-A*32:15 (124.52), HLA-A*02:50 (198.25)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10.
+          </td>
+          <td align="left">
+           WTIGNRAPY
+          </td>
+          <td align="left">
+           HLA-A*68:23 (1.84), HLA-C*03:03 (3.02), HLA-B*15:17 (4.96), HLA-C*12:03 (22.76), HLA-A*26:02 (25.02), HLA-A*32:15 (32.68), HLA-A*29:02 (39.42), HLA-A*26:03 (48.62), HLA-A*26:01 (54.78), HLA-A*32:07 (67.46), HLA-A*30:02 (68.15), HLA-B*40:13 (72.43), HLA-B*35:01 (93.24), HLA-B*15:01 (101.86), HLA-B*15:02 (106.96), HLA-B*27:20 (112.33), HLA-C*14:02 (113.14), HLA-A*25:01 (211.39)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11.
+          </td>
+          <td align="left">
+           DVANFLRAY
+          </td>
+          <td align="left">
+           HLA-A*26:02 (2.78), HLA-A*68:23 (5.11), HLA-A*25:01 (14.03), HLA-A*26:01 (39.87), HLA-C*12:03 (41.13), HLA-A*32:07 (53.22), HLA-C*03:03 (66.31), HLA-B*35:01 (94.97), HLA-B*15:02 (111.49), HLA-B*40:13 (131.20), HLA-B*27:20 (136.30), HLA-A*29:02 (162.09), HLA-A*32:15 (166.82), HLA-A*26:03 (172.10)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12.
+          </td>
+          <td align="left">
+           APSYRNFSF
+          </td>
+          <td align="left">
+           HLA-B*27:20 (16.01), HLA-B*42:01 (23.05), HLA-A*32:07 (23.94), HLA-C*03:03 (25.45), HLA-A*32:15 (33.90), HLA-A*68:23 (37.22), HLA-B*07:02 (38.01), HLA-A*02:50 (42.88), HLA-C*12:03 (74.00), HLA-B*40:13 (133.95), HLA-B*35:01 (161.65), HLA-B*83:01 (177.39)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13.
+          </td>
+          <td align="left">
+           RVSRSTLSL
+          </td>
+          <td align="left">
+           HLA-A*32:07 (10.26), HLA-B*27:20 (12.26), HLA-A*68:23 (21.97), HLA-B*15:17 (27.33), HLA-A*02:50 (53.98), HLA-C*03:03 (59.93), HLA-B*07:02 (79.23), HLA-C*12:03 (81.32), HLA-A*02:17 (99.46), HLA-B*40:13 (128.21), HLA-A*32:01 (138.02), HLA-C*15:02 (141.07), HLA-B*15:02 (141.65), HLA-A*32:15 (229.22)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14.
+          </td>
+          <td align="left">
+           KLKLKSSVM
+          </td>
+          <td align="left">
+           HLA-B*27:20 (9.97), HLA-C*12:03 (12.08), HLA-A*32:07 (19.14), HLA-A*02:17 (19.44), HLA-B*15:03 (22.08), HLA-A*02:50 (54.35), HLA-A*68:23 (90.31), HLA-B*08:01 (98.53), HLA-B*15:01 (106.66), HLA-A*32:15 (125.39), HLA-C*14:02 (165.81), HLA-B*40:13 (202.27), HLA-C*03:03 (211.65)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15.
+          </td>
+          <td align="left">
+           FIKDRATAV
+          </td>
+          <td align="left">
+           HLA-C*12:03 (4.00), HLA-A*02:50 (4.23), HLA-A*02:03 (9.01), HLA-A*02:11 (23.35), HLA-A*02:06 (24.47), HLA-A*68:23 (31.03), HLA-A*32:07 (49.10), HLA-B*40:13 (53.45), HLA-B*08:01 (58.15), HLA-C*03:03 (58.70), HLA-B*27:20 (58.82), HLA-A*02:17 (59.52), HLA-A*02:02 (61.52), HLA-A*32:15 (101.22), HLA-A*02:12 (132.95), HLA-C*14:02 (193.03), HLA-C*15:02 (200.18)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16.
+          </td>
+          <td align="left">
+           NRWKSWFSY
+          </td>
+          <td align="left">
+           HLA-B*27:20 (2.35), HLA-B*40:13 (30.47), HLA-A*32:07 (39.63), HLA-C*12:03 (41.61), HLA-A*68:23 (68.51), HLA-B*15:02 (78.57), HLA-B*73:01 (103.21), HLA-B*27:05 (146.41), HLA-C*07:02 (148.65), HLA-C*07:01 (162.24), HLA-A*32:15 (168.75), HLA-C*14:02 (181.39)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           17.
+          </td>
+          <td align="left">
+           FRYEFTRHF
+          </td>
+          <td align="left">
+           HLA-B*27:20 (1.08), HLA-C*06:02 (5.17), HLA-C*07:02 (16.08), HLA-C*07:01 (16.34), HLA-B*15:03 (20.37), HLA-B*40:13 (21.18), HLA-B*15:02 (36.16), HLA-A*68:23 (38.17), HLA-A*02:50 (42.98), HLA-A*32:07 (43.96), HLA-C*03:03 (46.41), HLA-C*12:03 (49.68), HLA-C*14:02 (77.02), HLA-B*27:05 (89.86)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           18.
+          </td>
+          <td align="left">
+           FHSIWDHIL
+          </td>
+          <td align="left">
+           HLA-A*02:50 (3.54), HLA-B*39:01 (5.36), HLA-B*38:01 (6.87), HLA-B*27:20 (8.96), HLA-C*03:03 (16.62), HLA-B*40:13 (17.46), HLA-A*32:07 (19.55), HLA-B*15:02 (19.78), HLA-A*68:23 (23.54), HLA-A*32:15 (24.11), HLA-B*15:09 (42.99), HLA-C*12:03 (79.11), HLA-C*07:02 (187.14), HLA-A*02:02 (207.50), HLA-A*02:17 (239.14)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           19.
+          </td>
+          <td align="left">
+           YRLRNSTAL
+          </td>
+          <td align="left">
+           HLA-B*27:20 (2.10), HLA-C*03:03 (4.35), HLA-B*39:01 (9.87), HLA-C*14:02 (23.91), HLA-B*15:02 (24.79), HLA-A*02:50 (26.50), HLA-A*68:23 (44.85), HLA-A*32:07 (60.54), HLA-A*02:17 (74.93), HLA-B*14:02 (93.55), HLA-C*07:02 (94.44), HLA-C*07:01 (101.90), HLA-B*27:05 (105.82), HLA-C*12:03 (151.78), HLA-C*06:02 (199.44)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           20.
+          </td>
+          <td align="left">
+           YRVRNVQTL
+          </td>
+          <td align="left">
+           HLA-B*27:20 (1.64), HLA-C*03:03 (7.83), HLA-A*02:50 (8.26), HLA-C*07:02 (17.47), HLA-B*15:02 (19.83), HLA-B*39:01 (28.14), HLA-A*32:07 (43.16), HLA-C*07:01 (45.62), HLA-C*12:03 (58.10), HLA-A*68:23 (65.73), HLA-C*06:02 (68.84), HLA-C*14:02 (71.39), HLA-A*02:17 (120.13), HLA-B*40:13 (144.52), HLA-B*27:05 (160.17)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           21.
+          </td>
+          <td align="left">
+           WEICARAWL
+          </td>
+          <td align="left">
+           HLA-A*02:50 (4.28), HLA-B*27:20 (18.56), HLA-C*03:03 (19.26), HLA-B*40:01 (21.62), HLA-A*68:23 (30.53), HLA-B*15:02 (34.77), HLA-B*40:13 (38.45), HLA-A*02:17 (68.18), HLA-C*12:03 (70.02), HLA-A*32:07 (99.55), HLA-B*18:01 (131.84), HLA-A*32:15 (170.71)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           22.
+          </td>
+          <td align="left">
+           SESESTINL
+          </td>
+          <td align="left">
+           HLA-A*32:07 (17.18), HLA-A*68:23 (25.51), HLA-B*15:02 (32.60), HLA-B*40:01 (34.51), HLA-A*02:50 (39.83), HLA-B*40:02 (41.77), HLA-B*27:20 (54.89), HLA-B*40:13 (72.77), HLA-C*12:03 (88.15), HLA-C*03:03 (109.30), HLA-A*32:15 (141.66), HLA-A*02:17 (146.78), HLA-C*07:02 (241.64)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           23.
+          </td>
+          <td align="left">
+           LTVPFHSIW
+          </td>
+          <td align="left">
+           HLA-B*15:17 (3.81), HLA-B*58:01 (13.47), HLA-A*68:23 (14.55), HLA-B*57:01 (21.08), HLA-C*12:03 (23.29), HLA-C*03:03 (35.12), HLA-B*27:20 (75.25), HLA-A*32:07 (79.63), HLA-A*32:15 (233.48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           24.
+          </td>
+          <td align="left">
+           SSLPVWLYF
+          </td>
+          <td align="left">
+           HLA-B*15:17 (4.53), HLA-A*32:07 (7.35), HLA-B*27:20 (9.21), HLA-B*15:03 (18.71), HLA-B*58:01 (37.26), HLA-A*32:15 (71.82), HLA-B*40:13 (72.93), HLA-A*68:23 (86.85), HLA-B*15:02 (136.85), HLA-C*12:03 (163.01), HLA-C*03:03 (234.21), HLA-B*57:01 (239.23), HLA-C*14:02 (240.23)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           25.
+          </td>
+          <td align="left">
+           KQHIVSNSF
+          </td>
+          <td align="left">
+           HLA-B*27:20 (1.24), HLA-B*15:03 (1.53), HLA-B*40:13 (5.21), HLA-A*32:07 (7.13), HLA-B*15:01 (18.71), HLA-A*68:23 (35.87), HLA-A*32:01 (37.93), HLA-A*02:50 (56.91), HLA-A*32:15 (57.44), HLA-C*12:03 (99.13), HLA-C*14:02 (162.04), HLA-A*30:01 (238.22), HLA-A*02:06 (244.09)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           26.
+          </td>
+          <td align="left">
+           WTIGNRAPY
+          </td>
+          <td align="left">
+           HLA-A*68:23 (1.84), HLA-C*03:03 (3.02), HLA-B*15:17 (4.96), HLA-C*12:03 (22.76), HLA-A*26:02 (25.02), HLA-A*32:15 (32.68), HLA-A*29:02 (39.42), HLA-A*26:03 (48.62), HLA-A*26:01 (54.78), HLA-A*32:07 (67.46), HLA-A*30:02 (68.15), HLA-B*40:13 (72.43), HLA-B*35:01 (93.24), HLA-B*15:01 (101.86), HLA-B*15:02 (106.96), HLA-B*27:20 (112.33), HLA-C*14:02 (113.14), HLA-A*25:01 (211.39)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab3">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         The potential CD4 + T-cell epitopes along with their interacting MHC class II alleles based on percentile rank &lt; 50
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Serial no.
+          </th>
+          <th align="left">
+           Epitope
+          </th>
+          <th align="left">
+           Interacting MHC-II allele based on percentile rank &lt; 50
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           1.
+          </td>
+          <td align="left">
+           QSSLPVWLYFPSEGQ
+          </td>
+          <td align="left">
+           HLA-DRB1*04:01 (7.8), HLA-DRB1*04:05 (9.9), HLA-DQA1*01:01/DQB1*05:01 (12), HLA-DPA1*01:03/DPB1*02:01 (17), HLA-DPA1*01:03/DPB1*04:01 (18), HLA-DPA1*02:01/DPB1*01:01 (18), HLA-DRB1*15:01 (18), HLA-DPA1*02:01/DPB1*05:01 (25), HLA-DRB1*11:01 (26), HLA-DQA1*05:01/DQB1*02:01 (32), HLA-DQA1*03:01/DQB1*03:02 (36), HLA-DQA1*04:01/DQB1*04:02 (37), HLA-DRB1*12:01 (37.5), HLA-DPA1*03:01/DPB1*04:02 (39), HLA-DRB4*01:01 (42), HLA-DRB1*08:02 (43), HLA-DRB1*09:01 (44), HLA-DRB5*01:01 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2.
+          </td>
+          <td align="left">
+           FLPTHYSGNIVHRYN
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02 (4.7), HLA-DRB3*01:01 (8), HLA-DQA1*01:02/DQB1*06:02 (17), HLA-DRB1*13:02 (23), HLA-DQA1*05:01/DQB1*03:01 (24), HLA-DRB1*15:01 (28), HLA-DPA1*03:01/DPB1*04:02 (29), HLA-DRB1*04:01 (32), HLA-DRB1*01:01 (35), HLA-DRB1*07:01 (40), HLA-DRB1*09:01 (40), HLA-DRB1*11:01 (41), HLA-DPA1*01:03/DPB1*04:01 (47), HLA-DPA1*02:01/DPB1*14:01 (48), HLA-DRB1*04:05 (48), HLA-DRB1*12:01 (49)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3.
+          </td>
+          <td align="left">
+           LEFLEKEELFYILIA
+          </td>
+          <td align="left">
+           HLA-DPA1*01:03/DPB1*04:01 (0.54), HLA-DPA1*01:03/DPB1*02:01 (1.2), HLA-DPA1*02:01/DPB1*05:01 (1.3), HLA-DPA1*02:01/DPB1*01:01 (1.4), HLA-DQA1*01:01/DQB1*05:01 (3.8), HLA-DQA1*05:01/DQB1*02:01 (5.4), HLA-DPA1*03:01/DPB1*04:02 (6.3), HLA-DRB3*01:01 (7.2), HLA-DRB1*12:01 (15.55), HLA-DRB1*03:01 (17), HLA-DQA1*03:01/DQB1*03:02 (26), HLA-DPA1*02:01/DPB1*14:01 (30), HLA-DRB4*01:01 (37), HLA-DRB5*01:01 (39), HLA-DRB1*15:01 (40), HLA-DQA1*04:01/DQB1*04:02 (41), HLA-DQA1*01:02/DQB1*06:02 (49)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4.
+          </td>
+          <td align="left">
+           VKNLFDWMHFLIPLC
+          </td>
+          <td align="left">
+           HLA-DQA1*01:01/DQB1*05:01 (0.39), HLA-DPA1*01:03/DPB1*02:01 (1.3), HLA-DPA1*01:03/DPB1*04:01 (1.3), HLA-DPA1*02:01/DPB1*01:01 (1.5), HLA-DPA1*03:01/DPB1*04:02 (2.2), HLA-DRB3*01:01 (6.5), HLA-DPA1*02:01/DPB1*05:01 (7.5), HLA-DRB1*04:05 (11), HLA-DRB1*12:01 (16.5), HLA-DRB1*15:01 (22), HLA-DQA1*05:01/DQB1*02:01 (26), HLA-DRB1*08:02 (29), HLA-DRB4*01:01 (31), HLA-DRB1*04:01 (32), HLA-DPA1*02:01/DPB1*14:01 (41), HLA-DQA1*03:01/DQB1*03:02 (44), HLA-DRB1*09:01 (44), HLA-DQA1*04:01/DQB1*04:02 (47), HLA-DRB1*07:01 (47), HLA-DRB1*11:01 (47)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5.
+          </td>
+          <td align="left">
+           SRIKSIKNLSDLTFL
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05 (0.43),HLA-DRB1*04:01 (2.1), HLA-DRB3*02:02 (8.8), HLA-DRB4*01:01 (13), HLA-DRB1*12:01 (14.7), HLA-DPA1*02:01/DPB1*14:01 (18), HLA-DRB1*11:01 (18), HLA-DRB1*15:01 (19), HLA-DPA1*01:03/DPB1*04:01 (20), HLA-DRB1*08:02 (26), HLA-DRB1*13:02 (26), HLA-DPA1*02:01/DPB1*05:01 (27), HLA-DRB5*01:01 (32), HLA-DRB1*01:01 (33), HLA-DRB1*07:01 (35), HLA-DQA1*01:01/DQB1*05:01 (37), HLA-DRB1*03:01 (37), HLA-DPA1*03:01/DPB1*04:02 (41), HLA-DPA1*02:01/DPB1*01:01 (43), HLA-DRB3*01:01 (43), HLA-DRB1*09:01 (45), HLA-DQA1*05:01/DQB1*02:01 (46)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6.
+          </td>
+          <td align="left">
+           HHIYRLRNSTALKTF
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01 (0.27), HLA-DRB1*04:01 (0.35), HLA-DRB3*02:02 (0.52), HLA-DPA1*02:01/DPB1*14:01 (0.91), HLA-DRB1*07:01 (1.2), HLA-DRB1*08:02 (1.7), HLA-DRB1*13:02 (2.7), HLA-DRB1*04:05 (4.6), HLA-DRB1*09:01 (5), HLA-DRB1*15:01 (6.8), HLA-DRB5*01:01 (7.5), HLA-DRB1*12:01 (12), HLA-DPA1*02:01/DPB1*05:01 (13), HLA-DRB1*11:01 (13), HLA-DRB3*01:01 (15), HLA-DRB4*01:01 (15), HLA-DRB1*03:01 (17), HLA-DQA1*01:02/DQB1*06:02 (18), HLA-DPA1*01:03/DPB1*04:01 (28), HLA-DPA1*02:01/DPB1*01:01 (28), HLA-DPA1*03:01/DPB1*04:02 (30), HLA-DPA1*01:03/DPB1*02:01 (34), HLA-DQA1*05:01/DQB1*03:01 (42)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7.
+          </td>
+          <td align="left">
+           NVTFRLMLNKCCTRH
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01 (2.5), HLA-DRB5*01:01 (3.8), HLA-DRB1*04:05 (5.6), HLA-DRB1*04:01 (7.4), HLA-DRB1*01:01 (9.7), HLA-DRB3*02:02 (11), HLA-DRB1*15:01 (13), HLA-DRB1*08:02 (20), HLA-DRB1*12:01 (23), HLA-DRB1*03:01 (24), HLA-DPA1*03:01/DPB1*04:02 (32), HLA-DPA1*01:03/DPB1*04:01 (38), HLA-DPA1*02:01/DPB1*14:01 (40), HLA-DRB1*13:02 (43), HLA-DQA1*01:02/DQB1*06:02 (45)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8.
+          </td>
+          <td align="left">
+           LKHIEKNYPASLHKF
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02 (0.75), HLA-DRB3*02:02 (2), HLA-DRB1*09:01 (5.3), HLA-DRB1*01:01 (8.5), HLA-DRB1*07:01 (21), HLA-DRB1*03:01 (22), HLA-DRB5*01:01 (23), HLA-DPA1*02:01/DPB1*14:01 (25), HLA-DRB4*01:01 (29), HLA-DRB3*01:01 (30), HLA-DRB1*15:01 (31), HLA-DRB1*11:01 (36), HLA-DPA1*02:01/DPB1*05:01 (37), HLA-DRB1*12:01 (45.5), HLA-DRB1*08:02 (48), HLA-DQA1*05:01/DQB1*03:01 (49)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           9.
+          </td>
+          <td align="left">
+           SYQNFINNFSCLIKK
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02 (0.19), HLA-DRB1*13:02 (0.5), HLA-DRB1*04:05 (0.81), HLA-DRB1*04:01 (2.5), HLA-DRB3*01:01 (7.8), HLA-DPA1*01:03/DPB1*04:01 (9.3), HLA-DRB1*15:01 (9.4), HLA-DPA1*01:03/DPB1*02:01 (11), HLA-DPA1*03:01/DPB1*04:02 (12), HLA-DRB1*11:01 (12), HLA-DRB1*07:01 (13), HLA-DRB1*01:01 (14), HLA-DRB1*12:01 (17.75), HLA-DQA1*01:01/DQB1*05:01 (18), HLA-DRB1*08:02 (18), HLA-DPA1*02:01/DPB1*05:01 (20), HLA-DRB5*01:01 (20), HLA-DPA1*02:01/DPB1*01:01 (24), HLA-DPA1*02:01/DPB1*14:01 (28), HLA-DQA1*05:01/DQB1*02:01 (28), HLA-DQA1*01:02/DQB1*06:02 (34), HLA-DRB1*09:01 (39), HLA-DRB1*03:01 (41)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10.
+          </td>
+          <td align="left">
+           RLAWTIGNRAPYIGS
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02 (1.9), HLA-DRB3*02:02 (2), HLA-DRB1*09:01 (10), HLA-DPA1*02:01/DPB1*14:01 (11), HLA-DQA1*05:01/DQB1*03:01 (23), HLA-DRB3*01:01 (23), HLA-DRB1*08:02 (25), HLA-DRB1*07:01 (26), HLA-DRB1*12:01 (26.5), HLA-DRB1*11:01 (27), HLA-DQA1*01:01/DQB1*05:01 (28), HLA-DRB1*03:01 (28), HLA-DPA1*01:03/DPB1*04:01 (32), HLA-DRB1*15:01 (32), HLA-DRB1*01:01 (44), HLA-DPA1*02:01/DPB1*01:01 (45), HLA-DQA1*01:02/DQB1*06:02 (48), HLA-DQA1*04:01/DQB1*04:02 (49)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11.
+          </td>
+          <td align="left">
+           DVANFLRAYSWSDVL
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05 (0.73),HLA-DRB1*15:01 (3.1), HLA-DPA1*01:03/DPB1*04:01 (7.1), HLA-DQA1*01:01/DQB1*05:01 (8), HLA-DRB1*08:02 (8.7), HLA-DRB3*02:02 (9.2),HLA-DRB1*07:01 (12), HLA-DRB5*01:01 (13), HLA-DRB1*04:01 (14), HLA-DRB1*11:01 (16), HLA-DQA1*05:01/DQB1*02:01 (17), HLA-DPA1*01:03/DPB1*02:01 (18), HLA-DRB1*09:01 (18), HLA-DPA1*02:01/DPB1*14:01 (20), HLA-DRB1*01:01 (26), HLA-DQA1*04:01/DQB1*04:02 (28), HLA-DRB1*13:02 (28), HLA-DRB1*12:01 (30.5), HLA-DQA1*03:01/DQB1*03:02 (31), HLA-DQA1*01:02/DQB1*06:02 (34), HLA-DRB3*01:01 (34), HLA-DRB4*01:01 (37), HLA-DPA1*03:01/DPB1*04:02 (38), HLA-DPA1*02:01/DPB1*01:01 (41), HLA-DPA1*02:01/DPB1*05:01 (43), HLA-DQA1*05:01/DQB1*03:01 (45)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12.
+          </td>
+          <td align="left">
+           APSYRNFSFSLKEKE
+          </td>
+          <td align="left">
+           HLA-DPA1*02:01/DPB1*05:01 (1.2), HLA-DPA1*02:01/DPB1*01:01 (3.8), HLA-DPA1*01:03/DPB1*02:01 (6.7), HLA-DPA1*01:03/DPB1*04:01 (7.9), HLA-DRB1*11:01 (10), HLA-DRB1*09:01 (12), HLA-DPA1*02:01/DPB1*14:01 (16), HLA-DRB1*04:05 (16), HLA-DRB3*02:02 (16), HLA-DRB5*01:01 (18), HLA-DPA1*03:01/DPB1*04:02 (26), HLA-DQA1*03:01/DQB1*03:02 (27), HLA-DQA1*01:01/DQB1*05:01 (29), HLA-DRB1*15:01 (29), HLA-DRB3*01:01 (30), HLA-DRB1*01:01 (31), HLA-DRB1*07:01 (35), HLA-DQA1*04:01/DQB1*04:02 (37), HLA-DRB1*13:02 (37), HLA-DRB1*04:01 (40), HLA-DRB1*03:01 (42)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13.
+          </td>
+          <td align="left">
+           LGRVSRSTLSLSLNV
+          </td>
+          <td align="left">
+           HLA-DPA1*02:01/DPB1*14:01 (0.8), HLA-DRB1*07:01 (3.8), HLA-DPA1*02:01/DPB1*01:01 (9.7), HLA-DQA1*01:02/DQB1*06:02 (9.8), HLA-DRB3*02:02 (15), HLA-DPA1*02:01/DPB1*05:01 (18), HLA-DPA1*01:03/DPB1*04:01 (20), HLA-DRB1*09:01 (20), HLA-DPA1*03:01/DPB1*04:02 (21), HLA-DRB1*08:02 (21), HLA-DRB1*13:02 (25),HLA-DRB4*01:01 (25), HLA-DRB1*03:01 (28), HLA-DRB1*04:01 (28), HLA-DRB1*15:01 (32), HLA-DPA1*01:03/DPB1*02:01 (33), HLA-DRB1*01:01 (33), HLA-DQA1*05:01/DQB1*03:01 (34), HLA-DRB1*11:01 (36), HLA-DRB1*04:05 (46)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14.
+          </td>
+          <td align="left">
+           VELKTKLKLKSSVMG
+          </td>
+          <td align="left">
+           HLA-DRB1*08:02 (1.1), HLA-DRB1*11:01 (2.4), HLA-DRB1*12:01 (4.85), HLA-DPA1*02:01/DPB1*05:01 (8.7), HLA-DRB1*15:01 (9.9), HLA-DRB1*01:01 (11), HLA-DPA1*02:01/DPB1*14:01 (18), HLA-DRB4*01:01 (18), HLA-DRB1*09:01 (22), HLA-DPA1*03:01/DPB1*04:02 (25), HLA-DRB1*03:01 (25), HLA-DRB1*07:01 (27), HLA-DRB5*01:01 (30), HLA-DPA1*02:01/DPB1*01:01 (34), HLA-DRB1*04:05 (35), HLA-DRB1*13:02 (35), HLA-DRB1*04:01 (37), HLA-DRB3*02:02 (37), HLA-DPA1*01:03/DPB1*04:01 (48), HLA-DQA1*01:02/DQB1*06:02 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15.
+          </td>
+          <td align="left">
+           LSIFIKDRATAVNQE
+          </td>
+          <td align="left">
+           HLA-DRB3*01:01 (0.07), HLA-DRB3*02:02 (0.32), HLA-DRB1*13:02 (1.3), HLA-DRB1*08:02 (2.8), HLA-DRB1*04:01 (3.9), HLA-DRB1*03:01 (5.2), HLA-DQA1*04:01/DQB1*04:02 (7.6), HLA-DQA1*03:01/DQB1*03:02 (8.5), HLA-DRB1*11:01 (12), HLA-DRB4*01:01 (13), HLA-DRB1*07:01 (14), HLA-DPA1*02:01/DPB1*14:01 (16), HLA-DRB1*01:01 (17), HLA-DRB1*12:01 (18.75), HLA-DRB5*01:01 (20), HLA-DPA1*03:01/DPB1*04:02 (24), HLA-DRB1*15:01 (25), HLA-DRB1*09:01 (28), HLA-DRB1*04:05 (32), HLA-DQA1*01:01/DQB1*05:01 (37), HLA-DPA1*01:03/DPB1*02:01 (39), HLA-DPA1*02:01/DPB1*01:01 (39), HLA-DQA1*01:02/DQB1*06:02 (41), HLA-DPA1*01:03/DPB1*04:01 (42), HLA-DQA1*05:01/DQB1*02:01 (45), HLA-DPA1*02:01/DPB1*05:01 (46), HLA-DQA1*05:01/DQB1*03:01 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16.
+          </td>
+          <td align="left">
+           NRWKSWFSYIDALDD
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05 (0.84), HLA-DQA1*01:01/DQB1*05:01 (1.2), HLA-DQA1*05:01/DQB1*02:01 (1.7), HLA-DPA1*01:03/DPB1*04:01 (3.4), HLA-DQA1*03:01/DQB1*03:02 (5.1), HLA-DPA1*01:03/DPB1*02:01 (6.9), HLA-DPA1*02:01/DPB1*01:01 (8), HLA-DQA1*04:01/DQB1*04:02 (11), HLA-DPA1*02:01/DPB1*05:01 (12), HLA-DPA1*03:01/DPB1*04:02 (13), HLA-DRB1*04:01 (16), HLA-DRB1*07:01 (18), HLA-DPA1*02:01/DPB1*14:01 (23), HLA-DRB1*11:01 (24), HLA-DRB3*01:01 (25), HLA-DRB3*02:02 (36), HLA-DRB5*01:01 (41), HLA-DRB1*01:01 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           17.
+          </td>
+          <td align="left">
+           KYNLAFRYEFTRHFI
+          </td>
+          <td align="left">
+           HLA-DRB3*01:01 (0.63), HLA-DPA1*01:03/DPB1*04:01 (2.3), HLA-DRB5*01:01 (4), HLA-DPA1*01:03/DPB1*02:01 (4.6), HLA-DRB1*04:01 (7.1), HLA-DPA1*02:01/DPB1*05:01 (8), HLA-DRB1*11:01 (8.7), HLA-DRB1*07:01 (8.8), HLA-DRB1*04:05 (9), HLA-DPA1*02:01/DPB1*14:01 (11), HLA-DQA1*01:01/DQB1*05:01 (17), HLA-DRB3*02:02 (17), HLA-DRB1*08:02 (18), HLA-DRB1*15:01 (20), HLA-DPA1*02:01/DPB1*01:01 (21), HLA-DRB1*03:01 (21), HLA-DPA1*03:01/DPB1*04:02 (27), HLA-DQA1*05:01/DQB1*02:01 (32), HLA-DRB1*01:01 (32), HLA-DRB1*09:01 (33), HLA-DRB1*12:01 (38)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           18.
+          </td>
+          <td align="left">
+           VPFHSIWDHILTSIQ
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05 (2.7), HLA-DQA1*01:01/DQB1*05:01 (7.6), HLA-DPA1*01:03/DPB1*04:01 (7.9), HLA-DPA1*01:03/DPB1*02:01 (15), HLA-DRB1*04:01 (15), HLA-DRB5*01:01 (15), HLA-DRB3*01:01 (16), HLA-DPA1*03:01/DPB1*04:02 (17), HLA-DRB1*07:01 (21), HLA-DPA1*02:01/DPB1*01:01 (24), HLA-DPA1*02:01/DPB1*14:01 (26), HLA-DPA1*02:01/DPB1*05:01 (27), HLA-DRB3*02:02 (27), HLA-DQA1*05:01/DQB1*02:01 (30), HLA-DRB1*01:01 (30), HLA-DRB1*09:01 (31), HLA-DRB1*13:02 (35), HLA-DRB1*11:01 (36), HLA-DRB1*12:01 (36), HLA-DRB1*15:01 (37), HLA-DRB4*01:01 (40), HLA-DRB1*08:02 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           19.
+          </td>
+          <td align="left">
+           HHIYRLRNSTALKTF
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01 (0.27), HLA-DRB1*04:01 (0.35), HLA-DRB3*02:02 (0.52), HLA-DPA1*02:01/DPB1*14:01 (0.91), HLA-DRB1*07:01 (1.2), HLA-DRB1*08:02 (1.7), HLA-DRB1*13:02 (2.7), HLA-DRB1*04:05 (4.6), HLA-DRB1*09:01 (5), HLA-DRB1*15:01 (6.8), HLA-DRB5*01:01 (7.5), HLA-DRB1*12:01 (12), HLA-DPA1*02:01/DPB1*05:01 (13), HLA-DRB1*11:01 (13), HLA-DRB3*01:01 (15), HLA-DRB4*01:01 (15), HLA-DRB1*03:01 (17), HLA-DQA1*01:02/DQB1*06:02 (18), HLA-DPA1*01:03/DPB1*04:01 (28), HLA-DPA1*02:01/DPB1*01:01 (28), HLA-DPA1*03:01/DPB1*04:02 (30), HLA-DPA1*01:03/DPB1*02:01 (34), HLA-DQA1*05:01/DQB1*03:01 (42)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           20.
+          </td>
+          <td align="left">
+           LPYRVRNVQTLAEAL
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05 (1.3), HLA-DRB1*08:02 (5.5), HLA-DRB3*02:02 (5.9), HLA-DQA1*03:01/DQB1*03:02 (7.6), HLA-DPA1*02:01/DPB1*14:01 (7.7), HLA-DRB1*07:01 (13), HLA-DQA1*01:02/DQB1*06:02 (15), HLA-DRB1*13:02 (17), HLA-DQA1*05:01/DQB1*02:01 (19), HLA-DQA1*04:01/DQB1*04:02 (20), HLA-DRB1*09:01 (21), HLA-DRB3*01:01 (24), HLA-DRB4*01:01 (27), HLA-DRB1*11:01 (28), HLA-DRB5*01:01 (28), HLA-DPA1*03:01/DPB1*04:02 (30), HLA-DRB1*01:01 (31), HLA-DPA1*02:01/DPB1*01:01 (32), HLA-DRB1*04:01 (37), HLA-DPA1*02:01/DPB1*05:01 (39), HLA-DPA1*01:03/DPB1*04:01 (41), HLA-DPA1*01:03/DPB1*02:01 (42), HLA-DRB1*03:01 (44), HLA-DQA1*01:01/DQB1*05:01 (47), HLA-DRB1*12:01 (48.5)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           21.
+          </td>
+          <td align="left">
+           WEICARAWLEDSDGA
+          </td>
+          <td align="left">
+           HLA-DQA1*01:01/DQB1*05:01 (6.2), HLA-DQA1*03:01/DQB1*03:02 (11), HLA-DQA1*04:01/DQB1*04:02 (25), HLA-DPA1*01:03/DPB1*02:01 (34), HLA-DQA1*05:01/DQB1*02:01 (34), HLA-DRB3*01:01 (43)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           22.
+          </td>
+          <td align="left">
+           LSSESESTINLLPYD
+          </td>
+          <td align="left">
+           HLA-DQA1*03:01/DQB1*03:02 (5.8), HLA-DQA1*01:02/DQB1*06:02 (18), HLA-DQA1*01:01/DQB1*05:01 (19), HLA-DPA1*03:01/DPB1*04:02 (26), HLA-DQA1*04:01/DQB1*04:02 (26), HLA-DPA1*02:01/DPB1*01:01 (31), HLA-DQA1*05:01/DQB1*02:01 (32), HLA-DPA1*01:03/DPB1*02:01 (41), HLA-DRB1*12:01 (47), HLA-DPA1*02:01/DPB1*05:01 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           23.
+          </td>
+          <td align="left">
+           LQNCSILTVPFHSIW
+          </td>
+          <td align="left">
+           HLA-DPA1*01:03/DPB1*04:01 (1.4), HLA-DPA1*03:01/DPB1*04:02 (4.9), HLA-DPA1*01:03/DPB1*02:01 (5.7), HLA-DPA1*02:01/DPB1*14:01 (11), HLA-DPA1*02:01/DPB1*01:01 (15), HLA-DRB1*07:01 (15), HLA-DRB1*12:01 (20), HLA-DQA1*01:02/DQB1*06:02 (21), HLA-DRB4*01:01 (24), HLA-DRB1*13:02 (26), HLA-DRB1*11:01 (27), HLA-DRB5*01:01 (27), HLA-DPA1*02:01/DPB1*05:01 (29), HLA-DRB1*08:02 (29), HLA-DRB1*15:01 (29), HLA-DQA1*01:01/DQB1*05:01 (34), HLA-DRB1*01:01 (36), HLA-DRB1*04:01 (36), HLA-DRB3*02:02 (38), HLA-DRB1*04:05 (40), HLA-DQA1*04:01/DQB1*04:02 (41), HLA-DRB3*01:01 (44), HLA-DQA1*05:01/DQB1*03:01 (47), HLA-DRB1*09:01 (47)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           24.
+          </td>
+          <td align="left">
+           SSLPVWLYFPSEGQQ
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05 (6), HLA-DRB1*04:01 (7.8), HLA-DQA1*01:01/DQB1*05:01 (12), HLA-DPA1*01:03/DPB1*02:01 (17), HLA-DRB1*15:01 (17), HLA-DPA1*02:01/DPB1*01:01 (18), HLA-DPA1*01:03/DPB1*04:01 (19), HLA-DPA1*02:01/DPB1*05:01 (26), HLA-DRB1*11:01 (26), HLA-DRB1*08:02 (31), HLA-DQA1*05:01/DQB1*02:01 (33), HLA-DQA1*03:01/DQB1*03:02 (36), HLA-DRB4*01:01 (37),, HLA-DPA1*03:01/DPB1*04:02 (39), HLA-DRB1*12:01 (44.5), HLA-DQA1*04:01/DQB1*04:02 (46), HLA-DRB5*01:01 (48)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           25.
+          </td>
+          <td align="left">
+           LKQHIVSNSFPSQAE
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02 (1.7), HLA-DRB1*13:02 (7.5), HLA-DRB1*04:01 (11), HLA-DRB1*08:02 (11), HLA-DRB1*09:01 (14), HLA-DPA1*01:03/DPB1*02:01 (18), HLA-DQA1*03:01/DQB1*03:02 (20), HLA-DPA1*02:01/DPB1*14:01 (21), HLA-DRB1*04:05 (21), HLA-DPA1*01:03/DPB1*04:01 (22), HLA-DRB4*01:01 (22), HLA-DRB1*07:01 (23), HLA-DQA1*04:01/DQB1*04:02 (25), HLA-DRB1*12:01 (30.5), HLA-DQA1*05:01/DQB1*03:01 (31), HLA-DRB1*03:01 (31), HLA-DRB1*11:01 (33), HLA-DQA1*01:02/DQB1*06:02 (35), HLA-DPA1*02:01/DPB1*01:01 (37), HLA-DRB1*15:01 (37), HLA-DRB1*01:01 (47), HLA-DQA1*01:01/DQB1*05:01 (49), HLA-DRB5*01:01 (49)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           26.
+          </td>
+          <td align="left">
+           RLAWTIGNRAPYIGS
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02 (1.9), HLA-DRB3*02:02 (2), HLA-DRB1*09:01 (10), HLA-DPA1*02:01/DPB1*14:01 (11), HLA-DQA1*05:01/DQB1*03:01 (23), HLA-DRB3*01:01 (23), HLA-DRB1*08:02 (25), HLA-DRB1*07:01 (26), HLA-DRB1*12:01 (26.5), HLA-DRB1*11:01 (27), HLA-DQA1*01:01/DQB1*05:01 (28), HLA-DRB1*03:01 (28), HLA-DPA1*01:03/DPB1*04:01 (32), HLA-DRB1*15:01 (32), HLA-DRB1*01:01 (44), HLA-DPA1*02:01/DPB1*01:01 (45), HLA-DQA1*01:02/DQB1*06:02 (48), HLA-DQA1*04:01/DQB1*04:02 (49)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec12">
+     <title>
+      Epitope management and population distribution study
+     </title>
+     <p id="Par21">
+      The IEDB conservation analysis method analyzed the epitope conservation of the anticipated epitopes as shown in Table      . The positions of the predicted epitopes are shown in the MSA of
+      <sc>
+       l
+      </sc>
+      -proteins (Fig.      ). Here, we used only 15 diverse sequences from the total retrieved proteins, 48 sequences, for the proper annotation. The entire world population coverage was calculated based on the combined MHC-I and MHC-II class with the top chosen interrelated alleles (Fig.      and Table S2).
+      <table-wrap id="Tab4">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Conservancy analysis of all the epitopes with appropriate length
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           No.
+          </th>
+          <th align="left">
+           Epitope
+          </th>
+          <th align="left">
+           Conservancy (%)
+          </th>
+          <th align="left">
+           Length
+          </th>
+          <th align="left">
+           Epitope
+          </th>
+          <th align="left">
+           Conservancy (%)
+          </th>
+          <th align="left">
+           Length
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           1.
+          </td>
+          <td align="left">
+           QSSLPVWLY
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           QSSLPVWLYFPSEGQ
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2.
+          </td>
+          <td align="left">
+           YSGNIVHRY
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           FLPTHYSGNIVHRYN
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3.
+          </td>
+          <td align="left">
+           FLEKEELFY
+          </td>
+          <td align="char" char=".">
+           31.91
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LEFLEKEELFYILIA
+          </td>
+          <td align="char" char=".">
+           21.28
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4.
+          </td>
+          <td align="left">
+           NLFDWMHFL
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           VKNLFDWMHFLIPLC
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5.
+          </td>
+          <td align="left">
+           NLSDLTFLI
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           SRIKSIKNLSDLTFL
+          </td>
+          <td align="char" char=".">
+           78.72
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6.
+          </td>
+          <td align="left">
+           RLRNSTALK
+          </td>
+          <td align="char" char=".">
+           95.74
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           HHIYRLRNSTALKTF
+          </td>
+          <td align="char" char=".">
+           82.98
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7.
+          </td>
+          <td align="left">
+           VTFRLMLNK
+          </td>
+          <td align="char" char=".">
+           82.98
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           NVTFRLMLNKCCTRH
+          </td>
+          <td align="char" char=".">
+           82.98
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8.
+          </td>
+          <td align="left">
+           NYPASLHKF
+          </td>
+          <td align="char" char=".">
+           14.89
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LKHIEKNYPASLHKF
+          </td>
+          <td align="char" char=".">
+           14.89
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           9.
+          </td>
+          <td align="left">
+           SYQNFINNF
+          </td>
+          <td align="char" char=".">
+           48.94
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           SYQNFINNFSCLIKK
+          </td>
+          <td align="char" char=".">
+           10.64
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10.
+          </td>
+          <td align="left">
+           WTIGNRAPY
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           RLAWTIGNRAPYIGS
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11.
+          </td>
+          <td align="left">
+           DVANFLRAY
+          </td>
+          <td align="char" char=".">
+           93.62
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           DVANFLRAYSWSDVL
+          </td>
+          <td align="char" char=".">
+           78.72
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12.
+          </td>
+          <td align="left">
+           APSYRNFSF
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           APSYRNFSFSLKEKE
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13.
+          </td>
+          <td align="left">
+           RVSRSTLSL
+          </td>
+          <td align="char" char=".">
+           95.74
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LGRVSRSTLSLSLNV
+          </td>
+          <td align="char" char=".">
+           95.74
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14.
+          </td>
+          <td align="left">
+           KLKLKSSVM
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           VELKTKLKLKSSVMG
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15.
+          </td>
+          <td align="left">
+           FIKDRATAV
+          </td>
+          <td align="char" char=".">
+           95.74
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LSIFIKDRATAVNQE
+          </td>
+          <td align="char" char=".">
+           80.85
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16.
+          </td>
+          <td align="left">
+           NRWKSWFSY
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           NRWKSWFSYIDALDD
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           17.
+          </td>
+          <td align="left">
+           FRYEFTRHF
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           KYNLAFRYEFTRHFI
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           18.
+          </td>
+          <td align="left">
+           FHSIWDHIL
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           VPFHSIWDHILTSIQ
+          </td>
+          <td align="char" char=".">
+           82.98
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           19.
+          </td>
+          <td align="left">
+           YRLRNSTAL
+          </td>
+          <td align="char" char=".">
+           95.74
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           HHIYRLRNSTALKTF
+          </td>
+          <td align="char" char=".">
+           82.98
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           20.
+          </td>
+          <td align="left">
+           YRVRNVQTL
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LPYRVRNVQTLAEAL
+          </td>
+          <td align="char" char=".">
+           100.00
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           21.
+          </td>
+          <td align="left">
+           WEICARAWL
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           WEICARAWLEDSDGA
+          </td>
+          <td align="char" char=".">
+           85.11
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           22.
+          </td>
+          <td align="left">
+           SESESTINL
+          </td>
+          <td align="char" char=".">
+           14.89
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LSSESESTINLLPYD
+          </td>
+          <td align="char" char=".">
+           10.64
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           23.
+          </td>
+          <td align="left">
+           LTVPFHSIW
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LQNCSILTVPFHSIW
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           24.
+          </td>
+          <td align="left">
+           SSLPVWLYF
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           SSLPVWLYFPSEGQQ
+          </td>
+          <td align="char" char=".">
+           87.23
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           25.
+          </td>
+          <td align="left">
+           KQHIVSNSF
+          </td>
+          <td align="char" char=".">
+           8.51
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           LKQHIVSNSFPSQAE
+          </td>
+          <td align="char" char=".">
+           8.51
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           26.
+          </td>
+          <td align="left">
+           WTIGNRAPY
+          </td>
+          <td align="char" char=".">
+           97.87
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           VNRLAWTIGNRAPYI
+          </td>
+          <td align="char" char=".">
+           34.04
+          </td>
+          <td align="char" char=".">
+           15
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec13">
+     <title>
+      Homology modeling, energy minimization and structural authentication
+     </title>
+     <p id="Par22">
+      The three-dimensional configuration of the selected protein was constructed by MODELLER using the paramount template based modeling method and the template 6V85_A was utilized for this purpose. The energy minimization of the model was done from energy level 43,319.410 to − 60,879.637 through GROMOS 96 force field. The superposition view between the model and template is shown in Fig.      a with an RMSD (root-mean-square deviation) of 2.08. The validation of the model was assessed by the PROCHECK server through the Ramachandran plot and is shown in Fig.      c, where 90.51% of amino acid residues were originated within the most-favored area. Furthermore, the ProSA Z score was also implemented for validation and shown in Fig.      b. Additionally, the top four epitopes were shown on the protein surface in Fig.      c.
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      Molecular docking and association of HLA allele’s scrutiny
+     </title>
+     <p id="Par23">
+      The structural minimization of the peptide was done before the docking analysis and the minimization obtained from energy level 62.3 to − 523.53 for 15-mer and − 287 to − 539.43 for 9-mer, respectively. The 9.0-mer (YRLRNSTAL) and its 15-mer (HHIYRLRNSTALKTF) form of the epitope were docked in the furrow of the HLA-C*07:02 and DRB1*04:01 with docking score of − 8.6 and − 6.3 kcal/mol, correspondingly. Auto Dock Vina developed various configurations of the docked peptide and picked the better one at an RMSD score of 0.0 for the ultimate measurement. The PyMOL (version 1.5.0.4) was used for the visualization of the docking poses. The amino acid residues-Glu-63, Lys-66, Gln-70, Ser-77, Asp-114, Thr-143, and Gln-155 form hydrogen bond (Fig.      ) with the 9.0-mer epitope and the residues-Tyr-30 (B), Asn-62 (A), Asp-66 (B), Gln-70 (B), Lys-71 (B) and Thr-77 (B) form hydrogen bond (Fig.      ) with the 15.0-mer. In addition, the control docking energy for MHC-I interaction was found to be − 9.6 kcal/mol and is shown in Figure S2.
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      Allergenicity assessment and B-cell epitope detection
+     </title>
+     <p id="Par24">
+      AlgPred predicted allergenicity of the epitope depending on amino acid structure. The predictive score of AlgPred for the two combined epitopes was − 0.51324781, with a cutoff value − 0.4.
+     </p>
+     <p id="Par25">
+      The linear peptide with 15-mer form (HHIYRLRNSTALKTF) through the sequence-based methodology, the B-cell epitope calculation was accomplished and the different prediction parameters were considered and the values ranging from − 0.929 to 3.214. The cutoff values for these predictions were ranging from 0.500 to 1.390 (Fig.      ). The maximum antigenicity score of the peptide calculating through Kolaskar and Tongaonkar antigenicity scale was 1.074 (Fig.      a). Accessibility of peptide surfaces is another crucial benchmark for satisfying the criteria of a prospective B-cell epitope and here the Emini surface accessibility calculation supports the prediction with a maximum value of 1.871 (Fig.      d). The Parker hydrophilicity prediction was also employed with a maximum score of 3.214 and is shown in Fig.      f. Additionally, the maximum score of the Chou and Fasman beta turn estimation score was 1.083 (Fig.      c), the flexibility estimation score of Karplus and Schulz was 1.066 (Fig.      e), and the Bepipred linear epitope prediction analysis was 0.601 (Fig.      b).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec16">
+    <title>
+     Discussion
+    </title>
+    <p id="Par26">
+     Although the epitope-based design of vaccines has become a conjoint method, no substantial research has yet been done in the case of the Marburg virus
+     <sc>
+      l
+     </sc>
+     -protein. Marburg virus genome is composed of ribonucleic acid rather than deoxyribonucleic acid. It is especially challenging to develop vaccines for RNA viruses due to rapid mutations of various surface proteins (Twiddy et al.     ). Therefore, targeting transcription or replication machinery is the possible way to establish effective antiviral therapies against RNA viruses like the Marburg virus. Scientists have discovered that
+     <sc>
+      l
+     </sc>
+     -protein is a significant cellular element for Marburg virus genome transcription and duplication. Once a cell is infected by the Marburg virus, its genetic RNA code goes into the cell accompanied by
+     <sc>
+      l
+     </sc>
+     -protein. The
+     <sc>
+      l
+     </sc>
+     -protein usually "reads" the RNA code and produces messenger RNA that creates viral proteins along with duplication and the development of additional viral constituents. For the above mentioned significant contributions, the
+     <sc>
+      l
+     </sc>
+     -protein was selected to scheme the utmost plausible epitopes by computational methodologies.
+    </p>
+    <p id="Par27">
+     Sequence-based bioinformatics methods have been used to model epitopes of both B cells and T cells to impart immunity in distinct manners. Many vaccines are currently constructed on immunity from B cells; but recently vaccinations depending on the T-cell are widely adopted. Antigenic drift can quickly circumvent antibody mediated reactions over durations, whereas cellular immunity also delivers long-term protection (Bacchetta et al.     ; Igietseme et al.     ). The cytotoxic CD8+T lymphocytes (CTL) prevent the dissemination of contagious agents through detecting and killing affected cells or releasing exclusive cytokines specific for virus (Oany et al.     ; Shrestha and Diamond     ). Thus, vaccination based on T-cell is a distinctive method for obtaining a robust protective response counter to viruses (Oany et al.     ; Klein et al.     ).
+    </p>
+    <p id="Par28">
+     From the phylogenetic analysis, it was quite clear that all the different
+     <sc>
+      l
+     </sc>
+     -proteins have different origins and having diverse groups in the phylogenetic tree (Fig.     ). We have also identified the divergence among the sequences (Figure S1). From that point of view, we selected the most antigenic protein, AFV31373.1, which suggested its ability to elicit a potent immune response.
+    </p>
+    <p id="Par29">
+     NetCTL server was used to find 48 epitopes from 12 MHC supertypes (Table     ), and initially, we selected 26 to activate the T-cell response. The epitopes NLSDLTFLI, FRYEFTRHF, YRLRNSTAL, and YRVRNVQTL are principally chosen to scheme a vaccine based on the primary analysis, including the attraction with MHC class I and combined score processed by NetCTL server (Tables     ,     ). The conservancy is an epitope’s one of the most critical criteria for selecting it for the production of vaccines (Oany et al.     ). For our proposed epitopes, study showed conservancy of 87.23, 100, 94.74, and 100 percent, respectively, among all available sequences (Table     ). The locations of the four epitopes anticipated are shown in MSA of
+     <sc>
+      l
+     </sc>
+     -proteins in Fig.     .
+    </p>
+    <p id="Par30">
+     Vaccine candidates should have superior population coverage to achieve acceptability (Oany et al.     ). Before designing, that is very important. In our analysis, we found that the combined population coverage of our proposed epitopes was 93.48, 93.18, 94.42, and 91.33%, respectively. This outcome revealed that the proposed epitopes have broader in vitro coverage; therefore, they would be supreme candidates for consideration of vaccines.
+    </p>
+    <p id="Par31">
+     For visualizing the precise position of the anticipated epitopes, the tertiary structure of the targeted protein was generated and authenticated by Ramachandran Plot (Fig.     ), whereby 90.51% of amino acid molecules were found within the preferred zone. The Z scores from the ProSA server for the protein were − 8.96, which also support the validity of the predicted models, as the values were within the plot and close to zero. That supports reasonably good model, as there is currently no available crystal structure for the
+     <sc>
+      l
+     </sc>
+     -protein of MABV. As the epitopes were present on the model’s surface (Fig.     ), the chance of interaction with the immune system will be improved as early as possible (Oany et al.     ,     ).
+    </p>
+    <p id="Par32">
+     Lastly, epitopes YRLRNSTAL and YRVRNVQTL (15.0-mer length, HHIYRLRNSTALKTF and LPYRVRNVQTLAEAL, respectively) were identified as being the utmost potent and greatly interrelated HLA aspirants for class II MHC molecules (Table     ). Our suggested epitopes are also of a non-allergenic type as per the FAO/WHO Allergenicity Evaluation System, which is another vital peptide vaccine criterion (Oany et al.     ,     ; McKeever et al.     ).
+    </p>
+    <p id="Par33">
+     On the basis of the combined score (2.546), the core epitope YRLRNSTAL would be the paramount epitope applicant, thus further exposed to binding aptitude study. The docking study ensures accuracy with a fairly high binding score and the correctly directed interfaces between the MHC and the predicted epitopes. In addition, comparative research with the empirically observed peptide-MHC complex has showed the specificity of our estimation with comparable binding energy and interacted residues (Figs.     ,     , S2).
+    </p>
+    <p id="Par34">
+     Throughout our research, the B-cell epitope and the T-cell epitope were both given preference, which can activate both primary and secondary antibody mediated immune response (Oany et al.     ; Foy et al.     ). Multiple methods of prediction were used to decide the B-cell epitope, taking into account numerous benchmarks of antigenicity, beta-turn, hydrophilicity, surface accessibility, and two other methods. Our proposed epitope complied with all the criteria of the B-cell prediction techniques mentioned earlier (Fig.     ).
+    </p>
+    <p id="Par35">
+     In conclusion, we are optimistic from all of the above in silico studies that our recommended epitope will cause an immune response in vitro and in vivo.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec17">
+    <title>
+     Conclusion
+    </title>
+    <p id="Par36">
+     Prevention and monitoring during outbreaks of recently-evolving Marburg virus contagions are both necessary and challenging. Through in silico analyses, the laboratory experimental work can be guided by finding the desired solutions with less tests and recurrences of errors, hence saving the researchers’ time as well as costs. We used different computational methods in this analysis to identify a possible epitope against the Marburg virus. Our vaccinomics approaches speculate that the selected part of the
+     <sc>
+      l
+     </sc>
+     -protein is a promising applicant for a peptide vaccine. However, to validate the effectiveness of the deduced amino acid sequences as an epitope vaccine in case of the deadly Marburg virus, further wet laboratory justification is required.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary Information
+    </title>
+    <sec id="Sec18">
+     <p>
+      Below is the link to the electronic supplementary material.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

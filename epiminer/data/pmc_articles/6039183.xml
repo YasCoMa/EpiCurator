@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML">
+ <title>
+  Variations in HLA-B cell surface expression, half-life and extracellular antigen receptivity
+ </title>
+ <abstract>
+  <p>
+   The highly polymorphic human leukocyte antigen (HLA) class I molecules present peptide antigens to CD8   T cells, inducing immunity against infections and cancers. Quality control mediated by peptide loading complex (PLC) components is expected to ensure the cell surface expression of stable peptide-HLA class I complexes. This is exemplified by HLA-B*08:01 in primary human lymphocytes, with both expression level and half-life at the high end of the measured HLA-B expression and stability hierarchies. Conversely, low expression on lymphocytes is measured for three HLA-B allotypes that bind peptides with proline at position 2, which are disfavored by the transporter associated with antigen processing. Surprisingly, these lymphocyte-specific expression and stability differences become reversed or altered in monocytes, which display larger intracellular pools of HLA class I than lymphocytes. Together, the findings indicate that allele and cell-dependent variations in antigen acquisition pathways influence HLA-B surface expression levels, half-lives and receptivity to exogenous antigens.
+  </p>
+  <p>
+   Most cells in the body make proteins called human leukocyte antigen class I (or HLA-I). These proteins sit on the cell surface, where they help the immune system distinguish between healthy and diseased cells. A groove in each HLA-I protein holds a fragment of a protein chain, called a peptide, from inside the cell. In healthy cells, all the peptides come from normal proteins. Yet in diseased or infected cells, the peptides may come from abnormal or foreign proteins – those encoded by viruses, for example. When the immune system sees these abnormal peptides, it responds by killing the cell.
+  </p>
+  <p>
+   Across the human population, there are thousands of types of HLA-I, each able to carry a different set of peptides. Any individual person can only make a maximum of six types of the HLA-I, meaning we each show a different combination of peptides to our immune cells. This difference will change the way different people respond to the same disease.
+  </p>
+  <p>
+   Before a peptide can be assembled into HLA-I, it must be moved to the correct part of the cell by a transporter known as TAP. This transport favors peptides with certain characteristics, but these characteristics do not always match the preferences of the individuals HLA-I proteins. For example, TAP is less likely to transport peptides where the second building block in the chain is a proline, but these peptides will still fit into the binding grooves of some HLA-I variants.
+  </p>
+  <p>
+   Here, Yarzabek, Zaitouna, Olson et al. obtained blood from healthy human donors to answer questions about what happens when TAP and HLA-I have different preferences. Specifically, how many HLA-I molecules reach the surface, how long do they last, and which peptides do they carry?
+  </p>
+  <p>
+   This analysis revealed that, when there was a mismatch between HLA-I and TAP, the amount of some HLA-I types on the surface of white blood cells called lymphocytes dropped. These HLA-I types were also able to pick up new peptides from their environment, indicating that some HLA-I were at the surface of the cell without a peptide. The role of these empty HLA-I remains to be fully defined.
+  </p>
+  <p>
+   The reverse was true for other white blood cells called monocytes; HLA-I variants that were mismatched with TAP became more abundant on the cell surface. Monocytes also had more HLA-I molecules inside and did not pick up peptides from the environment. This suggests that monocytes may load peptides via new pathways, filling grooves left empty in lymphocytes, although other mechanisms might also explain the differences between the two types of white blood cells. Taken together, the findings reveal that HLA-I on the surface of cells depends on both the type of HLA-I and the type of immune cell.
+  </p>
+  <p>
+   HLA-I proteins play a key role in the immune system’s ability to recognize and kill diseased cells. A better knowledge of how HLA-I variants differ could help us to understand why people respond differently to the same disease. A better grasp of HLA-I could in the future lead to improved drug and vaccine design.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     Major histocompatibility complex (MHC) class I proteins are cell surface proteins that control immune responses by CD8     T cells and natural killer (NK) cells. MHC class I proteins are comprised of a heavy chain, a light chain, β2-microglobulin (β2m), and a short peptide that is bound to a peptide-binding groove in the heavy chain (     ). Heavy chains of human MHC molecules (human leukocyte antigens (HLA)) are encoded by three sets of genes, which are the HLA-A, HLA-B and HLA-C genes. These genes are highly polymorphic, with about 5000 known alleles in the case of HLA-B and fewer alleles in the case of HLA-A and HLA-C genes (     ). Polymorphic residues are localized to the peptide-binding groove of HLA class I proteins and determine their specificities for peptide binding (     ). T cell receptors (TCR) of cytotoxic T cells have specificities for combinations of MHC class I and peptide (     ). Binding of a CD8     T cell TCR to peptide-MHC class I complexes triggers CD8     T cell cytokine production and cytotoxic activity. Conversely, NK cells have inhibitory receptors that recognize HLA class I (     ). Engagement of MHC class I by NK cell inhibitory receptors suppresses NK cell activity (     ). NK cell activity is induced by MHC class I down-modulation, a strategy frequently used by viruses and cancers to evade CD8     T cell responses.
+    </p>
+    <p>
+     MHC class I assembly involves a complex pathway that is initiated by the formation of chaperone-guided heterodimers of heavy chains and β2m. In the absence of a peptide ligand, heavy chain-β2m heterodimers are generally unstable and retained in the endoplasmic reticulum (ER) via the peptide loading complex (PLC). The PLC facilitates peptide loading of MHC class I, and comprises peptide-deficient forms of MHC class I molecules in complex with the transporter associated with antigen processing (TAP), the assembly factor tapasin, and the ER chaperones calreticulin and ERp57. The binding of a peptide releases MHC class I from the PLC, and allows for trafficking to the cell surface via the Golgi network (     ;     ). HLA class I alleles have strong influences upon disease progression outcomes in infectious diseases and cancers (     ;     ). Specific alleles are also linked to autoimmune diseases (     ;     ) and drug hypersensitivities (     ). Since the presence of a ‘foreign’ peptide is the key activation signal for CD8     T cell responses, the peptide-binding characteristics of individual HLA class I molecules are important determinants of their associations with many disease outcomes. This is well-studied in the case of HIV infections (     ).
+    </p>
+    <p>
+     The cell surface stabilities of HLA class I-peptide complexes can be influenced by multiple factors, including the nature of peptide-MHC interactions, the abundance of factors that mediate their assembly, and the extent of peptide-deficient HLA class I expression. A given HLA class I molecule can bind to a large number of peptides that have specific sequence motifs (for example,     ) and length constraints (the HLA class I peptidome, for example those characterized in [     ]). Not all HLA class I binding peptides are transported equivalently by the TAP transporter. The use of peptide libraries fixed at specific positions with single amino acids has revealed strong sequence preferences for peptide transport by TAP (     ). In general, peptide residue 2 (P
+     <sub>
+      2
+     </sub>
+     ) and the C-terminal residues of peptides (P
+     <sub>
+      C
+     </sub>
+     ) are strong determinants of peptide binding to HLA class I. TAP also has strong preferences within this region; hydrophobic C-terminal residues, generally preferred by HLA class I molecules, are also preferred by TAP. At the P
+     <sub>
+      2
+     </sub>
+     position, however, proline is strongly disfavored by TAP, but highly preferred by a subset of HLA-B molecules - those within the B7 supertype (     ). The functional consequences of such mismatches in TAP and HLA class I binding preferences are unknown. It can be hypothesized that the mismatch causes suboptimal assembly in the ER, and for some allotypes, reduced cell surface stability and increased ability to sample peptides from unconventional sources.
+    </p>
+    <p>
+     A number of studies have indicated that tapasin, via the PLC, facilitates HLA class I-peptide assembly and also optimizes the HLA class I peptide repertoire towards high affinity sequences (     ;     ;     ). HLA-B allotypes differ markedly in their dependencies on tapasin for their cell surface expression (     ;     ). Tapasin-independent HLA-B allotypes generally have higher intrinsic stabilities of their peptide-deficient forms (     ), and thus may be more prone to exit the ER as suboptimally loaded versions, particularly when peptide is limiting.
+    </p>
+    <p>
+     Previous studies have shown that mRNA differences and regulatory polymorphisms affect HLA class I and class II expression (     ;     ). The HLA-B locus is the most polymorphic of the HLA class I loci (and thus the most rapidly evolving), with dominant influences upon disease outcomes (     ). HLA-B alleles do not vary in mRNA expression (     ), but there are known variations in the assembly and peptide-binding characteristics of HLA-B allotypes, as described above. It is unknown whether such variations can result in global cell surface stability differences, ER retention differences and subsequent cell surface expression differences in primary human cells. In this study, we addressed the hypothesis that peptide pool limitations induced by mismatched peptide-binding preferences between TAP and HLA class I allotypes affects cell surface expression levels of HLA class I molecules, via suboptimal assembly. To address this hypothesis, we used freshly-isolated human lymphocytes and monocytes and quantitative flow cytometry to examine the expression levels of HLA-B alleles in an Ann Arbor, United States cohort of healthy donors. Where expression differences were significant, we also undertook cell surface stability measurements to assess whether these variations explain the expression differences. Finally, we compared exogenous peptide receptivity of HLA-B allotypes with high or low cell surface stability to assess variations.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="s2-1">
+     <title>
+      Specificities and relative binding propensities of an anti-HLA-Bw6 monoclonal antibody
+     </title>
+     <p>
+      Allele-dependent differences in stabilities or assembly efficiencies in the ER are expected to culminate in cell-surface expression differences. Based on this expectation, we first assessed whether there are measurable HLA-B cell surface expression differences. Important points to consider in assessing allelic variations in HLA class I cell surface expression are (a) the specificities of antibodies used for the expression assessments and (b) potential differences in the binding affinities of detecting antibodies towards the HLA class I allotypes that are being compared. We used Luminex bead-based assays to compare the binding of an HLA-B specific antibody to several HLA class I alleles. HLA-B allotypes are categorized as either HLA-Bw4 or HLA-Bw6 serotypes based on their sequences. Differences at positions 77 and 80–83 of the heavy chain determine the presence of a Bw4 or Bw6 epitope (      ). Commercial antibodies are available that target these epitopes, making them the broadest reported panel of HLA-B-specific antibodies. We thus tested the anti-Bw6 and anti-Bw4 monoclonals from One Lambda for their binding specificities to beads carrying individual HLA-A, HLA-B, or HLA-C molecules.
+     </p>
+     <p>
+      Binding of the HLA-conjugated beads to anti-Bw6 as well as W6/32, a pan HLA class I antibody (      ), was first assessed at multiple dilutions (1:10 to 1:220). Signals obtained for anti-Bw6 binding to beads with individual HLA-A, HLA-B, and HLA-C were normalized relative to those obtained with W6/32, to correct for any difference in HLA class I coupling to beads. The data obtained at 1:50 dilution from two independent measurements are shown in      . The anti-Bw6 antibody was specific for HLA-B alleles with the Bw6 epitope, and showed no binding to any HLA-A or HLA-Bw4 allotypes, although it also recognized some HLA-C alleles (      ). Further analyses of the sequences of the HLA-C alleles that were recognized by anti-Bw6 (residues 77–83) revealed the presence of a sequence motif similar to the Bw6 motif (      ). These same HLA-C alleles are also recognized by a different commercial anti-Bw6 antibody (Miltenyi). HLA-C alleles that are not recognized by anti-Bw6 have altered sequences in the region corresponding to the Bw6 motif. As discussed below, the majority of heterozygous donors included in the study expressed one HLA-B allele and one HLA-C allele with a Bw6 sequence. Based on mass spectrometric analyses, HLA-C allele expression is shown to be ~6 fold lower compared to HLA-B (      ); thus, within the included donor pool, HLA-B rather than HLA-C is expected to contribute dominantly to the anti-HLA-Bw6 derived signal.
+     </p>
+     <p>
+      A total of 244 healthy donors were recruited and genotyped for the HLA class I locus using next-generation sequencing. Donors who had Bw4/Bw6 heterozygosity at the HLA-B locus or homozygosity for an HLA-Bw6 allele were included for further studies (      ). Within this donor pool, HLA-Bw6 alleles with at least three donors/allele, and a range of peptide-binding preferences (including P
+      <sub>
+       2
+      </sub>
+      P;      ) were HLA-B*07:02, HLA-B*08:01, HLA-B*15:01, HLA-B*18:01, HLA-B*35:01, and HLA-B*40:01. Donors with these alleles were selected for Bw6 expression measurements. For the included HLA-Bw6 alleles, the Luminex anti-Bw6/W6/32 ratios were relatively invariant (      ), thus the One Lambda Bw6 antibody could be used for further expression variation assessments. The majority of donors selected for HLA-Bw6 measurements (      ) had Bw4/Bw6 heterozygosity at the HLA-B locus, and one HLA-C allele with a Bw6 sequence (HLA-C*01:02, HLA-C*03:02, HLA-C*03:04, HLA-C*07:01, HLA-C*07:02, HLA-C*07:18, HLA-C*12:03, or HLA-C*16:01). Six donors had HLA-B Bw4/Bw6 heterozygosity, with both HLA-C alleles lacking a Bw6 sequence (HLA-C*04:01, HLA-C*04:04, HLA-C*05:01, HLA-C*06:02 or HLA-C*15:02). Seven donors had HLA-Bw6 and HLA-C homozygosity, and all the HLA-C alleles of these donors had a Bw6 sequence (HLA-C*07:01, HLA-C*07:02, or HLA-C*12:03). For the latter group of donors, the expression measurements shown in      and      are 50% of the total measured values. As noted above, based on previous mass spectrometric analyses, where HLA-C allele expression is shown to be several-fold lower than HLA-B (      ), HLA-B rather than HLA-C is expected to contribute dominantly to the anti-HLA-Bw6 derived signal in all the donors included in this study. Thus, all donor allele groupings discussed below are based on the relevant HLA-B allele.
+     </p>
+    </sec>
+    <sec id="s2-2">
+     <title>
+      Low cell surface expression levels of HLA-B*35:01 and HLA-B*07:02 in lymphocytes
+     </title>
+     <p>
+      The Bw6 alleles selected for expression measurements included two members of the B7 supertype (B*07:02 and B*35:01), two members of the B44 supertype (B*18:01 and B*40:01), and one member each of the B62 (B*15:01) and B8 (B*08:01) supertypes, representing multiple peptide binding specificities (      ). Donors were recruited for multiple blood draws across a period of roughly 18 months. Peripheral blood mononuclear cells (PBMCs) were purified and stained with antibodies to identify CD4, CD8, B, and NK cell subsets, and additionally with anti-Bw6 or W6/32. The anti-Bw6 and W6/32 MFI signals from each measurement were calibrated against measurements from beads with known quantities of Fc receptors that were stained with the same concentration of antibodies (anti-Bw6 or W6/32) to determine the respective antibody binding capacities (ABC) on different lymphocyte subsets. Each included donor had at least three ABC measurements performed from independent blood draws, with most donors having greater than three independent measurements (      ). For each donor, averaged Bw6 and W6/32 ABC values are plotted, grouped by the Bw6 allele at the HLA-B locus (      , columns 1 and 2). There were differences in HLA-Bw6 ABC values measured between allele groups. In general, highest expression is measured for HLA-B*08:01 cells, and lowest expression is measured for HLA-B*07:02 and HLA-B*35:01 in all cell subsets. Based on a one-way ANOVA analysis, the expression differences between HLA-B*08:01 and HLA-B*07:02 are significant in CD4      and CD8      T cells, but similar trends are noted in B and NK cell subsets. Differences between HLA-B*08:01 and HLA-B*35:01 are significant in CD4      , CD8      T cells and NK cells, but similar trends are noted in B cell subsets.
+     </p>
+     <p>
+      On the other hand, no significant differences between allele groups were measured in any cell type for the W6/32 ABC values (      , column 2). There were, however, donor to donor variations in W6/32 ABC (total HLA class I expression) between donors within the same allele group. To correct for potential overall expression differences that may be related to regulatory polymorphisms, the Bw6/W6/32 ABC ratios were also calculated for each donor and used in a one-way ANOVA analysis for comparisons between alleles (      , column 3). The B*08:01 vs B*07:02/B*35:01 differences were maintained or enhanced following the corrections. The Bw6/W6/32 ABC ratios were significantly higher for HLA-B*08:01 donors compared to B*07:02 donors in all cell types. Additionally, the Bw6/W6/32 ABC ratios were significantly higher for HLA-B*08:01 donors compared to B*35:01 donors in CD4      , CD8      T cells and NK cells, and similar trends were noted in B cells. Although other significant differences are noted in the Bw6/W6/32 ratios (for example higher ratios for HLA-B*08:01 compared to HLA-B*15:01 in CD4 and CD8 cells), these differences are not accompanied by corresponding differences in anti-Bw6 ABC values. Thus, based on the tested Bw6 group of alleles, cell surface expression of HLA-B*07:02 and B*35:01 are low compared to other alleles, and significantly different compared to HLA-B*08:01. The significance of the differences between these alleles is maintained in most cell types after accounting for overall HLA class I expression differences. Although the most significant differences are measured in CD4      and CD8      T cells, similar allele-dependent trends are present in all cells. Notably, both these lowest expressing HLA-B allotypes prefer P
+      <sub>
+       2
+      </sub>
+      P peptides that are disfavored for TAP transport.
+     </p>
+    </sec>
+    <sec id="s2-3">
+     <title>
+      Absence of differences in HLA-B mRNA expression in lymphocytes
+     </title>
+     <p>
+      Allele-dependent variations in RNA levels within cells can explain the surface expression differences (      ), although recent findings indicate that HLA-B transcript levels are relatively invariant across alleles, based on measurments with PBMC (      ). This possibility was further examined using real time polymerase chain reactions (RT PCR). Alleles were selected based on the most significant differences observed in the ABC analysis (      ), and purified CD4      and CD8      T cells were used for these analyses. The HLA-B mRNA expression levels for each donor were measured with HLA-B-specific primers (which measure total transcript levels of both HLA-B alleles from each donor). Pan-HLA class I primers were also used.      shows representative RT PCR experiment for donors expressing indicated HLA-Bw6 alleles (2      values shown are averaged from three technical replicates of the same RNA preparation). Based on a one-way ANOVA analysis, no significant differences are noted in transcript levels, using either HLA-B or pan HLA class I primers. These findings using cDNA samples from the Ann Arbor healthy donor cohort were consistent with results based on RNA sequencing (RNA-Seq) of samples derived from donors in Africa and Thailand (      ). There were no significant allele-dependent differences between HLA-B mRNA levels in CD4      T cells, B cells and NK cells, based on samples derived from donors in Africa and Thailand. Some significant associations were observed in the CD8      T cells, but the significance was lost when donors are stratified by ethnicity to separately represent the majority African donors.
+     </p>
+    </sec>
+    <sec id="s2-4">
+     <title>
+      Lower global cell surface stabilities of HLA-B*35:01 and HLA-B*07:02 in lymphocytes
+     </title>
+     <p>
+      ER retention differences can also account for cell surface HLA-B expression differences. In a CD4      T cell line, the rate of assembly and exit from the ER for HLA-B*35:01 is so rapid that binding to peptide loading complex components in the ER is undetectable at the steady state (      ). Thus, it is unlikely that increased ER retention explains the lower surface expression of HLA-B*35:01. Consistent with this expectation, the intracellular HLA-Bw6 protein levels (quantified as a ratio of the fluorescence signal in fixed relative to fixed and permeabilized cells (fixed/fixed +permeabilized) in flow cytometry experiments are not higher in PBMCs from B*08:01 donors compared to cells from either HLA-B*35:01 or HLA-B*07:02 donors (data not shown).
+     </p>
+     <p>
+      Since differences in cell surface stability (half-life) can be another factor that determines cell surface expression differences, we further quantified and compared global HLA-B cell surface stabilities (half-lives). Freshly isolated PBMCs were treated with brefeldin A (BFA), which blocks forward trafficking of newly synthesized HLA class I to the cell surface. For selected donors within the HLA-Bw6 donor group, MFI values for anti-Bw6 were measured at different time points after BFA treatment to calculate the half-lives in the different lymphocyte subsets. Representative stability plots used for the half-life calculations are shown in      , left column. Bw6 half-lives were calculated based on stability plots from individual days, averaged across multiple measurements (made with blood collections on different days from the same donor), and grouped by HLA-Bw6 allele (      , right column and      ). HLA-B*08:01, in general, displays high cell surface stability compared to all other HLA-Bw6 allotypes. Based on a one-way ANOVA analysis, the most significant differences are between HLA-B*08:01 and HLA-B*35:01 - allotypes which display the most significant cell surface expression differences (      ). The differences are most significant in CD8      T cells, although significant trends are also noted in CD4      T cells and NK cells. In pairwise comparisons based on a Welch’s t-test (not shown), the half-life differences between HLA-B*08:01 and HLA-B*35:01 are significant in all cells, and those between HLA-B*08:01 and HLA-B*07:02 are significant in all cells except B cells. Overall, the half-life measurements indicate that the high steady state cell-surface expression levels of HLA-B*08:01 relative to HLA-B*08:01 and HLA-B*07:02 in lymphocytes can be explained by the higher cell surface stability of HLA-B*08:01.
+     </p>
+    </sec>
+    <sec id="s2-5">
+     <title>
+      Altered HLA-B expression and stability patterns in monocytes compared to lymphocytes
+     </title>
+     <p>
+      Thus far, expression and stability experiments (      and      ) were performed on lymphocyte subsets, since they are the most abundant cells in PBMC, and because lymphocytes share a common lineage, and are thus most comparable to each other. We next assessed whether the differences measured in lymphocytes are maintained in additional antigen presenting cell subsets (APC). We recruited back a subset of donors for expression assessments in monocytes, which are more abundant in blood than dendritic cells (DC), making the measurements feasible using fresh undifferentiated PBMCs. A subset of donors from the B*08:01, B*07:02 and B*35:01 allele groups (alleles with the most significant lymphocyte HLA-B expression and stability differences) were recruited back for blood draws over an additional period of roughly 2 months. PBMCs were purified and stained with antibodies to identify lymphocyte and monocyte subsets, and additionally with anti-Bw6 or W6/32, and analyzed by flow cytometry, as for      . For each donor, averaged Bw6 and W6/32 ABC values in CD4      and CD8      T cells and monocytes are plotted, grouped by the Bw6 allele (      ). Expression differences between B*08:01 and B*07:02/B*35:01 were significant in CD4      and CD8      T cells (      ), consistent with the previous measurements with the larger pool of donors (      ). Surprisingly, however, for the parallel monocyte measurements within the same pool of donors, the expression differences were reversed, with B*08:01 displaying lower expression than both B*35:01 and B*07:02, and the differences reaching statistical significance for B*35:01 (      ). No statistically significant differences were measured for the W6/32 ABC values (      ), although the overall patterns of expression resembled those obtained with Bw6. When the monocyte ABC values for each donor were normalized relative to their CD4      and CD8      T cell ABC values and donors grouped by their Bw6 alleles, monocytes displayed a significant induction of expression relative to CD4      and CD8      T cells for B*35:01 and B*07:02, but not for B*08:01 (      ). Corresponding half-life measurements indicated a significant reduction in B*08:01 half-life in monocytes compared with CD4      and CD8      T cells, whereas the differences between monocytes and lymphocytes were not significant for B*07:02 and B*35:01 (      ). Indeed, in monocytes, no significant half-life differences were measured between B*08:01 and B*35:01/B*07:02 (      ). Together, these findings indicated both allele and cell type dependent variations in HLA-B cell surface expression and stability patterns.
+     </p>
+    </sec>
+    <sec id="s2-6">
+     <title>
+      Larger intracellular pool of HLA-Bw6 in monocytes, co-localizing with an AP-1      compartment
+     </title>
+     <p>
+      The findings of      –      suggested fundamental allele-specific differences in HLA-B assembly and surface expression between lymphocytes and monocytes. Although monocytes generally have higher HLA class I expression than lymphocytes as assessed by W6/32 staining (      ), there are allele-specific variations in the extent of monocyte induction of HLA class I. Monocytes favor high expression of B*35:01 and B*07:02 (alleles belonging to the B7 supertype) whereas lymphocytes favor high expression of B*08:01, via increased stability of HLA-B*08:01 (      ,      and      ). Based on these cell-type differences, we predicted that intracellular assembly conditions in monocytes and lymphocytes have variations, and which in turn affect expression of HLA-B alleles in different ways. To further assess this model, PBMCs were fixed and stained for surface HLA class I with the W6/32 monoclonal antibody or stained for total HLA class I by fixation and permeabilization. Based on these experiments, monocytes were found to have more intracellular HLA class I relative to lymphocytes populations (      ). Previous studies have described higher expression of TAP1 and higher activity of TAP complexes in monocytes relative to lymphocytes (      ). Additionally, monocytes generally also have more tapasin relative to lymphocytes (      ). However, the tapasin/W6/32 ratios are lower in monocytes compared with lymphocytes (      ), suggesting that tapasin is more limiting in monocytes. These differences could at least in part explain the reduced half-life in monocytes compared with lymphocytes for HLA-B*08:01, a strongly tapasin-dependent allotype (      ).
+     </p>
+     <p>
+      In order to determine where the intracellular pool of monocyte HLA-B is localized, imaging cytometry experiments were performed. PBMCs were stained with anti-CD3, anti-CD8, and anti-CD14 to differentiate monocytes from CD4      T cells (      ). Permeabilized PBMCs were additionally co-stained with anti-Bw6 along with antibodies against the ER marker calreticulin, the lysosomal marker LAMP-1, or the adaptor protein AP-1, which mediates protein trafficking between the Trans Golgi Network (TGN) and recycling endosomal compartments (      ). A previous study has demonstrated HLA class I co-localization with AP-1 in a post-TGN compartment of macrophages. AP-1 binds tyrosine-based sorting signals that are conserved across HLA-A and HLA-B alleles. Upon binding, AP-1 is thought to mediate trafficking between the TGN and antigen processing compartments of macrophages (      ). It was thus possible that AP-1 is a marker for monocyte intracellular compartments containing HLA class I.
+     </p>
+     <p>
+      The imaging cytometry quantifications indicated significantly greater co-localization between intracellular HLA-Bw6 and AP-1, compared with co-localization between HLA-Bw6 and either calreticulin or LAMP-1. The greater HLA-Bw6 and AP-1 co-localization is measured in both monocytes and T lymphocytes (      ). Additionally, there were no strong differences in Bw6/AP-1 co-localization between cells from a B*08:01 donor and a B*07:02 donor, suggesting that B7 supertype members do not co-localize or interact differently with AP-1 than B*08:01 (      ). Representative images are shown for monocytes (      ), and CD4      T cells (      ).
+     </p>
+     <p>
+      Together, the findings of      indicate more intracellular HLA class I in monocytes (      ), and substantial localization in a AP-1      compartment (      , and      –      ). Despite the reduced tapasin/HLA class I ratios in monocytes relative to lymphocytes (      ), both B*08:01 and B*07:02 allotypes exit the ER, as evidenced by the lower proportion of cells with high Bw6/calreticulin co-localization (      ). The AP-1      compartment could provide a source of peptides that accounts for the strong cell surface induction of HLA-B*07:02 and HLA-B*35:01 in monocytes compared with lymphocytes. On the other hand, in lymphocytes, HLA class I trafficking differences result in a smaller intracellular pool of HLA class I (      ). The smaller pool of the intracellular class I could render the HLA class I of lymphocytes more reliant on a TAP-dependent ER pool of peptides. As a consequence, mismatches between the peptide binding preferences of HLA-B7 supertype members and TAP may be more strongly manifested in lymphocytes. There may be additional differences between lymphocytes and monocytes such as expression patterns of proteins containing prolines, or expression/activity of ER aminopeptidases, which render the peptide pool in monocytes more favorable for assembly of the B7 supertype. Further studies are needed to fully understand the basis for the measured expression differences.
+     </p>
+    </sec>
+    <sec id="s2-7">
+     <title>
+      Increased exogenous antigen receptivity of HLA-B*35:01 and HLA-B*07:02 is indicative of suboptimal intracellular assembly in lymphocytes
+     </title>
+     <p>
+      Suboptimal intracellular peptide loading, such as those resulting from mismatches with TAP binding preferences or deficiencies in TAP can be assessed by measuring enhanced receptivity to exogenous peptide. HC10 is an antibody that detects open (peptide-deficient) forms of HLA class I (      ). We examined HC10 signals in cells from multiple donors following incubation with peptides specific for HLA-B*08:01, HLA-B*35:01, or HLA-B*07:02 to further examine evidence for suboptimal loading of HLA-B*35:01 or HLA-B*07:02 in lymphocytes. The allele-specific peptides, including various antigenic epitopes, had matched control peptides that were mutated at critical N-terminal anchor residues and C-terminally truncated so as to abrogate peptide binding to HLA class I. HC10 signals are low in all lymphocyte subsets, except B cells, under basal conditions. Analyses of the HC10 ratio (specific/control peptide;      ) indicate that there is in fact overall greater receptivity of HLA-B*35:01 and HLA-B*07:02 for peptides compared with HLA-B*08:01 in B cells and CD4      T cells with similar trends observed in NK cells and CD8      T cells. Assessment of the temperature dependence of surface peptide loading suggests that peptide loading does not require internalization, and thus that cell surface HLA-B*35:01 and HLA-B*07:02 are at least partially directly peptide-receptive (data not shown). In lymphocytes, the high peptide receptivity of HLA-B*35:01 and HLA-B*07:02 and low surface expression are consistent with the model that the intracellular peptide pool for those allotypes is limiting owing to their P
+      <sub>
+       2
+      </sub>
+      P binding preferences, which is disfavored for transport by TAP. HLA-B*35:01 and HLA-B*07:02 have high or intermediate tapasin-independence for their assembly, and thus it is likely that sub-optimally assembled or peptide-deficient versions of these allotypes can escape quality control mechanisms mediated by the PLC. On the other hand, monocyte HLA-B are not receptive to exogenous peptides for HLA-B*08:01, B*35:01, or for B*07:02. The reduced stability of HLA-B*08:01 (      ) in monocytes relative to lymphocytes is not accompanied by enhanced cell surface peptide receptivity in monocytes (      ). Taken together, the findings are consistent with the overall model of suboptimal assembly of B*35:01 and B*07:02 in lymphocytes. Furthermore, the results indicate that lymphocytes and monocytes maintain their cell surface HLA-B via different mechanisms, which in turn differently influence their exogenous peptide-receptivity.
+     </p>
+    </sec>
+    <sec id="s2-8">
+     <title>
+      Specificities and relative binding propensities of an anti-HLA-Bw4 monoclonal antibody
+     </title>
+     <p>
+      HLA-Bw4 allotypes constitute the second group of HLA-B, which are functionally distinct from HLA-Bw6 in the NK cell response. We assessed whether some of the findings with the HLA-Bw6 group are extendable to the HLA-Bw4 group. For these measurements, the anti-Bw4 antibody from One Lambda was used, which is specific for HLA-B alleles within the HLA-Bw4 group and does not bind HLA-Bw6 alleles or HLA-C alleles. However, five HLA-A alleles are recognized (      ; A*23:01, A*24:02, A*24:03, A*25:01, A*32:01). Further analyses of the sequences of the HLA-A alleles that are recognized by anti-Bw4 (residues 77–83) revealed the presence of a sequence motif similar to the Bw4 motif (      ). Other HLA-A alleles have altered sequences in that region. Within the total pool of 244 donors, donors with Bw4/Bw6 heterozygosity at the HLA-B locus and lacking a cross-reactive HLA-A were included for Bw4 expression measurements. Expression measurements were obtained for HLA-Bw4 alleles with at least four donors/allele within that donor pool, which were HLA-B*13:02, HLA-B*27:05, HLA-B*37:01, HLA-B*44:02, HLA-B*51:01 and HLA-B*57:01 (      ). Within this selected group of HLA-Bw4 alleles, the anti-Bw4 antibody showed considerable binding variability (      ). Binding variations across the same alleles were also seen with an anti-Bw4 obtained from a different commercial source (Miltenyi). The One Lambda anti-Bw4 was used for further expression variation assessments, but taking into account variations in antibody binding to alleles within the Bw4 group.
+     </p>
+    </sec>
+    <sec id="s2-9">
+     <title>
+      Among Bw4 allotypes, B*51:01 displays low expression on lymphocytes
+     </title>
+     <p>
+      The Bw4 alleles considered included those within the B7 (B*51:01), B44 (B*44:02 and B*37:01), B58 (B*57:01), B27 (B*27:05) and unclassified (B*13:02) supertypes. A range of peptide-binding preferences (including P
+      <sub>
+       2
+      </sub>
+      P) were represented (      ). As with the Bw6 measurements, fresh PBMCs for Bw4 measurements were purified and stained for flow cytometry with anti-Bw4 or W6/32 as well as antibodies directed against lymphocyte subsets. The anti-Bw4 and W6/32 ABC values were calculated as described for      . For each donor, averaged Bw4 ABC are shown (      and      ), grouped by Bw4 allele. Significant differences in HLA-Bw4 ABC values are measured in all four cell types based on a one-way ANOVA analysis. Many cell subsets showed significant differences between B*57:01/B*27:05 and other HLA-Bw4 allotypes (      ). This is similar to the pattern seen with the Luminex binding analyses, which indicated the highest binding preference of anti-Bw4 for HLA-B*57:01 and HLA-B*27:05 (      ). A correlation analysis of the Luminex bead Bw4/W6/32 ratio versus cell-derived Bw4 ABC values showed significant positive correlations in all lymphocytes (      , column 1). These analyses indicated that the varying anti-Bw4 binding preferences contribute to differences in the observed cell-derived Bw4 ABC values. However, whereas in the Luminex bead analyses, the binding preference was HLA-B*57:01 &gt; HLA-B*27:05 &gt; HLA-B*51:01 &gt; HLA-B*37:01 = HLA-B*13:02 &gt; HLA-B*44:02 (      ), the general Bw4 ABC value trends (      , column 1) indicated that the averaged HLA-B*51:01 ABC value on cells is lower than that expected based on the measured anti-Bw4 binding preferences, and resemble the B*44:02 signals. Correspondingly, the majority of HLA-B*51:01 ABC values fall below the linear regression line of the correlation plot in all the tested cells (      , column 1).
+     </p>
+     <p>
+      There were, as with the Bw6 alleles, donor to donor variations in W6/32 ABC values (      , column 2). The averaged W6/32 ABC measurements for the donor pool used for Bw4 ABC generally did not show significant allele-dependent differences (      , column 2). There was a positive correlation between the Luminex bead Bw4/W6/32 ratios and cell-derived Bw4/W6/32 ABC ratios, but the majority of cell-derived Bw4/W6/32 ABC ratios for HLA-B*51:01 donors fall below the linear regression line of the correlation plots (      , column 2). No significant differences are noted in HLA-B transcript levels in lymphocyte subsets from donors expressing B*51:01 compared to other donors (      ). Bw4 half-life values were also measured in lymphocytes from a subset of the Bw4 group donors (B*57:01, HLA-B*44:02, B*51:01 and HLA-B*37:01;      ). No significant half-life differences were measurable for HLA-B*51:01 compared to other HLA-Bw4 alleles in any of the cell types (      , column 3). A limiting supply of peptides may create an intracellular assembly bottleneck for B*51:01 (which is highly tapasin-dependent; [      ]), which requires further assessments. Overall, as with Bw6 alleles, the lowest expressing Bw4 allele in lymphocytes is a member of the B7 supertype, and has a P
+      <sub>
+       2
+      </sub>
+      P peptide-binding preference that is disfavored for TAP transport.
+     </p>
+    </sec>
+    <sec id="s2-10">
+     <title>
+      Altered HLA-Bw4 expression patterns in monocytes compared to lymphocytes
+     </title>
+     <p>
+      HLA-B expression patterns in lymphocytes and monocytes were compared in selected donors within the B*51:01, B*57:01 and B*44:02 groups who were recruited back for additional blood draws across a roughly 2 month period. PBMCs were stained with antibodies to identify lymphocyte and monocyte subsets, and additionally with anti-Bw4 or W6/32. For each donor, averaged Bw4 and W6/32 ABC values for B cells and monocytes are plotted, grouped by the Bw4 allele (      ). The averaged B*51:01 ABC values are lower than those for B*57:01, and comparable to B*44:02 in B cells, as previously noted with the larger pool of donors (      , column 1), although differences become non-significant with the smaller pool of donors in      . Again, surprisingly, these expression trends become altered in monocytes, where B*51:01 becomes strongly induced compared with lymphocytes, whereas there is a small change for B*57:01, and a reduction for B*44:02 (      ). It is noteworthy that the expression patterns obtained with W6/32 in monocytes mirrored those obtained with anti-Bw4 (      ), indicating that variations in single HLA-B allele expression levels significantly impact total HLA class I levels. When the ABC values for B cells were normalized relative to the monocyte values for each donor, significant increases and decreases in expression were measured respectively for B*51:01 and B*4402 in monocytes compared with lymphocytes (      ). The Luminex bead Bw4/W6/32 ratios calculated from      were used to also obtain correlation plots with the new Bw4 ABC data (      ) and the corresponding Bw4/W6/32 ABC ratios (      ) for both B cells and monocytes, in order to account for antibody binding differences. With the reduction in the number of alleles examined, a significant correlation was obtained in monocytes that have the high B*51:01 expression, but not in lymphocytes, where B*51:01 expression is lower than predicted by the Luminex bead binding (      ). Thus, the cellular assembly landscape of monocytes favors B*51:01 cell surface expression and disfavors B*44:02 expression, whereas cell surface expression of B*51:01 is disfavored in lymphocytes. As noted in      , monocytes and lymphocytes differ in the magnitude of intracellular HLA class I and in tapasin/HLA class I ratios.
+     </p>
+    </sec>
+    <sec id="s2-11">
+     <title>
+      The peptide-binding characteristics of B*08:01 underlie its high stability in lymphocytes
+     </title>
+     <p>
+      Our findings indicate that lymphocytes and monocytes maintain cell surface HLA-Bw6 via different mechanisms that relate in part to their peptide-binding preferences. Lymphocytes have an unfavorable landscape for the assembly of three B7 supertype members, whereas lymphocytes favor high expression of HLA-B*08:01, coincident with its high cell surface stability. To better understand the molecular basis for the high expression and stability of B*08:01 in lymphocytes (      and      ), the peptidomes of several relevant HLA-B allotypes were compared with that of B*08:01 after mining B cell-derived peptidome datasets from the literature. A recent study used B lymphoblastic cell lines from 18 subjects to isolate and characterize MHC-associated peptides. Peptides were isolated from cell surface HLA class I by mild acid elution and identified by mass spectrometry. Using the immune epitope database (IEDB), 8–14 mer peptides were assigned to HLA allotypes with the best predicted binding affinity (      ). Published 9-mer data from this study were analyzed to compare the restriction patterns of peptidomes of several HLA-B allotypes relevant our study.
+     </p>
+     <p>
+      Shannon entropy plots have been used to assess the sequence restrictions and diversities of HLA class I peptidomes (      ) based on the frequency of occurrence of each of 20 amino acids at each position of a given peptide length. A higher Shannon entropy value corresponds to high sequence diversity at a particular position, and a low Shannon entropy value corresponds to high sequence restriction at the same position. Shannon entropy plots for the peptidomes of several HLA-B allotypes derived from the published dataset (      ) and relevant to this study are shown in      . All the tested HLA-B allotypes have strong N-terminal and/or P
+      <sub>
+       c
+      </sub>
+      residue preferences. The Shannon entropy plot for the high-expressing HLA-B*08:01 allotype has notable features that point to multiple structurally distinct interactions mediated by its peptidome compared to other peptidomes. B*08:01 is unusual not only for its unique P
+      <sub>
+       5
+      </sub>
+      anchor (resembling the anchor residue positioning in murine MHC class I molecules), but also in having restrictive P
+      <sub>
+       3
+      </sub>
+      and P
+      <sub>
+       c-1
+      </sub>
+      residues in addition to the restrictions at P
+      <sub>
+       2
+      </sub>
+      and P
+      <sub>
+       c
+      </sub>
+      (      and      ).
+     </p>
+     <p>
+      We analyzed the solved crystal structures of HLA-B*08:01 complexes compared to other HLA-B allotypes (      ). In general, P
+      <sub>
+       2
+      </sub>
+      and P
+      <sub>
+       c
+      </sub>
+      of the peptides are the most restrictive and buried positions, containing the specificity-conferring ‘anchor’ residues. Typically, P
+      <sub>
+       2
+      </sub>
+      forms hydrogen bonds with residues 9, 45, and 67 of the HLA-B heavy chains, and P
+      <sub>
+       c
+      </sub>
+      forms hydrogen bonds with residues at 95, 77, 116, and 123. In B*08:01, the overall geometry is different from other HLA-B allotypes including HLA-B*35:01. E45 and F67 of HLA-B*08:01 move away from the P
+      <sub>
+       2
+      </sub>
+      pocket and F36 spatially substitutes for E45. In addition to the non-polar interaction of residues P
+      <sub>
+       2
+      </sub>
+      and P
+      <sub>
+       C
+      </sub>
+      of the peptide with non-polar clusters of protein residues (P
+      <sub>
+       2
+      </sub>
+      with F36 and P
+      <sub>
+       C
+      </sub>
+      with L81-L95-Y116-Y123), B*08:01 has ionic interactions between D9 and a deeply buried peptide residue at P
+      <sub>
+       5
+      </sub>
+      . Indeed, as a result of these multiple contact points, comparisons of crystal structures of HLA class I peptide complexes have revealed fully extended and deeply buried peptides for HLA-B*08:01 compared to other HLA-B allotypes, including HLA-B*35:01 and B*07:02 (      ). These unique peptide-binding characteristics of HLA-B*08:01 are likely to underlie its high cell surface stability in lymphocytes.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     HLA-B alleles do not vary in their mRNA expression in individual lymphocyte subsets, as previously described in bulk PBMC (     and     and (     ). However, both allele-intrinsic and cell-intrinsic factors exert important influences on HLA-B cell surface protein expressions levels. Nonetheless, there is no global high or low cell surface expressing allotype among the 12 HLA-B alleles considered in this study; rather, measured variations are cell-specific (     ). Furthermore, there are allele and cell type-dependent thresholds for passing ER quality control checkpoints rather than a global threshold for HLA class I stability.
+    </p>
+    <p>
+     Mismatch of HLA peptide binding preference with TAP transport specificity (P
+     <sub>
+      2
+     </sub>
+     P preferences of the B7 superfamily) is a potential determinant of low cell surface expression in lymphocytes. A tapasin-independent assembly pathway is also a potential factor for reduced cell surface expression and stability and enhanced exogenous peptide-receptivity in lymphocytes, particularly when the intracellular peptide pool is also limiting. High affinity peptides are better able to displace tapasin from HLA class I than low affinity peptides (     ), consistent with recent structural studies (     ;     ) that support models involving competition between peptide and tapasin. For MHC class I allotypes assembling in the context of the PLC, the threshold peptide affinity required to exit the ER is expected to be dictated by the affinity of the tapasin-MHC interaction. For allotypes such as HLA-B*35:01 and B*07:02 that can also assemble efficiently independently of the PLC, this threshold affinity would be lower than allotypes such as B*08:01, which are more dependent on the PLC for assembly. Since tapasin-independent assembly is also linked to higher stability of the peptide-deficient form (     ), allotypes such as HLA-B*35:01 and B*07:02 may escape PLC-mediated and other ER quality control mechanisms when devoid of peptides or when bound to a sub-optimal peptide, resulting in enhanced peptide receptivity in lymphocytes. Alternatively, tapasin-dependent allotypes such as B*51:01 that have P
+     <sub>
+      2
+     </sub>
+     P preferences may face an intracellular assembly bottleneck. Conversely, high expression and stability of B*08:01 in lymphocytes is linked to its unique peptide-binding characteristics (     ), an ample peptide supply and tapasin-dependent assembly.
+    </p>
+    <p>
+     With regard to cell-intrinsic factors, in monocytes, an intracellular AP-1     compartment contains a large pool of intracellular HLA-B, and assembly parameters within this compartment are likely to account for monocyte-specific HLA-B cell surface expression differences (     ). While further studies are needed to understand the differences between HLA-B assembly in monocytes and lymphocytes, it is apparent that a more substantial pool of HLA-B is intracellularly localized in monocytes than lymphocytes (     ). Peptides that enter the intracellular compartments independently of TAP may provide a robust peptide source for members of the B7 supertype in monocytes. Indeed, in a related study (     ), we find that HLA-B allotypes with P
+     <sub>
+      2
+     </sub>
+     P preferences generally tend to express at higher levels under TAP-deficiency conditions. Furthermore, despite the presence of higher levels of tapasin in monocytes (     ), the parallel increases in HLA class I levels (and reduced tapasin/HLA class I ratios; (     )) are likely to induce greater competition for the formation of stoichiometric tapasin:HLA class I complexes within the PLC. Such competition, combined with the particular environment within the AP-1     compartment, could selectively reduce the assembly efficiency and/or the assembly quality of allotypes such as HLA-B*44:02 and B*08:01 in monocytes. Overall, the measurements with lymphocytes and monocytes highlight the importance of the cellular assembly landscape as a key HLA-B cell surface expression determinant (     ).
+    </p>
+    <p>
+     A recent study reported higher expression of HLA-B*57 and HLA-B*27 relative to other Bw4 allotypes including HLA-B*44 in bulk PBMCs (     ). Those results can be explained by variations in recognition by the anti-Bw4 antibody that was used, which was the same antibody used as in our Bw4 measurements (     and     and     ). Another recent study found low cell surface expression among some chicken MHC allotypes, which was attributed to their promiscuous binding of peptides lacking recognizable anchor residues (     ). Using a different set of antibodies than anti-Bw4/Bw6, the study also reported high expression of cell surface HLA-B in lymphocytes and monocytes of homozygous donors expressing HLA-B*27:05 and HLA-B*57:01 compared with donors expressing B*07:02 and B*35:01. Higher promiscuity of the B*07:02 and B*35:01 peptidomes relative to those of B*27:05 and HLA-B*57:01 was suggested based on prior studies (     ). While it is likely that mass spectrometry does not capture the full peptidome diversity, Shannon Entropy plots of mass spectrometry-derived 9-mer peptides suggest higher P
+     <sub>
+      2
+     </sub>
+     diversity for B*57:01 compared to B*35:01, confirmed by motif assessments with a different peptidome dataset (     and     ). Assessments of length diversities indicate similar preferences of B*57:01 compared to B*35:01 for 9-mer and 10-mer peptides relative to other lengths (data not shown). Overall, our findings suggest that there is a not a simple relationship between HLA-B expression levels and peptidome diversity, and indeed that intracellular assembly variations can induce different peptidome diversities for the same allotype in different cells.
+    </p>
+    <p>
+     The HLA 8.1 ancestral haplotype, which includes the HLA-B*08:01 allele, has been associated with a number of autoimmune diseases (     ;     ). Recent genetic studies show that the strongest individual allelic associations for polymyositis are with HLA-B*08:01 (     ) and another study showed strong HLA-B*08:01 associations with idiopathic inflammatory myopathies (     ). Our findings indicate high cell-surface expression and high cell-surface stability of HLA-B*08:01 in lymphocytes, relating to the specifics of peptide interactions with HLA-B*08:01 (     ), which may lead to increased probability of CD8     T cell activation in autoimmune myopathies. Conditional upregulation of HLA class I in muscle is sufficient to induce some characteristics of autoimmune myositis in mouse models of disease (     ). Important questions that stem from our current observations relate to whether high expression of HLA-B*08:01, measurable in lymphocytes, is also maintained in muscle, which could have key relevance to the autoimmunity linkages of HLA-B*08:01.
+    </p>
+    <p>
+     The findings described in this study (     ) are relevant to further understanding of how variations in HLA-B expression, stability and peptide occupancy influence immunity to pathogens such as HIV that preferentially target CD4     T cells and macrophages. The influences of HLA class I expression levels on the lysis of HIV-infected CD4     T cells by cytotoxic CD8     T cells is well-studied (     ). HLA-B alleles have strong influences on AIDS progression outcomes and viral loads (     ;     ). High HLA-B expression in APC lineage cells would favor effective priming of an HIV-specific CD8     T cell response and their activity against infected macrophages, whereas high HLA-B expression in CD4     T cells would favor efficient CD8     T cell-mediated lysis of infected CD4     T cells. The B*57:01 advantage in HIV infections relative to less protective HLA-Bw4 allotypes such as B*51:01 and B*44:02 may derive in part from the relatively high expression of B*57:01 in both cell lineages. Similarly, the B*35:01 disadvantage may relate in part to its lower expression, lower stability and higher proportion of peptide-deficient versions in CD4     T cells. Further studies are needed to assess influences of HIV infection on HLA-B expression, stability and peptide occupancy in CD4     T cells and macrophages.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="materials|methods">
+    <title>
+     Materials and methods
+    </title>
+    <table-wrap id="keyresource" orientation="portrait" position="anchor">
+     <label>
+      Key resources table
+     </label>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th colspan="1" rowspan="1">
+         Reagent type
+         <break/>
+         (species) or resource
+        </th>
+        <th colspan="1" rowspan="1">
+         Designation
+        </th>
+        <th colspan="1" rowspan="1">
+         Source or reference
+        </th>
+        <th colspan="1" rowspan="1">
+         Identifiers
+        </th>
+        <th colspan="1" rowspan="1">
+         Additional information
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Biological
+         <break/>
+         sample (human)
+        </td>
+        <td colspan="1" rowspan="1">
+         human peripheral
+         <break/>
+         blood mononuclear cells
+        </td>
+        <td colspan="1" rowspan="1">
+         human
+        </td>
+        <td colspan="1" rowspan="1">
+         donor # 1–237
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         W6/32
+         <break/>
+         (anti-HLA-A,B,C)
+        </td>
+        <td colspan="1" rowspan="1">
+         mouse hybridoma,
+         <break/>
+         UMICH Hybridoma
+         <break/>
+         PMID: 667938
+        </td>
+        <td colspan="1" rowspan="1">
+         W6/32
+        </td>
+        <td colspan="1" rowspan="1">
+         mouse hybridoma purified with
+         <break/>
+         Protein G column and labeled
+         <break/>
+         with FITC
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         HC10
+         <break/>
+         (anti-HLA-heavy chain)
+        </td>
+        <td colspan="1" rowspan="1">
+         mouse hybridoma
+         <break/>
+         UMICH Hybridoma
+         <break/>
+         PMID: 2088481
+         <break/>
+         <break/>
+        </td>
+        <td colspan="1" rowspan="1">
+         HC10
+        </td>
+        <td colspan="1" rowspan="1">
+         mouse hybridoma purified with
+         <break/>
+         Protein G column and labeled
+         <break/>
+         with FITC
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         PaSta-1
+         <break/>
+         (anti-tapasin antibody)
+        </td>
+        <td colspan="1" rowspan="1">
+         Received
+         <break/>
+         from Dr. Peter Cresswell
+         <break/>
+         Yale University
+         <break/>
+         PMID: 11825568
+        </td>
+        <td colspan="1" rowspan="1">
+         PaSta-1
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-tapasin antibody (received
+         <break/>
+         purified) and labeled with FITC
+         <break/>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-Bw4 FITC
+        </td>
+        <td colspan="1" rowspan="1">
+         One Lambda
+        </td>
+        <td colspan="1" rowspan="1">
+         Fisher:FH0007
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:20) (1:10)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-Bw6 FITC
+        </td>
+        <td colspan="1" rowspan="1">
+         One Lambda
+        </td>
+        <td colspan="1" rowspan="1">
+         Fisher:FH0038
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:20) (1:10)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         IgG3 mouse
+         <break/>
+         isotype control FITC
+        </td>
+        <td colspan="1" rowspan="1">
+         Abcam
+        </td>
+        <td colspan="1" rowspan="1">
+         ab91539
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:10)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         IgG2a mouse
+         <break/>
+         isotype control FITC
+        </td>
+        <td colspan="1" rowspan="1">
+         Abcam
+        </td>
+        <td colspan="1" rowspan="1">
+         ab91362
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:10)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD3
+         <break/>
+         UCHT1 pacific blue
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2562048">
+          AB_2562048
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 300442)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD4
+         <break/>
+         RPA-T4 PE/Cy7
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_314086">
+          AB_314086
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 300518)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD8
+         <break/>
+         SK1 Alexa Fluor 700
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2562790">
+          AB_2562790
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 344724)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD14
+         <break/>
+         63D3 Alexa Fluor 700
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2566716">
+          AB_2566716
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 367114)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD19
+         <break/>
+         HIB19 APC
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_314242">
+          AB_314242
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 302212)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:20)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD33
+         <break/>
+         P67.6 PE/Cy7
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2566416">
+          AB_2566416
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 366614)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-CD56 5.1H11 APC/Cy7
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2563927">
+          AB_2563927
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 362510)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-HLA-DR
+         <break/>
+         L243 BV650
+        </td>
+        <td colspan="1" rowspan="1">
+         Biolegend
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2563828">
+          AB_2563828
+         </ext-link>
+         <break/>
+         (BioLegend
+         <break/>
+         Cat. No. 307650)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:50)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1" valign="bottom">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         mouse anti-AP-1
+        </td>
+        <td colspan="1" rowspan="1">
+         Sigma Aldrich
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_476720">
+          AB_476720
+         </ext-link>
+         <break/>
+         (Sigma-Aldrich
+         <break/>
+         Cat# A4200)
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         (1:500)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1" valign="bottom">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         goat anti-mouse IgG2b
+         <break/>
+         -Alexa Fluor 568
+        </td>
+        <td colspan="1" rowspan="1">
+         Thermo Fisher
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2535780">
+          AB_2535780
+         </ext-link>
+         <break/>
+         (Thermo Fisher
+         <break/>
+         Scientific
+         <break/>
+         Cat# A-21144)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:500)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1" valign="bottom">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         anti-calreticulin (CRT)
+        </td>
+        <td colspan="1" rowspan="1">
+         Thermo Fisher
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_325990">
+          AB_325990
+         </ext-link>
+         <break/>
+         (Thermo Fisher
+         <break/>
+         Scientific
+         <break/>
+         Cat# PA3-900)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:500)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1" valign="bottom">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         goat anti-rabbit
+         <break/>
+         IgG-Alexa Fluor 594
+        </td>
+        <td colspan="1" rowspan="1">
+         Cell Signaling
+         <break/>
+         Technology
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_2716249">
+          AB_2716249
+         </ext-link>
+         <break/>
+         (Cell Signaling
+         <break/>
+         Technology
+         <break/>
+         Cat# 8889)
+        </td>
+        <td colspan="1" rowspan="1">
+         (1:500)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1" valign="bottom">
+         Antibody
+        </td>
+        <td colspan="1" rowspan="1">
+         PE mouse anti-human
+         <break/>
+         CD107a (LAMP-1)
+        </td>
+        <td colspan="1" rowspan="1">
+         BD Biosciences
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/AB_396135">
+          AB_396135
+         </ext-link>
+         <break/>
+         (BD Biosciences
+         <break/>
+         Cat# 555801)
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         (1:20)
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         HLA-B reverse primer
+         <break/>
+         5’ TCAAGCTGTGAGAGACACAT 3’
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         PMID: 20842357
+        </td>
+        <td colspan="1" rowspan="1"/>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         HLA-B forward primer
+         <break/>
+         5’ TCCTAGCAGTTGTGGTCATC 3’
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         PMID: 20842357
+        </td>
+        <td colspan="1" rowspan="1"/>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         pan-Class I forward primer
+         <break/>
+         5’ GAGATCACACTGACCTGGCA 3’,
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         This paper
+        </td>
+        <td colspan="1" rowspan="1"/>
+        <td colspan="1" rowspan="1">
+         Primer chosen by
+         <break/>
+         sequence alignment
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         pan-Class I reverse primer
+         <break/>
+         5’ GAACCTTCCAGAAGTGGG 3’
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         This paper
+        </td>
+        <td colspan="1" rowspan="1"/>
+        <td colspan="1" rowspan="1">
+         Primer chosen by
+         <break/>
+         sequence alignment
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         ACTB forward primer
+         <break/>
+         5 GGACTTCGAGCAAGAGATGG 3
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RealTime
+         <break/>
+         Primers.com
+        </td>
+        <td colspan="1" rowspan="1">
+         VHPS-110
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         ACTB reverse primer
+         <break/>
+         5 AGCACTGTGTTGGCGTACAG 3
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RealTime
+         <break/>
+         Primers.com
+        </td>
+        <td colspan="1" rowspan="1">
+         VHPS-110
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         GAPDH forward primer
+         <break/>
+         5 GAGTCAACGGATTTGGTCGT 3
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RealTime
+         <break/>
+         Primers.com
+        </td>
+        <td colspan="1" rowspan="1">
+         VHPS-3541
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         GAPDH reverse primer
+         <break/>
+         5 TTGATTTTGGAGGGATCTCG 3
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RealTime
+         <break/>
+         Primers.com
+        </td>
+        <td colspan="1" rowspan="1">
+         VHPS-3541
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         HPRT1 forward primer
+         <break/>
+         5 TGACACTGGCAAAACAATGCA 3
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RealTime
+         <break/>
+         Primers.com
+        </td>
+        <td colspan="1" rowspan="1">
+         VHPS-4263
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Sequence-based
+         <break/>
+         reagent
+        </td>
+        <td colspan="1" rowspan="1">
+         HPRT1 reverse primer
+         <break/>
+         5 GGTCCTTTTCACCAGCAAGCT 3
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RealTime
+         <break/>
+         Primers.com
+        </td>
+        <td colspan="1" rowspan="1">
+         VHPS-4263
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         HSKKKCDEL
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         HSK
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         HSDYECDE
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         HSD
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from HSK
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         GPKVKRPPI
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         GPK
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         GPDVERPP
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         GPD
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from GPD
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         QIKVRVDMV
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         QIK
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         QIDVEVDM
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         QID
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from QID
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         HPVGEADYFEY
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         HPV
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         HGVGEADYFE
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         HGV
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from HPV
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         EPLPQGQLTAY
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         EPL
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         EGLPQGQLTA
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         EGL
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from EPL
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         HPNIEEVAL
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         HPN
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         HGNIEEVA
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         HGN
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from HGN
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         RPPIFIRRL
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         RPPI
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         RKPIFIRR
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         RKPI
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from RKPI
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         QPRAPIRPI
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         QPRA
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         QKRAPIRP
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         QKRA
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from QKRA
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         TPRVTGGGAM
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         TPRV
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide chosen from IEDB
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Peptide,
+         <break/>
+         recombinant protein
+        </td>
+        <td colspan="1" rowspan="1">
+         TKRVTGGGA
+        </td>
+        <td colspan="1" rowspan="1">
+         Synthetic Biomolecules
+         <break/>
+         (A and A labs LLC)
+        </td>
+        <td colspan="1" rowspan="1">
+         TKRV
+        </td>
+        <td colspan="1" rowspan="1">
+         Peptide modified from TKRV
+        </td>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Commercial
+         <break/>
+         assay or kit
+        </td>
+        <td colspan="1" rowspan="1">
+         DNeasy Blood and
+         <break/>
+         Tissue Kit
+        </td>
+        <td colspan="1" rowspan="1">
+         Qiagen
+        </td>
+        <td colspan="1" rowspan="1">
+         Qiagen:69504
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Commercial
+         <break/>
+         assay or kit
+        </td>
+        <td colspan="1" rowspan="1">
+         RNeasy Mini Kit
+        </td>
+        <td colspan="1" rowspan="1">
+         Qiagen
+        </td>
+        <td colspan="1" rowspan="1">
+         Qiagen:74104
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Commercial
+         <break/>
+         assay or kit
+        </td>
+        <td colspan="1" rowspan="1">
+         Quantum™ Simply
+         <break/>
+         Cellular anti-Mouse IgG
+        </td>
+        <td colspan="1" rowspan="1">
+         Bangs Lab
+        </td>
+        <td colspan="1" rowspan="1">
+         Bangs Lab:815A
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Chemical
+         <break/>
+         compound, drug
+        </td>
+        <td colspan="1" rowspan="1">
+         Brefeldin A
+        </td>
+        <td colspan="1" rowspan="1">
+         Sigma Aldrich
+        </td>
+        <td colspan="1" rowspan="1">
+         Sigma-Aldrich:B7651
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Chemical
+         <break/>
+         compound, drug
+        </td>
+        <td colspan="1" rowspan="1">
+         FITC
+        </td>
+        <td colspan="1" rowspan="1">
+         Thermo Fisher
+        </td>
+        <td colspan="1" rowspan="1">
+         Fisher:46424
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Software,
+         <break/>
+         algorithm
+        </td>
+        <td colspan="1" rowspan="1">
+         FlowJo Version 10
+        </td>
+        <td colspan="1" rowspan="1">
+         FlowJo, LLC
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/SCR_008520">
+          SCR_008520
+         </ext-link>
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <td colspan="1" rowspan="1">
+         Software,
+         <break/>
+         algorithm
+        </td>
+        <td colspan="1" rowspan="1">
+         Prism 7
+        </td>
+        <td colspan="1" rowspan="1">
+         GraphPad Software
+        </td>
+        <td colspan="1" rowspan="1" valign="bottom">
+         RRID:
+         <ext-link ext-link-type="uri" ns0:href="https://scicrunch.org/resolver/SCR_002798">
+          SCR_002798
+         </ext-link>
+        </td>
+        <td colspan="1" rowspan="1"/>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+    <sec id="s4-1">
+     <title>
+      Study approval
+     </title>
+     <p>
+      For all experiments except the RNA Sequencing studies, blood was collected in Ann Arbor, MI, USA, with informed consent from healthy donors in accordance with a University of Michigan IRB approved protocol (HUM00071750). For the RNA Sequencing studies, all study participants in RV217 gave written informed consent prior to inclusion in the study. RV217 was reviewed and approved by the human subject ethics and safety committees in each country as well as by the Walter Reed Army Institute of Research (Silver Spring, MD, USA), in compliance with all relevant federal guidelines and institutional policies.
+     </p>
+    </sec>
+    <sec id="s4-2">
+     <title>
+      Peripheral blood mononuclear cell (PBMC) preparations and HLA Genotyping
+     </title>
+     <p>
+      PBMCs were isolated from whole blood using Ficoll-Paque density gradient centrifugation (GE Healthcare, Chicago, IL). Whole blood was diluted to 50 mL with 1x PBS + 2% FBS (fluorescence activated cell sorting (FACS) buffer), layered over Ficoll-Paque and centrifuged at 400 x g for 30 min with no brakes. The buffy coat layer was then moved to a new tube and washed twice with FACS buffer.
+     </p>
+     <p>
+      DNA was extracted from the cells using a DNeasy Blood and Tissue kit (Qiagen, Maryland, USA) following the kit instructions. The HLA typing was performed by Sirona Genomics (Mountain View, CA), an Immucor Company. The assay, based on a previous publication (      ), was performed using the MIA FORA NGS HLA typing assay for the class I loci. The full-length amplicons for the class I loci were amplified and pooled. These samples were then fragmented, and tagged with unique index adaptors. The samples were pooled and sequenced on the Illumina MiSeq, and the HLA type was determined using the MIA FORA NGS HLA typing software. The Sirona Genomic HLA typing method has been validated by the Histocompatibility, Immunogenetics and Disease Profiling Laboratory of the Stanford University School of Medicine using 50 reference cell lines.
+     </p>
+    </sec>
+    <sec id="s4-3">
+     <title>
+      Specificity assessments with anti-Bw6 and anti-Bw4 monoclonal antibodies with a solid phase bead array
+     </title>
+     <p>
+      The specificity analyses and the relative binding propensities of the anti-Bw6 and anti-Bw4 monoclonal antibodies (One Lambda Inc., Thermo Fisher Scientific Inc., Canoga Park, CA; BiH0038 and BiH0007) were analyzed utilizing a Luminex bead array, where each bead is coated with a single recombinant HLA molecule. The LABScreen reagent used in this study was Class I-LS1A04NC (LABScreen, One Lambda Inc., Thermo Fisher Scientific Inc., Canoga Park, CA). Twenty microliters from each biotinylated monoclonal antibody (a biotinylated preparation of W6/32 was made in house) was mixed with 5 μL the bead array suspension and incubated for 30 min at room temperature. The beads were centrifuged and washed three times using the washing buffer provided by the vendor. After the final wash, the pellet was resuspended with a 1:100 solution of PE-Streptavidin provided by the same vendor (LT-SAPE). The solution was incubated for 30 min at room temperature, and followed by two washes. The bead pellet was resuspended with 80 μL of washing buffer and the reaction was acquired using a Luminex Analyzer. The strength of the reaction with each monoclonal was measured in the semi-quantitative unit mean fluorescence intensity (MFI), using HLA Fusion Software (One Lambda Inc., Thermo Fisher Scientific Inc., Canoga Park, CA).
+     </p>
+    </sec>
+    <sec id="s4-4">
+     <title>
+      Quantitative flow cytometry of lymphocytes
+     </title>
+     <p>
+      Donors from the Bw4/Bw6 heterozygous and HLA-Bw6 homozygous groups were scheduled for multiple blood draws of 30 mL each spaced at least 1 week apart. PBMCs were isolated using Ficoll-Paque density gradient centrifugation as described above and the final pellet was resuspended in RPMI media (RPMI 1640 (Life Technologies, Thermo Fisher Scientific Inc., Canoga Park, CA). Cells were stained with a lymphocyte-identifying antibody mixture containing a combination of anti-CD3-Pacific Blue (BioLegend, San Diego, CA; 317301), anti-CD4-APC/Cy7 (BioLegend; 300518), anti-CD8-Alexa Fluor 700 (BioLegend; 344724), anti-CD56-PE/Cy7 (BioLegend; 362510), and anti-CD19-APC (BD Biosciences; 555415) and either anti-Bw6-FITC (IgG3, One Lambda, USA; FH0038; 1:10), anti-Bw4-FITC (IgG2a, One Lambda; FH0007; 1:10), FITC-labeled W6/32 (      ) (purified from ascites fluid and labeled using a 1:20 protein:FITC ratio, FITC IgG3 isotype control for Bw6 (Abcam; ab91539; 1:50) or FITC IgG2a isotype control for Bw4 (Abcam, San Francisco, CA; ab91362; 1:50). In some experiments PBMCs were stained with an antibody mixture that contained a combination of the lymphocyte-identifying antibodies along with monocyte-specific antibodies (anti-CD14-Alexa Fluor 700 (BioLegend; 367114), anti-CD33-APC/Cy7 (Biolegend; 366614), and anti-HLA-DR-BV650 (Biolegend; 307650)). These can be combined despite common antibody fluorophores, as the monocytes are CD3-negative and T cells subsets (with the label overlap with monocytes, are CD3-positive). The following gating strategy was used for each cell subset: B cells (CD3-negative, CD19-positive), NK cells (CD3 negative, CD56-positive), CD4      T cells (CD3-positive, CD4-positive), CD8      T cells (CD3-positive, CD8-positive), and monocytes (CD3-negative, CD14-positive, CD33-positive, HLA-DR-positive or in some analyses, CD3-negative, CD14-positive, CD33-positive ). Cells were stained for 40 min at 4°C and then 7-AAD and Annexin V-PE (Fisher Scientific) were added to the cells prior to washing with FACS buffer and flow cytometric analyses were performed using either a BD LTXFortessa or BD Canto. Quantum Simply Cellular anti-Mouse IgG beads (Bangs Laboratories, Inc., Fishers, IN; 815A) containing known amounts of Fc receptors were also stained with anti-Bw6-FITC, anti-Bw4-FITC or W6/32-FITC under the same conditions as for cells, and fluorescence signals were measured in every experiment in order to convert the mean fluorescence intensities (MFI) of cell staining into antibody binding capacity (ABC) values.
+     </p>
+    </sec>
+    <sec id="s4-5">
+     <title>
+      ABC calculations
+     </title>
+     <p>
+      Flow cytometric data were analyzed with FlowJo software (V10.0.8r1, Ashland, OR). Using the geometric MFI values obtained from the staining of the Quantum Simply Cellular anti-Mouse IgG beads, a standard curve was calculated following the procedures and bead ABC values provided by Bangs Laboratories, Inc. Following flow cytometric analyses of cells, the live lymphocyte populations were first gated, followed by sub-gating for the four lymphocyte types; CD4      T cells (CD3      CD4      ), CD8      T cells (CD3      CD8      ), B cells (CD3      CD19      ), and NK cells (CD3      CD56      ). The geometric MFI values for the anti-Bw6-FITC, anti-Bw4-FITC and W6/32-FITC, were calculated for each cell type and background MFI values obtained from the relevant isotype controls were subtracted. Within each experiment, the background subtracted geometric MFI values from the donor cells were interpolated against the standard curve (as either linear-linear or log-log fits) to calculate the ABC values for anti-Bw6, anti-Bw4 and W6/32 signals in each of four lymphocyte subsets analyzed. ABC values were averaged over multiple blood donations, each obtained at least 1–2 weeks apart. Averaged values for each donor were grouped by allele in Graphpad Prizm 7.0a and newer (La Jolla, CA).
+     </p>
+    </sec>
+    <sec id="s4-6">
+     <title>
+      RT-PCR on isolated lymphocyte subsets
+     </title>
+     <p>
+      mRNA was extracted from CD4      and CD8      T cells isolated from whole blood with StemCell EasySep Direct Human Isolation Kits according to the instructions. mRNA was extracted from the isolated cells using a RNeasy mini kit (Qiagen) according to the instructions and converted to cDNA using a High Capacity cDNA Reverse Transcription Kit (Applied Biosystems) according to the instructions. Each RT-PCR reaction was carried out in a final volume of 30 μL with 1x SYBR green master PCR mix (Applied Biosystems), diluted cDNA (between 40–60 ng cDNA per reaction; consistent amounts within an experiment) and 1 μM primer set. Primers were either HLA-B specific, pan-HLA class I specific, or specific for endogenous controls. The endogenous control primers were directed against human GAPDH, ACTß and HPRT1 (Realtimeprimers). The HLA-B-specific forward primer sequence was 5’ TCCTAGCAGTTGTGGTCATC 3’ and the reverse sequence was 5’ TCAAGCTGTGAGAGACACAT 3’. These primers are previously described (      ). The pan-HLA class I forward primer sequence was 5’ GAGATCACACTGACCTGGCA 3’, and reverse primer sequence was 5’ GAACCTTCCAGAAGTGGG 3’. The pan-HLA class I primers were chosen by aligning all relevant HLA class I sequences and finding areas of complete identity. Primer specificity was confirmed by sequencing analysis of RT-PCR products.
+     </p>
+     <p>
+      RT-PCR reactions were done on a 7500 Fast Real-Time PCR (Applied Biosystems) using the comparative Ct (∆∆Ct) settings and the standard time run. There was an initial holding stage of 50°C for 20 s followed by denaturation at 95°C for 10 min. The cycling conditions were denaturing at 95°C for 15 s, followed by annealing and florescence reading at 60°C for 1 min, repeated for 40 cycles. The melt curves were examined for the presence of a single peak. The Ct values generated were used to calculate the 2      values for both the HLA-B specific primer set and the pan-Class I primer set. A minimum of three technical replicates were performed for each experiment. A one-way ANOVA analysis was used to examine statistically significant differences between alleles in 2      values.
+     </p>
+    </sec>
+    <sec id="s4-7">
+     <title>
+      RNA-Seq of lymphocyte subsets from African and Thai cohorts
+     </title>
+     <p>
+      PBMCs from 38 donors of African and Thai ethnicity from the RV217 study (      ) were sorted into CD4      T cells, CD8      T cells, CD19      B cells and CD56      NK cells by flow cytometry. Quantity and quality of extracted RNA was verified on the Agilent Bioanalyzer. cDNA was synthesized from 2.5 ng RNA using the SMART-Seq technology (Clontech) (      ;      ). Library preparation of quantitated cDNA included fragmentation, molecular indexing, amplification, and purification. Uniquely indexed samples were sized, quantitated, normalized, pooled, and sequenced on the Illumina HiSeq 2500 platform. All paired-end FASTQ reads were aligned to an HLA reference and HLA-specific reads were extracted and genotypes assigned by Omixon Target 1.9.3. All HLA genotypes from the RNA-Seq data matched HLA genotypes generated by NGS HLA typing from the same donors using methods as previously described (      ;      ). To determine HLA-B mRNA expression, sample-specific GMAP mRNA references were created based on each sample’s genotype information, IMGT allele reference data, and allele-specific single nucleotide polymorphism positions (SNP). Original FASTQ reads were subjected to sequencing quality control and trimming using the Trimmomatic 0.36 software (      ). All samples were down-sampled to 10M reads and aligned using the SNP-tolerant option of GSNAP (GMAP version 2017-01-14) (      ). HLA-B expression data were generated from read counts using HTSeq 0.9.1 (      ). Statistical differences comparing mRNA expression between samples with at least one HLA-B allele of interest within a cell subset was computed using ANOVA analysis.
+     </p>
+    </sec>
+    <sec id="s4-8">
+     <title>
+      HLA surface stability and half-life calculations
+     </title>
+     <p>
+      The protocol used was as described previously (      ), but using PBMC isolated from a subset of donors recruited for the ABC measurements. Freshly isolated PBMCs were rested for 1 hr (37°C with 5% CO
+      <sub>
+       2
+      </sub>
+      ) before beginning the assay. PBMCs (8 to 12 × 10      cells/well) were washed with 1X PBS and resuspended in RPMI with 10% FBS media, 1% glutamine, and 1% antibiotic-antimycotic (R10 media). At the designated time points, PBMCs were centrifuged at 1800 x g for 1 min and resuspended in R10 media with 0.5 μg/μL brefeldin A (BFA, Sigma Aldrich, St. Louis, MO). The cells were incubated at 37°C with 5% CO
+      <sub>
+       2
+      </sub>
+      . After the incubation, the cells were centrifuged at 1800 x g for 1 min and the media discarded. Prior to staining, cells were blocked with 5% normal mouse serum (Jackson ImmunoResearch Laboratories, West Grove, PA) for 10–15 min at 4°C and then incubated with an antibody cocktail containing 5% normal mouse serum for 45 min at 4°C. The antibody cocktail contained antibodies as described above for ABC measurements, and flow cytometry was performed as described above.
+     </p>
+     <p>
+      Live cells with specific cell populations were analyzed by FlowJo LLC. The geometric mean measurements of Bw6, Bw4 or isotype control antibodies were input into GraphPad Prism where the replicate isotype signal was subtracted from the specific antibodies (i.e. anti-Bw6 - IgG3). Replicate values were fit using a one phase decay with a constrained plateau of zero to extract the half-life value. Half-life values were averaged across multiple independent experiments. Significance was measured using one-way ANOVA on GraphPad Prism.
+     </p>
+     <p>
+      Stability measurements were more variable with anti-Bw4 compared to anti-Bw6, and data are compiled only for donors with standard error of the mean half-life values less than 33% of the mean values (based on n ≥ 2 independent measurements) on all four measured lymphocyte populations.
+     </p>
+    </sec>
+    <sec id="s4-9">
+     <title>
+      Intracellular staining in lymphocytes and monocytes
+     </title>
+     <p>
+      Frozen or freshly isolated PBMCs were washed with R10 media and flow cytometry buffer. The cells were then incubated with the relevant surface marker cocktails (described above) for 30 min at 4°C and washed twice with flow cytometry buffer. The cells were fixed with 4% paraformaldehyde (Electron Microscopy Sciences, Hatfield, PA, USA) in PBS for 15 min at room temperature and washed three times with PBS. A subset of cells were permeabilized using 0.02% Triton X-100 in PBS for 6 min at room temperature and washed twice with PBS. The cells were then incubated with either FITC-labeled W6/32, PaSta-1 (anti-tapasin; purified Pasta-1, a gift from Dr. Peter Cresswell, Yale University, labeled with FITC using a 1:2 antibody:FITC ratio), or relevant isotype controls for 1 hr at 4°C. The cells were washed twice with flow cytometry buffer and then measured by flow cytometry as described above.
+     </p>
+     <p>
+      Specific cell populations were analyzed by FlowJo LLC. The specific geometric mean measurements were input into GraphPad Prism and the isotype signal was subtracted from the specific antibodies (for example, W6/32 – IgG2a). Measurements were compared across experiments by normalizing the signal of each cell classification against that of monocytes or by normalizing to W6/32 signal. Significance was measured using one-way ANOVA on GraphPad Prism.
+     </p>
+    </sec>
+    <sec id="s4-10">
+     <title>
+      ImageStreamX imaging cytometry experiments
+     </title>
+     <p>
+      PBMCs were freshly isolated from donors. About 2 million cells per well were stained with anti-CD3, anti-CD8, and anti-CD14 for 30 min on ice. Cells were washed twice with PBS, and fixed with 4% formaldehyde for 15 min at room temp. Cells were washed twice with PBS, then permeabilized and blocked by adding PBS + 0.2% saponin + 5% goat serum for 15 min at room temp. Without washing, primary antibodies were added in separate wells: mouse anti-AP-1 (IgG2b), rabbit anti-calreticulin (CRT), and mouse anti-LAMP1-PE. Dilutions used were 1:500, 1:500, and 1:10, respectively. Cells were incubated on ice for 30 min, and then washed twice with PBS. Secondary antibody in PBS + 0.2% saponin + 5% goat serum was added: anti-mouse IgG2b-Alexa Fluor 568 (1:600), anti-rabbit IgG-Alexa Fluor 594 (1:500), and no secondary for LAMP-1. Anti-Bw6-FITC was added to all wells at 1:20 dilution. Cells were incubated for 30 min on ice, then washed twice with PBS. Cells were concentrated to 70 μL in PBS and analyzed on the Amnis ImageStreamX. Data were analyzed using Amnis Ideas software.
+     </p>
+    </sec>
+    <sec id="s4-11">
+     <title>
+      PBMC peptide receptivity assay
+     </title>
+     <p>
+      PBMCs were isolated from healthy donors. These cells were resuspended in R10 media and counted. From a 10 mM stock, 1 μL peptide solubilized in DMSO was added to wells of a 96 well plate; DMSO alone was used as a negative control. To each well, 100 μL of cells was added (at least 200,000 cells/well), and the cells were incubated at 37°C + 5% CO
+      <sub>
+       2
+      </sub>
+      for 4 hr. The final concentration of peptide in each well was 100 μM. After incubation, cells were washed once with FACS buffer (PBS + 2% FBS) and stained with an antibody cocktail as described above: anti-CD3, anti-CD4, anti-CD8, anti-CD56, anti-CD19, anti-CD14, anti-CD33, anti-HLA-DR and HC10-FITC. Cells were incubated on ice for 30 min and washed twice with FACS buffer. Cells were then stained with 7-AAD for viability and analyzed on the BD LTXFortessa flow cytometer. Data was analyzed with FlowJo LLC.
+     </p>
+    </sec>
+    <sec id="s4-12">
+     <title>
+      Peptidome motifs and Shannon entropy plots
+     </title>
+     <p>
+      For peptide motifs and Shannon entropy plots shown in      and      , mass spectrometry datasets were obtained from references (      ) and (      ). In these studies, BLCLs were generated from genotyped donors and peptides isolated from BLCLs using a mild acid elution buffer (citrate-phosphate pH 3.3) (      ) or immunoaffinity procedure (      ). Following mass spectrometric analyses, the peptide sequences derived from the acid elution study (      ) were assigned to specific HLA alleles based on NetMHC predictions (      ). The peptide sequences derived from immunoaffinity procedure (      ) were sorted to eliminate overlaps between HLA alleles that do not share binding motifs, but were otherwise directly used with no additional filters. The resulting datasets were analyzed using seq2logo:
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/biotools/Seq2Logo/">
+       http://www.cbs.dtu.dk/biotools/Seq2Logo/
+      </ext-link>
+      (      ) for \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\      and      . For      , only data from reference (      ) are shown, as those datasets include a larger number of alleles relevant to this study. The peptide composition was calculated by Shannon Entropy (
+      <italic>
+       E(i)
+      </italic>
+      ) using      , where
+      <italic>
+       q
+      </italic>
+      is the frequency of each amino acid at a particular position in the peptide length (
+      <italic>
+       i
+      </italic>
+      ).
+      <disp-formula id="equ1">
+       <label>
+        (1)
+       </label>
+       <ns1:math id="m1">
+        <ns1:mstyle displaystyle="true" scriptlevel="0">
+         <ns1:mrow>
+          <ns1:mi>
+           E
+          </ns1:mi>
+          <ns1:mo stretchy="false">
+           (
+          </ns1:mo>
+          <ns1:mi>
+           i
+          </ns1:mi>
+          <ns1:mo stretchy="false">
+           )
+          </ns1:mo>
+          <ns1:mo>
+           =
+          </ns1:mo>
+          <ns1:munderover>
+           <ns1:mo>
+            ∑
+           </ns1:mo>
+           <ns1:mrow>
+            <ns1:mi>
+             L
+            </ns1:mi>
+            <ns1:mo>
+             =
+            </ns1:mo>
+            <ns1:mn>
+             1
+            </ns1:mn>
+           </ns1:mrow>
+           <ns1:mrow>
+            <ns1:mn>
+             20
+            </ns1:mn>
+           </ns1:mrow>
+          </ns1:munderover>
+          <ns1:msub>
+           <ns1:mi>
+            q
+           </ns1:mi>
+           <ns1:mi>
+            i
+           </ns1:mi>
+          </ns1:msub>
+          <ns1:mspace width="thinmathspace"/>
+          <ns1:msub>
+           <ns1:mrow>
+            <ns1:mi mathvariant="normal">
+             l
+            </ns1:mi>
+            <ns1:mi mathvariant="normal">
+             o
+            </ns1:mi>
+            <ns1:mi mathvariant="normal">
+             g
+            </ns1:mi>
+           </ns1:mrow>
+           <ns1:mn>
+            2
+           </ns1:mn>
+          </ns1:msub>
+          <ns1:mspace width="thinmathspace"/>
+          <ns1:msub>
+           <ns1:mi>
+            q
+           </ns1:mi>
+           <ns1:mi>
+            i
+           </ns1:mi>
+          </ns1:msub>
+         </ns1:mrow>
+        </ns1:mstyle>
+       </ns1:math>
+      </disp-formula>
+     </p>
+    </sec>
+    <sec id="s4-13">
+     <title>
+      Statistics
+     </title>
+     <p>
+      Statistical significance of allele-specific differences from ABC measurements was assessed using a one-way ANOVA analysis. The HLA class I cell surface stability was also assessed using a one-way ANOVA analysis and Welch’s t-test.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

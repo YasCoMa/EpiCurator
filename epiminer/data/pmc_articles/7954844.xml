@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML">
+ <title>
+  Shotgun transcriptome, spatial omics, and isothermal profiling of SARS-CoV-2 infection reveals unique host responses, viral diversification, and drug interactions
+ </title>
+ <abstract>
+  <p id="Par1">
+   In less than nine months, the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) killed over a million people, including &gt;25,000 in New York City (NYC) alone. The COVID-19 pandemic caused by SARS-CoV-2 highlights clinical needs to detect infection, track strain evolution, and identify biomarkers of disease course. To address these challenges, we designed a fast (30-minute) colorimetric test (LAMP) for SARS-CoV-2 infection from naso/oropharyngeal swabs and a large-scale shotgun metatranscriptomics platform (total-RNA-seq) for host, viral, and microbial profiling. We applied these methods to clinical specimens gathered from 669 patients in New York City during the first two months of the outbreak, yielding a broad molecular portrait of the emerging COVID-19 disease. We find significant enrichment of a NYC-distinctive clade of the virus (20C), as well as host responses in interferon, ACE, hematological, and olfaction pathways. In addition, we use 50,821 patient records to find that renin–angiotensin–aldosterone system inhibitors have a protective effect for severe COVID-19 outcomes, unlike similar drugs. Finally, spatial transcriptomic data from COVID-19 patient autopsy tissues reveal distinct
+   <italic>
+    ACE2
+   </italic>
+   expression loci, with macrophage and neutrophil infiltration in the lungs. These findings can inform public health and may help develop and drive SARS-CoV-2 diagnostic, prevention, and treatment strategies.
+  </p>
+  <p id="Par2">
+   Here, using clinical samples and autopsy tissues, the authors combine fast-colorimetric test (LAMP) for SARS-CoV-2 infection and large-scale shotgun metatranscriptomics for host, viral, and microbial profiling and provide a map of the viral genetic features of the New York City outbreak and associate specific host responses and gene expression perturbations with SARS-CoV-2 infection.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1" sec-type="introduction">
+    <title>
+     Introduction
+    </title>
+    <p id="Par3">
+     In March 2020, the World Health Organization declared a pandemic of the coronavirus disease 2019 (COVID-19), an infection caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)     . Since the start of the pandemic, more than &gt;100 million cases and 2 million deaths have been reported (
+     <ext-link ext-link-type="uri" ns0:href="https://coronavirus.jhu.edu">
+      https://coronavirus.jhu.edu
+     </ext-link>
+     ), with an especially high burden of early cases in New York City (NYC). Genomic epidemiology efforts have already played a crucial public health role in confirming community spread of SARS-CoV-2 in the USA     as well as in China     and around the world     . However, standard approaches to viral profiling (i.e., qRT-PCR or targeted methods) fail to provide information on either the host immune response or microbial co-infections, both of which might impact the clinical presentation of COVID-19 and provide directions for therapeutic intervention and management.
+    </p>
+    <p id="Par4">
+     Studies of SARS infection have shown that regulation of the innate immune response is associated with the development of adaptive immunity and disease severity. Moreover, a robust inflammatory response is characterized by an upregulation of cytokines including IL-6, IL-10, and MCP-1 in tissues and serum, as well as infiltration of infected tissues by inflammatory cells such as macrophages     . SARS-CoV-2 infection studies have shown that viral load peaks during the first week of illness, which may account for the high transmissibility of SARS-CoV-2     . Furthermore, antibody profiling by     demonstrates both IgM and IgG antibodies began to increase around the 10th day after symptom onset, and most patients had seroconversion within the first 3 weeks of infection, underscoring the need for rapid testing in the acute phase of infection. Moreover, phenotyping of COVID-19 patients has also been shown to identify molecular signatures to distinguish severity of symptoms     , but limited information about the association of the viral sequences and outcome exists, nor viral propagation within human tissues.
+    </p>
+    <p id="Par5">
+     To better understand the impact and progression of SARS-CoV-2 infection, we applied a multi-platform and molecular diagnostic approach to samples collected during the outbreak in NYC. Out of concern for the scalability and sensitivity of standard diagnostic assays (qRT-PCR), we developed and validated a rapid reverse transcription loop-mediated isothermal amplification (RT-LAMP) assay to detect SARS-CoV-2 infection from nasopharyngeal swab specimens and oropharyngeal swab lysates. We simultaneously developed a large-scale host and viral profiling platform employing shotgun metatranscriptomics (total RNA-seq). We applied this total RNA-seq platform to 732 clinical samples, including 669 confirmed or suspected COVID-19 cases at New York-Presbyterian Hospital-Weill Cornell Medical Center (NYPH-WCMC). In addition, we report an observational study of renin–angiotensin–aldosterone system inhibitors and severe COVID-19 outcomes using data (
+     <italic>
+      n
+     </italic>
+     = 50,821) from NYPH-WCMC and New York-Presbyterian Hospital-Columbia University Irving Medical Center (NYPH-CUIMC).
+    </p>
+    <p id="Par6">
+     Our results define and map the viral genetic features of the NYC outbreak and associate specific host responses and gene expression perturbations with SARS-CoV-2 infection. We also link findings from host transcriptomics to findings from clinical data related to the angiotensin converting enzyme (ACE) pathway using patients at two NYPH sites. Finally, we used spatial transcriptomics to map ACE expression in SARS-CoV-2 infected lungs from COVID-19 patient autopsies. We have made these data available in the database of genotypes and phenotypes (dbGAP) and also in an interactive analytics portal to enable others to explore additional genomic, transcriptomic, and clinical covariate associations (
+     <ext-link ext-link-type="uri" ns0:href="https://covidgenes.weill.cornell.edu/">
+      https://covidgenes.weill.cornell.edu/
+     </ext-link>
+     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="Sec3">
+     <title>
+      Validation of LAMP for detection of SARS-CoV-2
+     </title>
+     <p id="Par7">
+      We developed a colorimetric assay to quickly detect and quantify SARS-CoV-2 viral load in patient samples, using a set of LAMP primers and simple single-tube protocol (Fig.      ). To validate the assay, we first evaluated two synthetic RNAs (see “Methods”) whose sequences matched the viral sequences of patients from Wuhan, China and Melbourne, Australia (Supplementary Fig.      ). The reaction output was measured at 0-, 20-, and 30 min intervals (Fig.      ) before the samples were heated to 95 °C for inactivation. LAMP fluorescence correlated closely with SARS-CoV-2 RNA viral copies (Fig.      ), with an overlap of the median signal from negative controls at lower levels (0–10 total copies per reaction) of viral RNA (
+      <italic>
+       n
+      </italic>
+      = 10). The LoD was found to be between 5 and 25 viral total copies for the dual primer, single-tube reaction (N gene and E gene), and this was then replicated to show a similar LoD on the second synthetic control (Supplementary Fig.      ).
+     </p>
+     <p id="Par8">
+      We next used a set of 201 samples from known or suspected COVID-19 cases that were tested for SARS-CoV-2 by a commercial qRT-PCR assay (Altona) that has been a standard clinical test at NYPH-WCMC since early March. These comprised 69 nasopharyngeal (NP) swab samples that tested positive (qRT-PCR positives, Ct &lt; 40) and 132 samples that tested negative (qRT-PCR negative, Ct ≥ 40) (see “Methods”). qRT-PCR positive samples showed a much higher LAMP fluorescence than qRT-PCR negative samples. Analysis of Receiver Operator Characteristic (ROC) curves yielded an overall sensitivity of 95.6% and specificity of 99.2% (Fig.      , Supplementary Fig.      ). These results were also confirmed with a capture-based SARS-CoV-2 panel from Twist (Supplementary Fig.      ). Of note, we obtained similar performance on bulk oropharyngeal swab lysate (Supplementary Fig.      ), including increasing reaction sensitivity as a function of viral copy number, but with deteriorating performance Ct &gt; 30. We observed higher LAMP sensitivity at higher viral loads, as determined by qRT-PCR Ct values (Supplementary Fig.      ).
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Shotgun metatranscriptomics platform for viral and bacterial detection
+     </title>
+     <p id="Par9">
+      To further investigate the biological characteristics of qRT-PCR positive and negative specimens, as well as to compare to RT-LAMP, we developed a shotgun metatranscriptomics platform utilizing total RNA-seq (RNA-sequencing with ribosomal RNA depletion) to profile all RNAs from patient specimens (Fig.      ). We sequenced 857 RNA-seq libraries (Fig.      ) across 732 specimens from 669 patients treated for influenza-like illness (ILI) at NYPH-WCMC to an average of 63.2M read pairs per sample. This included 215 qRT-PCR positive samples (201 of which were also tested with LAMP), 17 positive (Vero E6 cells), and 33 negative (buffer) controls. To assess the ability of deep shotgun transcriptomics to identify qRT-PCR false negatives, including those that might arise from uncharacterized SARS-Cov-2 variants, we sequenced 517 qRT-PCR negative samples. Among these qRT-PCR negative samples, 311 were tested for the standard clinical respiratory virus panel (BioFire, which included several common cold coronavirus strains and influenza virus).
+     </p>
+     <p id="Par10">
+      First, the taxonomic composition of samples was detailed by aligning total RNA-seq reads to the human reference genome GRCh38 and NCBI reference databases (see “Methods”). Kraken2 classification of non-human sequences revealed abundant bacterial and SARS-CoV-2 RNA among qRT-PCR positive samples and infrequent mappings to fungi, archaea, or other viruses (Fig.      ). Positive controls and clinical samples with medium/high-viral load-consistent qRT-PCR Ct values were significantly (
+      <italic>
+       p
+      </italic>
+      &lt; 1 × 10      ) enriched in SARS-CoV-2 genome alignments (median reads per kilobase per million mapped reads, RPKM) relative to negative controls and qRT-PCR negative clinical samples (Fig.      ). LAMP fluorescence, qRT-PCR Ct values, and total-RNA Seq RPKM showed consistent estimates of SARS-CoV-2 viral abundance across these three technologies and 201 clinical specimens (
+      <italic>
+       R
+      </italic>
+      <sub>
+       seq_vs._Ct
+      </sub>
+      = −0.84,
+      <italic>
+       R
+      </italic>
+      <sub>
+       seq_vs._lamp
+      </sub>
+      = 0.82,
+      <italic>
+       R
+      </italic>
+      <sub>
+       lamp_vs._Ct
+      </sub>
+      = −0.80) (Supplementary Fig.      ). Analysis of SARS-Cov-2 read coverage across 517 qRT-PCR negative samples revealed 7 (1.3%) samples with more than 0.01% of reads matching SARS-CoV-2. In summary, these results indicate close concordance with SARS-Cov-2 viral load across diverse diagnostic platforms, with rare examples of occult SARS-Cov-2 infection among qRT-PCR negative cases.
+     </p>
+     <p id="Par11">
+      Next, an analysis of total RNA-seq sequences showed the presence of commensal species and viruses across both qRT-PCR positives and negative samples (Fig.      ). We found a statistically significant higher load of other (i.e., non-SARS-CoV-2) respiratory viruses in qRT-PCR negative vs. positive samples (Wilcoxon test,
+      <italic>
+       P
+      </italic>
+      = 0.0008) (Fig.      ). Oral and airway commensal taxa were compared between the high-viral load group and other patient categories using linear modeling in log-normal space using MaAsLin2 package (see methods) and relative to the negative controls. This includes a correction for the SARS-CoV-2 or
+      <italic>
+       Homo sapiens
+      </italic>
+      matching reads, which can show variable depth of coverage due to higher SARS-CoV-2 fraction in the high-viral load group. After this correction, 17 species were significantly depleted in COVID-19 patients, including
+      <italic>
+       A. xylosoxidans
+      </italic>
+      ,
+      <italic>
+       E. faecalis
+      </italic>
+      , and
+      <italic>
+       L. bacterium
+      </italic>
+      (Supplementary Fig.      ).
+     </p>
+     <p id="Par12">
+      Among respiratory viruses discovered across all patients (COVID+ and COVID−), we found frequent Influenza A (23% of viral positive cases), rhinovirus A (16%), and human metapneumovirus (12%). Overall, we found close concordance between these results and the findings of a transcriptomics based viral detection to the results of a standard (BioFire) respiratory pathogen PCR panel performed within 7 days of the NP swab used for RNA sequencing (
+      <italic>
+       N
+      </italic>
+      = 356 patients across 404 tests) (Fig.      ). The metatranscriptomics platform yielded an Area Under the Receiver Operator Characteristic (AUROC) curve of 0.890 (F-score = 0.725), and an accuracy of 0.994, sensitivity of 0.758, specificity of 0.997, and precision of 0.694 (see methods). These data also enabled an examination of co-infection within COVID+ patients. Among qRT-PCR positive cases, only 7 (3.2%) harbored sequences mappable to other respiratory viruses. Among these, we found human coronaviruses 229E, NL63 and HKU1, influenza A, and human mastadenovirus and metapneumovirus (Fig.      ). In summary, these results indicate that common respiratory viruses were frequently implicated in many Influenza-like Illness (ILI) cases that were COVID-, and demonstrate low incidence of co-infection of SARS-CoV-2 with other respiratory viruses (3.2%), matching results (3%) from other studies      .
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      SARS-CoV-2 assemblies from shotgun metatranscriptomes
+     </title>
+     <p id="Par13">
+      The abundance of SARS-CoV-2 alignments from total RNA-seq was sufficient to provide &gt;10× coverage of the viral genomes and yield high quality, full-length assemblies for 155 samples (Supplementary Fig.      ). When examining the viral genomes, we identified a total of 1147 instances of 165 unique variants across 155 assemblies, including 1143 single nucleotide variants (SNVs) and four deletions. We compared the 155 full-length NYPH-WCMC sequences with 46,581 SARS-CoV-2 sequences obtained from a recent GISAID build (downloaded on 6/16/2020) using the Nextstrain pipeline      (Fig.      , see Methods). We generated full-length SARS-CoV-2 assemblies for 9 of 517 (1.7%) of samples that were found negative by qRT-PCR (Supplementary Fig.      ). Each of these demonstrated a high RPKM viral load, an abundance of reads evenly covering the SARS-CoV-2 genome, and high (&gt;0.5) variant allele fractions (VAFs) of SNV’s commonly seen in other positive samples and GISAID (Supplementary Fig.      ). These results indicate that qRT-PCR false negatives can occur, but are rare.
+     </p>
+     <p id="Par14">
+      We then used a New York State-focused build of Nextstrain resulting in the incorporation of our 155 genomes with 3541 sequences from GISAID (Fig.      ). Analyzing worldwide groupings annotated by the Nextstrain database, we found a high proportion (&gt;74%, 116/155) of our assemblies were associated with clade 20C (Fig.      ), which overall represents 17% of strains in the GISAID build. Our metatranscriptomic assembly-based clade assignments for NYC strains were consistent with those obtained by parallel targeted-sequencing based studies from the same period (Fig.      ). Investigating the geographical and temporal distribution of non-NYC samples in 20C, we found a global distribution with a likely origin in Western Europe (Fig.      ). The first noted cases of 20C in GISAID were recovered in France on 2/21/2020, but since then, this clade has represented a minority (&lt;20%) of Western European cases. In contrast, 20C represented a steady majority of (&gt;70%) of NYC cases from March to May 2020. Interestingly, 20C was relatively rare (&lt;50%) in other regions of the US in March, but increased through June. The most striking increase was in the southern USA, where 20C began under 30% prevalence in March and rose to above 80% prevalence in May and June. The SNVs defining the 20C clade were non-synonymous variants targeting genes encoding the nonstructural protein 2 (NSP2), the viral replicase, and ORF3a, a poorly characterized SARS-CoV-2 protein with putative roles in inflammation      . These observations refine the results of a previous study that associated NYC cases with clade A2a      . This clade is defined by the presence of the Spike p.D614G mutations and comprises a superset of 20C.
+     </p>
+     <p id="Par15">
+      While the majority of the known variation in SARS-Cov-2 represents SNVs, one hundred distinct deletion variants have been reported in previous analyses      . Of the four deletions we detected in our assemblies, three represented the same in-frame deletion in nsp1 (p.141_143del) (Supplementary Fig.      ). This deletion was well supported by reads in our samples (Supplementary Fig.      ). While it was not exclusive to genomes from our study, we only detected this deletion in 168 GISAID genomes (0.3%). Interestingly, rather than forming a single monophyletic subclade, genomes carrying this deletion spanned all major SARS-Cov-2 clades (19A: 12, 19B: 4, 20A: 68, 20B: 30, 20c: 53, none: 4) suggesting that this deletion may have evolved many times during SARS-CoV-2 community spread (Supplementary Fig.      ). In addition, while the dominant (171/172) version of this deletion involved the in-frame deletion of nucleotide positions 686-694, a single genome included an alternative in-frame deletion of positions 684–692, resulting in the same amino-acid deletion.
+     </p>
+     <p id="Par16">
+      Variant calling of assemblies and RNA-seq reference alignments showed most (87.5%) variants have VAFs &gt;0.95 and high (&gt;100) numbers of variant-supporting reads. Analysis of VAF posterior probability distributions identified a subset of alleles whose VAFs were confidently (probability &gt; 0.95) above 0.05 but below 0.95 (Fig.      ). We labeled these alleles as “het” (heterogenous) variants and refer to the remaining (high VAF) consensus assembly variants as "homogeneous.” Many of these het variants were associated with robust read support despite frequently having VAFs below 0.05 and not being incorporated into the consensus assembly sequence. (Supplementary Fig.      ). These results indicate that SARS-CoV-2 samples frequently harbor minority viral populations, which can be detected and characterized with shotgun metatranscriptomics. The relatively large numbers of these het variants (&gt;10) in a subset of cases, presumably arising during the course of a single infection and then rising to a reasonably high oligoclonal VAFs (0.1–0.2) level, suggests that this intrahost diversification may be rapid and also associated with positive selection.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Defining the SARS-CoV-2 host transcriptome
+     </title>
+     <p id="Par17">
+      We then leveraged the total RNA-seq profiles to better understand the host transcriptome during SARS-CoV-2 infection. Cell proportion analyses using the MUSIC deconvolution algorithm showed enriched proportions of cell types spanning goblet, ciliated airway, and epithelial cells across all samples (Supplementary Fig.      ). Differentially expressed genes (DEGs) associated with SARS-CoV-2 infection were calculated using limma voom and DESeq2 (see “Methods”). Overall, 757 significant DEGs (
+      <italic>
+       q
+      </italic>
+      &lt; 0.01, &gt;1.5-fold change) were found in the qRT-PCR positive vs. negative samples (Supplementary Data      ), spanning 350 upregulated DEGs and 407 downregulated DEGs, and a total of 8851 unique genes (
+      <italic>
+       q
+      </italic>
+      &lt; 0.01, &gt;1.5-fold change) (Fig.      ).
+     </p>
+     <p id="Par18">
+      Differentially expressed host genes indicated a wide range of antiviral responses, including a common interferon response across all ranges of viral levels, which was significantly higher when compared to SARS-CoV-2 negative samples that harbored other respiratory viruses (Fig.      ). Notably, host cells showed an increase in angiotensin converting enzyme 2 (
+      <italic>
+       ACE2)
+      </italic>
+      expression (Fig.      ) (
+      <italic>
+       p
+      </italic>
+      value = 1.4 × 10      ), which is the SARS-CoV-2 cellular receptor      . This critical gene for viral entry      exhibited an expression level concomitant with the higher levels of SARS-CoV-2 virus, along with IFI27 (Interferon Alpha Inducible Protein 27,
+      <italic>
+       p
+      </italic>
+      &lt; 2.2 × 10      ) and IFI6 (Interferon Alpha Inducible Protein 6,
+      <italic>
+       p
+      </italic>
+      &lt; 2.2 × 10      ). The DEGs also included HERC6 (HECT Containing E3 Ubiquitin Protein Ligase Family Member 6), which aids Class I MHC-mediated antigen processing and Interferon-Stimulated Genes (ISGs) (Fig.      ), underscoring the impact of the virus on these cells’ immune response      . Also, a subset of cytokines (CXCL10, CXCL11, and CCL8) showed the highest spike of expression in the higher viral load sub-group, matching previous results from animal models and infected cells      . Of note, these expression patterns significantly overlapped with those taken from an independent cohort (UCSF) of 286 NP swabs also processed by RNA-seq (see Methods and Supplementary Fig.      ,
+      <italic>
+       p
+      </italic>
+      = &lt;2.2 × 10      ). The host transcriptome that exhibited the greatest amount of DEGs were those with the highest viral titer (Supplementary Fig.      ).
+     </p>
+     <p id="Par19">
+      Downregulated genes and those with a negative enrichment score (NES) were functionally distinct (Fig.      ). This included a significant decrease in gene expression for the olfactory receptor pathway genes (
+      <italic>
+       q
+      </italic>
+      value = 0.0005, Supplementary Data      ), which is consistent with a COVID-19 phenotype wherein patients lose their sense of smell. Other downregulated genes included the transmembrane serine protease
+      <italic>
+       TMPRSS-11B
+      </italic>
+      , which regulates lung cell growth      and
+      <italic>
+       ALAS2
+      </italic>
+      , a gene which makes erythroid ALA-synthase      that is found in developing erythroblasts (red blood cells). ALA-synthase plays an important role in the production of heme TRIM2 E3 ubiquitin ligase induced during late erythropoiesis, which indicated a connection to hematological and iron (heme) regulation during infection. Accordingly, genes in a related biological network were significantly enriched based on Gene Ontology (GO) pathways for iron regulation (
+      <italic>
+       q
+      </italic>
+      value = 0.04, Supplementary Data      ). Both the upregulated and downregulated gene expression differences were distinct from those of house-keeping genes, which stayed mostly stable during infection (Supplementary Fig.      ).
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      ACE inhibitor/angiotensin receptor blocker usage correlates with COVID-19
+     </title>
+     <p id="Par20">
+      Given our observation of increased
+      <italic>
+       ACE2
+      </italic>
+      gene expression in patients with high SARS-CoV-2 viral load, we investigated the interplay of receiving pharmacologic angiotensin converting enzyme inhibition (ACEI) or angiotensin receptor blockers (ARBs) for hypertension and clinical features of COVID-19. Since ACE2 expression can be increased in patients taking ACEIs and ARBs      , the observed correlation of viral titer with ACE2 expression may be attributed to the pre-infection use of such inhibitors, which is common in older patients and those with comorbidities      .
+     </p>
+     <p id="Par21">
+      To address this, we analyzed ACEI/ARB use and severe COVID-19 outcomes in an observational cohort of individuals (
+      <italic>
+       n
+      </italic>
+      = 50,821) suspected of SARS-CoV-2 infection at New York-Presbyterian Hospitals, comprising 23,170 patients from Columbia University Irving Medical Center (NYP-CUIMC) and 27,651 patients from Weill Cornell Medical Center (NYP-WCMC; Table      ). At both sites, we found evidence that ACEI/ARB use is associated with lower rates of intubation (CUIMC Hazard ratio, HR = 0.79, 95% confidence interval, CI: 0.68–0.91, WCMC HR = 0.62, CI: 0.48–0.81) and lower risk of death (CUIMC HR = 0.66, CI: 0.58–0.75, WCMC HR = 0.73, CI: 0.56–0.95) following confirmed SARS-CoV-2 infection (Fig.      ). Each comparison used propensity matching (PSM) and Cox proportional hazards models with covariate adjustments for age, sex, race, ethnicity, drug indications, and relevant comorbidities (see “Methods”; Table      ).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         ACEI/ARB characteristics.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th rowspan="2">
+           Characteristic
+          </th>
+          <th colspan="2">
+           CUIMC
+          </th>
+          <th colspan="2">
+           WCMC
+          </th>
+         </tr>
+         <tr>
+          <th>
+           No ACEi/ARB
+          </th>
+          <th>
+           ACEi/ARB
+          </th>
+          <th>
+           No ACEi/ARB
+          </th>
+          <th>
+           ACEi/ARB
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <italic>
+            N
+           </italic>
+           (total = 50,821)
+          </td>
+          <td>
+           19,299
+          </td>
+          <td>
+           3871
+          </td>
+          <td>
+           25,017
+          </td>
+          <td>
+           2634
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Median age (IQR)
+          </td>
+          <td>
+           48 (34.1–63.2)
+          </td>
+          <td>
+           68.2 (58.9–77.2)
+          </td>
+          <td>
+           50 (35–67)
+          </td>
+          <td>
+           68 (58–76)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Male sex (%)
+          </td>
+          <td>
+           7479 (38.8)
+          </td>
+          <td>
+           2021 (52.2)
+          </td>
+          <td>
+           9357 (37.4)
+          </td>
+          <td>
+           1385 (52.6)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Race—Asian (%)
+          </td>
+          <td>
+           590 (3.1)
+          </td>
+          <td>
+           64 (1.7)
+          </td>
+          <td>
+           2852 (11.4)
+          </td>
+          <td>
+           225 (8.5)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Race—Black (%)
+          </td>
+          <td>
+           3294 (17.1)
+          </td>
+          <td>
+           802 (20.7)
+          </td>
+          <td>
+           4011 (16)
+          </td>
+          <td>
+           453 (17.2)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Race—White (%)
+          </td>
+          <td>
+           5942 (30.8)
+          </td>
+          <td>
+           1319 (34.1)
+          </td>
+          <td>
+           9365 (37.4)
+          </td>
+          <td>
+           1064 (40.4)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Ethnicity—Hispanic (%)
+          </td>
+          <td>
+           5020 (26)
+          </td>
+          <td>
+           1534 (39.6)
+          </td>
+          <td>
+           3915 (15.6)
+          </td>
+          <td>
+           464 (17.6)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Asthma (%)
+          </td>
+          <td>
+           1816 (9.4)
+          </td>
+          <td>
+           715 (18.5)
+          </td>
+          <td>
+           1152 (4.6)
+          </td>
+          <td>
+           345 (13.1)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Chronic kidney disease (%)
+          </td>
+          <td>
+           2980 (15.4)
+          </td>
+          <td>
+           2131 (55.1)
+          </td>
+          <td>
+           3580 (14.3)
+          </td>
+          <td>
+           1621 (61.5)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Chronic obstructive lung diseases (%)
+          </td>
+          <td>
+           846 (4.4)
+          </td>
+          <td>
+           545 (14.1)
+          </td>
+          <td>
+           609 (2.4)
+          </td>
+          <td>
+           283 (10.7)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Coronary artery disease (%)
+          </td>
+          <td>
+           1253 (6.5)
+          </td>
+          <td>
+           1243 (32.1)
+          </td>
+          <td>
+           842 (3.4)
+          </td>
+          <td>
+           627 (23.8)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Diabetes mellitus (%)
+          </td>
+          <td>
+           2300 (11.9)
+          </td>
+          <td>
+           1999 (51.6)
+          </td>
+          <td>
+           1928 (7.7)
+          </td>
+          <td>
+           1139 (43.2)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Diabetic nephropathy (%)
+          </td>
+          <td>
+           266 (1.4)
+          </td>
+          <td>
+           286 (7.4)
+          </td>
+          <td>
+           217 (0.9)
+          </td>
+          <td>
+           236 (9)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Diabetic neuropathy (%)
+          </td>
+          <td>
+           325 (1.7)
+          </td>
+          <td>
+           355 (9.2)
+          </td>
+          <td>
+           141 (0.6)
+          </td>
+          <td>
+           159 (6)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Diabetic retinopathy (%)
+          </td>
+          <td>
+           135 (0.7)
+          </td>
+          <td>
+           158 (4.1)
+          </td>
+          <td>
+           93 (0.4)
+          </td>
+          <td>
+           138 (5.2)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Diabetic vasculopathy (%)
+          </td>
+          <td>
+           123 (0.6)
+          </td>
+          <td>
+           193 (5)
+          </td>
+          <td>
+           48 (0.2)
+          </td>
+          <td>
+           70 (2.7)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Heart failure (%)
+          </td>
+          <td>
+           1176 (6.1)
+          </td>
+          <td>
+           1187 (30.7)
+          </td>
+          <td>
+           676 (2.7)
+          </td>
+          <td>
+           576 (21.9)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Hypertension (%)
+          </td>
+          <td>
+           3986 (20.7)
+          </td>
+          <td>
+           2928 (75.6)
+          </td>
+          <td>
+           3592 (14.4)
+          </td>
+          <td>
+           2227 (84.5)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Insulin use (%)
+          </td>
+          <td>
+           1839 (9.5)
+          </td>
+          <td>
+           1642 (42.4)
+          </td>
+          <td>
+           910 (3.6)
+          </td>
+          <td>
+           729 (27.7)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Myocardial infarction (%)
+          </td>
+          <td>
+           499 (2.6)
+          </td>
+          <td>
+           614 (15.9)
+          </td>
+          <td>
+           375 (1.5)
+          </td>
+          <td>
+           301 (11.4)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Obesity (%)
+          </td>
+          <td>
+           3659 (19)
+          </td>
+          <td>
+           1610 (41.6)
+          </td>
+          <td>
+           3529 (14.1)
+          </td>
+          <td>
+           1166 (44.3)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Proteinuria (%)
+          </td>
+          <td>
+           3063 (15.9)
+          </td>
+          <td>
+           1465 (37.8)
+          </td>
+          <td>
+           1327 (5.3)
+          </td>
+          <td>
+           617 (23.4)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HbA1c median (
+           <italic>
+            N
+           </italic>
+           )
+          </td>
+          <td>
+           5.9 (2315)
+          </td>
+          <td>
+           6.7 (1558)
+          </td>
+          <td>
+           6.1 (895)
+          </td>
+          <td>
+           6.7 (452)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Beta blocker (%)
+          </td>
+          <td>
+           2208 (11.4)
+          </td>
+          <td>
+           2198 (56.8)
+          </td>
+          <td>
+           1746 (7)
+          </td>
+          <td>
+           1406 (53.4)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Calcium channel blocker (%)
+          </td>
+          <td>
+           1854 (9.6)
+          </td>
+          <td>
+           1902 (49.1)
+          </td>
+          <td>
+           1305 (5.2)
+          </td>
+          <td>
+           1176 (44.6)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Thiazide/thiazide-like diuretic (%)
+          </td>
+          <td>
+           664 (3.4)
+          </td>
+          <td>
+           1345 (34.7)
+          </td>
+          <td>
+           476 (1.9)
+          </td>
+          <td>
+           816 (31)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Tested for SARS-CoV-2 infection (%)
+          </td>
+          <td>
+           17812 (92.3)
+          </td>
+          <td>
+           3500 (90.4)
+          </td>
+          <td>
+           23578 (94.2)
+          </td>
+          <td>
+           2464 (93.5)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Confirmed SARS-CoV-2 infection (%)
+          </td>
+          <td>
+           4697 (24.3)
+          </td>
+          <td>
+           1252 (32.3)
+          </td>
+          <td>
+           2878 (11.5)
+          </td>
+          <td>
+           479 (18.2)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 infection/COVID-19 (%)
+          </td>
+          <td>
+           7128 (36.9)
+          </td>
+          <td>
+           1730 (44.7)
+          </td>
+          <td>
+           4343 (17.4)
+          </td>
+          <td>
+           652 (24.8)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Intubated/COV+ (% COV+)
+          </td>
+          <td>
+           437 (6.1)
+          </td>
+          <td>
+           242 (14)
+          </td>
+          <td>
+           254 (5.8)
+          </td>
+          <td>
+           74 (11.3)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Died/COV+ (% COV+)
+          </td>
+          <td>
+           504 (7.1)
+          </td>
+          <td>
+           261 (15.1)
+          </td>
+          <td>
+           226 (5.2)
+          </td>
+          <td>
+           69 (10.6)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Breakdown of investigated cohort by ACEI/ARB exposure and site. Listed are all indications and comorbidities considered in the clinical analysis.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par22">
+      ACEI/ARB have a number of indications in addition to hypertension, so confounding variables remains a challenge. To address this issue, we repeated the analysis in a cohort of individuals with recent exposure to one of four antihypertensive medication classes: ACEI/ARB, beta blockers (BB), calcium channel blockers (CCB), and thiazide/thiazide-like diuretics (THZ)). Evaluating each drug class separately using PSM and covariate adjustment, we found the rate of intubation was consistently lower for ACEI/ARB exposure (CUIMC HR = 0.74, CI: 0.64–0.85, WCMC HR = 0.73, CI: 0.56–0.95) and higher for THZ exposure (CUIMC HR = 1.96, CI: 1.67–2.31, WCMC HR = 1.90, 1.42–2.55). Conversely, we found no statistically significant associations for CCB (CUIMC HR = 0.92, 0.81–1.05, WCMC HR = 1.04, CI: 0.83–1.30), and only weak evidence of positive associations between intubation and BB exposure (CUIMC HR = 1.16, CI: 1.03–1.31, WCMC HR = 1.04, CI: 0.84–1.27). Meanwhile, we found consistently lower rates of death among patients with ACEI/ARB (CUIMC HR = 0.82, CI: 0.71–0.93, WCMC HR = 0.67, CI: 0.52–0.87), BB (CUIMC HR = 0.81, CI: 0.71–0.91, WCMC HR = 0.74, CI: 0.61–0.91), and CCB (CUIMC HR = 0.63, CI: 0.55–0.72, WCMC HR = 0.69, CI: 0.55–0.86) exposures, while THZ exposure had harmful associations (CUIMC HR = 1.03, CI: 0.87–1.22, WCMC HR = 1.43, CI: 1.04–1.96). In summary, among SARS-CoV-2-infected individuals with recent exposure to antihypertensive drugs, ACEI/ARBs were the only class which were associated with lower risk of intubation, while ACEI/ARB, BB, and CCB use was negatively associated with death. (Complete estimates are provided in Supplementary Data      ).
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Spatial expression data
+     </title>
+     <p id="Par23">
+      We next used a spatial transcriptomic technology (GeoMx) to characterize the distribution of a set of &gt;1800 genes (the GeoMx Cancer Transcriptome Atlas probe set, or CTA) across tissues from four COVID-19 patients who died and then received an autopsy (Fig.      ); these were compared to three normal lung donors (excess lung material from healthy lung transplant donors). Samples were processed using the Nanostring GeoMx protocols (see methods), including illuminating and UV-cleaving the antibody-linked probes for Areas of Interest (AOIs) within the patients’ lung FFPE sections and alveoli, followed by Next-Generation Sequencing (NGS) profiling on the Illumina NextSeq500. These data showed spatially-restricted expression of ACE2 at the perimeter of the alveoli (Fig.      ), as well as the presence of the SARS-CoV-2 virus in some of the same sections.
+     </p>
+     <p id="Par24">
+      We then used cellular deconvolution methods based on the CTA data across the 107 total AOIs (69 COVID+ and 38 COVID−) to characterize the types of cells present in the lung. The cell proportions showed an increase in macrophages present in the lung tissue (Fig.      ) compared to normal donors, particularly for patient #3, where 30–52% of the cells found within the AOIs were macrophages, as well as patient #4 (up to 18%). In contrast, normal lung samples showed &lt;1% across all AOIs tested (
+      <italic>
+       n
+      </italic>
+      = 38 total AOIs). Of note, patient #1 showed up to 3.8% presence of neutrophils in the AOIs profiled, compared to no detectable presence in normal donors (Fig.      , Supplementary Fig.      ). Both of these enrichments represent unique cellular distributions in the COVID-19 patients relative to normal donors, and agrees with reports of immune cell-mediated influence of inflammation for COVID-19 patients.
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Depletion and enrichment of HLA types in COVID patients
+     </title>
+     <p id="Par25">
+      Finally, to probe host genetic diversity in widely expressed genes broadly implicated in immune responses, we also checked RNA data for potential enrichment or depletion of class I
+      <italic>
+       HLA
+      </italic>
+      type(s) among COVID patients. Using arcasHLA      , we tallied frequencies of first-field locus-specific haplogroups (
+      <italic>
+       serotype alleles
+      </italic>
+      , in
+      <italic>
+       HLA
+      </italic>
+      parlance) called with default or greater confidence, among SARS-CoV-2 qRT-PCR-positive versus -negative patients who each had at least 100 class I
+      <italic>
+       HLA
+      </italic>
+      -mapped transcriptome reads. First-pass single-locus Fisher exact tests suggested modest depletion of
+      <italic>
+       HLA-B*08
+      </italic>
+      and/or
+      <italic>
+       HLA-B*18
+      </italic>
+      , and/or enrichment of
+      <italic>
+       HLA-B
+      </italic>
+      *35,
+      <italic>
+       HLA-B
+      </italic>
+      *39, and/or
+      <italic>
+       HLA-B
+      </italic>
+      *48, in COVID patients (Supplementary Fig.      ), but no such disparity in
+      <italic>
+       HLA-A
+      </italic>
+      or
+      <italic>
+       HLA-C
+      </italic>
+      (Supplementary Fig.      ). To more stringently buffer finite-sample dependence among calls at each locus, and the risk of spurious findings under multiple testing, we permuted qRT-PCR positive and negative labels, preserving sample diplotype calls in 100 randomly seeded runs of 1000 permutations each. Such permutation supported, by consistent extremity of original counts to those under permutation, putative COVID patient-depletion of
+      <italic>
+       HLA-B*
+      </italic>
+      08 and
+      <italic>
+       HLA-B*
+      </italic>
+      18 and COVID patient-enrichment of
+      <italic>
+       HLA-B
+      </italic>
+      *39 and
+      <italic>
+       HLA-B
+      </italic>
+      *48, but not of
+      <italic>
+       HLA-B
+      </italic>
+      *35 (Supplementary Fig.      ). We caution that these findings, while nominally significant, neglect plausible ancestry-differential COVID-19 infection incidence and/or ascertainment in our NYC cohort (which may strongly confound
+      <italic>
+       HLA
+      </italic>
+      frequency comparison), as well as intrinsic imprecision of diplotype inference from RNA data, linkage among class I
+      <italic>
+       HLA
+      </italic>
+      genes (and other major histocompatibility complex loci), and/or other sequence variation distinctive to specific subtypes of surveyed haplogroups.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec10" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p id="Par26">
+     In summary, these data showed that total RNA-sequencing data has great promise as a comprehensive and accurate host and pathogen profiling method. The RNA-seq data enabled a complete genetic map of the viruses, bacteria, host responses, and even HLA subtypes from the sample data source. Of note, a significant subset of our samples, including in nine qRT-PCR negative cases, had sufficient reads to assemble the SARS-CoV-2 genome de novo. Though these likely qRT-PCR false negatives could not be attributed to specific sequence changes (e.g., primer site mutations), their high frequency underscores the limitation of “gold standard” qRT-PCR approaches for SARS-CoV-2 detection. These results also highlight the need for open-source primer design, so these assays can be updated as a more granular picture of strain diversity and evolution is obtained through worldwide sequence efforts     . Nevertheless, the rate of SARS-CoV-2 assemblies or reads among qRT-PCR negative cases with ILI symptoms was low, despite a comprehensive search for these sequences among shotgun transcriptomics reads. These results indicate that existing standard detection methods are reasonably adapted to patterns of SARS-CoV-2 strain variation.
+    </p>
+    <p id="Par27">
+     Notably, our phylogenetic analysis shows that the 20C clade comprises the majority of known NYC samples, including those sequenced outside of this study     . Though remaining NYC cases show a wide distribution across all identified clades, the predominance (&gt;80% in NYC) of such a narrowly defined set of sequences within NYC from a minority (≤20%) Western European suggests either a founder effect or differential strain fitness. Though the Spike D614G mutation, which defines a superclade of 20C previously known as A2a     , has been proposed to increase transmissibility (e.g., via higher viral load), and the low and stable prevalence of 20C in Western Europe since March suggests against differential fitness as an explanation for its dominance in NYC. A more likely explanation involves the early introduction and expansion of one or several 20C cases to NYC in late February, e.g., via the New Rochelle cluster. The gradual increases of 20C in the remainder of the USA post March may similarly reflect migration patterns of New Yorkers to the South and Midwest.
+    </p>
+    <p id="Par28">
+     Our results further demonstrate the value of RNA-seq data by revealing distinct, host transcriptional programs that were activated during viral infection of the naso-/oropharynx with SARS-CoV-2. This includes upregulation of specific interferon pathway genes (
+     <italic>
+      SHFL
+     </italic>
+     ,
+     <italic>
+      IFI6
+     </italic>
+     ,
+     <italic>
+      IFI27
+     </italic>
+     , and
+     <italic>
+      IFIT1
+     </italic>
+     ) that have been previously associated with the innate antiviral host immune response against other positive-strand RNA viruses (e.g., hepatitis C, Dengue virus). These results also provide clinical relevance for recently published results from animal and cellular models of SARS-CoV-2     . Our analyses also implicate expression perturbations of the ACE pathway in SARS-CoV-2 host response, including
+     <italic>
+      ACE2
+     </italic>
+     , and map these patterns from COVID-19 lung samples from autopsies     . Patients presenting with COVID-19 frequently harbor comorbidities such as hypertension, diabetes mellitus, and coronary heart diseases, all of which have been associated with increased disease severity     . Since these comorbidities are frequently treated with ACEIs and ARBs, one possibility is that these medications may make patients more susceptible to SARS-CoV-2 infection, but this has been limited in prior studies.
+    </p>
+    <p id="Par29">
+     Here, we examined the risk of medication use and comorbidities in the context of ACEI or ARB in a large, retrospective clinical analysis of 50,821 patient records. These data show that patients with ACEI/ARB exposure had lower risk of severe COVID-19 outcomes, after adjusting for demographics, indications, and other relevant comorbidities. A recent study reported a protective effect of ACEI/ARB exposure on mortality     . The associations we found support this finding, and we found similar associations for mechanical respiration requirements among infected patients. Further, our data did not show that other antihypertensive drug classes had any association with mechanical respiration requirements, though BB and CCB were associated with lower risk of death as well. While our data suggest a protective association between ACEI/ARB use and severe COVID-19 from two large New York hospitals (Columbia and Weill Cornell), our results are still preliminary, and caution should be taken in interpreting them. Because of the risk of residual confounding variables, prospective clinical trials would be necessary before clinical guidelines should be changed. For example, if some patients are more susceptible because they already express high levels of ACE2, this could help with targeting the ACE pathway in these patients as a prophylactic method. However, if the cells respond to infection with ACE2 expression, and this leads to the cytokine storm seen in patients, then this could be used as a downstream treatment (post-infection), for when ACE2 interacts with TMPRSS2, such as the ongoing trials with camostat mesylate     .
+    </p>
+    <p id="Par30">
+     Mitigating a fast-spreading pandemic, such as COVID-19, requires scalable diagnostic and screening methods     . Such a situation calls for fast, scalable tests readily implemented at home or point-of-care. This one-tube, dual-primer colorimetric SARS-CoV-2 assay has been clinically-validated with qRT-PCR, capture, and total RNA-seq, and thus can help increase testing options; moreover it has recently become available in several commercial forms. Our preliminary results here and elsewhere demonstrate SARS-CoV-2 detection from oral specimens is feasible and even optimal     . As such, a LAMP-based approach on such sample types could allow facilities to increase testing capabilities by orders of magnitude. Viral pandemics can have significant, long-lasting detrimental impacts for affected countries, and thus it is crucial to deploy methods that can track and profile cases (e.g., RNA-seq, LAMP, qRT-PCR, capture) and provide a comprehensive view of host and viral biology     . These methods can help mitigate the medical and socioeconomic harm from viral outbreaks, as well as establish protective surveillance networks that can help defend against future pandemics.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec11">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec12">
+     <title>
+      Sample collection and processing
+     </title>
+     <p id="Par31">
+      Patient specimens were collected with patients’ consent at New York-Presbyterian Hospital-Weill Cornell Medical Center (NYPH-WCMC) and then processed for qRT-PCR. Nasopharyngeal (NP) swab specimens were collected using the BD Universal Viral Transport Media system (Becton, Dickinson and Company, Franklin Lakes, NJ) from symptomatic patients. Samples were collected and processed through the Weill Cornell Medicine Institutional Review Board (IRB) Protocol 19-11021069. All relevant ethical regulations for work with human participants were complied with. Observational cohort analysis (ACEI/ARB) was done through the Columbia University IRB Protocol AAAL0601. Oropharyngeal samples data from University Hospital of Tuebingen were collected under IRB 243/2020A.
+     </p>
+    </sec>
+    <sec id="Sec13">
+     <title>
+      Extraction of Viral RNA and qRT-PCR detection
+     </title>
+     <p id="Par32">
+      Total viral RNA was extracted from deactivated samples using automated nucleic acid extraction on the QIAsymphony and the DSP Virus/Pathogen Mini Kit (QIAGEN). One step reverse transcription to cDNA and real-time PCR (RT-PCR) amplification of viral targets, E (envelope) and S (spike) genes and internal control, was performed using the Rotor-Gene Q thermocycler (QIAGEN).
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      Twist synthetic RNAs
+     </title>
+     <p id="Par33">
+      We used two fully synthetic RNAs made by in vitro transcription from Twist Biosciences, which were synthesized in 5 kb pieces with full viral genome coverage of SARS-CoV-2. They were sequence verified to ensure &gt;99.9% viral genome coverage, and come as 1,000,000 copies per μL, 100 μL per tube. The two controls are from Wuhan, China (MN908947.3) and Melbourne, Australia (MT007544.1). Reference sequence designs came from NCBI:
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/nuccore/MT007544">
+       https://www.ncbi.nlm.nih.gov/nuccore/MT007544
+      </ext-link>
+      and
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3">
+       https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3
+      </ext-link>
+      .
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      Reverse transcriptase, quantitative real-time PCR (RT-PCR)
+     </title>
+     <p id="Par34">
+      Clinical samples were extracted as described above and then tested with qRT-PCR using primers for the E (envelope) gene, which detects all members of the lineage B of the beta-CoVs, including all SARS, SARS-like, and SARS-related viruses, and a second primer set for the S (spike) gene, which specifically detects the SARS-CoV-2 virus. The reaction also contains an internal control serving as an extraction control and a control for PCR inhibition.
+     </p>
+     <p id="Par35">
+      Samples were annotated using qRT-PCR cycle threshold (Ct) value for SARS-CoV-2 primers. Subjects with Ct less than or equal to 18 were assigned “high-viral load” label, Ct between 18 and 24 were assigned “medium viral load” and Ct between 24 and 40 were assigned “low viral load” classes, with anything above Ct of 40 was classified as negative. We also predicted a combined viral load score using Ct, GloMax QuantiFluor read-out from LAMP experiments and fraction of SARS-CoV-2 matching NGS reads in a sample. For this score (40-Ct), (LAMP read-out) and (log10(SARS-CoV-2 fraction + 1e − 6)) were all normalized between zero and one individually, and summed together using a combination weight of 5 for Ct, 3 for LAMP and 2 for NGS.
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      LAMP primer sequences
+     </title>
+     <p id="Par36">
+      Primers (Supplementary Table      ) were designed using PrimerExplorer (v4.0), as per guidelines in      to find LAMP-compatible primers for the SARS-CoV-2 reference genome (NCBI). LAMP’s inherent specificity (using 4–6 primers vs. 2 for PCR amplification), in combination with this in silico analysis, suggested little risk of cross-reactivity that might hinder specificity of N-gene primers sensitive for SARS-CoV-2 (Supplementary Data      ). Overall, chosen primers had less than 80% homology with the vast majority of tested pathogen sequences. For any organisms where a primer hit &gt;80% homology, only one of the six primers had significant homology making an amplified product extremely unlikely. Overall, the results of this analysis predict no significant cross-reactivity or microbial interference. We also assessed the potential impact of sequence variation in circulating strains that might lead to poor amplification. In the thousands of sequences deposited in GISAID (Shu and McCauley, 2017), only one site in the priming region was observed to be polymorphic. The polymorphism (T30359C) was only observed in 106 of 6753 (&lt;2%) sequences with coverage of this region. This variant overlaps the priming site of the LB primer but is not near a 3-prime end and is not anticipated to cause amplification failure. The data from Fig.      show the use of a single-tube, dual-primer protocol, wherein both the N2 gene and E-gene primers are present.
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      The LAMP reaction setup
+     </title>
+     <p id="Par37">
+      For each well or Eppendorf tube, we used a set of six primers (above) for Gene N, the M1800 Colorimetric LAMP Master Mix (NEB), water, and 11.5 μL of the sample. The protocol is as follows:
+      <list list-type="order">
+       <list-item>
+        <p id="Par38">
+         Reagents added:
+        </p>
+       </list-item>
+      </list>
+      <list list-type="alpha-lower">
+       <list-item>
+        <p id="Par39">
+         12.5 µL M1800 LAMP mix (NEB).
+        </p>
+       </list-item>
+       <list-item>
+        <p id="Par40">
+         1–5 µL LAMP primers (Gene N or N2/E mix)
+        </p>
+       </list-item>
+       <list-item>
+        <p id="Par41">
+         1–11.5 μL of sample.
+        </p>
+       </list-item>
+       <list-item>
+        <p id="Par42">
+         Remaining volume (to 25 µl) H
+         <sub>
+          2
+         </sub>
+         O.
+        </p>
+       </list-item>
+      </list>
+      <list list-type="simple">
+       <list-item>
+        <label>
+         2.
+        </label>
+        <p id="Par43">
+         Vortex, spin down.
+        </p>
+       </list-item>
+       <list-item>
+        <label>
+         3.
+        </label>
+        <p id="Par44">
+         Place on Thermocycler at 65 °C for 30 min with lid at 105 °C.
+        </p>
+       </list-item>
+       <list-item>
+        <label>
+         4.
+        </label>
+        <p id="Par45">
+         Remove tubes, place on ice for 5 s.
+        </p>
+       </list-item>
+       <list-item>
+        <label>
+         5.
+        </label>
+        <p id="Par46">
+         Visualize over lab bench/ice/paper.
+        </p>
+       </list-item>
+      </list>
+     </p>
+    </sec>
+    <sec id="Sec18">
+     <title>
+      Oropharyngeal lysate LAMP run
+     </title>
+     <p id="Par47">
+      Nasopharyngeal and/or oropharyngeal swab samples from 201 patients were collected (IRB 243/2020A Tuebingen) using a dry cotton swab (cliniswab DS, Aptaca Spa (Italy), #2170/SG/CS). Crude extraction was performed according to pending unpublished European patent [No. 20168 593.0]. In summary, the dry swab was transferred to a 15 ml falcon (Greiner Bio-one, #188.271), filled with 0.5 ml saline solution, and shaken vigorously for 30 min. Afterwards the liquid is transferred to a screw-cap (Sarstedt, #72.692.005). 10µl of the crude extract was added to 12.5 µl 2× NEB LAMP master mix (#M1800L), 2.5 µl of water, 1 µl 25× primer master mix Gen N, and was incubated at 65 °C for 30–40 min. A sample of a patient who tested positive using an approved qRT-PCR test (sample #1123) was used as an internal control. The read-out was performed visually by color change from pink to yellow or orange.
+     </p>
+     <p id="Par48">
+      The RNA isolation was performed with 50 µl of the crude extract on the QIAsymphony with the DSP Virus/Pathogen Kit (Qiagen, #937055). The RT-PCR was performed using 5 µl of 85 µl eluate with TIB MolBiol Lightmix      MODULAR SARS AND WUHAN CoV E-Gene Kit. Analysis was done with the LightCycler(R) 480 II software and calculated CP values were used for statics and graphical analysis. The Standard curve with a synthetic RNA control (Twist Bioscience, #MT007544.1) was generated using the LAMP assay and in parallel with the qRT-PCR. The control RNA was diluted serially tenfold with water and the absolute copy number, ranging from 10      to 10      was analyzed. Gel electrophoresis after visual read-out of the LAMP assay was done by loading 5 µl of the LAMP reaction with 5 µl 2× loading dye on a 1.5% agarose (Seakem LE Agarose, Lonza #50004) together with 5 µl of a 1 kB DNA Ladder (Roche). The electrophoresis was performed at 90 V constant.
+     </p>
+     <p id="Par49">
+      The photometric read-out of the standard curve was performed in a plate reader. To this end the LAMP reaction was transferred into a 96-well V-shaped cell-culture plate (Greiner Bio-One, #651180). After measuring the absorbances at 432 and 560 nm, the relative absorbance abs (432)/abs (560) was calculated by subtraction of the negative (water) control from all samples (including the negative control). All values above a threshold of 0.1 are considered as a positive assay read-out and are marked with “+”, all other values are negative and are marked “−”. Statistical and graphical analysis were performed with GraphPad Prism 8.0.4.
+     </p>
+    </sec>
+    <sec id="Sec19">
+     <title>
+      Light intensity and data processing
+     </title>
+     <p id="Par50">
+      Completed reactions were analyzed with the Promega GloMax Explorer (Promega GM3500) fluorometer using the QuantiFluor ONE dsDNA system (Promega E4871). This system recorded fluorometric read-out from each well using an emission filter of 500-550nm, an excitation filter set at blue 475 nm, and a high sensitivity setting on the Glomax software. Values were then tabulated and compared with controls (positive and negative). The intensity threshold of 2.5× negative control was used as the threshold for positive detection.
+     </p>
+    </sec>
+    <sec id="Sec20">
+     <title>
+      DNAse treatment, rRNA depletion, and RNAseq library construction
+     </title>
+     <p id="Par51">
+      For library preparation, all samples’ total nucleic acid (TNA) were treated with DNAse 1(Zymo Research, Catalog # E1010), which cuts both double-stranded and single-stranded DNA. Post-DNAse digested samples were then put into the NEBNext rRNA depletion v2 (Human/Mouse/Rat), Ultra II Directional RNA (10 ng), and Unique Dual Index Primer Pairs were used following the vendor protocols from New England Biolabs (except for the first flowcell, see      ). Kits were supplied from a single manufacturer lot. Completed libraries were quantified by Qubit or equivalent and run on a Bioanalyzer or equivalent for size determination. Libraries were pooled and sent to the WCM Genomics Core or HudsonAlpha for final quantification by Qubit fluorometer (ThermoFisher Scientific), TapeStation 2200 (Agilent), and qRT-PCR using the Kapa Biosystems Illumina library quantification kit.
+     </p>
+    </sec>
+    <sec id="Sec21">
+     <title>
+      Taxonomic classification of sequence data
+     </title>
+     <p id="Par52">
+      All complete genome or chromosome level assemblies from RefSeq database for archaea, bacteria, protozoa, fungi, human and viruses including SARS-CoV and SARS-CoV-2 genomes were downloaded and used for building a classification database for Kraken2 (
+      <italic>
+       k
+      </italic>
+      = 35, ℓ = 31)      .
+     </p>
+     <p id="Par53">
+      To get an approximation for the positive and negative classification rate, the BBMap random-reads script was used to simulate 10 million 150 bp paired-end Illumina reads from the database sequences      . For the negative test all sequences in the database excluding SARS-CoV and SARS-CoV-2 genome were removed from the sequences and the simulated reads were mapped with the Kraken2 database (Supplementary Data      ).
+     </p>
+     <p id="Par54">
+      For the positive test, the same process was repeated using only SARS-CoV-2 genome (Supplementary Data      ). Positive results show &gt;99% of SARS-CoV-2 reads uniquely map to either SARS-CoV or SARS-CoV-2, with the remaining 1% are ambiguous, potentially matching multiple taxa (Supplementary Data      ,      ). All sequences were classified using the Kraken2 database. To remove the potential contamination of reads that are homologous across multiple species we used Kraken2 outputs to filter sequences to either human (uniquely matching Homo sapiens and no other taxon in our database), SARS-CoV-2 (either matching SARS-CoV or SARS-CoV-2 due to homology between these two viruses), and remaining reads that may be coming from unclassified, archaeal, bacterial, viral, fungal, protozoan or ambiguously mapping reads to human or SARS-CoV      .
+     </p>
+     <p id="Par55">
+      Using kraken2 classifications common respiratory pathogens were identified in clinical samples. Any SARS-CoV-2 negative sample with &gt;0.01% relative abundance (normalized after the exclusion of any human, SARS-CoV-2 and uncharacterized reads) for presence of viral pathogens were classified as potential unrelated viral infection (Supplementary Fig.      ). These samples were used as controls during specific differential expression comparisons to compare the common effects of viral infections on host cells from SARS-CoV-2 infection.
+     </p>
+    </sec>
+    <sec id="Sec22">
+     <title>
+      Viral genome assembly
+     </title>
+     <p id="Par56">
+      Reads unambiguously mapping to SARS-CoV or SARS-CoV-2 were aligned to the Wuhan-Hu-1 (Genbank accession MN908947.3) reference using bwa mem      . Variants were called using iVar, and pileups and consensus sequences were generated using samtools      . Any sample with &gt;99% coverage above 10× depth for SARS-CoV-2 genome were taken as reliable samples, which resulted in 155 samples (146 positive, 9 negative). 155 clinical samples were compared to 46,581 SARS-CoV-2 sequences from GISAID (as of June 16, 2020)      . All sequence filtering, alignments, phylogenetic inference, temporal ordering of sequences, and geographic reconstruction of likely transmission events were done using Nextstrain      . Nextstrain was configured to generate a New York State-focused build. Sequence identity and coverage metrics were calculated using Mview      . Phylogenetic trees were created using Nextstrain’s augur as described above, and visualized using the ggtree package in R      .
+     </p>
+    </sec>
+    <sec id="Sec23">
+     <title>
+      Viral variant calling and allelic fraction estimation
+     </title>
+     <p id="Par57">
+      Full-length viral consensus sequences were aligned to the Wuhan-Hu-1 reference using bwa mem      with default settings. Variants were identified by enumerating the coordinates and query/reference subsequences associated with mismatches (SNV) and gaps in the query (deletion) and reference (insertions) using R/Bioconductor (GenomicRanges, Rsamtools, Biostrings packages) and gChain (
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/mskilab/gChain">
+       https://github.com/mskilab/gChain
+      </ext-link>
+      ) packages. Exhaustive variant calling on read alignments was additionally performed using bcftools mpileup and call, with variant read support (VAF, alternate allele count) enumerated with the R/Bioconductor Rsamtools package.
+     </p>
+     <p id="Par58">
+      For each variant, a posterior distribution of VAF was computed using a beta distribution with shape parameters
+      <inline-formula id="IEq1">
+       <alternatives>
+        <tex-math id="M1">
+         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}$$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\theta$$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+        </tex-math>
+        <ns1:math id="M2">
+         <ns1:mi>
+          θ
+         </ns1:mi>
+        </ns1:math>
+        <inline-graphic ns0:href="41467_2021_21361_Article_IEq1.gif"/>
+       </alternatives>
+      </inline-formula>
+      comprising reference and alternate allele counts and pseudo count of 0.5. Variants were classified as het (heterogenous) if
+      <inline-formula id="IEq2">
+       <alternatives>
+        <tex-math id="M3">
+         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}$$P(VAF \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,&gt; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\, 0.05 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\wedge\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\, VAF \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,&lt;\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\, 0.95|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\theta ) \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,&gt; \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\, 0.95$$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+        </tex-math>
+        <ns1:math id="M4">
+         <ns1:mi>
+          P
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            V
+           </ns1:mi>
+           <ns1:mi>
+            A
+           </ns1:mi>
+           <ns1:mi>
+            F
+           </ns1:mi>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mo>
+            &gt;
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mn>
+            0.05
+           </ns1:mn>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mo>
+            ∧
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mi>
+            V
+           </ns1:mi>
+           <ns1:mi>
+            A
+           </ns1:mi>
+           <ns1:mi>
+            F
+           </ns1:mi>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mo>
+            &lt;
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mn>
+            0.95
+           </ns1:mn>
+           <ns1:mo>
+            ∣
+           </ns1:mo>
+           <ns1:mi>
+            θ
+           </ns1:mi>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+         <ns1:mspace width="0.25em"/>
+         <ns1:mo>
+          &gt;
+         </ns1:mo>
+         <ns1:mspace width="0.25em"/>
+         <ns1:mn>
+          0.95
+         </ns1:mn>
+        </ns1:math>
+        <inline-graphic ns0:href="41467_2021_21361_Article_IEq2.gif"/>
+       </alternatives>
+      </inline-formula>
+      . For a given specimen, posterior VAF distributions of
+      <inline-formula id="IEq3">
+       <alternatives>
+        <tex-math id="M5">
+         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}$$k$$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+        </tex-math>
+        <ns1:math id="M6">
+         <ns1:mi>
+          k
+         </ns1:mi>
+        </ns1:math>
+        <inline-graphic ns0:href="41467_2021_21361_Article_IEq3.gif"/>
+       </alternatives>
+      </inline-formula>
+      heterogenous variants were then integrated using a histogram density estimator by summing the posterior VAF density across all variants at each point of a grid of 100 points evenly spaced in the
+      <inline-formula id="IEq4">
+       <alternatives>
+        <tex-math id="M7">
+         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}$$(0,1)$$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+        </tex-math>
+        <ns1:math id="M8">
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mn>
+            0
+           </ns1:mn>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mn>
+            1
+           </ns1:mn>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:math>
+        <inline-graphic ns0:href="41467_2021_21361_Article_IEq4.gif"/>
+       </alternatives>
+      </inline-formula>
+      line. This (unnormalized) mixture density was visualized alongside the individual VAF densities as an estimate of the probability density of a putative viral subclone.
+     </p>
+    </sec>
+    <sec id="Sec24">
+     <title>
+      Cell deconvolution analysis
+     </title>
+     <p id="Par59">
+      Bulk RNAseq data were deconvolved into cell composition matrices by MUSIC algorithm      , via reference single-cell RNAseq data from upper respiratory epithelium obtained from nasal brushes and upper airway and lung cells      .
+     </p>
+    </sec>
+    <sec id="Sec25">
+     <title>
+      Human transcriptome analysis
+     </title>
+     <p id="Par60">
+      The reads that mapped unambiguously to the human reference genome via Kraken2 were used to detect the host transcriptional response to the virus. Reads matching
+      <italic>
+       Homo sapiens
+      </italic>
+      were trimmed with TrimGalore, aligned with STAR (v2.6.1d) to the human reference build GRCh38 and the GENCODE v33 transcriptome reference, gene expression was quantified using feature Counts, stringTie and salmon using the nf-core RNAseq pipeline      . Sample QC was reported using fastqc, RSeQC, qualimap, dupradar, Preseq, and MultiQC      . Samples that had more than 10 million human mapped reads were used for differential expression analysis. Reads, as reported by feature Counts, were normalized using variance-stabilizing transform (vst) in DESeq2 package in R for visualization purposes in log-scale      . Limma voom and DESeq2 were used to call differential expression with either Positive cases vs. Negative, or viral load (High/Medium/Low/None excluding any samples with evidence of other viral infections) as reported by either qRT-PCR cycle threshold (Ct) values, or using the inverted normalized Ct value as continuous response for viral levels, where Ct of 15 is 1.0 and Ct of &gt;40 is taken as 0      . Genes with BH-adjusted
+      <italic>
+       p
+      </italic>
+      value &lt; 0.01 and absolute log2 fold-change greater than 0.58 (at least 50% change in either direction) were taken as significantly differentially regulated      . The same approaches were repeated correcting for potential confounders in our data in two ways. In the first correction ciliated cell fraction (as predicted by MUSIC) was added as another covariate to our model. For the second correction SVA was run on the data and the resulting two surrogate variables were included in a multivariate model      . The complete gene list for all comparisons are given in Supp Data      . Resulting gene sets were ranked using log2 fold-change values within each comparison and put into GSEA (Supplementary Data      ) to calculate gene set enrichment for molecular signatures database (MSigDB), MGI Mammalian Phenotypes database and ENCODE transcription factor binding sets      . Any signature with adjusted
+      <italic>
+       p
+      </italic>
+      value &lt; 0.01 and absolute normalized enrichment score (NES) ≥ 1.5 were reported (Supplementary Data      ).
+     </p>
+    </sec>
+    <sec id="Sec26">
+     <title>
+      Cross-reactivity analysis
+     </title>
+     <p id="Par61">
+      Primers were compared with a list of sequences from organism from the same genetic family as SARS-CoV-2 and other high-priority organisms listed in the United States Food and Drug Administration’s Emergency Use Authorization Template (
+      <ext-link ext-link-type="uri" ns0:href="https://www.fda.gov/media/135900/download">
+       https://www.fda.gov/media/135900/download
+      </ext-link>
+      ). Using the sequence names in the EUA template, the NCBI taxonomy database was queried to find the highest quality representative sequences for more detailed analysis. Primers were compared to this database using Blast 2.8.1 and the following parameters (word size: 7, match score: 2, mismatch score: −3, gap open cost: 5, gap extend cost: 2). Up to 1000 hits with
+      <italic>
+       e
+      </italic>
+      value &gt; 10 were reported.
+     </p>
+    </sec>
+    <sec id="Sec27">
+     <title>
+      Inclusivity analysis
+     </title>
+     <p id="Par62">
+      Unique, full-length, human-sample sequences were downloaded from the GISAID web interface. These sequences were aligned to NC_045512.2 (Wuhan SARS-CoV-2) using minimap2 -x asm5 and visually inspected using IGV 2.8.0 with allele frequency threshold set to 0.01.
+     </p>
+    </sec>
+    <sec id="Sec28">
+     <title>
+      ACE inhibitor/angiotensin receptor blocker clinical cohort analysis
+     </title>
+     <p id="Par63">
+      We estimated the effects of ACEI/ARB exposure on COVID-19 using an observational case-control analysis of electronic health record data from two NYC hospitals (CUIMC and WCMC). Due to legal and institutional restrictions on data sharing, we performed the analysis at each site separately. We used data from clinical encounters occurring between March 10 and June 15, 2020. Our study included all individuals who received a valid SARS-CoV-2 swab test. We used two cohorts for comparison      : all individuals who received a positive SARS-CoV-2 swab test result and      all individuals from the first cohort who were exposed to any of four antihypertensive drug classes (ACEI/ARB, BB, CCB, and THZ). A patient was considered exposed to one of these drug classes if they received and filled a prescription for a drug in that class at any time in 2020.
+     </p>
+     <p id="Par64">
+      We considered two severe COVID-19 outcomes: intubation and death following confirmed infection. Individuals with a single positive test result were considered to have been infected and were included in our analysis. Intubation or death following confirmed infection was considered related to COVID-19. As we cannot determine from our data the date of infection, an individual became at risk of intubation and death due to COVID-19 7 days before their first positive test result or their first COVID-19 diagnosis. We determined mortality from a death note filed by a resident or primary provider that records the date and time of death. Intubation was used as an intermediary endpoint and is a proxy for a patient requiring mechanical respiration. We used note types that were developed for patients with SARS-CoV-2 infection to record that this procedure was completed. In addition, we validated outcome data derived from notes against the patient’s medical record using manual review. As a comparison, we also performed a logistic regression using the same approach for the outcome of the infection test result itself using the full cohort of tested individuals.
+     </p>
+     <p id="Par65">
+      We gathered data on the following 19 covariates, which were used both for propensity matching and for covariate adjustment: age, sex, race, ethnicity, hypertension, obesity, chronic kidney disease, coronary artery disease, heart failure, myocardial infarction, diabetes mellitus, diabetic nephropathy, diabetic neuropathy, diabetic retinopathy, diabetic vasculopathy, asthma, chronic obstructive lung diseases, proteinuria, and insulin use. Individuals without demographic information (first four covariates) were excluded from the analysis. The final 15 variables represent disease history and are defined in detail in the supplement.
+     </p>
+    </sec>
+    <sec id="Sec29">
+     <title>
+      Experimental statistical methods
+     </title>
+     <p id="Par66">
+      Using a combination of two cohorts and two severe outcomes, we made four propensity-matched, adjusted estimates of effect for ACEI/ARB. For comparison, we performed the same analysis using three other antihypertensive classes (BB, CCB, THZ). To inspect the degree of confounding due to covariates, we also estimated each effect with and without propensity matching and three levels of covariate adjustment. We used a Cox proportional hazards model for both outcomes. Propensity matching used logistic regression with the above 19 covariates using a 3:1 ratio of controls to cases in each of 100 propensity score bins, selecting none when the bin did not contain both cases and controls.
+     </p>
+    </sec>
+    <sec id="Sec30">
+     <title>
+      Statistical and visualization software
+     </title>
+     <p id="Par67">
+      All electronic health data analyses were performed in Python 3.7 and all models were fit using R 3.6.3. Survival analyses (Cox regressions and survival curves) were performed with the survival package for R, version 3.1-12. Additional statistical analyses, processing, transformation, and visualization of genomic data were completed in R/Bioconductor (“Rsamtools”, “GenomicRanges”, and “Biostrings”) and additional Imielinski Lab R packages (“gTrack”, “gChain”, “gUtils”, and “RSeqLib”) available at
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/mskilab">
+       https://github.com/mskilab
+      </ext-link>
+      . Visualization of phylogenies was completed using Auspice and the ‘ggtree’ and ‘ape’ libraries for R.
+     </p>
+    </sec>
+    <sec id="Sec31">
+     <title>
+      The sequential organ failure assessment (SOFA)
+     </title>
+     <p id="Par68">
+      The SOFA score is a severity of illness score that sums six separate organ dysfunction subscores, was used to characterize the burden of organ dysfunction. For the central nervous system, kidney, liver, and coagulation organ dysfunction subscores, traditional SOFA methodology      was used, based on patient status in the first 24 h following admission to the hospital (can be whatever time frame that you used). The respiratory SOFA subscore requires the selection of the lowest PaO2/FiO2 of the 24 h period and associates a lower ratio with a more severe dysfunction score, in situations outside of an ICU setting a PaO2 is often not available. We used a commonly accepted imputation technique to impute a PaO2 from a SpO2      . The cardiovascular SOFA subscore was updated with additional vasopressors according to a norepinephrine equivalency table from a clinical trial      . Specifically, phenylephrine and vasopressin were converted to a norepinephrine equivalency. Missing data for each subscore was treated as normal.
+     </p>
+     <sec id="Sec32">
+      <title>
+       Spatial gene expression
+      </title>
+      <p id="Par69">
+       RNA from FFPE lung sections was extracted with the RNeasy FFPE Kit (Qiagen). Only the samples with A260/A280 ratios of ≥1.6 were used. At least 100 nanograms of RNA was loaded for hybridization with the nCounter       PanCancer IO360™ Gene Expression Panel spiked with the COVID-19 panel, according to the manufacturer’s instructions and quantified by the nCounter       MAX Analysis System (NanoString Technologies, Seattle, WA, USA). Transcript counts were normalized to ERCC positive controls and housekeeper reference gene expression prior to analysis.
+      </p>
+     </sec>
+     <sec id="Sec33">
+      <title>
+       RNA/NGS Slide Preparation for GeoMx DSP
+      </title>
+      <p id="Par70">
+       For GeoMx DSP slide preparation, we followed GeoMx DSP slide prep user manual (MAN-10087-04). Briefly, tissue slides were baked in a drying oven at 60 °C for 1 h and then loaded to Leica Biosystems BOND RX FFPE for deparaffinization and rehydration. After the target retrieval step, tissues werewere treated with Proteinase K solution to expose RNA targets followed by fixation with 10% NBF. After all tissue pre-treatments were done, tissue slides were unloaded from the Leica Biosystems BOND RX and incubated with RNA probe mix (CTA and COVID-19 spike-in panel) overnight. The next day, tissues were washed and stained with tissue visualization markers; CD68-647 at 1:400 (Novus Bio, NBP2-34736AF647), CD3-594 at 1:400 (Abcam, ab196147), CD45-594 at 1:10 (NanoString Technologies), PanCK-532 at 1:20 (NanoString Technologies) and/or SYTO 13 at 1:10 (Thermo Scientific S7575).
+      </p>
+     </sec>
+     <sec id="Sec34">
+      <title>
+       GeoMx DSP sample collections
+      </title>
+      <p id="Par71">
+       For GeoMx DSP sample collections, we followed GeoMx DSP instrument user manual (MAN-10088-03). Briefly, tissue slides were loaded to GeoMx DSP instrument and then scanned to visualize whole tissue images. For scanning tissues, we used 100 ms for imaging DNA and 400 ms for all the other visualization markers. After whole tissue images stitched, we applied customized render setting to each tissue since tissue background and target protein expressions are highly sample-dependent. Roughly, the min and max of the render setting is from 20 to 200 and 1000 to 15,000, respectively. For each tissue sample, we collected four types of functional tissue regions; vascular zone, large airway, alveoli zone, and macrophages. Each tissue region was carefully selected by a board- certified pathology and then segmented with corresponding fluorescent tissue markers. Twenty-four to twenty-three GeoMx DSP samples were selected per tissue.
+      </p>
+     </sec>
+    </sec>
+    <sec id="Sec35">
+     <title>
+      RNAscope assay and imaging
+     </title>
+     <p id="Par72">
+      To visualize viral loads, we performed RNAscope assays using V-nCoV2019-S (Opal 570), Hs-ACE2 (Opal 620) and Hs-TMPRSS2 (Cy5) probes. We used serial tissue sections of the ones used for GeoMx DSP for sample preparations and followed the standard manufacture’s protocol. We used GeoMx DSP to scan tissues using 100msec for imaging DNA (Syto13) and 200msec for all the other channels. We applied the following min and mas to the stitched images; DNA: 20 and 8,000, V-nCoV2019-S (Opal 570) and ACE2 (Opal 620): 200 and 800 and Hs-TMPRSS2 (Cy5): 500 and 3,000.
+     </p>
+    </sec>
+    <sec id="Sec36">
+     <title>
+      GeoMx DSP NGS library preparation and sequencing
+     </title>
+     <p id="Par73">
+      Each GeoMx DSP sample was uniquely indexed using Illumina’s i5 × i7 dual-indexing system. Four uL of a GeoMx DSP sample was used in a PCR reaction with 1 μM of i5 primer, 1 μM i7 primer, and 1X NSTG PCR Master Mix. Thermocycler conditions were 37 °C for 30 min, 50 °C for 10 min, 95 °C for 3 min, 18 cycles of 95 °C for 15 s, 65 °C for 60 s, 68 °C for 30 s, and final extension of 68 °C for 5 min. PCR reactions were purified with two rounds of AMPure XP beads (Beckman Coulter) at 1.2× bead-to-sample ratio. Libraries were paired-end sequenced (2 × 75) on a NextSeq 550 up to 400M total aligned reads.
+     </p>
+    </sec>
+    <sec id="Sec37">
+     <title>
+      Normalization and removal of gene outliers
+     </title>
+     <p id="Par74">
+      For each sample, both a CTA-specific and a Covid-19 spike-in-specific negative probe normalization factor was generated based on the geometric mean of negative probes in each pool. Probes for each gene were screen for outliers and their raw counts collapsed to a single estimate of counts using their geometric mean. These gene count estimates were then divided by their respective negative normalization factor to normalize the data. For the Differential expression analysis, focus was given to the 207 Alveolar AOIs because they contained the bulk of the data. Of the 1837 genes, 1796 passed our criterion of limit of quantification (LOQ &gt; 2).
+     </p>
+    </sec>
+    <sec id="Sec38">
+     <title>
+      Dimensional reduction
+     </title>
+     <p id="Par75">
+      Dimensional reduction was performed to visualize large trends and clusters across the genes. To do this, the FactoMineR R package      was used for principal component analysis and the package Rtsne      was used to generate t-Distributed Stochastic Neighbor Embedding (tSNE) clustering (perplexity set to 30).
+     </p>
+    </sec>
+    <sec id="Sec39">
+     <title>
+      Deconvolution of cell proportions
+     </title>
+     <p id="Par76">
+      Cell mixing proportions were estimated using the InSituSort R library, which performs mixture deconvolution using constrained log-normal regression. The algorithm was run using a cell profile matrix derived from the Human Cell Atlas adult lung 10X dataset and appended with a neutrophil profile derived from snRNA-seq of lung tumors      .
+     </p>
+    </sec>
+    <sec id="Sec40">
+     <title>
+      Differential expression analysis
+     </title>
+     <p id="Par77">
+      Differential expression analysis was performed by fitting each gene’s normalized log2 expression level using a Linear Mixed Effect model with the R package lmerTest      . Different DE contrasts were made with Covid-19 samples as “baseline” to compare genes that are upregulated or downregulated compared to Flu, non-viral ARDS, or normal alveolar lung. Because one Covid-19 sample appeared to have higher viral load compared to others (see results), we ran DE analysis with and without this individual (15 Alveolar AOIs in total). In all cases, we treated “Disease” status (Covid-19 vs. normal) as a level-2 fixed effect and accounted for within patient multiple sampling by treating patient ID as a random effect. Disease was allowed to have varying intercepts and slopes. Satterthwaite’s approximation for degrees of freedom for
+      <italic>
+       P
+      </italic>
+      value calculation was used      . The estimate of “Disease” from the Mixed Effect model is the log2 fold change. Hierarchical clustering of the top 30 DE genes was performed with the R package pheatmap.
+     </p>
+     <sec id="Sec41">
+      <title>
+       Gene set enrichment analysis
+      </title>
+      <p id="Par78">
+       Following differential expression on all normalized features, we used Gene Set Enrichment Analysis (GSEA) on the ranked expression values using the GSEA and Molecular Signature Database (MSigDB       ).
+      </p>
+     </sec>
+    </sec>
+    <sec id="Sec42">
+     <title>
+      Differential expression validation from UCSF data
+     </title>
+     <p id="Par79">
+      Following sequencing of sample libraries, quality control was performed on the fastq files to ensure the sequencing reads met pre-established cutoffs for number of reads and quality using FastQC (version 0.11.8)      and MultiQC (version 1.8)      . Quality filtering and adapter trimming were performed using BBduk tools (version 38.76,
+      <ext-link ext-link-type="uri" ns0:href="https://sourceforce.net/projects/bbmap">
+       https://sourceforce.net/projects/bbmap
+      </ext-link>
+      ). Remaining reads were aligned to the ENSEMBL GRCh38 human reference genome assembly (Release 33) using STAR (version 2.7.0f)      and gene frequencies were counted using feature Counts (version 2.0.0) within the Subread package      . Comparative analysis of DEGs was performed using a generalized linear model (GLM) implemented in the edgeR Bioconductor package (version 3.30.3)      , using a Benjamini–Hochberg corrected
+      <italic>
+       p
+      </italic>
+      value of &lt;0.01 (Supplementary Data      ).
+     </p>
+     <p id="Par80">
+      Hierarchical clustering of DEGs was performed in R (version 4.0.0) using the ComplexHeatmap and pheatmap package, and figures were produced using the ggplot2 package. For NP and WB, the top 100 DEGs sorted by
+      <italic>
+       p
+      </italic>
+      value with a Bonferroni corrected
+      <italic>
+       p
+      </italic>
+      value of &lt;0.001and &lt;0.01 respectively were included. For the comparison between hospitalized and outpatients, all the DEGs with a Bonferroni corrected
+      <italic>
+       p
+      </italic>
+      value of &lt;0.01 were included. Clustering was performed based on Euclidean distance with complete linkage, after exclusion of noncoding genes. Signaling pathway analyses and heatmaps were generated using Ingenuity Pathway Analysis (IPA) software (Qiagen)      . The molecule activity predictor tool of IPA was used to predict gene upregulation or downregulation and pathway activation or inhibition. The enrichment score
+      <italic>
+       p
+      </italic>
+      value was used to evaluate the significance of the overlap between predicted and observed genes, while the z-score was used to assess the match between observed and predicted regulation or downregulation.
+     </p>
+     <p id="Par81">
+      Classifiers were developed using scikit-learn (version 1.2.2)      in Python. Several different classifier models were evaluated in parallel and the one with optimal performance on the training data was selected. These candidate classifier models included a Linear Support Vector Machine, Linear Discriminant Analysis, and a Deep Neural Network, all within the scikit-learn package. Reduced gene panels were selected using Lasso      and a customized reverse search across the resulting feature set. This search iteratively removed the remaining gene with the lowest significance as measured by its Lasso coefficient, performed classifier training, and reported sensitivity, specificity, and accuracy across the training set. These results were then manually reviewed to balance each of them with a priority placed on specificity and number of genes. Receiver operating characteristic (ROC) curves were generated using pROC package in R      .
+     </p>
+    </sec>
+    <sec id="Sec43">
+     <title>
+      HLA analysis
+     </title>
+     <p id="Par82">
+      We mapped RNA reads to human reference genome GRCh38 using STAR v2.7.3a, and called likely
+      <italic>
+       HLA
+      </italic>
+      diplotypes for each sample by arcasHLA (Docker image quay.io/chai/arcas_hla:0.0.1, as pulled from master branch of
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/RabadanLab/arcasHLA">
+       https://github.com/RabadanLab/arcasHLA
+      </ext-link>
+      on 8 June 2020).
+     </p>
+    </sec>
+    <sec id="Sec44">
+     <title>
+      Hybrid capture-base next-generation sequencing
+     </title>
+     <p id="Par83">
+      Five positive and one negative clinical samples were used to compare LAMP results with RT-qPCR and a hybrid capture-based NGS assay. RNA was isolated and purified in duplicates (250 μl input) using the Direct-zol DNA/RNA MiniPrep kit (Zymo). Viral transport media was used as negative extraction control. Extracted and purified RNA samples were converted to cDNA through random priming using Random Primer 6, ProtoScript II First Strand cDNA Synthesis Kit, and NEBNext Ultra II Non-Directional RNA Second Strand Synthesis kit (New England BioLabs).
+     </p>
+     <p id="Par84">
+      The cDNA samples were converted to Illumina TruSeq-compatible libraries with Twist’s Library Preparation Kit with Unique Dual Indices (Twist Bioscience). After cDNA library generation, samples were pooled in 8-plex reactions using 187.5 ng of each barcoded library. Hybridization reactions were performed for 2 h using Twist Fast Hybridization reagents and SARS-CoV-2 Research Panel, a biotin-bound panel that targets libraries containing the SARS-CoV-2 virus. Hybrid capture libraries were spiked with 1% PhiX and sequenced on an Illumina NextSeq 550 platform using a NextSeq500/550 High Output kit (Illumina) set to 150bp single end reads.
+     </p>
+     <p id="Par85">
+      Extracted RNA was also tested using RT-qPCR (GenArraytion COVID-19 duplex RT-qPCR) to get CT values, and LAMP. Hybrid capture NGS data were analyzed using the COVID-DX Software (Biotia Inc.), optimized for the SARS-CoV-2 NGS Assay. The software includes removal of low-quality reads, alignment to the SARS-CoV-2 genome (NC_045512.2), and elimination of off-target reads by alignment to other genomes including human (GrC38) and 26 additional microbial genomes. Presence or absence of SARS-CoV-2 was determined by calculating coverage of NC_045512.2 at 1× depth using a sliding window analysis (window size 1000 and step size 100) and determining the integral under the curve. After log transformation, we used a cutoff of 8.6 (for samples with &lt;10,000 bases on target), and 9.6 (for samples with &gt;10,000 bases on target) to call presence or absence. The pipeline also calls germline variants that differ from the reference genome (NC_045512.2) and estimates viral titer using a multivariate model of coverage and evenness across the viral genome      .
+     </p>
+    </sec>
+    <sec id="Sec044">
+     <title>
+      Ethical approval
+     </title>
+     <p id="Par86">
+      Tissue samples were provided by the Weill Cornell Medicine Department of Pathology. The Tissue Procurement Facility operates under IRB approved protocol and follows guidelines set by Health Insurance Portability and Accountability Act (HIPAA). Experiments using samples from human subjects were conducted in accordance with local regulations and with the approval of the IRB at the Weill Cornell Medicine. The autopsy samples were collected under IRB protocols 20-04021814 and 19-11021069. Autopsy consent is provided on all cases by the next of kin. This consent includes use of tissue for research. Observational cohort analysis (ACEI/ARB) was done through the Columbia University IRB Protocol AAAL0601 and the Weill Cornell Medicine IRB protocol 20-04021820. Oropharyngeal samples data from University Hospital of Tuebingen were collected under IRB 243/2020A.
+     </p>
+    </sec>
+    <sec id="Sec45">
+     <title>
+      Reporting summary
+     </title>
+     <p id="Par87">
+      Further information on research design is available in the      linked to this article.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec46">
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

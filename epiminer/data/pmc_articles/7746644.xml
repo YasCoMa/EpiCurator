@@ -1,0 +1,4049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Human Leukocyte Antigen Complex and Other Immunogenetic and Clinical Factors Influence Susceptibility or Protection to SARS-CoV-2 Infection and Severity of the Disease Course. The Sardinian Experience
+ </title>
+ <abstract>
+  <p>
+   SARS-CoV-2 infection is a world-wide public health problem. Several aspects of its pathogenesis and the related clinical consequences still need elucidation. In Italy, Sardinia has had very low numbers of infections. Taking advantage of the low genetic polymorphism in the Sardinian population, we analyzed clinical, genetic and immunogenetic factors, with particular attention to HLA class I and II molecules, to evaluate their influence on susceptibility to SARS-CoV-2 infection and the clinical outcome.
+  </p>
+  <p>
+   We recruited 619 healthy Sardinian controls and 182 SARS-CoV-2 patients. Thirty-nine patients required hospital care and 143 were without symptoms, pauci-symptomatic or with mild disease. For all participants, we collected demographic and clinical data and analyzed the HLA allele and haplotype frequencies.
+  </p>
+  <p>
+   Male sex and older age were more frequent in hospitalized patients, none of whom had been vaccinated during the previous seasonal flu vaccination campaignes. Compared to the group of asymptomatic or pauci-symptomatic patients, hospitalized patients also had a higher frequency of autoimmune diseases and glucose-6-phosphate-dehydrogenase (G6PDH) deficiency. None of these patients carried the beta-thalassemia trait, a relatively common finding in the Sardinian population. The extended haplotype HLA-A*02:05, B*58:01, C*07:01, DRB1*03:01 [OR 0.1 (95% CI 0–0.6), Pc = 0.015] was absent in all 182 patients, while the HLA-C*04:01 allele and the three-loci haplotype HLA-A*30:02, B*14:02, C*08:02 [OR 3.8 (95% CI 1.8–8.1), Pc = 0.025] were more frequently represented in patients than controls. In a comparison between in-patients and home care patients, the HLA-DRB1*08:01 allele was exclusively present in the hospitalized patients [OR &gt; 2.5 (95% CI 2.7–220.6), Pc = 0.024].
+  </p>
+  <p>
+   The data emerging from our study suggest that the extended haplotype HLA-A*02:05, B*58:01, C*07:01, DRB1*03:01 has a protective effect against SARS-CoV-2 infection in the Sardinian population. Genetic factors that resulted to have a negative influence on the disease course were presence of the HLA-DRB1*08:01 allele and G6PDH deficiency, but not the beta-thalassemic trait. Absence of influenza vaccination could be a predisposing factor for more severe disease.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     Outbreak of the coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on 11 March 2020 (     ) and since then continues to pose a threat to the sustainability of public health systems worldwide. Although consensus on total mortality and morbidity has yet to be reached, current data show that over 50 million people have contracted the SARS-CoV-2 virus globally, and of these, more than 1,250,000 have died (     ).
+    </p>
+    <p>
+     Although only a few months have passed since the onset of the pandemic, a myriad of attempts have been made to unravel the unknowns surrounding disease pathogenesis and the related clinical consequences. Currently, it is assumed that the mean incubation period is 4–6 days with an estimated range of 2–14 days, although rare cases of up to 27 days have been reported. The large majority of patients have a good prognosis with an asymptomatic or pauci-symptomatic disease course (     ). However, about 20% of infected subjects become seriously ill and 4% develop severe and even fatal disease. Clinical features in hospitalized patients include complications such as pneumonia and, in the most severe cases, acute respiratory distress syndrome (ARDS). Devastating neurological and gastrointestinal symptoms have also been reported. Sepsis is another feared complication of COVID-19 that can cause lasting damage to the lungs and other organs. Moreover, heart failure, kidney failure, liver damage, hypercoagulability, septic shock, and multiple-organ failure (MOF) have been shown to precipitate death. The most severe cases of COVID-19 with admission to the Intensive Care Unit (ICU) are generally more frequent in males and the elderly, especially those with comorbidities such as chronic cardiovascular and/or respiratory disease (     –     ).
+    </p>
+    <p>
+     A plethora of drugs and treatments have been tried around the world in the battle against the pandemic but, so far, none of those tested or included in clinical trials have yielded a significant reduction in the morbidity and mortality rates (     ). Contemporarily, the scientific community is striving hard to produce a vaccine but in spite of the many encouraging results, health experts warn that a coronavirus vaccine is unlikely to be available in time to stop the second wave of the epidemic which is expected to peak in European countries, including Italy, this autumn or winter (     ).
+    </p>
+    <p>
+     After China and South Korea, Italy was the first European country to be hit by the explosive pandemic potential of COVID-19, which sparked from the first cases diagnosed in the province of Lodi (     ) to a quickly rising toll of 250,000 infected individuals and more than 35,000 deaths. The Northern regions of Italy were the territories with the large majority of cases (     ). A decreasing gradient of infection levels from north to south was clearly evident from the beginning of the epidemic, with atypical differences even between the provinces of the most affected regions (     ).
+    </p>
+    <p>
+     Data published by the Italian National Institute of Statistics (ISTAT) and the Italian National Institute of Health (ISS) on 3 August 2020 demonstrated that the number of people who had been infected with the virus was six-fold higher than the total number of individuals who had been identified by positive test results for both nasopharyngeal and oropharyngeal swabs. The seroprevalence survey on SARS-CoV-2 conducted at national level showed that 1 million 482,000 individuals tested positive for anti-SARS-CoV-2 IgG antibodies, corresponding to 2.5% of the resident population. Data analysis confirmed the important differences observed for spread of the infection between the northern and southern regions of Italy, with the Islands of Sardinia and Sicily having the lowest seroprevalence of anti-SARS-CoV-2 IgG antibodies (0.3%) (     ). The different routes of transmission as well as the clinical, epidemiological and virologic features of COVID-19 still need to be clarified today, at more than 6 months from the start of the pandemic (     ,     ).
+    </p>
+    <p>
+     While some traditional or home remedies may alleviate symptoms of mild COVID-19, there are still no drugs or treatments that have been shown to prevent or cure the disease. An initially high viral load has been shown to be independently associated with disease severity and could be influenced by host immune responses (     ). Based on the experience gained during the previous Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS) epidemics, it is likely that both innate and adaptive host immunity play a role in viral clearance, disease severity and the different clinical manifestations of the disease (     ).
+    </p>
+    <p>
+     Recently published data suggest that appropriate innate and adaptive T-cell-mediated humoral and cellular immune responses could have a critical role in the elimination of the SARS-CoV-2 virus and confer consequent protective immunity, which in most cases coincides with clinical recovery (     ,     ,     ). On the other hand, an excessive cell-mediated and dysregulated innate and adaptive immune response can lead to an aggressive inflammatory reaction with the release of large amounts of pro-inflammatory cytokines. This so-called “cytokine storm”—resulting from the excessive production of cytokines by immune cells such as the innate dendritic cells, macrophages, natural killer (NK) cells and the adaptive T and B cells—directly correlates with lung injury, ARDS and MOF including the kidneys and the central nervous system and overall leads to an unfavourable prognosis (     ,     ,     –     ).
+    </p>
+    <p>
+     The human leukocyte antigen (HLA) class I and II molecules are actively engaged in immune response mechanisms against invading pathogens. Their pivotal role in viral immune response has already been highlighted in studies performed on the two coronaviruses responsible for SARS and MERS. Also, in SARS-Cov-2 infection, there is evidence of how different HLA alleles of the major histocompatibility complex (MHC) can define individual susceptibility to infection and its spread (     ).
+    </p>
+    <p>
+     Previous studies on different viruses have shown a correlation between the susceptibility and/or severity of disease and the genetic variability of HLA alleles. These alleles are critical components of the viral antigen presentation pathway. In fact, a study carried out on transgenic mice has shown that the DRB1*04:01 allele, which confers susceptibility to certain autoimmune diseases, generates a robust toll-like receptor (TLR) response and eliminates H1N1 infection. Furthermore, following vaccination and exposure to the H1N1 influenza strain, these mice exhibited cross protective immunity also for the H3N2 strain (     ).
+    </p>
+    <p>
+     Interesting studies conducted on the SARS-CoV-1 virus have identified HLA polymorphisms associated with the disease risk in the Asian population. The HLA-B*46:01 allele was observed with a high frequency in a group of patients from Taiwan classified as being “probable SARS cases” from coronavirus infection. This allele was also significantly increased in the group of seriously ill patients (     ). In Chinese patients, the HLA-B*07:03 and HLA-DRB1*03:01 alleles closely correlated with SARS-CoV-1 infection. Moreover, the HLA-B*07:03 and HLA-B*60 alleles were observed with a significantly higher frequency in patients in comparison to the expected frequency of the general population (     ). In a group of SARS-CoV-1 positive Vietnamese patients, a strong association was observed for HLA-DRB1*12:02 in comparison to the control group (     ). Also, the HLA-C*08:01 allele seemed to confer susceptibility to SARS-CoV-1 (     ).
+    </p>
+    <p>
+     Immunogenetic variation in humans is becoming an increasingly important target for clinical diagnosis and therapeutic intervention. Binding between peptide epitopes and HLA proteins significantly contributes to cellular immune response mechanisms in human beings. Several studies describe the pivotal role of peptides in the specificity, magnitude and quality of both humoral and cellular immune responses. This is furthermore supported by the recent emphasis put on the use of peptides in vaccine design and medical diagnostics. In silico studies have greatly facilitated analysis of the binding affinity between all the viral peptides of SARS-CoV-2 and different HLA class I genotypes. It has been shown that the HLA-B*46:01 allele has a low degree of binding affinity, suggesting that subjects with this allele may have a higher risk of developing the more severe forms of COVID-19. On the other hand, the HLA-B*15:03 allele is reported as having the highest binding affinity for viral peptides (     ).
+    </p>
+    <p>
+     Another study describes high binding affinity between SARS-CoV-2 epitopes and the HLA-A*02:06, HLA-B*52:01, and HLA-C*12:02 alleles. In particular, two epitopes displayed strong binding affinity for HLA-A*24:02, HLA-A*02:01, and HLA-A*02:06 (     ). Unfortunately, these two studies present mathematical predictions that need to be clinically and experimentally evaluated and confirmed in a suitable study population with appropriate immunogenetic characteristics.
+    </p>
+    <p>
+     Researchers in Italy set up a study to investigate whether specific class I HLA alleles could at least partially explain the huge differences observed for the spread of SARS-CoV-2 infection between northern and southern Italy. They compared HLA allele prevalence retrieved through the Italian Bone-Marrow Donor Registry with the incidence of SARS-CoV-2 infections in the different geographical regions. It emerged that HLA-A*25, B*08, B*44, B*15:01, B*51, C*01, and C*03 positively correlated with the incidence of SARS-CoV-2 infection, while HLA-B*14, B*18, and B*49 showed an inverse correlation. After applying a multiple regression model to eliminate confounding factors, only the HLA-C*01 and –B*44 alleles, which are present with a higher frequency in the northern regions of Italy, remained positively associated with COVID-19 (     ).
+    </p>
+    <p>
+     Sardinia is an autonomous region of Italy and the second-largest Island in the Mediterranean Sea. The Island has one of the lowest infection and mortality rates in Italy and on 7 November 2020 registered 11,412 positive individuals (infections: 7x10     Sardinian inhabitants vs 14x10     Italian mainland inhabitants) and 249 deaths (mortality: 2.18% Sardinian inhabitants vs 3.81% Italian mainland inhabitants). Moreover, during the second wave of the epidemic, Sardinia continued to be one of the Italian regions with the lowest transmission rate (Rt) for SARS-CoV-2 (Sardinian Rt index = 1.16 vs Italian Rt index 1.7—
+     <uri ns0:href="http://www.salute.gov.it/portale/nuovocoronavirus/" ns0:type="simple">
+      http://www.salute.gov.it/portale/nuovocoronavirus/
+     </uri>
+     ).
+    </p>
+    <p>
+     The geographic isolation of Sardinia throughout history has limited the genetic diversity of its people. The population with its low levels of genetic polymorphism has made important contributions to genome-wide association studies of complex disease traits. Many disease risk alleles are shared between Sardinian and other populations which makes it an ideal location for the identification of immunogenetic factors potentially involved in resistance or susceptibility to SARS-CoV-2 infection.
+    </p>
+    <p>
+     Based on these premises, we set up a study to investigate the clinical characteristics and genetic traits of Sardinian patients affected by SARS-CoV-2 infection. Particular emphasis was put on the influence of HLA Class I and II alleles on disease susceptibility and the varying severity of the disease course.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="materials|methods">
+    <title>
+     Materials and Methods
+    </title>
+    <p>
+     A cohort of 182 patients were recruited from 1 June to 1 August 2020. All patients had been diagnosed with SARS-CoV-2 by RT-PCR from nasopharyngeal swab. The patients were divided into two groups according to disease severity. Thirty-nine patients had been admitted to the Covid Unit of the SS.Trinità Hospital in Cagliari with moderate or severe disease (group S) and 143 asymptomatic or pauci-symptomatic patients (group A) were confined to home quarantine. According to WHO classification, patients with severe disease were considered to be those who needed invasive mechanical ventilation or high-flow nasal oxygen in the hospital, while patients classified as having moderate symptoms did not require oxygen. Pauci-symptomatic patients presented mild symptoms such as loss of taste or smell and/or cold or flu-like symptoms (     ). Six hundred and nineteen healthy controls, without SARS-CoV-2 infection (negative for RT-PCR from nasopharyngeal swab), were extracted from the Sardinian Voluntary Bone Marrow Donor Registry, which is highly representative of the genetically homogeneous island population of Sardinia, Italy (     ,     ). The controls were selected to appropriately represent the male-to-female ratio and genetic frequencies of the population pertaining to the areas of central and southern Sardinia from where the COVID-19 patients were recruited.
+    </p>
+    <p>
+     The HLA class I and class II allele frequencies (HLA-A, -B, -C, -DRB1) observed in the two groups of patients (Group S and Group A) were compared to those of the 619 unrelated healthy controls.
+    </p>
+    <sec id="s2_1">
+     <title>
+      Ethics Statement
+     </title>
+     <p>
+      Patients were recruited and enrolled in the study protocol at the Department of Medical Sciences and Public Health of the University of Cagliari, the University Hospital of Cagliari (AOUCA) and the SS.Trinità Hospital of the Sardinian Regional Company for the Protection of Health (ATS Sardegna). Written informed consent was obtained from all patients and controls in accordance with the ethical standards (institutional and national) of the local human research committee. The study protocol, including informed consent procedures, conforms to the ethical guidelines of the Declaration of Helsinki and was approved by the responsible ethics committee (Ethics Committee of the Cagliari University Hospital; date of approval: May, 27, 2020; protocol number GT/2020/10894). Records of written informed consent are kept on file and are included in the clinical record of each patient.
+     </p>
+    </sec>
+    <sec id="s2_2">
+     <title>
+      HLA Allele Typing
+     </title>
+     <p>
+      DNA from nasopharyngeal swab was extracted with the Qiagen QIAamp DNA Mini Kit (Qiagen, Valencia, CA, USA) according to the manufacturer’s instructions. Briefly, each swab was washed with PBS (200 µl). The recovered washing buffer was mixed with 20 µl of proteinase k and 200 µl of the AL buffer was added to the mix. After 10 min of incubation at 56°C, the sample was processed according to the kit instructions. Purity and quantification of total DNA were assessed with the NanoDrop 1000 Spectrophotometer (Thermo Fisher Scientific).
+     </p>
+     <p>
+      Patients and controls were typed at high resolution for the alleles at the HLA-A, B, C, and DRB1 loci using a polymerase chain reaction sequence-speciﬁc primer (PCR-SSP) method according to the manufacturer’s instructions (Allele-speciﬁc PCR-SSP kits: Olerup SSP AB, Stockholm, Sweden).
+     </p>
+     <p>
+      HLA typing validation was performed by Next Generation Sequencing on 96 randomly selected samples of patients and controls, according to a previously reported method (      ). The concordance of the two different methods was 100%.
+     </p>
+    </sec>
+    <sec id="s2_3">
+     <title>
+      HLA Haplotype Analysis in Patients and Controls
+     </title>
+     <p>
+      Four-loci HLA haplotypes are sequences of four HLA alleles localized in four different HLA loci: HLA-A*
+      <italic>
+       a
+       <sub>
+        i
+       </sub>
+      </italic>
+      , HLA-B*
+      <italic>
+       b
+       <sub>
+        j
+       </sub>
+      </italic>
+      , HLA-C*
+      <italic>
+       c
+       <sub>
+        h
+       </sub>
+      </italic>
+      , HLA-DRB1*
+      <italic>
+       d
+       <sub>
+        k
+       </sub>
+      </italic>
+      , where
+      <italic>
+       a
+       <sub>
+        i
+       </sub>
+      </italic>
+      ,
+      <italic>
+       b
+       <sub>
+        j
+       </sub>
+      </italic>
+      ,
+      <italic>
+       c
+       <sub>
+        h
+       </sub>
+      </italic>
+      ,
+      <italic>
+       d
+       <sub>
+        k
+       </sub>
+      </italic>
+      are integers (or couples of integers in high resolution) and each index
+      <italic>
+       i
+      </italic>
+      ,
+      <italic>
+       j
+      </italic>
+      ,
+      <italic>
+       h
+      </italic>
+      ,
+      <italic>
+       k
+      </italic>
+      = 1,2 indicates one of the two alleles in the respective HLA-locus. The four-loci HLA haplotypes in each subject are 2      = 16, obtained by combining four alleles localized in four different HLA loci. Analogously, the three-loci HLA haplotypes in each subject are 2      = 8, obtained by combining three alleles localized in three different HLA loci. Finally, the two-loci HLA haplotypes are 2      = 4, formed by two alleles localized in two different HLA loci.
+     </p>
+     <p>
+      The frequency of each HLA haplotype in a sample of size is computed by dividing the number of times the HLA haplotype appears in that sample by the total number of alleles for each HLA locus.
+     </p>
+     <p>
+      The HLA analysis in patients and controls was performed using a specific programming code written with R language (R core39). The statistically significant outcomes given by the R code were also checked “by hand” through the direct evaluation of the number of HLA haplotypes in each group of subjects.
+     </p>
+    </sec>
+    <sec id="s2_4">
+     <title>
+      Statistical Analysis
+     </title>
+     <p>
+      The clinical and genetic characteristics of patients with SARS-CoV-2 infection were analyzed using R software version 4.0.2 (      ). Mean standard deviation (SD) and interquartile range (IQR) were calculated for all continuous variables; percentages and 95% confidence intervals (95% CI) were computed for categorical data. P values were calculated using two-tailed Fisher’s exact test or Student’s test as appropriate. Only P values below 0.05 were considered to be statistically significant.
+     </p>
+     <p>
+      To compare the HLA allele and haplotype frequencies of COVID-19 patients with those of the healthy controls we used the two-tailed Fisher’s exact test. For each single HLA allele, Pc was obtained by multiplying the uncorrected P value by the number of alleles observed. The frequencies of the HLA extended (four loci) and partial (three or two loci) haplotypes were obtained analytically using a programming code created with R language.
+     </p>
+     <p>
+      Cochran’s rule—claiming that a minimum expected frequency of 5 can be regarded as adequate in analyzing tables with more than a single degree of freedom—was used to establish which HLA haplotypes had frequencies sufficiently high to allow for significant comparisons between the two groups of patients and controls.
+     </p>
+     <p>
+      For each HLA haplotype the corrected P value (Pc) was calculated by multiplying the P value obtained with the two-tailed Fisher’s exact test by the number of tested allelic combinations. Only Pc values lower than 0.05 were considered to be statistically significant (see      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="s3_1">
+     <title>
+      Main Clinical and Genetic Characteristics of Sardinian COVID-19 Patients
+     </title>
+     <p>
+      The most relevant clinical and genetic features of patients positive for SARS-CoV-2 are shown in      . Mean age at the time of infection was 53 years (mean ± SD: 53.2 ± 18.1; 95% CI 50.6–55.9; IQR = 27.4), with a prevalence of female patients (61.5%). Moreover, 53% (n = 96) of the patients had an age at onset of ≤ 50 years; 21% (n = 38) of the patients were over 65 years of age. In line with previous clinical studies, the most severe symptoms were present in adults aged 65 years and older [OR 10.1 (95% CI 4.2–25.2), P = 1.5 10      ]. The clinical manifestations were less severe in female patients (n =112). In fact, 28 of the 39 critically ill patients were males [71.8% vs 28.2%, OR 6.1 (95% CI 2.6–14.8), P = 2.2 10      ].
+     </p>
+     <table-wrap id="T1" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Comparisons of baseline clinical, genetic and biochemical parameters between COVID-19 patients with asymptomatic/pauci-symptomatic and moderate/severe disease.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Characteristics of Sardinian COVID-19 pts
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Total pts (N = 182)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Group A (N = 143)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Group S (N = 39)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Comparison Group S vs Group A
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Age (yr): mean ± SD (95% CI; IQR)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          53.2 ± 18.1 (50.6–55.9; 27.4)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          49.1 ± 17.2 (46.3–52.0; 20.9)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          66.1 ± 15.3 (61.1–71.0; 26.8)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          P = 9.2 · 10
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           n (%)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           95% CI (%)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           n (%)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           95% CI
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           n (%)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           95% CI (%)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           P value
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           OR (95% CI)
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Age ≤ 50 yr
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          96 (52.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          45.4–60.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85 (59.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          51.3–67.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (28.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.6–42.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.8 10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.3 (0.1–0.6)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          50 yr &lt; Age &lt; 65 yr
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          48 (26.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19.9–32.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          42 (29.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21.8–36.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (15.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.7–27.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.101
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.4 (0.1–1.2)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Age ≥ 65 yr
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          38 (20.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14.9–26.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.0–16.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (56.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          40.3–72.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.5 10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10.1 (4.2–25.2)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Male
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          70 (38.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          31.3–45.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          42 (29.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21.8–36.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          28 (71.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          57.2–86.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.2 10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.1 (2.6–14.8)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Female
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          112 (61.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          54.4–68.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          101 (70.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          63.1–78.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (28.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.6–42.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.2 10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.2 (0.1–0.4)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FLU vaccine 2019 (total pts)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (12.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.8–17.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (16.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10.0–22.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.005
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0 (0.0–0.6)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          - FLU vaccine 2019 (age ≥ 65 yr)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–2.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–2.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FLU vaccine last 3 yr
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          27 (14.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9.6–20.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          27 (18.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12.4–25.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0 (0.0–0.5)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          - FLU vaccine last 3 yr (age ≥ 65 yr)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–2.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–2.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            Comorbidity
+           </italic>
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Cancer
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.1–4.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (2.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.1–5.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.579
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0 (0.0–5.6)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Type I Diabetes Mellitus
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (3.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7–5.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (2.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.1–5.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–12.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.610
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.9 (0.2–13.6)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Chronic pulmonary disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–2.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (1.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–3.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0 (0.0–19.7)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Ischemic heart disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.8–11.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (8.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.8–13.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–12.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.737
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6 (0.1–2.8)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Hypertension
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          27 (14.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9.6–20.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21 (14.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.8–20.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (15.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.7–27.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1 (0.3–3.0)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Autoimmune disease
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (12.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.3–16.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.3–12.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (28.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13.6–42.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.001
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.7 (1.7–13.2)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Hypercholesterolemia
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18 (9.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.5–14.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.3–12.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7 (17.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.5–30.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.071
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.6 (0.8–8.1)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            Chronic Medication use
+           </italic>
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Steroidal anti-inflammatory drug
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9 (4.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.8–8.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (4.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.9–7.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–16.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.406
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.9 (0.3–9.4)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Non-steroidal anti-inflammatory drug
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (6.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.6–9.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (4.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.9–7.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5 (12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.0–23.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.060
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.3 (0.8–14.0)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ACE II inhibitor
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19 (10.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.0–14.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (8.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.8–13.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7 (17.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5.5–30.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.134
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.4 (0.7–7.2)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Angiotensin II receptor blocker
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (5.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.2–8.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7 (4.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.3–8.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–16.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.449
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.6 (0.3–7.5)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Beta and calcium channel blockers
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25 (13.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.7–18.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.0–16.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9 (23.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9.4–36.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.068
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.4 (0.8–6.4)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Levothyroxine
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (5.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.2–8.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (7.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.8–11.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–9.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.122
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0 (0.0–1.6)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            Genetic trait
+           </italic>
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Beta-thalassemic Trait
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19 (10.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6.0–14.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19 (13.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.7–18.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0–2.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.015
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0 (0.0–0.7)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          G6PDH deficiency
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24 (13.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.2–18.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (9.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.9–14.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (25.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11.5–39.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.015
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.2 (1.1–8.5)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           <italic>
+            Serology
+           </italic>
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Mean ± SD
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           95% CI (IQR)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Mean ± SD
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           95% CI (IQR)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Mean ± SD
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           95% CI (IQR)
+          </bold>
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          <bold>
+           P value
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          White blood cell count (x10          /µL)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.3 ± 3.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.8–8.7 (4.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.1 ± 2.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.7–8.5 (4.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8.4 ± 3.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7.3–9.6 (4.6)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          0.444
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Lymphocyte count (x10          /µL)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1 ± 0.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.0–1.2 (0.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2 ± 0.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1–1.2 (0.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.0 ± 0.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8–1.3 (0.6)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          0.182
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Group A: patients with asymptomatic or pauci-symptomatic disease.
+       </p>
+       <p>
+        Group S: moderate or severe disease.
+       </p>
+       <p>
+        SD, Standard deviation; IQR, Interquartile range; CI, Confidence interval.
+       </p>
+       <p>
+        Chronic obstructive pulmonary disease was defined as a diagnosis of emphysema and/or bronchitis.
+       </p>
+       <p>
+        Ischemic heart disease was categorized as a history of myocardial infarction or angina.
+       </p>
+       <p>
+        Autoimmune disease included Hashimoto’s thyroiditis, type I diabetes mellitus, rheumatoid arthritis, systemic lupus erythematosus, and autoimmune hepatitis.
+       </p>
+       <p>
+        Non-steroidal anti-inflammatory drugs included aspirin, ibuprofen, diclofenac, naproxen, indomethacin, celecoxib, and meloxicam.
+       </p>
+       <p>
+        Angiotensin-converting enzyme II inhibitors included captopril, enalapril, lisinopril, fosinopril, ramipril, and quinapril.
+       </p>
+       <p>
+        Angiotensin II receptor blockers included losartan, candesartan, irbesartan, olmesartan, and valsartan.
+       </p>
+       <p>
+        Dihydropyridine calcium channel blockers included amlodipine and nifedipine. Beta blockers included atenolol, bisoprolol, labetalol, metoprolol, and nebivolol.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Approximately 13% of the examined subjects had been vaccinated against the flu in the last year. This percentage rose to 15% when the 3-year period 2017-2020 was considered. None of the 39 patients with moderate or severe disease had received anti-flu vaccination during this 3-year period, unlike the group of patients with pauci-symptomatic infection or mild symptoms [0% vs 16.1%, OR 0.07 (95% CI 0–0.5), P = 0.002]. During the winter season in Sardinia of 2019, about 14.2% of the general population underwent flu vaccination. An annual flu vaccination is strongly recommended for people at risk of severe outcomes and in 2019 was administered to 46,5% of the population over 65 years of age (      ). It is interesting to note that none of the 22 seriously ill patients, who were over the age of 65, had received a flu vaccination in recent years.
+     </p>
+     <p>
+      About 8% of the subjects examined had ischemic heart disease, 15% arterial hypertension, 10% hypercholesterolemia, 12% autoimmune diseases and 3.3% type 1 diabetes mellitus. Comorbidities were present in both groups of patients. The only significant difference was a higher frequency of autoimmune diseases (rheumatoid arthritis, type I diabetes and autoimmune hepatitis) in group S [28.2% vs 7.7%, OR 4.7 (95% CI 1.9–11.9), P = 0.001]. Type I diabetes mellitus was present with a higher frequency in the group of patients with a severe clinical picture (5.1% vs 2.8%), but considered separately, did not reach statistical significance.
+     </p>
+     <p>
+      Five percent (5%) of group S subjects took steroidal anti-inflammatory drugs, 6% non-steroidal anti-inflammatory drugs, 10.4% ACE II inhibitors and/or blockers of angiotensin II receptors (5.5%), 13.7% beta blockers or calcium channel blockers. No statistically significant differences were observed when comparing chronic drug intake between the two groups.
+     </p>
+     <p>
+      Additionally, two very common genetic traits were considered in the Sardinian population: the beta thalassemic trait and the G6PDH enzyme deficiency. Nineteen COVID-19 positive patients (10.4%) were heterozygous for the β      -39 mutation of the beta globin chain. None of the group S patients carried this mutation [0% vs 13.3%, OR 0.2 (95% CI 0.1–0.8), P = 0.015].
+     </p>
+     <p>
+      Twenty-four patients (13.2%) had G6PDH enzyme deficiency, resulting in a markedly higher frequency in group S patients compared to group A patients [25.6% vs 9.8%, OR 3.2 (95% CI 1.3–7.9), P = 0.015]. The gene encoding G6PDH maps to the long arm of the X chromosome. There are different genetic variants of G6PDH depending on the geographical area. In Sardinia the enzyme deficiency is caused by the Mediterranean variant (G6PDH      ) which is characterized by the absence or marked reduction of enzymatic activity (0%–10% compared to normal enzyme activity) (      ). It should be noted that all 10 patients (25.6%) with G6PDH deficiency of the 39 patients of group S were male and therefore lacked or had markedly reduced enzyme activity.
+     </p>
+    </sec>
+    <sec id="s3_2">
+     <title>
+      Allele and Haplotype Frequencies Associated With SARS-CoV-2 Infection
+     </title>
+     <p>
+      The HLA allele frequencies are illustrated in      and the      . The 364 alleles of the 182 patients infected by SARS-CoV-2 were compared to the 1,238 alleles of the 619 unrelated healthy controls representative of the HLA frequencies in the Sardinian population. No substantial differences were observed for the HLA Class I (HLA-A, HLA-B, HLA-C) and Class II (HLA-DRB1) alleles. Most of the significant differences (P value &lt; 0.05) were lost after adjustment for multiple comparisons (Pc). The only allele that maintained significance was HLA-C*04:01 [OR = 1.8 (95% CI: 1.3–2.4), P = 0.001; Pc = 0.012]. The HLA-B40 antigen, which initially resulted to be significantly associated to SARS-Cov-2 (      ), only exhibited the single allele HLA-B*40:02 in the control group, while in patients it was present with two allelic variants: HLA-B*40:02 and HLA-B*40:01. Therefore, even if the HLA-B40 antigen remained weakly significant after correction for multiple-testing, the alleles lost statistical significance (P = 0.016, Pc = 0.24).
+     </p>
+     <table-wrap id="T2" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Comparisons of HLA Class I and Class II allele frequencies between patients and controls and patients with an asymptomatic/pauci-symptomatic or moderate/severe disease course.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top"/>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Controls (1238 alleles)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Patients (364 alleles)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          P values
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Group A (286 alleles)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Group S (78 alleles)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          P values
+         </th>
+        </tr>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top"/>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+          <sub>
+           c
+          </sub>
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+          <sub>
+           c
+          </sub>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="10" rowspan="1" valign="top">
+          <bold>
+           HLA-A
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*11
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          81 (6.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          36 (9.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.039
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.694
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          32 (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.530
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*26
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          28 (2.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.133
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          7 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*30
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          230 (18.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          56 (15.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.186
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          45 (15.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (15.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*03
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          65 (5.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26 (7.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.197
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          19 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.795
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*33
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          45 (3.63)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.242
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          7 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*29
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26 (2.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.274
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          4 (1.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.582
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*32
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          108 (8.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          38 (10.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.351
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          28 (9.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.411
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          102 (8.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.375
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          21 (7.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.187
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          363 (29.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          98 (26.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.392
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          79 (27.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (29.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.778
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*24
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          119 (9.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          38 (10.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.618
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          32 (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.530
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*23
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20 (1.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.626
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002*
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.034
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="10" rowspan="1" valign="top">
+          <bold>
+           HLA-B
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*40
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11 (0.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (3.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.001
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.049
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          7 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.038
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.950
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*58
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          141 (11.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (6.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.059
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          19 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.795
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*55
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          40 (3.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (0.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.066
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          2 (0.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*53
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5 (0.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.077
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          4 (1.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.068
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*35
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          153 (12.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          58 (15.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.078
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          45 (15.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (15.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*18
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          315 (25.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          76 (20.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.082
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          58 (20.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (20.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*08
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          30 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.147
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          11 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.537
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*44
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          58 (4.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.175
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          17 (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*14
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          74 (6.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          28 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.271
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          19 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (10.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.328
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*07
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          37 (3.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.399
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          7 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.038
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.950
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*39
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (1.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.659
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          9 (3.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.214
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (1.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.667
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          7 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*15
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (1.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.667
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          4 (1.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.068
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*49
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          75 (6.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20 (5.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.801
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          19 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.271
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*51
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          79 (6.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (6.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.903
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          21 (7.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.187
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="10" rowspan="1" valign="top">
+          <bold>
+           HLA-C
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*04
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          139 (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          66 (18.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.001^
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.012
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          51 (17.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (17.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*07
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          369 (29.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          88 (24.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.040
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.527
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          68 (23.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (29.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.305
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*16
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18 (4.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.040
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.567
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          15 (5.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.544
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          77 (6.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34 (9.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.046
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.593
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          34 (11.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.010
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.120
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*03
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          48 (3.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (2.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.145
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          4 (1.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.068
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.816
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*06
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          76 (6.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (4.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.249
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          15 (5.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.544
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*05
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          243 (19.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          62 (17.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.288
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          45 (15.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (20.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.310
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*08
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          73 (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26 (7.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.387
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          17 (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (10.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.206
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          73 (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.618
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          19 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.271
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26 (2.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (1.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.676
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          7 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.354
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*15
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          54 (4.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.768
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          9 (3.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.488
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="10" rowspan="1" valign="top">
+          <bold>
+           HLA-DRB1
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*14
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20 (5.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0193
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.251
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.387
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*11
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          195 (15.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          44 (12.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0941
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          43
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (15.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.021
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.252
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19 (1.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (0.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.193
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (0.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*07
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          68 (5.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.227
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (4.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.747
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          51 (4.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18 (4.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.466
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.387
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*16
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          240 (19.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          76 (20.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.549
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          55
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (19.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18 (23.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.523
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          104 (8.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34 (9.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.595
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (8.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.189
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*04
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          164 (13.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          52 (14.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.601
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          32
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (20.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.038
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.456
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*03
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          272 (22.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82 (22.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.829
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          66
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (23.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (20.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.760
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*15
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          43 (3.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (3.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.743
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DR*08
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23 (1.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.486
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.024
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        ^HLA-C*04:01 was the only allelic variant observed for the HLA-C4 antigen. The difference observed for this allele between patients and controls remained significant after correction for multiple comparisons [OR = 1.8 (95% CI: 1.3–2.4)].
+       </p>
+       <p>
+        For HLA-B40: HLA-B*40:02 was found in controls and HLA-B*40:02 and HLA-BB*40:01 in patients; statistical significance was lost after analyzing each single allele.
+       </p>
+       <p>
+        *The only allelic variant observed for HLA-A23 was HLA-A*23:01.
+       </p>
+       <p>
+        The only allelic variant observed for HLA-DR8 was HLA-DRB1*08:01.
+       </p>
+       <p>
+        When comparing patients with pauci-symptomatic or mild disease to patients with moderate, severe or critical disease, only HLA-A*23:01 and HLA-DRB1*08:01 (OR &gt; 2.5) maintained statistical significance after correction for multiple comparisons.
+       </p>
+       <p>
+        Group A: patients with asymptomatic or pauci-symptomatic disease.
+       </p>
+       <p>
+        Group S: patients with moderate or severe disease.
+       </p>
+       <p>
+        P
+        <sub>
+         c
+        </sub>
+        was obtained by multiplying the uncorrected P value by the number of alleles observed.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      More important results were obtained for the haplotypes that characterize the Sardinian population (      ). Rather surprisingly, none of the patients affected by COVID-19 carried the HLA-A*02:05, B*58:01, C*07:01, DRB1*03:01 extended haplotype [OR 0.1 (95% CI 0–0.6), P = 0.0006, Pc = 0.015]. After breaking down this extended haplotype into partial haplotypes with three or two loci, deriving from the different allelic combinations, it emerged that no patient infected with SARS-CoV-2 had the three-loci extended haplotype HLA-A*02:05, B*58:01, DR*03:01 [OR 0.1 (95% CI 0–0.5), P = 0.0007, Pc = 0.016]. Also, the HLA-A*02:05, B*58:01, C*07:01 three-loci haplotype had a significantly reduced frequency in patients compared to controls [OR 0.4 (95% CI 0.2–0.7), P = 0.0004, Pc = 0.011].
+     </p>
+     <table-wrap id="T3" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        Comparison of HLA haplotype frequencies between controls and patients.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="2" valign="top">
+          HLA Haplotypes
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Healthy controls (1238 haplotypes)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Covid-19 pts (364 haplotypes)
+         </th>
+         <th align="center" colspan="3" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          OR(95% CI)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+          <sub>
+           c
+          </sub>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Complete HLA haplotypes
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01, C*07:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.004
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.4 (0.2–0.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.103
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01, C*07:01, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          30 (2.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           6.3 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0 (0–0.6)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.015
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, B*14:02, C*08:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (0.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.3 (1.5–12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Partial HLA haplotypes
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01, C*07:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          107 (8.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (3.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           3.7 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.4 (0.2–0.7)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.011
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.004
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.4 (0.2–0.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.107
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, C*07:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          106 (8.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18 (4.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.025
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6 (0.3–0.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.654
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*58:01, C*07:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          101 (8.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (4.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.016
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5 (0.3–0.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.454
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          31 (2.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           6.8 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0 (0–0.4)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.016
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, C*07:01, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          57 (4.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (1.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.009
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.3 (0.1–0.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.226
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*58:01, C*07:01, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          39 (3.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (1.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.150
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5 (0.2–1.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*18:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          46 (3.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (0.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           6.9 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.1 (0.0–0.6)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.017
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, B*14:02, C*08:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           8.2 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           3.8 (1.6–8.8)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.025
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, B*14:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (0.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.3 (1.5–12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, C*08:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8 (0.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.002
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.3 (1.5–12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*14:02, C*08:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (1.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.285
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.6 (0.7–3.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          109 (8.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12 (3.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           2.6 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.4 (0.2–0.7)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.007
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, C*07:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          209 (16.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          36 (9.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           8.9 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.5 (0.4–0.8)
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.028
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          138 (11.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26 (7.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.030
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6 (0.4–1.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*58:01, C*07:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          134 (10.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (6.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.006
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5 (0.3–0.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.193
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*58:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          102 (8.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (4.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.012
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5 (0.3–0.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.347
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-C*07:01, DRB1*16:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          158 (12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34 (9.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.081
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7 (0.5–1.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          111 (9.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (6.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.084
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7 (0.4–1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*58:01, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          43 (3.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (1.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.084
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5 (0.2–1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-C*07:01, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          109 (8.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24 (6.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.196
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7 (0.4–1.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, B*14:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (4.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           2.2 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4.0 (1.8–9.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.006
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, C*08:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13 (1.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14 (3.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           8.2 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.8 (1.6–8.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.025
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          158 (12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          32 (8.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.042
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7 (0.4–1.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*14:02, C*08:02
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          73 (5.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26 (7.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.387
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.2 (0.7–2.0)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*14:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (1.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.285
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.6 (0.7–3.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-C*08:02, DRB1*03:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22 (1.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (2.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.285
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.6 (0.7–3.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        P
+        <sub>
+         c
+        </sub>
+        was obtained by multiplying the uncorrected P value by the number of alleles observed.
+       </p>
+       <p>
+        Results displaying a P
+        <sub>
+         c
+        </sub>
+        &lt; 0.05 are in bold.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Conversely, the HLA-A*30:02, B*14:02, C*08:02 three-loci haplotype was overexpressed in patients compared to the controls [OR 3.8 (95% CI 1.8 –8.1), P = 0.0008, Pc = 0.025].
+     </p>
+     <p>
+      Overall, the analysis of the HLA alleles and haplotype frequencies revealed seven HLA alleles or haplotypes with a protective effect (OR &lt;1) against SARS-CoV-2 infection and five alleles or haplotypes that instead were associated with an increased susceptibility to infection (      ).
+     </p>
+    </sec>
+    <sec id="s3_3">
+     <title>
+      Correlation Between HLA Allele and Haplotype Frequencies and Severity of Clinical Manifestations in SARS-CoV-2 Infection
+     </title>
+     <p>
+      Comparisons of the allele frequencies between the two groups A and S are shown in      and the      . The alleles that remained significant after correction for multiple comparisons were HLA-A*23:01 and HLA-DRB1*08:01. These two alleles were exclusively present in patients with a moderate or severe disease course [OR &gt; 2.5 (95% CI 2.7–220.6), P = 0.002, Pc = 0.038 and OR &gt; 2.5 (95% CI 2.7–220.6), P = 0.002; Pc = 0.024, respectively]. However, it must be considered that HLA-A*23:01 is an uncommon allele in the Sardinian population for which it is difficult to assess its true impact on the evolution of the disease. Furthermore, the association with the severe form of the disease could also be distorted by the limited number of subjects who carried this allele and the fact that they all belonged to the same family nucleus.
+     </p>
+     <table-wrap id="T4" position="float">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        Comparison of HLA allele and haplotype frequencies between patients with pauci-symptomatic/mild (Group A) and moderate/severe disease (Group S).
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="2" valign="top">
+          Alleles/haplotypes
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Healthy controls (1238 alleles)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Group A (286 alleles)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Group S (78 alleles)
+         </th>
+         <th align="center" colspan="3" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          n (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          OR (95% CI)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          P
+          <sub>
+           c
+          </sub>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           HLA-A
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*23:01
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          20 (1.6)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.002
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          &gt; 2.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.034
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*69:01
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.045
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          &gt; 0.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.765
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           HLA-B
+          </bold>
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*07:02 or B*07:05
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          37 (3.0)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          6 (2.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.025
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.9 (1.0–14.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.950
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*40:02
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          11 (0.9)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          6 (2.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6 (7.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.029
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3.9 (1.2–12.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.950
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           HLA-C
+          </bold>
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*12:02, 12:03
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          77 (6.2)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          34 (11.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2 (2.6)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.010
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.2 (0.0–0.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.120
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           HLA-DRB1
+          </bold>
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DRB1*08:01
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          23 (1.9)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.002
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          &gt; 2.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.024
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DRB1*11:01, 11:02, 11:03, 11:04
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          195 (15.8)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          42 (14.7)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4 (5.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.022
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.3 (0.1–0.9)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.252
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DRB1*04:03 or DRB1*04:05
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          164 (13.2)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          32 (11.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16 (20.5)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.038
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.0 (1.0–4.1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.456
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Haplotypes
+          </bold>
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="2" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+         <td align="center" colspan="1" rowspan="1" valign="top"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:05, B*58:01, C*07:01
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          107 (8.6)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          12 (4.2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.077
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0 (0–1.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*30:02, B*14:02, C*08:02
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          13 (1.1)
+         </td>
+         <td align="center" colspan="2" rowspan="1" valign="top">
+          4 (1.4)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10 (12.8)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           5.9 · 10
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10.3 (2.9–46.3)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           0.022
+          </bold>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        P
+        <sub>
+         c
+        </sub>
+        was obtained by multiplying the uncorrected P value by the number of alleles observed.
+       </p>
+       <p>
+        Results displaying a P or a P
+        <sub>
+         c
+        </sub>
+        &lt; 0.05 are in bold.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Only the HLA-A*30:02, B*14:02, C*08:02 three-loci haplotype maintained statistical significance after correction of the P values (      ). This haplotype strongly correlated with disease severity [OR 10.4 (95% CI 3.2–34.1), P = 0.0007; Pc = 0.008].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     Investigation of the SARS-CoV-2 infection confirmed that patients over 65 years of age, particularly males, with comorbidities or organ-associated pathologies are at a higher risk of developing a severe, critical or even fatal disease course (     ). Consistent with the findings of other authors, type I diabetes mellitus was more common in patients with the severe clinical manifestations of SARS-CoV-2. Concomitant conditions such as hypertension and cardiovascular disease, obesity and/or a pro-inflammatory and pro-coagulative state are all likely to increase the risk of a worse outcome (     ). The fact that type I diabetes mellitus was not significantly associated to a worse prognosis in our study can be attributed to the limited number of patients affected by this comorbidity and evidence of a good glucometabolic control. Overall, our findings suggest that autoimmune diseases (rheumatoid arthritis, autoimmune hepatitis, and type 1 diabetes) are associated with the most severe cases.
+    </p>
+    <p>
+     In autoimmune disorders, impaired regulation of cell-mediated immune response mechanisms triggers an exaggerated release of proinflammatory cytokines and chemokines by T lymphocytes leading to the so-called “cytokine storm” that often complicates the disease course of COVID-19 (     ). Indeed, it appears that SARS-CoV-2 positive patients receiving immunosuppressive treatment for an autoimmune pathology have a much lower risk of developing severe clinical manifestations, and so far no complications such as acute respiratory distress syndrome (ARDS) have been reported in these patients (     ,     ).
+    </p>
+    <p>
+     Similar to the data from Wuhan (     ), Lombardy (     ) and the USA (     ), also in our study the female gender was associated with less severe clinical symptoms. In fact, only 28% of the patients who required oxygen therapy or mechanical ventilation were female. Female sex hormones can only partially explain this protection against SARS-CoV-2 infection. An important role can certainly be attributed to the X chromosome and, in particular, to the conservation of interacting gene clusters related to immune response (     ). These genes (microRNA, TLR-7, TLR-8, the chemokine receptor CXCR3 and the interleukin-2 receptor subunit gamma IL2RG etc.) are more highly expressed in women than in males (     ). Chromosome X inactivation is random in normal females for which the X chromosome inherited from the mother is active in some cells and the X chromosome inherited from the father is active in others. However, some genes on the X chromosome escape X-inactivation and may at least partially explain why women develop higher innate, humoral and cellular immune responses against pathogens and viral infections (     ).
+    </p>
+    <p>
+     Human Leukocyte Antigen (HLA) molecules play a critical role in the battle between host innate and adaptive (cell-mediated and humoral) immune response mechanisms and invading pathogens. Epitope specificity of HLA Class I molecules creates diversity in innate immune response mechanisms and sees NK cells among the main protagonists. This lymphocyte subpopulation regulates its activity through binding of HLA class I molecules with specific activating and inhibitory receptors (killer cell immunoglobulin-like receptors, NKG2D etc.) and thereby mediates innate defense strategies against viral infections (     ,     ).
+    </p>
+    <p>
+     The HLA complex also has a central role in the recognition and presentation of viral antigens to the immune system (CD4+ and CD8+ lymphocytes) generating a wide range of more or less effective responses. The degree of affinity of the different HLA molecules for specific viral peptides of coronaviruses, such as SARS-CoV and MERS-CoV, drastically influences immune response mechanisms and the consequential clinical manifestations of infection (     –     ).
+    </p>
+    <p>
+     The HLA is a highly polymorphic system with profound differences in different geographical areas. For this reason, association studies in the literature often report different and sometimes conflicting results. In the study conducted by Ellinghaus and colleagues, analysis of the classical HLA loci (     ) was performed to identify which variants could be correlated to the clinical variability of the COVID-19 disease course. All the HLA allelic variants, observed in 750 patients from Lombardy (northern Italy region) and 850 Spanish patients, lost significance after appropriate statistical correction.
+    </p>
+    <p>
+     Conversely, a study including about 500,000 voluntary donors enrolled in the Italian Bone Marrow Donor Registry (IBMDR) and representative of the entire Italian peninsula, compared the distribution of certain genes crucial to functioning of the immune system to examine whether they could underlie the geographic differences in COVID-19 incidence. According to the results, the prevalence of the HLA-C*01 and HLA-B*44 alleles are predictive of the incidence of COVID-19 in the different Italian regions and therefore confer susceptibility to SARS-CoV-2 infection (     ). This association was not observed in the Sardinian population, probably because the HLA-C*01 and HLA-B*44 alleles, while being fairly common in the north eastern areas of Italy, are scarcely represented in the central-south (     ). In other populations, the HLA-B*44 allele would seem to exert a protective effect (     ), as opposite to what was observed by Correale et al. (     ). In our study of the Sardinian population, we found that the HLA-C*04:01 allele conferred susceptibility to SARS-CoV-2 infection.
+    </p>
+    <p>
+     NK cell function is regulated by a large number of receptors that transmit either activating or inhibitory signals. Killer cell immunoglobulin-like receptors (KIRs) are among the most important receptors used by NK cells to distinguish viruses and other pathogens from healthy self-counterparts. HLA-C is the dominant ligand for KIR on NK cells. All HLA-C allotypes fall into two major groups of KIR epitopes (HLA-C1 and HLA-C2) on the basis of a dimorphism at position 80 of the alpha domain. The allele found associated to SARS-Cov-2 in our study encodes an HLA-C antigen pertaining to the HLA-C2 group which has high binding affinity for the activating KIR2DS1 receptor and its inhibitory homologue KIR2DL1 (     ). Upon binding to HLA-C2, the inhibitory signal generated by KIR2DL1 would seem to override target cell-induced activating signals
+     <italic>
+      via
+     </italic>
+     KIR2DS1. It is plausible that the higher frequency of HLA-C*04:01 molecules observed in our SARS-CoV-2 positive patients creates an imbalance between HLA molecules of group C1 in favor of those of HLA-C2. This could cause a reduction in some of the functional KIR-HLA ligand interactions with a consequent decrease in the ability of NK cells to control infection.
+    </p>
+    <p>
+     One of the most interesting findings emerging from the analysis of HLA in Sardinian SARS-CoV-2 patients was the total absence of the extended haplotype HLA-A*02:05, B*58:01, C*07:01, DRB1*03:01. This HLA extended haplotype is third in order of frequency in the Sardinian population (     ) and would therefore seem to confer protection against SARS-CoV-2 infection. The three-loci haplotype HLA-A*02:05, B*58:01 DRB1*03:01, derived from this extended haplotype, was also completely absent in SARS-CoV-2 patients whereas the other three-loci haplotype HLA-A*02:05, B*58:01 C*07:01 was present with a significantly lower frequency in patients compared to the general Sardinian population. However, patients carrying the latter three-loci haplotype only had mild disease. Therefore, it is likely that both these three-loci haplotypes exert a protective effect against the severe clinical manifestations of SARS-CoV-2 infection.
+    </p>
+    <p>
+     The extended haplotype HLA-A*02:05, B*58:01, C*07:01, DRB1*03:01 is extremely rare in other populations where it has a frequency of &lt;0.1% (
+     <uri ns0:href="http://www.allelefrequencies.net/" ns0:type="simple">
+      http://www.allelefrequencies.net/
+     </uri>
+     ). Therefore, it will not be possible to confirm this result in other geographical areas. The Sardinian population still today represents a genetic isolate with a lowly polymorphic HLA system. This low level of polymorphism makes it easier to analyze the role of HLA molecules in the onset and progression of diseases that are strongly influenced by the immune system.
+    </p>
+    <p>
+     It is interesting to note how the protective effect against SARS-CoV-2 infection is provided by the extended HLA haplotype and not the individual component alleles. This suggests that combinations rather than single HLA class I and II alleles are able to generate interactions within the complex network of the immune system that allow for an efficient fight against infection.
+    </p>
+    <p>
+     On the contrary, we observed a greater susceptibility to SARS-CoV-2 infection and a severe disease course in subjects who possessed the HLA-A*30:02, B*14:02, C*08:02 three-loci haplotype. Previous studies have shown that the two-loci haplotype HLA-B*14:02, C*08:02 is associated with hypersensitivity reactions to non-nucleoside reverse transcriptase inhibitors (in particular nevirapine) which are used in the treatment of HIV (     ), while HLA-A*30:02 is part of an extended haplotype commonly found in Sardinia (HLA-A*30:02, B*18:01, C*05:01, DRB1*03:01) that is associated with autoimmune diseases such as multiple sclerosis and autoimmune type I hepatitis (     ,     ). It is likely that these HLA molecules have low binding affinity for the antigenic peptides of SARS-CoV-2, generating immune responses that cannot effectively clear the virus, but instead overreact causing self-damage.
+    </p>
+    <p>
+     Finally, we need to discuss the HLA-DRB1*08 (HLA-DRB1*08:01) allele since it appears to be the allele associated with the highest risk for severe clinical manifestations in Sardinian SARS-CoV-2 patients. Because this allele confers susceptibility to numerous autoimmune diseases (     ), it can be postulated that the more severe clinical manifestations observed in SARS-CoV-2 patients carrying this allele are caused by altered regulation of cell-mediated immune response (     ).
+    </p>
+    <p>
+     It is clear that the associations between HLA and susceptibility to SARS-CoV-2 infection obtained in our study may be difficult to confirm in other populations with a more polymorphic HLA system. However, they provide valuable information on the binding affinity between viral peptides and MHC class I and II antigens and can contribute to the creation of new antiviral molecules and the selection of vaccines with greater immunogenic potential.
+    </p>
+    <p>
+     Another surprising finding was that none of the 39 patients with severe disease had been vaccinated against the flu which is strongly recommended, particularly for people over 65 years of age. In Sardinia, the average flu vaccination rate for this category of the population is 46.2%. There is growing consensus that influenza vaccination does not increase the risk of an adverse outcome of COVID-19 but instead may provide some protection against the onset of the more severe or critical clinical manifestations (     ). The pathogenesis of influenza viruses and coronaviruses depends upon their ability to dock and enter suitable human host cells. In influenza, the two major internal proteins hemagglutinin (HA) and neuraminidase (NA) mediate virus entry whereas in COVID-19 the spike (S) protein is the leading mediator of virus entry and is a primary determinant of cell tropism and pathogenesis. HA and S proteins are both heavily glycosylated which could make them susceptible to similar components of innate and adaptive immunity (     ). Further explanation for a protective effect of the flu vaccine could be that the vaccine for H1N1 seems to have a protective effect on other viruses such as H3N2, thanks to a protective cross-response mediated by Toll Like Receptors through MHC II molecules such as DRB1*04:01 (     ).
+    </p>
+    <p>
+     Another very interesting finding is the higher frequency of G6PDH enzyme deficiency in patients with severe symptoms, compared to pauci-symptomatic patients (25.6% vs 9.8%). It should be noted that the G6PDH deficiency found in 25.6% of the 39 patients with severe clinical pictures was characterized by a marked reduction (10%) in normal enzymatic activity. The importance of this finding should not be underestimated, particularly in light of the high frequency of the G6PDH     enzymatic variant in Sardinia which fluctuates between 10-20% depending on the coastal or inland areas of the island (     ). Although it is rather difficult to explain how the absence of enzymatic activity can promote the onset of severe systemic manifestations in subjects affected by COVID-19, previous studies have demonstrated that virus infection induces production of reactive oxygen species (ROS) and reactive nitrogen species (RNS), which can both cause damage to proteins, DNA and cellular components of cells when antioxidant enzyme metabolism is impaired. Since G6PDH deficiency triggers a redox imbalance in the erythrocytes leading to hemolysis and tissue damage as a result of insufficient oxygen transportation, COVID-19 might increase the mortality risk of patients with this deficit (     ,     ).
+    </p>
+    <p>
+     Another finding worthy of mention was that none of the seriously ill patients were carriers of beta-thalassemia. Two recent reports suggest that this genetic trait is likely to exert a protective effect against COVID-19 since Italian regions with a high number of beta-thalassemia carriers such as Sicily, Puglia, and Sardinia have a very low incidence of SARS-Cov-2 infections (     ,     ). This hypothesis is supported by the consideration that ORF8 protein and the surface glycoproteins of SARS-Cov-2 were shown capable of binding to porphyrins. Moreover, computational proteomic analysis revealed that some SARS-CoV-2 proteins could attack the heme on the 1-ß chain of hemoglobin, resulting in the dissociation of iron to form porphyrin SARS-Cov-2 viral proteins (     ).
+    </p>
+    <p>
+     In synthesis, this study highlights numerous clinical and genetic factors that are more or less capable of influencing the course of SARS-CoV-2, all of which can lead to the dreaded severe clinical manifestations of the infection (     ).
+    </p>
+    <p>
+     The new associations with COVID-19 revealed in the present study deserve investigation on larger cohorts of patients. Meanwhile, the information provided should contribute to the optimisation of treatment and management of patients with the disease. Our results also highlight the importance of influenza vaccination in the battle against COVID-19. During the winter months, SARS-CoV-2 infection can initially easily be confused with the flu and lead to a delayed diagnosis which in turn hampers timely contact tracing procedures to contain further spread of the disease and overload of public health systems. Furthermore, this and other studies suggest that the flu vaccine may offer a certain level of protection against the more severe clinical forms of COVID-19.
+    </p>
+    <p>
+     However, despite the importance of the information provided, our study only represents a small step ahead in the global effort to understand the disease. Therefore, we strongly recommend analysis on larger samples and diverse populations to further unveil the immunological pathways leading to disease severity and death.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="data-availability">
+    <title>
+     Data Availability Statement
+    </title>
+    <p>
+     The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6">
+    <title>
+     Ethics Statement
+    </title>
+    <p>
+     The studies involving human participants were reviewed and approved by Ethics Committee of the Azienda Ospedaliero Universitaria di Cagliari. The patients/participants provided their written informed consent to participate in this study.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Author ContributionS
+    </title>
+    <p>
+     RL, MC, DF, AP, and LC contributed to study conception and design. RL, MC, SD, GA, DF, SS, AL, FM, DS, WC, MK, APa, MCo, CB, GS, AP and LC especially contributed to acquiring data. RL, SC, MM, SL, SR, RS, RP, MS, PR, GO, SO, AP, LC contributed to analyzing data. RL, MC, SC, MM, AP, LC contributed to interpreting data. RL, MC, SC, MM, MGC, SDG, AR, SmD, SOr, RPe, FMa, DF, AP, and LC contributed to enhancing the intellectual content. All authors contributed to the article and approved the submitted version.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s8" sec-type="funding-information">
+    <title>
+     Funding
+    </title>
+    <p>
+     This research was supported by: Fondazione di Sardegna: grant # 2020.2197 Associazione per l’Avanzamento della Ricerca per i Trapianti O.D.V.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s9" sec-type="COI-statement">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

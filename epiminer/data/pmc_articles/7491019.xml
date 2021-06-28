@@ -1,0 +1,5910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Correlation of the two most frequent HLA haplotypes in the Italian population to the differential regional incidence of Covid-19
+ </title>
+ <abstract>
+  <p id="Par1">
+   Understanding how HLA polymorphisms may affect both susceptibility, course and severity of Covid-19 infection could help both at the clinical level to identify individuals at higher risk from the disease and at the epidemiological one to explain the differences in the epidemic trend among countries or even within a specific country. Covid-19 disease in Italy showed a peculiar geographical distribution from the northern most affected regions to the southern ones only slightly touched.
+  </p>
+  <p id="Par2">
+   In this study we analysed the regional frequencies for the most common Italian haplotypes from the Italian Bone Marrow Donor Registry (HLA-A, -B, -C and -DRB1 at four-digit level). Then we performed Pearson correlation analyses among regional haplotypes estimated frequency in the population and Covid-19 incidence and mortality.
+  </p>
+  <p id="Par3">
+   In this study we found that the two most frequent HLA haplotypes in the Italian population, HLA-A*:01:01g-B*08:01 g-C*07:01g-DRB1*03:01g and HLA-A*02.01g-B*18.01g-C*07.01g-DRB1*11.04g, had a regional distribution overlapping that of Covid-19 and showed respectively a positive (suggestive of susceptibility) and negative (suggestive of protection) significant correlation with both Covid-19 incidence and mortality.
+  </p>
+  <p id="Par4">
+   Based on these results, in order to define such HLA haplotypes as a factor effectively associated to the disease susceptibility, the creation of national networks that can collect patients’ samples from all regions for HLA typing should be highly encouraged.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Background
+    </title>
+    <p id="Par15">
+     The novel coronavirus identified in the last months of 2019 (SARS-CoV-2) belongs to the family of already known human CoVs of zoonotic origin, along with 229E, OC43, HKU1, NL63, that are community acquired CoVs, well adapted to humans, causing mild respiratory diseases. The CoVs causing severe acute respiratory syndrome (SARS-CoV) and Middle East respiratory syndrome (MERS-CoV), that are on the contrary highly pathogenic and cause severe respiratory disease with significantly high case fatality (9.6% for SARS-CoV and 34.4% in MERS-CoV), also belong to this family [     ]. SARS-CoV-2-induced pneumonia, named by World Health Organization as coronavirus disease 2019 (Covid-19), has been declared a pandemic on the 11th of March 2020 since its first appearance in Wuhan, China, in December 2019 [     ]. Italy was the first European country to report an outbreak of infections with two hot spots located in the northern of Italy, which led to the Lombardia and Veneto regions being defined as red zone, followed by complete isolation of these areas from the 21th of February onward. By that time, the epidemic had spread all over Italy and the lockdown was extended to the entire country on the 9th of March to further limit the diffusion and avoid the collapse of the public health system [     ]. Since then, for many weeks Italy has been the country with the highest number of cases and deaths worldwide. With the pandemic evolving it has settled in sixth place for the number of confirmed infections in the world (more than 233,000) and third for the number of deaths (more than 33,300) as of the 31st of May (
+     <ext-link ext-link-type="uri" ns0:href="https://coronavirus.jhu.edu/map.html">
+      https://coronavirus.jhu.edu/map.html
+     </ext-link>
+     ) [     ]. These numbers could even be an underestimation, because of hidden asymptomatic or pauci-symptomatic individuals not subjected to the control swab. Even death counts could have been underreported especially in the climax of the emergency, as supported by several studies and by a report analysis of mortality in the period of epidemic from Covid-19 by National Institute for Social Security (INPS) [     ,     ]. During this time the assistance and monitoring network was unprepared to face a pathology still unknown in many respects, hospitals and intensive care units were overcrowded and many people may have died in their homes without testing. A recent observational study conducted on a small community in Nembro, a little town located in Lombardia, one of the most affected areas of northern Italy, reported an all-cause mortality between January and April 2020, several times higher than that recorded in the previous 8 years in the same time frame, reaching a peak of 154.4 per 1000 person years in March 2020
+     <italic>
+      vs
+     </italic>
+     a range 1.0 to 21.5 per 1000 person years between January 2012 and February 2020 [     ]. Overall, Covid-19 deaths were mostly observed in males and older patients with pre-existing comorbidities [     ,     ]. However, the still inexplicable high Case Fatality Rate that has been reported in Italy compared to other countries for the age group over 60, has not proven relationship with the demographic characteristics and the percentage in the elderly population [     ,     ].
+    </p>
+    <p id="Par16">
+     Even though Covid-19 pathogenesis has not yet been fully disclosed, the host antiviral response undoubtedly plays a key role in the disease course. Immunopathogenesis and induction of a proinflammatory cytokine storm are the key event in disease progression into severe forms leading to acute respiratory distress syndrome (ARDS). When the adaptive immune response fails to clear the infection from the host, the disease progresses to more severe stages since the virus rapidly spreads into different organs (lungs, intestine, kidney) eliciting a massive tissue destruction and a strong inflammatory response. These are mediated by innate immune cells, mainly macrophages and granulocytes, that induce a severe or even fatal clinical outcome caused by multi-organ dysfunction, through a cytokine storm that spreads throughout the body [     ]. High systemic levels of IL-6, IL-7, TNFα, IL-10, G-CSF, MCP-1 and MIP1α have been observed in the blood of Covid-19 patients, with a correlation to disease severity [     ].
+    </p>
+    <p id="Par17">
+     A fundamental question that urgently deserves an answer is why, even considering only symptomatic patients, the disease progresses into a severe form compromising respiratory function only in a fraction of the infected individuals. One factor could be the appropriateness of the immune response to elicit a specific antiviral immunity without destroying the host tissues, which depends both on environmental and genetic factors. In this context, the human leukocyte antigen (HLA) complex, which is well known to influence the efficacy of T cell recognition of foreign antigens, could play a major role. The presentation of viral antigens through HLA II by APC cells is a key event in the establishment of the anti-viral adaptive immune response in addition to HLA I direct presentation to cytotoxic CD8 T cells. The HLA locus is the most polymorphic region in the human genome. The polymorphism of HLA proteins controls the possible repertoire of bound epitopes, thus shaping the immune response profile of an individual [     ,     ]. Genetic polymorphisms have been reported to influence population and individual predisposition to multifactorial, autoimmune and infectious pathologies [     ]. Susceptibility to viral infections like human immunodeficiency virus (HIV), human hepatitis B virus (HBV), human hepatitis C virus (HCV) and human papilloma virus (HPV), to name just a few, has been reported to be influenced by HLA specific subtypes [     –     ]. Noteworthy, studies conducted on a meaningful data set of high-resolution HLA-typed individuals, revealed significant differences in single allele and haplotypes frequencies among the Italian regions [     ]. Understanding how genetic variation in HLA may affect both susceptibility as well as course and severity of Covid-19 infection, could help to identify and stratify individuals at higher risk from the disease. Moreover, it could help to give a possible explanation at the epidemiological level why the epidemic in Italy, even though spread all over the country, showed a strong regionality with northern regions, above all Lombardia, reporting higher rates than central and southern regions.
+    </p>
+    <p id="Par18">
+     On these premises, in this work we performed a geographical epidemiological analysis in order to find if in the Italian population there are particular frequent haplotypes and HLA alleles, whose distribution among the Italian regions overlaps with Covid-19 regional distribution and thus formulate and test the hypothesis of their potential association with Covid-19 incidence and severity, to identify sub-populations most at risk of susceptibility to the infection.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec3">
+     <title>
+      Data sources
+     </title>
+     <p id="Par19">
+      For our analyses we used the large dataset from the Italian Bone Marrow Donors Registry (IBMDR) maintained at E.O. Ospedali Galliera di Genova
+      <ext-link ext-link-type="uri" ns0:href="https://www.ibmdr.galliera.it/ibmdr/">
+       https://www.ibmdr.galliera.it/ibmdr/
+      </ext-link>
+      [      ]. In the study, we used the dataset 2, which is constituted by a sample of 104,135 donors with available data about the city of birth, typed for HLA-A, -B, -C and -DRB1 at a high-resolution (HR) level by ASHI or EFI-accredited tissue typing laboratories using HR molecular biology techniques (SBT, SSO, SSP, NGS) as described [      ]. The data, based on the donor’s birth region, were divided into the 20 geographical regions of Italy that are in alphabetical order: Abruzzo, Basilicata, Calabria, Campania, Emilia Romagna, Friuli Venezia Giulia, Lazio, Liguria, Lombardia, Marche, Molise, Piemonte, Puglia, Sardegna, Sicilia, Toscana, Trentino Alto Adige, Umbria, Valle d’Aosta and Veneto. The datasets used as reference are the CWD 2.0.0 catalogue (ASHI CWD) from worldwide population and the EFI CWD catalogue for the European population [      ,      ]. Sardegna and Valle D’Aosta regions were excluded from correlation analyses because of their widely recognized genetic difference, even within the HLA locus, with respect to the rest of Italy due to genetic isolation as previously reported [      ].
+     </p>
+     <p id="Par20">
+      With regard to the number of Covid-19 cases and deaths, we used the data collected by the Italian National Institute of Health (Istituto Superiore di Sanità [ISS]), which are daily reported by the Civil Protection Department Headquarters and published at
+      <ext-link ext-link-type="uri" ns0:href="http://www.salute.gov.it">
+       http://www.salute.gov.it
+      </ext-link>
+      .
+     </p>
+     <p id="Par21">
+      Moreover, we obtained data on the number of inhabitants for each Italian region that is freely available from the Italian National Institutes of Statistics (ISTAT), the main provider of official statistics in Italy, for both citizens and policy-makers.
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Statistical analysis
+     </title>
+     <p id="Par22">
+      All statistical analyses were performed using R version 4.0.0 (R Core team) [      ]. Pearson correlations, as measure of the strength of the linear relationship between two variables (− 1 &lt; r ≤ + 1) and accompanying P-values, were calculated using the package ‘Hmisc’. Correlation plots were generated using the package ‘ggpubr’. P values were considered statistically significant below 0.05 (* &lt; 0.05, ** &lt; 0.01, *** &lt; 0.001).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec5">
+    <title>
+     Results
+    </title>
+    <sec id="Sec6">
+     <title>
+      Geographical distribution of Covid-19 epidemic in Italy
+     </title>
+     <p id="Par23">
+      We analysed the number of Covid-19 cases confirmed by a real-time reverse transcriptase–polymerase chain reaction (RT-PCR) assay of nasal and pharyngeal swabs from patients and the number of deaths reported by ISS for each Italian region. The analysis was performed at four meaningful time points of the epidemic: before the lockdown start (8th of March), 1 month later during the exponential phase of the epidemic (8th of April), at the end of the lockdown (3rd of May) and 3 weeks later (24th of May) (Table      ). The values for the number of cases and deaths were normalised to the total of inhabitants of each region, in order to take into account the different population sizes, based on statistics reported by ISTAT for 2019 (Additional file      : Table S1). At every time point, there is a clustering of the twenty regions for number of cases and deaths in three groups reflecting the geographical localization, with the northern regions showing the most cases and deaths (Fig.      ).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Regional data relative to the impact of COVID-19 on the Italian population
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" rowspan="2">
+           Region
+          </th>
+          <th align="left" rowspan="2">
+           Macroregion
+          </th>
+          <th align="left" colspan="2">
+           8 March
+          </th>
+          <th align="left" colspan="2">
+           8 April
+          </th>
+          <th align="left" colspan="2">
+           3 May
+          </th>
+          <th align="left" colspan="2">
+           24 May
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           N° cases/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° deaths/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° cases/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° deaths/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° cases/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° deaths/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° cases/100,000 inhabitants
+          </th>
+          <th align="left">
+           N° deaths/100,000 inhabitants
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Abruzzo
+          </td>
+          <td align="left">
+           Central
+          </td>
+          <td align="char" char=".">
+           1.30
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           141.74
+          </td>
+          <td align="char" char=".">
+           13.65
+          </td>
+          <td align="char" char=".">
+           228.43
+          </td>
+          <td align="char" char=".">
+           25.16
+          </td>
+          <td align="char" char=".">
+           249.01
+          </td>
+          <td align="char" char=".">
+           30.35
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Basilicata
+          </td>
+          <td align="left">
+           South
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           52.77
+          </td>
+          <td align="char" char=".">
+           2.49
+          </td>
+          <td align="char" char=".">
+           68.58
+          </td>
+          <td align="char" char=".">
+           4.44
+          </td>
+          <td align="char" char=".">
+           70.89
+          </td>
+          <td align="char" char=".">
+           4.80
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Calabria
+          </td>
+          <td align="left">
+           South
+          </td>
+          <td align="char" char=".">
+           0.46
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           44.12
+          </td>
+          <td align="char" char=".">
+           3.08
+          </td>
+          <td align="char" char=".">
+           57.21
+          </td>
+          <td align="char" char=".">
+           4.52
+          </td>
+          <td align="char" char=".">
+           59.42
+          </td>
+          <td align="char" char=".">
+           4.93
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Campania
+          </td>
+          <td align="left">
+           South
+          </td>
+          <td align="char" char=".">
+           1.74
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           56.33
+          </td>
+          <td align="char" char=".">
+           3.81
+          </td>
+          <td align="char" char=".">
+           77.29
+          </td>
+          <td align="char" char=".">
+           6.27
+          </td>
+          <td align="char" char=".">
+           81.86
+          </td>
+          <td align="char" char=".">
+           6.98
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Emilia Romagna
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           26.46
+          </td>
+          <td align="char" char=".">
+           1.26
+          </td>
+          <td align="char" char=".">
+           408.88
+          </td>
+          <td align="char" char=".">
+           50.10
+          </td>
+          <td align="char" char=".">
+           583.39
+          </td>
+          <td align="char" char=".">
+           81.67
+          </td>
+          <td align="char" char=".">
+           617.96
+          </td>
+          <td align="char" char=".">
+           90.93
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Friuli Venezia Giulia
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           4.69
+          </td>
+          <td align="char" char=".">
+           0.08
+          </td>
+          <td align="char" char=".">
+           182.52
+          </td>
+          <td align="char" char=".">
+           13.91
+          </td>
+          <td align="char" char=".">
+           252.79
+          </td>
+          <td align="char" char=".">
+           24.44
+          </td>
+          <td align="char" char=".">
+           266.29
+          </td>
+          <td align="char" char=".">
+           27.07
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lazio
+          </td>
+          <td align="left">
+           Central
+          </td>
+          <td align="char" char=".">
+           1.48
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="char" char=".">
+           72.56
+          </td>
+          <td align="char" char=".">
+           4.15
+          </td>
+          <td align="char" char=".">
+           115.82
+          </td>
+          <td align="char" char=".">
+           8.64
+          </td>
+          <td align="char" char=".">
+           129.73
+          </td>
+          <td align="char" char=".">
+           11.63
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Liguria
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           5.03
+          </td>
+          <td align="char" char=".">
+           0.39
+          </td>
+          <td align="char" char=".">
+           316.39
+          </td>
+          <td align="char" char=".">
+           42.18
+          </td>
+          <td align="char" char=".">
+           539.07
+          </td>
+          <td align="char" char=".">
+           77.97
+          </td>
+          <td align="char" char=".">
+           611.36
+          </td>
+          <td align="char" char=".">
+           91.51
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lombardia
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           41.64
+          </td>
+          <td align="char" char=".">
+           2.65
+          </td>
+          <td align="char" char=".">
+           530.92
+          </td>
+          <td align="char" char=".">
+           96.63
+          </td>
+          <td align="char" char=".">
+           770.61
+          </td>
+          <td align="char" char=".">
+           141.45
+          </td>
+          <td align="char" char=".">
+           865.86
+          </td>
+          <td align="char" char=".">
+           157.45
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Marche
+          </td>
+          <td align="left">
+           Central
+          </td>
+          <td align="char" char=".">
+           17.83
+          </td>
+          <td align="char" char=".">
+           0.46
+          </td>
+          <td align="char" char=".">
+           318.57
+          </td>
+          <td align="char" char=".">
+           42.75
+          </td>
+          <td align="char" char=".">
+           414.29
+          </td>
+          <td align="char" char=".">
+           60.78
+          </td>
+          <td align="char" char=".">
+           440.18
+          </td>
+          <td align="char" char=".">
+           65.17
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molise
+          </td>
+          <td align="left">
+           Central
+          </td>
+          <td align="char" char=".">
+           4.58
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           73.95
+          </td>
+          <td align="char" char=".">
+           4.25
+          </td>
+          <td align="char" char=".">
+           98.49
+          </td>
+          <td align="char" char=".">
+           7.20
+          </td>
+          <td align="char" char=".">
+           141.35
+          </td>
+          <td align="char" char=".">
+           7.20
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Piemonte
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           8.26
+          </td>
+          <td align="char" char=".">
+           0.11
+          </td>
+          <td align="char" char=".">
+           318.68
+          </td>
+          <td align="char" char=".">
+           31.63
+          </td>
+          <td align="char" char=".">
+           629.65
+          </td>
+          <td align="char" char=".">
+           72.35
+          </td>
+          <td align="char" char=".">
+           692.77
+          </td>
+          <td align="char" char=".">
+           86.84
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Puglia
+          </td>
+          <td align="left">
+           South
+          </td>
+          <td align="char" char=".">
+           0.99
+          </td>
+          <td align="char" char=".">
+           0.07
+          </td>
+          <td align="char" char=".">
+           65.38
+          </td>
+          <td align="char" char=".">
+           5.44
+          </td>
+          <td align="char" char=".">
+           102.85
+          </td>
+          <td align="char" char=".">
+           10.52
+          </td>
+          <td align="char" char=".">
+           110.65
+          </td>
+          <td align="char" char=".">
+           12.09
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sardegna
+          </td>
+          <td align="left">
+           South/Island
+          </td>
+          <td align="char" char=".">
+           0.67
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           59.47
+          </td>
+          <td align="char" char=".">
+           3.60
+          </td>
+          <td align="char" char=".">
+           80.45
+          </td>
+          <td align="char" char=".">
+           7.26
+          </td>
+          <td align="char" char=".">
+           82.70
+          </td>
+          <td align="char" char=".">
+           7.87
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sicilia
+          </td>
+          <td align="left">
+           South/Island
+          </td>
+          <td align="char" char=".">
+           1.06
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           43.18
+          </td>
+          <td align="char" char=".">
+           2.66
+          </td>
+          <td align="char" char=".">
+           64.80
+          </td>
+          <td align="char" char=".">
+           4.84
+          </td>
+          <td align="char" char=".">
+           68.46
+          </td>
+          <td align="char" char=".">
+           5.38
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Toscana
+          </td>
+          <td align="left">
+           Central
+          </td>
+          <td align="char" char=".">
+           4.45
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           171.04
+          </td>
+          <td align="char" char=".">
+           10.51
+          </td>
+          <td align="char" char=".">
+           256.41
+          </td>
+          <td align="char" char=".">
+           23.38
+          </td>
+          <td align="char" char=".">
+           269.78
+          </td>
+          <td align="char" char=".">
+           27.16
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Trentino
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           2.98
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           413.79
+          </td>
+          <td align="char" char=".">
+           40.85
+          </td>
+          <td align="char" char=".">
+           632.58
+          </td>
+          <td align="char" char=".">
+           66.21
+          </td>
+          <td align="char" char=".">
+           652.54
+          </td>
+          <td align="char" char=".">
+           69.76
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Umbria
+          </td>
+          <td align="left">
+           Central
+          </td>
+          <td align="char" char=".">
+           2.95
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           146.14
+          </td>
+          <td align="char" char=".">
+           5.67
+          </td>
+          <td align="char" char=".">
+           158.05
+          </td>
+          <td align="char" char=".">
+           7.71
+          </td>
+          <td align="char" char=".">
+           162.13
+          </td>
+          <td align="char" char=".">
+           8.50
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Valle D’Aosta
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           7.16
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           676.40
+          </td>
+          <td align="char" char=".">
+           81.17
+          </td>
+          <td align="char" char=".">
+           908.76
+          </td>
+          <td align="char" char=".">
+           109.81
+          </td>
+          <td align="char" char=".">
+           937.41
+          </td>
+          <td align="char" char=".">
+           113.79
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Veneto
+          </td>
+          <td align="left">
+           North
+          </td>
+          <td align="char" char=".">
+           13.66
+          </td>
+          <td align="char" char=".">
+           0.37
+          </td>
+          <td align="char" char=".">
+           252.96
+          </td>
+          <td align="char" char=".">
+           15.00
+          </td>
+          <td align="char" char=".">
+           373.39
+          </td>
+          <td align="char" char=".">
+           30.90
+          </td>
+          <td align="char" char=".">
+           389.05
+          </td>
+          <td align="char" char=".">
+           38.10
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Regional distribution of most frequent HLA haplotypes
+     </title>
+     <p id="Par24">
+      Given the key role of the host immune response against the SARS-CoV-2 virus in the pathogenesis of the disease and the high degree of HLA polymorphism, we subsequently tried to determine, at the general population level, if there are significative differences in the frequency of the most frequent HLA haplotypes in the Italian population among the northern, central and southern regions. We performed our analyses on the five most common Italian haplotypes as ranked by the Italian Bone Marrow Donor Registry (IBMDR), the most extensive Italian collection consisting of more than 131,000 high resolution HLA-A, -B, -C and -DRB1 typed individuals at the four-digit level. The registry contains complete information about the region of provenience and ethnic origin for a sample of 104,135 subjects, thus providing a reliable estimation of HLA frequencies within the Italian population [      ]. The estimated national frequencies for these haplotypes, calculated using the Arlequin programme by the EM algorithm, sum up to 6.9%: HLA-A*:01:01g-B*08:01g-C*07:01g-DRB1*03:01g (2.54%); HLA-A*02.01g-B*18.01g-C*07.01g-DRB1*11.04g (1.14%); HLA-A*30.01g-B*13.02g-C*06.02g-DRB1*07.01g (1.09%); HLA-A*29.02g-B*44.03g-C*16.01g-DRB1*07.01g (1.08%); HLA-A*03.01g-B*07.02g-C*07.02g-DRB1*15.01g (1.02%). The regional frequencies estimated from the data set sample are depicted in Table      . We observed that the most frequent five Italian haplotypes were not uniformly distributed in all regions and, in some regions, they were totally missing. Sardegna and Valle D’      ]. The haplotypes ranked#1 HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g and #2 HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g showed the highest dispersion from the mean national value and an almost net clustering among northern, central and southern regions in the opposite direction for #1 and #2 (Fig.      ).
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Frequencies of the 5 most common haplotypes observed in the Italian population
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" rowspan="2">
+           Region
+          </th>
+          <th align="left" colspan="5">
+           Frequencies (%)
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           #1
+           <break/>
+           HLA-A*:01:01g-B*08:01g-C*07:01g-DRB1*03:01g
+          </th>
+          <th align="left">
+           #2
+           <break/>
+           HLA-A*02.01g-B*18.01g-C*07.01g-DRB1*11.04g
+          </th>
+          <th align="left">
+           #3
+           <break/>
+           HLA-A*30.01g-B*13.02g-C*06.02g-DRB1*07.01g
+          </th>
+          <th align="left">
+           #4
+           <break/>
+           HLA-A*29.02g-B*44.03g-C*16.01g-DRB1*07.01g
+          </th>
+          <th align="left">
+           #5
+           <break/>
+           HLA-A*03.01g-B*07.02g-C*07.02g-DRB1*15.01g
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Italy
+          </td>
+          <td align="char" char=".">
+           2.54
+          </td>
+          <td align="char" char=".">
+           1.14
+          </td>
+          <td align="char" char=".">
+           1.09
+          </td>
+          <td align="char" char=".">
+           1.08
+          </td>
+          <td align="char" char=".">
+           1.02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Abruzzo
+          </td>
+          <td align="char" char=".">
+           2.08
+          </td>
+          <td align="char" char=".">
+           1.90
+          </td>
+          <td align="char" char=".">
+           1.40
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           1.34
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Basilicata
+          </td>
+          <td align="char" char=".">
+           1.21
+          </td>
+          <td align="char" char=".">
+           2.87
+          </td>
+          <td align="char" char=".">
+           1.25
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           1.40
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Calabria
+          </td>
+          <td align="char" char=".">
+           0.82
+          </td>
+          <td align="char" char=".">
+           1.75
+          </td>
+          <td align="char" char=".">
+           1.26
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Campania
+          </td>
+          <td align="char" char=".">
+           1.42
+          </td>
+          <td align="char" char=".">
+           1.69
+          </td>
+          <td align="char" char=".">
+           1.33
+          </td>
+          <td align="char" char=".">
+           0.73
+          </td>
+          <td align="char" char=".">
+           0.70
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Emilia Romagna
+          </td>
+          <td align="char" char=".">
+           2.64
+          </td>
+          <td align="char" char=".">
+           0.97
+          </td>
+          <td align="char" char=".">
+           1.12
+          </td>
+          <td align="char" char=".">
+           1.55
+          </td>
+          <td align="char" char=".">
+           1.29
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Friuli Venezia Giulia
+          </td>
+          <td align="char" char=".">
+           3.15
+          </td>
+          <td align="char" char=".">
+           0.80
+          </td>
+          <td align="char" char=".">
+           0.80
+          </td>
+          <td align="char" char=".">
+           0.70
+          </td>
+          <td align="char" char=".">
+           1.10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lazio
+          </td>
+          <td align="char" char=".">
+           2.01
+          </td>
+          <td align="char" char=".">
+           1.36
+          </td>
+          <td align="char" char=".">
+           1.13
+          </td>
+          <td align="char" char=".">
+           0.84
+          </td>
+          <td align="char" char=".">
+           1.19
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Liguria
+          </td>
+          <td align="char" char=".">
+           3.02
+          </td>
+          <td align="char" char=".">
+           1.05
+          </td>
+          <td align="char" char=".">
+           1.24
+          </td>
+          <td align="char" char=".">
+           1.35
+          </td>
+          <td align="char" char=".">
+           1.20
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lombardia
+          </td>
+          <td align="char" char=".">
+           2.83
+          </td>
+          <td align="char" char=".">
+           1.03
+          </td>
+          <td align="char" char=".">
+           1.01
+          </td>
+          <td align="char" char=".">
+           1.38
+          </td>
+          <td align="char" char=".">
+           1.03
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Marche
+          </td>
+          <td align="char" char=".">
+           2.58
+          </td>
+          <td align="char" char=".">
+           1.83
+          </td>
+          <td align="char" char=".">
+           1.30
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           0.88
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molise
+          </td>
+          <td align="char" char=".">
+           1.74
+          </td>
+          <td align="char" char=".">
+           2.02
+          </td>
+          <td align="char" char=".">
+           3.26
+          </td>
+          <td align="char" char=".">
+           1.96
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Piemonte
+          </td>
+          <td align="char" char=".">
+           2.64
+          </td>
+          <td align="char" char=".">
+           1.04
+          </td>
+          <td align="char" char=".">
+           0.90
+          </td>
+          <td align="char" char=".">
+           1.32
+          </td>
+          <td align="char" char=".">
+           1.10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Puglia
+          </td>
+          <td align="char" char=".">
+           1.32
+          </td>
+          <td align="char" char=".">
+           2.28
+          </td>
+          <td align="char" char=".">
+           1.46
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           0.90
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sardegna
+          </td>
+          <td align="char" char=".">
+           1.07
+          </td>
+          <td align="char" char=".">
+           1.08
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sicilia
+          </td>
+          <td align="char" char=".">
+           1.45
+          </td>
+          <td align="char" char=".">
+           1.51
+          </td>
+          <td align="char" char=".">
+           1.30
+          </td>
+          <td align="char" char=".">
+           0.66
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Toscana
+          </td>
+          <td align="char" char=".">
+           3.09
+          </td>
+          <td align="char" char=".">
+           0.86
+          </td>
+          <td align="char" char=".">
+           1.37
+          </td>
+          <td align="char" char=".">
+           1.13
+          </td>
+          <td align="char" char=".">
+           1.11
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Trentino Alto Adige
+          </td>
+          <td align="char" char=".">
+           4.47
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="char" char=".">
+           1.17
+          </td>
+          <td align="char" char=".">
+           1.38
+          </td>
+          <td align="char" char=".">
+           1.67
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Umbria
+          </td>
+          <td align="char" char=".">
+           2.17
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           0.91
+          </td>
+          <td align="char" char=".">
+           1.06
+          </td>
+          <td align="char" char=".">
+           0.91
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Valle D’Aosta
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Veneto
+          </td>
+          <td align="char" char=".">
+           3.48
+          </td>
+          <td align="char" char=".">
+           1.07
+          </td>
+          <td align="char" char=".">
+           1.00
+          </td>
+          <td align="char" char=".">
+           1.36
+          </td>
+          <td align="char" char=".">
+           1.08
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         The # indicates the ranking of the haplotype for frequency in the Italian population
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Correlation among HLA haplotypes regional frequency and Covid-19 incidence and mortality
+     </title>
+     <p id="Par25">
+      Next, in order to find if there is an overlap among the most frequent haplotypes distribution and the incidence of Covid-19 at the regional level, we calculated, using Pearson correlations, if and how the regional frequencies of each haplotype in the population linearly correlate with the regional number of both Covid-19 cases and deaths/100,000 inhabitants. We found that the haplotype ranked #1 HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g shows a positive (suggestive of susceptibility) significant correlation with both Covid-19 incidence and mortality. Conversely, the haplotype ranked #2 HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g shows a negative correlation (suggestive of protection). This correlation is observed at all significant time points of the epidemic except for the 8th of March when the numbers were still too low. Pearson’s correlation coefficients and relative P values for each bivariate analysis are reported in Table      . For the haplotype #1 HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g, the distribution is characterized by a net clustering of the regions in three groups, with the northern regions reporting high frequency values and corresponding highest incidence and mortality, the central regions displaying intermediate values and the southern regions the lowest values for the haplotype #1 (Fig.      ). The Pearson correlation coefficient among the frequency of HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g haplotype and Covid-19 N° cases/100,000 inhabitants ranges from 0.34 (at the 8th of March) to 0.75 (at the 8th of April). When considering the N° of Covid-19 deaths/100,000 inhabitants as the correlated variable, the Pearson’s coefficient varies from 0.24 to 0.57 (Table      and Fig.      ). On the contrary, for the #2 HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g haplotype the regions are inversely clustered in three groups, with the southern regions reporting higher frequencies for the haplotype and low numbers of both cases and deaths, whereas central and northern regions show respectively intermediate and low frequencies and progressively increasing reported incidence and mortality of Covid-19 (Figure      ). For this haplotype, the Pearson correlation coefficient among its frequency and Covid-19 incidence varies from − 0.33 (at the 8th of March) to − 0.63 (at the 3rd of May). When considering mortality as the correlated variable the Pearson’s coefficient extends from − 0.28 to − 0.51 (Table      and Fig.      ).
+      <table-wrap id="Tab3">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Bivariate correlation analysis among regional haplotypes estimated frequency in the population and COVID-19 incidence and mortality
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="9">
+           N°cases/100,000 inhabitants
+          </th>
+         </tr>
+         <tr>
+          <th align="left" rowspan="2">
+           Haplotype
+          </th>
+          <th align="left" colspan="2">
+           8 March
+          </th>
+          <th align="left" colspan="2">
+           8 April
+          </th>
+          <th align="left" colspan="2">
+           3May
+          </th>
+          <th align="left" colspan="2">
+           24 May
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.34
+          </td>
+          <td align="char" char=".">
+           0.171
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+          <td align="char" char=".">
+           0.74
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+          <td align="char" char=".">
+           0.72
+          </td>
+          <td align="char" char=".">
+           0.0008***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.33
+          </td>
+          <td align="char" char=".">
+           0.181
+          </td>
+          <td align="char" char=".">
+           − 0.62
+          </td>
+          <td align="char" char=".">
+           0.006**
+          </td>
+          <td align="char" char=".">
+           − 0.63
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+          <td align="char" char=".">
+           − 0.61
+          </td>
+          <td align="char" char=".">
+           0.007**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*30:01g-B*13:02g-C*06:02g-DRB1*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.18
+          </td>
+          <td align="char" char=".">
+           0.476
+          </td>
+          <td align="char" char=".">
+           − 0.33
+          </td>
+          <td align="char" char=".">
+           0.183
+          </td>
+          <td align="char" char=".">
+           − 0.33
+          </td>
+          <td align="char" char=".">
+           0.175
+          </td>
+          <td align="char" char=".">
+           − 0.30
+          </td>
+          <td align="char" char=".">
+           0.224
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*29:02g-B*44:03g-C*16:01g-DRB1*07:01g
+          </td>
+          <td align="char" char=".">
+           0.36
+          </td>
+          <td align="char" char=".">
+           0.141
+          </td>
+          <td align="char" char=".">
+           0.48
+          </td>
+          <td align="char" char=".">
+           0.042*
+          </td>
+          <td align="char" char=".">
+           0.51
+          </td>
+          <td align="char" char=".">
+           0.032*
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.027*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01g-B*07:02g-C*07:02g-DRB1*15:01g
+          </td>
+          <td align="char" char=".">
+           0.17
+          </td>
+          <td align="char" char=".">
+           0.502
+          </td>
+          <td align="char" char=".">
+           0.51
+          </td>
+          <td align="char" char=".">
+           0.033*
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.028*
+          </td>
+          <td align="char" char=".">
+           0.49
+          </td>
+          <td align="char" char=".">
+           0.038*
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="9">
+           N°deaths/100,000 inhabitants
+          </th>
+         </tr>
+         <tr>
+          <th align="left" rowspan="2">
+           Haplotype
+          </th>
+          <th align="left" colspan="2">
+           8 March
+          </th>
+          <th align="left" colspan="2">
+           8 April
+          </th>
+          <th align="left" colspan="2">
+           3 May
+          </th>
+          <th align="left" colspan="2">
+           24 May
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.24
+          </td>
+          <td align="char" char=".">
+           0.347
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.026*
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="char" char=".">
+           0.013*
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="char" char=".">
+           0.014*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.28
+          </td>
+          <td align="char" char=".">
+           0.265
+          </td>
+          <td align="char" char=".">
+           − 0.44
+          </td>
+          <td align="char" char=".">
+           0.065
+          </td>
+          <td align="char" char=".">
+           − 0.50
+          </td>
+          <td align="char" char=".">
+           0.034*
+          </td>
+          <td align="char" char=".">
+           − 0.51
+          </td>
+          <td align="char" char=".">
+           0.032*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*30:01g-B*13:02g-C*06:02g-DRB1*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.19
+          </td>
+          <td align="char" char=".">
+           0.441
+          </td>
+          <td align="char" char=".">
+           − 0.25
+          </td>
+          <td align="char" char=".">
+           0.311
+          </td>
+          <td align="char" char=".">
+           − 0.28
+          </td>
+          <td align="char" char=".">
+           0.257
+          </td>
+          <td align="char" char=".">
+           − 0.29
+          </td>
+          <td align="char" char=".">
+           0.239
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*29:02g-B*44:03g-C*16:01g-DRB1*07:01g
+          </td>
+          <td align="char" char=".">
+           0.31
+          </td>
+          <td align="char" char=".">
+           0.208
+          </td>
+          <td align="char" char=".">
+           0.36
+          </td>
+          <td align="char" char=".">
+           0.137
+          </td>
+          <td align="char" char=".">
+           0.42
+          </td>
+          <td align="char" char=".">
+           0.083
+          </td>
+          <td align="char" char=".">
+           0.43
+          </td>
+          <td align="char" char=".">
+           0.078
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01g-B*07:02g-C*07:02g-DRB1*15:01g
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="char" char=".">
+           0.538
+          </td>
+          <td align="char" char=".">
+           0.36
+          </td>
+          <td align="char" char=".">
+           0.148
+          </td>
+          <td align="char" char=".">
+           0.40
+          </td>
+          <td align="char" char=".">
+           0.098
+          </td>
+          <td align="char" char=".">
+           0.41
+          </td>
+          <td align="char" char=".">
+           0.094
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Correlation = Pearson Correlation Coefficiency. Statistical significance P &lt; 0.05
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par26">
+      The haplotypes ranked #4 HLA-A*29:02g-B*44:03g-C*16:01g-DRB1*07:01g and #5 HLA-A*03:01g-B*07:02g-C*07:02g-DRB1*15:01g only show a slight significant correlation with the N° of cases, without a net clustering of the regions in the three areas (north, center, south), whereas the haplotype #3 doesn’t have any correlation (Table      ). Given that single specific alleles are represented in thousand haplotypes in different combinations inside the Italian population, covering a larger percentage of the population, the next step was to determine if the distribution of single HLA-A, -B, -C, -DRB1 alleles of the haplotypes #1 and #2 may in turn overlap with Covid-19 regional distribution. We therefore analysed the estimated frequencies of each allele alone and in all possible double or triple combinations of the four considered HLA-A, -B, -C, -DRB1 loci (Tables      and      ). We found that the regional frequencies of the alleles HLA-A*01:01g, HLA-B*08:01g and HLA-DRB1*03:01g were all directly correlated with a higher Covid-19 regional incidence and mortality, with the northern regions having higher frequencies for these alleles. The same was for all the allelic combinations, with a stronger significance for those containing the HLA-B*08:01g and/or the HLA-DRB1*03:01g allele (Table      ) In contrast, the allelic frequencies of HLA-B*18:01, HLA-C*07:01 and HLA-DRB1*11:04 were all inversely related to the number of Covid-19 cases and deaths, having the southern regions higher frequencies and lower incidence and mortality associated to the infection. The same result was observed for all the possible double or triple combinations of the four considered HLA-A, -B, -C, -DRB1 loci (Table      ).
+      <table-wrap id="Tab4">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Frequencies of the single alleles and allelic combinations of the HLA-A, -B, -C, -DRB1 loci of the haplotype HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g in the Italian population
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="8">
+           Frequency (%)
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Regions
+          </th>
+          <th align="left">
+           HLA-A*01:01g
+          </th>
+          <th align="left">
+           HLA-B*08:01g
+          </th>
+          <th align="left">
+           HLA-DRB1*03:01g
+          </th>
+          <th align="left">
+           HLA-A*01:01g- B*08:01g
+          </th>
+          <th align="left">
+           HLA-A*01:01g-C*07:01g
+          </th>
+          <th align="left">
+           HLA-A*01:01g-DRB1*03:01g
+          </th>
+          <th align="left">
+           HLA-B*08:01g-C*07:01g
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Italy
+          </td>
+          <td align="char" char=".">
+           11.53
+          </td>
+          <td align="char" char=".">
+           5.76
+          </td>
+          <td align="char" char=".">
+           9.47
+          </td>
+          <td align="char" char=".">
+           3.45
+          </td>
+          <td align="char" char=".">
+           4.63
+          </td>
+          <td align="char" char=".">
+           2.89
+          </td>
+          <td align="char" char=".">
+           5.16
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Abruzzo
+          </td>
+          <td align="char" char=".">
+           11.40
+          </td>
+          <td align="char" char=".">
+           4.34
+          </td>
+          <td align="char" char=".">
+           7.24
+          </td>
+          <td align="char" char=".">
+           2.59
+          </td>
+          <td align="char" char=".">
+           3.73
+          </td>
+          <td align="char" char=".">
+           2.57
+          </td>
+          <td align="char" char=".">
+           3.73
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Basilicata
+          </td>
+          <td align="char" char=".">
+           10.28
+          </td>
+          <td align="char" char=".">
+           2.92
+          </td>
+          <td align="char" char=".">
+           7.21
+          </td>
+          <td align="char" char=".">
+           1.33
+          </td>
+          <td align="char" char=".">
+           3.26
+          </td>
+          <td align="char" char=".">
+           1.45
+          </td>
+          <td align="char" char=".">
+           1.35
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Calabria
+          </td>
+          <td align="char" char=".">
+           10.37
+          </td>
+          <td align="char" char=".">
+           3.06
+          </td>
+          <td align="char" char=".">
+           5.95
+          </td>
+          <td align="char" char=".">
+           1.38
+          </td>
+          <td align="char" char=".">
+           3.14
+          </td>
+          <td align="char" char=".">
+           0.95
+          </td>
+          <td align="char" char=".">
+           2.34
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Campania
+          </td>
+          <td align="char" char=".">
+           11.27
+          </td>
+          <td align="char" char=".">
+           3.97
+          </td>
+          <td align="char" char=".">
+           7.76
+          </td>
+          <td align="char" char=".">
+           1.87
+          </td>
+          <td align="char" char=".">
+           3.62
+          </td>
+          <td align="char" char=".">
+           1.70
+          </td>
+          <td align="char" char=".">
+           3.04
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Emilia Romagna
+          </td>
+          <td align="char" char=".">
+           11.84
+          </td>
+          <td align="char" char=".">
+           6.40
+          </td>
+          <td align="char" char=".">
+           8.94
+          </td>
+          <td align="char" char=".">
+           3.61
+          </td>
+          <td align="char" char=".">
+           4.56
+          </td>
+          <td align="char" char=".">
+           2.91
+          </td>
+          <td align="char" char=".">
+           5.76
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Friuli Venezia Giulia
+          </td>
+          <td align="char" char=".">
+           11.42
+          </td>
+          <td align="char" char=".">
+           6.49
+          </td>
+          <td align="char" char=".">
+           10.73
+          </td>
+          <td align="char" char=".">
+           4.09
+          </td>
+          <td align="char" char=".">
+           5.25
+          </td>
+          <td align="char" char=".">
+           3.51
+          </td>
+          <td align="char" char=".">
+           5.86
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lazio
+          </td>
+          <td align="char" char=".">
+           11.10
+          </td>
+          <td align="char" char=".">
+           4.70
+          </td>
+          <td align="char" char=".">
+           8.68
+          </td>
+          <td align="char" char=".">
+           2.51
+          </td>
+          <td align="char" char=".">
+           3.66
+          </td>
+          <td align="char" char=".">
+           2.52
+          </td>
+          <td align="char" char=".">
+           4.02
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Liguria
+          </td>
+          <td align="char" char=".">
+           12.50
+          </td>
+          <td align="char" char=".">
+           6.33
+          </td>
+          <td align="char" char=".">
+           9.37
+          </td>
+          <td align="char" char=".">
+           3.91
+          </td>
+          <td align="char" char=".">
+           5.03
+          </td>
+          <td align="char" char=".">
+           3.45
+          </td>
+          <td align="char" char=".">
+           5.75
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lombardia
+          </td>
+          <td align="char" char=".">
+           11.84
+          </td>
+          <td align="char" char=".">
+           6.32
+          </td>
+          <td align="char" char=".">
+           9.42
+          </td>
+          <td align="char" char=".">
+           3.74
+          </td>
+          <td align="char" char=".">
+           4.90
+          </td>
+          <td align="char" char=".">
+           3.14
+          </td>
+          <td align="char" char=".">
+           5.78
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Marche
+          </td>
+          <td align="char" char=".">
+           12.41
+          </td>
+          <td align="char" char=".">
+           5.22
+          </td>
+          <td align="char" char=".">
+           7.89
+          </td>
+          <td align="char" char=".">
+           3.11
+          </td>
+          <td align="char" char=".">
+           4.49
+          </td>
+          <td align="char" char=".">
+           3.11
+          </td>
+          <td align="char" char=".">
+           4.75
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molise
+          </td>
+          <td align="char" char=".">
+           10.22
+          </td>
+          <td align="char" char=".">
+           3.91
+          </td>
+          <td align="char" char=".">
+           7.17
+          </td>
+          <td align="char" char=".">
+           2.39
+          </td>
+          <td align="char" char=".">
+           3.70
+          </td>
+          <td align="char" char=".">
+           2.61
+          </td>
+          <td align="char" char=".">
+           3.48
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Piemonte
+          </td>
+          <td align="char" char=".">
+           11.53
+          </td>
+          <td align="char" char=".">
+           5.79
+          </td>
+          <td align="char" char=".">
+           9.04
+          </td>
+          <td align="char" char=".">
+           3.61
+          </td>
+          <td align="char" char=".">
+           4.68
+          </td>
+          <td align="char" char=".">
+           2.95
+          </td>
+          <td align="char" char=".">
+           5.22
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Puglia
+          </td>
+          <td align="char" char=".">
+           11.75
+          </td>
+          <td align="char" char=".">
+           3.56
+          </td>
+          <td align="char" char=".">
+           6.84
+          </td>
+          <td align="char" char=".">
+           1.90
+          </td>
+          <td align="char" char=".">
+           3.46
+          </td>
+          <td align="char" char=".">
+           1.67
+          </td>
+          <td align="char" char=".">
+           2.78
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sardegna
+          </td>
+          <td align="char" char=".">
+           5.33
+          </td>
+          <td align="char" char=".">
+           2.53
+          </td>
+          <td align="char" char=".">
+           21.20
+          </td>
+          <td align="char" char=".">
+           1.36
+          </td>
+          <td align="char" char=".">
+           1.95
+          </td>
+          <td align="char" char=".">
+           1.38
+          </td>
+          <td align="char" char=".">
+           2.26
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sicilia
+          </td>
+          <td align="char" char=".">
+           11.34
+          </td>
+          <td align="char" char=".">
+           3.96
+          </td>
+          <td align="char" char=".">
+           7.02
+          </td>
+          <td align="char" char=".">
+           2.02
+          </td>
+          <td align="char" char=".">
+           3.98
+          </td>
+          <td align="char" char=".">
+           1.80
+          </td>
+          <td align="char" char=".">
+           3.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Toscana
+          </td>
+          <td align="char" char=".">
+           11.98
+          </td>
+          <td align="char" char=".">
+           6.44
+          </td>
+          <td align="char" char=".">
+           9.78
+          </td>
+          <td align="char" char=".">
+           3.95
+          </td>
+          <td align="char" char=".">
+           5.14
+          </td>
+          <td align="char" char=".">
+           3.36
+          </td>
+          <td align="char" char=".">
+           5.74
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Trentino Alto Adige
+          </td>
+          <td align="char" char=".">
+           12.70
+          </td>
+          <td align="char" char=".">
+           8.23
+          </td>
+          <td align="char" char=".">
+           10.67
+          </td>
+          <td align="char" char=".">
+           5.84
+          </td>
+          <td align="char" char=".">
+           6.76
+          </td>
+          <td align="char" char=".">
+           4.76
+          </td>
+          <td align="char" char=".">
+           7.82
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Umbria
+          </td>
+          <td align="char" char=".">
+           11.48
+          </td>
+          <td align="char" char=".">
+           6.04
+          </td>
+          <td align="char" char=".">
+           10.12
+          </td>
+          <td align="char" char=".">
+           2.69
+          </td>
+          <td align="char" char=".">
+           3.62
+          </td>
+          <td align="char" char=".">
+           2.84
+          </td>
+          <td align="char" char=".">
+           4.92
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Valle D’Aosta
+          </td>
+          <td align="char" char=".">
+           9.02
+          </td>
+          <td align="char" char=".">
+           5.37
+          </td>
+          <td align="char" char=".">
+           7.80
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           2.44
+          </td>
+          <td align="char" char=".">
+           1.71
+          </td>
+          <td align="char" char=".">
+           4.39
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Veneto
+          </td>
+          <td align="char" char=".">
+           12.45
+          </td>
+          <td align="char" char=".">
+           7.30
+          </td>
+          <td align="char" char=".">
+           10.23
+          </td>
+          <td align="char" char=".">
+           4.82
+          </td>
+          <td align="char" char=".">
+           5.91
+          </td>
+          <td align="char" char=".">
+           3.90
+          </td>
+          <td align="char" char=".">
+           6.87
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="7">
+           Frequency (%)
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Regions
+          </th>
+          <th align="left">
+           HLA-B*08:01g-DRB1*03:01g
+          </th>
+          <th align="left">
+           HLA-C*07:01g-DRB1*03:01g
+          </th>
+          <th align="left">
+           HLA-A*01:01g-B*08:01g-C*07:01g
+          </th>
+          <th align="left">
+           HLA-A*01:01g-B*08:01g-DRB1*03:01g
+          </th>
+          <th align="left">
+           HLA-A*01:01g-C*07:01g-DRB1*03:01g
+          </th>
+          <th align="left">
+           HLA-B*08:01g-C*07:01g-DRB1*03:01g
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Italy
+          </td>
+          <td align="char" char=".">
+           4.20
+          </td>
+          <td align="char" char=".">
+           4.30
+          </td>
+          <td align="char" char=".">
+           3.40
+          </td>
+          <td align="char" char=".">
+           2.57
+          </td>
+          <td align="char" char=".">
+           2.58
+          </td>
+          <td align="char" char=".">
+           3.80
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Abruzzo
+          </td>
+          <td align="char" char=".">
+           3.11
+          </td>
+          <td align="char" char=".">
+           3.21
+          </td>
+          <td align="char" char=".">
+           2.59
+          </td>
+          <td align="char" char=".">
+           2.08
+          </td>
+          <td align="char" char=".">
+           2.08
+          </td>
+          <td align="char" char=".">
+           3.03
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Basilicata
+          </td>
+          <td align="char" char=".">
+           1.77
+          </td>
+          <td align="char" char=".">
+           2.20
+          </td>
+          <td align="char" char=".">
+           1.33
+          </td>
+          <td align="char" char=".">
+           1.21
+          </td>
+          <td align="char" char=".">
+           2.08
+          </td>
+          <td align="char" char=".">
+           0.44
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Calabria
+          </td>
+          <td align="char" char=".">
+           1.86
+          </td>
+          <td align="char" char=".">
+           2.35
+          </td>
+          <td align="char" char=".">
+           1.36
+          </td>
+          <td align="char" char=".">
+           0.82
+          </td>
+          <td align="char" char=".">
+           2.08
+          </td>
+          <td align="char" char=".">
+           0.60
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Campania
+          </td>
+          <td align="char" char=".">
+           2.95
+          </td>
+          <td align="char" char=".">
+           3.11
+          </td>
+          <td align="char" char=".">
+           1.76
+          </td>
+          <td align="char" char=".">
+           1.47
+          </td>
+          <td align="char" char=".">
+           1.51
+          </td>
+          <td align="char" char=".">
+           2.35
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Emilia Romagna
+          </td>
+          <td align="char" char=".">
+           4.58
+          </td>
+          <td align="char" char=".">
+           4.65
+          </td>
+          <td align="char" char=".">
+           3.57
+          </td>
+          <td align="char" char=".">
+           2.66
+          </td>
+          <td align="char" char=".">
+           2.67
+          </td>
+          <td align="char" char=".">
+           4.22
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Friuli Venezia Giulia
+          </td>
+          <td align="char" char=".">
+           4.97
+          </td>
+          <td align="char" char=".">
+           4.78
+          </td>
+          <td align="char" char=".">
+           4.07
+          </td>
+          <td align="char" char=".">
+           3.15
+          </td>
+          <td align="char" char=".">
+           3.18
+          </td>
+          <td align="char" char=".">
+           4.56
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lazio
+          </td>
+          <td align="char" char=".">
+           3.59
+          </td>
+          <td align="char" char=".">
+           3.78
+          </td>
+          <td align="char" char=".">
+           2.47
+          </td>
+          <td align="char" char=".">
+           2.03
+          </td>
+          <td align="char" char=".">
+           2.09
+          </td>
+          <td align="char" char=".">
+           3.17
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Liguria
+          </td>
+          <td align="char" char=".">
+           4.67
+          </td>
+          <td align="char" char=".">
+           4.86
+          </td>
+          <td align="char" char=".">
+           3.88
+          </td>
+          <td align="char" char=".">
+           3.04
+          </td>
+          <td align="char" char=".">
+           3.11
+          </td>
+          <td align="char" char=".">
+           4.33
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lombardia
+          </td>
+          <td align="char" char=".">
+           4.74
+          </td>
+          <td align="char" char=".">
+           4.75
+          </td>
+          <td align="char" char=".">
+           3.68
+          </td>
+          <td align="char" char=".">
+           2.87
+          </td>
+          <td align="char" char=".">
+           2.87
+          </td>
+          <td align="char" char=".">
+           4.37
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Marche
+          </td>
+          <td align="char" char=".">
+           3.86
+          </td>
+          <td align="char" char=".">
+           4.05
+          </td>
+          <td align="char" char=".">
+           3.08
+          </td>
+          <td align="char" char=".">
+           2.58
+          </td>
+          <td align="char" char=".">
+           2.69
+          </td>
+          <td align="char" char=".">
+           3.58
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molise
+          </td>
+          <td align="char" char=".">
+           2.61
+          </td>
+          <td align="char" char=".">
+           2.83
+          </td>
+          <td align="char" char=".">
+           2.39
+          </td>
+          <td align="char" char=".">
+           1.74
+          </td>
+          <td align="char" char=".">
+           1.74
+          </td>
+          <td align="char" char=".">
+           2.39
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Piemonte
+          </td>
+          <td align="char" char=".">
+           4.16
+          </td>
+          <td align="char" char=".">
+           4.31
+          </td>
+          <td align="char" char=".">
+           3.57
+          </td>
+          <td align="char" char=".">
+           2.66
+          </td>
+          <td align="char" char=".">
+           2.70
+          </td>
+          <td align="char" char=".">
+           3.79
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Puglia
+          </td>
+          <td align="char" char=".">
+           2.43
+          </td>
+          <td align="char" char=".">
+           2.50
+          </td>
+          <td align="char" char=".">
+           1.83
+          </td>
+          <td align="char" char=".">
+           1.37
+          </td>
+          <td align="char" char=".">
+           1.32
+          </td>
+          <td align="char" char=".">
+           1.85
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sardegna
+          </td>
+          <td align="char" char=".">
+           1.84
+          </td>
+          <td align="char" char=".">
+           3.32
+          </td>
+          <td align="char" char=".">
+           1.29
+          </td>
+          <td align="char" char=".">
+           1.14
+          </td>
+          <td align="char" char=".">
+           1.11
+          </td>
+          <td align="char" char=".">
+           1.60
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sicilia
+          </td>
+          <td align="char" char=".">
+           2.75
+          </td>
+          <td align="char" char=".">
+           2.87
+          </td>
+          <td align="char" char=".">
+           1.92
+          </td>
+          <td align="char" char=".">
+           1.53
+          </td>
+          <td align="char" char=".">
+           1.49
+          </td>
+          <td align="char" char=".">
+           2.15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Toscana
+          </td>
+          <td align="char" char=".">
+           4.74
+          </td>
+          <td align="char" char=".">
+           4.65
+          </td>
+          <td align="char" char=".">
+           3.88
+          </td>
+          <td align="char" char=".">
+           3.09
+          </td>
+          <td align="char" char=".">
+           3.11
+          </td>
+          <td align="char" char=".">
+           4.38
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Trentino Alto Adige
+          </td>
+          <td align="char" char=".">
+           6.23
+          </td>
+          <td align="char" char=".">
+           6.19
+          </td>
+          <td align="char" char=".">
+           5.79
+          </td>
+          <td align="char" char=".">
+           4.50
+          </td>
+          <td align="char" char=".">
+           4.47
+          </td>
+          <td align="char" char=".">
+           6.01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Umbria
+          </td>
+          <td align="char" char=".">
+           4.08
+          </td>
+          <td align="char" char=".">
+           3.41
+          </td>
+          <td align="char" char=".">
+           2.47
+          </td>
+          <td align="char" char=".">
+           2.39
+          </td>
+          <td align="char" char=".">
+           2.17
+          </td>
+          <td align="char" char=".">
+           3.41
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Valle D’Aosta
+          </td>
+          <td align="char" char=".">
+           3.90
+          </td>
+          <td align="char" char=".">
+           3.90
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           2.93
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Veneto
+          </td>
+          <td align="char" char=".">
+           5.38
+          </td>
+          <td align="char" char=".">
+           5.45
+          </td>
+          <td align="char" char=".">
+           4.78
+          </td>
+          <td align="char" char=".">
+           3.50
+          </td>
+          <td align="char" char=".">
+           3.52
+          </td>
+          <td align="char" char=".">
+           5.09
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab5">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         Frequencies of the single alleles and allelic combinations of the HLA-A, -B, -C, -DRB1 loci of the haplotype HLA-A*02.01g-C*07.01g-DRB1*11.04g in the Italian population
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="8">
+           Frequency (%)
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Regions
+          </th>
+          <th align="left">
+           HLA-A*02.01g
+          </th>
+          <th align="left">
+           HLA-B*18:01g
+          </th>
+          <th align="left">
+           HLA-C*07:01g
+          </th>
+          <th align="left">
+           HLA-DRB1*11:04g
+          </th>
+          <th align="left">
+           HLA-A*02.01g-B*18.01g
+          </th>
+          <th align="left">
+           HLA-A*02.01g-C*07.01g
+          </th>
+          <th align="left">
+           HLA-A*02.01g-DRB1*11.04g
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Italy
+          </td>
+          <td align="char" char=".">
+           22.82
+          </td>
+          <td align="char" char=".">
+           9.52
+          </td>
+          <td align="char" char=".">
+           17.11
+          </td>
+          <td align="char" char=".">
+           10.07
+          </td>
+          <td align="char" char=".">
+           3.05
+          </td>
+          <td align="char" char=".">
+           4.08
+          </td>
+          <td align="char" char=".">
+           2.59
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Abruzzo
+          </td>
+          <td align="char" char=".">
+           24.46
+          </td>
+          <td align="char" char=".">
+           9.97
+          </td>
+          <td align="char" char=".">
+           17.84
+          </td>
+          <td align="char" char=".">
+           12.83
+          </td>
+          <td align="char" char=".">
+           4.47
+          </td>
+          <td align="char" char=".">
+           5.48
+          </td>
+          <td align="char" char=".">
+           4.32
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Basilicata
+          </td>
+          <td align="char" char=".">
+           20.69
+          </td>
+          <td align="char" char=".">
+           12.17
+          </td>
+          <td align="char" char=".">
+           19.58
+          </td>
+          <td align="char" char=".">
+           18.05
+          </td>
+          <td align="char" char=".">
+           4.61
+          </td>
+          <td align="char" char=".">
+           5.80
+          </td>
+          <td align="char" char=".">
+           4.73
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Calabria
+          </td>
+          <td align="char" char=".">
+           22.25
+          </td>
+          <td align="char" char=".">
+           10.30
+          </td>
+          <td align="char" char=".">
+           21.81
+          </td>
+          <td align="char" char=".">
+           15.27
+          </td>
+          <td align="char" char=".">
+           4.14
+          </td>
+          <td align="char" char=".">
+           5.87
+          </td>
+          <td align="char" char=".">
+           3.99
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Campania
+          </td>
+          <td align="char" char=".">
+           21.42
+          </td>
+          <td align="char" char=".">
+           11.01
+          </td>
+          <td align="char" char=".">
+           19.43
+          </td>
+          <td align="char" char=".">
+           14.31
+          </td>
+          <td align="char" char=".">
+           3.64
+          </td>
+          <td align="char" char=".">
+           5.66
+          </td>
+          <td align="char" char=".">
+           3.31
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Emilia Romagna
+          </td>
+          <td align="char" char=".">
+           22.63
+          </td>
+          <td align="char" char=".">
+           8.01
+          </td>
+          <td align="char" char=".">
+           16.50
+          </td>
+          <td align="char" char=".">
+           9.57
+          </td>
+          <td align="char" char=".">
+           2.66
+          </td>
+          <td align="char" char=".">
+           4.05
+          </td>
+          <td align="char" char=".">
+           2.37
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Friuli Venezia Giulia
+          </td>
+          <td align="char" char=".">
+           24.07
+          </td>
+          <td align="char" char=".">
+           7.66
+          </td>
+          <td align="char" char=".">
+           14.91
+          </td>
+          <td align="char" char=".">
+           8.32
+          </td>
+          <td align="char" char=".">
+           2.27
+          </td>
+          <td align="char" char=".">
+           2.90
+          </td>
+          <td align="char" char=".">
+           2.37
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lazio
+          </td>
+          <td align="char" char=".">
+           22.54
+          </td>
+          <td align="char" char=".">
+           9.12
+          </td>
+          <td align="char" char=".">
+           18.36
+          </td>
+          <td align="char" char=".">
+           11.21
+          </td>
+          <td align="char" char=".">
+           3.17
+          </td>
+          <td align="char" char=".">
+           4.54
+          </td>
+          <td align="char" char=".">
+           3.20
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Liguria
+          </td>
+          <td align="char" char=".">
+           22.77
+          </td>
+          <td align="char" char=".">
+           9.54
+          </td>
+          <td align="char" char=".">
+           16.96
+          </td>
+          <td align="char" char=".">
+           9.51
+          </td>
+          <td align="char" char=".">
+           2.81
+          </td>
+          <td align="char" char=".">
+           3.73
+          </td>
+          <td align="char" char=".">
+           2.56
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lombardia
+          </td>
+          <td align="char" char=".">
+           24.19
+          </td>
+          <td align="char" char=".">
+           8.52
+          </td>
+          <td align="char" char=".">
+           15.80
+          </td>
+          <td align="char" char=".">
+           8.98
+          </td>
+          <td align="char" char=".">
+           2.66
+          </td>
+          <td align="char" char=".">
+           3.71
+          </td>
+          <td align="char" char=".">
+           2.58
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Marche
+          </td>
+          <td align="char" char=".">
+           22.16
+          </td>
+          <td align="char" char=".">
+           8.86
+          </td>
+          <td align="char" char=".">
+           18.43
+          </td>
+          <td align="char" char=".">
+           10.80
+          </td>
+          <td align="char" char=".">
+           3.55
+          </td>
+          <td align="char" char=".">
+           4.69
+          </td>
+          <td align="char" char=".">
+           3.01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molise
+          </td>
+          <td align="char" char=".">
+           21.09
+          </td>
+          <td align="char" char=".">
+           10.22
+          </td>
+          <td align="char" char=".">
+           18.48
+          </td>
+          <td align="char" char=".">
+           15.43
+          </td>
+          <td align="char" char=".">
+           3.35
+          </td>
+          <td align="char" char=".">
+           4.35
+          </td>
+          <td align="char" char=".">
+           3.68
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Piemonte
+          </td>
+          <td align="char" char=".">
+           22.43
+          </td>
+          <td align="char" char=".">
+           8.99
+          </td>
+          <td align="char" char=".">
+           16.15
+          </td>
+          <td align="char" char=".">
+           9.83
+          </td>
+          <td align="char" char=".">
+           2.81
+          </td>
+          <td align="char" char=".">
+           3.68
+          </td>
+          <td align="char" char=".">
+           2.37
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Puglia
+          </td>
+          <td align="char" char=".">
+           20.69
+          </td>
+          <td align="char" char=".">
+           12.08
+          </td>
+          <td align="char" char=".">
+           18.73
+          </td>
+          <td align="char" char=".">
+           16.61
+          </td>
+          <td align="char" char=".">
+           4.20
+          </td>
+          <td align="char" char=".">
+           5.33
+          </td>
+          <td align="char" char=".">
+           4.25
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sardegna
+          </td>
+          <td align="char" char=".">
+           20.46
+          </td>
+          <td align="char" char=".">
+           25.42
+          </td>
+          <td align="char" char=".">
+           24.28
+          </td>
+          <td align="char" char=".">
+           7.33
+          </td>
+          <td align="char" char=".">
+           5.92
+          </td>
+          <td align="char" char=".">
+           5.22
+          </td>
+          <td align="char" char=".">
+           2.04
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sicilia
+          </td>
+          <td align="char" char=".">
+           20.22
+          </td>
+          <td align="char" char=".">
+           10.38
+          </td>
+          <td align="char" char=".">
+           18.52
+          </td>
+          <td align="char" char=".">
+           14.03
+          </td>
+          <td align="char" char=".">
+           3.44
+          </td>
+          <td align="char" char=".">
+           4.74
+          </td>
+          <td align="char" char=".">
+           3.14
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Toscana
+          </td>
+          <td align="char" char=".">
+           21.76
+          </td>
+          <td align="char" char=".">
+           8.39
+          </td>
+          <td align="char" char=".">
+           17.15
+          </td>
+          <td align="char" char=".">
+           8.53
+          </td>
+          <td align="char" char=".">
+           2.53
+          </td>
+          <td align="char" char=".">
+           4.04
+          </td>
+          <td align="char" char=".">
+           2.01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Trentino Alto Adige
+          </td>
+          <td align="char" char=".">
+           24.77
+          </td>
+          <td align="char" char=".">
+           6.56
+          </td>
+          <td align="char" char=".">
+           16.24
+          </td>
+          <td align="char" char=".">
+           5.71
+          </td>
+          <td align="char" char=".">
+           2.47
+          </td>
+          <td align="char" char=".">
+           3.54
+          </td>
+          <td align="char" char=".">
+           1.97
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Umbria
+          </td>
+          <td align="char" char=".">
+           23.57
+          </td>
+          <td align="char" char=".">
+           8.46
+          </td>
+          <td align="char" char=".">
+           18.13
+          </td>
+          <td align="char" char=".">
+           11.33
+          </td>
+          <td align="char" char=".">
+           2.77
+          </td>
+          <td align="char" char=".">
+           4.91
+          </td>
+          <td align="char" char=".">
+           2.82
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Valle D’Aosta
+          </td>
+          <td align="char" char=".">
+           23.90
+          </td>
+          <td align="char" char=".">
+           6.59
+          </td>
+          <td align="char" char=".">
+           15.12
+          </td>
+          <td align="char" char=".">
+           7.07
+          </td>
+          <td align="char" char=".">
+           1.95
+          </td>
+          <td align="char" char=".">
+           1.95
+          </td>
+          <td align="char" char=".">
+           1.46
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Veneto
+          </td>
+          <td align="char" char=".">
+           24.73
+          </td>
+          <td align="char" char=".">
+           8.15
+          </td>
+          <td align="char" char=".">
+           16.37
+          </td>
+          <td align="char" char=".">
+           8.14
+          </td>
+          <td align="char" char=".">
+           3.07
+          </td>
+          <td align="char" char=".">
+           3.80
+          </td>
+          <td align="char" char=".">
+           2.30
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="8">
+           Frequency (%)
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Regions
+          </th>
+          <th align="left">
+           HLA-B*18.01g-C*07.01g
+          </th>
+          <th align="left">
+           HLA-B*18.01g-DRB1*11.04g
+          </th>
+          <th align="left">
+           HLA-C*07.01g-DRB1*11.04g
+          </th>
+          <th align="left">
+           HLA-A*02.01g-B*18.01g-C*07.01g
+          </th>
+          <th align="left">
+           HLA-A*02.01g-B*18.01g-DRB1*11.04g
+          </th>
+          <th align="left">
+           HLA-A*02.01g-C*07.01g-DRB1*11.04g
+          </th>
+          <th align="left">
+           HLA-B*18.01g-C*07.01g-DRB1*11.04g
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Italy
+          </td>
+          <td align="char" char=".">
+           4.53
+          </td>
+          <td align="char" char=".">
+           3.22
+          </td>
+          <td align="char" char=".">
+           2.81
+          </td>
+          <td align="char" char=".">
+           0.77
+          </td>
+          <td align="char" char=".">
+           1.33
+          </td>
+          <td align="char" char=".">
+           1.28
+          </td>
+          <td align="char" char=".">
+           2.01
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Abruzzo
+          </td>
+          <td align="char" char=".">
+           5.41
+          </td>
+          <td align="char" char=".">
+           3.47
+          </td>
+          <td align="char" char=".">
+           3.20
+          </td>
+          <td align="char" char=".">
+           3.13
+          </td>
+          <td align="char" char=".">
+           2.18
+          </td>
+          <td align="char" char=".">
+           2.04
+          </td>
+          <td align="char" char=".">
+           2.09
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Basilicata
+          </td>
+          <td align="char" char=".">
+           7.53
+          </td>
+          <td align="char" char=".">
+           6.48
+          </td>
+          <td align="char" char=".">
+           6.17
+          </td>
+          <td align="char" char=".">
+           4.11
+          </td>
+          <td align="char" char=".">
+           3.17
+          </td>
+          <td align="char" char=".">
+           2.95
+          </td>
+          <td align="char" char=".">
+           4.63
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Calabria
+          </td>
+          <td align="char" char=".">
+           6.02
+          </td>
+          <td align="char" char=".">
+           4.50
+          </td>
+          <td align="char" char=".">
+           4.72
+          </td>
+          <td align="char" char=".">
+           3.23
+          </td>
+          <td align="char" char=".">
+           2.24
+          </td>
+          <td align="char" char=".">
+           1.93
+          </td>
+          <td align="char" char=".">
+           2.94
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Campania
+          </td>
+          <td align="char" char=".">
+           5.66
+          </td>
+          <td align="char" char=".">
+           4.53
+          </td>
+          <td align="char" char=".">
+           4.35
+          </td>
+          <td align="char" char=".">
+           2.80
+          </td>
+          <td align="char" char=".">
+           1.98
+          </td>
+          <td align="char" char=".">
+           1.88
+          </td>
+          <td align="char" char=".">
+           2.76
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Emilia Romagna
+          </td>
+          <td align="char" char=".">
+           3.79
+          </td>
+          <td align="char" char=".">
+           2.81
+          </td>
+          <td align="char" char=".">
+           2.42
+          </td>
+          <td align="char" char=".">
+           1.88
+          </td>
+          <td align="char" char=".">
+           1.13
+          </td>
+          <td align="char" char=".">
+           1.06
+          </td>
+          <td align="char" char=".">
+           1.67
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Friuli Venezia Giulia
+          </td>
+          <td align="char" char=".">
+           3.82
+          </td>
+          <td align="char" char=".">
+           2.39
+          </td>
+          <td align="char" char=".">
+           2.09
+          </td>
+          <td align="char" char=".">
+           1.40
+          </td>
+          <td align="char" char=".">
+           0.93
+          </td>
+          <td align="char" char=".">
+           0.87
+          </td>
+          <td align="char" char=".">
+           1.60
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lazio
+          </td>
+          <td align="char" char=".">
+           4.50
+          </td>
+          <td align="char" char=".">
+           3.64
+          </td>
+          <td align="char" char=".">
+           3.30
+          </td>
+          <td align="char" char=".">
+           2.25
+          </td>
+          <td align="char" char=".">
+           1.66
+          </td>
+          <td align="char" char=".">
+           1.52
+          </td>
+          <td align="char" char=".">
+           2.10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Liguria
+          </td>
+          <td align="char" char=".">
+           4.15
+          </td>
+          <td align="char" char=".">
+           2.63
+          </td>
+          <td align="char" char=".">
+           2.01
+          </td>
+          <td align="char" char=".">
+           1.84
+          </td>
+          <td align="char" char=".">
+           1.32
+          </td>
+          <td align="char" char=".">
+           1.08
+          </td>
+          <td align="char" char=".">
+           1.60
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Lombardia
+          </td>
+          <td align="char" char=".">
+           3.90
+          </td>
+          <td align="char" char=".">
+           2.85
+          </td>
+          <td align="char" char=".">
+           2.27
+          </td>
+          <td align="char" char=".">
+           1.74
+          </td>
+          <td align="char" char=".">
+           1.30
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           1.65
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Marche
+          </td>
+          <td align="char" char=".">
+           5.44
+          </td>
+          <td align="char" char=".">
+           3.54
+          </td>
+          <td align="char" char=".">
+           3.81
+          </td>
+          <td align="char" char=".">
+           3.09
+          </td>
+          <td align="char" char=".">
+           1.94
+          </td>
+          <td align="char" char=".">
+           2.03
+          </td>
+          <td align="char" char=".">
+           2.64
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Molise
+          </td>
+          <td align="char" char=".">
+           6.30
+          </td>
+          <td align="char" char=".">
+           5.76
+          </td>
+          <td align="char" char=".">
+           4.13
+          </td>
+          <td align="char" char=".">
+           3.02
+          </td>
+          <td align="char" char=".">
+           2.35
+          </td>
+          <td align="char" char=".">
+           2.26
+          </td>
+          <td align="char" char=".">
+           3.36
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Piemonte
+          </td>
+          <td align="char" char=".">
+           4.39
+          </td>
+          <td align="char" char=".">
+           3.01
+          </td>
+          <td align="char" char=".">
+           2.71
+          </td>
+          <td align="char" char=".">
+           1.94
+          </td>
+          <td align="char" char=".">
+           1.28
+          </td>
+          <td align="char" char=".">
+           1.10
+          </td>
+          <td align="char" char=".">
+           1.89
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Puglia
+          </td>
+          <td align="char" char=".">
+           7.16
+          </td>
+          <td align="char" char=".">
+           6.44
+          </td>
+          <td align="char" char=".">
+           5.33
+          </td>
+          <td align="char" char=".">
+           3.40
+          </td>
+          <td align="char" char=".">
+           2.58
+          </td>
+          <td align="char" char=".">
+           2.34
+          </td>
+          <td align="char" char=".">
+           4.54
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sardegna
+          </td>
+          <td align="char" char=".">
+           6.11
+          </td>
+          <td align="char" char=".">
+           2.98
+          </td>
+          <td align="char" char=".">
+           2.13
+          </td>
+          <td align="char" char=".">
+           3.20
+          </td>
+          <td align="char" char=".">
+           1.20
+          </td>
+          <td align="char" char=".">
+           1.13
+          </td>
+          <td align="char" char=".">
+           1.48
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Sicilia
+          </td>
+          <td align="char" char=".">
+           5.41
+          </td>
+          <td align="char" char=".">
+           4.47
+          </td>
+          <td align="char" char=".">
+           3.70
+          </td>
+          <td align="char" char=".">
+           2.70
+          </td>
+          <td align="char" char=".">
+           1.81
+          </td>
+          <td align="char" char=".">
+           1.63
+          </td>
+          <td align="char" char=".">
+           2.49
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Toscana
+          </td>
+          <td align="char" char=".">
+           3.93
+          </td>
+          <td align="char" char=".">
+           2.21
+          </td>
+          <td align="char" char=".">
+           1.99
+          </td>
+          <td align="char" char=".">
+           1.97
+          </td>
+          <td align="char" char=".">
+           1.05
+          </td>
+          <td align="char" char=".">
+           0.92
+          </td>
+          <td align="char" char=".">
+           1.42
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Trentino Alto Adige
+          </td>
+          <td align="char" char=".">
+           3.48
+          </td>
+          <td align="char" char=".">
+           1.75
+          </td>
+          <td align="char" char=".">
+           1.82
+          </td>
+          <td align="char" char=".">
+           1.65
+          </td>
+          <td align="char" char=".">
+           0.79
+          </td>
+          <td align="char" char=".">
+           0.83
+          </td>
+          <td align="char" char=".">
+           1.24
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Umbria
+          </td>
+          <td align="char" char=".">
+           3.47
+          </td>
+          <td align="char" char=".">
+           3.86
+          </td>
+          <td align="char" char=".">
+           2.65
+          </td>
+          <td align="char" char=".">
+           2.01
+          </td>
+          <td align="char" char=".">
+           1.52
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           1.75
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Valle D’Aosta
+          </td>
+          <td align="char" char=".">
+           3.17
+          </td>
+          <td align="char" char=".">
+           1.71
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           1.22
+          </td>
+          <td align="char" char=".">
+           0.98
+          </td>
+          <td align="char" char=".">
+           0.49
+          </td>
+          <td align="char" char=".">
+           0.73
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Veneto
+          </td>
+          <td align="char" char=".">
+           4.25
+          </td>
+          <td align="char" char=".">
+           2.61
+          </td>
+          <td align="char" char=".">
+           2.40
+          </td>
+          <td align="char" char=".">
+           2.01
+          </td>
+          <td align="char" char=".">
+           1.15
+          </td>
+          <td align="char" char=".">
+           1.27
+          </td>
+          <td align="char" char=".">
+           1.84
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab6">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         Correlation analysis of the single alleles and allelic combinations of the HLA-A, -B, -C, -DRB1 loci of the haplotype HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g with N° cases and deaths/100,000 inhabitants
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="9">
+           N° cases/100,000 inhabitants
+          </th>
+         </tr>
+         <tr>
+          <th align="left" rowspan="2">
+           Haplotype
+          </th>
+          <th align="left" colspan="2">
+           8 March
+          </th>
+          <th align="left" colspan="2">
+           8 April
+          </th>
+          <th align="left" colspan="2">
+           3 May
+          </th>
+          <th align="left" colspan="2">
+           24 May
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g
+          </td>
+          <td align="char" char=".">
+           0.35
+          </td>
+          <td align="char" char=".">
+           0.158
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           0.67
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           0.64
+          </td>
+          <td align="char" char=".">
+           0.004**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08:01g
+          </td>
+          <td align="char" char=".">
+           0.40
+          </td>
+          <td align="char" char=".">
+           0.097
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="char" char=".">
+           0.0002***
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+          <td align="char" char=".">
+           0.72
+          </td>
+          <td align="char" char=".">
+           0.0007***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.28
+          </td>
+          <td align="char" char=".">
+           0.257
+          </td>
+          <td align="char" char=".">
+           0.60
+          </td>
+          <td align="char" char=".">
+           0.009**
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.012*
+          </td>
+          <td align="char" char=".">
+           0.56
+          </td>
+          <td align="char" char=".">
+           0.016*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g- B*08:01g
+          </td>
+          <td align="char" char=".">
+           0.35
+          </td>
+          <td align="char" char=".">
+           0.152
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           0.73
+          </td>
+          <td align="char" char=".">
+           0.0006***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           0.32
+          </td>
+          <td align="char" char=".">
+           0.201
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.32
+          </td>
+          <td align="char" char=".">
+           0.201
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+          <td align="char" char=".">
+           0.70
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08.01g-C*07.01g
+          </td>
+          <td align="char" char=".">
+           0.42
+          </td>
+          <td align="char" char=".">
+           0.080
+          </td>
+          <td align="char" char=".">
+           0.78
+          </td>
+          <td align="char" char=".">
+           0.0002***
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="char" char=".">
+           0.0002***
+          </td>
+          <td align="char" char=".">
+           0.74
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08.01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.40
+          </td>
+          <td align="char" char=".">
+           0.096
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           0.74
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+          <td align="char" char=".">
+           0.72
+          </td>
+          <td align="char" char=".">
+           0.0007***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-C*07.01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.43
+          </td>
+          <td align="char" char=".">
+           0.078
+          </td>
+          <td align="char" char=".">
+           0.79
+          </td>
+          <td align="char" char=".">
+           0.0001***
+          </td>
+          <td align="char" char=".">
+           0.78
+          </td>
+          <td align="char" char=".">
+           0.0001***
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="char" char=".">
+           0.0002***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-B*08:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           0.35
+          </td>
+          <td align="char" char=".">
+           0.151
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           0.76
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           0.73
+          </td>
+          <td align="char" char=".">
+           0.0005***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-B*08:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.33
+          </td>
+          <td align="char" char=".">
+           0.175
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+          <td align="char" char=".">
+           0.74
+          </td>
+          <td align="char" char=".">
+           0.0005***
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="char" char=".">
+           0.0009***
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-C*07:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.30
+          </td>
+          <td align="char" char=".">
+           0.232
+          </td>
+          <td align="char" char=".">
+           0.72
+          </td>
+          <td align="char" char=".">
+           0.0008***
+          </td>
+          <td align="char" char=".">
+           0.71
+          </td>
+          <td align="char" char=".">
+           0.0009***
+          </td>
+          <td align="char" char=".">
+           0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08.01g-C*07.01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.41
+          </td>
+          <td align="char" char=".">
+           0.094
+          </td>
+          <td align="char" char=".">
+           0.75
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           0.74
+          </td>
+          <td align="char" char=".">
+           0.0004***
+          </td>
+          <td align="char" char=".">
+           0.72
+          </td>
+          <td align="char" char=".">
+           0.0007***
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="9">
+           N° deaths/100,000 inhabitants
+          </th>
+         </tr>
+         <tr>
+          <th align="left" rowspan="2">
+           Haplotype
+          </th>
+          <th align="left" colspan="2">
+           8 March
+          </th>
+          <th align="left" colspan="2">
+           8 April
+          </th>
+          <th align="left" colspan="2">
+           3 May
+          </th>
+          <th align="left" colspan="2">
+           24 May
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g
+          </td>
+          <td align="char" char=".">
+           0.26
+          </td>
+          <td align="char" char=".">
+           0.289
+          </td>
+          <td align="char" char=".">
+           0.53
+          </td>
+          <td align="char" char=".">
+           0.025*
+          </td>
+          <td align="char" char=".">
+           0.56
+          </td>
+          <td align="char" char=".">
+           0.015*
+          </td>
+          <td align="char" char=".">
+           0.56
+          </td>
+          <td align="char" char=".">
+           0.015*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08:01g
+          </td>
+          <td align="char" char=".">
+           0.31
+          </td>
+          <td align="char" char=".">
+           0.216
+          </td>
+          <td align="char" char=".">
+           0.54
+          </td>
+          <td align="char" char=".">
+           0.022*
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.011*
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.011*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.21
+          </td>
+          <td align="char" char=".">
+           0.399
+          </td>
+          <td align="char" char=".">
+           0.38
+          </td>
+          <td align="char" char=".">
+           0.121
+          </td>
+          <td align="char" char=".">
+           0.42
+          </td>
+          <td align="char" char=".">
+           0.080
+          </td>
+          <td align="char" char=".">
+           0.43
+          </td>
+          <td align="char" char=".">
+           0.078
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g- B*08:01g
+          </td>
+          <td align="char" char=".">
+           0.25
+          </td>
+          <td align="char" char=".">
+           0.317
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.026*
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.012*
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.012*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           0.22
+          </td>
+          <td align="char" char=".">
+           0.379
+          </td>
+          <td align="char" char=".">
+           0.49
+          </td>
+          <td align="char" char=".">
+           0.038*
+          </td>
+          <td align="char" char=".">
+           0.54
+          </td>
+          <td align="char" char=".">
+           0.020*
+          </td>
+          <td align="char" char=".">
+           0.54
+          </td>
+          <td align="char" char=".">
+           0.022*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.20
+          </td>
+          <td align="char" char=".">
+           0.419
+          </td>
+          <td align="char" char=".">
+           0.48
+          </td>
+          <td align="char" char=".">
+           0.042*
+          </td>
+          <td align="char" char=".">
+           0.53
+          </td>
+          <td align="char" char=".">
+           0.024*
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.025*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08.01g-C*07.01g
+          </td>
+          <td align="char" char=".">
+           0.32
+          </td>
+          <td align="char" char=".">
+           0.198
+          </td>
+          <td align="char" char=".">
+           0.56
+          </td>
+          <td align="char" char=".">
+           0.016*
+          </td>
+          <td align="char" char=".">
+           0.61
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+          <td align="char" char=".">
+           0.60
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08.01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.31
+          </td>
+          <td align="char" char=".">
+           0.206
+          </td>
+          <td align="char" char=".">
+           0.55
+          </td>
+          <td align="char" char=".">
+           0.019*
+          </td>
+          <td align="char" char=".">
+           0.59
+          </td>
+          <td align="char" char=".">
+           0.010*
+          </td>
+          <td align="char" char=".">
+           0.59
+          </td>
+          <td align="char" char=".">
+           0.010*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-C*07.01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.33
+          </td>
+          <td align="char" char=".">
+           0.177
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.011*
+          </td>
+          <td align="char" char=".">
+           0.63
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+          <td align="char" char=".">
+           0.63
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-B*08:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           0.25
+          </td>
+          <td align="char" char=".">
+           0.315
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.025*
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.011*
+          </td>
+          <td align="char" char=".">
+           0.58
+          </td>
+          <td align="char" char=".">
+           0.012*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-B*08:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.23
+          </td>
+          <td align="char" char=".">
+           0.350
+          </td>
+          <td align="char" char=".">
+           0.52
+          </td>
+          <td align="char" char=".">
+           0.028*
+          </td>
+          <td align="char" char=".">
+           0.57
+          </td>
+          <td align="char" char=".">
+           0.014*
+          </td>
+          <td align="char" char=".">
+           0.56
+          </td>
+          <td align="char" char=".">
+           0.015*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01g-C*07:01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.21
+          </td>
+          <td align="char" char=".">
+           0.408
+          </td>
+          <td align="char" char=".">
+           0.50
+          </td>
+          <td align="char" char=".">
+           0.036*
+          </td>
+          <td align="char" char=".">
+           0.54
+          </td>
+          <td align="char" char=".">
+           0.020*
+          </td>
+          <td align="char" char=".">
+           0.54
+          </td>
+          <td align="char" char=".">
+           0.021*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08.01g-C*07.01g-DRB1*03:01g
+          </td>
+          <td align="char" char=".">
+           0.31
+          </td>
+          <td align="char" char=".">
+           0.216
+          </td>
+          <td align="char" char=".">
+           0.54
+          </td>
+          <td align="char" char=".">
+           0.019*
+          </td>
+          <td align="char" char=".">
+           0.59
+          </td>
+          <td align="char" char=".">
+           0.010*
+          </td>
+          <td align="char" char=".">
+           0.59
+          </td>
+          <td align="char" char=".">
+           0.010*
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="Tab7">
+       <label>
+        Table 7
+       </label>
+       <caption>
+        <p>
+         Correlation analysis of the single alleles and allelic combinations of the HLA-A, -B, -C, -DRB1 loci of the haplotype HLA-A*02.01g-C*07.01g-DRB1*11.04g with N° cases and deaths/100,000 inhabitants
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="9">
+           N° cases/100,000 inhabitants
+          </th>
+         </tr>
+         <tr>
+          <th align="left" rowspan="2">
+           Haplotype
+          </th>
+          <th align="left" colspan="2">
+           <bold>
+            8 March
+           </bold>
+          </th>
+          <th align="left" colspan="2">
+           <bold>
+            8 April
+           </bold>
+          </th>
+          <th align="left" colspan="2">
+           <bold>
+            3 May
+           </bold>
+          </th>
+          <th align="left" colspan="2">
+           <bold>
+            24 May
+           </bold>
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           <bold>
+            Correlation
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            P
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            Correlation
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            P
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            Correlation
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            P
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            Correlation
+           </bold>
+          </th>
+          <th align="left">
+           <bold>
+            P
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g
+          </td>
+          <td align="char" char=".">
+           0.33
+          </td>
+          <td align="char" char=".">
+           0.175
+          </td>
+          <td align="char" char=".">
+           0.59
+          </td>
+          <td align="char" char=".">
+           0.009**
+          </td>
+          <td align="char" char=".">
+           0.56
+          </td>
+          <td align="char" char=".">
+           0.015*
+          </td>
+          <td align="char" char=".">
+           0.55
+          </td>
+          <td align="char" char=".">
+           0.019*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18:01g
+          </td>
+          <td align="char" char=".">
+           − 0.39
+          </td>
+          <td align="char" char=".">
+           0.113
+          </td>
+          <td align="char" char=".">
+           − 0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           − 0.64
+          </td>
+          <td align="char" char=".">
+           0.004**
+          </td>
+          <td align="char" char=".">
+           − 0.62
+          </td>
+          <td align="char" char=".">
+           0.006**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-C*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.47
+          </td>
+          <td align="char" char=".">
+           0.050
+          </td>
+          <td align="char" char=".">
+           − 0.71
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+          <td align="char" char=".">
+           − 0.72
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+          <td align="char" char=".">
+           − 0.72
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.41
+          </td>
+          <td align="char" char=".">
+           0.093
+          </td>
+          <td align="char" char=".">
+           − 0.75
+          </td>
+          <td align="char" char=".">
+           0.0003***
+          </td>
+          <td align="char" char=".">
+           − 0.75
+          </td>
+          <td align="char" char=".">
+           0.0004*
+          </td>
+          <td align="char" char=".">
+           − 0.72
+          </td>
+          <td align="char" char=".">
+           0.001**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g
+          </td>
+          <td align="char" char=".">
+           − 0.38
+          </td>
+          <td align="char" char=".">
+           0.122
+          </td>
+          <td align="char" char=".">
+           − 0.61
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+          <td align="char" char=".">
+           − 0.60
+          </td>
+          <td align="char" char=".">
+           0.009**
+          </td>
+          <td align="char" char=".">
+           − 0.59
+          </td>
+          <td align="char" char=".">
+           0.010*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.41
+          </td>
+          <td align="char" char=".">
+           0.095
+          </td>
+          <td align="char" char=".">
+           − 0.66
+          </td>
+          <td align="char" char=".">
+           0.003**
+          </td>
+          <td align="char" char=".">
+           − 0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           − 0.68
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.39
+          </td>
+          <td align="char" char=".">
+           0.110
+          </td>
+          <td align="char" char=".">
+           − 0.66
+          </td>
+          <td align="char" char=".">
+           0.003**
+          </td>
+          <td align="char" char=".">
+           − 0.66
+          </td>
+          <td align="char" char=".">
+           0.003**
+          </td>
+          <td align="char" char=".">
+           − 0.64
+          </td>
+          <td align="char" char=".">
+           0.004**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18.01g-C*07.01g
+          </td>
+          <td align="char" char=".">
+           − 0.37
+          </td>
+          <td align="char" char=".">
+           0.128
+          </td>
+          <td align="char" char=".">
+           − 0.64
+          </td>
+          <td align="char" char=".">
+           0.004**
+          </td>
+          <td align="char" char=".">
+           − 0.63
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+          <td align="char" char=".">
+           − 0.61
+          </td>
+          <td align="char" char=".">
+           0.007**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18.01g-DRB1*11.04g
+          </td>
+          <td align="char" char=".">
+           − 0.35
+          </td>
+          <td align="char" char=".">
+           0.150
+          </td>
+          <td align="char" char=".">
+           − 0.69
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           − 0.69
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           − 0.67
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-C*07.01g-DRB1*11.04g
+          </td>
+          <td align="char" char=".">
+           − 0.36
+          </td>
+          <td align="char" char=".">
+           0.137
+          </td>
+          <td align="char" char=".">
+           − 0.67
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           − 0.67
+          </td>
+          <td align="char" char=".">
+           0.002**
+          </td>
+          <td align="char" char=".">
+           − 0.66
+          </td>
+          <td align="char" char=".">
+           0.003**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.37
+          </td>
+          <td align="char" char=".">
+           0.132
+          </td>
+          <td align="char" char=".">
+           − 0.63
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+          <td align="char" char=".">
+           − 0.64
+          </td>
+          <td align="char" char=".">
+           0.004**
+          </td>
+          <td align="char" char=".">
+           − 0.63
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.35
+          </td>
+          <td align="char" char=".">
+           0.150
+          </td>
+          <td align="char" char=".">
+           − 0.65
+          </td>
+          <td align="char" char=".">
+           0.003**
+          </td>
+          <td align="char" char=".">
+           − 0.66
+          </td>
+          <td align="char" char=".">
+           0.003**
+          </td>
+          <td align="char" char=".">
+           − 0.64
+          </td>
+          <td align="char" char=".">
+           0.005**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-C*07:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.29
+          </td>
+          <td align="char" char=".">
+           0.238
+          </td>
+          <td align="char" char=".">
+           − 0.60
+          </td>
+          <td align="char" char=".">
+           0.009**
+          </td>
+          <td align="char" char=".">
+           − 0.61
+          </td>
+          <td align="char" char=".">
+           0.007**
+          </td>
+          <td align="char" char=".">
+           − 0.60
+          </td>
+          <td align="char" char=".">
+           0.009**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18.01g-C*07.01g-DRB1*11.04g
+          </td>
+          <td align="char" char=".">
+           − 0.32
+          </td>
+          <td align="char" char=".">
+           0.190
+          </td>
+          <td align="char" char=".">
+           − 0.61
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+          <td align="char" char=".">
+           − 0.61
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+          <td align="char" char=".">
+           − 0.59
+          </td>
+          <td align="char" char=".">
+           0.009**
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="9">
+           N° deaths/100,000 inhabitants
+          </th>
+         </tr>
+         <tr>
+          <th align="left" rowspan="2">
+           Haplotype
+          </th>
+          <th align="left" colspan="2">
+           8 March
+          </th>
+          <th align="left" colspan="2">
+           8 April
+          </th>
+          <th align="left" colspan="2">
+           3 May
+          </th>
+          <th align="left" colspan="2">
+           24 May
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+          <th align="left">
+           Correlation
+          </th>
+          <th align="left">
+           P
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g
+          </td>
+          <td align="char" char=".">
+           0.30
+          </td>
+          <td align="char" char=".">
+           0.222
+          </td>
+          <td align="char" char=".">
+           0.45
+          </td>
+          <td align="char" char=".">
+           0.063
+          </td>
+          <td align="char" char=".">
+           0.46
+          </td>
+          <td align="char" char=".">
+           0.057
+          </td>
+          <td align="char" char=".">
+           0.46
+          </td>
+          <td align="char" char=".">
+           0.056
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18:01g
+          </td>
+          <td align="char" char=".">
+           − 0.27
+          </td>
+          <td align="char" char=".">
+           0.287
+          </td>
+          <td align="char" char=".">
+           − 0.47
+          </td>
+          <td align="char" char=".">
+           0.048*
+          </td>
+          <td align="char" char=".">
+           − 0.49
+          </td>
+          <td align="char" char=".">
+           0.037*
+          </td>
+          <td align="char" char=".">
+           − 0.48
+          </td>
+          <td align="char" char=".">
+           0.042*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-C*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.40
+          </td>
+          <td align="char" char=".">
+           0.098
+          </td>
+          <td align="char" char=".">
+           − 0.56
+          </td>
+          <td align="char" char=".">
+           0.016*
+          </td>
+          <td align="char" char=".">
+           − 0.62
+          </td>
+          <td align="char" char=".">
+           0.006**
+          </td>
+          <td align="char" char=".">
+           − 0.62
+          </td>
+          <td align="char" char=".">
+           0.006**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.31
+          </td>
+          <td align="char" char=".">
+           0.206
+          </td>
+          <td align="char" char=".">
+           − 0.55
+          </td>
+          <td align="char" char=".">
+           0.017*
+          </td>
+          <td align="char" char=".">
+           − 0.60
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+          <td align="char" char=".">
+           − 0.60
+          </td>
+          <td align="char" char=".">
+           0.008**
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g
+          </td>
+          <td align="char" char=".">
+           − 0.31
+          </td>
+          <td align="char" char=".">
+           0.212
+          </td>
+          <td align="char" char=".">
+           − 0.45
+          </td>
+          <td align="char" char=".">
+           0.060
+          </td>
+          <td align="char" char=".">
+           − 0.49
+          </td>
+          <td align="char" char=".">
+           0.037*
+          </td>
+          <td align="char" char=".">
+           − 0.49
+          </td>
+          <td align="char" char=".">
+           0.038*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.33
+          </td>
+          <td align="char" char=".">
+           0.185
+          </td>
+          <td align="char" char=".">
+           − 0.51
+          </td>
+          <td align="char" char=".">
+           0.031*
+          </td>
+          <td align="char" char=".">
+           − 0.57
+          </td>
+          <td align="char" char=".">
+           0.013*
+          </td>
+          <td align="char" char=".">
+           − 0.58
+          </td>
+          <td align="char" char=".">
+           0.012*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.28
+          </td>
+          <td align="char" char=".">
+           0.263
+          </td>
+          <td align="char" char=".">
+           − 0.47
+          </td>
+          <td align="char" char=".">
+           0.050
+          </td>
+          <td align="char" char=".">
+           − 0.52
+          </td>
+          <td align="char" char=".">
+           0.025*
+          </td>
+          <td align="char" char=".">
+           − 0.53
+          </td>
+          <td align="char" char=".">
+           0.025*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18.01g-C*07.01g
+          </td>
+          <td align="char" char=".">
+           − 0.32
+          </td>
+          <td align="char" char=".">
+           0.201
+          </td>
+          <td align="char" char=".">
+           − 0.47
+          </td>
+          <td align="char" char=".">
+           0.048*
+          </td>
+          <td align="char" char=".">
+           − 0.51
+          </td>
+          <td align="char" char=".">
+           0.030*
+          </td>
+          <td align="char" char=".">
+           − 0.51
+          </td>
+          <td align="char" char=".">
+           0.029*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18.01g-DRB1*11.04g
+          </td>
+          <td align="char" char=".">
+           − 0.27
+          </td>
+          <td align="char" char=".">
+           0.270
+          </td>
+          <td align="char" char=".">
+           − 0.51
+          </td>
+          <td align="char" char=".">
+           0.032*
+          </td>
+          <td align="char" char=".">
+           − 0.56
+          </td>
+          <td align="char" char=".">
+           0.015*
+          </td>
+          <td align="char" char=".">
+           − 0.57
+          </td>
+          <td align="char" char=".">
+           0.014*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-C*07.01g-DRB1*11.04g
+          </td>
+          <td align="char" char=".">
+           − 0.31
+          </td>
+          <td align="char" char=".">
+           0.218
+          </td>
+          <td align="char" char=".">
+           − 0.50
+          </td>
+          <td align="char" char=".">
+           0.036*
+          </td>
+          <td align="char" char=".">
+           − 0.55
+          </td>
+          <td align="char" char=".">
+           0.017*
+          </td>
+          <td align="char" char=".">
+           − 0.56
+          </td>
+          <td align="char" char=".">
+           0.015*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g-C*07:01g
+          </td>
+          <td align="char" char=".">
+           − 0.33
+          </td>
+          <td align="char" char=".">
+           0.177
+          </td>
+          <td align="char" char=".">
+           − 0.47
+          </td>
+          <td align="char" char=".">
+           0.047*
+          </td>
+          <td align="char" char=".">
+           − 0.53
+          </td>
+          <td align="char" char=".">
+           0.024*
+          </td>
+          <td align="char" char=".">
+           − 0.54
+          </td>
+          <td align="char" char=".">
+           0.022*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-B*18:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.28
+          </td>
+          <td align="char" char=".">
+           0.267
+          </td>
+          <td align="char" char=".">
+           − 0.46
+          </td>
+          <td align="char" char=".">
+           0.055
+          </td>
+          <td align="char" char=".">
+           − 0.52
+          </td>
+          <td align="char" char=".">
+           0.028*
+          </td>
+          <td align="char" char=".">
+           − 0.52
+          </td>
+          <td align="char" char=".">
+           0.027*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01g-C*07:01g-DRB1*11:04g
+          </td>
+          <td align="char" char=".">
+           − 0.25
+          </td>
+          <td align="char" char=".">
+           0.320
+          </td>
+          <td align="char" char=".">
+           − 0.42
+          </td>
+          <td align="char" char=".">
+           0.083
+          </td>
+          <td align="char" char=".">
+           − 0.48
+          </td>
+          <td align="char" char=".">
+           0.042*
+          </td>
+          <td align="char" char=".">
+           − 0.49
+          </td>
+          <td align="char" char=".">
+           0.038*
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*18.01g-C*07.01g-DRB1*11.04g
+          </td>
+          <td align="char" char=".">
+           − 0.27
+          </td>
+          <td align="char" char=".">
+           0.284
+          </td>
+          <td align="char" char=".">
+           − 0.45
+          </td>
+          <td align="char" char=".">
+           0.062
+          </td>
+          <td align="char" char=".">
+           − 0.50
+          </td>
+          <td align="char" char=".">
+           0.036*
+          </td>
+          <td align="char" char=".">
+           − 0.50
+          </td>
+          <td align="char" char=".">
+           0.034*
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec9">
+    <title>
+     Discussion
+    </title>
+    <p id="Par27">
+     In the present study, through a geographical epidemiological analysis, we observed that there are significative regional differences in the frequency of the two most common HLA haplotypes in the Italian population among the northern, central and southern regions with HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g (ranked #1 at the national level) showing a decreasing frequency gradient and HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g (ranked #2) an increasing frequency gradient from North to South. The geographical distribution of these haplotypes overlaps with that of Covid-19 in Italy, being linearly correlated in a positive/direct way for the haplotype #1 and in a negative/inverse way for the haplotype #2. This means that a high incidence and mortality was observed in the northern regions where the population has high frequency values of the haplotype HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g and all the allelic combinations of the four considered HLA-A, -B, -C, -DRB1 loci, containing at least one of these alleles, particularly those with the B*08:01g and DRB1*03:01g polymorphism, suggestive of potential ‘susceptibility’ to the disease. On the contrary, a low incidence and mortality for Covid-19 was observed in the central-southern regions with high frequency values of the haplotype HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g and of its alleles B*18:01g, C*07:01g and DRB1*11:04g in all their possible combinations containing at least one of such alleles, suggestive of potential ‘protection’ from the infection. Hence, the population of central-southern Italy that shows the highest prevalence of the protective haplotype HLA-A*02:01g-B*18:01g-C*07:01g-DRB1*11:04g and its allelic combinations and, at the same time, the lowest frequencies of the disadvantageous haplotype HLA-A*01:01g-B*08:01g-C*07:01g-DRB1*03:01g and its allelic combinations, could be genetically shielded from Covid-19. Such findings are only descriptive in nature and need to be validated through retrospective observational case–control studies on Covid-19 patients typed for HLA comparing the frequencies of the potential ‘protective’ and ‘unfavourable’ HLA haplotypes and alleles highlighted in the general Italian population with those observed in the Covid-19 patients cohort, in order to define such HLA polymorphisms as a factor effectively associated to the disease susceptibility as already done for other viral infections, communicable diseases and autoimmune pathologies [     –     ]. However, also in these pathologies such geographical epidemiological approaches have given important clues to identify sub-populations most at risk of susceptibility to the infection also taking into account as a susceptibility parameter HLA specific alleles and haplotypes [     ].
+    </p>
+    <p id="Par28">
+     To the best of our knowledge, this is the first study that estimated, through a population frequency analysis, the potential association of specific HLA alleles and haplotypes with the incidence and mortality of Covid-19. Although the primary scope of a bone marrow registry is to increase the possibilities to find allogenic compatible donors for transplants, it is also a unique source of precious HLA data from the widest and most representative sample available at the national level, which makes it possible to reliably estimate haplotypes frequencies in a given population and carry out association studies in many disease contexts. We conducted our study on a large sample of 104,135 subjects typed at high resolution four-digit level, subdivided in the 20 Italian regions, with a regional sample size adequately statistically representative of the resident population for each region [     ].
+    </p>
+    <p id="Par29">
+     Our study is the first to propose HLA as a susceptibility marker to SARS-CoV-2 infection and highlight its potential impact on the epidemic trend within a specific country, Italy, that has been hit particularly hard. However, similar associations may also be observed within other countries, bringing to light common genetic patterns or new country-specific protective or unfavourable HLA polymorphisms, that could explain some of the differences observed in the epidemic between one country and another. Such geographical epidemiological studies, conducted at the general population level, need to be confirmed in Covid-19 patients’ cohorts of asymptomatic, mildly symptomatic, severely affected individuals to draw fundamental conclusions with important implications not only at the epidemiological level but also at the clinical one. Indeed, particular HLA haplotypes/alleles could be associated with a stronger immune response and hence a better host response to the virus. Some useful information can also be inferred by previous researches on SARS and MERS, where it has been reported that several HLA polymorphisms are associated to SARS susceptibility (HLA-B*46:01, HLA-B*07:03, HLA-DRB1*12:02 and HLA-Cw*08:01) [     –     ]. On the contrary the allelotypes HLA-DR*03:01, HLA-Cw*15:02 and HLA-A*02:01 seem to be protective from SARS infection [     ]. HLA-DRB1*11:01 and HLA-DQB1*02:02 are related to MERS-CoV infection susceptibility [     ]. On these premises, it is conceivable that several HLA associations could be unfavourable or protective also for the course of Covid-19 infection.
+    </p>
+    <p id="Par30">
+     Very recent works employed different bioinformatic approaches to predict the best SARS-CoV-2 derived B and T cell epitopes and their associated HLA alleles, that may help to design effective vaccines and find protective antibodies [     –     ]. Employing HLA binding affinity prediction tools, it has been observed that HLA-A and HLA-C alleles exhibited the relatively most and least capacity to present SARS-CoV-2 antigens, respectively. However, depending on the specific study and the bioinformatic approach used, the best and worse predicted presenters of conserved peptides reported are not the same. We found that the alleles analysed in our study are present in the database recently made available by Nguyen et al., that reports the list of 32,257 8- to 12-mers peptides from the SARS-CoV-2 proteome and their binding affinity to 145 different HLA A, B, C alleles, predicted by bioinformatic tools [     ]. In particular, all the alleles pointed out in our study have been predicted to have an overall good capacity to present viral peptides, independently of their potential correlation with Covid-19 regional incidence and mortality, with HLA-A*02:01 being the best (1062 total peptides, 268 with a very high binding affinity &lt; 50 nM), followed by HLA-B*08:01 (225 total, 25 high affinity), HLA-A*01:01 (183 total, 44 high affinity), HLA-B*18:01 (101 total, 12 high) and HLA-C*07:01 (44 total, 4 high) (Additional file     : Fig. S1) [     ].
+    </p>
+    <p id="Par31">
+     It is important to note that all the bioinformatic predictions made on SARS-CoV-2 epitopes and their HLA binding, have the limit to be exclusively theoretical and thus need to be experimentally validated in in vitro binding assays and in the ability to effectively elicit T and B cell mediated responses. Indeed, it is widely recognised that antigenicity, immunogenicity and, for T cells, the TCR avidity to the antigen/HLA and hence the functional immune responses elicited, are not directly related with the peptide binding affinity [     ,     ]. No information is available to date regarding the binding of HLA II molecules, whose polymorphic variants could play a relevant role in orchestrating a functional adaptive immune response.
+    </p>
+    <p id="Par32">
+     Undoubtedly, the method of analysis used in our study presents some limits and could be affected by an inevitable selection bias, since it takes into consideration the region of birth of the typed individuals but not the region of residence, whereas data about Covid-19 infections are reported per region where the infection occurred, independently of birthplace. However, we can reasonably exclude the influence of migration flows (that in Italy are historically directed from the southern regions to the northern) on the regional frequencies used in our computations, since they are equivalent to those from previous studies with information concerning both the region of birth and residence and so, thanks to the large dimension of the regional subgroups analysed, independent from the migratory movements [     ,     ]. The information about Covid-19 cases and deaths relies on public resources, daily updated on the basis of laboratory analysis of swabs tested positive for the virus by RT-PCR at the regional accredited centers, following confirmatory testing by the Italian National Institute of Health in Rome. As above reported, these values could have been underestimated for reasons depending on several factors like a stringent testing policy, limited to severely affected symptomatic individuals, that excluded from testing the bulk of asymptomatic ones, shortage of testing materials in the peak of the emergency, limited access to overcrowded hospital facilities, to name just a few. Noteworthy, a higher overall mortality rate than previous years has been observed in Nembro, a little town of Lombardia region, indicative of both direct and indirect disease burden and has been also highlighted by a recent report published by Italian National Institute for Social Security [     ,     ].
+    </p>
+    <p id="Par33">
+     Apart from the epidemiological value in tracing the distribution of Covid-19 and understanding its immunopathogenesis, the identification of specific HLA haplotypes as potential risk, susceptibility or protective biomarkers, can be of great help in stratifying the population, in order to identify those patients more at risk to develop a severe infection, thus allowing to adopt proper preventive strategies and early intervention measures.
+    </p>
+    <p id="Par34">
+     It is important to note that the HLA region is known for its linkage disequilibrium, therefore, other genes very near to HLA could be eventually responsible for the association with Covid-19 regional distribution. Genetic polymorphisms in the HLA locus or in other genes encoding key components of the immune-inflammatory response observed in SARS-CoV-2 infection (KIR receptors, inflammasome components, cytokines and chemokines like CXCL10) may help to explain the high variable spectrum of disease manifestations, progression and outcome (from asymptomatic, to mild-moderately symptomatic and severely affected patients requiring intensive care and respiratory support).
+    </p>
+    <p id="Par35">
+     With this in mind, even though the collected knowledge is still limited to few studies, some susceptibility markers other than HLA have been proposed for Covid-19. An association with ABO blood antigens has been observed in a cohort of Chinese patients, with the type A and 0 being respectively at highest and lowest risk to be infected, as previously been reported for other viral infections [     ]. This observation was confirmed in a genomewide study on Spanish and Italian patients’ cohorts. Indeed, a skewing of ABO blood antigens distribution among Covid-19 patients who suffered from respiratory failure was reported, whereas no significant association was found between HLA polymorphisms in Covid-19 patients and respiratory failure (oxygen supplementation or mechanical ventilation) [     ]. To the best of our knowledge this is the only study available to date that takes into account the association of HLA polymorphisms and Covid-19 severity, but it is important to note that it was performed in a limited Italian population, including only patients from Lombardia region, without taking into account geographical patterns of HLA distribution. Genetic polymorphisms of key genes of the virus entry machinery (
+     <italic>
+      Ace2, Tmprss2, CtsB, and CtsL
+     </italic>
+     ) or of the inflammatory/immune response (
+     <italic>
+      e.g.
+     </italic>
+     cytokines and their receptors) or epigenetic mechanisms may influence virus susceptibility and the severity/outcome of the infection among different individuals and populations, too [     ,     ]. A novel susceptibility locus containing a cluster of six genes (SLC6A20, LZTFL1, CCR9, FYCO1, CXCR6, and XCR1) on chromosome 3p21.31, most of whose involved in the regulation of inflammatory and immune response, has been indeed found [     ].
+    </p>
+    <p id="Par36">
+     We recognize that other factors,
+     <italic>
+      e.g.
+     </italic>
+     climatic differences, pollution, lockdown effect that limited the diffusion from North to South, could be responsible alone or in combination with genetic factors for the different Covid-19 infection rates among Italian regions. Our reported potential association of two haplotypes with the differential regional incidence and mortality for Covid-19 in Italy may explain, from the point of view of the genetic diversity of the Italian population, why the epidemic hit the northern regions so hard and instead had a small impact on those of the central-south, a figure which cannot be explained on the basis of population, urban density, movements to and from large urban and industrial areas, pollution or climate alone. Indeed, several central and southern metropolitan areas like those of Rome, Naples, Bari, Palermo (respectively located in Lazio, Campania, Puglia, Sicilia) have an urban density comparable or even higher (Naples) than Milan and Lombardia, atmospheric emissions of PM10, PM2.5 and NO
+     <sub>
+      2
+     </sub>
+     levels above threshold, and high flows of mobility through public transports [     ]. Furthermore, the climatic variations in Italy are very limited and not comparable to those occurring in wider countries like China, US or Brasil [     ].
+    </p>
+    <p id="Par37">
+     Our correlation analysis among HLA regional frequencies and Covid-19 cases/deaths numbers, having been carried out at different times over the epidemic, also takes into account the potential effects elicited by the displacement of thousands of off-site students and workers from the northern (mainly Lombardia, the fire of the epidemic) to the southern regions (Campania, Puglia, Calabria, Sicilia), which occurred in two large waves, the night before the start of the lockdown (the 9th of March, totally uncontrolled) and at the end of the lockdown (after the 3rd of May, with some monitoring from region to region). These uncontrolled exoduses and especially the first one, although occurring in a phase of mobility restrictions and contact reduction, could have caused the epidemic to break out in the southern Italian regions, which instead did not occur and which makes the hypothesis of a protective genetics even more plausible in the populations of central-southern Italy.
+    </p>
+    <p id="Par38">
+     Genetic variations and HLA polymorphisms alone cannot help to understand other significant features of Covid-19, like the higher mortality observed in men
+     <italic>
+      vs
+     </italic>
+     women (2.8% vs 1.7%) or the higher morbidity and mortality in old
+     <italic>
+      vs
+     </italic>
+     young people [     –     ]. However, it is fundamental to take into account that significant differences at the immunological level exist among these groups and such differences could be dependent on HLA polymorphisms and, overall, on the genetic, hormonal and metabolic background. Indeed, HLA genes are involved in the decline of anti-viral response mediated by T cells that is observed with aging.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec10">
+    <title>
+     Conclusion
+    </title>
+    <p id="Par39">
+     Our study proposes for the first time that some HLA polymorphisms in the Italian population may be potentially associated to the different regional incidence and mortality for Covid-19, likely activating a better and more powerful antiviral response, with central-southern regions being most protected from the epidemic. Such evidence, obtained at the general population level, needs to be confirmed in retrospective case–control studies on wide cohorts of Covid-19 patients from all the Italian regions in order to define HLA polymorphisms as a factor involved in disease susceptibility. Moreover, since the bioinformatic predictions on HLA-viral peptides binding affinity alone are of limited functional significance, it is fundamental to identify through proper in vitro and in vivo studies, if such HLA genetic loci are effectively associated to the induction of a protective T and B-cell mediated antiviral immunity. Research efforts aimed to explore genetic associations with the immune response in Covid-19 could be particularly useful both at the epidemiological and clinical level, to identify patients most at risk to develop severe complications, that should hence have priority to vaccination access, when it will be available, and to evaluate the differential efficacy of the vaccination in subjects with different HLA genetic background. HLA typing, that can be easily done through cost-efficient methodologies, also along with Covid-19 testing, should hence be envisaged and encouraged at the clinical level and by policy makers through the creation of a national network that may collect DNA samples from patients from all regions.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec11">
+     <p/>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

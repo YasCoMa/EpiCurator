@@ -1,0 +1,4 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+4928587	abstract	Critically|,|two|point|mutant|(|L21P|and|L24P|)|of|the|PALB2|coil|-|coil|domain|or|an|NH2|-|terminal|deletion|(|Δ1–70|)|disrupt|its|interaction|with|BRCA1|.	L21P|L24P|PALB2|NH2	4
+4928587	abstract	We|have|reconstitute|PALB2|-|deficient|cell|with|PALB2Δ1–70|,|PALB2|-|L21P|,|or|PALB2|-|L24P|,|or|with|COOH|-|terminally|truncate|PALB2|that|be|deficient|for|interaction|with|BRCA2|.	PALB2|PALB2Δ1–70|PALB2|L21P|PALB2|L24P|COOH|-|terminally|truncated|PALB2	11
+6075780	body	F19L|,|L21H|,|I22R|,|L23P|,|L24P|)|in|TM1|,|while|the|other|mutant|receive|a|single|amino|acid|exchange|(|S58N|)|in|the|periplasmic|loop|(|Fig|8A|and|S10|Fig|)|.	F19L|L21H|I22R|L23P|L24P|S58N|S10	7

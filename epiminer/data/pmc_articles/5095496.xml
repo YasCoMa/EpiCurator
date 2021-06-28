@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  From ZikV genome to vaccine:
+ </title>
+ <abstract>
+  <p>
+   Zika virus (ZikV) has emerged as a potential threat to human health worldwide. A member of the Flaviviridae, ZikV is transmitted to humans by mosquitoes. It is related to other pathogenic vector‐borne flaviviruses including dengue, West Nile and Japanese encephalitis viruses, but produces a comparatively mild disease in humans. As a result of its epidemic outbreak and the lack of potential medication, there is a need for improved vaccine/drugs. Computational techniques will provide further information about this virus. Comparative analysis of ZikV genomes should lead to the identification of the core characteristics that define a virus family, as well as its unique properties, while phylogenetic analysis will show the evolutionary relationships and provide clues about the proteins ancestry. Envelope glycoprotein of ZikV was obtained from a protein database and the most immunogenic epitope for T cells and B cells involved in cell‐mediated immunity, whereas B cells are primarily responsible for humoral immunity. We mainly focused on
+   <styled-content style="fixed-case">
+    MHC
+   </styled-content>
+   class I potential peptides.
+   <italic>
+    <styled-content style="fixed-case">
+     YRIMLSVHG
+    </styled-content>
+   </italic>
+   ,
+   <italic>
+    <styled-content style="fixed-case">
+     VLIFLSTAV
+    </styled-content>
+   </italic>
+   and
+   <italic>
+    <styled-content style="fixed-case">
+     MMLELDPPF
+    </styled-content>
+   </italic>
+   ,
+   <italic>
+    <styled-content style="fixed-case">
+     GLDFSDLYY
+    </styled-content>
+   </italic>
+   are the most potent peptides predicted as epitopes for
+   <styled-content style="fixed-case">
+    CD
+   </styled-content>
+   4   and
+   <styled-content style="fixed-case">
+    CD
+   </styled-content>
+   8   T cells, respectively, whereas
+   <italic>
+    <styled-content style="fixed-case">
+     MMLELDPPF
+    </styled-content>
+   </italic>
+   and
+   <italic>
+    <styled-content style="fixed-case">
+     GLDFSDLYY
+    </styled-content>
+   </italic>
+   had the highest
+   <styled-content style="fixed-case">
+    pMHC
+   </styled-content>
+   ‐I immunogenicity score and these are further tested for interaction against the
+   <styled-content style="fixed-case">
+    HLA
+   </styled-content>
+   molecules, using
+   <italic>
+    in silico
+   </italic>
+   docking techniques to verify the binding cleft epitope. However, this is an introductory approach to design an epitope‐based peptide vaccine against ZikV; we hope that this model will be helpful in designing and predicting novel vaccine candidates.
+  </p>
+ </abstract>
+ <sentences/>
+</article>

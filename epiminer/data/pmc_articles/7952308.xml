@@ -1,0 +1,4472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1998/Math/MathML">
+ <title>
+  A Proteome-Wide Immunoinformatics Tool to Accelerate T-Cell Epitope Discovery and Vaccine Design in the Context of Emerging Infectious Diseases: An Ethnicity-Oriented Approach
+ </title>
+ <abstract>
+  <p>
+   Emerging infectious diseases (EIDs) caused by viruses are increasing in frequency, causing a high disease burden and mortality world-wide. The COVID-19 pandemic caused by the novel SARS-like coronavirus (SARS-CoV-2) underscores the need to innovate and accelerate the development of effective vaccination strategies against EIDs. Human leukocyte antigen (HLA) molecules play a central role in the immune system by determining the peptide repertoire displayed to the T-cell compartment. Genetic polymorphisms of the HLA system thus confer a strong variability in vaccine-induced immune responses and may complicate the selection of vaccine candidates, because the distribution and frequencies of HLA alleles are highly variable among different ethnic groups. Herein, we build on the emerging paradigm of rational epitope-based vaccine design, by describing an immunoinformatics tool (Predivac-3.0) for proteome-wide T-cell epitope discovery that accounts for ethnic-level variations in immune responsiveness. Predivac-3.0 implements both CD8+ and CD4+ T-cell epitope predictions based on HLA allele frequencies retrieved from the Allele Frequency Net Database. The tool was thoroughly assessed, proving comparable performances (AUC ~0.9) against four state-of-the-art pan-specific immunoinformatics methods capable of population-level analysis (NetMHCPan-4.0, Pickpocket, PSSMHCPan and SMM), as well as a strong accuracy on proteome-wide T-cell epitope predictions for HIV-specific immune responses in the Japanese population. The utility of the method was investigated for the COVID-19 pandemic, by performing
+   <italic>
+    in silico
+   </italic>
+   T-cell epitope mapping of the SARS-CoV-2 spike glycoprotein according to the ethnic context of the countries where the ChAdOx1 vaccine is currently initiating phase III clinical trials. Potentially immunodominant CD8+ and CD4+ T-cell epitopes and population coverages were predicted for each population (the Epitope Discovery mode), along with optimized sets of broadly recognized (promiscuous) T-cell epitopes maximizing coverage in the target populations (the Epitope Optimization mode). Population-specific epitope-rich regions (T-cell epitope clusters) were further predicted in protein antigens based on combined criteria of epitope density and population coverage. Overall, we conclude that Predivac-3.0 holds potential to contribute in the understanding of ethnic-level variations of vaccine-induced immune responsiveness and to guide the development of epitope-based next-generation vaccines against emerging pathogens, whose geographic distributions and populations in need of vaccinations are often well-defined for regional epidemics.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     Emerging infectious diseases (EIDs) are defined as infections whose incidence or geographic range is rapidly increasing or threatens to increase in the near future. EIDs have emerged at an unprecedented rate due to a plethora of factors driven by globalization and climate change, posing serious threats to public health and economies (     ). Wildlife is considered to be the major source of viral pathogens causing emerging zoonotic outbreaks (     ), including mosquito-borne diseases (e.g., dengue, Zika fever) (     ), rodent-borne hantaviruses (     ) and bat-borne diseases (     ), such as Ebola hemorrhagic fever, Nipah virus encephalitis and severe acute respiratory syndrome (SARS). According to the World Health Organization (WHO), disease outbreaks and epidemics caused by emerging pathogens are increasing in frequency over the past decades (     ). In late 2019, the novel SARS-like CoV designated as 2019-nCoV (SARS-CoV-2) emerged in the city of Wuhan, China, causing a global pandemic with high morbidity and mortality (     ). As of August 23     2020, SARS-CoV-2 has caused ~23 million cases of the disease (COVID-19) and ~800,000 deaths across the world.
+    </p>
+    <p>
+     Vaccination is a critical tool in the response to unpredictable outbreaks of EIDs, but the complete process for bringing a vaccine from the research laboratory to the market is long, complex, and expensive (     ). Traditional live-attenuated or whole-inactivated viral vaccines are slow to develop and have biosafety issues that make them poorly suited to respond to a rapidly evolving pandemic crisis, especially without the advantage of time and prior knowledge or experience with viral growth or pathogenesis mechanisms (     ). Vaccine development for emerging pathogens is thus moving onto faster and more advanced recombinant and nucleic acid-based (DNA/RNA-based) approaches that address these issues by incorporating modern technologies and a rational design basis (     ,     ). Accordingly, among the most advanced COVID-19 vaccine candidates are those encoding the SARS-CoV-2 spike (S) protein, which have proved to be safe and immunogenic over clinical development stages (     –     ). These type of vaccines has recently initiated phase III clinical trials to evaluate protective efficacy at population level, including a recombinant adenovirus-vectored vaccine (ChAdOx1; NCT04400838) and a lipid nanoparticle-encapsulated mRNA-based vaccine (mRNA-1273; NCT04470427).
+    </p>
+    <p>
+     HLA class I and class II molecules play a central role in the immune response by presenting peptide antigens to CD8+ cytotoxic T-cells (CD8+ T-cell epitopes) and to CD4+ helper T-cells (CD4+ T-cell epitopes). However, the huge variability of the HLA system is a major issue for epitope-based vaccine design, since individuals display different sets of HLA alleles with variable ligand specificities (HLA-epitope restriction) and expression frequencies that substantially differ among ethnicities (     ). Careful consideration of the HLA genetic background is thus paramount to ensure effectiveness and ethnically unbiased population coverage during vaccine development, especially considering variations in T-cell responses across multiple ethnicities (     ). This problem is underscored by a significant body of evidence accounting for population-level associations of HLA polymorphisms with vaccine-induced immune responses (     ) and also with vaccine failure (     ,     ). Likewise, COVID-19 has been associated with disproportionate mortality amongst world populations (     ,     ) and recent literature indicates that individuals from minority ethnic communities are at increased risk of infection from SARS-CoV-2 and subsequently adverse clinical outcome (     ,     ). Individual genetic variations of the HLA system (different genotypes) may help explain differential T-cell mediated immune responses to the virus and could potentially alter the course of this disease (     ), which has been well-described for the closely related SARS-CoV (     ,     ).
+    </p>
+    <p>
+     Epitope-based vaccination is gaining interest in the scientific community, which allows for rational design of the immunogens based on short protein regions or peptides that avoid non-essential viral components and potentially toxic or immunosuppressive protein fragments (     ,     ). These vaccines offer the prospect for a more prominent role of HLA-restricted T-cell immune responses (“T-cell vaccines”), by inducing large repertoires of T-cell specificities and further enabling rapid and economic large-scale production through recombinant DNA technology (     ). Predicting the specificity of HLA class I-restricted CD8+ T-cell epitopes and HLA class II-restricted CD4+ T-cell epitopes is also a major consideration for epitope-based vaccine design, due to the influence of the HLA phenotype in the ability to mount effective immune responses (     ). Therefore, immunoinformatics tools play a key role in this arena, as they allow to accelerate epitope discovery and vaccine design through
+     <italic>
+      in silico
+     </italic>
+     mapping of thousands of peptides (proteome-wide analysis) and by helping reduce the time and cost involved in experimental testing (     ). In addition, these tools offer a framework to rationally deal with the enormous diversity HLA proteins, which reached 27,599 HLA alleles as of July 2020 (20,192 HLA class I and 7,407 HLA class II alleles), according to the IMGT/HLA Database (Release 3.41.0) (     ).
+    </p>
+    <p>
+     A few immunoinformatics methods have been developed to aid the selection of T-cell epitopes by considering the fraction of individuals potentially covered by epitope-based vaccines (     ,     ). Our previously reported method Predivac-2.0 optimizes the selection of HLA class II-restricted CD4+ T-cell epitopes predicted for specific target populations (     ,     ). Herein, we extended our specificity-determining residues (SDRs) approach to CD8+ T-cell epitope prediction and subsequently describe a substantial enhancement of the method to build on the emerging paradigm of rational epitope-based vaccine design. The new Predivac-3.0 tool was successfully cross-validated and benchmarked against state-of-the-art pan-specific methods suited for population level analyses [NetMHCPan 4.0 (     ), Pickpocket (     ), PSSMHCPan (     ) and SMM (     )], which are capable of using available experimental MHC binding data to infer binding preferences toward uncharacterized MHC molecules (     ).
+    </p>
+    <p>
+     Predivac-3.0 was investigated for proteome-wide ethnicity-driven predictions to guide the discovery and selection of immunodominant HIV-1 specific T-cell epitopes, as well as the identification of epitope-dense regions (clusters) of CD8+ and CD4+ T-cell epitopes associated with high-population coverages (hotspots), in agreement with previous work showing the utility of
+     <italic>
+      in silico
+     </italic>
+     tools to identify epitope hotspots in the sequence of protein immunogens tested in subjects from different ethnic backgrounds (     ,     ). We finally demonstrate the utility of the tool in the context of vaccine development for COVID-19 pandemic, by providing insight into putative T-cell epitopes and hotspots in the SARS-CoV-2 spike glycoprotein that are potentially immunodominant for the countries where the ChAdOx1 vaccine (University of Oxford/AstraZeneca) is currently carrying out phase III clinical trials (The United Kingdom, South Africa and Brazil).
+    </p>
+    <p>
+     To the best of our knowledge this is the first computational approach for ethnicity-driven proteome-wide discovery of T-cell epitopes and hotspots capable of inducing large repertoires of immune specificities in populations at risk of emerging pathogens, especially because the geographic distributions of the zoonotic viruses and populations in need of vaccinations are often well-defined for regional epidemics. Therefore, Predivac-3.0 holds potential to contribute in the understanding of vaccine-induced immune responsiveness in population contexts and to aid the rational design of epitope-based next-generation immunogens considering ethnic-level variations of vaccine induced immune responses for EIDs.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="materials|methods">
+    <title>
+     Materials and Methods
+    </title>
+    <sec id="s2_1">
+     <title>
+      Semi-Automated Identification of SDR Positions
+     </title>
+     <p>
+      The identification of specificity-determining residues (SDRs) involved in peptide ligand-protein recognition events has been described previously for protein kinases (the Predikin tool) (      ,      ) and for HLA class II proteins (the Predivac tool) (      ), based on the inspection of crystal structures. Herein we introduce an improvement to the method for SDR determination, by implementing a Python-based semi-automated workflow to assist and simplify the identification of SDR positions in the peptide-HLA protein interface. We first constructed a dataset comprising 57 peptide-HLA class I complex structures (19 unique allotypes) available at the Protein Data Bank (PDB) (      ) (      ). The structures were manually processed to select only the α chain with the corresponding bound peptide, focusing the analysis on the recognition region (groove) formed by the floor (eight antiparallel β-sheet folds) flanked by two polymorphic helical regions (α1 and α2 domains). The interaction interfaces were analyzed with the standalone version of the Arpeggio tool (      ), which uses geometrical and biochemical features to automatically calculate and classify interatomic interactions between each pairs of atoms for a wide range of contact types (hydrogen bonds, halogen bonds, carbonyl interactions, hydrophobic interactions, among others). We assessed the role of each α-chain residues in contributing to peptide binding by considering all possible non-covalent pairwise interactions to extract nearest-neighbor atoms at each peptide position (p1 to p9), using Arpeggio´s default cut-off distance (5 Å). A consensus list of positions mainly involved in determining the interactions was built with a threshold of 30% occurrence, i.e. the residue in the interaction was present in 30% or more of the structures. Subsequently, analysis of conservation/variability and identification of polymorphic positions were carried out by means of two metrics: (i) Shannon entropy (      ) and (ii) conservation score metrics described by Valdar in 2002 (      ), which is implemented in the AACon tool      . AACon receives as input a list of aligned sequences in Clustal format, which was performed using MAFFT with default parameters (      ) over a dataset of 10,089 HLA class I protein sequences (allotypes) from the Immuno Polymorphism Database (IPD)-IMGT/HLA Database release 3.37 (      ). Finally, a small set of critical and polymorphic residue positions from the consensus list was selected as those dictating specific interactions in HLA class I proteins.
+     </p>
+    </sec>
+    <sec id="s2_2">
+     <title>
+      Software Implementation
+     </title>
+     <p>
+      The new Predivac-3.0 method was re-written in Python 3.7 It consists of a main module that queries a purposed-built database of HLA class I and II specificity-determining residues (SDRs) that are associated with HLA protein sequences with high-affinity peptide binders (PredivacDB) and a database of HLA allele frequencies available at the Allele Frequency Net Database      (AFND) (      ). The PredivacDB was updated to include both experimentally validated high-affinity peptide ligands for HLA class I and class II proteins (      ). In total, the database contains 26,068 peptides, accounting for 77 HLA class I alleles (23,373 peptides) and 29 HLA class II alleles (2,695 peptides) that were exported and filtered from the Immune Epitope Database (IEDB) (      ). HLA class I peptides with sequence length of 9 residues and experimentally determined binding affinity (K
+      <sub>
+       D
+      </sub>
+      /IC
+      <sub>
+       50
+      </sub>
+      /EC
+      <sub>
+       50
+      </sub>
+      ) &lt; 500 nM were considered, while sequences were removed if their binding affinity was determined by whole-cell based assays, non-natural atoms were present or Ala percentage &gt; 50%. The method implemented by Predivac-3.0 requires from the user to provide the query proteome (Fasta file with multiple sequences) and to select the target population (country/region). The tool then fetches HLA allele data for this population (from the AFND) and automatically extracts SDRs information from the HLA query proteins to perform
+      <italic>
+       in silico
+      </italic>
+      T-cell epitope mapping. This is carried out by implementing the Predivac scoring scheme based on peptide ligands available in the PredivacDB. The whole procedure allows to predict ethnicity-driven CD8+ and CD4+ T-cell epitopes along with performing population coverage analysis, through a workflow that is subsequently explained.
+     </p>
+    </sec>
+    <sec id="s2_3">
+     <title>
+      Scoring Scheme
+     </title>
+     <p>
+      The Predivac binding score is calculated by establishing a predictive correlation between the SDRs in the HLA query protein(s) and the SDRs associated with HLA class I or class II proteins of known specificity from a pre-generated database (PredivacDB), by following the next steps: (i) SDRs are identified in the HLA protein sequence; (ii) PredivacDB is queried with the SDRs to retrieve peptide ligands associated with HLA proteins sharing similar residues in these positions (SDRs are considered similar if their sequence comparison using the BLOSUM62 substitution matrix returns a positive score); (iii) amino acid frequencies and weights are calculated from the binding data and (iv)
+      <italic>
+       in silico
+      </italic>
+      T-cell epitope mapping is carried out by parsing the protein sequence (query) into overlapping 9-mer segments (peptides), which are recursively assigned a binding score with the SDR-derived position weight matrix (sliding window technique). Predivac-3.0 selects by default T-cell epitopes scoring in the top 1% of the full set of peptides for a given protein, i.e. it employs a Peptide Percentile Rank (PPR) of binding scores of 1 (PPR = 1). However, the user is allowed to retrieve a greater number of putative T-cell epitopes by setting higher stringencies of 1, 2 or 3.
+     </p>
+    </sec>
+    <sec id="s2_4">
+     <title>
+      Ethnicity-Driven T-Cell Epitope Mapping of Viral Proteomes
+     </title>
+     <p>
+      A workflow of the algorithm is presented in      , showing that Predivac-3.0 accepts as input both protein sequences (Fasta file) and full proteome sequences (multi-Fasta file). The method runs for single HLA alleles (allele-specific T-cell epitope prediction) and for specific target populations (ethnicity-driven T-cell epitope prediction), by fetching HLA allele frequency distributions from ethnic populations available at the AFND. Ethnicity-driven T-cell epitope mapping follows a five-step process: (i) the user sets a target geographic region or country; (ii) the program retrieves from the AFND all available HLA class I and class II allele frequencies for population samples occurring in this country/region; (iii) the program applies the Predivac scoring scheme to predict T-cell epitopes for each HLA allele and then it searches for promiscuous epitopes restricted to as many alleles as possible in the target population; (iv) population coverage is calculated for each promiscuous T-cell epitope as the fraction of individuals that would be potentially covered in the selected target population, by implementing a previously reported algorithm (      ); and (v) two alternative methods are implemented to select T-cell epitopes based on population coverage: (a) Epitope Discovery and (b) Epitope Optimization.
+     </p>
+     <sec id="s2_4_1">
+      <title>
+       Epitope Discovery
+      </title>
+      <p>
+       This method outputs a full list of single putative T-cell epitopes with their corresponding positions in the query proteins sorted by population coverage, providing thus a top-down peptide ranking from the highest to minimal coverage calculated for the target population. In addition, the user is allowed to set a particular Population Coverage Threshold (PCT) to filter the report for T-cell epitopes delivering population coverage values higher than a given threshold (%). By default, the method retrieves all predicted T-cell epitopes (PCT = 0%).
+      </p>
+     </sec>
+     <sec id="s2_4_2">
+      <title>
+       Epitope Optimization
+      </title>
+      <p>
+       Predivac-3.0 implements a genetic algorithm (GA) that explores numerous combinations of putative epitopes to find a combination of
+       <italic>
+        l
+       </italic>
+       epitopes that maximizes the target population coverage. The pseudocode of the GA is shown below:
+      </p>
+      <table-wrap id="d39e591" position="anchor">
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="2" rowspan="1" valign="top">
+           Algorithm 1 Genetic Algorithm
+          </th>
+         </tr>
+         <tr>
+          <th align="left" colspan="2" rowspan="1" valign="top">
+           Input: Initial parameter for GA
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="2" rowspan="1" valign="top">
+           <italic>
+            PopSize
+           </italic>
+           ← 100
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="2" rowspan="1" valign="top">
+           <italic>
+            MaxIteration
+           </italic>
+           ← 50
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="2" rowspan="1" valign="top">
+           <italic>
+            Stopcicle
+           </italic>
+           ←
+           <italic>
+            False
+           </italic>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="2" rowspan="1" valign="top">
+           <italic>
+            l
+           </italic>
+           ← 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           1:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            PopFitness
+           </italic>
+           ←
+           <bold>
+            Genetic.fitness
+           </bold>
+           (
+           <italic>
+            epitopeHits
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           2:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            MaxFitness
+           </italic>
+           ←
+           <bold>
+            max
+           </bold>
+           (
+           <italic>
+            PopFitness
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           3:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            BestIndividual
+           </italic>
+           ←
+           <bold>
+            GetIndividual
+           </bold>
+           (
+           <italic>
+            PopFitness
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           4:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            while
+           </bold>
+           <italic>
+            MaxFitness
+           </italic>
+           ≤
+           <bold>
+            99 and not
+           </bold>
+           stopcicle
+           <bold>
+            do
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           5:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            stopcond
+           </italic>
+           ←
+           <italic>
+            False
+           </italic>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           6:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            i
+           </italic>
+           ← 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           7:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            Population
+           </italic>
+           ←
+           <bold>
+            InitPopulation
+           </bold>
+           (
+           <italic>
+            epitopesHits,PopSize
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           8:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            Population
+           </italic>
+           ←
+           <bold>
+            PairwiseComb
+           </bold>
+           (
+           <italic>
+            Population,BestIndividual
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           9:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            while
+           </bold>
+           <italic>
+            i &lt; MaxIteration
+           </italic>
+           <bold>
+            and not
+           </bold>
+           <italic>
+            stopcond
+           </italic>
+           <bold>
+            do
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           10:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            PopFitness
+           </italic>
+           ←
+           <bold>
+            Genetic.fitness
+           </bold>
+           (
+           <italic>
+            Population
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           11:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            Parents
+           </italic>
+           ←
+           <bold>
+            Genetics.selection
+           </bold>
+           (
+           <italic>
+            Population,PopFitness,0.2
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           12:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            O f f spring
+           </italic>
+           ←
+           <bold>
+            Genetic.crossover
+           </bold>
+           (
+           <italic>
+            Parents,Population
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           13:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            Population
+           </italic>
+           ←
+           <bold>
+            Genetic.mutatePopulation
+           </bold>
+           (
+           <italic>
+            O f f spring,mutation Rate = 0.2
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           14:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            NewPopFitness
+           </italic>
+           ←
+           <bold>
+            Genetic.Fitness
+           </bold>
+           (
+           <italic>
+            Population
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           15:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            MaxFitness
+           </italic>
+           ←
+           <bold>
+            max
+           </bold>
+           (
+           <italic>
+            NewPopFitness
+           </italic>
+           )
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           16:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            BestIndividual
+           </italic>
+           ←
+           <bold>
+            GetIndividual
+           </bold>
+           (NewPopFitness)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           17:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            if StopCondition
+           </bold>
+           ()
+           <bold>
+            then
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           18:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            stopcond
+           </italic>
+           ← True
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           19:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            end if
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           20:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            i
+           </italic>
+           ←
+           <italic>
+            i
+           </italic>
+           + 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           21:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            end while
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           22:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            i
+           </italic>
+           ←
+           <italic>
+            i
+           </italic>
+           + 1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           23:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            If StopCicle
+           </bold>
+           ()
+           <bold>
+            then
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           24:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <italic>
+            stopcicle
+           </italic>
+           ←
+           <italic>
+            True
+           </italic>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           25:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            end if
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           16:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            end while
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           27:
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            return
+           </bold>
+           the best solution
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <p>
+       Predivac-3.0 seeds a first epitope (
+       <italic>
+        l
+       </italic>
+       = 1) to start the iterative process, which corresponds to the epitope (or individual) delivering the highest population coverage in the target population (
+       <italic>
+        BestIndividual
+       </italic>
+       ). Each individual represents an epitope/HLA restricted alleles predicted by Predivac-3.0 (
+       <italic>
+        EpitopesHits
+       </italic>
+       ). Then, a random population of 100 individuals is generated at each GA cycle (loop in lines 4-26) and subsequently paired with the previous
+       <italic>
+        BestIndividual
+       </italic>
+       . At each GA iteration (inner loop in lines 9-21), each individual is assigned a fitness score equal to the population coverage calculated for the target population (region/country). The top-20 individuals are selected to breed a new set of individuals by random, pairwise crossover, i.e. the top quintile of epitope combinations that retrieve the highest population coverage. Inner iterations are run until
+       <italic>
+        MaxIteration
+       </italic>
+       is achieved or until fitness score does not change during last 10 iterations. The GA runs until population coverage reaches a
+       <italic>
+        MaxFitness
+       </italic>
+       ≥ 99% or until the
+       <italic>
+        MaxFitness
+       </italic>
+       value does not change in two consecutive cycles by considering 3 significant figures (
+       <italic>
+        StopCycle
+       </italic>
+       ), upon which the list of epitopes (best solution) is returned.
+      </p>
+     </sec>
+    </sec>
+    <sec id="s2_5">
+     <title>
+      Immunodominant T-Cell Epitope Clusters and Hotspots
+     </title>
+     <p>
+      For proteome-wide analysis, the program scans the protein sequences to detect regions with high-epitope density that are associated with a high population coverage in the target country/region. This process is performed through the Epitope Discovery mode of Predivac-3.0, by detecting clusters of epitope overlaps (in 9-mer regions) or by detecting epitope-rich regions in windows-frames of user-defined length (in 30-mer regions, by default). In 9-mer regions, epitope density was determined by considering both partially and completely overlapping epitopes, while in 30-mer regions only completely (full-length) overlapping epitopes were employed. Clusters meeting the following criteria were selected for proteome-wide analysis: (i) epitope density ≥ 90% of the top amount of T-cell epitope overlaps (in a proteome basis) and (ii) population coverage ≥ 20% in the target population. The statistical significance of these clusters was determined through a simulation procedure consisting of randomly selecting (1000 times) 10% of same-length regions, using the average epitope density of each simulation as the epitope distribution to calculate p-values. Those regions having p-value &lt; 0.001 were considered as clusters. Further, overlapping clusters were merged together and potentially the most reactive (immunodominant) regions with population coverages ≥ 80% were denoted as hotspots.
+     </p>
+    </sec>
+    <sec id="s2_6">
+     <title>
+      Validation of Allele-Specific Predictions
+     </title>
+     <p>
+      The predictive performance in identification of CD8+ T-cell epitopes was measured in terms of the area under the receiver operating characteristic curve (AUC), which is a graphical plot of the sensitivity versus the false positive rate (1 - specificity) as the discrimination threshold is varied. The AUC provides an indication of the accuracy of a prediction method, where an AUC = 1 corresponds to perfect predictions and AUC = 0.5 reflects random predictions. The method was assessed by leave-one-allele-out cross-validation (LOOCV) using a dataset of 17,425 high-affinity peptide binders restricted by 46 HLA class I alleles with 25 or more peptide ligands in PredivacDB, as previously reported (      ). In addition, the method was benchmarked against the pan-specific methods NetMHCpan 4.0 (      ), PickPocket (      ), PSSMHCpan (      ), and SMM (      ). Two datasets were employed: (i) the IEDB-dataset, 5750 experimentally determined CD8+ T-cell epitopes (restricted by 47 HLA class I alleles) selected from the IEDB database and (ii) the DFRMLI-dataset, 887 high-affinity viral peptide ligands (tumor antigens were excluded) restricted by 7 HLA class I alleles (HLA-A*01:01, A*02:01, A*03:01, A*11:01, A*24:02, B*07:02, B*08:01, and B*15:01) (dataset available in      ). The DFRMLI-dataset was built from high-throughput binding affinity data available at the Dana-Farber Repository for Machine Learning in Immunology      , which accounts for the cytomegalovirus (CMV) matrix protein pp65 (      ), the human respiratory syncytial virus (RSV) and the human metapneumovirus (MPV) (      ).
+     </p>
+    </sec>
+    <sec id="s2_7">
+     <title>
+      Assessment of Population-Based Predictions
+     </title>
+     <p>
+      The ability of Predivac-3.0 to identify ethnicity-driven T-cell epitopes was tested on the HIV-1 proteome, by comparing CD8+ T-cell epitope predictions against a validation dataset derived from Los Alamos HIV Molecular Immunology Database      (here referred as the HIV-dataset), which consists of 103 unique CD8+ T-cell epitopes that were experimentally determined from
+      <italic>
+       in vivo/in vitro
+      </italic>
+      studies carried out in Japan (      ) (dataset available in      ). This dataset includes immunodominant T-cell epitopes from the following HIV-1 proteins, using the reference strain HXB2 (GenBank K03455): Integrase (Pol; UniProt ID: P04585), envelope glycoprotein (gp160; UniProt ID: P04578), Gag polyprotein (Gag; UniProt ID: P04591), Nef protein (Nef; UniProt ID: P04601), viral protein R (Vpr; UniProt ID: P69726), and viral infectivity factor (Vif; UniProt ID: P69723). The predictive accuracy and efficiency were calculated by the following equations:
+     </p>
+     <disp-formula>
+      <label>
+       1
+      </label>
+      <ns0:math id="M1">
+       <ns0:mrow>
+        <ns0:mrow>
+         <ns0:mi>
+          A
+         </ns0:mi>
+         <ns0:mi>
+          c
+         </ns0:mi>
+         <ns0:mi>
+          c
+         </ns0:mi>
+         <ns0:mi>
+          u
+         </ns0:mi>
+         <ns0:mi>
+          r
+         </ns0:mi>
+         <ns0:mi>
+          a
+         </ns0:mi>
+         <ns0:mi>
+          c
+         </ns0:mi>
+         <ns0:mi>
+          y
+         </ns0:mi>
+         <ns0:mo>
+         </ns0:mo>
+         <ns0:mo>
+          (
+         </ns0:mo>
+         <ns0:mo>
+          %
+         </ns0:mo>
+         <ns0:mo>
+          )
+         </ns0:mo>
+        </ns0:mrow>
+        <ns0:mo>
+         =
+        </ns0:mo>
+        <ns0:mrow>
+         <ns0:mo>
+          (
+         </ns0:mo>
+         <ns0:mfrac>
+          <ns0:mrow>
+           <ns0:mi>
+            n
+           </ns0:mi>
+           <ns0:mi>
+            u
+           </ns0:mi>
+           <ns0:mi>
+            m
+           </ns0:mi>
+           <ns0:mi>
+            b
+           </ns0:mi>
+           <ns0:mi>
+            e
+           </ns0:mi>
+           <ns0:mi>
+            r
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            o
+           </ns0:mi>
+           <ns0:mi>
+            f
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            c
+           </ns0:mi>
+           <ns0:mi>
+            o
+           </ns0:mi>
+           <ns0:mi>
+            r
+           </ns0:mi>
+           <ns0:mi>
+            r
+           </ns0:mi>
+           <ns0:mi>
+            e
+           </ns0:mi>
+           <ns0:mi>
+            c
+           </ns0:mi>
+           <ns0:mi>
+            t
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            m
+           </ns0:mi>
+           <ns0:mi>
+            a
+           </ns0:mi>
+           <ns0:mi>
+            t
+           </ns0:mi>
+           <ns0:mi>
+            c
+           </ns0:mi>
+           <ns0:mi>
+            h
+           </ns0:mi>
+           <ns0:mi>
+            e
+           </ns0:mi>
+           <ns0:mi>
+            s
+           </ns0:mi>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mi>
+            t
+           </ns0:mi>
+           <ns0:mi>
+            o
+           </ns0:mi>
+           <ns0:mi>
+            t
+           </ns0:mi>
+           <ns0:mi>
+            a
+           </ns0:mi>
+           <ns0:mi>
+            l
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            n
+           </ns0:mi>
+           <ns0:mi>
+            u
+           </ns0:mi>
+           <ns0:mi>
+            m
+           </ns0:mi>
+           <ns0:mi>
+            b
+           </ns0:mi>
+           <ns0:mi>
+            e
+           </ns0:mi>
+           <ns0:mi>
+            r
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            o
+           </ns0:mi>
+           <ns0:mi>
+            f
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            v
+           </ns0:mi>
+           <ns0:mi>
+            a
+           </ns0:mi>
+           <ns0:mi>
+            l
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+           <ns0:mi>
+            d
+           </ns0:mi>
+           <ns0:mi>
+            a
+           </ns0:mi>
+           <ns0:mi>
+            t
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+           <ns0:mi>
+            o
+           </ns0:mi>
+           <ns0:mi>
+            n
+           </ns0:mi>
+           <ns0:mo>
+           </ns0:mo>
+           <ns0:mi>
+            e
+           </ns0:mi>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+           <ns0:mi>
+            t
+           </ns0:mi>
+           <ns0:mi>
+            o
+           </ns0:mi>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mi>
+            e
+           </ns0:mi>
+           <ns0:mi>
+            s
+           </ns0:mi>
+          </ns0:mrow>
+         </ns0:mfrac>
+         <ns0:mo>
+          )
+         </ns0:mo>
+        </ns0:mrow>
+        <ns0:mo>
+         ×
+        </ns0:mo>
+        <ns0:mn>
+         100
+        </ns0:mn>
+       </ns0:mrow>
+      </ns0:math>
+     </disp-formula>
+     <disp-formula>
+      <label>
+       2
+      </label>
+      <ns0:math id="M2">
+       <ns0:mrow>
+        <ns0:mrow>
+         <ns0:mi>
+          E
+         </ns0:mi>
+         <ns0:mi>
+          f
+         </ns0:mi>
+         <ns0:mi>
+          f
+         </ns0:mi>
+         <ns0:mi>
+          i
+         </ns0:mi>
+         <ns0:mi>
+          c
+         </ns0:mi>
+         <ns0:mi>
+          i
+         </ns0:mi>
+         <ns0:mi>
+          e
+         </ns0:mi>
+         <ns0:mi>
+          n
+         </ns0:mi>
+         <ns0:mi>
+          c
+         </ns0:mi>
+         <ns0:mi>
+          y
+         </ns0:mi>
+         <ns0:mo>
+         </ns0:mo>
+         <ns0:mo>
+          (
+         </ns0:mo>
+         <ns0:mo>
+          %
+         </ns0:mo>
+         <ns0:mo>
+          )
+         </ns0:mo>
+        </ns0:mrow>
+        <ns0:mo>
+         =
+        </ns0:mo>
+        <ns0:mo>
+         (
+        </ns0:mo>
+        <ns0:mfrac>
+         <ns0:mrow>
+          <ns0:mi>
+           n
+          </ns0:mi>
+          <ns0:mi>
+           u
+          </ns0:mi>
+          <ns0:mi>
+           m
+          </ns0:mi>
+          <ns0:mi>
+           b
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           r
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           f
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           c
+          </ns0:mi>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           r
+          </ns0:mi>
+          <ns0:mi>
+           r
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           c
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           m
+          </ns0:mi>
+          <ns0:mi>
+           a
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           c
+          </ns0:mi>
+          <ns0:mi>
+           h
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           s
+          </ns0:mi>
+         </ns0:mrow>
+         <ns0:mrow>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           a
+          </ns0:mi>
+          <ns0:mi>
+           l
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           n
+          </ns0:mi>
+          <ns0:mi>
+           u
+          </ns0:mi>
+          <ns0:mi>
+           m
+          </ns0:mi>
+          <ns0:mi>
+           b
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           r
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           f
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           p
+          </ns0:mi>
+          <ns0:mi>
+           r
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           d
+          </ns0:mi>
+          <ns0:mi>
+           i
+          </ns0:mi>
+          <ns0:mi>
+           c
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           d
+          </ns0:mi>
+          <ns0:mo>
+          </ns0:mo>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           p
+          </ns0:mi>
+          <ns0:mi>
+           i
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           p
+          </ns0:mi>
+          <ns0:mi>
+           e
+          </ns0:mi>
+          <ns0:mi>
+           s
+          </ns0:mi>
+         </ns0:mrow>
+        </ns0:mfrac>
+        <ns0:mo>
+         )
+        </ns0:mo>
+        <ns0:mo>
+         ×
+        </ns0:mo>
+        <ns0:mn>
+         100
+        </ns0:mn>
+       </ns0:mrow>
+      </ns0:math>
+     </disp-formula>
+     <p>
+      A correct match means that a predicted 9-mer T-cell epitope is equal to or it is contained in the sequence of an experimentally determined T-cell epitope from the validation dataset. Several analyses were further carried out regarding the capability of Predivac-3.0 to identify well-described immunodominant T-cell epitopes, including Japanese-specific protective epitopes from Gag and Pol protein regions included in the T-cell mosaic vaccine tHIVconsvX (      ) (      ) and a number of T-cell epitopes recognized across multiple ethnicities (      ) (      ).
+     </p>
+    </sec>
+    <sec id="s2_8">
+     <title>
+      Proteome-Wide Visualization
+     </title>
+     <p>
+      Circular representations of the viral proteomes were generated to visualize ethnicity-driven T-cell epitope distributions, population coverage and immunodominant clusters (hotspots) across the viral proteins. Proteome maps were constructed using the Circos package (      ), which renders concentric layers of information in the following data dimensions (from outside inward): (i) location of CD8+ and CD4+ T-cell epitopes relative to the reference strain HXB2 (epitope mapping); (ii) number of T-cell epitopes spanning each amino acid position (epitope density maps); (iii) percentage of individuals potentially covered by predicted T-cell epitopes in user-defined target populations (population coverage), both at each amino acid position (in nonameric clusters) and for windows frames of user-defined amino acid length (epitope-rich regions); and (iv) short epitope-rich regions associated with high-population coverages in the target population (hospots).
+     </p>
+    </sec>
+    <sec id="s2_9">
+     <title>
+      SARS-CoV-2 Case Study
+     </title>
+     <p>
+      The spike glycoprotein of SARS-CoV-2 (UniProt ID: P0DTC2) was investigated with the Predivac-3.0 tools (using the Epitope Discovery and Epitope Optimization modes). The goal of this analysis was to identify immunodominant CD8+ and CD4+ T-cell epitopes and putative clusters/hotspots that are potentially specific or common to the populations of the three countries (The United Kingdom, South Africa and Brazil) where phase III clinical trials are currently underway for the ChAdOx1 adenovirus-vectored vaccine (University of Oxford/AstraZeneca). The Japanese population was additionally considered for comparison purposes to include an Asian ethnic background. HLA allele frequency distributions in the four target populations are illustrated in      (AFND data), including HLA class I (loci A and B) and HLA class II alleles (locus DRB).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="s3_1">
+     <title>
+      Allele-Specific T-Cell Epitope Predictions
+     </title>
+     <p>
+      Predivac-3.0 was implemented and assessed for its new capability of CD8+ T-cell epitope prediction, based on SDR positions that were determined in the peptide-HLA (pHLA) class I interaction interface through a combination of structural analysis of pHLA complex crystal structures and sequence analysis of HLA polymorphisms (see
+      <italic>
+       Materials and Methods
+      </italic>
+      ). SDRs in the HLA protein sequence that were selected and implemented in the software are the following positions (for each P1-P9 peptide ligand position): P1 (62, 163), P2 (7, 9, 62, 99), P3 (66, 156, 159), P6 (70, 73, 156), P7 (152, 155, 156), P8 (76, 77) and P9 (77, 97, 116). Interactions for P4 and P5 were not considered, since the side-chains of amino acid residues in the middle of the peptides protrude out of the binding groove, delivering only marginal contributions to specificity.
+     </p>
+     <p>
+      The LOOCV procedure to determine the accuracy on HLA class I alleles involves the exclusion of a single allele from the database and then assessing the performance using the binding data associated with that particular excluded allele. To build balanced datasets for AUC calculation, we followed an established validation strategy based on splitting the source protein of each epitope (positive) into overlapping peptides of the same length, and all peptides except the annotated peptide were taken as negatives. The predictive performance is shown in      , proving a strong capability to predict high-affinity peptide ligands (overall AUC = 0.8). Predivac-3.0 was also benchmarked against state-of-the-art pan-specific methods for 8 HLA class I alleles using the DFRMLI-dataset (high-affinity peptide binders), yielding AUC values of 0.909 (Predivac-3.0), 0.900 (NetMHCpan-4.0), 0.914 (Pickpocket), 0.905 (PSSMHCpan) and 0.928 (SMM-align) (      ). Finally, performance comparison for CD8+ T-cell epitope predictions (IEDB-dataset) resulted in AUC values of 0.903 (Predivac-3.0), 0.915 (NetMHCpan4.0), 0.931 (PickPocket), 0.927 (PSSMHCpan) and 0.934 (SMM-align) (      ).
+     </p>
+    </sec>
+    <sec id="s3_2">
+     <title>
+      Ethnicity-Driven T-Cell Epitope Prediction
+     </title>
+     <p>
+      The performance of the tool to deliver correct predictions of CD8+ T-cell epitopes and immunodominant hotspot was evaluated for the specific ethnic context of the Japanese population (using the Epitope Discovery and Epitope Optimized modes), by determining the accuracy and efficiency of the T-cell epitope mapping algorithm on the HIV-1 proteome (      ). Using default parameters (PPR = 1; PCT = 0%), Predivac-3.0 predicted 374 putative CD8+ T-cell epitopes and detected 46 epitopes out of a top number of 103 T-cell epitopes in the HIV-dataset (accuracy = 44.7%; efficiency = 12.3%). The accuracy curves followed a comparable declination slope for the three PPR values (1, 2 and 3) and behaved similarly in the identification of CD8+ T-cell epitopes as the PCT was varied from 0 to 100%, with top accuracies (at PCT = 0%) of 44.7% (PPR = 1), 57.3% (PPR = 2) and 67% (PPR = 3). The search reduced up to 202 peptides by increasing the PCT to 20%, reaching a slightly lower accuracy of 31.1% (32 correct matches) with an increase in the predictive efficiency up to 15.8%. The predictive efficiency for PPR 1 continues to rise as the PCT increases, unlike for PPR 2 and PPR 3 that tend to maintain around average values. For PPR 1, the average efficiency (19.3%) proved statistically higher (p&lt;0.05) than that for PPR 2 (13.9%) and PPR 3 (12.8%). For details, see      .
+     </p>
+    </sec>
+    <sec id="s3_3">
+     <title>
+      Proteome-Wide Analysis
+     </title>
+     <p>
+      Circular maps for visualization of ethnicity-driven CD8+ and CD4+ T-cell epitopes are presented in      for the Japanese population, which provide information on the distribution of T-cell epitopes density across the HIV-1 proteome (rings 1–4), population coverage potentially afforded in the Japanese population (rings 5–7) and putative T-cell epitope clusters and hotspots (ring 8), both for nonameric T-cell epitope overlaps (      ) and for short regions (30 residues long) with high-concentration of putative T-cell epitopes (      ). As shown in proteome-wide plots, T-cell epitopes are concentrated in epitope-dense regions across the HIV-1 proteome, allowing the detection of relevant interactions between CD8+ and CD4+ T-cell epitope clusters located in Pol (111–141, 879–950), Env (619–646), Gag (267–301), Nef (68–109, 172–202), Vif (11–44), Vpu (26–49), and Rev (44–97). These regions are potential immunodominant hotspots delivering high population coverages in the Japanese population.
+     </p>
+    </sec>
+    <sec id="s3_4">
+     <title>
+      Epitope Discovery and Epitope Optimization
+     </title>
+     <p>
+      The Predivac-3.0 output for the Epitope Discovery mode is presented in      , showing the position of all predicted CD8+ T-cell epitopes in the HIV-1 proteome (PPR = 1; PCT = 0), as well as the putative number of HLA class I alleles restricted by each epitope and the corresponding population coverages in the Japanese population. Promiscuous CD8+ T-cell epitopes predicted to cover ≥ 80% of this population are highlighted with red circles and listed in      for the proteins Env (4 epitopes), Gag (2), Nef (1), Pol (5), Rev (1), Tat (2) and Vpr (1). The total number of CD8+ T-cell epitopes matching epitopes in the HIV-dataset (46 epitopes) is presented in      , including Pol (21), Env (3), Gag (17) and Nef (5). Reactive T-cell epitopes predicted to cover ≥20% of the Japanese population are listed and described in      (CD8+ T-cell epitopes) and      (CD4+ T-cell epitopes). The most reactive CD8+ T-cell epitopes (and population coverages) predicted in Gag are MTNNPPIPV (97%), AEWDRVHPV (94.9%), and ILDIRQGPK (69.5%); in Nef AVDLSHFLK (84.6%), FPVRPQVPL (78.1%), YPLTFGWCF (73.4%) and EEEEVGFPV (62.5%); and in Vpr FPRIWLHSL (81.3%). Likewise, a putative CD4+ T-cell epitope predicted inside a Gag cluster (RWIILGLNK) is predicted to cover 75.5% of the Japanese population. Interestingly, the top epitope predicted by Predivac-3.0 in the Nef protein (AVDLSHFLK) is also located within a peptide sequence (TYKA
+      <bold>
+       <underline>
+        AVDLSHFLK
+       </underline>
+      </bold>
+      EK) that was reported as the most frequently targeted (47%) from a cohort of HIV-1 infected US individuals (n=47) and also found within the predicted epitope cluster FPVTPQVPLRPMTYKA
+      <bold>
+       AVDLSHFLK
+      </bold>
+      EKGGLEGLIHSQRRQDI. Finally,      describes the optimal set of promiscuous CD8+ T-cell epitopes predicted with the Epitope Optimization mode to maximize the population coverage in this country.
+     </p>
+     <table-wrap id="T1" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Putative CD8+ T-cell epitopes from the HIV-1 proteome (HXB2 isolate) predicted by Predivac-3.0 to cover over 80% of the Japanese population (Epitope Discovery mode).
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Protein
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Peptide
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Protein amino acid position
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          No of HLA class I alleles
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Coverage (%)
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVNFTDNAK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          274–282
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          86.3
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KPCVKLTPL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          117–125
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          30
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          STQLFNSTW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          387–395
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IVNRVRQGY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          704–712
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Gag
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MTNNPPIPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          250–258
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          37
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          97.4
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Gag
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AEWDRVHPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          210–218
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          31
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          94.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Nef
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AVDLSHFLK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84–92
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          15
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WEFVNTPPL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          569–577
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          30
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          93.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SPAIFQSSM
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          311–319
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          93.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KQGQGQWTY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          486–494
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          89.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RQHLLRWGL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          361–369
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          89.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KTAVQMAVF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          888–896
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rev
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RSGDSDEEL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4–12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          28
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Tat
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HQNSQTHQA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          59–67
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          31
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          91.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Tat
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ITKALGISY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          39–47
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          30
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Vpr
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FPRIWLHGL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34–42
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          81.3
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <table-wrap id="T2" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Optimal combinations of CD8+ T-cell epitopes predicted by Predivac-3.0 in each HIV-1 protein to maximize population coverage (≥ 99%) in the Japanese population (Epitope Optimization mode).
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          GA generation
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          T-cell epitope
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Protein amino acid position
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Individual population coverage
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Combined population coverage
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Env
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVNFTDNAK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          274–282
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.863
+         </td>
+         <td align="center" colspan="1" rowspan="3" valign="top">
+          1.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KLTSCNTSV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          192–200
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.486
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DPEIVTHSF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          368–376
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.648
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Gag
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MTNNPPIPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          250–258
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.974
+         </td>
+         <td align="center" colspan="1" rowspan="2" valign="top">
+          0.996
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GPAATLEEM
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          338–346
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.462
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Nef
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FPVTPQVPL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          68–76
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.781
+         </td>
+         <td align="center" colspan="1" rowspan="3" valign="top">
+          1.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YPLTFGWCY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          135–143
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.734
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RPMTYKAAV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          77–85
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.511
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Pol
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WEFVNTPPL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          569–577
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.937
+         </td>
+         <td align="center" colspan="1" rowspan="2" valign="top">
+          0.997
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YTAFTIPSI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          282–290
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.793
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Rev
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RSGDSDEEL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4–12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.875
+         </td>
+         <td align="center" colspan="1" rowspan="3" valign="top">
+          1.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RQIHSISER
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          50–58
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.499
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YLGRSAEPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          63–71
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.43
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Tat
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HQNSQTHQA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          59–67
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.91
+         </td>
+         <td align="center" colspan="1" rowspan="2" valign="top">
+          1.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ITKALGISY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          39–47
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.87
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Vif
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          <bold>
+           4
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WQVMIVWQV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5–13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.444
+         </td>
+         <td align="center" colspan="1" rowspan="4" valign="top">
+          1.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HIVSPRCEY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          127–135
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.515
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LQYLALAAL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          145–153
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.705
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RIRTWKSLV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          17–25
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.11
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Vpu
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IPIVAIVAL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4–12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.739
+         </td>
+         <td align="center" colspan="1" rowspan="3" valign="top">
+          0.999
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VEMGHHAPW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          69–77
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.702
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IIAIVVWSI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          17–25
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.546
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Vpr
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FPRIWLHGL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34–42
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.813
+         </td>
+         <td align="center" colspan="1" rowspan="3" valign="top">
+          0.992
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          REPHNEWTL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12–20
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.403
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DTWAGVEAI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          52–60
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.235
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec id="s3_5">
+     <title>
+      T-Cell Epitope Clusters and Immunodominant Hotspots
+     </title>
+     <p>
+      illustrates the position, number of associated T-cell epitopes and predicted population coverage (color scale 0-100%) of 66 HIV-1 specific T-cell epitope clusters spanning Env (14 epitopes), Gag (13), Nef (7), Pol (17), Rev (4), Tat (2), Vif (5), Vpr (1) and Vpu (3), both for CD8+ and CD4+ T-cell epitopes (magenta and blue bars, respectively). Detailed information about these T-cell epitope clusters is provided in      (      ). In addition, 48 epitope-rich regions are highlighted along with the nonameric T-cell epitope overlaps, according to information provided in the inner ring of Circos plots (see
+      <italic>
+       Materials and Methods
+      </italic>
+      ). Potentially most reactive T-cell epitope clusters (hotspots) are highlighted inside dotted-line rectangles, which are regions predicted to deliver ≥ 80% of population coverage in Japan (      ). This figure also shows the colocalization of 42 T-cell epitopes from the HIV-dataset with several putative clusters (      ), which predictively would represent an accuracy of 40.8% and an efficiency of 63.6%. Detailed information on the position and statistical significance of CD8+ and CD4+ T-cell epitopes in each cluster predicted in the HIV-1 proteome are presented in      and      . In addition,      highlights the position of 11 Japanese-specific vaccine-induced CD8+ T-cell epitopes (5 from Gag and 6 from Pol) that have proved protective in this population in response to the mosaic bivalent T-cell vaccine tHIVconsvX (      ). While the four T-cell epitopes directly predicted by Predivac-3.0 were RMYSPTSIL, IYQEPFKNL, ELKKIIGQVR and TAFTIPSI, T-cell epitope clusters were capable of capturing knowledge on the position of 7 out of 11 epitopes. As shown for Pol, five epitopes were colocalized with putative clusters predicted in this protein: YTAFTIPSI (
+      <bold>
+       <underline>
+        YTAFTIPSI
+       </underline>
+      </bold>
+      NNETPGIRYQYNVLPQGW), IYQEPFKNL (IQKQGQGQWTYQ
+      <bold>
+       <underline>
+        IYQEPFK
+       </underline>
+      </bold>
+      ), ELKKIIGQVR (VVESMNK
+      <bold>
+       <underline>
+        ELKKIIGQVR
+       </underline>
+      </bold>
+      DQA), GERIVDII and GERIVDIIA (YSA
+      <bold>
+       <underline>
+        GERIVDIIA
+       </underline>
+      </bold>
+      TDIQTKE) and two additional epitopes were found within Gag clusters: RMYSPTSI (ILGLNKIV
+      <bold>
+       <underline>
+        RMYSPTSI
+       </underline>
+      </bold>
+      LDIRQGPKEPFRDYVDRFY) and ATLEEMMTA (LLVQNANPDCKTILKALGPA
+      <bold>
+       <underline>
+        ATLEEMMTA
+       </underline>
+      </bold>
+      CQGVGG), providing insight into the validity of these broadly protective clusters and T-cell epitopes for the Japanese population. In addition, the position of several putative T-cell epitope clusters (in Gag and Nef proteins) overlapped with previously identified regions that were frequently recognized in HIV-tested subjects from four ethnicities (African-Americans, Caucasians, Hispanics, and West Indians) (      ).      depicts the sequence and position of putative CD8+ and CD4+ T-cell epitope clusters overlapping these immunodominant regions, showing their colocalization with 4 protein regions (2 in Gag and 2 in Nef), as well as several putative CD8+ T-cell epitopes with high population coverages predicted for the Japanese population, such as AEWDRVHPV (Gag 210–218; 94.9%), MTNNPPIPV (Gag 250–258; 97%) and AVDLSHFLK (Nef 84–92; 84.6%).
+     </p>
+     <table-wrap id="T3" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        Immunodominant T-cell epitope clusters (hotspots) predicted by Predivac-3.0 in the HIV-1 proteome (HXB2 isolate) that are associated with population coverages ≥ 80% in the Japanese population.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="2" valign="top">
+          Prot
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          Cluster
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          T-cell epitopes
+         </th>
+         <th align="center" colspan="1" rowspan="2" valign="top">
+          Population coverage (%)
+         </th>
+        </tr>
+        <tr>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Sequence
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Position (start-end)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD8+ T-cell epitopes
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD4+ T-cell epitopes
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IISLWD
+          <bold>
+           <underline>
+            QSLKPCVKLT
+           </underline>
+          </bold>
+          PLCVSL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          108–129
+          <break/>
+          (114–123)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          92.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YA
+          <bold>
+           <underline>
+            FFYKLDIIPIDNDTTSYKLTSCN
+           </underline>
+          </bold>
+          TSVI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          173–201
+          <break/>
+          (175–197)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          81.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVITQ
+          <bold>
+           <underline>
+            ACPKVSFEPIPIHYCAPAGFAILKC
+           </underline>
+          </bold>
+          NNKTF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          199–233
+          <break/>
+          (204–228)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          88.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          STVQCTH
+          <bold>
+           <underline>
+            GIRPVVSTQ
+           </underline>
+          </bold>
+          LLLNGSL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          243–265
+          <break/>
+          (250–258)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          92.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HSFNCG
+          <bold>
+           <underline>
+            GEFFYCNSTQ
+           </underline>
+          </bold>
+          LFNSTW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          374–395
+          <break/>
+          (380–389)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LEQIW
+          <bold>
+           <underline>
+            NHTTWMEWDREINNYTSLIH
+           </underline>
+          </bold>
+          SLI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          619–646
+          <break/>
+          (624–643)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Env
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GLRIVF
+          <bold>
+           <underline>
+            AVLSIVNRVRQGYSP
+           </underline>
+          </bold>
+          <break/>
+          <bold>
+           <underline>
+            LSFQT
+           </underline>
+          </bold>
+          HL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          694–721
+          <break/>
+          (700–719)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          97.1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Gag
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HSNQ
+          <bold>
+           <underline>
+            VSQNYPIVQNIQGQMVHQAISPRTLNAWVKVVEEK
+           </underline>
+          </bold>
+          AFSPEV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          124–168
+          <break/>
+          (128–162)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          92.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Gag
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MLKET
+          <bold>
+           <underline>
+            INEEAAEWDRVHP
+           </underline>
+          </bold>
+          VHAGPIA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          200–224
+          <break/>
+          (205–217)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Gag
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ILG
+          <bold>
+           <underline>
+            LNKIVRMYSPTSILDIRQGPKEPFRDYV
+           </underline>
+          </bold>
+          DRFY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          267–301
+          <break/>
+          (270–297)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          98.4
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Nef
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FPVTPQV
+          <bold>
+           <underline>
+            PLRPMTYKAAVDLSHFLK
+           </underline>
+          </bold>
+          <break/>
+          <bold>
+           <underline>
+            EKGGLEGLIH
+           </underline>
+          </bold>
+          SQRRQDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          68–109
+          <break/>
+          (75–102)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Nef
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RQDILD
+          <bold>
+           <underline>
+            LWIYHTQGYF
+           </underline>
+          </bold>
+          PDWQNY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          106–127
+          <break/>
+          (112–121)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          81.4
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Nef
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EWRFD
+          <bold>
+           <underline>
+            SRLAFHHVARE
+           </underline>
+          </bold>
+          LHPEY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          182–202
+          <break/>
+          (187–197)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YTAFTIP
+          <bold>
+           <underline>
+            SINNETPGIRYQYNVL
+           </underline>
+          </bold>
+          PQGW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          282–308
+          <break/>
+          (289–304)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          95.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IE
+          <bold>
+           <underline>
+            ELRQHLLRWGLTTPD
+           </underline>
+          </bold>
+          <break/>
+          <bold>
+           <underline>
+            KKHQKEPP
+           </underline>
+          </bold>
+          FLWMGY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          357–387
+          <break/>
+          (359–381)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          96.1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IQK
+          <bold>
+           <underline>
+            QGQGQWTYQIYQE
+           </underline>
+          </bold>
+          PFK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          484–502
+          <break/>
+          (487–499)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          931
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VQKITT
+          <bold>
+           <underline>
+            ESIVIWGKTPKFKLPIQK
+           </underline>
+          </bold>
+          ETWETW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          527–556
+          <break/>
+          (533–550)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          88.1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WTEYW
+          <bold>
+           <underline>
+            QATWIPEWEFVNTPP
+           </underline>
+          </bold>
+          LVK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          557–579
+          <break/>
+          (562–576)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          97.1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QVRDQAE
+          <bold>
+           <underline>
+            HLKTAVQMAVFIHNFKRK
+           </underline>
+          </bold>
+          GGIGGY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          879–909
+          <break/>
+          (886–903)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          94.2
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Pol
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ITK
+          <bold>
+           <underline>
+            IQNFRVYYRDSRN
+           </underline>
+          </bold>
+          PLW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          932–950
+          <break/>
+          (935–947)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rev
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RSGD
+          <bold>
+           <underline>
+            SDEELIRTVRLI
+           </underline>
+          </bold>
+          KLLY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4–23
+          <break/>
+          (8–19)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          94.0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rev
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RWRE
+          <bold>
+           <underline>
+            RQRQIHSISERILGTYLGRSAEP
+           </underline>
+          </bold>
+          VPLQLPP
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          44–77
+          <break/>
+          (48–70)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          95.2
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rev
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VPL
+          <bold>
+           <underline>
+            QLPPLERLTLDCNEDCGTSGTQ
+           </underline>
+          </bold>
+          GV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          71–97
+          <break/>
+          (74–95)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rev
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          T
+          <bold>
+           <underline>
+            QGVGSPQILVESPTV
+           </underline>
+          </bold>
+          L
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          94–110
+          <break/>
+          (95–109)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          93.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Vif
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VWQV
+          <bold>
+           <underline>
+            DRMRIRTWKSLVKHHMYVSGKARG
+           </underline>
+          </bold>
+          WFYRHHY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11–44
+          <break/>
+          (14–37)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          88.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Vif
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SLQY
+          <bold>
+           <underline>
+            LALAALITPKKIKPPLPSVTKLTEDRWN
+           </underline>
+          </bold>
+          KPQKTK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          144–181
+          <break/>
+          (148–175)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Vpu
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VIIEYR
+          <bold>
+           <underline>
+            KILRQRKIDRLID
+           </underline>
+          </bold>
+          RLIER
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26–49
+          <break/>
+          (32–44)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          90.7
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        In each cluster sequence the core region of overlapped T-cell epitopes is highlighted in bold and underscored, providing further information on the amino acid position in each protein, the number of putative T-cell epitopes and the predicted population coverage in the target population.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3_6">
+     <title>
+      Application to SARS-CoV-2
+     </title>
+     <p>
+      Finally, to test the utility of the method we performed
+      <italic>
+       in silico
+      </italic>
+      mapping on the spike glycoprotein of SARS-CoV-2.      presents the output for the Epitope Discovery mode by targeting the United Kingdom, South Africa, Brazil and Japan, showing the position of CD8+ and CD4+ T-cell epitopes and clusters potentially immunodominant for these populations, as well as the number of restricting HLAs and predicted population coverages. Most reactive T-cell epitopes in each country (population coverage ≥ 80%) are highlighted in red circles and listed in      , showing the presence of two CD8+ T-cell epitopes that would afford high coverages for all the populations (ESNKKFLPF and KQIYKTPPI) and the epitope GTITSGWTF would be highly promiscuous for the South African, Brazilian and Japanese populations.      also highlights with red arrows the set of T-cell epitopes that was selected through the genetic algorithm (the Epitope Optimization mode) in order to maximize the coverage in each target population (      ). Top coverages (≥ 99%) could potentially be reached with 2 to 4 T-cell epitopes, with the exception of CD4+ T-cell epitopes for the South African population (72.4% coverage).      shows with more detail the combination of epitopes selected by the algorithm at each generation. Finally,      summarizes T-cell epitope clusters potentially delivering population coverages ≥ 80% in each target region (hotspots), providing a comprehensive description in      for putative clusters specific for the populations of the United Kingdom (      ), South Africa (      ), Brazil (      ) and Japan (      ). One particular region that rises interest spans positions 150 to 185 (KSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQ), which comprises both CD8+ and CD4+ T-cell epitope clusters consistently predicted for the populations of the United Kingdom, South Africa, Brazil and Japan.
+     </p>
+     <table-wrap id="T4" position="float">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        List of the top promiscuous CD8+ T-cell epitopes in the SARS-CoV-2 spike glycoprotein predicted by Predivac-3.0 to deliver above 80% coverage in the populations of the United Kingdom, South Africa, Brazil, and Japan (using the Epitope Discovery mode).
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Protein
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Peptide
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Amino acid position
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Coverage (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          No. of HLA class I alleles
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           The United Kingdom
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           ESNKKFLPF
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           554–562
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           86.9
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           29
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           KQIYKTPPI
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           786–794
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           85.2
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           31
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDNPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          75–83
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          15
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           RVDFCGKGY
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           1039–1047
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           82.1
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           18
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MTSCCSCLK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1237–1245
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GVYFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          89–97
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           South Africa
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           KQIYKTPPI
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           786–794
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           88.5
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           128
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           ESNKKFLPF
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           554–562
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           86.1
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           144
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           GTITSGWTF
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           880–888
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           85.2
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           147
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Brazil
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           KQIYKTPPI
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           786–794
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           90.6
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           130
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           ESNKKFLPF
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           554–562
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           80.9
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           144
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WTFGAGAAL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          886–894
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          116
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Japan
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           ESNKKFLPF
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           554–562
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           93.8
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           33
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           GTITSGWTF
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           880–888
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           91.2
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           33
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Spike
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           KQIYKTPPI
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           786–794
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           90.9
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           33
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KIYSKHTPI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          202–210
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          90.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          27
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ITDAVDCAL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          285–293
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          83.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WTFGAGAAL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          886–894
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82.9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KEIDRLNEV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1181–1189
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Spike
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TLDSKTQSL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          109–117
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          81.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        In bold, epitope sequences that are potentially immunodominant in most of the countries.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <table-wrap id="T5" position="float">
+      <label>
+       Table 5
+      </label>
+      <caption>
+       <p>
+        Optimal combinations of CD8+ and CD4+ T-cell epitopes selected by Predivac-3.0 in the SARS-CoV-2 spike glycoprotein at the last generation of the genetic (GA) algorithm, which maximize the population coverage in the United Kingdom, South Africa, Brazil, and Japan (Epitope Optimization mode).
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          T-cell epitopes
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Amino acid position
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Individual population coverage
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Combined population coverage (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Putative allele restriction
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           The United Kingdom
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD8+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KIYSKHTPI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          202–210
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.762
+         </td>
+         <td align="center" colspan="1" rowspan="2" valign="top">
+          99.2
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          A*02:01(0.288),B*07:02(0.152),B*51:01(0.046),A*01:01(0.207),A*03:01(0.137),A*11:01(0.069),A*24:02(0.068),A*25:01(0.021),A*26:01(0.019),B*57:01(0.036)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RVDFCGKGY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1039–1047
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.821
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD4+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YHKNNKSWM
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          145–153
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.283
+         </td>
+         <td align="center" colspan="1" rowspan="4" valign="top">
+          99.9
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          DRB1*11:01(0.045),DRB1*13:01(0.043),DRB1*13:02(0.032),DRB1*07:01(0.137),DRB1*01:01(0.088),DRB1*15:01(0.147),DRB1*04:04(0.040),DRB1*04:03(0.024),DRB1*03:01(0.135),DRB1*04:01(0.120),DRB1*04:04(0.040)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FPQSAPHGV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1052–1060
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.449
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VKQLSSNFG
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          963–971
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.464
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ICGDSTECS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          742–750
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.567
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           South Africa
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD8+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KQIYKTPPI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          786–794
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.885
+         </td>
+         <td align="center" colspan="1" rowspan="3" valign="top">
+          100%
+         </td>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          A*23:01(0.085),A*68:02(0.081),A*30:02(0.072),A*30:01(0.056),B*42:01(0.097),B*58:02(0.068),B*08:01(0.059),B*40:06(0.039),B*57:03(0.032),A*23:01(0.085),A*30:02(0.072),A*24:02(0.051),B*42:01(0.097),B*15:03(0.076),B*44:03(0.070),B*08:01(0.059),B*15:10(0.068),B*07:02(0.036),B*14:01(0.032).
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ESNKKFLPF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          554–562
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.861
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MIAQYTSAL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          869–877
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.499
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD4+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FQTLLALHR
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          238–246
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.298
+         </td>
+         <td align="center" colspan="1" rowspan="4" valign="top">
+          72.4
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          DRB1*13:01(0.128),DRB1*13:02(0.03),DRB1*10:01(0.004),DRB1*13:05(0),DRB1*03:01(0.137),DRB1*03:02(0.09),DRB1*03:04(0.077),DRB1*09:01(0.008), DRB1*10:01(0.004)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YECDIPIGA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          660–668
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.516
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FKNHTSPDV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1156–1164
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0178
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FGAISSVLN
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          970–978
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.008
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Brazil
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD8+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KQIYKTPPI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          786–794
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.906
+         </td>
+         <td align="center" colspan="1" rowspan="2" valign="top">
+          99.2
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          A*02:01(0.178),A*23:01(0.037),B*48:03(0.045),B*08:01(0.041),B*18:01(0.040),B*51:01(0.038),B*35:06(0.035),B*35:03(0.033),A*68:01(0.079),A*03:01(0.062),B*18:01(0.040),B*35:01(0.033),B*44:03(0.031),
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IPFAMQMAY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          896–904
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.672
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD4+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YSVLYNSAS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          365–373
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.766
+         </td>
+         <td align="center" colspan="1" rowspan="4" valign="top">
+          99.2
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          DRB1*16:02(0.151),DRB1*08:02(0.136),DRB1*14:02(0.073),DRB1*11:01(0.032),DRB1*04:11(0.066),DRB1*04:04(0.058),DRB1*07:01(0.054),DRB1*09:01(0.034),DRB1*16:02(0.151),DRB1*03:01(0.057)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VKQLSSNFG
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          963–971
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.408
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FKNHTSPDV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1156–1164
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.179
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FDEDDSEPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1256–1264
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.411
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Japan
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD8+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ESNKKFLPF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          554–562
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.938
+         </td>
+         <td align="center" colspan="1" rowspan="2" valign="top">
+          99.9
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          A*24:02(0.319),A*26:01(0.072),A*26:02(0.018),B*52:01(0.104),B*15:01(0.083),B*51:01(0.083),B*35:01(0.078),B*44:03(0.070),A*02:01(0.105),A*02:06(0.085),B*52:01(0.104),B*51:01(0.083),B*54:01(0.081),B*40:02(0.078),B*40:01(0.051),B*40:06(0.047)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KQIYKTPPI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          786–794
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.909
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           CD4+ T-cell epitopes
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YSVLYNSAS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          365–373
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.727
+         </td>
+         <td align="center" colspan="1" rowspan="4" valign="top">
+          99.4
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          DRB1*04:05(0.117),DRB1*15:02(0.084),DRB1*08:03(0.069),DRB1*13:02(0.052),DRB1*01:01(0.048),DRB1*08:02(0.039),DRB1*14:08(0.118),DRB1*08:03(0.069),DRB1*08:02(0.039),DRB1*14:01(0.032),DRB1*09:01(0.117),DRB1*15:01(0.055)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MESEFRVYS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          153–161
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.574
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IAQYTSALL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          870–878
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.316
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LYENQKLIA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          916–924
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.231
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Putative HLA class I-allele restriction is provided along with their corresponding population frequency in each country (ANFD data).
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <table-wrap id="T6" position="float">
+      <label>
+       Table 6
+      </label>
+      <caption>
+       <p>
+        Potentially immunodominant T-cell epitope clusters in the spike glycoprotein of SARS-CoV-2, predicted by Predivac-3.0 to yield coverages ≥ 80% in the populations of the United Kingdom, South Africa, Brazil and Japan.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="3" rowspan="1" valign="top">
+          Cluster
+         </th>
+         <th align="center" colspan="2" rowspan="1" valign="top">
+          T-cell epitopes
+         </th>
+        </tr>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Sequence
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Amino acid position
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Population coverage (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD8+ T-cell epitopes
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD4+ T-cell epitopes
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           The United Kingdom
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDN
+          <bold>
+           <underline>
+            PVLPFNDGV
+           </underline>
+          </bold>
+          YFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82–90
+          <break/>
+          (75–97)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDNPV,RFDNPVLPF, LPFNDGVYF,GVYFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KIY
+          <bold>
+           <underline>
+            SKHTPINLVRDLP
+           </underline>
+          </bold>
+          QGF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          205–217
+          <break/>
+          (202–220)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KIYSKHTPI,YSKHTPINL, TPINLVRDL,LVRDLPQGF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NENGT
+          <bold>
+           <underline>
+            ITDAVDCALDPLSETKCTL
+           </underline>
+          </bold>
+          KSFTVEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          285–303
+          <break/>
+          (280–310)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          93.7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NENGTITDA,ITDAVDCAL, AVDCALDPL,ALDPLSETK, ETKCTLKSF,TLKSFTVEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NYLYRLF
+          <bold>
+           <underline>
+            RKSNLKPFE
+           </underline>
+          </bold>
+          RDISTEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          457–465
+          <break/>
+          (450–472)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          90.6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NYLYRLFRK,RLFRKSNLK, KSNLKPFER,FERDISTEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVAYSNN
+          <bold>
+           <underline>
+            SIAIPTNFT
+           </underline>
+          </bold>
+          ISVTTEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          711–719
+          <break/>
+          (704–726)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          88.7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVAYSNNSI,AYSNNSIAI,IPTNFTISV,FTISVTTEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          I
+          <bold>
+           <underline>
+            ITTDNTFVSGNCDVVI
+           </underline>
+          </bold>
+          GIVNNTV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1115–1130
+          <break/>
+          (1114–1137)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          89.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IITTDNTFV,ITTDNTFVS, FVSGNCDVV,VSGNCDVVI, VIGIVNNTV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           South Africa
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDN
+          <bold>
+           <underline>
+            PVLPFNDGV
+           </underline>
+          </bold>
+          YFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82–90
+          <break/>
+          (75–97)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDNPV,RFDNPVLPF, VLPFNDGVY,LPFNDGVYF, GVYFASTEK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Brazil
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDN
+          <bold>
+           <underline>
+            PVLPFNDGV
+           </underline>
+          </bold>
+          YFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82–90
+          <break/>
+          (75–97)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDNPV,RFDNPVLPF, VLPFNDGVY,LPFNDGVYF, GVYFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VYYHKNN
+          <bold>
+           <underline>
+            KSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLR
+           </underline>
+          </bold>
+          EFVF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          150–190
+          <break/>
+          (143–194)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VYYHKNNKS,YHKNNKSW,MESEFRVYS,FRVYSSANN, VYSSANNCT,YSSANNCTF, FEYVSQPFL,FLMDLEGKQ, LMDLEGKQG,MDLEGKQGN,FKNLREFVF
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YNYLY
+          <bold>
+           <underline>
+            RLFRKSNLKPFERD
+           </underline>
+          </bold>
+          ISTEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          454–467
+          <break/>
+          (449–472)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YNYLYRLFR,LYRLFRKSN, YRLFRKSNL,LKPFERDIS, FERDISTEI
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="5" rowspan="1" valign="top">
+          <bold>
+           Japan
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ST
+          <bold>
+           <underline>
+            QDLFLPFFSNVTWF
+           </underline>
+          </bold>
+          HA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          52–65
+          <break/>
+          (50–67)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          86.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          STQDLFLPF,TQDLFLPFF,
+          <break/>
+          LPFFSNVTW,FSNVTWFHA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDN
+          <bold>
+           <underline>
+            PVLPFNDGV
+           </underline>
+          </bold>
+          YFASTEK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          82–90
+          <break/>
+          (75–97)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          99.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTKRFDNPV,RFDNPVLPF,
+          <break/>
+          LPFNDGVYF,GVYFASTEK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EFQ
+          <bold>
+           <underline>
+            FCNDPFLGVYYHK
+           </underline>
+          </bold>
+          NNK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          135–147
+          <break/>
+          (132–150)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          93.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EFQFCNDPF,FQFCNDPFL,
+          <break/>
+          FCNDPFLGV,GVYYHKNNK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KSWME
+          <bold>
+           <underline>
+            SEFRVYSSANNCTFEYVSQPF
+           </underline>
+          </bold>
+          L
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          155–175
+          <break/>
+          (150–176)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          93.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KSWMESEFR,SEFRVYSSA,
+          <break/>
+          YSSANNCTF,SANNCTFEY,
+          <break/>
+          TFEYVSQPF,FEYVSQPFL,
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NENGT
+          <bold>
+           <underline>
+            ITDAVDCALDPLSET
+           </underline>
+          </bold>
+          KCTLKSF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          285–300
+          <break/>
+          (280–306)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          95.6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NENGTITDA,ITDAVDCAL,
+          <break/>
+          AVDCALDPL,ALDPLSETK,
+          <break/>
+          ETKCTLKSF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVAYSNN
+          <bold>
+           <underline>
+            SIAIPTNFT
+           </underline>
+          </bold>
+          ISVTTEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          711–719
+          <break/>
+          (704–726)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          92.6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVAYSNNSI,AYSNNSIAI,
+          <break/>
+          IPTNFTISV,FTISVTTEI
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YEQYIKW
+          <bold>
+           <underline>
+            PWYIWLGFI
+           </underline>
+          </bold>
+          AGLIAIV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1213–1221
+          <break/>
+          (1206–1228)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85.6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YEQYIKWPW,EQYIKWPWY,WPWYIWLGF,FIAGLIAIV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          -
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VYYHKNN
+          <bold>
+           <underline>
+            KSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQ
+           </underline>
+          </bold>
+          GN
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          150–183
+          <break/>
+          (143–185)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          88.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top"/>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VYYHKNNKS,YHKNNKSW,MESEFRVYS,FRVYSSANN,
+          <break/>
+          VYSSANNCT,YSSANNCTF,
+          <break/>
+          FEYVSQPFL,FLMDLEGKQ,
+          <break/>
+          LMDLEGKQG,MDLEGKQGN
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        In each cluster, the core region of overlapped T-cell epitopes is highlighted in bold/underscored, showing the amino acid position in each protein, the population coverage in the target populations and the CD8+ or CD4+ T-cell epitopes associated to each cluster.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     The impact of HLA polymorphism on viral replicative capacity and disease progression has been widely documented in patients infected by HIV-1 (     ,     ). For example, HLA-B*57 and HLA-B*27 (protective alleles) are well-known to associate with successful immune control of HIV-1 or slow progression to disease both in Caucasians and African populations, but not in Asians where the frequencies of these alleles are very low (&lt;1%) (     ). By contrast, HLA-B*18:01, HLA-B*45:01 and HLA-B*58:02 (disease-susceptible alleles) are strongly associated with high viral load and rapid disease progression in African populations (     ). In addition, considerable work has been conducted to determine population-level HLA associations with vaccine-induced immune responses, which are hypothesized as relevant parameters contributing to vaccine failure (     ,     ). For example, the lack of response of a recombinant HIV-1 vaccine (ALVAC Env-gp120) designed to induce clade-specific neutralizing antibodies to HIV-1 in the RV144 phase III trial (Thailand) was strongly associated with the presence of certain HLA class II alleles (DRB1*11 and DRB1*16:02) (     ), and a recent study assessing the relationship between HLA genotypes and RTS,S vaccine-mediated protection (malaria infections) showed a strong protective association with three allele groups (HLA-A*01, HLA-B*08, and HLA-DRB1*15/*16) (     ). In the latter work, the authors discussed the potential impact of these HLA correlations on vaccine immunogenicity and efficacy in risk populations (such as the sub-Saharan African region) where these alleles are present at a lower prevalence than in the UK or USA where these Phase II trials were carried out. This problem is further complicated by the fact that racial and ethnic minority groups generally remain underrepresented in clinical trials (     ), limiting the capability to test the efficacy and safety of new clinical interventions across diverse populations and leading to a lack of T-cell data for ethnicities in which viral epidemic currently spreads (     ). Therefore, a vaccine that delivers good results for certain groups in Phase I and II trials does not necessarily guarantee strong protective responses in ethnic minority populations that are in more urgent need of new vaccine initiatives (     ).
+    </p>
+    <p>
+     Genetic variability of the HLA system may affect susceptibility and severity of the disease caused by SARS-CoV-2, as recently discussed in a comprehensive
+     <italic>
+      in silico
+     </italic>
+     analysis of viral peptide-HLA class I binding affinity across 145 HLA types (     ). Although it is still early within the SARS-CoV-2 pandemic for broad association studies with HLA markers, recent work found that HLA-C*07:29 and HLA-B*15:27 alleles statistically correlated with the occurrence of COVID‐19 from a sample of 82 Chinese individuals with COVID‐19 that were genotyped for HLA‐A, ‐B, ‐C, ‐DRB1, ‐DRB3/4/5, ‐DQA1, ‐DQB1, ‐DPA1, and ‐DPB1 loci (     ). In addition, several associations between HLA alleles provide susceptibility [e.g., B*46:01 (     ), HLA‐B*07:03 (     ) and HLA-DRB1*12 (     )] or protection [e.g., DRB1*03:01 (     )] to the closely related SARS-CoV-1 have been previously described in Asian populations.
+    </p>
+    <p>
+     Our immunoinformatics approach addresses this challenge by providing a computational framework to deal with the extent of HLA diversity. We have previously reported the pan-specific tools Predivac-1.0 (     ) and Predivac-2.0 (     ) to aid CD4+ T-cell epitope-based vaccine design in the context of genetically heterogeneous human populations. Herein, we describe a significant enhancement in our Predivac approach to contribute to the development of genetics-driven immunization strategies that take into account the ethnic diversity of T-cell recognition in the population to be vaccinated. Predivac-3.0 enables proteome-wide ethnicity-driven CD8+ and CD4+ T-cell epitope prediction to select promiscuous T-cell epitopes priming broad immune responses in target groups, with an additional focus on the identification of immunologically relevant T-cell epitope-rich antigen regions potentially affording high-coverage in the target population (referred as hotspots). As shown in     , the method was successfully validated in LOOCV experiments for 45 HLA class I alleles (17,425 peptides) represented in PredivacDB (AUC = 0.8), by employing a highly rigorous LOOCV methodology that involves excluding an individual allele from the database and then evaluating performance using the dataset of high-affinity peptides restricted by that particular allele (positive dataset). In addition, the tool proved outstanding performance in the benchmarks (
+     <bold>
+      )
+     </bold>
+     , delivering comparable accuracies against top-performing state-of-the art methods using the IEDB-dataset (average AUC = 0.915) and DFRMLI-dataset (average AUC = 0.909). These AUC values (~0.9) are indicative of excellent discrimination capability, while the lesser AUC (0.8) obtained in LOOCV is typically expected as a consequence of the more stringent experimental condition of systematically removing 100% of the data for the specific tested allele. To maintain balanced datasets for AUC calculation (LOOCV and IEDB benchmark), negative examples were taken from the epitope source protein, by splitting the sequence into overlapping peptides of the same length as the epitope and all peptides except the annotated peptide were assumed as negatives.
+    </p>
+    <p>
+     We then focused on proteome-wide identification of immunodominant hotspots in order to improve the value of the method for vaccination purposes, in agreement with numerous studies supporting that immunodominant T-cell epitopes are not randomly distributed along the protein sequence, but tend to cluster in limited regions of the antigen undergoing efficient processing (     ). The rationale behind this approach is that only a few peptides from complete antigens are7nbsp;capable of inducing significant responses following immunization, which are those peptides presented to T-cells in association with HLA class I and II molecules (     ). Accordingly, a significant body of literature underscores the influence of three-dimensional structure of antigens over the likelihood of peptides to be proteolytically released from the source protein, either through the proteasome-mediated endogenous pathway (CD8+ T-cell epitopes) (     ) and cathepsin-mediated exogenous pathway (     ). However, an alternate reasoning path correlates immunodominant hotspots with promiscuous binding in antigen regions containing a certain density of peptides that bind multiple HLA types (     ,     ). Because promiscuous peptides can be presented to T-cells by many individuals (promiscuous T-cell recognition), the identification of regions that are highly enriched in MHC ligands holds potential to define population-based biomarkers as correlates of immunological protection to compare candidate vaccines in efficacy clinical trials (     ,     ).
+    </p>
+    <p>
+     An earlier approach to select promiscuous epitopes is based on the concept of supertypes, which are clusters of HLA molecules sharing overlapping peptide repertories (     ). Pepvac is a computational tool based on this approach (     ), which depends on pre-calculated population coverages for five HLA class I supertypes (A2, A3, A24, B7, and B15) and accounts for five major American ethnic groups (Black, Caucasian, Hispanic, Native American and Asian). By contrast, allele-based selection methods such as Predivac (     ,     ) and OptiTope (     ) define promiscuous epitopes as those restricted to as many HLA alleles as possible in a given target population. However, instead of providing population coverage as a function of allele frequency distributions, OptiTope performed “allele coverage” by summing up for each locus the fraction of alleles targeted by predicted T-cell epitopes in a given population. Although we could not compare Predivac-3.0 with OptiTope, since the web-based tool is not currently available, our method offers a more accurate framework by implementing a population coverage algorithm (     ) based on HLA genotypic frequencies from the AFND (     ), which is the most comprehensive repository of immune gene frequencies of worldwide populations. Therefore, our approach takes into account the fact individuals display different sets of HLA alleles with particular binding specificities and expression frequencies that dramatically differ among different ethnicities (     ).
+    </p>
+    <p>
+     HIV-specific T-cell responses play a pivotal role in the anti-HIV immune response (     ). Therefore, the successful identification of HIV-1 specific CD8+ T-cell epitopes in the exploratory analysis for the Japanese population lends support to the utility of the tool in ethnicity-driven T-cell epitope discovery (     ). We showed Predivac-3.0 was capable of identifying 46 out of 103 immunodominant T-cell epitopes (44.7% efficiency) from the HIV-dataset with default parameters (PPR = 1; PCT = 0%). Prediction accuracies gradually declined as the population coverage threshold (%) increases for each PPR value (1, 2 and 3), accounting for the growing number of CD8+ T-cell epitopes that are missed as the tool stops selecting epitopes below that threshold limit. However, by filtering T-cell epitopes covering ≥ 20% of the Japanese population (PCT = 20%) the universe of predicted CD8+ T-cell epitopes to be searched decreased to 46% (from 373 to 201 epitopes), with a slight reduction in the accuracy (from 44.2 % to 31.8 %). A good trade-off must balance the predictive accuracy with a reasonable amount of predicted T-cell epitopes to be experimentally tested in the laboratory, because this number must be kept low enough to make the tool useful in accelerating epitope discovery. Inset plots in     show that for PCT = 0% the number of putative CD8+ T-cell epitopes increased from 373 (PPR = 1) to 583 (PPR = 2) and to 719 (PPR = 3), increasingly loosing utility for experimental validation purposes. This is considered a good and sensitive result, especially because the HIV-1 positive dataset (103 CD8+ T-cell epitopes) accounts for a tiny portion (2.4%) of the HIV-1 proteome (4234 amino acids), providing insight into the methods capability to guide epitope discovery in population context. Furthermore, the HIV-dataset only accounts for currently characterized immunodominant T-cell epitopes, leading to the reasonable supposition that accuracy could potentially become higher as new Japanese-specific CD8+ T-cell epitopes are identified in the future. This assumption is underscored by comprehensive HIV-specific epitope mapping studies showing CD4+ and CD8+ T-cell responses across the entire viral proteome (     ,     ).
+    </p>
+    <p>
+     An interesting study case to explore the utility of the tool is the mosaic bivalent T-cell vaccine tHIVconsvX, which comprises 5 Gag-specific and 6 Pol-specific T-cell epitopes (     ) with the ability to suppress HIV-1 replication
+     <italic>
+      in vivo
+     </italic>
+     and correlate with better clinical outcome (low pVLs and high CD4 counts) in treatment-naïve HIV-1 clade B-infected Japanese individuals (     ). The reactivity of this vaccine has been recently characterized in the Japanese population, proving that Gag-specific T cell epitopes (5 epitopes) were found restricted by HLA-B* 52:01, HLA-A*02:06, HLA-A*33:03, and HLA-B*40:02, while the Pol-specific T-cell epitopes (6 epitopes) were restricted by HLA-A*24:02, HLA-A*33:03, HLA-B*40:02, HLA-B*40:06, HLA-B*51:01 and HLA-B*52:01. HLA-B*57, HLA-B*58, and HLA-B*27 are well-known protective alleles for AIDS progression in Caucasians and Africans infected with HIV-1 (     –     ). However, the less-characterized HLA*B*52:01 allele is prevalent in the Japanese population (     ) and the HLA-B*52:01-C*12:02 haplotype has been suggested to be protective in Japanese individuals, where HLA-B*57, HLA-B*58, or HLA-B*27 are present at very low frequencies in this population (     ). The CD8+ T-cell epitopes predicted by Predivac-3.0 to cover 79.3% of the Japanese population (YTAFTIPSI; 282-290) was consistently predicted with HLA*B*52 allele restriction, which in previous studies has been associated with low viral loads in HIV-infected Japanese individuals (     ) and also elicited HLA-B*52:01-restricted CD8+ T-cells with strong ability to suppress HIV-1 replication in this population (     ).
+    </p>
+    <p>
+     Predivac-3.0 was effective in identifying immunodominant T-cell epitopes in the HIV dataset, but also guided the detection of Japanese-specific T-cell epitope clusters (hotspots) in the HIV-1 proteome (     and     ), in agreement with a recent work that provided evidence in favor of the utility of immunoinformatics tools to identify these regions exclusively based on promiscuous HLA peptide binding (     ). Indeed, the method was sensitive to capture information on the location of additional CD8+ T-cell epitopes from the HIV-dataset that overlapped putative CD8+ and CD4+ T-cell epitope clusters (     ). Putative clusters predicted by Predivac-3.0 are additionally colocalized with 4 immunodominant regions (2 in Gag and 2 in Nef) that are broadly recognized by HIV-infected subjects from several ethnicities, showing the clustering of several CD8+ and CD4+ T-cell epitopes predicted by Predivac 3.0 (
+     <bold>
+      ;
+     </bold>
+     ). These results lend support to the reactivity of these regions in the Japanese population, but also about their potential for “universal” T-cell-based vaccination against HIV-1 in heterogeneous ethnic populations (     ,     ).
+    </p>
+    <p>
+     An interesting finding of the current study is the detection of strong immunodominant hotspot signals in the regulatory protein Rev, with four T-cell epitope clusters potentially delivering population coverages above 80% in Japan (positions 4–23; 44–77; 71–97; 94–110). These regions hold interest for vaccine development in this particular ethnic population, suggesting crosslinking between CD8+ and CD4+ T-cell epitopes between positions 71 and 110 of the protein. Indeed, the research has largely focused on the assessment of immune responses directed against Nef and late-expressed HIV-1 structural proteins (Gag, Pol and Env), which concentrate the vast majority of well-defined T-cell epitopes (     ). By contrast, regulatory (Tat and Rev) and accessory proteins (Vpr, Vpu and Vif) are less frequently targeted by cytotoxic T-cells in study subjects from clinical interventions (     ). This result is consistent with previous works suggesting these proteins might be promising targets for vaccine development (     ). A substantial amount of evidence points out that cytotoxic T-cell responses directed against non-structural proteins (Tat, Rev, Vpr, Vpu and Vif) contribute importantly to the total magnitude of the HIV-1 specific cellular immune response (     ,     ). Because these proteins are expressed earlier in the viral life cycle, their recognition may occur before Nef down-modulates HLA class I molecules on the surface of the infected cells and thus provide a window of opportunity to the immune system to clear the infected cell before the virus is released (     ). Another CD8+ T-cell epitope predicted by Predivac-3.0 within a cluster region of Vpr is the HLA-A*02:01-restricted peptide AIIRILQQL (     ,     ), which is located in a functionally important region involved with perinuclear localization of the protein (     ,     ). This peptide has been shown to correlate inversely with plasma viral load and positively with CD4 count in a study involving a cohort of HIV-1 infected individuals expressing the HLA-A*02:01 allele (     ). A study about HLA haplotype frequencies in the Japanese population states that ~80% of this population could be responsive for a vaccine containing T-cell epitopes presented by HLA-A*02:01 (     ).
+    </p>
+    <p>
+     HLA diversity is likewise a crucial host genetic factor in determining variations in the T-cell responses of HIV-infected patients across multiple ethnicities (     ). In this regard, the Japanese-specific density maps (T-cell epitope clusters/hotspots) predicted in the HIV-1 proteome are different to those available at Los Alamos HIV Molecular Immunology Database, accounting for population-level specificities in HLA class I and II frequencies. Interestingly, T-cell epitope clusters allowed a higher efficiency (63.6%) in detecting the position of immunodominant T-cell epitopes from the HIV-dataset (by means of colocalization) than that obtained through direct epitope prediction (12.3%), while both approaches delivered similar accuracies around 40–45% (default parameters PPR = 1; PCT = 0%). Ethnic specificity of HIV immunodominant patterns has been also discussed in a meta-analysis of epitope mapping data from three large vaccination clinical trials carried out in different countries (Merck16, HVTN 054 and HVTN 502/Step), which showed that HIV-1 T-cell responses clustered into distinct hotspot patterns associated with study subjects with different ethnic background (     ). Similarly, our analysis carried out on the SARS-CoV-2 spike glycoprotein showed immunodominance patterns accounting for population-specific T-cell epitopes and clusters in the four studied populations (The United Kingdom, South Africa, Brazil and Japan), but also for a few putative immunodominant T-cell epitopes and regions that are of interest for “universal” vaccination purposes as they bind to multiple HLA alleles of high prevalence in all the populations (     ). This is also consistent with a recent work showing association of COVID-19 disease with disproportionate mortality among ethnic populations, as specifically observed by the lower mortality rate in the Indian and South Asian subcontinent than in the West (     ). To the best of our knowledge these sequences and regions have not been previously reported and can be of interest in the light of the ChAdOx1 vaccine development, which is currently undergoing phase III clinical trials in human volunteers (The United Kingdom, South Africa and Brazil). These results might be also of value for the mRNA-1273 vaccine and for other adenoviral vaccine candidates encoding the S protein antigen.
+    </p>
+    <p>
+     In short, we support the perspective that this is an immunoinformatics approach that can provide valuable knowledge of T-cell epitopes and immunodominant regions (clusters) to help understand how variation in HLA may affect vaccine-induced immune responses in a population context. Understanding this layer of complexity is also relevant in the context of vaccination trials, since underrepresentation of minorities is an issue that might lead to a resulting body of clinical knowledge that is not generalizable (skewed findings) and a lesser discovery rate of protective T-cell epitopes in certain populations. Predivac-3.0 provides tools to guide the discovery of population-specific epitopes and clusters in the context of SARS-CoV-2 and of other emerging pathogens (EIDs), holding potential to improve vaccine design and clinical trial protocols for evaluation of vaccine candidates in individuals with different genetic or ethnic backgrounds (phase II/III trials).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="conclusions">
+    <title>
+     Conclusions
+    </title>
+    <p>
+     Population-level HLA associations are crucial factors determining variations of vaccine-induced immune responses across multiple ethnicities. Predivac-3.0 addresses this problem by implementing a computational framework for rational design of CD8+ and CD4+ T-cell epitope-based vaccination, which allows guiding epitope discovery according to HLA allele frequencies in specific ethnic populations. Our immunoinformatics tool showed a strong performance in the identification of CD8+ T-cell epitopes by leave-one-out cross-validation (AUC ~0.8) and comparable accuracies when benchmarked against state-of-the-art pan-specific methods (AUC ~0.9). We further proved that Predivac-3.0 was accurate and sensitive for
+     <italic>
+      in silico
+     </italic>
+     identification of HIV-1 specific CD8+ T-cell epitopes that are immunodominant in the Japanese population. The method also captured information at proteome-level of epitope-rich areas of HLA promiscuity (hotspots), shedding light onto its capability to identify HIV-1 vaccine-induced and protective T-cell epitopes. We finally showed the utility of Predivac-3.0 in the context of the current COVID-19 pandemics, by applying the Epitope Discovery and Epitope Optimization tools to predict comprehensive lists of population-specific T-cell epitopes and clusters in the SARS-CoV-2 spike glycoprotein for the countries where phase III clinical trials of the ChAdOx1 vaccine are currently being carried out. Putative T-cell epitopes identified for HIV-1 and SARS-CoV-2 are suitable candidates to be experimentally tested for effective vaccine protection, as they hold the potential to induce broad immune responses in the corresponding target populations. In addition, proteome-wide plots (Circos and hotspots) not only allowed for better visualization of the predictions, but also provide the ability to capture knowledge on ligand enrichment areas (based on promiscuous HLA peptide binding) and to detect interactions between the distribution and density of both ethnicity-driven CD8+ and CD4+ T-cell epitopes. Overall, we propose that incorporation of knowledge about HLA prevalence in the target population and immunological hotspots into the predictive algorithm might contribute to the development of novel vaccination strategies that support a more prominent role of T-cell mediated immune responses against emerging viral pathogens, as well as to gain understanding on how variation in HLA may affect vaccine-induced immune responses in a population context. Our immunoinformatics approach is particularly suited to be applied for EIDs associated with well-defined regions or countries, as it accounts for ethnic-level variations of immune responsiveness in the populations in need of vaccination.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6" sec-type="data-availability">
+    <title>
+     Data Availability Statement
+    </title>
+    <p>
+     The original contributions presented in the study are included in the article/     . Further inquiries can be directed to the corresponding author.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     PO: conceived, designed, supervised the experiment, and wrote the manuscript. MK: performed
+     <italic>
+      in silico
+     </italic>
+     experiments and prepared the figures. VF: rewrote the Predivac code in Python and performed
+     <italic>
+      in silico
+     </italic>
+     experiments. PO, MK, and VF: analyzed the data. All authors contributed to the article and approved the submitted version.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s8" sec-type="funding-information">
+    <title>
+     Funding
+    </title>
+    <p>
+     This research was supported by ANID Chile/FONDECYT Iniciación (Grant No.11170638) and by supercomputing infrastructure from UDEC Southern GPU-cluster (FONDEQUIP EQM150134).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s9" sec-type="COI-statement">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

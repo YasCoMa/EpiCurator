@@ -1,0 +1,2363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  T and B cell Epitope analysis of SARS‐CoV‐2 S protein based on immunoinformatics and experimental research
+ </title>
+ <abstract>
+  <p>
+   COVID‐19 caused by SARS‐CoV‐2 is pandemic with a severe morbidity and mortality rate across the world. Despite the race for effective vaccine and drug against further expansion and fatality rate of this novel coronavirus, there is still lack of effective antiviral therapy. To this effect, we deemed it necessary to identify potential B and T cell epitopes from the envelope S protein. This can be used as potential targets to develop anti‐SARS‐CoV‐2 vaccine preparations. In this study, we used immunoinformatics to identify conservative B and T cell epitopes for S proteins of SARS‐CoV‐2, which might play roles in the initiation of SARS‐CoV‐2 infection. We identified the B cell and T cell peptide epitopes of S protein and their antigenicity, as well as the interaction between the peptide epitopes and human leucocyte antigen (HLA). Among the B cell epitopes, ‘EILDITPCSFGGVS’ has the highest score of antigenicity and great immunogenicity. In T cell epitopes, MHC‐I peptide ‘KIADYNYKL’ and MHC‐II peptide ‘LEILDITPC’ were identified as high antigens. Besides, docking analysis showed that the predicted peptide ‘KIADYNYKL’ was closely bound to the HLA‐A*0201. The results of molecular dynamics simulation through GROMACS software showed that ‘HLA‐A*0201~peptide’ complex was very stable. And the peptide we selected could induce the T cell response similar to that of SARS‐CoV‐2 infection. Moreover, the predicted peptides were highly conserved in different isolates from different countries. The antigenic epitopes presumed in this study were effective new vaccine targets to prevent SARS‐CoV‐2 infection.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="jcmm16200-sec-0001">
+    <label>
+     1
+    </label>
+    <title>
+     INTRODUCTION
+    </title>
+    <p>
+     SARS‐CoV‐2 was discovered in Wuhan City, Hubei Province in early December 2019. This novel coronavirus unlike the previous ones, not only has higher infectivity and pathogenicity, but faster transmission.     ,     The present science stood at droplets at the main mode of transmission. Direct contact     ,     ,     ,     as well is common, and some studies have shown that it can be transmitted through faecal‐oral route.     SARS‐CoV‐2 has also been found in urine, but whether the virus can be transmitted through urine remains to be proven.     On 31 January 2020, the World Health Organization declared the COVID‐19 epidemic as a ‘public health emergency of international concern’. This was followed by raising concerns as the global risk level of the epidemic to ‘very high’ on February 28 and defined it as a ‘pandemic’ on March 12. A certain number of asymptomatic and mild patients make prevention and containment more difficult.
+    </p>
+    <p>
+     SARS‐CoV‐2, a single‐stranded plus‐strand RNA virus, belongs to the genus beta CoV.     ,     The four major structural genes encode the nucleocapsid protein (N), the spike protein (S), the envelope protein (E) and the membrane glycoprotein (M); an additional membrane glycoprotein (HE) is present in the HCoV‐OC43 and HKU1 beta‐coronavirus genus.     It has been reported that coronavirus S protein is the main determinant of virus entry into host cells.     Therefore, S protein is an effective choice for vaccine design.
+    </p>
+    <p>
+     Several platforms are developing SARS‐CoV‐2 vaccine by producing spike subunit, DNA, RNA, whole‐virion or nanoparticle vaccines.     Number of clinical trials and animal model are underway across the world to meet the demand of permanent solution. However, only but few are close clinical significance. Due to the lack of specific drugs and therapies, and the strong communicability of this infection, development of effective vaccines has attracted urgent attention among the scientific community.
+    </p>
+    <p>
+     Immunoinformatics can be used to predict the conformational (discontinuous) and linear epitopes of viral antigens and to evaluate the immunogenicity and virulence of pathogens. The reverse vaccinology approach has been successful in development of FDA‐licensed vaccines.     Immunoinformatics tools have been used to design a vaccine for MERS‐COV.     The infusion of bioinformatics analysis of vaccine candidates in the decision‐making pipeline could potentially help save billions of dollars and guide to researchers to make an informed choice on selection of candidates. In addition, immunoinformatics methods are time‐saving in designing new vaccines. Using this method, we set the main purpose of this study to identify potential B cell and T cell epitopes from the envelope S protein. This can be used as potential targets to develop anti‐SARS‐CoV‐2 vaccine preparations.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jcmm16200-sec-0002" sec-type="methods">
+    <label>
+     2
+    </label>
+    <title>
+     METHODS
+    </title>
+    <sec id="jcmm16200-sec-0003">
+     <label>
+      2.1
+     </label>
+     <title>
+      Data retrieval and structural analysis
+     </title>
+     <p>
+      The primary sequence (QHU79173.2) of S protein was searched from the NCBI database.      The 3D structure (PDB ID:6VXX) of S protein was searched by Protein‐Data‐Bank.      The chemical and physical properties of protein sequences including GRAVY (mean hydrophilicity), half‐life, molecular weight, stability index and atomic composition of amino acids were analysed by online tools Protparam      (
+      <ext-link ext-link-type="uri" ns0:href="https://web.expasy.org/Protparam/">
+       https://web.expasy.org/Protparam/
+      </ext-link>
+      ). The secondary structure was analysed by PSIPRED      (
+      <ext-link ext-link-type="uri" ns0:href="http://bioinf.cs.ucl.ac.uk/psipred/">
+       http://bioinf.cs.ucl.ac.uk/psipred/
+      </ext-link>
+      ). Using the TMHMM Server v.2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/TMHMM/">
+       http://www.cbs.dtu.dk/services/TMHMM/
+      </ext-link>
+      ) online tool, the transmembrane topology was checked. The presence of disulphide bonds through the online tool DIANNA v1.1      (
+      <ext-link ext-link-type="uri" ns0:href="http://clavius.bc.edu/%7Eclotelab/DiANNA/">
+       http://clavius.bc.edu/~clotelab/DiANNA/
+      </ext-link>
+      ) was checked. DiANNA is a unified software for Cysteine state and Disulfide Bond partner prediction. Vaxijen v2.0, the prediction of protective antigens and subunit vaccines, was also used for antigenicity examination.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0004">
+     <label>
+      2.2
+     </label>
+     <title>
+      B cell epitope prediction
+     </title>
+     <p>
+      The free online access server IEDB      (Immune‐Epitope Database And Analysis‐Resource) was used to predict B cell epitopes. Vaxijen 2.0 server was used to study the antigenicity of selected epitopes. Bepipred linear epitope prediction and Parker hydrophilic prediction algorithm, Kolaskar and Tongaonkar antigenicity scale, Emini surface accessibility prediction tool, and Karplus and Schulz predictability tool were used to analyse hydrophilicity, linear epitope separation, surface accessibility and flexibility.      The β‐rotation in polyproteins was predicted using Chou and Fasman β‐rotation prediction algorithm.      As the discontigous epitopes are clearer and have more advantages than linear epitopes,      the prediction of discontiguous epitopes had been carried out separately through the DiscoTope server.      The parameter was set to ≥0.5. The position of the predicted epitope on the 3D structure of S protein was examined by Pymol.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0005">
+     <label>
+      2.3
+     </label>
+     <title>
+      T cell epitope prediction
+     </title>
+     <p>
+      Epitopes of cytotoxic T lymphocytes (CTL) are playing a key role in vaccine research. Two online tools, Propred‐1      and Propred,      were used to predict the CTL epitopes of MHC class I and MHC‐II target proteins, respectively. For Propred‐1 proteasome and immune proteasome, the threshold was maintained at 5%.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0006">
+     <label>
+      2.4
+     </label>
+     <title>
+      Eminent features profiling of selected T cell epitopes
+     </title>
+     <p>
+      After determining the antigenic epitopes of MHC‐1 and II class alleles, the digestion, mutation, toxicity, sensitization, moisture and physicochemical properties of each epitope were detected by Vaxijen 2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddgpharmfac.net/Vaxijen/Vaxijen/Vaxijen.html">
+       http://www.ddgpharmfac.net/Vaxijen/Vaxijen/Vaxijen.html
+      </ext-link>
+      ), Protein Digest (
+      <ext-link ext-link-type="uri" ns0:href="http://db.Systemsbiology.net:8080/proteomicsToolkit/proteinDigest.html">
+       http://db.Systemsbiology.net:8080/proteomicsToolkit/proteinDigest.html
+      </ext-link>
+      ), AllergenFP 1.0      (
+      <ext-link ext-link-type="uri" ns0:href="http://libdb.csu.edu.cn/rwt/PUBMED/http/MSTGPLLRNBRYE5LGMFST65UFPE/AllergenFP">
+       http://libdb.csu.edu.cn/rwt/PUBMED/http/MSTGPLLRNBRYE5LGMFST65UFPE/AllergenFP
+      </ext-link>
+      ) and ToxinPred server (
+      <ext-link ext-link-type="uri" ns0:href="https://webs.iiitd.edu.in/raghava/toxinpred/design.php">
+       https://webs.iiitd.edu.in/raghava/toxinpred/design.php
+      </ext-link>
+      ). Allergen FP 1.0 is a bioinformatics tool for allergenicity prediction. ToxinPred was used to predict non‐toxic / toxic peptide in order to select non‐toxic epitopes for further analysis.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0007">
+     <label>
+      2.5
+     </label>
+     <title>
+      Conservation analysis of selected epitopes
+     </title>
+     <p>
+      S protein sequences from 8 different countries were selected from the Genbank database.      Multiple sequence alignment was carried out by Jalview 2.11.0 software to analyse the conservatism of the selected epitopes. At the same time, a phylogenetic tree was established by MEGA7.0 to represent the evolutionary relationship of SARS‐CoV‐2 in 8 different countries. The variability and conservatism of all the selected epitopes were analysed by the results of multiple sequence alignment and the IEDB conservatism analysis tool.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0008">
+     <label>
+      2.6
+     </label>
+     <title>
+      Structural modelling and molecular docking
+     </title>
+     <p>
+      3D structures of all predicted peptides were modelled on the RPBS MOBYL portal through a PEPFOLD server,      and the 3D structures of MHC molecules including HLA‐A*0201 (PDB ID: 6APN), HLA‐A24 (PDB ID: 3WL9), HLA‐A2.1 (PDB ID: 1EEZ), HLA‐B*2705 (PDB ID: 3LV3), HLA‐B7 (PDB ID: 3VCL), HLA‐B*3501 (PDB ID: 1A9B) are downloaded from the protein database for further molecular docking. Peptides models (antigenic determinants) were docked with MHC molecules by Autodock vina tool to analyse their inhibitory potential.      After removing ligands and water molecules by sequence editor (SEQ), followed by Protonate 3D energy Minimize in previous studies, molecular docking was carried out. The energy approximation of the docking structure can be simulated by using the London‐dG scoring function. Then, the protein‐peptide connection was examined by Ligand Interactions tool. The UCSF Chimera tool is used to generate a PDB model of the predicted peptide 3 D structure.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0009">
+     <label>
+      2.7
+     </label>
+     <title>
+      Molecular dynamic simulation
+     </title>
+     <p>
+      The analysis of structural stability of the HLA‐A*0201~peptide complex is essential to understand its binding affinity. In the present study, we used GROMACS 2019.6 software (downloaded from
+      <ext-link ext-link-type="uri" ns0:href="http://www.gromacs.org/">
+       www.gromacs.org/
+      </ext-link>
+      ) on Linux Centos 7 operating system for molecular dynamics simulation. The structure was processed by pdb2gmx and the force field that we used is the all‐atom OPLS. And then, we started defining the unit cell and adding solvent. The solvated, electroneutral system was then assembled. Before we begin dynamics, we must ensure that the system has no steric clashes or inappropriate geometry. The structure was relaxed through a process called energy minimization (EM). To equilibrate the system, we conducted a 100‐ps NVT equilibration (the NVT equilibration, stabilized the temperature of the system) and a 100‐ps NPT equilibration (the NPT ensemble, wherein the number of particles, pressure, and temperature were all constant) for this system. And then, run production MD for data collection. All data were processed by Originlab (downloaded from
+      <ext-link ext-link-type="uri" ns0:href="http://www.originlab.com">
+       www.originlab.com
+      </ext-link>
+      ).
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0010">
+     <label>
+      2.8
+     </label>
+     <title>
+      Isolation of peripheral blood mononuclear cell (PBMC)
+     </title>
+     <p>
+      Peripheral blood mononuclear cells from healthy donors were isolated from fresh blood samples using Ficoll‐Paque density gradient centrifugation in our BSL‐3 laboratory at the same day of blood collection. The majority of purified PBMCs were used for immune cell phenotyping where was plasma samples were subjected to antibody testing. The rest of the cells were cryopreserved in freezing medium (90% FBS + 10% DMSO) at 5 × 10      cells/mL at −150°C.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0011">
+     <label>
+      2.9
+     </label>
+     <title>
+      T cell proliferation
+     </title>
+     <p>
+      Peripheral blood mononuclear cells were cultured in the presence of soluble anti‐CD3 antibody, anti‐CD28 antibody and IL‐2 (15 ng/mL) for 3 days to obtained T cells. To measure T cell proliferation, carboxyfluorescein 6 succinimidyl ester (CFSE, Thermo Scientific)‐labelled PBMCs were cultured in 96‐well U‐bottom plates with RPMI 1640 medium containing 10% FBS and 1% streptomycin/penicillin (all from Gibco). Proliferated T cells were identified by CFSE dilution.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0012">
+     <label>
+      2.10
+     </label>
+     <title>
+      Intracellular cytokine staining (ICS)
+     </title>
+     <p>
+      To measure T cell activation, PBMCs were stimulated with the commercially available cell activation cocktail (BioLegend) containing phorbol 12‐myristate‐13‐acetate (PMA) and 23 ionomycin in the presence of brefeldin A (BFA, 7.5 µg/mL, Sigma‐Aldrich) for 6 hours. For T cell responses, PBMCs were stimulated with 5 µg/mL of peptides or 5 µg/mL of SARS‐CoV‐2 S protein. Cells were incubated at 37°C overnight and brefeldin A (BFA) was added at 2 hours post‐incubation. S protein of SARS‐CoV‐2 stimulation was included as positive control and no‐peptide stimulation was performed as the negative control.
+     </p>
+     <p>
+      The required antibodies for flow cytometry are CD3‐BV421(BD Biosciences), CD8‐PE‐Cy7(BD Biosciences), INF‐γ‐APC (BD Biosciences), GZMB‐PerCP (BioLegend) and TNF‐Alexa Fluor 700 (BioLegend).
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0013">
+     <label>
+      2.11
+     </label>
+     <title>
+      Western blot analysis and Immunoprecipitation (IP)
+     </title>
+     <p>
+      Primary T cells stimulated by peptide were collected, washed with cold PBS twice and lysed with NP‐40 lysate at 4°C for 20 minutes. The protein extracts were separated by electrophoresis with 12% prefabricated sodium dodecyl sulphate‐polyacrylamide microgel (SDS‐PAGE) and transferred to PVDF membrane. The membrane was incubated with the indicated antibody and detected by chemiluminescence.
+     </p>
+     <p>
+      Immunoprecipitation: The total cell lysates were first rotated with the labelled peptide at 4°C overnight. The total protein suspension was then incubated with appropriate antibodies (anti‐HLA‐A2: Abcam, ab74674 and ab168405; anti‐Flag: Cell Signaling Technology, 14793) overnight, and then rotated with protein A/G beads overnight at 4°C. Wash with np‐40 lysis buffer for 3 times, mix with 4 × SDS sample buffer and boil for 10 minutes. Western blot analysis of co‐precipitation.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jcmm16200-sec-0014" sec-type="results">
+    <label>
+     3
+    </label>
+    <title>
+     RESULT
+    </title>
+    <sec id="jcmm16200-sec-0015">
+     <label>
+      3.1
+     </label>
+     <title>
+      Structural analysis of S protein
+     </title>
+     <p>
+      The physical and chemical properties of the S protein calculated by Protparam showed that the protein contained 1273 amino acids (aa), with a molecular weight of 141 204.51 Da and had good antigenicity. Theoretical pI is 6.21 and the isoelectric point under 7 shows negatively charged protein. Among the 1273 residues, the total number of negatively charged residues (Asp + Glu) is 110 and the total number of positively charged residues (Arg + Lys) is 103. The instability index (II) is computed to be 33.01, which means that the protein is very stable. The aliphatic index is 84.67, and the grand average of hydropathicity (GRAVY) is −0.078. The estimated half‐life is as follows: 30 hours (mammalian reticulocytes, in vitro); 20 hours (yeast, in vivo); and 10 hours (Escherichia coli, in vivo). The total number of carbon (C), oxygen (O), nitrogen (N), hydrogen (H) and sulphur (S) is named by the formula C
+      <sub>
+       6339
+      </sub>
+      H
+      <sub>
+       9772
+      </sub>
+      N
+      <sub>
+       1654
+      </sub>
+      O
+      <sub>
+       1895
+      </sub>
+      S
+      <sub>
+       54
+      </sub>
+      . The physicochemical properties of the protein were calculated by Protparam (Table      ). In addition, the secondary and 3‐D structures of S protein by PSIPRED and Pymol, including its Beta sheets, Helixes and Loops structures were shown in Figure S1 and S2, and the positive and negative 3D conformations of S protein were shown in Figure      .
+     </p>
+     <p>
+      In addition, the position of the disulphide bond (S‐S) was calculated using DiANNA1.1 tool and assigned a score (Table      ). The high specificity of the protein was evaluated by Vaxijen 2.0 by setting the threshold to ≥0.5. The antigenicity analysis of the full‐length protein showed that the S protein was the expected antigen with a antigenicity of 0.4700. Through TMHMM, an online tool for examining the topology of transmembrane proteins, it was found that residues from 1 to 1213 were exposed on the surface, 1214 to 1236 were inside the transmembrane region, and 1237 to 1273 were buried in the core‐S protein region.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0016">
+     <label>
+      3.2
+     </label>
+     <title>
+      Recognition of B cell epitopes
+     </title>
+     <p>
+      The primary sequence of S protein was scanned by the IEDB server to predict B cell epitopes. From all the predicted epitopes, 10 epitopes exposed to the surface of S protein with high antigenicity scores were selected (Table      ). Vaxijen 2.0 was used to calculate the scores of antigenicity and the TMHMM server was used to check surface availability (1 to 1213). Among these selected epitopes, ‘EILDITPCSFGGVS’ at position 583 and ‘ILPVSMTKTSVDCT’ at position 726 showed the highest antigenicity and scores. A total of 33 B cell epitopes were obtained, and 10 B cell epitopes with the highest scores were selected.
+     </p>
+     <table-wrap content-type="Table" id="jcmm16200-tbl-0001" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        B cell epitopes on the surface, starting position and antigenicity score predicted by IEDB analysis of resources and BCPRED
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <thead valign="top">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="1" rowspan="1" valign="top"/>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Start position
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Epitopes sequences
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Score
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Antigenicity
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          416
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          GKIADYNYKLPDDF
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.9
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.9776
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          374
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          FSTFKCYGVSPTKL
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.9
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.8708
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          726
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ILPVSMTKTSVDCT
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.89
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.606
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          647
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          AGCLIGAEHVNNSY
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.87
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.829
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          895
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          QIPFAMQMAYRFNG
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.86
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.7789
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          938
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LSSTASALGKLQDV
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.85
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.8753
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          7
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          640
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SNVFQTRAGCLIGA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.85
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.7968
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          8
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          228
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DLPIGINITRFQTL
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.84
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.1058
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          9
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          583
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          EILDITPCSFGGVS
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.81
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.6193
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          10
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          539
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VNFNFNGLTGTGVL
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.8
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.2915
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot id="jcmm16200-ntgp-0002">
+       <title>
+        Note
+       </title>
+       <fn id="jcmm16200-note-0002">
+        <p>
+         The predicted B cell epitopes are sorted according to the scores obtained by the trained recurrent neural network. The higher the score, the higher the probability of being an epitope. The higher the score of antigenicity, the more likely it is to be used as an antigen.
+        </p>
+       </fn>
+      </table-wrap-foot>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd
+       </copyright-holder>
+      </permissions>
+     </table-wrap>
+     <p>
+      In order to further check the surface availability of B cell epitopes, Kolaskar and Tongaonkar antigenicity measurement tools were used to analysed B cell epitopes through evaluating the physical and chemical properties of amino acids and their abundance in known B cell epitopes. The higher antigenicity score indicates that it has stronger potential to initiate the immune response. By adjusting the threshold of the tool to 1.041 and keeping the window size to 7, the values of the protein antigen were 1.041 (average), 0.866 (minimum) and 1.261 (maximum) (Figure      ). In order to find out the surface availability and hydrophilicity of possible B cell epitopes, Parker Hydrophilicity Prediction was used. The values were 1.235 (average), −7.629 (minimum) and 7.743 (maximum). The values of Emini Surface Accessibility Prediction used to analyse surface accessibility (threshold was 1.000) were 1.000 (average), 0.042 (minimum) and 6.047 (maximum) (Figure      ). The results of the Emini surface accessibility analysis can be found in the attached file (Table      ). The values of Chou‐Fasman Beta‐Turn Prediction analysis algorithm used to predict the β‐shift of S protein were 0.997 (average), 0.541 (minimum) and 1.484 (maximum) with the threshold of the tool adjusted to 0.997 (Figure      ). The results showed that the regions from 250 to 258 amino acids and the regions from 807 to 813 were more likely the B turns in the peptide structure. Karplus and Schulz flexibility analysis tools showed that the amino acid region (PGDSSSG) from 251 to 257 sequences was highly universal (Figure      ).
+     </p>
+     <p>
+      In order to further increase the specificity and range of B cell epitopes, the Discotope 2.0 server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/DiscoTope/">
+       http://www.cbs.dtu.dk/services/DiscoTope/
+      </ext-link>
+      ) was used to calculate the surface availability according to the number of residue contacts. The 3D structure (PDB ID: 6vxx) of S protein was used to predict discontinuous epitopes with 90% specificity, −3.700 threshold, and 22.000 A tendency score radius. A total of 64 discontiguous epitopes were calculated on different exposed surface areas (Table      : the first 20 epitopes were shown in Table      ). The position of each predicted epitope on the 3D structural surface of S protein was analysed using Pymol, as shown in Figure      .
+     </p>
+     <table-wrap content-type="Table" id="jcmm16200-tbl-0002" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        DiscoTope 2.0 prediction for structure: 6vxx.pdb
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <thead valign="top">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Residue ID
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Residue name
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Contact number
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Propensity score
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          DiscoTope score
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          282
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASN
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.384
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.685
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          415
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          THR
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.676
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.253
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          417
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LYS
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          12
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.812
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.099
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          420
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASP
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.985
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.217
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          421
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TYR
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          15
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.71
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.238
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          439
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASN
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          15
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.428
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.989
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          440
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASN
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.223
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.657
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          443
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SER
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          19
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.432
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.803
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          444
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LYS
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          8
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.79
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.664
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          447
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          GLY
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          14
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          2.779
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.849
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          448
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASN
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          27
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.336
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.922
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          449
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TYR
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.877
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.431
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          450
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASN
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          15
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.334
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.021
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          452
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LEU
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          11
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.239
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.247
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          454
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ARG
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          14
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.401
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.965
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          462
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LYS
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.237
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.324
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          467
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ASP
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          19
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.575
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.579
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          468
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          ILE
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2.698
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −3.078
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          489
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TYR
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.418
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.37
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          490
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          PHE
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          9
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.819
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.76
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          491
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          PRO
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          11
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.123
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.156
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd
+       </copyright-holder>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="jcmm16200-sec-0017">
+     <label>
+      3.3
+     </label>
+     <title>
+      Recognition of T cell epitopes
+     </title>
+     <p>
+      Propred‐I (47 MHC‐I alleles) and Propred (51 MHC‐II alleles) were used to predict T cell epitopes of S protein. Propred‐I scanned and predicted a library of 47 MHC‐1 class alleles using matrix‐based methods by transferring the S protein sequence of the FASTA format to the Propred‐I server. In addition, antigenicity test and peptide screening were completed with the help of Vaxijen 2.0. According to their antigenicity scores, 10 potential peptides were selected for further analysis (Table      ). Among the predicted epitopes of MHC class I, the peptide ‘KIADYNYKL’ showed a high score of antigenicity (1.6639), with multiple alleles, including HLA‐A2, HLA‐A*0201, HLA‐A*0205, HLA‐A24, HLA‐A3, HLA‐A*3101, HLA‐A2.1, HLA‐B*2705, HLA‐B*3501, HLA‐B*3801, HLA‐B*3902, HLA‐B7 and HLA‐Cw*0401.
+     </p>
+     <table-wrap content-type="Table" id="jcmm16200-tbl-0003" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        MHC Class I Binding Peptide Prediction Results with their antigenicity scores
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <thead valign="top">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="1" rowspan="1" valign="top"/>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Peptides
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          MHC class I alleles
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Vaxijen score
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          KIADYNYKL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A2, HLA‐A*0201, HLA‐A*0205, HLA‐A24, HLA‐A3, HLA‐A*3101, HLA‐A2.1, HLA‐B*2705, HLA‐B*3501, HLA‐B*3801, HLA‐B*3902, HLA‐B7, HLA‐Cw*0401
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.6639
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TNFTISVTT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B*2702
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.3019
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVVLSFELL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A2, HLA‐A*0205, HLA‐A24, HLA‐A68.1, HLA‐B*3701, HLA‐B*3902、HLA‐B*5301, HLA‐B*51, HLA‐B7, HLA‐Cw*0301, MHC‐Db, MHC‐Db revised, MHC‐Kb, MHC‐Kd
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.0909
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TLDSKTQSL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A2, HLA‐A*0201, HLA‐A*0205, HLA‐A3, HLA‐A2.1, HLA‐B*2705, HLA‐B*3801, HLA‐B*3901, HLA‐B*3902, HLA‐B8, HLA‐Cw*0401, MHC‐Dd
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.0685
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          GKQGNFKNL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A2, HLA‐A20 Cattle, HLA‐B*3902, HLA‐Cw*0301、MHC‐Db、MHC‐Db revised、MHC‐Dd、MHC‐Kb
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.0607
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VRDLPQGFS
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B*2702, HLA‐B*2705
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.0501
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          7
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          PWYIWLGFI
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A2.1, HLA‐B*5401, HLA‐B*51
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.0343
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          8
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NFGAISSVL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A24, HLA‐B*3701, HLA‐B*3801, HLA‐B*3902, HLA‐Cw*0401, HLA‐Cw*0602, MHC‐Kd
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.9894
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          9
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          QGFSALEPL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B14, HLA‐B*2705, HLA‐B*3901 HLA‐B*3902, HLA‐B40, HLA‐B*5101, HLA‐B*5102, HLA‐B*5103, HLA‐B*5201, HLA‐B*5401, HLA‐B60, HLA‐B7, HLA‐Cw*0401, MHC‐Db revised, MHC‐Dd, MHC‐Kb
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.8462
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          10
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NHTSPDVDL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B*3801, HLA‐B*3901, HLA‐B*3902
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.8446
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd
+       </copyright-holder>
+      </permissions>
+     </table-wrap>
+     <p>
+      The basic method of the quantitative matrix was used to predict the peptides interacting with MHC‐II alleles. The sequence was provided to Propred with threshold in FASTA format at 4%. The screening was carried out with the help of Vaxijen 2.0, and 10 high‐scoring epitopes were selected (Table      ). Peptide YCILEPRSG was considered to have higher antigenicity because of its high antigenicity score and virtual attachment with a large number of alleles (nearly 22 including DRB1_0102, DRB1_0306, DRB1_0307, DRB1_0308, DRB1_0311, DRB1_0401, DRB1_0404, DRB1_0405, DRB1_0408, DRB1_0410, DRB1_0423, DRB1_0426, DRB1_0813, DRB1_1101, DRB1_1102, DRB1_1104, DRB1_1106, DRB1_1107, DRB1_1128, DRB1_1311, DRB1_1311 and DRB1_1322).
+     </p>
+     <table-wrap content-type="Table" id="jcmm16200-tbl-0004" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        MHC Class II Binding Peptide Prediction Results with their antigenicity scores
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <thead valign="top">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="1" rowspan="1" valign="top"/>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Peptides
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          MHC class II alleles
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Vaxijen score
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LEILDITPC
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0102, DRB1_0306,DRB1_0307,DRB1_0308,DRB1_0311,DRB1_0401,DRB1_0404,DRB1_0405,DRB1_0408,DRB1_0410,DRB1_0423,DRB1_0426,DRB1_0813,DRB1_1101,DRB1_1102,DRB1_1104,DRB1_1106,DRB1_1107,DRB1_1128,DRB1_1311,DRB1_1311,DRB1_1322
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.6390
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LPVSMTKTS
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0306,DRB1_0307,DRB1_0308,DRB1_0311,DRB1_0401,DRB1_0402,DRB1_0421,DRB1_0426
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.5550
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVFLHVTYV
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0101,DRB1_0102,DRB1_0102,DRB1_0102,DRB1_0306,DRB1_0307,DRB1_0308,DRB1_0309,DRB1_0311,DRB1_0401,DRB1_0402,DRB1_0404,DRB1_0405,DRB1_0408,DRB1_0410,DRB1_0421,DRB1_0423,DRB1_0426,DRB1_0701,DRB1_0703,DRB1_0802,DRB1_0804,DRB1_0806,DRB1_0813,DRB1_1101,DRB1_1102,DRB1_1104,DRB1_1106,DRB1_1107,DRB1_1114,DRB1_1120,DRB1_1121,DRB1_1128,DRB1_1301,DRB1_1302,DRB1_1304,DRB1_1305,DRB1_1307,DRB1_1311,DRB1_1321,DRB1_1322,DRB1_1323,DRB1_1327,DRB1_1328,DRB1_1501,DRB1_1506
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.5122
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          YYVGYLQPR
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0309,DRB5_0101,DRB5_0105
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.4692
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVLSFELLH
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0101,DRB1_0102,DRB1_0305,DRB1_0306,DRB1_0307,DRB1_0308,DRB1_0311,DRB1_0401,DRB1_0426,DRB1_0801,DRB1_0817,DRB1_1101,DRB1_1102,DRB1_1104,DRB1_1106,DRB1_1107,DRB1_1114,DRB1_1121,DRB1_1304,DRB1_1307,DRB1_1311,DRB1_1321,DRB1_1322,DRB1_1323,DRB1_1501,DRB1_1502,DRB1_1506
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.4090
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVIGIVNNT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0101,DRB1_0102,DRB1_0102,DRB1_0102,DRB1_0306,DRB1_0307,DRB1_0308,DRB1_0309,DRB1_0311,DRB1_0401,DRB1_0402,DRB1_0404,DRB1_0405,DRB1_0408,DRB1_0410,DRB1_0421,DRB1_0423,DRB1_0426,DRB1_0804,DRB1_0806,DRB1_0813,DRB1_1102,DRB1_1107,DRB1_1114,DRB1_1120,DRB1_1121,DRB1_1301,DRB1_1302,DRB1_1304,DRB1_1322,DRB1_1323,DRB1_1327,DRB1_1328,DRB1_1501,DRB1_1506
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.3606
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          7
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          YVGYLQPRT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0801,DRB1_0802,DRB1_0806,DRB1_0813
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.3483
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          8
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VNLTTRTQL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0701,DRB1_0703,DRB1_1501,DRB1_1506
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.3468
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          9
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          IGINITRFQ
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0305,DRB1_0306,DRB1_0307,DRB1_0308,DRB1_0311,DRB1_0401,DRB1_0402,DRB1_0402,DRB1_0405,DRB1_0408,DRB1_0410,DRB1_0421,DRB1_0423,DRB1_0426,DRB1_0801,DRB1_0802,DRB1_0806,DRB1_0813,DRB1_1101,DRB1_1102,DRB1_1104,DRB1_1106,,DRB1_1107,DRB1_1114,DRB1_1120,DRB1_1121,DRB1_1301,DRB1_1302,DRB1_1304,DRB1_1307,DRB1_1311,DRB1_1321,DRB1_1322,DRB1_1323,DRB1_1327,DRB1_1328
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.3386
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          10
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LVKNKCVNF
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          DRB1_0101,DRB1_0102,DRB1_0301,DRB1_0309,DRB1_0421,DRB1_0701,DRB1_0703,DRB1_1120,DRB1_1301,DRB1_1302,DRB1_1327,DRB1_1328
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1.3263
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd
+       </copyright-holder>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="jcmm16200-sec-0018">
+     <label>
+      3.4
+     </label>
+     <title>
+      Eminent features profiling of selected T cell epitopes
+     </title>
+     <p>
+      In order to support our findings, we analysed some important features of the selected epitopes. Peptides digested by fewer enzymes are highly stable and more favourable vaccine candidates. The protein digestion server showed a total of 13 digesting enzyme sites. Allergen FP was used to predict the allergenicity of epitopes, which was a novel method to classify proteins into allergens and non‐allergens according to Tanimoto coefficients. ToxinPred was used to predict the toxicity of the selected epitopes. All T cell epitopes along with their digestion, mutation, toxicity, allergenicity, hydro and physiochemical results were given in Table      .
+     </p>
+     <table-wrap content-type="Table" id="jcmm16200-tbl-0005" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 5
+      </label>
+      <caption>
+       <p>
+        Digestion, Mutation, toxicity, allergenicity, hydro and physiochemical profiling of selected peptides
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <thead valign="top">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="2" rowspan="1" valign="top"/>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Peptides
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Non‐digesting enzymes
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Mutation position
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Toxicity
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Allergenicity
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Hydrophobicity
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Hydrophilicity
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Charge
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          PI
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Mass
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="10">
+          MHC‐I
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          KIADYNYKL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_R
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.22
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.06
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          8.76
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1127.31
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TNFTISVTT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.03
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.77
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5.88
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          983.09
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVVLSFELL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.33
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          4.00
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1018.26
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          TLDSKTQSL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Chymotrypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_R
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.26
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.27
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          6.19
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          992.09
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          GKQGNFKNL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_R,AspN ,Elastase
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.3
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.26
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          10.02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1005.14
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VRDLPQGFS
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Cyanogen_Bromide,IodosoBenzoate,Staph_Protease,Trypsin_K
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.18
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.08
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          6.19
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1018.14
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          7
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          PWYIWLGFI
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,Staph_Protease,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.38
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.89
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5.88
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1194.44
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          8
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NFGAISSVL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.18
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.81
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5.88
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          907.03
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          9
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          QGFSALEPL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.05
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.34
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          4.00
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          961.08
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          10
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NHTSPDVDL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Chymotrypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Staph_Protease,Trypsin_K,Trypsin_R,Chymotrypsin(modified)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.21
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.26
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          4.20
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          997.03
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="10">
+          MHC‐II
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LEILDITPC
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Chymotrypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Trypsin_K,Trypsin_R
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.11
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.29
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −2
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          3.67
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1016.22
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LPVSMTKTS
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Chymotrypsin,IodosoBenzoate,Staph_Protease,Trypsin_R,AspN,Chymotrypsin(modified)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.08
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.2
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          9.11
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          963.16
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVFLHVTYV
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.3
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −1.5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          7.09
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1076.30
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          YYVGYLQPR
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Staph_Protease,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.14
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.78
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          8.83
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1158.32
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVLSFELLH
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Trypsin_K,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.22
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.9
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.5
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5.25
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1056.27
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VVIGIVNNT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Trypsin,Chymotrypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_K,Trypsin_R,AspN,Chymotrypsin(modified)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0.2
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.9
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          0
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          5.88
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          928.10
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          7
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          YVGYLQPRT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Cyanogen_Bromide,IodosoBenzoate,Staph_Protease,Trypsin_K,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.16
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.57
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          8.93
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1096.25
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          8
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VNLTTRTQL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Chymotrypsin,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_K,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.23
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.32
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          10.11
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1045.20
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          9
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          IGINITRFQ
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_K,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NA
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.03
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.54
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          10.11
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1061.25
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          10
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          LVKNKCVNF
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Chymotrypsin,Clostripain,Cyanogen_Bromide,IodosoBenzoate,Proline_Endopept,Staph_Protease,Trypsin_R,AspN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NM
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          NT
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.14
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −0.21
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          9.36
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          1064.31
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot id="jcmm16200-ntgp-0003">
+       <fn id="jcmm16200-note-0003">
+        <p>
+         Abbreviations: NA PROBABLE NO‐ALLERGEN, A PROBABLE ALLERGEN and the non‐digesting enzymes showing those enzymes which do not digest peptides into fragments; NM, No Mutation; NT, Non‐Toxin; T, toxic.
+        </p>
+       </fn>
+      </table-wrap-foot>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd
+       </copyright-holder>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="jcmm16200-sec-0019">
+     <label>
+      3.5
+     </label>
+     <title>
+      Conservation analyses of selected epitopes
+     </title>
+     <p>
+      Isolates of S protein sequences from 8 different countries, including China (Wuhan‐YP_009724390.1, Shanghai‐QII57161.1), Japan (BCB15090.1), Australia (QHR84449.1), United State (Arizona‐QIZ97062.1, Minnesota‐QIK02964.1), Finland (QHU79173.2), Italy (QIA98554.1), Viet Nam (QIK50448.1) and South African (QIZ15537.1) were used for multiple sequence alignment by Jalview 2.11.0 (Figure      ). Analysis the conservatism of the selected epitopes were analysed. As predicted, all selected epitopes were highly conservative as shown in Table      . At the same time, a phylogenetic tree was established by MEGA7.0 to represent the evolutionary relationship of SARS‐CoV‐2 from 8 different countries (Figure      ). The epitope protection study conducted by the IEDB epitope protection analysis tool showed that, the selected B cell and T cell (MHC‐I class II) epitopes had 100% homology, as shown in Table      .
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0020">
+     <label>
+      3.6
+     </label>
+     <title>
+      Interaction of predicted peptides with HLA alleles
+     </title>
+     <p>
+      According to the antigenicity of MHC type I allele and binding peptides predicted by Propred‐I, and in order to further improve the effectiveness of the predicted peptide epitopes, we conducted molecular modelling and molecular docking between the peptide epitopes and their predicted MHC molecules. The 3D structures of two selected MHC‐I binding peptides were predicted by PEPFOLD. It creates five models for each peptide. The best model for each peptide was chosen (Figure      ). According to the affinity between the same peptide and different MHC molecules, we selected MHC class I molecules such as HLA‐A*0201, HLA‐A24 and HLA‐B7, which were docked with the highest antigenic peptide epitope ‘KIADYNYKL’ when compared with other peptide epitopes. Then, the water molecules and ligands were removed by Pymol, leaving the 3D structure of MHC molecules. The model was refined by deprotonation and energy minimization to dock the structure containing peptides with every molecule and the 3D graphical representation of the interaction was shown in Figure      . Among them, ‘KIADYNYKL’ had the highest docking score with HLA‐A*0201(−10.5433), and the interacting residues were ‘Arg36, Phe46, Asp137, Arg191, Glu320’. At the same time, the docking score of ‘KIADYNYKL’ was also higher than other peptide epitopes. (Table      ).
+     </p>
+     <table-wrap content-type="Table" id="jcmm16200-tbl-0006" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 6
+      </label>
+      <caption>
+       <p>
+        Docking results of predicted peptide epitopes and MHC class I molecules
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000"/>
+       <thead valign="top">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Peptides
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          MHC class I molecules
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Docking score
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Interacting residues
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="6">
+          KIADYNYKL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A*0201
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −10.5433
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Arg36, Phe46, Asp137, Arg191, Glu320
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A24
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −10.4514
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Gln32, Glu46, Arg48
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A2.1
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −10.2533
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Ser2, Arg6, Tyr27, Asp29, Thr223
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B*2705
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −10.2093
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Glu128, Ala211, Thr214, Thr233
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B7
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −9.2507
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Tyr27, Asp30, Glu212, Thr233, Glu264
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐B*3501
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −8.6753
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Thr200, Glu229, Glu232, Arg234, Trp244
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          TLDSKTQSL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A*0201
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −9.7071
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Glu175, Pro190, Gly380
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          VVVLSFELL
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA‐A24
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1">
+          −8.5499
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Ser4, Asp29, Asp30, Ser105, Ile213
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd
+       </copyright-holder>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="jcmm16200-sec-0021">
+     <label>
+      3.7
+     </label>
+     <title>
+      ‘MHC‐I ‐peptide epitope‐T cell TCR receptor’ complex
+     </title>
+     <p>
+      Considering the biological function of MHC, which form complexes with peptide epitopes, and then is presented to T cells, thus initiating specific immune response, we also simulated the ‘MHC‐I ‐peptide epitope‐T cell TCR receptor’ polymer complex. We downloaded the 3D structure (PDB ID:1AO7) of T cell receptors from the PDB database, a complex between human T cell receptors, viral peptide (TAX) and HLA‐A*0201.      Similarly, we did molecular docking through Autodock vina tool. We bind the peptide ‘KIADYNYKL’ to the T cell receptor (Figure      ) with a docking fraction of −9.7562. The interacting residues include the A chain ‘Asp57 and Ile46’ of the T cell receptor and the ‘GLu3, Arg102 and Tyr107’ of the B chain.
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0022">
+     <label>
+      3.8
+     </label>
+     <title>
+      Analysis of HLA‐A2 interacting with the peptide
+     </title>
+     <p>
+      We verified the interaction of HLA‐A2 with the peptide by Molecular dynamic simulation and Immunoprecipitation (IP). RMSF means to take samples for a certain period of time, calculate the average position of each atom during this period of time and then find the square deviation of the atom position during this time. Our result showed that the RMSF was at a very stable value (0.1nm) (Figure      ).
+     </p>
+     <p>
+      This result showed that the RMSD level was as low as ~0.175 nm (1Å), indicating that the structure was very stable. The slight difference between the curves showed that the structure at t = 0 ns (RMSD = 0.0327 nm) was slightly different from the crystal structure. This was to be expected to be energy‐minimized. (Figure      ).
+     </p>
+     <p>
+      The radius of gyration (
+      <italic>
+       Rg
+      </italic>
+      ) is a measure of its compactness. If a protein is stably folded, it will likely maintain a relatively steady value of
+      <italic>
+       Rg
+      </italic>
+      . We can see that over the course of 1 ns, the
+      <italic>
+       Rg
+      </italic>
+      value remains very stable, about 2.33 nm (Figure      ).
+     </p>
+     <p>
+      Co‐IP analysis with anti‐Flag or anti‐HLA‐A2 antibody in T cells. Whole cell lysates were immunoprecipitated with an anti‐Flag or anti‐HLA‐A2 antibody and blotted with an anti‐HLA‐A2 or anti‐Flag antibody, respectively (Figure      ).
+     </p>
+    </sec>
+    <sec id="jcmm16200-sec-0023">
+     <label>
+      3.9
+     </label>
+     <title>
+      CD8      T cell responses
+     </title>
+     <p>
+      Proliferated T cells were identified by the percentage of CFSE low cells. The results showed that, compared with the negative control group, the predicted peptide could stimulate CD8      T cell proliferation as significantly as S protein of SARS‐CoV‐2 (Figure
+      <italic>
+       P
+      </italic>
+      &lt; 0.001).
+     </p>
+     <p>
+      After identification of T cell proliferation to the peptide epitope, we further examined the specific CD8      T cell response to the peptide. Cytokine‐producing T cells were detected by ICS after incubation with peptide or S protein of SARS‐CoV‐2. The responses detected against peptide were characterized by flow cytometry for peptide recognition by CD8      T cell subsets and for intracellular production of IFN‐γ, tumour necrosis factor‐α (TNF‐α) and Granzyme B (GZMB) after stimulation. The results showed that the predicted peptide epitopes stimulated the expression of IFN‐γ, TNF‐α and GZMB significantly compared with the negative control group (Figure
+      <italic>
+       P
+      </italic>
+      &lt; 0.001).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jcmm16200-sec-0024" sec-type="discussion">
+    <label>
+     4
+    </label>
+    <title>
+     DISCUSSION
+    </title>
+    <p>
+     SARS‐CoV‐2 has spread rapidly throughout the world and become a major threat to human health worldwide due to its extremely high transmissibility and pathogenicity. Therefore, there is an urgent need for effective therapy and prevention for COVID‐19. Its main clinical symptoms include varying degrees of pneumonia, impaired organ function and obvious gastrointestinal symptoms in some patients.     The virus underwent rapid evolution after infection with host cells due to recombination between the genomes of different virus particles, which creates great difficulties for virus‐therapy, especially vaccine development. Vaccine development is also ongoing, without vaccines or drugs approved to treat COVID‐19, and many therapies with initial good clinical response are still being tested in clinical trials. In consequence, we hope to find a vaccine against SARS‐CoV‐2 that will lead to effective treatment and prevention strategies.
+    </p>
+    <p>
+     The S protein of coronavirus is vital for vaccine production. On the one hand, due to be exposed to the cell surface, it has an advantage antigenicity; on the other hand, S protein initiates viral infection by binding to the receptor ACE2.     The S protein contains two subunits (S1 and S2). The S1 subunit can be further defined by two domains called N‐terminal domains (NTD) and C‐terminal domains (CTD), and the receptor‐binding domain (RBD) is in the CTD. Previous studies have shown that a large number of antibodies targeted RBD of SARS‐COV or MERS‐COV. But new research showed that the monoclonal antibody (mAb) isolated and identified from ten convalescent COVID‐19 patients didnt bind to RBD but to the N‐terminal domain (NTD) of S protein.     These findings are particularly important for the development of a safe and effective COVID‐19 vaccine. The selection of vaccine binding targets also requires further research and screening.
+    </p>
+    <p>
+     However, one thing is certain: the viral S protein is the major target for neutralizing antibodies, the key point for the development of an effective vaccine and the focus of immunotherapy strategies for coronavirus. In our study, we compared viral S protein sequences from eight countries and found that they were highly conserved and rarely mutated. Then, we predicted the B cell and T cell epitopes of S protein through immunoinformatics and selected 10 B cell epitopes and 20 T cell epitopes (MHC‐1 and MHC‐II) according to the antigenicity of peptide epitopes. The peptide epitopes ‘EILDITPCSFGGVS’ at 583 showed the highest antigenicity (1.6193); ‘KIADYNYKL’ and ‘LEILDITPC’ had the highest antigenicity in T cell epitopes, which were, respectively, 1.6639 and 1.6390. At the same time, all of them showed a conversation of 100%, which indicates these peptides meet the prerequisites for peptide vaccines.
+    </p>
+    <p>
+     It should be noted that the binding of T cell receptor (TCR) and peptide‐Major histocompatibility complex (pMHC) is necessary for adaptive immunity, but this is driven by a number of factors. In fact, the signal strength of TCR was mainly limited by the binding topology of the ‘TCR‐peptide‐MHC’ complex.     To be exact, the conformation of TCR and the recognition of MHC by TCR     and different binding modes     will affect T cell signalling, and it is not just the highly avid peptide antigen. Meanwhile, ‘TCR‐pMHC’ bond conformation controls TCR ligand discrimination.     And structural interplay between germline interactions and adaptive recognition can also affect T cell receptor signalling.     However, there is still a universality in ‘TCR‐pMHC’ recognition that TCR must recognize both MHC molecules and peptides.
+    </p>
+    <p>
+     Meanwhile, SARS‐CoV‐2 infection can trigger strong T cell immunity in patients,     and the first autopsy of SARS‐CoV‐2 patients showed the accumulation of lymphocytes in the lung.     With SARS‐CoV‐2 infection, there are increasing evidences that virus‐specific T cells are indeed produced. It is worth noting that human leucocyte antigen (HLA) plays an important role in the immune response to viral infection. Moreover, studies have shown that HLA is associated with increased disease severity of SARS‐CoV‐2 infection.     ,     Therefore, some researchers analysed the binding affinity between HLA and SARS‐CoV‐2 peptides through computer prediction, and then screened out many advantageous HLA.     Further experiments have found that HLA Class I genotypes play an important role in SARS‐CoV‐2 infection and progression. Interestingly, HLA‐A2 supertypes recognize more peptides than A1 and A3 supertypes.     The latest results showed that A2 /CD8     T cells in SARS‐CoV‐2‐infected patients are activated and significantly amplified compared to healthy individuals. In addition, CD8     T cells in convalescent HLA‐A *02:01 COVID‐19 patients also increased significantly in comparison with the controls.
+    </p>
+    <p>
+     To further test the efficacy of our predicted peptide epitopes, we analysed all T‐ cell peptide epitopes for characteristics such as digestion, mutation, toxicity, sensitization, moisture and physicochemical properties. The comprehensive results showed that ‘KIADYNYKL’ is an ideal target for peptide vaccine because it not only has high antigenicity, but a possible surface antigen without toxicity and mutagenicity. The peptide vaccine is a combination of T cell and B cell epitopes, which can induce cell‐mediated and humoral immunity. And our predicted MHC class I peptide epitope ‘KIADYNYKL’ also overlaps with the predicted B cell epitope ‘GKIADYNYKLPDDF’, which makes it possible to participate in the immune activation of B cells and T cells at the same time. This is also a great result. In view of this, we chose it to carry on molecular docking with different MHC class I molecules. Meanwhile, T cells (helper T cells and cytotoxic T cells) are important mediators of cellular immunity. Antigen peptide‐MHC‐I complex can induce T cell activation, thereby activating the cell‐mediated immune response.     Therefore, we performed the ‘MHC‐I molecule‐peptide epitope‐T cell TCR receptor’ multimeric complex simulation. Our results indicate that after the peptide ‘KIADYNYKL’ is bound to the MHC‐I molecules, it is possible to be presented to the T cell receptor and activate cellular immunity.
+    </p>
+    <p>
+     The peptide we selected ‘KIADYNYKL’ had a high affinity binding to HLA‐a*0201. However, this study has not yet conducted a combined response analysis of hybrid peptides among different HLA‐specific groups. For example, we predict that both MHC‐I and MHC‐II binding peptide ‘VVVLSFELL’ with HLA have a very good binding force. So the mixed peptide vaccine may be more effective, which deserves further study.
+    </p>
+    <p>
+     In conclusion, our results indicated that the peptide epitopes we predicted had high antigenicity, stability and conservatism and were potential targets for peptide vaccines. It is hoped that our results will help with ongoing vaccine development and in particular reduce the difficulties in vaccine design.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jcmm16200-sec-0026" sec-type="COI-statement">
+    <title>
+     CONFLICT OF INTEREST
+    </title>
+    <p>
+     The authors have declared no conflicts of interest.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jcmm16200-sec-0027">
+    <title>
+     AUTHOR CONTRIBUTIONS
+    </title>
+    <p>
+     <bold>
+      Chen Ziwei:
+     </bold>
+     Conceptualization (equal); Data curation (equal); Formal analysis (equal); Software (equal); Visualization (equal); Writing‐original draft (equal); Writing‐review &amp; editing (equal).
+     <bold>
+      Ruan Pinglang:
+     </bold>
+     Conceptualization (equal); Data curation (equal); Formal analysis (equal); Software (equal); Visualization (equal); Writing‐original draft (equal); Writing‐review &amp; editing (equal).
+     <bold>
+      Wang Lili:
+     </bold>
+     Supervision (supporting); Validation (supporting); Visualization (supporting); Writing‐original draft (supporting).
+     <bold>
+      Nie Xinmin:
+     </bold>
+     Supervision (supporting); Validation (supporting); Visualization (supporting); Writing‐original draft (supporting).
+     <bold>
+      Ma Xuejun:
+     </bold>
+     Conceptualization (equal); Data curation (equal); Formal analysis (equal); Funding acquisition (supporting); Resources (equal); Supervision (equal).
+     <bold>
+      Tan Yurong:
+     </bold>
+     Data curation (equal); Formal analysis (equal); Investigation (lead); Methodology (lead); Project administration (lead); Resources (equal); Supervision (equal); Validation (lead); Visualization (equal); Writing‐original draft (equal); Writing‐review &amp; editing (lead).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supporting information
+    </title>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

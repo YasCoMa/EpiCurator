@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Full-genome sequences of the first two SARS-CoV-2 viruses from India
+ </title>
+ <abstract>
+  <p>
+   Since December 2019, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has globally affected 195 countries. In India, suspected cases were screened for SARS-CoV-2 as per the advisory of the Ministry of Health and Family Welfare. The objective of this study was to characterize SARS-CoV-2 sequences from three identified positive cases as on February 29, 2020.
+  </p>
+  <p>
+   Throat swab/nasal swab specimens for a total of 881 suspected cases were screened by
+   <italic>
+    E
+   </italic>
+   gene and confirmed by
+   <italic>
+    RdRp
+   </italic>
+   (1),
+   <italic>
+    RdRp
+   </italic>
+   (2) and
+   <italic>
+    N
+   </italic>
+   gene real-time reverse transcription-polymerase chain reactions and next-generation sequencing. Phylogenetic analysis, molecular characterization and prediction of B- and T-cell epitopes for Indian SARS-CoV-2 sequences were undertaken.
+  </p>
+  <p>
+   Three cases with a travel history from Wuhan, China, were confirmed positive for SARS-CoV-2. Almost complete (29,851 nucleotides) genomes of case 1, case 3 and a fragmented genome for case 2 were obtained. The sequences of Indian SARS-CoV-2 though not identical showed high (~99.98%) identity with Wuhan seafood market pneumonia virus (accession number: NC 045512). Phylogenetic analysis showed that the Indian sequences belonged to different clusters. Predicted linear B-cell epitopes were found to be concentrated in the S1 domain of spike protein, and a conformational epitope was identified in the receptor-binding domain. The predicted T-cell epitopes showed broad human leucocyte antigen allele coverage of A and B supertypes predominant in the Indian population.
+  </p>
+  <p>
+   The two SARS-CoV-2 sequences obtained from India represent two different introductions into the country. The genetic heterogeneity is as noted globally. The identified B- and T-cell epitopes may be considered suitable for future experiments towards the design of vaccines and diagnostics. Continuous monitoring and analysis of the sequences of new cases from India and the other affected countries would be vital to understand the genetic evolution and rates of substitution of the SARS-CoV-2.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1-2" sec-type="material|methods">
+    <title>
+     Material &amp; Methods
+    </title>
+    <p>
+     The clinical samples were referred by the hospital authorities through the Kerala State Health Services for diagnostic purposes. Further samples were received from different parts of India for establishing the presence of SARS-CoV-2.
+    </p>
+    <p>
+     <italic>
+      Detection of SARS-CoV-2 in suspected samples
+     </italic>
+     : Blood and throat swab (TS) specimens were collected from the suspected cases that complied with the case definition of SARS-CoV-2 infection as per the guidelines of the Ministry of Health and Family Welfare     . The TS was collected in viral transport medium. These samples were referred to the ICMR-NIV, Pune, India (which is the national reference laboratory for India, also referred as the governments apex laboratory). As of February 29, 2020, 881 samples of suspected cases referred from different States, with a travel history to Wuhan, China, and other SARS-CoV-2-affected countries, were screened.
+    </p>
+    <p>
+     The viral RNA was extracted from the TS sample using the Magmax RNA extraction kit (Applied Biosystems, USA) as per the manufacturers instructions. The extracted RNA was immediately used for testing the presence of SARS-CoV-2 using the real-time RT-PCR protocol published by the WHO     for the detection of
+     <italic>
+      RdRp
+     </italic>
+     (1),
+     <italic>
+      RdRp
+     </italic>
+     (2),
+     <italic>
+      E
+     </italic>
+     gene and
+     <italic>
+      N
+     </italic>
+     gene.
+     <italic>
+      RNase P
+     </italic>
+     gene was used as the internal control for the analysis. Confirmatory laboratory tests were performed as per the WHO-recommended test protocols     . These samples were also sequenced using the NGS approach to retrieve the complete genome of the virus.
+    </p>
+    <p>
+     <italic>
+      NGS of SARS-CoV-2 from India - Phylogenetic analysis and molecular characterization
+     </italic>
+     : The total RNA of three positive TS specimens from Kerala, was extracted from 250-300 μl of the SARS-CoV-2 real-time RT-PCR positive samples. QIAamp Viral RNA extraction kit (QIAGEN, Hilden, Germany) was used according to the manufacturers instructions. The extracted RNA was further quantified using a Qubit RNA High-Sensitivity kit (Invitrogen, USA). RNA libraries were prepared as per the earlier-defined protocol and quantified using KAPA Library Quantification Kit (Kapa Biosystems, Roche Diagnostics Corporation, USA) as per the manufacturers protocol. Further, individual libraries were neutralized and loaded on the Miniseq platform (Illumina, USA). The detailed protocols for the steps undertaken have been published earlier     . The data generated from the machine were analyzed using CLC genomics workbench version 11.0 (CLC, QIAGEN, Germany). Reference-based mapping was performed to retrieve the sequence of the SARS-CoV-2.
+    </p>
+    <p>
+     Full-length genome sequences of SARS-CoV-2 were downloaded from the GISAID database     (
+     <inline-supplementary-material content-type="local-data" id="d38e368" ns0:href="ijmr-151-200-s001.pdf" ns0:title="local_file" ns0:type="simple">
+      Supplementary Table I
+     </inline-supplementary-material>
+     (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm5.pdf">
+       http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm5.pdf
+      </ext-link>
+     </italic>
+     )). Multiple sequence alignment was performed using the MEGA software version 7.0     with retrieved sequences from two of the three positive cases and the available GISAID sequences. A phylogenetic tree was generated using the neighbour joining method and the Kimura-2-parameter as the nucleotide (nt) substitution model with 1000 bootstrap replications as implemented in MEGA software     . Per cent nucleotide divergence and amino acid (aa) divergence were calculated using the p-distance method     . Mutations specific to the Indian SARS-CoV-2 viruses were identified by comparing the coding regions with respect to the SARS-CoV-2, Wuhan, China (Wuhan hu-1).
+    </p>
+    <p>
+     <italic>
+      Three-dimensional (3D) model of the spike protein and epitope prediction
+     </italic>
+     : The pre-fusion structure of the Indian case 1 SARS-CoV-2 spike (S) glycoprotein was modelled using the Swiss-Model server (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="https://swissmodel.expasy.org/interactive">
+       https://swissmodel.expasy.org/interactive
+      </ext-link>
+     </italic>
+     ) and the corresponding S protein of Wuhan-Hu-1 (6VSB.PDB) as the template (99.97% identity). Sequential (linear) B-cell epitopes were predicted using BepiPred-2.0 server (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/BepiPred/">
+       http://www.cbs.dtu.dk/services/BepiPred/
+      </ext-link>
+     </italic>
+     ). The ABCpred prediction tool (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/abcpred/">
+       http://crdd.osdd.net/raghava/abcpred/
+      </ext-link>
+     </italic>
+     ) was also used to identify the B-cell epitopes in the Indian SARS-CoV-2 sequence. The epitope prediction probability of &gt;0.8 was set to increase the specificity of the peptide stretch. The overlapping epitopes predicted by BepiPred-2.0 online server and the ABCpred prediction tool were identified. The antigenicity of the shortlisted peptide sequences was further predicted using the Vaxijen online server (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html">
+       http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html
+      </ext-link>
+     </italic>
+     ) with a default threshold of 0.4.
+    </p>
+    <p>
+     Discontinuous epitopes on the modelled structure of the Indian case 1 SARS-CoV-2 spike protein were predicted using the online servers, Ellipro (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/ellipro/">
+       http://tools.iedb.org/ellipro/
+      </ext-link>
+     </italic>
+     ) and DiscoTope 2.0 (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/discotope/">
+       http://tools.iedb.org/discotope/
+      </ext-link>
+     </italic>
+     ), integrated in the Immune Epitope Database. Ellipro predicts epitopes based on the protusion index (PI), wherein the protein shape is approximated as an ellipsoid (Ref for Ellipro and DiscoTope). An ellipsoid with the PI value of 0.8 indicates that 80 per cent of the residues are within the ellipsoid and 20 per cent are outside. All residues that are outside the 80 per cent ellipsoid will have a score of 0.8. Residues with larger scores are associated with greater solvent accessibility. The PI value was set to a score of 0.8. DiscoTope predicts epitopes using 3D structure and half-sphere exposure as a surface measure in a novel spatial neighbourhood definition method. Default values were set for sensitivity (0.47) and specificity (0.75) for selecting the amino acids forming discontinuous epitopes. A sensitivity of 0.47 means that 47 per cent of the epitope residues are predicted as part of the epitopes, while a specificity of 0.75 means that 25 per cent of the non-epitope residues are predicted as part of the epitopes. Outputs from both the methods were combined, and the final regions were mapped on the modelled 3D-structure as the most probable conformational epitopes. In addition, we also predicted N-linked glycosylation sites in the S protein using NetNGlyc 1.0 Server (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetNGlyc/">
+       http://www.cbs.dtu.dk/services/NetNGlyc/
+      </ext-link>
+     </italic>
+     ). The spike proteins were also screened for the presence of potential epitopes presented by major histocompatibility complex (MHC) class I molecules to cytotoxic T lymphocytes (CTLs). The online NetCTL1.2 server (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetCTL/">
+       http://www.cbs.dtu.dk/services/NetCTL/
+      </ext-link>
+     </italic>
+     ) based on machine learning techniques such as artificial neural network (ANN) and support vector machine (SVM) was used to predict the T-cell epitopes. The prediction was made for all the human leucocyte antigen (HLA) supertypes and the available human alleles. The C terminal cleavage, weight of transport-associated protein (TAP) efficiency and threshold for identification were kept as default. VaxiJen v2.0 tool was used to predict the antigenicity of the predicted epitopes (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html">
+       http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html
+      </ext-link>
+     </italic>
+     ). The sequences were further screened to be potential epitopes using the CTLPred online server (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/ctlpred/">
+       http://crdd.osdd.net/raghava/ctlpred/
+      </ext-link>
+     </italic>
+     ).
+    </p>
+    <p>
+     The ability of the predicted linear B-cell and the T-cell epitopes to mount interferon-gamma (IFN-γ) response was assessed using the IFNepitope (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/ifnepitope/index.php">
+       http://crdd.osdd.net/raghava/ifnepitope/index.php
+      </ext-link>
+     </italic>
+     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec1-3" sec-type="results">
+    <title>
+     Results
+    </title>
+    <p>
+     <italic>
+      Detection of SARS-CoV-2 in suspected samples
+     </italic>
+     : Three of the 881 TS/nasal swab (NS) specimens from the suspected cases, tested positive for the SARS-CoV-2 using the real-time RT-PCR specific to
+     <italic>
+      E
+     </italic>
+     gene,
+     <italic>
+      RdRp
+     </italic>
+     (1),
+     <italic>
+      RdRp
+     </italic>
+     (2) and
+     <italic>
+      N
+     </italic>
+     gene. The Ct value of the E gene ranged from 19.8 to 34.5 for the TS/NS specimens. Detailed Ct values for the real-time RT-PCRs specific to the above-mentioned genes of the positive specimens are given in Table I. Blood samples were found to be negative for the SARS-CoV-2.
+    </p>
+    <table-wrap id="T1" position="float">
+     <label>
+      Table I
+     </label>
+     <caption>
+      <p>
+       Real-time reverse transcription-polymerase chain reaction (RT-PCR) values for
+       <italic>
+        RdRp
+       </italic>
+       (1),
+       <italic>
+        RdRp
+       </italic>
+       (2),
+       <italic>
+        E
+       </italic>
+       gene and
+       <italic>
+        N
+       </italic>
+       gene, per cent genome coverage recovered and reads mapped for the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) positive cases
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th align="left" colspan="1" rowspan="3">
+         Positive cases
+        </th>
+        <th align="center" colspan="5" rowspan="1">
+         Ct values for real-time RT-PCR for the confirmation of SARS-CoV-2
+        </th>
+        <th align="center" colspan="1" rowspan="3">
+         Relevant reads
+        </th>
+        <th align="center" colspan="1" rowspan="3">
+         Total reads
+        </th>
+        <th align="center" colspan="1" rowspan="3">
+         Genome length recovered (bp)
+        </th>
+        <th align="center" colspan="1" rowspan="3">
+         Per cent genome coverage
+        </th>
+       </tr>
+       <tr>
+        <th align="left" colspan="5" rowspan="1">
+         <hr/>
+        </th>
+       </tr>
+       <tr>
+        <th align="center" colspan="1" rowspan="1">
+         <italic>
+          RdRp
+         </italic>
+         (1)
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         <italic>
+          RdRp
+         </italic>
+         (2)
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         <italic>
+          E
+         </italic>
+         gene
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         <italic>
+          N
+         </italic>
+         gene
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         <italic>
+          Rnase P
+         </italic>
+         internal control
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Case 1
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         33.33
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         27.93
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         34.5
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         33.90
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         Positive
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         20,096
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         5,615,846
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         29,854
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         99.83
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Case 2
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         24.6
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         29
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         19.8
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         38
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         Positive
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         610
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         8,587,146
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         16,047
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         53.66
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         Case 3
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         34.17
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         32.64
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         28.98
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         36.35
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         Positive
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         11,296
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         1,405,038
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         29,851
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         99.83
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+    <p>
+     Case 1 travelled from Wuhan, China, reached India on January 23, 2020 and further travelled to the final destination of Kerala on January 24. This individual developed cough on January 25 and further experienced a sore throat and mild fever and was admitted to the General Hospital, Thrissur, Kerala. The second case travelled from Wuhan and had close contact with case 1 during the travel to the final destination in India. Case 2 developed similar symptoms along with fever and diarrhoea on January 26, and the collected TS specimens were referred to the ICMR-NIV on January 28. The second case was hospitalized on January 30, in a medical college, Alappuzha, Kerala. The clinical sample (TS) was collected on January 31, 2020. Case 3 travelled from China to India, developed a runny nose on January 30 and was admitted to the General Hospital, Kasaragod, Kerala, on January 31, 2020. TS specimens were collected on January 31, 2020.
+    </p>
+    <p>
+     <italic>
+      NGS of SARS-CoV-2 from India - Phylogenetic analysis and molecular characterization
+     </italic>
+     : NGS analysis from the TS specimens retrieved two complete genome sequences from case 1 and case 3. The complete genomic sequence data for case 2 could not be recovered due to the lower kappa concentration of the sample and hence not included in the study for analysis. The FastQ files were reference mapped with the available Wuhan seafood pneumonia virus (Wuhan Hu-1) complete SARS-CoV-2 genome (accession number: NC 045512.2). The total reads which were mapped and the percentage of the genome recovered for the two cases are summarized in Table I.
+    </p>
+    <p>
+     Analysis of the complete genome sequences of SARS-CoV-2 from the positive cases in India revealed that the percentage nt and aa differences between case 1 and case 3 were 0.038 and 0.10 per cent, respectively. The sequences of case 1 and case 3 diverged from the Wuhan-Hu1 sequence by 0.017 per cent nt and 0.041 per cent aa respectively. Indian SARS-CoV-2 clustered with the
+     <italic>
+      Sarbecovirus
+     </italic>
+     subgenus of the
+     <italic>
+      Betacoronavirus
+     </italic>
+     genus and was closest to the BatCoV RaTG13 sequence (96.09% nt)     . The phylogenetic comparison showed the clustering of the genome sequences of case 1 and case 3 with the existing sequences of the SARS-CoV-2 sequences (Fig.     ). The phylogeny revealed emerging heterogeneity within the SARS-CoV-2 sequences globally. The Indian SARS-CoV-2 viruses were positioned in different clusters.
+    </p>
+    <p>
+     Indian SARS-CoV-2 sequences showed two changes 408 Arg→Ile and 930 Ala→Val in the spike protein compared to the Wuhan Hu-1 sequence. The mutations were further mapped on the spike protein model of the Indian sequence (
+     <inline-supplementary-material content-type="local-data" id="d38e607" ns0:href="ijmr-151-200-s002.pdf" ns0:title="local_file" ns0:type="simple">
+      Supplementary Fig. 1
+     </inline-supplementary-material>
+     (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm6.pdf">
+       http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm6.pdf
+      </ext-link>
+     </italic>
+     )). Deletion of a three-nucleotide stretch, encoding tyrosine residue at position 144, of the spike gene was also observed in the Indian SARS-CoV-2 from case 1 when compared to the other SARS-CoV-2 sequences. As noted in the earlier SARS-CoV-2 sequences, both the Indian sequences possessed the polybasic cleavage site (RRAR) in the spike protein at the junction of S1 and S2, the two subunits of the spike protein     .
+    </p>
+    <p>
+     <italic>
+      Epitope predictions
+     </italic>
+     : Thirty one linear B-cell epitopes were predicted by Bepipred in the Indian SARS-CoV-2, of which three were found to have a length of &lt;6 amino acids and hence not considered. Linear epitopes were also predicted using the ABCpred prediction tool, which predicted 47 epitopes based on the threshold of 0.8. Regions common to both the prediction methods (n=17) were identified manually. The 17 epitopes were screened for their antigenicity using the VaxiJen v2.0 tool (
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html">
+       http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html
+      </ext-link>
+     </italic>
+     ), and nine of these epitopes were shortlisted. These epitopes were further screened for their ability to elicit an IFN-γ response, which was predicted using the IFNepitope tool. Finally, five epitopes, four in the S1 domain and one in the S2 domain, were predicted, which could possibly generate an immune response and suppress the IFN-γ response (Table II). N-linked glycosylation site prediction revealed that two putative glycosylation sites (with a low value for jury agreement) were present within the epitope stretch 328-344.
+    </p>
+    <table-wrap id="T2" position="float">
+     <label>
+      Table II
+     </label>
+     <caption>
+      <p>
+       Linear B-cell epitopes predicted on the spike protein of the Indian severe acute respiratory syndrome coronavirus 2
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th align="left" colspan="1" rowspan="1">
+         Peptide
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         Epitope probability
+        </th>
+        <th align="left" colspan="1" rowspan="1">
+         Vaxigen score
+        </th>
+        <th align="left" colspan="1" rowspan="1">
+         Interferon (IFN)-γ response
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         243-HRSYLTPGDSSSGWTA-258
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.92
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Antigen (0.602)
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Negative (1)
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         327-FPNITNLCPFGEVFNA-342
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.82
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Antigen (0.606)
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Negative (−0.132)
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         404-EVIQIAPGQTGKIADY-419
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.86
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Antigen (1.231)
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Negative (1)
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         413-TGKIADYNYKLPDDFT-428
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.84
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Antigen (0.9642)
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Negative (−0.334)
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1204-YEQYIKWPWYIWLGFI-1219
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.89
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Antigen (0.951)
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Negative (1)
+        </td>
+       </tr>
+      </tbody>
+     </table>
+     <table-wrap-foot>
+      <fn fn-type="other">
+       <p>
+        Epitopes were predicted using a combination of the Bepipred server and the ABCpred prediction server. The antigenicity was predicted using the VaxiJen v2.0 tool. IFN-γ response was predicted using the INFepitope server.        Values in bracket show prediction score given by the software
+       </p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+    <p>
+     The discontinuous epitopes in the spike protein of the Indian SARS-CoV-2 were further identified using multiple methods, Ellipro and DiscoTope. Conformational epitopes based on these methods were mapped on the pre-fusion structure of the modelled Indian SARS-CoV-2 spike protein. The newly released structure of the SARS-CoV-2 spike protein was used as the template for modelling the Indian spike protein. Ramachandran plot statistics revealed 83.7 per cent of the residues to be in the core region, 14.4 per cent in the additionally allowed region and 0.5 per cent in the disallowed region. Four epitopes were predicted by Ellipro based on the PI threshold of 0.8 (Supplementary Table II (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm7.pdf">
+       http:/ /www. ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm7.pdf
+      </ext-link>
+     </italic>
+     )). The result from the DiscoTope is presented in Supplementary Table III (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm8.pdf">
+       http://www.ijmr.org.in/articles/ 2020/151/2/ images/ IndianJMedRes_2020_151_2_200_281471_sm8.pdf
+      </ext-link>
+     </italic>
+     ). The mapped conformational epitopes are depicted in Figure     . For the purpose of comparison, the Indian S protein sequence was also modelled using the pre-fusion structure of SARS-CoV-1 (6ACC.PDB; 87.29% identity), and the results for the conformational epitopes predicted are in Supplementary Table IV (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm9.pdf">
+       http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_28147 1_sm9.pdf
+      </ext-link>
+     </italic>
+     and
+     <inline-supplementary-material content-type="local-data" id="d38e714" ns0:href="ijmr-151-200-s003.pdf" ns0:title="local_file" ns0:type="simple">
+      Supplementary Figure 2
+     </inline-supplementary-material>
+     (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm10.pdf">
+       http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm10.pdf
+      </ext-link>
+     </italic>
+     ).
+    </p>
+    <table-wrap id="T3" position="float">
+     <label>
+      Supplementary Table II
+     </label>
+     <caption>
+      <p>
+       Conformational B-cell epitopes predicted by Ellipro based on the chains A, B and C of the Indian severe acute respiratory syndrome coronavirus 2 spike protein modelled structure (template used: 6VSB.PDB). Ellipro protusion Index threshold set to 0.8 cut-off
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th align="center" colspan="1" rowspan="1"/>
+        <th align="center" colspan="1" rowspan="1">
+         Chain A
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         Ellipro Score
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         D1137, P1138, L1139, Q1140, P1141, E1142, L1143, D1144
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.984
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         2
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Y705, S706, N707, N708, S709, T1074, T1075, A1076, P1077, A1078, I1079, C1080, H1081, D1082, G1083, K1084, A1085, H1086, F1087, P1088, R1089, E1090, G1091, F1093, V1094, S1095, N1096, G1097, T1098, H1099, W1100, F1101, V1102, Y1108, E1109, P1110, Q1111, I1112, I1113, T1114, T1115, D1116, N1117, T1118, F1119, V1120, S1121, G1122, N1123,
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.906
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         3
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         N341, A342, T343, R344, F345, A346, S347, V348, Y349, A350, W351, N352, S397, F398, V399, I400, R401, E404, Q412, T413, G414, K415, I416, A417, D418, Y419, N420, Y421, K422, L423, S436, N437, N438, L439, D440, S441, K442, V443, G444, G445, N446, Y447, N448, Y449, L450, Y451, R452, L453, F454, R455, K456, S457, N458, L459, K460, P461, F462, E463, R464, D465, I466, S467, T468, E469, I470, Y471, Q472, A473, G474, S475, T476, P477, C478, N479, G480, V481, G483, F484, N485, C486, Y487, F488, P489, L490, Q491, S492, Y493, G494, F495, Q496, P497, T498, N499, G500, V501, G502, Y503, Q504, P505, R507
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.887
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         4
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         I68, H69, V70, S71, G72, T73, N74, G75, T76, K77, R78, S98, I100, C136, D138, F140, G142, Y143, H144, K145, N146, N147, K148, S149, W150, M151, E152, S153, E154, F155, R156, N183, F184, A241, L242, H243, R244, S245, Y246, L247, T248, P249, G250, D251, S252, S253, S254, G255, W256, T257, A258, G259, A260
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.876
+        </td>
+       </tr>
+       <tr>
+        <th align="left" colspan="3" rowspan="1">
+         <hr/>
+        </th>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1"/>
+        <td align="center" colspan="1" rowspan="1">
+         Chain B
+        </td>
+        <td align="left" colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <th align="left" colspan="3" rowspan="1">
+         <hr/>
+        </th>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         A704, Y705, S706, N707, N708, S709, F1073, T1074, T1075, A1076, P1077, A1078, I1079, C1080, H1081, D1082, G1083, K1084, A1085, H1086, F1087, P1088, R1089,E1090, G1091, V1092,F1093, V1094, S1095, N1096, G1097, T1098, H1099, W1100, F1101, V1102, T1103, Q1104, R1105, F1107, Y1108, E1109,P1110, Q1111, I1112, I1113, T1114, T1115, D1116, N1117, T1118, F1119, V1120, S1121, G1122, N1123, C1124, D1125, V1126, V1127, I1128, G1129, I1130, V1131, N1132, N1133, T1134, V1135, Y1136, D1137, P1138, L1139, Q1140,P1141,E1142, L1143, D1144
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.902
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         2
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         N341, A342, T343, F345, A346, S347, V348, Y349, A350, W351, V399, R401, G402, T413, G414, K415, D418, Y419, N420, Y421, K422, S436, N437, N438, L439, D440, S441, K442, V443, G444, G445, N446, Y447, N448, Y449, L450, Y451, R452, L453, F454, R455, K456, S457, N458, L459, K460, P461, E463, R464, D465, I466, S467, T468, E469, I470, Y471, Q472, A473, G474, S475, T476, P477, C478, N479, G480, V481, E482, G483, F484, N485, C486, Y487, F488, P489, L490, Q491, S492, Y493, G494, F495, Q496, P497, T498, N499, G500, V501, G502, Y503, Q504, P505
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.886
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         3
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         A67, I68, H69, V70, S71, G72, T73, N74, G75, T76, K77, R78, E96, K97, S98, N99, I100, R102, N122, A123, T124, N125, C136, N137, D138, P139, F140, L141, G142, Y143, H144, K145, N146, N147, K148, S149, W150, M151, E152, S153, E154, F155, L239, L240, A241, L242, H243, R244, S245, Y246, L247, T248, P249, G250, D251, S252, S253, S254, G255, W256, T257, A258, G259, A260, A261
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.869
+        </td>
+       </tr>
+       <tr>
+        <th align="left" colspan="3" rowspan="1">
+         <hr/>
+        </th>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1"/>
+        <td align="center" colspan="1" rowspan="1">
+         Chain C
+        </td>
+        <td align="left" colspan="1" rowspan="1"/>
+       </tr>
+       <tr>
+        <th align="left" colspan="3" rowspan="1">
+         <hr/>
+        </th>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         D1137, P1138, L1139, Q1140, P1141, E1142, L1143, D1144
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.984
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         2
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Y705, S706, N707, N708, S709, T1074, T1075, A1076, P1077, A1078, I1079, C1080, H1081, D1082, G1083, K1084, A1085, H1086, F1087, P1088, R1089, E1090, G1091, F1093, V1094, S1095, N1096, G1097, T1098, H1099, W1100, F1101, V1102, Y1108, E1109, P1110, Q1111, I1112, I1113, T1114, T1115, D1116, N1117, T1118, F1119, V1120, S1121, G1122, N1123, C1124, D1125, V1126, V1127, I1128, G1129, I1130, V1131, N1132, N1133, T1134, V1135, Y1136
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.906
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         3
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         N341, A342, T343, R344, F345, A346, S347, V348, Y349, A350, W351, N352, S397, F398, V399, I400, R401, E404, Q412, T413, G414, K415, I416, A417, D418, Y419, N420, Y421, K422, L423, S436, N437, N438, L439, D440, S441, K442, V443, G444, G445, N446, Y447, N448, Y449, L450, Y451, R452, L453, F454, R455, K456, S457, N458, L459, K460, P461, F462, E463, R464, D465, I466, S467, T468, E469, I470, Y471, Q472, A473, G474, S475, T476, P477, C478, N479, G480, V481, G483, F484, N485, C486, Y487, F488, P489, L490, Q491, S492, Y493, G494, F495, Q496, P497, T498, N499, G500, V501, G502, Y503, Q504, P505, R507
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.887
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         4
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         I68, H69, V70, S71, G72, T73, N74, G75, T76, K77, R78, S98, I100, C136, D138, F140, G142, Y143, H144, K145, N146, N147, K148, S149, W150, M151, E152, S153, E154, F155, R156, N183, F184, A241, L242, H243, R244, S245, Y246, L247, T248, P249, G250, D251, S252, S253, S254, G255, W256, T257, A258, G259, A260
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.876
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+    <table-wrap id="T4" position="float">
+     <label>
+      Supplementary Table III
+     </label>
+     <caption>
+      <p>
+       Conformational B-cell epitopes predicted by the Discotope server based on the chain A, B and C of India severe acute respiratory syndrome coronavirus 2 spike protein modelled structure (template used 6VSB.PDB). Discotope threshold set to -3.7 cut-off
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         CHAIN A
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         71S, 72G, 73T, 74N, 75G, 76T, 148K, 149S, 150W, 151M, 152E, 178E, 179G, 180K, 181Q, 209N, 245S, 247L, 248T, 250G, 252S, 253S, 440D, 441S, 442K, 443V, 444G, 445G, 446N, 447Y, 448N, 452R, 453L, 454F, 455R, 456K, 458N, 460K, 461P, 465D, 468T, 470I, 482E, 487Y, 488F, 489P, 490L, 491Q, 492S, 493Y, 494G, 495F, 496Q, 497P, 498T, 499N, 500G, 501V, 502G, 554N, 556K, 558L, 559P, 560F, 568A, 677N, 678S, 679P, 680R, 681R, 682A, 683R, 701N, 702S, 703V, 791P, 792I, 807P, 808S, 810P, 912N, 915Y, 916E, 1069Q, 1097G, 1099H, 1116D, 1137D, 1138P, 1139L, 1140Q, 1141P, 1142E, 1143L, 1144D
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         CHAIN B
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         70V, 73T, 74N, 75G, 76T, 147N, 148K, 149S, 150W, 151M, 176D, 177L, 178E, 179G, 180K, 181Q, 182G, 183N, 212R, 244R, 245S, 246Y, 247L, 248T, 249P, 250G, 251D, 252S, 253S, 254S, 255G, 256W, 438N, 441S, 442K, 443V, 444G, 445G, 446N, 447Y, 454F, 456K, 457S, 458N, 460K, 467S, 476T, 492S, 494G, 495F, 496Q, 497P, 498T, 499N, 500G, 501V, 502G, 503Y, 554N, 556K, 558L, 559P, 676T, 677N, 678S, 679P, 680R, 701N, 702S, 703V, 714T, 791P, 792I, 807P, 808S, 810P, 912N, 915Y, 916E, 1069Q, 1109E, 1112I, 1116D, 1137D, 1138P, 1139L, 1140Q, 1141P, 1142E, 1143L, 1144D
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         CHAIN C
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         72G, 73T, 74N, 75G, 97K, 98S, 143Y, 144H, 145K, 146N, 147N, 148K, 149S, 150W, 151M, 152E, 153S, 180K, 181Q, 182G, 183N, 184F, 209N, 252S, 253S, 441S, 442K, 443V, 444G, 445G, 446N, 447Y, 454F, 456K, 457S, 458N, 460K, 480G, 492S, 494G, 496Q, 497P, 498T, 499N, 500G, 501V, 502G, 503Y, 554N, 556K, 558L, 559P, 676T, 678S, 679P, 680R, 681R, 682A, 683R, 684S, 685V, 701N, 702S, 714T, 791P, 792I, 807P, 808S, 912N, 915Y, 916E, 1069Q, 1072N, 1098T, 1112I, 1116D, 1138P, 1139L, 1140Q, 1141P, 1142E, 1143L, 1144D
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+    <table-wrap id="T5" position="float">
+     <label>
+      Supplementary Table IV
+     </label>
+     <caption>
+      <p>
+       Conformational B-cell epitopes predicted using the modelled structure of the spike protein (template used: 6ACC.PDB; 87.29% identity). (A) Ellipro server (using a protusion Index threshold of 0.9) (B) DiscoTope server
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th align="center" colspan="3" rowspan="1">
+         A. Ellipro epitope prediction
+        </th>
+       </tr>
+       <tr>
+        <th align="left" colspan="3" rowspan="1">
+         <hr/>
+        </th>
+       </tr>
+       <tr>
+        <th align="left" colspan="1" rowspan="1">
+         Epitope number
+        </th>
+        <th align="left" colspan="1" rowspan="1">
+         Epitope residues
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         Epitope score
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         244-RSYLTPGDSSSGW-256
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.95
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         2
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         347S, 349Y, 419Y, 441-SKVGGNYNYLYRLFR-455, 457S, 465-DISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTN -499
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.943
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         3
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         1074 TTAPAICHDGKAHFPR 1089, 1094-VSNGTHWFV-1102, 1110- PQIITTDNTFVSGNCDVVIGIVNNTV-1135
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.934
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         4
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         144-HKNNKSWMESE-154
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.912
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         5
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         72-GTNGTK-77
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.907
+        </td>
+       </tr>
+       <tr>
+        <td align="center" colspan="3" rowspan="1">
+         B. DiscoTope epitope prediction
+        </td>
+       </tr>
+      </tbody>
+     </table>
+     <table-wrap-foot>
+      <fn fn-type="other">
+       <p>
+        G72, T73, N74, G75, K145, N146, N147, K148, S149, L174, E178, K180, Q181, G182, 183, V211, S245, Y246, L247, T248, P249, G250, D251, S252, S253, K415, N438, S441, K442, V443, G444, G445, N446, Y447, N448, K456, S457, N458, K460, A473, G474, S475, S492, G494, Q496, P497, T498, N499, G500, V501, Y503, N554, K556, L558, P559, I567, Q675, T676, N677, S678, P679, R680, R681, A682, R683, S702, V703, A704, Y705, T714, P791, P807, S808, K809, P810, E916, Q1069, E1070
+       </p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+    <p>
+     T-cell epitope prediction revealed 105 strong binding epitopes capable of binding to different HLA types using the NetCTL1.2 software based on the threshold of 0.4. Twelve of these were shortlisted, considering a binding efficiency of &gt;0.5 nM and capable of eliciting IFN-γ response (Table III).
+    </p>
+    <table-wrap id="T6" position="float">
+     <label>
+      Table III
+     </label>
+     <caption>
+      <p>
+       Spike protein peptides capable of binding to major histocompatibility complex (MHC) class I predicted using NetCTL server
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th align="left" colspan="1" rowspan="1">
+         Peptide
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         Vaxijen
+        </th>
+        <th align="left" colspan="1" rowspan="1">
+         Interferon (IFN)-γ response
+        </th>
+        <th align="center" colspan="1" rowspan="1">
+         CTLPred Score (ANN/SVM)
+        </th>
+        <th align="left" colspan="1" rowspan="1">
+         MHC restriction
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         89-GVYFASTEK-97
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.711
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (1)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.58/0.986
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A         1101, HLA-A3, HLA-A         3101, HLA-A68.1, HLA-B         2705
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         166-FEYVSQPFL-174
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.632
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.087)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.65/0.184
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A2, HLA-A         0201, HLA-A         0205, HLA-A2.1, HLA-B         2702, HLA-B         2705, HLA-B         3701, HLA-B40, HLA-B         4403, HLA-B         5301, HLA-B         5401, HLA-B         51, HLA-B60, HLA-B61, HLA-Cw         0301, H2-Kb, H2-Kk,
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         256-WTAGAAAYY-264
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.630
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.576)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.82/0.544
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A1, HLA-B         2702, HLA-B         3501, HLA-B         4403, HLA-B         5301, HLA-B         5401, HLA-B         51, HLA-B         5801, HLA-B62, HLA-Cw         0702
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         348-VYAWNRKRI-356
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.500
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.499)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.93/0.497
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A24, HLA-B         5101, HLA-B         5102, HLA-B         5103, HLA-B         51, HLA-Cw         0401, H2-Db, H2-Kd, H2-Kk
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         503-YQPYRVVVL-511
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.596
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.292)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.40/0.596
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A         0201, HLA-A         0205, HLA-A24, HLA-B14, HLA-B         2702, HLA-B         2705, HLA-B         3902, HLA-B         5201, HLA-B         5301, HLA-B         5401, HLA-B         51, HLA-B60, HLA-B62, HLA-B7, HLA-B8, HLA-Cw         0401, HLA-Cw         0602, H2-Dd, H2-Kb, H2-Ld
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         510-VLSFELLHA-518
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         1.077
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.268)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.86/0.276
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A         0201, HLA-A         0205, HLA-A3, HLA-B         5301, HLA-B         51, HLA-B62
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         825-TLADAGFIK-833
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.578
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.014)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.75/0.992
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A1, HLA-A         1101, HLA-A3, HLA-A         3101, HLA-A68.1, HLA-A20, HLA-B         2705
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1058-VVFLHVTYV-1066
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         1.512
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (1)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.77/0.779
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-A2, HLA-A         0201, HLA-A         0205, HLA-A68.1, HLA-A2.1, HLA-B14, HLA-B         5101, HLA-B         5102, HLA-B         5103, HLA-B         5201, HLA-B         5301, HLA-B         5401, HLA-B         51
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1">
+         1210-WPWYIWLGF-1218
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         1.495
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         Positive (0.221)
+        </td>
+        <td align="center" colspan="1" rowspan="1">
+         0.68/0.0695
+        </td>
+        <td align="left" colspan="1" rowspan="1">
+         HLA-B         2702, HLA-B         2705, HLA-B         3501, HLA-B         3801, HLA-B         5101, HLA-B         5102, HLA-B         5201, HLA-B         5301, HLA-B         5401, HLA-B         51, HLA-B         5801, HLA-B62, HLA-B         0702, HLA-Cw         0401, HLA-Cw         0702.H2-Ld
+        </td>
+       </tr>
+      </tbody>
+     </table>
+     <table-wrap-foot>
+      <fn fn-type="other">
+       <p>
+        Threshold of &gt;0.7 nM was used for increased specificity of the prediction. The peptides were reconfirmed using CTLPred server using default parameters. The peptides that were classified as epitopes were further checked for their antigenicity score using the VaxiJen v2.0 tool
+       </p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec1-4" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     Till February 29, 2020, three positive cases of SARS-CoV-2 were reported from India from 881 suspected cases tested at ICMR-NIV, Pune. All the three cases had a travel history from Wuhan, China, during January 2020. Although NGS was performed on the specimens for all the three positive cases, the complete genome sequence could be retrieved only from case 1 and case 3. The three cases were recovered after hospitalization and were home quarantined as per the guidelines of the Ministry of Health and Family Welfare, Government of India     .
+    </p>
+    <p>
+     The low viral copy number of the TS specimen from case 2 could be the possible reason for lesser viral reads being retrieved during the NGS run, leading to a fragmented genome. The recent study from China on serial samples (TSs, sputum, urine and stool) from two patients followed days 3-12 and days 4-15 post onset     .
+     <italic>
+      N
+     </italic>
+     gene-specific real-time RT-PCR assay showed that the viral loads in TS and sputum samples peaked at around 5-6 days after symptom onset, ranging from around 10     -10     copies per ml during this time     . In another study, the virus was detected in the saliva specimens of 11 of the 12 patients, and serial saliva testing showed declines of viral RNA levels     .
+    </p>
+    <p>
+     The two Indian SARS-CoV-2 sequences were found to be non-identical (0.04% nt divergence), and the result of phylogenetic analysis indicated that there were two different introductions into the country. A recent study using 52 published GenBank sequences showed evidence of substantial genetic heterogeneity and estimated the time to the most recent common ancestor to be December 5, 2019 (95% confidence interval: November 6 - December 13, 2019)     . Continuous monitoring and analysis of the sequences from the affected countries would be vital to understand the genetic evolution and rates of substitution of the SARS-CoV-2.
+    </p>
+    <p>
+     The comparison of the amino acid sequences of the non-structural (nsp1-nsp16) and structural polyproteins was undertaken with reference to the Wuhan-Hu1 strain for molecular characterization. Some human
+     <italic>
+      Betacoronaviruses
+     </italic>
+     , including HCoV-HKU1 (lineage A), have a polybasic cleavage site as well as predicted O-linked glycans near the S1/S2 cleavage site of the spike protein. As published recently, the polybasic cleavage site that has not been previously observed in related lineage B
+     <italic>
+      Betacoronaviruses
+     </italic>
+     and is a unique feature of SARS-CoV-2 was noted in the Indian SARS-CoV-2. The mutation Arg408Ile in the spike protein of one of the Indian sequences is noted to be in the RBD and Ala930Val, is located in the S2 domain. However, both are away from the ACE2 receptor-binding interface     . Mutations in the spike protein sequences of SARS-CoV-2 observed currently are localized over the S1 and S2 domains and, so far have not been found in the ACE2-binding interface.
+    </p>
+    <p>
+     From the alignment of the spike protein sequences of SARS CoV-1 and SARS-CoV-2 (Wuhan-Hu1 and India), it can be observed that the three nucleotide-deletion in the case 1 SARS-CoV-2 from India, is located close to the insert 1 region of the SARS CoV-1 (
+     <inline-supplementary-material content-type="local-data" id="d38e1313" ns0:href="ijmr-151-200-s004.pdf" ns0:title="local_file" ns0:type="simple">
+      Supplementary Fig. 3
+     </inline-supplementary-material>
+     (available from
+     <italic>
+      <ext-link ext-link-type="uri" ns0:href="http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm11.pdf">
+       http://www.ijmr.org.in/articles/2020/151/2/images/IndianJMedRes_2020_151_2_200_281471_sm11.pdf
+      </ext-link>
+     </italic>
+     )). Notably, case 1 and case 2 were in close contact while travelling to India, but due to the absence of the complete genome of case 2, the genetic relatedness and source of infection could not be pinpointed.
+    </p>
+    <p>
+     Among the SARS-CoV structural proteins, the spike protein has been found to elicit neutralizing antibodies     . In this study, it was observed that of the five B-cell linear epitopes, which were predicted, four epitopes were present in the S1 domain and one in the S2 domain. Prediction of conformational B-cell epitopes revealed that one of these (residue positions 341-505) in the spike protein incorporates two of the predicted linear epitopes (327-342 and 404-419) having good antigenicity along with a favourable IFN-γ response that enables differentiation and proliferation of the B-cells     . Notably, an equivalent epitope (347-499) is predicted for the model generated using the SARS-CoV-1 S protein as a template. In both cases, this epitope lies within the RBD     . Although the epitope has two putative N-linked glycosylation sites within it at positions 330 and 332, the probability of these sites being actually glycosylated is very low. A major immuno-dominant epitope has been reported from SARS-CoV between residues 441 and 700     . Hence, the predicted B-cell conformational epitope identified in the present study may play an important role in initiating a B-cell response. Among the five linear epitopes predicted in this study, epitopes 327-342 and 1204-1219 are conserved between SARS-CoV-2 and SARS-CoV-1. Epitopes 243-258, 404-419 and 413-428 are found to have variations.
+    </p>
+    <p>
+     The spike protein of SARS-CoV has also been reported to be immunogenic and elicit high IFN-γ-specific T-cell response     . The prediction results in this study revealed that nine possible CTL epitopes possessing good antigenicity and inducing IFN-γ response were present in the S protein. A recent report     also predicted T-cell epitopes in the S protein based on a similar ANN/SVM method and antigenicity score. Although the IFN-γ response was not considered by these authors, it was noted that two of the predictions were found to be common. Among the T-cell epitopes predicted in the present study, four epitopes 89-97 and 256-264 in the S1 domain and 825-833 and 1058-1066 in the S2 domain were found to have good CTL prediction scores with a broad HLA allele coverage of A and B supertypes. These HLA supertypes being predominant in the Indian population, the predicted epitopes may be considered suitable for future experiments towards vaccine design.
+    </p>
+    <p>
+     To conclude, the prompt intervention by the Government of India and the health authorities of the State of Kerala, ensured that the said cases did not become secondary foci of transmission. Further, the timely identification of SARS-CoV-2 in these suspected cases by the ICMR-NIV, Pune, has helped in the isolation of the patients, containment and enhanced surveillances for the virus and its restricted movement. The availability of the genomic sequences of the identified cases will contribute to the public repositories and help towards the development of diagnostics, vaccines and antivirals. The sequence data would also help in tracking the virus from its origin and evolution with its transmission in time.
+    </p>
+    <p>
+     <italic>
+      Availability of data
+     </italic>
+     : Sequences are deposited in GISAID database, with accession numbers EPI ISL 413522 and EPI ISL 413523.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title/>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <p>
+    The
+    <italic>
+     Coronaviridae
+    </italic>
+    family encompasses viruses with a single-stranded, positive-sense RNA genome of size approximately 26-32 kb. Initially, the virus was associated with human and animal infections that caused intestinal as well as respiratory infections    . In 2002, the severe acute respiratory syndrome (SARS) coronavirus (CoV) outbreak that claimed the lives of many people in China raised the alarm towards these viruses    . Further, after a decade, another human pathogenic virus emerged, Middle East respiratory syndrome CoV (MERS-CoV) that affected the Middle Eastern countries    . Current knowledge identifies six virus groups that can infect humans    in the
+    <italic>
+     Coronaviridae
+    </italic>
+    family, which includes SARS-CoV (now termed as SARS-CoV-1) and MERS-CoV.
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    Recently in December 2019, China reported cases with pneumonia of unknown aetiology in the Hubei province, Wuhan city    . Further analysis of these cases was carried out to identify the causative agent of pneumonia    . Virus isolation and genomic characterization of the complete sequence of the virus through next-generation sequencing (NGS), identified it as a novel CoV, named 2019-nCoV    . The virus characterization revealed that it is an enveloped RNA virus with a genome size of 29,903 bp. The phylogenetic analysis of the sequence showed that it belonged to the
+    <italic>
+     Sarbecovirus
+    </italic>
+    subgenus of genus
+    <italic>
+     Betacoronavirus
+    </italic>
+    and the family
+    <italic>
+     Coronaviridae
+    </italic>
+    . The sequence was closely related (~87.5% sequence similarity) to two bat-derived SARS-like CoV strains (bat-SL-CoVZC45 and bat-SL-CoVZXC21) that are known to infect humans, including the virus which led to the 2003 SARS-CoV-1 outbreak    . The 2019-nCoV is now named as SARS-CoV-2    . Further, based on SimPlot analyses, it was demonstrated that SARS-CoV-2 was more closely related to the BatCoV RaTG13 sequence (~96.3% similarity) throughout the genome. The bat-SL-CoVZC45 and bat-SL-CoVZXC21 strains clustered differently from the group formed by SARS-CoV-2 and BatCoV RaTG13 in the region spanning the 3′-end of open reading frame (ORF)1a, the ORF1b and almost half of the spike region    .
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    The receptor-binding domain (RBD) of the spike protein mediates interaction with the host cell receptor    , and the angiotensin-converting enzyme 2 (ACE2) has been identified as the receptor for the SARS-CoVs    . Specific mutations in the RBD of the SARS-CoV-2 spike glycoprotein were found to have enhanced binding to the ACE2    .
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    The human-to-human transmission of the SARS-CoV-2 created an alert with the increasing number of cases    . The WHO report dated February 28, 2020 confirmed 83,652 cases of SARS-CoV-2, with a total of 2,858 deaths from 52 countries    . After the first report of SARS-CoV-2 from Wuhan, China, the Government of India reviewed and initiated multisectoral measures for the mitigation of this emerging public health crisis. These include point-of-entry surveillance at 21 international airports, enhanced State-level surveillance programmes and preparedness for handling clinical cases in designated hospitals. Till date, the Integrated Disease Surveillance Programme (IDSP), a national health programme, Government of India, has collected samples from symptomatic travellers in liaison with the State-level Viral Research and Diagnostic Laboratories (VRDLs), Department of Health Research. These VRDLs respond for timely diagnosis during outbreaks.
+   </p>
+  </textgroup>
+  <textgroup>
+   <p>
+    The suspected samples were collected and transported to the Indian Council of Medical Research-National Institute of Virology (ICMR-NIV), Pune, for the diagnosis of SARS-CoV-2. The specimens of the positive cases were diagnosed with real-time reverse transcription-polymerase chain reaction (RT-PCR)-specific for SARS-CoV-2 using the protocol published by the WHO    and characterized by complete genome sequencing and epitope prediction analyses. These sequences were also compared with the available GenBank sequences to monitor the mutations and understand their relation with other known SARS-CoV-2 available in the public database. Here, we report molecular characterization of SARS-CoV-2 sequences from three positive cases.
+   </p>
+  </textgroup>
+ </sentences>
+</article>

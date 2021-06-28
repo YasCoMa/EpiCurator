@@ -1,0 +1,3974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML">
+ <title>
+  Potential Cross-Reactive Immunity to SARS-CoV-2 From Common Human Pathogens and Vaccines
+ </title>
+ <abstract>
+  <p>
+   The recently emerged SARS-CoV-2 causing the ongoing COVID-19 pandemic is particularly virulent in the elderly while children are largely spared. Here, we explored the potential role of cross-reactive immunity acquired from pediatric vaccinations and exposure to common human pathogens in the protection and pathology of COVID-19. To that end, we sought for peptide matches to SARS-CoV-2 (identity ≥ 80%, in at least eight residues) in the proteomes of 25 human pathogens and in vaccine antigens, and subsequently predicted their T and B cell reactivity to identify potential cross-reactive epitopes. We found that viruses subject to pediatric vaccinations do not contain cross-reactive epitopes with SARS-CoV-2, precluding that they can provide any general protection against COVID-19. Likewise, common viruses including rhinovirus, respiratory syncytial virus, influenza virus, and several herpesviruses are also poor or null sources of cross-reactive immunity to SARS-CoV-2, discarding that immunological memory against these viruses can have any general protective or pathological role in COVID-19. In contrast, we found combination vaccines for treating diphtheria, tetanus, and pertussis infectious diseases (DTP vaccine) to be significant sources of potential cross-reactive immunity to SARS-CoV-2. DTP cross-reactive epitopes with SARS-CoV-2 include numerous CD8 and CD4 T cell epitopes with broad population protection coverage and potentially neutralizing B cell epitopes in SARS-CoV-2 Spike protein. Worldwide, children receive several DTP vaccinations, including three-four doses the first year of life and one at 4–6 years of age. Moreover, a low antigenic Tdap dose is also given at ages 9–14. Thereby, children may well be protected from SARS-CoV-2 through cross-reactive immunity elicited by DTP vaccinations, supporting testing in the general population to prevent COVID-19.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a new emergent virus identified in late 2019 as the etiological agent behind a mysterious outbreak of pneumonia in Wuhan, China (     ,     ). The World Health Organization (WHO) later named the disease as coronavirus disease 19 (COVID-19) to account for the variety of clinical manifestations associated with SARS-CoV-2 infections (     ,     ). The infectivity and pathogenicity SARS-CoV-2 have taken the world unguarded, leading to the ongoing COVID-19 pandemic.
+    </p>
+    <p>
+     SARS-CoV-2 infection can be asymptomatic, and the course of COVID-19 can range from mild to severe and death (     ). COVID-19 cases and severity vary widely between different countries. For example, COVID-19 deaths per million reported in Spain are 606, while in Serbia, with a similar population density and geographical latitude are 30 (
+     <uri ns0:href="https://www.worldometers.info/coronavirus/" ns0:type="simple">
+      https://www.worldometers.info/coronavirus/
+     </uri>
+     ). COVID-19 also varies between individuals, and medical conditions such as hypertension and obesity are risk factors (     ). However, the strongest correlation factor in COVID-19 cases and severity is age. In fact, the majority of CODID-19 fatalities occur among the elderly (90% of the victims are over 70 years) while the pediatric population is largely spared (     ). The large impact of COVID-19 in the geriatric population is somewhat expected, since their ability to mount immune responses to new pathogens has deteriorated (     ). Yet, the virulence of the virus appears to be related to a disproportionate immune response, and indeed some patients appear to benefit from drugs with immunomodulatory properties (     ). That newborns and infants, with undertrained adaptive immune systems, are safe from COVID-19 is unexpected, but telling.
+    </p>
+    <p>
+     Humans are not immunologically naïve, or not for long. When exposed to a new infection the host immune system preferentially engage existing cross-reactive memory B and T cells (     ,     ). The promiscuity in antigen-recognition repertoires in memory B and T cells allows for quicker responses to multitude of antigens, saving energy and resources to the host. Activation of cross-reactive memory B and T cells can lead to protective immunity but also induce life-threatening immunopathology (     ,     ). In this context, we reasoned that children are likely protected from SARS-CoV-2 by cross-reactive adaptive immunity elicited through vaccinations. Immunity elicited by vaccines wanes over time (     ) which will leave adults more susceptible to COVID-19, and perhaps cross-reactive immunity from pathogens may in some cases protect or enhance the severity of the disease.
+    </p>
+    <p>
+     Adaptive immunity is driven by the recognition by T and B cells of small antigen fragments known as epitopes (     ). B cell epitopes are also the targets of antibodies, and they need to be readily free and exposed to the solvent for recognition. In contrast, T cells recognize epitopes bound to major histocompatibility complex (MHC) molecules displayed in the cell surface of antigen presenting cells (     ). Thereby, to test our hypothesis and identify potential sources of cross-reactive immunity to SARS-CoV-2, we conducted a systematic search for peptide matches to SARS-CoV-2 in 25 human pathogens including 18 viruses and 7 bacteria—the majority targeted by vaccinations—and in selected vaccine antigens, and predicted their T and B cell reactivity to identify cross-reactive epitopes. T cell reactivity of peptides (T cell epitopes) was predicted on the basis of their binding to MHC molecules frequently expressed in the human population using public bioinformatics tools available at IEDB (
+     <uri ns0:href="https://www.iedb.org/" ns0:type="simple">
+      https://www.iedb.org/
+     </uri>
+     ). B cell reactivity (B cell epitopes) was also predicted at IEDB (
+     <uri ns0:href="https://www.iedb.org/" ns0:type="simple">
+      https://www.iedb.org/
+     </uri>
+     ). Among the viruses without available vaccine, we considered herpes simplex virus 1 and 2, Epstein–Barr virus, human cytomegalovirus, human rhinovirus A, B, and C and respiratory syncytial virus A and B, which are all prevalent in the population. After these analyses, we found numerous cross-reactive epitopes between antigens in tetatus, diphteria, and pertussis (DTP) vaccines and SARS-CoV-2, including T cell epitopes with broad population protection coverage and potentially neutralizing B-cell epitopes. Overall, our results clearly support that cross-reactive immunity from DTP vaccines can be protecting children against SARS-CoV-2 and could protect the general population.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2">
+    <title>
+     Methods
+    </title>
+    <sec id="s2_1">
+     <title>
+      Pathogen and Vaccine Antigen Sequences
+     </title>
+     <p>
+      The amino acid sequences encoded by the genomes of 25 human pathogens in FASTA format were obtained from the GenBank entries indicated in      . The amino acid sequences of antigens included in diphteria (D), tetanus (T), and pertussis cellular (wP) and acellular (aP) vaccines were obtained upon the proteomics projects PXD009289 and PXD013804 deposited in the Proteomics Identification Database (PRIDE) by the authors (      ,      ) (      ). The amino acid sequence of the antigens included the meningococcal B vaccine Bexsero      (MenB) was obtained upon the PRIDE proteomic project PXD011622 (      ).
+     </p>
+     <table-wrap id="T1" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Amino acid sequences from pathogens and vaccines considered in this study.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Pathogen
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          NCBI Accession
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Proteins/CDS
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Mumps virus (MuV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_002200
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Measles virus (MV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_001498
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rubella Virus (RuV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_001545
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Hepatitis B virus (HBV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_003977
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Varicella Zoster Virus (VZV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_001348
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          73
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Polio Virus (PoV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_002058
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Influenza A virus (IAV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_026422 … NC_026429
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Influenza B virus (IBV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_002204… NC_002211
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rotavirus A (RTV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_011500 … NC_011510
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Papilloma Virus (PaV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_027779
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Herpes simplex virus 1 (HSV1)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_001806
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          77
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Herpes simplex virus 2 (HSV2)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_001798
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          77
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Epstein–Barr virus (EBV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_007605
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          94
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human cytomegalovirus (HCMV)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_006273
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          169
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human rhinovirus A (HRVA)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_038311
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human rhinovirus B (HRVB)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_038312
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human rhinovirus C (HRVC)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_009996
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Human immunodeficiency 1 (HIV1)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_001802
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          bacille Calmette–Guérin (BCG)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_008769
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3,807
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <italic>
+           Bordetella pertussis (Bpe)
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_002929
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3,359
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <italic>
+           Corynebacterium diphtheriae
+          </italic>
+          (Cdi)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NZ_LN831026
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2,171
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Clostridium tetani (Cte)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_004557&amp; NC_004565
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2,725
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <italic>
+           Haemophilus influenzae
+          </italic>
+          (Hin)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_000907
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1,597
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <italic>
+           Neisseria meningitidis
+          </italic>
+          (serogroup B) (Nme)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_003112
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1,960
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <italic>
+           Streptococcus pneumoniae
+          </italic>
+          (Spn)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NC_003098
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1,821
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Vaccine Antigens
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           PRIDE PROJECT
+          </bold>
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Proteins/CDS
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Tetanus (T):
+          <italic>
+           C. tetani
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PXD009289, PXD013804
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          601
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Diphteria (D):
+          <italic>
+           C. diphtheriae
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PXD009289, PXD013804
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          340
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Acellular pertussis (aP):
+          <italic>
+           B. pertussis
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PXD013804
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Whole pertussis (wP):
+          <italic>
+           B. pertussis
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PXD013804
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1852
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Meningococcal B (MenB):
+          <italic>
+           N. meningitidis
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PXD011622
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          267
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec id="s2_2">
+     <title>
+      Identification of SARS-CoV-2 Peptide Matches in Pathogens and Vaccine Antigens
+     </title>
+     <p>
+      Overlapping 15 mer peptides with 10 residue overlaps were generated
+      <italic>
+       in silico
+      </italic>
+      for each amino acid coding sequence (CDS) encoded by SARS-CoV-2 reference genome (NCBI accession NC_045512) covering their entire length. Peptides were used as queries in similarity searches using BLASTP (      ) against custom made databases formatted for BLAST usage. BLAST formatted databases were generated upon FASTA files including the selected proteomes and vaccine antigens described elsewhere in
+      <italic>
+       Methods
+      </italic>
+      . BLAST searches were performed with default parameters, and the expected value set to 10,000. BLAST alignments were parsed using PERL scripts, and hit subject sequences consisting of eight or more residues with an identity ≥80% were selected as peptide matches with SARS-CoV-2.
+     </p>
+    </sec>
+    <sec id="s2_3">
+     <title>
+      Determining Peptide Identity With Human and Microbiome Proteins
+     </title>
+     <p>
+      Identity between SARS-CoV-2 peptides and hits with human and microbiome proteins was obtained through local BLAST searches using an expectation value of 10,000. Human microbiome proteins were obtained from the NIH Human Microbiome Project (      ) and included 6,320,906 amino acid sequences from species colonizing any/all body parts. Human proteins included 113,275 amino acid sequences and consisted of reference proteins linked to the human GRCh38 genome ensemble (
+      <uri ns0:href="https://www.ncbi.nlm.nih.gov/genome/guide/human/" ns0:type="simple">
+       https://www.ncbi.nlm.nih.gov/genome/guide/human/
+      </uri>
+      ). Amino acid sequences of human and microbiome proteins were downloaded as FASTA files and formatted for BLAST searches.
+     </p>
+    </sec>
+    <sec id="s2_4">
+     <title>
+      Prediction of T Cell Reactivity
+     </title>
+     <p>
+      T cell reactivity (presence of T cell epitopes) of peptides was assessed by predicting their binding to human leukocyte antigen (HLA) molecules. Peptide binding was predicted to HLA class I (HLA I) molecules HLA-A*01:01, HLA-A*02:01, HLA-A*03:01, HLA-A*11:01, HLA-A*23:01, HLA-A*24:02, HLA-B*07:02, HLA-B*08:01, HLA-B*35:01, HLA-B*40:01, HLA-B*44:02, HLA-B*44:03 using IEDB MHC I binding tool (
+      <uri ns0:href="http://tools.iedb.org/mhci/" ns0:type="simple">
+       http://tools.iedb.org/mhci/
+      </uri>
+      ) with default recommended method through the RESTful interface. At least one of these HLA I molecules is expressed by ~95% of the world population regardless of the ethnic background as computed by the EPISOPT method (      ). Models used to predict binding to HLA I molecules were the appropriated for peptides with eight and nine residues. For longer peptides, the predicted binding was obtained evaluating all encompassing 9mer peptides. A 2% percentile rank cutoff was chosen to consider that binding had occurred. Peptide binding was also predicted to HLA class II (HLA II) HLA-DR molecules encompassing the
+      <italic>
+       β
+      </italic>
+      chains HLA-DRB1*01:01, HLA-DRB1*03:01, HLA-DRB1*04:01, HLA-DRB1*04:05, HLA-DRB1*07:01, HLA-DRB1*08:02, HLA-DRB1*09:01, HLA-DRB1*11:01, HLA-DRB1*12:01, HLA-DRB1*13:02, HLA-DRB1*15:01 HLA-DRB3*01:01 HLA-DRB3*02:02 HLA-DRB4*01:01, HLA-DRB5*01:01 using the IEDB MHC II binding tool (
+      <uri ns0:href="http://tools.iedb.org/mhcii/" ns0:type="simple">
+       http://tools.iedb.org/mhcii/
+      </uri>
+      ) with default recommended method through the RESTful interface. A 10% percentile rank cutoff was chosen to consider that binding had occurred. HLA-DR molecules incorporate a non-polymorphic
+      <italic>
+       α
+      </italic>
+      chain, and the selected
+      <italic>
+       β
+      </italic>
+      chains are expressed by ~81% of the population as computed by the IEDB coverage tool (
+      <uri ns0:href="http://tools.iedb.org/population/" ns0:type="simple">
+       http://tools.iedb.org/population/
+      </uri>
+      ) (      ).
+     </p>
+    </sec>
+    <sec id="s2_5">
+     <title>
+      Prediction of B Cell Reactivity
+     </title>
+     <p>
+      B cell or antibody reactivity (presence of B cell epitopes) of peptides was predicted using BepiPred1.0 (      ) at the IEDB Analysis Resource (
+      <uri ns0:href="http://http://tools.iedb.org/bcell/" ns0:type="simple">
+       http://http://tools.iedb.org/bcell/
+      </uri>
+      ). BepiPred predicts linear B cell epitopes and reports antigenicity values per residue (
+      <italic>
+       a
+       <sub>
+        i
+       </sub>
+      </italic>
+      ), upon which we calculated a global value of peptide antigenicity or B cell/antibody reactivity (
+      <italic>
+       B
+      </italic>
+      ) using Eq. 1.
+     </p>
+     <disp-formula>
+      <label>
+       (1)
+      </label>
+      <ns1:math id="M1">
+       <ns1:mrow>
+        <ns1:mi>
+         B
+        </ns1:mi>
+        <ns1:mo>
+         =
+        </ns1:mo>
+        <ns1:mfrac>
+         <ns1:mrow>
+          <ns1:msub>
+           <ns1:mrow>
+            <ns1:mstyle displaystyle="true">
+             <ns1:msubsup>
+              <ns1:mo>
+               ∑
+              </ns1:mo>
+              <ns1:mrow>
+               <ns1:mi>
+                i
+               </ns1:mi>
+               <ns1:mo>
+                =
+               </ns1:mo>
+               <ns1:mn>
+                1
+               </ns1:mn>
+              </ns1:mrow>
+              <ns1:mrow>
+               <ns1:mi>
+                i
+               </ns1:mi>
+               <ns1:mo>
+                =
+               </ns1:mo>
+               <ns1:mi>
+                l
+               </ns1:mi>
+              </ns1:mrow>
+             </ns1:msubsup>
+             <ns1:mi>
+              a
+             </ns1:mi>
+            </ns1:mstyle>
+           </ns1:mrow>
+           <ns1:mi>
+            i
+           </ns1:mi>
+          </ns1:msub>
+         </ns1:mrow>
+         <ns1:mi>
+          l
+         </ns1:mi>
+        </ns1:mfrac>
+       </ns1:mrow>
+      </ns1:math>
+     </disp-formula>
+     <p>
+      Where
+      <italic>
+       l
+      </italic>
+      is the total number of residues in the peptide. Peptides with
+      <italic>
+       B
+      </italic>
+      values ≥0.4 were considered as antigenic or potential B cell epitopes.
+     </p>
+    </sec>
+    <sec id="s2_6">
+     <title>
+      Other Procedures
+     </title>
+     <p>
+      Virion surface ectodomains of SARS-CoV-2 Spike (S), membrane (M) and envelope (E) proteins were identified from UNIPROT annotation records P0DTC2, P0DTC5, and P0DTC4, respectively. PyMOL Molecular Graphics System, Version 1.8 Schrödinger, was used to map and visualize B cell epitopes on 3D structures. PDB files with three-dimensional coordinates of SARS-CoV-2 S, M, and E glyproteins were obtained from Zhong Lab (
+      <uri ns0:href="https://zhanglab.ccmb.med.umich.edu/COVID-19/" ns0:type="simple">
+       https://zhanglab.ccmb.med.umich.edu/COVID-19/
+      </uri>
+      ) and residue relative solvent accessibility (RSA) of peptides mapping in these proteins was computed using NACCESS (      ). We used the non-parametric Kruskal–Wallis test to compare COVID-19 cases and death rates in European countries, including Asian countries from former URSS, with regard to the inclusion of DTaP or DTwP vaccines. Vaccination data was obtained from (
+      <uri ns0:href="https://apps.who.int/immunization_monitoring/" ns0:type="simple">
+       https://apps.who.int/immunization_monitoring/
+      </uri>
+      ) and death rates from (
+      <uri ns0:href="https://www.worldometers.info/coronavirus/" ns0:type="simple">
+       https://www.worldometers.info/coronavirus/
+      </uri>
+      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     Results and Discussion
+    </title>
+    <sec id="s3_1">
+     <title>
+      Identification Cross-Reactive Immunity to SARS-CoV-2
+     </title>
+     <p>
+      Adaptive immunity is mediated by B and T cells which recognize small fragments, epitopes in the target antigens. Thereby, to identify sources of potential cross-reactive immunity to SARS-CoV-2, we devised a method to search for peptide matches between SARS-CoV-2 and sources of interest (details in
+      <italic>
+       Methods
+      </italic>
+      ). Briefly, we partitioned the entire SARS-CoV-2 into 15 mer peptides with 10 residue overlaps and used them as query in modified BLAST searches against subject proteomes. We then selected ungapped subject hits with eight or more residues and ≥80% identity to SARS-CoV-2 as potential sources of cross-reactive immunity. We next predicted B cell and T cell reactivity of peptide hits using relevant epitope prediction methods (details in
+      <italic>
+       Methods
+      </italic>
+      ). T cells can be divided into CD4 and CD8 T cells which recognize peptides displayed in the cell surface of antigen presenting cells bound to class I and class II MHC molecules, respectively. Therefore, we anticipated CD4 and CD8 T cell epitopes by predicting peptide binding to class I and class II human MHC molecules (in human known as HLA molecules for Human Leukocyte Antigens). For realization of T cell cross-reactivity, both peptide hits and equivalent SARS-CoV-2 peptides have to bind to the same class I and/or class II HLA molecules. Peptide hits with B cell epitope scores ≥0.4 were considered to be cross-reactive for B cell/antibody mediated immunity.
+     </p>
+     <p>
+      We first sought for cross-reactive immunity to SARS-CoV-2 in the proteomes of 25 human pathogens, including 18 viruses not related to SARS-CoV-2 and seven bacteria. Cross-reactive heterologous immunity is not limited to closely related pathogens, and in fact, it can occur between unrelated viruses (      ) and between bacteria and viruses (      ). As we age, there is a reduction in naive T cells and T cell repertoire diversity (      –      ), likely prevailing memory T cells specific for pathogens causing common and/or persistent infections as shown for human cytomegalovirus (      ). Therefore, in this study we considered viruses causing common, persistent and/or recurrent infections, including influenza (A and B), various herpesviruses (Epstein–Barr Virus, human cytomegalovirus and herpes simplex virus 1 and 2), human rhinovirus (HRV) A, B and C, human respiratory syncytial virus (RSV) A and B and human immunodeficiency virus 1 (HIV1). We also considered viruses targeted by vaccinations including poliovirus (PoV), mumps virus (MuV), rubella virus (RuV), papilloma virus (PaV), and rotavirus A (RTVA). Among the bacteria we considered bacille Calmette–Guérin (BCG),
+      <italic>
+       Bordetella pertussis
+      </italic>
+      (
+      <italic>
+       Bpe
+      </italic>
+      ),
+      <italic>
+       Corynebacterium diphtheriae
+      </italic>
+      (
+      <italic>
+       Cdi
+      </italic>
+      ),
+      <italic>
+       Clostridium tetani
+      </italic>
+      (Cte),
+      <italic>
+       Haemophilus influenzae
+      </italic>
+      (Hin),
+      <italic>
+       Neisseria meningitidis
+      </italic>
+      (serogroup B) and
+      <italic>
+       Streptococcus pneumoniae
+      </italic>
+      (Spn), which are all targeted by vaccinations. We found 595 unique peptides in the analyzed proteomes matching 551 peptides from SARS-CoV-2, indicating that the potential cross-reactive epitopes with SARS-CoV-2 differ for each pathogen. The complete data is provided in      , and in      we summarize the results. Overall, the number of SARS-CoV-2 peptide matches as well as that of potential cross-reactive B and T cell epitopes correlated with the size of the proteomes (      ). We cannot discard that some cross-reactive epitopes may be smaller and/or share less identity. In addition, there might be some cross-reactive epitopes rising from pathogen variants that we could not detect as we used single reference proteomes. We used state-of-the-art bioinformatics tools to predict cross-reactive T and B cell epitopes, but if we had used alternative prediction methods the cross-reactive T and B cell epitopes may be somewhat different. Overall, the cross-reactive epitopes detected through this approach will need experimental confirmation.
+     </p>
+     <table-wrap id="T2" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Summary of potential cross-reactivity immunity to SARS-CoV-2 from selected pathogens.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top"/>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          SARS-Peptide Hits
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          B
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD8 T
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD4 T
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Vaccine
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Mumps virus (MuV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Measles virus (MeV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rubella Virus (RuV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Hepatitis B virus (HBV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Varicella Zoster Virus (VZV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Polio Virus (PoV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Papilloma Virus (PaV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Rotavirus A (RTVA)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Influenza A virus (IAV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Influenza B virus (IBV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Herpes simplex virus 1 (HSV1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Herpes simplex virus 2 (HSV2)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Epstein–Barr virus (EBV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human cytomegalovirus (HCMV)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human rhinovirus A (HRVA)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human rhinovirus B (HRVB)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          human rhinovirus C (HRVC)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Human Immunodeficiency 1 (HIV1)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Bacille Calmette-Guérin (BCG)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          120
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          41
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Bordetella pertussis (Bpe)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          111
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          36
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          12
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Corynebacterium diphtheriae (Cdi)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          83
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          33
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          14
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Clostridium tetani (Cte)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          85
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          34
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Haemophilus influenzae (Hin)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          53
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Neisseria meningitides (Nme)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          60
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Streptococcus pneumoniae (Spn)
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          61
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Number of peptides in the relevant pathogen with ≥8 residues and identity ≥80% with SARS-CoV-2.        Peptide hits with B cell reactivity ≥0.4 (predicted as cross-reactive B cell epitopes).        Peptides predicted as cross-reactive CD8 T cell epitopes.        Peptides predicted as cross-reactive CD4 T cell epitopes.        Whether these pathogens are subject to vaccinations. Whole dataset available in        .
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3_2">
+     <title>
+      Cross-Reactive Immunity to SARS-CoV-2 From Prevalent Viruses and Viruses Targeted by Vaccinations
+     </title>
+     <p>
+      A recent study has detected SARS-CoV-2 reactive CD4 T cells in unexposed individuals, suggesting cross-reactive T cell recognition between circulating common cold coronaviruses and SARS-CoV-2 (      ). T cell cross-reactivity between SARS-CoV-2 and other circulating coronaviruses is expected as they share high sequence similarity. However, whether infection by common cold coronaviruses leads to such cross-reactivity remains to be confirmed. In fact, common cold coronaviruses are responsible for less than 10% of all common colds of viral etiology (      ). In the virus included in this study, there are only 22 SARS-CoV-2 peptide matches, including nine peptides with predicted B cell/antibody reactivity and five with predicted T cell cross-reactivity (      ). Two SARS-CoV-2 peptides in the Spike protein, the target of protective neutralizing antibodies (      ), are present in MuV and VZV (      ). However, these two peptides have no predicted B cell reactivity, and more importantly do not map in accessible regions (data not shown). Of the 5 T cell cross-reactive epitopes, two are present in EBV; one of them (APSASAPF) is restricted by two HLA I molecules (B*07:02 and B*35:01) and the other (DLLLDASVEI) by one HLA I (A*02:01) and two HLAII (HLA-DRB1*03:01 and HLA-DRB3*01:01) molecules. No vaccine is available for EBV, and these cross-reactive epitopes may be drivers of protective or pathological immune responses in the individual expressing the noted HLA molecules. Such a role could be unraveled through functional recall assays (
+      <italic>
+       e.g.
+      </italic>
+      by ELISPOT assays) aimed to identify peptide-specific T cell responses in EBV      and EBV      HLA type subjects with a history of SARS-CoV-2 infection, including asymptomatic and convalescents from severe disease. The other three potential cross-reactive T cell epitopes are found in two viruses targeted by vaccinations (      ). There are two CD8 T cell epitopes in VZV, one restricted by B*35:01 and another by B*08:01 and additional epitope in PaV that can be presented by class I (A*02:01) and class II (DRB1*01:01, HLA-DRB1*03:01, HLA-DRB1*09:01) HLA molecules (      ). PaV vaccines consist of recombinant L1 proteins (      ) while the potentially cross-reactive PaV epitope maps in the E1 protein (      ). Thereby, PaV infection but not the vaccine can elicit T cell cross-reactivity to SARS-CoV-2. Overall, we can conclude that the selected viruses and particularly those targeted by vaccinations are poor sources of immune cross-reactivity to SARS-CoV-2 (      ,      ). Thereby, we can discard that current pediatric vaccinations for viral diseases protect against SARS-CoV-2 infection, as recently suggested for RuV vaccine (      ). Such suggestion was based on the distant homology observed between SARS-CoV-2 NS3P and Rubella virus p150 proteins, but not a single peptide is shared between SARS-CoV-2 and RuV.
+     </p>
+     <table-wrap id="T3" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        Potential B and T cell cross-reactive epitopes in selected viral pathogens.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          ACN|ANTIGEN|          SARS_CoV-2
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          SEQUENCE
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          HIT ACN          |VIRUS|
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          HIT SEQ
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          ID (%)
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          B
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD8 T
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD4 T
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          |SPIKE-269-283|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YLQPRTFLLKYNENG
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP_054707.1
+          <break/>
+          |MuV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LLRYNENG
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299
+          <break/>
+          |NSP3-1805-1819|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NVSLDNVLSTFISAA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP_054711.1
+          <break/>
+          |MuV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LSTSISAA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          |SPIKE-989-1003|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AEVQIDRLITGRLQS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP_040162.2
+          <break/>
+          |VZV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LITGHLQS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724397.2
+          <break/>
+          |NP-213-227|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NGGDAALALLLLDRL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP_040149.1
+          <break/>
+          |VZV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GYADLALLLL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −1.7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299
+          <break/>
+          |NSP3-737-751|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NLKTLLSLREVRTIK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP_040145.1
+          <break/>
+          |VZV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NLKTLLKL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −1.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725304
+          <break/>
+          |NSP8-69-83|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QMYKQARSEDKRAKV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP_040156.1
+          <break/>
+          |VZV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SEDKLAKV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725297
+          <break/>
+          |LP-9-23|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NEKTHVQLSLPVLQV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009163893.1
+          <break/>
+          |PaV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VQLSLPPLLV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*01:01, HLA-DRB1*03:01, HLA-DRB1*09:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308
+          <break/>
+          |HEL-277-291|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YSTLQGPPGTGKSHF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009163893.1
+          <break/>
+          |PaV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GPPDTGKSLF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308
+          <break/>
+          |HEL-277-291|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YSTLQGPPGTGKSHF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009505608.1
+          <break/>
+          |HRVA|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IHGPPGTGKS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724391
+          <break/>
+          |ORF3a-245-259|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QIHTIDGSSGVVNPV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009173870.1
+          <break/>
+          |HBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SSGTVNPV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299
+          <break/>
+          |NSP3-1493-1507|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ISSFKWDLTAFGLVA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009137182.1
+          <break/>
+          |HSV2|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LTAAGLVA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725298
+          <break/>
+          |NSP2-141-155|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MKCDHCGETSWQTGD
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009137214.1
+          <break/>
+          |HSV2|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EPSWQTGD
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725303
+          <break/>
+          |NSP7-9-23|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TSVVLLSVLQQLRVE
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_081506.1
+          <break/>
+          |HCMV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LLSALQQL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −1.2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724397
+          <break/>
+          |NP-301-315|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WPQIAQFAPSASAFF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401663.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          APSASAPF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*07:02, HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299
+          <break/>
+          |NSP3-1289-1303|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IKKPNELSRVLGLKT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401644.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ELSPVLGL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725302
+          <break/>
+          |NSP6-229-243|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          CLLNRYFRLTLGVYD
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401712.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FRLTGGVY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725306
+          <break/>
+          |NSP10-45-59|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LCTHTGTGQAITVTP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401662.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TSQAITVT
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725307
+          <break/>
+          |POL-21-35|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PCGTGTSTDVVYRAF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401694.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GTGTSTGV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725307
+          <break/>
+          |POL-257-271|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VDTDLTKPYIKWDLL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401667.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TVPYIKWD
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308|
+          <break/>
+          HEL-241-255
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VPQEHYVRITGLYPT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401712.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VRITGLIP
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725310
+          <break/>
+          |RNASE-249-263|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLLIGLAKRFKESPF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401688.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LKKRFKESYF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725310
+          <break/>
+          |RNASE-293-307|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVIDLLLDDFVEIIK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_401687.1
+          <break/>
+          |EBV|
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DLLLDASVEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*03:01, HLA-DRB3*01:01
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Accession and antigen source of SARS-CoV-2 peptide.        Sequence of peptide used in BLAST searches.        Accession and source virus of BLAST hit.        Sequence of peptide hit.        Percentage of identity between peptide hit and equivalent SARS-CoV-2 peptide.        B cell/Antibody reactivity (peptide hits with B ≥ 0.4 were considered as cross-reactive B cell epitopes).        CD8 T cell cross-reactivity given by the HLA I molecules predicted to bind both the peptide hit and the equivalent SARS-CoV-2 peptide.        CD4 T cell cross-reactivity given by the HLA II molecules predicted to bind both the peptide hit and the equivalent SARS-CoV-2 peptide. NP, None Predicted.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3_3">
+     <title>
+      Cross-Reactive Immunity to SARS-CoV-2 From Bacteria Targeted by Vaccinations
+     </title>
+     <p>
+      In contrast to viruses, the selected bacterial proteomes are considerable sources of cross-reactive immunity to SARS-CoV-2, correlating with their large proteomes (      ). However, the potential immune cross-reactivity rising from these bacteria shall be considered relevant. The match between SARS-CoV-2 and bacteria peptidomes is quite private; only 28 SARS-CoV-2 peptides out of 535 have a match with more than one bacterial proteome. Moreover, 88% of SARS-CoV-2 peptide matches with bacteria are absent in human or have an identity under that with bacteria (see      ). The majority (68%) of cross-reactive SARS-CoV-2 peptides with bacteria do also match the human microbiome (44% with higher identity) (see      ). This finding might look trivial, but it is actually very interesting. It has been noted that maintaining a diverse microbiota is essential for a competent immunity system (      ,      ). Loss of microbiota diversity is associated with many diseases; it occurs in the elderly and immunocompromised subjects, and it can increase susceptibility to viral infections (      ). How a diverse microbiota helps to fight viral infections is unclear, but it could be by increasing the chance for cross-reactive immunity. Interestingly, it has been shown that epitope similarity to the microbiota can enhance the immunogenicity of disease-associated antigenic epitopes (      ).
+     </p>
+     <p>
+      The proteomes of BCG,
+      <italic>
+       B. pertussis
+      </italic>
+      ,
+      <italic>
+       C. diphtheriae
+      </italic>
+      ,
+      <italic>
+       C. tetani
+      </italic>
+      ,
+      <italic>
+       H. influenzae
+      </italic>
+      ,
+      <italic>
+       N. meningitidis
+      </italic>
+      and
+      <italic>
+       S. pneumoniae
+      </italic>
+      , contain numerous potentially cross-reactive epitopes, and make us wonder whether vaccination against these bacteria could elicit protective heterologous immunity against SARS-CoV-2 (      ). Such possibility has already been proposed for BCG (      –      ) but through a different mechanism. BCG is a live attenuated strain of
+      <italic>
+       Mycobacterium bovis
+      </italic>
+      used to prevent tuberculosis (TB) (      ), which is known to confer heterologous protective immunity to unrelated pathogens, including viruses, by inducing trained immunity (      ,      ). Heterologous trained immunity is antigen non-specific and involves functional reprogramming of innate immune cells (      ). It was the observation that there are less COVID-19 cases and fatalities in countries implementing BCG vaccination that led to postulate that trained immunity resulting from BCG vaccination could confer some protection against SARS-CoV-2 (      –      ). Although we fully acknowledge the concept of trained immunity, our results also support that, if any, long-term protection against SARS-CoV-2 induced by BCG is most likely due to the presence of cross-reactive epitopes. We, however, find questionable that current BCG vaccinations are responsible for long-term protection against SARS-CoV-2.
+     </p>
+     <p>
+      BCG is only given once at birth, and long-term protection against any pathogen generally requires repeated antigen re-exposure to maintain memory T and B cells (      ). Moreover, BCG vaccination is only included in some countries, while children and teenagers are largely unaffected by SARS-CoV-2 worldwide. In line with these arguments, a recent epidemiological study has discarded that BCG vaccination in childhood has a protective effect against COVID-19 in adulthood (      ). Therefore, we next turned to analyze if immune cross-reactivity to SARS-CoV-2 from vaccines to
+      <italic>
+       C. diphtheriae, B. pertusis, C. tetani, H. influenzae, N. meningitidis and S. pneumoniae
+      </italic>
+      is what keeps children and young people safe from COVID-19.
+     </p>
+    </sec>
+    <sec id="s3_4">
+     <title>
+      Cross-Reactive Immunity to SARS-CoV-2 From Bacterial Vaccines: DTP and MenB
+     </title>
+     <p>
+      Pediatric vaccines for bacterial disease differ widely, and we first investigated their composition. Vaccines for
+      <italic>
+       H. influenzae
+      </italic>
+      (Hib),
+      <italic>
+       S. pneumoniae
+      </italic>
+      (PCV), and
+      <italic>
+       N. meningitides serotypes
+      </italic>
+      A, C, W, and Y (MenC and MenACWY) consist of bacteria cell wall polysaccharides, alone or conjugated with tetatus and/or diphteria toxoids (      –      ). In contrast, vaccines for
+      <italic>
+       N. meningitides
+      </italic>
+      serotype B (MenB) consist of surface proteins from
+      <italic>
+       N. meningitides
+      </italic>
+      (      ). Diphteria (D) and tetanus (T) vaccines contain inactivated toxins produced by the bacteria (toxoids) but in addition include a large array of proteins as shown by proteomics studies, which can be immunogenic (      ,      ). D and T antigens are generally combined with pertussis (P) antigens as a combination DTP vaccine, which is available in two main formulations: DTaP and DTwP. DTaP contains selected P antigens without cells (acellular pertusis, aP), and DTwP includes inactivated whole pertussis bacteria (wP) (      ).
+     </p>
+     <p>
+      After considering the nature of bacterial vaccines, we discarded conjugate and polysaccharides vaccines and sought for potential sources of cross-reactive immunity in antigens identified by proteomics in DTa/wP and MenB vaccines. D and T antigens can vary between different vaccines, and here we considered the sum of all those reported elsewhere in (      ,      ,      ). Our results, summarized in      , indicate that combination DTP vaccines are significant sources of B and T cell cross-reactivity to SARS-CoV-2, while such cross-reactivity is small from MenB vaccine. In DTaP, P antigens do not contribute to increase the cross-reactive immunity provided by D and T antigens, but in DTwP, wP provide as much cross-reactive immunity as D and T antigens together (      ).
+     </p>
+     <table-wrap id="T4" position="float">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        Summary of potential cross-reactive immunity to SARS-CoV-2 from selected vaccine antigens.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          Vaccine Antigens
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Proteins
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          SARS-Peptide Hits
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          B
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD8 T
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD4 T
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          D
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          340
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          24
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          T
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          601
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          28
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          13
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          aP
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          wP
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1,852
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          67
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MenB
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          267
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Number of peptides in the relevant antigens with ≥8 residues and identity ≥80% with SARS-CoV-2.        Peptide hits with B cell reactivity ≥0.4 (predicted as cross-reactive B cell epitopes).        Peptides predicted as cross-reactive CD8 T cell epitopes.        Peptides predicted as cross-reactive CD4 T cell epitopes. Whole dataset available in        .
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      It is interesting to note that combination DTP vaccines, particularly DTwP, appear to be good inducers of cross-reactive CD8 T cells, which are key to clear viral infections by killing infected cells. The elicitation of virus cross-reactive CD8 T cells with bacterial antigens can occur through cross-presentation. This process enables antigen presenting cells to display endocytosed antigens in the context of HLA I molecules and prime CD8 T cells with anti-viral activity (      ). We actually found more cross-reactive CD8 T cell epitopes than CD4 T cell epitopes (      ). However, this imbalance can be due to the fact that peptides with CD8 T cell epitopes can be shorter than those with CD4 T cell epitopes. In any case, the number of CD8 and CD4 T cell epitopes does not necessarily match with the magnitude of the CD8 and CD4 T cell response to SARS-CoV-2. In fact, SARS-CoV-2 specific CD4 T cell responses appear to be dominant when stimulating peripheral mononuclear blood cells with overlapping peptides (      ). Interestingly, some cross-reactive T cell epitopes in DTP and MenB vaccines can be presented by HLA I and HLA II molecules, which will enable them to elicit both, CD8 and CD4 T cell responses. Moreover, many of the cross-reactive CD8 and CD4 T cell epitopes can be presented by various HLA I and HLA II molecules, respectively. T cell epitopes are only immunogenic in those individual expressing the HLA molecules that restrict the responses. With our data, we computed that the percentage of the world population that will have cross-reactive CD8 T cell responses to SARS-CoV-2 from MenB, DTaP, and DTwP vaccinations will be 46.54, 65.59, and 85.79%, respectively. Moreover, the percentage of the world population that will have cross-reactive CD8 and CD4 T cells to SARS-CoV-2 from MenB, DTaP, and DTwP vaccines will be 70.9, 77.47, and 94.67%, respectively. For populations expressing low frequency HLA molecules not included in this study, a more specific analysis considering such molecules will be required to uncover the relevant cross-reactive T cell epitopes and their coverage in that population. Overall, however, we can confirm that combination DTP vaccines, and particularly DTwP, would be able to elicit cross-reactive T cell responses against SARS-CoV-2 in most individuals.
+     </p>
+     <table-wrap id="T5" position="float">
+      <label>
+       Table 5
+      </label>
+      <caption>
+       <p>
+        Potential cross-reactive T cell epitopes from DTP and MenB vaccine antigens.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          SARS-CoV-2 Antigen
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          SARS-CoV-2 query sequence
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          HIT ACN
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Vaccine
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          ID %
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          HIT SEQ
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD8 T
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          CD4 T
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724394|ORF6-33-47
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          INLIIKNLSKSLTEN
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FTSA_
+          <break/>
+          NEIMB
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          MenB
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          81.8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NLITKDLSKSL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*03:01, HLA-A*11:01, HLA-B*07:02, HLA-B*08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*03:01, HLA-DRB1*07:01, HLA-DRB1*08:02, HLA-DRB1*12:01, HLA-DRB1*13:02, HLA-DRB3*01:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724392|ENV-45-59
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NIVNVSLVKPSFYVY
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q9K1E8_
+          <break/>
+          NEIMB
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          MenB
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VNVSLVDLSF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*23:01, HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725311|2ORMT-89-103
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LPTGTLLVDSDLNDF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q6NGY6_CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LLVDADLTDF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*01:01, HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*03:01, HLA-DRB3*01:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725298|NSP2-93-107
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FVFPLNSIIKTIQPR
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q6NJR6_
+          <break/>
+          CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          88.9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SIIKTIQDR
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*03:01, HLA-A*11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*03:01, HLA-DRB4*01:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390|SPIKE-161-175
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SSANNCTFEYVSQPF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q6NIW5_
+          <break/>
+          CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FEYVSQNF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*40:01, HLA-B*44:02, HLA-B*44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725309|35EXON-1-15
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AENVTGLFKDCSKVI
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q6NFL4_
+          <break/>
+          CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AENVTGFF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*40:01, HLA-B*44:02, HLA-B*44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725307|POL-173-187
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RVYANLGERVRQALL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SYI_
+          <break/>
+          CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EGVRQALL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725309|35EXON-285-299
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          CFVKRVDWTIEYPII
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q899B2_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LKRVDWDIEY
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*35:01, HLA-B*44:02, HLA-B*44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB3*01:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725298|NSP2-69-83
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YELQTPFEIKLAKKF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q894R8_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EIKKAKKF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*08:01, HLA-B*44:02, HLA-B*44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725297|LP-85-99
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MVELVAELEGIQYGR
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q891V6_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LVAILEGIRY
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*01:01, HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725309|35EXON-289-303
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RVDWTIEYPIIGDEL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q899B2_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RVDWDIEY
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*01:01, HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308|HEL-277-291
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YSTLQGPPGTGKSHF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q891B9_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LVGPPGTGKT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*03:01, HLA-A*11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390|SPIKE-1061-1075
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VFLHVTYVPAQEKNF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q899V7_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TNVHAQEKNF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308|HEL-277-291
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YSTLQGPPGTGKSHF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q895L6
+          <break/>
+          _CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LYGPPGTGKT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308|HEL-133-147
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FAAETLKATEETFKL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q899L8_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          88.9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KATEETVKL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725307|POL-137-151
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GNCDTLKEILVTYNC
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q899S9_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LKEILVNYN
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*04:05, HLA-DRB1*12:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725308|HEL-561-575
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FNVAITRAKVGILCI
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VX10_BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP/aP
+          <break/>
+          (DTaP/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TGAKVGIL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390|SPIKE-509-523
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RVVVLSFELLHAPAT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VSF2_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SFELAEAPAT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*40:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*01:01, HLA-DRB1*04:01, HLA-DRB1*04:05, HLA-DRB1*09:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299|NSP3-857-871
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YLATALLTLQQIELK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VWJ0_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ALLTLQQLHL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB4*01:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724397|NP-217-231
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AALALLLLDRLNQLE
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VSK8_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ARLALLPLDR
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*03:01, HLA-A*11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725298|NSP2-69-83
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YELQTPFEIKLAKKF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VVM6
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SPFEIKLA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*07:02, HLA-B*35:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724397|NP-209-223
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RMAGNGGDAALALLL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VUJ1_
+          <break/>
+          _BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QAGQGGDAAL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*07:02
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390|SPIKE-449-463
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YNYLYRLFRKSNLKP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VZJ7
+          <break/>
+          _BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RLFRKSLL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725302|NSP6-97-111
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          WLDMVDTSLSGFKLK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VXB3_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SLSGGKLK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*03:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299|NSP3-249-263
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HGGGVAGALNKATNN
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VVD1_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GGVAGALFAA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-A*02:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725299|NSP3-521-535
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VEEAKTVLKKCKSAF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RL19_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          KLVLKKAKSA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-B*08:01
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724391.1|ORF3a-41-55
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LPFGWLIVGVALLAV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VZ84_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          88.9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LIVGLALLA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*01:01, HLA-DRB1*08:02, HLA-DRB1*15:01
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724392.1|ENV-45-59
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NIVNVSLVKPSFYVY
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VS52_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VVIVSLVKPS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*03:01, HLA-DRB1*08:02
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009725307|POL-749-763
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LRKHFSMMILSDDAV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          PTLC_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HFSMMILGAD
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NP
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          HLA-DRB1*04:05, HLA-DRB4*01:01
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Accession and antigen source of SARS-CoV-2 peptide.        Sequence of peptide used in BLAST searches.        Accession of BLAST hit bacterial antigen.        Vaccine incorporating antigen. All vaccines with D or T antigens are labeled as DTa/wP vaccine formulations.        Percentage of identity of peptide hit to equivalent SARS-CoV-2 peptide.        Sequence of bacterial peptide hit.        CD8 T cell cross-reactivity given by the HLA I molecules predicted to bind both the hit peptide and the equivalent SARS-CoV-2 peptide.        CD4 T cell cross-reactivity given by the HLA II molecules predicted to bind both the peptide hit and the equivalent SARS-CoV-2 peptide. NP, None Predicted.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Elicitation of effective cross-reactive T cell responses to SARS-CoV-2, particularly CD8 T cell responses, would allow the host to clear the virus quickly and exhibit milder courses of COVID-19. However, children appear to be largely unaffected by the virus, which is consistent with having protective antibody immunity blocking and limiting viral infection. Interestingly, such protective immunity could also result from cross-reactive antibodies elicited by combination DTP vaccines. Thus, we found 16 SARS-CoV-2 peptide matches with DTP antigens, mapping in ectodomains of virion surface antigens and of those, 14 are in SARS-CoV-2 Spike protein (      ). None of the SARS-CoV-2 peptide matches mapping in virion surface antigens are from aP antigens, while 11 are from wP, highlighting the superiority of DTwP vaccines in eliciting potentially protective cross-reactive immunity to SARS-CoV-2. It is worth noting that some SARS-CoV-2 peptide matches such as FEYVSQPF are not predicted as B cell epitopes (
+      <italic>
+       B
+      </italic>
+      &lt; 0.4) but yet could be readily recognized by antibodies as shown by the computed solvent accessibilities (      ). B cell epitope predictions methods are in general quite unreliable, and actual solvent accessibilities values are better measures of potential B cell reactivity.
+     </p>
+     <table-wrap id="T6" position="float">
+      <label>
+       Table 6
+      </label>
+      <caption>
+       <p>
+        Potential cross-reactive B cell epitopes from DTP and MenB vaccine antigens.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          SARS-CoV-2 Surface Antigen
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          HIT ACN
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Vaccine
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          SARS-CoV-2 Peptide
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          HIT PEP
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          ID %
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Virion Surface
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          B
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          Acc (%)
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-1-15
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ATPG_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VFLVLLPL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VFLRLLPL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −2.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NA
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-161-175
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q6NIW5_
+          <break/>
+          CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FEYVSQPF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          FEYVSQNF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          62.50
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-233-247
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VZN3_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QTLLALHR
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QTLLATHR
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          9.20
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-253-267
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VVR9_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SSSGWTAGAAA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          QSSGWTAGADA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          81.8
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          19.10
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-449-463
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VZJ7_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RLFRKSNL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          RLFRKSLL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          66.00
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-509-523
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VSF2_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SFELLHAPAT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SFELAEAPAT
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          44.71
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-509-523
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SMG_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ELLHAPAT
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ELAHAPAT
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          51.73
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-701-715
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VX63_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVAYSNNS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVAYSNNS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          100.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          84.18
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-893-907
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VSI7_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IPFAMQMA
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IPFTMQMA
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.7
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          48.84
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-953-967
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q6NG46
+          <break/>
+          _CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ALNTLVKQ
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          ALNGLVKQ
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.6
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          32.18
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_00972439
+          <break/>
+          SPIKE-989-1003
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VSP7_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DRLITGRL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DRLIEGRL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          36.80
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-1061-1075
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q899V7_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TYVPAQEKNF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TNVHAQEKNF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          26.87
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-1089-1103
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          CARA_
+          <break/>
+          CORDI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          D
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EGVFVSNG
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          DGVFVSNG
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22.30
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-1145-1159
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q898W3_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EELDKYFK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          EKLDKYFK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          35.95
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724390
+          <break/>
+          SPIKE-1221-1235
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SYFB_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IAGLIAIV
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IAGLVAIV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −1.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2.70
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724393
+          <break/>
+          MP-5-19
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          CH60_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          TVEELKKL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          AVEELKKL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          45.90
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724393
+          <break/>
+          MP-5-19
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q893U5_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VEELKKLL
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VEELKKEL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          Y
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −0.1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          23.63
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724393
+          <break/>
+          MP-157-171
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q897F9_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IKDLPKEI
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IKDNPKEI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.3
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NA
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724392
+          <break/>
+          ENV-9-23
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VSN6_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVLLFLAF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          SVLKFLAF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −2.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NA
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724392
+          <break/>
+          ENV-45-59
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q7VS52_
+          <break/>
+          BORPE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          wP
+          <break/>
+          (DTwP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IVNVSLVKPS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VVIVSLVKPS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          −1.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NA
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724392
+          <break/>
+          ENV-45-59
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          GLPK1_
+          <break/>
+          CLOTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          T
+          <break/>
+          (DTa/wP)
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VKPSFYVY
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VKPSSYVY
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          87.5
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1.4
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NA
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          YP_009724392
+          <break/>
+          ENV-45-59
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Q9K1E8_NEIMB
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          MenB
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VNVSLVKPSF
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          VNVSLVDLSF
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          80.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          N
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0.0
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          NA
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        SARS-CoV-2 surface antigen.        Accession of antigens with potential cross-reactivity.        Vaccine antigen. For D, T, aP, and wP antigens we show in parenthesis the vaccine incorporating that antigen. D and T antigens are noted to be in DTaP and DTwP vaccines (DTa/wP)        SARS-CoV-2 peptide sequence.        Peptide hit sequence with identity to SARS-CoV-2 peptide.        Sequence Identity (%) between SARS-CoV-2 and hit peptides.        Whether the peptide map in a region of the antigen located at the virion surface.        B cell/Antibody reactivity (peptide hits with B ≥ 0.4 are predicted as cross-reactive B cell epitopes).        Solvent accessibility of SARS-CoV-2 peptide in percentage computed upon residue relative solvent accessibilities from the relevant 3D-structures (details in Methods). NA: Not Applicable.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      SARS-CoV-2 entry in the host cells is facilitated by angiotensin-converting enzyme 2 (ACE2), which is engaged by the receptor binding domain (RBD) of the Spike protein (      ,      ). Antibodies that interfere with such interaction have been shown to be neutralizing and block viral entry (      ). Interestingly, two of the potential cross-reactive B cell epitopes (RLFRKSNL and SFELLHAPAT) from wP antigens map in solvent exposed regions of the spike RBD domain (      ), indicating that they can be neutralizing. There is also a cross-reactive B cell epitope (FEYVSQPF) from a D antigen, which is in close proximity (15–20 Å) to the RBD domain. Antibodies targeting this epitope will, by steric hindrance, block viral engagement with ACE2. Other accessible B cell epitopes from D, T, and wP antigens could also lead to the same effect (      and      ). Antibody blocking of ACE2 interaction with Spike by steric hindrance is enhanced by the fact that SARS-CoV-2 Spike protein is a trimer.
+     </p>
+     <p>
+      We realize that we did not analyze if the potential cross-reactive B cell epitopes in SARS-CoV-2 are also accessible in the source proteins. Although such analysis can be of interest, we found it unnecessary since our approach was aimed to identify continuous/linear B cell epitopes and not-conformational B cell epitopes. Actually, all identified cross-reactive B cell epitopes in SARS-CoV-2 Spike protein with solvent accessibility above 33% map in loop regions. Moreover, it is worth noting that extracellular proteases can degrade antigens as well as immune cells such as neutrophils, which phagocyte antigens and release them semi-degraded. Thus, during the course of immune response there are all sort of antigen fragments (intracellular, extracellular, accessible, buried
+      <italic>
+       etc
+      </italic>
+      ) and antibodies against them are generated, as shown by B cell epitope mapping analysis (      –      ). Of all the antibodies generated against a given pathogen, only those recognizing accessible B cell epitopes in accessible antigens may be protective against that particular pathogen. However, our results support that all the remaining antibodies still can also be useful for providing cross-reactive immunity.
+     </p>
+    </sec>
+    <sec id="s3_5">
+     <title>
+      DTP Vaccination and COVID-19 Epidemiology
+     </title>
+     <p>
+      Our data indicates that DTP vaccines can elicit ample T cell and B cell cross-reactive immunity against SARS-CoV-2. Likewise, MenB vaccines can also induce some substantial cross-reactive T cell immunity against SARS-CoV-2. However, MenB vaccines are unlikely responsible for the observed resilient of children to SARS-CoV-2 worldwide; MenB vaccines have been introduced very recently, in the last decade, and not everywhere (      ,      ). In contrast, combination DTP vaccines are included in every single vaccination program since the 1940–50 (      ). During infancy, children receive 3–4 doses (2, 3, 4, and 11 months of age) of either DTaP or DTwP, often in combination with inactivated poliovirus, conjugated Hib and recombinant antigens from HBV. Children also receive a pediatric DTaP booster vaccination at 4–6 years of age and a Tdap booster vaccination with lower antigenic load at 9–14 years of age. Moreover, pregnant women are also recommended to have a Tdap shot (
+      <uri ns0:href="https://www.who.int/topics/immunization/en/" ns0:type="simple">
+       https://www.who.int/topics/immunization/en/
+      </uri>
+      ). Repeated vaccinations with DTP will therefore support that children and the youngest could be protected against SARS-CoV-2 through cross-reactive immunity elicited by these vaccines. Cross-reactive immunity elicited by DTP vaccines will eventually wane over time explaining why COVID-19 cases, and severity increases with age. We can also speculate that Tdap vaccination during pregnancy may also explain the lower incidence of COVID19 deaths in women. Moreover, Tdap vaccinated women could also pass passive cross-reactive immunity against SARS-CoV-2 to breast-feeding newborns.
+     </p>
+     <p>
+      The current vaccination trend has favored the use DTaP instead of DTwP vaccines (      ). In Europe most countries use combination DTaP vaccines, but some still use combination DTwP vaccines. Taken in consideration that the P component in DTaP vaccines has little contribution to the cross-reactive immunity SARS-CoV-2, we can also conclude that cross-reactive immunity from the D and T components is likely what protects children against COVID-19 worldwide. This protection may be enhanced by conjugated vaccines using D and T toxoids, such as Hib and PCV (      ,      ,      ,      ). However, our data also indicate that cross-reactive immunity to SARS-CoV-2 from the P component in combination DTwP vaccines rivals that of D and T antigens together, suggesting that DTwP vaccines may confer more protection against SARS-CoV-2. Interestingly, COVID-19 deaths and cases per million in Europe and Asian countries of the former URSS (      ) are significantly lower (p &lt; 0.005) in those countries implementing DTwP vaccines (      ). Median deaths and cases per million in countries with wP vaccines are 13 and 451, while these same figures in countries with aP vaccines are 52 and 1,387.
+     </p>
+     <p>
+      Epidemiological data show that adolescents primed with DTaP during infancy are also less protected against clinical pertussis than DTwP-primed children (      ). Priming with DTwP or DTaP combination vaccines during infancy actually determine later immune memory responses at preadolescent age to all DTaP antigens, with wP-priming resulting in a beneficial Th1-dominated response (      ). Most likely this Th1-dominated response is also beneficial against SARS-CoV-2.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4">
+    <title>
+     Conclusion
+    </title>
+    <p>
+     Our findings indicate that cross-reactive immunity elicited by DT antigens in combination DTP vaccines is likely keeping children and the youngest safe from COVID-19 worldwide. Cross-reactive immunity elicited by these vaccines surely wanes over time explaining why COVID-19 cases and severity increases with age. The global health crisis caused by COVID-19 has prompted many efforts to develop a specific vaccine against SARS-CoV-2, which if successful will take a long time to achieve. However, we need a vaccine for SARS-CoV-2 today, and our results support that DTP vaccinations, and in particular DTwP vaccinations, could protect the general population against COVID-19 through cross-reactive immunity. Given the heterogenicity of DTP vaccines, our results also suggest that COVID-19 death rates and severity in different countries may be linked to differences in the composition of DTP vaccines, vaccination regimes, and initiation of DTP vaccination programs.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="data-availability">
+    <title>
+     Data Availability Statement
+    </title>
+    <p>
+     All datasets presented in this study are included in the article/     .
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     The author confirms being the sole contributor of this work and has approved it for publication.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

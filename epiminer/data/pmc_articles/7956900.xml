@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML">
+ <title>
+  Learning from HIV-1 to predict the immunogenicity of T cell epitopes in SARS-CoV-2
+ </title>
+ <abstract>
+  <p>
+   We describe a physics-based learning model for predicting the immunogenicity of cytotoxic T lymphocyte (CTL) epitopes derived from diverse pathogens including SARS-CoV-2. The model was trained and optimized on the relative immunodominance of CTL epitopes in human immunodeficiency virus infection. Its accuracy was tested against experimental data from patients with COVID-19. Our model predicts that only some SARS-CoV-2 epitopes predicted to bind to HLA molecules are immunogenic. The immunogenic CTL epitopes across all SARS-CoV-2 proteins are predicted to provide broad population coverage, but those from the SARS-CoV-2 spike protein alone are unlikely to do so. Our model also predicts that several immunogenic SARS-CoV-2 CTL epitopes are identical to seasonal coronaviruses circulating in the population and such cross-reactive CD8   T cells can indeed be detected in prepandemic blood donors, suggesting that some level of CTL immunity against COVID-19 may be present in some individuals before SARS-CoV-2 infection.
+  </p>
+  <p>
+   Immunology; Immune Respons; In Silico Biology; Artificial Intelligence
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="p0030">
+     It is generally thought that an effective vaccine will likely be required to bring the pandemic of coronavirus disease 2019 (COVID-19) caused by the SARS-CoV-2 virus under control. Thus a myriad of efforts to develop vaccines that may protect against infection by SARS-CoV-2 have been launched (     ). To date, three vaccines have received emergency use approval (EUA) by the Food and Drug Administration in the United States. These vaccines primarily elicit protective antibody responses against the spike protein of SARS-CoV-2. How durable the protection conferred by not only these but also other vaccine candidates will be remains to be shown.
+    </p>
+    <p id="p0035">
+     Although current vaccines and vaccine candidates are primarily geared toward induction of neutralizing antibody responses, a potential role for SARS-CoV-2-specific T cells in protection against and control of infection has been proposed (     ;     ;     ). Indeed, there is evidence from other coronaviruses, like SARS-CoV that caused severe acute respiratory syndrome (SARS) in 2003, that the antibody response elicited in patients infected with SARS-CoV was protective but relatively short lived (     ;     ;     ). In contrast, T cell responses were more durable (     ;     ;     ). For example,     showed that most patients who recovered from SARS-CoV have memory T cell responses directed against the virus four years after recovery.     showed that six years after recovery patients with SARS-CoV did not have significant amounts of virus-specific circulating antibodies, but had significant memory T cell responses compared with healthy controls. Furthermore, a critical role for virus-specific memory T cells in broad and long-term protection against SARS-CoV infection has been elucidated in animal models (     ;     ). The nucleocapsid (N), membrane (M), and envelope (E) proteins of SARS-CoV-2 are over 90% conserved compared with SARS-CoV, and the spike (S) protein is 76% similar (     ). Given this similarity between SARS-CoV-2 and SARS-CoV, it is worth exploring the development of vaccines that may also elicit protective T cell responses.
+    </p>
+    <p id="p0040">
+     Multiple recent studies have been focusing on discovering potential epitopes of SARS-CoV-2 that can elicit T cell responses.     and     have tried to identify peptides of SARS-CoV-2 that have high sequence identity with SARS-CoV epitopes. However, only a small number of SARS-CoV peptides that are experimentally known to elicit T cell responses in humans are shared by SARS-CoV-2. Moreover, these shared peptides are associated with a limited set of human leukocyte antigen (HLA) molecules, thus providing poor coverage of the global population.     and     , among other groups (     ;     ;     ), also identified SARS-CoV-2 peptides that are capable of binding to HLA molecules, based on either major histocompatibility complex (MHC) binding assay results or bioinformatic methods. By doing this, they identified a large pool of SARS-CoV-2 peptides that are associated with diverse HLA molecules, which cover a broad cross-section of the global population. However, binding to HLA molecules does not imply that the peptide epitope will elicit an immunogenic T cell response in humans (     ). Predicting the immunogenicity of T cell epitopes in humans with given HLA types in a reliable way is a major challenge. The ability to address this challenge will significantly aid the design of vaccines that aim to elicit protective T cell responses against diverse pathogens, with SARS-CoV-2 being one example.
+    </p>
+    <p id="p0045">
+     We aimed to systematically determine the relative immunogenicity of cytotoxic T lymphocyte (CTL) epitopes in people with diverse HLA alleles by developing a physics-based learning algorithm. We exploited the fact that short peptides, about 9–11 amino acids in length, are not unique to the organism from which they are derived (     ;     ). Therefore, the information obtained from data on epitope-specific CTL responses against one pathogen can be used to learn CTL immunogenicity patterns against diverse other pathogens. To train and optimize our method we first studied a viral infection, human immunodeficiency virus (HIV), for which well-defined data on the relative immunodominance of CTL epitopes are available. The results suggest that our method is more accurate than the immunogenicity prediction tool publicly available on the Immune Epitope Database (IEDB,
+     <ext-link ext-link-type="uri" id="intref0010" ns0:href="http://tools.iedb.org/immunogenicity">
+      http://tools.iedb.org/immunogenicity
+     </ext-link>
+     ) (     ;     ).
+    </p>
+    <p id="p0050">
+     We then applied our algorithm to identify immunogenic SARS-CoV-2 peptide epitopes and tested our approach by experimentally quantifying CTL responses toward a selection of predicted immunodominant optimal peptides in patients with COVID-19. Our model predicts that only a fraction of peptide epitopes that are known to bind different HLA molecules is likely to be immunogenic. However, the set of immunogenic peptides still provides broad coverage of the global population. Given the low mutability of the SARS-CoV-2 virus so far, these results suggest that a whole proteome immunogen may be able to elicit potent T cell responses in diverse individuals. We also predict that the immunogenic CTL epitopes contained in the spike protein of SARS-CoV-2 (immunogen in most current vaccine formulations) is unlikely to provide broad population coverage, because these spike epitopes are associated with a limited number of HLA alleles. Finally, several predicted immunogenic peptide epitopes derived from the SARS-CoV-2 proteome are identical to those contained in the four human coronaviruses of low pathogenicity (HCoV) that regularly circulate in the human population. Indeed, we found evidence for such cross-reactive CTL responses in pre-pandemic blood, suggesting that HCoV-specific memory CTL responses present in a subset of the population may be able to target SARS-CoV-2 epitopes.
+    </p>
+    <p id="p0055">
+     Our results provide a useful guide for the design of second-generation COVID-19 vaccines that aim to elicit CTL immunity and will also inform other investigators about the likely dominant T cell responses they may wish to test in patients with specific HLA types. More importantly, upon further testing, validation, and elaboration, our approach for predicting immunogenicity of CTL epitopes may be useful for diverse infectious pathogens including those that will undoubtedly emerge in the future.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Results
+    </title>
+    <sec id="sec2.1">
+     <title>
+      Model development and training against clinical data
+     </title>
+     <p id="p0060">
+      CTLs bind to short peptides, about 9–11 amino acids in length, displayed in complex with HLA class I molecules. Such short motifs do not contain any long-range information about the genome of the organism from which they are derived (      ;      ). Therefore, the ability to predict the relative immunogenicity of peptide epitopes derived from the genome of one virus in persons with a given HLA allele is likely to allow the prediction of immunogenicity of epitopes derived from another virus proteome.
+     </p>
+     <p id="p0065">
+      Our model for immunogenicity of CTL peptide epitopes is inspired by studies aimed to predict immunogenicity of cancer neo-antigens for immunotherapy (      ). We wish to predict the peptide immunodominance hierarchy in people with different HLA genes. For that purpose, we define a “CTL immunogenicity metric”
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M1">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , where
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M2">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is the sequence of the peptide whose relative immunogenicity we wish to predict for a person with the HLA allele,
+      <inline-formula>
+       <ns1:math altimg="si3.gif" id="M3">
+        <ns1:mrow>
+         <ns1:mi>
+          M
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      . This metric is the product of three terms, and is written as follows:
+      <disp-formula id="fd1">
+       <label>
+        (Equation 1)
+       </label>
+       <ns1:math altimg="si4.gif" id="M4">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mi>
+            M
+           </ns1:mi>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+         <ns1:mo linebreak="badbreak">
+          =
+         </ns1:mo>
+         <ns1:mfrac>
+          <ns1:mn>
+           1
+          </ns1:mn>
+          <ns1:mrow>
+           <ns1:mi>
+            b
+           </ns1:mi>
+           <ns1:mi>
+            i
+           </ns1:mi>
+           <ns1:mi>
+            n
+           </ns1:mi>
+           <ns1:mi>
+            d
+           </ns1:mi>
+           <ns1:mi>
+            i
+           </ns1:mi>
+           <ns1:mi>
+            n
+           </ns1:mi>
+           <ns1:mi>
+            g
+           </ns1:mi>
+           <ns1:mrow>
+            <ns1:mo>
+             (
+            </ns1:mo>
+            <ns1:mi>
+             s
+            </ns1:mi>
+            <ns1:mo>
+             ,
+            </ns1:mo>
+            <ns1:mi>
+             M
+            </ns1:mi>
+            <ns1:mo>
+             )
+            </ns1:mo>
+           </ns1:mrow>
+          </ns1:mrow>
+         </ns1:mfrac>
+         <ns1:mspace width="0.25em"/>
+         <ns1:mo linebreak="goodbreak">
+          ×
+         </ns1:mo>
+         <ns1:mspace width="0.25em"/>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mtext>
+            pathogen
+           </ns1:mtext>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+         <ns1:mspace width="0.25em"/>
+         <ns1:mo linebreak="goodbreak">
+          ×
+         </ns1:mo>
+         <ns1:mspace width="0.25em"/>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mtext>
+           self
+          </ns1:mtext>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </disp-formula>
+     </p>
+     <p id="p0070">
+      Each of the terms mentioned above reflects a different physical phenomenon. The binding term
+      <inline-formula>
+       <ns1:math altimg="si5.gif" id="M5">
+        <ns1:mrow>
+         <ns1:mfrac>
+          <ns1:mn>
+           1
+          </ns1:mn>
+          <ns1:mrow>
+           <ns1:mi>
+            b
+           </ns1:mi>
+           <ns1:mi>
+            i
+           </ns1:mi>
+           <ns1:mi>
+            n
+           </ns1:mi>
+           <ns1:mi>
+            d
+           </ns1:mi>
+           <ns1:mi>
+            i
+           </ns1:mi>
+           <ns1:mi>
+            n
+           </ns1:mi>
+           <ns1:mi>
+            g
+           </ns1:mi>
+           <ns1:mrow>
+            <ns1:mo>
+             (
+            </ns1:mo>
+            <ns1:mi>
+             s
+            </ns1:mi>
+            <ns1:mo>
+             ,
+            </ns1:mo>
+            <ns1:mi>
+             M
+            </ns1:mi>
+            <ns1:mo>
+             )
+            </ns1:mo>
+           </ns1:mrow>
+          </ns1:mrow>
+         </ns1:mfrac>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is a measure of the probability that the peptide
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M6">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      can be processed, bound to, and displayed by HLA molecule
+      <inline-formula>
+       <ns1:math altimg="si3.gif" id="M7">
+        <ns1:mrow>
+         <ns1:mi>
+          M
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      . Machine learning approaches have been trained on many measurements of peptide presentation by different HLA molecules, and a resulting method, netMHCpan4.0 (      ), can make reasonable estimates of
+      <inline-formula>
+       <ns1:math altimg="si6.gif" id="M8">
+        <ns1:mrow>
+         <ns1:mi>
+          b
+         </ns1:mi>
+         <ns1:mi>
+          i
+         </ns1:mi>
+         <ns1:mi>
+          n
+         </ns1:mi>
+         <ns1:mi>
+          d
+         </ns1:mi>
+         <ns1:mi>
+          i
+         </ns1:mi>
+         <ns1:mi>
+          n
+         </ns1:mi>
+         <ns1:mi>
+          g
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      for many alleles as the percentile rank of the elution-ligand score. We next posit that whether or not a peptide is targeted by human CTLs should correlate with how similar its sequence is to peptides derived from diverse pathogens that are known to elicit a CTL response in humans (listed in the IEDB database (      );      ). The term,
+      <inline-formula>
+       <ns1:math altimg="si7.gif" id="M9">
+        <ns1:mrow>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mtext>
+            pathogen
+           </ns1:mtext>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      in      is the sequence similarity of peptide
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M10">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      to these pathogen-derived peptides. We define
+      <inline-formula>
+       <ns1:math altimg="si7.gif" id="M11">
+        <ns1:mrow>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mtext>
+            pathogen
+           </ns1:mtext>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+         <ns1:mspace width="0.25em"/>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      mathematically as the number of pathogenic peptides whose alignment score with
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M12">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is larger than a threshold value,
+      <inline-formula>
+       <ns1:math altimg="si8.gif" id="M13">
+        <ns1:mrow>
+         <ns1:msub>
+          <ns1:mi>
+           a
+          </ns1:mi>
+          <ns1:mrow>
+           <ns1:mi>
+            p
+           </ns1:mi>
+           <ns1:mi>
+            a
+           </ns1:mi>
+           <ns1:mi>
+            t
+           </ns1:mi>
+           <ns1:mi>
+            h
+           </ns1:mi>
+           <ns1:mi>
+            o
+           </ns1:mi>
+           <ns1:mi>
+            g
+           </ns1:mi>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mi>
+            n
+           </ns1:mi>
+          </ns1:mrow>
+         </ns1:msub>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      :
+      <disp-formula id="fd2">
+       <label>
+        (Equation 2)
+       </label>
+       <ns1:math altimg="si9.gif" id="M14">
+        <ns1:mi>
+         R
+        </ns1:mi>
+        <ns1:mfenced>
+         <ns1:mrow>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mtext>
+           pathogen
+          </ns1:mtext>
+         </ns1:mrow>
+        </ns1:mfenced>
+        <ns1:mo>
+         =
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mo>
+          ∑
+         </ns1:mo>
+         <ns1:mrow>
+          <ns1:mi>
+           e
+          </ns1:mi>
+          <ns1:mo>
+           ∈
+          </ns1:mo>
+          <ns1:mi>
+           p
+          </ns1:mi>
+          <ns1:mi>
+           a
+          </ns1:mi>
+          <ns1:mi>
+           t
+          </ns1:mi>
+          <ns1:mi>
+           h
+          </ns1:mi>
+          <ns1:mi>
+           o
+          </ns1:mi>
+          <ns1:mi>
+           g
+          </ns1:mi>
+          <ns1:mi>
+           e
+          </ns1:mi>
+          <ns1:mi>
+           n
+          </ns1:mi>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mi>
+         θ
+        </ns1:mi>
+        <ns1:mfenced>
+         <ns1:mrow>
+          <ns1:mrow>
+           <ns1:mo>
+            |
+           </ns1:mo>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            |
+           </ns1:mo>
+          </ns1:mrow>
+          <ns1:mo>
+           −
+          </ns1:mo>
+          <ns1:msub>
+           <ns1:mi>
+            a
+           </ns1:mi>
+           <ns1:mrow>
+            <ns1:mi>
+             p
+            </ns1:mi>
+            <ns1:mi>
+             a
+            </ns1:mi>
+            <ns1:mi>
+             t
+            </ns1:mi>
+            <ns1:mi>
+             h
+            </ns1:mi>
+            <ns1:mi>
+             o
+            </ns1:mi>
+            <ns1:mi>
+             g
+            </ns1:mi>
+            <ns1:mi>
+             e
+            </ns1:mi>
+            <ns1:mi>
+             n
+            </ns1:mi>
+           </ns1:mrow>
+          </ns1:msub>
+         </ns1:mrow>
+        </ns1:mfenced>
+       </ns1:math>
+      </disp-formula>
+     </p>
+     <p id="p0075">
+      Here,
+      <inline-formula>
+       <ns1:math altimg="si10.gif" id="M15">
+        <ns1:mrow>
+         <ns1:mi>
+          e
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is a pathogenic peptide in the database;
+      <inline-formula>
+       <ns1:math altimg="si11.gif" id="M16">
+        <ns1:mrow>
+         <ns1:mrow>
+          <ns1:mo>
+           |
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mi>
+            s
+           </ns1:mi>
+          </ns1:mrow>
+          <ns1:mo>
+           |
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is the alignment score of
+      <inline-formula>
+       <ns1:math altimg="si10.gif" id="M17">
+        <ns1:mrow>
+         <ns1:mi>
+          e
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      and
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M18">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , which is determined by the BLOSUM62-based Smith-Waterman alignment method (as used by      ), and
+      <inline-formula>
+       <ns1:math altimg="si12.gif" id="M19">
+        <ns1:mrow>
+         <ns1:mi>
+          θ
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is the step function. A higher alignment score means that the biochemical properties of the two peptides are more similar to each other.
+     </p>
+     <p id="p0080">
+      T cells develop in the thymus, where they are exposed to HLA-bound peptides derived from the hosts proteome. For a thymocyte to mature into a peripheral T cell, it must bind to at least one of these peptides with an affinity that exceeds a threshold value, and not bind to any of them with an affinity that exceeds a higher threshold value (      ). In past studies (      ;      ,      ;      ;      ), we developed a mechanistic understanding of how thymic development shapes the pathogen reactivity of the T cell repertoire in an organism. Extending these studies leads us to the seemingly counterintuitive conclusion that T cells that bind to human peptides more strongly will also be likely to bind more strongly to pathogen-derived peptides. One simple way to understand this is by examining data in mice, which show that more self-reactive T cells are statistically enriched in more hydrophobic amino acids at residues that contact the HLA-bound peptides (      ). This is because T cell receptor (TCR) binding to HLA-bound peptides creates an interface from which water must be partially expelled. So, hydrophobic amino acids are more likely to favor the formation of such an interface. However, this argument applies to both self- and pathogen-derived peptides. Therefore, statistically, TCRs that bind more avidly to self-peptides should also bind more avidly to pathogen-derived peptides. There is some experimental evidence supporting this prediction (      ). Based on these considerations, we include the term,
+      <inline-formula>
+       <ns1:math altimg="si13.gif" id="M20">
+        <ns1:mrow>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mtext>
+            self
+           </ns1:mtext>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , in      , which is the biochemical sequence similarity of peptide
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M21">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      to peptides derived from the human proteome. These peptides are also gathered from the IEDB database (      ) (      ). Similar to      ,
+      <inline-formula>
+       <ns1:math altimg="si13.gif" id="M22">
+        <ns1:mrow>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mtext>
+            self
+           </ns1:mtext>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is defined as the number of self-peptides whose alignment score with
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M23">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      is larger than a threshold value,
+      <inline-formula>
+       <ns1:math altimg="si14.gif" id="M24">
+        <ns1:mrow>
+         <ns1:msub>
+          <ns1:mi>
+           a
+          </ns1:mi>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mi>
+            l
+           </ns1:mi>
+           <ns1:mi>
+            f
+           </ns1:mi>
+          </ns1:mrow>
+         </ns1:msub>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      :
+      <disp-formula id="fd3">
+       <label>
+        (Equation 3)
+       </label>
+       <ns1:math altimg="si15.gif" id="M25">
+        <ns1:mrow>
+         <ns1:mi>
+          R
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mtext>
+            self
+           </ns1:mtext>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+         <ns1:mo linebreak="badbreak">
+          =
+         </ns1:mo>
+         <ns1:msub>
+          <ns1:mo>
+           ∑
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:msup>
+            <ns1:mi>
+             e
+            </ns1:mi>
+            <ns1:mo>
+             ′
+            </ns1:mo>
+           </ns1:msup>
+           <ns1:mo linebreak="badbreak">
+            ∈
+           </ns1:mo>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mi>
+            l
+           </ns1:mi>
+           <ns1:mi>
+            f
+           </ns1:mi>
+          </ns1:mrow>
+         </ns1:msub>
+         <ns1:mrow>
+          <ns1:mi>
+           θ
+          </ns1:mi>
+          <ns1:mrow>
+           <ns1:mo>
+            (
+           </ns1:mo>
+           <ns1:mrow>
+            <ns1:mrow>
+             <ns1:mo>
+              |
+             </ns1:mo>
+             <ns1:mrow>
+              <ns1:mi>
+               e
+              </ns1:mi>
+              <ns1:mo>
+               ,
+              </ns1:mo>
+              <ns1:mi>
+               s
+              </ns1:mi>
+             </ns1:mrow>
+             <ns1:mo>
+              |
+             </ns1:mo>
+            </ns1:mrow>
+            <ns1:mo linebreak="badbreak">
+             −
+            </ns1:mo>
+            <ns1:msub>
+             <ns1:mi>
+              a
+             </ns1:mi>
+             <ns1:mrow>
+              <ns1:mi>
+               s
+              </ns1:mi>
+              <ns1:mi>
+               e
+              </ns1:mi>
+              <ns1:mi>
+               l
+              </ns1:mi>
+              <ns1:mi>
+               f
+              </ns1:mi>
+             </ns1:mrow>
+            </ns1:msub>
+           </ns1:mrow>
+           <ns1:mo>
+            )
+           </ns1:mo>
+          </ns1:mrow>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </disp-formula>
+      Now,
+      <inline-formula>
+       <ns1:math altimg="si16.gif" id="M26">
+        <ns1:mrow>
+         <ns1:msup>
+          <ns1:mi>
+           e
+          </ns1:mi>
+          <ns1:mo>
+           ′
+          </ns1:mo>
+         </ns1:msup>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      denotes a self-peptide.
+     </p>
+     <p id="p0085">
+      We used      ,      , and      to train a predictor of the immunodominance hierarchy of peptides targeted by CTLs in humans with different HLA alleles. The two parameters in our model are
+      <inline-formula>
+       <ns1:math altimg="si14.gif" id="M27">
+        <ns1:mrow>
+         <ns1:msub>
+          <ns1:mi>
+           a
+          </ns1:mi>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mi>
+            l
+           </ns1:mi>
+           <ns1:mi>
+            f
+           </ns1:mi>
+          </ns1:mrow>
+         </ns1:msub>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      and
+      <inline-formula>
+       <ns1:math altimg="si8.gif" id="M28">
+        <ns1:mrow>
+         <ns1:msub>
+          <ns1:mi>
+           a
+          </ns1:mi>
+          <ns1:mrow>
+           <ns1:mi>
+            p
+           </ns1:mi>
+           <ns1:mi>
+            a
+           </ns1:mi>
+           <ns1:mi>
+            t
+           </ns1:mi>
+           <ns1:mi>
+            h
+           </ns1:mi>
+           <ns1:mi>
+            o
+           </ns1:mi>
+           <ns1:mi>
+            g
+           </ns1:mi>
+           <ns1:mi>
+            e
+           </ns1:mi>
+           <ns1:mi>
+            n
+           </ns1:mi>
+          </ns1:mrow>
+         </ns1:msub>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , which will be determined by fitting the model to the training data (      ). Given experimental measurements on the immunodominance hierarchy of peptides derived from pathogens in humans with different HLA alleles, we constructed a binary classifier based on
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M29">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      . A peptide with
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M30">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      larger than a threshold is classified as dominant, and the others are classified as nondominant. We trained and tested our model for
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M31">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mrow>
+           <ns1:mi>
+            s
+           </ns1:mi>
+           <ns1:mo>
+            ,
+           </ns1:mo>
+           <ns1:mspace width="0.25em"/>
+           <ns1:mi>
+            M
+           </ns1:mi>
+          </ns1:mrow>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      as a predictor of immunodominance using experimental data on HIV peptides targeted by humans with different HLA alleles (      ).
+     </p>
+     <p id="p0090">
+      We systematically assembled data on HIV-1-specific CTL responses, as determined by gamma interferon (IFN-γ) enzyme-linked immunospot (ELISpot) assay, against a panel of up to 457 peptides including previously described optimal HIV-1 epitopes as defined in the Los Alamos National Laboratory HIV epitope database (
+      <ext-link ext-link-type="uri" id="intref0015" ns0:href="http://www.hiv.lanl.gov">
+       www.hiv.lanl.gov
+      </ext-link>
+      ) and epitope variants (      ). Data were available from multiple cohorts of HIV-1-infected individuals at different stages of the infection, and subsets of the data have been reported previously (      ;      ). In total, optimal epitope-specific CD8      T cell data were available from 1,102 individuals, including 619 individuals during acute and early infection and 483 individuals during chronic infection of which 321 were considered spontaneous HIV controllers with median plasma HIV RNA levels ≤2,000 copies/mL. For the majority of individuals, the peptides used for T cell response assessment were selected based on the individuals HLA class I genotype. However, 314 individuals with chronic infection had been tested against 267 optimal epitopes, irrespective of the individuals HLA class I alleles. An average of 7 (range, 0–42) epitope-specific CTL responses were detected in the primary infection cohort, whereas HIV-1-specific CTL responses against an average of 20 epitopes (range, 0–95) were detected in chronically infected individuals. For our analysis, HLA class I-restricted CTL responses were considered only if the respective HLA allele was shared by at least 20 individuals in the dataset.      in the      summarizes the frequencies of recognition for tested HIV-1-specific CTL epitopes in the respective cohorts.
+     </p>
+     <p id="p0095">
+      We used the percentage of patients with a given HLA allele responding to a given HIV peptide
+      <inline-formula>
+       <ns1:math altimg="si2.gif" id="M32">
+        <ns1:mrow>
+         <ns1:mi>
+          s
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , denoted as
+      <inline-formula>
+       <ns1:math altimg="si17.gif" id="M33">
+        <ns1:mrow>
+         <ns1:mi>
+          p
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , as the metric of immunodominance. The peptides that elicit response in more than 25% of tested patients with a given HLA allele were labeled as dominant and the others as non-dominant. Repeated 10-fold cross-validation was performed to train and test the model (      ).
+     </p>
+     <p id="p0100">
+      The performance of the
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M34">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      -based classifier on the test sets is summarized as receiver operator characteristic (ROC) curves (      A and 1B). For the HIV acute infection group, the classifier has an area under the curve (AUC) score of approximately 0.71 for the ROC curve. For the chronic infection group, the classifier has an AUC score of approximately 0.66. The superior performance in the acute infection dataset can be explained by the fact that as HIV infection progresses, the virus mutates to escape CTL response, and as a result less immunodominant peptides are targeted by CTLs in the chronic phase (      ). The performance of the current model is compared with a T cell epitope immunogenicity prediction model developed by      , which is publicly available in IEDB. Our model shows superior performance as measured by the AUC (0.71 versus 0.57 for the acute group, 0.66 versus 0.34 for the chronic group;      A and 1B). We also evaluated the importance of each of the three terms of
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M35">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      , the binding term, the term representing similarity to pathogenic peptides, and that representing similarity to human peptides by constructing partial models with one or two terms removed from
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M36">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      . The same training and testing procedures were repeated for these partial models. For both the acute and the chronic groups the partial models show less predictive power compared with the full model as measured by the values of the AUC (      C–1F). The “binding only” bar graphs correspond to the predictions from netMHCpan4.0, which is used commonly. Our full model outperforms netMHCpan4.0 as measured by the values of the AUC, a point that is also evident from the ROC curves corresponding to our model and netMHCpan4.0 (      G and 1H). For example, the values of the AUC for our full model and netMHCpan4.0 for the acute cohort are 0.71 and 0.64, respectively.
+     </p>
+    </sec>
+    <sec id="sec2.2">
+     <title>
+      Only a fraction of SARS-CoV-2 peptides that bind to HLA molecules are immunogenic
+     </title>
+     <p id="p0105">
+      Many research groups have identified peptides derived from SARS-CoV-2 that can bind with HLA molecules (      ;      ;      ;      ;      ). Two different approaches were employed. In one approach, peptides that bind to different HLA molecules were identified based on experimental assays (      ;      ). In the other approach, bioinformatic tools were used to identify peptides that bind to HLA molecules (      ;      ;      ). We used our trained classifier to predict the immunogenicity of peptides that were determined to bind to different HLA molecules experimentally, as reported by      and      . Our classifier can also be easily applied to the peptides reported by other groups too.
+     </p>
+     <p id="p0110">
+      identified 187 SARS-CoV peptides that were suggested by HLA binding assays to bind to diverse HLA class I molecules, and were identical in SARS-CoV-2. We further screened these peptides using our classifier (      ) and found that only 74 of them are predicted to be immunogenic (      and      ). These predicted peptides are associated with 33 different HLA alleles. Standard methods predict that this would enable coverage of 98.8% of the global population (i.e., 98.8% of the global population has at least one of these alleles) and 99.2% of US population (      ).
+      <table-wrap id="tbl1" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         The predicted topmost immunogenic SARS-CoV-2 peptides based on the peptide pool reported by
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           HLA
+          </th>
+          <th>
+           Peptide
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           HLA-A           02:01
+          </td>
+          <td>
+           FLWLLWPVTL; SMWSFNPET; WLLWPVTLA; LLLDRLNQL; FLLNKEMYL; FLLPSLATV; FLNRFTTTL; FLPRVFSAV; ILGTVSWNL; ALWEIQQVV; KLWAQCVQL; FVDGVPFVV; KLNVGDYFV; LLDDFVEII; LLLDDFVEI; LVLSVNPYV; NLWNTFTRL; TLVPQEHYV; TMADLVYAL; VLWAHGFEL; YLDAYNMMI; YLNTLTLAV; HLVDFQVTI; RLDKVEAEV; VLNDILSRL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           44:03
+          </td>
+          <td>
+           LEQWNLVIGF; YEQYIKWPWY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           23:01
+          </td>
+          <td>
+           LWLLWPVTL; SFNPETNIL; GYQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           24:02
+          </td>
+          <td>
+           LWLLWPVTL; SFNPETNIL; KQFDTYNLW; GYQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           30:02
+          </td>
+          <td>
+           ATSRTLSYY; GTTLPKGFY; LSPRWYFYY; VTPSGTWLTY; ISDYDYYRY; RVDFCGKGY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           11:01
+          </td>
+          <td>
+           ATSRTLSYYK; KTFPPTEPK; KTFPPTEPKK; AVLQSGFRK; GVAMPNLYK; RLYYDSMSY; VVYRGTTTY; SVLNDILSR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           07:02
+          </td>
+          <td>
+           FPRGQGVPI; SPRWYFYYL; MPASWVMRI; FPPTSFGPL; IPRRNVATL; HPLADNKFAL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           54:01
+          </td>
+          <td>
+           FPRGQGVPI; SPRWYFYYL; FPPTSFGPL; APHGVVFLHV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           08:01
+          </td>
+          <td>
+           FPRGQGVPI
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           35:01
+          </td>
+          <td>
+           FPRGQGVPI; MPASWVMRI; VVYRGTTTY; HPLADNKFAL; FPNITNLCPF
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           51:01
+          </td>
+          <td>
+           FPRGQGVPI; FPPTSFGPL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           53:01
+          </td>
+          <td>
+           FPRGQGVPI; HPLADNKFAL; FPNITNLCPF
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           40:01
+          </td>
+          <td>
+           MEVTPSGTWL; YEGNSPFHPL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           29:02
+          </td>
+          <td>
+           GTTLPKGFY; LSPRWYFYY; TPSGTWLTY; VTPSGTWLTY; ISDYDYYRY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           03:01
+          </td>
+          <td>
+           KTFPPTEPK; KTFPPTEPKK; AVLQSGFRK; GVAMPNLYK; KLFAAETLK; RLYYDSMSY; VVYRGTTTY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           31:01
+          </td>
+          <td>
+           KTFPPTEPK; KTFPPTEPKK; SVSPKLFIR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           68:01
+          </td>
+          <td>
+           KTFPPTEPK; KTFPPTEPKK
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           01:01
+          </td>
+          <td>
+           LSPRWYFYY; VTPSGTWLTY; ISDYDYYRY; VVDKYFDCY; LIDLQELGKY; RVDFCGKGY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           26:01
+          </td>
+          <td>
+           VTPSGTWLTY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           45:01
+          </td>
+          <td>
+           AEGSRGGSQA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           02:02
+          </td>
+          <td>
+           FLGRYMSAL; FLLNKEMYL; FLLPSLATV; FLNRFTTTL; FLPRVFSAV; ALWEIQQVV; FVDGVPFVV; KLNVGDYFV; KLSYGIATV; LLDDFVEII; LLLDDFVEI; TMADLVYAL; VLWAHGFEL; YLDAYNMMI; YLNTLTLAV; HLVDFQVTI
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           02:03
+          </td>
+          <td>
+           FLGRYMSAL; FLLNKEMYL; FLLPSLATV; FLNGSCGSV; FLNRFTTTL; FLPRVFSAV; ALWEIQQVV; FVDGVPFVV; KLSYGIATV; LLLDDFVEI; TLIGDCATV; TMADLVYAL; VLWAHGFEL; YLDAYNMMI; YLNTLTLAV; HLVDFQVTI
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           02:06
+          </td>
+          <td>
+           FLLNKEMYL; FLLPSLATV; FLPRVFSAV; GVYDYLVST; IQPGQTFSV; ALWEIQQVV; FVDGVPFVV; LLDDFVEII; LLLDDFVEI; LVLSVNPYV; TMADLVYAL; VLWAHGFEL; YLDAYNMMI; YTMADLVYA; HLVDFQVTI
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-C           06:02
+          </td>
+          <td>
+           FRYMNSQGL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           68:02
+          </td>
+          <td>
+           FVDGVPFVV; MVMCGGSLYV; YTMADLVYA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           15:01
+          </td>
+          <td>
+           KQFDTYNLW; RLYYDSMSY; TTLPVNVAF; VVYRGTTTY; YQKVGMQKY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           58:01
+          </td>
+          <td>
+           KQFDTYNLW; TTLPVNVAF; VVYRGTTTY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           69:01
+          </td>
+          <td>
+           TLVPQEHYV; VLWAHGFEL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           40:02
+          </td>
+          <td>
+           YEGNSPFHPL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           27:05
+          </td>
+          <td>
+           GRLQSLQTY; VRFPNITNL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-C           14:02
+          </td>
+          <td>
+           VRFPNITNL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           44:02
+          </td>
+          <td>
+           YEQYIKWPWY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           18:01
+          </td>
+          <td>
+           YEQYIKWPWY
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0115">
+      The same analysis was performed for the 152 SARS-CoV-2 peptides identified by      , which are also verified by HLA binding assays to be strong binders to diverse HLA class I molecules. Our classifier predicted that 98 of them are immunogenic (      and      ). They are associated with 10 different HLA alleles, which cover 94% of the global population and 93.2% of US population. These two sets of predicted immunogenic peptides can be combined together, which gives a total of 162 immunogenic peptides associated with 37 different HLA alleles (      ). These HLA alleles can cover 99.6% of the global population and 99.7% of US population. On average each HLA allele is associated with 7.3 immunogenic peptides. Recall that the immunogenic peptides predicted by our model are defined as those that elicit a response in more than 25% of population with the associated HLA allele. With more than seven immunogenic peptides associated with each HLA allele, it is likely that immunogenic CTL responses will be present in most people with the corresponding allele.
+      <table-wrap id="tbl2" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         The predicted topmost immunogenic SARS-CoV-2 peptides based on the peptide pool reported by
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           HLA
+          </th>
+          <th>
+           Peptide
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           HLA-A           01:01
+          </td>
+          <td>
+           CTDDNALAY; LTNDNTSRY; PTDNYITTY; ISDYDYYRY; DTDFVNEFY; LTDEMIAQY; FTSDYYQLY; GTDLEGNFY; FSAVGNICY; VVDKYFDCY; FLTENLLLY; VTDVTQLYL; LTGHMLDMY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           02:01
+          </td>
+          <td>
+           YLQPRTFLL; FLNRFTTTL; FLLNKEMYL; YLDAYNMMI; YLNSTNVTI; FLLPSLATV; FLAHIQWMV; NLIDSYFVV; YLYALVYFL; ALSKGVHFV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           03:01
+          </td>
+          <td>
+           GVYFASTEK; AVAKHDFFK; TTIKPVTYK; VTNNTFTLK; RLFRKSNLK; GVAMPNLYK; ALAYYNTTK; KLFAAETLK; TLKSFTVEK; KSAGFPFNK; ASMPTTIAK; VLSGHNLAK; KTFPPTEPK; TSFGPLVRK; HLYLQYIRK; STFNVPMEK; TLKGGAPTK; QIYKTPPIK; RIAGHHLGR; IINNTVYTK; RQFHQKLLK; VTYVPAQEK; KLFDRYFKY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           11:01
+          </td>
+          <td>
+           GVYFASTEK; AVAKHDFFK; TTIKPVTYK; VTNNTFTLK; GVAMPNLYK; ALAYYNTTK; KSAGFPFNK; ASMPTTIAK; ITPVHVMSK; KTFPPTEPK; TSFGPLVRK; STFNVPMEK; IINNTVYTK; VTYVPAQEK; QTFFKLVNK; AGFSLWVYK; AIDAYPLTK; HVVGPNVNK; GVYYHKNNK; AVLQSGFRK; HLMGWDYPK; KTIQPRVEK
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A           24:02
+          </td>
+          <td>
+           TYACWHHSI; VYMPASWVM; YYKKDNSYF; NYMPYFFTL; VYSTGSNVF; VYFLQSINF; YYQLYSTQL; YYTSNPTTF; NYNYLYRLF; FYLTNDVSF; FYGGWHNML; YFIASFRLF; RYKLEGYAF; IYNDKVAGF; SYATHSDKF; AYANSVFNI; TYKPNTWCI; FFASFYYVW; YYHTTDPSF
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-C           07:01
+          </td>
+          <td>
+           VYMPASWVM; KRVDWTIEY; HANEYRLYL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B           40:01
+          </td>
+          <td>
+           AELAKNVSL; GEVITFDNL; REVLSDREL; GETLPTEVL; AEWFLAYIL; FELEDFIPM; GEYSHVVAF; QEYADVFHL; AEYHNESGL; HEETIYNLL; SEFDRDAAM; FEYVSQPFL; QELYSPIFL; TEVVGDIIL; SEVGPEHSL; RELHLSWEV; YELQTPFEI; HEGKTFYVL; TEHSWNADL; REQIDGYVM
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-C           04:01
+          </td>
+          <td>
+           GFDYVYNPF
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-C           07:02
+          </td>
+          <td>
+           KRVDWTIEY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-C           01:02
+          </td>
+          <td>
+           FAPSASAFF
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="sec2.3">
+     <title>
+      CTL epitopes contained in the spike protein may not elicit sufficiently broad T cell responses
+     </title>
+     <p id="p0120">
+      Currently, most SARS-CoV-2 vaccines only contain the spike protein of the virus as the immunogen (      ). Thus, we wanted to test whether the immunogenic peptides from the spike protein alone can elicit CTL responses in a large portion of the population. Among the combined set of 162 predicted immunogenic peptides that we identified, 22 belong to the spike protein of the virus, and they are associated with 16 HLA alleles (      ). These 16 HLA alleles cover 92.3% of the global population and 93.5% of the US population. However, on average each HLA allele is only associated with 1.8 immunogenic peptides. This relatively low number indicates that it is likely that most people with a particular allele will not mount immunogenic CTL responses. Therefore, including various viral proteins in the vaccine immunogen may be necessary in order to achieve broad coverage of CTL responses in a given population.
+     </p>
+    </sec>
+    <sec id="sec2.4">
+     <title>
+      Testing predictions against experimental data on immunogenicity of long SARS-CoV-2 peptides
+     </title>
+     <p id="p0125">
+      tested 423 overlapping 15- to 18-mer SARS-CoV-2 peptides for CD4      and CD8      T cell responses using blood samples from 42 recently recovered patients with COVID-19. IFN-γ ELISpot assays and intracellular cytokine staining were used to test for responses. Confirmed CD8      T cell responses were detected against seven peptides in a number of patients. We calculated our CTL immunogenicity metric (
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M37">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      ) for all 9- to 11-mers contained in these long peptides in persons with the HLA types of the positively tested patients (      ). If the largest value of
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M38">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      for at least one 9- to 11-mer contained in a positively tested 15- to 18-mer exceeded the threshold for immunodominance in our model, we predicted a positive CTL response. Encouragingly, we correctly predicted five of the seven positively tested peptides to be immunogenic. Our predictions were incorrect for two long peptides that registered positive responses in one patient each. The small number of confirmed patients tested for each long peptide precluded meaningful calculation of statistical significance.
+      <table-wrap id="tbl3" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Prediction of immunodominance for long peptides, against which CD8         T cell responses were found in patients with COVID-19
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th rowspan="2">
+           Tested peptide
+          </th>
+          <th rowspan="2">
+           Patient
+          </th>
+          <th colspan="3">
+           Largest amplitude prediction
+           <hr/>
+          </th>
+          <th rowspan="2">
+           Immunogenic
+          </th>
+          <th rowspan="2">
+           True positive rate
+          </th>
+         </tr>
+         <tr>
+          <th>
+           Epitope
+          </th>
+          <th>
+           HLA
+          </th>
+          <th>
+           Amplitude
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="2">
+           LSPRWYFYYLGTGPEAGL
+          </td>
+          <td>
+           1–10
+          </td>
+          <td>
+           SPRWYFYYL
+          </td>
+          <td>
+           HLA-B           07:02
+          </td>
+          <td>
+           48,654
+          </td>
+          <td>
+           Yes
+          </td>
+          <td>
+           10/11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           11
+          </td>
+          <td>
+           YLGTGPEAGL
+          </td>
+          <td>
+           HLA-A           02:01
+          </td>
+          <td>
+           4,761
+          </td>
+          <td>
+           No
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           MEVTPSGTWL
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           MEVTPSGTWL
+          </td>
+          <td>
+           HLA-B           40:01
+          </td>
+          <td>
+           97,994
+          </td>
+          <td>
+           Yes
+          </td>
+          <td>
+           1/1
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           LLNKHIDAYKTFPPTEPK
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           KTFPPTEPK
+          </td>
+          <td>
+           HLA-A           11:01
+          </td>
+          <td>
+           1,217,377
+          </td>
+          <td>
+           Yes
+          </td>
+          <td>
+           2/2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td>
+           KTFPPTEPK
+          </td>
+          <td>
+           HLA-A           03:01
+          </td>
+          <td>
+           894,699
+          </td>
+          <td>
+           Yes
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           KDCVVLHSYFTSDYYQLY
+          </td>
+          <td>
+           1–2
+          </td>
+          <td>
+           FTSDYYQLY
+          </td>
+          <td>
+           HLA-A           01:01
+          </td>
+          <td>
+           418,525
+          </td>
+          <td>
+           Yes
+          </td>
+          <td>
+           2/2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           YFTSDYYQLYSTQLSTDTGV
+          </td>
+          <td>
+           1–2
+          </td>
+          <td>
+           FTSDYYQLY
+          </td>
+          <td>
+           HLA-A           01:01
+          </td>
+          <td>
+           418,525
+          </td>
+          <td>
+           Yes
+          </td>
+          <td>
+           2/2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CTFEYVSQPFLMDLE
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           YVSQPFLMDL
+          </td>
+          <td>
+           HLA-C           07:02
+          </td>
+          <td>
+           2,984
+          </td>
+          <td>
+           No
+          </td>
+          <td>
+           0/1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GPKKSTNLVKNKCVN
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           KSTNLVKNK
+          </td>
+          <td>
+           HLA-A           31:01
+          </td>
+          <td>
+           211
+          </td>
+          <td>
+           No
+          </td>
+          <td>
+           0/1
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          The first column shows the tested peptide sequences and column 2 shows the patient index, where patients are counted from top to bottom row for each peptide in          in Peng et al. Columns 3–5 show the epitope-HLA combination from the positively tested patients that results in the largest predicted amplitude. A peptide is predicted to be immunogenic, if this maximum amplitude is larger than the threshold for immunogenicity in our model. The last column shows the true positive rate of the predictions for each peptide. The total number of positively tested patients for each peptide is indicated in the denominator of the true positive rate.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="sec2.5">
+     <title>
+      CTL responses elicited by predicted immunodominant SARS-CoV-2 optimal peptides
+     </title>
+     <p id="p0130">
+      In order to determine if individuals with COVID-19 indeed mount CTL responses against optimal epitopes that our model predicted to be immunodominant, we collected peripheral blood mononuclear cells (PBMCs) from 28 individuals with SARS-CoV-2 PCR-confirmed infection. We selected a total of 108 individual 9-mer SARS-CoV-2 peptides for the HLA alleles that were most frequently expressed in this cohort, namely, HLA A      01:01, A      02:01, A      03:01, A      11:01, A      24:02, B      07:02, B      08:01, and C      04:01. The peptides were selected based on their predicted immunogenicity hierarchy, i.e., according to values (amplitude) of our immunogenicity metric (
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M39">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      ).      A summarizes the mean prediction amplitude of all peptides across all tested alleles, with peptide 1 being the peptide with the highest prediction amplitude for each allele. Peptides with very low predicted immunogenicity values were excluded from this analysis. T cell responses to these peptides were quantified by IFN-γ-ELISpot assay following PBMC expansion with anti-CD3-antibody in IL-2-containing media. Overall, we detected responses for each HLA allele, except for C      04:01 (only four peptides of this allele were tested). Some peptides were not targeted at all, whereas several induced responses in all patients with the corresponding HLA allele (      B). As expected, no responses were seen against predicted HLA-restricted peptides in patients without the corresponding allele (      ). Mean IFN-γ      T cell response magnitude per peptide across individuals with identical HLA ranged from 33 to 987 spot-forming cells/10      PBMCs (      C). Overall, the breadth of CTL responses differed by HLA, with A      01:01-restricted epitopes being more frequently targeted than peptides restricted by other alleles (      D). Interestingly, one individual who expressed four of the tested alleles showed a CTL response to at least one of the predicted peptides in each allele. Orf1ab was the most frequently targeted viral protein followed by N and S (      E). One individual (with allele C      04:01) did not have any CTL responses against the respective peptides but had detectable CTL responses against overlapping peptide pools for N and S, whereas two other individuals had no detectable SARS-CoV-2-specific responses at all. On the other hand, five of the seven patients who did not respond to the N OLP pool as well as 10 of the 14 patients who did not respond to the S OLP pool showed IFN-γ      T cell responses to one or more of our predicted peptides, suggesting an advantage of testing optimal epitopes predicted by our algorithm rather than pools of overlapping peptides in the detection of antigen-specific CTL responses in patients with COVID-19.
+     </p>
+     <p id="p0135">
+      To further analyze these data, for each peptide, we compared the fraction of patients who positively responded to a peptide with its metric of immunogenicity (
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M40">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      ) predicted by our model. For the 108 peptides tested, we found a Pearson correlation value of 0.43 between the predicted value of
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M41">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      and the fraction of positively responding patients (      A). We then grouped peptides according to their restricting HLA types and compared the fraction of positively responding patients for each HLA type with the mean value of
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M42">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      predicted by our model for the grouped peptides. This comparison was characterized by a Pearson correlation value of 0.82 (      B). Interestingly, peptides tested for the HLA type A      01:01 were predicted to be most immunodominant with a large mean value of
+      <inline-formula>
+       <ns1:math altimg="si1.gif" id="M43">
+        <ns1:mrow>
+         <ns1:mi>
+          A
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mo>
+           (
+          </ns1:mo>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mspace width="0.25em"/>
+          <ns1:mi>
+           M
+          </ns1:mi>
+          <ns1:mo>
+           )
+          </ns1:mo>
+         </ns1:mrow>
+        </ns1:mrow>
+       </ns1:math>
+      </inline-formula>
+      (4.9 × 10      ) and patients with this HLA type had the highest fraction of positively responding individuals. This result is consistent with the data that peptides restricted by HLA A      01:01 were most frequently targeted (      D)
+     </p>
+     <p id="p0140">
+      Taken together, these data show a reasonable positive correlation between model predictions and patient data. Moreover, using the model we were able to rapidly identify several highly targeted optimal peptides across several alleles that induced responses in more than 50% of tested patients (      F), further validating our approach.
+     </p>
+    </sec>
+    <sec id="sec2.6">
+     <title>
+      There is significant overlap between immunogenic CTL epitopes in SARS-CoV-2 and less pathogenic human coronaviruses
+     </title>
+     <p id="p0145">
+      Unlike SARS-CoV-2 that causes severe respiratory disease, other less pathogenic coronaviruses circulating in the human population usually only cause mild diseases (like the common cold). Four common human coronaviruses (HCoV), HCoV-229E(NC_002645.1), NL63(NC_005831.2), OC43(NC_006213.1), and HKU1(NC_006577.2), are responsible for 10% to 30% of upper respiratory tract infections in adults (      ). Given that memory T cell responses are likely induced in at least a fraction of the human population infected by these coronaviruses, we wanted to explore whether such memory responses could theoretically be induced/expanded following infection with SARS-CoV-2. Thus we employed our classifier to identify common immunogenic peptide epitopes between HCoV and SARS-CoV-2. We first gathered a set of 38 HLA class I alleles that represent more than 99% of the world. We then applied our classifier to all possible overlapping 8- to 11-mers in the proteome of SARS-CoV-2 and determined that there are 2,311 potentially immunogenic CTL epitopes associated with those 38 HLA alleles. We then further determined the unique set of immunogenic peptides that were common between SARS-CoV-2 and the four common HCoV. We found 46 shared immunogenic peptides, which are associated with 31 HLA alleles (      ). These HLA alleles cover 98.6% of the global population and 99.0% of US population. On average each of these alleles is associated with 5.6 immunogenic peptides. Given this level of overlap between immunogenic epitopes between HCoVs and SARS-CoV-2, one can hypothesize that CTL memory responses elicited by past infection with common coronaviruses could respond to SARS-CoV-2 infection.
+     </p>
+     <p id="p0150">
+      We demonstrate this directly by an
+      <italic>
+       ex vivo
+      </italic>
+      assessment of pre-pandemic PBMCs using one of our SARS-CoV-2 peptides predicted to be both immunogenic and conserved among coronaviruses in a peptide-MHC tetramer (HLA-A      02:01/Orf1ab
+      <sub>
+       4725-4733
+      </sub>
+      ). We find that SARS-CoV-2-reactive CD8      T cells can indeed be detected in unexposed individuals (mean frequency of ~8.3 × 10      , n = 8) (      A, 4B,      ). The frequency of SARS-CoV-2 (Orf1ab
+      <sub>
+       4725-4733
+      </sub>
+      )-specific T cells in unexposed individuals, however, was significantly lower than that of CD8      T cells (mean frequency of ~4.2 × 10      , n = 8) reactive to influenza virus (HLA-A      02:01/M1
+      <sub>
+       58-66
+      </sub>
+      ) (      A and 4B). Phenotypic characterization using CCR7 and CD45RA staining indicates that these SARS-CoV-2 (Orf1ab
+      <sub>
+       4725-4733
+      </sub>
+      )-specific T cells predominantly display a memory phenotype (      C), further suggesting that they had been exposed previously to other HCoVs. We also accounted for the fact that each individual may have been infected by only a subset of the four less pathogenic coronaviruses. So, to determine a lower bound, we determined the immunogenic epitopes that are shared between SARS-CoV-2 and each of the four less pathogenic HCoV. The results are presented in      . On average, 19 epitopes are common with any one of the less pathogenic human coronaviruses. The results shown in      and the experimental data described above lead us to believe that some fraction of the human population has memory T cell responses that may target immunogenic SARS-CoV-2 CTL epitopes and provide some measure of protection. Indeed, several studies have shown that CD4      and also CD8      T cell responses against SARS-CoV-2 peptides were detectable in prepandemic blood donors using OLP mega-pools (      ;      ).
+      <table-wrap id="tbl4" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Shared immunogenic peptides between SARS-CoV-2 and four common low-pathogenicity human coronaviruses
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th/>
+          <th>
+           N = peptide
+          </th>
+          <th>
+           N = HLA
+          </th>
+          <th>
+           HLA coverage (US)
+          </th>
+          <th>
+           HLA coverage (world)
+          </th>
+          <th>
+           Npep per HLA
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           in229E
+          </td>
+          <td>
+           8
+          </td>
+          <td>
+           24
+          </td>
+          <td>
+           93.60%
+          </td>
+          <td>
+           90.20%
+          </td>
+          <td>
+           1.67
+          </td>
+         </tr>
+         <tr>
+          <td>
+           inHKU1
+          </td>
+          <td>
+           31
+          </td>
+          <td>
+           29
+          </td>
+          <td>
+           97.80%
+          </td>
+          <td>
+           96.60%
+          </td>
+          <td>
+           5.24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           inHL63
+          </td>
+          <td>
+           17
+          </td>
+          <td>
+           28
+          </td>
+          <td>
+           96.70%
+          </td>
+          <td>
+           95.00%
+          </td>
+          <td>
+           2.86
+          </td>
+         </tr>
+         <tr>
+          <td>
+           inOC43
+          </td>
+          <td>
+           20
+          </td>
+          <td>
+           25
+          </td>
+          <td>
+           97.50%
+          </td>
+          <td>
+           96.30%
+          </td>
+          <td>
+           2.32
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <bold>
+            average
+           </bold>
+          </td>
+          <td>
+           <bold>
+            10
+           </bold>
+          </td>
+          <td>
+           <bold>
+            26.5
+           </bold>
+          </td>
+          <td>
+           <bold>
+            96.40%
+           </bold>
+          </td>
+          <td>
+           <bold>
+            94.53%
+           </bold>
+          </td>
+          <td>
+           <bold>
+            3.225
+           </bold>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          The first column shows the number of shared immunogenic peptides between SARS-CoV-2 and each of the four viruses. The second column shows the number of HLA alleles associated with those peptides. The third and fourth columns show the population coverage of those HLAs for the United States and the world, respectively. The fifth column shows the average number of immunogenic peptides associated with each HLA. The last row of the table shows the average of all these quantities.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <title>
+     Discussion
+    </title>
+    <p id="p0155">
+     In this work we developed a physics-based learning algorithm that aims to predict the CTL immunogenicity of peptides in humans. By physics-based learning algorithm, we mean that machine learning is performed to determine the parameters in a model that is rooted in the underlying biophysics of T cell responses to antigen, rather than a generic classifier. The model applies to diverse pathogens and requires information only on the HLA alleles in an individual.
+    </p>
+    <p id="p0160">
+     A significant number of bioinformatics tools exist for modeling peptide binding to MHC molecules, such as the NetMHC algorithm 4.0 (
+     <ext-link ext-link-type="doi" id="intref0020" ns0:href="10.1093/bioinformatics/btv639">
+      https://doi.org/10.1093/bioinformatics/btv639
+     </ext-link>
+     ), and are available within the IEDB epitope analysis toolbox. A number of efforts have aimed to develop bioinformatic tools to characterize the sequences of TCRs in human repertoires, and to follow how particular clones evolve in response to viral infections, thus aiming to characterize how specific TCRs react to particular infections (     ;     ). By analyzing the sequences of TCRs, Glanville et al. and Dash et al. (     ;     ;     ) developed sequence-similarity-based clustering algorithms that cluster TCRs with shared sequence motifs that are likely to exhibit similar epitope specificity. However, estimating the immunogenicity of particular epitopes in humans with a particular HLA type has been challenging. Calis et al. proposed a model to predict the immunogenicity of new peptide MHCs (pMHC) using large sets of immunogenic and non-immunogenic pMHC data (     ). Here, we chose a different approach and developed our model based on biophysical considerations. Because short peptides do not carry information about the genome of origin, our model should be applicable to peptides derived from diverse pathogens. Our model was then trained and validated against a large dataset of experimentally quantified T cell responses in HIV-infected individual. The model results in improved performance in predicting immunogenicity compared with publicly available models, such as netMHCpan4.0 and that due to     .
+    </p>
+    <p id="p0165">
+     Many groups have identified SARS-CoV-2 peptides that are able to bind with HLA molecules (     ;     ;     ;     ;     ), either using experimental assays or bioinformatic tools. We screened these peptides for immunogenicity using our algorithm. Specifically, we studied the peptides suggested by     and     , but our model can be applied to filter peptides suggested by other groups. Our results suggest that only a fraction of the peptides that bind to HLA molecules are likely to be immunogenic.
+    </p>
+    <p id="p0170">
+     We tested the predictive capability of our model against two sets of experimental data; one set was reported by     and the other was obtained by us using samples from patients infected with SARS-CoV-2. Despite the paucity of a large cohort of patients, we found satisfactory correlations between model predictions and experimental data for immunogenicity in patients. Taken together, this model tested against data from patients infected with HIV and SARS-CoV-2 suggests that our immunogenicity prediction method is reasonably accurate and will add to existing models that are currently available.
+    </p>
+    <p id="p0175">
+     The combined set of SARS-CoV-2 peptides that we predict to be immunogenic among known HLA binders provides broad coverage of the global population. We note that CTL escape mutations in SARS-CoV-2 thus far are uncommon (     ). Therefore, determination of mutational vulnerabilities of the virus to focus CTL responses to special epitopes, as has been done for HIV (     ;     ;     ;     ;     ;     ;     ;     ;     ;     ;     ), is likely not necessary. Whole proteome immunogens should suffice in a vaccine that aims to elicit potent CTL responses that provide broad population coverage.
+    </p>
+    <p id="p0180">
+     As most SARS-CoV-2 vaccines, under EUA or in development, use only the spike protein as the immunogen, we also analyzed whether peptides from the spike alone can yield broad CTL coverage over the global population. Based on our analysis, the immunogenic spike peptides alone are unlikely to provide such broad coverage from the standpoint of CTL responses. Therefore, to get broad CTL coverage, an immunogen consisting of other SARS-CoV-2 proteins, i.e., ORF, N, etc., might be necessary. This is potentially significant if antibody responses to SARS-CoV-2 prove not to be durable, as reported for SARS-CoV.
+    </p>
+    <p id="p0185">
+     With regard to common human coronaviruses, which have likely infected substantially more individuals than SARS-CoV-2 despite the current pandemic, our model predicts that there is overlap between the immunogenic CTL epitopes among these viruses. Indeed, several groups have now described cross-reactive T cell responses in prepandemic donors (     ;     ), and we also found effector memory CTL responses to predicted cross-reactive epitopes in blood samples from individuals before 2019. Here, we were able to identify single optimal peptides, providing more granularity in the cross-reactive T cell specificity. Furthermore, the cross-reactive CTLs that we found exhibited a memory phenotype. This suggests that memory CTLs directed against less pathogenic coronaviruses could target immunogenic SARS-CoV-2 epitopes upon infection. Clinical outcomes and the course of disease during SARS-CoV-2 infection are extremely heterogeneous, ranging from asymptomatic disease to death (     ). Whether pre-existing HCoV-specific memory T cells actually play a disease modifying or even protective role needs to be determined, but our model now provides the most likely immunodominant CTL epitope-specific responses to focus on.
+    </p>
+    <p id="p0190">
+     Although validated by HIV and also tested against SARS-CoV-2 CTL response data, our model is not yet experimentally tested in larger COVID-19 patient cohorts or for other viral infections. It is important to further validate, and potentially elaborate, the model by testing against experimental data for diverse viruses. More data will also help improve the model. Currently the model contains two parameters
+     <inline-formula>
+      <ns1:math altimg="si14.gif" id="M44">
+       <ns1:mrow>
+        <ns1:msub>
+         <ns1:mi>
+          a
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mi>
+           s
+          </ns1:mi>
+          <ns1:mi>
+           e
+          </ns1:mi>
+          <ns1:mi>
+           l
+          </ns1:mi>
+          <ns1:mi>
+           f
+          </ns1:mi>
+         </ns1:mrow>
+        </ns1:msub>
+       </ns1:mrow>
+      </ns1:math>
+     </inline-formula>
+     and
+     <inline-formula>
+      <ns1:math altimg="si8.gif" id="M45">
+       <ns1:mrow>
+        <ns1:msub>
+         <ns1:mi>
+          a
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mi>
+           p
+          </ns1:mi>
+          <ns1:mi>
+           a
+          </ns1:mi>
+          <ns1:mi>
+           t
+          </ns1:mi>
+          <ns1:mi>
+           h
+          </ns1:mi>
+          <ns1:mi>
+           o
+          </ns1:mi>
+          <ns1:mi>
+           g
+          </ns1:mi>
+          <ns1:mi>
+           e
+          </ns1:mi>
+          <ns1:mi>
+           n
+          </ns1:mi>
+         </ns1:mrow>
+        </ns1:msub>
+       </ns1:mrow>
+      </ns1:math>
+     </inline-formula>
+     , which are the cutoff thresholds for similarity to self and pathogenic peptides, respectively. These two parameters are used for all HLA alleles. However, it is known that peptides bound to different alleles can use different peptide residues to make primary contacts with the TCR. So, a model with allele-specific similarity cutoff thresholds might further improve the performance. This will require training our model against more extensive datasets. As short peptides derived from the proteome do not carry long-range information about the pathogen, if our model is further validated and elaborated, it will be a valuable and simple tool for rapid identification of immunogenic CTL epitopes contained in diverse pathogens. The availability of such a tool will aid many applications pertinent to infectious diseases, including new pandemic-causing pathogens that will undoubtedly emerge in the future.
+    </p>
+    <sec id="sec3.1">
+     <title>
+      Limitations of the study
+     </title>
+     <p id="p0195">
+      Variable accuracy in predicting immunogenic peptides was observed across alleles, i.e., predictions for the HLA-A      01:01 allele were more robust than for other alleles, such as HLA-A      24:02 where the measured peptides did not seem to match the predicted hierarchy. We can only speculate that this is a reflection of the variable amount of data per HLA allele in the HIV dataset that was used to build and train the model. Training the model against more extensive datasets and adjusting the cutoff thresholds per HLA allele will likely help to improve the prediction accuracy. Furthermore, for this proof-of-principle analysis we did not experimentally explore CTL responses against SARS-CoV-2 peptides with very low prediction scores, to confirm that these peptides indeed were not targeted
+      <italic>
+       in vivo
+      </italic>
+      . Although we predicted cross-reactive peptide responses with HCoV, these were only detected using tetramers at very low levels in unexposed individuals. In order to reliably establish the existence and phenotype of these predicted responses, a larger set of HLA/peptide tetramers needs to be evaluated, potentially utilizing tetramer enrichment strategies.
+     </p>
+    </sec>
+    <sec id="sec3.2">
+     <title>
+      Resource availability
+     </title>
+     <sec id="sec3.2.1">
+      <title>
+       Lead contact
+      </title>
+      <p id="p0200">
+       Information and requests for resources should be directed to and will be fulfilled by the lead contact, Boris Julg (
+       <ext-link ext-link-type="uri" id="intref0025" ns0:href="mailto:bjulg@mgh.harvard.edu">
+        bjulg@mgh.harvard.edu
+       </ext-link>
+       ).
+      </p>
+     </sec>
+     <sec id="sec3.2.2">
+      <title>
+       Materials availability
+      </title>
+      <p id="p0205">
+       This study did not generate new unique reagents.
+      </p>
+     </sec>
+     <sec id="sec3.2.3" sec-type="data-availability">
+      <title>
+       Data and code availability
+      </title>
+      <p id="p0210">
+       All relevant data are available from the lead contact upon reasonable request. The code for the computational tool is publicly available at
+       <ext-link ext-link-type="uri" id="intref0030" ns0:href="https://github.com/andy90/immunogenicity_predictor">
+        https://github.com/andy90/immunogenicity_predictor
+       </ext-link>
+       .
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <title>
+     Methods
+    </title>
+    <p id="p0215">
+     All methods can be found in the accompanying     .
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

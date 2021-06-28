@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Genetic and epigenetic factors associated with increased severity of Covid‐19
+ </title>
+ <abstract>
+  <p>
+   Since December 2019, a new form of severe acute respiratory syndrome (SARS) from a novel strain of coronavirus (SARS coronavirus 2 [SARS‐CoV‐2]) has been spreading worldwide. The disease caused by SARS‐CoV‐2 was named Covid‐19 and declared as a pandemic by the World Health Organization in March 2020. Clinical symptoms of Covid‐19 range from common cold to more severe disease defined as pneumonia, hypoxia, and severe respiratory distress. In the next stage, disease can become more critical with respiratory failure, sepsis, septic shock, and/or multiorgan failure. Outcomes of Covid‐19 indicate large gaps between the male–female and the young–elder groups. Several theories have been proposed to explain variations, such as gender, age, comorbidity, and genetic factors. It is likely that mixture of genetic and nongenetic factors interplays between virus and host genetics and determines the severity of disease outcome. In this review, we aimed to summarize current literature in terms of potential host genetic and epigenetic factors that associated with increased severity of Covid‐19. Several studies indicated that the genetic variants of the SARS‐CoV‐2 entry mechanism‐related (angiotensin‐converting enzymes, transmembrane serine protease‐2, furin) and host innate immune response‐related genes (interferons [IFNs], interleukins, toll‐like receptors), and human leukocyte antigen, ABO, 3p21.31, and 9q34.2 loci are critical host determinants related to Covid‐19 severity. Epigenetic mechanisms also affect Covid‐19 outcomes by regulating IFN signaling, angiotensin‐converting enzyme‐2, and immunity‐related genes that particularly escape from X chromosome inactivation. Enhanced understanding of host genetic and epigenetic factors and viral interactions of SARS‐CoV‐2 is critical for improved prognostic tools and innovative therapeutics.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="cbin11572-sec-0010">
+    <label>
+     1
+    </label>
+    <title>
+     INTRODUCTION
+    </title>
+    <p>
+     According to the World Health Organization (WHO) guideline, Covid‐19 severity is classified into four groups: mild, moderate, severe, and critical disease (Zu et al.,     ). Most of the infected patients experience mild or moderate disease and do not need medical assistance. However, approximately 15% of cases develop severe disease and 5% progress to critical status and require intensive care unit, which results in a major burden on the healthcare systems (Bulut &amp; Kato,     ; Epidemiology Working Group for NCIP Epidemic Response.,     ).
+    </p>
+    <p>
+     Surprisingly, some patients are asymptomatic and never develop symptoms of Covid‐19,  even though infected with severe acute respiratory syndrome (SARS)‐CoV‐2 (SARS‐CoV‐2; Lavezzo et al.,     ). Asymptomatic patients play a significant role in the rapid spread of the Covid‐19 pandemic, as asymptomatic infected individuals may also become the infectious source of SARS‐CoV‐2. The prevalence of asymptomatic cases is approximately 40%–45% (Oran &amp; Topol,     ). Some progress rapidly to critical disease (Meng et al.,     ).
+    </p>
+    <p>
+     Age, gender, and comorbidity are found to be associated with poor clinical outcomes. Patients older than 75 years old have more severe disease and a higher risk of death (Chen et al.,     ; Feng et al.,     ; Niederman et al.,     ; Wu et al.,     ). Gender also plays a pivotal role in the severity of Covid‐19 outcomes. Despite the infection rates being similar for both males and females, the average case fatality rate is 1.7 times higher in males and contributes to male‐biased death (Scully et al.,     ). Proposed hypotheses to explain this gender differences include lifestyle choices, social factors, and use of steroid hormones (Gagliardi et al.,     ). The percentage of comorbidities, especially diabetes and hypertension, are higher in the severe and critical cases (Feng et al.,     ). Yet, these risk factors do not explain the severity of Covid‐19, especially in healthy young cases.
+    </p>
+    <p>
+     Evidence from previous human viral infections shows that host genotype determines predisposition or response to infection. For example, C‐C chemokine receptor gene (CCR5) mutations are associated with resistance to HIV‐1 (Quillent et al.,     ), some human leukocyte antigen (HLA) alleles have modulator effects on the viral load, especially for EBV, HIV, and hepatitis C (Agostini et al.,     ; Julg et al.,     ), and deficiencies of antiviral interferons (IFNs) cause severe viral disease (Lim et al.,     ). It was suggested that common variants in multiple loci, moderately rare variants, and gene environment interactions form the basis of genetic predisposition to Covid‐19 (Darbeheshti &amp; Rezaei,     ). In this review, we described the potential host genetic and epigenetic factors that associated with increased severity of Covid‐19. Understanding these factors is important to improve genotype‐based individual therapies and vaccines, especially for high‐risk groups for Covid‐19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0020">
+    <label>
+     2
+    </label>
+    <title>
+     ANGIOTENSIN‐CONVERTING ENZYMES
+    </title>
+    <p>
+     Angiotensin I‐converting enzyme (ACE) and angiotensin‐converting enzyme‐2 (ACE2) are homolog genes that regulate physiological homeostasis of renin–angiotensin system (RAS) (Figure     ). SARS‐CoV‐2 uses the ACE2 receptors to invade the target cells (Hoffmann et al.,     ). ACE and ACE2 regulate each others expression levels in several ways (Ghafouri‐Fard et al.,     ). Therefore, investigation of genetic variants of these genes can make us understand why Covid‐19 is more severe in some individuals.
+    </p>
+    <sec id="cbin11572-sec-0030">
+     <label>
+      2.1
+     </label>
+     <title>
+      Angiotensin I‐converting enzyme
+     </title>
+     <p>
+      A common polymorphism of the ACE gene is characterized by insertion (I) or deletion (D) of a 287‐bp Alu repeat and DD allele is associated with higher ACE levels (Gemmati et al.,      ). The importance of the ACE/ACE2 balance for Covid‐19 progression and therapy has been widely discussed (Gemmati et al.,      ; Sriram &amp; Insel,      ; Tseng et al.,      ; Zamai,      ). ACE and ACE2 regulate the RAS system to balance the local vasoconstrictor/proliferative and vasodilator/antiproliferative actions (Gemmati et al.,      ). Dysregulation of ACE/ACE2 balance might increase tissue damage, proliferation, fibrosis, thrombosis, or inflammation. Therefore, it was speculated that in addition to ACE2, ACE genotype may affect the clinical outcomes of the Covid‐19 (Delanghe et al.,      ; Zheng &amp; Cao,      ).
+     </p>
+     <p>
+      Delanghe et al. (      ) found that the prevalence of Covid‐19 infections was inversely correlated with the D allele frequency in 25 European countries. They obtained similar findings for 33 countries in Europe, North Africa, and the Middle East, reporting that increasing D allele frequency correlated to a reduction in prevalence but an increase in mortality from Covid‐19 (Delanghe et al.,      ). Contrary to these results, increased frequency of the I/I genotype was inversely correlated with susceptibility to SARS‐CoV‐2 infection and consequent mortality in European and Asian countries (Yamamoto et al.,      ). Similarly, an ecological study reported that increased I/I genotype frequency was significantly associated with decreased Covid‐19 mortality in 25 countries from different geographical regions of the world (Aung et al.,      ).
+     </p>
+     <p>
+      The frequency of D allele was significantly associated with the number of SARS‐CoV‐2‐infected cases/million in the Asian populations (Pati et al.,      ). Mortality rates and D allele also showed a significant positive correlation in the Asian populations, indicating higher levels of ACE are deleterious in Covid‐19 patients (Pati et al.,      ). European population has a higher incidence of SARS‐CoV‐2 infection and higher mortality rates (Yamamoto et al.,      ). As ACE DD genotype frequency is higher in the European population than Asian, it is likely that higher mortality rates in European population might be explained by ethnic differences in allele frequency of ACE I/D polymorphism.
+     </p>
+    </sec>
+    <sec id="cbin11572-sec-0040">
+     <label>
+      2.2
+     </label>
+     <title>
+      Angiotensin‐converting enzyme‐2
+     </title>
+     <p>
+      ACE2 is the master regulator of the RAS and responsible for cleaving Angiotensin I and II into peptides Angiotensin 1–9 and Angiotensin 1–7, respectively. Both peptides are key elements involved in regulation of cardiovascular physiology (Donoghue et al.,      ; Gheblawi et al.,      ). SARS‐Cov‐2 infection downregulates ACE2 expression and disrupts homeostatic and protective functions of ACE2, which can result in inflammation (Verdecchia et al.,      ).
+     </p>
+     <p>
+      ACE2 is expressed in most human tissues at different levels (Bibiana et al.,      ; Li et al.,      ). As SARS‐CoV‐2 uses the ACE2 receptor to attack the alveolar epithelial cells, it is speculated that ACE2 expression level in different tissues could uncover the potential genetic susceptibility to Covid‐19 infection (Pinto et al.,      ; Zou et al.,      ). Single‐cell RNA sequencing of lung tissue cell types showed that subsegmental bronchial branches include ACE2‐expressing transient secretory cell population, and interestingly, 40% of these cells are co‐expressing the transmembrane serine protease‐2 (TMPRSS2), which is involved in S protein priming and making these cells potentially vulnerable for SARS‐CoV‐2 infection (Lukassen et al.,      ).
+     </p>
+     <p>
+      The ACE2 gene includes key regulatory elements for chromatin modification and transcription factors, which provides epigenetic and hormonal regulation of expression levels. Association of the ACE2 expression with age, gender, ethnic groups, and body mass index was reported in many tissues (Chen et al.,      ). The association with age was the strongest and higher in Asian females, followed by sex, and then ethnic groups. Age‐dependent ACE2 gene expression in nasal epithelium was investigated in a cohort of 305 individuals, and it was found that younger children (aged &lt;10 years) have the lowest ACE2 levels (Bunyavanich et al.,      ). Therefore, it was suggested that the lower risk among children might due to age‐dependent lower expression of ACE2 (Bunyavanich et al.,      ). Since, androgen receptor signaling regulates both ACE2 and TMPRSS2 transcription, it was hypothesized that androgen‐mediated expression of ACE2 and TMPRSS2 might explain the gender difference in Covid‐19 severity and androgen receptor polymorphisms might be associated with the disease (McCoy et al.,      ). Transcriptome analyses of 700 lung samples revealed that ACE2 was highly expressed in severe patients, compared with controls, and comorbidities may lead to higher chances of developing severe Covid‐19 (Pinto et al.,      ). On the contrary, some reports have indicated a negative correlation between ACE2 expression and Covid‐19 severity (Chen et al.,      ; Cheng et al.,      ; El Baba &amp; Herbein,      ).
+     </p>
+    </sec>
+    <sec id="cbin11572-sec-0050">
+     <label>
+      2.3
+     </label>
+     <title>
+      ACE2 genetic variants
+     </title>
+     <p>
+      ACE2 genotype is associated with the protein structure and binding affinity, serum concentration, and circulating angiotensin levels (Chen et al.,      ). Approximately 18,000 single‐nucleotide variants of human ACE2 are present in the NCBI database. Comparative genetic analysis of the ACE2 in different populations has been performed to investigate genetic predisposition to Covid‐19 (Table      ).
+     </p>
+     <table-wrap content-type="Table" id="cbin11572-tbl-0001" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Summary of reported ACE2 variants and possible interactions with SARS‐CoV‐2
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Variants
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Main findings
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Population
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          References
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          S19P I21V, I21T, E23K, A25T, K26R, T27A, E35D, N64K, E75G, T92I, Q102P, H378R
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Interaction booster between ACE2 and S1 protein,
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          Europeans, Africans, Asians, Americans
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          Darbani (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *H378R and S19P were specific variants of Europeans and Africans
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          E35K, E37K, Y50F, N51D, N51S, M62V, K68E, F72V, M82I, G326E, E329G, G352V, D355N, Q388L, P389H, H505R, R514G/*, Y515C
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Interaction‐inhibitor variants,
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Q388L and M82I were found as specific variants of Americans and Africans
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          R219C, R219H, M383T, P389H, D427Y, R514G, R708W, R710C, R710H, R716C, L731F, R768W
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Distribution of deleterious variants differs among populations
+         </td>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          81,000 genomes AFR, AMI, AMR, ASJ, EAS, EUR, FIN, SAS
+         </td>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          Hou et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *39% (24/61) and 54% (33/61) of deleterious variants occur in AFR and EUR populations,
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Prevalence of deleterious variants among AMR, EAS, FIN, and SAS populations is 2%–10%
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          N720D
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *N720D variant impacted the stability and flexibility of ACE2,
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Not specified
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Mohammad et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          resulting in a more favorable site for TMPRSS2 binding and cleavage.
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          S19P, E329G
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *S19P, K26E, and M82I may adversely affect the stability of the encoded protein
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Not specified
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Hussain et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *S19P and E329G showed noticeable variations in their intermolecular interactions with the S protein, which may confer resistance against the SARS‐CoV‐2 attachment
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          K26R
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Mutated more frequently in NFE,
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          56.885 NFE versus 9.197 EAS
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          Li et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Increases the binding free energy, slightly decreases the binding affinity
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          I468V
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Mutated more frequently in EAS,
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Increases the binding free energy, slightly decreases the binding affinity
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          N720D, K26R, G211R
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Predicted to interfere with protein structure and stabilization
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          6930 Italian
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Benetti et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          L351V, P389H
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Predicted to interfere with SARS‐CoV‐2 spike protein binding
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          K26R, I21V, E23K, T27A, N64K, T92I, Q102P, H378R, S19P
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Predicted to increase susceptibility
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          290,000 samples, &gt;400 population groups
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Stawiski et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          K31R, N33I, H34R, E35K, E37K, D38V, Y50F, N51S, M62V, K68E, F72V, Y83H, G326E, G352V, D355N, Q388L, D509Y
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Putative protective variants predicted to show decreased binding to S‐protein
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          c.439+4G&gt;A intronic, N630H, N720D
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *3 germline variants identified in Covid‐19 patients
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          131 Covid‐19, 1000 control
+         </td>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          Novelli et al. (          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *There is no association of ACE2 variants with Covid‐19 severity
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          K26R
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          * Most frequent in the ASJ, lowest in the Asian populations
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          African, AAF, American, ASJ, Asian, EUR and Latino.
+         </td>
+         <td align="left" colspan="1" rowspan="4" valign="top">
+          (Ali et al.,          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Causes a decrease in the binding energies by approximately 2.1 kcal/mol
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="2" valign="top">
+          I468V, R219C, K341R, D206G, G211R
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          * Increases the electrostatic attraction ordered by binding strength from weakest to strongest.
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Variants are most frequent in EAS, SAS, AAF, EUR, and SAS populations, respectively.
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          H378R
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Directly weakens the binding of catalytic metal atom to decrease ACE2 activity
+         </td>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          <italic>
+           n
+          </italic>
+          = 141,456 Not specified
+         </td>
+         <td align="left" colspan="1" rowspan="3" valign="top">
+          (Guo et al.,          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          S19P
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Distorts the most important helix to the S‐protein
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          G211R, N206G, R219C, R219H, K341R, I468V, S547C
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *May affect secondary structures
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          G405E, W461R, F588S
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          *Predicted as highly destabilizing to the structure of the bound complex.
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Not specified
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          (Khalid &amp; Naveed,          )
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="cbin11572-tbl1-note-0001">
+        <p>
+         Abbreviations: ACE2, angiotensin‐converting enzyme‐2; AFR, African/African American; AMI, Amish; AMR, Latino/Admixed American; ASJ, Ashkenazi Jewish; EAS, East Asians; EUR, European; FIN, Finnish; NFE, Non‐Finnish European; SARS‐CoV‐2, severe acute respiratory syndrome coronavirus 2; SAS, South Asian.
+        </p>
+       </fn>
+      </table-wrap-foot>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+     <p>
+      Cao et al. (      ) analyzed 1700 variants in ACE2 gene region from two databases and distribution of expression quantitative trait loci (eQTLs) from the genotype tissue expression. The authors reported differences in allele frequencies of ACE2 coding variants among East Asian, European, African, South Asian, and mixed American populations. The allele frequencies of 11 of the 15 eQTLs associated with ACE2 expression were higher in East Asians (0.73–0.99) as compared with Europeans (0.44–0.65), suggesting that susceptibility or response to SARS‐CoV‐2 could vary in populations (Cao et al.,      ).
+     </p>
+     <p>
+      Investigation of the host entry machinery genes (ACE2, CtsB, CtsL, and TMPRSS2) showed that the frequencies of the rare variants are significantly different among the populations and might potentially be decisive in SARS‐CoV‐2 entry (Darbani,      ). Furthermore, Darbani (      ) also reported that 13 ACE variants can boost the interaction between ACE2 and S1 protein. Among them, rs73635825 (S19P), rs1244687367 (I21T), rs4646116 (K26R), rs781255386 (T27A), rs1199100713 (N64K), and rs142984500 (H378R) variants significantly differed between the Europeans and Africans. Hou et al. (      ) analyzed ACE2 and TMPRSS2 polymorphisms from three databases and approximately 81,000 human genomes. Distribution of deleterious variants in ACE2 differs among nine populations in particular; African/African American (AFR) and Non‐Finnish European (EUR) populations carry 39% and 54% deleterious variants, respectively. AFR populations carry p.Met383Thr and p.Asp427Tyr variants, and Latino/Admixed American populations carry p.Pro389His variant, which had been reported as an inhibitor variant for interaction with the spike protein of SARS‐CoV‐1 (Hou et al.,      ).
+     </p>
+     <p>
+      Gibson et al. (      ) documented rare variants in different populations predicted to affect the binding to spike protein. They reported that some rare alleles are more frequent among populations or genders. For example, rs4646116 (p.Lys26Arg) allele is higher in Ashkenazi Jewish males than EUR males; besides, this allele is found at higher frequencies in females. They also estimated the change in binding energy of the 15 ACE2 missense variants to SARS‐CoV‐2, finding that Glu37Lys increased the binding the most, whereas Asn720Asp weakened it. N720 variant is one of the most prominent mutation in Europe and localized near the TMPRSS2 cleavage site. Computational structural biology and molecular modeling analysis showed that N720D variant impacted the stability and flexibility of ACE2, and created more favorable site for TMPRSS2 binding and cleavage (Mohammad et al.,      ). Consequently, N720D carriers have an increased S protein binding and viral entry caused by enhanced interaction between ACE2 and TMPRSS2 (Mohammad et al.,      ).
+     </p>
+     <p>
+      Among the natural ACE2 coding variants, 17 were found at the important S protein‐binding positions (Hussain et al.,      ). Whereas most variants showed an identical binding affinity, rs143936283 (E329G) and rs73635825 (S19P) alleles showed noticeable variations in their intermolecular interactions. Therefore, it was speculated that rs143936283 and rs73635825 alleles may confer resistance against the SARS‐CoV‐2 attachment with the human ACE2 receptor (Hussain et al.,      ). Molecular dynamic simulations demonstrated that K26R and I468V variants may affect binding characteristics to S protein through increasing the binding free energy and decreasing the binding affinity (Li et al.,      ). K26R variant is mutated more frequently in Non‐Finnish Europeans, whereas I468V is mutated in East Asians (Li et al.,      ).
+     </p>
+     <p>
+      Potential variants that impact protein stability were identified from whole‐exome sequencing (WES) data of 6930 Italian control individuals (Benetti et al.,      ). p.(Asn720Asp), p.(Lys26Arg), and p.(Gly211Arg) missense variants were common and predicted to interfere with ACE2 protein structure and stabilization, whereas p.(Pro389His) and p.(Leu351Val) variants were rare and predicted to interfere with SARS‐CoV‐2 spike protein binding. Furthermore, they have reported statistically significant higher allelic variability in controls and suggested that a predisposing genetic background might determine the interindividual differences associated with Covid‐19 (Benetti et al.,      ). A comprehensive analysis of large genomic dataset identified nine ACE2 variants, as listed in the Table      , predicted to increase susceptibility and 17 variants predicted to show decreased binding to S protein and protective to Sars‐CoV‐2 infection (Stawiski et al.,      ).
+     </p>
+     <p>
+      Contrary to these results, some reports indicated that there is not a significant association between ACE2 variants and disease severity (Torre‐Fuentes et al.,      ). ACE2 genetic variants were analyzed by WES in 131 DNA samples of Covid‐19 patients hospitalized in Italy, compared with a control group consisting of 1000 individuals (Novelli et al.,      ). The frequency of c.1888G&gt;C p.(Asp630His) variant showed a significant difference among ethnically matched populations; however, there was no association between the ACE2 variants and Covid‐19 severity (Novelli et al.,      ). In silico analyses for ACE2‐S1 protein‐binding dynamics also revealed some conflicting results (Benetti et al.,      ; Darbani,      ; Hou et al.,      ; Hussain et al.,      ; Li et al.,      ; Mohammad et al.,      ). Further functional studies and genotype analyses of larger severe/critical patients would shed light on the role of ACE2 genotypes in Covid‐19.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0060">
+    <label>
+     3
+    </label>
+    <title>
+     GENETIC VARIANTS OF CELLULAR PROTEASES
+    </title>
+    <p>
+     Cell entry mechanism of SARS‐CoV‐2 involves a cell surface receptor to bind and spike protein priming by cellular proteases, which facilitates membrane fusion. TMPRSS2 was the first protease that was associated with the S protein priming. Subsequent studies have shown that different proteases may also play a role in the entry mechanisms of SARS‐CoV‐2. Hoffmann et al. (     ) studied the TMPRSS2 and endosomal cysteine proteases cathepsin B and L (CatB/L). TMPRSS2 and CatB/L prime S protein; however, CatB/L activity is dispensable for viral spread and pathogenesis. On the contrary, Ou et al. (     ) reported that cathepsin L is critical for SARS‐CoV‐2 entry. Furin is also reported as another protease that cleaves the spike protein at the S1/S2 site, which is essential for S protein‐mediated cell–cell fusion and entry into human lung cells (Hoffmann et al.,     ). Polymorphic variants in the SARS‐CoV‐2 entry‐related genes (ACE2, ELANE, CTSL, TMPRSS2, and TMPRSS11A,) have been reported in several populations (Vargas‐Alarcon et al.,     ). These genetic variants could be important for association studies in the Covid‐19 disease.
+    </p>
+    <sec id="cbin11572-sec-0070">
+     <label>
+      3.1
+     </label>
+     <title>
+      Transmembrane serine protease‐2
+     </title>
+     <p>
+      TMPRSS2 gene is localized on chromosome 21 and encodes a serine protease enzyme that is involved in cleavage and activation of the SARS‐CoV‐2 spike protein during membrane fusion (Hoffmann et al.,      ). As TMPRSS2 is an androgen‐responsive serine protease, it was hypothesized that males might have higher TMPRSS2 expression in the lung, which contributes to pathogenesis of SARS‐CoV‐2 and explains the higher mortality in males (Asselta et al.,      ). However, the overall expression of TMPRSS2 did not show a remarkable increase in males (Asselta et al.,      ).
+     </p>
+     <p>
+      TMPRSS2 gene variations have been associated with several diseases including viral infections. Therefore, it was suggested that genotyping studies of Covid‐19 patients could aid in understanding the impact of TMPRSS2 variations on clinical outcomes (Stopsack et al.,      ; Strope et al.,      ). In silico analyses showed that 21 single‐nucleotide polymorphisms can affect the function and structure of TMPRSS2 by influencing the protein folding, posttranslational modifications, splicing, and microRNA (miRNA) function (Paniri et al.,      ). Among these, rs12329760 and rs875393 may create de novo a pocket protein or a donor site, silencer, and broken enhancer motifs, whereas rs12627374 can affect a wide spectrum of miRNAs profile (Paniri et al.,      ). Regulatory variants (rs713400, rs11910678, rs77675406, and rs112657409) of TMPRSS2 were found to influence the expression level that could be involved in the SARS‐CoV‐2 infection (Senapati et al.,      ). The rare variants and polymorphisms of TMPRSS2 were compared between Europeans and East Asians using an exome and SNP array data from a large Italian cohort (Asselta et al.,      ). Exonic variant p.Val160Met (rs12329760) and distinct haplotypes (rs8134378, rs2070788, rs9974589, rs7364083), predicted to induce higher levels of TMPRSS2, were more frequent in the Italian than in the East Asians. It was suggested that these variants might explain the sex bias in Covid‐19 severity and higher mortality rates in Italy (Asselta et al.,      ). p.Val160Met is a unique but prevalent polymorphism that all populations carry with the highest allele frequency (~25%), especially for the EAS population (40%) (Hou et al.,      ). These common polymorphisms provided possible explanations for differential genetic susceptibility to Covid‐19 (Hou et al.,      ; Ravaioli et al.,      ). Irham et al. (      ) reported that the frequencies of TMPRSS2‐upregulating variants (rs2070788, rs464397, rs469390, and rs383510) are higher in Europeans and Americans than in the Asians, which might explain the vulnerability to SARS‐CoV‐2 infection in different populations.
+     </p>
+     <p>
+      WES of TMPRSS2 gene in a familial multiple sclerosis cohort including 120 cases found out the association of rs75603675, rs61735792, and rs61735794 with SARS‐CoV‐2 infection (Torre‐Fuentes et al.,      ). Comparing with the corresponding allelic frequency in GnomAD, c.23G&gt;T, c.331G&gt;A, and c.589G&gt;A alleles were significantly different in Covid‐19 patients (Latini et al.,      ). In particular, rare variant c.331G&gt;A (p.Gly111Arg) showed higher and c.23G&gt;T (p.Gly8Val) and c.589G&gt;A (p.Val197Met) variants showed lower frequency in Covid‐19 patients. The missense variant c.589G&gt;A was associated with decreased proteolytic activity of TMPRSS2 and protective effects toward infection (Latini et al.,      ). p.Val197Met allele was decreased among the critical patients as compared with the mild cases and the general population (F. Wang et al.,      ).
+     </p>
+    </sec>
+    <sec id="cbin11572-sec-0080">
+     <label>
+      3.2
+     </label>
+     <title>
+      Furin (paired basic amino acid‐cleaving enzyme, PCSK3)
+     </title>
+     <p>
+      SARS‐CoV‐2 spike protein contains a multibasic S1/S2 site where host cell protease Furin can cleave S protein (Hoffmann et al.,      ). Bestle et al. (      ) showed that TMPRSS2 and Furin are both essential for proteolytic activation of SARS‐CoV‐2, so inhibition of these two proteases ensures a therapeutic approach for treatment of Covid‐19. Furthermore, it was suggested that plasma Furin levels are elevated in patients with diabetes mellitus, which might explain the predisposition and poor outcomes of diabetic patients to Covid‐19 (Fernandez et al.,      ; Muniyappa &amp; Gubbi,      ).
+     </p>
+     <p>
+      Six genetic variants of Furin gene have been demonstrated in a small cohort of Covid‐19, but none of them was associated with Covid‐19 (Torre‐Fuentes et al.,      ). Klaassen et al. (      ) studied the coding regions of proteases in a small Serbian cohort and predicted two Furin variants, p.Gly146Ser and p.Thr33Ala, that could impact the structure and/or function of protein using in silico analyses. As Gly146 variation is located within the peptidase domain of Furin protein, 146Ser substitution is predicted to be potentially damaging/deleterious (Klaassen et al.,      ). Intronic (c.372+5G&gt;A) and missense (c.128C&gt;T, p.Ala43Val; c.436G&gt;A, p.Gly146Ser; c.893G&gt;A, p.Arg298Gln; c.1906A&gt;G, p.Ile636Val) germline Furin variants were identified in SARS‐CoV‐2‐positive patients in Italy (Latini et al.,      ). The allelic frequency of these variants was very low and a statistically significant difference was found for the c.893G&gt;A, (p.Arg298Gln) compared with Europeans (Latini et al.,      ).
+     </p>
+     <p>
+      Dobrindt et al. (      ) obtained CRISPR‐edited Furin‐rs4702 (GG) in lung cells and neurons, and then they investigated the effects of this genetic variant on SARS‐CoV‐2 infection. rs4702 GG alveolospheres exhibited a decreased Furin expression and SARS‐CoV‐2 infection. Both AA and GG neurons were infected by SARS‐CoV‐2; however, they reported a trend toward decreased SARS‐CoV‐2 infection in GG neurons. This study clearly shows that a single noncoding regulatory variant at the Furin locus can affect SARS‐CoV‐2 infection.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0090">
+    <label>
+     4
+    </label>
+    <title>
+     GENETIC VARIATIONS OF IMMUNITY COMPONENTS
+    </title>
+    <sec id="cbin11572-sec-0100">
+     <label>
+      4.1
+     </label>
+     <title>
+      Interferons
+     </title>
+     <p>
+      IFNs are a family of specialized cytokines that activate a cell signaling cascade, controlling the induction of hundreds of interferon‐stimulated genes. Three distinct types of IFNs, Types I, II, and III, mediate antiviral response and activate host defence against viral infections (Acosta et al.,      ). It was reported that timing of the Type I IFN response is highly critical for SARS‐CoV and MERS‐CoV (Channappanavar et al.,      and Channappanavar &amp; Perlman,      ). Ziegler et al. (      ) discovered that ACE2 is one of the human IFN‐stimulated gene in human, but not in mouse, suggesting species‐specific IFN‐driven ACE2 upregulation as a tissue‐protective mechanism during lung injury.
+     </p>
+     <p>
+      Type I IFNs bind to type I interferon receptor (IFNAR) and activates a self‐enhancing positive feedback loop, resulting in induction of large, protective amounts of IFN‐α. IFNAR comprises two subunits, IFNAR1 and IFNAR2. Deficiency of IFNARs narrow the functions of IFN‐α/β in human antiviral immunity (Duncan et al.,      ). IFNAR1 (p.Trp73Cys, p.Ser422Arg, p.Pro335del) and IFNAR2 (p.Glu140fs) variants were found in patients hospitalized for life‐threatening pneumonia caused by SARS‐CoV‐2 (Zhang et al.,      ). Pairo‐Castineira et al. (      ) also newly reported a significant association between critical Covid‐19 and intron variant rs2236757 in the IFNAR2 gene. IFN receptors use cytoplasmic kinases like tyrosine kinase 2 (TYK2) to transmit IFNs‐activated phosphorylation signals (Su et al.,      ). Near the TYK2 coding locus, rs74956615 was associated with critical Covid‐19 and TYK2 was suggested as a potential drug target (Pairo‐Castineira et al.,      ).
+     </p>
+     <p>
+      Interferon‐inducible transmembrane (IFITM) proteins are small homologous proteins localized in the plasma and endolysosomal membranes, which provide Types I and II IFN response. A synonymous variation, rs12252, within the first exon of IFITM3 gene has been associated with increased severity of influenza infections (Wellington et al.,      ). For the Covid‐19 disease, it had been reported that homozygosity for the C allele of rs12252 within the IFITM3 gene is associated with more critical disease in an age‐dependent manner (Zhang et al.,      ).
+     </p>
+     <p>
+      2′‐5′‐Oligoadenylate synthase (OAS) family genes are induced by IFNs at the early phase of viral infection and responsible for the degradation of viral RNA (Choi et al.,      ). Coding region alterations of OAS1 (p.Arg47Gln, p.Ile99Val and p.Arg130His) were suggested as predictive markers for interindividual differences in the response to the Covid‐19 (Klaassen et al.,      ). A new report from the COVID‐19 Host Genetics Initiative (HGI) indicated an association region on chromosome 12 close to the OAS gene cluster (
+      <ext-link ext-link-type="uri" ns0:href="http://covid19hg.org">
+       covid19hg.org
+      </ext-link>
+      , October 2020). A recent genome‐wide association study (GWAS) report also found out genome‐wide significant association with critical Covid‐19 and the rs10735079 variant that lies in the OAS gene cluster (Pairo‐Castineira et al.,      ).
+     </p>
+    </sec>
+    <sec id="cbin11572-sec-0110">
+     <label>
+      4.2
+     </label>
+     <title>
+      Interleukins (ILs)
+     </title>
+     <p>
+      Low‐producing or high‐producing IL‐6 polymorphisms were related clearance of viral infection, sustained virologic response, and attenuated adaptive immune response (Barrett et al.,      ; Bogdanović et al.,      ; Nattermann et al.,      ). A recent meta‐analysis showed that mean IL‐6 concentrations were dramatically increased in patients with cytokine release syndrome, sepsis, and acute respiratory distress syndrome unrelated to Covid‐19 (Leisman et al.,      ). However, the association of IL‐6 polymorphisms with pathogenesis and severity of Covid‐19 has not been elucidated. Kirtipal and Bharadwaj (      ) advised to consider IL‐6 polymorphisms as a key factor to understand the therapeutic response against the Covid‐19 to establish a targeted therapeutic development. A total of 22.2 million genetic variants were investigated among five severity groups (asymptomatic, mild, moderate, severe, critical) of 332 Covid‐19 patients (F. Wang et al.,      ). IL‐1 signaling pathway component TMEM189–UBE2V1 was the most significant gene locus associated with severity.
+     </p>
+    </sec>
+    <sec id="cbin11572-sec-0120">
+     <label>
+      4.3
+     </label>
+     <title>
+      Toll‐like receptors (TLRs)
+     </title>
+     <p>
+      TLRs are a family of innate immune receptor molecules known as pattern recognition receptors (PRRs) (Takeda &amp; Akira,      ). Pathogen‐associated molecular patterns are recognized by this receptor family to alarm host immune system. TLR3 is the most abundantly and widely expressed TLR that recognizes virus‐derived double‐stranded (ds) sRNA. TLR7 and TLR8 recognize virus‐derived single‐stranded (ss) RNA. After detection, a pathogen‐associated molecular pattern, TLRs trigger immune signaling cascades to induce transcription of Type I IFNs and inflammatory cytokines. IFN regulatory transcription factors like IRF3 and IRF7 are also involved in these signaling cascades (Lim &amp; Staudt,      ).
+     </p>
+     <p>
+      Zhang et al. (      ) investigated TLR3‐ and IRF7‐regulated type I IFN response in life‐threatening Covid‐19 patients. The authors found out eight genetic loci in a critical disease. Identified variants underlie autosomal‐recessive (IRF7 and IFNAR1) and autosomal‐dominant deficiencies (TLR3, IRF3, IRF7, IFNAR1, IFNAR2, TICAM1, TBK1, and UNC93B1) (Zhang et al.,      ). Loss‐of‐function variants of the TLR7 (c.2129_2132del; p.Gln710Argfs*18; c.2383G&gt;T; p.Val795Phe) were reported in a case series of four young men from two unrelated families, admitted to the intensive care unit due to critical Covid‐19 (van der Made et al.,      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0130">
+    <label>
+     5
+    </label>
+    <title>
+     HLA LOCUS
+    </title>
+    <p>
+     The HLA system consists of a group of proteins that play a crucial role in the antigen presentation and genetic diversity. HLA is the most polymorphic genetic locus in humans that enables the immune system to cope with all the different pathogens that will be encountered. The HLA region consists of more than 240 genes and they are divided into three classes, namely I, II, and III (Dendrou et al.,     ). HLA Classes I and II molecules present antigenic peptides to T cells and enable the immune system to discriminate between self and nonself. If HLA peptides have increased binding specificities to the SARS‐CoV‐2 peptides, it would provide better T cell response to virus infection. Therefore, few studies have been carried out to find out the relationship between HLA genotype and disease severity.
+    </p>
+    <p>
+     The frequencies of the HLA‐C*07:29 and B*15:27 alleles were significantly higher in Covid‐19 patients (W. Wang et al.,     ). Nguyen et al. (     ) hypothesized that HLA genotypes may differentially induce the T‐cell‐mediated antiviral response and could potentially alter the severity of disease. In‐silico analysis revealed potential alleles that could be associated with more severe infection. In particular, HLA‐B*46:01 allele has the fewest predicted binding peptides for SARS‐CoV‐2. Therefore, HLA‐B*46:01 allele is predicted to present the fewest SARS‐CoV peptides, which is consistent with Lins study (Lin et al.,     ). However, HLA‐B*15:03 allele has the greatest capacity to present highly conserved SARS‐CoV‐2 peptides, so HLA‐B*15:03 carriers may enable cross‐protective T‐cell‐based immunity (Nguyen et al.,     ). F. Wang et al. (     ) reported that HLA‐A*11:01, B*51:01, and C*14:02 alleles significantly predispose the worst outcome of the Covid‐19 cases. Contrary to these findings, a GWAS that includes 1980 patients with Covid‐19 and severe disease did not report SNP association signals at the HLA locus (Severe Covid‐19 GWAS Group et al.,     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0140">
+    <label>
+     6
+    </label>
+    <title>
+     3P21.31 AND 9Q34.2 LOCI
+    </title>
+    <p>
+     GWAS of severe Covid‐19 with respiratory failure revealed a significant association with rs11385942 at locus 3p21.31 and with rs657152 at locus 9q34.2 (Severe Covid‐19 GWAS Group et al.,     ). rs11385942 GA allele was associated with a reduced chemokine (C‐X‐C motif) receptor (CXCR)‐6 and an increased Sodium/Imino‐Acid Transporter‐20 (SLC6A20) expression. Moreover, allele frequency of GA variant was higher in patients with Covid‐19 with respiratory failure (Severe Covid‐19 GWAS Group et al.,     ). SLC6A20 expression was found in the lung pneumocytes (Uhlen et al.,     ). SLC6A20 functionally interacts with ACE2 receptor, which might explain its relationship with SARS‐CoV‐2 (Vuille‐dit‐Bille et al.,     ).
+    </p>
+    <p>
+     To clear the significance of these loci in Covid‐19 disease, Katz et al. (     ) utilized proteomic profiling and genetic information from three cohorts to identify proteins influenced by these loci. C‐X‐C motif chemokine (CXCL)‐16 and teratocarcinoma growth factor‐1 proteins were found to have a quantitative trait in the 3p21.31 locus. CXCL16 and CXCR6 are chemokine and receptor pair whose genes are within the 3p21.31 locus. CXCL16 and CXCR6 are associated with localization of tissue‐resident memory CD8 T cells to the airways and LPS‐induced acute lung injury (Tu et al.,     ; Wein et al.,     ), which are therefore suggested as potential Covid‐19 mediators (Katz et al.,     ).
+    </p>
+    <sec id="cbin11572-sec-0150">
+     <label>
+      6.1
+     </label>
+     <title>
+      ABO locus
+     </title>
+     <p>
+      The association signal at locus 9q34.2 coincided with the ABO locus. Comparing with the non‐A blood carriers, group A carriers are associated with the higher risk for acquiring Sars‐CoV‐2 infection. Likewise, infection risk is lower in O carriers, compared with the non‐O blood carriers (Wu et al.,      ; Zhao et al.,      ). A moderately increased infection rate was reported among non‐O blood types and Rh‐positive individuals (Zietz &amp; Tatonetti,      ). Also, intubation risk was found to be increased in AB and B groups and decreased in A and Rh‐negative groups (Zietz &amp; Tatonetti,      ).
+     </p>
+     <p>
+      Two genome‐wide association studies of severe Covid‐19 reported that blood group A shows higher risk than other blood groups, whereas O group displays a protective effect as compared with other blood groups (Ellinghaus et al.,      ; Severe Covid‐19 GWAS Group et al.,      ). It is still uncertain how blood types influence the outcome of Covid‐19. Proteomic profiling analysis of ABO locus showed that variants in the ABO locus are associated with levels of CD209/DC‐SIGN (Dendritic cell‐specific intercellular adhesion molecule‐3‐Grabbing Non‐integrin) (Katz et al.,      ), which is a binding protein for SARS‐CoV (Yang et al.,      ). It was suggested that ABO locus may confer its risk by modulating DC‐SIGN, which is a binding site for SARS‐CoV‐2. Another hypothesis is that ABO blood group influences the glycosyltransferase activity and risk of venous thromboembolism, which is frequent in severe Covid‐19 cases, and can lead to severe outcomes (Ibrahim‐Kosta et al.,      ; Porfidia et al.,      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0160">
+    <label>
+     7
+    </label>
+    <title>
+     APOLIPOPROTEINS
+    </title>
+    <p>
+     Apolipoprotein E (APOE) is a polymorphic gene locus and ε2/ε3/ε4 alleles code for three major isoforms in plasma. ApoE ε4 (ApoE4) allele is associated with atherosclerosis, cardiovascular disease, shortened longevity, and Alzheimers disease (Smith,     ). H. Wang et al. (     ) showed that APOE enhances the entry and infectivity of the SARS‐CoV‐2. They suggested that SARS‐CoV‐2 entry sites are cholesterol‐dependent, and furin priming of SARS‐CoV‐2 is also sensitive to cholesterol and likely protects against severe Covid‐19 symptoms in low cholesterol (H. Wang et al.,     ). It was hypothesized that the APOE4 genotype may predict the severity of Covid‐19 (Finch &amp; Kulminski,     ; Goldstein et al.,     ; Monteiro‐Junior,     ). Kuo et al. (     ) found that individuals homozygous for APOE4 were more likely to be positive for Covid‐19, and thus severe disease. The authors published a second report that shows genome‐wide significance for the association of APOE4 genotype with Covid‐19 positivity and mortality (Kuo et al.,     ). It had been suggested that APOE modulates Covid‐19 response by regulating proinflammatory pathways in a genotype‐dependent manner (Kasparian et al.,     ).
+    </p>
+    <p>
+     Apolipoprotein 1 (APOL1) G1 and G2 variants were associated with the excess risk of nondiabetic kidney disease in African Americans (Wasser et al.,     ). G1 variant codes for two amino acid substitutions that nearly always occur together, S342G and I384M (rs73885319 and rs60910145], whereas G2 (rs71785313) is a six‐base pair deletion leading to loss of amino acid residues 388N and 389Y. Case studies have reported three patients with acute kidney injury after Covid‐19 infection (Kissling et al.,     ; Larsen et al.,     ; Peleg et al.,     ). These cases were homozygous for APOL1 G1 variant (A342G and I348M) and showed upregulated chemokine expressions (Wu et al.,     ). Therefore, collapsing glomerulopathy in Covid‐19 patients was associated with high‐risk APOL1 variants (Wu et al.,     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0170">
+    <label>
+     8
+    </label>
+    <title>
+     OTHERS
+    </title>
+    <p>
+     Dipeptidyl peptidase (DPP)‐4, also known as CD26, is a transmembrane glycoprotein and an ectopeptidase that cleaves amino‐terminal dipeptides, causing T cell activation, and hence plays a role in host cell immune regulation against viral infections. S1 domain of Covid‐19 spike glycoprotein potentially interacts with the human DPP4 (Vankadari &amp; Wilce,     ). DPP4 polymorphisms (A291P K267E, K267N, and Δ346–348) reduced binding efficiency to MERS‐CoV S protein and host cell entry (Kleine‐Weber et al.,     ). It was reported that 5′‐untranslated region variant of CD26 (rs13015258) could be involved in SARS‐CoV‐2 internalization (Senapati et al.,     ). DPP9 locus was also associated with severe Covid‐19 in a GWAS (Pairo‐Castineira et al.,     ) and the COVID‐19 HGI report (
+     <ext-link ext-link-type="uri" ns0:href="http://covid19hg.org">
+      covid19hg.org
+     </ext-link>
+     , October 2020).
+    </p>
+    <p>
+     Klaassen et al. (     ) reported that (p.Arg261His and p.Ala494Val in PLG; p.Asn54Lys in PRSS1; and p.Arg52Cys, p.Gly54Asp and p.Gly57Glu in MBL2 may explain interindividual differences among Covid‐19 cases. Lu et al. (     ) identified four missense and one intronic noncoding variant in four genes [ERAP2 (rs150892504), BRF2 (rs138763430), TMEM181 (rs117665206), and ALOXE3 (rs147149459 and rs151256885) that significantly increase risk of death in Covid‐19 patients.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0180">
+    <label>
+     9
+    </label>
+    <title>
+     EPIGENETIC FACTORS
+    </title>
+    <p>
+     Epigenetic mechanisms regulate gene expression and protein levels using several pathways including DNA methylation, histone modifications, and noncoding RNA‐mediated mechanisms. Coronaviruses can interfere with host epigenetic mechanisms and alter immune reactions (Menachery et al.,     ). It was reported that pathogenic influenza viruses and coronaviruses control IFN‐stimulated gene responses by polycomb repressive complex 2‐mediated H3K27me3 at the promoter region of certain IFN‐stimulated genes (Menachery et al.,     ). It is not yet known whether SARS‐CoV‐2 uses the same epigenetic mechanisms, but potential epigenetically regulated factors have been reported, and it would be worth exploring these to find out successful treatment strategies as hypothesized by Ayaz and Crea (     ).
+    </p>
+    <p>
+     Trained immunity consists of the innate cell populations with “epigenetic scar,” which is a pattern of exposed enhancers and promoters of host‐defence genes (Mantovani &amp; Netea,     ). The effects of trained immunity on the protection and progression of the Covid‐19 have been considered in terms of BCG vaccination (Gursel &amp; Gursel,     ; Netea et al.,     ; ONeill &amp; Netea,     ). Arts et al. (     ) reported that BCG vaccination induces genome‐wide epigenetic reprogramming of human monocytes that correlates with protection against viral infections through upregulation of nonspecific IL‐1b production. It is likely that epigenetic scar of immune system obtained from previous infections such as common cold coronaviruses or childhood infections may alleviate the severity of the Covid‐19.
+    </p>
+    <p>
+     SARS‐CoV‐2 proteins can interact between human proteins that are involved in epigenetic and gene expression regulators (Gordon et al.,     ). Epigenetic dysregulation was associated with the increase in the fatality risk of Covid‐19 (Mueller et al.,     ). Senapati et al. (     ) reported that the overexpression of CD26 through epigenetic modification at rs13015258‐C allele is critical and could explain the higher SARS‐CoV‐2 infected fatality rate among patients of Type 2 diabetes. Dysregulated 10 epigenetic factors were reported for SARS‐CoV‐2 infectionL: DTX3L, HDAC7, HDGF, PRDM1 PRMT1, and TRIM16—upregulated), and FOXO1, HELLS, PADI3, and PPARGC1A—downregulated (Khan &amp; Islam,     ).
+    </p>
+    <p>
+     Single‐cell RNA sequencing data of the alveolar type II cells was analyzed to find out age‐related expression differences and mechanistic connection of Covid‐19 severity outcomes (Abouhashem et al.,     ). Superoxide dismutase 3 (SOD3, EC‐SOD3) was identified as the top‐ranked gene that was most downregulated in the elderly. The potential role of epigenetic mechanisms including histone deacetylation at the gene promoter indicated age‐dependent epigenetic downregulation of SOD3 (Roman et al.,     ). Therefore, different epigenetic patterns in elderly patients might predispose them to severe Covid‐19. Epigenetic‐targeted therapies would provide more efficient therapies for Covid‐19, as El Baba and Herbein (     ) discussed.
+    </p>
+    <sec id="cbin11572-sec-0190">
+     <label>
+      9.1
+     </label>
+     <title>
+      Epigenetic regulation of ACE2
+     </title>
+     <p>
+      ACE2 locus contains epigenetic regulation marks of histone acetylation and methylation (Chen et al.,      ). Histone methyltransferase enzyme EZH2 inhibits ACE2 expression via H3K27 trimethylation in human embryonic stem cells (Li et al.,      ). ACE2 DNA methylation profiles of human lung tissues were highly variable in both men and women. In addition, females were significantly hypomethylated as compared with males (Corley &amp; Ndhlovu,      ).
+     </p>
+     <p>
+      Pinto et al. (      ) showed that ACE2 was highly expressed in critical Covid‐19 cases. Pathway enrichment and ChIP‐seq analyses revealed that several of the genes positively associated with ACE2 were regulated by KDM5B, specific histone acetylation (H3K27ac), and histone methylation (H3K4me1 and H3K4me3) dynamics (Pinto et al.,      ). Thus, the authors suggested that ACE2 might be epigenetically upregulated in the lungs of severe Covid‐19 patients (Pinto et al.,      ). Another study confirmed that ACE2 expression is regulated by DNA methylation dynamics, which increases Covid‐19 susceptibility and severity in lupus patients (Sawalha et al.,      ). Whole‐genome DNA methylation analysis showed significant hypomethylation in the ACE2 gene, which consequently increased ACE2 messenger RNA expression in lupus patients (Sawalha et al.,      ). ACE2 nasal DNA methylation reflected differences by gender, ethnicity, and biological aging (Cardenas et al.,      ). It was suggested that ACE2 hypomethylation in nasal epithelium among black males may cause increased SARS‐CoV‐2 infectivity and severity, depending on the increased ACE2 receptors (Cardenas et al.,      ).
+     </p>
+     <p>
+      It is important to discuss some points about ACE2 expression, whether it is harmful or beneficial for Covid‐19 severity. ACE2 has multiple physiological roles in maintaining homeostasis in humans. As ACE2 is protective against organ damage, hypertension, diabetes, cardiovascular disease, and inflammation, a higher ACE2 expression could be associated with better prognosis, probably due to reduced hyperinflammation (Cheng et al.,      ; Devaux et al.,      ; El Baba &amp; Herbein,      ; Verdecchia et al.,      ). According to this proposition, we cannot explain male‐biased severity of SARS‐CoV‐2 with ACE2 expression, as females upregulate ACE2 using several mechanisms such as hypomethylation, escaping X chromosome inactivation (XCI) and estrogen‐dependent signaling (Tukiainen et al.,      ; Foresta et al.,      ; Forsyth &amp; Anguera,      ). We suggest that genetic variants of ACE2 might be more decisive than epigenetic regulation for SARS‐CoV‐2 progression. For example, if a patient carries a protective ACE2 variant, which shows decreased binding to S protein, it does not matter how much ACE2 expressed. In the same way, if a patient carries an interaction‐booster ACE2 variant, even a low amount of ACE2 expression would be enough for infection. However, we need more genotype–phenotype data to identify determinants of Covid‐19 severity.
+     </p>
+    </sec>
+    <sec id="cbin11572-sec-0200">
+     <label>
+      9.2
+     </label>
+     <title>
+      X chromosome inactivation
+     </title>
+     <p>
+      XCI is the best example of the epigenetic gene regulation in females to equalize expression of the X‐linked genes between the sexes also known as dosage compensation. Xist RNA, repressive histone modifications, the histone variant macroH2a, and DNA methylation mechanisms participate in the inactive X (Xi) chromosome development process (Galupa &amp; Heard,      ). However, 30% of X‐linked genes escape XCI and are expressed from both X chromosomes (Tukiainen et al.,      ). So, escaper genes cause biallelic altered expression from maternal and paternal chromosomes.
+     </p>
+     <p>
+      X chromosome consists of numerous genes that are involved within the innate and adaptive immunity, including PRRs (DDX3X, TLR7, TLR8), key regulators of TLR signaling (IRAK1, NEMO), and diverse immune‐related genes (CD40L, CXCR3, CXorf21, FOXP3, IL3RA, TMEM187) (Gabriele et al.,      ). Hyper‐responsiveness of the female immune system is due to XCI escaper immunity‐related genes (Marquez et al.,      ).
+     </p>
+     <p>
+      As we indicated before, TLR7 receptor functions are very important in viral infections. Localization of TLR7 and ‐8 on the X chromosome give genetic advantage to female immune system, as escaping XCI provides altered expression levels (de Groot &amp; Bontrop,      ). This might be a reason for TLR7 loss‐of‐ffunction variants being lethal in men (van der Made et al.,      ). Moreover, it was reported that female dendritic cells exhibit altered TLR7‐mediated IFN‐α production, depending on XCI and oestrogens (Laffont et al.,      ).
+     </p>
+     <p>
+      It is very interesting that ACE2 gene is located on the X chromosome and it is likely to escape inactivation (Foresta et al.,      ). It was reported that ACE2 is a tissue‐specific escape gene that showed moderate male‐biased expression in lungs and higher male‐biased expression in the small intestine (Tukiainen et al.,      ). Considering that sex hormones also influence the regulation of ACE2, it is very difficult to evaluate the real effect of XCI on the severity of Covid‐19 through ACE2 expression. Studies on the effect of ACE2 genotype rather than expression itself might be more useful to understand the male‐biased mortality. ACE2 is the first contact point for the RBM domain of SARS‐CoV‐2, which carriers 16 residues to bind. SARS‐CoV RBD residues are in contact with 20 residues of ACE2 protein (Lan et al.,      ). As females are heterozygous for ACE2, they can assemble heterodimers in the presence of XCI. Theoretically, SARS‐CoV‐2 RBM domain cannot perfectly bind to all heterodimer ACE2 receptors, allowing unbound ACE2 to have protective functions in females (Li et al.,      ). However, men are hemizygous and assemble only homodimers. So, they are lacking the organ protective functions of ACE2.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cbin11572-sec-0210" sec-type="conclusions">
+    <label>
+     10
+    </label>
+    <title>
+     CONCLUSIONS
+    </title>
+    <p>
+     We summarized studies involving analyses of the potential genetic and epigenetic factors that might be associated with severe outcomes of Covid‐19. Most people have asymptomatic or mild Covid‐19 infection, but some progress to have life‐threatening conditions. We do not yet know why some people are more prone to Covid‐19 disease. Increased rates of severe Covid‐19 infections in Black, Asian, and Minority Ethnic populations cannot be explained by behavioral factors, socioeconomic status, cardiovascular disease risk, or by vitamin D status (Raisi‐Estabragh et al.,     ). A case report showed that three healthy brothers who lived in different locations, without histories of any underlying diseases or malignancy, died from Covid‐19 (Yousefzadegan &amp; Rezaei,     ). Another report from a large family cluster suggested a genetic predisposition due to apparent familial clustering of severity (Ikitimur et al.,     ). These examples suggest that underlying genetic and epigenetic factors can lead to severe Covid‐19 outcomes.
+    </p>
+    <p>
+     Genetic variants of the SARS‐CoV‐2 entry mechanism‐related genes, host immune response‐related genes, and other potential genetic loci would explain inherited predispositions and mechanisms that underlying severe Covid‐19. A global project has been started to discover the pathogenesis of unexplained, severe Covid‐19 in young patients (Casanova et al.,     ). In addition, “Covid‐19 Host Genetics Initiative” was started to bring the human genetics community together to identify the genetic determinants of Covid‐19 susceptibility, severity, and outcomes (Initiative,     ).
+    </p>
+    <p>
+     In this review, we just focused on genetic and epigenetic factors, so all other factors such as age, comorbid disease, and lifestyle were excluded. To review all literature, we used some preprint papers that have not been peer‐reviewed, which might be the other limitation of our study. The genetic landscape of an individual plays a pivotal role in the immune response and disease outcomes. Understanding the inherited predispositions to severe Covid‐19 will improve its clinical management and allow to develop  genotype‐based individual therapies and vaccines, especially for high‐risk groups.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

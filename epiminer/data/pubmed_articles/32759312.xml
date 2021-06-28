@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Immunoinformatic approach to assess SARS-CoV-2 protein S epitopes recognised by the most frequent MHC-I alleles in the Brazilian population.
+ </title>
+ <abstract>
+  <AbstractText Label="AIMS" NlmCategory="OBJECTIVE">
+   Brazil is nowadays one of the epicentres of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic and new therapies are needed to face it. In the context of specific immune response against the virus, a correlation between Major Histocompatibility Complex Class I (MHC-I) and the severity of the disease in patients with COVID-19 has been suggested. Aiming at better understanding the biology of the infection and the immune response against the virus in the Brazilian population, we analysed SARS-CoV-2 protein S peptides in order to identify epitopes able to elicit an immune response mediated by the most frequent MHC-I alleles using in silico methods.
+  </AbstractText>
+  <AbstractText Label="METHODS" NlmCategory="METHODS">
+   Our analyses consisted in searching for the most frequent Human Leukocyte Antigen (HLA)-A, HLA-B and HLA-C alleles in the Brazilian population, excluding the genetic isolates; then, we performed: molecular modelling for unsolved structures, MHC-I binding affinity and antigenicity prediction, peptide docking and molecular dynamics of the best fitted MHC-I/protein S complexes.
+  </AbstractText>
+  <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+   We identified 24 immunogenic epitopes in the SARS-CoV-2 protein S that could interact with 17 different MHC-I alleles (namely, HLA-A*01:01; HLA-A*02:01; HLA-A*11:01; HLA-A*24:02; HLA-A*68:01; HLA-A*23:01; HLA-A*26:01; HLA-A*30:02; HLA-A*31:01; HLA-B*07:02; HLA-B*51:01; HLA-B*35:01; HLA-B*44:02; HLA-B*35:03; HLA-C*05:01; HLA-C*07:01 and HLA-C*15:02) in the Brazilian population.
+  </AbstractText>
+  <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">
+   Being aware of the intrinsic limitations of in silico analysis (mainly the differences between the real and the Protein Data Bank (PDB) structure; and accuracy of the methods for simulate proteasome cleavage), we identified 24 epitopes able to interact with 17 MHC-I more frequent alleles in the Brazilian population that could be useful for the development of strategic methods for vaccines against SARS-CoV-2.
+  </AbstractText>
+ </abstract>
+</article>

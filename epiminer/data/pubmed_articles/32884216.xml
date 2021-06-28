@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Mutations in SARS-CoV-2 Leading to Antigenic Variations in Spike Protein: A Challenge in Vaccine Development.
+ </title>
+ <abstract>
+  <AbstractText>
+   <b>
+    Objectives
+   </b>
+   \\\\xe2\\\\x80\\\\x83The spread of severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) virus has been unprecedentedly fast, spreading to more than 180 countries within 3 months with variable severity. One of the major reasons attributed to this variation is genetic mutation. Therefore, we aimed to predict the mutations in the spike protein (S) of the SARS-CoV-2 genomes available worldwide and analyze its impact on the antigenicity.
+   <b>
+    Materials and Methods
+   </b>
+   \\\\xe2\\\\x80\\\\x83Several research groups have generated whole genome sequencing data which are available in the public repositories. A total of 1,604 spike proteins were extracted from 1,325 complete genome and 279 partial spike coding sequences of SARS-CoV-2 available in NCBI till May 1, 2020 and subjected to multiple sequence alignment to find the mutations corresponding to the reported single nucleotide polymorphisms (SNPs) in the genomic study. Further, the antigenicity of the predicted mutations inferred, and the epitopes were superimposed on the structure of the spike protein.
+   <b>
+    Results
+   </b>
+   \\\\xe2\\\\x80\\\\x83The sequence analysis resulted in high SNPs frequency. The significant variations in the predicted epitopes showing high antigenicity were A348V, V367F and A419S in receptor binding domain (RBD). Other mutations observed within RBD exhibiting low antigenicity were T323I, A344S, R408I, G476S, V483A, H519Q, A520S, A522S and K529E. The RBD T323I, A344S, V367F, A419S, A522S and K529E are novel mutations reported first time in this study. Moreover, A930V and D936Y mutations were observed in the heptad repeat domain and one mutation D1168H was noted in heptad repeat domain 2.
+   <b>
+    Conclusion
+   </b>
+   \\\\xe2\\\\x80\\\\x83S protein is the major target for vaccine development, but several mutations were predicted in the antigenic epitopes of S protein across all genomes available globally. The emergence of various mutations within a short period might result in the conformational changes of the protein structure, which suggests that developing a universal vaccine may be a challenging task.
+  </AbstractText>
+ </abstract>
+</article>

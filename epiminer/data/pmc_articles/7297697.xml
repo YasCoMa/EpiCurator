@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML">
+ <title>
+  Immunoinformatics characterization of SARS-CoV-2 spike glycoprotein for prioritization of epitope based multivalent peptide vaccine
+ </title>
+ <abstract>
+  <p>
+   The COVID-19 pandemic caused by SARS-CoV-2 is a public health emergency of international concern and thus calling for the development of effective and safe therapeutics and prophylactics particularly a vaccine to protect against the infection. SARS-CoV-2 spike glycoprotein is an attractive candidate for a vaccine, antibodies, and inhibitors development because of the many roles it plays in attachment, fusion and entry into the host cell. In the present investigation, we characterized the SARS-CoV-2 spike glycoprotein by immunoinformatics techniques to put forward potential B and T cell epitopes, followed by the use of epitopes in construction of a multi-epitope peptide vaccine construct (MEPVC). The MEPVC revealed robust host immune system simulation with high production of immunoglobulins, cytokines and interleukins. Stable conformation of the MEPVC with a representative innate immune TLR3 receptor was observed involving strong hydrophobic and hydrophilic chemical interactions, along with enhanced contribution from salt-bridges towards inter-molecular stability. Molecular dynamics simulation in aqueous milieu aided further in interpreting strong affinity of the MEPVC for TLR3. This stability is the attribute of several vital residues from both TLR3 and MEPVC as shown by radial distribution function (RDF) and a novel axial frequency distribution (AFD) analytical tool. Comprehensive binding free energies estimation was provided at the end that concluded major domination by electrostatic and minor from van der Waals. Summing all, the designed MEPVC has tremendous potential of providing protective immunity against COVID-19 and thus could be considered in experimental studies.
+  </p>
+  <p>
+  </p>
+  <p>
+   <list id="l0005" list-type="simple">
+    <list-item id="li0005">
+     <label>
+      •
+     </label>
+     <p id="p0005">
+      SARS-CoV-2 spike glycoprotein is characterized
+      <italic>
+       in silico
+      </italic>
+      for the design of a multivalent vaccine.
+     </p>
+    </list-item>
+    <list-item id="li0010">
+     <label>
+      •
+     </label>
+     <p id="p0010">
+      The designed vaccine is producing high level of immunoglobulins, cytokines and interleukins.
+     </p>
+    </list-item>
+    <list-item id="li0015">
+     <label>
+      •
+     </label>
+     <p id="p0015">
+      The vaccine has a stable conformation with TLR3 innate immune receptor.
+     </p>
+    </list-item>
+    <list-item id="li0020">
+     <label>
+      •
+     </label>
+     <p id="p0020">
+      Radial distribution function and axial frequency distribution analysis highest several vital interacting residues.
+     </p>
+    </list-item>
+    <list-item id="li0025">
+     <label>
+      •
+     </label>
+     <p id="p0025">
+      Major electrostatic energy and minor van der Waals were observed in the complex system.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0030">
+     In December 2019, a new strain of coronavirus emerged in Wuhan city of Hubei province in China and has since disseminated globally. The virus belongs to clade B of family Coronaviridae in the order Nidovirales, and genera Betacoronavirus and caused pulmonary disease outbreak [     ,     ]. It is positive-sense RNA, enveloped and non-segmented virus and named as SARS-CoV-2 as it shares 82% genome homology with SARS coronavirus (SARS-CoV) [     ,     ]. SARS-CoV-2 causes coronavirus disease-19 (COVID-19) and evidence suggest a zoonotic origin of this disease [     ]. Though the zoonotic transmission is not completely understood but facts provide the ground that it proliferates from the seafood market Huanan in Wuhan and human-to-human transmission resultant into the exponential increase in number of cases [     ,     ]. As of May 12, 4,320,202 cases are reported worldwide with 291,545 deaths and 1,570,090 recovered. Among the active cases, 2,458,567 are currently infected, 2,412,235 (98%) are in mild conditions and 46,332 (2%) are seriously ill. Among the 1,861,635 closed cases, 1,570,090 (84%) are recovered whereas 291,545 (16%) die. On March 11, the World Health Organization (WHO) affirmed COVID-19 as a pandemic (
+     <ext-link ext-link-type="uri" id="ir0005" ns0:href="https://www.worldometers.info/coronavirus/">
+      https://www.worldometers.info/coronavirus/
+     </ext-link>
+     ).
+    </p>
+    <p id="p0035">
+     SARS-CoV-2 utilizes a highly glycosylated, homotrimeric class I viral fusion spike protein to enter into host cells [     ]. This protein is found in a metastable pre-fusion state which goes through structural readjustments facilitating fusion of the viral membrane to the host cell [     ,     ,     ]. The binding of S1 subunit to the host angiotensin converting enzyme (ACE) initiates the fusion process and during this event the pre-fusion trimeric structure disrupts resulting in S1 subunit dispersion and stabilization of the S2 subunit to achieve a post-fusion conformation [     ]. The receptor-binding domain (RBD) of S1 unit adopts a hinge-like conformation to temporarily hide or expose receptor binding residues for interaction with the host cell receptor [     ]. Down and up conformation states are recognized where former is related to the receptor inaccessible state and the later one explains receptor accessible state and considered as less stable [     ,     ,     ,     ]. This critical role of the spike protein makes it an important candidate for neutralization by antibodies, and detailed atomic level studies of the pre-fusion spike structure are important in the design and development of a vaccine [     ,     ,     ,     ,     ]. Current data indicates that both SARS-CoV-2 and SARS-CoV spike share the same ACE2 as a binding receptor [     ,     ]. Interestingly, ACE2 binds to SARS-CoV-2 spike with ~15 nM affinity, about 10–20 folds higher than ACE2-SARS-CoV spike binding [     ]. One possible reason for SARS-CoV-2 human-to-human transmission is SARS-CoV-2 spikes high affinity for human ACE2 [     ]. Series of cellular immune and humoral responses can be triggered by SARS-CoV-2 infection [     ]. Immunoglobulin G (IgG) and IgM can be noticed after 2 weeks of infection onset which are specific antibodies to SARS-CoV-2. High titers of neutralizing antibodies and SARS-CoV-2 specific cytotoxic T lymphocyte responses have been identified in the patients who cleared the SARS-CoV-2. This phenomenon clearly suggests that both cellular and humoral immune reactions are vital in clearing the SARS-CoV-2 infection [     ,     ,     ,     ,     ].
+    </p>
+    <p id="p0040">
+     The study presented, herein, is an attempt to get insights about antigenic determinants of SARS-CoV-2 spike glycoprotein and highlight all antigenic epitopes [     ] of the spike that can be used specifically for the design of a multi-epitope peptide vaccine construct (MEPVC) [     ] to counter COVID-19 infections. The epitopes predicted by immunoinformatics techniques were fused together as well as to β-defensin adjuvant [     ,     ] to boost the antibody production and long-lasting immunological responses. Blind docking protocol was implemented to gain stable MEPVC binding conformation with respect to a representative TLR3, an important innate immune receptor in viral immunity [     ]. The docked solution was further utilized in dynamics simulations to study the structural dynamics and stability of the complex [     ]. Finally, to confirm intermolecular interactions and point all noteworthy residues crucial for intermolecular stability, binding free energies [     ] for the system were estimated. In a nutshell, this study reflects excellent outcomes for experimental vaccinologists to develop a vaccine for prevention from pandemic COVID-19 infections.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Materials and methods
+    </title>
+    <p id="p0045">
+     Complete flow of the
+     <italic>
+      in silico
+     </italic>
+     designed methodology for MEPVC targeting SARS-CoV-2 spike is demonstrated in     .
+    </p>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      Epitopes mapping for spike protein
+     </title>
+     <p id="p0050">
+      The spike glycoprotein amino acid sequence was retrieved from NCBI SARS-CoV-2 data hub and considered first in the epitope mapping phase, where T cell epitopes derived from B cell were predicted using immune epitopes database (IEDB) [      ]. Linear B cell epitopes were mapped using Bepipred Linear Epitope Prediction 2.0 [      ] and those with score &gt;0.5 were subjected to T cell epitopes identification step. The epitopes were projected for association with reference set of major histocompatibility complex (MHC): MHC class I [      ] and MHC class II [      ] alleles sorted on percentile score basis. Epitopes with lowest percentile score are strong binders and were considered only. The selected epitopes were then used in MHCPred 2.0 [      ] to decipher their binding affinity potential for predominant HLA II DRB*0101 and only those with IC
+      <sub>
+       50
+      </sub>
+      value &lt;100 nM were categorized as excellent DRB*0101 binders [      ]. VirulentPred [      ] was employed next to reveal virulent nature of the epitopes setting the cut-off to 0.5. Antigenic epitopes were highlighted by VaxiJen 2.0 [      ]. Allergenic epitopes were discarded through AllerTop 2.0 [      ] and toxic potential of non-allergic epitopes was evaluated
+      <italic>
+       via
+      </italic>
+      ToxinPred [      ]. The non-toxic epitopes were lastly investigated for their ability to induce IFN-γ using an IFN epitope server [      ]. Conservation across the world population of the final set of epitopes was done through IEDB epitope conservation analysis tool [      ].
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      MEPVC designing and post analysis
+     </title>
+     <p id="p0055">
+      All filtered epitopes were linked together through AAY linkers [      ] to design a multi-epitope peptide (MEP). The resultant peptide was further linked to an immunological β-defensin (an adjuvant) to construct a MEPVC and in this way, immunogenicity can be enhanced. The physicochemical properties of designed MEPVC were predicted by ProtParam tool [      ] of EXPASSY server. The three dimensional (3D) structure of the MEPVC was modeled
+      <italic>
+       ab initio
+      </italic>
+      by 3Dpro of SCRATCH protein server [      ]. Following, loop modeling was done in the 3D structure of MEPVC
+      <italic>
+       via
+      </italic>
+      GlaxyLoop [      ] from GlaxyWeb and subsequently refined through GalaxyRefine [      ]. Disulfide engineering was applied to the MEPVC refined model
+      <italic>
+       via
+      </italic>
+      Design 2.0 [      ] as disulfide bonds strengthen structure stability. The MEPVC sequence was translated reversibly for optimization of codon usage according to
+      <italic>
+       Escherichia coli
+      </italic>
+      K12 expression system in order to get high expression rate [      ]. For this, Java Codon Adaptation Tool (JCat) [      ] was employed and expression rate of the cloned MEPVC was measured by codon adaptation index (CAI) value. SnapGene (
+      <ext-link ext-link-type="uri" id="ir0010" ns0:href="https://www.snapgene.com/">
+       https://www.snapgene.com/
+      </ext-link>
+      ) was used to clone the optimized MEPVC cDNA into pET-28a (+) expression vector.
+     </p>
+    </sec>
+    <sec id="s0025">
+     <label>
+      2.3
+     </label>
+     <title>
+      <italic>
+       In silico
+      </italic>
+      immune profiling of MEPVC
+     </title>
+     <p id="p0060">
+      Immunogenic potential of the MEPVC was conducted
+      <italic>
+       in silico
+      </italic>
+      using the C-ImmSim server [      ,      ]. The server used machine learning techniques along with position-specific scoring matrix (PSSM) for estimate of the human host immune system response to the antigen. The immune system responds from three sites: bone marrow, lymph nodes and thymus. The input parameters for the immune simulations are as follows: number of steps (100), volume (10), random seed (12345), HLA (A0101, A0101, B0702, B0702, DRB1_0101, DRB1_0101), number of injection set to 1. All remaining parameters were treated as default.
+     </p>
+    </sec>
+    <sec id="s0030">
+     <label>
+      2.4
+     </label>
+     <title>
+      Molecular docking of MEPVC
+     </title>
+     <p id="p0065">
+      The MEPVC affinity for an appropriate immune receptor as an agonist was checked in the step of molecular docking [      ]. TLR3 available under PDB id of 1ZIW was retrieved and used as a receptor molecule. TLR3 also named CD283 is a pattern recognition receptors (PPRs) protein and is a transmembrane [      ]. It detects viral infection associated dsRNA and evokes the activation of interferon regulatory transcription factor (IRF3) and Nuclear Factor kappa light-chain enhancer (NF-kB) [      ]. Unlike other TLRs, TLR3 uses TIR-domain containing adapter inducing interferon-β (TRIF) as a primary adapter [      ]. IRF3 eventually induces the development of type I interferons leading to the activation of both innate and adaptive immune systems [      ]. The TLR3 receptor and MEPVC were used in a blind docking approach through an online PATCHDOCK server interface [      ]. The interacting molecules were docked according to the shape complementarity principle. The clustering RMSD is allowed to default 4.0 Å. The output docked solutions were refined for interactions with Fast Interaction Refinement in Molecular Docking (FireDock) server [      ]. The refined complexes were examined and one with lowest global energy was considered as top ranked. The opted complex was subjected to in-depth MEPVC conformation visualization with respect to the TLR3 using UCSF Chimera 1.13.1 [      ].
+     </p>
+    </sec>
+    <sec id="s0035">
+     <label>
+      2.5
+     </label>
+     <title>
+      Molecular dynamics (MD) simulation
+     </title>
+     <p id="p0070">
+      MD simulation was applied to the selected top complex for 100-ns to understand complex dynamics and stability for practical applications. This assay was categorized into three phases: (i) parameters file preparation (ii) pre-processing, and (iii) simulation production [      ]. In first phase using an antechamber module of AMBER16 [      ], complex libraries and set of parameters for TLR3 and MEPVC were generated. The complex system was solvated into 12 Å TIP3P solvation box achieved through Leap module of AMBER. The intermolecular and intramolecular interactions of the system were determined by ff14SB force field [      ]. Counter ions in the form of Na      were added to the system for charge neutralization. In the system pre-processing stage, complex energy was optimized through several rounds: minimization of complete set of hydrogen atoms for 500 steps, solvation box energy minimization for 1000 steps with 200 kcal/mol – Å      restraint on the remaining system, minimization of complete set of system atoms again for 1000 steps with 5 kcal/mol –Å      applied restraint on carbon alpha atoms, and 300 minimization steps on non-heavy atoms with restraint of 100 kcal/mol –Å      on other system components. The complex system then underwent a heating step where the complex was heated gradually to 300 K through NVT ensemble, maintained through Langevin dynamics [      ] and SHAKE algorithm [      ] for restraining hydrogen bonds. Complex equilibration was achieved for 100-ps. System pressure was maintained using NPT ensemble allowing 5 kcal/mol – Å      energy restraint on Cα atoms. In the simulation production, trajectories of 100-ns were produced on time scale of 2-fs. Non-bounded interactions were differentiated by describing cut-off distance of 8.0 Å.CPPTRAJ module [      ] was lastly used for statistical computation of different structure parameters to probe complex stability. The MD simulation frames were analyzed and visualized in Visual Molecular Dynamics (VMD) 1.9.3 [      ].
+     </p>
+    </sec>
+    <sec id="s0040">
+     <label>
+      2.6
+     </label>
+     <title>
+      Axial frequency distribution analysis
+     </title>
+     <p id="p0075">
+      Axial frequency distribution or simply AFD [      ] is a novel analytical technique run on simulation trajectories to access ligand 3D conformation with respect to a reference receptor atom. Such local structural movements are not captured by any other available technique. AFD is mathematically presented by Eq.      ,
+      <disp-formula id="fo0005">
+       <label>
+        (I)
+       </label>
+       <ns1:math altimg="si1.svg" id="M1">
+        <ns1:mi mathvariant="italic">
+         AFD
+        </ns1:mi>
+        <ns1:mo linebreak="goodbreak">
+         =
+        </ns1:mo>
+        <ns1:munderover>
+         <ns1:mo>
+          ∑
+         </ns1:mo>
+         <ns1:mrow>
+          <ns1:mi>
+           i
+          </ns1:mi>
+          <ns1:mo>
+           =
+          </ns1:mo>
+          <ns1:mn>
+           1
+          </ns1:mn>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mi>
+           j
+          </ns1:mi>
+          <ns1:mo>
+           =
+          </ns1:mo>
+          <ns1:mn>
+           1
+          </ns1:mn>
+         </ns1:mrow>
+         <ns1:mrow>
+          <ns1:mi>
+           k
+          </ns1:mi>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mi>
+           l
+          </ns1:mi>
+         </ns1:mrow>
+        </ns1:munderover>
+        <ns1:mi mathvariant="italic">
+         mi
+        </ns1:mi>
+        <ns1:mo>
+         ,
+        </ns1:mo>
+        <ns1:mi>
+         j
+        </ns1:mi>
+       </ns1:math>
+      </disp-formula>
+      where,
+      <italic>
+       i
+      </italic>
+      and
+      <italic>
+       j
+      </italic>
+      are ligand atom coordinates on the X and Y axis with cut-off value
+      <italic>
+       k
+      </italic>
+      and
+      <italic>
+       l
+      </italic>
+      , respectively. The
+      <italic>
+       mi
+      </italic>
+      ,
+      <italic>
+       j
+      </italic>
+      sums interactions frequency that falls in the coordinate (
+      <italic>
+       i
+      </italic>
+      ,
+      <italic>
+       j
+      </italic>
+      ).
+     </p>
+    </sec>
+    <sec id="s0045">
+     <label>
+      2.7
+     </label>
+     <title>
+      Calculating binding free energy and binding entropy
+     </title>
+     <p id="p0080">
+      The interaction energy and solvation free energy for TLR3 receptor, MEPVC, TLR3-MEPVC complex were calculated utilizing the MMPBSA.py module [      ] of AMBER16. Also, an average of the above was estimated as system net binding free energy. The binding free energy was computed through the MM-PBSA method and its counterpart MM-GBSA with objective to derive the energy difference between bound and unbound states of the same system [      ]. Mathematically, the free energy can be calculated through Eq.      ,
+      <disp-formula id="fo0010">
+       <label>
+        (II)
+       </label>
+       <ns1:math altimg="si2.svg" id="M2">
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           bind
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mtext>
+           solv
+          </ns1:mtext>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mo linebreak="goodbreak">
+         =
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           bind
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mtext>
+           vaccum
+          </ns1:mtext>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mo linebreak="badbreak">
+         +
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           solv
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mi>
+           TLR
+          </ns1:mi>
+          <ns1:mn>
+           3
+          </ns1:mn>
+          <ns1:mo>
+           −
+          </ns1:mo>
+          <ns1:mtext>
+           MEPVC
+          </ns1:mtext>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mo linebreak="badbreak">
+         −
+        </ns1:mo>
+        <ns1:mo stretchy="true">
+         (
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           solv
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mtext>
+           MEPVC
+          </ns1:mtext>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mo linebreak="badbreak">
+         +
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           solv
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mtext>
+           TLR3
+          </ns1:mtext>
+         </ns1:mrow>
+        </ns1:msub>
+       </ns1:math>
+      </disp-formula>
+     </p>
+     <p id="p0085">
+      For all three states of the system, the solvation energy was estimated by solving either Generalized Born (GB) or Poisson Boltzman (PB) equation and thus it will give electrostatic energy. It also allows the addition of empirical terms for hydrophobic contributions as shown in Eq.      .
+      <disp-formula id="fo0015">
+       <label>
+        (III)
+       </label>
+       <ns1:math altimg="si3.svg" id="M3">
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mtext>
+          solv
+         </ns1:mtext>
+        </ns1:msub>
+        <ns1:mo linebreak="goodbreak">
+         =
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi mathvariant="normal">
+          G
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           electrostatic
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mi mathvariant="normal">
+           ϵ
+          </ns1:mi>
+          <ns1:mo>
+           =
+          </ns1:mo>
+          <ns1:mn>
+           80
+          </ns1:mn>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mo linebreak="badbreak">
+         −
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi mathvariant="normal">
+          G
+         </ns1:mi>
+         <ns1:mrow>
+          <ns1:mtext>
+           electrostatic
+          </ns1:mtext>
+          <ns1:mo>
+           ,
+          </ns1:mo>
+          <ns1:mi mathvariant="normal">
+           ϵ
+          </ns1:mi>
+          <ns1:mo>
+           =
+          </ns1:mo>
+          <ns1:mn>
+           1
+          </ns1:mn>
+         </ns1:mrow>
+        </ns1:msub>
+        <ns1:mo linebreak="badbreak">
+         +
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mtext>
+          hydrophobic
+         </ns1:mtext>
+        </ns1:msub>
+       </ns1:math>
+      </disp-formula>
+     </p>
+     <p id="p0090">
+      Calculation of the average interaction energy between TLR3 and MEPVC gives to delta- ΔG
+      <sub>
+       vacuum
+      </sub>
+      (Eq.      ).
+      <disp-formula id="fo0020">
+       <label>
+        (IV)
+       </label>
+       <ns1:math altimg="si4.svg" id="M4">
+        <ns1:msub>
+         <ns1:mi>
+          ΔG
+         </ns1:mi>
+         <ns1:mtext>
+          vacuum
+         </ns1:mtext>
+        </ns1:msub>
+        <ns1:mo linebreak="goodbreak">
+         =
+        </ns1:mo>
+        <ns1:msub>
+         <ns1:mi>
+          ΔE
+         </ns1:mi>
+         <ns1:mtext>
+          moleular mechanics
+         </ns1:mtext>
+        </ns1:msub>
+        <ns1:mo linebreak="badbreak">
+         −
+        </ns1:mo>
+        <ns1:mi mathvariant="normal">
+         T
+        </ns1:mi>
+        <ns1:mo>
+         .
+        </ns1:mo>
+        <ns1:mi>
+         ΔS
+        </ns1:mi>
+       </ns1:math>
+      </disp-formula>
+     </p>
+     <p id="p0095">
+      The binding entropy was calculated using the normal mode analysis method implemented in AMBER16 which is based on Quasi-Harmonic approximation and run through PTRAJ program in AmberTools. As such calculations are computationally expensive, only 10 frames of the simulation trajectories were considered.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0050">
+    <label>
+     3
+    </label>
+    <title>
+     Results and discussion
+    </title>
+    <sec id="s0055">
+     <label>
+      3.1
+     </label>
+     <title>
+      Prioritization of potential epitopes
+     </title>
+     <p id="p0100">
+      The SARS-CoV-2 spike protein was targeted for MEPVC designing because of the many filters it fulfilled and required for a potential vaccine candidate. First, it does not share any significant homology to the human host, and as such chances of autoimmune responses are negligible [      ]. Second, the protein is also not found to have any sequence identity to the mouse proteome and thus accurate immunological findings can be deciphered from
+      <italic>
+       in vivo
+      </italic>
+      mice experimentations [      ]. This spike protein only harbored one transmembrane helix ensuring the wet lab protein cloning and expression for antigen analysis easy [      ]. Antigenicity is another factor that makes this candidate highly suitable for vaccine designing as this allows efficient binding to the products of host immune system [      ]. Further, this protein is strongly adhesive which makes it an excellent target for creation of adhesion based vaccine [      ]. Lastly, all the sequences of SARS-CoV-2 spike protein are highly conserved thus a vaccine based on its sequence will be highly likely to have broad spectrum immunological implications [      ]. Prioritization of potential epitopes for the SARS-CoV-2 spike protein commenced with the mapping of B cell epitopes that predicted total of 34 epitopes of variable length ranging from 1 to 62 (S-Table 1). The average score predicted for these B cell epitopes is 0.470, maximum (max) of 0.696 and minimum (min) of 0.188 (S-Fig. 1). Each B cell epitope was then analyzed in MHC-1 alleles binding regions prediction [      ]. A set of reference alleles to which these epitopes interact with are: HLA-A*01:01, HLA-A*02:01, HLA-A*02:01, HLA-A*02:03, HLA-A*02:03, HLA-A*02:06, HLA-A*02:06, HLA-A*03:01, HLA-A*03:01, HLA-A*11:01, HLA-A*11:01, HLA-A*23:01, HLA-B*08:01, HLA-A*23:01, HLA-A*24:02, HLA-A*24:02, HLA-A*26:01, HLA-A*26:01, HLA-A*30:01, HLA-A*30:01, HLA-B*57:01, HLA-A*30:02, HLA-A*31:01, HLA-B*58:01, HLA-A*32:01, HLA-A*33:01, HLA-A*33:01, HLA-A*68:01, HLA-A*68:01, HLA-A*68:02, HLA-A*68:02, HLA-A*30:02, HLA-B*07:02, HLA-B*51:01, HLA-B*07:02, HLA-B*08:01, HLA-B*15:01, HLA-B*15:01, HLA-B*35:01, HLA-A*31:01, HLA-B*35:01, HLA-B*40:01, HLA-B*40:01, HLA-B*44:02, HLA-B*44:02, HLA-B*44:03, HLA-B*44:03, HLA-B*51:01, HLA-A*01:01, HLA-B*53:01, HLA-B*53:01, HLA-B*57:01, HLA-A*32:01, and HLA-B*58:01. These alleles have &gt;97% population coverage. The predicted epitopes were then screened and stringent criteria of lowest percentile score was used to choose the excellent binders. Afterward, the B cell epitopes were simultaneously run in MHC-II alleles binding [      ]. Likewise MHC-I, reference set of MHC-II binding were: HLA-DRB4*01:01, HLA-DRB1*04:01, HLA-DRB1*04:05, HLA-DRB1*07:01, HLA-DRB1*09:01, HLA-DRB1*11:01, HLA-DRB1*03:01, HLA-DRB1*13:02, HLA-DRB1*15:01, HLA-DRB3*01:01, HLA-DRB1*12:01, HLA-DRB3*02:02, HLA-DRB1*08:02, HLA-DRB1*01:01, and HLA-DRB5*01:01. The MHC-II predicted epitopes were also filtered on basis of percentile score and then cross checked with the selected MHC-I allele and those common in both classes were considered only which were 50 in numbers. The shortlisted common MHC-I and MHC-II epitopes then subjected to antigenicity check. In this check, ability of the filtered B cell derived T cell epitopes to evoke and bind to products of adaptive immunity was evaluated. This yielded 38 epitopes all of which have strong ability to bind to the most prevalent DRB*0101 with average IC
+      <sub>
+       50
+      </sub>
+      score of 35.6552, max of 98 and min of 0.89.The antigenic epitopes then underwent allergenicity check to discard allergic peptides that may cause allergic reactions [      ]. This resulted into 31 epitopes. Non-toxic epitopes were 7 whereas 6 were IFN-gamma producer (      ). The set of epitopes obtained at different stages of epitope mapping phase is tabulated in S-Table 2.These epitopes appear to provide coverage to 98% of the world population (      ). The coverage can split as: 98.54% in East Asia, 96.06% in Northeast Asia, 97.46% in South Asia, 95.83% in Southeast Asia, 94.29% in Southwest Asia, 98.53% in Europe, 92.81% in East Africa, 89.82% in Central Africa, 96.45% in West Africa, 97.86% in North Africa, 94.81% in South Africa, 99.09% in West Indies, 98.74% in North America, 25.01% in Northern America, 90.91% in South America, and 95.58% in Oceania.
+     </p>
+    </sec>
+    <sec id="s0060">
+     <label>
+      3.2
+     </label>
+     <title>
+      MEPVC designing
+     </title>
+     <p id="p0105">
+      Prioritized T cell epitopes derived from B cells were fused together tandemly by AAY linkers to make a MEP. AAY linker avoids formation of junctional epitopes and as such enhance epitope presentation [      ]. To the N-terminal of MEP, EAAAK linker was added to attach β-defensin as an adjuvant leading to the design of a MEPVC. The MEPVC is schematically shown in      A. MEPVC offers many advantages compared to a separate antigenic peptide. Such vaccines induce both CD4+ and CD8+ responses and the antigens optimization is optimal. EAAAK is a rigid spacer and allows separation of the attached domain and promoting efficient immune processing of the epitopes [      ]. β-defensins are potent immune adjuvants as they are capable of significantly enhancing production of lymphokines resulting in antigen-specific Ig production and T cell-dependent cellular immunity. The sequence of MEPVC is GIINTLCKYYCRVRGGRCCVCSCCPKEEQIGKCSTRGRKCCRRKKECAAKYAWNRKCISACYIAPGQTGKICCYPRRARSVCSACYTVYDPCQPCAAYVYDPLCPELCAYCKNHTSCDV.
+     </p>
+    </sec>
+    <sec id="s0065">
+     <label>
+      3.3
+     </label>
+     <title>
+      MEPVC has appropriate biophysicochemical properties
+     </title>
+     <p id="p0110">
+      Physicochemical properties of the MEPVC were evaluated in order to assist experimentalists in the field to set up
+      <italic>
+       in vitro
+      </italic>
+      and
+      <italic>
+       in vivo
+      </italic>
+      experiments accordingly. The length of MEPVC is spanned across 110 amino acids and has molecular weight of 13.30 kDa. Vaccine construct with weight &lt;110 kDa is generally believed to effective vaccine target because of its easy purification. Theoretical pI of MEPVC is 9.8 and aids in locating MEPVC on 2D gel. MEPVC aliphatic index is 69.08 projecting the vaccine thermostable at different temperatures. The total number of negatively charged and positively charges residues are 8 and 22, respectively. The grand average of hydropathicity (GRAVY) score computed for the MEPVC is −0.545, illustrating hydrophilic nature of the protein and is likely to interact with water molecules. The estimated half-life of MEPVC in mammalian reticulocytes,
+      <italic>
+       in vitro
+      </italic>
+      is 30 h, yeast,
+      <italic>
+       in vivo
+      </italic>
+      is &gt;20 h, and
+      <italic>
+       E
+      </italic>
+      .
+      <italic>
+       coli
+      </italic>
+      ,
+      <italic>
+       in vivo
+      </italic>
+      higher than 10 h. The antigenicity of the MEPVC was cross-checked and predicted highly antigenic with value of 0.69. Total entropy of the protein is 17.0170 which is considered ideal and also the vaccine has no transmembrane helices (alpha helical transmembrane protein, 0.0474783 and beta barrel transmembrane protein, 0.0060384) hence no difficulties can be anticipated in cloning and expression analysis. The predicted solubility upon overexpression of MEPVC is 0.965751 reflecting higher solubility of MEPVC.
+     </p>
+    </sec>
+    <sec id="s0070">
+     <label>
+      3.4
+     </label>
+     <title>
+      Modeling and refinement of MEPVC
+     </title>
+     <p id="p0115">
+      The 3D model of the MEPVC was constructed using
+      <italic>
+       ab initio
+      </italic>
+      3Dpro predictor as no appropriate template was available for homology modeling and threading methods. The 3D structure of MEPVC is shown in      B. The structure secured 85.4% of residues in the Ramachandran favored, 12.6% in additionally allowed, 1.9% in generously allowed, and 0% in disallowed region. As the predicted MEPVC unit has number of loop regions that need to be modeled properly before moving forward. In total, five sets of residues: Alas7-Lys32, Ile63-Gly69, Cys73-Arg77, Thr87-Pro102, and Asn113-Val119 were loop modeled. The loop modeled structure increased the Ramachandran favored residues percentage to 92.3%, residues in allowed region reduced to 6.7%, residues of generously allowed region to 1.0% and disallowed remained to 0%. The structure was subjected to structure perturbations and relaxations to obtain a refined model. Among the generated structures (S-Table 3), the first model was selected as it has improved Rama favored score, lowest stable galaxy energy of 0.96, improved clash score of 23.1 and good MolProbity value. Similarly, the structure lacks poor rotamers in contrast to the original structure. The Ramachandran statistics for the refined 3D structure are in following order: Ramachandran favored residues (93.2%), additionally allowed region (5.8%), generously allowed region (1.0%) and disallowed region (0%). The
+      <italic>
+       Z
+      </italic>
+      -score of the refined MEPVC is −4.3 and within the score range of the same size protein in structure databases (S-Fig. 2).
+     </p>
+    </sec>
+    <sec id="s0075">
+     <label>
+      3.5
+     </label>
+     <title>
+      Disulfide engineering and
+      <italic>
+       in silico
+      </italic>
+      cloning of the MEPVC
+     </title>
+     <p id="p0120">
+      Further, disulfide engineering of the MEPVC was performed in order to optimize molecular interactions and confer considerable stability by attaining precise geometric conformation [      ,      ]. Eight pairs of residues were selected to be replaced with cysteine amino acids. These pairs are: Gln7-Ala19 (χ3 angle,+118, energy value, 4.20 kcal/mol), Cys18-Leu21 (χ3 angle,+84.35, energy value, 3.69 kcal/mol), Lys44-Ala47 (χ3 angle,+74.17, energy value,5.59 kcal/mol), Arg57-Ala61 (χ3 angle,+122.71, energy value,6.14 kcal/mol), Ala72-Ala85 (χ3 angle,-62.92, energy value,4.40 kcal/mol), Ala73-Ala82 (χ3 angle, energy value, kcal/mol), Leu92-Glu95 (χ3 angle, −102.37, energy value, 3.86 kcal/mol), and Phe111-Pro117 (χ3 angle,-96.20, energy value,4.14 kcal/mol). These residues have either higher energy level
+      <italic>
+       i
+      </italic>
+      .
+      <italic>
+       e
+      </italic>
+      . &gt;2 kcal/mol or χ3 angle out of range (&lt;−87 and &gt;+97) were selected on purpose to make them stable. The original and disulfide mutant MEPVC structures are shown in      . The primary purpose of
+      <italic>
+       in silico
+      </italic>
+      cloning of the MEPVC was to guide molecular biologists and genetic engineers about the possible cloning sites and predicted levels of expression in a specific expression system for instance here in this study we used
+      <italic>
+       E
+      </italic>
+      .
+      <italic>
+       coli
+      </italic>
+      K12 system. Prior to cloning, reverse translation of the MEPVC sequence was conducted to have an optimized codon usage as per
+      <italic>
+       E
+      </italic>
+      .
+      <italic>
+       coli
+      </italic>
+      K12 to yield its max expression. The CAI value of the improved MEPVC sequence is 1 indicating ideal expression of the vaccine [      ]. The GC content whereas is 53.2% nearly to the
+      <italic>
+       E
+      </italic>
+      .
+      <italic>
+       coli
+      </italic>
+      K12 and range within the optimum ranged between 30% and 70%. The cloned MEPVC is shown in      .
+     </p>
+    </sec>
+    <sec id="s0080">
+     <label>
+      3.6
+     </label>
+     <title>
+      <italic>
+       In silico
+      </italic>
+      immune simulation
+     </title>
+     <p id="p0125">
+      Both primary and secondary immune responses seem to play a significant contribution against the pathogen and may be compatible with the actual immune response. The
+      <italic>
+       in silico
+      </italic>
+      host immune system response to the antigen is shown in      . High concentration of IgG +IgG and IgM was characterized at the primary response, followed by IgM, IgG1+ IgG2 and IgG1 at both primary and secondary stages with concomitant of antigen reduction. Additionally, robust responses of interleukins and cytokines were observed. All this suggests the efficient immune response and clearance of the pathogen upon subsequent encounters. Elevated B cell population including memory cells and different isotypes in response to the antigen, points to the long lasting formation of memory and isotype switching. The T helper cell population additionally with the cytotoxic T cell and their respective memory development are in strong agreement of strong response to the antigen.
+     </p>
+    </sec>
+    <sec id="s0085">
+     <label>
+      3.7
+     </label>
+     <title>
+      Interaction of MEPVC and TLR3 promotes formation of strong complex
+     </title>
+     <p id="p0130">
+      Bioinformatic modeling driven molecular docking of the designed MEPVC to one representative innate immune response receptor (TLR3) was carried out in order to decode MEPVC potential of binding to the innate immune receptors. This was fundamental to understand as TLR3 is significant in recognition of virus associated molecular patterns and activation of type I interferons and NF-kappa B. The docking assessment predicted top 20 complexes sorted mainly on scoring function along with area size of interacting molecules, actual rigid transformation of complexes and desolvation energy. Following, the complexes were subjected to FireDock web server for refinement assay. This eases in discarding flexibility errors of the docking procedure and provides a deep refinement of the predictions thus limiting the chances of false positive docking calculations. According to the global energy, solution 8 was ranked as top with net global energy of −20.78 kJ/mol (      ). This energy is the output of −16.88 kJ/mol attractive van der Waals (vdW), 3.81 kJ/mol repulsive vdW, 8.14 kJ/mol atomic contact energy (ACE), and − 0.93 kJ/mol hydrogen bond energy. The docked conformation and chemical interacting residues of the MEPVC with TLR3 is shown in      . Visual inspection of the complex leads to observation of deep binding of the MEPVC at the center of TLR3 and favor rigorously hydrogen and weak van der Waals interactions with various residues of TLR3. Within 3 Å, the MEPVC was noticed to formed interactions with His39,Val55,Asn57,Asp81,Phe84,Val103,Asn105,Gln107,His108,Thr126,Glu127,Ser132,His129,Thr151,His156,Gln174,GLu175,Lys200,Lys201,Glu203,Asn229,Ser256,Asp280,Ser282,Tyr283,Tyr302,Phe304,Tyr307,Lys330,Tyr383,Tyr326,Asn328,His359,Asn361, and Glu363.
+      <table-wrap id="t0005" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Refined PatchDock complexes as an outcome of FireDock assay.
+        </p>
+       </caption>
+       <alt-text id="al0060">
+        Table 1
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Solution rank
+          </th>
+          <th>
+           Solution iteration
+          </th>
+          <th>
+           Docking global energy
+          </th>
+          <th>
+           Attractive van der Waals energy
+          </th>
+          <th>
+           Repulsive van der Waals energy
+          </th>
+          <th>
+           Atomic contact energy
+          </th>
+          <th>
+           Hydrogen bonding energy
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           1
+          </td>
+          <td align="char">
+           8
+          </td>
+          <td align="char">
+           −20.78
+          </td>
+          <td align="char">
+           −16.88
+          </td>
+          <td align="char">
+           3.81
+          </td>
+          <td align="char">
+           8.14
+          </td>
+          <td align="char">
+           −0.93
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td align="char">
+           3
+          </td>
+          <td align="char">
+           −9.08
+          </td>
+          <td align="char">
+           −11.71
+          </td>
+          <td align="char">
+           1.36
+          </td>
+          <td align="char">
+           2.37
+          </td>
+          <td align="char">
+           −0.96
+          </td>
+         </tr>
+         <tr>
+          <td>
+           3
+          </td>
+          <td align="char">
+           4
+          </td>
+          <td align="char">
+           18.96
+          </td>
+          <td align="char">
+           −35.55
+          </td>
+          <td align="char">
+           34.92
+          </td>
+          <td align="char">
+           8.46
+          </td>
+          <td align="char">
+           −2.21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           4
+          </td>
+          <td align="char">
+           1
+          </td>
+          <td align="char">
+           19.29
+          </td>
+          <td align="char">
+           −12.32
+          </td>
+          <td align="char">
+           15.65
+          </td>
+          <td align="char">
+           6.68
+          </td>
+          <td align="char">
+           −2.85
+          </td>
+         </tr>
+         <tr>
+          <td>
+           5
+          </td>
+          <td align="char">
+           10
+          </td>
+          <td align="char">
+           23.90
+          </td>
+          <td align="char">
+           −28.09
+          </td>
+          <td align="char">
+           18.61
+          </td>
+          <td align="char">
+           10.32
+          </td>
+          <td align="char">
+           −2.74
+          </td>
+         </tr>
+         <tr>
+          <td>
+           6
+          </td>
+          <td align="char">
+           7
+          </td>
+          <td align="char">
+           28.45
+          </td>
+          <td align="char">
+           −24.64
+          </td>
+          <td align="char">
+           22.73
+          </td>
+          <td align="char">
+           12.98
+          </td>
+          <td align="char">
+           −3.35
+          </td>
+         </tr>
+         <tr>
+          <td>
+           7
+          </td>
+          <td align="char">
+           6
+          </td>
+          <td align="char">
+           34.28
+          </td>
+          <td align="char">
+           −29.92
+          </td>
+          <td align="char">
+           9.59
+          </td>
+          <td align="char">
+           14.30
+          </td>
+          <td align="char">
+           −1.52
+          </td>
+         </tr>
+         <tr>
+          <td>
+           8
+          </td>
+          <td align="char">
+           9
+          </td>
+          <td align="char">
+           41.80
+          </td>
+          <td align="char">
+           −28.57
+          </td>
+          <td align="char">
+           10.33
+          </td>
+          <td align="char">
+           16.83
+          </td>
+          <td align="char">
+           −4.66
+          </td>
+         </tr>
+         <tr>
+          <td>
+           9
+          </td>
+          <td align="char">
+           5
+          </td>
+          <td align="char">
+           47.06
+          </td>
+          <td align="char">
+           −11.90
+          </td>
+          <td align="char">
+           80.07
+          </td>
+          <td align="char">
+           4.28
+          </td>
+          <td align="char">
+           −2.03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           10
+          </td>
+          <td align="char">
+           2
+          </td>
+          <td align="char">
+           76.58
+          </td>
+          <td align="char">
+           −40.07
+          </td>
+          <td align="char">
+           43.84
+          </td>
+          <td align="char">
+           20.00
+          </td>
+          <td align="char">
+           −5.59
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0090">
+     <label>
+      3.8
+     </label>
+     <title>
+      MD simulations supported docked complex stability and equilibrium
+     </title>
+     <p id="p0135">
+      The stability of MEPVC with TLR3 was further investigated through MD simulations. The trajectories of MD simulations were used in vital statistical analysis to decode backbone stability and residual flexibility. Root mean square deviation (RMSD) [      ,      ] was performed first that compute the average distance of backbone carbon alpha atoms of superimposed frames (      A). The average RMSD for the system is 3.23 Å with max of 4.4 Å at 24-ns. An initial sudden change in RMSD can be seen up to 2.7-ns that may be due to adjustments adopted by the complex when exposed to dynamics forces and milieu. The second minor RMSD shift can be noticed between 22-ns to 26-ns. Afterward, the system is quite stable with no global and local conformational changes specified. To affirm this observation, the simulation period was extended to 100-ns (S-Fig. 3). As can be seen, the complex is attaining stability as simulation time proceeds and the average RMSD reduced to 3.0 Å. Next, root mean square fluctuations (RMSF) [      ] was applied to the system trajectories (      B). RMSF is the average residual mobility of complex residues from its mean position. Mean RMSF for the MEPVC-TLR3 complex calculated is 1.60 Å with max of 8.6 Å pointed at the N-terminal of the MEPVC. Most of the interacting residues of the MEPVC with TLR3 are subject to minor fluctuations, a fact in analogy to complex high stability. The thermal residual deviation was assessed afterward by beta-factor (β-factor) [      ], the outcomes of which are strongly correlated to the RMSF and hence further affirming system stability (      C). The average β-factor of the system analyzed is 88.64 Å      with max of 1956.23 Å      . Lastly, we evaluated the compactness of the system by means of radius of gyration (R
+      <italic>
+       g
+      </italic>
+      ) [      ] analysis (      D). High R
+      <italic>
+       g
+      </italic>
+      and low R
+      <italic>
+       g
+      </italic>
+      illustrate the magnitude of system compactness and system less tight packing. It further tells us whether the system of interest in order or not. Highly compact system is an indication of system stability and
+      <italic>
+       vice versa
+      </italic>
+      . The mean R
+      <italic>
+       g
+      </italic>
+      for our system is 55.8411 Å with max score of 74.884 reflecting higher ordered and compact nature of the system.
+     </p>
+    </sec>
+    <sec id="s0095">
+     <label>
+      3.9
+     </label>
+     <title>
+      Hydrogen bonds analysis
+     </title>
+     <p id="p0140">
+      Hydrogen bonds are dipole-dipole attractive forces and formed when a hydrogen atom bonded to a highly electronegative atom such as F, N, and O is attracted by another electronegative atom [      ]. The strength of a hydrogen bond varies from 4 kJ to 50 kJ per mole. Hydrogen bonds are deemed vital in molecular recognition and provide rigidity in achieving stable conformation [      ]. The frequency of hydrogen bonds in each frame of the MD simulation trajectories can be visualized in      A. These hydrogen bonds were extracted by means of VMD HBonds plugin and are 104 in number (      ). The cut-off distance set is 3.0 Å and cut-off angle 20 degrees. Each residue pair may for one, two or more each of which is counted separately. The min, mean and max number of hydrogen bonds between MEPVC and TLR3 are 1, 5, and 12, respectively.
+      <table-wrap id="t0010" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Hydrogen bonds between TLR3 and MEPVC formed during MD simulations. Only hydrogen bonds with occupancy &gt;5% are shown in the table.
+        </p>
+       </caption>
+       <alt-text id="al0065">
+        Table 2
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Donor
+          </th>
+          <th>
+           Acceptor
+          </th>
+          <th>
+           Occupancy
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Arg705-Side
+          </td>
+          <td>
+           Asp52-Side
+          </td>
+          <td>
+           98.52%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Arg643-Side
+          </td>
+          <td>
+           Glu323-Side
+          </td>
+          <td>
+           83.46%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Arg706-Side
+          </td>
+          <td>
+           Asp124-Side
+          </td>
+          <td>
+           36.24%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Tyr638-Side
+          </td>
+          <td>
+           Glu328-Side
+          </td>
+          <td>
+           34.02%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys171-Side
+          </td>
+          <td>
+           Glu675-Side
+          </td>
+          <td>
+           29.48%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Arg646-Side
+          </td>
+          <td>
+           Glu323-Side
+          </td>
+          <td>
+           25.80%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Thr697-Side
+          </td>
+          <td>
+           Thr629-Main
+          </td>
+          <td>
+           23.12%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Gln722-Main
+          </td>
+          <td>
+           Tyr254-Side
+          </td>
+          <td>
+           22.94%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys679-Side
+          </td>
+          <td>
+           Glu98-Side
+          </td>
+          <td>
+           14.34%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Asn633-Side
+          </td>
+          <td>
+           Asp251-Side
+          </td>
+          <td>
+           14.20%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Arg706-Side
+          </td>
+          <td>
+           Glu98-Side
+          </td>
+          <td>
+           12.14%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys699-Side
+          </td>
+          <td>
+           Thr629-Side
+          </td>
+          <td>
+           11.72%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Arg643-Side
+          </td>
+          <td>
+           Hie324-Side
+          </td>
+          <td>
+           11.54%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys679-Side
+          </td>
+          <td>
+           Thr122-Side
+          </td>
+          <td>
+           8.52%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys679-Side
+          </td>
+          <td>
+           Glu146-Side
+          </td>
+          <td>
+           7.34%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys699-Side
+          </td>
+          <td>
+           Glu628-Side
+          </td>
+          <td>
+           6.90%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Tyr278-Side
+          </td>
+          <td>
+           Pro720-Main
+          </td>
+          <td>
+           6.86%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Gly630-Main
+          </td>
+          <td>
+           Glu174-Side
+          </td>
+          <td>
+           6.26%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Lys699-Side
+          </td>
+          <td>
+           Thr629-Main
+          </td>
+          <td>
+           5.64%
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Arg706-Side
+          </td>
+          <td>
+           Glu146-Side
+          </td>
+          <td>
+           5.36%
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0100">
+     <label>
+      3.10
+     </label>
+     <title>
+      Radial distribution function and inter molecular interactions
+     </title>
+     <p id="p0145">
+      The distribution and bonding pattern of intermolecular interactions of the MEPVC residues atom(s) with respect to the TLR3 were studied through radial distribution function (RDF) [      ,      ,      ]. RDF mainly describes distance ‘r’ between two entities and is symbolized by g(r). The factor ‘r’ is extracted from simulation frames and range from o to ∞ [      ]. The hydrogen bonds predicted by VMD were utilized in RDF that shown only 8 interactions between MEPVC and TLR3 with good affinity for each other. In these interactions, TLR3 residues (atoms) are Asp52:OD1, Gln78:HE21, Glu98:OE1, Asp124:OD2, Lys171:HZ3, Asp251:OD2, Glu323:OE2, and Glu328:OE1 are found to have strong radii distribution to their counterpart MEPVC residues (atoms): Arg705:HH11, Arg705: O, Lys679:HZ3, Arg706:HH12, Glu675:OE1, Asn633:HD22, Arg643:HH22, and Tyr638: HH, respectively. The RDF plots for the above said interactions are illustrated in      B. The interaction between Asp124-OD2 and Arg706-HH12 has a refined distribution pattern and highest density distribution among all. The max g(r) value for this interaction is 3.51 observed at distance range of 1 Å. This is followed by Glu328-OE1-Tyr638-HH with max g(r) value of 3.26 mostly interacting at distance range of 0.6 Å. The Glu323-OE2-Arg643-HH22 is also much refined having g(r) value of 1.98 and mostly interacts within distance range of 0.6 Å. The remaining interactions density distribution is not confined and vary considerably but important from MEPVC and TLR3 interaction point of view.
+     </p>
+    </sec>
+    <sec id="s0105">
+     <label>
+      3.11
+     </label>
+     <title>
+      Salt bridges and TLR3-MEPVC stability
+     </title>
+     <p id="p0150">
+      Salt bridges are non-covalent in nature and the outcome of interactions between two ionized states [      ]. These interactions comprised two parts: an electrostatic interaction and a hydrogen bond. In salt bridges, lysine or arginine typically behave as base where glutamine or aspartate as acid and the bridge is created when carboxylic acid group allows a proton migration to guanidine and amine group in arginine. Salt bridges are the strongest among all non-covalent interactions and contribute to a major extent in biomolecular stability [      ,      ,      ]. In total, 17 salt bridges were identified between TLR3 and MEPVC within the cut-off distance of 3.2 Å as can be depicted from      C. The higher numbers of salt bridges were recorded for TLR3-Glu628 and MEPVC-Lys685. The mean number of salt bridges for this interaction is 18, max, 35, and min,3. The count for other salt bridges from TLR3 to MEPVC is in following order: Asp124-Arg706 (mean, 3, max,7 and min,3), Glu98-Lys679 (mean, 5, max,10 and min,4), Asp402-Arg641 (mean, 12, max, 18 and min,4), Glu146-Arg706 (mean,7 max,11 and min,3), Glu146-Lys679 (mean,5 max,13 and min,2), Glu272-Lys655 (mean,9 max,22 and min,2), Glu323-Arg643 (mean,4 max,8 and min,3), Glu323-Arg646 (mean,5 max,10 and min,3), Glu323-Lys655 (mean,13 max,25 and min,3), Glu328-Arg641 (mean,10 max,17 and min,4), Glu628-Lys699 (mean,9 max,28 and min,2), Glu675-Lys171 (mean,4 max,13 and min,2), Glu675-Lys172 (mean,10 max,16 and min,2), Glu98-Arg705 (mean,9 max,14 and min,5), Glu98-Arg706 (mean, 9 max,14 and min,3), and Glu98-Lys679 (mean, 5 max,11 and min,2).
+     </p>
+    </sec>
+    <sec id="s0110">
+     <label>
+      3.12
+     </label>
+     <title>
+      Density distribution and local structure movements
+     </title>
+     <p id="p0155">
+      The vital hydrogen bond interactions involved between the TLR3 receptor and MEPVC shortlisted by VMD were subjected to a novel AFD analysis to elucidate 3D movements of MEPVC atoms with respect to a reference TLR3 residues atom in simulation time. To this objective, interactions mentioned in the RDF were used in AFD. Preliminary investigation suggested that only three interactions: TLR3-Asp52-MEPVC-Arg705, TLR3-Glu328-MEPVC-Tyr638, and TLR3-Glu323-MEPVC-Arg643 are mainly represented frequently and found in most of the simulation frames. The TLR3-Asp52-MEPVC-Arg705 is uncovered in 4997 frames, TLR3-Glu328-MEPVC-Tyr638 in 4988, and TLR3-Glu323-MEPVC-Arg643 in 4985 making these interactions ideal for interpreting density distribution of the interactions on XYZ planes and also appropriate for gaining ideas about conformational changes of the interacting atoms with respect to each other. As the local structure movements and rotations are responsible for functional shifts, their understanding in our system is important to be unveiled. For TLR3-Asp52-MEPVC-Arg705 (      A), the density distribution is not uniform, dispersed and behave flexibility in affinity on all three axis for the receptor atom. Parallel, the strength of interaction is also observed affected due to these minor structural movements of the MEPVC residue atom. Though, the mentioned interaction depicts MEPVC is still within the vicinity of the TLR3 reference residue and enjoys this interaction flexibility with the said MEPVC residue during simulation. TLR3-Glu328-MEPVC-Tyr638 interaction (      B) has less distribution area and has much higher intensity illustrating strong affinity of the interacting atoms for each other. It also gives an idea of the lesser movements of the atoms with respect to each other, an indication of a correct system conformation. The distribution area TLR3-Glu323-MEPVC-Arg643 is much dispersed though high intensity of the interaction can be seen in close vicinity (      C).
+     </p>
+    </sec>
+    <sec id="s0115">
+     <label>
+      3.13
+     </label>
+     <title>
+      MEPVC-TLR3 complex revealed high binding free energies
+     </title>
+     <p id="p0160">
+      The ΔTOTAL free energy in both GB and PB models are revealed favorable MEPVC-TLR3 complex in solvation. The net GB and PB contribution for the MEPVC-TLR3 system is −53.81 kcal/mol and − 89.02 kcal/mol, respectively. To this energy, a high contribution was noticed from gas phase energy (ΔG gas) compared to highly insignificant contributions from solvation energy (ΔG solv). In GB model, the ΔG gas energy for the system is −1889.76 kcal/mol whereas in PB model this energy is −1889.76 kcal/mol. The ΔG solv energy in case of GB is 1835.95 kcal/mol while in case of PB it is 1800.74 kcal/mol. The electrostatic contribution to the system estimated by MM force field in both methods is highly favorable to the net energy (
+      <italic>
+       i
+      </italic>
+      .
+      <italic>
+       e
+      </italic>
+      . −1752.51 kcal/mol). Likewise, the van der Waals contribution form MM is also reported significant in system stability (−137.25 kcal/mol). The electrostatic contribution (EGB and EPB) to the ΔG solv is found prime parameter leading to non-favorable contribution of ΔG solv energy in both techniques. The surface area energy (ESURF) computed in GB method is −20.22 kca/mol. In PB, ENPOLAR and EDISPER are the repulsive and attractive free energy and are −17.44 kcal/mol and 0 kcal/mol, respectively. Individual binding free energy for MEPVC-TLR3 complex, TLR3 receptor, MEPVC and net energy is tabulated in      .
+      <table-wrap id="t0015" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Binding free energies for the MEPVC-TLR3 system.
+        </p>
+       </caption>
+       <alt-text id="al0070">
+        Table 3
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th colspan="4">
+           GB
+           <hr/>
+          </th>
+          <th colspan="4">
+           PB
+           <hr/>
+          </th>
+         </tr>
+         <tr>
+          <th colspan="4">
+           Differences (MEPVC-TLR3 - TLR3- vaccine MEPVC)
+           <hr/>
+          </th>
+          <th colspan="4">
+           Differences (MEPVC-TLR3 - TLR3- vaccine MEPVC)
+           <hr/>
+          </th>
+         </tr>
+         <tr>
+          <th>
+           Energy component
+          </th>
+          <th>
+           Average
+          </th>
+          <th>
+           Std. dev.
+          </th>
+          <th>
+           Std. err. of mean
+          </th>
+          <th>
+           Energy component
+          </th>
+          <th>
+           Average
+          </th>
+          <th>
+           Std. dev.
+          </th>
+          <th>
+           Std. err. of mean
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           VDWAALS
+          </td>
+          <td>
+           −137.25
+          </td>
+          <td>
+           7.9
+          </td>
+          <td>
+           0.79
+          </td>
+          <td>
+           VDWAALS
+          </td>
+          <td align="char">
+           −137.25
+          </td>
+          <td align="char">
+           7.9
+          </td>
+          <td align="char">
+           0.79
+          </td>
+         </tr>
+         <tr>
+          <td>
+           EEL
+          </td>
+          <td>
+           −1752.51
+          </td>
+          <td>
+           48.84
+          </td>
+          <td>
+           4.88
+          </td>
+          <td>
+           EEL
+          </td>
+          <td align="char">
+           −1752.51
+          </td>
+          <td align="char">
+           48.84
+          </td>
+          <td align="char">
+           4.88
+          </td>
+         </tr>
+         <tr>
+          <td>
+           EGB
+          </td>
+          <td>
+           1856.18
+          </td>
+          <td>
+           45.486
+          </td>
+          <td>
+           4.54
+          </td>
+          <td>
+           EPB
+          </td>
+          <td align="char">
+           1818.19
+          </td>
+          <td align="char">
+           45.33
+          </td>
+          <td align="char">
+           4.53
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ESURF
+          </td>
+          <td>
+           −20.22
+          </td>
+          <td>
+           1.29
+          </td>
+          <td>
+           0.12
+          </td>
+          <td>
+           ENPOLAR
+          </td>
+          <td align="char">
+           −17.44
+          </td>
+          <td align="char">
+           0.51
+          </td>
+          <td align="char">
+           0.05
+          </td>
+         </tr>
+         <tr>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           EDISPER
+          </td>
+          <td align="char">
+           0
+          </td>
+          <td align="char">
+           0
+          </td>
+          <td align="char">
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ΔG gas
+          </td>
+          <td>
+           −1889.76
+          </td>
+          <td>
+           48.37
+          </td>
+          <td>
+           4.83
+          </td>
+          <td>
+           ΔG gas
+          </td>
+          <td align="char">
+           −1889.76
+          </td>
+          <td align="char">
+           48.37
+          </td>
+          <td align="char">
+           4.83
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ΔG solv
+          </td>
+          <td>
+           1835.95
+          </td>
+          <td>
+           45.19
+          </td>
+          <td>
+           4.51
+          </td>
+          <td>
+           ΔG solv
+          </td>
+          <td align="char">
+           1800.74
+          </td>
+          <td align="char">
+           45.2
+          </td>
+          <td align="char">
+           4.52
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ΔTotal
+          </td>
+          <td>
+           −53.81
+          </td>
+          <td>
+           8.1955
+          </td>
+          <td>
+           0.8195
+          </td>
+          <td>
+           Δ Total
+          </td>
+          <td align="char">
+           −89.02
+          </td>
+          <td align="char">
+           11.55
+          </td>
+          <td align="char">
+           1.15
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0120">
+     <label>
+      3.14
+     </label>
+     <title>
+      Net energy decomposition discovered hot-spot residues
+     </title>
+     <p id="p0165">
+      The net free energy of the simulated system was subjected to per residues and pairwise residues decomposition to point residues that contribute majorly in system stabilization and lower energy. Molecular docking simulation studies demonstrated 64 residues from the TLR3 receptor that are in direct contact with the MEPVC but per residue decomposition assay illustrated that among the residues only Hie31, Phe55, Glu98, Hie100, Met102, Ile121, Thr122, Asp124, Glu146, Glu146, Glu174, Ser176, Phe198, Asn200, Ser225, Met249, Asp251, Tyr254, Tyr273, Phe275, Tyr278, Tyr297, Glu323, Hie324, and Tyr348 are hotspot as they contribute rigorously in binding interaction with MEPVC at the docked site. The side chain of Hie100, Thr122, Asp124, Glu174, Ser176, Tyr254, and Glu323 contribute significantly in chemical interactions and have energy value in following order: −2.86602 kcal/mol, −3.71782 kcal/mol, −3.77019 kcal/mol, −3.80724 kcal/mol, −2.71475 kcal/mol, −2.40187 kcal/mol, and − 3.54158 kcal/mol, respectively. To these TLR3 hotspot residues, the MEPVC interacting residues were also observed in quite lower energies illustrating high affinity for the receptor residues for chemical interactions. From MEPVC, ASN633 (−4.11274 kcal/mol), TYR638 (2.83056 kcal/mol), VAL642 (−2.12862 kcal/mol), ARG643 (−6.59981 kcal/mol), GLU675 (−2.57531 kcal/mol), TRP682 (−2.54238 kcal/mol), ARG705 (−3.1088 kcal/mol), and ARG706 (−4.45088 kcal/mol) are favorable residues in stable complex formation. The hotspot residues for both TLR3 and MEPVC are shown in S-Fig. 4.
+     </p>
+    </sec>
+    <sec id="s0125">
+     <label>
+      3.15
+     </label>
+     <title>
+      Frame –wise energy decomposition
+     </title>
+     <p id="p0170">
+      The binding free energy of the TLR3-MEPVC complex, TLR3 receptor, MEPVC, and the net system energy is further decomposed into 100 frames extracted from simulation trajectories (S-Fig. 5). This information deemed vital in predicting the simulation time where higher intermolecular affinity was observed and can guide about the most suitable docked conformation. In general, the complex, receptor and construct energies are higher in PB compared to GB but for the total energy, the PB energies are quite lower for frames in contrast to GB. For the complex, the min, max and average binding energy reported are −67,264.7 kcal/mol, −66,901.5 kcal/mol, and − 67,069.5 kcal/mol, respectively in GB. The PB max frame energy is −66,751.4 kcal/mol, min is −67,120.2 kcal/mol and average is −66,921.6 kcal/mol. The GB receptor max is −57,111.5 kcal/mol whereas the min is −57,381.8 kcal/mol, and average is −57,242 kcal/mol. For PB receptor, max of −56,961 kcal/mol of energy was noticed compared to the min of −57,249 kcal/mol. The MEPVC is showing high average energy (−9773.16 kcal/mol in GB and − 9742.47 kcal/mol in PB), max (−9672.42 kcal/mol in GB and − 9644.54 kcal/mol in PB) and min (−9838.37 kcal/mol in GB and − 9811.3 kcal/mol in PB). The net average energy for frames in GB is −53.8024 kcal/mol (max, −33.978 kcal/mol and min, −72.791 kcal/mol) and in PB is −89.0949 kcal/mol (max, −65.151 kcal/mol and − 120.384 kcal/mol).
+     </p>
+    </sec>
+    <sec id="s0130">
+     <label>
+      3.16
+     </label>
+     <title>
+      Pair-wise energy contribution
+     </title>
+     <p id="p0175">
+      Pair-wise energy contribution to the system total energy was accomplished in order to understand pair residues roles from both TLR3 and MEPVC in complex stability. We found that the Thr122 and Asp124 (−4.56 kcal/mol in GB and − 5.45 kcal/mol in PB), Glu174 and Ser176 (−3.45 kcal/mol in GB and − 3.77 kcal/mol in PB), Glu323 and Hie324 (−2.86 kcal/mol in GB and − 3.99 kcal/mol in PB) of TLR3 receptor have high combined contribution to the total energy. In case of MEPVC, Asn633 and Thr634 (−3.21 kcal/mol in both GB and PB), Val642 and Arg643 (−5,87 kcal/mol in GB and − 3.27 kcal/mol in PB) and Arg705 and Arg708 (−2.74 kcal/mol and 2.04 kcal/mol).
+     </p>
+    </sec>
+    <sec id="s0135">
+     <label>
+      3.17
+     </label>
+     <title>
+      Binding entropy calculation
+     </title>
+     <p id="p0180">
+      Detail findings of entropy calculation are tabulated in      . The net value of −52.52 kcal/mol symbolizes the fact that microstate level of the system decreases when the TLR3 receptor and MEPVC bind to make complex. The decrease in the available microstate level also points towards MEPVC efficient trapping at the docked site of TLR3.
+      <table-wrap id="t0020" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Entropy results for the TLR3-MEPVC system. All values are in kcal/mol.
+        </p>
+       </caption>
+       <alt-text id="al0075">
+        Table 4
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th/>
+          <th>
+           Entropy term
+          </th>
+          <th>
+           Average
+          </th>
+          <th>
+           Std. dev.
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="4">
+           Complex
+          </td>
+          <td>
+           Translational
+          </td>
+          <td>
+           17.80
+          </td>
+          <td align="char">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Rotational
+          </td>
+          <td>
+           17.89
+          </td>
+          <td align="char">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Vibrational
+          </td>
+          <td>
+           2792.19
+          </td>
+          <td align="char">
+           2.33
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total
+          </td>
+          <td>
+           2827.88
+          </td>
+          <td align="char">
+           2.33
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="4">
+           TLR3
+          </td>
+          <td>
+           Translational
+          </td>
+          <td>
+           16.81
+          </td>
+          <td align="char">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Rotational
+          </td>
+          <td>
+           17.56
+          </td>
+          <td align="char">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Vibrational
+          </td>
+          <td>
+           2786.86
+          </td>
+          <td align="char">
+           3.03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total
+          </td>
+          <td>
+           2821.23
+          </td>
+          <td align="char">
+           3.03
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="4">
+           Vaccine MEPVC
+          </td>
+          <td>
+           Translational
+          </td>
+          <td>
+           14.01
+          </td>
+          <td align="char">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Rotational
+          </td>
+          <td>
+           11.59
+          </td>
+          <td align="char">
+           0.04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Vibrational
+          </td>
+          <td>
+           33.57
+          </td>
+          <td align="char">
+           0.04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total
+          </td>
+          <td>
+           59.17
+          </td>
+          <td align="char">
+           0.00
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ΔS total
+          </td>
+          <td>
+           DELTA S total
+          </td>
+          <td>
+           −52.52+/−
+          </td>
+          <td align="char">
+           3.30
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0140">
+    <label>
+     4
+    </label>
+    <title>
+     Conclusions
+    </title>
+    <p id="p0185">
+     Taken together, we characterized SARS-CoV-2 spike glycoprotein for antigenic peptides and proposed a MEPVC by means of several computational immunological methods and biophysical calculations. The outcomes of this study could save time and associated costs that go into experimental epitope targets study. The MEPVC is capable of activating all components of the host immune system, have suitable structural and physicochemical properties. Also, it seems to have very stable dynamics with TLR3 innate immune receptor and thus has higher chances of presentation to the host immune system. However, additional
+     <italic>
+      in vivo
+     </italic>
+     and
+     <italic>
+      in vitro
+     </italic>
+     experimentations are needed to disclose its real potential in the fight against COVID-19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0145">
+    <title>
+     CRediT authorship contribution statement
+    </title>
+    <p id="p0190">
+     <bold>
+      Saba Ismail:
+     </bold>
+     Methdology, Writing - original draft, Data curation, Formal Analsysis.
+     <bold>
+      Sajjad Ahmad:
+     </bold>
+     Data curation, Writing - original draft, Visualization.
+     <bold>
+      Syed Sikander Azam:
+     </bold>
+     Supervision, Conceptualization, Methodology, Software, Resources, Funding acquisition, Writing - review &amp; editing, Project administration.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of competing interest
+    </title>
+    <p id="p0195">
+     The authors declare that they have no conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

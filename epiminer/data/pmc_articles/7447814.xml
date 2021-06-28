@@ -1,0 +1,2268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Immunoinformatic identification of B cell and T cell epitopes in the SARS-CoV-2 proteome
+ </title>
+ <abstract>
+  <p id="Par1">
+   A novel coronavirus (SARS-CoV-2) emerged from China in late 2019 and rapidly spread across the globe, infecting millions of people and generating societal disruption on a level not seen since the 1918 influenza pandemic. A safe and effective vaccine is desperately needed to prevent the continued spread of SARS-CoV-2; yet, rational vaccine design efforts are currently hampered by the lack of knowledge regarding viral epitopes targeted during an immune response, and the need for more in-depth knowledge on betacoronavirus immunology. To that end, we developed a computational workflow using a series of open-source algorithms and webtools to analyze the proteome of SARS-CoV-2 and identify putative T cell and B cell epitopes. Utilizing a set of stringent selection criteria to filter peptide epitopes, we identified 41 T cell epitopes (5 HLA class I, 36 HLA class II) and 6 B cell epitopes that could serve as promising targets for peptide-based vaccine development against this emerging global pathogen. To our knowledge, this is the first study to comprehensively analyze all 10 (structural, non-structural and accessory) proteins from SARS-CoV-2 using predictive algorithms to identify potential targets for vaccine development.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par2">
+     In December 2019, public health officials in Wuhan, China, reported the first case of severe respiratory disease attributed to infection with the novel coronavirus SARS-CoV-2     . Since its emergence, SARS-CoV-2 has spread rapidly via human-to-human transmission     , threatening to overwhelm healthcare systems around the world and resulting in the declaration of a pandemic by the World Health Organization     . The disease caused by the virus (COVID-19) is characterized by fever, pneumonia, and other respiratory and inflammatory symptoms that can result in severe inflammation of lung tissue and ultimately death—particularly among older adults or individuals with underlying comorbidities     . As of this writing, the SARS-CoV-2 pandemic has resulted in 4 million confirmed cases of COVID-19 and over 280,000 deaths worldwide     .
+    </p>
+    <p id="Par3">
+     SARS-CoV-2 is the third pathogenic coronavirus to cross the species barrier into humans in the past two decades, preceded by severe acute respiratory syndrome coronavirus (SARS-CoV)     and Middle-East respiratory syndrome coronavirus (MERS-CoV)     . All three of these viruses belong to the β-coronavirus genus and have either been confirmed (SARS-CoV) or suggested (MERS-CoV, SARS-CoV-2) to originate in bats, with transmission to humans occurring through intermediary animal hosts     . While previous zoonotic spillovers of coronaviruses have been marked by high case fatality rates (~ 10% for SARS-CoV; ~ 34% for MERS-CoV), widespread transmission of disease has been relatively limited (8,098 cases of SARS; 2,494 cases of MERS)     . In contrast, SARS-CoV-2 is estimated to have a lower case fatality rate (~ 2 to 4%) but is far more infectious and has achieved world-wide spread in a matter of months     .
+    </p>
+    <p id="Par4">
+     As the number of COVID-19 cases continues to grow, there is an urgent need for a safe and effective vaccine to combat the spread of SARS-CoV-2 and reduce the burden on hospitals and healthcare systems. No licensed vaccine or therapeutic is currently available for SARS-CoV-2, although there are over 100 vaccine candidates reportedly in development worldwide. Seven vaccine candidates have rapidly progressed into Phase I/II clinical trials: adenoviral vector-based vaccines (CanSino Biologics, ChiCTR2000030906; University of Oxford, NCT04324606), nucleic-acid based vaccines encoding for the viral spike (S) protein (Moderna, NCT04283461; Inovio Pharmaceuticals, NCT04336410; BioNTech/Pfizer, 2020-001038-36), and inactivated virus formulations (Sinopharm, ChiCTR2000031809; Sinovac (NCT04352608)     . While the advancement of these vaccine candidates into clinical testing is promising, it is imperative they meet stringent endpoints for safety     . Preclinical studies of multiple experimental SARS-CoV vaccines have reported a Th2-type immunopathology in the lungs of vaccinated mice following viral challenge, suggesting hypersensitization of the immune response against certain viral proteins     . Similarly, a modified vaccinia virus Ankara vector expressing the SARS-CoV S protein induced significant hepatitis in immunized ferrets     . These data suggest that candidate coronavirus vaccines that limit the inclusion of whole viral proteins may have more beneficial safety profiles.
+    </p>
+    <p id="Par5">
+     The SARS-CoV-2 genome encodes for 10 unique protein products: 4 structural proteins (surface glycoprotein (S), envelope (E), membrane (M), nucleocapsid (N)); 5 non-structural proteins (open reading frame (ORF)3a, ORF6, ORF7a, ORF8, ORF10); and 1 non-structural polyprotein (ORF1ab) (Fig.     A,B)     . There is currently very little known regarding which epitopes in the SARS-CoV-2 proteome are recognized by the human immune system, although a limited number of studies have recently reported a broad spectrum of cellular immune responses against the structural and non-structural proteins from SARS-CoV-2 among convalescent subjects     . Studies of SARS-CoV immune responses suggest that both cellular and humoral responses against structural proteins mediate protection against disease     , and it is likely that cellular immune responses against non-structural viral proteins also play a key role in orchestrating protective antiviral immunity     . In lieu of biological data, immunoinformatic algorithms can be employed to predict peptide epitopes based on amino acid properties and known human leukocyte antigen (HLA) binding profiles     . These computational approaches represent a validated methodology for rapidly identifying potential T cell and B cell epitopes for exploratory peptide-based vaccine development and have been recently used to identify target epitopes for MERS-CoV     and SARS-CoV-2, although many of these reports focus solely on structural proteins     .
+    </p>
+    <p id="Par6">
+     Herein, we employed a comprehensive immunoinformatics approach to identify putative T cell and B cell epitopes across the entire SARS-CoV-2 proteome (Fig.     C). We independently identified peptides from each viral protein that were restricted to either HLA class I or HLA class II molecules across a subset of the most common HLA alleles in the global population. By filtering this list of peptides on the basis of predicted binding affinity, antigenicity, and promiscuity, we produced 5 HLA class I-restricted and 36 HLA class II-restricted peptides as leading candidates for further study. We also evaluated linear and structural B cell epitopes in the SARS-CoV-2 spike protein, with six antigenic regions identified as potential sites for antibody binding. These selected peptides may serve as initial candidates in the rational and accelerated design of a peptide-based vaccine against SARS-CoV-2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec3">
+     <title>
+      Comparison of genome sequences from SARS-CoV-2 isolates
+     </title>
+     <p id="Par7">
+      Genomic sequences for reported SARS-CoV-2 isolates were identified and retrieved from the Virus Pathogen Resource (ViPR) database on February 27, 2020 (
+      <ext-link ext-link-type="uri" ns0:href="https://www.viprbrc.org/brc/home.spg?decorator=corona_ncov">
+       https://www.viprbrc.org/brc/home.spg?decorator=corona_ncov
+      </ext-link>
+      ). Sequences that did not cover the complete viral genome (~ 29,900 nucleotides) were excluded from further analysis. Remaining sequences were aligned using the Clustal Omega program (version 1.2.4) from the European Bioinformatics Institute      and compared against the first reported genome sequence for SARS-CoV-2 (Wuhan-Hu-1; taxonomy ID: 2697049)      . Sequences from Wuhan-Hu-1 viral proteins were determined to be representative of those from all viral isolates and were subsequently used for epitope prediction analyses.
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Prediction of SARS-CoV-2 T cell epitopes
+     </title>
+     <p id="Par8">
+      Prediction of HLA class I and class II peptide epitopes was carried out with the 10 protein sequences reported for the Wuhan-Hu-1 isolate: E (GenBank accession: QHD43418); M (QHD43419); N (QHD43423);S (QHD43416); ORF3a (QHD43417); ORF6 (QHD43420); ORF7a (QHD43421); ORF8 (QHD43422); ORF10 (QHI42199); ORF1ab (QHD43415). We used standard methods similar to those previously applied to the analysis of SARS-CoV-2 protein sequences      .
+     </p>
+     <p id="Par9">
+      For CD8      T cell epitope prediction, NetCTL 1.2 (Immune Epitope Database) was initially used to evaluate the binding of nonameric peptides derived from each viral protein to the most common HLA class I supertypes present among the human population      . HLA class I molecules preferentially bind 9-mer peptides, and most algorithm training datasets have been based on peptides of this length. The weight placed on C-terminal cleavage and antigen transport efficiency was 0.15 and 0.05, respectively. The antigenic score threshold was 0.75. Peptides with scores above this threshold were subsequently analyzed on the NetMHCpan 4.0 server (Technical University of Denmark) to predict binding affinity and percentile rank across representative alleles of each major HLA class I supertype (HLA-A*01:01, HLA-A*02:01, HLA-A*03:01, HLA-A*24:02, HLA-B*07:02, HLA-B*08:01, HLA-B*27:05, HLA-B*40:01, HLA-B*58:01, HLA-B*15:01), which collectively cover the majority of class I alleles present in the human population      . Thresholds for defining binding strength were set at 0.5% and 2.0% for strong and weak binders, respectively.
+     </p>
+     <p id="Par10">
+      For CD4      T cell epitope prediction, NetMHCIIpan 3.2 server (Technical University of Denmark) was used for predicting the binding affinity and percentile rank of 15-mer peptides derived from each viral protein across a reference panel of 27 HLA class II molecules      . Thresholds for defining binding strength were set at 2% and 10% for strong and weak binders, respectively.
+     </p>
+     <p id="Par11">
+      HLA class I and class II peptides with high predicted binding affinities (≤ 500 nM), high percentile ranks (≤ 0.5% for class I; ≤ 2% for class II), and broad HLA coverage (≥ 3 alleles) were independently analyzed on the VaxiJen 2.0 server (Edward Jenner Institute)      using a conservative score threshold (0.7) to predict antigenicity. Global population HLA allele coverage for this peptide subset was separately calculated for class I and class II molecules using the Population Coverage tool from IEDB      and the predicted HLA alleles identified in our analyses. The potential toxicity and allergenicity of each peptide were calculated using the ToxinPred      and AllerCatPro      web tools, respectively. Default parameters were used for all sequence inputs.
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      Molecular docking of HLA class I peptides
+     </title>
+     <p id="Par12">
+      Docking simulations of 5 HLA class I-restricted SARS-CoV-2 peptides with high antigenicity scores and a commonly shared predicted HLA molecule (HLA-DRB1*15:01) were performed using the GalaxyPepDock server (Seoul National University Laboratory of Computational Biology)      . The structure of HLA-DRB1*15:01 was accessed from the Protein Data Bank as a co-crystallized structure of the HLA molecule with a nonameric SARS-CoV peptide (PDB ID: 3C9N)      . The bound nonamer peptide was removed from the structure using Chimera 1.14 (University of California-San Francisco)      prior to running simulations. Ten models of each peptide-HLA complex were generated on the basis of minimized energy scores, and the top model for each complex was selected for comparative analysis.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Prediction and structural modeling of SARS-CoV-2 B cell epitopes
+     </title>
+     <p id="Par13">
+      Linear B cell epitope predictions were performed on the three exposed SARS-CoV-2 structural proteins: S (GenBank accession: QHD43416), M (QHD43419), and E (QHD43418) using the BepiPred 1.0 algorithm      . Epitope probability scores were calculated for each amino acid residue using a threshold of 0.35 (corresponding to &gt; 0.75 specificity and sensitivity below 0.5), and only epitopes ≥ 5 amino acid residues in length were further analyzed. The structure of the SARS-CoV-2 S protein was accessed from the Protein Data Bank (PDB ID: 6VSB)      . Discontinuous (i.e., structural) B cell epitope predictions for the S protein structure were carried out using DiscoTope 1.1      with a score threshold greater than − 7.7 (corresponding to &gt; 0.75 specificity and sensitivity below 0.5). The main protein structure was modeled in PyMOL (Schrödinger, LLC), with predicted B cell epitopes identified by both BepiPred 1.0 and DiscoTope 1.1 highlighted as spheres.
+     </p>
+     <p id="Par14">
+      All data presented and analyzed were retrieved from ViPR, IEDB, and PDB as described. The tables, figures and supplementary files include all data generated and/or analyzed as a part of this study. Files of peptides and protein sequences compiled from ViPR and IEDB are available upon request.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec7">
+    <title>
+     Results
+    </title>
+    <sec id="Sec8">
+     <title>
+      Genetic similarity of SARS-CoV-2 isolates
+     </title>
+     <p id="Par15">
+      The primary goal of our study was to identify peptide epitopes that would be broadly applicable in vaccine development efforts against SARS-CoV-2. We identified 72 point mutations and 5 deletions across the genomes of 44 clinical isolates, with the majority of mutations (n = 46) and deletions (n = 4) occurring in the ORF1ab polyprotein (Supp. Figure      , Supp. Table      ). Single-point mutations were also found in the S protein (n = 5), N protein (n = 5), ORF8 protein (n = 3), ORF3a protein (n = 2), E protein (n = 1), and M protein (n = 1). The remaining mutations (n = 10) and 1 deletion were mapped to the untranslated regions (UTRs) of the SARS-CoV-2 genome. Despite the genetic diversity introduced by these events (Fig.      D), matrix analysis determined that &gt; 99% sequence identity was maintained across all viral genomes. Based on these findings and for study feasibility, the genome from the original virus isolate (Wuhan-Hu-1; GenBank: MN908947) was selected as the consensus sequence for all further analyses.
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Prediction of CD8      T cell epitopes in the SARS-CoV-2 proteome
+     </title>
+     <p id="Par16">
+      We next identified potential CD8      T cell epitopes from all proteins in the SARS-CoV-2 proteome. Using the NetCTL 1.2 predictive algorithm, we analyzed the complete amino acid sequence of each viral protein to generate sets of 9-mer peptides predicted to be recognized across at least one of the major HLA class I supertypes (Fig.      A, Supp. Figure      ). This approach yielded a significant number of potential epitopes from each viral protein (ORF10: 9, ORF6: 17, ORF8: 23, E: 25, ORF7: 39, N: 80, M: 87, ORF3a: 87, S: 321, ORF1ab: 2814), with the number directly related to the size of the parent protein. We used the NetMHCpan 4.0 server to further refine the list of potential CD8      T cell epitopes by predicting binding affinity across representative HLA class I alleles (see Methods) and assigning percentile scores to quantify binding propensity. Peptides with percentile rank scores ≤ 0.5% (i.e., strong binders) were filtered using a 500 nM threshold for binding affinity to further delineate 740 candidate HLA class I epitopes from the viral proteome      . For feasibility reasons, we refined our selection to 83 candidate epitopes by excluding peptides predicted to bind only one HLA molecule (Supp. Table      ). The resultant peptides were enriched for predicted binders to HLA-B molecules (HLA-B*15:01 = 50; HLA-B*58:01 = 32; HLA-B*08:01 = 31) (Fig.      B). A final round of selection on the basis of HLA promiscuity (i.e., predicted binding to ≥ 3 HLA molecules) and predicted antigenicity scoring using the VaxiJen 2.0 server produced a subset of five candidate peptides (four ORF1ab, one S protein) as potential targets for vaccine development (Table      ) with the hypothesis that increased HLA binding promiscuity meant broader population base coverage by those peptides. These peptides were predicted to provide 74% global population coverage and had higher predicted binding affinities for HLA-B molecules (B*08:01 = 42.6 nM; B*15:01 = 67.7 nM; B*58:01 = 110.3 nM) compared to HLA-A molecules (A*01:01 = 238.6 nM; A*24:02 = 142.9 nM), with the exception of one ORF1ab-derived peptide (MMISAGFSL) that was predicted to bind HLA-A*02:01 with high affinity (IC
+      <sub>
+       50
+      </sub>
+      = 6.9 nM) (Fig.      C, Figure S3).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Top predicted HLA class I and class II T cell epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Protein
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+          <th align="left">
+           Residues
+          </th>
+          <th align="left">
+           Antigenicity score
+          </th>
+          <th align="left">
+           Predicted Alleles
+          </th>
+          <th align="left">
+           Binding affinity (nM)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="6">
+           <bold>
+            Class I
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           S
+          </td>
+          <td align="left" rowspan="3">
+           FAMQMAYRF
+          </td>
+          <td align="char" char="–" rowspan="3">
+           898–906
+          </td>
+          <td align="char" char="." rowspan="3">
+           1.0278
+          </td>
+          <td align="left">
+           A*24:02
+          </td>
+          <td align="char" char=".">
+           142.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*15:01
+          </td>
+          <td align="char" char=".">
+           123.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*58:01
+          </td>
+          <td align="char" char=".">
+           23.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           LSFKELLVY
+          </td>
+          <td align="char" char="–" rowspan="3">
+           4758–4767
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.7234
+          </td>
+          <td align="left">
+           A*01:01
+          </td>
+          <td align="char" char=".">
+           371.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*15:01
+          </td>
+          <td align="char" char=".">
+           42.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*58:01
+          </td>
+          <td align="char" char=".">
+           35.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           MMISAGFSL
+          </td>
+          <td align="char" char="–" rowspan="3">
+           6425–6434
+          </td>
+          <td align="char" char="." rowspan="3">
+           1.0248
+          </td>
+          <td align="left">
+           A*02:01
+          </td>
+          <td align="char" char=".">
+           6.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*08:01
+          </td>
+          <td align="char" char=".">
+           367.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*15:01
+          </td>
+          <td align="char" char=".">
+           16.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           MSNLGMPSY*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           2254–2262
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.9272
+          </td>
+          <td align="left">
+           A*01:01
+          </td>
+          <td align="char" char=".">
+           184.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*15:01
+          </td>
+          <td align="char" char=".">
+           74.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*58:01
+          </td>
+          <td align="char" char=".">
+           87.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           STNVTIATY
+          </td>
+          <td align="char" char="–" rowspan="3">
+           2273–2281
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.7143
+          </td>
+          <td align="left">
+           A*01:01
+          </td>
+          <td align="char" char=".">
+           241.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*15:01
+          </td>
+          <td align="char" char=".">
+           81.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           B*58:01
+          </td>
+          <td align="char" char=".">
+           294.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="6">
+           <bold>
+            Class II
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="8">
+           M
+          </td>
+          <td align="left" rowspan="8">
+           ASFRLFARTRSMWSF*
+          </td>
+          <td align="char" char="–" rowspan="8">
+           98–112
+          </td>
+          <td align="char" char="." rowspan="8">
+           0.7304
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           19.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           30.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           53.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           49.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           12.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           16.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*05:01
+          </td>
+          <td align="char" char=".">
+           256.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01 DPB1*14:01
+          </td>
+          <td align="char" char=".">
+           387.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="7">
+           M
+          </td>
+          <td align="left" rowspan="7">
+           LLQFAYANRNRFLYI*
+          </td>
+          <td align="char" char="–" rowspan="7">
+           34–48
+          </td>
+          <td align="char" char="." rowspan="7">
+           0.7387
+          </td>
+          <td align="left">
+           DRB1*03:01
+          </td>
+          <td align="char" char=".">
+           179.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           58.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           225.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           36.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*13:02
+          </td>
+          <td align="char" char=".">
+           27.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           46.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           26.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           S
+          </td>
+          <td align="left" rowspan="5">
+           AAEIRASANLAATKM*
+          </td>
+          <td align="char" char="–" rowspan="5">
+           1015–1029
+          </td>
+          <td align="char" char="." rowspan="5">
+           0.7125
+          </td>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           101.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*13:02
+          </td>
+          <td align="char" char=".">
+           23.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           52.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*01:02/DQB1*06:02
+          </td>
+          <td align="char" char=".">
+           141.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*14:01
+          </td>
+          <td align="char" char=".">
+           327.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           S
+          </td>
+          <td align="left" rowspan="3">
+           ALQIPFAMQMAYRFN*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           893–907
+          </td>
+          <td align="char" char="." rowspan="3">
+           1.0112
+          </td>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           52.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*12:01
+          </td>
+          <td align="char" char=".">
+           159.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           50.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           S
+          </td>
+          <td align="left" rowspan="4">
+           PYRVVVLSFELLHAP*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           507–521
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.8161
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           79.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           53.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           77.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           92.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           S
+          </td>
+          <td align="left" rowspan="5">
+           QPYRVVVLSFELLHA
+          </td>
+          <td align="char" char="–" rowspan="5">
+           506–520
+          </td>
+          <td align="char" char="." rowspan="5">
+           0.9109
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           73.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           50.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           71.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           90.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*05:01
+          </td>
+          <td align="char" char=".">
+           211.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           S
+          </td>
+          <td align="left" rowspan="4">
+           YQPYRVVVLSFELLH*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           505–519
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.9711
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           102.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           93.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           127.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*05:01
+          </td>
+          <td align="char" char=".">
+           299.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           ANYIFWRNTNPIQLS
+          </td>
+          <td align="char" char="–" rowspan="3">
+           7024–7038
+          </td>
+          <td align="char" char="." rowspan="3">
+           1.0311
+          </td>
+          <td align="left">
+           DRB1*04:05
+          </td>
+          <td align="char" char=".">
+           89.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           35.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*13:02
+          </td>
+          <td align="char" char=".">
+           13.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           FKWDLTAFGLVAEWF*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           2314–2328
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.8059
+          </td>
+          <td align="left">
+           DQA1*05:01/DQB1*02:01
+          </td>
+          <td align="char" char=".">
+           178.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*03:01/DQB1*03:02
+          </td>
+          <td align="char" char=".">
+           425.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*04:01/DQB1*04:02
+          </td>
+          <td align="char" char=".">
+           349.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           HIQWMVMFTPLVPFW*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           3125–3139
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.7238
+          </td>
+          <td align="left">
+           DQA1*01:01/DQB1*05:01
+          </td>
+          <td align="char" char=".">
+           293.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           116.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           84.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           135.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           IINLVQMAPISAMVR*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           4048–4062
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.7682
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           12.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           118.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           54.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           INLVQMAPISAMVRM*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           4049–4063
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.9037
+          </td>
+          <td align="left">
+           DRB1*12:01
+          </td>
+          <td align="char" char=".">
+           176.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           57.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*01:02/DQB1*06:02
+          </td>
+          <td align="char" char=".">
+           116.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*14:01
+          </td>
+          <td align="char" char=".">
+           398.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           IVFMCVEYCPIFFIT
+          </td>
+          <td align="char" char="–" rowspan="4">
+           3758–3772
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.0267
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           116.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           53.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           70.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           144.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           IVTALRANSAVKLQN*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           4127–4141
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.7692
+          </td>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           115.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*13:02
+          </td>
+          <td align="char" char=".">
+           9.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           19.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*14:01
+          </td>
+          <td align="char" char=".">
+           408.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           KGRLIIRENNRVVIS*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           7075–7089
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.7821
+          </td>
+          <td align="left">
+           DRB1*12:01
+          </td>
+          <td align="char" char=".">
+           170.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*13:02
+          </td>
+          <td align="char" char=".">
+           9.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           48.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           58.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           KSAFYILPSIISNEK*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           1350–1364
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.7169
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           9.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*04:01
+          </td>
+          <td align="char" char=".">
+           49.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*04:05
+          </td>
+          <td align="char" char=".">
+           47.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           96.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="5">
+           LIVTALRANSAVKLQ
+          </td>
+          <td align="char" char="–" rowspan="5">
+           4126–4140
+          </td>
+          <td align="char" char="." rowspan="5">
+           0.7473
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           8.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           39.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           78.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*01:02/DQB1*06:02
+          </td>
+          <td align="char" char=".">
+           142.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*14:01
+          </td>
+          <td align="char" char=".">
+           368.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           NLPFKLTCATTRQVV
+          </td>
+          <td align="char" char="–" rowspan="3">
+           2737–2751
+          </td>
+          <td align="char" char="." rowspan="3">
+           1.1632
+          </td>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           35.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           58.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           23.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           PASRELKVTFFPDLN
+          </td>
+          <td align="char" char="–" rowspan="4">
+           1950–1964
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.0155
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           76.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           48.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           64.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           149.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           PFAMGIIAMSAFAMM*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           3613–3627
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.9834
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           12.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           57.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*05:01/DQB1*03:01
+          </td>
+          <td align="char" char=".">
+           45.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="7">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="7">
+           QMNLKYAISAKNRAR
+          </td>
+          <td align="char" char="–" rowspan="7">
+           4933–4947
+          </td>
+          <td align="char" char="." rowspan="7">
+           1.5044
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           14.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*04:01
+          </td>
+          <td align="char" char=".">
+           56.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           49.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           45.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           22.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           84.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*14:01
+          </td>
+          <td align="char" char=".">
+           158.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           QQKLALGGSVAIKIT
+          </td>
+          <td align="char" char="–" rowspan="4">
+           6956–6970
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.2533
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           12.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           23.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           32.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*05:01/DQB1*03:01
+          </td>
+          <td align="char" char=".">
+           42.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           RFKESPFELEDFIPM
+          </td>
+          <td align="char" char="–" rowspan="4">
+           6709–6723
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.2101
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           74.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           65.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           81.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           130.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="5">
+           SAFAMMFVKHKHAFL
+          </td>
+          <td align="char" char="–" rowspan="5">
+           3622–3636
+          </td>
+          <td align="char" char="." rowspan="5">
+           0.7305
+          </td>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           110.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           18.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           50.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           79.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           15.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           SFLAHIQWMVMFTPL
+          </td>
+          <td align="char" char="–" rowspan="4">
+           3121–3135
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.8215
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           103.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           47.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           70.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           140.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           SIGFDYVYNPFMIDV*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           6155–6169
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.0823
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           108.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           47.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           81.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           137.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           TEETFKLSYGIATVR*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           5465–5479
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.8859
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           8.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           21.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           25.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="4">
+           VLVQSTQWSLFFFLY*
+          </td>
+          <td align="char" char="–" rowspan="4">
+           3593–3607
+          </td>
+          <td align="char" char="." rowspan="4">
+           0.7309
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           77.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           35.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           42.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           93.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           VQSTQWSLFFFLYEN*
+          </td>
+          <td align="char" char="–" rowspan="3">
+           3595–3609
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.7509
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           107.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           49.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           129.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="3">
+           WLIINLVQMAPISAM
+          </td>
+          <td align="char" char="–" rowspan="3">
+           2366–2380
+          </td>
+          <td align="char" char="." rowspan="3">
+           0.9389
+          </td>
+          <td align="left">
+           DRB1*12:01
+          </td>
+          <td align="char" char=".">
+           130.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           65.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*01:02/DQB1*06:02
+          </td>
+          <td align="char" char=".">
+           139.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           ORF1ab
+          </td>
+          <td align="left" rowspan="6">
+           YFNMVYMPASWVMRI*
+          </td>
+          <td align="char" char="–" rowspan="6">
+           3649–3663
+          </td>
+          <td align="char" char="." rowspan="6">
+           0.7244
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           8.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*04:05
+          </td>
+          <td align="char" char=".">
+           80.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           38.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           37.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*12:01
+          </td>
+          <td align="char" char=".">
+           184.5
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           30.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="10">
+           ORF3
+          </td>
+          <td align="left" rowspan="10">
+           KKRWQLALSKGVHFV
+          </td>
+          <td align="char" char="–" rowspan="10">
+           66–80
+          </td>
+          <td align="char" char="." rowspan="10">
+           0.8172
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           9.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           11.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           200.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           17.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           43.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*12:01
+          </td>
+          <td align="char" char=".">
+           119.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*13:02
+          </td>
+          <td align="char" char=".">
+           30.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           34.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           79.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           18.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF6
+          </td>
+          <td align="left" rowspan="4">
+           MFHLVDFQVTIAEIL
+          </td>
+          <td align="char" char="–" rowspan="4">
+           1–15
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.0366
+          </td>
+          <td align="left">
+           DQA1*05:01/DQB1*02:01
+          </td>
+          <td align="char" char=".">
+           192.0
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DQA1*01:01/DQB1*05:01
+          </td>
+          <td align="char" char=".">
+           292.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           108.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           100.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ORF7
+          </td>
+          <td align="left" rowspan="4">
+           VKHVYQLRARSVSPK
+          </td>
+          <td align="char" char="–" rowspan="4">
+           71–85
+          </td>
+          <td align="char" char="." rowspan="4">
+           1.0865
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           14.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           150.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           38.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB4*01:01
+          </td>
+          <td align="char" char=".">
+           86.6
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           ORF7
+          </td>
+          <td align="left" rowspan="5">
+           NKFALTCFSTQFAFA*
+          </td>
+          <td align="char" char="–" rowspan="5">
+           52–66
+          </td>
+          <td align="char" char="." rowspan="5">
+           1.1728
+          </td>
+          <td align="left">
+           DPA1*02:01/DPB1*01:01
+          </td>
+          <td align="char" char=".">
+           50.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*02:01
+          </td>
+          <td align="char" char=".">
+           29.1
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*01:03/DPB1*04:01
+          </td>
+          <td align="char" char=".">
+           35.9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*03:01/DPB1*04:02
+          </td>
+          <td align="char" char=".">
+           80.2
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DPA1*02:01/DPB1*05:01
+          </td>
+          <td align="char" char=".">
+           273.4
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           ORF8
+          </td>
+          <td align="left" rowspan="5">
+           SKWYIRVGARKSAPL*
+          </td>
+          <td align="char" char="–" rowspan="5">
+           43–57
+          </td>
+          <td align="char" char="." rowspan="5">
+           0.8829
+          </td>
+          <td align="left">
+           DRB1*01:01
+          </td>
+          <td align="char" char=".">
+           13.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*08:02
+          </td>
+          <td align="char" char=".">
+           87.8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*09:01
+          </td>
+          <td align="char" char=".">
+           50.7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB1*11:01
+          </td>
+          <td align="char" char=".">
+           15.3
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           8.8
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         *Significant sequence overlap with peptides reported in         .
+        </p>
+        <p>
+         Exact peptide replicated from analyses reported in         .
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      Prediction of CD4      T cell epitopes in the SARS-CoV-2 proteome
+     </title>
+     <p id="Par17">
+      We also sought to identify potential HLA class II peptides from SARS-CoV-2, as the stimulation of CD4      T-helper cells is critical for robust vaccine-induced adaptive immune responses. Using the NetMHCIIpan 3.2 server, we identified 801 candidate HLA class II peptides from the viral proteome predicted to have high binding affinity (≤ 500 nM) and percentile rank scores ≤ 2% across a reference panel of HLA molecules covering &gt; 97% of the population      . Similar to HLA class I epitope predictions, the number of class II epitopes identified for each viral protein (ORF10: 4, E protein: 7, ORF7: 8, ORF8: 10, ORF6: 14, N: 15, M: 29, ORF3a: 31, S: 96, ORF1ab: 587) was largely proportional to protein size. After excluding peptides predicted to bind to only a single HLA molecule in our panel, we refined our selection to 211 peptides (Supp. Table      ), which were enriched for binding to HLA-DRB1 molecules (n = 142) (Fig.      D). Filtering on HLA promiscuity and predicted antigenicity scores yielded a subset of 36 peptides (24 ORF1ab, 5 S protein, 2 M protein, 2 ORF7, 1 ORF3a, 1 ORF6, 1 ORF8) as CD4      T cell epitopes for further study (Table      ). These peptides were predicted to collectively provide 99% population coverage and have significantly higher average binding affinities for HLA-DR alleles (DRB1 = 56.4 nM; DRB3 = 50.9 nM; DRB4 = 70.1 nM; DRB5 = 18 nM) compared to HLA-DP (155.9 nM) or HLA-DQ (238.6 nM) molecules (Fig.      E, Figure S3). None of the peptides identified in our study (class I or class II) were predicted to be toxic or allergenic (Table S4).
+     </p>
+    </sec>
+    <sec id="Sec11">
+     <title>
+      Characterization of HLA class I peptide docking with HLA-B*15:01
+     </title>
+     <p id="Par18">
+      The five candidate HLA class I peptides identified by our computational approach were predicted to provide coverage across six HLA alleles (A*01:01, A*02:01, A*24:02, B*08:01, B*15:01, B*58:01). The peptide FAMQMAYRF was the only candidate predicted to bind to A*24:02 molecules, whereas MMISAGFSL was predicted to uniquely bind A*02:01 and B*08:01 molecules. Four of the five peptides were predicted to bind A*01:01 and B*58:01 molecules, but all were predicted to bind with relatively high affinity (average IC
+      <sub>
+       50
+      </sub>
+      = 67.7 nM) to HLA-B*15:01. Therefore, we performed molecular docking studies of each peptide with the molecular structure of HLA-B*15:01 (PDB: 3C9N).
+     </p>
+     <p id="Par19">
+      All peptides were predicted to bind within the peptide binding groove, forming hydrogen bond contacts with numerous amino acid side chains (Fig.      A). The binding motif for HLA-B*15:01 is highly selective for residues at the P2 and P9 anchor positions, with a preference for bulky hydrophobic amino acids at the C-terminus (Fig.      B)      . All candidate peptides possessed terminal residues (Phe, Tyr, Leu) that fit into the hydrophobic binding pocket of the HLA groove, further supporting that these peptides should be strong binders of HLA-B*15:01 and promising candidates for vaccine development studies.
+     </p>
+    </sec>
+    <sec id="Sec12">
+     <title>
+      Prediction of B cell epitopes in SARS-CoV-2 proteins
+     </title>
+     <p id="Par20">
+      An effective vaccine should stimulate both cellular and humoral immune responses against the target pathogen; therefore, we also sought to identify potential B cell epitopes from SARS-CoV-2 proteins. We limited our analysis to the primary structural proteins of the virus (S, N, M, and E), as these are the most accessible antigens for engaging B cell receptors. Using the Bepipred 1.0 algorithm, we identified 26 potential linear B cell epitopes in the S protein, 14 potential epitopes in the N protein, and 3 potential epitopes in the M protein (Table S5). No epitopes were identified in the E protein. Studies have previously shown the S protein to be the predominant target of neutralizing antibodies against coronaviruses      , and, as our findings indicate this to likely be the case for SARS-CoV-2, we focused all subsequent analyses on the S protein. While the N protein is also a major target of the antibody response      , it is unlikely these antibodies have any neutralizing activity based on the confinement of the N protein to the interior of intact virions. As epitope conformation can significantly influence recognition by antibodies, we also employed DiscoTope 1.1 to identify discontinuous B cell epitopes in the protein structure. Our analysis identified 16 potential structural epitopes in the S protein (9 in the S1 domain, 7 in the S2 domain), with six regions having significant overlap with our predicted linear epitopes (Table      , Table S5). Antigenic regions identified in both analyses were modeled using the recently published structure of the SARS-CoV-2 S protein      to examine their accessibility for antibody binding. Epitopes in the S2 domain (P792-D796; Y1138-D1146) were clustered near the base of the spike protein, whereas regions in the S1 domain (D405-D428; N440-N450; G496-P507; D568-T573) were exposed on the protein surface (Fig.      ).
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Top predicted B cell epitopes for the S protein.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Peptide
+          </th>
+          <th align="left">
+           Residues
+          </th>
+          <th align="left">
+           Bepipred score
+          </th>
+          <th align="left">
+           DiscoTope score
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           DEVRQIAPGQTGKIADYNYKLPDD
+          </td>
+          <td align="char" char="–">
+           405–428
+          </td>
+          <td align="char" char=".">
+           0.715
+          </td>
+          <td align="char" char=".">
+           − 5.71
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           NLDSKVGGNYN
+          </td>
+          <td align="char" char="–">
+           440–450
+          </td>
+          <td align="char" char=".">
+           0.577
+          </td>
+          <td align="char" char=".">
+           − 5.77
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           GFQPTNGVGYQP
+          </td>
+          <td align="char" char="–">
+           496–507
+          </td>
+          <td align="char" char=".">
+           1.01
+          </td>
+          <td align="char" char=".">
+           − 5.73
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DIADTT
+          </td>
+          <td align="char" char="–">
+           568–573
+          </td>
+          <td align="char" char=".">
+           0.853
+          </td>
+          <td align="char" char=".">
+           − 5.55
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           PPIKD
+          </td>
+          <td align="char" char="–">
+           792–796
+          </td>
+          <td align="char" char=".">
+           0.936
+          </td>
+          <td align="char" char=".">
+           − 3.28
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           VYDPLQPELDSF
+          </td>
+          <td align="char" char="–">
+           1137–1148
+          </td>
+          <td align="char" char=".">
+           0.747
+          </td>
+          <td align="char" char=".">
+           − 4.12
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Reported scores represent the average calculated across all amino acids for the combined epitope sequence.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec13">
+    <title>
+     Discussion
+    </title>
+    <p id="Par21">
+     In the face of the COVID-19 pandemic, it is imperative that safe and effective vaccines be rapidly developed in order to induce widespread herd immunity in the population and prevent the continued spread of SARS-CoV-2. Our study identified probable peptide targets of both cellular and humoral immune responses against SARS-CoV-2 using computational methodologies to investigate the entire viral proteome a priori. Studies such as these are paramount during the early stages of pandemic vaccine development given the relative scarcity of biological data available on the viral immune response, and we employed an approach that allowed us to systematically refine our predictions using increasingly stringent criteria to select a subset of the most promising epitopes for further study. The data we have curated could inform the design of a candidate peptide-based vaccine or diagnostic against SARS-CoV-2.
+    </p>
+    <p id="Par22">
+     As selective pressures are known to introduce viral mutations that promote fitness and can lead to evasion of immune responses     , we first sought to investigate the genetic similarity of all reported SARS-CoV-2 clinical isolates and identify a consensus sequence for use in our epitope prediction studies. The identification of amino acid mutations (and deletions) across the SARS-CoV-2 proteome was a critical step taken early in this study, as we wanted to ensure the protein sequence analyzed with peptide epitope prediction algorithms was representative of the protein sequences in circulating viral variants. Mismatches between predicted peptides and viral proteins could compromise the efficacy and utility of such peptides as vaccine candidates or diagnostic agents. We identified 77 mutations/deletions across the 44 genomes of clinical isolates reported as of 27 February 2020 (Supp. Table     ). Despite these variations, the viral genomic identity was &gt; 99% conserved across all isolates. Many of these were silent mutations that did not impact the amino acid sequence, while those mutations that induced coding changes were largely limited to single isolates. As the protein coding sequences were largely conserved, the genome of the original virus isolate (Wuhan-Hu-1) was deemed a representative consensus sequence for analysis of the SARS-CoV-2 proteome.
+    </p>
+    <p id="Par23">
+     CD4     and CD8     T cell responses will likely be directed against both structural and non-structural proteins during antiviral immune responses, as all viral proteins are accessible for processing and presentation on the HLA molecules of infected cells. Therefore, we sought to identify T cell epitopes across the entire viral proteome. Our analysis identified 83 potential CD8     T cell epitopes (Supp. Table     ) and 211 potential CD4     T cell epitopes (Supp. Table     ), with stringent filtering for more promiscuous peptides with high predicted antigenicity yielding a subset of 5 CD8     T cell epitopes and 36 CD4     T cell epitopes (Table     ) as potential targets for vaccine development. A study by Grifoni and colleagues has recently reported the computational identification of 241 CD4     T cell epitopes from SARS-CoV-2     , and Srivastava et al. also recently reported the prediction of class II peptides from the SARS-CoV-2 proteome     . Twenty-one peptides from our analysis shared sequence homology or were nested within peptides identified in these studies. Moreover, ten peptides from these initial reports were replicated in our final subset of HLA class II epitopes, supporting that these peptides may be promising vaccine targets.
+    </p>
+    <p id="Par24">
+     An increasing number of studies have employed predictive algorithms to identify potential HLA class I epitopes for SARS-CoV-2, although relatively few have comprehensively analyzed the entire viral proteome. A report from Feng et al
+     <italic>
+      .
+     </italic>
+     recently outlined the identification of 499 potential class I epitopes in the main structural proteins from SARS-CoV-2 but did not consider any non-structural proteins     . Grifoni and colleagues conducted a more rigorous analysis, identifying 628 unique CD8     T cell epitopes across all SARS-CoV-2 proteins but focusing their analyses solely on peptides with sequence homology to known SARS-CoV epitopes     . Our approach initially identified ~ 3,500 potential CD8     T cell epitopes across all viral proteins, which we refined to a subset of 5 peptides (Table     ). Three of these peptides (i.e., FAMQMAYRF, STNVTIATY, MMISAGFSL) were replicated from previous studies     . The MMISAGFSL peptide derived from ORF1ab was predicted to bind HLA-A*02:01 with high affinity (IC
+     <sub>
+      50
+     </sub>
+     = 6.9 nM) (Fig.     C). Given the prevalence of this allele in the American and European populations (25–60% frequency)     , MMISAGFSL may represent a promising epitope capable of providing broad vaccine population coverage.
+    </p>
+    <p id="Par25">
+     We also observed a notable enrichment of epitopes predicted to bind HLA-B molecules—particularly HLA-B*15:01—as we imposed more stringent selection criteria (Fig.     B). All five peptides identified by our approach were predicted to be relatively strong binders for this allele (IC
+     <sub>
+      50
+     </sub>
+     = 67.7 nM), with molecular docking simulations illustrating strong contacts with amino acid residues in the peptide binding groove (Fig.     A,B). A recent computational study identified another HLA-B allele (B*15:03) as having a high capacity for presenting epitopes from SARS-CoV-2 that were conserved among other pathogenic coronaviruses     . These data collectively suggest the HLA-B locus may be significantly associated with the immune response to SARS-CoV-2 (and potentially other coronaviruses), with further biological studies warranted to determine the true role of host genetics in SARS-CoV-2 immunology.
+    </p>
+    <p id="Par26">
+     Lastly, we analyzed the primary structural proteins of SARS-CoV-2 (S, N, M, E proteins) for potential B cell epitopes, as an ideal vaccine would be designed to stimulate both cellular and humoral immunity. Our analysis identified potential linear B cell epitopes in all proteins except for the E protein (Table     ). The greatest number of epitopes were predicted in the surface-exposed S protein (n = 26), but a significant number of epitopes were also predicted for the N protein (n = 14). This is not surprising, as previous reports identified the N protein as a significant target of the humoral response to SARS-CoV     . As the S protein is the predominant surface protein and has been the primary target of neutralizing antibody responses against other coronaviruses     , we elected to focus our subsequent analyses solely on antigenic regions in the S protein. We identified 16 potential structural epitopes in the S protein structure and referenced against our linear epitope predictions to identify six regions that were independently identified by both analyses (Table     , Fig.     ). Feng et al. recently reported the computational identification of 19 surface epitopes in the S protein using Bepipred and the Kolaskar method     , four of which had significant sequence overlap with the regions identified by our analyses.
+    </p>
+    <p id="Par27">
+     To further evaluate the potential of these six antigenic regions as targets for antibody binding, we modeled their surface accessibility on the crystal structure of the SARS-Cov-2 spike protein     . Four regions in the S1 domain (D405-D428; N440-N450; G496-P507; D568-T573) were solvent exposed (Fig.     A,B), with minimal steric hindrance for antibody accessibility. The S1 domain contains the residues (N331-V524) important for virus binding to angiotensin converting enzyme 2 (ACE2) on the cell surface     , and studies have shown that antibodies with potent neutralizing activity against SARS-CoV target this domain     . Indeed, three of the four S1 epitopes identified in our analyses are located in the ACE2-binding region, supporting their potential utility in vaccine development against SARS-CoV-2. Two regions were identified in the S2 “stalk” domain of the S protein (Fig.     A,C). While V1137-F1148 is located at the base of the S protein and likely inaccessible to antibodies, P792-D796 is on the outer face of the protein and has been previously identified as part of a larger B cell epitope that is conserved with SARS-CoV     . As SARS-CoV S2-specific antibodies have previously been shown to possess antiviral activity     , it is interesting to speculate whether a strategy similar to targeting the influenza hemagglutinin protein stalk could be employed for developing a broadly reactive coronavirus vaccine.
+    </p>
+    <p id="Par28">
+     Our study possessed several strengths and limitations. Rather than restricting our analyses of HLA class I and class II epitopes to specific proteins based on prior studies of SARS-CoV immunology, we investigated the complete proteome of SARS-CoV-2 using an unbiased approach. Furthermore, we employed a multi-tiered strategy for identifying putative B cell and T cell epitopes from all viral proteins studied. Our initial analyses were performed with liberal thresholds for epitope identification, and at each additional step, we imposed more stringent selection criteria to filter these peptides to a subset of B cell and T cell epitopes for further study. Nevertheless, the results of this study are derived purely from computational methods, and it should be noted that computational algorithms can fail to capture a significant number of antigenic peptides     . Experimental validation with biological samples will ultimately be needed.
+    </p>
+    <p id="Par29">
+     During the early stages of a pandemic, access to sufficient biological samples may be extremely limited, so we must continue to utilize methodologies—such as computational predictive algorithms—that allow us to explore the epitope landscape for experimental vaccine development. Our approach in this study allowed us to identify and refine a manageable subset of T cell and B cell epitopes for further testing as components of a SARS-CoV-2 vaccine. Based on our results, our proposed SARS-CoV-2 vaccine formulation could contain the following: (1) one or more B cell peptide epitopes from the S protein to generate protective neutralizing antibodies; and (2) multiple HLA class I and class II-derived peptides from other viral proteins to stimulate robust CD8     and CD4     T cell responses. Based on global allele frequencies, these class I and class II peptides would be expected to collectively provide 74% and 99% population coverage, respectively. While such a vaccine could be readily formulated as a synthetic polypeptide or an adjuvanted peptide mixture, these strategies may not retain the epitope structural features necessary to induce a robust antibody response. Recombinant nanoparticles and assembly into VLPs represent promising alternative vaccine platforms, as they have been extensively used for the controlled display and delivery of peptide-based vaccine components     . By omitting whole viral proteins from the vaccine formulation, a peptide-based SARS-CoV-2 vaccine containing both class I and class II peptides should have a well-tolerated safety profile and promote a balanced Th1/Th2 response that avoids the Th2-biased adverse events previously observed with experimental SARS-CoV vaccines     . However, it should be noted that computational algorithms cannot currently predict the overall nature of an immune response or the potential for immunopathologies to develop after vaccination, as these processes are influenced by several factors (e.g., antigen dose, adjuvant system, administration route, antigen-release kinetics). Extensive biological testing of these peptides in experimental vaccine formulations will be required to ascertain information in this regard.
+    </p>
+    <p id="Par30">
+     In summary, we have identified 41 potential T cell epitopes (5 HLA class I, 36 HLA class II) and 6 potential B cell epitopes from across the SARS-CoV-2 proteome that are predicted to have broad population coverage and could serve as the basis for designing investigational peptide-based vaccines. Further study on the biological relevance, immunogenicity, and immune response profiles of these peptides is warranted in an effort to develop a safe and effective vaccine to combat the SARS-CoV-2 pandemic.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec14">
+     <p/>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

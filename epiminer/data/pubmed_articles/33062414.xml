@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Computational perspectives revealed prospective vaccine candidates from five structural proteins of novel SARS corona virus 2019 (SARS-CoV-2).
+ </title>
+ <abstract>
+  <AbstractText Label="Background" NlmCategory="UNASSIGNED">
+   The present pandemic COVID-19 is caused by SARS-CoV-2, a single-stranded positive-sense RNA virus from the
+   <i>
+    Coronaviridae
+   </i>
+   family. Due to a lack of antiviral drugs, vaccines against the virus are urgently required.
+  </AbstractText>
+  <AbstractText Label="Methods" NlmCategory="UNASSIGNED">
+   In this study, validated computational approaches were used to identify peptide-based epitopes from six structural proteins having antigenic properties. The Net-CTL 1.2 tool was used for the prediction of CD8   T-cell epitopes, while the robust tools Bepi-Pred 2 and LBtope was employed for the identification of linear B-cell epitopes. Docking studies of the identified epitopes were performed using HADDOCK 2.4 and the structures were visualized by Discovery Studio and LigPlot   . Antigenicity, immunogenicity, conservancy, population coverage and allergenicity of the predicted epitopes were determined by the bioinformatics tools like VaxiJen v2.0 server, the Immune Epitope Database tools and AllerTOP v.2.0, AllergenFP 1.0 and ElliPro.
+  </AbstractText>
+  <AbstractText Label="Results" NlmCategory="UNASSIGNED">
+   The predicted T cell and linear B-cell epitopes were considered as prime vaccine targets in case they passed the requisite parameters like antigenicity, immunogenicity, conservancy, non-allergenicity and broad range of population coverage. Among the predicted CD8+ T cell epitopes, potential vaccine targets from surface glycoprotein were; YQPYRVVVL, PYRVVVLSF, GVYFASTEK, QLTPTWRVY, and those from ORF3a protein were LKKRWQLAL, HVTFFIYNK. Similarly, RFLYIIKLI, LTWICLLQF from membrane protein and three epitopes viz; SPRWYFYYL, TWLTYTGAI, KTFPPTEPK from nucleocapsid phosphoprotein were the superior vaccine targets observed in our study. The negative values of HADDOCK and Z scores obtained for the best cluster indicated the potential of the epitopes as suitable vaccine candidates. Analysis of the 3D and 2D interaction diagrams of best cluster produced by HADDOCK 2.4 displayed the binding interaction of leading T cell epitopes within the MHC-1 peptide binding clefts. On the other hand, among linear B cell epitopes the majority of potential vaccine targets were from nucleocapsid protein, viz;   HGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLS   ,   LNQLE SKMSGKGQQQQGQTVTKKSAAEASKKPRQKRTATK   ,   DNGPQNQRNAPRITFGGP   ,   GERSGARSKQRRPQGL   . Two other prime vaccine targets,   NSASFSTFKCYGVSPTKLNDLCFTNV   and   AGAAAYYVGYLQPRT   were identified in the spike protein. The potential B-cell conformational epitopes were predicted on the basis of a higher protrusion index indicating greater solvent accessibility. These conformational epitopes were of various lengths and belonged to spike, ORF3a, membrane and nucleocapsid proteins.
+  </AbstractText>
+  <AbstractText Label="Conclusions" NlmCategory="UNASSIGNED">
+   Taken together, eleven T cell epitopes, seven B cell linear epitopes and ten B cell conformational epitopes were identified from five structural proteins of SARS-CoV-2 using advanced computational tools. These potential vaccine candidates may provide important timely directives for an effective vaccine against SARS-CoV-2.
+  </AbstractText>
+ </abstract>
+</article>

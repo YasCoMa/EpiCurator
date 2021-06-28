@@ -1,0 +1,3 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+7931086	body	In|Figure|7|,|only|one|variant|out|of|the|22|total|variant|that|be|mutate|at|three|separate|CDR|site|,|HC|-|W104F|,|maintain|both|sub|-|nM|target|antigen|affinity|and|significantly|lower|self|-|interaction|to|an|acceptable|range|.	W104F	1
+6658674	body	Mutation|of|this|tryptophan|residue|to|alanine|(|W104A|)|abrogate|the|interaction|between|HsPex3|and|HsPex19|(|Sato|et|al|,|2008|)|;|however|,|of|note|,|when|W104|be|replace|by|an|aromatic|phenylalanine|residue|(|W104F|)|,|the|peroxisome|-|biogenic|capacity|of|Pex3|be|retain|(|Sato|et|al|,|2008|)|.	HsPex3|HsPex19|W104|W104F|Pex3	5

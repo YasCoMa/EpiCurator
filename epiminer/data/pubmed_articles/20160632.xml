@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Impact of human leukocyte antigen-B*51-restricted cytotoxic T-lymphocyte pressure on mutation patterns of nonnucleoside reverse transcriptase inhibitor resistance.
+ </title>
+ <abstract>
+  <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">
+   The objective of this study is to determine the impact of human leukocyte antigen (HLA)-B*51-restricted cytotoxic T-lymphocyte (CTL) pressure on the development of nonnucleoside reverse transcriptase inhibitor (NNRTI) resistance.
+  </AbstractText>
+  <AbstractText Label="DESIGN" NlmCategory="METHODS">
+   The prevalence of HIV-1 harboring an escape mutation, I135X, in a major epitope of HLA-B*51-restricted CTL located in reverse transcriptase is increasing worldwide. We analyzed the effects of escape mutations on the emerging mutation patterns of NNRTI resistance.
+  </AbstractText>
+  <AbstractText Label="METHODS" NlmCategory="METHODS">
+   Monoclonal HIV-1 sequences harboring each of the escape mutations, including I135L (HIV-1I135L), I135V (HIV-1I135V), I135T (HIV-1I135T), and I135R (HIV-1I135R) in reverse transcriptase, and a wild-type monoclonal HIV-1 (HIV-1WT) were cultured in the presence of increasing concentrations of efavirenz. Induced mutations during culture passages of the culture were analyzed.
+  </AbstractText>
+  <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+   E138K emerged during the cultural passages of HIV-1I135V, HIV-1I135T, and HIV-1I135R, but not during the passages of HIV-1WT. The combination of I135T, the most frequent escape mutation, and E138K (HIV-1I135T/E138K) conferred significant resistance to efavirenz, nevirapine, and etravirine. The HIV-1I135L/E138K and HIV-1I135R/E138K were significantly resistant to nevirapine and etravirine, respectively, though each solo of escape mutations and E138K did not confer significant resistance to NNRTI. Computational analysis indicated that I135T and E138K cooperatively extend the gap between the binding site of reverse transcriptase and NNRTI.
+  </AbstractText>
+  <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">
+   HLA-B*51-restricted CTL can induce novel mutation patterns of NNRTI resistance by selecting escape mutations. The spread of CTL escape variants may alter the mutation patterns of drug resistance.
+  </AbstractText>
+ </abstract>
+</article>

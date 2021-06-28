@@ -1,0 +1,4539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1998/Math/MathML" xmlns:ns1="http://www.w3.org/1999/xlink">
+ <title>
+  Genome-wide analysis of Indian SARS-CoV-2 genomes to identify T-cell and B-cell epitopes from conserved regions based on immunogenicity and antigenicity
+ </title>
+ <abstract>
+  <p>
+   <list id="l0005" list-type="simple">
+    <list-item id="u0005">
+     <label>
+      •
+     </label>
+     <p id="p0145">
+      Genome-wide analysis of 566 Indian SARS-CoV-2 genomes.
+     </p>
+    </list-item>
+    <list-item id="u0010">
+     <label>
+      •
+     </label>
+     <p id="p0150">
+      Finding potential 23 consensus conserved regions.
+     </p>
+    </list-item>
+    <list-item id="u0015">
+     <label>
+      •
+     </label>
+     <p id="p0155">
+      34, 37 and 29 best immunogenic and antigenic MHC-I, MHC-II T-cell and B-cell epitopes.
+     </p>
+    </list-item>
+    <list-item id="u0020">
+     <label>
+      •
+     </label>
+     <p id="p0160">
+      Physico-chemical properties of the epitopes are studied.
+     </p>
+    </list-item>
+    <list-item id="u0025">
+     <label>
+      •
+     </label>
+     <p id="p0165">
+      Docking with Ramachandran Plot and Z-score are performed.
+     </p>
+    </list-item>
+   </list>
+  </p>
+  <p>
+   SARS-CoV-2 has a high transmission rate and shows frequent mutations, thus making vaccine development an arduous task. However, researchers around the globe are working hard to find a solution e.g. synthetic vaccine. Here, we have performed genome-wide analysis of 566 Indian SARS-CoV-2 genomes to extract the potential conserved regions for identifying peptide based synthetic vaccines, viz. epitopes with high immunogenicity and antigenicity. In this regard, different multiple sequence alignment techniques are used to align the SARS-CoV-2 genomes separately. Subsequently, consensus conserved regions are identified after finding the conserved regions from each aligned result of alignment techniques. Further, the consensus conserved regions are refined considering that their lengths are greater than or equal to 60nt and their corresponding proteins are devoid of any stop codons. Subsequently, their specificity as query coverage are verified using Nucleotide BLAST. Finally, with these consensus conserved regions, T-cell and B-cell epitopes are identified based on their immunogenic and antigenic scores which are then used to rank the conserved regions. As a result, we have ranked 23 consensus conserved regions that are associated with different proteins. This ranking also resulted in 34 MHC-I and 37 MHC-II restricted T-cell epitopes with 16 and 19 unique HLA alleles and 29 B-cell epitopes. After ranking, the consensus conserved region from NSP3 gene is obtained that is highly immunogenic and antigenic. In order to judge the relevance of the identified epitopes, the physico-chemical properties and binding conformation of the MHC-I and MHC-II restricted T-cell epitopes are shown with respect to HLA alleles.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0005">
+     In December 2019, China reported a sudden outbreak of pneumonia due to an unknown source in Hubei province, Wuhan city     which later got attributed to a virus named SARS-CoV-2. SARS-CoV-2 belongs to the family of Coronaviridae which also houses SARS-CoV-1     ,     and MERS-CoV     virus. Genomic sequence analysis of the newly reported virus was found to be highly similar to that of SARS-CoV (95%–100%), thus showing the evolutionary similarity between SARS-CoV and SARS-CoV-2     . By October 2020, India has registered over 7.65 million cases     , making it one of the most affected countries in the world. Symptoms of the COVID-19 vary from fever, cough, myalgia, dyspnoea and diarrhoea to severe respiratory distress which may require life support systems. In severe cases, it may even lead to death     . Considering these consequences, World Health Organisation (WHO) suggested to interrupt human–human contact in the form of total lock downs along with precautionary measures such as face masks and hand sanitizers to control the spread of COVID-19. Hence, it is the need of the hour to find a cure for COVID-19 in the form of vaccine.
+    </p>
+    <p id="p0010">
+     Classical methods of vaccine design like attenuation of the virus through external sources such as micro-organisms to mitigate its harm or virulence usually depends on the response of the virus itself. Sometimes mutations in the virus genome can result in autoimmune response eventually making the virus even more virulent. Hence, such classic vaccine design approaches are time consuming, expensive and may not provide an effective response. With the evolution in bioinformatics and genome analysis, it is now possible to study the DNA, RNA and molecular evolution of a virus which can aid in development of vaccine through approaches such as reverse vaccinology. Reverse vaccinology involves pinpointing the protein sites that results into synthetic peptide based vaccines     ,     . The preparation of epitope based vaccine is carried out in sequential form, starting from scanning the genome of the pathogen to locating the surface proteins, followed by extracting the best epitopes situated on the surface and also testing these synthetic designs against any autoimmune response     . The antigens provided by the epitopes are the sites to which antibodies bind, hence selection of the best epitopes is one of the crucial and foremost steps in vaccine design. In regard to this, Skwarczynski et al.     have suggested several factors which influence the selection of epitopes, such as immune response to the pathogen, hypersensitivity responses and coverage of different peptide against different pathogen subtypes. Further, these epitopes can be classified into two classes i.e. MHC-I, MHC-II associated T-cell epitopes     and B-cell epitopes     based on their responses against recognized foreign pathogens. The antigens provided by MHC-I interact directly with the CD8 cells evoking the cellular response     . MHC-II antigens bind to the surface of the pathogens to initiate the T-helper cells (CD4) which are responsible for activating the Th1 and Th2 type helper cells in the form of cytotoxic T-lymphocyte (CTL) and humoral response through antigens loaded in MHC-I and B-cell epitopes. Hence, the selection of T-cell and B-cell epitopes is a crucial process in order to provide a reliable vaccine.
+    </p>
+    <p id="p0015">
+     By considering the several advantages presented in form of peptide-based vaccine, many studies have been carried out to design a vaccine in order to provide a stable solution against the threat as presented by SARS-CoV-2 virus. Earlier, it was found that spike (S) glycoprotein of SARS-CoV-2 can act as an intermediary to bind to the host cells with a very strong affinity, thus eventually attracting various experiments towards targeting this protein site as the potential target for vaccine design and diagnostics     . Following this, many types of vaccine designs have been proposed based on RNA, vectored, recombinant protein sequence and cell-cultures while focusing on the spike protein or whole virion     . Additionally, in Lin et al.     heptad repeats 1 and 2 (HR1 and HR2) in the spike protein have been predicted followed by the peptides with the help of molecular dynamics simulation between the fusion of the viral membrane and the host cell membrane, eventually limiting the spread of the virus within the host cells. Another study carried out by Vashi et al.     predicted 24 potential epitope fragments of which 20 were on the surface of spike protein. This information can be helpful for designing potential immunogenic peptide-based vaccines. Similar study has been conducted by Rakib et al.     in which spike protein region has been analysed through multiple sequence analysis in different SARS-CoV-2 genomes to predict the most immunogenic peptide fragments. In this study, a multi-epitope based vaccine has been proposed through analysing the S1 and S2 domains of spike proteins of the SARS-CoV-2 genomes in order to provide the best epitopes     for designing a vaccine. However, it is important to note that other protein sites can also be targeted for vaccine design as well     . This depends on how the T-cell interacts inside the different protein region of SARS-CoV-2. Grifoni et al.     have identified that 70–100% of epitope pools detect CD8 and CD4 T-cells for SARS-CoV-2. CD4+ cells interact with the other proteins like membrane (M), nucleocapsid (N) and ORF1ab proteins like NSP3, NSP4 and NSP12, but the dominance of CD4+ cells is very high within the spike region. On the other hand, no such dominant reactivity was identified in case of CD8+ cells in spike protein region. Hence, MHC-I restricted epitopes derived from M, NSP6, ORF3a or N proteins can also be considered for vaccine design. Noorimotlagh et al.     have conducted a review on several papers and have inferred a set of T-cell and B-cell epitopes from the Spike and Nucleocapsid proteins with high antigenicity. Genomic analysis conducted by Yadav et al.     on the first two cases reported in India resulted in the introduction of two non-identical strains of SARS-CoV-2. With time, more mutation points have been discovered     as well. This alteration in the protein region of the genome can lead to vaccine failures as was noticed in the case of Influenza virus in 2013–14     . Hence, stable vaccine design is the need of the hour. Moreover, for such RNA viruses which undergo rapid mutations, Nandy et al.     have suggested the extraction of genomic regions which are either not influenced or very less influenced by the process of mutation. This can be carried out by analysing large set of virus genomes with the help of sequence alignment techniques. Such similar regions inside different viral genomes can be then considered for synthetic peptide vaccine designs. In     , Gupta et al. have developed a web resource “CoronaVR” and have identified a set of T-cell and B-cell epitopes that can be incorporated in vaccine design. On the other hand, Crooke et al.     have used available algorithms and webtools to identify 41 T-cell epitopes (5 HLA class I, 36 HLA class II) and 6 B-cell epitopes as probable targets for epitope-based vaccine design. Ong et al.     have used Vaxign and the recently developed Vaxign-ML reverse vaccinology tools to predict potential vaccine candidates for COVID-19. Apart from Spike, they have identified epitopes derived from NSP3, 3CL-pro, NSP8, NSP9 and NSP10 proteins to be highly likely candidates for vaccine design. There are other works like     ,     ,     ,     ,     ,     ,     ,     as well pertaining to epitope identification in SARS-CoV-2 for vaccine design.
+    </p>
+    <p id="p0020">
+     In the above discussed literature, prediction of epitopes has been performed by analysing the virus proteins whereas genetical mutations are the primary reason for change in structure of the virus proteins. This fact motivated us to analyse the 566 available Indian SARS-CoV-2 genomes to identify the conserved regions to predict the immunogenic and antigenic epitopes. For this purpose, we have used four different multiple sequence alignment techniques viz. ClustalW     , MUSCLE     , ClustalO     ,     and MAFFT     to align the sequences. Consensus conserved regions (CCnR) are then identified after finding the conserved regions from each aligned results of the alignment techniques. Further, these conserved regions are filtered on the basis of (a) length should be greater than or equal to 60nt and (b) corresponding protein sequence should not have any stop codons. This is followed by the validation of specificity of the conserved regions as query coverage with the help of Nucleotide BLAST     . These filtered conserved regions are then used to identify the T-cell and B-cell epitopes based on their immunogenic and antigenic scores. Thereafter, these scores are used to rank the conserved regions. As a result, we have obtained 23 conserved regions encompassing NSP1, NSP2, NSP3, NSP4, 3CL-Proteinase, NSP10, RNA-directed RNA polymerase, Helicase, Spike glycoprotein and Nucleocapsid protein. Subsequently, the consensus conserved region in NSP3 gene has been found to be highly immunogenic and antigenic. It provides MHC-I and MHC-II restricted T-cell epitopes and B-cell epitopes, FLKKDAPYI, ITFLKKDAPYIVGDV, TLVSDIDITFLKKDAP as immunogenic and TAVVIPTKK, IDITFLKKDAPYIVG, LHPDSATLVSDIDITF as antigenic respectively. Also, different immunogenic and antigenic epitopes associated to other conserved regions are provided as well. Finally, to validate the identified epitopes, the conformational 2D non-covalent structure of the chosen epitopes is studied. Moreover, the physico-chemical properties of the epitopes along with Ramachandran plot and Z-scores are also reported in the paper.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Materials and methods
+    </title>
+    <p id="p0025">
+     In this section, at first the data preparation is elaborated followed by the discussion on the pipeline of the proposed work. For the benefit of the readers, brief discussions on epitope based vaccine, T-cell and B-cell epitopes and their prediction tools, physico-chemical properties of epitopes and docking of T-cell epitopes are given in the     . Moreover, prediction tools for T-cell and B-cell epitopes are reported in     .
+    </p>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      Data preparation
+     </title>
+     <p id="p0030">
+      In order to map the SARS-CoV-2 proteins, we have used the reference SARS-CoV-2 genome (NC_045512.2)      and 44583 available protein sequences from the National Center for Biotechnology (NCBI). To generate the protein sequence, we have taken the reference sequence of SARS-CoV-2 genome and considered the reading frame concepts. A reading frame divides the sequence of nucleotides of the reference sequence into a set of successive, non-overlapping triplets. There are three possible reading frames: Frame 1 which starts from the first nucleotide of a reference sequence and creates the triplets, Frame 2 which starts from the second nucleotide and creates the triplets and Frame 3 which starts from the third nucleotide and creates the triplets. For each frame, these triplets are then translated into the corresponding proteins based on the codon table      . Finally, we have obtained 25 such unique proteins which were best matched to Frame 2. Also, the recent genomic sequences of Indian SARS-CoV-2 virus have been collected from Global Initiative on Sharing All Influenza Data (GISAID)      in fasta format. It contains 566 complete and near complete genomes with sequence ID. The average length of the 566 genomes is 29,831 bp. These 566 SARS-CoV-2 sequences are aligned using multiple sequencing alignment (MSA) techniques to extract the conserved regions. Also, the coded protein associated to each conserved region are extracted. For the alignment of sequences, High Performance Computing (HPC) facility of NITTTR, Kolkata is used. The HPC cluster has a master node with dual Intel Xeon Gold 6130 Processor having 32 Cores, 2.10 GHz, 22 MB L3 Cache and 128 GB DDR4 RAM and 2 GPU and 4 CPU computing nodes with dual Intel Xeon Gold 6152 Processor having 44 Cores, 2.1 GHz, 30 MB L3 Cache and 192 GB DDR4 RAM each, while GPU nodes have NVIDIA Tesla V100 GPU with 16 GB memory each. MSA was performed using the 2 GPU and 4 CPU computing nodes.
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      Pipeline of the workflow
+     </title>
+     <p id="p0035">
+      The pipeline of the workflow is shown in      . To start with, we have focused on finding the conserved regions in the 566 Indian SARS-CoV-2 genome sequence which are not affected by genetic mutations. For the same, initially we have constructed a Consensus Multiple Sequence Alignment (CMSA) approach in which we have used four different alignment techniques: ClustalW, MUSCLE, ClustalO and MAFFT in order to align the 566 SARS-CoV-2 sequences. Subsequently, consensus conserved regions (CCnR) are identified after finding the conserved regions from each aligned result of alignment techniques. ClustalW initially performs pairwise alignment of all sequences by using the k-tuple method. Thereafter, MSA is created by progressively aligning the most closely related sequences based on Neighbor-Joining guide tree method. In MUSCLE technique, two distance measures are used: k-mer for unaligned pairs and Kimura method for aligned pairs of sequences. Initially, a draft MSA is produced in MUSCLE using the k-mer method. Then, a progressive alignment is constructed based on the guide tree as produced by the UPGMA method. This initial tree is then re-estimated using the Kimura distance method after which UPGMA method is once again used to produce a new guide tree, thereby creating a second MSA. New MSAs are finally created by realigning the two sequences created previously. ClustalO uses the k-tuple method to produce pairwise alignment. Then mBed is used to cluster the sequences followed by k-means clustering algorithm. Next, the guide tree is built using Unweighted Pair Group Method with Arithmetic Mean (UPGMA) method. Finally, MSA is constructed using the HHalign package. MAFFT uses two different heuristic methods, progressive (FFT-NS-2) and iterative refinement (FFT-NS-i). The main aim of MAFFT is to merge local and global algorithms for MSA. Initially, FFT-NS-2 is used to calculate all-pairwise distances to create a provisional MSA from which refined distances are calculated. Then, FFT-NS-i is performed to get the final MSA. Thereafter, to identify the conserved regions, these aligned sequences are used to compute the entropy(E).
+      <disp-formula id="e0005">
+       <label>
+        (1)
+       </label>
+       <ns0:math altimg="si1.svg" id="M1">
+        <ns0:mrow>
+         <ns0:mi>
+          E
+         </ns0:mi>
+         <ns0:mo linebreak="goodbreak">
+          =
+         </ns0:mo>
+         <ns0:mi mathvariant="normal">
+          ln
+         </ns0:mi>
+         <ns0:mn>
+          5
+         </ns0:mn>
+         <ns0:mo linebreak="badbreak">
+          +
+         </ns0:mo>
+         <ns0:mrow>
+          <ns0:mo>
+           ∑
+          </ns0:mo>
+         </ns0:mrow>
+         <ns0:msubsup>
+          <ns0:mrow>
+           <ns0:mi>
+            S
+           </ns0:mi>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mi>
+            x
+           </ns0:mi>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mi>
+            y
+           </ns0:mi>
+          </ns0:mrow>
+         </ns0:msubsup>
+         <ns0:mi mathvariant="normal">
+          ln
+         </ns0:mi>
+         <ns0:mo stretchy="false">
+          [
+         </ns0:mo>
+         <ns0:msubsup>
+          <ns0:mrow>
+           <ns0:mi>
+            S
+           </ns0:mi>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mi>
+            x
+           </ns0:mi>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mi>
+            y
+           </ns0:mi>
+          </ns0:mrow>
+         </ns0:msubsup>
+         <ns0:mo stretchy="false">
+          ]
+         </ns0:mo>
+        </ns0:mrow>
+       </ns0:math>
+      </disp-formula>
+      where S
+      <sub>
+       x
+      </sub>
+      indicates the frequency of each residue
+      <italic>
+       x
+      </italic>
+      occurring at position
+      <italic>
+       y
+      </italic>
+      and 5 represents the four possible residues as nucleotide plus gap. To identify the conserved regions (CnRs) for each alignment technique, a minimum segment length of 15 is considered with maximum average entropy as 0.2. Further, maximum entropy per position is taken as 0.2 with no gaps after finding the consensus sequence for the 566 genomic sequences. All these values are taken after following the literature. Thereafter, the CCnRs are identified considering the CnRs of all the alignment techniques. Next, a refinement process is carried out for the CCnRs based on the criteria that their length is greater then or equal to 60nt and no stop codon is present in the associated protein sequence. Moreover, Nucleotide BLAST is used to verify the specificity of the CCnRs as query coverage as well. Subsequently, T-cell and B-cell epitopes are identified from these CCnRs. To predict the T-cell and B-cell epitopes and to find their corresponding immunogenic scores, each CCnR is subjected to IEDB      and ABCPred      respectively. As recommended by IEDB, for the prediction of MHC-I and MHC-II T-cell epitopes, NetMHCpan      and Consensus Approach      are selected respectively whereas for B-cell epitopes, prediction is carried out by ABCPred which uses Recurrent Neural Network. Then, by using the predicted epitopes, antigenic scores are calculated with the help of VaxiJen2.0      . For each CCnR, multiple T-cell and B-cell epitopes are identified along with their corresponding immunogenic and antigenic scores. Subsequently, for each CCnR the highest immunogenic and antigenic scores are considered to select the corresponding epitopes. Furthermore, these scores are used to rank the CCnRs based on geometric mean as given in Eq.      . The use of geometric mean is to avoid the skewness of immunogenic and antigenic scores obtained for T-cell and B-cell epitopes so that proper ranking of the consensus conserved regions can be performed. Moreover, to validate the identified epitopes, the conformational 2D non-covalent structures of the identified epitopes are studied using LigPlot+      . Furthermore, BepiPred2.0 server      is used for the verification of the predicted B-cell epitopes.Also, the physico-chemical properties of the epitopes along with Ramachandran plot are reported through PyMOL      and its extensive libraries Autodock Vina (for docking)      and PyMOD 3      while for the Z-score calculation ProSA      online server is used.
+      <disp-formula id="e0010">
+       <label>
+        (2)
+       </label>
+       <ns0:math altimg="si2.svg" id="M2">
+        <ns0:mrow>
+         <ns0:msub>
+          <ns0:mrow>
+           <ns0:mi>
+            R
+           </ns0:mi>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mi mathvariant="normal">
+            CCnR
+           </ns0:mi>
+          </ns0:mrow>
+         </ns0:msub>
+         <ns0:mo linebreak="goodbreak">
+          =
+         </ns0:mo>
+         <ns0:mi mathvariant="italic">
+          Rank
+         </ns0:mi>
+         <ns0:msup>
+          <ns0:mrow>
+           <ns0:mo stretchy="false">
+            (
+           </ns0:mo>
+           <ns0:mo stretchy="false">
+            [
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mrow>
+             <ns0:mi mathvariant="italic">
+              IS
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mi mathvariant="normal">
+              MHC
+             </ns0:mi>
+             <ns0:mo>
+              -
+             </ns0:mo>
+             <ns0:mi mathvariant="normal">
+              I
+             </ns0:mi>
+            </ns0:mrow>
+           </ns0:msub>
+           <ns0:mo>
+            ×
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mrow>
+             <ns0:mi mathvariant="italic">
+              IS
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mi mathvariant="normal">
+              MHC
+             </ns0:mi>
+             <ns0:mo>
+              -
+             </ns0:mo>
+             <ns0:mi mathvariant="normal">
+              II
+             </ns0:mi>
+            </ns0:mrow>
+           </ns0:msub>
+           <ns0:mo>
+            ×
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mrow>
+             <ns0:mi mathvariant="italic">
+              IS
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mi mathvariant="normal">
+              B
+             </ns0:mi>
+             <ns0:mo>
+              -
+             </ns0:mo>
+             <ns0:mi mathvariant="normal">
+              cell
+             </ns0:mi>
+            </ns0:mrow>
+           </ns0:msub>
+           <ns0:mo stretchy="false">
+            ]
+           </ns0:mo>
+           <ns0:mo>
+            ×
+           </ns0:mo>
+           <ns0:mo stretchy="false">
+            [
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mrow>
+             <ns0:mi mathvariant="italic">
+              AS
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mi mathvariant="normal">
+              MHC
+             </ns0:mi>
+             <ns0:mo>
+              -
+             </ns0:mo>
+             <ns0:mi mathvariant="normal">
+              I
+             </ns0:mi>
+            </ns0:mrow>
+           </ns0:msub>
+           <ns0:mo>
+            ×
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mrow>
+             <ns0:mi mathvariant="italic">
+              AS
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mi mathvariant="normal">
+              MHC
+             </ns0:mi>
+             <ns0:mo>
+              -
+             </ns0:mo>
+             <ns0:mi mathvariant="normal">
+              II
+             </ns0:mi>
+            </ns0:mrow>
+           </ns0:msub>
+           <ns0:mo>
+            ×
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mrow>
+             <ns0:mi mathvariant="italic">
+              AS
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mi mathvariant="normal">
+              B
+             </ns0:mi>
+             <ns0:mo>
+              -
+             </ns0:mo>
+             <ns0:mi mathvariant="normal">
+              cell
+             </ns0:mi>
+            </ns0:mrow>
+           </ns0:msub>
+           <ns0:mo stretchy="false">
+            ]
+           </ns0:mo>
+           <ns0:mo stretchy="false">
+            )
+           </ns0:mo>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mfrac>
+            <ns0:mrow>
+             <ns0:mn>
+              1
+             </ns0:mn>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mn>
+              6
+             </ns0:mn>
+            </ns0:mrow>
+           </ns0:mfrac>
+          </ns0:mrow>
+         </ns0:msup>
+         <ns0:mo stretchy="false">
+          )
+         </ns0:mo>
+        </ns0:mrow>
+       </ns0:math>
+      </disp-formula>
+      where, R
+      <sub>
+       CCnR
+      </sub>
+      represents rank of consensus conserved region (CCnR) based on geometric mean of immunogenic and antigenic scores of T-cell and B-cell epitopes, IS
+      <sub>
+       i
+      </sub>
+      and AS
+      <sub>
+       i
+      </sub>
+      are the scaled immunogenic and antigenic scores for MHC-I, MHC-II and B-cell epitopes respectively.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0025">
+    <label>
+     3
+    </label>
+    <title>
+     Results and discussions
+    </title>
+    <sec id="s0030">
+     <label>
+      3.1
+     </label>
+     <title>
+      Ranking of the CCnRs
+     </title>
+     <p id="p0040">
+      Experiments in this study are carried out according to the flowchart as mentioned in      . Initially, 566 Indian SARS-CoV-2 genomes are aligned by using Consensus Multiple Sequence Alignment (CMSA) techniques, ClustalW, MUSCLE, ClustalO and MAFFT. Subsequently, we have obtained 125 CCnRs by considering all the alignment techniques. This is shown in      where 438, 439, 438 and 438 conserved regions (CnRs) from ClustalW, MUSCLE, ClustalO and MAFFT respectively are provided resulting in 125 CCnRs. This is followed by mapping of the CCnRs to 11 coding regions i.e. ORF1ab, Spike, ORF3a, Envelope, Membrane, ORF6, ORF7a, ORF7b, ORF8, Nucleocapsid and ORF10. The corresponding protein sequence for each CCnR has been taken from Frame 2. Now, the 125 CCnRs are filtered based on the criteria that (a) their length should be greater than or equal to 60nt and (b) no stop codons should be present in the corresponding proteins. A BLAST specificity score as query coverage equal to 100% is also considered during the filtering process. As a result, 23 CCnRs have been identified. Subsequently, these CCnRs are ranked on the basis of geometric mean of highly immunogenic and antigenic scores of the corresponding MHC-I, MHC-II T-cell and B-cell epitopes. It is worth mentioning that the immunogenic and antigenic scores are scaled within the range of 0–1 to bring the scores of all the epitopes for different CCnRs to a uniform scale and mentioned throughout the paper while the actual scores are given as      . After ranking, top 5 CCnRs along with their corresponding protein sequences, lengths, blast specificity scores, percentage of BLAST specificity scores as query coverage, coding regions with their starting and ending coordinates, lengths and coded proteins are also mentioned in      . Moreover, the ranking with the scores of these top 5 CCnRs is reported in      . It is found from      , that the top 5 CCnRs belong to the coding region which codes NSP3, 3CL-Proteinase, NSP10 and NSP4 proteins respectively. Please note that all the 23 CCnRs are reported in      while their ranking details are given in      .
+      <table-wrap id="t0005" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Top 5 Consensus Conserved Regions (CCnRs) as derived from SARS-CoV-2 with associated details.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Consensus Conserved Region (CCnR)
+          </th>
+          <th>
+           Protein Sequence of CCnR
+          </th>
+          <th>
+           Length of
+          </th>
+          <th>
+           BLAST Specificity
+          </th>
+          <th>
+           % of BLAST Specificity
+          </th>
+          <th>
+           Coding
+          </th>
+          <th>
+           Starting
+          </th>
+          <th>
+           Ending
+          </th>
+          <th>
+           Length of CR
+          </th>
+          <th>
+           Coded
+          </th>
+         </tr>
+         <tr>
+          <th/>
+          <th/>
+          <th>
+           CCnR
+          </th>
+          <th>
+           Score of CCnR
+          </th>
+          <th>
+           Score as Query Coverage
+          </th>
+          <th>
+           Region (CR)
+          </th>
+          <th>
+           Coordinate of CR
+          </th>
+          <th>
+           Coordinate of CR
+          </th>
+          <th/>
+          <th>
+           Protein from CR
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           4012-CACAGAAAACTTGTTACTTTATATTGACATTAATGGCAATCTTCATCCAGATTCTGCCACTCTTGTTAGTGACATTGACATCACTTTCTTAAAGAAAGATGCTCCATATATAGTGGGTGATGTTGTTCAAGAGGGTGTTTTAACTGCTGTGGTTATACCTACTAAAAAGGCTGGTGGCACTACTGAAATGCTAGCGAAAGCTTT-4215
+          </td>
+          <td>
+           TENLLLYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLAKA
+          </td>
+          <td>
+           204
+          </td>
+          <td>
+           377
+          </td>
+          <td>
+           100
+          </td>
+          <td>
+           ORF1ab
+          </td>
+          <td>
+           266
+          </td>
+          <td>
+           21555
+          </td>
+          <td>
+           21290
+          </td>
+          <td>
+           NSP3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           10463-TTAAGGGTTCATTCCTTAATGGTTCATGTGGTAGTGTTGGTTTTAACATAGATTATGACTGTGTCTCTTTTTGTTAC-10539
+          </td>
+          <td>
+           KGSFLNGSCGSVGFNIDYDCVSFCY
+          </td>
+          <td>
+           77
+          </td>
+          <td>
+           143
+          </td>
+          <td>
+           100
+          </td>
+          <td>
+           ORF1ab
+          </td>
+          <td>
+           266
+          </td>
+          <td>
+           21555
+          </td>
+          <td>
+           21290
+          </td>
+          <td>
+           3CL-Proteinase
+          </td>
+         </tr>
+         <tr>
+          <td>
+           13291-TTTTGTGACTTAAAAGGTAAGTATGTACAAATACCTACAACTTGTGCTAATGACCCTGTGGGTTTTACACTTAAAAACACAGTCTGTACCGTCTGCGGTAT-13391
+          </td>
+          <td>
+           FCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCG
+          </td>
+          <td>
+           101
+          </td>
+          <td>
+           187
+          </td>
+          <td>
+           100
+          </td>
+          <td>
+           ORF1ab
+          </td>
+          <td>
+           266
+          </td>
+          <td>
+           21555
+          </td>
+          <td>
+           21290
+          </td>
+          <td>
+           NSP10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           5307-TAACACTCCAACAAATAGAGTTGAAGTTTAATCCACCTGCTCTACAAGATGCTTATTACAG-5367
+          </td>
+          <td>
+           TLQQIELKFNPPALQDAYY
+          </td>
+          <td>
+           61
+          </td>
+          <td>
+           113
+          </td>
+          <td>
+           100
+          </td>
+          <td>
+           ORF1ab
+          </td>
+          <td>
+           266
+          </td>
+          <td>
+           21555
+          </td>
+          <td>
+           21290
+          </td>
+          <td>
+           NSP3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           9564-ATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTACTTGACATTTTATCTTACTAATGATGTTTCTTTTTTAGCACATATTCAGTGGATGGTT-9657
+          </td>
+          <td>
+           FLPGVYSVIYLYLTFYLTNDVSFLAHIQWMV
+          </td>
+          <td>
+           94
+          </td>
+          <td>
+           174
+          </td>
+          <td>
+           100
+          </td>
+          <td>
+           ORF1ab
+          </td>
+          <td>
+           266
+          </td>
+          <td>
+           21555
+          </td>
+          <td>
+           21290
+          </td>
+          <td>
+           NSP4
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0010" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Ranking procedure done on the basis of Geometric Mean of Binding and Antigenic Scores of T-cell and B-cell epitopes from each CCnR.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Consensus Conserved Region (CCnR)
+          </th>
+          <th>
+           Protein
+          </th>
+          <th>
+           Coded
+          </th>
+          <th align="center" colspan="2">
+           MHC-I restricted T-cell
+           <hr/>
+          </th>
+          <th align="center" colspan="2">
+           MHC-II restricted T-cell
+           <hr/>
+          </th>
+          <th align="center" colspan="2">
+           B-cell Epitopes
+           <hr/>
+          </th>
+          <th>
+           Final
+          </th>
+         </tr>
+         <tr>
+          <th/>
+          <th>
+           Sequence
+          </th>
+          <th>
+           Protein
+          </th>
+          <th>
+           Immunogenic Score
+          </th>
+          <th>
+           Antigenic score
+          </th>
+          <th>
+           Immunogenic score
+          </th>
+          <th>
+           Antigenic Score
+          </th>
+          <th>
+           Immunogenic Score
+          </th>
+          <th>
+           Antigenic Score
+          </th>
+          <th>
+           Score
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           10463-CACAGAAAACTTGTTACTTTATATTGACATTAATGGCAATCTTCATCCAGATTCTGCCACTCTTGTTAGTGACATTGACATCACTTTCTTAAAGAAAGATGCTCCATATATAGTGGGTGATGTTGTTCAAGAGGGTGTTTTAACTGCTGTGGTTATACCTACTAAAAAGGCTGGTGGCACTACTGAAATGCTAGCGAAAGCTTT-10539
+          </td>
+          <td>
+           TENLLLYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLAKA
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           0.8640
+          </td>
+          <td>
+           0.7361
+          </td>
+          <td>
+           0.9804
+          </td>
+          <td>
+           0.6382
+          </td>
+          <td>
+           0.8810
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           0.84
+          </td>
+         </tr>
+         <tr>
+          <td>
+           9104-TTAAGGGTTCATTCCTTAATGGTTCATGTGGTAGTGTTGGTTTTAACATAGATTATGACTGTGTCTCTTTTTGTTAC-9211
+          </td>
+          <td>
+           KGSFLNGSCGSVGFNIDYDCVSFCY
+          </td>
+          <td>
+           3CL-Proteinase
+          </td>
+          <td>
+           0.6552
+          </td>
+          <td>
+           0.9049
+          </td>
+          <td>
+           0.9114
+          </td>
+          <td>
+           0.7499
+          </td>
+          <td>
+           0.7143
+          </td>
+          <td>
+           0.7401
+          </td>
+          <td>
+           0.77
+          </td>
+         </tr>
+         <tr>
+          <td>
+           21661-TTTTGTGACTTAAAAGGTAAGTATGTACAAATACCTACAACTTGTGCTAATGACCCTGTGGGTTTTACACTTAAAAACACAGTCTGTACCGTCTGCGGTAT-21728
+          </td>
+          <td>
+           FCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCG
+          </td>
+          <td>
+           NSP10
+          </td>
+          <td>
+           0.9136
+          </td>
+          <td>
+           0.7542
+          </td>
+          <td>
+           0.9818
+          </td>
+          <td>
+           0.3852
+          </td>
+          <td>
+           0.9048
+          </td>
+          <td>
+           0.6813
+          </td>
+          <td>
+           0.74
+          </td>
+         </tr>
+         <tr>
+          <td>
+           5220-TAACACTCCAACAAATAGAGTTGAAGTTTAATCCACCTGCTCTACAAGATGCTTATTACAG-5288
+          </td>
+          <td>
+           TLQQIELKFNPPALQDAYY
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           0.8106
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           0.9485
+          </td>
+          <td>
+           0.6714
+          </td>
+          <td>
+           0.3333
+          </td>
+          <td>
+           0.8433
+          </td>
+          <td>
+           0.72
+          </td>
+         </tr>
+         <tr>
+          <td>
+           6706-ATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTACTTGACATTTTATCTTACTAATGATGTTTCTTTTTTAGCACATATTCAGTGGATGGTT-6839
+          </td>
+          <td>
+           FLPGVYSVIYLYLTFYLTNDVSFLAHIQWMV
+          </td>
+          <td>
+           NSP4
+          </td>
+          <td>
+           0.9980
+          </td>
+          <td>
+           0.7866
+          </td>
+          <td>
+           0.9933
+          </td>
+          <td>
+           0.3326
+          </td>
+          <td>
+           0.9762
+          </td>
+          <td>
+           0.4726
+          </td>
+          <td>
+           0.70
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0045">
+      It is important to note that although structural proteins are the popular candidates for vaccine, vaccine protection can be correlated to non-structural proteins. In this regard,      showed that NS1 which is a non-structural protein can bring about protective immunity against flaviviruses. Though, no neutralizing effect was shown by antibodies against NS1, some exuded complement-fixing activity and even passive transfer of anti-NS1 antibody or immunization with NS1 can lead to protection against viruses      . Furthermore, anti-NS1 antibody could be responsible to block NS1-induced pathogenic effects, reduce viral replication by complement-dependent cytotoxicity of infected cells and even attenuate NS1-induced disease development. This has led to NS1 being a prospective vaccine candidate against Dengue virus      ,      . Another core advantage of NS1 is that being a non-structural protein, the anti-NS1 antibody will not instigate antibody-dependent enhancement (ADE), which is a virulence factor causing serious repercussions. Additionally, non-structural virus proteins can generate cytotoxic T lymphocytes which are important to control infection. In      , the authors have shown that the non-structural proteins of the hepatitis-C virus could generate HCV-specific broad-spectrum T-cell responses. Non-structural proteins have been used by      for vaccine design against Usutu Virus. Also, as targets for prophylactic or therapeutic vaccines, the non-structural proteins of HIV-1 were shown to be quite important      . Moreover, Ong et al.      have predicted NSP3 in SARS-CoV-2 to produce high protective antigenicity. Thus, we can hypothesize that apart from structural proteins non-structural proteins of SARS-CoV-2 can be possible targets as well for vaccine design which may induce cell-mediated or humoral immunity that is necessary to prevent viral invasion and/or replication.
+     </p>
+    </sec>
+    <sec id="s0035">
+     <label>
+      3.2
+     </label>
+     <title>
+      Identification of MHC-I restricted T-cell epitopes
+     </title>
+     <p id="p0050">
+      For epitope prediction from the 23 CCnRs, the associated protein sequences are used as inputs to the prediction tools. In this regard, MHC-I binding predictions are performed using IEDB      recommended NetMHCpan EL 4.1 (published recently in September 2020) targeting 27 unique HLA alleles. As a result, for each CCnR good binders in the form of immunogenic score, 4 best HLA epitopes are selected, in total 92 epitopes of length 9–11 mer each are obtained. Their antigenic scores are evaluated using VaxiJen2.0      . In order to rank the CCnRs, only the best immunogenic and antigenic MHC-I restricted T-cell epitopes are considered. As a consequence, 34 such epitopes are identified and reported in      for all the CCnRs while for the top 5 CCnRs, 8 epitopes are provided in      . It is found that FLKKDAPYI and TAVVIPTKK are the highly immunogenic and antigenic MHC-I restricted T-cell epitopes from the NSP3 coded protein binded to HLA-A*31:01 and HLA-A*68:01 HLA alleles respectively. All the 92 MHC-I restricted T-cell epitopes along with their HLA alleles are provided in the      .
+      <table-wrap id="t0015" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         List of Immunogenic and Antigenic Epitopes for MHC-I, MHC-II restricted T-cell and B-cell Epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Protein
+          </th>
+          <th>
+           Coded
+          </th>
+          <th rowspan="3">
+           Type
+          </th>
+          <th align="center" colspan="4">
+           MHC-I restricted T-cell
+           <hr/>
+          </th>
+          <th align="center" colspan="4">
+           MHC-II restricted T-cell
+           <hr/>
+          </th>
+          <th align="center" colspan="3">
+           B-cell
+           <hr/>
+          </th>
+         </tr>
+         <tr>
+          <th>
+           Sequence
+          </th>
+          <th>
+           Proteins
+          </th>
+          <th rowspan="2">
+           Epitope
+          </th>
+          <th rowspan="2">
+           Alleles
+          </th>
+          <th align="center" colspan="2">
+           Scaled Score of
+           <hr/>
+          </th>
+          <th rowspan="2">
+           Epitope
+          </th>
+          <th rowspan="2">
+           Alleles
+          </th>
+          <th align="center" colspan="2">
+           Scaled Score of
+           <hr/>
+          </th>
+          <th rowspan="2">
+           Epitope
+          </th>
+          <th align="center" colspan="2">
+           Scaled Score of
+           <hr/>
+          </th>
+         </tr>
+         <tr>
+          <th/>
+          <th/>
+          <th>
+           Immunogenicity
+          </th>
+          <th>
+           Antigenicity
+          </th>
+          <th>
+           Immunogenicity
+          </th>
+          <th>
+           Antigenicity
+          </th>
+          <th>
+           Immunogenicity
+          </th>
+          <th>
+           Antigenicity
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           TENLLLYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLAKA
+          </td>
+          <td rowspan="2">
+           NSP3
+          </td>
+          <td rowspan="2">
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           FLKKDAPYI
+          </td>
+          <td rowspan="2">
+           HLA-A*31:01
+          </td>
+          <td rowspan="2">
+           0.8640
+          </td>
+          <td rowspan="2">
+           0.3890
+          </td>
+          <td rowspan="2">
+           ITFLKKDAPYIVGDV
+          </td>
+          <td rowspan="2">
+           HLA-DRB3*01:01
+          </td>
+          <td rowspan="2">
+           0.9804
+          </td>
+          <td rowspan="2">
+           0.3036
+          </td>
+          <td rowspan="2">
+           TLVSDIDITFLKKDAP
+          </td>
+          <td rowspan="2">
+           0.8810
+          </td>
+          <td rowspan="2">
+           0.7314
+          </td>
+         </tr>
+         <tr>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           KGSFLNGSCGSVGFNIDYDCVSFCY
+          </td>
+          <td rowspan="2">
+           3CL-Proteinase
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           FLNGSCGSV
+          </td>
+          <td rowspan="2">
+           HLA-A*02:03
+          </td>
+          <td rowspan="2">
+           0.6552
+          </td>
+          <td rowspan="2">
+           0.3342
+          </td>
+          <td rowspan="2">
+           CGSVGFNIDYDCVSF
+          </td>
+          <td rowspan="2">
+           HLA-DQA1*01:01/DQB1*05:01
+          </td>
+          <td rowspan="2">
+           0.9114
+          </td>
+          <td rowspan="2">
+           0.7499
+          </td>
+          <td rowspan="2">
+           CGSVGFNIDYDCVSFC
+          </td>
+          <td rowspan="2">
+           0.7143
+          </td>
+          <td rowspan="2">
+           0.7401
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCG
+          </td>
+          <td rowspan="2">
+           NSP10
+          </td>
+          <td rowspan="2">
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           DLKGKYVQI
+          </td>
+          <td rowspan="2">
+           HLA-B*08:01
+          </td>
+          <td rowspan="2">
+           0.9136
+          </td>
+          <td rowspan="2">
+           0.7542
+          </td>
+          <td rowspan="2">
+           KGKYVQIPTTCANDP
+          </td>
+          <td rowspan="2">
+           HLA-DRB1*04:01
+          </td>
+          <td rowspan="2">
+           0.9818
+          </td>
+          <td rowspan="2">
+           0.1892
+          </td>
+          <td rowspan="2">
+           TTCANDPVGFTLKNTV
+          </td>
+          <td rowspan="2">
+           0.9048
+          </td>
+          <td rowspan="2">
+           0.6813
+          </td>
+         </tr>
+         <tr>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           TLQQIELKFNPPALQDAYY
+          </td>
+          <td rowspan="2">
+           NSP3
+          </td>
+          <td rowspan="2">
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           NPPALQDAY
+          </td>
+          <td rowspan="2">
+           HLA-B*35:01
+          </td>
+          <td rowspan="2">
+           0.8106
+          </td>
+          <td rowspan="2">
+           0.4557
+          </td>
+          <td rowspan="2">
+           QIELKFNPPALQDAY
+          </td>
+          <td rowspan="2">
+           HLA-DRB3*02:02
+          </td>
+          <td rowspan="2">
+           0.9485
+          </td>
+          <td rowspan="2">
+           0.6409
+          </td>
+          <td rowspan="2">
+           LQQIELKFNPPALQDA
+          </td>
+          <td rowspan="2">
+           0.3333
+          </td>
+          <td rowspan="2">
+           0.8433
+          </td>
+         </tr>
+         <tr>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           FLPGVYSVIYLYLTFYLTNDVSFLAHIQWMV
+          </td>
+          <td rowspan="2">
+           NSP4
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           VSFLAHIQW
+          </td>
+          <td rowspan="2">
+           HLA-B*57:01
+          </td>
+          <td rowspan="2">
+           0.9980
+          </td>
+          <td rowspan="2">
+           0.7866
+          </td>
+          <td rowspan="2">
+           GVYSVIYLYLTFYLT
+          </td>
+          <td rowspan="2">
+           HLA-DPA1*01:03/DPB1*02:01
+          </td>
+          <td rowspan="2">
+           0.9933
+          </td>
+          <td rowspan="2">
+           0.3326
+          </td>
+          <td rowspan="2">
+           YSVIYLYLTFYLTNDV
+          </td>
+          <td rowspan="2">
+           0.9762
+          </td>
+          <td rowspan="2">
+           0.4726
+          </td>
+         </tr>
+         <tr>
+          <td/>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0040">
+     <label>
+      3.3
+     </label>
+     <title>
+      Identification of MHC-II restricted T-cell epitopes
+     </title>
+     <p id="p0055">
+      Similar procedures are carried out for MHC-II restricted T-cell epitopes as well using MHC-II binding prediction tool provided by IEDB with consensus prediction targeting a different set of 27 unique HLA alleles. Subsequently, we obtained 92 epitopes of length 15–17 mer each which are bounded to their alleles along with their corresponding immunogenic and antigenic scores. In order to rank the CCnRs, the best immunogenic and antigenic MHC-II restricted T-cell epitopes are considered, resulting in 37 epitopes which are reported in      for all the CCnRs. The 8 epitopes for the top 5 CCnRs are reported in      . From this table, it is seen that ITFLKKDAPYIVGDV and IDITFLKKDAPYIVG are the most immunogenic and antigenic MHC-II restricted T-cell epitopes corresponding to HLA-DRB3*01:01 allele. All the 92 MHC-II restricted T-cell epitopes along with their HLA alleles are provided in the      .
+     </p>
+    </sec>
+    <sec id="s0045">
+     <label>
+      3.4
+     </label>
+     <title>
+      Identification of B-cell epitopes
+     </title>
+     <p id="p0060">
+      After obtaining MHC-I and MHC-II T-cell epitopes, B-cell epitopes which are responsible for antigen productions are predicted using ABCPred      with the length of 15–18 mer and their antigenic scores are evaluated from the VaxiJen server. As a result, 61 epitopes are found. In order to rank the CCnRs, the best immunogenic and antigenic B-cell epitopes are considered which resulted in 29 epitopes. These epitopes are reported in      for all the CCnRs while for the top 5 CCnRs, 6 B-cell epitopes are reported in      . In this table, it is found that TLVSDIDITFLKKDAP and LHPDSATLVSDIDITF are the most immunogenic and antigenic B-cell epitopes. Here, it should be noted that for antigenicity evaluation, a threshold of 0.4 is maintained throughout the experiment by following the literature      . The graphical representation of TLVSDIDITFLKKDAP and LHPDSATLVSDIDITF is shown in      using BepiPred 2.0 where the total green and yellow regions represent the protein sequence TENLLLYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLAKA while the two yellow regions denote the B-cell epitopes TLVSDIDITFLKKDAP and LHPDSATLVSDIDITF respectively. The red line in the figure represents the threshold which is set to 0.5. For all the 23 CCnRs the results are shown in      while the 61 B-cell epitopes are provided in the      .
+     </p>
+    </sec>
+    <sec id="s0050">
+     <label>
+      3.5
+     </label>
+     <title>
+      Final panel of epitopes
+     </title>
+     <p id="p0065">
+      summarises the final panel of the 34 MHC-I, 37 MHC-II restricted T-cell epitopes and 29 B-cell epitopes for 23 CCnRs based on their highest immunogenic and antigenic scores. There are 16 unique HLA alleles for MHC-I and 19 unique HLA alleles for MHC-II restricted T-cell epitopes. The associated coded proteins for the 23 CCnRs are NSP1, NSP2, NSP3, NSP4, 3CL-Proteinase, NSP10, RNA-directed RNA polymerase, Helicase, Spike glycoprotein and Nucleocapsid protein. For better readability, the epitopes associated with the top 5 CCnRs are underlined in      whereas the epitopes for 23 CCnRs are underlined in      . The red lines, green lines and the blue lines respectively denote the MHC-I, MHC-II T-cells and B-cells respectively. Moreover, for the ease of the readers, all the details related to the 125 CCnRs, 92 MHC-I and MHC-II restricted T-cell epitopes and 61 B-cell epitopes are provided in the      , the link of which is given in Table S6. Additionally, a list of MHC-I and MHC-II restricted T-cell and B-cell epitopes for SARS-CoV-2 as collected from different sources in the literature like      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      are reported in      . For space constraint, 3 of each MHC-I and MHC-II restricted T-cell and B-cell epitopes from each paper are mentioned in this table while the list of all the MHC-I and MHC-II restricted T-cell and B-cell epitopes are given in the      as given in      . Thus,      ,      can provide the readers a better insight into the epitopes identified so far.
+      <table-wrap id="t0020" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Overview of MHC-I, MHC-II restricted T-cell and B-cell epitopes for the 23 CCnRs.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Coded
+          </th>
+          <th>
+           Type
+          </th>
+          <th align="center" colspan="2">
+           MHC-I restricted T-cell
+           <hr/>
+          </th>
+          <th align="center" colspan="2">
+           MHC-II restricted T-cell
+           <hr/>
+          </th>
+          <th>
+           B-cell Epitopes
+          </th>
+         </tr>
+         <tr>
+          <th>
+           Proteins
+          </th>
+          <th/>
+          <th>
+           Epitopes
+          </th>
+          <th>
+           HLA Alleles
+          </th>
+          <th>
+           Epitopes
+          </th>
+          <th>
+           HLA Alleles
+          </th>
+          <th/>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="2">
+           NSP3
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           FLKKDAPYI
+          </td>
+          <td>
+           HLA-A*31:01
+          </td>
+          <td>
+           ITFLKKDAPYIVGDV
+          </td>
+          <td>
+           HLA-DRB3*01:01
+          </td>
+          <td>
+           TLVSDIDITFLKKDAP
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           TAVVIPTKK
+          </td>
+          <td>
+           HLA-A*68:01
+          </td>
+          <td>
+           IDITFLKKDAPYIVG
+          </td>
+          <td>
+           HLA-DRB3*01:01
+          </td>
+          <td>
+           LHPDSATLVSDIDITF
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           3CL-Proteinase
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           FLNGSCGSV
+          </td>
+          <td>
+           HLA-A*02:03
+          </td>
+          <td rowspan="2">
+           CGSVGFNIDYDCVSF
+          </td>
+          <td rowspan="2">
+           HLA-DQA1*01:01/DQB1*05:01
+          </td>
+          <td rowspan="2">
+           CGSVGFNIDYDCVSFC
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           GSVGFNIDY
+          </td>
+          <td>
+           HLA-A*30:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP10
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           DLKGKYVQI
+          </td>
+          <td rowspan="2">
+           HLA-B*08:01
+          </td>
+          <td>
+           KGKYVQIPTTCANDP
+          </td>
+          <td>
+           HLA-DRB1*04:01
+          </td>
+          <td rowspan="2">
+           TTCANDPVGFTLKNTV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           DLKGKYVQIPTTCAN
+          </td>
+          <td>
+           HLA-DRB1*04:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP3
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           NPPALQDAY
+          </td>
+          <td>
+           HLA-B*35:01
+          </td>
+          <td>
+           QIELKFNPPALQDAY
+          </td>
+          <td>
+           HLA-DRB3*02:02
+          </td>
+          <td rowspan="2">
+           LQQIELKFNPPALQDA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           IELKFNPPAL
+          </td>
+          <td>
+           HLA-B*40:01
+          </td>
+          <td>
+           IELKFNPPALQDAYY
+          </td>
+          <td>
+           HLA-DRB3*02:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP4
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           VSFLAHIQW
+          </td>
+          <td rowspan="2">
+           HLA-B*57:01
+          </td>
+          <td rowspan="2">
+           GVYSVIYLYLTFYLT
+          </td>
+          <td rowspan="2">
+           HLA-DPA1*01:03/DPB1*02:01
+          </td>
+          <td rowspan="2">
+           YSVIYLYLTFYLTNDV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP3
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           QVNGLTSIKW
+          </td>
+          <td rowspan="2">
+           HLA-B*57:01
+          </td>
+          <td>
+           PQVNGLTSIKWADNN
+          </td>
+          <td>
+           HLA-DQA1*01:02/DQB1*06:02
+          </td>
+          <td rowspan="2">
+           KYPQVNGLTSIKWADN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           KYPQVNGLTSIKWAD
+          </td>
+          <td>
+           HLA-DQA1*01:02/DQB1*06:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Helicase
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           RAQNMTMSY
+          </td>
+          <td rowspan="2">
+           HLA-A*30:02
+          </td>
+          <td>
+           YQLKLLIHHRAQNMT
+          </td>
+          <td>
+           HLA-DRB4*01:01
+          </td>
+          <td>
+           FWDYQLKLLIHHRAQN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           DYQLKLLIHHRAQNM
+          </td>
+          <td>
+           HLA-DRB4*01:02
+          </td>
+          <td>
+           IHHRAQNMTMSYSLKP
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Spike glycoprotein
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           HADQLTPTW
+          </td>
+          <td rowspan="2">
+           HLA-B*58:01
+          </td>
+          <td rowspan="2">
+           DIPIGAGICASYQTQ
+          </td>
+          <td rowspan="2">
+           HLA-DQA1*05:01/DQB1*03:01
+          </td>
+          <td rowspan="2">
+           GCLIGAEHVNNSYECD
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP4
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           ICISTKHFYW
+          </td>
+          <td rowspan="2">
+           HLA-B*57:01
+          </td>
+          <td>
+           KHFYWFFSNYLKRRV
+          </td>
+          <td>
+           HLA-DPA1*01:03/DPB1*04:01
+          </td>
+          <td rowspan="2">
+           ISTKHFYWFFSNYLKR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           TKHFYWFFSNYLKRR
+          </td>
+          <td>
+           HLA-DPA1*01:03/DPB1*04:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Nucleocapsid protein
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           AQFAPSASAF
+          </td>
+          <td rowspan="2">
+           HLA-B*15:01
+          </td>
+          <td>
+           ATKAYNVTQAFGRR
+          </td>
+          <td>
+           HLA-DRB5*01:01
+          </td>
+          <td>
+           KSAAEASKKPRQKRTA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           KAYNVTQAFGRRGP
+          </td>
+          <td>
+           HLA-DRB5*01:01
+          </td>
+          <td>
+           GRRGPEQTQGNFGDQE
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Spike glycoprotein
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           FERDISTEI
+          </td>
+          <td>
+           HLA-B*40:01
+          </td>
+          <td>
+           VEGFNCYFPLQSYGF
+          </td>
+          <td>
+           HLA-DQA1*01:01/DQB1*05:01
+          </td>
+          <td>
+           GSTPCNGVEGFNCYFP
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           YFPLQSYGF
+          </td>
+          <td>
+           HLA-A*24:02
+          </td>
+          <td>
+           NGVEGFNCYFPLQSY
+          </td>
+          <td>
+           HLA-DRB3*01:01
+          </td>
+          <td>
+           EGFNCYFPLQSYGFQP
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP4
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           NVLEGSVAY
+          </td>
+          <td>
+           HLA-B*35:01
+          </td>
+          <td>
+           PVPYCYDTNVLEGSV
+          </td>
+          <td>
+           HLA-DRB1*04:01
+          </td>
+          <td rowspan="2">
+           SGKPVPYCYDTNVLEG
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           SGKPVPYCY
+          </td>
+          <td>
+           HLA-A*30:02
+          </td>
+          <td>
+           GKPVPYCYDTNVLEG
+          </td>
+          <td>
+           HLA-DRB1*04:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Helicase
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           VLAYVDHSY
+          </td>
+          <td rowspan="2">
+           HLA-B*15:01
+          </td>
+          <td rowspan="2">
+           VDHSYVVNAVTTMSY
+          </td>
+          <td rowspan="2">
+           HLA-DRB3*02:02
+          </td>
+          <td rowspan="2">
+           LAYVDHSYVVNAVTTM
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP3
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           NYMPYFFTL
+          </td>
+          <td rowspan="2">
+           HLA-A*24:02
+          </td>
+          <td rowspan="2">
+           CTNYMPYFFTLLLQL
+          </td>
+          <td rowspan="2">
+           HLA-DPA1*03:01/DPB1*04:02
+          </td>
+          <td rowspan="2">
+           VCTNYMPYFFTLLLQL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP10
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           FAVDAAKAY
+          </td>
+          <td>
+           HLA-B*35:01
+          </td>
+          <td rowspan="2">
+           LSFCAFAVDAAKAYK
+          </td>
+          <td rowspan="2">
+           HLA-DRB3*01:01
+          </td>
+          <td>
+           GTGQAITVTPEANMDQ
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           VPANSTVLSF
+          </td>
+          <td>
+           HLA-B*35:01
+          </td>
+          <td>
+           KMLCTHTGTGQAITVT
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           3CL-Proteinase
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           GTTTLNGLW
+          </td>
+          <td rowspan="2">
+           HLA-B*57:01
+          </td>
+          <td>
+           TTTLNGLWLDDVVYC
+          </td>
+          <td>
+           HLA-DQA1*01:01/DQB1*05:01
+          </td>
+          <td rowspan="2">
+           QVTCGTTTLNGLWLDD
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           TLNGLWLDDVVYCPR
+          </td>
+          <td>
+           HLA-DQA1*01:01/DQB1*05:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP1
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           HVGEIPVAY
+          </td>
+          <td>
+           HLA-B*15:01
+          </td>
+          <td>
+           VAYRKVLLRKNGNKG
+          </td>
+          <td>
+           HLA-DRB1*11:01
+          </td>
+          <td rowspan="2">
+           PHVGEIPVAYRKVLLR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           HVGEIPVAYR
+          </td>
+          <td>
+           HLA-A*68:01
+          </td>
+          <td>
+           IPVAYRKVLLRKNGN
+          </td>
+          <td>
+           HLA-DRB1*11:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP4
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           RPDTRYVLM
+          </td>
+          <td rowspan="2">
+           HLA-B*07:02
+          </td>
+          <td rowspan="2">
+           LMDGSIIQFPNTYLE
+          </td>
+          <td rowspan="2">
+           HLA-DRB1*15:01
+          </td>
+          <td>
+           GSIIQFPNTYLEGSVR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           LRPDTRYVLMDGSIIQ
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP4
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td rowspan="2">
+           VCVSTSGRW
+          </td>
+          <td rowspan="2">
+           HLA-B*57:01
+          </td>
+          <td>
+           TSGRWVLNNDYYRSL
+          </td>
+          <td>
+           HLA-DRB3*02:02
+          </td>
+          <td rowspan="2">
+           YCRHGTCERSEAGVCV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           STSGRWVLNNDYYRS
+          </td>
+          <td>
+           HLA-DRB3*02:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RNA-directed
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           DTLSLTTNMK
+          </td>
+          <td>
+           HLA-A*68:01
+          </td>
+          <td rowspan="2">
+           TTNMKKQFIIYLRIV
+          </td>
+          <td rowspan="2">
+           HLA-DPA1*02:01/DPB1*05:01
+          </td>
+          <td rowspan="2">
+           LRDTLSLTTNMKKQFI
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RNA polymerase
+          </td>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           LSLTTNMKK
+          </td>
+          <td>
+           HLA-A*11:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP2
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           VTHSKGLYR
+          </td>
+          <td>
+           HLA-A*31:01
+          </td>
+          <td>
+           ETFVTHSKGLYRKCV
+          </td>
+          <td>
+           HLA-DRB5*01:01
+          </td>
+          <td rowspan="2">
+           LNLGETFVTHSKGLYR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           VTHSKGLYRK
+          </td>
+          <td>
+           HLA-A*03:01
+          </td>
+          <td>
+           LGETFVTHSKGLYRK
+          </td>
+          <td>
+           HLA-DRB5*01:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Spike glycoprotein
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           VYYPDKVFR
+          </td>
+          <td>
+           HLA-A*31:01
+          </td>
+          <td rowspan="2">
+           TRGVYYPDKVFRSSV
+          </td>
+          <td rowspan="2">
+           HLA-DRB1*03:01
+          </td>
+          <td rowspan="2">
+           RGVYYPDKVFRSSVLH
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           GVYYPDKVFR
+          </td>
+          <td>
+           HLA-A*31:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           NSP2
+          </td>
+          <td>
+           Immunogenic
+          </td>
+          <td>
+           LEQPTSEAV
+          </td>
+          <td>
+           HLA-B*40:01
+          </td>
+          <td>
+           GDLQPLEQPTSEAVE
+          </td>
+          <td>
+           HLA-DQA1*03:01/DQB1*03:02
+          </td>
+          <td rowspan="2">
+           TGDLQPLEQPTSEAVE
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Antigenic
+          </td>
+          <td>
+           EVVLKTGDL
+          </td>
+          <td>
+           HLA-A*26:01
+          </td>
+          <td>
+           EVVLKTGDLQPLEQP
+          </td>
+          <td>
+           HLA-DRB1*08:02
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0025" position="float">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         List of proposed epitopes for SARS-CoV-2 as given in the literature.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Source
+          </th>
+          <th>
+           Coded Proteins
+          </th>
+          <th>
+           MHC-I restricted T-cell Epitopes
+          </th>
+          <th>
+           MHC-II restricted T-cell Epitopes
+          </th>
+          <th>
+           B-cell Epitopes
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="3">
+           Bhattacharya et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           SQCVNLTTR
+          </td>
+          <td>
+           IHVSGTNGT
+          </td>
+          <td>
+           SQCVNLTTRTQLPPAYTNSFTRGVY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           YTNSFTRGV
+          </td>
+          <td>
+           VYYHKNNKS
+          </td>
+          <td>
+           FSNVTWFHAIHVSGTNGTKRFDN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVYYHKNNK
+          </td>
+          <td>
+           LVRDLPQGF
+          </td>
+          <td>
+           DPFLGVYYHKNNKSWME
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Chen et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           LSPRWYFYY
+          </td>
+          <td>
+           IKLDDKDPN
+          </td>
+          <td>
+           EVRQIAPGQTGKIADY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RSRNSSRNS
+          </td>
+          <td>
+           RSGARSKQR
+          </td>
+          <td>
+           GCLIGAEHVNNSYECD
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IGYYRRATR
+          </td>
+          <td>
+           RIGMEVTPS
+          </td>
+          <td>
+           FAMQMAYRFNGIGVTQ
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Naz et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           GVYFASTEK
+          </td>
+          <td>
+           EFVFKNIDGYFKIYS
+          </td>
+          <td rowspan="3">
+           YNSASFSTFKCYGVSPTKLNDLCFT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           STQDLFLPF
+          </td>
+          <td>
+           QPYRVVVLSFELLHA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           KTSVDCTMY
+          </td>
+          <td>
+           MTKTSVDCTMYICGD
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Kar et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           QIITTDNTF
+          </td>
+          <td>
+           INITRFQTLLALHRS
+          </td>
+          <td>
+           FSYTESLAGKREMAII
+          </td>
+         </tr>
+         <tr>
+          <td>
+           YQPYRVVVL
+          </td>
+          <td>
+           GINITRFQTLLALHR
+          </td>
+          <td>
+           HAGPGPGPY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           FTISVTTEI
+          </td>
+          <td>
+           GWTFGAGAALQIPFA
+          </td>
+          <td>
+           KMGPGPGTRFA
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Rakib et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           WTAGAAAYY
+          </td>
+          <td>
+           LIVNNATNV
+          </td>
+          <td>
+           RTQLPPAYTNS
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CNDPFLGVY
+          </td>
+          <td>
+           IVNNATNVV
+          </td>
+          <td>
+           SGTNGTKRFDN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GAAAYYVGY
+          </td>
+          <td>
+           SKTQSLLIV
+          </td>
+          <td>
+           LTPGDSSSGWTAG
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Vashi et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           RTQLPPAY
+          </td>
+          <td>
+           MFVFLVLLPLVSSQC
+          </td>
+          <td>
+           PPAYTNSFTRGVYY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RTQLPPA
+          </td>
+          <td>
+           MFVFLVLLPLVSSQCVN
+          </td>
+          <td>
+           HVSGTNGTKRFDN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LPPAYTNSF
+          </td>
+          <td>
+           QGNFKNLREFVFKNI
+          </td>
+          <td>
+           YYHKNNKSWMES
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Yadav et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           GVYFASTEK
+          </td>
+          <td>
+           NA
+          </td>
+          <td>
+           HRSYLTPGDSSSGWTA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           FEYVSQPFL
+          </td>
+          <td>
+           NA
+          </td>
+          <td>
+           FPNITNLCPFGEVFNA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           WTAGAAAYY
+          </td>
+          <td>
+           NA
+          </td>
+          <td>
+           EVIQIAPGQTGKIADY
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Crooke et al.
+          </td>
+          <td rowspan="3">
+           Membrane glycoprotein
+          </td>
+          <td>
+           ATSRTLSYY
+          </td>
+          <td>
+           TLSYYKLGASQRVAG
+          </td>
+          <td>
+           EVTPSGTWL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RLFARTRSM
+          </td>
+          <td>
+           RTLSYYKLGASQRVA
+          </td>
+          <td>
+           KLDDKDPNFK
+          </td>
+         </tr>
+         <tr>
+          <td>
+           YANRNRFLY
+          </td>
+          <td>
+           ASFRLFARTRSMWSF
+          </td>
+          <td>
+           KTFPPTEPKKDKKKKADETQALPQ
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Gupta et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           VRFPNITNL
+          </td>
+          <td rowspan="3">
+           NVTWFHAIHV
+          </td>
+          <td rowspan="3">
+           GDEVRQIAPGQTGKIADYNYKLP
+          </td>
+         </tr>
+         <tr>
+          <td>
+           YQPYRVVVL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           PYRVVVLSF
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Bhatnager et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           LTDEMIAQY
+          </td>
+          <td>
+           VASQSIIAYTMSLGA
+          </td>
+          <td>
+           KEEQIGKCSTR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LLTDEMIAQY
+          </td>
+          <td>
+           LTDEMIAQYTSALLA
+          </td>
+          <td>
+           ELGKYEQYGPGPGKWP
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IPFAMQMAY
+          </td>
+          <td>
+           VLNDILSRLDKVEAE
+          </td>
+          <td>
+           IRAGPGPGGNC
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Kwarteng et al.
+          </td>
+          <td rowspan="3">
+           Nucleocapsid protein
+          </td>
+          <td>
+           KTFPPTEPK
+          </td>
+          <td>
+           AQFAPSASAFFGMSR
+          </td>
+          <td>
+           AGLPYGANK
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SSPDDQIGY
+          </td>
+          <td>
+           IAQFAPSASAFFGMS
+          </td>
+          <td>
+           SKQLQQSMSSADS
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SSPDDQIGYY
+          </td>
+          <td>
+           PQIAQFAPSASAFFG
+          </td>
+          <td>
+           RRIRGGDGKMKDL
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Baruah et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           YLQPRTFLL
+          </td>
+          <td rowspan="3">
+           NA
+          </td>
+          <td>
+           CVNLTTRTQLPPAYTN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVYFASTEK
+          </td>
+          <td>
+           NVTWFHAIHVSGTNG
+          </td>
+         </tr>
+         <tr>
+          <td>
+           EPVLKGVKL
+          </td>
+          <td>
+           SFSTFKCYGVSPTKLND
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Bency et al.
+          </td>
+          <td rowspan="3">
+           Spike glycoprotein
+          </td>
+          <td>
+           KIADYNYKL
+          </td>
+          <td>
+           VVFLHVTYV
+          </td>
+          <td>
+           MDLEGKQGNFKNL
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CYGVSPTKL
+          </td>
+          <td>
+           IGINITRFQ
+          </td>
+          <td>
+           YYVGYLQPR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VVVLSFELL
+          </td>
+          <td>
+           FNCYFPLQS
+          </td>
+          <td>
+           NITNLCPFGE
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Singh et al.
+          </td>
+          <td rowspan="3">
+           Nucleocapsid protein
+          </td>
+          <td>
+           AQFAPSASA
+          </td>
+          <td>
+           AQFAPSASAFFGMSR
+          </td>
+          <td>
+           KEDLKFP
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GDAALALLL
+          </td>
+          <td>
+           GDAALALLLLDRLNQ
+          </td>
+          <td>
+           IKLDDKDPNFKDQ
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GMSRIGMEV
+          </td>
+          <td>
+           ASAFFGMSRIGMEVT
+          </td>
+          <td>
+           PPTEPKKDKKKKADETQALPQRQKKQQTVT
+          </td>
+         </tr>
+         <tr>
+          <td colspan="5">
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="3">
+           Ong et al.
+          </td>
+          <td rowspan="3">
+           NSP3
+          </td>
+          <td>
+           STNVTIATY
+          </td>
+          <td>
+           ISNSWLMWLIINLVQ
+          </td>
+          <td>
+           EDEEEGDCEEEEFEPSTQYEYGTEDDYQGKPLEFGATS
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RMYIFFASF
+          </td>
+          <td>
+           LAYILFTRFFYVLGL
+          </td>
+          <td>
+           EEEQEEDWLDDD
+          </td>
+         </tr>
+         <tr>
+          <td>
+           AEWFLAYIL
+          </td>
+          <td>
+           AAIMQLFFSYFAVHF
+          </td>
+          <td>
+           VGQQDGSEDNQ
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0055">
+     <label>
+      3.6
+     </label>
+     <title>
+      Study of physico-chemical properties of epitopes
+     </title>
+     <p id="p0070">
+      To judge the relevance of the epitopes as found in this work, we have evaluated the physico-chemical properties for each selected epitope. The values of each physico-chemical property lie between 0 and 1.      ,      ,      show the physico-chemical properties for MHC-I, MHC-II restricted T-cell and B-cell epitopes respectively for the top 5 CCnRs whereas for all the 23 CCnRs, the results are reported in      respectively. For example, in      MHC-I restricted T-cell epitope FLKKDAPYI has a positively charged value of 0.222, a negatively charged value of 0.111, polarity of 0.111, non-polarity of 0.556, alphaticity of 0.444, aromaticity of 0.222, acidicity of 0.111, Basicity of 0.222, hydrophobicity of 0.556, hydrophilicity of 0.333, a neutral value of 0.111, hydroxylic value of 0 and sulphur content is 0 as well. Similarly, for other epitopes their physico-chemical properties can be found in the tables.
+      <table-wrap id="t0030" position="float">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         List of physico-chemical properties of MHC-I restricted T-cell epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           MHC-I restricted T-cell epitopes
+          </th>
+          <th>
+           Positively charged
+          </th>
+          <th>
+           Negatively charged
+          </th>
+          <th>
+           Polarity
+          </th>
+          <th>
+           Non Polarity
+          </th>
+          <th>
+           Aliphaticity
+          </th>
+          <th>
+           Aromaticity
+          </th>
+          <th>
+           Acidicity
+          </th>
+          <th>
+           Basicity
+          </th>
+          <th>
+           Hydrophobicity
+          </th>
+          <th>
+           Hydrophilicity
+          </th>
+          <th>
+           Neutral
+          </th>
+          <th>
+           Hydroxylic
+          </th>
+          <th>
+           Sulphur Content
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           FLKKDAPYI
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TAVVIPTKK
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.778
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           FLNGSCGSV
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.111
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GSVGFNIDY
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           DLKGKYVQI
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NPPALQDAY
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.556
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IELKFNPPAL
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.7
+          </td>
+          <td>
+           0.6
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           0.7
+          </td>
+          <td>
+           0.4
+          </td>
+          <td>
+           0.1
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VSFLAHIQW
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.667
+          </td>
+          <td>
+           0.444
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.667
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0.222
+          </td>
+          <td>
+           0.111
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0035" position="float">
+       <label>
+        Table 7
+       </label>
+       <caption>
+        <p>
+         List of physico-chemical properties of MHC-II restricted T-cell epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           MHC-II restricted T-cell epitopes
+          </th>
+          <th>
+           Positively charged
+          </th>
+          <th>
+           Negatively charged
+          </th>
+          <th>
+           Polarity
+          </th>
+          <th>
+           Non Polarity
+          </th>
+          <th>
+           Aliphaticity
+          </th>
+          <th>
+           Aromaticity
+          </th>
+          <th>
+           Acidicity
+          </th>
+          <th>
+           Basicity
+          </th>
+          <th>
+           Hydrophobicity
+          </th>
+          <th>
+           Hydrophilicity
+          </th>
+          <th>
+           Neutral
+          </th>
+          <th>
+           Hydroxylic
+          </th>
+          <th>
+           Sulphur Content
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           ITFLKKDAPYIVGDV
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.6
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.6
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IDITFLKKDAPYIVG
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.6
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.6
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CGSVGFNIDYDCVSF
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.467
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.467
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.4
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+         </tr>
+         <tr>
+          <td>
+           KGKYVQIPTTCANDP
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.4
+          </td>
+          <td>
+           0.4
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.067
+          </td>
+         </tr>
+         <tr>
+          <td>
+           DLKGKYVQIPTTCAN
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.4
+          </td>
+          <td>
+           0.4
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.067
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QIELKFNPPALQDAY
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.467
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IELKFNPPALQDAYY
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.467
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0.133
+          </td>
+          <td>
+           0.067
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVYSVIYLYLTFYLT
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.467
+          </td>
+          <td>
+           0.533
+          </td>
+          <td>
+           0.467
+          </td>
+          <td>
+           0.333
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.6
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.267
+          </td>
+          <td>
+           0.2
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0040" position="float">
+       <label>
+        Table 8
+       </label>
+       <caption>
+        <p>
+         List of physico-chemical properties of B-cell epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           B-cell epitopes
+          </th>
+          <th>
+           Positively charged
+          </th>
+          <th>
+           Negatively charged
+          </th>
+          <th>
+           Polarity
+          </th>
+          <th>
+           Non Polarity
+          </th>
+          <th>
+           Aliphaticity
+          </th>
+          <th>
+           Aromaticity
+          </th>
+          <th>
+           Acidicity
+          </th>
+          <th>
+           Basicity
+          </th>
+          <th>
+           Hydrophobicity
+          </th>
+          <th>
+           Hydrophilicity
+          </th>
+          <th>
+           Neutral
+          </th>
+          <th>
+           Hydroxylic
+          </th>
+          <th>
+           Sulphur Content
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           TLVSDIDITFLKKDAP
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.500
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.625
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.375
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LHPDSATLVSDIDITF
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.250
+          </td>
+          <td>
+           0.500
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.625
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.250
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CGSVGFNIDYDCVSFC
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.375
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.312
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.500
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.375
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.188
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TTCANDPVGFTLKNTV
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.312
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.375
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.688
+          </td>
+          <td>
+           0.250
+          </td>
+          <td>
+           0.375
+          </td>
+          <td>
+           0.250
+          </td>
+          <td>
+           0.062
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LQQIELKFNPPALQDA
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0.562
+          </td>
+          <td>
+           0.500
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.125
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.562
+          </td>
+          <td>
+           0.250
+          </td>
+          <td>
+           0.312
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           YSVIYLYLTFYLTNDV
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.438
+          </td>
+          <td>
+           0.375
+          </td>
+          <td>
+           0.312
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0.562
+          </td>
+          <td>
+           0.062
+          </td>
+          <td>
+           0.25
+          </td>
+          <td>
+           0.188
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0060">
+     <label>
+      3.7
+     </label>
+     <title>
+      Study of docking with Ramachandran plot and Z-score
+     </title>
+     <p id="p0075">
+      To further validate the identified epitopes, the conformational 2D non-covalent structures of the identified MHC-I and MHC-II restricted T-cell epitopes are studied using LigPlot+. For the highly immunogenic and antigenic epitopes of each CCnR, molecular docking is computed using Autodock Vina in order to extract the stable binding conformation of each predicted epitope allele pair. For MHC-I restricted T-cell epitopes, 12 binding scores are generated from Autodock Vina while for MHC-II 9 binding scores are generated. For some epitopes, the docking structures are unable to generate due to the unavailability of the corresponding structure of the HLA alleles. Furthermore, Ramachandran plot and Z-score are also evaluated for further validation using PyMod 3 and ProSA server respectively. The results of docking along with Z-scores are reported in      . The results for FLKKDAPYI and TAVVIPTKK which are the most highly immunogenic and antigenic MHC-I restricted T-cell epitopes are shown in      ,      while ITFLKKDAPYIVGDV and IDITFLKKDAPYIVG which are the most highly immunogenic and antigenic MHC-II restricted T-cell epitopes are shown in      ,      respectively. In these four figures, (a) shows the binding pose of the molecules of the two epitopes, (b) shows the exact binding position of the epitopes in the binding grooves of the alleles obtained from Autodock Vina with docking scores of −8.2 and −8.1 for MHC-I and −9 and −8.8 for MHC-II for both immunogenic and antigenic epitopes respectively and (c) depicts the surface interaction between the alleles and the identified epitopes showing the fitting sites in binding grooves. Further, quality of the residues inside the epitopes are evaluated on the basis of rotational spin of the atoms around bonds. This is depicted in (d) of      ,      for MHC-I and      ,      for MHC-II through Ramachandran plot in which points lying in the red region represents much more stable state of their bond orientations inside a molecule. This is followed by the Z-Score evaluation in (e) where the negative values of Z-score which are −9.81 and −5.9 for MHC-I and −5.53 and −5.59 for MHC-II as shown in      and      ,      ,      ,      verify the stability of the structures and (f) shows the overall negative energy values of the entire residues inside the whole structures which confirm the molecular stability of the identified epitopes. The results for docking along with Z-scores for all the 23 CCnRs are reported in      while the corresponding structural analysis are given in      .
+      <table-wrap id="t0045" position="float">
+       <label>
+        Table 9
+       </label>
+       <caption>
+        <p>
+         Docking and Z-scores of MHC-I and MHC-II restricted T-cell epitopes for the top 5 ranked CCnRs.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           MHC-I restricted
+          </th>
+          <th>
+           Score from
+          </th>
+          <th>
+           Z Score
+          </th>
+          <th>
+           MHC-II restricted
+          </th>
+          <th>
+           Score from
+          </th>
+          <th>
+           Z Score
+          </th>
+         </tr>
+         <tr>
+          <th>
+           T-cell epitopes
+          </th>
+          <th>
+           Autodock Vina
+          </th>
+          <th/>
+          <th>
+           T-cell epitopes
+          </th>
+          <th>
+           Autodock Vina
+          </th>
+          <th/>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           FLKKDAPYI
+          </td>
+          <td>
+           −8.2
+          </td>
+          <td>
+           −9.81
+          </td>
+          <td>
+           ITFLKKDAPYIVGDV
+          </td>
+          <td>
+           −9
+          </td>
+          <td>
+           −5.53
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TAVVIPTKK
+          </td>
+          <td>
+           −8.1
+          </td>
+          <td>
+           −5.9
+          </td>
+          <td>
+           IDITFLKKDAPYIVG
+          </td>
+          <td>
+           −8.8
+          </td>
+          <td>
+           −5.59
+          </td>
+         </tr>
+         <tr>
+          <td>
+           FLNGSCGSV
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           CGSVGFNIDYDCVSF
+          </td>
+          <td rowspan="2">
+           Not Generated
+          </td>
+          <td rowspan="2">
+           Not Generated
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GSVGFNIDY
+          </td>
+          <td>
+           −7.1
+          </td>
+          <td>
+           −5.4
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           DLKGKYVQI
+          </td>
+          <td rowspan="2">
+           −8.1
+          </td>
+          <td rowspan="2">
+           −8.81
+          </td>
+          <td>
+           KGKYVQIPTTCANDP
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+         </tr>
+         <tr>
+          <td>
+           DLKGKYVQIPTTCAN
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NPPALQDAY
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           QIELKFNPPALQDAY
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IELKFNPPAL
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           IELKFNPPALQDAYY
+          </td>
+          <td>
+           Not Generated
+          </td>
+          <td>
+           Not Generated
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VSFLAHIQW
+          </td>
+          <td>
+           −8.8
+          </td>
+          <td>
+           −9.26
+          </td>
+          <td>
+           GVYSVIYLYLTFYLT
+          </td>
+          <td>
+           −8
+          </td>
+          <td>
+           −5.02
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0080">
+      Due to the worldwide pandemic caused by SARS-CoV-2, development of safe and effective vaccines is the need of the hour. This study has identified T-cell and B-cell epitopes using computational methods which can be used for probable vaccine design. The main advantages of this work can be summarised as (a) whole genome analysis of 566 Indian SARS-CoV-2 genomes in order to consider the genetic mutations to understand and target the virus proteins, (b) finding consensus conserved regions from four alignment techniques viz. ClustalW, MUSCLE, ClustalO and MAFFT and (c) using latest tools like NetMHCpan EL 4.1 (published in September 2020), PyMod 3 and BepiPred 2.0 for computational purposes. Furthermore, we have used our own developed tool ABCpred to predict the B-cell epitopes.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0065">
+    <label>
+     4
+    </label>
+    <title>
+     Conclusion
+    </title>
+    <p id="p0085">
+     In this work, genome-wide analysis of 566 Indian SARS-CoV-2 genomes have been performed to extract the potential conserved regions for epitope-based synthetic vaccine design which show high immunogenicity and antigenicity. In this regard, 125 CCnRs have been identified after extracting the conserved regions from the aligned sequences of the four multiple sequence alignment techniques. These CCnRs are then filtered based on three major criteria of length greater than or equal to 60nt, no stop codons in the proteins and percentage of BLAST specificity score as query coverage equal to 100%. Such filtering resulted in 23 CCnRs covering NSP1, NSP2, NSP3, NSP4, 3CL-Proteinase, NSP10, RNA-directed RNA polymerase, Helicase, Spike glycoprotein and Nucleocapsid protein. This ranking also resulted in 34 MHC-I and 37 MHC-II restricted T-cell epitopes with 16 and 19 unique HLA alleles and 29 B-cell epitopes for the 23 CCnRs. These CCnRs are then ranked based on their immunogenic and antigenic scores to identify the MHC-I and MHC-II restricted T-cell and B-cell epitopes. This ranking identified CCnR from NSP3 coded protein to be highly immunogenic and antigenic, providing MHC-I and MHC-II restricted T-cell and B-cell epitopes, FLKKDAPYI, ITFLKKDAPYIVGDV, TLVSDIDITFLKKDAP as most immunogenic and TAVVIPTKK, IDITFLKKDAPYIVG, LHPDSATLVSDIDITF as most antigenic respectively. These epitopes can be considered for designing of synthetic vaccines. Furthermore, to validate the relevance of these epitopes, their binding confirmation and physico-chemical properties are also shown with respect to HLA alleles. This study thus provides the potential MHC-I and MHC-II restricted T-cell and B-cell epitopes to design epitope-based synthetic vaccines.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0080">
+    <title>
+     Ethics approval and consent to participate
+    </title>
+    <p id="p0090">
+     The ethical approval or individual consent was not applicable.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0085" sec-type="data-availability">
+    <title>
+     Availability of data and materials
+    </title>
+    <p id="p0095">
+     The aligned 566 Indian SARS-CoV-2 genomes with reference as well as consensus sequences and the final results of this work are available at “
+     <ext-link ext-link-type="uri" id="ir055" ns1:href="http://www.nitttrkol.ac.in/indrajit/projects/COVID-EpitopeVaccine-India/">
+      http://www.nitttrkol.ac.in/indrajit/projects/COVID-EpitopeVaccine-India/
+     </ext-link>
+     ”. Moreover, Indian SARS-CoV-2 genomes used in this work are publicly available at GISAID database.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0090">
+    <title>
+     Consent for publication
+    </title>
+    <p id="p0100">
+     Not applicable.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0095">
+    <title>
+     Funding
+    </title>
+    <p id="p0105">
+     This work has been partially supported by CRG short term research grant on COVID-19 (CVD/2020/000991) from Science and Engineering Research Board (SERB), Department of Science and Technology, Govt. of India.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0100">
+    <title>
+     Author contributions
+    </title>
+    <p id="p0110">
+     <bold>
+      Nimisha Ghosh
+     </bold>
+     : Formal analysis; Methodology, Coding; Visualization; Writing - original draft &amp; editing,
+     <bold>
+      Nikhil Sharma
+     </bold>
+     : Methodology; Coding; Visualization; Writing - review &amp; editing,
+     <bold>
+      Indrajit Saha
+     </bold>
+     : Conceptualization; Data curation; Supervision; Funding acquisition; Formal analysis; Investigation; Methodology; Project administration; Resources; Validation; Visualization; Writing - review &amp; editing,
+     <bold>
+      Sudipto Saha
+     </bold>
+     : Conceptualization; Writing - review &amp; editing.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of Competing Interest
+    </title>
+    <p id="p0115">
+     The authors declare that they have no conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

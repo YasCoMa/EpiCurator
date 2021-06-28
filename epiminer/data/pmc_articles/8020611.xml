@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Novel coronavirus disease 2019 (COVID-19) pandemic: From transmission to control with an interdisciplinary vision
+ </title>
+ <abstract>
+  <p>
+   There a lot of review papers addressing specific COVID-19 research sectors, then devoted to specialists. This review provides an in-depth summary of the available information about SARS-CoV-2 and the corresponding disease (also known as COVID-19), with a multi-disciplinary approach. After the paper introduction, the first section treats the virological characteristics of SARS-CoV-2, the medical implications of the infection, and the human susceptivity. Great attention is devoted to the factor affecting the infection routes, distinguishing among the possible human-to-human, environmental-to-human, and pollution-to-human transmission mechanisms. The second section is devoted to reporting the impact of SARS-CoV-2 not only on the healthcare systems but also on the economy and society. The third section is devoted to non-pharmaceutical behaviours against COVID-19. In this context, this review section presents an analysis of the European second wave allowing not only to focalize the importance of some restrictions, but also the relevance of social acceptance of some measures. The data reassumed in this work are very useful for interdisciplinary researchers that work in a team to find the basic available information about all the aspects connected with this pandemic (from virus diffusion mechanism to health information, from economic and social impacts to measures to reduce the pandemic spread), with great attention to social acceptance of restriction measures and of vaccines (that currently results to be insufficient to achieve community immunity).
+  </p>
+  <p>
+   Then, this review paper highlights the fundamental role of the trans-multi-disciplinary research that is devoted not only to understand the basics of the pandemic to propose solutions but has also the commitment to find strategies to increase population resilience. For this aim, the authors strongly suggest the establishment of an international health-care trans-multi-disciplinary workforce devoted to investigate, mitigate, and control also future viral events.
+  </p>
+  <p>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0035">
+     The first cases of the SARS-CoV-2 Coronavirus Disease (COVID-19) infection were reported in Wuhan, China in December 2019. In a setting of a strongly connected and integrated world, coupled with the high transmissibility of the viral infection (     ;     ), the disease rapidly spread and was declared a public health emergency of international concern (PHEIC) on January 30, 2020 (     ). It was declared a pandemic by the World Health Organization (WHO) on March 11, 2020 (     ). Based on the Johns Hopkins University data of February 25, 2021, the total number of confirmed cases worldwide was more than 113 million, of which, about 2,5 million were fatalities.     shows an overview of how severe the infection has spread globally. The US has already recorded more than 28 million cases, followed by India (&gt;11 million), Brazil (&gt;10 million), Russia (&gt;4 million) and UK (&gt;4 million).
+    </p>
+    <p id="p0040">
+     The COVID-19 disease is caused by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), a virus under the family
+     <italic>
+      Coronaviridae
+     </italic>
+     , genus
+     <italic>
+      Betacoronavirus
+     </italic>
+     and a strain of the
+     <italic>
+      Severe Acute Respiratory Syndrome-related Coronaviruses
+     </italic>
+     (SARSr-CoV). The virus is believed to originated from animals; it is genetically close to bat coronaviruses (     ;     ). SARS-CoV-2 is 79.5% genetically homologous to Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV), and 40% with Middle East Respiratory Syndrome Coronavirus (MERS-CoV) (     ).
+    </p>
+    <p id="p0045">
+     The SARS-CoV-2 virions may vary in size from a diameter of 60 nm–140 nm, and its distinctive spikes’ sizes range from 9 nm to 12 nm, giving the virions the appearance of a solar corona (     ). It appears to optimally bind to the human receptor angiotensin-converting enzyme 2 (ACE2) and its spike protein has a functional polybasic (furin) cleavage site at the S1–S2 boundary (     ). SARS-CoV-2 is transmitted predominantly through respiratory droplets during close face to face exposures such as talking, coughing/sneezing, and shouting (     ).
+    </p>
+    <p id="p0050">
+     Touching surfaces or objects contaminated with the virus is another possible route of transmission since the virus can remain alive and infectious, at laboratory conditions, in impermeable surfaces for up to 4–7 days depending on the material (     ). Infected individuals may show symptoms after an incubation period of 1–14 days, with most cases at around 5 days (     ). The peak of the viral load in the upper respiratory tract of infected individuals appears at around the time when symptoms manifest (     ). The viral shedding is estimated to start 2–3 days prior to the onset of symptoms (     ). This means that it’s possible for presymptomatic carriers to transmit the infection (     ;     ). Based on epidemiologic, virologic and modelling reports (     ) asymptomatic can also transmit SARS-CoV-2. The infection may trigger a wide array of symptoms.     shows the published articles, which detail the symptoms manifested in COVID-19 patients. The list includes the most common symptoms and as well as the atypical ones. The symptoms experienced by COVID-19 patients may vary from mild to severe cases, which may lead to fatal complications in patients with comorbidities. However, it is important to note that some of the symptoms due to SARS-CoV-2 infection have similarities to those due to SARS-CoV and MERS-CoV (     ). All age groups of the population are susceptible to COVID-19 infection (     ), but due to differences in demographic characteristics, the average age of hospitalized patients may vary from one country to another (     ). The probability of the development of severe symptoms is higher for the age group of 60 years old and above (     ). The risk factor also becomes higher for patients with multiple medical conditions or comorbidities (     ).
+     <table-wrap id="tbl1" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        List of symptoms observed in COVID-19 patients.
+       </p>
+      </caption>
+      <alt-text id="alttext0050">
+       Table 1
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Reported Symptoms
+         </th>
+         <th>
+          References
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          <bold>
+           Chest tightness/Dyspnea
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Conjunctivitis
+          </bold>
+         </td>
+         <td align="left"/>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Dry Cough
+          </bold>
+         </td>
+         <td align="left">
+          ;          ;          ;          ;
+          <break/>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Fatigue
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Fever
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Gastrointestinal symptoms (e.g., Diarrhea)
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Headache
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Joint pain
+          </bold>
+         </td>
+         <td align="left"/>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Loss of sense of taste or smell/Dysgeusia or Anosmia
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Myalgia/muscle pain
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          ;          )
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Sore throat
+          </bold>
+         </td>
+         <td align="left">
+          (          ;          )
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <p id="p0055">
+     The reported introductive data highlight the severity and the complexity of the COVID-19 pandemic, which not only need general and global efforts from all scientific sectors, but also an interdisciplinary vision to understand and eventually mitigate all the derived negative implications.
+    </p>
+    <p id="p0060">
+     This work aims to present all the aspects connected with this pandemic (from virus diffusion mechanism to health information, from economic and social impacts to measures to reduce the pandemic spread). The idea is that a multidisciplinary team can better face the crisis and promote population resilience.
+    </p>
+    <p id="p0065">
+     This review paper presents an in-depth summary of the available information about SARS-CoV-2 disease, starting from virological characteristics of SARS-CoV-2, the infection mechanisms, and the human susceptivity. Great attention is devoted to the factors affecting the infection routes, distinguishing among the possible human-to-human, environmental-to-human, and pollution-to-human transmission mechanisms. The second section is devoted to report the impact of SARS-CoV-2 not only on the healthcare systems but also on the economy and society. The third section is devoted to non-pharmaceutical behaviours against COVID-19. Finally, challenges and future research goals are also critically discussed in this review article.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <label>
+     2
+    </label>
+    <title>
+     Study design
+    </title>
+    <p id="p0070">
+     Before starting the literature search and review, the framework of the paper was conceptualized and finalized. On the basis of the work idea concerning the inclusion of all interdisciplinary aspects connected with the pandemic, a search of all already available review papers was made by SCOPUS. The first search concerned the review papers containing in the abstract, title, or keywords the following terms: COVID-19, social, economic, medical, and interdisciplinary. It resulted in only one available work (     ), but that was specifically devoted to a bibliometrics analysis of safety-related research dimensions.
+    </p>
+    <p id="p0075">
+     Considering a general SCOPUS search about all the reviews papers about COVID-19, 8919 works were found (data were extracted on February 26, 2021). SCOPUS attribution to the different subject area resulted in 91 documents that were classified as interdisciplinary research (see     ). However, an analysis of the abstract content showed that these papers were devoted to specific research fields (a list of all these review papers is reported in supporting information
+     <bold>
+      S1
+     </bold>
+     ). Then to proceed with the designed multidisciplinary approach, all the authors searched in SCOPUS (on the basis of their expertise and role in the paper writing) the articles with specific terms related to the papers aims (for example COVID-19, social, economic, medical, spread, transmission, restriction measures). Great attention was also devoted to diffusion mechanisms, that are often associated with the environment conditions.
+    </p>
+    <p id="p0080">
+     For initial screening, the titles and abstracts of the articles were reviewed, and subsequently, the full texts were considered. The references of the selected articles were also examined to ensure the comprehensiveness of the review. In addition to published articles, news and updates available on the internet were also used to gather more recent data and trends, which are not immediately available in peer-reviewed journals/articles related to SARS-CoV-2, and COVID-19 pandemic.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <label>
+     3
+    </label>
+    <title>
+     Transmission and survival of SARS-CoV-2
+    </title>
+    <p id="p0085">
+     The novel COVID-19, caused by SARS-CoV-2, has now become the most challenging coronavirus outbreak since its first emergence in Wuhan, China at the end of 2019. As of February 26, 2021, the virus has already spread over the world (see     , source Johns Hopkins University) within a very short time indicating that SARS-CoV-2 is much more contagious than SARS-CoV-1 and MERS-CoV.
+    </p>
+    <sec id="sec3.1">
+     <label>
+      3.1
+     </label>
+     <title>
+      Reproduction number
+     </title>
+     <p id="p0090">
+      For COVID-19 transmission, the sensitive number to monitor is the basic reproduction number, R
+      <sub>
+       0,
+      </sub>
+      which represents the average number of people infected by one infectious individual. An R
+      <sub>
+       0
+      </sub>
+      value greater than 1 means that the outbreak continues to spread exponentially, while an R
+      <sub>
+       0
+      </sub>
+      value of less than 1 indicates a slowdown of the outbreak (      ). The R
+      <sub>
+       0
+      </sub>
+      varies from one country to another due to a number of factors such as, but not limited to, population density, climate (      ;      ), geographical factors (      ), the imposition of mitigation measures (i.e., physical/social distancing, wearing of facemasks, home quarantines) and mobility restrictions. In particular, the COVID-19 infectivity was estimated to be much higher than that of influenza, with an R
+      <sub>
+       0
+      </sub>
+      ranging from 1.90 to 6.49 (      ). Across Europe, the basic reproduction number R
+      <sub>
+       0
+      </sub>
+      of the first wave of COVID-19 infection was estimated to be at 4.22 ± 1.69, with Germany, the Netherlands and Spain posting the highest values of 6.33, 5.88 and 5.19 respectively (      ). With the application of massive public health interventions and restrictions, the mean population-weighted effective reproduction number R
+      <sub>
+       t
+      </sub>
+      was reduced to 0.67 ± 0.18 across Europe by May 10, 2020 (      ).      also did an earlier study of the reproduction number of COVID-19 in 5 provinces of the Marche region in Italy and estimated it at around 1.85. In contrast, the median R
+      <sub>
+       t
+      </sub>
+      from the outbreak in Wuhan, China was estimated at 2.35 (      ). Along with the imposition of intervention measures, the effective reproduction number, R
+      <sub>
+       t,
+      </sub>
+      of COVID-19 varies over time.
+     </p>
+     <p id="p0095">
+      The unique case of the Diamond Princess cruise ship in Yokohama, Japan, provided researchers with a perspective about how SARS-CoV-2 infection is transmitted within confined spaces with relatively high population density. On February 05, 2020, the cruise ship, which hosted 3711 passengers and crew members, underwent a 2-week quarantine after a former passenger tested positive for COVID-19 after disembarking in Hong Kong (      ). After the 2-week quarantine came to an end, a total of 634 people tested positive for COVID-19 infection (      ). The initial R
+      <sub>
+       0
+      </sub>
+      based on the study conducted by      was estimated to be 14.8 but due to the imposition of interventions such as isolation and quarantine, the R
+      <sub>
+       0
+      </sub>
+      was substantially reduced to 1.78. Without interventions, the study projected that 79% of the total passenger and crew count of the Diamond Princess would have been infected.      estimated the median R
+      <sub>
+       0
+      </sub>
+      to be at 2.28 (2.06–2.52) with 95% Confidence Index. On the other hand,      estimated the proportion of asymptomatic cases on board the Diamond Princess to be at 17.9% (Credible Interval (CrI): 15.5–20.2%). Getting the approximate proportion of asymptomatic cases is of great significance as it helps in understanding the pandemic potential and dynamics of COVID-19.
+     </p>
+    </sec>
+    <sec id="sec3.2">
+     <label>
+      3.2
+     </label>
+     <title>
+      Transmission mechanisms of SARS-CoV-2
+     </title>
+     <p id="p0100">
+      It is globally recognized that SARS-CoV-2 main transmission mechanism is direct contact with an infected person (      ). The SARS-CoV-2 infection is primarily transmitted through the eyes, nose or mouth (T-zone) of the recipient as the virus targets the cells of mucous membranes and epithelial tissues of the lungs as points of entry (      ). The possibility of infection via the fecal-oral transmission or fecal-respiratory transmission is also hypothesized as SARS-CoV-2 was successfully isolated from feces samples of a severe COVID-19 patient (      ).
+     </p>
+     <p id="p0105">
+      Researchers have also shown that transmission can be due to respiratory droplets (coarse or small droplets) and aerosols (i.e., very tiny particles suspended in a gas), generated when people cough or sneeze (      ) (      ). The reported infection ways, due to the direct transfer from an infected people, are also known as human-to-human diffusion mechanisms (      ): the droplets (&gt;5–10 μm) and aerosols (≤5 μm) exhaled from infected people contains the virus and can be transmitted to other individuals. In particular, aerosol seems to allow the virus to be suspended in the air for hours, supporting the SARS-CoV-2 airborne transmission possibility (      ).
+     </p>
+     <p id="p0110">
+      The viral persistence on an object can be an indirect source of transmission due to infected humans (transfer from virus-laden objects) but provided by objects that can be found in the environment . In particular, concerning the surfaces, it was suggested that SARS-CoV-2 persistence may be influenced by many factors (      ), including surface type (      ), porosity (      ) (      ), matrix (e.g., bodily fluids), and various environmental factors like relative humidity (RH) and temperature (      );      .
+     </p>
+     <p id="p0115">
+      In addition, several works have proposed a relationship between SARS-CoV-2 and some meteorological factors (      ), such as RH, wind speed (      ), temperature (      ), precipitation (      ), surface pressure, and dew/frost point      . This proposed mechanism of virus transmission referred to as climatic conditions, is known as environment-to-human transmission way. Indeed, respiratory viral diseases have generally seasonal cyclicity, then their diffusion is often dependent on meteorological conditions (      ). Some recently published data seem to demonstrate that an increase in the temperature (      ), relative humidity (      ), or precipitation (      ) reduces the detected infection cases. Rainfall appears do not be related (      ) whilst, dew/frost point seems to be inversely correlated with recovery cases, and an increase in wind speed corresponds whit an increase of the virus spread (      ). Despite that, some results seem to be in contrast with data considering local meteorology, as for example the direct correlation between wind speed and virus diffusion (      ), other results are generally confirmed by literature and can be also explained. Coronaviruses are reported to remain active at low temperatures, then it is reasonable that high temperature can help to limit the COVID-19 diffusion. In particular, it is known that ultraviolet radiation (mainly in the range 200–260 nm), which can occur by solar irradiation, is able to damage virus RNA (      ). On the contrary, higher relative humidity is found to decrease the virus persistence compared to lower relative humidity (      ). Moreover, the reduced spread of SARS-CoV-2 in an area with higher temperatures may be also attributed to the higher levels of Vitamin D for people leaving in these locations, in comparison to the population of area less exposed to sun, due to the capability of this vitamin to regulate the human immune response (      ). These results suggested to several authors that cities having particular atmospheric conditions, as for example low wind speed and high pollution levels, can be more susceptible to COVID-19 spread (      ).
+     </p>
+     <p id="p0120">
+      This allows to introduce the third proposed virus diffusion mechanism (      ): the spread of the virus first wave occurred in Northern Italy supported the hypothesis that the pollution may act not only to increase the disease severity (      ) but also to be a source of the virus spread (      ), the so-called pollution-to-human transmission mechanism (      ). In particular, it was proposed that COVID-19 could attach to dust and PM particles (      ). Multiple recent studies have also proposed that the bad air quality conditions may have had an active role in increasing the COVID-19 susceptibility and deaths (      ) (      ). Indeed, ambient air pollution is suspected to worsen conditions associated with SARS-CoV-2 infection, then it may be a risk factor for not only virus infection but also worse disease severity (      ). Studies performed in different geographical locations report that the main air pollutants that can be associated with COVID-19 diffusion are not only PM, but also nitrogen oxides, carbon monoxide, sulfur oxide, and ozone (      ). On these bases, it was also proposed to account for pollution factors for the definition of environmental exposure risk to future epidemics (      ).
+     </p>
+     <p id="p0125">
+      However, the lack of a suitable explanation and definition of the SARS-CoV-2 airborne diffusion, coupled with few available papers about outdoor virus spread studies, was a source of different assumptions, about virus infection mechanisms (      ). As an example, the concept of airborne transmission via humans’ droplets is often confused with the contribution of air particulate matter (PM, an air pollutant) (      ), in the establishment of mitigation measures. In addition, even if SARS-CoV-2 RNA can be found in aerosols samples, its capability to transmit the disease must be verified (      ).
+     </p>
+     <p id="p0130">
+      Then, Villeneuve (      ) warn that multiple studies on the topic of SARS-CoV-2 and pollution may be invalidated in the next future. In particular, several works concerning pollution are too limited from a geographical point of view (      ). In addition, the differences in social behaviours and restriction measures are not considered in works treating air pollution and SARS-CoV-2. Regarding the pollution-to-human transmission mechanism, it was also proposed that the virus can be also transmitted by other pollutants, such as wastewater and sewage sludge (      ;      ;      ), due to its presence in faecal matter derived from infected people. As a consequence, it must be considered the possibility of SARS-CoV-2 spread due to the treatment processes of wastewater and/or sewage sludge, mainly for workers in the corresponding treatment plants, that may occur also by virus aerosolization (      ).
+     </p>
+    </sec>
+    <sec id="sec3.3">
+     <label>
+      3.3
+     </label>
+     <title>
+      Human susceptibility to COVID-19
+     </title>
+     <p id="p0135">
+      Unlike other coronaviruses i.e., SARS-CoV and MERS-CoV, SARS-CoV-2 has become a global health threat and has affected more than 113 million worldwide so far. It is now becoming clearer how each individual respond to COVID-19 exposure, yet the disparities in the individuals vulnerability or growing of COVID-19 symptoms to infection remain to be understood. As already reported in the introduction, the probability of the development of severe symptoms is higher for the age group of 60 years old and above (      ;      ).
+     </p>
+     <p id="p0140">
+      In this frame, demography studies can help to understand COVID-19 spread modalities and eventual disproportionate effect on some age groups. Then, even if it will probably be impossible to obtain a systematic and reliable analysis of COVID-19 mortality rates and disease incidence since the exact number of infected people is not available, some considerations about the most susceptible people can be extracted from literature (      ).
+     </p>
+     <p id="p0145">
+      Demographic analysis generally shows the COVID-19 prevalently diffuses in densely populated areas (      ;      ), where the spread of the disease is generally higher in comparison to less populated regions. Moreover, adults of any age, but having some underlying medical conditions are more susceptible to an increased risk for severe COVID-19 illness, which may cause not only hospitalization to the ICU sectors, but also a necessity of mechanical ventilation or intubation, and the death risk. These conditions are for example heart problems, obesity, cancer, smoking, immunocompromised state, sickle cell disease, some diabetes, pregnancy, down syndrome, and chronic kidney disease (
+      <ext-link ext-link-type="uri" id="intref0010" ns0:href="https://www.who.int/">
+       https://www.who.int/
+      </ext-link>
+      ). In particular, obesity, hypertension, cardiovascular diseases, and diabetes mellitus were reported to be the main risk factors (      ;      ). It was also estimated that about 1,7 billion people have at least one of the underlying conditions that could increase the risk of severe infection (      ), with the share of these population highest in countries with older populations.
+     </p>
+     <p id="p0150">
+      The case-fatality rate of patients aged above 65 years was 7.2% in Italy, which was three times higher than in China (      ;      ). This could possibly be explained by the demographic nature of Italy, where the percentage of the older population (&gt;65 years old) is very high (23%) compared to that of China.
+     </p>
+     <p id="p0155">
+      The clinical data from other countries like the US, India, France, UK also suggests the same trends (      ). Moreover, it is important to highlight the difference in the mortality rate of this disease considering different countries, it is not simple to estimate. Indeed, even if some countries have shown a higher capability of detection, tracing also the asymptomatic, other countries were not able to opportunely trace the mild and asymptomatic cases (      ), reporting an official lower number of infection cases.
+     </p>
+     <sec id="sec3.3.1">
+      <label>
+       3.3.1
+      </label>
+      <title>
+       Adults vs. children
+      </title>
+      <p id="p0160">
+       At the beginning of the pandemic, mainly elderly people were infected with COVID-19 (       ). Although, some increase in the number of infected children (&lt;18 years) was observed, data shows that the percentage of children are remarkably small among the total COVID-19 patients affected (       ;       ;       ). As of February 11, 2020, reports indicate that only 416 (0.9%) were aged 0–10 years and 549 (1.2%) aged 10–19 years were COVID-19 infected among 44,672 confirmed cases in China (       ). In Italy, only 1.2% of age 8–18 years were infected, while the death rate was 0 and 0.2%, respectively among the age group of 0–9 and 10–19 years, similar to Chinese experience (       ). According to the US CDC, even though the younger age group (below 18 years) makes up to 22% of the US population, only 1.7% was infected till April 6, 2020 (       ). However, it does not mean that children are less susceptible to the disease and the number of child patients infected with COVID-19 may increase in the future. In particular, children seem more susceptible to infections with the appearance of virus variants (       ). The reason for this dramatic difference between adults and children remains unclear. But it is suggested children are less likely to contract the virus because of fewer outdoor activities and less international travel compared to adults (       ;       ;       ). Another possibility could be that children are less exposed to cigarette smoke or air pollution compared to adults, thus having a more active innate immune response. Healthier respiratory tracts may also help to fight against viral infections (       ;       ). Innate immune responses in children are triggered by the type 1 interferons after the entry of the virus, which can also inhibit the viral replication. Moreover, as the function of other important immune cells such as neutrophils, natural killer cells or macrophages becomes impaired with age, adults become more susceptible to the infection with age (       ). Children also have a more trained immune system as they generally suffer from different respiratory viral infections. It may greatly increase the antibody circulation compared to the adults and thus having a more robust immune response to fight against COVID-19 (       ). In addition, the recent finding suggests that there is probably a strong competition between COVID-19 and other viruses already present in the respiratory mucous membrane in the children, which can block the COVID-19 cycle (       ;       ). Nevertheless, understanding the reason behind the less susceptibility of the children to the deadly COVID-19 infection would unequivocally help in designing better immunotherapy to fight this virus.
+      </p>
+     </sec>
+     <sec id="sec3.3.2">
+      <label>
+       3.3.2
+      </label>
+      <title>
+       Genetic and gender variance vs COVID-19
+      </title>
+      <p id="p0165">
+       Data suggests that COVID-19 is strangely very selective, and there are large variations in SARS-CoV-2 disease severity (       ;       ;       ). Then it remains unclear why some people are at more risk than others are (       ). Studies suggest that ACE2 genomic variants may play a significant role in determining the susceptibilities to COVID-19 as the SARS-CoV-2 virus depends on ACE2 for entry into the host cells (       ). Differential polymorphisms may also explain the susceptibility among male patients or disparities among ethnic populations (       ). It is suggested that even without the gene variation, the presence of monoallelic or biallelic of this gene in male can influence the prognosis of COVID-19 patients (       ). In China, data suggest that more men suffered severely and died (two times higher than women) due to the severity of COVID-19 (       ). The data from other countries also corroborate similar trends (       ). A similar study in the US shows that the infection rate was higher among male (54%) compared to females (46%) among 1482 hospitalized patients (       ). In South Korea also, it is reported that male patients are more favorable than female to virus shedding, while 61% of the patients were male among 54 deceased COVID- 19 (       ). Female patients also have a comparatively less viral load (virus shedding for 15.2 days) than male (18 days) even if they get COVID-19 infected (       ).
+      </p>
+      <p id="p0170">
+       In addition, the host transmembrane serine protease (TMPRSS2) variants may affect the expression and severity of COVID-19 (       ;       ). Unique but prevalent polymorphisms in TMPRSS could be another explanation for the difference in susceptibility to COVID-19 among male patients including cancer. Developmental regulation of TMPRSS2 may also explain why infants and children are relatively less affected. The genetic variability in histocompatibility complex (MHC) class I genes (human leukocyte antigen [HLA] A, B, and C) may be another potential reason behind the differences in susceptibility and severity of COVID-19 (       ). It is evident that the HLA-B*46:01 gene product has the lowest binding capacity to SARS-CoV-2 peptides (       ). Hence, individuals with this allele are at higher risk of COVID-19 infection as the viral antigen presentation capacity to immune cells reduced significantly among them. On contrary, HLA-B*15:03- gene product has a strong affinity to present SARS-CoV-2 peptides indicating that patients with this type of HLA-genotype are expected to develop a better immunity against COVID-19 (       ;       ). It is important to mention that apart from genetic variances various cultural, behavioral and socio-economic factors including differences in educational background, disparities in vaccination coverage, insurance status, and social marginalization may contribute to a higher prevalence of COVID-19 (       ).
+      </p>
+     </sec>
+     <sec id="sec3.3.3">
+      <label>
+       3.3.3
+      </label>
+      <title>
+       Covid-19 severity among ethnicity and races
+      </title>
+      <p id="p0175">
+       With the growing number of cases, there is an increasing curiosity to study the enormous disparity in severity of the disease among different racial/ethnic subpopulations too (       ;       ). The relationship between race, ethnicity and COVID-19 is still unclear, but epidemiological data indicate that minority groups probably are more susceptible to COVID-19 (       ). In the US, people from Caucasian (45%) and African-American (33%) groups were mostly infected followed by Hispanic (8%), Asian (5%) and American Indian/Alaskan Native (&lt;1%) out of 1482 COVID-19 infected patients (       ). Moreover, over 50% of all deaths in the US were from Black, Asian and Minority Ethnic (BAME) communities (       ). Clinical data clearly shows a growing difference in susceptibility or death due to COVID-19 between Asia and European countries too (       ). In the United Kingdom (UK), a majority proportion of COVID-19 patients who were critically ill are from BAME backgrounds, while the entire first ten healthcare workers who died in COVID-19 were all from BAME communities (       ). It is possible that minority populations like African-Americans are more prone to have pre-existing conditions such as obesity, diabetes, heart disease, hypertension and asthma, which might increase their susceptibility to the disease (       ). Poor diet, reduced access to medical care among the minority population with lower socioeconomic status are prevalent to weaker immune systems which could put them at higher risk to contract COVID-19 (       ;       ). While many studies reported that Black or Hispanic communities are susceptible to COVID-19 severity and death compared to White patients (       ), many researchers found out no association between them (       ;       ;       ).
+      </p>
+      <p id="p0180">
+       Finally, some considerations must also be addressed toward the income situation. In particular, the poorest populations are expected to live with chronic conditions, increasing their risk of COVID-19 bad outcome. Poor populations can suffer from miscommunication and misinformation, making them not able to follow government restrictions and health indications. In addition, poverty, as for example in some Africa countries, has risen the problem of safe water supply, necessary for example, for the increase of the personal hygiene measures frequency (       ). On the contrary, countries with higher economic determinants (like per capita GDP) seem to be more susceptible to the virus due to higher international connections and commercial exchanges that are more likely favorable to the import of infection cases       ..
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <label>
+     4
+    </label>
+    <title>
+     Impact of virus transmission on the individual, community, and society
+    </title>
+    <p id="p0185">
+     In facing the first wave of the pandemic, healthcare systems had been detrimentally impacted (     ) because the surge of COVID-19 cases had put pressure on the resources available. The healthcare sector bore the challenge of overcoming difficulties in identifying, isolating and treating COVID-19 cases, with medical and clinical personnel being overworked and overburdened (     ). As a consequence, health services for non-COVID-19 patients were also greatly impacted. The number of COVID-19 hospitalizations compared to total beds was often used to give an idea of how much strain a hospital was under. As a first reaction to the COVID-19 pandemic, an increase of intensive care unit (ICU) beds was necessary for several areas. Wuhan reaction to the disease, manifested in its capability to construct new hospitals in few times was impressive, but almost all countries were not able to follow its example. Important geographical differences in access to ICU facilities were found in Europe, due to the national resource allocations for public health and the distribution of health-care facilities. In Italy, for example, the progressive reduction of budget allocated for the hospital in the last years caused the decrease of ICU beds, with the impellent necessity to transform some available hospital beds into ICU units (     ). Then several works in literature have proposed new strategies to manage the demand for ICU beds (     ) and planning for COVID-19 health responses. Some of these studies not only highlight that ICU units capacity need to be monitored and supported also in the next years to avoid similar situations, but also that home therapies and self-isolation must be promoted to support the healthcare systems.
+    </p>
+    <p id="p0190">
+     To reduce hospital pressure, by decreasing the possibility of virus diffusion, during the early period of the pandemic, mobility restrictions and lockdowns were enforced in most countries around the globe. However, because of such measures, socio-economic activities had been greatly affected. News about unprecedented economic downturns due to COVID-19 was reported with some countries reporting economic recessions.     shows the economic impact of lockdowns and restrictions on some selected countries. China, being the first country to decisively impose a strict lockdown saw its 2020 1st quarter gross domestic product (GDP) shrink by 10.0% compared to the previous quarter. India and the United Kingdom (UK) recorded unprecedented −25.2% and −19.8% GDP contractions, respectively, in the 2nd quarter of 2020. The prolonged lockdowns through the 2nd quarter of 2020 had caused negative growth rates to most of the economies worldwide.
+     <table-wrap id="tbl2" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Quarterly Gross Domestic Product (GDP) percentage change from the previous quarter of selected countries. The data were seasonally adjusted. Source: OECD QNA news release dated December 14, 2020.
+       </p>
+      </caption>
+      <alt-text id="alttext0055">
+       Table 2
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Country
+         </th>
+         <th>
+          2019 Q3
+         </th>
+         <th>
+          2019 Q4
+         </th>
+         <th>
+          2020 Q1
+         </th>
+         <th>
+          2020 Q2
+         </th>
+         <th>
+          2020 Q3
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          <bold>
+           Australia
+          </bold>
+         </td>
+         <td align="left">
+          0.6
+         </td>
+         <td align="left">
+          0.4
+         </td>
+         <td align="left">
+          −0.3
+         </td>
+         <td align="left">
+          −7.0
+         </td>
+         <td align="left">
+          3.3
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Brazil
+          </bold>
+         </td>
+         <td align="left">
+          −0.2
+         </td>
+         <td align="left">
+          0.2
+         </td>
+         <td align="left">
+          −1.5
+         </td>
+         <td align="left">
+          −9.6
+         </td>
+         <td align="left">
+          7.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Canada
+          </bold>
+         </td>
+         <td align="left">
+          0.5
+         </td>
+         <td align="left">
+          0.1
+         </td>
+         <td align="left">
+          −1.9
+         </td>
+         <td align="left">
+          −11.3
+         </td>
+         <td align="left">
+          8.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           China
+          </bold>
+         </td>
+         <td align="left">
+          1.0
+         </td>
+         <td align="left">
+          1.6
+         </td>
+         <td align="left">
+          −10.0
+         </td>
+         <td align="left">
+          11.7
+         </td>
+         <td align="left">
+          2.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           France
+          </bold>
+         </td>
+         <td align="left">
+          0.1
+         </td>
+         <td align="left">
+          −0.2
+         </td>
+         <td align="left">
+          −5.9
+         </td>
+         <td align="left">
+          −13.8
+         </td>
+         <td align="left">
+          18.7
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Germany
+          </bold>
+         </td>
+         <td align="left">
+          0.3
+         </td>
+         <td align="left">
+          0.0
+         </td>
+         <td align="left">
+          −1.9
+         </td>
+         <td align="left">
+          −9.8
+         </td>
+         <td align="left">
+          8.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           India
+          </bold>
+         </td>
+         <td align="left">
+          0.8
+         </td>
+         <td align="left">
+          0.9
+         </td>
+         <td align="left">
+          0.7
+         </td>
+         <td align="left">
+          −25.2
+         </td>
+         <td align="left">
+          21.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Indonesia
+          </bold>
+         </td>
+         <td align="left">
+          1.2
+         </td>
+         <td align="left">
+          1.2
+         </td>
+         <td align="left">
+          −0.7
+         </td>
+         <td align="left">
+          −6.9
+         </td>
+         <td align="left">
+          3.1
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Italy
+          </bold>
+         </td>
+         <td align="left">
+          0.0
+         </td>
+         <td align="left">
+          −0.3
+         </td>
+         <td align="left">
+          −5.5
+         </td>
+         <td align="left">
+          −13.0
+         </td>
+         <td align="left">
+          15.9
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Japan
+          </bold>
+         </td>
+         <td align="left">
+          0.2
+         </td>
+         <td align="left">
+          −1.9
+         </td>
+         <td align="left">
+          −0.5
+         </td>
+         <td align="left">
+          −8.3
+         </td>
+         <td align="left">
+          5.3
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           South Africa
+          </bold>
+         </td>
+         <td align="left">
+          −0.2
+         </td>
+         <td align="left">
+          −0.4
+         </td>
+         <td align="left">
+          −0.4
+         </td>
+         <td align="left">
+          −16.6
+         </td>
+         <td align="left">
+          13.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           Turkey
+          </bold>
+         </td>
+         <td align="left">
+          0.4
+         </td>
+         <td align="left">
+          2.0
+         </td>
+         <td align="left">
+          0.2
+         </td>
+         <td align="left">
+          −10.8
+         </td>
+         <td align="left">
+          15.6
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           United Kingdom
+          </bold>
+         </td>
+         <td align="left">
+          0.3
+         </td>
+         <td align="left">
+          0.1
+         </td>
+         <td align="left">
+          −2.5
+         </td>
+         <td align="left">
+          −19.8
+         </td>
+         <td align="left">
+          15.5
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          <bold>
+           United States
+          </bold>
+         </td>
+         <td align="left">
+          0.6
+         </td>
+         <td align="left">
+          0.6
+         </td>
+         <td align="left">
+          −1.3
+         </td>
+         <td align="left">
+          −9.0
+         </td>
+         <td align="left">
+          7.4
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <p id="p0195">
+     Among the G20 economies, only China posted a positive growth rate during the period, as they were able to immediately jumpstart their economic activities after the strict lockdown in the first quarter. The movement restrictions during the lockdowns had forced non-essential businesses to close shop for a prolonged period of time. Businesses in the transport (i.e., airlines), tourism and services (i.e., hotels, restaurants, etc.) sectors, in particular, were heavily impacted. Therefore, an unprecedented number of the working population lost their jobs, sending the unemployment rate to drastically rise up. In the United States, new claims for unemployment benefits in the early part of the pandemic ranged from 200,000–280,000 on a weekly basis. In the 12 succeeding weeks, 40 million Americans filed new claims, an upsurge without precedent in US history. The US unemployment rate of 3.5% in February 2020 rose to 14.7% in April 2020, the worst in 80 years (     ). In the first few months of the pandemic, the food and basic necessity sector, including retailing and distribution, had also been put under pressure because people went on panic-buying and stockpiled food items and other basic necessities. This led to concerns about the vulnerable population who cannot afford to buy food in bulk to have difficulty providing for their daily sustenance. Governments had to step up to address this problem by re-allocating national budgets to fund cash and food aids distributed to identified vulnerable individuals/families.
+    </p>
+    <p id="p0200">
+     All levels of the education sector had also been greatly impacted by COVID-19. Classes, researches and laboratory activities were put on hold. Schools had been forced to close when strict lockdowns were in effect starting March 2020. Some schools with good network infrastructures were able to adjust their mode of teaching to distance learning over the internet. However, there were schools with no network infrastructures in place at all, this scenario is more prevalent in developing countries, so they had no recourse but to cut the academic calendar short. It was not just the educational institutions that had challenges adjusting to distance learning but also the individual students themselves. For one, not all students have the required gadgets (e.g., computers, tablets, etc.) to access the educational materials online. Two, not all households are connected to the internet; for some cases, the internet is available, but network speed is very slow to be of use. Students from vulnerable households have very limited resources to afford the barest minimum requirements to attend classes online. Because of these, some educational institutions have to implement hybrid-teaching methods. Students who were able to attend online classes were encouraged to continue their schooling in such a setup, and those students who were not able to do so have to work on instructional modules that are delivered to their homes. Apart from the changes in the academic load and mode of learning, the health of the students may also be affected. Having to stay at home most of the time, the physical activities that they can do have become limited, raising concerns about the possible increase in the prevalence of obesity among school kids during the pandemic (     ). Previous studies have determined that unhealthy weight gains among school children are considerable during holidays, or the long periods where they dont have to go to school (     ;     ). Its not just school children, even adults have experienced reduced physical activities during lockdown which may negatively affect their health conditions. The previous routine activities of preparing, walking and/or commuting to and from work have turned sedentary, as they dont have to leave the confines of their homes to do their work anymore. As for those who lost their jobs, they have to deal with the mental stress and pressure of looking for alternative sources of income as they started to draw from their savings to tide over their daily needs because of the pandemic.
+    </p>
+    <p id="p0205">
+     With the production of vaccines playing catch up to the global demand, the spread of COVID-19 infection could only be controlled in such a way that the surge of new cases would not overwhelm the healthcare system. Controlling the spread of infection would also help government authorities to beef up the hospital capacities to accommodate a higher number of COVID-19 patients. As a means of control, the universal use of facemasks (     ) should be continued, if already imposed, and should be considered for those who havent. Physical/social distancing and proper hand hygiene practices should be reinforced and encouraged. Although these measures will not completely protect individuals from infection (     ), at least they provide buffer time for the healthcare system to treat infected patients.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec5">
+    <label>
+     5
+    </label>
+    <title>
+     Non-pharmaceutical behaviors against COVID-19
+    </title>
+    <p id="p0210">
+     In response to the COVID-19 governments have proposed a series of anti-epidemic and preventive measures, not only consisting of the map of disease diffusion with different test typologies but also in several non-pharmaceutical behaviors. In particular, literature demonstrated also theoretically that a combination of suitable restriction measures, the main being the social distancing, need to be implemented early, to be successful.
+    </p>
+    <p id="p0215">
+     Given about 80% of all COVID-19 disease cases can be considered mild, but they can spread the virus, timely self-isolation has been considered a key public health measure by all countries (     ), allowing also to reduce the pressure on the hospitals. Since the beginning of the pandemic, facemask has become an ultimate protective gear for both healthcare workers and people to stop the spreading of COVID-19. Although there is a lack of evidence to support the usefulness of facemask against the pandemic, it was reported that SARS-CoV-2 diffusion was contained more efficiently and adequately in countries like Hong Kong, South Korea, and Taiwan due to their culture, where inhabitants are expected to wear facemasks routinely (     ).     reported the benefits of using facemasks to stop the spreading of the infection. Among various types of facemasks, N95 masks are the most suitable option as it is capable of filtering &gt;95% of the particles &gt;0.03 μm; while surgical masks and cloth coverings are only ~75% and ~67% efficient, respectively (     ). However, it is important to note that N95 masks with valves are not suitable for COVID-19 infected patients as viruses can pass through the valve easily during exhalation and can eventually infect those around them.
+    </p>
+    <p id="p0220">
+     The constrain measures result to be generally effective in containing COVID-19 at different degrees, also depending on the restriction levels     .
+    </p>
+    <p id="p0225">
+     The measures introduced to face the outbreak second wave, till January 23, 2021 in some EU countries are reported in     . In particular, in Italy the COVID-19 disease started to spread earlier (at the end of February 2020), with the result that this country was severely affected, followed by Spain, France, and UK (all the data are available at
+     <ext-link ext-link-type="uri" id="intref0015" ns0:href="https://www.ecdc.europa.eu/en">
+      https://www.ecdc.europa.eu/en
+     </ext-link>
+     ). On the contrary, Denmark was one of the EU Countries less affected by the pandemic first wave. Besides, at the end of September, there was evidence of virus second wave, with Italy that appeared, in the beginning, to be less touched by COVID-19, in contrast to the other considered EU states. At the end of January 2021, the situation was different, with almost all the considered countries facing the second wave (and Spain presenting an increase of his contagious curve). Moreover, the temporal shift of the second wave spread in Italy, considered comparing some other member states and the confirmed cases per million people, that seem to reach lower values in comparison to other selected countries, can be analysed in terms of constraints measures and their acceptance.     reports the rolling 7-day average of COVID-19 infection cases detected per million people in some EU member states starting from March 1, 2020 (the first wave of the outbreak), till January 22, 2021. Additionally,     highlights that, after a minimum in the detected cases, that was reached for all countries at different times (in summer), there was the appearance of a second wave, that was more critical for France and UK, starting about from mid-July, but that clearly showed a rising of the infections in all the considered counties.
+     <table-wrap id="tbl3" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        The response measures that were provided, at national level, by the considered member states, with the introduction and end dates. The NA code means that the end date is extended after January 23, 2021, the data corresponding to the last update. Data were downloaded by ECDC (        ) website:
+        <ext-link ext-link-type="uri" id="intref0090" ns0:href="https://www.ecdc.europa.eu/en">
+         https://www.ecdc.europa.eu/en
+        </ext-link>
+        . These measures were provided by official public sources.
+       </p>
+      </caption>
+      <alt-text id="alttext0060">
+       Table 3
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th rowspan="2">
+          Country
+         </th>
+         <th colspan="2">
+          Lockdown
+          <hr/>
+         </th>
+         <th colspan="2">
+          Lockdown Partially_rel
+          <hr/>
+         </th>
+         <th colspan="2">
+          Masks_Vol
+          <hr/>
+         </th>
+         <th colspan="2">
+          Masks_Mand
+          <hr/>
+         </th>
+         <th colspan="2">
+          Teleworking
+          <hr/>
+         </th>
+         <th colspan="2">
+          Teleworking Partially _rel
+          <hr/>
+         </th>
+        </tr>
+        <tr>
+         <th>
+          Date_start
+         </th>
+         <th>
+          Date_end
+         </th>
+         <th>
+          Date_start
+         </th>
+         <th>
+          Date_end
+         </th>
+         <th>
+          Date_start
+         </th>
+         <th>
+          Date_end
+         </th>
+         <th>
+          Date_start
+         </th>
+         <th>
+          Date_end
+         </th>
+         <th>
+          Date_start
+         </th>
+         <th>
+          Date_end
+         </th>
+         <th>
+          Date_start
+         </th>
+         <th>
+          Date_end
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          France
+         </td>
+         <td align="left">
+          17/03/20
+          <break/>
+          28/10/20
+         </td>
+         <td align="left">
+          11/05/20
+          <break/>
+          14/12/20
+         </td>
+         <td align="left">
+          12/05/20
+          <break/>
+          15/12/20
+         </td>
+         <td align="left">
+          02/06/20
+          <break/>
+          NA
+         </td>
+         <td align="left">
+          11/05/20
+         </td>
+         <td align="left">
+          17/05/20
+         </td>
+         <td align="left">
+          18/05/20
+          <break/>
+          28/10/20
+         </td>
+         <td align="left">
+          NA
+          <break/>
+          NA***
+         </td>
+         <td align="left">
+          17/03/20
+          <break/>
+          29/10/20
+         </td>
+         <td align="left">
+          10/05/20
+          <break/>
+          NA
+         </td>
+         <td align="left">
+          11/05/20
+         </td>
+         <td align="left">
+          28/10/20
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          United Kingdom
+         </td>
+         <td align="left">
+          24/03/20
+          <break/>
+          05/11/20
+         </td>
+         <td align="left">
+          09/05/20
+          <break/>
+          NA**
+         </td>
+         <td align="left">
+          10/05/20
+         </td>
+         <td align="left">
+          04/07/20
+         </td>
+         <td align="left">
+          09/06/20
+         </td>
+         <td align="left">
+          26/07/20
+         </td>
+         <td align="left">
+          27/07/20
+         </td>
+         <td align="left">
+          NA
+         </td>
+         <td align="left">
+          16/03/20
+          <break/>
+          24/10/20
+         </td>
+         <td align="left">
+          09/05/20
+          <break/>
+          NA
+         </td>
+         <td align="left">
+          10/05/20
+         </td>
+         <td align="left">
+          23/10/20
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Spain
+         </td>
+         <td align="left">
+          14/03/20
+         </td>
+         <td align="left">
+          03/05/20
+         </td>
+         <td align="left">
+          04/05/20
+          <break/>
+          25/10/20
+         </td>
+         <td align="left">
+          11/05/20
+          <break/>
+          NA
+         </td>
+         <td/>
+         <td/>
+         <td align="left">
+          04/05/20
+          <break/>
+          04/08/20
+         </td>
+         <td align="left">
+          21/05/20
+          <break/>
+          NA***
+         </td>
+         <td align="left">
+          09/03/20
+         </td>
+         <td align="left">
+          12/04/20
+         </td>
+         <td align="left">
+          13/04/20
+         </td>
+         <td align="left">
+          NA
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Italy
+         </td>
+         <td align="left">
+          10/03/20
+          <break/>
+          26/10/20
+         </td>
+         <td align="left">
+          04/05/20
+          <break/>
+          04/11/20
+         </td>
+         <td align="left">
+          05/11/20
+         </td>
+         <td align="left">
+          15/01/21
+         </td>
+         <td/>
+         <td/>
+         <td align="left">
+          26/04/20
+          <break/>
+          15/07/20
+          <break/>
+          08/10/20
+         </td>
+         <td align="left">
+          14/07/20***
+          <break/>
+          15/08/20
+          <break/>
+          14/01/21***
+         </td>
+         <td align="left">
+          12/03/20
+          <break/>
+          16/10/20
+         </td>
+         <td align="left">
+          10/06/20
+          <break/>
+          3/12/20
+         </td>
+         <td align="left">
+          10/06/20
+         </td>
+         <td align="left">
+          16/10/20
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Denmark
+         </td>
+         <td align="left">
+          11/03/20
+         </td>
+         <td align="left">
+          15/04/20
+         </td>
+         <td/>
+         <td/>
+         <td align="left">
+          09/07/20
+         </td>
+         <td align="left">
+          21/08/20
+         </td>
+         <td align="left">
+          22/08/20
+         </td>
+         <td align="left">
+          NA
+         </td>
+         <td align="left">
+          13/03/20
+          <break/>
+          16/12/20
+         </td>
+         <td align="left">
+          14/06/20
+          <break/>
+          NA
+         </td>
+         <td align="left">
+          16/06/20
+         </td>
+         <td align="left">
+          15/12/20
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="tspara0025">
+        <p>
+         Lockdown = Stay-at-home orders for the general population.
+        </p>
+       </fn>
+       <fn id="tspara0030">
+        <p>
+         Lockdown Partially_rel = Stay-at-home orders for the general population - partially relaxed measure.
+        </p>
+       </fn>
+       <fn id="tspara0035">
+        <p>
+         Masks_Vol = Protective mask use in public closed spaces/transport on voluntary basis (general recommendation not enforced).
+        </p>
+       </fn>
+       <fn id="tspara0040">
+        <p>
+         Masks_Mand = Protective mask use in public closed spaces/transport on mandatory basis (enforced by law).
+        </p>
+       </fn>
+       <fn id="tspara0045">
+        <p>
+         Teleworking = Teleworking recommendation or workplace closures.
+        </p>
+       </fn>
+       <fn id="tspara0050">
+        <p>
+         Teleworking_Partiallyrel = Teleworking recommendation or workplace closures – partially relaxed measure.
+        </p>
+       </fn>
+       <fn id="tspara0055">
+        <p>
+         ** In UK this measure was avoided from December 1, 2020 to January 5, 2021, *** Restriction measure mandatory in all spaces (also outdoor).
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </p>
+    <p id="p0230">
+     At the end of February 2020, Italy was the first, and one of the most strongly affected countries in the EU. In a few weeks, the COVID-19 disease had rapidly diffused in other member states, with different severities, for example in Spain, France, and the UK. Denmark and Finland better faced the crisis. In particular, even if the situation was not bad, Denmark was the second country in Europe, after Italy, to announce, on March 11th, a lockdown (data about restriction measures are available at the ECDC website
+     <italic>
+      ,
+     </italic>
+     <ext-link ext-link-type="uri" id="intref0020" ns0:href="https://www.ecdc.europa.eu/">
+      https://www.ecdc.europa.eu/
+     </ext-link>
+     ). On 1st October, the rolling 7-day average of COVID-19 cases per million people was 29 for Italy, 90 for Denmark, and 92 for the UK. Conversely, France and Spain showed 180 and 227 rolling 7-day average of COVID-19 cases per million people respectively (data are available at
+     <ext-link ext-link-type="uri" id="intref0025" ns0:href="https://www.ecdc.europa.eu/en">
+      https://www.ecdc.europa.eu/en
+     </ext-link>
+     ) on the same date. These data showing a different gravity of the disease second wave at its beginning, for different EU countries, highlight that all the countries resulted more affected than the first wave. However, the second wave appeared to involve fewer infections (considered per million people) in Italy then all the other considered countries.
+    </p>
+    <p id="p0235">
+     At the occurrence of the first pandemic wave, all the countries considered in     applied strict lockdown policies to manage the outbreak, obtaining (at different times) virus control. Moreover, after lockdown, each country has changed and implemented different restriction measures, with substantial differences depending on member states. This has probably determined the differences that can be appreciated in     in the expansion of second wave infections (     ).
+    </p>
+    <p id="p0240">
+     Moreover, this allows us to conclude that, despite the introduction of a high restrictions number, some constraints, and the time selected for their application may come out to result more adequately in comparison to others. In particular, it has been reported that a country lifting their restriction measures early, is subject to a much earlier second epidemic     .
+    </p>
+    <p id="p0245">
+     shows the response constraints that were introduced, at the national level, by considered member states, reporting the dates of introduction and end. The NA means that the end date is extended after 23     of January 2021. In addition,     put in evidence that the main differences among the selected member states seem to concern the approaches used to introduce facemask and teleworking. Indeed, after the lockdown mitigation strategies, that involve isolation and social distancing, and that were imposed by all considered member states till May (only Denmark reduced the application of this measure starting from April, due to the low severity of its sanitary crisis, if compared to other countries, as shown in     ), some restrictions measures were still applied till to second wave outcome evidence. Teleworking was applied as a basic constraint to reduce the virus diffusion nearly at the same date for the considered member states. Besides, this restriction was relaxed in May by the UK and France, and in April by Spain. On the contrary, in Italy teleworking was an active measure that was partially relaxed only in June (as in Denmark). Then, comparing data reported in     and     it is possible to conclude that teleworking seems to be one of the measures that can produce better results in limiting the COVID-19 spread. Indeed, it allows reduced mobility, following the principle to limit social interactions. This restriction was indeed restored in almost all the countries in October 2020 (except in Spain). Concerning facemask wearing, it is important to specify that, despite that this measure was mandatory at the end of September in all the EU considered states, for public transports, some distinctions existed in this rule applies for different public area: in Italy and Spain, for example, it was compulsive facemasks wearing inside shops. In France and the UK, this measure was not mandatory. It is also very interesting to highlight that the obligatory facemask wearing was introduced at different times for the considered member states. Italy was the first (in April), followed by Spain and France (in May). Literature reports that the combination of 100% facemask use with the lockdown is a measure able to reduce the occurrence risk of additional waves (     ). Then, face-covering results to be one of the main pillars for virus fight.
+    </p>
+    <p id="p0250">
+     On the other side, it is recognized that there is a lack of an international consensus concerning facemask wearing (     ): this is attributed to the difference in cultural norms, although not supported by     conflicting declarations (     ).     reports the results of a survey concerning facemask wearing in public spaces (data can be downloaded at YouGov website
+     <ext-link ext-link-type="uri" id="intref0030" ns0:href="https://yougov.co.uk/">
+      https://yougov.co.uk/
+     </ext-link>
+     ). As expected,     shows that when facemask wearing began to be mandatory, this corresponded to the rising population acceptance of the constraint. At the end of September 2020, with the evidence of the EU COVID-19 outbreak second wave, a maximum of close to 90% of people that declared to use facemask was reached for Spain, Italy, and France. For Denmark, this number is about 38% and for the UK 75%.
+    </p>
+    <p id="p0255">
+     Then, Danish and British people result less inclined to wear facemasks in comparison to the population of other countries. In particular, these two member states are the last that decided to introduce this measure. On the contrary, it is evident how in China, where the pandemic was better managed and controlled, the population is more inclined to accept the regulation. In summary, comparing     and     , it is possible to conclude that the Italian imposed strict rules seemed to be successful in the management of COVID-19 second wave, and the Italian people acceptance of rules demonstrated that the capability to increase the population resilience is reached if suitable behaviours are diffused.
+    </p>
+    <p id="p0260">
+     Analysing data shown in     and     some final considerations can be made:
+     <list id="ulist0015" list-type="simple">
+      <list-item id="u0035">
+       <label>
+        •
+       </label>
+       <p id="p0265">
+        The evidence of the failure in containing pandemic should be also due to the incapability to acknowledge the importance of SARS-CoV-2 airborne transmission by aerosols that resulted, in some areas, in few attentions to the importance of safety.
+       </p>
+      </list-item>
+      <list-item id="u0040">
+       <label>
+        •
+       </label>
+       <p id="p0270">
+        The data about the Italian second wave outbreak allows concluding that facemask wear in public spaces, coupled with other suitable behaviour (such as social distancing, obtained also by the use of teleworking), seem to be one of the more adequate means to limit the human-to-human transmission of COVID-19.
+       </p>
+      </list-item>
+      <list-item id="u0045">
+       <label>
+        •
+       </label>
+       <p id="p0275">
+        Future studies about air pollution acting as a vector of COVID-19 diffusion or being the cause of adverse prognosis must consider a comparison between different countries, also taking into account possible diversities in the restriction measures and their social acceptance; indeed the differences in some behaviour can produce different results in virus spread, that if taken into account may help to highlight the distinction between human-to-human transmission ways and the proposed pollution-to-human diffusion mechanisms.
+       </p>
+      </list-item>
+     </list>
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec6">
+    <label>
+     6
+    </label>
+    <title>
+     New approaches and future research goals
+    </title>
+    <p id="p0280">
+     The first pandemic marked by such a large and dramatically rapid spread has been the COVID-19 outbreak since the beginning of the twenty-first century. Still, the whole world is facing a novel serious challenge because of the deadliest coronavirus infection. All countries worldwide were unanticipated of this global pandemic. Since COVID-19 continues to have a detrimental effect on the lives of endless people with uncertain futures. Whether the virus will survive in human populations with frequent outbreaks, such as devastating influenza, other evolving infections or whether it will attenuate mutations such as HCoV-OC43 and HCoV-229E common cold CoVs. In addition, it is also a matter of concern that whether it will vanish after the primary outbreak, such as SARS-CoV, is a major challenging question for physicians and virologists (     ). Undoubtedly, these major fundamental questions will remain very important and challenging for the forthcoming year. It is undeniable, irrespective of the responses, that future pandemics like this one are likely to happen again. Globally, the ongoing pandemic provokes researchers and urgently demands to progress with vaccine campaigns, find therapy or drugs that could bring a new hope to fight with the deadliest coronavirus and ultimately lead to stop transmission of infection. In light of this, recently researchers and doctors are claiming immunotherapy-based treatment called ‘convalescent plasma therapy (CPT)’ as a safe and potent, which shows the clinical potential to become a possible treatment regime to combat this infection (     ;     ;     ,     ;     ;     ). Moreover, CPT proved an effective treatment option in the last epidemics including avian-origin influenza A (H7N9) virus (     ) and Ebola Virus Disease (EVD) (     ).
+    </p>
+    <p id="p0285">
+     The research community must not only give serious attention to the health dimension in this sense but also should undoubtedly consider the environmental dimension. The dearth of knowledge and information on the potential effect of various parameters such as pH, PCR inhibitors, humidity, temperature, rainfall, solids retention time, and hydraulic retention time on the persistence and precise detection of the virus/viral particles in various sectors including wastewater (WW) and sewage sludge (SS) is noticeable from the literature mining (     ;     ;     ). Additionally, a plethora of crucial factors/parameters such as primer and probe sequences, assay accuracy/generosity, batch effect, low concentration of SARS-CoV-2 RNA levels and sub-sampling error etc. play an important role in the variability of virus abundance in WW and SS (     ,     ;     ;     ). Such attributes will also empower SARS-CoV-2 activity to be predicted at various stages of the WW treatment plant to identify potential exposure risks for employees.
+    </p>
+    <p id="p0290">
+     Remarkably, during the ongoing COVID-19 pandemic, investigations from both developed and developing countries are continuously being experimenting to measure the novel SARS-CoV-2 genetic material (RNA) in untreated WW, SS, and in faecal samples using various molecular biology approach/tools (     ,     ;     ;     ,     ;     ,     ;     ;     ;     ;     ;     ;     ;     ;     ,     ). Based upon the verified previous investigation by many researchers (Carducci et al., 2020;     ;     ), a portion of the shortcoming of outcomes on this problem is given the difficulty of searching SARS-CoV-2 RNA within these unique dimensions since there is currently no legally registered scientifically testable process. Moreover, a significant environmental factor to be taken into account is the use of pharmaceutical products (drugs, antibiotics) for the treatment of coronavirus-related diseases, which might contribute to the possibility of release of toxic substances into the receiving bodies of water. In addition, due to the unlikeness or diversified method of extraction quality, the selection of different commercial kits for the performance of the PCR leads to obtaining only partially reasonable outcomes efficiency (     ;     ). WW and sewage contain thousands of molecules such as proteins, fulvic and humic acids, detergents, fats, metal ions, pharmaceuticals and personal care products (PPCPs) etc., which are responsible for interfering with regular polymerase chain reaction (PCR), hence, versatile modern advanced molecular biology techniques, such as digital PCR and next-generation sequencing, high throughput bioinformatics tools might be a boon to tackle these problems (     ;     ;     ). Hence, for the precise detection and quantification of SARS-CoV-2 RNA in WW, more research is required to evaluate the recovery efficiency of existing virus concentration methods.
+    </p>
+    <p id="p0295">
+     In reality, more in-depth studies focused on occurrence, persistence, identifying precise monitoring and endpoint protection systems for the immediate identification of possible dissemination of viruses across aquatic ecosystems should be given fundamental importance and is the need of the hour. Researchers are at the junction of science (biomedical science in the cortex of the COVID-19 pandemic), medicine and social policy, and the shape of our world will be fundamentally influenced by our actions and commitments. For the time being, the knowledge gained from the research of this virus, its modes of infection, pathogenesis, and symptoms of the disease are not only crucial for the production of successful vaccines and treatments for this global disease but will also prepare our planet better for future disease outbreaks. Sadly/most drastically, there is no evidence of developing any potential therapeutic drugs against this deadliest coronavirus. Even though physicians and clinicians are fighting each time to stop this global pandemic at a minimum cost of time. Various alternatives have been employed such as monoclonal antibodies, peptides, synthetic oligonucleotides, herbal compounds, vaccines, interferon-based therapy, and small molecule drug candidates. However, it is an all-known fact that drug discovery takes 10–15 years to reach a candidate drug from the laboratory to the clinic. Hence, new therapeutic candidates may take several months to years to become a potent drug to stop this global challenging outbreak. Undoubtedly, this is an environment, which demands more depth study, especially in three directions namely biomedical, environmental and public health policies. It is important emphasizing the urgency for more in-depth research on the virus scattering of infected asymptomatic and paucisymptomatic individuals, the real concentration of viruses and virions in WW, air, SS and, of course, the potential to exploit other pharmaceuticals/biomarkers in parallel to track the epidemic to incorporate the evidence available and to achieve a more reliable assessment for surveillance systems.
+    </p>
+    <p id="p0300">
+     Very recently several SARS-CoV-2 vaccines were produced by different institutes (BioNTech and Pfizer, Moderna, and Russian Sputnik V), offering the possibility to eradicate the virus in the next future. However, despite the natural optimism derived from these possibilities, we are far still from ending COVID-19 as a public health issue. Several concerns are still open, then there is the necessity to better address some issues. In particular, not only peer-reviewed publications are expected to elucidate some scientific questions, but also more information is expected to be unsolved for still a long time (for example the duration of protection). Finally, to reach the goal of community immunity, it is fundamental to increase the social acceptance of the vaccine. Indeed, a public survey, recently published by Nature Medicine (     ) has shown that the acceptance of the vaccine is often associated with confidence in the public authorities (it results higher in Asian countries with strong trust in central governments), and currently, this appears to be not sufficient to reach the community immunity. This survey also highlights that differences in accepting the vaccine are related to age (older people are more incline to accept), level of instruction, and sex (     ). As already shown in section     for the facemask, the social acceptance of the COVID-19 measures (that it is strongly dependent on the considered country) is fundamental to increase the population resilience and the success of the adopted measures, and then strong dissemination and information activities are expected to be realized by all relevant stakeholders.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec7">
+    <label>
+     7
+    </label>
+    <title>
+     Current challenges and conclusions
+    </title>
+    <p id="p0305">
+     COVID-19 is a highly transmissible disease and has already spread all over the globe. More than 113 million confirmed cases are already reported, including more than 2,5 million deaths. It has been almost a year since the first few cases were found, yet the whole world is still racing against time to propose possible solutions. Scientists and researchers of all disciplines are working overtime not only to find effective treatment regimens for the patients who have contracted the disease but also to understand the mechanisms of virus diffusion and its possible variants (that may change its transmissibility and disease severity), to prevent future similar events (     ). Moreover, only a trans-multi-disciplinary approach will be able to better understand the causes of zoonotic transmission, and to propose new strategies such as anticipatory paths, with the possibility to develop new vaccines before that potential disease of zoonotic viruses may be transformed into a pandemic. In this frame, there is an urgent necessity to establish a health-care trans-multi-disciplinary workforce devoted to investigate, mitigate, and control future viral events at early stages, which should be established at the international level, and supported by developed countries governments. For example, according to literature results, some theories about virus transmission mechanisms, involving different transmission ways, need to be better investigated and understood with several open issues that need attention.
+    </p>
+    <p id="p0310">
+     Currently, while first vaccine campaigns are ongoing, it is of paramount importance to control the virus spread, to prevent the healthcare sector from being overwhelmed. However there also several open issues, that need urgent and thoughtful attentions. They mainly concern with the duration of vaccine protection, which is currently unknown, and the reinfection possibilities and consequences (     ). In addition, it may exist the possibility of the seasonality of the outbreak, with a still long impact and adaptation need. For these reasons the role of multidisciplinary approaches is prominent, not only to better understand all the scientific aspect connected with the pandemic, but also with the aim to increase population resilience.
+    </p>
+    <p id="p0315">
+     The implementation of universal use of facemasks, physical distancing and proper hand hygiene should be reinforced and should not be taken for granted. Moreover, on top of these intervention measures, also the increase of social acceptance of protection measures (such as facemask wearing and vaccination) must continue.
+    </p>
+    <p id="p0320">
+     Governments that are keen on keeping their economies open throughout the pandemic must invest in public information dissemination campaigns about COVID-19 still being around and encourage citizens to always adhere to health protocols that are in place. This is to keep awareness amongst the citizenry about the disease on high alert, and not be lulled into complacency. Just like the seasonal flu, the COVID-19 disease may coexist with humans for a long time (     ).
+    </p>
+    <p id="p0325">
+     Governments must also consider that, although SARS-CoV-2 transmission can occur in schools, it has been generally accounted for a minority of all disease cases. Due to the fundamental society role of schools, their closures should be considered only a last resort and they should be taken open, with the guarantee of appropriate safety measures.
+    </p>
+    <p id="p0330">
+     Finally, it is extremely important to highlight that we live in a world where social inequity must be accounted to successfully combat the pandemic. In this frame, the equitable distribution of vaccines also to low- and middle-income countries can represent also an effective and concrete step toward the sustainable development goals (SDGs) realization. Indeed, SDG 3 aims to attain globally good health and well-being. This seems not to be still considered, if the current vaccination policies are evaluated (see     ), due to the prevalence of vaccine nationalism, which may be overcome by the establishment of the advocated international workforce.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of competing interest
+    </title>
+    <p id="p0335">
+     The authors declare that they have no competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

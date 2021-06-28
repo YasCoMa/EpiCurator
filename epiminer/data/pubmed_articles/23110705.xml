@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Impact of immune escape mutations on HIV-1 fitness in the context of the cognate transmitted/founder genome.
+ </title>
+ <abstract>
+  <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">
+   A modest change in HIV-1 fitness can have a significant impact on viral quasispecies evolution and viral pathogenesis, transmission and disease progression. To determine the impact of immune escape mutations selected by cytotoxic T lymphocytes (CTL) on viral fitness in the context of the cognate transmitted/founder (T/F) genome, we developed a new competitive fitness assay using molecular clones of T/F genomes lacking exogenous genetic markers and a highly sensitive and precise parallel allele-specific sequencing (PASS) method.
+  </AbstractText>
+  <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+   The T/F and mutant viruses were competed in CD4+ T-cell enriched cultures, relative proportions of viruses were assayed after repeated cell-free passage, and fitness costs were estimated by mathematical modeling. Naturally occurring HLA B57-restricted mutations involving the TW10 epitope in Gag and two epitopes in Tat/Rev and Env were assessed independently and together. Compensatory mutations which restored viral replication fitness were also assessed. A principal TW10 escape mutation, T242N, led to a 42% reduction in replication fitness but V247I and G248A mutations in the same epitope restored fitness to wild-type levels. No fitness difference was observed between the T/F and a naturally selected variant carrying the early CTL escape mutation (R355K) in Env and a reversion mutation in the Tat/Rev overlapping region.
+  </AbstractText>
+  <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">
+   These findings reveal a broad spectrum of fitness costs to CTL escape mutations in T/F viral genomes, similar to recent findings reported for neutralizing antibody escape mutations, and highlight the extraordinary plasticity and adaptive potential of the HIV-1 genome. Analysis of T/F genomes and their evolved progeny is a powerful approach for assessing the impact of composite mutational events on viral fitness.
+  </AbstractText>
+ </abstract>
+</article>

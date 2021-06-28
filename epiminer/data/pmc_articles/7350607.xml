@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Cell-Mediated Immune Responses to COVID-19 Infection
+ </title>
+ <abstract>
+  <p>
+   An unprecedented outbreak of pneumonia caused by a novel coronavirus (CoV), subsequently termed COVID-19 by the World Health Organization, emerged in Wuhan City (China) in December 2019. Despite rigorous containment and quarantine efforts, the incidence of COVID-19 continues to expand, causing explosive outbreaks in more than 160 countries with waves of morbidity and fatality, leading to significant public health problems. In the past 20 years, two additional epidemics caused by CoVs have occurred: severe acute respiratory syndrome-CoV, which has caused a large-scale epidemic in China and 24 other countries; and respiratory syndrome-CoV of the Middle East in Saudi Arabia, which continues to cause sporadic cases. All of these viruses affect the lower respiratory tract and manifest as pneumonia in humans, but the novel SARS-Cov-2 appears to be more contagious and has spread more rapidly worldwide. This mini-review focuses on the cellular immune response to COVID-19 in human subjects, compared to other clinically relevant coronaviruses to evaluate its role in the control of infection and pathogenesis and accelerate the development of a preventive vaccine or immune therapies.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     On December 31, 2019, a cluster of atypical pneumonia was reported in the Chinese city of Wuhan, mediated by a novel coronavirus (CoV) called SARS-CoV-2 (     ,     ). The outbreak of this “coronavirus disease 2019” (COVID-19) has been declared a global pandemic by the World Health Organization (WHO), with more than 7 million cases in early June 2020 (     ,     ) with a case-fatality rate of about 1%, as well as significant economic and social consequences. To date, no approved antiviral agents or efficient vaccines are available against the SARS-COV-2. For these reasons, necessary public health measures have been deployed, including worldwide quarantining of the populations and the use of barrier gestures to stop the progression of the SARS-COV-2.
+    </p>
+    <p>
+     CoVs are a class of positive-sense single-stranded RNA viruses found in a wide range of host species, including birds and mammals. Many of beta-CoV cause intestinal and respiratory infections in animals and humans. The zoonotic source of COVID-19 is not confirmed; however, sequencing of the SARS-CoV-2 reveals up to 80% identity with SARS-CoV and even more with several bat CoVs (     ). This similarity suggests that bats could be the key reservoir, from which the virus was possibly directly transmitted to humans or through another unknown intermediate host. A phylogenetic analysis of 160 genomes of patients with COVID-19 revealed three major variants, named A, B, and C; the A-type being the ancestral type, firstly detected in China. The A and C types are found in significant proportions in Europe and America, whereas the B type is the most common in East Asia (     ).
+    </p>
+    <p>
+     In 2002–2003, a first “atypical pneumonia,” called severe acute respiratory syndrome (SARS) was reported in Guangdong Province in China. The disease then spread to 37 countries to cause more than 8,000 cases, with a case-fatality rate of ~10% (     ). At that time, SARS had already posed a worldwide public health threat, with a major impact on the economy. More recently, the Middle East respiratory syndrome (MERS) spread to 27 countries, causing around 2,500 cases. Among the CoVs, MERS has the highest case fatality rate (about 30%), but it is rarely transmitted between humans, only via camel (     ). Thus, for the third time in a few decades, a new CoV has crossed species to infect human populations. However, compared with the other two CoVs, SARS-CoV-2 is much more contagious. Until now, more than 7 million cases have been diagnosed globally, with over 400,000 fatalities worldwide through early June 2020, with a basic reproductive number estimated to be from 2.2 to 3.3 and a mortality rate of around 2.3% (     ,     ).
+    </p>
+    <p>
+     Like the other CoVs, SARS-CoV-2 possesses a typical envelope structure with spike proteins at the surface; this characteristic certainly plays a major role in interspecies transmission. Based on similarities in spike structure characteristics between SARS-CoV-2 and SARS-CoV, several research groups have demonstrated that SARS-CoV-2 also utilizes the human angiotensin-converting enzyme 2 (ACE2) receptor as a cellular entry receptor (     ,     ). ACE2 is mainly expressed in vascular endothelial cells and the renal tubular epithelium. PCR analysis revealed that ACE2 is also expressed in the lungs and gastrointestinal tract, which are tissues shown to harbor viruses (     ). It was also suggested that CD147 (basigin or the EMMPRIN protein) could be another cell-surface receptor for SARS-CoV-2 (     ). By co-immunoprecipitation, ELISA, and immuno-electron microscopy, they show that anti-CD147 antibody (Meplazumab) could competitively inhibit the binding of spike protein (SP) with CD147 and thus prevent infection of target cells. A phase II clinical trial entitled “Clinical study of anti-CD147 humanized Meplazumab for injection to treat with 2019-nCoV pneumonia” (
+     <ext-link ext-link-type="uri" ns0:href="https://ClinicalTrials.gov">
+      ClinicalTrials.gov
+     </ext-link>
+     identifier: NCT04275245) is currently underway in China aiming to prevent SARS-CoV-2 SP binding and subsequent infection (     ). CD209L (L-SGN) has been identified as another possible alternative receptor for SARS-CoV-2, as previously described for the SARS-CoV virus (     ).
+    </p>
+    <p>
+     This review highlights some of the most recent advances in our understanding of the role of innate and adaptive cellular immunity in COVID-19 infection and discusses potential links to pathogenesis.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2">
+    <title>
+     Immunopathology of COVID-19
+    </title>
+    <sec>
+     <title>
+      What of the Acute Infection?
+     </title>
+     <p>
+      The first symptoms associated with COVID-19 are mainly those of respiratory disease, although neurologic and digestive symptoms can also be observed. The primary mode of infection is human-to-human transmission through close contact, via the spraying of droplets from infected individuals, primarily through the nasal and larynx mucosa, followed by entrance into the lungs through the respiratory tract. Next, in more severe cases, damage/oedema due to extracellular fluid may let the virus enter the peripheral blood from the lungs, causing viremia. COVID-19 has a probable asymptomatic incubation period between 2 and 14 days during which the virus can be transmitted (      ), but importantly, the duration of SARS-CoV-2 RNA detection has not been well-characterized. Zhou et al. (      ) found that viral titers in nasopharyngeal aspirates diminish 10–15 days after the onset of symptoms, but remains high when the clinical disease worsens. It is, however, noteworthy that the presence of viral RNA in specimens does not always correlate with viral transmissibility; a major limitation remains the inability to differentiate between infective and non-infective (dead or antibody-neutralized) viruses. For SARS and MERS, it had previously been shown that viral RNA persisted in the respiratory tract for at least 3 weeks after disease onset in a majority of patients (      ).
+     </p>
+    </sec>
+    <sec>
+     <title>
+      What of the Severe Forms?
+     </title>
+     <p>
+      More than 80% of COVID-19 cases were asymptomatic or presented with mild symptoms, while the remaining cases were severe or critical (      ,      ). It seems that the case-fatality rate of COVID-19 (about 1%) is lower than those of SARS (10%) and MERS (30%). Like other pathogenic CoVs, COVID-19 is associated with a typical influenza-like syndrome with fever, cough, fatigue and/or myalgia. Although diarrhea was reported in a foursome of patients with SARS and MERS, intestinal symptoms were rarely observed in patients with COVID-19 (      ,      ,      ).
+     </p>
+     <p>
+      An early report in China found that 14% of COVID-19 patients were hospitalized, including 5% with ICU intervention (      ). Similar proportions were observed later in Europe and the US (      ). Among those who are seriously ill, acute hypoxemic respiratory failure due to acute respiratory distress syndrome (ARDS) is mainly observed (      ,      ). At this stage, the need for mechanical ventilation is high, ranging from 40 to 100% (      ); however, encephalitis and antiphospholipid syndrome are rare (      ). Common complications of COVID-19 include acute kidney injury, elevated liver enzymes, and cardiac injury (      ). The limited COVID-19 post mortem data show prominent alveolar edema, fibrin deposition, immune cell infiltration, and severe multi-organ damage, including renal, cardiac, and liver dysfunction (      ,      ).
+     </p>
+     <p>
+      It was also reported that about 90% of COVID-19 hospitalized patients had at least one risk factor (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cdc.gov/coronavirus/2019-ncov/index.html">
+       www.cdc.gov/coronavirus/2019-ncov/index.html
+      </ext-link>
+      ). Older age, in particular, as well as a higher sequential organ failure assessment (SOFA) score on admission, are associated with a higher probability of in-hospital death, whereas elevated levels of blood IL-6, high-sensitivity cardiac troponin I, and lymphopenia are more commonly seen in severe COVID-19 illness (      ). It is still unknown why the cytokine storm may account for the severity of infection in elderly and immunocompromised (i.e., diabetics) but not in the young population who are mostly asymptomatic but have a fully functional immune system. However, the variability of clinical cases observed during exposure and infection with SARS-CoV-2 likely suggests that human genetic factors can also influence the response to this virus. However, to date, very few studies have been conducted to determine its real impact.
+     </p>
+     <p>
+      Based on patients analyzed, SARS-CoV-2 infects all age groups equally, except perhaps children and adolescents. One unanswered question is why some patients develop severe disease, while others do not. Among the different parameters that can influence the severity of this infection, we will focus on the role of the cellular immune response.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3">
+    <title>
+     Recent Progress in Immune Control of COVID-19 Pathogenesis
+    </title>
+    <p>
+     Usually, type I interferons (IFN-α/β) provide the first line of defense by generating cell-intrinsic antimicrobial states to limit virus replication. It seems, however, that pathogenic CoVs are particularly adapted to dampen responses mediated by IFN-α/β (     ,     ). Several hypotheses were proposed to explain this early modulation of the immune response. It was shown that the Orf6 protein of SARS-CoV disrupts the karyopherin transport (     ) and consequently inhibits the import of transcriptional factors, such as STAT1, into the nucleus, resulting in an inhibition of IFN response. Similarly, the Orf3b protein of SARS-CoV inhibits phosphorylation of interferon regulatory factor 3 (IRF3) (     ), a protein involved in the activation of IFN-α/β. In China, the guidelines for the treatment of COVID-19 recommended administering IFN-α in combination with ribavirin (     ), although no improvement was recorded. Interestingly, IFN-α effectively inhibited SARS-CoV replication but 50–90 times lower than IFN-β (     –     ), suggesting that IFN-β could be a better antiviral component in patients treatment. Thus, in the European DisCoVeRy trial, a combination of subcutaneous IFN-β with lopinavir/ritonavir is compared to hydroxychloroquine and remdesivir.
+    </p>
+    <p>
+     The loss of the “front line” antiviral defense mechanism mediated by IFN-α/β deficiency could be implicated in the induction of the cytokine storm leading to macrophage activation syndrome (MAS)-like pathology (     ,     ). This cytokine storm is considered as the root cause of pathogenic inflammation in COVID-19. However, its initial trigger is not yet known, but it likely involves the immune systems detection of a large quantity of viral antigens released by dying cells. One in two fatal cases of COVID-19 experience a cytokine storm, 82% of whom are over the age of 60 (     ). Interestingly, NLRP3, a major protein component of the inflammasome, could play a role. During aging, there is a steady increase in the abundance and activity of NLRP3 in immune cells in the lung, which contribute to pulmonary fibrosis (     ). After age and hematological cancers, obesity is the next major risk factor for COVID-19 fatality, similar to type 2 diabetes. Obesity is well-known to increase the activity of NLRP3 and stimulate inflammation during viral infection (     ).
+    </p>
+    <p>
+     The cytokine storm is mainly associated with a high production of pro-inflammatory cytokines (i.e. IL-1β, IL-6, TNF-α) (     ). For example, IL-6 production is about 3-fold higher in patients with complicated COVID-19 compared to asymptomatic patients (     ). Preliminary data with tocilizumab, a humanized anti-IL-6 monoclonal antibody, in patients with COVID-19 pneumonia reveal clinical improvement in a small number of patients (     ). Similarly, interferon gamma-induced protein 10 (IP-10) is correlated with patient viral load, whereas monocyte-chemotactic protein 3 (MCP3) is associated with loss of lung function (PaO
+     <sub>
+      2
+     </sub>
+     /FaO
+     <sub>
+      2
+     </sub>
+     ratio), lung injury (Murray Score) and fatal outcome (     ). Systemic inflammation was also observed in fatal cases of H1N1, with high IL-6 and IP-10 concentrations in the lungs, associated with massive infiltration of immune cells in the lung (     ), also reported in severe or fatal forms of avian H5N1 and H7N9 pulmonary infection (     ,     ).
+    </p>
+    <sec>
+     <title>
+      What of the Cell-Innate Immunity?
+     </title>
+     <p>
+      The epithelium of the lungs is the largest surface in the human body (&gt;200 m      ) in direct contact with the external environment. The lungs inhale daily about 10,000 l of air that contains various pathogenic particles, like the SARS-CoV-2 in fine droplets. Thus, this constant exposure to pathogens requires a very efficient immune system to sense the challenge and protect the host. To this end, the airways are endowed with physical barriers such as a layer of mucus, which is present over its entire surface to defend this tissue against pathogens, but also a vast network of cellular and humoral host defense mechanisms.
+     </p>
+     <p>
+      This network is mainly composed of epithelial cells of the respiratory tract, dendritic cells (DC) and alveolar macrophages. These cells trigger pro-inflammatory downstream immune responses in the presence of viral particles. Liao et al. (      ) found that the depletion of tissue-resident alveolar macrophages and the accumulation of inflammatory macrophages in bronchoalveolar lavage cells were associated with disease severity. However, it would be necessary to finely test the infectivity of the monocyte/macrophage lineage with SARS-CoV-2 to determine better its impact on inflammatory responses. In this acute inflammatory reaction, neutrophils are also attracted and localized mainly in the bronchoalveolar space (      ). Consistently, elevated neutrophil levels were reported in COVID-19      patients (      ,      ). Importantly, the lung constitutes the most important reservoir of neutrophils in the systemic circulation (~40% of total body neutrophils). It is plausible that elevated neutrophil level is associated with increased reactive oxygen species (ROS) and neutrophil extracellular traps (NETs), both considered as the most potent antimicrobial mechanisms used by neutrophils. Inappropriate levels of these neutrophil-derived products could contribute to the development of the “cytokine storm” initiated by the lung-infiltrating macrophages, and then to the partial destruction of lung tissues (      ) (      ,      ).
+     </p>
+     <p>
+      Mucosal-associated invariant T (MAIT) cells represent a population of innate T cells. They recognize metabolites that are presented by the major histocompatibility complex (MHC) class I-related protein MR1. Potential effectors of MAIT cell antimicrobial activity include the secretion of TNF-α, IFN-γ, IL-17A, and IL-22 as well as granzyme B and perforin (      ,      ). Changes in MAIT cell frequencies have been reported in several viral infections; for example, higher cell numbers were found in survivors infected by H7N9 influenza, compared to samples from fatalities (      ). Consistently,
+      <italic>
+       in vitro
+      </italic>
+      coculture of primary peripheral blood mononuclear cells and H7N9-infected A549 airway epithelial cells was associated with increased intracellular IFN-γ and granzyme B levels in MAIT cells (      ). Very recent preliminary data also suggested a very significant decrease of MAIT cells in COVID-19      patients; expression of the CD69 activation marker on blood MAIT cells at inclusion was predictive of COVID-19 severity (      ).
+     </p>
+     <p>
+      Natural killer (NK) cells are another key element of innate immunity (      ). It was rapidly determined that in COVID-19 patients, the total number of NK cells is markedly decreased (      ), as previously reported for the SARS (      ). NK cells express a variety of receptors that transduce either activating or inhibitory signals. Integration of these signals regulates the effector functions of NK cells, including cytotoxic activity and cytokine secretion (      ,      ). In patients infected with SARS-CoV-2, NKG2A expression was significantly increased on NK cells (      ). The CD94/NK group 2 member A (NKG2A) heterodimeric receptor is one of the most prominent NK inhibitory receptors. It binds to a non-classical minimally polymorphic HLA class I molecule (HLA-E), which presents peptides derived from leader peptide sequences of other HLA class I molecules (      ). Upon ligation by peptide-loaded HLA-E, NKG2A transduces inhibitory signaling through 2 inhibitory immune-receptor tyrosine-based inhibition motifs, thus suppressing NK cytokine secretion and cytotoxicity (      ). A clinical trial is ongoing in the presence of anti-NKG2A (Monalizumab) in Patients with advanced or metastatic cancer infected by SARS-CoV-2 (
+      <ext-link ext-link-type="uri" ns0:href="https://ClinicalTrials.gov">
+       ClinicalTrials.gov
+      </ext-link>
+      Identifier: NCT04333914). However, more extensive phenotypic studies of NK cells will be necessary to determine the role of other cell markers and to measure their impact in disease evolution better. Consistent with increased NKG2A levels on NK cells from COVID-19 patients, low polyfunctional capacities were reported (      ). Hence, SARS-CoV-2 may break down antiviral immunity mediated by NK cells at an early stage of infection, with putative consequences for the development of an efficient adaptive immunity. To increase NK-cell capability, a phase I clinical trial is ongoing to evaluate the safety and efficiency of allogenic NK-cell transfer in combination with standard therapy for 30 pneumonia patients infected with SARS-CoV-2 (
+      <ext-link ext-link-type="uri" ns0:href="https://ClinicalTrials.gov">
+       ClinicalTrials.gov
+      </ext-link>
+      identifier: NCT04280224).
+     </p>
+     <p>
+      In other infectious situations, such as dengue virus infection, activation of NK cells by antibodies (Abs) can enhance controlled antibody-dependent enhancement (ADE) process (      ), which occurs when Abs specific to a viral determinant facilitate secondary infection. Interestingly, it was shown previously that sera from SARS-CoV infected patients enhance viral entry into Fc receptor-expressing cells (      ,      ). This mechanism should be extensively studied in a COVID-19 context to guide the development of future vaccine and antibody-based drug therapy.
+     </p>
+     <p>
+      Together, the preliminary data on COVID-19 patients suggest that SARS-CoV-2 could use different strategies to evade and/or antagonize different arms of the innate immune system.
+     </p>
+    </sec>
+    <sec>
+     <title>
+      What of the Cell-Adaptive Immunity?
+     </title>
+     <p>
+      Severe lymphopenia was observed until death in non-survivor patients with COVID-19 (      ). Consistently, the acute phase of SARS in human patients was associated with marked leukopenia in up to 80% of hospitalized patients, associated with a dramatic loss of CD4 and CD8 T cells (      ,      ). In SARS-CoV-infected patients, it was shown that infection of T lymphocytes directly contributes to lymphopenia and atrophy of the spleen and lymphoid tissue (      ). Lymphopenia is also observed in MERS patients, albeit to a lesser degree than in SARS patients (      ). Understanding the mechanism of lymphopenia could open the way to the development of a new strategy for the treatment of COVID-19. Several potential mechanisms could be considered: (i) The virus might directly infect lymphocytes, resulting in lymphocyte death, as recently reported by Wang et al. (      ) for the SARS-CoV-1. (ii) The virus can damage different target organs, such as bone marrow and thymus, which can no longer function normally. (iii) Inflammatory cytokines are massively produced, perhaps leading to lymphocyte apoptosis. (iv) Lymphocytes are trapped in infected tissues (      ). Further research is needed to confirm these hypotheses. Importantly, the loss of lymphocytes was transient; CD8      T lymphocytes and memory CD4      T cells of SARS patients returned to normal within 2–3 and 12 months after infection, whereas other CD4      T cell subsets were still lower than in healthy controls (      ).
+     </p>
+     <p>
+      The first study on patients with COVID-19 revealed that low levels of IFN-γ and TNF-α in CD4      T cells are associated with severity. Consistently, in CD8      T cells, the frequency of the exhausted (PD-1      CTLA-4      TIGIT      ) subset was significantly higher in the severe group (      ). Consequently, the no (low) functionality of CD8      T cells in severe patients could impact an efficient control of infection (      ), as previously described in SARS-CoV infection (      ). Furthermore, COVID-19 was associated with a significant decrease of T cell activation, determined by CD25, CD28, and CD69 expression on CD4      and CD8      T cell subsets (      ). Despite a wave of information on the specific T cell responses to many other pathogens, less is known about respiratory CoV infections. CD8      T cells are typically required for the control of influenza virus and other respiratory viruses (      ). Furthermore, T resident memory cells (TRM) are critical in preventing re-infection from influenza virus (      ). Their role in SARS-Co-V2 infection should be, however, more finely determined. In senescent mice infected by SARS-CoV, CD8      CTLs alone are not sufficient to clear the virus in the absence of both CD4      T cells and specific Abs (      ).
+     </p>
+     <p>
+      On the other hand, depletion of CD4      T cells in SARS-infected patients reduced production of neutralizing Abs and Th1 cytokines and induced lower recruitment of inflammatory monocytes in the lung. This mechanism can be bypassed by a passive transfer of neutralizing Abs against SARS-CoV, suggesting that the CD4-mediated control of infection most likely operates through Ab- and/or cytokine-dependent mechanisms. In fatal human fulminant cases of H1N1 influenza pneumonia that required mechanical ventilation, a strong effector T-cell response in the lungs was also observed in conjunction with high production of IFN-γ and IP-10, suggesting a massive and effective translocation of specific T cells to the lungs (      ).
+     </p>
+     <p>
+      Genetic differences in HLA haplotypes are also key parameters, known to contribute to individual sensitivity against pathogens as previously described for tuberculosis, leprosy, HIV, hepatitis B, and influenza (      ). For example, HLA-A      11, HLA-B      35, and HLA-DRB1      10 confer susceptibility to H1N1 infection (      ). For SARS-CoV-2, a preliminary
+      <italic>
+       in silico
+      </italic>
+      analysis of viral peptide-MHC class-1 binding affinity suggests that individuals expressing HLA-B      46:01 may be particularly vulnerable to COVID-19, as previously shown for the SARS. At the same time, HLA-B      15:03 showed the greatest capacity to present highly conserved SARS-CoV-2 peptides shared among common human CoVs (      ,      ). This observation suggests that the HLA distribution could affect the cellular immune response to SARS-CoV-2, and might explain the differences in COVID-19 susceptibility around the world. However, it seems crucial for the development of vaccine strategies to understand whether specific HLA haplotypes are associated with the development of anti-SARS-CoV-2 immunity. Interestingly, among the first 120 available SARS-CoV-2 sequences (as of February 21, 2020), several B cell and T cell epitopes specific to SARS-CoV-2 were identified for the spike and nucleocapsid proteins, that potentially induce protection against COVID-19 (      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4">
+    <title>
+     Concluding Comments
+    </title>
+    <p>
+     Current observations indicate that SARS-CoV-2 is particularly adapted to evade immune responses at the early stage of infection. Most mechanisms are linked to inappropriate type 1 IFN responses, massive inflammatory cytokine production, and possibly to a defect in NK-cell functions. Preliminary data also suggest adaptive immune evasion, as indicated by the exhaustion of T lymphocytes. However, current evidence strongly indicated that the Th1-type response is key to the successful control of human pathogenic CoVs, in the association with the presence of specific neutralizing Abs. Although there are clear relationships between the severity of the disease and immune responses, the role of protective immunity currently remains questionable.
+    </p>
+    <p>
+     Alarmingly, some patients remain viral positive, while others even relapse, after discharge from hospital, as recently stated by WHO (     ), suggesting that complete control of the virus by the immune response could be difficult to induce at least in some patients. This could also have an impact on the development of the second wave of the epidemic, which is currently strongly envisaged. The vaccine remains the best way to counter this epidemic. However, to define the surrogate parameters of vaccine efficacy, it should be important to better monitor T/B cell responses of recovered patients and to better understand the aging impact on the immune responses in COVID-19 patients, including the relative protection of younger individuals, excepted for some unexplained cases of Kawasaki-like syndrome. If overlapping epitopes among different human CoVs can be identified, this could help in the design of cross-reactive vaccines that protect against several pathogenic CoVs in the future.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="data-availability">
+    <title>
+     Data Availability Statement
+    </title>
+    <p>
+     All datasets presented in this study are included in the article.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     All authors were involved in reading bibliography and writing the article. All co-authors reviewed the article.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

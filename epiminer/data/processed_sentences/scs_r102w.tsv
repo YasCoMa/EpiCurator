@@ -1,0 +1,7 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+2213590	body	Arrow|point|to|weak|cap|occasionally|observe|in|the|R102W|mutant|.	R102W|mutant	2
+2213590	body	Detergent|extract|be|prepare|from|strain|express|WSC|-|HA|or|WSC|-|R102W|-|HA|from|the|native|wsc|promoter|and|anti|-|HA|antibody|be|use|to|precipitate|WSC|.	WSC|WSC|R102W|-|HA|antibodies	6
+2213590	body	6|C.|(|E|)|Aberrant|WSC–WSC|complex|in|the|R102W|mutant|.	R102W|mutant	2
+2213590	body	After|detergent|extraction|,|the|R102W|mutant|display|a|sedimentation|pattern|similar|to|WSC|;|however|,|when|we|use|a|buffer|that|favor|disassembly|of|the|WSC|complex|,|the|R102W|mutant|show|a|great|tendency|to|disassemble|and|be|significantly|shift|to|less|dense|region|of|the|gradient|compare|with|wild|-|type|WSC|(|Fig|.	R102W|mutant|WSC|complex|R102W|mutant	6
+2213590	body	The|mutation|R102Q|and|R102W|be|introduce|into|epitope|-|tag|(|GJP|#|1353|)|and|GFP|-|fuse|(|GJP|#|1245|)|version|of|wsc|use|site|-|direct|mutagenesis|with|primer|wsc|-|Mut7|-|f|,|wsc|-|Mut7|-|r|(|R102Q|)|and|wsc|-|Mut8|-|f|,|and|wsc|-|Mut8|-|r|(|R102W|)|.	R102W|epitope|GJP|#|1353|GFP|Mut7|Mut7|R102Q|Mut8|Mut8|R102W	12
+2213590	body	For|WSC|-|R102W|-|GFP|overexpression|,|the|R102W|mutation|be|introduce|into|the|hex|promoter–controlle|version|of|wsc|(|GJP|#|1500|)|,|produce|plasmid|GJP|#|1821|.	R102W|GFP|GJP|#|1500	5

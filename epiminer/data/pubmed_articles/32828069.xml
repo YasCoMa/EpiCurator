@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Immunoinformatics-guided design of an epitope-based vaccine against severe acute respiratory syndrome coronavirus 2 spike glycoprotein.
+ </title>
+ <abstract>
+  <AbstractText Label="AIMS">
+   With a large number of fatalities, coronavirus disease-2019 (COVID-19) has greatly affected human health worldwide. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the virus that causes COVID-19. The World Health Organization has declared a global pandemic of this contagious disease. Researchers across the world are collaborating in a quest for remedies to combat this deadly virus. It has recently been demonstrated that the spike glycoprotein (SGP) of SARS-CoV-2 is the mediator by which the virus enters host cells.
+  </AbstractText>
+  <AbstractText Label="MAIN METHODS">
+   Our group comprehensibly analyzed the SGP of SARS-CoV-2 through multiple sequence analysis and a phylogenetic analysis. We predicted the strongest immunogenic epitopes of the SGP for both B cells and T cells.
+  </AbstractText>
+  <AbstractText Label="KEY FINDINGS">
+   We focused on predicting peptides that would bind major histocompatibility complex class I. Two optimal epitopes were identified, WTAGAAAYY and GAAAYYVGY. They interact with the HLA-B*15:01 allele, which was further validated by molecular docking simulation. This study also found that the selected epitopes are able to be recognized in a large percentage of the worlds population. Furthermore, we predicted CD4   T-cell epitopes and B-cell epitopes.
+  </AbstractText>
+  <AbstractText Label="SIGNIFICANCE">
+   Our study provides a strong basis for designing vaccine candidates against SARS-CoV-2. However, laboratory work is required to validate our theoretical results, which would lay the foundation for the appropriate vaccine manufacturing and testing processes.
+  </AbstractText>
+ </abstract>
+</article>

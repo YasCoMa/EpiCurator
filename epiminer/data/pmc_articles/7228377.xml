@@ -1,0 +1,3337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Development of epitope‐based peptide vaccine against novel coronavirus 2019 (SARS‐COV‐2): Immunoinformatics approach
+ </title>
+ <abstract>
+  <p>
+   Recently, a novel coronavirus (SARS‐COV‐2) emerged which is responsible for the recent outbreak in Wuhan, China. Genetically, it is closely related to SARS‐CoV and MERS‐CoV. The situation is getting worse and worse, therefore, there is an urgent need for designing a suitable peptide vaccine component against the SARS‐COV‐2. Here, we characterized spike glycoprotein to obtain immunogenic epitopes. Next, we chose 13 Major Histocompatibility Complex‐(MHC) I and 3 MHC‐II epitopes, having antigenic properties. These epitopes are usually linked to specific linkers to build vaccine components and molecularly dock on toll‐like receptor‐5 to get binding affinity. Therefore, to provide a fast immunogenic profile of these epitopes, we performed immunoinformatics analysis so that the rapid development of the vaccine might bring this disastrous situation to the end earlier.
+  </p>
+  <p>
+   <list list-type="bullet">
+    <list-item>
+     <p>
+      The potential epitopes of coronavirus (SARS‐CoV‐2) are identified.
+     </p>
+    </list-item>
+    <list-item>
+     <p>
+      The docking complex of the construct vaccine and TLR5 is described.
+     </p>
+    </list-item>
+    <list-item>
+     <p>
+      Peptide‐based vaccine developed and in silico validation is provided.
+     </p>
+    </list-item>
+    <list-item>
+     <p>
+      Common epitopes of coronavirus (SARS‐CoV‐2) against B‐cells and T‐cells are listed.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="jmv25736-sec-0010">
+    <label>
+     1
+    </label>
+    <title>
+     INTRODUCTION
+    </title>
+    <p>
+     At the end of 2019, a novel coronavirus (SARS‐COV‐2) was identified as the cause of a cluster of pneumonia cases in Wuhan, a city in the Hubei province of China.     It has a positive‐sense single‐stranded RNA as their genetic component and shares genome similarity with SARS‐CoV and bat coronavirus,     ,     79.5% and 96% respectively. Phylogenetically, it belongs to the family Coronaviridae, order Nidovirales and is a β‐coronavirus of 2B group.
+    </p>
+    <p>
+     Regarding epidemiology, human‐to‐human transmission of the virus through the sneezes, cough, and respiratory droplets has been confirmed, yet the zoonotic nature has not been confirmed.     ,     ,     Epidemiologic investigation in Wuhan, China identified an initial association with a seafood market where most patients had worked or visited.     However, as the outbreak progressed, several confirmed cases were reported sporadically all over the world, showing the pandemic nature of the disease named as COVID‐19. At last, on 30 January 2020, the World Health Organization (WHO) declared this outbreak a public health emergency of international concern.     According to the situation report 35 (reported by 24 February 2020) of WHO, in China, 77 262 confirmed cases were reported, of which 2595 cases were with deaths. Moreover, outside of China, 2069 confirmed cases were reported in 29 other countries (
+     <ext-link ext-link-type="uri" ns0:href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200224-sitrep-35-covid-19.pdf?sfvrsn=1ac4218d_2">
+      https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200224-sitrep-35-covid-19.pdf?sfvrsn=1ac4218d_2
+     </ext-link>
+     ).
+    </p>
+    <p>
+     Therefore, as the situation was getting worse and worse, the need for designing a suitable peptide vaccine component against the SARS‐COV‐2 was growing. Our work was to find suitable epitopes, which can generate enough immune response against the SARS‐COV‐2 infection. Using immunoinformatics, we could recognize and characterize potential B and T‐cell epitopes for the generation of the epitopic vaccine against SARS‐COV‐2.     Specifically, the spike glycoprotein of SARS‐COV‐2 is considered as the target because it forms a characteristic crown of the virus and protrudes from the viral envelope.     So, the protein sequence of spike glycoprotein was explored thoroughly using multiple immunoinformatic‐based servers and software, to identify various epitopes for an effective vaccine.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jmv25736-sec-0020" sec-type="materials-and-methods">
+    <label>
+     2
+    </label>
+    <title>
+     MATERIALS AND METHODS
+    </title>
+    <sec id="jmv25736-sec-0030">
+     <label>
+      2.1
+     </label>
+     <title>
+      Collection of targeted protein sequence
+     </title>
+     <p>
+      The amino acid sequence of the targeted protein on SARS‐COV‐2 was collected from the National Centre for Biotechnological Information (NCBI) database.      The protein sequence is very crucial for identifying the potential epitopes of the targeted protein.
+     </p>
+    </sec>
+    <sec id="jmv25736-sec-0040">
+     <label>
+      2.2
+     </label>
+     <title>
+      Identification of B‐cell epitopes
+     </title>
+     <p>
+      In this subsection, we used the Immune Epitope Database (IEDB) to identify linear B‐cell epitopes using the incorporated BepiPred 2.0 prediction module.      ,      We provided the FASTA sequence of the targeted protein as an input considering all default parameters.
+     </p>
+    </sec>
+    <sec id="jmv25736-sec-0050">
+     <label>
+      2.3
+     </label>
+     <title>
+      Identification of T‐cell epitopes and antigenicity analysis
+     </title>
+     <p>
+      T‐cell epitopes having the binding affinity towards MHC‐I and MHC‐II alleles were selected to boost up both cytotoxic T‐cell and helper T‐cell mediated immune response. We adopted two servers which are ProPred‐I and ProPred server to the selection of MHC‐I and MHC‐II binding epitopes respectively within preidentified B‐cell epitopic region.      ,      The selected epitopes were submitted to the VaxiJen v.2.0 server applying a virus as a target field with the given threshold value of 0.4 for analyzing the antigenic propensity.
+     </p>
+    </sec>
+    <sec id="jmv25736-sec-0060">
+     <label>
+      2.4
+     </label>
+     <title>
+      Vaccine construction, modeling, and validation
+     </title>
+     <p>
+      With the help of a specific peptide linker, we fused the antigenic epitopes to construct an effectual vaccine component. Later, the vaccine component was modeled in the SPARKS‐X server.      An adjuvant was also added with the vaccine component to accelerate the adaptive immune responses. The vaccine model passed through two different servers ProSA‐web and PROCHECK—in a subsequent manner for evaluating the structural accuracy of the model.      ,
+     </p>
+    </sec>
+    <sec id="jmv25736-sec-0070">
+     <label>
+      2.5
+     </label>
+     <title>
+      Molecular docking analysis
+     </title>
+     <p>
+      Molecular docking is the most promising part of the modern drug‐discovery method. Here, in this study, we adopted PatchDock (Beta 1.3 Version) docking server to receptor‐ligand docking.      PatchDock server analyzes the molecular docking between the vaccine component and the toll‐like receptor (TLR)‐5. The generated Protein Data Bank (PDB) file of the protein‐peptide docking complex was visualized in PyMOL software v.2.3.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jmv25736-sec-0080" sec-type="results">
+    <label>
+     3
+    </label>
+    <title>
+     RESULT
+    </title>
+    <sec id="jmv25736-sec-0090">
+     <label>
+      3.1
+     </label>
+     <title>
+      Collection of targeted protein sequence
+     </title>
+     <p>
+      Spike glycoprotein of SARS‐COV‐2, retrieved from the NCBI has the GenBank accession ID: QHR63290.1. This spike glycoprotein has 1282‐long amino acid sequences and this sequence was downloaded in a FASTA format to carry out the further process.
+     </p>
+    </sec>
+    <sec id="jmv25736-sec-0100">
+     <label>
+      3.2
+     </label>
+     <title>
+      Identification of B‐cell epitopes
+     </title>
+     <p>
+      We obtained a total of 34 sequential linear B‐cell epitopes of varying lengths from the IEDB server within spike glycoprotein of SARS‐COV‐2. Those B‐cell epitopes were placed into Table      based on their positional value, sequence, and length. In Figure      the yellow‐colored peaks represent the epitopic region, while the green‐colored slopes, represent the nonepitopic region.
+     </p>
+     <table-wrap content-type="Table" id="jmv25736-tbl-0001" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        List of linear B‐cell epitopes along with their sequence, position, and length
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th colspan="1" rowspan="1" valign="bottom">
+          Serial no.
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Start
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          End
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Sequence
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Length
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          22
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          46
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          SQCVNLTTRTQLPPAYTNSFTRGVY
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          68
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          90
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          FSNVTWFHAIHVSGTNGTKRFDN
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          106
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          107
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          KS
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          147
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          163
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DPFLGVYYHKNNKSWME
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          186
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          198
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          MDLEGKQGNFKNL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          13
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          215
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          230
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          KHTPINLVRDLPQGFS
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          259
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          269
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          TPGDSSSGWTA
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          302
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          305
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          LDPL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          9
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          313
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          331
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          KSFTVEKGIYQTSNFRVQP
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          19
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          338
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          372
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          FPNITNLCPFGEVFNATRFASVYAWNRKRISNCVA
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          35
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          378
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          402
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          YNSASFSTFKCYGVSPTKLNDLCFT
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          12
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          413
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          435
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          GDEVRQIAPGQTGKIADYNYKLP
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          13
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          449
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          510
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          NLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTN
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          62
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          14
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          525
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          545
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ELLHAPATVCGPKKSTNLVKN
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          21
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          15
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          564
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          571
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          SNKKFLPF
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          589
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          592
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          QTLE
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          611
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          615
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          TNTSN
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          625
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          641
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          NCTEVPVAIHADQLTPT
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          19
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          643
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          653
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          RVYSTGSNVFQ
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          20
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          665
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          675
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          VNNSYECDIPI
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          21
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          681
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          699
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ASYQTQTNSPRRARSVASQ
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          19
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          22
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          704
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          719
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          YTMSLGAENSVAYSNN
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          23
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          757
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          757
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          E
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          24
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          782
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          788
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          EQDKNTQ
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          795
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          809
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          KQIYKTPPIKDFGGF
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          15
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          26
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          816
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          823
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          PDPSKPSK
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          27
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          837
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          851
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          LADAGFIKQYGDCLG
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          15
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          28
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          997
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1001
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          EAEVQ
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          29
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1044
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1052
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          GQSKRVDFC
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          9
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          30
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1116
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1127
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          RNFYEPQIITTD
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          12
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          31
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1142
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1181
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          VNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGI
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          40
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          32
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1212
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1215
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          LGKY
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          33
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1261
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1276
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          SCCKFDEDDSEPVLKG
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          34
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1278
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1278
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          K
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="jmv25736-sec-0110">
+     <label>
+      3.3
+     </label>
+     <title>
+      Identification of T‐cell epitopes and antigenicity analysis
+     </title>
+     <p>
+      We identified 29 MHC‐I epitopes and 8 MHC‐II epitopes, which fall within the preidentified B‐cell epitopic region. Among them, 13 MHC‐I epitopes and 3 MHC‐II epitopes had the antigenic propensity, according to the VaxiJen v.2.0 server analysis. The MHC‐I and MHC‐II epitopes are listed in Tables      and      with encountering MHC alleles and antigenic scores.
+     </p>
+     <table-wrap content-type="Table" id="jmv25736-tbl-0002" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        List of epitopes with encountering MHC‐I alleles, positional value, and VaxiJen antigenic score
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th colspan="1" rowspan="1" valign="bottom">
+          Serial no.
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Epitopic sequence
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          MHC‐I alleles
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Position
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Antigenicity
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td colspan="1" rowspan="6" valign="top">
+          1
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          SQCVNLTTR
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3101
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          22‐30
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          1.5476 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3302
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A68.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A20 Cattle
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Db revised
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="8" valign="top">
+          2
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          YTNSFTRGV
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          37‐45
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          −0.6177 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B61
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="5" valign="top">
+          3
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          GVYYHKNNK
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*1101
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          151‐159
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          0.8264 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A3
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A68.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="8" valign="top">
+          4
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          GKQGNFKNL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          190‐198
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          1.0607 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A20 Cattle
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Db
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Db revised
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Dd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kb
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="24" valign="top">
+          5
+         </td>
+         <td colspan="1" rowspan="24" valign="top">
+          TPINLVRDL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A24
+         </td>
+         <td colspan="1" rowspan="24" valign="top">
+          217‐225
+         </td>
+         <td colspan="1" rowspan="24" valign="top">
+          0.3862 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B14
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3901
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B40
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*4403
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5103
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0602
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Ld
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="7" valign="top">
+          6
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          GIYQTSNFR
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*1101
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          320‐328
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          0.5380 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A3
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3302
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A68.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A20 Cattle
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="8" valign="top">
+          7
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          NLCPFGEVF
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A1
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          343‐351
+         </td>
+         <td colspan="1" rowspan="8" valign="top">
+          0.1999 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A3
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B62
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Ld
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="6" valign="top">
+          8
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          FASVYAWNR
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3101
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          356‐364
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          0.0713 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A68.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A20 Cattle
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="9" valign="top">
+          9
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          ASFSTFKCY
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A1
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          381‐389
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          0.2795 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*4403
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Ld
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="14" valign="top">
+          10
+         </td>
+         <td colspan="1" rowspan="14" valign="top">
+          VSPTKLNDL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A24
+         </td>
+         <td colspan="1" rowspan="14" valign="top">
+          391‐399
+         </td>
+         <td colspan="1" rowspan="14" valign="top">
+          1.4610 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0602
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Dd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kb
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Ld
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="13" valign="top">
+          11
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          KIADYNYKL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          426‐434
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          1.6639 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0205
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A24
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A3
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="14" valign="top">
+          12
+         </td>
+         <td colspan="1" rowspan="14" valign="top">
+          KVGGNYNYL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0201
+         </td>
+         <td colspan="1" rowspan="14" valign="top">
+          453‐461
+         </td>
+         <td colspan="1" rowspan="14" valign="top">
+          0.5994 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0205
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A24
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A68.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Db
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Db revised
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kb
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="7" valign="top">
+          13
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          RLFRKSNLK
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          463‐471
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          −0.2829 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*1101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A3
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*3101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A68.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A20 Cattle
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="9" valign="top">
+          14
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          FERDISTEI
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3701
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          473‐481
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          −0.7442 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B40
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*4403
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B61
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kk
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="13" valign="top">
+          15
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          EGFNCYFPL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          493‐501
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          0.5453 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B14
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B40
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5103
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Dd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kb
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="5" valign="top">
+          16
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          ELLHAPATV
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          525‐533
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          0.2109 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5103
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B62
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="13" valign="top">
+          17
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          GPKKSTNLV
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          535‐543
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          0.6828 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5103
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B61
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Ld
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="6" valign="top">
+          18
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          TEVPVAIHA
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3701
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          627‐635
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          0.2687 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B40
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*4403
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B61
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kk
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="11" valign="top">
+          19
+         </td>
+         <td colspan="1" rowspan="11" valign="top">
+          RVYSTGSNV
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="11" valign="top">
+          643‐651
+         </td>
+         <td colspan="1" rowspan="11" valign="top">
+          0.2636 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0205
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5103
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="9" valign="top">
+          20
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          NSYECDIPI
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2702
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          667‐675
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          0.2216 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5103
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Db revised
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kk
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="9" valign="top">
+          21
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          SPRRARSVA
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          689‐697
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          0.7729 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Ld
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="6" valign="top">
+          22
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          LGAENSVAY
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          707‐715
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          0.4173 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*4403
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B62
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Dd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="11" valign="top">
+          23
+         </td>
+         <td colspan="1" rowspan="11" valign="top">
+          KQIYKTPPI
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="11" valign="top">
+          795‐803
+         </td>
+         <td colspan="1" rowspan="11" valign="top">
+          0.2705 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A*0205
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B62
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*0702
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Dd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kd
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="7" valign="top">
+          24
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          FIKQYGDCL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          842‐850
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          −0.4436 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B8
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="5" valign="top">
+          25
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          RNFYEPQII
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2702
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          1116‐1124
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          0.3282 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*2705
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5201
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="9" valign="top">
+          26
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          VNNTVYDPL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A24
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          1142‐1150
+         </td>
+         <td colspan="1" rowspan="9" valign="top">
+          0.2397 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3701
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B7
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kb
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="7" valign="top">
+          27
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          ELDSFKEEL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          1153‐1161
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          −0.6805 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A3
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3902
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐Cw*0602
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="6" valign="top">
+          28
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          FKNHTSPDV
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          1165‐1173
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          0.4846 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A20 Cattle
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐A2.1
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*5401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*51
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="6" valign="top">
+          29
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          DEDDSEPVL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*3701
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          1266‐1274
+         </td>
+         <td colspan="1" rowspan="6" valign="top">
+          0.5104 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B40
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B*4403
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B60
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          HLA‐B61
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          MHC‐Kk
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+     <table-wrap content-type="Table" id="jmv25736-tbl-0003" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        List showing the epitopes with encountering MHC‐II alleles, positional value and VaxiJen antigenic score
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <col span="1" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000" valign="bottom">
+         <th colspan="1" rowspan="1" valign="bottom">
+          Serial no.
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Sequence
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Alleles
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Position
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          VaxiJen score
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td colspan="1" rowspan="10" valign="top">
+          1
+         </td>
+         <td colspan="1" rowspan="10" valign="top">
+          IHVSGTNGT
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0306
+         </td>
+         <td colspan="1" rowspan="10" valign="top">
+          77‐85
+         </td>
+         <td colspan="1" rowspan="10" valign="top">
+          0.8621 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0307
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0308
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0311
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0404
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0410
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0421
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0423
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0426
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="23" valign="top">
+          2
+         </td>
+         <td colspan="1" rowspan="23" valign="top">
+          VYYHKNNKS
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0306
+         </td>
+         <td colspan="1" rowspan="23" valign="top">
+          152‐160
+         </td>
+         <td colspan="1" rowspan="23" valign="top">
+          0.4510 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0307
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0308
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0311
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0402
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0404
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0405
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0408
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0410
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0421
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0423
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0426
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1114
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1120
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1121
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1322
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1323
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1327
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1328
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1506
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="10" valign="top">
+          3
+         </td>
+         <td colspan="1" rowspan="10" valign="top">
+          LVRDLPQGF
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0301
+         </td>
+         <td colspan="1" rowspan="10" valign="top">
+          221‐229
+         </td>
+         <td colspan="1" rowspan="10" valign="top">
+          0.1234 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0305
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0306
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0307
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0308
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0309
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0311
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0421
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0426
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1107
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="25" valign="top">
+          4
+         </td>
+         <td colspan="1" rowspan="25" valign="top">
+          VFNATRFAS
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0301
+         </td>
+         <td colspan="1" rowspan="25" valign="top">
+          350‐358
+         </td>
+         <td colspan="1" rowspan="25" valign="top">
+          0.1739 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0305
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0309
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0802
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0804
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0813
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1104
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1106
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1107
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1114
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1120
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1121
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1302
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1304
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1307
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1311
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1322
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1323
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1327
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1328
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1506
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="32" valign="top">
+          5
+         </td>
+         <td colspan="1" rowspan="32" valign="top">
+          YRLFRKSNL
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0101
+         </td>
+         <td colspan="1" rowspan="32" valign="top">
+          462‐470
+         </td>
+         <td colspan="1" rowspan="32" valign="top">
+          0.0522 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0305
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0309
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0405
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0408
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0701
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0703
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0801
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0802
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0804
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0806
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0813
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0817
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1101
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1114
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1120
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1121
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1128
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1301
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1302
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1304
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1305
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1307
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1321
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1322
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1323
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1327
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1328
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1501
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1502
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1506
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="7" valign="top">
+          6
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          FERDISTEI
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0305
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          473‐481
+         </td>
+         <td colspan="1" rowspan="7" valign="top">
+          −0.7442 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0426
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0309
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0421
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0701
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0703
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="5" valign="top">
+          7
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          YQTQTNSPR
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0421
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          683‐691
+         </td>
+         <td colspan="1" rowspan="5" valign="top">
+          −0.1787 (Probable Nonantigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0405
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0408
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0426
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="13" valign="top">
+          8
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          FKNHTSPDV
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0101
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          1166‐1174
+         </td>
+         <td colspan="1" rowspan="13" valign="top">
+          0.4846 (Probable Antigen).
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0309
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0401
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0405
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0421
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0426
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0701
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_0703
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1114
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1120
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1302
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1323
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          DRB1_1502
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <permissions>
+       <copyright-holder>
+        John Wiley &amp; Sons, Ltd.
+       </copyright-holder>
+       <license>
+        <license-p>
+         This article is being made freely available through PubMed Central as part of the COVID-19 public health emergency response. It can be used for unrestricted research re-use and analysis in any form or by any means with acknowledgement of the original source, for the duration of the public health emergency.
+        </license-p>
+       </license>
+      </permissions>
+     </table-wrap>
+    </sec>
+    <sec id="jmv25736-sec-0120">
+     <label>
+      3.4
+     </label>
+     <title>
+      Vaccine construction, modeling, and validation
+     </title>
+     <p>
+      In this study, we linked the 13 MHC‐I and 3 MHC‐II antigenic epitopes with (EAAAK)
+      <sub>
+       3
+      </sub>
+      linker peptide to construct a vaccine component. This linker peptide was easily fused with the virus coat protein and increased stability as well as folding of the vaccine component.      The predicted structure of the vaccine component is shown in Figure      . It has 90.0%, 7.1%, 1.6%, and 1.3% residues in most favored, additionally allowed, generously allowed and disallowed regions respectively within PROCHECK as the validation server to generate Ramachandran plot. Using the ProSA server, the “
+      <italic>
+       Z
+      </italic>
+      ” score was −3.82 and most of the residues had negative energy value as shown in Figure      . Results from both servers indicate the model is in a good quality.      ,
+     </p>
+    </sec>
+    <sec id="jmv25736-sec-0130">
+     <label>
+      3.5
+     </label>
+     <title>
+      Molecular docking analysis
+     </title>
+     <p>
+      The PatchDock server provided 20 docking complexes, and among them, we selected only the docking complex with the highest negative atomic contact energy (ACE) value for analysis. The ACE value of the docking complex was −259.62, which indicates spontaneous reactivity between the vaccine component and TLR‐5.      As proper protein‐protein docking regulates the cellular functions, the docking between the vaccine component and TLR‐5 will activate immune cascades for destroying the viral antigens.      The selected docking complex is shown in Figures      and      , along with molecular surface interaction as well as some bonding interactions.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jmv25736-sec-0140" sec-type="discussion">
+    <label>
+     4
+    </label>
+    <title>
+     DISCUSSION
+    </title>
+    <p>
+     The SARS‐COV‐2, the causative pathogen for respiratory distress syndrome, led more than 10 000 people to infection all over the world, even several to death. After first identified in Wuhan, Hubei province of China, the COVID‐19 disease spread unchecked which finally became a global threat. Scientists from all over the world are struggling to find a solution to this evil outbreak.
+    </p>
+    <p>
+     In our present study, we attempted to find out various B‐cell and T‐cell epitopes against SARS‐COV‐2, using the immunoinformatics, as quick identification of B‐cell and T‐cell epitopes is crucial for designing of vaccine component against this disease. The spike glycoprotein was analyzed for B‐cell epitope identification in the IEDB server, and 34 linear B‐cell epitopes were identified as a result. Subsequently, the sequence was also analyzed in ProPred‐I and ProPred servers for the identification of the T‐cell epitope that can combine with MHC‐I and MHC‐II molecules. Fortunately, we found 29 epitopes against MHC‐I and 8 epitopes against MHC‐II that can be possibly used for vaccine. Unfortunately, antigenic characterization in VaxiJen v.2.0 discarded 16 MHC‐I epitopes out of 29 and 5 out of 8 MHC‐II epitopes as these seemed to be nonantigenic in nature. Nevertheless, we converted the antigenic epitopes into a single vaccine component, using (EAAAK)
+     <sub>
+      3
+     </sub>
+     peptide linker.
+    </p>
+    <p>
+     Later, the vaccine component was modeled in the SPARK‐X server and validated in PROCHECK and ProSA. A total of 90% of nonglycine and nonproline residues presented within the most favored region, while the “
+     <italic>
+      Z
+     </italic>
+     ” score of the model was −3.82. These results from both servers indicate the model is in good quality. Molecular docking between vaccine component and TLR‐5 showed significant ACE value, which indicates spontaneous reactivity within the receptor‐ligand complex.
+    </p>
+    <p>
+     All the observations of our present work depict the effectiveness of selected epitopes within the spike glycoprotein of SARS‐COV‐2. These epitopes can be used to make an immunogenic multi‐epitopic peptide vaccine against SARS‐COV‐2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="jmv25736-sec-0150" sec-type="conclusions">
+    <label>
+     5
+    </label>
+    <title>
+     CONCLUSION
+    </title>
+    <p>
+     Present immunoinformatic analysis pointed out 13 MHC‐I and 3 MHC‐II epitopes within the spike glycoprotein of SARS‐COV‐2. These epitopes are the ideal candidate to formulate a multi‐epitopic peptide vaccine, not only because of being selected from the linear B‐cell epitopic region but also because of their antigenic property was confirmed. Moreover, the molecular docking of vaccine components with the TLR‐5 proves the significance and effectiveness of these epitopes as an ideal vaccine candidate against SARS‐COV‐2. However, these immunoinformatic analyses require several in vitro and in vivo validations before formulating the vaccine to resist COVID‐19.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

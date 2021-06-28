@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Applying high throughput and comprehensive immunoinformatics approaches to design a trivalent subunit vaccine for induction of immune response against emerging human coronaviruses SARS-CoV, MERS-CoV and SARS-CoV-2
+ </title>
+ <abstract>
+  <p>
+   Coronaviruses (CoVs) cause diseases such as severe acute respiratory syndrome (SARS), Middle East respiratory syndrome (MERS), and coronavirus disease 2019 (COVID-19). Therefore, this study was conducted to combat major CoVs via a trivalent subunit vaccine, which was engineered by implementing sequences of spike (S) protein, nucleocapsid (N), envelope (E), membrane (M) protein, non-structural protein (nsp) 3, and nsp8 antigens. The CTL, HTL, MHC I, and IFN-γ epitopes were predicted via CTLPRED, IEDB, and IFN epitope servers, respectively. Also, to stimulate strong helper T lymphocytes (HTLs) responses, Pan HLA DR-binding epitope (PADRE) was used. Also, for boosting the immune response, β-defensin 2 was added to the construct as an adjuvant. Furthermore, TAT was applied to the vaccine to facilitate the intracellular delivery. Finally, TAT, adjuvant, PADRE, and selected epitopes were appropriately assembled. Based on the predicted epitopes, a trivalent multi-epitope vaccine with a molecular weight of 74.8 kDa was constructed. Further analyses predicted the molecule to be a strong antigen, and a non-allergenic and soluble protein. Secondary and tertiary structures were predicted. Additionally, analyses validated the stability of the proposed vaccine. Molecular docking and molecular dynamics simulation (MDS) showed binding affinity and stability of the vaccine-TLR3 complex was favorable. The predicted epitopes demonstrated a strong potential to stimulate T and B-cell mediated immune responses. Furthermore, codon optimization and
+   <italic>
+    in silico
+   </italic>
+   cloning guaranteed increased expression. In summary, investigations demonstrated that this next-generation approach might provide a new horizon for the development of a highly immunogenic vaccine against SARS‐CoV, MERS‐CoV, and SARS-CoV-2.
+  </p>
+  <p>
+   Communicated by Ramaswamy H. Sarma
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec disp-level="1" id="S0001" sec-type="intro">
+    <label>
+     1.
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p>
+     Coronaviruses (CoVs) are positive-strand viruses from the family Coronaviridae, which is named after its crown-like shape (Tortorici &amp; Veesler,     ). CoVs have caused major outbreaks in recent years (Azhar et al.,     ; Habibzadeh &amp; Stoneman,     ). Various human CoVs have spread globally, causing mostly mild illness, while others are highly pathogenic. The first severe acute respiratory syndrome (SARS)-CoV emerged in china in 2001, and resulted in a global outbreak. However, this outbreak was successfully contained. In 2012, another CoV variant named Middle East respiratory syndrome (MERS)-CoV emerged in Jeddah, Saudi Arabia. However, this outbreak never diminished perfectly, and hospitals and community outbreaks continued to occur annually (Fehr &amp; Perlman,     ). Recently, SARS-CoV-2 initiated an outbreak that turned into a pandemic, raising global consternation. This newly surfaced virus that caused a new disease named coronavirus disease (COVID-19), has a considerably lower mortality rate. However, the rapid transmission of the virus has turned COVID-19 into a fatal pandemic, which indicates a raising need for novel treatments and preventive methods.
+    </p>
+    <p>
+     Numerous vaccine and drug design efforts have been targeted on CoVs. Some vaccine design efforts against SARS-CoV-2 have progressed into phase I clinical trials for SARS-CoV-2 in the USA (NCT04283461) and China (NCT04313127). However, results of preventive and therapeutic approaches targeted at CoVs, in particular, vaccines have not been adequately successful. Several aspects of CoVs may highlight the importance of prevention. Remarkably, various subtypes of CoVs such as MERS-CoV, which has caused past outbreaks, have remained relevant (Kleine-Weber et al.,     ).
+    </p>
+    <p>
+     CoV proteins can be classified into two subgroups, structural and non-structural proteins (nsps). The genome of CoVs is surrounded by structural proteins comprising spike (S) protein, nucleocapsid (N), envelope (E), and membrane (M) proteins (Rappuoli et al.,     ). S protein performs various functions and mediates the cellular entrance of CoVs. After attachment of the S protein to its receptor, CoVs can enter the cytoplasm. Protease breakdown of S protein is required for virus-cell fusion and the entry of genomic RNA (Dawson et al.,     ; Rappuoli et al.,     ; Zumla et al.,     ). The S protein of SARS-CoV-2 is highly similar to SARS-CoV. Also, polyclonal antibodies for SARS-CoV suppress spike-regulated entrance of SARS-CoV-2 (Walls et al.,     ). HCoV-NL63, a virus that only causes mild symptoms, also has S protein, and recruits the angiotensin-converting enzyme 2 (ACE2) for entering the host cell, while showing a very low pathogenicity. This indicates that additional factors are responsible for the pathogenicity of the major CoVs involved in significant outbreaks. (Hofmann et al.,     ). A high similarity was determined for N protein of SARS-CoV, SARS-CoV-2, and MERS-CoV, while it was significantly different from other CoVs that mainly cause mild illness. Thus, the N protein has been suggested as a promising candidate for cross-protective vaccine design. (Ong et al.,     ). The E and M proteins have been suggested as vaccine candidates in reverse vaccinology (RV) assessments. The E and M proteins showed key roles in the viral assembly of CoVs. Further, the N protein is essential for viral RNA synthesis. Deletion of the E protein inhibits the virulence of CoVs, and some researches have been directed at the efficacy of live attenuated vaccines that comprise recombinant SARS-CoV or MERS-CoV with a mutated E protein (Shang et al.,     ). Also, M protein has been utilized for DNA vaccine construction against SARS-CoV (Shi et al.,     ). The implementation of non-structural proteins (nsp), a part of ORF1a polyprotein, may result in additional protection. The nsp3 is the second-highest pathogenic factor of SARS-CoV-2 protein. Most vaccines contain an attenuated or inactivated whole virus and structural proteins. However, such vaccines could not give complete protection, and whole vaccines may cause side effects. Therefore, next-generation vaccines are to be developed.
+    </p>
+    <p>
+     Taken together, an efficient multipotent preventive vaccine against various subclasses of rapidly emerging human CoVs remains to be discovered. This is highly important because of the recent CoV outbreak, which has raised an urgent need for the development of vaccine research. For this purpose, bioinformatics analyses have been utilized to aid the vaccine design process. Hence, we utilized
+     <italic>
+      in silico
+     </italic>
+     methods to design a trivalent novel cross-protective multi-epitope vaccine against SARS-CoV, MERS-CoV, and SARS-CoV-2 via spike (S) protein, nucleocapsid (N), envelope (E), membrane (M) protein, nsp3, and nsp8 antigens.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0002" sec-type="materials">
+    <label>
+     2.
+    </label>
+    <title>
+     Material and methods
+    </title>
+    <sec disp-level="2" id="S0002-S2001">
+     <label>
+      2.1.
+     </label>
+     <title>
+      Retrieval of protein sequences
+     </title>
+     <p>
+      The critical immunogenic proteins of the SARS-CoV-2, SARS-CoV and MERS-CoV. were evaluated and six proteins were selected and the amino acid sequence of nsp3 (Accession no. YP_009725299.1, ACZ72252.1:819-2740, and YP_009047231.1), nsp8 (Accession no. YP_009725304.1, ACZ72252.1:3920-4117, and YP_009047236.1), E protein (Accession no. QIH45055.1, ABI96961.1and ATG84893.1), M protein (Accession no. QII57163.1, P59596.1, and AXN73531.1), S protein (Accession no. QII57161.1, A.1, and AXN73514.1), and N protein (Accession no. QIH45060.1, P59595.1, and ATG84895.1) were retrieved from the Universal Protein Resource (UniProt) (
+      <ext-link ext-link-type="uri" ns0:href="http://www.uniprot.org">
+       http://www.uniprot.org
+      </ext-link>
+      ) and the National Center for Biotechnology Information (NCBI) (
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/protein/">
+       https://www.ncbi.nlm.nih.gov/protein/
+      </ext-link>
+      ). The sequences were then saved in FASTA format.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2002">
+     <label>
+      2.2.
+     </label>
+     <title>
+      Cytotoxic T lymphocytes (CTL) and IFN-γ inducing epitopes prediction
+     </title>
+     <p>
+      Choosing CTLs epitopes is one of the most important elements of vaccine development. This is due to that CTLs kill virus-infected or damaged cells by recognizing the epitopes presented by MHC-I. Indeed, the initial step of stimulating the immune system is presenting an antigen on the MHC-I. CTLPred (
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/ctlpred/">
+       http://crdd.osdd.net/raghava/ctlpred/
+      </ext-link>
+      ) is a freely accessible web server for the prediction of CTL epitopes. This server is based on artificial neural network (ANN), support vector machine (SVM), consensus, and combined prediction methods.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2003">
+     <label>
+      2.3.
+     </label>
+     <title>
+      Helper T-lymphocyte (HTL) epitope prediction and IFN-γ inducing epitopes prediction
+     </title>
+     <p>
+      IEDB prediction tool (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.immuneepitope.org/mhcii/">
+       http://tools.immuneepitope.org/mhcii/
+      </ext-link>
+      ) was employed to predict helper T cell (HTL) epitopes via the selected antigens. Each selected peptide was a 15mer. The epitopes were predicted for human HLA-II alleles as target species. We used the IEDB recommended method to achieve the best possible result. Besides, IFN-γ plays an essential role in the innate and adaptive immune response by stimulating natural killer cells and macrophages, and provides an elevated response to MHC antigens. Also, IFN-γ epitope server (
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/ifnepitope/scan.php">
+       http://crdd.osdd.net/raghava/ifnepitope/scan.php
+      </ext-link>
+      ) was used to predict IFN-positive sequences in the selected antigens (Dhanda et al.,      ; Webb &amp; Sali,      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2004">
+     <label>
+      2.4.
+     </label>
+     <title>
+      Trivalent subunit multi-epitope vaccine construct and gene optimization
+     </title>
+     <p>
+      The N-terminal sequence of the subunit vaccine starts with the TAT peptide of HIV as cell-penetrating peptides (CPPs) and is followed by the β-defensin 2 as an adjuvant. Following this step, PADRE was utilized as helper T lymphocyte epitope. Then, HTL and CTL selected epitopes were added sequentially for each SARS-CoV-2, SARS-CoV, and MERS-CoV protein, respectively. The AAY, GPGPG, EAAAK, KK, and GGGS amino acids sequences were used as suitable linkers to attach the selected epitopes and achieve a multi-epitope vaccine consisting of an antigenic part of a pathogenic organism to elicit an immunological response. Finally, the DNA sequence of the subunit vaccine and its adaptation to
+      <italic>
+       E. coli
+      </italic>
+      codon usage were obtained from the JCAT server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.jcat.de">
+       http://www.jcat.de
+      </ext-link>
+      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2005">
+     <label>
+      2.5.
+     </label>
+     <title>
+      Population coverage
+     </title>
+     <p>
+      IEDB population coverage tool (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/population/">
+       http://tools.iedb.org/population/
+      </ext-link>
+      ) was used to determine the population coverage of the final construct within the global population. Epitope/MHC restriction data were loaded on IEDB and prediction calculations were performed for MHC-I and MHC-II separate epitopes.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2006">
+     <label>
+      2.6.
+     </label>
+     <title>
+      Physico-chemical parameters analysis
+     </title>
+     <p>
+      The codon usage was analyzed by Java Codon Adaptation Tool (JCat).The Mfold server (
+      <ext-link ext-link-type="uri" ns0:href="http://unafold.rna.albany.edu/">
+       http://unafold.rna.albany.edu/
+      </ext-link>
+      ) was used to predict the secondary structure of RNA. Mfold online server predicts the true positive base pairs and minimum ΔG for structures via thermodynamics methods. Besides, the physical and chemical vaccine parameters were discovered. Some physicochemical characteristics of the designed structure, including amino acid composition, instability index, molecular weight, PI value,
+      <italic>
+       in vitro
+      </italic>
+      and
+      <italic>
+       in vivo
+      </italic>
+      estimated half-life, aliphatic index, extinction coefficient, and grand average of hydropathicity (GRAVY) were evaluated using ProtParam online server (
+      <ext-link ext-link-type="uri" ns0:href="https://web.expasy.org/protparam/">
+       https://web.expasy.org/protparam/
+      </ext-link>
+      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2007">
+     <label>
+      2.7.
+     </label>
+     <title>
+      Prediction of solubility, antigenicity, and allergenicity
+     </title>
+     <p>
+      SOLpro online server (
+      <ext-link ext-link-type="uri" ns0:href="http://scratch.proteomics.ics.uci.edu">
+       http://scratch.proteomics.ics.uci.edu
+      </ext-link>
+      ) was utilized to predict the propensity of the protein to be soluble upon overexpression in
+      <italic>
+       Escherichia Coli
+      </italic>
+      . This server uses a two-stage SVM architecture method to evaluate the protein solubility based on multiple representations of the primary sequence. Besides, the prediction of allergenicity with high precision was discovered by AlgPred (
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/algpred/">
+       http://crdd.osdd.net/raghava/algpred/
+      </ext-link>
+      ). Furthermore, the antigenicity of the proposed vaccine was assessed using another online server VaxiJen v2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html">
+       http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html
+      </ext-link>
+      ). The accuracy of this server varies from 70% to 89% depending on the organism.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2008">
+     <label>
+      2.8.
+     </label>
+     <title>
+      Prediction of secondary and tertiary structures
+     </title>
+     <p>
+      The secondary structure of the predicted vaccine was predicted using GOR IV and PSIPRED online servers (
+      <ext-link ext-link-type="uri" ns0:href="http://expasy.org/tool/gor4.html">
+       http://expasy.org/tool/gor4.html
+      </ext-link>
+      and
+      <ext-link ext-link-type="uri" ns0:href="http://bioinf.cs">
+       http://bioinf.cs
+      </ext-link>
+      . ucl.ac.uk/psipred/), respectively. The percentage of the helices (H), strands (S), and coils (C) were determined. Homology modeling of the final protein construct was performed by GalaxyTBM
+      <underline>
+       (
+      </underline>
+      <ext-link ext-link-type="uri" ns0:href="http://galaxy.seoklab.org/index.html">
+       http://galaxy.seoklab.org/index.html
+      </ext-link>
+      ). GalaxyTBM is a template-based tertiary structure prediction online server, and predicts protein structure from the sequence when experimental structures of homologous proteins are available as templates, and refines loop or terminus regions by
+      <italic>
+       ab initio
+      </italic>
+      modeling.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2009">
+     <label>
+      2.9.
+     </label>
+     <title>
+      Refinement and validation of the 3 D modeled structure
+     </title>
+     <p>
+      The tertiary structure of the final vaccine construct produced by the RaptorX server depending on the degree of similarity between available template structure options and the target protein. Therefore, the GalaxyRefine server (
+      <ext-link ext-link-type="uri" ns0:href="http://galaxy.seoklab.org/cgi-bin/submit.cgi?type=REFINE">
+       http://galaxy.seoklab.org/cgi-bin/submit.cgi?type=REFINE
+      </ext-link>
+      ) was used to further improve the accuracy of the modeled structure. The CASP10 assessed the GalaxyRefine server and reported that GalaxyRefine is one of the best-performing methods for improving the local structure quality. Also, SAVES v5.0 server (
+      <ext-link ext-link-type="uri" ns0:href="http://servicesn.mbi.ucla.edu/PROCHECK/">
+       http://servicesn.mbi.ucla.edu/PROCHECK/
+      </ext-link>
+      ) was employed to validate the refined model and design a Ramachandran plot for our structure.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2010">
+     <label>
+      2.10.
+     </label>
+     <title>
+      Prediction of intrinsic protein disorder
+     </title>
+     <p>
+      DisEMBL 1.5 (
+      <ext-link ext-link-type="uri" ns0:href="http://dis.embl.de/">
+       http://dis.embl.de/
+      </ext-link>
+      ) and IUPred (
+      <ext-link ext-link-type="uri" ns0:href="http://iupred.enzim.hu/pred.php">
+       http://iupred.enzim.hu/pred.php
+      </ext-link>
+      ) were utilized to predict intrinsic protein disorder and unstructured regions within a protein. DisEMBL is a public online server for predicting disorder in proteins. Also, DISOPRED3 was employed to predict essential protein disorder and unstructured regions in our proposed vaccine.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2011">
+     <label>
+      2.11.
+     </label>
+     <title>
+      Prediction of conformational and linear B-cell epitopes
+     </title>
+     <p>
+      We utilized Discotope 2.0 server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/DiscoTope/">
+       http://www.cbs.dtu.dk/services/DiscoTope/
+      </ext-link>
+      ) to predict conformational epitopes for the modeled vaccine. The Discotope 2.0 server was used for the estimation of surface accessibility in terms of contact numbers and a new epitope propensity amino acid score to predict discontinuous B cell epitopes from the tertiary structure. The final scores were determined by combining the propensity scores of residues in spatial proximity and contact numbers. Also, ElliPro online server (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/ellipro/">
+       http://tools.iedb.org/ellipro/
+      </ext-link>
+      ) was employed to predict linear and discontinuous B-cell epitopes. ElliPro classifies the conformational epitopes based on protrusion index, and clusters them based on distance R (Å), while the Discotope method utilizes a calculation of surface accessibility and epitope propensity amino acid score. Finally, conformational epitopes with the highest scores were selected.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2012">
+     <label>
+      2.12.
+     </label>
+     <title>
+      Disulfide bond engineering
+     </title>
+     <p>
+      Improving the stability of the modeled vaccine, an important step in the vaccine design process, was completed by an approach to disulfide bond formation. Disulfide bonds provide a well-defined geometric conformation and significant stability for the protein structure. Disulfide engineering was done by Disulfide by design v2.0 (DbD2) to design novel disulfide bonds in the vaccine protein construct (Craig &amp; Dombkowski,      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2013">
+     <label>
+      2.13.
+     </label>
+     <title>
+      Molecular docking between vaccine construct and TLRs
+     </title>
+     <p>
+      Molecular Docking was performed to perceive the interaction between the receptors (TLR-3, TLR4, and TLR8) and the ligand (the final vaccine construct) at their stable form and to check the binding affinity between them. The protein-protein docking was also performed by the Hdock online server (
+      <ext-link ext-link-type="uri" ns0:href="http://hdock.phys.hust.edu.cn/">
+       http://hdock.phys.hust.edu.cn/
+      </ext-link>
+      ). HDOCK is a docking server that efficiently integrates various components, comprising sequence search, template selection, and model building. The predictive power of the HDOCK server can also be improved by ranking the template-based models. Moreover, the center of extremely populated clusters and the lowest binding energy of the receptor-ligand complexes were predicted. After several rotations of the ligand, the docked complex was selected based on the lowest binding energy. Moreover, re-affirmation was performed by the PatchDock online server (
+      <ext-link ext-link-type="uri" ns0:href="https://bioinfo3d.cs.tau.ac.il/PatchDock/">
+       https://bioinfo3d.cs.tau.ac.il/PatchDock/
+      </ext-link>
+      ) to evaluate the interaction between the designed vaccine construct and the receptors. This server produces the output based on three algorithms: filtering and scoring, molecular shape representation, and surface patch matching. The output composed of rank, global energy, atomic contact energy, transformations, and PDB file for the complex.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2014">
+     <label>
+      2.14.
+     </label>
+     <title>
+      Molecular dynamics simulation study
+     </title>
+     <p>
+      The molecular dynamics (MD) simulation technique was carried out by the utilization of GROningen MAchine for Chemical Simulations (single-precision, version 2020.3) (GROMACS) (Van Der Spoel et al.,      ). The vaccine underwent a brief simulation, which was followed by last-frame extraction. This was then taken to the next MD step. Then, we simulated the TLR3 (as the main involved TLR in virus infections)-vaccine in a blood-like environment. VMD (Humphrey et al.,      ), and UCSF chimera softwares were utilized to check MD process. OPLS-AA force field was used to make the topology of proteins (Sambasivarao &amp; Acevedo,      ). We conducted the minimization step through the steepest descent algorithm in order to obtain a convergence Fmax aim of less than 1000 KJ.mol      .nm      . To avoid atoms from exceeding the box, periodic boundary conditions (PBC) by XYZ coordinates were considered. Afterwards, two equilibration stages comprising of NVT (for 100 ps), followed by NPT (for 100 ps) were carried out. We used the Brendsen pressure coupling approach with a reference pressure of 1 bar, and set the temperature to 300°K. Last, the final MD simulation was performed for 10 ns. System specifications for simulation were Intel Core i7 4.2 Ghz and AMD Radeon Pro 580 (8 Gb VRAM). We also performed the Molecular Mechanics Poisson-Boltzmann Surface Area (MM-PBSA) analyses. The sets of structures were acquired with MD or Monte Carlo methods. Of note, the collections of structures should be stored in the format of an Amber trajectory file. The MM-PBSA package has been provided for the GROMACS package (
+      <ext-link ext-link-type="uri" ns0:href="https://rashmikumari.github.io/g_mmpbsa/">
+       https://rashmikumari.github.io/g_mmpbsa/
+      </ext-link>
+      ) as well. The MMPBSA/GBSA method combines the molecular mechanical energies with the continuum solvent approaches. MM-PBSA analyses were conducted for the equilibrated stage of the MD run. Then, SASA, electrostatic, WCA, SAV, and Van der Waal energies were reported for the contact area of the complex. We used UCSF Chimera with default contact setting and H-bond criteria to index all atoms involved in the contact area in TLR3-Vaccine complex. The contact criteria find atoms with a VDW overlap of at least −0.4 angstroms. The indexed atoms were grouped for both TLR3 and the vaccine construct, and used as an input for MMPBSA analysis.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2015">
+     <label>
+      2.15.
+     </label>
+     <title>
+      In silico cloning
+     </title>
+     <p>
+      The optimized sequence of the proposed vaccine was reversely transcribed, and to ensure the restriction of cloning,
+      <italic>
+       XhoI
+      </italic>
+      and
+      <italic>
+       Not I
+      </italic>
+      restriction sites were added to the N- and C-terminals of sequence, respectively. Then, we used the Snap-Gene restriction cloning module to insert the optimized sequence into the PET21b (+) vector between defined restriction sites.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2016">
+     <label>
+      2.16.
+     </label>
+     <title>
+      Immune simulation
+     </title>
+     <p>
+      The C-ImmSim online server (
+      <ext-link ext-link-type="uri" ns0:href="http://150.146.2.1/C-IMMSIM/index.php">
+       http://150.146.2.1/C-IMMSIM/index.php
+      </ext-link>
+      ) was used to determine the immune response profile of the constructed vaccine (Rapin et al.,      ). C-ImmSim simulates three sections that represent three different anatomical regions in mammals, including the bone marrow, the tertiary lymphatic organ, and the thymus. This is an important step for the simulation of the immune response, because it determines immunogenicity. The binding of the epitope, which is the immunogenic part of an invading pathogen, together with activation and cooperation from T helper cells, is required to trigger an immune response in the affected host.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0003" sec-type="results">
+    <label>
+     3.
+    </label>
+    <title>
+     Results
+    </title>
+    <sec disp-level="2" id="S0003-S2001">
+     <label>
+      3.1.
+     </label>
+     <title>
+      Primary analysis of the retrieved sequences
+     </title>
+     <p>
+      In this study, spike (S) protein, nucleocapsid (N), envelope (E), membrane (M) protein, nsp3 and nsp8 antigens (totally 6 protein) were used for bioinformatics analyses, as well as detecting CTL, HTL, IFN-γ, and MHC I binders epitopes. The highly conserved regions of β-defensin 2 were employed as an adjuvant because the vaccine requires a strong induction of T cell immune responses. The signal sequences were excluded from all constructed structures. The graphical abstract which represents the overall procedures of vaccine design is shown in      .
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2002">
+     <label>
+      3.2.
+     </label>
+     <title>
+      Cytotoxic T lymphocyte (CTL) prediction
+     </title>
+     <p>
+      CTL epitopes were selected according to the highest specificity and lowest sensitivity for their adaptive immune receptor. The top three epitopes with the highest score were chosen from spike S, N, E, M, nsp3, and nsp8 antigens to get a total of 18 final CTL epitopes (      ). On the other hand, we utilized the Immune Epitope Database (IEDB) tool to predict MHC-I peptide binders to human alleles HLA-B*57:01, HLA-A*26:01, HLA-A*11:01, HLA-B*35:01, HLA-A*03:01, HLA-B*15:01, HLA-A*01:01, HLA-A*11:01, HLA-A*30:02, HLA-A*23:01, HLA-B*38:01, HLA-B*07:02, HLA-C*07:01, HLA-A*03:01, HLA-A*25:01, HLA-A*31:01, and HLA-A*29:02. Finally, CTL epitopes were analyzed and IFN-γ inducing epitopes were applied to the final construct.
+     </p>
+     <table-wrap id="t0001" orientation="portrait" position="float">
+      <label>
+       Table 1.
+      </label>
+      <caption>
+       <p>
+        Predicted CTL epitopes with MHC I binding epitopes against human emerging pathogenic SARS-CoV, MERS-CoV, and SARS-CoV-2.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="left">
+          Selected Antigen
+         </th>
+         <th align="center">
+          Organism
+         </th>
+         <th align="center">
+          Position
+         </th>
+         <th align="center">
+          CTL epitope
+         </th>
+         <th align="center">
+          MHC-I epitope
+         </th>
+         <th align="center">
+          Allele
+         </th>
+         <th align="center">
+          Percentile rank
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" rowspan="3">
+          nsp3
+         </td>
+         <td align="left">
+          SARS-CoV-2
+         </td>
+         <td align="left">
+          829-840
+         </td>
+         <td align="left">
+          LNHTKKWKY
+         </td>
+         <td align="left">
+          MSALNHTKKWKY
+         </td>
+         <td align="left">
+          HLA-B*57:01
+         </td>
+         <td align="center" char=".">
+          0.26
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          SARS-CoV
+         </td>
+         <td align="left">
+          1184-1195
+         </td>
+         <td align="left">
+          FEVLAVEDT
+         </td>
+         <td align="left">
+          FEVLAVEDTQGM
+         </td>
+         <td align="left">
+          HLA-A*26:01
+         </td>
+         <td align="center" char=".">
+          0.62
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          MERS-CoV
+         </td>
+         <td align="left">
+          391-402
+         </td>
+         <td align="left">
+          SFDYLIREA
+         </td>
+         <td align="left">
+          AVSFDYLIREAK
+         </td>
+         <td align="left">
+          HLA-A*11:01
+         </td>
+         <td align="center" char=".">
+          0.32
+         </td>
+        </tr>
+        <tr>
+         <td align="left" rowspan="3">
+          nsp8
+         </td>
+         <td align="left">
+          SARS-CoV-2
+         </td>
+         <td align="left">
+          12-23
+         </td>
+         <td align="left">
+          YAAFATAQE
+         </td>
+         <td align="left">
+          YAAFATAQEAYE
+         </td>
+         <td align="left">
+          HLA-B*35:01
+         </td>
+         <td align="center" char=".">
+          0.21
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          SARS-CoV
+         </td>
+         <td align="left">
+          35-46
+         </td>
+         <td align="left">
+          KKLKKSLNV
+         </td>
+         <td align="left">
+          LKKLKKSLNVAK
+         </td>
+         <td align="left">
+          HLA-A*03:01
+         </td>
+         <td align="center" char=".">
+          2.10
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          MERS-CoV
+         </td>
+         <td align="left">
+          39-50
+         </td>
+         <td align="left">
+          AVNIAKNAY
+         </td>
+         <td align="left">
+          LQKAVNIAKNAY
+         </td>
+         <td align="left">
+          HLA-B*15:01
+         </td>
+         <td align="center" char=".">
+          0.52
+         </td>
+        </tr>
+        <tr>
+         <td align="left" rowspan="3">
+          S protein
+         </td>
+         <td align="left">
+          SARS-CoV-2
+         </td>
+         <td align="left">
+          27-38
+         </td>
+         <td align="left">
+          YTNSFTRGV
+         </td>
+         <td align="left">
+          AYTNSFTRGVYY
+         </td>
+         <td align="left">
+          HLA-A*01:01
+         </td>
+         <td align="center" char=".">
+          0.04
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          SARS-CoV
+         </td>
+         <td align="left">
+          454-465
+         </td>
+         <td align="left">
+          ISNVPFSPD
+         </td>
+         <td align="left">
+          DISNVPFSPDGK
+         </td>
+         <td align="left">
+          HLA-A*11:01
+         </td>
+         <td align="center" char=".">
+          1.40
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          MERS-CoV
+         </td>
+         <td align="left">
+          303-314
+         </td>
+         <td align="left">
+          IQSDRKAWA
+         </td>
+         <td align="left">
+          IQSDRKAWAAFY
+         </td>
+         <td align="left">
+          HLA-A*01:01
+         </td>
+         <td align="center" char=".">
+          0.11
+         </td>
+        </tr>
+        <tr>
+         <td align="left" rowspan="3">
+          M protein
+         </td>
+         <td align="left">
+          SARS-CoV-2
+         </td>
+         <td align="left">
+          185-196
+         </td>
+         <td align="left">
+          RVAGDSGFA
+         </td>
+         <td align="left">
+          QRVAGDSGFAAY
+         </td>
+         <td align="left">
+          HLA-A*30:02
+         </td>
+         <td align="center" char=".">
+          0.06
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          SARS-CoV
+         </td>
+         <td align="left">
+          53-64
+         </td>
+         <td align="left">
+          LWLLWPVTL
+         </td>
+         <td align="left">
+          LWLLWPVTLACF
+         </td>
+         <td align="left">
+          HLA-A*23:01
+         </td>
+         <td align="center" char=".">
+          0.32
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          MERS-CoV
+         </td>
+         <td align="left">
+          152-163
+         </td>
+         <td align="left">
+          HFGACDYDR
+         </td>
+         <td align="left">
+          GMHFGACDYDRL
+         </td>
+         <td align="left">
+          HLA-B*38:01
+         </td>
+         <td align="center" char=".">
+          0.49
+         </td>
+        </tr>
+        <tr>
+         <td align="left" rowspan="3">
+          N protein
+         </td>
+         <td align="left">
+          SARS-CoV-2
+         </td>
+         <td align="left">
+          45-56
+         </td>
+         <td align="left">
+          NNTASWFTA
+         </td>
+         <td align="left">
+          LPNNTASWFTAL
+         </td>
+         <td align="left">
+          HLA-B*07:02
+         </td>
+         <td align="center" char=".">
+          0.40
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          SARS-CoV
+         </td>
+         <td align="left">
+          62-73
+         </td>
+         <td align="left">
+          EELRFPRGQ
+         </td>
+         <td align="left">
+          KEELRFPRGQGV
+         </td>
+         <td align="left">
+          HLA-C*07:01
+         </td>
+         <td align="center" char=".">
+          1.40
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          MERS-CoV
+         </td>
+         <td align="left">
+          249-260
+         </td>
+         <td align="left">
+          HKRTSTKSF
+         </td>
+         <td align="left">
+          KMRHKRTSTKSF
+         </td>
+         <td align="left">
+          HLA-A*03:01
+         </td>
+         <td align="center" char=".">
+          0.80
+         </td>
+        </tr>
+        <tr>
+         <td align="left" rowspan="3">
+          Eprotein
+         </td>
+         <td align="left">
+          SARS-CoV-2
+         </td>
+         <td align="left">
+          33-44
+         </td>
+         <td align="left">
+          TALRLCAYC
+         </td>
+         <td align="left">
+          ILTALRLCAYCC
+         </td>
+         <td align="left">
+          HLA-A*25:01
+         </td>
+         <td align="center" char=".">
+          1.40
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          SARS-CoV
+         </td>
+         <td align="left">
+          50-61
+         </td>
+         <td align="left">
+          VKPTVYVYS
+         </td>
+         <td align="left">
+          SLVKPTVYVYSR
+         </td>
+         <td align="left">
+          HLA-A*31:01
+         </td>
+         <td align="center" char=".">
+          0.87
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          MERS-CoV
+         </td>
+         <td align="left">
+          49-60
+         </td>
+         <td align="left">
+          VQPALYLYN
+         </td>
+         <td align="left">
+          TLLVQPALYLYN
+         </td>
+         <td align="left">
+          HLA-A*29:02
+         </td>
+         <td align="center" char=".">
+          1.30
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec disp-level="2" id="S0003-S2003">
+     <label>
+      3.3.
+     </label>
+     <title>
+      HTL epitope prediction
+     </title>
+     <p>
+      HTL epitope prediction server for human HLA-II alleles was done with the help of the IEDB online server, including HLA-DPA1*01:03, HLA-DPB1*02:01, HLA-DQA1*01:01, HLA-DQB1*05:01, HLA-DRB1*09:01, HLA-DRB1*13:02, HLA-DRB1*13:21, HLA-DRB1*04:26, HLA-DRB1*13:02, HLA-DRB1*01:01, HLA-DQA1*05:01, HLA-DQB1*02:01, HLA-DPB1*02:01, HLA-DRB1*09:01, HLA-DRB1*11:14, HLA-DQA1*01:02, HLA-DQB1*06:02, HLA-DPA1*03:01, HLA-DPB1*04:02, HLA-DPA1*03:01, HLA-DPB1*04:02, HLA-DRB1*07:03 and HLA-DRB1*01:01 for antigens. Finally, 18 epitopes were selected from the predicted HTL epitopes based on their lowest percentile rank (      ). The lowest percentile rank reflects their binding affinity level for the MHC-II receptor. In the end, HTL epitopes were analyzed and IFN-γ inducing epitopes were predicted.
+     </p>
+     <table-wrap id="t0002" orientation="portrait" position="float">
+      <label>
+       Table 2.
+      </label>
+      <caption>
+       <p>
+        Predicted MHC II epitopes against emerging human pathogenic CoVs, SARS-CoV, MERS-CoV, and SARS-CoV-2 antigens.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th>
+          Antigen
+         </th>
+         <th>
+          Organism
+         </th>
+         <th>
+          Allele
+         </th>
+         <th>
+          Position
+         </th>
+         <th>
+          HTL
+          <break/>
+          epitopes
+         </th>
+         <th>
+          Percentile rank
+         </th>
+         <th>
+          IFN-γ
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td rowspan="3">
+          nsp3
+         </td>
+         <td align="center">
+          SARS-CoV-2
+         </td>
+         <td align="center">
+          HLA-DPA1*01:03
+          <break/>
+          HLA-DPB1*02:01
+         </td>
+         <td align="center">
+          1512-1526
+         </td>
+         <td align="center">
+          AYILFTRFFYVLGLA
+         </td>
+         <td align="center">
+          0.01
+         </td>
+         <td align="center">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          SARS-CoV
+         </td>
+         <td align="center">
+          HLA-DQA1*01:01
+          <break/>
+          HLA-DQB1*05:01
+         </td>
+         <td align="center">
+          1517-1531
+         </td>
+         <td align="center">
+          FISNSWLMWFIISIV
+         </td>
+         <td align="center">
+          0.01
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          MERS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*09:01
+         </td>
+         <td align="center">
+          1473-1487
+         </td>
+         <td align="center">
+          DWRSYNYAVSSAFWL
+         </td>
+         <td align="center">
+          0.01
+         </td>
+         <td align="center">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="3">
+          nsp8
+         </td>
+         <td align="center">
+          SARS-CoV-2
+         </td>
+         <td align="center">
+          HLA-DRB1*13:02
+         </td>
+         <td align="center">
+          184-198
+         </td>
+         <td align="center">
+          LIVTALRANSAVKLQ
+         </td>
+         <td align="center">
+          0.09
+         </td>
+         <td align="center">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          SARS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*13:21
+         </td>
+         <td align="center">
+          86-100
+         </td>
+         <td align="center">
+          AMQTMLFTMLRKLDN
+         </td>
+         <td align="center">
+          0.16
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          MERS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*04:26
+         </td>
+         <td align="center">
+          178-192
+         </td>
+         <td align="center">
+          ENLTWPLVLECTRAS
+         </td>
+         <td align="center">
+          0.23
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="3">
+          S Protein
+         </td>
+         <td align="center">
+          SARS-CoV-2
+         </td>
+         <td align="center">
+          HLA-DRB1*13:02
+         </td>
+         <td align="center">
+          113-127
+         </td>
+         <td align="center">
+          KTQSLLIVNNATNVV
+         </td>
+         <td align="center">
+          0.01
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          SARS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*01:01
+         </td>
+         <td align="center">
+          499-513
+         </td>
+         <td align="center">
+          LSFELLNAPATVCGP
+         </td>
+         <td align="center">
+          0.01
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          MERS-CoV
+         </td>
+         <td align="center">
+          HLA-DQA1*05:01
+          <break/>
+          HLA-DQB1*02:01
+         </td>
+         <td align="center">
+          239-253
+         </td>
+         <td align="center">
+          FMYTYNITEDEILEW
+         </td>
+         <td align="center">
+          0.03
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="3">
+          M Protein
+         </td>
+         <td align="center">
+          SARS-CoV-2
+         </td>
+         <td align="center">
+          HLA-DPA1*01:03
+          <break/>
+          HLA-DPB1*02:01
+         </td>
+         <td align="center">
+          89-103
+         </td>
+         <td align="center">
+          GLMWLSYFIASFRLF
+         </td>
+         <td align="center">
+          0.05
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          SARS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*09:01
+         </td>
+         <td align="center">
+          173-187
+         </td>
+         <td align="center">
+          RTLSYYKLGASQRVG
+         </td>
+         <td align="center">
+          0.07
+         </td>
+         <td align="center">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          MERS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*11:14
+         </td>
+         <td align="center">
+          8-62
+         </td>
+         <td align="center">
+          FKMFVLWLLWPSSMA
+         </td>
+         <td align="center">
+          0.06
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="3">
+          N Protein
+         </td>
+         <td align="center">
+          SARS-CoV-2
+         </td>
+         <td align="center">
+          HLA-DQA1*01:02
+          <break/>
+          HLA-DQB1*06:02
+         </td>
+         <td align="center">
+          150-164
+         </td>
+         <td align="center">
+          NPANNAAIVLQLPQG
+         </td>
+         <td align="center">
+          0.03
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          SARS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*09:01
+         </td>
+         <td align="center">
+          306-320
+         </td>
+         <td align="center">
+          AQFAPSASAFFGMSR
+         </td>
+         <td align="center">
+          0.01
+         </td>
+         <td align="center">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          MERS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*07:03
+         </td>
+         <td align="center">
+          328-342
+         </td>
+         <td align="center">
+          FLRYSGAIKLDPKNP
+         </td>
+         <td align="center">
+          0.04
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="3">
+          E Protein
+         </td>
+         <td align="center">
+          SARS-CoV-2
+         </td>
+         <td align="center">
+          HLA-DPA1*03:01
+          <break/>
+          HLA-DPB1*04:02
+         </td>
+         <td align="center">
+          18-32
+         </td>
+         <td align="center">
+          LLFLAFVVFLLVTLA
+         </td>
+         <td align="center">
+          0.02
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          SARS-CoV
+         </td>
+         <td align="center">
+          HLA-DPA1*03:01
+          <break/>
+          HLA-DPB1*04:02
+         </td>
+         <td align="center">
+          15-29
+         </td>
+         <td align="center">
+          NSVLLFLAFVVFLLV
+         </td>
+         <td align="center">
+          0.06
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+          MERS-CoV
+         </td>
+         <td align="center">
+          HLA-DRB1*01:01
+         </td>
+         <td align="center">
+          46-60
+         </td>
+         <td align="center">
+          GFNTLLVQPALYLYN
+         </td>
+         <td align="center">
+          0.03
+         </td>
+         <td align="center">
+          –
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec disp-level="2" id="S0003-S2004">
+     <label>
+      3.4.
+     </label>
+     <title>
+      Construction of the subunit vaccine
+     </title>
+     <p>
+      To design the final vaccine construct, the top-scored epitopes of CTL and HTL were assembled using the HEYGAEALERAG linker. To facilitate cell penetration of the proposed vaccine, the TAT peptide of HIV (GRKKRRQRRRPPQ) was added to the N-terminal of the construct. In addition, for increasing the immunogenicity of the vaccine, a 41 amino acid-long sequence of β-defensin 2 was added after TAT peptide as an adjuvant and was followed by the PADRE sequence (AGLFQRHGEGTKATVGEPV). The TAT peptide and β-defensin 2 were linked to the PADRE sequence through GPGPG and EAAAK linkers, respectively. The order of sequences in the final construct is summarized in      .
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2005">
+     <label>
+      3.5.
+     </label>
+     <title>
+      Population coverage
+     </title>
+     <p>
+      The prediction of MHC-I and MHC-II based coverage of the applied epitopes in the constructed vaccine was performed by IEDB analysis of resources for the world population. As SARS-CoV-2 is global pandemic, worldwide analysis has been accomplished. The world population coverage of MHC-I and MHC-II was found to be 88.77%, and 97.91%, respectively, that showed in      .
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2006">
+     <label>
+      3.6.
+     </label>
+     <title>
+      Optimized codon and mRNA structure of the chimeric vaccine
+     </title>
+     <p>
+      We use the JCAT online server to obtain the codon-optimized DNA sequence of the proposed vaccine to verify for cloning and expressing in
+      <italic>
+       E. coli
+      </italic>
+      strain K12 as a host. The optimized codon sequences had 2091 nucleotides long, GC-content reached 52.9% and its codon adaptation index was raised to 0.98. The graphical illustration of the optimized gene was shown in      . Besides, the mfold server was used to get free energy related to the whole mRNA structure and its 5′ end. Its details are shown in      . As shown in      , and D, the minimum free energy of the predicted secondary RNA structure was ΔG = −595.30 kcal/mol at 37 °C without hairpin or pseudoknot at the 5′ side.
+     </p>
+     <table-wrap id="t0003" orientation="portrait" position="float">
+      <label>
+       Table 3.
+      </label>
+      <caption>
+       <p>
+        Free energy details related to 5′ end of recombinant gene mRNA structure was predicted by mfold web server.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col width="80pt"/>
+        <col width="80pt"/>
+        <col width="80pt"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th>
+          Structural element
+         </th>
+         <th>
+          Free energy (kcal/mol)
+         </th>
+         <th>
+          Base pair
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left">
+          External loop
+         </td>
+         <td align="char" char=".">
+          −8.70
+         </td>
+         <td align="left">
+          27 ss bases &amp; 8 closing helices.
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Stack
+         </td>
+         <td align="char" char=".">
+          −2.90
+         </td>
+         <td align="left">
+          External closing pair is G          -C
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Stack
+         </td>
+         <td align="char" char=".">
+          −2.90
+         </td>
+         <td align="left">
+          External closing pair is G          -C
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Stack
+         </td>
+         <td align="char" char=".">
+          −1.80
+         </td>
+         <td align="left">
+          External closing pair is U          -A
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Helix
+         </td>
+         <td align="char" char=".">
+          −18.60
+         </td>
+         <td align="left">
+          9 base pairs.
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Stack
+         </td>
+         <td align="char" char=".">
+          −2.30
+         </td>
+         <td align="left">
+          External closing pair is G          -C
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Interior loop
+         </td>
+         <td align="char" char=".">
+          0.80
+         </td>
+         <td align="left">
+          External closing pair is G          -C
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec disp-level="2" id="S0003-S2007">
+     <label>
+      3.7.
+     </label>
+     <title>
+      Evaluation of allergenicity, antigenicity, physiochemical parameters, and solubility of the vaccine construct
+     </title>
+     <p>
+      Investigating allergenicity of the proposed vaccine is a crucial consideration to avoid allergic reactions. The resulting output of the Algpred online server determined the non-allergenic behavior of the vaccine constructs with a score of −0.59 (Threshold=-0.4). Also, the antigenicity of the construct was predicted by the VaxiJen v2.0 online server. It confirmed that the protein was a probable antigen with an overall prediction score of antigen of 0.4996. Furthermore, the physicochemical parameters were evaluated, and the molecular weight of the vaccine protein was found to be 74.8 kDa which is good to support the antigenic nature of the vaccine construct. The predicted instability index of the proposed vaccine was 39.09, which is below 40, hence, classifying the protein as stable. The isoelectric point (pI) of the construct was 9.30 and showed the basic nature of the vaccine.
+     </p>
+     <p>
+      The estimated half-life (
+      <italic>
+       in vitro
+      </italic>
+      ) in mammalian reticulocytes was found to be 30 h, while
+      <italic>
+       in vivo
+      </italic>
+      studies in
+      <italic>
+       Yeast
+      </italic>
+      and
+      <italic>
+       E. coli
+      </italic>
+      showed the interval was longer than 20 and 10 h, respectively. In addition, the aliphatic index was 80.26, which determines the thermostable nature of the proposed vaccine. Also, the grand average of hydropathicity was obtained to be 0.063, which proves the hydrophilic nature of the constructed vaccine. The value for the solubility tendency of the proposed vaccine upon overexpression in
+      <italic>
+       E. coli
+      </italic>
+      host was 0.55.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2008">
+     <label>
+      3.8.
+     </label>
+     <title>
+      Secondary and tertiary structure of subunit vaccine
+     </title>
+     <p>
+      PSIPRED server was employed to predict the secondary structure of the proposed vaccine (      ). This server showed that the vaccine was made of 43.76% alpha-helix, 16.93% extended strand, and 39.31% random coil. The tertiary structure was predicted as three domain structures using the galaxyWEB web server that is a template-based protein structure modeling web server that resulted in a modeled protein structure (      ). The 1FD3_C, 5MKE_A, and 5MKF_A were used as the best-suited templates to model the tertiary structure. All 697 amino acid residues were modeled, while the 70-92, 681-688, and 690-697 amino acids of the vaccine were unreliable local regions.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2009">
+     <label>
+      3.9.
+     </label>
+     <title>
+      Refinement and validation of the 3D structure
+     </title>
+     <p>
+      The generated 3 D structure was submitted for the refinement process to the GalaxyRefine online server to enhance the quality of predicted 3 D modeled structure beyond the accuracy. Furthermore, the refined model which was received from GalaxyRefine was analyzed by the Ramachandran plot. Validation of the 3 D structure by Ramachandran plot demonstrated 540 (92%), 37 (6.3%), and 9(1.5%) of residues were placed in favored, additionally allowed and disallowed regions, before conducting the refinement, respectively (      ). In the refined model, 550 (93.7%), 26 (4.4%), and 7 (1.2%) of residues were placed in favored, additionally allowed and disallowed regions, respectively (      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2010">
+     <label>
+      3.10.
+     </label>
+     <title>
+      Prediction of intrinsic protein disorder
+     </title>
+     <p>
+      DisEMBL online server identified and annotated disordered regions. Amino acids in the input sequence were considered disordered by remark-465 definition in the following regions: 1-23, 464-478, 689-697. Based on IUPred results, amino acids were considered disordered when the confidence score was higher than 0.5. Disordered regions were also presented in      .
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2011">
+     <label>
+      3.11.
+     </label>
+     <title>
+      Predicted B-cell epitopes
+     </title>
+     <p>
+      Ellipro and the Discotope online servers were utilized to predict the linear B-cell and discontinuous B cell epitopes, respectively. The linear B-cell and discontinuous B cell epitopes on the 3D structure are shown in      G and 9H–L, respectively. Moreover, epitopes predicted in the modeled vaccine according to various parameters were listed in      .
+     </p>
+     <table-wrap id="t0004" orientation="portrait" position="float">
+      <label>
+       Table 4.
+      </label>
+      <caption>
+       <p>
+        B cell epitopes predicted in constructed vaccine based on different parameters.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup>
+        <col width="80pt"/>
+        <col width="80pt"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="left">
+          Prediction parameter
+         </th>
+         <th align="center">
+          Epitope sequence
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left">
+          Hydrophilicity
+         </td>
+         <td>
+          AKGRKKRRQRRR, QGPGPGG, ERAGKTQS, DNHEYGA, GGSIQSD, AGGGSNNTAS, TAGGGSHKRTSTKS, PRGQGGGSTA, GACDYDRGGGS, AVEDTGGGSKK, SPDGGGSVQ, YNGGGSRVAGDS, REAGGGSY, ATAQEGGGSA
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Flexibility
+         </td>
+         <td>
+          EAAAKGRKKRRQRRRPP, EALERAGKT, GSIQSDRKAWAGGGSNNT, FTAGGGSHKRTSTKSFGGGS, LRFPRGQGGG, AYCGGGS, YVYSGGG, CDYDRGGG, LAVEDTGGGSKKLK, VPFSPDGG, YLYNGGGS, PVTLGGGSS, LIREAGG, ATAQEGGG
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Accessibility
+         </td>
+         <td>
+          AAAKGRKKRRQRRRPPQGPGP, FCPRRYKQIGT, TKCCKKPEAAAK, LERAGKTQS, YTYNITEDE, YNAAYRTLSYYKLGASQR, AYDWRSYNYAV, AYNPANNA, IKLDPKNPAAY, MLRKLDNHEYGAE, ERAGYTNSFTR, SIQSDRKAWA, GGSHKRTSTKSF, SEELRFPRGQG, SLNHTKKWKYGG, GGSKKLKKSLN, AKNAYHEYGAE, YQVNNLEE
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Turns
+         </td>
+         <td>
+          YNPANNAA, KLDNHEY, GGSNNTAS,
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Exposed Surface
+         </td>
+         <td>
+          AAKGRKKRRQRRRPPQG, CPRRYKQIG, TKCCKKPE, IKLDPKNP, RKLDNHE, HKRTSTKS, NHTKKWKYG, GSKKLKKSLN
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Polarity
+         </td>
+         <td>
+          AAKGRKKRRQRRRPPQG, FCPRRYKQIG, GTKCCKKPEA, KAAAHEYGAEALERAGKTQ, TEDEILEW, LRKLDNHEYGAEA, GGGSHKRTSTKS, GGSEELRFPRG, SLNHTKKWKYG, GSKKLKKSLN, AKNAYHEYGAEA, NNLEEIHEYGAEALERAGHHHHHH
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Antigenic Propensity
+         </td>
+         <td>
+          IGDPVTCLKSG, ICHPVFCPRRY, LPGTKCC, TQSLLIVN, FNTLLVQP, TLSYYKLG, LTWPLVLECTR, YLSFELL, IVLQLPQG, FVVFLLVTL, YNSVLLFL, FVVFLLVA, YFKMFVLWLLWPS, TRFFYVLGL, WFIISIV, SVKPTVYVYSGG, SLWLLWPVTLG
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec disp-level="2" id="S0003-S2012">
+     <label>
+      3.12.
+     </label>
+     <title>
+      Vaccine protein disulfide engineering
+     </title>
+     <p>
+      Disulfide engineering leads to an increase in vaccine stability through mutating the residues present in high mobility areas with cysteine. 76 residue pairs were found to have the ability of disulfide bond formation. But, when all these residue pairs were further analyzed for other parameters like energy on chi3 value and B-factor, only 1 pair of residues provided the disulfide bond formation. Those residue pairs were GLY360-SER368 and ASP580- GLY601 (      ). These two residues were mutated to cysteine. The energy value was analyzed for the residue screening was less than 2.2 and the value of chi3 was between −87 to +97.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2013">
+     <label>
+      3.13.
+     </label>
+     <title>
+      Molecular docking of vaccine construct with the TLR-3, TLR-4 and TLR-8
+     </title>
+     <p>
+      Protein-protein docking was done with the help of the Hdock online server between the final vaccine construct as a ligand and the TLR-3, TLR-4, and TLR-8 as receptors. We procured 20 models and the model with the lowest binding energy was selected. The Docking score for the best acceptable model of vaccine construct with TLR-3 was −326.86, whereas the ligand RMSD (Å) was 205.96. PatchDock server was used to re-affirm the docking between the final vaccine construct and TLR-3. The top 20 models were provided by the server and the model with the top-ranked and lowest binding energy was chosen.The obtained output encompasses the score (17080), Area (2493.80), ACE (408.17), and transformation (-2.83 − 0.57 − 1.83 − 49.29 3.75 160.90). The Docking score for the best acceptable model of the vaccine construct and TLR4 was −357.83, whereas the ligand RMSD (Å) was 245.12. Also, the docking score for the best acceptable model for docking among vaccine construct and TLR8 was −336.95, whereas the ligand RMSD (Å) was 292.88. The docked complexes for TLR3, TLR4, and TLR8 that was achieved from the server has been shown in      C, respectively.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2014">
+     <label>
+      3.14.
+     </label>
+     <title>
+      Molecular dynamics simulation and advanced binding results
+     </title>
+     <p>
+      The selected docked complex (TLR3-vaccine) was taken into MD simulation. The system was minimized and reached Fmax &lt; 1000 KJ.mol      .nm      (      ). The temperature progression curve indicated that the system reached 300 K very rapidly. The temperature remained constant for the rest of the 100 ps equilibration period (      ). Density showed a stable value of approximately 1008 after 10 ps (      ). The pressure progression curve validated that equilibration was also favorable. Indeed, after 20 ps, the pressure did not deviate from the fixed value of 0 bar (      ). The output of MD simulation was obtained as Root Mean Square Fluctuation (RMSF) of all amino acid residues and Root Mean Square Deviation (RMSD) of TLR3-vaccine construct backbone. Root Mean Square Fluctuation (RMSF) plot for the side chain of the docked TLR3-vaccine complex did not show significant fluctuations, confirming the protein did not unfold nor did the construct denature (      ). The RMSD of the TLR3-vaccine complex reflected its stability over a 10 ns timescale. The deviation started with 0.2 nm and reached a stable value of about 1.7 nm after 8 ns. From this point, RMSD values remained stable (      ). The stability of the complex during the MD run was also validated by visualization of the MD trajectory. Finally, MM-PBSA analysis of the equilibrated interval of the MD simulation for the contact area showed van der Waal energy = −399.247 ± 0.755 kJ/mol, electrostattic energy = −239.238 ± 1.310 kJ/mol, SASA energy = −78.710 ± 0.126 kJ/mol, SAV energy = 0.000 ± 0.000 kJ/mol, and WCA energy = 0.000 ± 0.000 kJ/mol. Collectively, these outputs indicate additional favorable aspects of the atoms involved in the complex contact area, and further validate our MD results.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2015">
+     <label>
+      3.15.
+     </label>
+     <title>
+      In silico cloning
+     </title>
+     <p>
+      To examine the expression of the recommended vaccine into a vector, cloning was done by utilizing the SnapGene server. As the expression system of the human and
+      <italic>
+       E. coli
+      </italic>
+      K12 differ from each other and the codon requires the adaptation as per the host expression system, the codon sequence that was optimized by JCat was reverse transcribed and modified as per the E. coli K12. The restriction enzyme sites
+      <italic>
+       Not I
+      </italic>
+      and
+      <italic>
+       Xho I
+      </italic>
+      were introduced at the N and C-terminal, respectively. The adapted codon was entered into the pET21b (+) vector and a recombinant plasmid with the length of 7514 base pair was obtained as displayed in      .
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2016">
+     <label>
+      3.16.
+     </label>
+     <title>
+      Immune simulation
+     </title>
+     <p>
+      C-ImmSim server results revealed a noticeable increase in the generation of immune responses. The humoral immune response was identified by high levels of IgM along with IgG + IgM (      ). Estimation of the B cell population uncovered an increase in B memory cells and B-cell isotype IgM with a corresponding reduction in antigen concentration (      ). Besides, a high response was observed in the TH1 and TC cell populations with corresponding memory development (      ). This profile identified the development of immune memory and consequently enhanced clearance of the antigen upon subsequent exposures. In contrast, regulatory T cells were estimated to be at a low level (      ). Moreover, these predictions were consistent with the induced level of IFN-γ produced after immunization with the proposed vaccine (      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0004" sec-type="discussion">
+    <label>
+     4.
+    </label>
+    <title>
+     Discussion
+    </title>
+    <p>
+     Designing novel vaccines for preventing the ever-rising global burden of disease is an important issue that cannot be ignored. CoVs are a large family of zoonotic viruses that cause illnesses ranging from the common cold to more severe diseases such as SARS-CoV, MERS-CoV, and SARS-CoV-2 (Hui &amp; IAzharE,     ; Lu et al., 2020). While many CoV vaccine studies targeting various structural proteins were conducted, most of these endeavors finally stopped soon after the outbreak of SARS and MERS (Ong et al.,     ).
+    </p>
+    <p>
+     In the present study, we designed a multi-epitope vaccine with both structural proteins and nsps against severe human CoVs (e.g. SARS-CoV-2, SARS-CoV, and MERS-CoV) via immunoinformatics strategies utilizing various
+     <italic>
+      in silico
+     </italic>
+     tools.
+    </p>
+    <p>
+     Advancement in genomics has altered the procedures and concepts of vaccine design (Ahluwalia et al.,     ). Reverse vaccinology, a novel method to merge immunogenetics and immunogenomics via immunoinformatic has been widely used to introduce a novel vaccine. The most important benefit of RV in the context of SARS-CoV-2 is the quick identification of favorable protein vaccines, while traditional vaccinology may take decades (Srivastava et al.,     ,     ,     ). Thus, in this study, we developed a novel trivalent subunit vaccine from immune-dominant peptides of spike (S) protein, nucleocapsid (N), envelope (E), membrane (M) protein, nsp3, and nsp8 antigens. In our suggested vaccine construct, the CTL, MHC-I, MHC-II epitopes were predicted and used. Cytotoxic CD8 T lymphocytes (CTL) limit the spread of infectious pathogens via recognition and elimination of the infected cells or secreting particular antiviral cytokines (Garcia et al.,     ; Sharmeen et al.,     ). Thus, T-cell epitope-based vaccination plays a unique role against infectious pathogens such as viruses by eliciting a potent immune response (Shrestha &amp; Diamond,     ). HTL responses exert a critical role in the induction of both humoral and cellular immune responses. Therefore, HTL epitopes are believed to be an important part of prophylactic and therapeutic vaccines (Alexander et al.,     ). Furthermore, once the development of the novel multi-epitope vaccine begins, there will be great concern about its immunogenicity. Therefore, adjuvants were established and attached to vaccine construction to enhance its efficacy. Recently, the role of TLRs in the relation between the innate and adaptive immunity has been highlighted in vaccine design. TLRs are a subgroup of pattern recognition receptors which are present on antigen-presenting cells (APCs), which activating via an appropriate TLR agonist will elicit cellular and humoral reactions as well as innate responses (Dowling &amp; Mansell,     ; Steinhagen et al.,     ). There are multiple ways that induce TLRs. For example, β-defensin 2 which induces signal transduction via TLR-4 regulates adaptive immunity during infection (Amelin et al.,     ). Self-destructive signaling which eliminates activated APCs, and thus modifies the adaptive immunity is also possible via utilizing β-defensin 2 (Biragyn et al.,     ).
+    </p>
+    <p>
+     In our vaccine construct, human β-defensin 2 serves as an adjuvant which promotes the expression of primary immune-stimulatory and antiviral compounds (Kim et al.,     ). In addition, to increase the quality of vaccine delivery, a cell-penetrating peptide, namely TAT, from HIV was engaged to involve T cells via APCs (Pouniotis et al.,     ). Furthermore, the PADRE T helper epitope can bind to a prominent number of HLA-DR types with an affinity spanning from intermediate to high (Feng et al., 2014). Also, the YQVNNLEEI epitope located in a conserved region of EBOV NP was added to the C terminal of the vaccine construct. A recent study showed this epitope contains a protective CTL epitope against COVID-19 (Herst et al., 2020).
+    </p>
+    <p>
+     Allergenicity is one of the main problems in vaccine development. Many vaccines stimulate the immune system, and may lead to allergic reactions (McKeever et al.,     ). Based on the WHO/FAO, if a sequence shows at least six contiguous amino acids to identified allergens over a window of 80 amino acids (0.35% sequence identity), it is considered as potentially allergenic. The result of the allergenicity assessment showed that the vaccine was not allergenic. The subunit chimeric vaccine included 697 residues. Restriction sites, instability elements, and all the cis-acting sites which significantly interfere with cloning were omitted from the construct. Moreover, codon optimization was performed to facilitate the high-level expression of the multi-epitope vaccine in
+     <italic>
+      E. coli
+     </italic>
+     and improve translational and transcriptional output. mRNA secondary structure is an essential parameter in the expression of subunit vaccines. The outputs from mRNA prediction by Mfold online server showed that the mRNA to be sufficiently stable for an impressive translation in the host. Besides, physico-chemical factors analysis via ProtParam online server showed the amino acid sequence of the subunit vaccine contained 575 residues and an average molecular weight (MW) of 65,378.43 D which represents a good antigenic nature (antigens with a MW of &lt;5–10 KDa are considered as poorly immunogenic) (Foroutan et al.,     ; Timmerman,     ). The predicted instability index of the proposed vaccine was 39.09, which was below 40, and hence classified the protein as stable. The isoelectric point of the construct was 9.30 (pI) and showed the basic nature of the vaccine. The estimated half-life (
+     <italic>
+      in vitro
+     </italic>
+     ) in mammalian reticulocytes was found to be 30 hr. Moreover, in
+     <italic>
+      in vivo
+     </italic>
+     studies in Yeast and E. coli, it was found to be more than 20 and 10 hr, respectively. In addition, the aliphatic index was 80.26, which determined the thermostable nature of the proposed vaccine, and the Grand average of hydropathicity was 0.063, which proved the hydrophilic nature of the constructed vaccine (Validi et al.,     ). Physicochemical parameters showed this subunit vaccine to be an appropriate candidate for molecular biology-based issues. Also, the tendency of vaccine solubility upon overexpression in
+     <italic>
+      E. coli
+     </italic>
+     was computed 0.95%, showing an admissible percentage of solubility in an overexpressed state.
+    </p>
+    <p>
+     On the other hand, outputs from the primary model with the Galaxyweb server showed that the Galaxyweb program model was applied to generate the primary 3 D structure of the protein vaccine. Obtained results showed 43.76% alpha-helix, 16.93% extended strand, and 39.31% random coil structure existed in the tertiary model. After the refinement, the predicted structure showed a high-quality tertiary model.
+    </p>
+    <p>
+     The analysis of all discontinuous and continuous B-cell epitopes showed that the identified epitopes on the protein surface could interact comfortably with antibodies, and were commonly flexible. Furthermore, DisEMBL online server was utilized to specify unstructured regions and disorders in the subunit vaccine. Obtained results indicated that disorder regions were sited among positions 1-23, 464-478, and 689-697. Then, the docking process between TLR3, TLR4, and TLR8 and the designed vaccine was accomplished and the foremost docked models were selected and investigated via MD simulation to compute the stability of the vaccine–protein complex. Outputs of MD simulation supported the subunit vaccine-TLR3 interactions. The interactions between the two molecules were modified during the MD simulation. The MD simulation results confirmed that the proposed novel vaccine was a robust vaccine target, and the equilibrated system reached a favorably stable state without decomposition or severe fluctuation.
+    </p>
+    <p>
+     In the case of conventional vaccines, some recent clinical trial studies resolved safety concerns while corroborating conventional methods for vaccine development (Tameris et al.,     ). Interestingly, it has been indicated that when the cellular lines employed for the generation of the vaccine may be contaminated via microorganisms that do not produce any cytopathic effect while undergoing replication along with the vaccine virus (Committee,     ; Merten,     ). These contaminations perhaps prove dangerous for the host, especially when the quality control process fails. However, the recombinant multi-epitope vaccine does not carry any risk of the emergence of virulence property as it solely contains the antigenic sections (not the entire virus itself). On the other hand, C-ImmSim server results revealed a noticeable increase in the generation of immune responses. Moreover, several instruments have been employed in the current study to accredit the non-allergic and nontoxic behavior of the designed vaccine construct. However, the predicted bioinformatics results were based on the various investigations of sequences and different immune servers. We suggest that future wet lab-based analyses should be employed in
+     <italic>
+      in vivo
+     </italic>
+     models for the experimental validation of our subunit vaccine are warranted.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0005" sec-type="conclusions">
+    <label>
+     5.
+    </label>
+    <title>
+     Conclusion
+    </title>
+    <p>
+     In the current study, we developed an efficient trivalent subunit vaccine against CoVs via different
+     <italic>
+      in silico
+     </italic>
+     servers. The physico-chemical properties and allergenicity of vaccine were found to be very satisfactory for carrier protein development. The secondary and tertiary structure prediction of the vaccine gave a clear view of the structural properties. Molecular docking and dynamics simulation validated the strong interaction and stability of vaccine with TLRs. Immunoinformatics analysis indicated this vaccine was able to induce both humoral and cellular immune responses effectively due to the presence of several epitopes from a combination of antigens, PADRE, and an adjuvant. Thus, this subunit vaccine can conceivably be utilized for prophylactic aims against emerging human pathogenic CoVs such as SARS-CoV, MERS-CoV, and SARS-CoV-2.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

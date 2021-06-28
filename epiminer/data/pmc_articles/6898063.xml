@@ -1,0 +1,2948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Challenging immunodominance of influenza-specific CD8
+ </title>
+ <abstract>
+  <p id="Par1">
+   Although influenza viruses lead to severe illness in high-risk populations, host genetic factors associated with severe disease are largely unknown. As the HLA-A*68:01 allele can be linked to severe pandemic 2009-H1N1 disease, we investigate a potential impairment of HLA-A*68:01-restricted CD8   T cells to mount robust responses. We elucidate the HLA-A*68:01   CD8   T cell response directed toward an extended influenza-derived nucleoprotein (NP) peptide and show that only ~35% individuals have immunodominant A68/NP
+   <sub>
+    145
+   </sub>
+   CD8   T cell responses. Dissecting A68/NP
+   <sub>
+    145
+   </sub>
+   CD8   T cells in low vs. medium/high responders reveals that high responding donors have A68/NP
+   <sub>
+    145
+   </sub>
+   CD8   memory T cells with clonally expanded TCRαβs, while low-responders display A68/NP
+   <sub>
+    145
+   </sub>
+   CD8   T cells with predominantly naïve phenotypes and non-expanded TCRαβs. Single-cell index sorting and TCRαβ analyses link expansion of A68/NP
+   <sub>
+    145
+   </sub>
+   CD8   T cells to their memory potential. Our study demonstrates the immunodominance potential of influenza-specific CD8   T cells presented by a risk HLA-A*68:01 molecule and advocates for priming CD8   T cell compartments in HLA-A*68:01-expressing individuals for establishment of pre-existing protective memory T cell pools.
+  </p>
+  <p id="Par2">
+   The HLA-A*68:01 allele has been associated with severe influenza disease during the 2009 influenza pandemic. Here, the authors analyze influenza nucleoprotein specific HLA-A*68:01-restricted CD8   T cells from human donors and show immunodominance of these cells in approximately 35% of HLA-A*68:01-expressing donors.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1" sec-type="introduction">
+    <title>
+     Introduction
+    </title>
+    <p id="Par3">
+     Although 2018 marked the 100th anniversary of the Spanish influenza pandemic, which killed &gt;50 million people     , influenza viruses remain a constant global health threat. Indeed, a global influenza pandemic is listed as one of the WHO Top Ten Global Health Threats in 2019     . The next influenza pandemic outbreak is inevitable and the mechanisms leading to differential disease outcomes are unclear. Therefore, it is important to understand why some individuals succumb to severe and fatal influenza disease during pandemic outbreaks and seasonal epidemics     .
+    </p>
+    <p id="Par4">
+     Although current antibody-based vaccines targeting variable hemagglutinin (HA) and neuraminidase (NA) surface glycoproteins are the most effective way to combat seasonal infections, they fail during an influenza pandemic caused by the emergence of an antigenically distinct influenza virus subtype     . In the absence of protective antibodies, a novel influenza A virus (IAV) can activate and recall memory cross-strain protective cytotoxic CD8     T cells, specific for conserved viral peptides     , resulting in rapid viral clearance and reduced disease severity     . This makes cross-reactive CD8     T cells an attractive target for novel universal influenza vaccine strategies     . Following the 2013 H7N9 outbreak in China, we illustrated the importance of robust pre-existing cytotoxic CD8     T cells memory for protection against severe influenza disease (and death) caused by novel IAVs     . Our recent study introduces a new paradigm, whereby human CD8     T cells confer unprecedented cross-reactivity across all influenza A, B, and C viruses, having key implications for the design of universal vaccines that do not require annual reformulation     . Vaccines eliciting cross-reactive CD8     T cells would reduce annual rates of influenza A and B virus-induced morbidity/mortality, protect children from influenza C virus, and augment CD8     T cells in people with previous influenza exposures     .
+    </p>
+    <p id="Par5">
+     CD8     T cells recognize virus-derived peptides in the context of human leukocyte antigen (HLA) class I molecules via their T cell receptors (TCRs) to specifically eliminate virus-infected cells     . HLA-A*01:01, HLA-A*02:01, HLA-A*03:01, HLA-B*08:01, HLA-B*18:01, HLA-B*27:05, HLA-B*37:01, and HLA-B*57:01     are associated with universal protective CD8     T cell mediated immunity, as they present influenza peptides that were highly conserved over the last century. Conversely, two independent studies associated the HLA-A*68:01 allele, which is expressed at 5.2–25% allele frequency, with severe influenza disease during the 2009 influenza pandemic     . To understand CD8     T cell responses in the context of the high risk HLA-A*68:01 molecule, we have recently identified a novel extended 12 amino acid influenza-derived peptide from the virus nucleoprotein (NP
+     <sub>
+      145–
+     </sub>
+     <sub>
+      156
+     </sub>
+     ; DATYQRTRALVR) with the capacity to bind to HLA-A*68:01     .
+    </p>
+    <p id="Par6">
+     HLA class I molecules predominantly bind short viral peptides (8–10 amino acids; aa)     , although extended peptides (&gt;10 aa) can be presented to CD8     T cells in the context of HLA class I     . Similar to canonical length peptides (8–10 aa), longer peptides (≥11 aa) have similar anchor residues at the second (P2) and last position (PΩ). As a result, the central region of these extended peptides is forced to bulge from the HLA class I antigen-binding cleft     , although &gt;11 aa peptides that extent from the N- or C-terminus have been described     . The bulging conformation of the extended HLA class I-restricted peptides may prove especially challenging for TCR recognition     . Based on a limited amount of studies on long peptide-specific TCR repertoires, it appears that long peptide-HLA class I complexes drive a biased TCR gene usage, suggesting that bulging peptide-HLA class I complexes can only be recognized by few TCRs, which may affect CD8     T cell recruitment     . Conversely, the bulging part of the peptide can also display high mobility, providing multiple TCR binding sites, thus selecting a diverse TCR repertoire     . Indeed, a diverse TCR repertoire has been demonstrated for two long peptides (HLA-B*07:02/NY-ESO-1 (13 aa) and HLA-B*57:03-KF11 (11 aa))     .
+    </p>
+    <p id="Par7">
+     In the present study, we elucidate the contribution of CD8     T cell responses directed toward this novel extended HLA-A*68:01-NP
+     <sub>
+      145-156
+     </sub>
+     (hereafter A68/NP
+     <sub>
+      145
+     </sub>
+     ) epitope to the overall influenza-specific immunity. Understanding the role of CD8     T cells presenting influenza viral peptides in the context of risk HLA-I molecules such as HLA-A*68:01 is of key importance to rationally design universal T cell-targeted influenza virus vaccines. Here, we provide an in-depth analysis of influenza virus-specific CD8     T cells directed against the extended 12 aa NP
+     <sub>
+      145
+     </sub>
+     peptide restricted by the risk HLA-A*68:01 molecule. Our data show an immunodominance potential of influenza-specific CD8     T cells in the context of a risk HLA-A*68:01 molecule in 35% donors and advocates for priming CD8     T cell compartments in HLA-A*68:01-expressing individuals for establishment of pre-existing protective memory CD8     T cell pools against future unpredicted influenza strains.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="Sec3">
+     <title>
+      Structural flexibility of NP
+      <sub>
+       145
+      </sub>
+      peptide bound to HLA-A*68:01
+     </title>
+     <p id="Par8">
+      An influenza-derived 12 aa peptide NP
+      <sub>
+       145
+      </sub>
+      (DATYQRTRALVR), presented by an influenza risk HLA-I allomorph HLA-A*68:01      , is one of a relatively few immunogenic (derived from pathogens) human CD8      T cell peptides over 11 aa reported to date      . To understand whether presentation of this extended NP
+      <sub>
+       145
+      </sub>
+      peptide (hereafter NP
+      <sub>
+       145
+      </sub>
+      ) within HLA-A*68:01 was associated with any structural constraints, which potentially could affect TCR recognition of the A68/NP
+      <sub>
+       145
+      </sub>
+      epitope, we solved the structure of the HLA-A*68:01-NP
+      <sub>
+       145
+      </sub>
+      complex at a resolution of 1.90 Å (Supplementary Table      ). The structure showed that the anchor residue Ala at P2 was bound within the HLA-A*68:01 peptide-binding groove, despite being smaller than the usual P2 anchor residues for HLA-A*68:01 (Val or Thr) (Fig.      ). The C-terminal part of the NP
+      <sub>
+       145
+      </sub>
+      peptide possessed a canonical HLA-A*68:01 anchor residue Arg at P12, which formed a network of salt bridges with Asp77, Asp74, and Asp114 within the HLA-A*68:01 molecule (Fig.      ). In contrast, the central section (residues P4–P9) of the NP
+      <sub>
+       145
+      </sub>
+      peptide presented weak/no electron density associated with a high degree of peptide mobility, despite the well-defined electron density of the N- and C-terminal ends of the NP
+      <sub>
+       145
+      </sub>
+      peptide (Fig.      ). The flexible nature of the NP
+      <sub>
+       145
+      </sub>
+      peptide might potentially present a challenge for TCR engagement, thereby limiting the recruitment of A68/NP
+      <sub>
+       145
+      </sub>
+      -specific CD8      T cells during influenza virus infection.
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Conservation of the NP
+      <sub>
+       145
+      </sub>
+      peptide across IAVs
+     </title>
+     <p id="Par9">
+      As variations within the viral peptide can affect peptide-HLA class I binding and presentation      , as well as TCR recognition      , we next assessed the conservation level of the NP
+      <sub>
+       145
+      </sub>
+      peptide within the influenza viruses. We examined 24,408 nucleoprotein (NP) sequences derived from human A/H1N1 (1918–1957
+      <italic>
+       n
+      </italic>
+      = 77, 1977–2008
+      <italic>
+       n
+      </italic>
+      = 1132, 2009–2018
+      <italic>
+       n
+      </italic>
+      = 9291), A/H2N2 (1957–1968
+      <italic>
+       n
+      </italic>
+      = 119) and A/H3N2 (1986–2018
+      <italic>
+       n
+      </italic>
+      = 13,497) viruses as well as avian A/H5N1 (1997–2014
+      <italic>
+       n
+      </italic>
+      = 194), and A/H7N9 (2013–2017
+      <italic>
+       n
+      </italic>
+      = 98) viruses (human isolates) (NCBI;
+      <ext-link ext-link-type="uri" ns0:href="http://www.ncbi.nlm.nih.gov/genomes/FLU">
+       http:/www.ncbi.nlm.nih.gov/genomes/FLU
+      </ext-link>
+      database, accessed on July 31, 2018). Based on our sequence alignments, we found that while amino acids at positions 145, 147–156 within the viral NP
+      <sub>
+       145
+      </sub>
+      peptide were highly conserved (Supplementary Table      ), variability was observed at position 146 (P2 of the peptide), with influenza viruses expressing either an alanine (A) (21,740/24,408 viruses, 89.1%) or threonine (T) (2661/24,408 viruses, 10.9%), and to a lesser extent a valine (V) (7/24,408 viruses; &lt;0.01% (Supplementary Table      ; Fig.      ). Chronological analyses of the residues at position 146 showed that these variations were not randomly distributed, but instead became fixed with time. While the earliest known influenza virus isolates from 1918 had an alanine at position 146, this was replaced by an A146T substitution in 1935. The 146T variant of the NP
+      <sub>
+       145–146
+      </sub>
+      peptide was passed onto the A/H2N2 and subsequently the A/H3N2 viruses by two reassortment events      . The 146T variant of the NP
+      <sub>
+       145
+      </sub>
+      peptide continued to circulate until 2001 when the T146A substitution was rapidly fixed and continues to circulate until now. The 1957 A/H1N1 virus (146T) was reintroduced in the human population in 1977 and continued to circulate up to 2009, when it was replaced by a multiple reassorted A/H1N1 virus that contained the original NP gene segment from 1918 (146A)      (Fig.      ). With the exception of the A/Shandong/1/2009 strain, all human viral isolates of the avian A/H5N1 and A/H7N9 viruses express an alanine at position 146 (Fig.      , Supplementary Table      ).
+     </p>
+     <p id="Par10">
+      Despite virus antigenic variations, influenza-specific CD8      T cells can provide broad cross-reactivity and recognize an array of peptide variants      . Thus, we analysed the cross-reactive potential of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells toward the two main NP
+      <sub>
+       145
+      </sub>
+      variants, D
+      <bold>
+       <underline>
+        A
+       </underline>
+      </bold>
+      TYQRTRALVR and D
+      <bold>
+       <underline>
+        T
+       </underline>
+      </bold>
+      TYQRTRALVR, as well as the less prevalent D
+      <bold>
+       <underline>
+        V
+       </underline>
+      </bold>
+      TYQRTRALVR variant. Given that the 146A and 146T variants of the NP
+      <sub>
+       145-
+      </sub>
+      peptide have predominantly circulated in the last two decades, both NP
+      <sub>
+       145
+      </sub>
+      peptide variants were able to expand A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells (Fig.      b, c, Supplementary Fig.      ). The FACS plots are representatives of 146A peptide-stimulated and expanded A68/NP
+      <sub>
+       145
+      </sub>
+      -specific CD8      T cells at day 10. DMSO was used as a negative control for the second 6-h restimulation in an IFN-γ ICS assay of these expanded cells, thus the large population of tetramer-positive cells resulted from the initial expansion after the first stimulation (Fig.      ). However, negligible IFN-γ production was detected in the DMSO control (Fig.      ). Re-stimulating the expanded A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells with three variants of the NP
+      <sub>
+       145
+      </sub>
+      peptide (146A, 146T, and 146V) revealed a substantial level of cross-reactivity toward all three peptides (Fig.      ,
+      <italic>
+       n
+      </italic>
+      = 3 donors). The high level of cross-reactivity between the 146A, 146T, and 146V peptide variants suggests that fixation of these mutations at position 146 did not result in viral escape from pre-existing A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell responses and would therefore not be a determining factor in HLA      A*68:01-associated morbidity when a new variant is introduced.
+     </p>
+     <p id="Par11">
+      Since the NP
+      <sub>
+       145
+      </sub>
+      -146A variant of the NP
+      <sub>
+       145
+      </sub>
+      peptide circulated in the past two decades, and is cross-reactive with the other variants, we selected this immunogenic DATYQRTRALVR peptide to further dissect the quantitative, qualitative, and clonal characteristics of A68/NP
+      <sub>
+       145
+      </sub>
+      -specific CD8      T cell responses in HLA-A*68:01-expressing individuals.
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      A68/NP
+      <sub>
+       145
+      </sub>
+      -      CD8      T cell responses vary across the donors
+     </title>
+     <p id="Par12">
+      To probe the magnitude of established A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell populations, we assessed A68/NP
+      <sub>
+       145
+      </sub>
+      -specific CD8      T cells directly ex vivo using a tetramer-associated magnetic enrichment (TAME)      in 17 healthy HLA-A*68:01-expressing individuals (Fig.      , Supplementary Fig.      , Table      ). Frequencies of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells, calculated relative to total CD8      T cell numbers in an unenriched fraction      , were compared with frequencies of influenza virus-specific CD8      T cell responses directed against other well-known prominent universal HLAs (Table      , in bold)      using single- or dual-tetramer enrichments. The frequencies of tetramer-enriched A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells revealed three types of A68/NP
+      <sub>
+       145
+      </sub>
+      -specific CD8      T cell responders (Fig.      ). Out of 17 individuals, 11 were classified as low responders with &lt;12 A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells/10      CD8      T cells. Within those, seven donors had a total of &lt;10 counted A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells within the whole enriched fraction, which was sufficient for analysis of frequencies but not phenotypes (Supplementary Fig.      ). The remaining six donors (35%) displayed substantial pools of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells, with four donors being medium responders (&gt;12 A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells/10      CD8      T cells) and two donors being high responders (&gt;100 A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells/10      CD8      T cells) (Fig.      ).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Demographics and HLA typing of the donors used in this study.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Donor
+          </th>
+          <th>
+           Age
+          </th>
+          <th>
+           Sex
+          </th>
+          <th>
+           Specifications
+          </th>
+          <th>
+           HLA-A haplotypes
+          </th>
+          <th>
+           HLA-B haplotypes
+          </th>
+          <th>
+           Year of recruitment
+          </th>
+          <th>
+           A68-NP
+           <sub>
+            145
+           </sub>
+           Responder
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           D17
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy donor
+          </td>
+          <td>
+           01:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           08:01, 15:01
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D8
+          </td>
+          <td>
+           30
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           <bold>
+            02:01
+           </bold>
+           ,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            07:02
+           </bold>
+           , 40:01
+          </td>
+          <td>
+           2014
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D11
+          </td>
+          <td>
+           21
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Adenovirus infected
+          </td>
+          <td>
+           <bold>
+            03:01
+           </bold>
+           ,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           40:01, 56:01
+          </td>
+          <td>
+           2010
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D1
+          </td>
+          <td>
+           22/25
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           33:03,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            35:01
+           </bold>
+           , 58:01
+          </td>
+          <td>
+           a2015,b2018
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D9
+          </td>
+          <td>
+           49
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           <bold>
+            24:02
+           </bold>
+           ,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           15:18, 40:01
+          </td>
+          <td>
+           2013
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D10
+          </td>
+          <td>
+           29
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           02:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           40:02, 44:02
+          </td>
+          <td>
+           2014
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D2
+          </td>
+          <td>
+           48/51
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           01:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            08:01
+           </bold>
+           , 40:01
+          </td>
+          <td>
+           a2015,b2018
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D4
+          </td>
+          <td>
+           31
+          </td>
+          <td>
+           F
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           <bold>
+            03:01
+           </bold>
+           ,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            27:05
+           </bold>
+           , 40:01
+          </td>
+          <td>
+           2018
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D3
+          </td>
+          <td>
+           42/46
+          </td>
+          <td>
+           F
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           01:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            37:01
+           </bold>
+           ,
+           <bold>
+            35:01
+           </bold>
+          </td>
+          <td>
+           a2015,b2018
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D14
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy donor
+          </td>
+          <td>
+           11:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           14:02,
+           <bold>
+            35:01
+           </bold>
+          </td>
+          <td>
+           2017
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D12
+          </td>
+          <td>
+           90
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Viral pneumonia Influenza virus negative
+          </td>
+          <td>
+           30:02,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            18:01
+           </bold>
+           , 35:03
+          </td>
+          <td>
+           2014
+          </td>
+          <td>
+           Low
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D5
+          </td>
+          <td>
+           52
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           <bold>
+            03:01
+           </bold>
+           ,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            07:02
+           </bold>
+           , 35:03
+          </td>
+          <td>
+           2014
+          </td>
+          <td>
+           Medium
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D7
+          </td>
+          <td>
+           74
+          </td>
+          <td>
+           F
+          </td>
+          <td>
+           Healthy elderly
+          </td>
+          <td>
+           01:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            08:01
+           </bold>
+           , 44:02
+          </td>
+          <td>
+           2013
+          </td>
+          <td>
+           Medium
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D6
+          </td>
+          <td>
+           29
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           33:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            07:05
+           </bold>
+           , 14:02
+          </td>
+          <td>
+           2016
+          </td>
+          <td>
+           Medium
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D16
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy donor
+          </td>
+          <td>
+           32:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           14:01, 44:02
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Medium
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D13
+          </td>
+          <td>
+           30
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Influenza A virus infection
+          </td>
+          <td>
+           02:06,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           13:01, 15:18
+          </td>
+          <td>
+           2010
+          </td>
+          <td>
+           High
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D15
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           NR
+          </td>
+          <td>
+           Healthy donor
+          </td>
+          <td>
+           01:01,
+           <bold>
+            68:01
+           </bold>
+          </td>
+          <td>
+           <bold>
+            08:01
+           </bold>
+           ,
+           <bold>
+            18:01
+           </bold>
+          </td>
+          <td>
+           2017
+          </td>
+          <td>
+           High
+          </td>
+         </tr>
+         <tr>
+          <td>
+           D18
+          </td>
+          <td>
+           27
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Healthy adult
+          </td>
+          <td>
+           01:01, 68:01
+          </td>
+          <td>
+           08:01
+          </td>
+          <td>
+           2018
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         HLA bold indicates HLA used for TAME
+        </p>
+        <p>
+         <italic>
+          NR
+         </italic>
+         not reported,
+         <italic>
+          NT
+         </italic>
+         not tested
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par13">
+      Strikingly, within the low-responders, A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell pools were subdominant as compared with the frequency of other dominant universal influenza-specific CD8      T cell populations within the same individuals (
+      <italic>
+       p
+      </italic>
+      = 0.00056; Fig.      ). In contrast, the frequencies of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells within medium and high responders were comparable to the frequencies of CD8      T cells directed at universal influenza epitopes (
+      <italic>
+       p
+      </italic>
+      = 0.153; Fig.      ), indicating the immunodominance potential of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells in at least some donors. These results clearly demonstrate that the establishment of substantial A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell populations is far from being uniform across the donors (
+      <italic>
+       p
+      </italic>
+      = 0.001, Fig.      ). Although there was a trend for a lower overall CD8      T cell frequency directed at the universal influenza epitopes in the low responders, as compared with the medium and high responders, this was not significant (
+      <italic>
+       p
+      </italic>
+      = 0.058, Fig.      ). In addition, no correlation was found between the frequency of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells and the frequency of CD8      T cells directed against the universal epitopes (
+      <italic>
+       n
+      </italic>
+      = 13,
+      <italic>
+       R
+      </italic>
+      <sub>
+       s
+      </sub>
+      = 0.3518,
+      <italic>
+       p
+      </italic>
+      = 0.1397, Supplementary Fig.      ). Including additional donors may further strengthen the trend for an overall lower influenza virus-specific CD8      T cell response in HLA-A*68:01 positive individuals, however, could unfortunately not be confirmed due to the low frequency of HLA-A*68:01 donors in our cohorts.
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Distinct A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell phenotypes across responders
+     </title>
+     <p id="Par14">
+      To understand whether low detection of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell populations found in 65% of our donors resulted from the establishment of differential naïve/memory subsets within the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells, we compared directly ex vivo the phenotypes of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells both (i) across HLA-A*68:01-expressing donors, and (ii) with phenotypes of CD8      T cells directed at universal influenza epitopes (Fig.      ). We used three surface markers, CD27, CD45RA, and CD95 to delineate naïve-like (T
+      <sub>
+       naïve
+      </sub>
+      , CD27      CD45RA      CD95      ), effector/effector memory (T
+      <sub>
+       eff
+      </sub>
+      , CD27      CD45RA      ), terminally differentiated effector (T
+      <sub>
+       emra
+      </sub>
+      , CD27      CD45RA      ), central memory (T
+      <sub>
+       cm
+      </sub>
+      , CD27      CD45RA      ) and stem cell memory (T
+      <sub>
+       scm
+      </sub>
+      , CD27      CD45RA      CD95      ) CD8      T cell subsets in low, medium, and high responding donors (Fig.      , Supplementary Fig.      ).
+     </p>
+     <p id="Par15">
+      In three out of four low-responding donors, a markedly higher proportion of the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells displayed a naïve-like phenotype (mean 33.77% ± 23.83;
+      <italic>
+       n
+      </italic>
+      = 4 donors), when compared with A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells in medium/high responders (mean 1.52% ± 2.17;
+      <italic>
+       n
+      </italic>
+      = 6 donors;
+      <italic>
+       p
+      </italic>
+      = 0.002) (Fig.      ). In contrast, the proportion of total memory A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells (T
+      <sub>
+       cm
+      </sub>
+      , T
+      <sub>
+       emra
+      </sub>
+      , T
+      <sub>
+       eff
+      </sub>
+      , T
+      <sub>
+       scm
+      </sub>
+      ) (T
+      <sub>
+       total memory
+      </sub>
+      ) in medium/high responders (mean 98.59% ± 1.7;
+      <italic>
+       n
+      </italic>
+      = 6 donors) was significantly higher compared with low responders (66.23% ± , 23.84,
+      <italic>
+       n
+      </italic>
+      = 4 donors;
+      <italic>
+       p
+      </italic>
+      = 0.002) (Fig.      ), demonstrating a switch from naïve-like to memory phenotypes in A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells within medium/high responding donors.
+     </p>
+     <p id="Par16">
+      Phenotypic analysis of the universal influenza-specific CD8      T cell populations revealed no significant differences within the naïve-like (
+      <italic>
+       p
+      </italic>
+      = 0.062) or memory (
+      <italic>
+       p
+      </italic>
+      = 0.062) phenotypes when low and medium/high responders were compared (Fig.      ), consistent with their similar response magnitudes. Detection of memory phenotypes within all the universal CD8      T cell sets also verifies that our A68      donors had previous influenza encounters and thus their A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells were exposed to the antigenic stimulation during previous influenza virus infection across all the low, medium, and high responding donors.
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Diverse TCRαβ repertoires within A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell pools
+     </title>
+     <p id="Par17">
+      To understand differential A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell responses across HLA-A*68:01 donors, we dissected the clonal diversity and composition within A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells found in low- and medium/high-responders. We used a combination of single-cell index sorting and multiplex RT-PCR      to amplify both TCRα and TCRβ chains within a single cell, enabling analysis of the paired A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoire in three low-responders and five medium/high-responders (Fig.      , Table      , Supplementary Table      ).
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Frequencies of paired TRBV-TRBJ/TRAV-TRAJ expanded clonotypes within A68/NP
+         <sub>
+          145
+         </sub>
+         TCRs in human PBMCs.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th rowspan="2">
+           Clone ID
+          </th>
+          <th rowspan="2">
+           TRBV
+          </th>
+          <th rowspan="2">
+           TRBJ
+          </th>
+          <th rowspan="2">
+           CDR3b
+          </th>
+          <th rowspan="2">
+           CDR3β length
+          </th>
+          <th rowspan="2">
+           TRAV
+          </th>
+          <th rowspan="2">
+           TRAJ
+          </th>
+          <th rowspan="2">
+           CDR3a
+          </th>
+          <th rowspan="2">
+           CDR3α length
+          </th>
+          <th colspan="4">
+           Low
+          </th>
+          <th colspan="4">
+           Medium
+          </th>
+          <th>
+           High
+          </th>
+         </tr>
+         <tr>
+          <th>
+           D1b
+          </th>
+          <th>
+           D3b
+          </th>
+          <th>
+           D3a
+          </th>
+          <th>
+           D2b
+          </th>
+          <th>
+           D5
+          </th>
+          <th>
+           D7
+          </th>
+          <th>
+           D6
+          </th>
+          <th>
+           D16
+          </th>
+          <th>
+           D13
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           AF
+          </td>
+          <td>
+           TRBV20-1
+          </td>
+          <td>
+           TRBJ1-1
+          </td>
+          <td>
+           CSA
+           <underline>
+            ETGNTEA
+           </underline>
+           FF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           10
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           AY
+          </td>
+          <td>
+           TRBV20-1
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CSA
+           <underline>
+            DNVAGGPGSEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           TRAV13-1
+          </td>
+          <td>
+           TRAJ43
+          </td>
+          <td>
+           CAT
+           <underline>
+            YDM
+           </underline>
+           RF
+          </td>
+          <td>
+           3
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           15
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           AZ
+          </td>
+          <td>
+           TRBV6-1
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CAS
+           <underline>
+            SEPRDEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           TRAV1-2
+          </td>
+          <td>
+           TRAJ9
+          </td>
+          <td>
+           CAV
+           <underline>
+            ETGGFKT
+           </underline>
+           IF
+          </td>
+          <td>
+           7
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           15
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BA
+          </td>
+          <td>
+           TRBV20-1
+          </td>
+          <td>
+           TRBJ2-7
+          </td>
+          <td>
+           CSA
+           <underline>
+            SQDPYEQ
+           </underline>
+           YF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           TRAV35
+          </td>
+          <td>
+           TRAJ37
+          </td>
+          <td>
+           CAG
+           <underline>
+            QTTSNTGKL
+           </underline>
+           IF
+          </td>
+          <td>
+           9
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           10
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BB
+          </td>
+          <td>
+           TRBV20-1
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CSA
+           <underline>
+            LYPLAGPGNEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           TRAV26-2
+          </td>
+          <td>
+           TRAJ30
+          </td>
+          <td>
+           CIL
+           <underline>
+            NRDDKI
+           </underline>
+           IF
+          </td>
+          <td>
+           6
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           10
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BM
+          </td>
+          <td>
+           TRBV6-6
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CAS
+           <underline>
+            SSPSGVYNEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           TRAV4
+          </td>
+          <td>
+           TRAJ4
+          </td>
+          <td>
+           CLV
+           <underline>
+            GDLINSGGYNKL
+           </underline>
+           IF
+          </td>
+          <td>
+           12
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           56
+          </td>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BN
+          </td>
+          <td>
+           TRBV6-6
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CAS
+           <underline>
+            SSPSGVYNEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           28
+          </td>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BT
+          </td>
+          <td>
+           TRBV30
+          </td>
+          <td>
+           TRBJ2-7
+          </td>
+          <td>
+           CAW
+           <underline>
+            SPAGLAMYEQ
+           </underline>
+           YF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           17
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BU
+          </td>
+          <td>
+           TRBV20-1
+          </td>
+          <td>
+           TRBJ1-1
+          </td>
+          <td>
+           CSA
+           <underline>
+            ESGNTEA
+           </underline>
+           FF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           14
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BV
+          </td>
+          <td>
+           TRBV30
+          </td>
+          <td>
+           TRBJ2-7
+          </td>
+          <td>
+           CAW
+           <underline>
+            SPAGLAMYEQ
+           </underline>
+           YF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           TRAV12-1
+          </td>
+          <td>
+           TRAJ29
+          </td>
+          <td>
+           CVV
+           <underline>
+            NANSGNTPL
+           </underline>
+           VF
+          </td>
+          <td>
+           9
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           10
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BW
+          </td>
+          <td>
+           TRBV6-1
+          </td>
+          <td>
+           TRBJ2-7
+          </td>
+          <td>
+           CAS
+           <underline>
+            SEAGGPGYEQ
+           </underline>
+           YF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           7
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BX
+          </td>
+          <td>
+           TRBV29-1
+          </td>
+          <td>
+           TRBJ1-4
+          </td>
+          <td>
+           CSV
+           <underline>
+            RDISTNEKL
+           </underline>
+           FF
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           7
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           BY
+          </td>
+          <td>
+           TRBV20-1
+          </td>
+          <td>
+           TRBJ1-6
+          </td>
+          <td>
+           CSA
+           <underline>
+            EDGNSPL
+           </underline>
+           HF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           TRAV12-2
+          </td>
+          <td>
+           TRAJ47
+          </td>
+          <td>
+           CAV
+           <underline>
+            KYGNKL
+           </underline>
+           VF
+          </td>
+          <td>
+           6
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           7
+          </td>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CK
+          </td>
+          <td>
+           TRBV7-8
+          </td>
+          <td>
+           TRBJ2-2
+          </td>
+          <td>
+           CAS
+           <underline>
+            SDSAGEL
+           </underline>
+           FF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           TRAV6
+          </td>
+          <td>
+           TRAJ4
+          </td>
+          <td>
+           CAL
+           <underline>
+            SGYNKL
+           </underline>
+           IF
+          </td>
+          <td>
+           6
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           11
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CL
+          </td>
+          <td>
+           TRBV7-2
+          </td>
+          <td>
+           TRBJ2-5
+          </td>
+          <td>
+           CAS
+           <underline>
+            SSIGVAGEETQ
+           </underline>
+           YF
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           TRAV12-1
+          </td>
+          <td>
+           TRAJ11
+          </td>
+          <td>
+           CVV
+           <underline>
+            NVLLNSGYSTL
+           </underline>
+           TF
+          </td>
+          <td>
+           11
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           11
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CM
+          </td>
+          <td>
+           TRBV2
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CAS
+           <underline>
+            NDPPGATNNEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           TRAV4
+          </td>
+          <td>
+           TRAJ42
+          </td>
+          <td>
+           CLV
+           <underline>
+            GGGSQGNL
+           </underline>
+           IF
+          </td>
+          <td>
+           8
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CN
+          </td>
+          <td>
+           TRBV28
+          </td>
+          <td>
+           TRBJ1-1
+          </td>
+          <td>
+           CAS
+           <underline>
+            SSLIQANTEA
+           </underline>
+           FF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           TRAV12-1
+          </td>
+          <td>
+           TRAJ42
+          </td>
+          <td>
+           CVV
+           <underline>
+            NVGYGGSQGNL
+           </underline>
+           IF
+          </td>
+          <td>
+           11
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CO
+          </td>
+          <td>
+           TRBV7-2
+          </td>
+          <td>
+           TRBJ2-7
+          </td>
+          <td>
+           CAS
+           <underline>
+            SDLAGTSGTNTYEQ
+           </underline>
+           YF
+          </td>
+          <td>
+           14
+          </td>
+          <td>
+           TRAV4
+          </td>
+          <td>
+           TRAJ21
+          </td>
+          <td>
+           CLV
+           <underline>
+            GGNFNKF
+           </underline>
+           YF
+          </td>
+          <td>
+           7
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           6
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CP
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           –
+          </td>
+          <td>
+           TRAV12-1
+          </td>
+          <td>
+           TRAJ11
+          </td>
+          <td>
+           CVV
+           <underline>
+            NRVENSGYSTL
+           </underline>
+           TF
+          </td>
+          <td>
+           11
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           6
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CQ
+          </td>
+          <td>
+           TRBV7-8
+          </td>
+          <td>
+           TRBJ2-2
+          </td>
+          <td>
+           CAS
+           <underline>
+            SDSAGEL
+           </underline>
+           FF
+          </td>
+          <td>
+           7
+          </td>
+          <td>
+           TRAV8-1
+          </td>
+          <td>
+           TRAJ6
+          </td>
+          <td>
+           CAA
+           <underline>
+            NSGGSYIP
+           </underline>
+           TF
+          </td>
+          <td>
+           8
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           4
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CR
+          </td>
+          <td>
+           TRBV4-2
+          </td>
+          <td>
+           TRBJ2-5
+          </td>
+          <td>
+           CAS
+           <underline>
+            SQVGTTLETQ
+           </underline>
+           YF
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           TRAV29
+          </td>
+          <td>
+           TRAJ29
+          </td>
+          <td>
+           CAA
+           <underline>
+            SAISGNTPL
+           </underline>
+           VF
+          </td>
+          <td>
+           9
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           4
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           CS
+          </td>
+          <td>
+           TRBV9
+          </td>
+          <td>
+           TRBJ2-6
+          </td>
+          <td>
+           CAS
+           <underline>
+            SVNPAQGSGANVL
+           </underline>
+           TF
+          </td>
+          <td>
+           13
+          </td>
+          <td>
+           TRAV9-2
+          </td>
+          <td>
+           TRAJ34
+          </td>
+          <td>
+           CAL
+           <underline>
+            IYNTDKL
+           </underline>
+           IF
+          </td>
+          <td>
+           7
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           4
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           DK
+          </td>
+          <td>
+           TRBV9
+          </td>
+          <td>
+           TRBJ2-1
+          </td>
+          <td>
+           CAS
+           <underline>
+            SVDLKAGEEGEQ
+           </underline>
+           FF
+          </td>
+          <td>
+           12
+          </td>
+          <td>
+           TRAV19
+          </td>
+          <td>
+           TRAJ9
+          </td>
+          <td>
+           CAL
+           <underline>
+            SNTGGFKT
+           </underline>
+           IF
+          </td>
+          <td>
+           8
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           95
+          </td>
+         </tr>
+         <tr>
+          <td>
+           % expanded αβ pairs of total TCRαβ repertoire
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           50
+          </td>
+          <td>
+           84
+          </td>
+          <td>
+           62
+          </td>
+          <td>
+           64
+          </td>
+          <td>
+           95
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total number αβ pairs
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td>
+           5
+          </td>
+          <td>
+           4
+          </td>
+          <td>
+           22
+          </td>
+          <td>
+           20
+          </td>
+          <td>
+           20
+          </td>
+          <td>
+           32
+          </td>
+          <td>
+           29
+          </td>
+          <td>
+           47
+          </td>
+          <td>
+           19
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         CDR3 length was calculated based on underlined CDR3 sequence
+         <italic>
+          D
+         </italic>
+         donor
+        </p>
+        <p>
+         Indicates that TCR clonotypes were established on T cell lines
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par18">
+      In contrast to the narrowed/skewed TCR repertoires directed at the majority of previously reported long peptide/HLA complexes      , the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoires utilized a broad array of TRBV (T receptor β variable) and TRAV (T receptor α variable) gene segments in low-responders and medium/high responders (Fig.      , Table      , Supplementary Table      ). The most common gene segments were TRBV20-1 and TRAV4 observed in six out of eight donors (Fig.      ). Interestingly, donor 7 (medium responder) and 13 (high responder) expressed a highly restricted private TRAV and TRBV combinations, namely TRBV6-6/TRAV4 and TRBV9/TRAV19, respectively (Fig.      ).
+     </p>
+     <p id="Par19">
+      Further dissection of the CDR3αβ clonotypic signatures revealed a lack of common motifs within the individual donors (Table      , Supplementary Table      ) and absence of a shared CDR3αβ signature (public clonotypes) across HLA-A*68:01-expressing donors. Both low and medium/high responders displayed large variation in the length of the CDR3α loop ranging from 4 to 15 aa and 3 to 12 aa, respectively (Fig.      ). Similarly, the length of the CDR3β loop was variable, ranging from 7 to 12 aa in low-responders and 7 to 14 aa in medium/high responders (Fig.      ).
+     </p>
+     <p id="Par20">
+      Overall, the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoire was strikingly diverse, with no common features shared between donors. Thus, the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell response does not seem to be limited by the availability of particular TCRαβs that can recognize the long and flexible 12 aa NP
+      <sub>
+       145
+      </sub>
+      peptide in the context of HLA-A*68:01.
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Expanded A68/NP
+      <sub>
+       145
+      </sub>
+      TCRαβ clones in medium/high responders
+     </title>
+     <p id="Par21">
+      Despite A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoire diversity in all the low and medium/high responders, it became evident that the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoires within medium/high responders contained a high proportion (
+      <italic>
+       n
+      </italic>
+      = 5, mean 71%, range 50–95%) of expanded TCRαβ clonotypes as compared with low responders (
+      <italic>
+       n
+      </italic>
+      = 3, mean 2.5%, range 0–10%) (
+      <italic>
+       p
+      </italic>
+      = 0.016) (Fig.      , Table      ). Such high proportion of the expanded TCRαβ clonotypes within medium/high responders provides clear evidence of a correlation between large clonal expansions and immunodominance observed in medium and high A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell responders. This further suggests that minimal clonal expansions underlie poor pre-existing memory A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell pools in low- and non-responders. Thus, subsequent boosting of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells in low responders might be one of the ways to ensure HLA-A*68:01-expressing individuals have substantial numbers of memory A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells and therefore at least some level of protection against unpredicted newly-emerged influenza viruses.
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Memory phenotypes associated with high frequency TCRαβs
+     </title>
+     <p id="Par22">
+      As our experiments used single-cell index sorting, we were in a position to directly link the individual A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ clonotypes to the exact phenotype of each analysed TCRαβ. We were interested to link the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoires with their respective HLA-A*68:01-NP
+      <sub>
+       145
+      </sub>
+      tetramer avidity, as previous reports suggested that HLA-A*68:01-specific TCRs require high affinity binding to the peptide-HLA complex (pHLA)      to overcome reduced affinity for the CD8 binding site due to a polymorphism at position 245 (A245V) within HLA-A*68:01      . Before the single-cell index sort technique was available, the high and low avidity populations of A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells within donor 16 were directly single-cell sorted into two individual plates, which revealed two distinct TCR repertoires between the high- and low-avidity populations (Supplementary Fig.      ). With the use of index sorting, we were able to further discriminate between high and low avidity A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells based on their actual tetramer mean fluorescence intensity (MFI) (Fig.      ).
+     </p>
+     <p id="Par23">
+      Of all index-sorted donors (
+      <italic>
+       n
+      </italic>
+      = 5; 1b, 2b, 3b, 6, and 7), A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell responses within donors 2b, 6, and 7 (
+      <italic>
+       n
+      </italic>
+      = 3) were sufficient enough to discriminate between high- and low-avidity populations and therefore to establish any direct links between TCRαβ repertoires and their respective MFI (Fig.      ). When focusing our analysis on the two major gene segments observed in six out of eight donors (TRBV20-1 and TRAV4) (Table      , Supplementary Table      ), we found that TRBV20-1 was more prevalent in the low avidity populations (59% of the TRBV20-1 clonotypes across all four donors), whereas the TRAV4 was more common in the high avidity populations (54% of the TRAV4 clonotypes across all four donors) (Fig.      , Supplementary Fig.      ). Clonotype TRBV30 was only observed in donor 6 and was more prevalent in the high avidity population (88% of the TRBV30 clonotypes) (Fig.      ). Interestingly, in donor 7 the majority of the TCRαβ repertoire comprises of one expanded TCRαβ clonotype TRBV6-6-CASSSPSGVYNEQ and TRAV4      CLVGDLINSGGYNKLIF, and a number of smaller clonotypes (Fig.      ). The dominant clonotype was found across higher and lower MFIs. This indicates that MFI of tetramer binding might be not only affected by TCRαβ chains but also most probably TCR levels, TCR dynamics, TCR spatial arrangements, and/or other intrinsic factors.
+     </p>
+     <p id="Par24">
+      Subsequently, we dissected the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoires of all index-sorted donors (
+      <italic>
+       n
+      </italic>
+      = 5; 1b, 2b, 3b, 6, and 7) according to their matched phenotypes (Fig.      ). Here, we focused on the commonly observed clonotypes TRBV20-1 and TRAV4 (shared between donors 1b, 2b, 3b, 5, 6, 7, and 16) and the donor-specific clonotypes TRBV30 (donor 6) and TRBV6-6 (donor 7), which were detected at relatively high frequencies in those donors. We found that the expanded TCRαβs within common gene segments (TRBV20-1 and TRAV4) and the high frequency individual clonotypes (TRBV30 and TRBV6-6) were highly prevalent in the memory CD8      T cell populations (Fig.      ). These results confirm that the large TCRαβ clonal expansions observed within the medium and high HLA-A*68:01-responding donors were predominantly of the memory phenotype (Figs.      and      ).
+     </p>
+     <p id="Par25">
+      Overall, our results indicate that even though the A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      TCRαβ repertoire is highly diverse, with preferred TCRαβ gene usage in certain individuals, including TRBV20-1, TRAV4, TRBV30, and TRBV6-6, largely-expanded clonotypes displaying a memory phenotype underlie greater A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell response magnitude in medium to high responders.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec10" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p id="Par26">
+     In this study, we dissected the immune response against the 12 aa NP
+     <sub>
+      145
+     </sub>
+     peptide presented by an influenza risk-associated HLA-A*68:01 molecule. We found that the NP
+     <sub>
+      145
+     </sub>
+     viral peptide was highly conserved across influenza strains, except for position 146 (P2 anchor residue position of the peptide), although this did not result in viral escape from the A68/NP
+     <sub>
+      145
+     </sub>
+     -specific CD8     T cell response. The HLA-A*68:01-NP
+     <sub>
+      145
+     </sub>
+     crystal structure revealed that NP
+     <sub>
+      145
+     </sub>
+     peptide is highly mobile in the cleft of the HLA-A*68:01 molecule. The low frequencies of A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells in 65% HLA-A*68:01 donors, combined with their large naïve-like populations and non-expanded TCRαβ
+     <sub>
+      145
+     </sub>
+     CD8     T cells might be difficult to recruit during influenza virus infections. Conversely, largely-expanded TCRαβ clonotypes were commonly observed in memory CD8     T
+     <sub>
+      cm
+     </sub>
+     populations in medium/high responders, suggesting that it might take several influenza exposures, thus repeated A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cell boosting, to establish pre-existing immunodominant A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cell memory pools.
+    </p>
+    <p id="Par27">
+     Donors used to study the cross-reactivity of the A68/NP
+     <sub>
+      145
+     </sub>
+     -specific CD8     T cell response were likely to have been exposed to viruses expressing both the 146A and 146T variant of the NP
+     <sub>
+      145
+     </sub>
+     peptide. Donor 6 was born in 1987, donor 18 was born in 1991. Although the exact date of birth for donor 15 is unknown, the donor was recruited in 2017 and would have been 18 years or older at time of recruitment, hence born before 1999. It was demonstrated that by the age of 3, 80% of the children would have experienced at least one IAV infection, increasing to 100% by the age of 7     . Thus, all three donors would have been infected with an IAV expressing the 146T variant of the peptide, which was expressed in A/H3N2 and A/H1N1 strains circulating prior to 2001. Even though influenza virus infection is less frequently observed in adults than in children, adults still encounter two influenza virus infections per decade     . It is therefore reasonable to assume that all three donors would have had at least one additional influenza virus infections after 2001 with either the A/H3N2 virus strain and/or the A/H1N1pdm09 strain, both expressing the 146A variant of the peptide. The chance that these donors would have encountered the 146V variant of the peptide via natural infection is highly unlikely, as this variant was only observed in seven out of the 24408 human IAV isolates recorded between 1918 and 2018.
+    </p>
+    <p id="Par28">
+     Even though rapid fixation of amino acids substitutions inside CD8     T cell epitopes, especially at anchor or TCRαβ binding residues, are often associated with immune escape     , this was not the case for the rapid fixation of A146T and T146A substitutions in NP proteins of human influenza viruses. Both alanine and threonine have been shown to bind in the HLA-A*68:01 binding cleft in a similar fashion. Furthermore, when we expanded A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells from three independent donors using the 146A or 146T variants of the NP
+     <sub>
+      145
+     </sub>
+     peptide, both variants expanded A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cell populations and following restimulation responded to all three variants of the NP
+     <sub>
+      145
+     </sub>
+     peptide (146A, 146T, and 146V, respectively), suggesting high cross-reactivity between NP
+     <sub>
+      145
+     </sub>
+     variants. However, according to the IEDB database (
+     <ext-link ext-link-type="uri" ns0:href="http://www.iedb.org">
+      www.iedb.org
+     </ext-link>
+     ), the NP
+     <sub>
+      145–156
+     </sub>
+     peptide overlaps with at least four other peptides, namely NP
+     <sub>
+      146–154
+     </sub>
+     (HLA-A*02:03, 68:02, HLA-B*14:02, 02:02, and HLA-C*06:02), NP
+     <sub>
+      140–148
+     </sub>
+     (HLA-A*01:01,26:01, 30:02, 80:01, HLA-B*15:01, 15:17, 35:01, 57:01, 58:01), NP
+     <sub>
+      140–150
+     </sub>
+     (HLA-B*15:01) and NP
+     <sub>
+      139–156
+     </sub>
+     (HLA-B*15:01). It is thus possible that the variation observed at position NP
+     <sub>
+      146
+     </sub>
+     is driven by the virus’ ability to escape from CD8     T cells responses directed against one or more of these overlapping peptides instead. We solved the structure of the HLA-A*68:01-NP
+     <sub>
+      145
+     </sub>
+     with an Alanine at position 146 (P2-Ala) as this variant was present in both A/H3N2 and A/H1N1 influenza viruses that circulated in the last decade. We observed that the P2-Ala is well-accommodated within the antigen-binding cleft of HLA-A*68:01, and that the long peptide is highly mobile as previously observed for other HLA-A*68:01-restricted peptides     . This is in accordance with a previously solved binary structure of HLA-A*68:01 and a 9 aa NP
+     <sub>
+      91–99
+     </sub>
+     peptide showing that the HLA-A*68:01-bound peptide was highly flexible, thus allowing the binding of overlapping peptides of different lengths but of conserved residues located at P2 and PΩ     . In addition, HLA-A*68:01 can also present peptides of canonical lengths (9–10 mer), such as the 9 aa RT313 peptide from HIV     , or a 10 aa self-peptide with a C-terminal extension that bulges out of the cleft     , both adopting a rigid conformation in the cleft of the HLA-A*68:01 molecule.
+    </p>
+    <p id="Par29">
+     Approximately 30 structures of unique MHC class I-long peptide (≥11 aa) complexes have been structurally solved, where 2/3 displayed a rigid conformation     . TCR repertoires directed at MHC class I-restricted long peptides, were observed to have a highly biased TCR gene usage     . These observations might suggest that TCRs have a limited capacity to engage with such long peptide-HLA-I complexes, which may limit the recruitment of peptide-specific CD8     T cells during infection. This was also observed in our donors where low frequencies of A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells were observed in 65% HLA-A*68:01 donors tested. A substantial proportion of the A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells in three out of four low-responding donors displayed a naïve-like phenotype and single (non-expanded) TCRαβ signatures. Interestingly, the TCRαβ repertoire was highly diverse in six out of eight HLA-A*68:01 donors, including all three low responding donors. Only two other long peptides, the tumor antigen HLA-B*07:02/NY-ESO-1 (13 aa) and HIV-p24 HLA-B*57:03/KF11 (11 aa), have been described to display a more diverse TCRαβ repertoire     . In alignment with a study from Chan et al., we observed variability in CDR3 length without a consensus sequence motif     . One possible explanation is that flexible long peptides could result in multiple and potentially suboptimal TCRαβ binding sites, leading to a more diverse TCRαβ repertoire     . However, the low frequency of A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells in combination with a high variety of TCRαβ clonotypes and less frequent TCRαβ gene segments expressing a naïve-like phenotype, indicates that the high flexibility of this epitope might possibly prevent the effective recruitment of CD8     T cells during influenza virus infections, thus might need to be primed by rationally-designed T cell vaccines.
+    </p>
+    <p id="Par30">
+     It is unlikely that the ineffective recruitment of A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells is the result of the reduced CD8 binding affinity of the HLA-A*68:01 molecule     . Previous studies have shown that the CD8 co-receptor maintained the majority of its biological activity, even at extremely low binding affinities     . Furthermore, the reduced CD8 binding affinity did not affect the functional activity of HLA-A*68:01-NP
+     <sub>
+      89–101
+     </sub>
+     and HIV
+     <sub>
+      Tat
+     </sub>
+     -specific CD8     T cells     . In addition, it was shown that HLA-A*68:01-HIV
+     <sub>
+      Tat
+     </sub>
+     -specific TCR binding was within the normal TCR-pHLA binding range     , which was consistent with our tetramer-avidity data.
+    </p>
+    <p id="Par31">
+     Overall, A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells have an immunodominant memory potential, as detected in 35% of our donors. However, as the remaining 65% of HLA-A*68:01-expressing donors had low precursor frequency of A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     T cells, which indicates possible difficulties with the recruitment of A68/NP
+     <sub>
+      145
+     </sub>
+     CD8     TCRαβ clonotypes during influenza-specific responses, as compared with the engagement of TCRαβ clones against universal influenza CD8     T cell epitopes in the same donors. A potential low CD8     T cell frequency against this one NP
+     <sub>
+      145
+     </sub>
+     /HLA-A*68:01 epitope may not greatly affect the disease severity in individuals with additional HLAs capable of presenting universal influenza epitopes mounting robust influenza CD8     T cell responses against these universal epitopes. However, as the frequency of the HLA-A*68:01 allomorph is especially high among the Indigenous populations globally including Southern America (
+     <ext-link ext-link-type="uri" ns0:href="http://www.allelefrequencies.net">
+      http://www.allelefrequencies.net
+     </ext-link>
+     ) and Australia     . These Indigenous populations often lack HLA allomorphs that present universal influenza epitopes and thus might lack influenza virus-specific CD8     T cell responses toward other HLAs     . The fact that the A68/NP
+     <sub>
+      145
+     </sub>
+     -specific CD8     T cells have an immunodominance potential makes them an interesting target to stimulate by novel CD8     T cell-inducing influenza vaccines. Future research is needed to understand whether their influenza virus-specific CD8     T cell response will benefit from repeatedly boosting, for example by novel CD8     T cell-inducing influenza vaccines.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec11">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec12">
+     <title>
+      Human blood samples
+     </title>
+     <p id="Par32">
+      Our study assessed influenza-specific CD8      T cell responses in 18 HLA-A*68:01-expressing donors. These 18 donors represent all of our HLA-A*68:01 individuals recruited and HLA typed across six different HLA-typed cohorts, consisting of a total of ∼500 donors. Peripheral blood mononuclear cells (PBMCs) were obtained from donors recruited through the University of Melbourne (UoM), Australian Red Cross Lifeblood (ARCL) (Melbourne), Deepdene Medical Clinic (DMC) (Melbourne), Menzies School of Health Research, Royal Melbourne Hospital (RMH) and the Alfred Hospital (AH) (Table      ). Ficoll-Paque (GE Health-care, Uppsala, Sweden) gradient centrifugation was used to isolate PBMCs, which were subsequently cryopreserved in liquid N
+      <sub>
+       2
+      </sub>
+      until required. A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cell responses for donors 1, 2, and 3 were accessed at two separate time-points, in 2015 and 2018 (Table      ). HLA class I and class II molecular genotyping was performed from genomic DNA by the ARCL. Human experimental work was conducted according to the Declaration of Helsinki principles and approved by the Human Research Ethics Committee (HREC) of the University of Melbourne (Ethics ID #1443389.4), Northern Territory Department of Health and Menzies School of Health Research (ID #HREC-2012-1928) for LIFT donors      and HREC of Monash Health and Melbourne Health (ID #HREC/15/MonH/64) for RMH donors and Alfred Hospital (ID #280/14) for AH donors. All donors provided informed written consent.
+     </p>
+     <p id="Par33">
+      The vaccination and infection history of the donors were predominantly unknown. However, it is important to note that the current inactivated influenza vaccine does not induce influenza-specific CD8      T cells responses      , thus recent influenza immunisation would not affect CD8      T cell responses tested in this study.
+     </p>
+    </sec>
+    <sec id="Sec13">
+     <title>
+      Protein expression, purification, and crystallization
+     </title>
+     <p id="Par34">
+      Soluble class I heterodimers of HLA-A*68:01-containing NP
+      <sub>
+       145
+      </sub>
+      peptide were prepared by expressing the heavy chain and the β2-microglobulin proteins separately as inclusion body in a BL21
+      <italic>
+       E. Coli
+      </italic>
+      strain. After several washes, the inclusion bodies were solubilized in 6 M guanidine before being use for refold. The refolding buffer contained 0.1 M Tris-HCl pH8, 2 mM EDTA, 400 mM L-Arginine-HCl, 0.5 and 5 mM Glutathione oxidized and reduced, respectively. Into the chilled refolding buffer was added 90 mg of heavy chain inclusion bodies; 20 mg of β2 m inclusion bodies, and 10 mg of the NP
+      <sub>
+       145
+      </sub>
+      peptide (purchased from GLbiochem) dissolved in 400 μL of DMSO. After 3 days, the protein was dialyzed and purified using anion exchange and size exclusion columns. Crystals of the HLA-A*68:01-NP
+      <sub>
+       145
+      </sub>
+      grew at 2.5 mg/ml in 8–14% v/w PEG3350, 0.1 M NaCl, 0.1 M Hepes pH 7.4, 20 mM MgCl
+      <sub>
+       2
+      </sub>
+      , and 5 mM CdCl
+      <sub>
+       2
+      </sub>
+      . The crystals were soaked into a cryoprotectant solution containing the mother liquor solution enriched at 25% v/w PEG3350, and flash frozen in liquid nitrogen. Data were collected on the MX2 beamline      at the Australian Synchrotron, Clayton using an ADSC 315r CCD detector (at 100 K). Diffraction data were processed using XDS software      , and scaled with SCALA software      from the CCP4 suite      . The structure of HLA-A*68:01-NP
+      <sub>
+       145
+      </sub>
+      complex was solved by molecular replacement using PHASER (S0907444901012471) with the previously solved structure of HLA-A*68:01 as model (PDB accession number 4HWZ      ) without the bound peptide. The model was refined with Buster software      after multiple manual model building run to fit the NP
+      <sub>
+       145
+      </sub>
+      peptide in the structure using Coot software      . The final model has been validated using the Protein Data Base validation website, final refinement statistics are summarized in Supplementary Table      . All molecular graphics representations were created using MacPyMOL v1.7.6.3      .
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      Viral sequence analysis
+     </title>
+     <p id="Par35">
+      To assess the frequency of amino acid variations in the NP
+      <sub>
+       145
+      </sub>
+      peptide in human A/H1N1 (1918–1957, 1977−2009, and 2009–2018), A/H2N2 (1957–1968), A/H3N2 (1968–2018), H5N1 (1997–2014) and H7N9 (2013–2017) viruses, all full-length NP amino acid sequences available in the influenza virus resource database of the National Center for Biotechnology Information (NCBI;
+      <ext-link ext-link-type="uri" ns0:href="http://www.ncbi.nlm.nih.gov/genomes/FLU">
+       http://www.ncbi.nlm.nih.gov/genomes/FLU
+      </ext-link>
+      ), as of 31 July 2018, were downloaded. Sequences with large deletions were excluded using BioEdit, the remaining dataset was analyzed in Ugene 1.16.1 (
+      <ext-link ext-link-type="uri" ns0:href="http://ugene.unipro.ru">
+       http://ugene.unipro.ru
+      </ext-link>
+      ; Unipro, Novosibirsk, Russia) to assess the frequency of variations at different positions in the NP
+      <sub>
+       145
+      </sub>
+      peptide. Viruses were analyzed in Excel to determine whether observed frequencies were the result of cluster formation and whether certain mutations became fixed in time.
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      Peptides and tetramers
+     </title>
+     <p id="Par36">
+      Variants of the IAV NP
+      <sub>
+       145
+      </sub>
+      peptide (D
+      <underline>
+       A
+      </underline>
+      TYQRTRALVR, D
+      <underline>
+       T
+      </underline>
+      TYQRTRALVR, and D
+      <underline>
+       V
+      </underline>
+      TYQRTRALVR) were purchased from GenScript (Piscataway, NJ, USA). HLA      A*68:01-NP
+      <sub>
+       145
+      </sub>
+      (DATYQRTRALVR) monomers were generated in house by refolding each peptide with its restricted HLA α-heavy chain-BirA and β2-microglobulin      before 8:1 conjugation with PE-streptavidin or APC-streptavidin (BD Biosciences, San Jose, CA, USA) to form tetramers.
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      Generation of T cell lines
+     </title>
+     <p id="Par37">
+      To amplify influenza virus-specific CD8      T cells directed at the HLA-A*68:01-restricted NP
+      <sub>
+       145
+      </sub>
+      epitope, autologous PBMCs (~3 × 10      cells) from HLA-A*68:01 donors were pulsed with 10 μM NP
+      <sub>
+       145
+      </sub>
+      peptide (DATYQRTRALVR, DTTYQRTRALVR or pool of DATYQRTRALVR, DTTYQRTRALVR, and DVTYQRTRALVR) in 1 ml serum-free RPMI1640 medium (Invitrogen) for 90 min at 37°C and washed with RPMI. Peptide-pulsed PBMCs were then incubated with autologous nonpeptide-pulsed PBMCs (6 × 10      cells) and cultured for 10 days in cRPMI (RPMI supplemented with 2 mM L-glutamine (Gibco), 1 mM MEM sodium pyruvate (Gibco), 100 µM MEM non-essential amino acids (Gibco), 5 mM HEPES buffer solution Gibco), 55 µM 2-mercaptoethanol (Gibco), 100 U/ml penicillin (Gibco), 100 µg/ml streptomycin (Gibco), and 10% fetal bovine serum (Gibco)). Cultures were supplemented on day 4 with 20 U/ml rIL2 (Roche, Basel, Switzerland) and then every 3–4 days with fresh media      .
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      Intracellular staining
+     </title>
+     <p id="Par38">
+      Expanded A68/NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells were stimulated with 1 µM peptide (DATYQRTRALVR, DTTYQRTRALVR, DVTYQRTRALVR or pool of DATYQRTRALVR, DTTYQRTRALVR, and DVTYQRTRALVR) and cultured for 5 h in the presence of 10 U/ml rIL2 and Golgi Stop (BD Biosciences). Following activation, cells were surface stained for 30 min with human anti-CD3-BV510 (1:200, Biolegend #317332), anti-CD4-BV650 (1:200, BD Horizon #563875), anti-CD14-APC-H7 (1:100, BD Pharmingen #560180), anti-CD19-APC-H7 (1:100, BD Pharmingen #560177), anti-CD8-PerCPCy5.5 (1:100, BD Pharmingen #565310), Live/Dead near-infrared (1:800, Invitrogen), and PE-streptavidin-conjugated A68/NP
+      <sub>
+       145
+      </sub>
+      (DATYQRTRALVR) tetramer. Cells were fixed with BD Fix-Perm buffer (BD Biosciences) for 20 min, before intracellular staining for 30 min with human anti-IFN-γ-V450 (1:100, BD Horizon #560371) in perm wash buffer (BD Biosciences). Cells were washed, acquired on the BD Fortessa (BD Biosciences) and analyzed using the Flowjo software (Treestar, OR, USA).
+     </p>
+    </sec>
+    <sec id="Sec18">
+     <title>
+      Magnetic enrichment of NP
+      <sub>
+       145
+      </sub>
+      CD8      T cells ex vivo
+     </title>
+     <p id="Par39">
+      PBMCs or T cell lines (1–5 × 10      ) were thawed in cRPMI medium supplemented with 50 U/ml Benzonase (Novagen Merck). Cells were washed once in magnetic-activated cell sorting (MACS) buffer (PBS supplemented with 0.5% Bovine Serum Albumin (BSA) (Sigma) and 2 mM EDTA) and incubated with anti-human FcR block [20 µl/1 × 10      cells] (Milteny Biotec) for 15 min on ice and subsequently stained with PE- and/or APC-streptavidin-conjugated tetramers [1:100 in MACS buffer] for 1 h at room temperature. After one wash, cells were incubated for 30 min on ice with 100 µl anti-PE and/or 100 µl anti-APC MicroBeads (Milteny Biotec) in 400 or 300 µl MACS buffer, respectively. Cells were washed twice before passing through a LS column (Milteny Biotec) to enrich for tetramer-positive cells      . Cells were then surfaced stained in MACS buffer using human anti-CD45RA-FITC (1:200, BD Biosciences #555488), anti-CD8-PerCP-Cy5.5 (1:200, BD Biosciences #565310), anti-CD27      APC (1:50, BD Biosciences #337169), or anti-CD27-BV711 (1:200, BD Horizon #563167), anti-CD3-AF700 (1:50, BD Biosciences #557943), anti-CD14-APC-Cy7 (1:100, BD Biosciences #560180), anti-CD19 (1:100, BD Biosciences #560177), anti-CD62L-V450 (1:100, eBioscience #48-0629-42), anti-CD4-BV650 (1:100), anti-CD56-BV785 (1:100, BD Horizon #564058), anti-CD95-PECF594 (1:100, BD Horizon #562395), anti-CCR7-PeCy7 (1:50, BD Biosciences #557648), and Live/Dead fixable aqua dead-cell stain (1:800, Invitrogen) for 30 min on ice. Cells were subsequently washed once and fixed with 1% paraformaldehyde (ProSciTec) for acquiring on a LSRFortesa II (BD Biosciences) or resuspended in MACS buffer for single cell-(index)-sorting using a BD FACSAria III (BD Biosciences), followed by the analysis using a FlowJo software (BD Biosciences).
+     </p>
+    </sec>
+    <sec id="Sec19">
+     <title>
+      Single-cell RT-PCR and TCR sequencing
+     </title>
+     <p id="Par40">
+      A68/NP
+      <sub>
+       145
+      </sub>
+      enriched cells were individually (index-) sorted into chilled 96-well twin.tec PCR plates (Eppendorf, Hamburg, Germany) and immediately stored at −80 °C until required. Single-cell paired CDR3α and CDR3β regions were analyzed by multiplex nested RT-PCR and followed by sequencing of the CDRα and CDRβ products      . Briefly, cDNA was synthesized from single cells in PCR plates in 2.5 µl reaction mixes, each containing 0.5 µl 5× VILO reaction mix (Invitrogen), 0.25 µl 10× SuperScript enzyme mix (Invitrogen), and 0.1% Triton X-100 (Sigma), which were incubated at 25°C for 10 min, 42°C for 120 min, and 85 °C for 5 min. TCR transcripts from each cell were amplified by multiplex nested PCR in 25 µl reaction mixes containing 2.5 µl cDNA. First-round PCR was performed with 2.5 µl 10× PCR buffer (containing 15 mM MgCL2) (Qiagen), 0.5 µl of 10 mM dNTP (Invitrogen), 0.15 µl
+      <italic>
+       Taq
+      </italic>
+      DNA polymerase (5 units/µl) (Qiagen), 2.5 pmol each of the external sense TRAV and TRBV and external antisense TRAC and TRBC primers (Supplementary Table      ). A total of 2.5 µl aliquots of the first-round PCR products served as templates for two separate second-round PCRs that incorporated, respectively, an internal sense TRAV and internal sense TRAC primers (Supplementary Table      ) or internal sense TRBV and internal antisense TRBC primers (Supplementary Table      ). The second-round PCR used CoralLoad PCR buffer 10× (Qiagen) instead of 10× PCR buffer. PCR conditions for external and internal PCR round were 95 °C for 2 min, followed by 35 cycles of 95 °C for 20 s, 52°C for 20 s, and 72°C for 45 s, followed by one step of 72°C for 7 min. PCR products were purified and sequenced with the respective internal TRAC and TRBC primer (Supplementary Table      ). Sequences were analyzed with FlinchTV. V–J regions were identified by IMGT query (
+      <ext-link ext-link-type="uri" ns0:href="http://www.imgt.org/IMGT_vquest">
+       www.imgt.org/IMGT_vquest
+      </ext-link>
+      ). TCR sequences were parsed using the TCRdist analytical pipeline      . Clonotypes were defined as single-cell TCRαβ pairs that exhibit the same V, J, and CDR3 regions. Circos plots were generated using the online Circos software package (
+      <ext-link ext-link-type="uri" ns0:href="http://mkweb.bcgsc.ca">
+       http://mkweb.bcgsc.ca
+      </ext-link>
+      )      .
+     </p>
+    </sec>
+    <sec id="Sec20">
+     <title>
+      Statistical analysis
+     </title>
+     <p id="Par41">
+      The data were analyzed by SPSS statistics 25 using a Mann–Withney test and differences were considered significant at a
+      <italic>
+       p
+      </italic>
+      value of &lt;0.05. Medium and high responder groups were pooled to ensure adequate power for statistical analysis.
+     </p>
+    </sec>
+    <sec id="Sec21">
+     <title>
+      Reporting summary
+     </title>
+     <p id="Par42">
+      Further information on research design is available in the      linked to this article.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary information
+    </title>
+    <sec id="Sec22">
+     <p/>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

@@ -1,0 +1,6056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Immunoinformatics-guided design of an epitope-based vaccine against severe acute respiratory syndrome coronavirus 2 spike glycoprotein
+ </title>
+ <abstract>
+  <p>
+   With a large number of fatalities, coronavirus disease-2019 (COVID-19) has greatly affected human health worldwide. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the virus that causes COVID-19. The World Health Organization has declared a global pandemic of this contagious disease. Researchers across the world are collaborating in a quest for remedies to combat this deadly virus. It has recently been demonstrated that the spike glycoprotein (SGP) of SARS-CoV-2 is the mediator by which the virus enters host cells.
+  </p>
+  <p>
+   Our group comprehensibly analyzed the SGP of SARS-CoV-2 through multiple sequence analysis and a phylogenetic analysis. We predicted the strongest immunogenic epitopes of the SGP for both B cells and T cells.
+  </p>
+  <p>
+   We focused on predicting peptides that would bind major histocompatibility complex class I. Two optimal epitopes were identified, WTAGAAAYY and GAAAYYVGY. They interact with the HLA-B*15:01 allele, which was further validated by molecular docking simulation. This study also found that the selected epitopes are able to be recognized in a large percentage of the worlds population. Furthermore, we predicted CD4   T-cell epitopes and B-cell epitopes.
+  </p>
+  <p>
+   Our study provides a strong basis for designing vaccine candidates against SARS-CoV-2. However, laboratory work is required to validate our theoretical results, which would lay the foundation for the appropriate vaccine manufacturing and testing processes.
+  </p>
+  <p>
+   <list id="ulist0010" list-type="simple">
+    <list-item id="u0010">
+     <label>
+      •
+     </label>
+     <p id="p0010">
+      COVID-19 is regarded as an infectious disease, which caused by severe acute respiratory syndrome-coronavirus 2.
+     </p>
+    </list-item>
+    <list-item id="u0015">
+     <label>
+      •
+     </label>
+     <p id="p0015">
+      Our research group focused on vaccine design against SARS-CoV-2 utilizing various immunoinformatics tools.
+     </p>
+    </list-item>
+    <list-item id="u0020">
+     <label>
+      •
+     </label>
+     <p id="p0020">
+      For T-cell epitopes, our study mainly concentrated on the epitopes that bind with MHC class I molecules.
+     </p>
+    </list-item>
+    <list-item id="u0025">
+     <label>
+      •
+     </label>
+     <p id="p0025">
+      By utilizing the immunoinformatics database, we predicted three T-cell epitopes.
+     </p>
+    </list-item>
+    <list-item id="u0030">
+     <label>
+      •
+     </label>
+     <p id="p0030">
+      We determined the binding affinities of the epitopes with the HLA encoded by MHC through molecular docking studies.
+     </p>
+    </list-item>
+    <list-item id="u0085">
+     <label>
+      •
+     </label>
+     <p id="p0355">
+      Besides, our present study also predicted the B-cell epitopes, which presumably elicit a stronger immune response.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0035">
+     Pandemics caused by severe life-threatening human pathogens have played a significant role in shaping human history. The world is currently battling a global pandemic rapidly developed in late December 2019. A cluster of pneumonia cases of unknown etiology was reported in Wuhan, the capital city of the Hubei Province in the Peoples Republic of China. Later, it was revealed that the causative agent of this outbreak was a novel coronavirus named SARS-CoV-2 (previously named 2019-nCoV). The clinical condition associated with this novel coronavirus is referred to as COVID-19 [     ,     ,     ]. On March 11, 2020 the World Health Organization (WHO) categorized the current outbreak of COVID-19 as a pandemic. This viral infection appears to constitute a major global threat to humans and has had devastating effects worldwide
+     <italic>
+      .
+     </italic>
+     As of August 3, 2020, more than 17.9 million cases and over 685,000 deaths have been reported globally. Developed countries such as the USA, Italy, Spain, France, Germany, and the United Kingdom have experienced high mortality rates [     ]. The number of COVID-19 cases has continued to escalate exponentially and is considered to be the largest outbreak of atypical pneumonia in recent times.
+    </p>
+    <p id="p0040">
+     Tyrell and Bynoe first described the coronaviruses in 1966 [     ]. Coronaviruses are pleomorphic or spherical particles with a positive single-strand RNA (+ssRNA). These viruses are very common among mammals and birds and can be transmitted to humans through pathogen spillover. They were named “coronavirus” because these virions consist of a core-shell and 9–12 nm-long crown-like surface spikes located on the outer surface of the virus, resembling a solar corona. Their genome size is the largest among all the RNA viruses, ranging from 27 to 32 kb in length, which encodes structural and nonstructural proteins of the coronavirus. Phenotypic and genotypic diversity allows them to adapt to new environments through mutation and recombination. Mutations that impact the surface proteins enable its sustainability and are challenging for the immune system, which makes SARS-CoV-2 infection unique compared to previous coronaviruses [     ]
+     <bold>
+      .
+     </bold>
+     Among the four genera of coronaviruses (alpha, beta, gamma, and delta), the betacoronaviruses can cause severe disease and death in humans [     ]. Including SARS-CoV-2, seven subtypes of coronaviruses have been identified in recent decades, all of which can infect humans.
+    </p>
+    <p id="p0045">
+     SARS-CoV-2 differs from other betacoronaviruses in terms of its significantly higher infectivity and low mortality rate. It belongs to the B lineage of the betacoronavirus in the order
+     <italic>
+      Nidovirales
+     </italic>
+     , family
+     <italic>
+      Coronaviridae
+     </italic>
+     , and subfamily
+     <italic>
+      Orthocoronaviridae
+     </italic>
+     . After the two previously reported coronaviruses, SARS and MERS, this is the third zoonotic coronavirus outbreak of the 21st century and is closely related to its predecessors [     ,     ]. As it is a zoonotic virus, there is an intermediate host by which it was transmitted to humans. Preliminary investigations have predicted that SARS-CoV-2 underwent zoonotic transfer from bats to humans [     ]. Primarily, environmental specimens taken from the Huanan wet market in Wuhan were found to be positive for SARS-CoV-2, but no specific association with any animal has yet been confirmed, according to a WHO report [     ].
+    </p>
+    <p id="p0050">
+     As this contagious disease is mainly a respiratory disease, it appears to affect only the lungs in most cases. The infection is transmitted between people during close contact, which occurs via the spraying of droplets from the infected individual when they cough or sneeze [     ,     ]. These droplets usually fall onto surfaces, and touching the contaminated surfaces followed by touching other parts of the face (such as ones eyes, nose, or mouth) may result in spreading the infection [     ,     ]. The symptoms of COVID-19 range from mild or moderate fever to severe pneumonia. Time from exposure to onset of symptoms ranges from 2 to 14 days, with an average of 5 days. It appears that viral spread can take place before symptoms appear. The clinical pathology largely resembles its two predecessors, with less severe upper respiratory and gastrointestinal symptoms. The most common symptoms or combination of symptoms include fever, fatigue, dry cough, dyspnea, alveolar edema, sore throat, new loss of taste or smell, and shortness of breath [     ]. Older people with medical comorbidities or multi-organ failure, such as those with hypertension, cardiovascular disease, or diabetes, are more likely to become infected and suffer worse outcomes [     ]. Severe cases can lead to cardiac injury, respiratory failure, acute respiratory syndrome, hepatic injury, neurological complications, or death [     ].
+    </p>
+    <p id="p0055">
+     The structure of SARS-CoV-2 includes a polyprotein (the open reading frame 1a and 1b, Orf1ab), four major structural proteins, the S protein (spike glycoprotein; SGP), E protein (envelope), M protein (membrane), and N protein (nucleocapsid), along with five accessory proteins, Orf3a, Orf6, Orf7a, Orf8 and Orf10 [     ]. This novel coronavirus also encodes an additional glycoprotein that has acetyl esterase and hemagglutination (HE) attributes, and this glycoprotein does not occur in other coronaviruses [     ]. Among the structural proteins, the S protein is a multifunctional molecular machine; a recent study by Walls et al. clarified the structure, function, and immunogenicity of the S protein [     ]. The SGP can attach to a specific human host receptor, ACE2, on the surface of human cells. This receptor binding process mediates the entry of viral particles into the host cells with the aid of its protease, which cleaves the spike protein into the S1 and S2 subunits [     ,     ]. The SGP binds to ACE2, located on the surface of host cells, through the receptor binding domain (RBD), which is part of the S1 subunit. Subsequently, the viral and host membranes are fused by the S2 subunit. The viral genome RNA is released into the cytoplasm after this membrane fusion. Hence, developing neutralizing antibodies against the RBD of SARS-CoV-2 SGP might be an ideal vaccine strategy.
+    </p>
+    <p id="p0060">
+     The identification of B-cell and T-cell epitopes for spike glycoproteins is critical for developing an effective vaccine. Although humans normally demonstrate an antibody response against viruses, only neutralizing antibodies can completely block the entry of viruses into human cells [     ]. The location of antibody binding sites on a viral protein strongly affects the bodys ability to produce neutralizing antibodies [     ]. It is crucial to ascertain whether SARS-CoV-2 has any potential antibody binding sites (B-cell epitopes) in the RBD region, because this is the area where the virus interacts with its known human receptor, ACE2.
+    </p>
+    <p id="p0065">
+     Apart from neutralizing antibodies, the human body also relies on cytotoxic CD8     T cells and helper CD4     T cells to eliminate viruses from the body. The presentation of a peptide will allow a B cell to receive stimulation from a helper T cell and become a plasma cell so that it can generate antibodies. T-cell epitopes in connection with MHC proteins are presented to T cells to elicit an antiviral T-cell response. Cytotoxic T cells recognize peptides that are received from the intracellular space presented by MHC class I molecules (CD8     T-cell epitopes), while helper T cells recognize extracellular peptides presented by MHC class II molecules (CD4     T-cell epitopes). The pMHC (peptide: MHC complex) interacts with the T-cell receptor and activates the cellular immune response. The inclusion of CD4     T-cell epitopes plays a key role in vaccine design, as they provide cognate help and elicit vigorous humoral and cytotoxic CD8     T cell responses and neutralizing antibodies [     ]. T-cell epitope-based vaccines have been explored in recent years, as they can target conserved regions of the virus to elicit T cell responses and provide long-term protection against different strains of viruses [     ].
+    </p>
+    <p id="p0070">
+     Currently, no clinically proven vaccine grants immunity to SARS-CoV-2 infection. Researchers have examined different repurposed compounds from other viral infections to treat COVID-19, but the treatment benefit derived has been marginal or nonexistent in most cases [     ]. However, with the rapid expansion of research in this area, it is hoped that a vaccine against SARS-CoV-2 could be developed in the not too distant future. To this end, several antibody development platforms have been explored, including DNA vaccines, RNA vaccines, protein subunit vaccines, virus-like particle (VLP)-based vaccines, and vector-based vaccines. However, further investigations are critical for developing a safe vaccine that is applicable in different age groups. For this purpose, extensive relevant research of the genomic and structural organization of SARS-CoV-2 is crucial. Recent studies have already reported the development of inactivated vaccine candidates against SARS-CoV-2; however, these candidates require further validation [     ,     ]. In addition, several institutes have isolated the SARS-CoV-2 strain for developing live-attenuated vaccine candidates; however, this type of vaccine requires extensive screening showing extremely low or no pathogenicity [     ].
+    </p>
+    <p id="p0075">
+     Many researchers have concentrated on making mRNA and DNA vaccines that eliminate the risk of any unwanted reactions. But these novel methods face many obstacles because of their experimental status and because they inherently carry very little antigenicity. Epitope-based vaccines offer a viable alternative since they can elicit potent immune responses without causing undesirable allergic reactions and have already been successfully implemented in combating other harmful pathogens. Designing vaccines using conventional methods is not only time consuming, it is also inefficient. Various immunoinformatics tools can help to significantly speed up this laborious process. Immunoinformatics tools, such as epitope prediction, can be used to construct vaccines
+     <italic>
+      in silico
+     </italic>
+     , and the results can then be experimentally validated [     ]. Several
+     <italic>
+      in silico
+     </italic>
+     immunoinformatics-guided attributes have already been predicted as a basis for an epitope-based SARS-CoV-2 vaccine; these predicted epitopes have arisen from several of the pathogens proteins, including the N and E proteins and the main protease (M     ) [     ,     ,     ,     ].
+    </p>
+    <p id="p0080">
+     Effective promiscuous epitopes binding to a variety of human leukocyte antigen (HLA) alleles for wider dissemination with no human cross-reactivity are crucial because COVID-19 has affected populations worldwide. Our present study embarked upon the clear objective of designing an epitope-based peptide vaccine against SARS-CoV-2 infection using
+     <italic>
+      in silico
+     </italic>
+     methods by investigating its SGP. We targeted the epitopes of the SGP because they reportedly induce a longer-lasting immune response against SARS coronavirus [     ]. We assessed the associated MHC alleles for the identified epitopes to determine those epitopes that would maximize population coverage across the world. As a result, using different computational tools, we designed an epitope-based peptide vaccine that would theoretically target the SARS-CoV-2 SGP with the expectation of subsequent wet laboratory validation.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <label>
+     2
+    </label>
+    <title>
+     Materials and methods
+    </title>
+    <p id="p0085">
+     The methodologies used for peptide vaccine development for SARS-CoV-2 SGP are shown in     .
+    </p>
+    <sec id="sec2.1">
+     <label>
+      2.1
+     </label>
+     <title>
+      Protein sequence retrieval and sequence analysis
+     </title>
+     <p id="p0090">
+      The SARS-CoV-2 SGP sequence was extracted from the UniProt database (UniProt entry: P0DTC2) in FASTA format [      ]. The features, function, structure, and evaluation of the sequence were mainly based on the process of sequence analysis, which subjects DNA, RNA, or peptide sequences to a wide range of analytical methods. We screened homologous sequences from the BLASTp database and selected those sequences that were most similar to that of SARS-CoV-2 SGP. We also performed multiple sequence alignment (MSA) using the ClustalW web server with default settings, and a phylogenetic tree was established using the Clustal tree format and the EMBL-EBI web server [      ].
+     </p>
+    </sec>
+    <sec id="sec2.2">
+     <label>
+      2.2
+     </label>
+     <title>
+      Protein antigenicity prediction
+     </title>
+     <p id="p0095">
+      To determine the potent antigenic protein of the SARS-CoV-2 SGP, we used the online server VaxiJen v2.0, with a default threshold value [      ]. All the antigenic proteins of SARS-CoV-2 SGP with their respective scores were obtained and then sorted in Notepad++.
+     </p>
+    </sec>
+    <sec id="sec2.3">
+     <label>
+      2.3
+     </label>
+     <title>
+      T-cell epitope prediction
+     </title>
+     <sec id="sec2.3.1">
+      <label>
+       2.3.1
+      </label>
+      <title>
+       CD8       T-cell epitope identification
+      </title>
+      <p id="p0100">
+       The NetCTL 1.2 server was used to identify T-cell epitopes; a 0.95 threshold was applied to maintain a sensitivity and specificity of 0.90 and 0.95, respectively [       ]. The tool expanded the prediction for 12 MHC-I supertypes and unified the prediction of peptide MHC-I binding, proteasomal C-terminal cleavage with TAP transport efficiency. These predictions were performed by an artificial neural network. A weighted TAP transport efficiency matrix and a combined algorithm for MHC-I binding and proteasomal cleavage efficiency were then used to determine the overall scores and translated into sensitivity/specificity. Based on this overall score, the ten best peptides (epitopes) were selected for further evaluation.
+      </p>
+      <p id="p0105">
+       To predict peptides that bind to MHC-I, we used a tool from the Immune Epitope Database (IEDB) to calculate half-maximal inhibitory concentration (IC
+       <sub>
+        50
+       </sub>
+       ) values for peptides binding to specific MHC-I molecules. For the binding analysis, all the frequently used alleles (
+       <ext-link ext-link-type="uri" id="intref0010" ns0:href="http://tools.iedb.org/mhci/">
+        http://tools.iedb.org/mhci/
+       </ext-link>
+       ) with a word length of nine residues and a binding affinity &lt; 200 nm were selected for further analysis [       ]. The MHC-NP tool provided by the IEDB server was used to assess the probability that a given peptide was naturally processed and would bind to a given MHC molecule [       ].
+      </p>
+     </sec>
+     <sec id="sec2.3.2">
+      <label>
+       2.3.2
+      </label>
+      <title>
+       Epitope conservancy and immunogenicity prediction
+      </title>
+      <p id="p0110">
+       The degree of similarity between the epitope and the target (i.e. given) sequence is elucidated by epitope conservancy. This property of an epitope indicates its availability in a range of different strains. The web-based tool from IEDB analysis resources was used to analyze the epitope conservancy [       ]. Immunogenicity prediction can infer the degree to which a particular epitope will produce an immunogenic response. The T-cell class I pMHC immunogenicity predictor at IEDB, which uses amino acid properties as well as considering their position within the peptide, will predict the immunogenicity of a class I peptide MHC (pMHC) complex [       ].
+      </p>
+     </sec>
+     <sec id="sec2.3.3">
+      <label>
+       2.3.3
+      </label>
+      <title>
+       Allergenicity assessment
+      </title>
+      <p id="p0115">
+       Allergenicity of the predicted epitope was calculated using AllerTop v2.0. This is an alignment-free server used for
+       <italic>
+        in silico-
+       </italic>
+       based allergenicity prediction of a protein based on its physicochemical properties [       ].
+      </p>
+     </sec>
+     <sec id="sec2.3.4">
+      <label>
+       2.3.4
+      </label>
+      <title>
+       Analysis of HLA–epitope interaction by molecular docking
+      </title>
+      <sec id="sec2.3.4.1">
+       <label>
+        2.3.4.1
+       </label>
+       <title>
+        Epitope model generation
+       </title>
+       <p id="p0120">
+        A web-based server, PEP-FOLD, was used to predict the 3D structures of the selected epitopes [        ]. For each sequence, the server predicted five probable structures. The energy of each structure was determined by SWISS-PDB VIEWER, and the structure with the lowest energy was chosen for further analysis [        ].
+       </p>
+      </sec>
+      <sec id="sec2.3.4.2">
+       <label>
+        2.3.4.2
+       </label>
+       <title>
+        Retrieval of HLA allele molecule
+       </title>
+       <p id="p0125">
+        The 3D structure of the HLA-B*15:01 (PDB ID:
+        <ext-link ext-link-type="uri" id="intref0015" ns0:href="pdb:5TXS">
+         5TXS
+        </ext-link>
+        ) was retrieved from the Protein Data Bank (RCSB-PDB) (
+        <ext-link ext-link-type="uri" id="intref0020" ns0:href="https://www.rcsb.org/">
+         https://www.rcsb.org/
+        </ext-link>
+        ).
+       </p>
+      </sec>
+      <sec id="sec2.3.4.3">
+       <label>
+        2.3.4.3
+       </label>
+       <title>
+        Molecular docking analysis
+       </title>
+       <p id="p0130">
+        Molecular docking analysis was performed using AutoDock Vina in PyRx 0.8. The HLA-B*15:01 allele was considered as receptor protein and the identified epitopes were considered as ligand molecules [        ]. First, we used the protein preparation wizard of UCSF Chimera (version 1.11.2) to prepare the protein for docking analysis by deleting the attached ligand and adding hydrogens and Gasteiger–Marsili charges. The file was then converted into pdbqt format using OpenBabel [        ]. The energy form of the ligand was minimized and converted to pdbqt format by OpenBabel in PyRx 0.8. The parameters used for the docking simulation were set to default. The size of the grid box in AutoDock Vina was kept at 64.1887 × 51.9339 × 62.1079 Å for X, Y, and Z-axes, respectively. AutoDock Vina was implemented via the shell script offered by AutoDock Vina developers. The docking results were presented as negative scores in kcal/mol, as the binding affinity of a ligand with its receptor is calculated as a negative value [        ].
+       </p>
+      </sec>
+     </sec>
+    </sec>
+    <sec id="sec2.4">
+     <label>
+      2.4
+     </label>
+     <title>
+      CD4      T-cell epitope identification
+     </title>
+     <p id="p0135">
+      To predict MHC class II potential epitopes, we utilized the MHC II prediction tools from the IEDB database (
+      <ext-link ext-link-type="uri" id="intref0025" ns0:href="http://tools.iedb.org/mhcii/">
+       http://tools.iedb.org/mhcii/
+      </ext-link>
+      ) [      ]. For MHC II binding prediction, we used the human MHC alleles from Greenbaum et al. [      ]. The MHC class II groove can bind peptides of different lengths. All epitopes that were predicted to bind to the alleles with an IC
+      <sub>
+       50
+      </sub>
+      score of less than 50 were selected for further analysis.
+     </p>
+    </sec>
+    <sec id="sec2.5">
+     <label>
+      2.5
+     </label>
+     <title>
+      Prediction of population coverage
+     </title>
+     <p id="p0140">
+      The population coverage calculation tools from IEDB were employed to determine the individual epitope and multi-epitope population coverage for the targeted potential MHC I and MHC II alleles [      ]. Here, we used the allelic frequency of the interacting HLA alleles to predict the population coverage for the corresponding epitope, both individually and combined.
+     </p>
+    </sec>
+    <sec id="sec2.6">
+     <label>
+      2.6
+     </label>
+     <title>
+      Linear B-cell epitope identification
+     </title>
+     <p id="p0145">
+      The B-cell epitope prediction aimed to identify potential antigens that would give rise to humoral immunity. To detect B-cell epitopes, various tools from IEDB were used to identify B cell antigenicity, along with Emini surface accessibility prediction, Kolaskar and Tongaonkar antigenicity scale, Karplus and Schulz flexibility prediction, and BepiPred linear epitope prediction analysis [      ,      ,      ,      ]. Because the antigenic regions of a protein are part of beta-turns, the Chou and Fasman beta-turn prediction tool was also used [      ].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <label>
+     3
+    </label>
+    <title>
+     Results and discussion
+    </title>
+    <sec id="sec3.1">
+     <label>
+      3.1
+     </label>
+     <title>
+      Sequence retrieval and analysis
+     </title>
+     <p id="p0150">
+      The protein sequence of the SARS-CoV-2 SGP was retrieved from the UniProt database and then BLASTp was performed. From the many identified homologs, we selected only 17 that had greater than 60% sequence identity. MSA was performed
+      <bold>
+       (Supplementary Data 1)
+      </bold>
+      and a phylogenetic tree was constructed (      ). The MSA and phylogenetic results indicated that the protein sequences have a close relationship.
+     </p>
+    </sec>
+    <sec id="sec3.2">
+     <label>
+      3.2
+     </label>
+     <title>
+      Antigenic protein prediction
+     </title>
+     <p id="p0155">
+      The most potent antigenic protein of SARS-CoV-2 SGP was predicted by VaxiJen v2.0, which is based on the auto-cross covariance transformation of protein sequences into uniform vectors of principal amino acid properties
+      <bold>
+       .
+      </bold>
+      The overall antigen prediction score was 0.4683 (probable antigen) at a threshold value of 0.4. A recent review of the genomic and proteomic analysis of SARS-CoV-2 found that certain of its proteins, including M, SGP, E, and N, had the ability to confer a protective immune response against SARS-CoV-2 [      ]. Additionally, a recent study proposed that epitopes on the SGP and N proteins of SARS-CoV-2 elicited strong T-cell immune responses for longer periods of time; therefore, these might be ideal vaccine candidates [      ]. Significantly, the receptor-binding domain (RBD) of the SGP of two other coronaviruses, SARS-CoV and MERS-CoV, provokes strongly potent neutralizing antibody responses and have potential to be developed as vaccines against SARS and MERS infection [      ,      ]. In alignment with previous analyses on other coronaviruses and on other recent evidence, the current study applied computational biology techniques and immunoinformatics tools to identify an epitope-based vaccine candidate utilizing the SARS-CoV-2 SGP. We predicted the antigenicity of SGP with the VaxiJen server. However, a recent study predicted the E protein of SARS-CoV-2 to be the best immunogenic target for designing a vaccine; however, another study that used the Vaxign-ML website proposed SGP as the best vaccine candidate [      ,      ]. The Vaxijen tool mainly incorporates the physicochemical properties of protein sequences for its classification, but the Vaxign-ML server encompasses biological data for its predictions of vaccine candidates [      ]. Several studies have documented that SGP protrudes from the virion envelope and binds to the cellular receptors, playing a crucial role in host cell entry [      ,      ]. Other research has suggested that proteins involved in viral fusion, which depends on the envelope protein and glycoprotein region, elicit the most extensive immune response, along with a cytotoxic T lymphocytes (CTL) response [      ,      ]. In line with previous studies and considering the best immunogenicity, we selected the SGP of SARS-CoV-2 to predict an epitope-based vaccine, which may lead to further analysis of the SARS-CoV-2 vaccination strategy.
+     </p>
+    </sec>
+    <sec id="sec3.3">
+     <label>
+      3.3
+     </label>
+     <title>
+      T-cell epitope identification
+     </title>
+     <sec id="sec3.3.1">
+      <label>
+       3.3.1
+      </label>
+      <title>
+       CD8       T-cell epitope identification
+      </title>
+      <p id="p0160">
+       On the basis of the highest combinatorial score and MHC class I binding, 23 epitopes were predicted by NetCTL 1.2 from the given protein sequence. The antigenicity of each selected peptide was predicted by VaxiJen v2.0, and we found that ten epitopes were antigenic (       ). The MHC-I binding prediction tool from the IEDB server was used to assess affinity; this tool is based on the stabilized matrix method. We chose the MHC-I alleles for which the epitopes showed the highest affinity (IC
+       <sub>
+        50
+       </sub>
+       &lt; 200 nm). Proteasomes play an important role during the conversion of protein into peptide; after proteasomal cleavage, peptide–MHC molecules are transported to the cell membrane where they are presented to T helper cells. The total score of each epitope-HLA interaction was taken into consideration; a higher score implied a higher processing efficiency. The epitope WTAGAAAYY was found to interact with 17 MHC class I alleles: HLA-A*29:02, HLA-A*26:01, HLA-A*68:01, HLA-C*12:03, HLA-B*15:25, HLA-B*35:01, HLA-C*03:02, HLA-A*30:02, HLA-A*01:01, HLA-B*15:01, HLA-B*15:02, HLA-C*16:01, HLA-A*25:01, HLA-C*02:09, HLA-C*02:02, HLA-C*12:02, and HLA-C*14:02 (       ). In addition, two other epitopes, namely GAAAYYVGY and STQDLFLPF, interacted with MHC I alleles. The former interacted with five HLAs and the latter interacted with nine. However, like WTAGAAAYY, both epitopes interacted with HLA-B*15:25 and HLA-B*15:01. The epitope GAAAYYVGY showed a stronger affinity for binding HLA-B*15:25, whereas WTAGAAAYY had the strongest immunogenicity predicted by the I-pMHC immunogenicity prediction analysis, and the binding affinity of WTAGAAAYY to HLA-B*15:01 was relatively higher (       ). Furthermore, all the predicted epitopes had a maximum identity for conservancy, and 100% maximum identity was found (       ). Therefore, we selected the aforementioned three epitopes for further analysis. In addition, MHC-NP found that these epitopes would naturally bind to the MHC class I alleles (       ).
+       <table-wrap id="tbl1" position="float">
+        <label>
+         Table 1
+        </label>
+        <caption>
+         <p>
+          The potential CD8          T-cell epitopes along with their interacting MHC class I alleles and total processing score, epitopes conservancy hits and pMHC-I immunogenicity score.
+         </p>
+        </caption>
+        <alt-text id="alttext0045">
+         Table 1
+        </alt-text>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th>
+            Epitopes
+           </th>
+           <th>
+            NetCTL
+            <break/>
+            Combined score
+           </th>
+           <th>
+            Epitope_
+            <break/>
+            Conservancy_Hit (MAX. Identity %)
+           </th>
+           <th>
+            MCH-I interaction with an affinity of IC50 and the total score (proteasome
+            <break/>
+            score, TAP score, MHC-I score, processing score)
+           </th>
+           <th>
+            pMHC-I
+            <break/>
+            immunogenicity
+            <break/>
+            score
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td align="left">
+            WTAGAAAYY
+           </td>
+           <td align="left">
+            3.1128
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-A*29:02 (1.51), HLA-A*26:01 (1.43), HLA-A*68:01 (1.12), HLA-C*12:03 (0.99), HLA-B*15:25 (0.97), HLA-B*35:01 (0.96), HLA-C*03:02 (0.91), HLA-A*30:02 (0.90), HLA-A*01:01 (0.89), HLA-B*15:01 (0.78), HLA-B*15:02 (0.68), HLA-C*16:01 (0.62), HLA-A*25:01 (0.56), HLA-C*02:09 (0.53), HLA-C*02:02 (0.53), HLA-C*12:02 (0.52), HLA-C*14:02 (0.24)
+           </td>
+           <td align="left">
+            0.15259
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            CNDPFLGVY
+           </td>
+           <td align="left">
+            1.3355
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-A*01:01 (0.36)
+           </td>
+           <td align="left">
+            0.15232
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            GAAAYYVGY
+           </td>
+           <td align="left">
+            1.2194
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-B*15:25 (1.03), HLA-A*29:02 (0.81), HLA-B*15:01 (0.69), HLA-A*30:02 (0.56), HLA-B*15:02 (0.39)
+           </td>
+           <td align="left">
+            0.09963
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            ITDAVDCAL
+           </td>
+           <td align="left">
+            1.1680
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-C*05:01 (0.62), HLA-C*08:02 (0.13), HLA-C*08:01 (0.08), HLA-C*03:04 (−0.41), HLA-C*03:03 (−0.41), HLA-C*16:01 (−0.43)
+           </td>
+           <td align="left">
+            0.08501
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            STQDLFLPF
+           </td>
+           <td align="left">
+            1.0468
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-B*15:25 (0.77), HLA-B*15:01 (0.60), HLA-B*15:02 (0.50), HLA-A*32:01 (0.48), HLA-C*16:01 (0.42), HLA-C*03:02 (0.35), HLA-B*35:01 (0.02), HLA-C*12:03 (−0.03), HLA-A*29:02 (−0.11)
+           </td>
+           <td align="left">
+            0.06828
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            TSNQVAVLY
+           </td>
+           <td align="left">
+            3.0758
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-A*01:01 (0.76), HLA-A*29:02 (0.68), HLA-A*30:02 (0.54), HLA-B*58:01 (0.33)
+           </td>
+           <td align="left">
+            −0.01327
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            KTSVDCTMY
+           </td>
+           <td align="left">
+            2.3795
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-A*30:02 (1.04), HLA-B*58:01 (0.47)
+           </td>
+           <td align="left">
+            −0.11115
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            MTSCCSCLK
+           </td>
+           <td align="left">
+            1.0963
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-A*68:01 (0.26), HLA-A*11:01 (−0.07), HLA-A*03:01 (−0.74), HLA-A*30:01 (−0.92), HLA-A*31:01 (−0.93), HLA-A*33:03 (−1.19)
+           </td>
+           <td align="left">
+            −0.36816
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            STECSNLLL
+           </td>
+           <td align="left">
+            2.3492
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            HLA-C*05:01 (−0.27)
+           </td>
+           <td align="left">
+            −0.20478
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            GAEHVNNSY
+           </td>
+           <td align="left">
+            1.9960
+           </td>
+           <td align="left">
+            100
+           </td>
+           <td align="left">
+            –
+           </td>
+           <td align="left">
+            −0.00296
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <table-wrap-foot>
+         <fn>
+          <p>
+           <bold>
+            Notes:
+           </bold>
+           MHC-I alleles that have an interacting affinity lower than 200 nm are represented, and total processing scores are shown as enclosed numbers.
+          </p>
+         </fn>
+        </table-wrap-foot>
+       </table-wrap>
+      </p>
+      <p id="p0165">
+       By concentrating on potential MHC class I peptide epitopes, we predicted not only T-cell but also B-cell epitopes. Both of these epitope types are capable of showing immune responses in several ways. Many criteria must be met when identifying a protein sequence-based epitope as a potential vaccine candidate, whereby allergenicity is regarded as one of the most important factors. We input the SARS-CoV-2 SGP sequence into the VaxiJen server and predicted the antigenicity of the protein sequence. Ten potent epitopes were predicted by the NetCTL 1.2 server, and the epitopes were further used in the progressive analysis that also showed MHC class I interaction. Subsequently, all peptides except GAEHVNNSY were shown to interact with the MHC class I alleles. WTAGAAAYY interacted with the most MHC class I alleles. Among them, the allele HLA-A*29:02 had the highest binding score (1.51). Interestingly, three of the epitopes, WTAGAAAYY, GAAAYYVGY, and STQDLFLPF, showed binding interaction with the same MHA class I allele (HLA-B*15:25), of which GAAAYYVGY had the highest affinity. Additionally, the aforementioned epitopes also interacted with HLA-B*15:01, and epitope WTAGAAAYY showed the highest affinity for it. In addition, the epitope conservancy was predicted by the IEDB conservancy analysis tool, and all of our predicted epitopes had a maximum identity of 100%. Hence, these three epitopes were selected for further analysis.
+      </p>
+     </sec>
+     <sec id="sec3.3.2">
+      <label>
+       3.3.2
+      </label>
+      <title>
+       Allergenicity assessment
+      </title>
+      <p id="p0170">
+       The AllerTop server assesses the allergic reactions caused by a vaccine candidate in an individual that might be harmful or life-threatening. The allergenicity of the selected epitopes was calculated using the AllerTop tool, and they were predicted as probable non-allergens.
+      </p>
+      <p id="p0175">
+       Allergenicity is regarded as a notable obstacle during vaccine development. CD4       T cells are the primary actors responsible for provoking an allergic reaction, but immunoglobulin E and type 2 T helper cells can also stimulate allergic reactions [       ]. We evaluated the allergenicity using AllerTop 2.0. This tool is well-known for its high sensitivity to identify new allergens in relation to known allergens [       ]. AllerTop predicted our selected epitopes to be non-allergenic.
+      </p>
+     </sec>
+     <sec id="sec3.3.3">
+      <label>
+       3.3.3
+      </label>
+      <title>
+       Molecular docking analysis of the HLA–epitope interaction
+      </title>
+      <p id="p0180">
+       Here, the interaction between the HLA molecules and our predicted potential epitopes was validated by molecular docking simulation using AutoDock Vina in PyRx 0.8. We previously found that alleles HLA-B*15:25 and HLA-B*15:01 interacted with the three predicted epitopes. However, the 3D structure of HLA-B*15:25 was not available in the Protein Data Bank (PDB). Although the binding affinities of the selected epitopes were greater for HLA-B*15:25, we selected HLA-B*15:01 for study because it was available from the PDB database. The structures of HLA-B*15:01 and the selected epitopes are shown in       . For the docking analysis, we considered the HLA molecule as the receptor and the selected three epitopes as ligand molecules. The docking experiments showed that the epitope WTAGAAAYY interacted with HLA-B*15:01 with the highest binding affinity, which was calculated as −10.0 kcal/mol; the binding affinity of GAAAYYVGY was almost equal to that of GAAAYYVGY (−9.4 kcal/mol) (       )). By visualizing the docking r. However, the binding affinity of the epitope STQDLFLPF was found to be only −8.3 kcal/mol (       ). By visualizing the docking results, it was clear that WTAGAAAYY formed hydrogen bonds (H-bonds) with six amino acid residues (Gln32, Thr233, Asp29 from the A-chain; Arg12, Tyr26, Ser7 from the B-chain) and pi-pi stacking with Asp238, Tyr27, and Phe8 from the A-chain (       ). No unfavorable bonds were visualized for the epitope WTAGAAAYY, albeit two unfavorable donor-donor bonds were found for GAAAYYVGY. In addition, more H-bonds were found for GAAAYYVGY, including six from A-chain residues (Asp238, Gly237, Thr240, Arg239, Asp30, Tyr27) and one from Tyr63 in the B-chain. There were also favorable interactions with Ser55 from the B-chain, and pi-pi stacking was visualized for Tyr27 from the A-chain, which also formed a H-bond with the HLA molecule (       ).
+       <table-wrap id="tbl2" position="float">
+        <label>
+         Table 2
+        </label>
+        <caption>
+         <p>
+          Binding affinities of the selected epitopes with HLA-B*15:01.
+         </p>
+        </caption>
+        <alt-text id="alttext0050">
+         Table 2
+        </alt-text>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th>
+            Epitope
+           </th>
+           <th>
+            Binding affinity (kcal/mol)
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td align="left">
+            WTAGAAAYY
+           </td>
+           <td align="left">
+            −10.0
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            GAAAYYVGY
+           </td>
+           <td align="left">
+            −9.4
+           </td>
+          </tr>
+          <tr>
+           <td align="left">
+            STQDLFLPF
+           </td>
+           <td align="left">
+            −8.3
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </table-wrap>
+      </p>
+      <p id="p0185">
+       MHC class I and class II molecules play a pivotal role by presenting peptides on the cell surface that can then be identified by T cells. MHC I class molecules present shorter molecules (generally 8–11 amino acids long), and MHC class II molecules present longer peptides (typically 13–17 amino acid residues) [       ]. In the current study, we determined the binding affinity of the predicted peptide sequences with HLA-B*15:01 because the structure of this allele was available in the PDB database. The findings from the molecular docking analysis revealed that epitopes WTAGAAAYY and GAAAYYVGY had the highest affinity interactions with the HLA-B*15:01 allele, as a more negative result implies a stronger interaction [       ]. Furthermore, these two epitopes were able to interact with the allele through H-bonds and hydrophobic (pi-pi stacking, pi-alkyl) interactions, and attractive charges also contributed to binding in the case of GAAAYYVGY. Conversely, the epitope STQDLFLPF had a less negative docking score; hence, its binding interaction was weaker in comparison with the other two epitopes.
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec3.4">
+     <label>
+      3.4
+     </label>
+     <title>
+      Predication of T helper cell epitopes and MHC class II interaction analysis
+     </title>
+     <p id="p0190">
+      In this experiment, potential CD4      T-cell peptide epitopes were identified by the MHC class II prediction tool from the IEDB website, which provided 56 core epitopes for the selected HLA-DRB alleles with an IC
+      <sub>
+       50
+      </sub>
+      &lt; 50 nm. The peptides with the core epitopes IVNNATNVV, LKYNENGTI, FLVLLPLVS, FELLHAPAT, FTISVTTEI, FCTQLNRAL, FNGLTGTGV, LALHRSYLT, FQTLLALHR, and YFKIYSKHT interacted with most of the MHC class II alleles. These results are shown in      .
+      <table-wrap id="tbl3" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         List of epitopes that had the binding affinity with the MHC Class II alleles. Notes: MHC-II alleles that have an interacting affinity lower than 50 nm are represented.
+        </p>
+       </caption>
+       <alt-text id="alttext0055">
+        Table 3
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Core epitope
+          </th>
+          <th>
+           Allele
+          </th>
+          <th>
+           Percentile rank
+          </th>
+          <th>
+           Peptide
+          </th>
+          <th>
+           Start
+          </th>
+          <th>
+           End
+          </th>
+          <th>
+           SMM IC
+           <sub>
+            50
+           </sub>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="2">
+           LIVNNATNV
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.01
+          </td>
+          <td align="left">
+           KTQSLLIVNNATNVV
+          </td>
+          <td align="left">
+           113
+          </td>
+          <td align="left">
+           127
+          </td>
+          <td align="left">
+           3.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           9.50
+          </td>
+          <td align="left">
+           TQSLLIVNNATNVVI
+          </td>
+          <td align="left">
+           114
+          </td>
+          <td align="left">
+           128
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           IVNNATNVV
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.01
+          </td>
+          <td align="left">
+           TQSLLIVNNATNVVI
+          </td>
+          <td align="left">
+           114
+          </td>
+          <td align="left">
+           128
+          </td>
+          <td align="left">
+           3.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.01
+          </td>
+          <td align="left">
+           QSLLIVNNATNVVIK
+          </td>
+          <td align="left">
+           115
+          </td>
+          <td align="left">
+           129
+          </td>
+          <td align="left">
+           3.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.01
+          </td>
+          <td align="left">
+           SLLIVNNATNVVIKV
+          </td>
+          <td align="left">
+           116
+          </td>
+          <td align="left">
+           130
+          </td>
+          <td align="left">
+           3.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.01
+          </td>
+          <td align="left">
+           LLIVNNATNVVIKVC
+          </td>
+          <td align="left">
+           117
+          </td>
+          <td align="left">
+           131
+          </td>
+          <td align="left">
+           4.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.03
+          </td>
+          <td align="left">
+           LIVNNATNVVIKVCE
+          </td>
+          <td align="left">
+           118
+          </td>
+          <td align="left">
+           132
+          </td>
+          <td align="left">
+           9.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.09
+          </td>
+          <td align="left">
+           IVNNATNVVIKVCEF
+          </td>
+          <td align="left">
+           119
+          </td>
+          <td align="left">
+           133
+          </td>
+          <td align="left">
+           15.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SKTQSLLIV
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.03
+          </td>
+          <td align="left">
+           SKTQSLLIVNNATNV
+          </td>
+          <td align="left">
+           112
+          </td>
+          <td align="left">
+           126
+          </td>
+          <td align="left">
+           8.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           QPRTFLLKY
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.06
+          </td>
+          <td align="left">
+           QPRTFLLKYNENGTI
+          </td>
+          <td align="left">
+           271
+          </td>
+          <td align="left">
+           285
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           LKYNENGTI
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.06
+          </td>
+          <td align="left">
+           PRTFLLKYNENGTIT
+          </td>
+          <td align="left">
+           272
+          </td>
+          <td align="left">
+           286
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.06
+          </td>
+          <td align="left">
+           RTFLLKYNENGTITD
+          </td>
+          <td align="left">
+           273
+          </td>
+          <td align="left">
+           287
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.06
+          </td>
+          <td align="left">
+           TFLLKYNENGTITDA
+          </td>
+          <td align="left">
+           274
+          </td>
+          <td align="left">
+           288
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.06
+          </td>
+          <td align="left">
+           FLLKYNENGTITDAV
+          </td>
+          <td align="left">
+           275
+          </td>
+          <td align="left">
+           289
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.36
+          </td>
+          <td align="left">
+           LLKYNENGTITDAVD
+          </td>
+          <td align="left">
+           276
+          </td>
+          <td align="left">
+           290
+          </td>
+          <td align="left">
+           32.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.36
+          </td>
+          <td align="left">
+           LKYNENGTITDAVDC
+          </td>
+          <td align="left">
+           277
+          </td>
+          <td align="left">
+           291
+          </td>
+          <td align="left">
+           32.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           YNYLYRLFR
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.09
+          </td>
+          <td align="left">
+           GGNYNYLYRLFRKSN
+          </td>
+          <td align="left">
+           446
+          </td>
+          <td align="left">
+           460
+          </td>
+          <td align="left">
+           7.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.09
+          </td>
+          <td align="left">
+           GNYNYLYRLFRKSNL
+          </td>
+          <td align="left">
+           447
+          </td>
+          <td align="left">
+           461
+          </td>
+          <td align="left">
+           7.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.29
+          </td>
+          <td align="left">
+           KVGGNYNYLYRLFRK
+          </td>
+          <td align="left">
+           444
+          </td>
+          <td align="left">
+           458
+          </td>
+          <td align="left">
+           10.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.29
+          </td>
+          <td align="left">
+           VGGNYNYLYRLFRKS
+          </td>
+          <td align="left">
+           445
+          </td>
+          <td align="left">
+           459
+          </td>
+          <td align="left">
+           10.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FNFSQILPD
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.21
+          </td>
+          <td align="left">
+           DFGGFNFSQILPDPS
+          </td>
+          <td align="left">
+           796
+          </td>
+          <td align="left">
+           810
+          </td>
+          <td align="left">
+           26.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           FSQILPDPS
+          </td>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.21
+          </td>
+          <td align="left">
+           FGGFNFSQILPDPSK
+          </td>
+          <td align="left">
+           797
+          </td>
+          <td align="left">
+           811
+          </td>
+          <td align="left">
+           26.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.23
+          </td>
+          <td align="left">
+           GGFNFSQILPDPSKP
+          </td>
+          <td align="left">
+           798
+          </td>
+          <td align="left">
+           812
+          </td>
+          <td align="left">
+           27.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.42
+          </td>
+          <td align="left">
+           GFNFSQILPDPSKPS
+          </td>
+          <td align="left">
+           799
+          </td>
+          <td align="left">
+           813
+          </td>
+          <td align="left">
+           38.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.42
+          </td>
+          <td align="left">
+           FNFSQILPDPSKPSK
+          </td>
+          <td align="left">
+           800
+          </td>
+          <td align="left">
+           814
+          </td>
+          <td align="left">
+           38.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="9">
+           FLVLLPLVS
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           MFVFLVLLPLVSSQC
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           15
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           FVFLVLLPLVSSQCV
+          </td>
+          <td align="left">
+           2
+          </td>
+          <td align="left">
+           16
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.49
+          </td>
+          <td align="left">
+           MFVFLVLLPLVSSQC
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           15
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.52
+          </td>
+          <td align="left">
+           FVFLVLLPLVSSQCV
+          </td>
+          <td align="left">
+           2
+          </td>
+          <td align="left">
+           16
+          </td>
+          <td align="left">
+           43.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.59
+          </td>
+          <td align="left">
+           MFVFLVLLPLVSSQC
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           15
+          </td>
+          <td align="left">
+           18.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.59
+          </td>
+          <td align="left">
+           FVFLVLLPLVSSQCV
+          </td>
+          <td align="left">
+           2
+          </td>
+          <td align="left">
+           16
+          </td>
+          <td align="left">
+           18.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           VFLVLLPLVSSQCVN
+          </td>
+          <td align="left">
+           3
+          </td>
+          <td align="left">
+           17
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.80
+          </td>
+          <td align="left">
+           FLVLLPLVSSQCVNL
+          </td>
+          <td align="left">
+           4
+          </td>
+          <td align="left">
+           18
+          </td>
+          <td align="left">
+           13.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           2.10
+          </td>
+          <td align="left">
+           VFLVLLPLVSSQCVN
+          </td>
+          <td align="left">
+           3
+          </td>
+          <td align="left">
+           17
+          </td>
+          <td align="left">
+           45.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           VLSFELLHA
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           RVVVLSFELLHAPAT
+          </td>
+          <td align="left">
+           509
+          </td>
+          <td align="left">
+           523
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           FELLHAPAT
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           VVVLSFELLHAPATV
+          </td>
+          <td align="left">
+           510
+          </td>
+          <td align="left">
+           524
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           VVLSFELLHAPATVC
+          </td>
+          <td align="left">
+           511
+          </td>
+          <td align="left">
+           525
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           VLSFELLHAPATVCG
+          </td>
+          <td align="left">
+           512
+          </td>
+          <td align="left">
+           526
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.24
+          </td>
+          <td align="left">
+           LSFELLHAPATVCGP
+          </td>
+          <td align="left">
+           513
+          </td>
+          <td align="left">
+           527
+          </td>
+          <td align="left">
+           5.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.30
+          </td>
+          <td align="left">
+           SFELLHAPATVCGPK
+          </td>
+          <td align="left">
+           514
+          </td>
+          <td align="left">
+           528
+          </td>
+          <td align="left">
+           16.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.30
+          </td>
+          <td align="left">
+           FELLHAPATVCGPKK
+          </td>
+          <td align="left">
+           515
+          </td>
+          <td align="left">
+           529
+          </td>
+          <td align="left">
+           16.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SKVGGNYNY
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.29
+          </td>
+          <td align="left">
+           SKVGGNYNYLYRLFR
+          </td>
+          <td align="left">
+           443
+          </td>
+          <td align="left">
+           457
+          </td>
+          <td align="left">
+           10.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           FGAISSVLN
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.20
+          </td>
+          <td align="left">
+           SSNFGAISSVLNDIL
+          </td>
+          <td align="left">
+           967
+          </td>
+          <td align="left">
+           981
+          </td>
+          <td align="left">
+           25.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.20
+          </td>
+          <td align="left">
+           SNFGAISSVLNDILS
+          </td>
+          <td align="left">
+           968
+          </td>
+          <td align="left">
+           982
+          </td>
+          <td align="left">
+           25.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.90
+          </td>
+          <td align="left">
+           LSSNFGAISSVLNDI
+          </td>
+          <td align="left">
+           966
+          </td>
+          <td align="left">
+           980
+          </td>
+          <td align="left">
+           28.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.60
+          </td>
+          <td align="left">
+           QLSSNFGAISSVLND
+          </td>
+          <td align="left">
+           965
+          </td>
+          <td align="left">
+           979
+          </td>
+          <td align="left">
+           31.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           WTFGAGAAL
+          </td>
+          <td align="left">
+           HLA-DRB1*09:01
+          </td>
+          <td align="left">
+           0.33
+          </td>
+          <td align="left">
+           ITSGWTFGAGAALQI
+          </td>
+          <td align="left">
+           882
+          </td>
+          <td align="left">
+           896
+          </td>
+          <td align="left">
+           42.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.90
+          </td>
+          <td align="left">
+           ITSGWTFGAGAALQI
+          </td>
+          <td align="left">
+           882
+          </td>
+          <td align="left">
+           896
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           9.50
+          </td>
+          <td align="left">
+           TSGWTFGAGAALQIP
+          </td>
+          <td align="left">
+           883
+          </td>
+          <td align="left">
+           897
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           FGAGAALQI
+          </td>
+          <td align="left">
+           HLA-DRB1*09:01
+          </td>
+          <td align="left">
+           0.33
+          </td>
+          <td align="left">
+           SGWTFGAGAALQIPF
+          </td>
+          <td align="left">
+           884
+          </td>
+          <td align="left">
+           898
+          </td>
+          <td align="left">
+           42.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*09:01
+          </td>
+          <td align="left">
+           0.34
+          </td>
+          <td align="left">
+           TSGWTFGAGAALQIP
+          </td>
+          <td align="left">
+           883
+          </td>
+          <td align="left">
+           897
+          </td>
+          <td align="left">
+           43.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*09:01
+          </td>
+          <td align="left">
+           0.35
+          </td>
+          <td align="left">
+           GWTFGAGAALQIPFA
+          </td>
+          <td align="left">
+           885
+          </td>
+          <td align="left">
+           899
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*09:01
+          </td>
+          <td align="left">
+           0.39
+          </td>
+          <td align="left">
+           WTFGAGAALQIPFAM
+          </td>
+          <td align="left">
+           886
+          </td>
+          <td align="left">
+           900
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           FLPFFSNVT
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.33
+          </td>
+          <td align="left">
+           TQDLFLPFFSNVTWF
+          </td>
+          <td align="left">
+           51
+          </td>
+          <td align="left">
+           65
+          </td>
+          <td align="left">
+           34.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.33
+          </td>
+          <td align="left">
+           QDLFLPFFSNVTWFH
+          </td>
+          <td align="left">
+           52
+          </td>
+          <td align="left">
+           66
+          </td>
+          <td align="left">
+           34.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.37
+          </td>
+          <td align="left">
+           DLFLPFFSNVTWFHA
+          </td>
+          <td align="left">
+           53
+          </td>
+          <td align="left">
+           67
+          </td>
+          <td align="left">
+           35.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.37
+          </td>
+          <td align="left">
+           STQDLFLPFFSNVTW
+          </td>
+          <td align="left">
+           50
+          </td>
+          <td align="left">
+           64
+          </td>
+          <td align="left">
+           36.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           FTISVTTEI
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           0.40
+          </td>
+          <td align="left">
+           AIPTNFTISVTTEIL
+          </td>
+          <td align="left">
+           713
+          </td>
+          <td align="left">
+           727
+          </td>
+          <td align="left">
+           13.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           0.40
+          </td>
+          <td align="left">
+           PTNFTISVTTEILPV
+          </td>
+          <td align="left">
+           715
+          </td>
+          <td align="left">
+           729
+          </td>
+          <td align="left">
+           13.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           0.40
+          </td>
+          <td align="left">
+           TNFTISVTTEILPVS
+          </td>
+          <td align="left">
+           716
+          </td>
+          <td align="left">
+           730
+          </td>
+          <td align="left">
+           13.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           0.47
+          </td>
+          <td align="left">
+           IPTNFTISVTTEILP
+          </td>
+          <td align="left">
+           714
+          </td>
+          <td align="left">
+           728
+          </td>
+          <td align="left">
+           14.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           2.50
+          </td>
+          <td align="left">
+           NFTISVTTEILPVSM
+          </td>
+          <td align="left">
+           717
+          </td>
+          <td align="left">
+           731
+          </td>
+          <td align="left">
+           38.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           2.60
+          </td>
+          <td align="left">
+           FTISVTTEILPVSMT
+          </td>
+          <td align="left">
+           718
+          </td>
+          <td align="left">
+           732
+          </td>
+          <td align="left">
+           39.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="2">
+           YGSFCTQLN
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.90
+          </td>
+          <td align="left">
+           LLQYGSFCTQLNRAL
+          </td>
+          <td align="left">
+           753
+          </td>
+          <td align="left">
+           767
+          </td>
+          <td align="left">
+           28.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*04:05
+          </td>
+          <td align="left">
+           0.73
+          </td>
+          <td align="left">
+           LLQYGSFCTQLNRAL
+          </td>
+          <td align="left">
+           753
+          </td>
+          <td align="left">
+           767
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           FCTQLNRAL
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.70
+          </td>
+          <td align="left">
+           GSFCTQLNRALTGIA
+          </td>
+          <td align="left">
+           757
+          </td>
+          <td align="left">
+           771
+          </td>
+          <td align="left">
+           23.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.90
+          </td>
+          <td align="left">
+           YGSFCTQLNRALTGI
+          </td>
+          <td align="left">
+           756
+          </td>
+          <td align="left">
+           770
+          </td>
+          <td align="left">
+           24.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.40
+          </td>
+          <td align="left">
+           LQYGSFCTQLNRALT
+          </td>
+          <td align="left">
+           754
+          </td>
+          <td align="left">
+           768
+          </td>
+          <td align="left">
+           26.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.40
+          </td>
+          <td align="left">
+           QYGSFCTQLNRALTG
+          </td>
+          <td align="left">
+           755
+          </td>
+          <td align="left">
+           769
+          </td>
+          <td align="left">
+           26.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.00
+          </td>
+          <td align="left">
+           SFCTQLNRALTGIAV
+          </td>
+          <td align="left">
+           758
+          </td>
+          <td align="left">
+           772
+          </td>
+          <td align="left">
+           42.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.20
+          </td>
+          <td align="left">
+           FCTQLNRALTGIAVE
+          </td>
+          <td align="left">
+           759
+          </td>
+          <td align="left">
+           773
+          </td>
+          <td align="left">
+           43.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           LYRLFRKSN
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.42
+          </td>
+          <td align="left">
+           NYNYLYRLFRKSNLK
+          </td>
+          <td align="left">
+           448
+          </td>
+          <td align="left">
+           462
+          </td>
+          <td align="left">
+           13.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.42
+          </td>
+          <td align="left">
+           YNYLYRLFRKSNLKP
+          </td>
+          <td align="left">
+           449
+          </td>
+          <td align="left">
+           463
+          </td>
+          <td align="left">
+           13.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.52
+          </td>
+          <td align="left">
+           NYLYRLFRKSNLKPF
+          </td>
+          <td align="left">
+           450
+          </td>
+          <td align="left">
+           464
+          </td>
+          <td align="left">
+           16.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           2.10
+          </td>
+          <td align="left">
+           LYRLFRKSNLKPFER
+          </td>
+          <td align="left">
+           452
+          </td>
+          <td align="left">
+           466
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           LFLPFFSNV
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.46
+          </td>
+          <td align="left">
+           HSTQDLFLPFFSNVT
+          </td>
+          <td align="left">
+           49
+          </td>
+          <td align="left">
+           63
+          </td>
+          <td align="left">
+           40.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           LLALHRSYL
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.46
+          </td>
+          <td align="left">
+           TRFQTLLALHRSYLT
+          </td>
+          <td align="left">
+           236
+          </td>
+          <td align="left">
+           250
+          </td>
+          <td align="left">
+           40.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           2.10
+          </td>
+          <td align="left">
+           RFQTLLALHRSYLTP
+          </td>
+          <td align="left">
+           237
+          </td>
+          <td align="left">
+           251
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           2.10
+          </td>
+          <td align="left">
+           FQTLLALHRSYLTPG
+          </td>
+          <td align="left">
+           238
+          </td>
+          <td align="left">
+           252
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           TNFTISVTT
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           0.47
+          </td>
+          <td align="left">
+           IAIPTNFTISVTTEI
+          </td>
+          <td align="left">
+           712
+          </td>
+          <td align="left">
+           726
+          </td>
+          <td align="left">
+           14.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           WLGFIAGLI
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.60
+          </td>
+          <td align="left">
+           WYIWLGFIAGLIAIV
+          </td>
+          <td align="left">
+           1214
+          </td>
+          <td align="left">
+           1228
+          </td>
+          <td align="left">
+           27.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.40
+          </td>
+          <td align="left">
+           WPWYIWLGFIAGLIA
+          </td>
+          <td align="left">
+           1212
+          </td>
+          <td align="left">
+           1226
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.40
+          </td>
+          <td align="left">
+           PWYIWLGFIAGLIAI
+          </td>
+          <td align="left">
+           1213
+          </td>
+          <td align="left">
+           1227
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           FNGLTGTGV
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.56
+          </td>
+          <td align="left">
+           CVNFNFNGLTGTGVL
+          </td>
+          <td align="left">
+           538
+          </td>
+          <td align="left">
+           552
+          </td>
+          <td align="left">
+           7.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.56
+          </td>
+          <td align="left">
+           VNFNFNGLTGTGVLT
+          </td>
+          <td align="left">
+           539
+          </td>
+          <td align="left">
+           553
+          </td>
+          <td align="left">
+           7.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.56
+          </td>
+          <td align="left">
+           NFNFNGLTGTGVLTE
+          </td>
+          <td align="left">
+           540
+          </td>
+          <td align="left">
+           554
+          </td>
+          <td align="left">
+           7.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.56
+          </td>
+          <td align="left">
+           FNFNGLTGTGVLTES
+          </td>
+          <td align="left">
+           541
+          </td>
+          <td align="left">
+           555
+          </td>
+          <td align="left">
+           7.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.60
+          </td>
+          <td align="left">
+           NFNGLTGTGVLTESN
+          </td>
+          <td align="left">
+           542
+          </td>
+          <td align="left">
+           556
+          </td>
+          <td align="left">
+           22.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.60
+          </td>
+          <td align="left">
+           FNGLTGTGVLTESNK
+          </td>
+          <td align="left">
+           543
+          </td>
+          <td align="left">
+           557
+          </td>
+          <td align="left">
+           22.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           LALHRSYLT
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.58
+          </td>
+          <td align="left">
+           RFQTLLALHRSYLTP
+          </td>
+          <td align="left">
+           237
+          </td>
+          <td align="left">
+           251
+          </td>
+          <td align="left">
+           45.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.60
+          </td>
+          <td align="left">
+           FQTLLALHRSYLTPG
+          </td>
+          <td align="left">
+           238
+          </td>
+          <td align="left">
+           252
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.72
+          </td>
+          <td align="left">
+           QTLLALHRSYLTPGD
+          </td>
+          <td align="left">
+           239
+          </td>
+          <td align="left">
+           253
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.80
+          </td>
+          <td align="left">
+           QTLLALHRSYLTPGD
+          </td>
+          <td align="left">
+           239
+          </td>
+          <td align="left">
+           253
+          </td>
+          <td align="left">
+           32.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.40
+          </td>
+          <td align="left">
+           TLLALHRSYLTPGDS
+          </td>
+          <td align="left">
+           240
+          </td>
+          <td align="left">
+           254
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           LLQYGSFCT
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.58
+          </td>
+          <td align="left">
+           CSNLLLQYGSFCTQL
+          </td>
+          <td align="left">
+           749
+          </td>
+          <td align="left">
+           763
+          </td>
+          <td align="left">
+           45.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.60
+          </td>
+          <td align="left">
+           SNLLLQYGSFCTQLN
+          </td>
+          <td align="left">
+           750
+          </td>
+          <td align="left">
+           764
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.72
+          </td>
+          <td align="left">
+           ECSNLLLQYGSFCTQ
+          </td>
+          <td align="left">
+           748
+          </td>
+          <td align="left">
+           762
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="2">
+           ITRFQTLLA
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           GINITRFQTLLALHR
+          </td>
+          <td align="left">
+           232
+          </td>
+          <td align="left">
+           246
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.90
+          </td>
+          <td align="left">
+           GINITRFQTLLALHR
+          </td>
+          <td align="left">
+           232
+          </td>
+          <td align="left">
+           246
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FIAGLIAIV
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.60
+          </td>
+          <td align="left">
+           YIWLGFIAGLIAIVM
+          </td>
+          <td align="left">
+           1215
+          </td>
+          <td align="left">
+           1229
+          </td>
+          <td align="left">
+           18.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SVYAWNRKR
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.63
+          </td>
+          <td align="left">
+           TRFASVYAWNRKRIS
+          </td>
+          <td align="left">
+           345
+          </td>
+          <td align="left">
+           359
+          </td>
+          <td align="left">
+           19.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           YAWNRKRIS
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.63
+          </td>
+          <td align="left">
+           RFASVYAWNRKRISN
+          </td>
+          <td align="left">
+           346
+          </td>
+          <td align="left">
+           360
+          </td>
+          <td align="left">
+           19.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.63
+          </td>
+          <td align="left">
+           FASVYAWNRKRISNC
+          </td>
+          <td align="left">
+           347
+          </td>
+          <td align="left">
+           361
+          </td>
+          <td align="left">
+           19.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.63
+          </td>
+          <td align="left">
+           ASVYAWNRKRISNCV
+          </td>
+          <td align="left">
+           348
+          </td>
+          <td align="left">
+           362
+          </td>
+          <td align="left">
+           19.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           0.63
+          </td>
+          <td align="left">
+           SVYAWNRKRISNCVA
+          </td>
+          <td align="left">
+           349
+          </td>
+          <td align="left">
+           363
+          </td>
+          <td align="left">
+           19.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KCVNFNFNG
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.67
+          </td>
+          <td align="left">
+           KCVNFNFNGLTGTGV
+          </td>
+          <td align="left">
+           537
+          </td>
+          <td align="left">
+           551
+          </td>
+          <td align="left">
+           8.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="2">
+           VIGIVNNTV
+          </td>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.70
+          </td>
+          <td align="left">
+           CDVVIGIVNNTVYDP
+          </td>
+          <td align="left">
+           1126
+          </td>
+          <td align="left">
+           1140
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*13:02
+          </td>
+          <td align="left">
+           0.70
+          </td>
+          <td align="left">
+           DVVIGIVNNTVYDPL
+          </td>
+          <td align="left">
+           1127
+          </td>
+          <td align="left">
+           1141
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           LLLQYGSFC
+          </td>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="left">
+           0.72
+          </td>
+          <td align="left">
+           TECSNLLLQYGSFCT
+          </td>
+          <td align="left">
+           747
+          </td>
+          <td align="left">
+           761
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="10">
+           FQTLLALHR
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.91
+          </td>
+          <td align="left">
+           ITRFQTLLALHRSYL
+          </td>
+          <td align="left">
+           235
+          </td>
+          <td align="left">
+           249
+          </td>
+          <td align="left">
+           9.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           0.91
+          </td>
+          <td align="left">
+           TRFQTLLALHRSYLT
+          </td>
+          <td align="left">
+           236
+          </td>
+          <td align="left">
+           250
+          </td>
+          <td align="left">
+           9.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.20
+          </td>
+          <td align="left">
+           ITRFQTLLALHRSYL
+          </td>
+          <td align="left">
+           235
+          </td>
+          <td align="left">
+           249
+          </td>
+          <td align="left">
+           27.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.20
+          </td>
+          <td align="left">
+           TRFQTLLALHRSYLT
+          </td>
+          <td align="left">
+           236
+          </td>
+          <td align="left">
+           250
+          </td>
+          <td align="left">
+           27.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           INITRFQTLLALHRS
+          </td>
+          <td align="left">
+           233
+          </td>
+          <td align="left">
+           247
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           NITRFQTLLALHRSY
+          </td>
+          <td align="left">
+           234
+          </td>
+          <td align="left">
+           248
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.80
+          </td>
+          <td align="left">
+           INITRFQTLLALHRS
+          </td>
+          <td align="left">
+           233
+          </td>
+          <td align="left">
+           247
+          </td>
+          <td align="left">
+           40.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.80
+          </td>
+          <td align="left">
+           NITRFQTLLALHRSY
+          </td>
+          <td align="left">
+           234
+          </td>
+          <td align="left">
+           248
+          </td>
+          <td align="left">
+           40.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.10
+          </td>
+          <td align="left">
+           RFQTLLALHRSYLTP
+          </td>
+          <td align="left">
+           237
+          </td>
+          <td align="left">
+           251
+          </td>
+          <td align="left">
+           20.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.10
+          </td>
+          <td align="left">
+           FQTLLALHRSYLTPG
+          </td>
+          <td align="left">
+           238
+          </td>
+          <td align="left">
+           252
+          </td>
+          <td align="left">
+           20.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           LVKQLSSNF
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.20
+          </td>
+          <td align="left">
+           QALNTLVKQLSSNFG
+          </td>
+          <td align="left">
+           957
+          </td>
+          <td align="left">
+           971
+          </td>
+          <td align="left">
+           43.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           YRLFRKSNL
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.20
+          </td>
+          <td align="left">
+           YLYRLFRKSNLKPFE
+          </td>
+          <td align="left">
+           451
+          </td>
+          <td align="left">
+           465
+          </td>
+          <td align="left">
+           27.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           MIAQYTSAL
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           6.00
+          </td>
+          <td align="left">
+           LLTDEMIAQYTSALL
+          </td>
+          <td align="left">
+           864
+          </td>
+          <td align="left">
+           878
+          </td>
+          <td align="left">
+           33.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           DYSVLYNSA
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           SNCVADYSVLYNSAS
+          </td>
+          <td align="left">
+           359
+          </td>
+          <td align="left">
+           373
+          </td>
+          <td align="left">
+           20.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           YSVLYNSAS
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.60
+          </td>
+          <td align="left">
+           CVADYSVLYNSASFS
+          </td>
+          <td align="left">
+           361
+          </td>
+          <td align="left">
+           375
+          </td>
+          <td align="left">
+           18.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.60
+          </td>
+          <td align="left">
+           ADYSVLYNSASFSTF
+          </td>
+          <td align="left">
+           363
+          </td>
+          <td align="left">
+           377
+          </td>
+          <td align="left">
+           18.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.90
+          </td>
+          <td align="left">
+           NCVADYSVLYNSASF
+          </td>
+          <td align="left">
+           360
+          </td>
+          <td align="left">
+           374
+          </td>
+          <td align="left">
+           19.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.00
+          </td>
+          <td align="left">
+           DYSVLYNSASFSTFK
+          </td>
+          <td align="left">
+           364
+          </td>
+          <td align="left">
+           378
+          </td>
+          <td align="left">
+           42.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.00
+          </td>
+          <td align="left">
+           YSVLYNSASFSTFKC
+          </td>
+          <td align="left">
+           365
+          </td>
+          <td align="left">
+           379
+          </td>
+          <td align="left">
+           42.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           IRASANLAA
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           9.30
+          </td>
+          <td align="left">
+           AEIRASANLAATKMS
+          </td>
+          <td align="left">
+           1016
+          </td>
+          <td align="left">
+           1030
+          </td>
+          <td align="left">
+           48.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="8">
+           YFKIYSKHT
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           NIDGYFKIYSKHTPI
+          </td>
+          <td align="left">
+           196
+          </td>
+          <td align="left">
+           210
+          </td>
+          <td align="left">
+           28.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           IDGYFKIYSKHTPIN
+          </td>
+          <td align="left">
+           197
+          </td>
+          <td align="left">
+           211
+          </td>
+          <td align="left">
+           28.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           KNIDGYFKIYSKHTP
+          </td>
+          <td align="left">
+           195
+          </td>
+          <td align="left">
+           209
+          </td>
+          <td align="left">
+           29.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           DGYFKIYSKHTPINL
+          </td>
+          <td align="left">
+           198
+          </td>
+          <td align="left">
+           212
+          </td>
+          <td align="left">
+           29.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           7.70
+          </td>
+          <td align="left">
+           NIDGYFKIYSKHTPI
+          </td>
+          <td align="left">
+           196
+          </td>
+          <td align="left">
+           210
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01,
+          </td>
+          <td align="left">
+           7.70
+          </td>
+          <td align="left">
+           IDGYFKIYSKHTPIN
+          </td>
+          <td align="left">
+           197
+          </td>
+          <td align="left">
+           211
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           7.70
+          </td>
+          <td align="left">
+           DGYFKIYSKHTPINL
+          </td>
+          <td align="left">
+           198
+          </td>
+          <td align="left">
+           212
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.40
+          </td>
+          <td align="left">
+           KNIDGYFKIYSKHTP
+          </td>
+          <td align="left">
+           195
+          </td>
+          <td align="left">
+           209
+          </td>
+          <td align="left">
+           44.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           LTVLPPLLT
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           FNGLTVLPPLLTDEM
+          </td>
+          <td align="left">
+           855
+          </td>
+          <td align="left">
+           869
+          </td>
+          <td align="left">
+           11.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.60
+          </td>
+          <td align="left">
+           QKFNGLTVLPPLLTD
+          </td>
+          <td align="left">
+           853
+          </td>
+          <td align="left">
+           867
+          </td>
+          <td align="left">
+           12.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.60
+          </td>
+          <td align="left">
+           KFNGLTVLPPLLTDE
+          </td>
+          <td align="left">
+           854
+          </td>
+          <td align="left">
+           868
+          </td>
+          <td align="left">
+           12.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           1.60
+          </td>
+          <td align="left">
+           NGLTVLPPLLTDEMI
+          </td>
+          <td align="left">
+           856
+          </td>
+          <td align="left">
+           870
+          </td>
+          <td align="left">
+           12.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           6.30
+          </td>
+          <td align="left">
+           GLTVLPPLLTDEMIA
+          </td>
+          <td align="left">
+           857
+          </td>
+          <td align="left">
+           871
+          </td>
+          <td align="left">
+           34.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           6.80
+          </td>
+          <td align="left">
+           LTVLPPLLTDEMIAQ
+          </td>
+          <td align="left">
+           858
+          </td>
+          <td align="left">
+           872
+          </td>
+          <td align="left">
+           37.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           IDGYFKIYS
+          </td>
+          <td align="left">
+           HLA-DRB1*11:01
+          </td>
+          <td align="left">
+           1.30
+          </td>
+          <td align="left">
+           FKNIDGYFKIYSKHT
+          </td>
+          <td align="left">
+           194
+          </td>
+          <td align="left">
+           208
+          </td>
+          <td align="left">
+           31.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FKNIDGYFK
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           7.70
+          </td>
+          <td align="left">
+           FKNIDGYFKIYSKHT
+          </td>
+          <td align="left">
+           194
+          </td>
+          <td align="left">
+           208
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           YTSALLAGT
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           7.50
+          </td>
+          <td align="left">
+           MIAQYTSALLAGTIT
+          </td>
+          <td align="left">
+           869
+          </td>
+          <td align="left">
+           883
+          </td>
+          <td align="left">
+           40.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.20
+          </td>
+          <td align="left">
+           IAQYTSALLAGTITS
+          </td>
+          <td align="left">
+           870
+          </td>
+          <td align="left">
+           884
+          </td>
+          <td align="left">
+           43.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           9.10
+          </td>
+          <td align="left">
+           AQYTSALLAGTITSG
+          </td>
+          <td align="left">
+           871
+          </td>
+          <td align="left">
+           885
+          </td>
+          <td align="left">
+           47.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           IAGLIAIVM
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.50
+          </td>
+          <td align="left">
+           IWLGFIAGLIAIVMV
+          </td>
+          <td align="left">
+           1216
+          </td>
+          <td align="left">
+           1230
+          </td>
+          <td align="left">
+           17.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.50
+          </td>
+          <td align="left">
+           LGFIAGLIAIVMVTI
+          </td>
+          <td align="left">
+           1218
+          </td>
+          <td align="left">
+           1232
+          </td>
+          <td align="left">
+           17.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           2.60
+          </td>
+          <td align="left">
+           WLGFIAGLIAIVMVT
+          </td>
+          <td align="left">
+           1217
+          </td>
+          <td align="left">
+           1231
+          </td>
+          <td align="left">
+           18.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.60
+          </td>
+          <td align="left">
+           GFIAGLIAIVMVTIM
+          </td>
+          <td align="left">
+           1219
+          </td>
+          <td align="left">
+           1233
+          </td>
+          <td align="left">
+           22.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.90
+          </td>
+          <td align="left">
+           FIAGLIAIVMVTIML
+          </td>
+          <td align="left">
+           1220
+          </td>
+          <td align="left">
+           1234
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           LSSNFGAIS
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.10
+          </td>
+          <td align="left">
+           KQLSSNFGAISSVLN
+          </td>
+          <td align="left">
+           964
+          </td>
+          <td align="left">
+           978
+          </td>
+          <td align="left">
+           29.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           VKQLSSNFG
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           7.70
+          </td>
+          <td align="left">
+           NTLVKQLSSNFGAIS
+          </td>
+          <td align="left">
+           960
+          </td>
+          <td align="left">
+           974
+          </td>
+          <td align="left">
+           41.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.00
+          </td>
+          <td align="left">
+           LNTLVKQLSSNFGAI
+          </td>
+          <td align="left">
+           959
+          </td>
+          <td align="left">
+           973
+          </td>
+          <td align="left">
+           42.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.90
+          </td>
+          <td align="left">
+           ALNTLVKQLSSNFGA
+          </td>
+          <td align="left">
+           958
+          </td>
+          <td align="left">
+           972
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           8.90
+          </td>
+          <td align="left">
+           TLVKQLSSNFGAISS
+          </td>
+          <td align="left">
+           961
+          </td>
+          <td align="left">
+           975
+          </td>
+          <td align="left">
+           46.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           DSKTQSLLI
+          </td>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           3.30
+          </td>
+          <td align="left">
+           FGTTLDSKTQSLLIV
+          </td>
+          <td align="left">
+           106
+          </td>
+          <td align="left">
+           120
+          </td>
+          <td align="left">
+           48.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           3.30
+          </td>
+          <td align="left">
+           GTTLDSKTQSLLIVN
+          </td>
+          <td align="left">
+           107
+          </td>
+          <td align="left">
+           121
+          </td>
+          <td align="left">
+           48.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="left">
+           3.30
+          </td>
+          <td align="left">
+           TTLDSKTQSLLIVNN
+          </td>
+          <td align="left">
+           108
+          </td>
+          <td align="left">
+           122
+          </td>
+          <td align="left">
+           49.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           FAMQMAYRF
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.60
+          </td>
+          <td align="left">
+           QIPFAMQMAYRFNGI
+          </td>
+          <td align="left">
+           895
+          </td>
+          <td align="left">
+           909
+          </td>
+          <td align="left">
+           22.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.70
+          </td>
+          <td align="left">
+           IPFAMQMAYRFNGIG
+          </td>
+          <td align="left">
+           896
+          </td>
+          <td align="left">
+           910
+          </td>
+          <td align="left">
+           23.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.90
+          </td>
+          <td align="left">
+           ALQIPFAMQMAYRFN
+          </td>
+          <td align="left">
+           893
+          </td>
+          <td align="left">
+           907
+          </td>
+          <td align="left">
+           24.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           3.90
+          </td>
+          <td align="left">
+           LQIPFAMQMAYRFNG
+          </td>
+          <td align="left">
+           894
+          </td>
+          <td align="left">
+           908
+          </td>
+          <td align="left">
+           24.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           IAQYTSALL
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.80
+          </td>
+          <td align="left">
+           DEMIAQYTSALLAGT
+          </td>
+          <td align="left">
+           867
+          </td>
+          <td align="left">
+           881
+          </td>
+          <td align="left">
+           32.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           6.30
+          </td>
+          <td align="left">
+           TDEMIAQYTSALLAG
+          </td>
+          <td align="left">
+           866
+          </td>
+          <td align="left">
+           880
+          </td>
+          <td align="left">
+           34.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           6.30
+          </td>
+          <td align="left">
+           EMIAQYTSALLAGTI
+          </td>
+          <td align="left">
+           868
+          </td>
+          <td align="left">
+           882
+          </td>
+          <td align="left">
+           34.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           6.50
+          </td>
+          <td align="left">
+           LTDEMIAQYTSALLA
+          </td>
+          <td align="left">
+           865
+          </td>
+          <td align="left">
+           879
+          </td>
+          <td align="left">
+           35.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           YLQPRTFLL
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.40
+          </td>
+          <td align="left">
+           AYYVGYLQPRTFLLK
+          </td>
+          <td align="left">
+           264
+          </td>
+          <td align="left">
+           278
+          </td>
+          <td align="left">
+           26.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.90
+          </td>
+          <td align="left">
+           YYVGYLQPRTFLLKY
+          </td>
+          <td align="left">
+           265
+          </td>
+          <td align="left">
+           279
+          </td>
+          <td align="left">
+           28.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.60
+          </td>
+          <td align="left">
+           YVGYLQPRTFLLKYN
+          </td>
+          <td align="left">
+           266
+          </td>
+          <td align="left">
+           280
+          </td>
+          <td align="left">
+           31.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.80
+          </td>
+          <td align="left">
+           VGYLQPRTFLLKYNE
+          </td>
+          <td align="left">
+           267
+          </td>
+          <td align="left">
+           281
+          </td>
+          <td align="left">
+           32.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="4">
+           ISGINASVV
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.40
+          </td>
+          <td align="left">
+           LGDISGINASVVNIQ
+          </td>
+          <td align="left">
+           1166
+          </td>
+          <td align="left">
+           1180
+          </td>
+          <td align="left">
+           26.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.60
+          </td>
+          <td align="left">
+           DLGDISGINASVVNI
+          </td>
+          <td align="left">
+           1165
+          </td>
+          <td align="left">
+           1179
+          </td>
+          <td align="left">
+           27.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           4.90
+          </td>
+          <td align="left">
+           GDISGINASVVNIQK
+          </td>
+          <td align="left">
+           1167
+          </td>
+          <td align="left">
+           1181
+          </td>
+          <td align="left">
+           28.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.10
+          </td>
+          <td align="left">
+           VDLGDISGINASVVN
+          </td>
+          <td align="left">
+           1164
+          </td>
+          <td align="left">
+           1178
+          </td>
+          <td align="left">
+           29.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           QIPFAMQMA
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.10
+          </td>
+          <td align="left">
+           AALQIPFAMQMAYRF
+          </td>
+          <td align="left">
+           892
+          </td>
+          <td align="left">
+           906
+          </td>
+          <td align="left">
+           29.00
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ITGRLQSLQ
+          </td>
+          <td align="left">
+           HLA-DRB1*01:01
+          </td>
+          <td align="left">
+           5.80
+          </td>
+          <td align="left">
+           RLITGRLQSLQTYVT
+          </td>
+          <td align="left">
+           995
+          </td>
+          <td align="left">
+           1009
+          </td>
+          <td align="left">
+           32.00
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0195">
+      Vaccination strategies that only depend on CD8      T-cell immunity might be inadequate, because although CD8      T cells stimulate extremely early responses, they might be unable to elicit long-term protective responses [      ]. CD4      T cells play a pivotal role in the adaptive immune response by maintaining and promoting the expansion of cytotoxic T cells, maintaining the memory of CD8      T cells, and communicating with the innate immune cells [      ]. In addition, CD4      cells help CD8      cells to generate strong primary and memory responses, as well as protective immunity against many types of bacterial and viral infections [      ,      ]. Previously, the development of vaccines was rudimentarily based on B cell immunity, whereas more recently it has been well established that T-cell epitopes provide a more long-lasting immune response, which is primarily mediated by CD4      T cells as a result of antigenic drift [      ]. The prediction of CD4      T-cell epitopes mainly focuses on the peptide binding to the MHC class II proteins [      ]. In the current study, we predicted several CD4      T-cell epitopes by applying the criterion of IC
+      <sub>
+       50
+      </sub>
+      &lt; 50 nm. This threshold is considered to indicate more favorable immunogenic properties of the predicted T-cell epitopes, where a lower IC
+      <sub>
+       50
+      </sub>
+      value represents a higher binding affinity [      ]. The current research work is more specific than several previous studies, for instance, Alam et al. used IC
+      <sub>
+       50
+      </sub>
+      &lt; 100 nm for predicting CD4      T-cell epitopes [      ]. Moreover, our predicted T-cell epitopes were identical to the epitopes predicted in previous studies. The peptides with the core epitopes LIVNNATNV, IVNNATNVV, SKTQSLLIV, YNYLYRLFR, FNFSQILPD, SKVGGNYNY, YGSFCTQLN, LYRLFRKSN, LLALHRSYL, WLGFIAGLI, LALHRSYLT, LLQYGSFCT, FIAGLIAIV, FQTLLALHR, LVKQLSSNF, YRLFRKSNL, IRASANLAA, IAGLIAIVM, and ITGRLQSLQ were identical to those found in the previous study by Grifoni et al., which mapped the T-cell epitopes of SARS-CoV and SARS-CoV-2 [      ]. Further, our predicted peptide AALQIPFAMQMAYRF (region 892–906) interacts with HLA-DRB1*01:01, which is in line with the previous study by Ahmed et al. [      ].
+     </p>
+    </sec>
+    <sec id="sec3.5">
+     <label>
+      3.5
+     </label>
+     <title>
+      Population coverage analysis
+     </title>
+     <p id="p0200">
+      We first analyzed the individual epitopes that interacted with MHC class I alleles. West Africa had the highest coverage region for epitopes WTAGAAAYY and STQDLFLPF, at 76.33% and 58.93%, respectively (      ). South Asia had the highest coverage region for the epitope GAAAYYVGY, at 32.67% (      ). Next, we performed a population coverage analysis combining multiple epitopes. The cumulative population coverage was obtained for the three predicted epitopes, WTAGAAAYY, GAAAYYVGY, and STQDLFLPF. For the population coverage analysis of the multiple epitopes, the results were in agreement with those of the individual predicted epitopes, showing 77.98% coverage for West Africa, which was the highest coverage region. Europe had the second-highest coverage, at 77.91% (      ). The population coverage results for MHC class I alleles are shown in      .
+      <table-wrap id="tbl4" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Analysis of the population coverage using potential MHC I and MHC II interacted alleles for the proposed multi-epitope vaccine against SARS-CoV-2.
+        </p>
+       </caption>
+       <alt-text id="alttext0060">
+        Table 4
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th rowspan="2">
+           Population/Area
+          </th>
+          <th colspan="3">
+           MHC I Combined
+           <hr/>
+          </th>
+          <th colspan="2">
+           MHC II Combined
+           <hr/>
+          </th>
+          <th>
+           <hr/>
+          </th>
+         </tr>
+         <tr>
+          <th>
+           Coverage (%)
+          </th>
+          <th>
+           Average hit
+          </th>
+          <th>
+           PC90
+          </th>
+          <th>
+           Coverage (%)
+          </th>
+          <th>
+           Average hit
+          </th>
+          <th>
+           PC90
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           Central Africa
+          </td>
+          <td align="left">
+           63.97
+          </td>
+          <td align="left">
+           1.56
+          </td>
+          <td align="left">
+           0.28
+          </td>
+          <td align="left">
+           46.24
+          </td>
+          <td align="left">
+           1.12
+          </td>
+          <td align="left">
+           0.19
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Central America
+          </td>
+          <td align="left">
+           2.19
+          </td>
+          <td align="left">
+           0.04
+          </td>
+          <td align="left">
+           0.10
+          </td>
+          <td align="left">
+           23.76
+          </td>
+          <td align="left">
+           0.43
+          </td>
+          <td align="left">
+           0.13
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           East Africa
+          </td>
+          <td align="left">
+           60.78
+          </td>
+          <td align="left">
+           1.40
+          </td>
+          <td align="left">
+           0.25
+          </td>
+          <td align="left">
+           51.00
+          </td>
+          <td align="left">
+           1.51
+          </td>
+          <td align="left">
+           0.20
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           East Asia
+          </td>
+          <td align="left">
+           62.39
+          </td>
+          <td align="left">
+           1.49
+          </td>
+          <td align="left">
+           0.27
+          </td>
+          <td align="left">
+           57.95
+          </td>
+          <td align="left">
+           1.65
+          </td>
+          <td align="left">
+           0.24
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Europe
+          </td>
+          <td align="left">
+           77.91
+          </td>
+          <td align="left">
+           1.86
+          </td>
+          <td align="left">
+           0.45
+          </td>
+          <td align="left">
+           65.71
+          </td>
+          <td align="left">
+           2.16
+          </td>
+          <td align="left">
+           0.29
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           North Africa
+          </td>
+          <td align="left">
+           72.00
+          </td>
+          <td align="left">
+           1.77
+          </td>
+          <td align="left">
+           0.36
+          </td>
+          <td align="left">
+           57.03
+          </td>
+          <td align="left">
+           1.15
+          </td>
+          <td align="left">
+           0.23
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           North America
+          </td>
+          <td align="left">
+           65.50
+          </td>
+          <td align="left">
+           1.59
+          </td>
+          <td align="left">
+           0.29
+          </td>
+          <td align="left">
+           63.77
+          </td>
+          <td align="left">
+           2.01
+          </td>
+          <td align="left">
+           0.28
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Northeast Asia
+          </td>
+          <td align="left">
+           56.06
+          </td>
+          <td align="left">
+           1.54
+          </td>
+          <td align="left">
+           0.23
+          </td>
+          <td align="left">
+           36.94
+          </td>
+          <td align="left">
+           0.77
+          </td>
+          <td align="left">
+           0.16
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Oceania
+          </td>
+          <td align="left">
+           35.97
+          </td>
+          <td align="left">
+           0.67
+          </td>
+          <td align="left">
+           0.16
+          </td>
+          <td align="left">
+           43.67
+          </td>
+          <td align="left">
+           0.94
+          </td>
+          <td align="left">
+           0.18
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           South Africa
+          </td>
+          <td align="left">
+           70.08
+          </td>
+          <td align="left">
+           1.71
+          </td>
+          <td align="left">
+           0.33
+          </td>
+          <td align="left">
+           5.91
+          </td>
+          <td align="left">
+           0.12
+          </td>
+          <td align="left">
+           0.21
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           South America
+          </td>
+          <td align="left">
+           46.65
+          </td>
+          <td align="left">
+           0.91
+          </td>
+          <td align="left">
+           0.19
+          </td>
+          <td align="left">
+           26.99
+          </td>
+          <td align="left">
+           0.71
+          </td>
+          <td align="left">
+           0.14
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           South Asia
+          </td>
+          <td align="left">
+           69.11
+          </td>
+          <td align="left">
+           1.53
+          </td>
+          <td align="left">
+           0.32
+          </td>
+          <td align="left">
+           60.68
+          </td>
+          <td align="left">
+           1.63
+          </td>
+          <td align="left">
+           0.25
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Southeast Asia
+          </td>
+          <td align="left">
+           44.14
+          </td>
+          <td align="left">
+           1.08
+          </td>
+          <td align="left">
+           0.18
+          </td>
+          <td align="left">
+           35.62
+          </td>
+          <td align="left">
+           0.67
+          </td>
+          <td align="left">
+           0.16
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Southwest Asia
+          </td>
+          <td align="left">
+           60.13
+          </td>
+          <td align="left">
+           1.14
+          </td>
+          <td align="left">
+           0.25
+          </td>
+          <td align="left">
+           31.97
+          </td>
+          <td align="left">
+           0.76
+          </td>
+          <td align="left">
+           0.15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           West Africa
+          </td>
+          <td align="left">
+           77.98
+          </td>
+          <td align="left">
+           2.17
+          </td>
+          <td align="left">
+           0.45
+          </td>
+          <td align="left">
+           47.72
+          </td>
+          <td align="left">
+           1.25
+          </td>
+          <td align="left">
+           0.19
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           West Indies
+          </td>
+          <td align="left">
+           56.56
+          </td>
+          <td align="left">
+           1.22
+          </td>
+          <td align="left">
+           0.23
+          </td>
+          <td align="left">
+           54.15
+          </td>
+          <td align="left">
+           1.72
+          </td>
+          <td align="left">
+           0.22
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn id="tbl4na">
+         <label>
+          a
+         </label>
+         <p id="ntpara0020">
+          Projected population coverage.
+         </p>
+        </fn>
+       </table-wrap-foot>
+       <table-wrap-foot>
+        <fn id="tbl4fnb">
+         <label>
+          b
+         </label>
+         <p id="ntpara0010">
+          Average number of epitope hits/HLA combinations recognized by the population.
+         </p>
+        </fn>
+       </table-wrap-foot>
+       <table-wrap-foot>
+        <fn id="tbl4fnc">
+         <label>
+          c
+         </label>
+         <p id="ntpara0015">
+          Minimum number of epitope hits/HLA combinations recognized by 90% of the population.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="p0205">
+      We next conducted a population coverage analysis for MHC class II alleles. As in the MHC class I analysis, we first individually predicted the population coverage for the MHC II alleles to find the maximum MHC II interaction. The core epitope LALHRSYLT showed the maximum coverage, which was 34.63% for the North American region (      ). Three core epitopes, namely YFKIYSKHT, FLVLLPLVS, and FQTLLALHR, exhibited greater than 25% coverage for Europe (      ). Epitope FLVLLPLVS showed 33.74% and 34.08% coverage for East Africa and East Asia, respectively (      ). The cumulative coverage of the targeted epitopes interacting with MHC class II alleles was then analyzed. The predicted epitopes were found to have a coverage of greater than 60% for three regions, Europe, North America, and South Asia, of which the maximum coverage was for Europe (65.71%) (      ).
+     </p>
+     <p id="p0210">
+      Population coverage is important to understand during vaccine development because HLA varies by ethnicity and geographical region. We utilized the population coverage tool from IEDB to conduct the population coverage analysis for the predicted three epitopes, both individually and combined, for MHC class I and II alleles. Individually, for MHC class I alleles, West Africa had the highest percentage of population coverage for epitope WTAGAAAYY, followed by STQDLFLPF. The individual population coverage analysis for MHC class I alleles showed that the coverage for epitope WTAGAAAYY was greater than 50% for most regions, whereas GAAAYYVGY covered less than 40% of all regions. The selected three epitopes combined covered almost all available regions worldwide, and the highest coverage was observed in West Africa. Surprisingly, of the regions where the most cases of the infection were reported (namely, Europe and North America), the coverage was greater than 65%; thus, the coverage of Europe was nearly identical to that of West Africa. Interestingly, the epitopes showed 62.39% coverage in East Asia, where the first COVID-19 case was reported. The results of our predictions agree with those of Ahmed et al., who found that a multi-epitope vaccine has a larger population coverage [      ]. However, like a multi-epitope vaccine, WTAGAAAYY individually covered most of the worlds population. In addition, the predicted epitopes that interacted with the MHC class II alleles showed results similar to those of the MHC class I alleles, where a multi-epitope vaccine would cover a larger percentage of the population than individual epitopes could.
+     </p>
+    </sec>
+    <sec id="sec3.6">
+     <label>
+      3.6
+     </label>
+     <title>
+      Linear B-cell epitope prediction
+     </title>
+     <p id="p0215">
+      In the current study, linear B-cell epitopes were identified by utilizing an amino acid-based method.
+     </p>
+     <p id="p0220">
+      The BepiPred linear epitope prediction tool was applied, which is regarded as the best method for predicting linear B-cell epitopes. This tool uses a hidden Markov model. A total of 68 linear epitopes were predicted by BepiPred. By selecting only those with lengths ≥7 amino acid residues, 19 epitopes were finally included for further analysis (      ). The β-turns were predicted by the Chaus and Fasman β-turn prediction method. Previous research has shown that the antigenic part of the protein mostly remains as β
+      <bold>
+       -
+      </bold>
+      sheet [      ]. The region containing residues 807–813 was predicted to be a β-turn region, with a score of 1.413; this was almost the highest score (      ). The region of residues 499–505 had a score of 1.257, and the 1140–1146 region had a score of 1.057; these were all greater than the average score (      ).
+      <table-wrap id="tbl5" position="float">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         List of predicted B cell epitopes from BepiPred linear epitope prediction analysis.
+        </p>
+       </caption>
+       <alt-text id="alttext0065">
+        Table 5
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           No.
+          </th>
+          <th>
+           Start
+          </th>
+          <th>
+           End
+          </th>
+          <th>
+           Peptide
+          </th>
+          <th>
+           Length
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           1
+          </td>
+          <td align="left">
+           21
+          </td>
+          <td align="left">
+           31
+          </td>
+          <td align="left">
+           RTQLPPAYTNS
+          </td>
+          <td align="left">
+           11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td align="left">
+           71
+          </td>
+          <td align="left">
+           81
+          </td>
+          <td align="left">
+           SGTNGTKRFDN
+          </td>
+          <td align="left">
+           11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           3
+          </td>
+          <td align="left">
+           249
+          </td>
+          <td align="left">
+           261
+          </td>
+          <td align="left">
+           LTPGDSSSGWTAG
+          </td>
+          <td align="left">
+           12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           4
+          </td>
+          <td align="left">
+           318
+          </td>
+          <td align="left">
+           324
+          </td>
+          <td align="left">
+           FRVQPTE
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td>
+           5
+          </td>
+          <td align="left">
+           407
+          </td>
+          <td align="left">
+           420
+          </td>
+          <td align="left">
+           VRQIAPGQTGKIAD
+          </td>
+          <td align="left">
+           14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           6
+          </td>
+          <td align="left">
+           439
+          </td>
+          <td align="left">
+           447
+          </td>
+          <td align="left">
+           NNLDSKVGG
+          </td>
+          <td align="left">
+           9
+          </td>
+         </tr>
+         <tr>
+          <td>
+           7
+          </td>
+          <td align="left">
+           473
+          </td>
+          <td align="left">
+           483
+          </td>
+          <td align="left">
+           YQAGSTPCNGV
+          </td>
+          <td align="left">
+           11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           8
+          </td>
+          <td align="left">
+           495
+          </td>
+          <td align="left">
+           506
+          </td>
+          <td align="left">
+           YGFQPTNGVGYQ
+          </td>
+          <td align="left">
+           12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           9
+          </td>
+          <td align="left">
+           523
+          </td>
+          <td align="left">
+           532
+          </td>
+          <td align="left">
+           TVCGPKKSTN
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           10
+          </td>
+          <td align="left">
+           567
+          </td>
+          <td align="left">
+           580
+          </td>
+          <td align="left">
+           RDIADTTDAVRDPQ
+          </td>
+          <td align="left">
+           14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           11
+          </td>
+          <td align="left">
+           597
+          </td>
+          <td align="left">
+           606
+          </td>
+          <td align="left">
+           VITPGTNTSN
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           12
+          </td>
+          <td align="left">
+           675
+          </td>
+          <td align="left">
+           687
+          </td>
+          <td align="left">
+           QTQTNSPRRARSV
+          </td>
+          <td align="left">
+           13
+          </td>
+         </tr>
+         <tr>
+          <td>
+           13
+          </td>
+          <td align="left">
+           772
+          </td>
+          <td align="left">
+           780
+          </td>
+          <td align="left">
+           VEQDKNTQE
+          </td>
+          <td align="left">
+           9
+          </td>
+         </tr>
+         <tr>
+          <td>
+           14
+          </td>
+          <td align="left">
+           788
+          </td>
+          <td align="left">
+           797
+          </td>
+          <td align="left">
+           IYKTPPIKDF
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           15
+          </td>
+          <td align="left">
+           805
+          </td>
+          <td align="left">
+           816
+          </td>
+          <td align="left">
+           ILPDPSKPSKRS
+          </td>
+          <td align="left">
+           12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           16
+          </td>
+          <td align="left">
+           1069
+          </td>
+          <td align="left">
+           1077
+          </td>
+          <td align="left">
+           PAQEKNFTT
+          </td>
+          <td align="left">
+           9
+          </td>
+         </tr>
+         <tr>
+          <td>
+           17
+          </td>
+          <td align="left">
+           1137
+          </td>
+          <td align="left">
+           1148
+          </td>
+          <td align="left">
+           VYDPLQPELDSF
+          </td>
+          <td align="left">
+           12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           18
+          </td>
+          <td align="left">
+           1157
+          </td>
+          <td align="left">
+           1167
+          </td>
+          <td align="left">
+           KNHTSPDVDLG
+          </td>
+          <td align="left">
+           11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           19
+          </td>
+          <td align="left">
+           1256
+          </td>
+          <td align="left">
+           1265
+          </td>
+          <td align="left">
+           FDEDDSEPVL
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0225">
+      The Emini surface accessibility prediction method was also employed in this study. The average surface accessibility was 1.0, with a minimum of 0.042. In accordance with the above B-cell epitope results, the peptide region of 810–815 was predicted to have the best surface accessibility, with a score of 5.662 (      ).
+     </p>
+     <p id="p0230">
+      The Kolaskar and Tongaonkar method was employed to predict antigenicity. This method evaluates antigenicity based on the physicochemical properties of amino acids and their abundances in experimentally known epitopes. A total of 46 B-cell epitopes were predicted by this method (      ). The average antigenic propensity of the SARS-CoV-2 SGP epitopes was 1.041, with a maximum of 1.261. The highest score was found for amino acids 5–11. The regions of 490–496 and 491–497 had equal scores of 1.067 (      ). The scores for the amino acid regions 558–564, 703–709, and 1140–1146 were 1.065, 1.026, and 1.051, respectively, and were all greater than the average value (      ).
+      <table-wrap id="tbl6" position="float">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         List of predicted B-cell epitopes from Kolaskar and Tongaonkar antigenicity prediction method.
+        </p>
+       </caption>
+       <alt-text id="alttext0070">
+        Table 6
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Start
+          </th>
+          <th>
+           End
+          </th>
+          <th>
+           Peptide
+          </th>
+          <th>
+           Length
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           4
+          </td>
+          <td align="left">
+           18
+          </td>
+          <td align="left">
+           FLVLLPLVSSQCVNL
+          </td>
+          <td align="left">
+           15
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           34
+          </td>
+          <td align="left">
+           41
+          </td>
+          <td align="left">
+           RGVYYPDK
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           44
+          </td>
+          <td align="left">
+           51
+          </td>
+          <td align="left">
+           RSSVLHST
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           53
+          </td>
+          <td align="left">
+           60
+          </td>
+          <td align="left">
+           DLFLPFFS
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           81
+          </td>
+          <td align="left">
+           87
+          </td>
+          <td align="left">
+           NPVLPFN
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           115
+          </td>
+          <td align="left">
+           121
+          </td>
+          <td align="left">
+           QSLLIVN
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           125
+          </td>
+          <td align="left">
+           134
+          </td>
+          <td align="left">
+           NVVIKVCEFQ
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           136
+          </td>
+          <td align="left">
+           146
+          </td>
+          <td align="left">
+           CNDPFLGVYYH
+          </td>
+          <td align="left">
+           11
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           168
+          </td>
+          <td align="left">
+           174
+          </td>
+          <td align="left">
+           FEYVSQP
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           210
+          </td>
+          <td align="left">
+           216
+          </td>
+          <td align="left">
+           INLVRDL
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           223
+          </td>
+          <td align="left">
+           230
+          </td>
+          <td align="left">
+           LEPLVDLP
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           239
+          </td>
+          <td align="left">
+           248
+          </td>
+          <td align="left">
+           QTLLALHRSY
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           263
+          </td>
+          <td align="left">
+           270
+          </td>
+          <td align="left">
+           AAYYVGYL
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           272
+          </td>
+          <td align="left">
+           278
+          </td>
+          <td align="left">
+           PRTFLLK
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           288
+          </td>
+          <td align="left">
+           295
+          </td>
+          <td align="left">
+           AVDCALDP
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           333
+          </td>
+          <td align="left">
+           339
+          </td>
+          <td align="left">
+           TNLCPFG
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           359
+          </td>
+          <td align="left">
+           371
+          </td>
+          <td align="left">
+           SNCVADYSVLYNS
+          </td>
+          <td align="left">
+           13
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           376
+          </td>
+          <td align="left">
+           385
+          </td>
+          <td align="left">
+           TFKCYGVSPT
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           488
+          </td>
+          <td align="left">
+           495
+          </td>
+          <td align="left">
+           CYFPLQSY
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           505
+          </td>
+          <td align="left">
+           527
+          </td>
+          <td align="left">
+           YQPYRVVVLSFELLHAPATVCGP
+          </td>
+          <td align="left">
+           23
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           592
+          </td>
+          <td align="left">
+           599
+          </td>
+          <td align="left">
+           FGGVSVIT
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           607
+          </td>
+          <td align="left">
+           615
+          </td>
+          <td align="left">
+           QVAVLYQDV
+          </td>
+          <td align="left">
+           9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           617
+          </td>
+          <td align="left">
+           627
+          </td>
+          <td align="left">
+           CTEVPVAIHAD
+          </td>
+          <td align="left">
+           11
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           647
+          </td>
+          <td align="left">
+           653
+          </td>
+          <td align="left">
+           AGCLIGA
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           667
+          </td>
+          <td align="left">
+           674
+          </td>
+          <td align="left">
+           GAGICASY
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           687
+          </td>
+          <td align="left">
+           693
+          </td>
+          <td align="left">
+           VASQSII
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           723
+          </td>
+          <td align="left">
+           730
+          </td>
+          <td align="left">
+           TTEILPVS
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           735
+          </td>
+          <td align="left">
+           741
+          </td>
+          <td align="left">
+           SVDCTMY
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           750
+          </td>
+          <td align="left">
+           763
+          </td>
+          <td align="left">
+           SNLLLQYGSFCTQL
+          </td>
+          <td align="left">
+           14
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           781
+          </td>
+          <td align="left">
+           788
+          </td>
+          <td align="left">
+           VFAQVKQI
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           837
+          </td>
+          <td align="left">
+           843
+          </td>
+          <td align="left">
+           YGDCLGD
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           847
+          </td>
+          <td align="left">
+           853
+          </td>
+          <td align="left">
+           RDLICAQ
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           858
+          </td>
+          <td align="left">
+           864
+          </td>
+          <td align="left">
+           LTVLPPL
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           873
+          </td>
+          <td align="left">
+           880
+          </td>
+          <td align="left">
+           YTSALLAG
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           959
+          </td>
+          <td align="left">
+           966
+          </td>
+          <td align="left">
+           LNTLVKQL
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           973
+          </td>
+          <td align="left">
+           979
+          </td>
+          <td align="left">
+           ISSVLND
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1003
+          </td>
+          <td align="left">
+           1011
+          </td>
+          <td align="left">
+           SLQTYVTQQ
+          </td>
+          <td align="left">
+           9
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1030
+          </td>
+          <td align="left">
+           1037
+          </td>
+          <td align="left">
+           SECVLGQS
+          </td>
+          <td align="left">
+           8
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1057
+          </td>
+          <td align="left">
+           1070
+          </td>
+          <td align="left">
+           PHGVVFLHVTYVPA
+          </td>
+          <td align="left">
+           14
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1079
+          </td>
+          <td align="left">
+           1085
+          </td>
+          <td align="left">
+           PAICHDG
+          </td>
+          <td align="left">
+           7
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1123
+          </td>
+          <td align="left">
+           1132
+          </td>
+          <td align="left">
+           SGNCDVVIGI
+          </td>
+          <td align="left">
+           10
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1174
+          </td>
+          <td align="left">
+           1179
+          </td>
+          <td align="left">
+           ASVVNI
+          </td>
+          <td align="left">
+           12
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           1221
+          </td>
+          <td align="left">
+           1256
+          </td>
+          <td align="left">
+           IAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKF
+          </td>
+          <td align="left">
+           36
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0235">
+      The Karplus and Schulz flexibility prediction method found an average flexibility of 0.993 and a minimum of 0.866. The residue region 809–815 was found to be flexible, with a score of 1.101; this result was nearly the highest score (1.125). The next highest score was for residues 810–816, with a score of 1.1 (      ). The amino acid regions from 700 to 706, 910–916, and 1140–1146 had very similar scores of 1.029, 1.031, and 1.028, respectively (      ).
+     </p>
+     <p id="p0240">
+      The Parker hydrophilicity prediction tool found an average hydrophilicity score of 1.238 for the SARS-CoV-2 SGP. The highest score was for the amino acid region 1257–1263 (      ).
+     </p>
+     <p id="p0245">
+      Many vaccines are comprised of attenuated or killed pathogens. However, peptide vaccines that are capable of eliciting immune responses against specific pathogens contain peptides that are linear B cell epitopes [      ]. The B-cell epitopes are antigenic determinants and are specifically recognized by the immune system because they represent specific pieces of antigens that bind to B lymphocytes; these epitopes are crucial for vaccine design [      ]. A previous study demonstrated that linear B-cell epitopes can induce immunity against
+      <italic>
+       Pseudomonas aeruginosa
+      </italic>
+      in mice [      ]. Synthetic peptides that contain linear B-cell epitopes are pivotal for producing antibodies against a specific protein; these antibodies can be used in various applications, such as in diagnostic tools or screening assays [      ]. Importantly, B-cell epitopes elicit strong immune responses and do not cause any side effects. Here, we also predicted B-cell epitopes utilizing the IEDB database. The recent study by Grifoni et al. predicted B-cell epitopes of SARS-CoV-2 and SARS-CoV; the authors found that the SGP of SARS-CoV-2 contained the largest number of B-cell epitopes [      ]. Moreover, they also predicted seven epitope regions of the SARS-CoV-2 SGP, which were the amino acid residues 491–505, 558–562, 703–704, 793–794, 810, 914, and 1140–1146. In the current study, we utilized several tools from the IEDB database to predict linear B-cell epitopes. As a result, we identified several B-cell epitopes from the SARS-CoV-2 SGP that are in agreement with those identified by Grifoni et al. (      ) [      ]. In addition, the Grifoni study found that the predicted epitopes had a sequence identity greater than 65% [      ]. The predicted B-cell epitopes were also in agreement with another previous study that had predicted several SARS-CoV-2 SGP B-cell epitopes (      ) [      ].
+     </p>
+     <p id="p0250">
+      Our study is not exhaustive, and
+      <italic>
+       in silico
+      </italic>
+      work has several pros and cons. The vaccine development process is tedious, and it can take years to develop a vaccine for use in humans, especially when the technologies are new and have not been extensively used before. Although institutes such as Curevac, Inovio, and Applied DNA Sciences are working on vaccines focusing on the SGP of SARS-CoV-2, it is not possible to predict how long it will take to obtain a successful vaccine. Realistically, an animal model is a prerequisite for testing the protectiveness of a vaccine, but developing an animal model for SARS-CoV-2 has been difficult. Vaccines also must be tested for toxicity in various animals, for example, rabbits, which typically takes several months to complete. Human vaccines must be produced in accordance with current good manufacturing practices (cGMPs), which requires trained personnel, exclusive facilities, appropriate documentation, and quality raw materials. As a result, vaccine candidates that are in the preclinical phase might require specialized processes that need to be developed from scratch. Realistically, it will require more than 1 year to license any vaccine for SARS-CoV-2.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <label>
+     4
+    </label>
+    <title>
+     Conclusions
+    </title>
+    <p id="p0255">
+     Improvements in the field of immunoinformatics have been an important factor in advancing the prediction of peptide-based vaccines. Viruses can activate both T-cell and humoral immunity. The epitopes predicted in this study might improve immunity against SARS-CoV-2. Our work is based on the fundamental principles of immunity, whereby the recognition of foreign bodies by the host immune cells provokes an immune response in which relevant information is transferred to both T cells and B cells. Here, utilizing
+     <italic>
+      in silico
+     </italic>
+     simulations, our predicted epitopes were able to interact with CD8     cells when the epitopes were presented as antigens. However, the present study is only a preliminary approach for predicting an epitope-based vaccine against SARS-CoV-2. We hope that these predicted epitopes will lay the foundation for the further experimental design of vaccine candidates against SARS-CoV-2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of competing interest
+    </title>
+    <p id="p0260">
+     The author declares that there is no competing interest in this work.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

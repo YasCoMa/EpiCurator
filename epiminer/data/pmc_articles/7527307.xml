@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Development of multi-epitope peptide-based vaccines against SARS-CoV-2
+ </title>
+ <abstract>
+  <p>
+   Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has caused a pandemic involving so far more than 32 million infections and 980,031 deaths. Effective vaccines are urgently needed to prevent SARS-CoV-2 infections. No vaccines have yet been approved for licensure by regulatory agencies. Even though host immune responses to SARS-CoV-2 infections are beginning to be unravelled, effective clearance of virus will depend on both humoral and cellular immunity. Additionally, the presence of Spike (S)-glycoprotein reactive CD4+ T-cells in the majority of convalescent patients is consistent with its significant role in stimulating B and CD8+ T-cells. The search for immunodominant epitopes relies on experimental evaluation of peptides representing the epitopes from overlapping peptide libraries which can be costly and labor-intensive. Recent advancements in B- and T-cell epitope predictions by bioinformatic analysis have led to epitope identifications. Assessing which peptide epitope can induce potent neutralizing antibodies and robust T-cell responses is a prerequisite for the selection of effective epitopes to be incorporated in peptide-based vaccines. This review discusses the roles of B- and T-cells in SARS-CoV-2 infections and experimental validations for the selection of B-, CD4+ and CD8+ T-cell epitopes which could lead to the construction of a multi-epitope peptide vaccine. Peptide-based vaccines are known for their low immunogenicity which could be overcome by incorporating immunostimulatory adjuvants and nanoparticles such as Poly Lactic-co-Glycolic Acid (PLGA) or chitosan.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     The roles of B- and T-cells in SARS-CoV-2 infection
+    </title>
+    <p id="p0035">
+     The production of epitope-specific antibodies is a primary mechanism of protection against viruses. Neutralizing antibodies can inhibit infection by blocking host–cell interactions and entry of viruses. Antibodies also mediate the destruction of infected cells by inducing opsonization for phagocytosis, complement activation, and antibody-dependent cell-mediated cytotoxicity. Coronavirus-induced antibody responses are quite variable and rather short-lived [     ,     ]. Patients of SARS-CoV-2 displayed an antibody response within the first 10 days after the onset of symptoms [     ]. Specifically, SARS-CoV-2 S-specific IgM antibodies were detectable from day 4 after the onset of symptoms while SARS-CoV-2 S-specific IgG antibodies were measurable from day 7 onwards [     ]. SARS-CoV-2 IgM reached the highest point within 3 weeks of infection and gradually declined for the following 4 weeks. IgG was persistently detectable for seven weeks [     ]. Further studies are required to elucidate the persistence of antibodies and their roles in the prevention of secondary infections. Previous studies reported the crucial role of T-cells in the elimination of SARS-CoV-1 [     ]. SARS-CoV-1-specific memory T-cells were found to persist in the peripheral blood of SARS patients for up to 6 years post-infection despite a lack of specific memory B-cell response [     ]. Ng et al. (2016) demonstrated the presence of memory T cell responses in SARS-recovered individuals up to 11 years post-infection [     ]. These findings suggested that SARS-CoV-1-specific T-cell response is important for protection against re-infection of SARS-CoV-1. For SARS-CoV-1 (2002/03), it was shown that CD4+ T-cell responses correlated well with positive outcomes [     ,     ]. Helper T-cells stimulate B-cells and other immune defenders into action, whereas CD8+ cytotoxic T-cells target and eliminate virus-infected cells to prevent virus replication and facilitate virus clearance. Inducing memory T-cells with high proliferation potential should further enhance the development of efficacious vaccines. The severity of the viral disease may depend on the strength of these T-cell responses [     ].
+    </p>
+    <p id="p0040">
+     The total number of CD4+ and CD8+ T-cells was found to be dramatically reduced in COVID19 patients, especially those requiring intensive care. Expression of immune-inhibitory surface markers such as PD-1 and Tim-3 are known to be associated with the functional exhaustion of T-cells. ICU patients with COVID-19 disease showed markedly higher percentages of PD-1+CD8+ and CD4+ T-cells as well as Tim-3+CD4+ T-cells, indicating that SARS-CoV-2 could drive T-cell exhaustion in COVID-19 patients [     ]. Studies also showed that the levels of IL-2, IL-7, Il-10, TNF-α, G-CSF, IP-10, MCP-1 and MIP-1A were significantly higher in COVID-19 patients [     ,     ]. Increased cytokine levels (IL-6, IL-10, and TNF-α), lymphopenia (low levels of CD4+ and CD8+ T cells), and decreased IFN-γ expression in CD4+ T-cells were reported in studies that characterized the cytokine storm in patients with severe COVID-19 [     ]. CD8+ T-and NK-cells from COVID-19 patients had increased expression of the inhibitory receptor NKG2A with diminished productions of CD107a, IFN-γ, IL-2 and granzyme B which indicated the functional exhaustion of NK-and CD8+ T-cells [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <title>
+     Bioinformatics approach for B- and T-cell epitope prediction
+    </title>
+    <p id="p0045">
+     Peptide-based vaccines comprising short immunogenic peptides have the ability to elicit potent and targeted immune responses. Bioinformatics approach offers a new
+     <italic>
+      in silico
+     </italic>
+     strategy for mapping and identification of potential B- and T-cell epitopes in the protein sequences of viruses which are useful for the development of effective multi-epitope vaccines. Peptide antigens bound to MHC molecules are the target of T-cells. Various bioinformatics tools that allow prediction of the binding affinity of peptides to MHC class I and II molecules have been developed. Here, we present our
+     <italic>
+      in silico
+     </italic>
+     predictions of potential T-cell epitopes. Epitopes were predicted from the spike (S), membrane (M), and nucleocapsid (N) proteins. First, the protein sequences were retrieved from the NCBI database (
+     <ext-link ext-link-type="uri" id="intref0010" ns0:href="https://www.ncbi.nlm.nih.gov/nuccore/MN996531.1">
+      https://www.ncbi.nlm.nih.gov/nuccore/MN996531.1
+     </ext-link>
+     /). Each sequence is checked on its average antigenic propensity using the antigenic peptide prediction tool (
+     <ext-link ext-link-type="uri" id="intref0015" ns0:href="http://imed.med.ucm.es/Tools/antigenic.pl">
+      http://imed.med.ucm.es/Tools/antigenic.pl
+     </ext-link>
+     ). The protein sequences were considered for CD4+ and CD8+ T-cell epitope selections, respectively. CD4+ T-cell epitopes were predicted using the MHC-II epitope prediction tool from the Immune Epitope Database (IEDB,
+     <ext-link ext-link-type="uri" id="intref0020" ns0:href="http://tools.iedb.org/mhcii/">
+      http://tools.iedb.org/mhcii/
+     </ext-link>
+     ). This server uses a combination of different methods including Artificial Neural Network (ANN) and Quantitative Affinity Matrix (QAM) for finding the binding affinity of peptides for class II MHC. A total of 4047 possible epitopes from S, M, and N proteins were determined using this server. These CD4+ T-cell epitopes were filtered based on their lowest percentile rank and IC
+     <sub>
+      50
+     </sub>
+     values. Only epitopes with percentile ranks less than 5.0 and IC
+     <sub>
+      50
+     </sub>
+     values of below 50 nM were considered. Potential CD4+ T-cell epitopes were further refined based on their immunogenicity score using the IEDB CD4+ T-cell immunogenicity prediction tool (
+     <ext-link ext-link-type="uri" id="intref0025" ns0:href="http://tools.iedb.org/CD4episcore/">
+      http://tools.iedb.org/CD4episcore/
+     </ext-link>
+     ). All predicted epitopes have immunogenicity scores above 80.0. These CD4+ T-cell epitopes were also predicted based on their capability to induce Th1 immune response accompanied by IFN-γ production using the IFN epitope server (
+     <ext-link ext-link-type="uri" id="intref0030" ns0:href="http://crdd.osdd.net/raghava/ifnepitope/">
+      http://crdd.osdd.net/raghava/ifnepitope/
+     </ext-link>
+     ). Here, we used a hybrid approach that combines motif-based models from the pattern discovery software MERCI and Support Vector Machine (SVM) based models to identify IFN-γ producing peptides. Positive IFN-γ producing epitopes were favoured and used as metrics to select better candidates for downstream analysis. Simultaneously, CD8+ T-cell epitopes were predicted using the NetCTL1.2 server (
+     <ext-link ext-link-type="uri" id="intref0035" ns0:href="http://www.cbs.dtu.dk/services/NetCTL">
+      http://www.cbs.dtu.dk/services/NetCTL
+     </ext-link>
+     /) and epitopes with prediction scores over 1.0 were selected. Epitopes were further filtered based on their percentile rank using the IEDB MHC-I epitope prediction tool (
+     <ext-link ext-link-type="uri" id="intref0040" ns0:href="http://tools.iedb.org/mhci/">
+      http://tools.iedb.org/mhci/
+     </ext-link>
+     ) that also uses QAM and ANN methods to predict binding affinity. A total of 11 CD4+ T-cell epitopes [     ] and 13 CD8+ T-cell epitopes [     ] were predicted in this manner.
+     <table-wrap id="tbl2" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        SARS-CoV-2 CD4+ T-cell epitopes predicted in S, M, and N proteins.
+       </p>
+      </caption>
+      <alt-text id="alttext0015">
+       Table 2
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Spike
+         </th>
+         <th>
+          Membrane
+         </th>
+         <th>
+          Nucleocapsid
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          VVLSFELLHAPATVC
+         </td>
+         <td>
+          GLMWLSYFIASFRLF
+         </td>
+         <td>
+          AQFAPSASAFFGMSR
+         </td>
+        </tr>
+        <tr>
+         <td>
+          QQLIRAAEIRASANL
+         </td>
+         <td>
+          NLVIGFLFLTWICLL
+         </td>
+         <td>
+          AALALLLLDRLNQLE
+         </td>
+        </tr>
+        <tr>
+         <td>
+          GNYNYLYRLFRKSNL
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          FVFLVLLPLVSSQCV
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          SSGWTAGAAAYYVGY
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          ITSGWTFGAGAALQI
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          NFTISVTTEILPVS
+         </td>
+         <td/>
+         <td/>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         ∗Percentile rank of ≤5.0 was adjusted to be the cut-off indicator for IEDB MHC-II epitope prediction tool.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+     <table-wrap id="tbl3" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        SARS-CoV-2 CD8+ T-cell epitopes predicted in S, M, and N proteins.
+       </p>
+      </caption>
+      <alt-text id="alttext0020">
+       Table 3
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Spike
+         </th>
+         <th>
+          Membrane
+         </th>
+         <th>
+          Nucleocapsid
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          YLQPRTFLL
+         </td>
+         <td>
+          ATSRTLSYY
+         </td>
+         <td>
+          LLLDRLNQL
+         </td>
+        </tr>
+        <tr>
+         <td>
+          KIADYNYKL
+         </td>
+         <td>
+          RIAGHHLGR
+         </td>
+         <td>
+          QFAPSASAF
+         </td>
+        </tr>
+        <tr>
+         <td>
+          SIIAYTMSL
+         </td>
+         <td>
+          YFIASFRLF
+         </td>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          VLNDILSRL
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          FIAGLIAIV
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          WTAGAAAYY
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          TSNQVAVLY
+         </td>
+         <td/>
+         <td/>
+        </tr>
+        <tr>
+         <td>
+          GVYFASTEKS
+         </td>
+         <td/>
+         <td/>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         ∗The cut-off score was adjusted to ≥1.0 for NetCTL1.2.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </p>
+    <p id="p0050">
+     Global population coverage of both HLA class I and II alleles were investigated against the selected CD4+ and CD8+ epitopes respectively using the IEDB population coverage analysis tool (
+     <ext-link ext-link-type="uri" id="intref0045" ns0:href="http://tools.iedb.org/population/">
+      http://tools.iedb.org/population/
+     </ext-link>
+     ). The 11 selected CD4+ T-cell epitopes were shown to cover 99.36% of global population alleles whereas the 13 CD8+ T-cell epitopes exhibited 91.21% global population coverage. All epitopes were checked to be non-toxic using the ToxinPred module (
+     <ext-link ext-link-type="uri" id="intref0050" ns0:href="https://webs.iiitd.edu.in/raghava/toxinpred/multi_submit.php">
+      https://webs.iiitd.edu.in/raghava/toxinpred/multi_submit.php
+     </ext-link>
+     ). Protein BLAST analysis was conducted to determine homology of these epitopes with human proteins (
+     <ext-link ext-link-type="uri" id="intref0055" ns0:href="https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM%20=blastp&amp;PAGE_TYPE=BlastSearch&amp;BLAST_SPEC=&amp;LINK_LOC=blasttab">
+      https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM =blastp&amp;PAGE_TYPE=BlastSearch&amp;BLAST_SPEC=&amp;LINK_LOC=blasttab
+     </ext-link>
+     ). None of the epitopes shared identity with human protein sequences as no alignment score above 67.0 was observed. Therefore, this eliminates chances of the epitopes being recognized as self-epitopes.
+    </p>
+    <p id="p0055">
+     In addition, we have also predicted linear B-cell epitopes in the S protein using
+     <italic>
+      in silico
+     </italic>
+     analysis. Linear B-cell epitopes are favored over conformational B-cell epitopes because linear B-cell epitopes contain peptides which can represent antigens for immunizations and antibody production. Using the S protein sequence from the NCBI database, we used the IEDB linear B-cell epitope prediction tool (
+     <ext-link ext-link-type="uri" id="intref0060" ns0:href="http://tools.immuneepitope.org/bcell/">
+      http://tools.immuneepitope.org/bcell/
+     </ext-link>
+     ) to determine conserved sequences of the B-cell epitopes. The recognition of B-cell epitopes is dependent on the prediction of linear epitopes, its antigenicity, and its surface accessibility. Therefore, three different prediction methods that are available in the IEDB prediction software were utilized. BepiPred Linear Epitope Prediction 2.0 method was used to predict the linear B-cell epitopes, while the Kolasker &amp; Tongaokar Antigenicity method [     ] and Emini Surface Accessibility Prediction method were used to evaluate antigenicity and surface accessibility of the linear B-cell epitopes. BepiPred2.0 uses a Random Forest algorithm trained on epitopes and non-epitopes amino acids determined from antibody-antigen crystal structures and performs a sequential prediction smoothing in the end. Lastly, the predicted epitopes were confirmed by ABCPred (
+     <ext-link ext-link-type="uri" id="intref0065" ns0:href="https://webs.iiitd.edu.in/raghava/abcpred/index.html">
+      https://webs.iiitd.edu.in/raghava/abcpred/index.html
+     </ext-link>
+     ), which applied ANN using fixed-length patterns trained on 700 B-cell epitopes and 700 random non-epitopes in its prediction algorithm with a 65.93% accuracy.
+    </p>
+    <p id="p0060">
+     A threshold score of 0.500 was assigned for the BepiPred method and 34 linear B-cell epitopes were predicted in this manner. Next, the antigenicity of these B-cell epitopes was evaluated using a window size of 7 amino acids and a threshold score of 1.041 based on the Kolasker method. The surface accessibility of the B-cell epitopes was examined using a window size of 6 amino acids and a threshold score of 1.000 on the Emini tool. All residues with a score of above 1.000 on the Emini tool were selected as it indicates an increased probability for the residue to be located on the surface. Finally, we confirmed our predictions in the ABCPred server, with a threshold of 0.51 and using an over-lapping filter. A total of seven linear B-cell epitopes were predicted after filtering based on their antigenicity, surface accessibility, and confirmation using ABCPred [     ]. These seven epitopes have an average ABCPred score of 0.75 and are exposed on the surface of the virus, in addition to their high antigenicity score. This indicates their potential to elicit humoral immune responses.
+     <table-wrap id="tbl4" position="float">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        SARS-CoV-2 B-cell epitopes predicted in S protein.
+       </p>
+      </caption>
+      <alt-text id="alttext0025">
+       Table 4
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Sequence
+         </th>
+         <th>
+          Start-End (Amino Acid Length)
+         </th>
+         <th>
+          ABCPred Score
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td rowspan="2">
+          SQCVNLTTRTQLPPAYTNSFTRGVY
+         </td>
+         <td>
+          13–37
+         </td>
+         <td rowspan="2">
+          0.90
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (25)
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          DPFLGVYYHKNNKSWME
+         </td>
+         <td>
+          138–154
+         </td>
+         <td rowspan="2">
+          0.68
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (17)
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          NLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTN
+         </td>
+         <td>
+          440–501
+         </td>
+         <td rowspan="2">
+          0.95
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (62)
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          NCTEVPVAIHADQLTPT
+         </td>
+         <td>
+          616–632
+         </td>
+         <td rowspan="2">
+          0.81
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (17)
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          ASYQTQTNSPRRARSVASQ
+         </td>
+         <td>
+          672–690
+         </td>
+         <td rowspan="2">
+          0.65
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (19)
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          KQIYKTPPIKDFGGF
+         </td>
+         <td>
+          786–800
+         </td>
+         <td rowspan="2">
+          0.66
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (15)
+         </td>
+        </tr>
+        <tr>
+         <td rowspan="2">
+          SCCKFDEDDSEPVLKG
+         </td>
+         <td>
+          1252–1267
+         </td>
+         <td rowspan="2">
+          0.59
+         </td>
+        </tr>
+        <tr>
+         <td>
+          (16)
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         ∗The cut-off score was adjusted to ≥ 0.500 for BepiPred2.0.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </p>
+    <p id="p0065">
+     Various publications have also predicted a number of T-cell epitopes of SARS-Cov-2 with bioinformatic approaches depending on high immunogenicity scores, binding affinity (IC
+     <sub>
+      50
+     </sub>
+     ) to HLA molecules, HLA coverage and IFN-γ production. Here, we list some of the notable results and cross-reference them with our predicted epitopes. Kiyotani et al. reported potential epitopes derived from the SARS-CoV-2 for HLAs commonly present in the Japanese population through comprehensive bioinformatic screening. The peptides were predicted using NetMHCv4.0 and NetMHCpanv4.0 software based on the high binding affinity to HLA class I and II which led to induction of CD8+ and CD4+ T-cell responses, respectively. They identified 781 HLA-class I and 418 HLA-class II epitopes that have high homologies to SARS-CoV-1. Two SARS-CoV-2-derived HLA-class I epitopes in the ORF1ab protein were found with high coverage (83%) of the Japanese population-based on HLA-A frequency [     ]. Baruah et al. identified five CD8+ T-cell epitopes and five discontinuous B-cell epitopes in the S glycoprotein. All five CD8+ T-cell epitopes were classified as strong binders to their corresponding MHC class I supertype representatives (A2, A3, B7, B44, and B62) which accounted for the major HLA-A and B distributions in China. Importantly, these epitopes were observed to bind with the peptide-binding groove of MHC class I molecules during molecular dynamic simulations. Therefore, these epitopes could serve as potent T-cell epitopes for the development of SARS-CoV-2 vaccines. Sequential B-cell epitopes in the S protein were identified with BepiPred 2.0 and overlapping filters with ABCPred. To further identify discontinuous B-cell epitopes, Ellipro was used to model the S protein structure in Raptor X [     ]. Sahoo et al. identified 36 epitopes for class I MHC and 25 epitopes for class II MHC molecules from the ORF1ab polypeptide, surface glycoprotein, membrane glycoprotein and nucleocapsid phosphoprotein of SARS-CoV-2 based on the maximum binding score to HLA molecules. These epitopes were predicted by using Propred and Propred1 immunoinformatics tools which cover the maximum number of HLAs compared to other epitope prediction tools. Among the seven T-cell epitopes identified in the S protein, peptide KIADYNYKL was predicted to bind to the highest number of MHC class I alleles [     ]. Parvez et al. applied NetMHCPan, NetCTL and NetMHCII servers to predict T-cell epitopes while BepiPred 2.0 and ABCPred were used for prediction of linear B-cell epitopes in the SARS-CoV-2 genome [     ]. The prediction of class I MHC epitopes was made based on the binding score of NETMHCPan4.0, followed by the affinity to be processed by the cytosolic pathway provided by NetCTL 1.2. Epitopes having a high binding affinity to MHC class I molecules and a high ability to be transported by TAP will have a higher probability to function as cytotoxic T-lymphocyte (CTL) epitopes. A total of 54 MHC class I epitopes have been identified and four promiscuous epitopes which can bind to different alleles were found in the spike protein and they are WTAGAAAYY, CVADYSVLY, VRFPNITNL and TRFQTLLAL. Twenty-one CD4+ T-cell epitopes were identified based on the binding affinity to MHC class II by using NetMHCII 2.3. There were 24 out of 45 B-cell epitopes found in the S protein of SARS-CoV-2, making it the highest number of predicted B-cell epitopes across all the SARS-CoV-2 proteins [     ]. The immunoinformatics approach has been used by Mishra et al. to identify potential T-cell epitopes from structural and non-structural proteins for immunotherapy against SARS-CoV-2. Two different prediction algorithms, NetCTLpan and PickPocket, were used to generate consensus epitopes against 12 HLA supertypes (HLA-A∗01:01, HLA-A∗02:01, HLA-A∗03:01, HLA-A∗24:02, HLA-A∗26:01, HLA-B∗07:02, HLA-B∗08:01, HLA-B∗27:05, HLA-B∗39:01, HLA-B∗40:01, HLA-B∗58:01, HLA-B∗15:01) and 57 epitopes have been identified in the key proteins of SARS-CoV-2. Many of these epitopes formed a tight cluster around consensus sequences MGYINVFAFPFTIYSLLLC and KVSIWNLDYIINLI across the ORF6 and ORF8 proteins [     ]. Grifoni et al. listed dominant SARS-CoV-1 T-cell epitopes based on the response factor score and HLA restrictions. Fourteen SARSCoV-2 T-cell epitopes with 100% identity to SARS-CoV-1 were identified when SARS-CoV-2 T-cell epitopes were mapped against SARS-CoV-1. Only one out of the ten identified SARS-CoV-2 B-cell epitope sequences, FGAGAALQIPFAMQMAYRFNGI, shared a 100% identity with SARS-CoV-1 after sequence alignment was performed [     ]. Fast et al. identified a list of high potential T-cell epitopes through an analysis of human antigen presentations and ranked them based on their likely coverage of presentations by MHC-I and MHC-II alleles. Importantly, the epitope SYGFQPTNGVGYQPY was highly ranked based on MHC presentations and contains predicted promising B-cell epitopes. This epitope is localized near the S protein receptor-binding domain (RBD), suggesting its potential to trigger B-and T-cell responses [     ].
+     <italic>
+      In silico
+     </italic>
+     analysis identified 17 peptides representing both B- and T-cell epitopes and 13 peptides representing only T-cell epitopes based on the highest HLA scores, as well as B-and T-cell epitope counts. These findings provided us with valuable information to design highly conserved B- and T-cell epitope-based peptide vaccines against SARS-CoV-2 [     ]. However, these epitopes have been generated using peptide prediction algorithms and may not represent the natural peptides presented on HLA class I and class II molecules of the SARS-CoV-2 infected cells. Additionally, prediction algorithms sort potential peptides based on the predicted MHC binding scores. Most often, only the top scoring or dominant peptides are chosen for follow up studies, but it is likely that some of the epitopes that are naturally associated with class I molecules do not follow such sorting criteria. Potent peptides could have been missed with such stringent cut-offs, including those peptides that have lower binding affinities. Therefore, the functional activities of these predicted peptides representing CD4+ and CD8+ T-cell epitopes should be further evaluated by experimental validations such as the secretion of IFN-γ and the expression of a degranulation marker such as CD107a and granzyme B by flow cytometry.
+    </p>
+    <p id="p0070">
+     Studies on the SARS-CoV-1 epidemic in 2003 have shown that adaptive immune responses towards the spike (S) glycoprotein were protective [     ,     ]. Hence, characterization and detection of SARS-CoV-2 spike glycoprotein (S)-reactive CD4+ T-cells in peripheral blood are likely to be critical in inducing protective antibody responses. Braun et al. (2020) demonstrated the presence of S-reactive CD4+ T-cells in 83% of COVID-19 patients and 34% of SARS-CoV-2 seronegative healthy donors (HD). Two overlapping peptide pools spanning the entire S protein that comprised different counts of MHC II epitopes were identified. The peptide pools comprised 21 and 13 predicted MHC II epitopes covering the N- and C-terminal regions, respectively. S-reactive CD4+ T-cells were identified by co-expression of 4-1BB and CD40L on the PBMCs isolated from COVID-19 patients after peptide stimulations. The majority of S-reactive T-cells in COVID-19 patients co-expressed CD38 and HLA-DR which indicated effector T-cell responses during viral infections [     ]. Nine MHC I epitopes clustering in the receptor-binding domain and S2 domain were identified by stimulating the splenocytes with pools of 15-mer overlapping peptides spanning the SARS-CoV-2, SARS-CoV-1, and MERS-CoV S protein. T-cell responses were validated by using IFN-Ɣ ELISPOT analysis [     ]. Grifoni et al. reported the presence of SARS-CoV-2-specific CD8+ and CD4+ T-cells in ∼70% and 100% of convalescent samples, respectively, from predominantly mild COVID-19 patients. CD8+ T-cell responses were detected against immunogenic peptides not only from the S protein but also from M, N, nsp6 and ORF3a. CD4+ T cell responses were also detected in 40–60% of unexposed individuals, suggesting pre-existing SARS-CoV-2-cross-reactive T cell responses in certain healthy individuals [     ]. For B-cell epitopes, Poh et al. have identified two linear epitopes on the SARS-CoV-2 S protein that elicited neutralizing antibodies in COVID-19 patients. Potent B-cell epitopes in the sera of COVID-19 and SARS patients were assessed by using pools of overlapping linear B-cell peptides spanning the entire S protein of SARS-CoV-2 or SARS-CoV-1. Two distinct peptide pools from the SARS-CoV-2 S peptide library, pools S14 and S21, were strongly recognized by sera from COVID-19 patients [     ].
+    </p>
+    <p id="p0075">
+     In an effort to select promising T-cell epitopes that were predicted by bioinformatics, CD4+ and CD8+ T-cell epitopes that were predicted to be present in the spike (S) protein of SARS-CoV-2 from a total of 11 different publications were compared [     ]. Among the top seven highly potent CD8+ T-cell epitopes (reported in at least four studies), both YLQPRTFLL and WTAGAAAYY were present in a single peptide (P6) “WTAGAAAYYVGYLQPRTFLLKYKKKKK” reported in the study of Feng et al. Additionally, the top CD4+ T-cell epitope “AAAYYVGYLQPRTFL” predicted from bioinformatics analysis was also present in the P6 peptide sequence, suggesting that this peptide might contain the potent epitopes needed to trigger effective CD4+ and CD8+ T-cell responses. Short peptides such as the P10 peptide “NYNYLYRLFRKSNLKPFERDISTEI” reported by Feng et al. contained 3 potent CD8+ T-cell epitopes which were reported in at least three studies. Comparative analysis of prediction from different servers will narrow down the number of epitopes that have to be verified through experimental approaches for the selection of immunodominant CD4+ and CD8+ T-cell epitopes.
+     <table-wrap id="tbl5" position="float">
+      <label>
+       Table 5
+      </label>
+      <caption>
+       <p>
+        Predicted SARS-CoV-2 T-cell epitopes in the S protein.
+       </p>
+      </caption>
+      <alt-text id="alttext0030">
+       Table 5
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th colspan="3">
+          CD4+ T-cell
+          <hr/>
+         </th>
+         <th colspan="3">
+          CD8+ T-cell
+          <hr/>
+         </th>
+        </tr>
+        <tr>
+         <th>
+          Sequence
+         </th>
+         <th>
+          No of studies
+         </th>
+         <th>
+          References
+         </th>
+         <th>
+          Sequence
+         </th>
+         <th>
+          No of studies
+         </th>
+         <th>
+          References
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          AAAYYVGYLQPRTFL
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+         <td>
+          YLQPRTFLL
+         </td>
+         <td>
+          7
+         </td>
+         <td>
+          [          ,          ,          ,          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          APHGVVFLHVTYVPA
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          KIADYNYKL
+         </td>
+         <td>
+          5
+         </td>
+         <td>
+          [          ,          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          SYGFQPTNGVGYQPY
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          RLFRKSNLK
+         </td>
+         <td>
+          5
+         </td>
+         <td>
+          [          ,          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          HWFVTQRNFYEPQII
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          NYNYLYRLF
+         </td>
+         <td>
+          5
+         </td>
+         <td>
+          [          ,          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          YLYRLFRKSNLKPFERDI
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          WTAGAAAYY
+         </td>
+         <td>
+          4
+         </td>
+         <td>
+          [          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          GVVFLHVTYVPAQEK
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          GVYFASTEK
+         </td>
+         <td>
+          4
+         </td>
+         <td>
+          [          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          IIAYTMSLGAENSVA
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          QIYKTPPIK
+         </td>
+         <td>
+          4
+         </td>
+         <td>
+          [          ,          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          EFVFKNIDGYFKIYS
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          VLNDILSRL
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          VYYHKNNKS
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          GVYYHKNNK
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          VFNATRFAS
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          FIAGLIAIV
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          YQTQTNSPR
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          SIIAYTMSL
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td>
+          FKNHTSPDV
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+         <td>
+          SPRRARSVA
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          FERDISTEI
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          RNFYEPQII
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          VVFLHVTYV
+         </td>
+         <td>
+          3
+         </td>
+         <td>
+          [          ,          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          IAPGQTGKI
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          APGQTGKIA
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          NIDGYFKIY
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          CVADYSVLY
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          RLDKVEAEV
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          VTYVPAQEK
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          VYSTGSNVF
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          QYIKWPWYI
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          YFPLQSYGF
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          RFDNPVLPF
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          EYVSQPFLM
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          PYRVVVLSF
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          VYDPLQPEL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          FVFKNIDGY
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          VRFPNITNL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          TRFQTLLAL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          TRTQLPPAY
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          HADQLTPTW
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          RSFIEDLLF
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          NLNESLIDL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          YGFQPTNGV
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          IPTNFTISV
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          KVGGNYNYL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          EGFNCYFPL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          RVYSTGSNV
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          LGAENSVAY
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          ELDSFKEEL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          FKNHTSPDV
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+        <tr>
+         <td/>
+         <td/>
+         <td/>
+         <td>
+          DEDDSEPVL
+         </td>
+         <td>
+          2
+         </td>
+         <td>
+          [          ,          ]
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <p id="p0080">
+     Some of the epitopes presented in [     ] can be observed to overlap with epitopes from [     ,     ], further confirming that the predicted T-cell epitopes are promising epitopes that bind to MHC class I and II molecules. A few potential epitopes that represent B- and T-cell epitopes from the S protein were identified after amalgamating information gathered from [     ,     ,     ,     ] and are presented in [     ]. Epitope sequences “WTAGAAAYYVGYLQPRTFLLKY”, “NYNYLYRLFRKSNLKPFERDISTEI”, “SYGFQPTNGVGYQPYRVVVLSFELLHAPAT”, “FPQSAPHGVVFLHVTYVPAQEK”, and “CASYQTQTNSPRRARSVASQSIIAYTMSL” are the top candidates as they not only exhibit positive IFN-γ production, but they also exhibit high global HLA population coverages. Furthermore, these five epitopes are also capable of inducing both CD4+ and C8+ T-cell responses, in contrast to the epitope sequence “VPAQEKNFTTAPAICHDGKAHFPREGVFV” which is implicated to only induce CD4+ T-cell responses. Even though both epitope sequences “VPAQEKNFTTAPAICHDGKAHFPRE GVFV” and “GTKRFDNPVLPFNDGVYFAST” show high immunogenicity and binding affinity scores, they have relatively low global HLA population coverages. Moreover, epitope sequences “NYNYLYRLFRKSNLKPFERDISTEI”, “SYGFQPTNGVGYQPYRVVVLSFELLHAPAT”
+     <table-wrap id="tbl6" position="float">
+      <label>
+       Table 6
+      </label>
+      <caption>
+       <p>
+        Predicted and cross-referenced CD4+ and CD8+ T-Cell and linear B-cell epitopes in the S protein.
+       </p>
+      </caption>
+      <alt-text id="alttext0035">
+       Table 6
+      </alt-text>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th rowspan="2">
+          Sequence
+         </th>
+         <th rowspan="2">
+          Linear B Cell
+         </th>
+         <th rowspan="2">
+          Start-End (Amino Acid Length)
+         </th>
+         <th colspan="4">
+          CD4+ T-Cell Epitopes
+          <hr/>
+         </th>
+         <th>
+          CD8+ T-Cell Epitopes
+          <hr/>
+         </th>
+         <th rowspan="2">
+          Global HLA Population Coverage
+         </th>
+        </tr>
+        <tr>
+         <th>
+          Percentile Rank
+         </th>
+         <th>
+          IC
+          <sub>
+           50
+          </sub>
+          (nM)
+         </th>
+         <th>
+          IFN-γ Production Result
+         </th>
+         <th>
+          Immunogenicity Score
+         </th>
+         <th>
+          Prediction Score
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          WTAGAAAYYVGYLQPRTFLLKY
+         </td>
+         <td>
+          No
+         </td>
+         <td>
+          258–279
+          <break/>
+          (22)
+         </td>
+         <td>
+          3.80
+         </td>
+         <td>
+          42
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          97.729
+         </td>
+         <td>
+          1.5152
+         </td>
+         <td>
+          99.63%
+         </td>
+        </tr>
+        <tr>
+         <td>
+          NYNYLYRLFRKSNLKPFERDISTEI
+         </td>
+         <td>
+          Yes
+         </td>
+         <td>
+          448–472
+          <break/>
+          (25)
+         </td>
+         <td>
+          0.2
+         </td>
+         <td>
+          8
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          81.4673
+         </td>
+         <td>
+          1.9496
+         </td>
+         <td>
+          97.95%
+         </td>
+        </tr>
+        <tr>
+         <td>
+          SYGFQPTNGVGYQPYRVVVLSFELLHAPAT
+         </td>
+         <td>
+          Yes
+         </td>
+         <td>
+          494–523
+          <break/>
+          (30)
+         </td>
+         <td>
+          0.24
+         </td>
+         <td>
+          5
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          99.222
+         </td>
+         <td>
+          1.8786
+         </td>
+         <td>
+          98.57%
+         </td>
+        </tr>
+        <tr>
+         <td>
+          FPQSAPHGVVFLHVTYVPAQEK
+         </td>
+         <td>
+          No
+         </td>
+         <td>
+          1052–1073
+          <break/>
+          (22)
+         </td>
+         <td>
+          7.9
+         </td>
+         <td>
+          67
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          98.6684
+         </td>
+         <td>
+          1.043
+         </td>
+         <td>
+          96.41%
+         </td>
+        </tr>
+        <tr>
+         <td>
+          VPAQEKNFTTAPAICHDGKAHFPREGVFV
+         </td>
+         <td>
+          No
+         </td>
+         <td>
+          1068–1096
+          <break/>
+          (29)
+         </td>
+         <td>
+          8.9
+         </td>
+         <td>
+          155
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          99.9474
+         </td>
+         <td>
+          N/A
+         </td>
+         <td>
+          28.63%
+         </td>
+        </tr>
+        <tr>
+         <td>
+          CASYQTQTNSPRRARSVASQSIIAYTMSL
+         </td>
+         <td>
+          Yes
+         </td>
+         <td>
+          671–699
+          <break/>
+          (29)
+         </td>
+         <td>
+          5
+         </td>
+         <td>
+          27
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          99.0918
+         </td>
+         <td>
+          1.369
+         </td>
+         <td>
+          91.87%
+         </td>
+        </tr>
+        <tr>
+         <td>
+          GTKRFDNPVLPFNDGVYFAST
+         </td>
+         <td>
+          No
+         </td>
+         <td>
+          75–95
+          <break/>
+          (21)
+         </td>
+         <td>
+          9.3
+         </td>
+         <td>
+          367
+         </td>
+         <td>
+          Positive
+         </td>
+         <td>
+          95.4416
+         </td>
+         <td>
+          1.0633
+         </td>
+         <td>
+          43.07%
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <p id="p0085">
+     T-cell epitope prediction servers such as the IEDB T-cell prediction server, NetMHC, NetMHCpan, NetMHCIIpan, and NetCTL are commonly utilized. These servers leverage on data-driven analysis over structure-based methods and utilize machine learning to overcome problems with non-linearity of peptide-MHC binding data. This allows researchers to formulate predictions based on the binding affinity of peptides to MHC molecules in addition to addressing the issue of the discrimination of MHC binders to nonbinders. All the aforementioned servers employ ANN algorithms while IEDB uses QAM in addition to ANN which further enhances binding affinity predictions. Furthermore, pan-MHC methods such as NetMHCpan and NetMHCIIpan were used to further improve predictions of peptide binding affinities to uncharacterized HLA alleles. On the other hand, common servers such as BepiPred2.0 and ABCPred are used to predict linear B-cell epitopes. Similar to the common T-cell epitope predicting servers, BepiPred2.0 and ABCPred leverage on machine learning algorithms as well. BepiPred uses a Random Forest algorithm whereas ABCPred uses ANN. These methods have been known to outperform B-cell epitope prediction servers that are solely based on amino acid propensity scales.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <title>
+     Design of multi-epitope peptide-based vaccines
+    </title>
+    <p id="p0090">
+     <italic>
+      In silico
+     </italic>
+     prediction revealed peptides presented by HLA class I and class II molecules to CD4+ and CD8+ T-cells, respectively. Predicted immunodominant T-cell epitopes can be used for rational design of multi-epitope peptide-based vaccines but effectiveness as immunogenic epitopes when presented as short peptides need to be validated. Alternatively, synthetic genes can be constructed to encode these immunogenic peptides which can be cloned into vectors like pcDNA or pVAX to generate DNA vaccines which can continuously express the antigens [     ,     ]. A DNA-based vaccine, INO-4800, was designed to encode the SARS-CoV-2 S protein. The immunogenicity of INO-4800 was demonstrated in multiple animal models. The DNA vaccine was able to induce antibodies that blocked S protein binding to host receptors and elicited good INF-γ levels on Day 10 post immunization. The use of adjuvants has been reported to further enhance the immunogenicity of vaccines [     ,     ]. For example, Montanide ISA 51 in combination with a cocktail of HIV-derived peptide antigens (containing a mixture of peptide specifying B- and T-cell epitopes) enhanced the immunogenicity of the antigenic peptide [     ]. The epitopes can also be fused with adjuvant proteins [e.g., toll-like receptor (TLR) ligands] which can be encapsulated or displayed on the surface of nanoparticles [e.g., poly lactic-
+     <italic>
+      co
+     </italic>
+     -glycolic acid (PLGA)] to elicit sustained T-cell responses and increase long term protection [     ,     ,     ].
+    </p>
+    <p id="p0095">
+     Several successful studies have led to the rational designs of epitope-based peptide vaccines. For example, Flunisyn™, Flu-V and Multimeric-001 (M-001) peptide-based influenza vaccine candidates are currently in clinical Phase I, IIb and III evaluations, respectively. FP-01.1 (Flunisyn™) is a novel synthetic influenza A vaccine consisting of six fluorocarbon-modified 35-mer conserved epitopes of influenza A NP, M, PB1 and PB2 proteins. The peptide vaccine carried multiple CD4+ and CD8+ T-cell epitopes and was shown to generate robust CD4+ and CD8+ T-cell immunity in phase I clinical trial [     ]. Flu-V is a multi-epitope peptide vaccine comprising 4 peptides representing CD8+ T-cell epitopes originating from conserved regions in internal proteins M1, NPA, NPB and M2 from influenza A and influenza B. A single dose of FLU-v with adjuvant Montanide ISA 51 led to a significant reduction in the number of influenza symptoms in 40% of participants when compared to those receiving placebo (64.3%) [     ]. M-001 is a DNA vaccine carrying nine conserved genes encoding B- and T-cell epitopes from the HA (four B and one CD4+ T-cell epitopes), NP (Two CD8+ and one CD4+ T-cell epitope), and M1 (one peptide that contains both B and CTL epitope) proteins of both influenza type A and type B strains. The genes encoding nine conserved linear epitopes (repetitions of three epitopes) were cloned into a vector and a recombinant protein (M001) was expressed in
+     <italic>
+      Escherichia coli
+     </italic>
+     . Administration of M001 vaccine with Montanide ISA 51VG adjuvant successfully induced production of antibodies and IFN-γ in humans [     ]. Vacc-Flu is another peptide-based influenza vaccine candidate which contained one peptide to induce B-cell responses and three peptides to induce T-cell responses to conserved regions in the M2 and NP influenza A virus proteins. Peptide selection was conducted using a proprietary peptide design platform technology focusing on responses to human leukocyte antigen (HLA)-restricted epitopes. Immunization of Vacc-Flu into C57BL/6 and HLA-A2 transgenic mice resulted in the induction of IFN-γ-producing T-cells and influenza-specific antibodies which protected mice from influenza infection [     ].
+    </p>
+    <p id="p0100">
+     Peptides often lack immunogenicity and are susceptible to enzymatic digestion. Therefore, effective vaccine delivery and adjuvant systems which can enhance the immunogenicity and protect the peptide vaccines will need to be incorporated in the vaccine formulation [     ]. PLGA is a non-toxic, FDA and European Medicines Agency approved polymer and is widely used as a vehicle for drug and vaccine delivery [     ]. The size of the nanoparticle can also affect the uptake efficiency and the induction of immune response by APCs. Smaller PLGA NPs (350 nm) enable better internalization by DCs and led to a sustained cellular immune response in mice [     ]. PLGA-NP encapsulated peptide antigens are being protected from enzymatic degradation
+     <italic>
+      in vivo
+     </italic>
+     until they are taken up by antigen-presenting cells (APCs) and led to induction of robust B- and T-cell responses [     ,     ]. Intranasal delivery of PLGA NP-entrapped inactivated porcine reproductive and respiratory syndrome virus (PRRSV) vaccine adjuvanted with soluble
+     <italic>
+      Mycobacterium tuberculosis
+     </italic>
+     whole cell lysate was observed to enhance antigen-specific IFN-γ secreting T-cell responses and also led to enhanced production of high-affinity neutralizing antibodies which induced a cross-protective immune response in pigs [     ]. A multi-peptide vaccine containing five overlapping peptide sequences covering amino acids 693–777 (unit B/C) of the E2 protein of classical swine fever virus (CSFV) was shown to completely protect pigs from lethal CSFV challenge [     ]. Entrapment of H1N1 influenza virus-derived peptides in PLGA nanoparticles was demonstrated to enhance T-cell responses and vaccine efficacy in pigs [     ].
+    </p>
+    <p id="p0105">
+     Epitope-based peptide vaccine was also designed for the Middle East Respiratory Syndrome Coronavirus (MERS-COV). Several conserved B- and T-cell epitopes were identified in the S protein of MERS-COV which might elicit protection against MERS-COV infection. In particular, MHC class-I peptide YKLQPLTFL and MHC class-II peptide YCILEPRSG were predicted as highly antigenic whilst QLQMGFGITVQYGT displayed the highest antigenicity-score among the B-cell epitopes [     ]. However, validation of these peptides as T-cell epitopes is needed.
+    </p>
+    <p id="p0110">
+     Two different adverse syndromes might be associated with vaccine-enhanced COVID-19 disease: antibody-dependent enhancement (ADE) and vaccine-associated enhanced respiratory disease (VAERD). ADE is a phenomenon in which binding of a virus to non-neutralizing antibodies enhances its entry into host cells through Fc receptors. VAERD occurs when there is increased production of Th2 cytokines (IL-4, IL-5 and IL-13) which can lead to airway hyper-responsiveness and lung histopathology [     ]. Most SARS-CoV-2 vaccines under development are aiming to elicit an immune response against the spike protein but previous studies showed that vaccine platforms expressing the whole SARS-CoV-1 S glycoprotein or using the whole inactivated virus was inducing enhanced respiratory disease which resulted in adverse lung pathology in animal models [     ,     ]. Inactivated MERS-CoV vaccine has been shown to increase eosinophil infiltrations and Th2 cytokine productions, leading to lung immunopathology after challenge in mice [     ]. Thus, the usage of truncated proteins such as the receptor-binding domain (RBD) or the S1 subunit of the S protein could lead to the induction of neutralizing antibodies and avoid ADE. Therefore, the precise selection of CD4+, CD8 T-and B-cell epitopes is important to develop a safe and efficacious vaccine against SARS-CoV-2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec5">
+    <title>
+     Conclusions
+    </title>
+    <p id="p0115">
+     DNA and RNA vaccines are new technologies which enable rapid production of unconventional vaccines. These vaccine platforms have never been applied to any previously licensed human vaccines. The specific delivery method to attain high immunogenicity is currently one of the frontier problems of DNA vaccines while mRNA vaccines are poor in stability and may lack immunogenicity due to low translational efficiency [     ]. Other platforms such as inactivated vaccines (IVs) and live attenuated vaccines (LAVs) are established platforms approved by the US FDA for many licensed human vaccines. Most of the licensed vaccines approved by the US Food and Drug Administration against viral infections to date are live-attenuated or inactivated vaccines. Despite the ability of LAVs to elicit lifelong immunity, it is associated with the risk of reversion to the wild type and requires extensive safety monitoring. Moreover, the large-scale productions of LAVs and IVs are laborious and require containment facilities for growing the live SARS-CoV-2 and subsequent purification processes. To meet the worlds demand of millions of doses of vaccine, there will be significant safety risks involved in the growth of the pathogen and downstream processing.
+    </p>
+    <p id="p0120">
+     Chinas leading vaccine manufacturers Sinovac and Sinopharm have provided reassuring information on their inactivated vaccine candidates. The phase II clinical trial results of Sinovacs vaccine candidate, CoronaVac, showed that it induced neutralizing antibodies 14 days after vaccination. The neutralizing seroconversion rate of CoronaVac was over 90% in 600 healthy volunteers in phase II of their phase I/II study conducted in Brazil. This infers that CoronaVac was capable of inducing a positive immune response. Moreover, Sinopharm reported that their inactivated vaccine candidate triggered a strong neutralizing antibody response in all 1120 participants in the 28-day dosing schedule which only employed a middle-strength dosage in their phase I/II study. Additionally, the seroconversion rate for the 14-day and 21-day schedules of the mid-dose was 97.6% and 100% at 28 days.
+    </p>
+    <p id="p0125">
+     The selection of B-cell, CD4+ and CD8+ T-cell epitopes based on bioinformatic predictions will require further experimental validations such as
+     <italic>
+      ex-vivo
+     </italic>
+     stimulations by the respective peptides to measure functional T-cell responses. Immunogenicity study of peptides are required to confirm their ability to elicit long term protection in animal models. For B-cell epitopes, quantifications and comparisons of the B-cell epitope-specific IgG titres against the RBD domain, or to other conformational epitopes are required by isolating monoclonal antibodies (mAB)s targeting the selected epitopes. Furthermore, the persistence level of these antibodies against linear and other conformational epitopes have to be thoroughly investigated. Phylogenetic analysis of the SARS-CoV-2 S protein should also be performed to determine the evolutionary relationship of SARS-CoV-2 with other coronaviruses such as SARS-CoV and MERS-CoV. This would help to locate highly conserved epitopes that could be used for construction of multi-epitope vaccine that can confer broad protection against coronaviruses.
+    </p>
+    <p id="p0130">
+     The success of both mRNA-1273 by Moderna and Ad5-nCOV by CanSino in their phase I/II clinical trials have provided valuable information. mRNA-1273 evoked neutralizing antibody titer levels generally observed in convalescent sera within their initial 45 participants. It is also generally safe and provided complete protection in a mouse challenge model. Ad5-nCoV was capable of significantly increasing neutralizing antibodies after 28 days post-vaccination, in addition to specific T-cell responses. Furthermore, no serious adverse effects were reported, and only mild to moderate adverse effects were observed in 75%–83% of the participants [     ,     ].
+    </p>
+    <p id="p0135">
+     Several multi-epitope vaccines against SARS-CoV-2 were designed by connecting multiple predicted B-, CD4+ and CD8+ T-cell epitopes to an adjuvant using EAAAK linkers [     ,     ]. However, the ability of multi-epitope peptide-based vaccine in eliciting immune responses and conferring protection against SARS-CoV-2 requires a thorough investigation.
+     <italic>
+      In silico
+     </italic>
+     approaches of identifying specific immunogenic epitopes would help to rationally design a multi-epitope peptide vaccine that could serve the urgent need for an effective SARS-CoV-2 vaccine.
+    </p>
+    <p id="p0140">
+     In conclusion, we have analysed the SARS-CoV-2 genome for both B- and T-cell epitope candidates. We then further reinforced our predictions with pre-existing data from various bioinformatics publications. Finally, we have indicated seven multi-epitope sequences where five of the sequences we believe could be integral in the development of an effective peptide-based vaccine that is highly immunogenic and has a wide global population coverage. However,
+     <italic>
+      in vitro
+     </italic>
+     evaluation and
+     <italic>
+      in vivo
+     </italic>
+     trials are necessary to confirm the effectiveness of these peptide-based vaccines. Such experimental validations will be essential to help prioritize the selection of immunogenic epitopes and hasten vaccine designs during this unprecedented crisis.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Conflicts of interest
+    </title>
+    <p id="p0150">
+     The authors declare that there is no conflicts of interest.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <p id="p0010">
+    SARS-CoV-2 first emerged in December 2019 in Wuhan (Hubei Province), causing a pandemic with over 32 million infections and 980,031 deaths globally (World Health Organization). Clinical manifestations of COVID-19 vary broadly, ranging from fever, cough and fatigue to headache, hemoptysis, diarrhea, dyspnea, and lymphopenia. Severe infections were reported to lead to pneumonia, acute respiratory distress syndrome, acute cardiac injury and death [    ]. The genome size of the SARS-CoV-2 is approximately 29.9 kb and its genome structure is homologous to SARS-CoV-1. The 5’ region consists of two-thirds of the genome, comprising the orf1ab that encodes the orf1ab polyprotein, while the 3′region is composed of one-third of the genome encoding structural proteins which include surface (S), envelope (E), membrane (M), and nucleocapsid (N) proteins. Additionally, the SARS-CoV-2 virus contains 6 accessory proteins: ORF1ab, NS3, NS6, NS7a, NS7b, and NS8 [    ].
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0015">
+    Currently, there are over 125 vaccine candidates against SARS-CoV-2 in development worldwide, with at least 16 of these being registered for clinical trials [    ]. mRNA-1273 is a novel lipid nanoparticle (LNP)-encapsulating mRNA-based vaccine that encodes for a full-length, prefusion stabilized spike (S) protein of SARS-CoV-2. It is co-developed by Moderna and the Vaccine Research Center at the National Institute of Allergy and Infectious Diseases (NIAID) of NIH. It is currently in phase III clinical trial. A vectored-vaccine, AZD1222, which used a chimpanzee viral vector (ChAdOx1) encoding the spike (S) protein of SARS-CoV-2 was developed by Oxford University and AstraZeneca, and it is currently in phase II clinical trial. CoronaVac, formerly known as PiCoVacc, is an inactivated vaccine developed by Sinovac Biotech. It constitutes the whole SARS-CoV-2 virus which carries the receptor binding domain (RBD) within the S protein as the main immunogen. It is inactivated with β-propiolactone and mixed with an alum adjuvant. Sinopharm has just begun testing their inactivated vaccine candidate in UAE. Both Sinovacs and Sinopharms inactivated vaccine candidates are currently in phase III clinical trials. INO-4800 constitutes a DNA plasmid encoding the S protein that will be delivered by electroporation via the CELLCTRA® 2000 electroporator. It is developed by Inovio Pharmaceuticals and is currently in phase I/II clinical trials. Furthermore, Novavax has developed a recombinant subunit-based vaccine, NVX-CoV2373, that is currently in phase I/II clinical trials. They have genetically modified Sf9 insect cells to express the recombinant S protein in prefusion state and incorporated it into a nanoparticle formulation containing Matrix-M adjuvant. In summary, 19 vaccine candidates with their associated characteristics that are in clinical trials I, II, and III against SARS-CoV-2 are presented in [    ].
+    <table-wrap id="tbl1" position="float">
+     <label>
+      Table 1
+     </label>
+     <caption>
+      <p>
+       Several vaccine candidates for SARS-CoV-2 in clinical phase.
+      </p>
+     </caption>
+     <alt-text id="alttext0010">
+      Table 1
+     </alt-text>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <th>
+         Candidate
+        </th>
+        <th>
+         Vaccine Characteristics
+        </th>
+        <th>
+         Lead Developer
+        </th>
+        <th>
+         Status
+        </th>
+        <th>
+         Clinical Trial Identifier
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td>
+         mRNA-1273
+        </td>
+        <td>
+         Lipid nanoparticle-encapsulated mRNA-based vaccine that encodes for the S protein.
+        </td>
+        <td>
+         Moderna
+        </td>
+        <td>
+         Phase III
+        </td>
+        <td>
+         NCT04470427
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Inactivated vaccine
+        </td>
+        <td>
+         Inactivated novel Coronavirus pneumonia vaccine (Vero cells).
+        </td>
+        <td>
+         Sinopharm
+        </td>
+        <td>
+         Phase III
+        </td>
+        <td>
+         ChiCTR2000034780
+        </td>
+       </tr>
+       <tr>
+        <td>
+         CoronaVac
+        </td>
+        <td>
+         β-propiolactone-inactivated and alum-adjuvanted candidate vaccine.
+        </td>
+        <td>
+         Sinovac
+        </td>
+        <td>
+         Phase III
+        </td>
+        <td>
+         NCT04456595
+        </td>
+       </tr>
+       <tr>
+        <td>
+         AZD1222
+        </td>
+        <td>
+         Genetically altered and weakened chimpanzee adenovirus vaccine vector carrying the S protein.
+        </td>
+        <td>
+         The University of Oxford
+        </td>
+        <td>
+         Phase II/III
+        </td>
+        <td>
+         NCT04400838
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Ad5-nCoV
+        </td>
+        <td>
+         Adenovirus type 5 vector that expresses S protein.
+        </td>
+        <td>
+         CanSino Biologicals
+        </td>
+        <td>
+         Phase II
+        </td>
+        <td>
+         NCT04341389
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Adjuvanted Recombinant Vaccine
+        </td>
+        <td>
+         Recombinant new Coronavirus vaccine produced in CHO Cells.
+        </td>
+        <td>
+         Anhui Zhifei Longcom Biologic Pharmacy
+        </td>
+        <td>
+         Phase II
+        </td>
+        <td>
+         NCT04466085
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Ad26COVS1
+        </td>
+        <td>
+         Non-replicating Adenovirus type 26 vector.
+        </td>
+        <td>
+         Johnson &amp; Johnson - Janssen
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04436276
+        </td>
+       </tr>
+       <tr>
+        <td>
+         BNT162
+        </td>
+        <td>
+         4 mRNA vaccine candidates including uridine containing mRNA, nucleoside-modified mRNA, and self-amplifying mRNA that encodes trimerized S protein receptor binding domain antigen formulated with lipid nanoparticles.
+        </td>
+        <td>
+         BioNTech RNA Pharmaceuticals GmbH
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04380701
+        </td>
+       </tr>
+       <tr>
+        <td>
+         INO-4800
+        </td>
+        <td>
+         DNA plasmid encoding S protein delivered by electroporation.
+        </td>
+        <td>
+         Inovio Pharmaceuticals
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04447781
+        </td>
+       </tr>
+       <tr>
+        <td>
+         NVX-CoV2373
+        </td>
+        <td>
+         Recombinant S protein in prefusion state expressed in genetically engineered Sf9 insect cells and incorporated into a nanoparticle formulation and saponin-based Matrix-M adjuvant.
+        </td>
+        <td>
+         Novavax
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04368988
+        </td>
+       </tr>
+       <tr>
+        <td>
+         GX-19
+        </td>
+        <td>
+         DNA vaccine candidate.
+        </td>
+        <td>
+         Genexine
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04445389
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Gam-COVID-Vac
+        </td>
+        <td>
+         Non-replicating viral vector.
+        </td>
+        <td>
+         Gamaleya Research Institute
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04437875
+        </td>
+       </tr>
+       <tr>
+        <td>
+         LV-SMENP-DC
+        </td>
+        <td>
+         Dendritic cells modified with lentiviral vector expressing synthetic minigene based on domains of selected viral proteins; administered with antigen-selected viral proteins.
+        </td>
+        <td>
+         Shenzhen Geno-Immune Medical Institute
+        </td>
+        <td>
+         Phase I/II
+        </td>
+        <td>
+         NCT04276896
+        </td>
+       </tr>
+       <tr>
+        <td>
+         bacTRL-Spike
+        </td>
+        <td>
+         DNA plasmid expressing trimeric S protein and a hybrid transporter protein within
+         <italic>
+          Bifidobacterium longum
+         </italic>
+         .
+        </td>
+        <td>
+         Symvivo Corporation
+        </td>
+        <td>
+         Phase I
+        </td>
+        <td>
+         NCT04334980
+        </td>
+       </tr>
+       <tr>
+        <td>
+         CVnCOV
+        </td>
+        <td>
+         mRNA-based vaccine mixed with lipid nanoparticles.
+        </td>
+        <td>
+         CureVac
+        </td>
+        <td>
+         Phase I
+        </td>
+        <td>
+         NCT04449276
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SCB-2019
+        </td>
+        <td>
+         Recombinant SARS-CoV-2 trimeric S protein subunit vaccine.
+        </td>
+        <td>
+         Clover Biopharmaceuticals
+        </td>
+        <td>
+         Phase I
+        </td>
+        <td>
+         NCT04405908
+        </td>
+       </tr>
+       <tr>
+        <td>
+         COVAX-19
+        </td>
+        <td>
+         Adjuvanted monovalent recombinant COVID19 vaccine.
+        </td>
+        <td>
+         Vaxine Pty Ltd.
+        </td>
+        <td>
+         Phase I
+        </td>
+        <td>
+         NCT04453852
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Pathogen-specific aAPC
+        </td>
+        <td>
+         Artificial antigen-presenting cells modified with lentiviral vector expressing synthetic minigene based on domains of selected viral proteins.
+        </td>
+        <td>
+         Shenzhen Geno-Immune Medical Institute
+        </td>
+        <td>
+         Phase I
+        </td>
+        <td>
+         NCT04299724
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Adjuvanted SARS-CoV-2 Sclamp Protein Subunit Vaccine
+        </td>
+        <td>
+         Molecular clamp stabilized Spike protein with MF59 adjuvant
+        </td>
+        <td>
+         University of Queensland
+        </td>
+        <td>
+         Phase I
+        </td>
+        <td>
+         ACTRN12620000674932
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </table-wrap>
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0020">
+    Synthetic peptides are capable of eliciting immune responses to specific antigenic epitopes while avoiding adverse effects of immunization. Peptide vaccines can induce broad immunity against multiple serotypes of the virus by carrying immunodominant epitopes that are highly conserved between the serotypes of a virus. Peptide vaccines can be synthesized to contain multiple conserved epitopes that can target multiple serological variants or strains [    ]. Theoretically, there are several advantages of peptide-based vaccines over conventional vaccines such as live-attenuated and inactivated vaccines. Synthetic peptide vaccines can be constructed to contain only the antigenic region, thus reducing the reactogenic or allergenic effects of the vaccine. Synthesis of peptides can be achieved with relatively low cost, in conjunction with its higher stability and safety when compared to live attenuated vaccines. If FDA approved LAV and IV vaccines against SARS-CoV-2 become available for immunization, the demand for industrial production to cater for the entire worlds population can pose limitations on its availability. Since SARS-CoV-2 is highly infectious, growth of large amounts of viruses poses safety issues in production facilities. Unlike conventional LAV or IV vaccines, the composition of the peptide vaccine can be altered with self- and non-self-antigens such as universal CD4+ T-cell epitopes to enhance immunogenicity [    ]. Moreover, several peptide epitopes which are capable of activating a number of HLA restricted T-cell specificities can be incorporated with B-cell epitopes to form a universal vaccine formulation. Epitope-based vaccines were found to induce more potent responses than whole protein vaccines [    ]. Effective adjuvants, nanoparticle delivery systems and immunogenic carrier proteins could be incorporated in the formulation to improve the immunogenicity of epitope vaccines [    ,    ].
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0025">
+    The elicitation of protective antibodies requires the binding of peptides representing B-cell epitopes to B-cell receptors (BCRs) which lead to B-cell activation. B-cell epitopes are variable in length between 5 and 20 amino acids [    ]. Linear B-cell epitopes are composed of contiguous residues in the primary structure while discontinuous B-cell epitopes comprise residues remotely located in the primary structure that are brought into proximity due to the folding of the protein [    ]. For peptide-based vaccines, B-cell epitopes that are linear and immunogenic are preferentially selected for further investigations [    ]. Cytokines secreted by activated CD4+ T-cells are required for further activation of B-cells to antibody-secreting plasma cells.
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0030">
+    T-cell epitopes are presented on the surface of an antigen-presenting cell (APC) where they are bound to MHC molecules to induce cellular immunity. One of the key issues in T-cell epitope prediction is MHC binding, as it is considered a prerequisite for T-cell recognition. MHC class I molecules usually present peptides between 8 and 11 amino acids in length, whereas the peptides binding to MHC class II may have a length from 11 to 30 amino acids [    ]. MHC class I molecules are encoded by the HLA-A, -B and –C genes which are widely expressed in most cell types in humans. Internalized antigens are degraded by cytosolic and nuclear proteasomes and the resulting peptides are transported into the endoplasmic reticulum by the transporter associated with antigen processing (TAP) protein complex. There, they can bind to human leukocyte antigen class I (HLA-I) molecules in complex with beta2-microglobulin (β2m). MHC class II molecules are encoded by the HLA-DP, -DQ, -DR genes which are expressed on specialized cell types, including professional APCs such as B-cells, macrophages and dendritic cells. Peptides derived from degraded extracellular proteins are presented on HLA-II molecules for recognition by CD4+ T-cells [    ]. The recognition of peptide epitopes by the T-cell receptors (TCR) of CD4+ and CD8+ T-lymphocytes leads to the induction of cellular immune response that plays a key role in the adaptive immune system. If sufficient quantities of specific T-cell epitopes are presented by MHC I and II molecules, the activated T-cells will trigger potent immune responses specific for the pathogen. Identification of peptides presenting T-cell epitopes on MHC I and MHC II is integral in the design and construction of epitope-based vaccines. HLA molecules exhibit high polymorphisms and hundreds of different alleles exist in the human population. Significant overlaps of peptide-binding to different HLAs have been demonstrated. Specifically, HLA-A02, A03 and B07 were reported to cover approximately 90% of the worlds population [    ]. HLA alleles have been shown to confer different degrees of viral susceptibility and severity of diseases. For example, HLA-B∗46:01 was identified as the HLA allele with the fewest predicted binding peptides derived from SARS-CoV-2 and interestingly, HLA-B∗15:03 showed the greatest binding capacity to highly conserved SARS-CoV-2 peptide epitopes. When analyzing binding affinity predictions across 145 different HLA-A, B and C alleles, alleles HLA-A∗02:02, HLA-B∗15:03 and HLA-C∗12:03 were the top HLA alleles presenting conserved peptides of SARS-CoV-2 [    ].
+   </p>
+  </textgroup>
+ </sentences>
+</article>

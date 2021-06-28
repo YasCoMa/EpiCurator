@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Adaptation of CD8 T Cell Responses to Changing HIV-1 Sequences in a Cohort of HIV-1 Infected Individuals Not Selected for a Certain HLA Allele
+ </title>
+ <abstract>
+  <p>
+   HIV evades CD8 T cell mediated pressure by viral escape mutations in targeted CD8 T cell epitopes. A viral escape mutation can lead to a decline of the respective CD8 T cell response. Our question was what happened after the decline of a CD8 T cell response and - in the case of viral escape – if a new CD8 T cell response towards the mutated antigen could be generated in a population not selected for certain HLA alleles. We studied 19 antiretroviral-naïve HIV-1 infected individuals with different disease courses longitudinally. A median number of 12 (range 2-24) CD8 T cell responses towards Gag and Nef were detected per study subject. A total of 30 declining CD8 T cell responses were studied in detail and viral sequence analyses showed amino acid changes in 25 (83%) of these. Peptide titration assays and definition of optimal CD8 T cell epitopes revealed 12 viral escape mutations with one de-novo response (8%). The de-novo response, however, showed less effector functions than the original CD8 T cell response. In addition we identified 4 shifts in immunodominance. For one further shift in immunodominance, the mutations occurred outside the optimal epitope and might represent processing changes. Interestingly, four adaptations to the virus (the de-novo response and 3 shifts in immunodominance) occurred in the group of chronically infected progressors. None of the subjects with adaptation to the changing virus carried the HLA alleles B57, B*58:01 or B27. Our results show that CD8 T cell responses adapt to the mutations of HIV. However it was limited to only 20% (5 out of 25) of the epitopes with viral sequence changes in a cohort not expressing protective HLA alleles.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="introduction">
+    <title>
+     Introduction
+    </title>
+    <p>
+     Developing a human immunodeficiency virus (HIV) vaccine is critical to end the pandemic with currently 33 million HIV infected people worldwide. A protective vaccine is still out of reach due to the virus’ effective strategies to evade immune pressure. A therapeutic vaccine that leads to better control of viremia in infected subjects would be an alternative. In some cases, therapeutic vaccines aim at inducing very specific immune responses e.g. towards certain CD8 T cell epitopes [     ,     ].
+    </p>
+    <p>
+     Vaccinating HIV-1 infected individuals could cause immune interferences that need to be considered beforehand. Their immune system has already been confronted with a certain viral sequence and mounted CD8 T cell responses specifically towards the infecting virus. Due to the diversity of HIV clones and adaptation to their hosts, any given vaccine sequence will differ from the autologous virus. One critical question in this setting is whether the immune system can create a new response towards the variant epitope. An impaired response to a second antigen has been termed “original antigenic sin” (OAS), first used to describe antibody responses to influenza virus. After an initial infection, re-infection with a second, new influenza strain boosted antibodies specific for the first infecting strain but not the second [     ,     ]. This concept was extended to CD8 T cell responses in 1998 [     ] and to other viral infections like HCV [     ,     ]. A recent publication however failed to support OAS in a
+     <italic>
+      Listeria monocytogenes
+     </italic>
+     mouse model and the H-2K     -restricted CD8 SIINFEKL epitope and its variants [     ].
+    </p>
+    <p>
+     A parallel to the two different viral sequences in the setting of vaccinating an already infected individual would be the development of viral escape mutations in the course of HIV infection. Studying this situation, it has been shown that HLA-B*57+ children can mount a new CD8 T cell response after the occurrence of a viral escape mutation within the Gag epitope TSTLQEQIGW [     ]. In addition, there are reports on a single de-novo response after the development of viral escape in adults for a HLA-A*11 restricted epitope [     ] and towards HLA-B*57 restricted epitopes in Gag [     -     ] as well as HLA-B*27 restricted epitopes in Gag and Env [     -     ]. More recently it has been shown in a single individual that de-novo responses can be mounted against low frequency escape mutations when studying the very early phase of infection [     ]. It has been hypothesized that the ability to mount strong CD8 T cell responses to the mutating virus is one of the mechanisms for the often long-term control of viremia in HLA-B*57/B*58:01+ and HLA-B*27+, chronically HIV infected individuals. However it is unclear how frequently this occurs in the course of HIV infection when looking at a larger population not selected for certain HLA alleles and not concentrating on the extreme early phase of acute infection. With the present study we addressed this question by studying HIV-1 infected, treatment-naïve individuals longitudinally. We identified viral escape mutations within CD8 T cell epitopes towards Gag, Pol and Nef and tested for de-novo responses towards the new viral sequences. Our results show that CD8 T cell responses can adapt to ongoing evolution of HIV in a cohort not expressing protective HLA alleles.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="methods">
+    <title>
+     Methods
+    </title>
+    <p>
+     Definition of major keywords
+    </p>
+    <p>
+     Wild-type peptide: amino acid sequence of autologous virus at the first time point
+    </p>
+    <p>
+     Mutated peptide: amino acid sequence of autologous virus at the second time point with amino acid changes including mixed bases
+    </p>
+    <p>
+     The definition of viral escape mutation, shift in immunodominance and de-novo response was drawn by comparing Elispot peptide titration assays of wildtype and mutated peptide of first and second time point.
+    </p>
+    <p>
+     Viral escape mutation: at the first time point the mutated peptide was less (&gt;2 log) recognized than the wildtype peptide.
+    </p>
+    <p>
+     Shift in immunodominance: at the second time point recognition of the mutated peptide exceeded recognition of the wildtype peptide in magnitude. This phenomenon was rather due to cross-recognition than to recruitment of a new CD8 T cell clone.
+    </p>
+    <p>
+     De-novo response: a new CD8 T cell response towards the mutated peptide arised at the second time point. In this case we hypothesize that a new CD8 T cell clone was recruited.
+    </p>
+    <sec id="s2.1">
+     <title>
+      Study subjects
+     </title>
+     <p>
+      19 untreated HIV-infected individuals were chosen from a cohort that was studied longitudinally. Specific emphasis was laid on the fact that the chosen study subjects had declining CD8 T cell responses over the disease course. Study subjects were classified as following: A = early infected (n=7) (first presentation &lt;12 months after infection with HIV, irrespective of CD4 count or viral load), C = controllers (n=4) (chronically infected, CD4 count &gt;400/µl and VL &lt;10.000 copies/ml) and P = progressors (n=8) (chronically infected, CD4 count &lt;400/µl and VL &gt;10.000 copies/ml) – both in the absence of antiretroviral treatment. All study subjects were antiretroviral naïve for the duration of the project. Subjects P05 and P09 were diagnosed as HIV positive within 12 months prior to first blood draw; clinical evaluation however suggested a chronic disease stage. Pol data from subjects P07, P08 and P09 was derived from a different project and only included if viral escape was proven; testing for Gag and Nef was not performed in these subjects [      ]. For clinical data of study subjects see      . The study was approved by the Institutional Review Board of the Ludwig-Maximilians-Universität, Munich. All study subjects participated after signing informed consent. High resolution HLA typing from extracted DNA was performed by the department for transfusion medicine of the University of Munich (HLA types of subjects epitope mapping was done for:
+      <underline>
+       A09
+      </underline>
+      : HLA-A*02:01, HLA-A*03:01, HLA-B*35:03, HLA-B*40:01, HLA-C*03:04, HLA-C*04:01;
+      <underline>
+       C02
+      </underline>
+      : HLA-A*02:01, HLA-A*32:01, HLA-B*08:01, HLA-B*18:01, HLA-C*07:01;
+      <underline>
+       P02
+      </underline>
+      : HLA-A*03:01, HLA-A*25:01, HLA-B*35:3, HLA-B*39:01, HLA-C*04:01, HLA-C*12:03;
+      <underline>
+       P05
+      </underline>
+      : HLA-A*24:02, HLA-A*31:01, HLA-B*35:08, HLA-B*35:01, HLA-C*04:01;
+      <underline>
+       P08
+      </underline>
+      : HLA-A*01:01, HLA-B*37:01, HLA-B*44:02, HLA-C*05:01, HLA-C*06:02).
+     </p>
+     <table-wrap id="pone-0080045-t001" orientation="portrait" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0080045.t001
+      </object-id>
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <title>
+        Clinical data of study subjects.
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup span="1">
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+        <col span="1"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th colspan="2" rowspan="1">
+          <bold>
+           Subject
+          </bold>
+          <hr/>
+         </th>
+         <th colspan="2" rowspan="1">
+          <bold>
+           CD4 count 1           (/µl)
+          </bold>
+          <hr/>
+         </th>
+         <th colspan="1" rowspan="1">
+          <bold>
+           CD4 count 2           (/µl)
+          </bold>
+         </th>
+         <th colspan="1" rowspan="1">
+          <bold>
+           Viral load 1           (cp/ml)
+          </bold>
+         </th>
+         <th colspan="1" rowspan="1">
+          <bold>
+           Viral load 2           (cp/ml)
+          </bold>
+         </th>
+         <th colspan="2" rowspan="1">
+          <bold>
+           Age (years)
+          </bold>
+          <hr/>
+         </th>
+         <th colspan="2" rowspan="1">
+          <bold>
+           Time since diagnosis (days)
+          </bold>
+          <hr/>
+         </th>
+         <th colspan="1" rowspan="1">
+          <bold>
+           Time between1           / 2           (days
+          </bold>
+          )
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A01
+         </td>
+         <td colspan="2" rowspan="1">
+          752
+         </td>
+         <td colspan="2" rowspan="1">
+          779
+         </td>
+         <td colspan="1" rowspan="1">
+          52.085
+         </td>
+         <td colspan="1" rowspan="1">
+          62.990
+         </td>
+         <td colspan="1" rowspan="1">
+          37
+         </td>
+         <td colspan="2" rowspan="1">
+          76
+         </td>
+         <td colspan="2" rowspan="1">
+          196
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A02
+         </td>
+         <td colspan="2" rowspan="1">
+          508
+         </td>
+         <td colspan="2" rowspan="1">
+          263
+         </td>
+         <td colspan="1" rowspan="1">
+          871
+         </td>
+         <td colspan="1" rowspan="1">
+          19.493
+         </td>
+         <td colspan="1" rowspan="1">
+          48
+         </td>
+         <td colspan="2" rowspan="1">
+          17
+         </td>
+         <td colspan="2" rowspan="1">
+          504
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A03
+         </td>
+         <td colspan="2" rowspan="1">
+          692
+         </td>
+         <td colspan="2" rowspan="1">
+          485
+         </td>
+         <td colspan="1" rowspan="1">
+          30.369
+         </td>
+         <td colspan="1" rowspan="1">
+          15.146
+         </td>
+         <td colspan="1" rowspan="1">
+          22
+         </td>
+         <td colspan="2" rowspan="1">
+          112
+         </td>
+         <td colspan="2" rowspan="1">
+          530
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A05
+         </td>
+         <td colspan="2" rowspan="1">
+          753
+         </td>
+         <td colspan="2" rowspan="1">
+          756
+         </td>
+         <td colspan="1" rowspan="1">
+          16.677
+         </td>
+         <td colspan="1" rowspan="1">
+          43.169
+         </td>
+         <td colspan="1" rowspan="1">
+          42
+         </td>
+         <td colspan="2" rowspan="1">
+          317
+         </td>
+         <td colspan="2" rowspan="1">
+          462
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A06
+         </td>
+         <td colspan="2" rowspan="1">
+          448
+         </td>
+         <td colspan="2" rowspan="1">
+          162
+         </td>
+         <td colspan="1" rowspan="1">
+          106.337
+         </td>
+         <td colspan="1" rowspan="1">
+          167.579
+         </td>
+         <td colspan="1" rowspan="1">
+          25
+         </td>
+         <td colspan="2" rowspan="1">
+          173
+         </td>
+         <td colspan="2" rowspan="1">
+          571
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A07
+         </td>
+         <td colspan="2" rowspan="1">
+          1.327
+         </td>
+         <td colspan="2" rowspan="1">
+          417
+         </td>
+         <td colspan="1" rowspan="1">
+          335.211
+         </td>
+         <td colspan="1" rowspan="1">
+          40.829
+         </td>
+         <td colspan="1" rowspan="1">
+          27
+         </td>
+         <td colspan="2" rowspan="1">
+          5
+         </td>
+         <td colspan="2" rowspan="1">
+          1062
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          A09
+         </td>
+         <td colspan="2" rowspan="1">
+          338
+         </td>
+         <td colspan="2" rowspan="1">
+          457
+         </td>
+         <td colspan="1" rowspan="1">
+          30.985
+         </td>
+         <td colspan="1" rowspan="1">
+          10.179
+         </td>
+         <td colspan="1" rowspan="1">
+          30
+         </td>
+         <td colspan="2" rowspan="1">
+          194
+         </td>
+         <td colspan="2" rowspan="1">
+          427
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          C01
+         </td>
+         <td colspan="2" rowspan="1">
+          538
+         </td>
+         <td colspan="2" rowspan="1">
+          462
+         </td>
+         <td colspan="1" rowspan="1">
+          4.156
+         </td>
+         <td colspan="1" rowspan="1">
+          5.887
+         </td>
+         <td colspan="1" rowspan="1">
+          32
+         </td>
+         <td colspan="2" rowspan="1">
+          1.743
+         </td>
+         <td colspan="2" rowspan="1">
+          652
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          C02
+         </td>
+         <td colspan="2" rowspan="1">
+          592
+         </td>
+         <td colspan="2" rowspan="1">
+          522
+         </td>
+         <td colspan="1" rowspan="1">
+          4.096
+         </td>
+         <td colspan="1" rowspan="1">
+          2.415
+         </td>
+         <td colspan="1" rowspan="1">
+          46
+         </td>
+         <td colspan="2" rowspan="1">
+          649
+         </td>
+         <td colspan="2" rowspan="1">
+          1577
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          C03
+         </td>
+         <td colspan="2" rowspan="1">
+          785
+         </td>
+         <td colspan="2" rowspan="1">
+          761
+         </td>
+         <td colspan="1" rowspan="1">
+          3.739
+         </td>
+         <td colspan="1" rowspan="1">
+          8.321
+         </td>
+         <td colspan="1" rowspan="1">
+          37
+         </td>
+         <td colspan="2" rowspan="1">
+          3.553
+         </td>
+         <td colspan="2" rowspan="1">
+          236
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          C04
+         </td>
+         <td colspan="2" rowspan="1">
+          517
+         </td>
+         <td colspan="2" rowspan="1">
+          543
+         </td>
+         <td colspan="1" rowspan="1">
+          2.247
+         </td>
+         <td colspan="1" rowspan="1">
+          5.589
+         </td>
+         <td colspan="1" rowspan="1">
+          56
+         </td>
+         <td colspan="2" rowspan="1">
+          2.273
+         </td>
+         <td colspan="2" rowspan="1">
+          1212
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P01
+         </td>
+         <td colspan="2" rowspan="1">
+          421
+         </td>
+         <td colspan="2" rowspan="1">
+          392
+         </td>
+         <td colspan="1" rowspan="1">
+          27 805
+         </td>
+         <td colspan="1" rowspan="1">
+          8.324
+         </td>
+         <td colspan="1" rowspan="1">
+          50
+         </td>
+         <td colspan="2" rowspan="1">
+          2.778
+         </td>
+         <td colspan="2" rowspan="1">
+          719
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P02
+         </td>
+         <td colspan="2" rowspan="1">
+          457
+         </td>
+         <td colspan="2" rowspan="1">
+          132
+         </td>
+         <td colspan="1" rowspan="1">
+          489.978
+         </td>
+         <td colspan="1" rowspan="1">
+          210.515
+         </td>
+         <td colspan="1" rowspan="1">
+          67
+         </td>
+         <td colspan="2" rowspan="1">
+          791
+         </td>
+         <td colspan="2" rowspan="1">
+          637
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P03
+         </td>
+         <td colspan="2" rowspan="1">
+          489
+         </td>
+         <td colspan="2" rowspan="1">
+          357
+         </td>
+         <td colspan="1" rowspan="1">
+          133.400
+         </td>
+         <td colspan="1" rowspan="1">
+          182.230
+         </td>
+         <td colspan="1" rowspan="1">
+          56
+         </td>
+         <td colspan="2" rowspan="1">
+          3.679
+         </td>
+         <td colspan="2" rowspan="1">
+          181
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P05
+         </td>
+         <td colspan="2" rowspan="1">
+          373
+         </td>
+         <td colspan="2" rowspan="1">
+          143
+         </td>
+         <td colspan="1" rowspan="1">
+          30.834
+         </td>
+         <td colspan="1" rowspan="1">
+          24.800
+         </td>
+         <td colspan="1" rowspan="1">
+          36
+         </td>
+         <td colspan="2" rowspan="1">
+          49
+         </td>
+         <td colspan="2" rowspan="1">
+          399
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P06
+         </td>
+         <td colspan="2" rowspan="1">
+          440
+         </td>
+         <td colspan="2" rowspan="1">
+          207
+         </td>
+         <td colspan="1" rowspan="1">
+          46.354
+         </td>
+         <td colspan="1" rowspan="1">
+          55.657
+         </td>
+         <td colspan="1" rowspan="1">
+          62
+         </td>
+         <td colspan="2" rowspan="1">
+          784
+         </td>
+         <td colspan="2" rowspan="1">
+          202
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P07*
+         </td>
+         <td colspan="2" rowspan="1">
+          464
+         </td>
+         <td colspan="2" rowspan="1">
+          509
+         </td>
+         <td colspan="1" rowspan="1">
+          135.364
+         </td>
+         <td colspan="1" rowspan="1">
+          103.725
+         </td>
+         <td colspan="1" rowspan="1">
+          46
+         </td>
+         <td colspan="2" rowspan="1">
+          502
+         </td>
+         <td colspan="2" rowspan="1">
+          692
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P08*
+         </td>
+         <td colspan="2" rowspan="1">
+          294
+         </td>
+         <td colspan="2" rowspan="1">
+          239
+         </td>
+         <td colspan="1" rowspan="1">
+          8.117
+         </td>
+         <td colspan="1" rowspan="1">
+          129.618
+         </td>
+         <td colspan="1" rowspan="1">
+          34
+         </td>
+         <td colspan="2" rowspan="1">
+          583
+         </td>
+         <td colspan="2" rowspan="1">
+          659
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+          P09*
+         </td>
+         <td colspan="2" rowspan="1">
+          275
+         </td>
+         <td colspan="2" rowspan="1">
+          318
+         </td>
+         <td colspan="1" rowspan="1">
+          33.517
+         </td>
+         <td colspan="1" rowspan="1">
+          74.744
+         </td>
+         <td colspan="1" rowspan="1">
+          59
+         </td>
+         <td colspan="2" rowspan="1">
+          194
+         </td>
+         <td colspan="2" rowspan="1">
+          238
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         Asterisk (*): data derived from a different project as indicated in the methods section; cp/ml = copies/ml
+        </p>
+       </fn>
+       <fn>
+        <p>
+         Time since diagnosis = timing of first sampling
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s2.2">
+     <title>
+      Peptides
+     </title>
+     <p>
+      Synthetic overlapping peptides were used for screening (15-20 aa long, overlap of 5-10 aa; Gag: HIV-1 SF-2, Nef: HIV-1 Bru, NIBSC, England; Pol clade B consensus sequence of 2001 and Gag/Nef/Pol variants according to mutating viral sequences: EZBiolab, Carmel, USA). Truncations of longer peptides for epitope mapping were ordered as needed (EZBiolab, Carmel, USA) [      ]. Peptides had a purity of ≥70%.
+     </p>
+    </sec>
+    <sec id="s2.3">
+     <title>
+      Cell lines
+     </title>
+     <p>
+      EBV-transformed B lymphoblastoid cell lines (BLCL) were established in R20 medium (RPMI 1640; PAA, Pasching, Austria) supplemented with 2 mM L-glutamine, 50 U/ml penicillin, 50 mg/ml streptomycin, 10 mM Hepes and 20% heat-inactivated FCS (PAA)[      ]. Antigen-specific CD8 T cell lines were generated from PBMC stimulated with synthetic peptide pulsed HLA matched BLCL in the presence of 20 million irradiated feeder cells in R10 medium (RPMI 1640 supplemented with 2 mM L-glutamine, 50 U/ml penicillin, 50 mg/ml streptomycin, 10 mM Hepes and 10% heat-inactivated FCS) supplemented with 100 IU/ml of recombinant IL-2 (ImmunoTools GmbH, Friesoythe, Germany).
+     </p>
+    </sec>
+    <sec id="s2.4">
+     <title>
+      Interferon-gamma Elispot
+     </title>
+     <p>
+      HIV-specific CD8 T cell responses were quantified by Elispot assay using fresh or frozen PBMC (0.5 to 1x10      per well) and peptides (final concentration: 12.5 µg/ml) as described previously [      ]. Gamma interferon-producing cells were counted by direct visualization on an AID Elispot Reader (Autoimmun Diagnostika GmbH, Strassberg, Germany) and were expressed as spot-forming cells (SFC) per 10      PBMC. Negative controls had to have ≤5 spots. Wells were counted as positive if there were ≥50 SFC/10      PBMC. 2000 SFC per 10      PBMC was chosen as upper cut-off.
+     </p>
+     <p>
+      Screening was done for CD8 T cell responses towards overlapping peptides spanning the HIV proteins Gag and Nef (Pol in subjects P07, P08, P09). CD8 T cell responses were defined as declining at a difference of &gt;40% between first and second time point.
+     </p>
+     <p>
+      If viral sequence analyses showed amino acid changes, peptide titration assays were performed comparing the recognition of wildtype and newly arising sequences. If the mutated peptide was equally or better recognized than the wildtype one at the first time point we considered it not as viral escape [      ]. It could still represent a processing escape, however with our methodology we were not able to ascertain this. When, however, at the first time point the mutated peptide was less (&gt;2 log) recognized than the wildtype peptide, we defined that finding as viral escape mutation. Due to the variability of Elispot assays, we chose &gt;2 log difference as our cut-off. When with the appearance of the mutated antigen in the blood, recognition of the corresponding variant exceeded recognition of the original peptide in magnitude at the late time point, we defined this finding as a “shift in immunodominance”. For the identified de-novo responses and shifts in immunodominance, epitope mapping was performed as described [      ]. Epitope predictions were done using the “SYFPEITHI” program and predicted optimal epitopes were compared experimentally to truncations with added or subtracted amino acids at the C-Terminal and the N-terminal position in Elispot assay using either PBMC or CD8 T cell lines. The optimal peptide was defined as the peptide that induced 50% maximal specific interferon-gamma production by T cells at the lowest peptide concentration [      ]. For peptide titration assays, peptides were used at concentrations of 12.5 µg/ml - 1.25x10      µg/ml using 10-fold dilutions. Peptide comparisons were done in ≥2 independent experiments.
+     </p>
+     <p>
+      Intracellular cytokine staining for HLA restriction of CD8 T cell epitopes and for CD8 T cell effector functions
+     </p>
+     <p>
+      For determination of HLA class I restriction of CD8 T cell responses, intracellular cytokine staining assays for interferon-gamma using autologous or partly matched BLCL were performed as described [      ]. For the Gag 21-29 (LRPGGKKRY) response in subject P08, the HLA class I restriction assay could not be performed due to poor CD8 T cell line growth. The cells were analysed using a FACS Calibur Flow Cytometer (BD Biosciences, Heidelberg, Germany) and FlowJo (Tree Star Inc., Ashland, USA) software. For negative controls, cells were incubated with BLCL without peptide, but were otherwise treated identically. Assays were done in ≥2 independent experiments.
+     </p>
+     <p>
+      For further evaluation of the quality of Pol 702-717 (wildtype and mutation)-specific CD8 T cell responses of subject P08, multicolour intracellular cytokine staining assays were performed as described [      ]. Polyfunctionality of CD8 T cells was tested by incubating CD8 T cells of study subject P08 with the corresponding peptides and subsequent staining for CD8-pacific blue, gamma interferon-APC (BioLegend, San Diego, USA), TNF-alpha-PE/Cy7, IL2-PE and CD107a-FITC (BD Biosciences, Heidelberg, Germany). Cells were analysed using a FACSCanto Flow Cytometer (BD Biosciences, Heidelberg, Germany) and FlowJo (Tree Star Inc., Ashland, USA) software. A positive response was defined as at least twofold above background.
+     </p>
+    </sec>
+    <sec id="s2.5">
+     <title>
+      Bulk sequencing of autologous virus with viral RNA
+     </title>
+     <p>
+      Viral RNA was extracted from the patients’ plasma with the QIAamp RNA Viral Mini Kit (Qiagen, Hilden, Germany) according to the manufacturer’s protocol. Viral RNA was transcribed into cDNA by using the SuperScript II First-Strand Synthesis System for reverse transcriptase PCR (Invitrogen, Darmstadt, Germany) and specific primers. DNA was amplified using nested PCR and specific primers. For some of the patients, individual primers were designed using OligoExplorer Software (Gene Link, Hawthorne, USA). For a detailed list of used primers please see      . PCR cycling conditions were as follows: 97°C for 30 s, 32 cycles of 10 s at 97°C, 30 s at 56-60°C, 40 s at 72°C, and a final extension of 72°C for 10 min. PCR products were sequenced bidirectionally by Eurofins MWG, Martinsried, Germany. BioEdit (Ibis Therapeutics, Carlsbad, USA) was used to edit and align sequences. Completely changing peaks in sequencing histograms were counted as a change in sequence, whereas mixed peaks were counted as mixed bases and indicated with small instead of capital letters. Mixed bases were counted as arising amino acid changes as it signifies that at least part of the viral population developed a different sequence.
+     </p>
+    </sec>
+    <sec id="s2.6">
+     <title>
+      Nucleotide sequence accession numbers
+     </title>
+     <p>
+      All sequences have been submitted to GenBank: KF692313 - KF692354.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="s3.1">
+     <title>
+      Declining CD8 T cell responses in HIV infected treatment-naïve individuals
+     </title>
+     <p>
+      HIV-infected treatment-naïve individuals were studied longitudinally (for &gt;6 months;      ) and screened for CD8 T cell responses towards Gag and Nef by interferon-gamma Elispot. Next we aimed to identify those CD8 T cell responses that were subject to viral escape mutations. Due to the well-known correlation between declining CD8 T cell responses and viral escape mutations in the respective epitopes [      -      ], we concentrated on CD8 T cell responses that declined over the disease course. The 19 study subjects had a median number of 12 CD8 T cell responses towards Gag and Nef (range 2-24). Median magnitude of chosen CD8 T cell responses was 650 SFC/10      PBMC (range 50–2000 SFC/10      PBMC) at the first time point and declined to a median magnitude of 0 SFC/10      PBMC (range 0–2000 SFC/10      PBMC) at the second time point (      ). We chose 30 mostly declining CD8 T cell responses of the 19 subjects for further analysis. Exception for declining CD8 T cell responses is subject P09 (      ), where data was derived from a different project and viral escape was already proven [      ].
+     </p>
+    </sec>
+    <sec id="s3.2">
+     <title>
+      Longitudinal follow-up reveals viral sequence changes in the majority of studied CD8 T cell regions
+     </title>
+     <p>
+      The genetic variability of HIV can lead to viral escape from CD8 T cell recognition [      ,      ,      ]. Sequencing of the autologous virus of the first and second time point was done for the chosen 30 regions (      and      ). The CD8 T cell responses located in Nef showed amino acid changes in 11 out of 11 (100%) sequences over time. Viral sequence analyses of Gag showed amino acid changes in only 10 out of 16 (62.5%) CD8 T cell responses we had focused on. In individual A09 the amino acid changes in the well-known HLA-A*02:01 restricted Gag 77-85 (SLYNTVATL) were already present at the first time point. As indicated in the methods section, data for Pol was chosen by proven escape mutation. In total, 83% of the 30 regions experienced amino acid mutations over time.
+     </p>
+    </sec>
+    <sec id="s3.3">
+     <title>
+      Viral escape mutations lead to one de-novo CD8 T cell response
+     </title>
+     <p>
+      De-novo responses to a mutating CD8 T cell epitope are possible in HIV-infection [      ,      -      ]. For all arising amino acid mutations, we compared the recognition of wildtype and mutated sequence in peptide titration assays for the early and late time point using the longer overlapping screening peptides. By this method, we identified viral escape in 12 of 25 recognized peptides with amino acid mutations (48%). Furthermore we observed in subject P08 one de-novo response to the mutated region (      ). Epitope mapping for this CD8 response revealed the HLA-C*06:02 restricted Pol 706-715 (LVSAGIRKVL) as optimal epitope with the mutation at position 9 of the epitope (V714I). To our knowledge, this is the first time this epitope is described. In order to prove that we had indeed identified a de-novo CD8 T cell response, we studied samples of the early and late time point by looking for several effector functions. This analysis showed that there was production of interferon-gamma, TNF-alpha, IL-2 and CD107a after stimulation with wildtype peptide (0.3%) but no effector function after stimulation with mutated peptide for the early time point of P08. However we could show production of interferon-gamma, IL-2 and CD107a for wildtype peptide (0.27%) and production of interferon-gamma and TNF-alpha for stimulation with mutated peptide (0.27%) for the late time point (      ).
+     </p>
+     <p>
+      Taken together, we observed a de-novo response towards the mutated epitope in one out of 12 (8%) epitopes where a viral escape mutation had occurred.
+     </p>
+    </sec>
+    <sec id="s3.4">
+     <title>
+      Viral sequence variations also lead to shift in immunodominance
+     </title>
+     <p>
+      It has been demonstrated that HIV-specific CD8 T cells can cross-recognize mutant variants after the occurrence of a viral escape mutation [      ,      ]. In 5 of 25 (20%) mutating regions we observed a shift in magnitude of the CD8 T cell response between wildtype and mutated peptide. Epitope mapping was performed for these 5 regions subsequently. For P08 the optimal epitope was Gag 21-29 (LRPGGKKRY) (      ), this epitope has not been described before in literature. Epitope prediction programs predict this epitope to be restricted by HLA-A*01:01. For P02, epitope fine mapping revealed the HLA-B*39:01 restricted epitope Nef 187-195 (SRLAFNHMA) (      ). For A09 the optimal epitope is the well-known HLA-A*02:01 restricted Gag 77-85 (SLYNTVATL) (      ) [      ]. As discussed above, here the amino acid mutations were already present in the autologous virus at the first time point. Therefore we hypothesized that the mutations occurred prior to the first blood draw. For C02, we identified the HLA-B*08:01 restricted Gag 93-101 (EVKDTMEAL) as the optimal epitope (      ). Interestingly, here the virus evolved towards the consensus sequence.
+     </p>
+     <p>
+      In subject P05, epitope fine-mapping revealed the well-known HLA-B*35:01 restricted Nef 74-81 (VPLRPMTY) as the optimal epitope [      ]. For this epitope, the detected escape mutation was located outside the epitope, preceding the optimal epitope (      ). Sequence analysis of this individual did not show amino acid changes within the epitope as described by others [      ]. Viral mutations within the flanking region of the epitope can influence protein processing. In this case, however, we should not be able to detect differences using peptides loaded from externally onto the HLA-molecule as this usually occurs in Elispot assay. The result therefore remains unclear and we did not include it in our counting of adapting immune responses.
+     </p>
+     <p>
+      Overall, the CD8 T cell response adapted to the mutating antigen in 5 of 25 (20%) mutating regions (1 de-novo response and 4 shifts in immunodominance).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     In this study we addressed the question concerning the frequency of adaptation of the CD8 T cell response towards the rapidly mutating HIV in a cohort not selected for a certain HLA allele. We observed an adaptation towards viral escape mutations in 20% of the mutating regions targeted by CD8 T cell responses, either as a de-novo response or as a shift in immunodominance.
+    </p>
+    <p>
+     To study adapting CD8 T cell responses towards the mutating antigen we aimed to identify individuals with arising viral escape mutations. Due to the known correlation between viral escape mutations and the decline of respective CD8 T cell responses [     ,     -     ] we focused on declining CD8 T cell responses over the disease course. In contrast to other studies we did not focus on individuals expressing protective HLA alleles [     ,     -     ] or exclusively on acute HIV infection [     ,     ,     ,     ,     ]. We purposefully included untreated, chronically infected individuals because viral escape occurs also in this stage of infection and this group has not been studied as extensively as acutely infected individuals [     ,     ].
+    </p>
+    <p>
+     De-novo responses to viral escape mutations exist and have been shown particularly well for HLA-B*57 restricted epitopes in Gag in adults and children [     ,     -     ]. Additionally there are reports about de-novo responses towards HLA-B*27 restricted epitopes [     ,     ]. It has been suggested that this is one of the mechanisms for the often long-term control of viremia in HLA-B*57/B*58:01+ individuals [     ,     -     ,     ]. Recently adaption to changing viral sequences has been shown in subjects with acute HIV infection [     ,     ]. The mentioned studies find de-novo responses in higher frequency than our study. The plasticity of the immune system and therefore the ability to adapt to the changing virus seems to be greater in acute than in chronic infection. Interestingly, in our findings the shifting responses towards the mutant antigens where partly restricted by HLA-alleles associated with faster progression to AIDS (HLA-B*35:01, HLA-A*01) [     ].
+    </p>
+    <p>
+     Not surprisingly we observed amino acid mutations in 100% of the Nef regions we had chosen, compared to only 62.5% in the Gag region. This is in concordance with the literature, where Gag is described as the more conserved region within the HIV polyprotein [     ,     ]. A limitation of bulk sequencing - compared to e.g. the deep sequencing methodology - is its relative insensitivity, where just the major base exchanges and therefore the predominant quasispecies of the virus can be observed. This could also serve as an explanation why some CD8 T cell responses decreased when no amino acid changes could be observed in bulk sequencing. However even with this method, we identified non-synonymous mutations in 83% of the chosen regions. The insensitivity of the bulk sequencing method does imply, however, that observed mutations are those of predominant quasispecies in the blood.
+    </p>
+    <p>
+     Viral escape from CD8 T cell mediated immune pressure occurs through the selection of sequence variations within epitopes crucial for HLA-binding or TCR recognition [     ,     ,     ,     ]. This form of viral escape has the result that the recognition of the variant epitope by CD8 T cells is reduced or lost. On the other hand viral escape mutations can influence antigen processing - a form of escape that is not fully detected by Elispot assays where peptides are loaded on the cells from externally [     -     ]. This variant of viral escape is likely underestimated in our study. For 8 out of 25 CD8 T cell responses we found amino acid mutations without evidence for escape using our methodology. As stated above viral mutations within the flanking region of the epitope can influence protein processing and consecutively epitope presentation [     -     ]. In the case of the HLA-B*35:01 restricted Nef 74-81 (VPLRPMTY), however, we should not be able to detect differences using the Elispot assay, as peptides are loaded from externally onto the HLA-molecule.
+    </p>
+    <p>
+     Surprisingly, it was the group of chronically infected progressors where the immune system showed the greatest plasticity to the evolving virus. The observed de-novo response as well as 3 out of 5 shifts in immunodominance occurred in individuals who by definition are the least able to control the infection. Looking at the results of the polyfunctionality assay might explain this alleged contradiction: the primary response is a polyfunctional response with 4 different effector functions upon stimulation. The de-novo response – occurring later in the disease course towards a variant virus – is a response with only two effector functions. This leads to the question of how effective a new CD8 T cell response can be in a chronically infected untreated individual as CD8 T cell responses with limited effector functions have been associated with poor viral control [     ]. In this respect, individuals positive for the HLA class I allele B*57 might be special. CD8 T cell responses towards viral escape mutations have been described best in these subjects and it has been hypothesized that the capacity to mount T cell responses to the arising variant epitopes contributes to the control of HIV in these subjects [     ,     ,     ]. Our study supports this hypothesis by demonstrating that in a cohort not expressing protective HLA alleles the adaptation occurs less often and with a dysfunctional de-novo CD8 T cell response. However, a link between the decline of CD8 T cell responses and disease progression cannot be drawn as this study is purely descriptive.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="conclusions">
+    <title>
+     Conclusion
+    </title>
+    <p>
+     Vaccinating already infected subjects can cause immune interferences that need to be considered beforehand. The present study shows that it is possible to induce new CD8 T cell responses even in the setting of an existing immune response towards the same epitope with a different sequence. De-novo responses, however, are rare whereas shifts in immunodominance occur more often.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supporting Information
+    </title>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

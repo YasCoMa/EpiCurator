@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  The role of host genetics in the immune response to SARS‐CoV‐2 and COVID‐19 susceptibility and severity
+ </title>
+ <abstract>
+  <p>
+   This article provides a review of studies evaluating the role of host (and viral) genetics (including variation in HLA genes) in the immune response to coronaviruses, as well as the clinical outcome of coronavirus‐mediated disease. The initial sections focus on seasonal coronaviruses, SARS‐CoV, and MERS‐CoV. We then examine the state of the knowledge regarding genetic polymorphisms and SARS‐CoV‐2 and COVID‐19. The article concludes by discussing research areas with current knowledge gaps and proposes several avenues for future scientific exploration in order to develop new insights into the immunology of SARS‐CoV‐2.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="imr12897-sec-0001">
+    <label>
+     1
+    </label>
+    <title>
+     INTRODUCTION
+    </title>
+    <p>
+     The 2019 outbreak of SARS‐CoV‐2, which began in Wuhan, China, refocused the worlds attention on coronaviruses. Several seasonal coronaviruses are known to circulate in the human population and generally cause relatively mild respiratory tract infections, including the alphacoronaviruses HCoV‐NL63 and HCoV‐229E, and the betacoronaviruses HCoV‐OC43 and HCoV‐HKU1. Two of these viruses (OC43 and 229E) were first discovered in the late 1960s, while the other two (NL63 and HKU1) were identified in 2004 and 2005, respectively.     Phylogenetic evidence suggests that each of these four viruses originated from bat‐ (NL63 and 229E) or rodent‐associated (OC43 and HKU1) coronaviruses.     These four seasonal coronaviruses account for 15%‐30% of common colds in children and a smaller percentage of colds in adults. While seasonal coronavirus infections are generally mild, they can cause more severe disease in neonates and immunocompromised subjects.     ,     It is established that adults have a &gt;90% seroprevalence rate (for at least one of the seasonal coronaviruses), while children are susceptible and are exposed to infection during early childhood.
+    </p>
+    <p>
+     In addition to these four seasonal coronaviruses, since 2003, three additional coronaviruses (ie, SARS‐CoV‐1: the severe acute respiratory syndrome coronavirus; MERS‐CoV: the Middle East respiratory syndrome [MERS] coronavirus; and SARS‐CoV‐2: the causative agent of COVID‐19) have emerged as human pathogens, and each is associated with severe infection.
+    </p>
+    <p>
+     SARS, caused by SARS‐CoV‐1, is a life‐threatening lower respiratory tract infection (with atypical pneumonia and progressive lung damage) with significant morbidity and mortality that accounted for 8098 laboratory‐confirmed cases and 774 deaths during 2002‐2004.     SARS is believed to have arisen in bats, transferred to animals such as civet cats, and was then acquired by humans.     No further known cases have occurred since 2004.
+    </p>
+    <p>
+     MERS‐CoV is a zoonotic betacoronavirus transmitted to humans from dromedary camels, with some evidence that it originated in bats.     MERS causes a wide range of infections in humans (from asymptomatic to severe pneumonia with high mortality rate of 34%). It originated in Saudi Arabia in 2012 and has led to 2494 confirmed cases and 858 associated deaths.     Unlike SARS, which disappeared after 2004, this virus continues to be a problem, with sporadic small numbers of cases continuing to occur primarily within the Arabian Peninsula.
+    </p>
+    <p>
+     In 2019, the seventh coronavirus known to infect humans was identified as the cause of the pandemic originating in Wuhan, China. This virus, SARS‐CoV‐2, was initially associated with a respiratory disease termed COVID‐19. Subsequently, a wide range of clinical outcomes have been observed among individuals diagnosed with COVID‐19, ranging from mild respiratory infection to acute respiratory disease and death.     ,     ,     Disease severity is disproportionately higher among older adults and individuals with underlying comorbidities,     although severe cases of COVID‐19 have also been reported among young and healthy individuals.     Symptomatology also varies widely, with case reports indicating gastrointestinal (GI) distress, sensorineural impairment, loss of smell and taste, dysregulated blood clotting, hepatitis, and acute cardiac and renal injury irrespective of age and health status.     ,     ,     ,     ,     ,     ,     The mechanisms underlying the variation in COVID‐19 susceptibility and disease presentation are currently unknown, although viral and host genetic variants are probable factors influencing both disease severity and immune response outcomes (Figure     ).
+    </p>
+    <p>
+     Both candidate gene and genome‐wide association studies (GWAS) have offered significant insights into the genetic basis of many infectious diseases. These studies identified genetic loci and allelic polymorphisms that determine, in part, genetic susceptibility to infections. Studies of viral and host genetics are critical for understanding the pathophysiology of SARS‐CoV‐2, elucidating why COVID‐19 manifests differently among individuals, and informing the design of new vaccines and antiviral therapeutics. Such studies can help pinpoint if emerging viral strains are linked to more severe clinical outcomes or if individuals harboring certain alleles are more or less susceptible to disease. A seminal example is the loss‐of‐function mutation identified in the CCR5 gene (
+     <italic>
+      CCR5Δ32
+     </italic>
+     ), which abrogates expression of CCR5 on the host cell surface and renders homozygous individuals resistant to infection from HIV.     Identification of such associations for SARS‐CoV‐2 could help guide the design of vaccines and therapeutics as well as prioritize individuals for treatment once an effective vaccine or antiviral therapy is developed.
+    </p>
+    <p>
+     The HLA region of the human genome has been recognized for its importance in both disease risk and resistance.     HLA gene polymorphisms have been linked to numerous infectious diseases, including those caused by RNA viruses, such as SARS, influenza, HIV, hepatitis C, rabies, West Nile fever, rubella, mumps, measles, and others. Such genetic association studies and the insights they provide are critical to identifying the HLA alleles that may be associated with protective immune responses. Differential immune responses have been observed in mild and severe cases of COVID‐19, including delayed IgM responses     and higher S protein IgG titers in non‐ICU patients,     raising the questions of if and how HLA allelic variation contributes in this differential immunity. It is critical to determine and compare HLA profiles among individuals with serious cases of COVID‐19 with those who have mild or no apparent disease. This will aid in understanding the underlying mechanisms of protective innate and adaptive immunity and may lead to the development of genetic markers as correlates of protection.
+    </p>
+    <p>
+     Herein, we review the current status of research focused on identifying genetic variants associated with the immune response and clinical outcomes of coronaviruses, with particular attention to the contemporary SARS‐CoV‐2 pandemic. Limited data are available for the seasonal coronaviruses and for MERS‐CoV, with more known for SARS‐CoV‐1. Specific to SARS‐CoV‐2, we are still in the very early stages of the COVID‐19 pandemic, reports in the literature are largely preliminary, and studies have largely been conducted with computational methodologies and relatively small sample sizes due to the limited availability of biological samples. Nonetheless, several important findings have been reported for both viral and host genetic variants, and large consortiums (COVID‐19 Host Genetics Initiative, COVID Human Genetic Effort) are being organized to further study the influence of genetics on SARS‐CoV‐2 infection and immune response. After reviewing the extant literature on host genetics and coronaviruses, we discuss currently unanswered questions and outline a proposed research agenda that will address those knowledge gaps.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0002">
+    <label>
+     2
+    </label>
+    <title>
+     HOST GENETIC FACTORS AND SEASONAL CORONAVIRUS SUSCEPTIBILITY, PATHOGENESIS, AND HOST IMMUNE RESPONSE
+    </title>
+    <p>
+     From the perspective of basic science, previous studies have elucidated host factors that impact coronavirus host‐pathogen interactions, coronavirus entry, replication, and pathogenesis, as well as modulation of cell cycle and host response (ie, innate and inflammatory response), as nicely summarized by de Wilde et al.     However, only a few studies have examined host genetic variation in the human population to answer critical questions about observed differences in susceptibility, clinical course, and outcome of coronavirus infections in humans. Previous candidate gene association studies have provided valuable information regarding what role human genetic factors play in determining how different variables influence coronavirus infections (eg, genetic predisposition, pathogenesis, clinical course, outcome), with the focus predominantly on SARS. Large, systematic studies assessing genome‐wide associations of genetic variants with coronavirus disease in humans are lacking. An interesting genome‐wide assessment of host genetic loci associated with SARS infection in mice (published in PLoS Genetics by Gralinski et al) was carried out using the Collaborative Cross mouse panel approach, allowing expanded opportunities for evaluation of SARS‐related features (eg, lung pathology, viral titer, weight loss) in mice susceptible or resistant to coronavirus infection.     Genetic mapping in this study revealed several loci of interest, including a locus on chromosome 3 (with 23 genes and 13 non‐coding RNAs) that contained the ubiquitin E3 ligase
+     <italic>
+      TRIM55
+     </italic>
+     gene (tripartite motif containing 55), a RING zinc finger‐containing protein with possible engagement in protein‐protein interactions, and a plausible role in SARS‐CoV‐induced vascular cufflink/inflammatory response in the lungs.     The implications of these findings for human coronavirus disease are unclear, and the impact of this locus/gene on coronavirus infection in humans has yet to be determined.
+    </p>
+    <p>
+     While much is known about the epidemiology, surveillance, transmission, shedding, and clinical manifestations of infections caused by the community‐acquired viruses HCoV‐NL63, HCoV‐229E, HCoV‐OC43, and HCoV‐HKU1, limited data exist in the literature to elucidate the possible human genetic variation that may impact common cold coronavirus susceptibility and disease.     ,     ,     ,     One common target for studies evaluating host genetic factors is the viral receptors. Early animal studies in a murine model of mouse hepatitis coronavirus (MHV) provided proof‐of‐concept evidence for the critical role of the coronavirus entry receptor genotype/alleles (ie,
+     <italic>
+      CEACAM1
+     </italic>
+     ) for susceptibility to coronavirus infection.     ,     Aminopeptidase N (
+     <italic>
+      CD13
+     </italic>
+     ) is a cell surface metalloprotease that has been previously recognized as a receptor for HCoV‐229E,     while ACE2 has been identified as a receptor for HCoV‐NL63     ,     ; however, genetic variation in these receptors has not been studied in relation to these infections.
+    </p>
+    <p>
+     Recent knowledge of the mechanisms and host factors influencing infection by seasonal and zoonotic coronaviruses has been reviewed by Wilde et al.     The authors summarize the important role of host factors associated with coronavirus cell entry and fusion (ie, coronavirus receptors and cell surface or lysosomal proteases: CEACAM1, ACE2, APN, DPP4, TMPRSS2, cathepsins, and furin), host antiviral/proinflammatory, translation, and unfolded protein response factors (eg, eIF4F, GCN2, PERK, PKR, RIG‐I, MDA‐5, TLR3, IRF3, IRF7, type I interferon and proinflammatory cytokines, and chemokines), and host factors influencing coronavirus replication/protein expression (eg, MADP1, ANXA2, cyclophilins) for regulating coronavirus infection.     Of the listed factors, cyclophilins are of particular interest because their genetic variability has been associated with coronavirus infection in humans.     Cyclophilins are peptidyl‐prolyl isomerases involved in folding of cellular proteins and coronavirus proteins and are necessary for proper viral propagation. It has been demonstrated that cyclophilin A directly interacts with the nucleocapsid of SARS‐CoV‐1     and is incorporated into the purified virions.     Functional single nucleotide polymorphisms in cyclophilin A may directly affect the propagation of HCoV‐229E.     Data on the host factors associated with the seasonal coronavirus infections may provide valuable insights into the genetic factors associated with SARS and COVID‐19 susceptibility and progression.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0003">
+    <label>
+     3
+    </label>
+    <title>
+     HOST GENETIC FACTORS ASSOCIATED WITH SARS‐COV‐1 SUSCEPTIBILITY, PATHOGENESIS, AND HOST IMMUNE RESPONSE
+    </title>
+    <p>
+     Previous findings with SARS‐CoV‐1 have offered important—although often conflicting—insights regarding the plausible genetic influence of host factors on the susceptibility, pathogenicity, and clinical outcome of SARS. Most of these studies, which encompassed cohorts with limited sample size, relied on candidate gene approaches to investigate the genetic contribution of factors with a known or suspected role in coronavirus infection and pathogenesis. Because the angiotensin‐converting enzyme 2 (
+     <italic>
+      ACE2
+     </italic>
+     mapping on the human chromosome Xp22, and a homologue of ACE1 with 40% amino acid identity) has been established as an entry receptor for at least three coronaviruses (ie, SARS‐CoV‐1, HCoV‐NL63, and SARS‐CoV‐2     ,     ,     ,     ,     ,     ), several studies have explored the impact of
+     <italic>
+      ACE2
+     </italic>
+     polymorphisms on SARS susceptibility and disease severity.     ,     A candidate gene case‐control study by Chiu et al,     which explored the link between common
+     <italic>
+      ACE2
+     </italic>
+     single nucleotide polymorphisms/SNPs and SARS in a cohort of 168 SARS patients and 328 healthy controls of Chinese ethnicity, found no evidence for associations of
+     <italic>
+      ACE2
+     </italic>
+     genetic variants with SARS susceptibility, clinical manifestations, or clinical outcome. In a study from Vietnam, 44 SARS cases, 16 antibody‐positive contacts, and 137 other controls were investigated for the genetic association between 19 SNPs in or flanking the
+     <italic>
+      ACE2
+     </italic>
+     gene and found no evidence for genetic association.     A recent GWAS study used a cohort of limited sample size (HCV‐infected liver tissue samples from 195 subjects) to investigate associations between host genetic polymorphisms and
+     <italic>
+      ACE2
+     </italic>
+     gene expression.     The study found that a locus of genetic variation on chromosome 19 that controls the expression of
+     <italic>
+      IFNL3
+     </italic>
+     and
+     <italic>
+      IFNL4
+     </italic>
+     is also associated with
+     <italic>
+      ACE2
+     </italic>
+     expression, as was age.     These findings suggest the negative correlation between interferon response and
+     <italic>
+      ACE2
+     </italic>
+     expression, which may influence viral entry and infection by viruses using the ACE2 receptor.
+    </p>
+    <p>
+     The role of the type II transmembrane protease TMPRSS2 and other host proteases involved in SARS Spike (S) protein cleavage and activation to promote efficient infection     ,     has not been studied in terms of host genetic heterogeneity. One highly cited SARS genetic risk assessment study     investigated the role of a specific
+     <italic>
+      CLEC4M
+     </italic>
+     gene polymorphism (in the variable tandem repeats in exon 4) in affecting the susceptibility and severity of SARS, assuming the encoded protein L‐SIGN mediates or facilitates virus attachment and entry.     The study encompassed 285 confirmed SARS cases from Hong Kong and three cohorts of controls: 380 random healthy blood donors; 290 SARS‐negative patients from outpatient clinics; and 172 SARS‐negative healthcare workers. The results provided evidence for the protective role of the
+     <italic>
+      CLEC4M
+     </italic>
+     tandem repeats polymorphism against SARS. The C‐type lectin domain family 4 member M (
+     <italic>
+      CLEC4M
+     </italic>
+     ) (L‐SIGN/CD209L) gene encodes a protein, which is highly expressed by endothelial cells in lymph nodes and liver, that can serve as an adhesion molecule/receptor for viruses (eg, human immunodeficiency virus [HIV], hepatitis C, Ebola virus [EBOV], and SARS‐CoV‐1) by binding carbohydrate ligands such as high‐mannose oligosaccharides.     ,     ,     ,     ,     ,     The function of this protein as a pathogen recognition receptor with direct involvement in SARS coronavirus infection makes its role as a host genetic restriction factor highly plausible. Chan et al     provided functional evidence for this hypothesis, demonstrating the differential impact of L‐SIGN homozygosity for SARS‐CoV adhesion, infection, proteasome‐related viral degradation, and modulation of viral replication/titers.     The enthusiasm for these findings, however, was dampened by further studies that failed to replicate these results.     ,     A genetic association study of the
+     <italic>
+      CLEC4M
+     </italic>
+     tandem repeats polymorphism     included case‐control samples from northern China (a total of 441 SARS cases and 396 controls) and did not find a significant association between
+     <italic>
+      CLEC4M
+     </italic>
+     genotypes, homozygote or heterozygote frequencies, and SARS. Similarly, a study investigating the genetic predisposition for SARS with a focus on the C‐type lectin cluster at chromosome 19p13.3 (
+     <italic>
+      FCER2
+     </italic>
+     ,
+     <italic>
+      CLEC4G
+     </italic>
+     ,
+     <italic>
+      CD209
+     </italic>
+     ,
+     <italic>
+      CLEC4M
+     </italic>
+     ) found no evidence of an association.     Several candidate genetic association studies have explored the association between genetic variants in innate immune response and other immune function‐related genes, including antiviral effectors and chemokines/cytokines (
+     <italic>
+      MBL
+     </italic>
+     ,
+     <italic>
+      FCGR2A
+     </italic>
+     ,
+     <italic>
+      MX1
+     </italic>
+     ,
+     <italic>
+      OAS1
+     </italic>
+     ,
+     <italic>
+      IL12RB1
+     </italic>
+     ,
+     <italic>
+      IFNG
+     </italic>
+     ,
+     <italic>
+      CCL2
+     </italic>
+     ,
+     <italic>
+      CCL5/RANTES
+     </italic>
+     ,
+     <italic>
+      DC‐SIGN/CD209
+     </italic>
+     ,
+     <italic>
+      ICAM3
+     </italic>
+     ) and susceptibility, pathogenesis, and disease course of SARS. It should be noted that many of these have not been replicated, and some studies show conflicting results.     ,     ,     ,     ,     ,     ,     ,     ,     ,     Of interest are several studies investigating the link between SARS and mannose‐binding lectin (MBL) deficiency, as well as the impact of genetic variants of the mannose‐binding lectin/mannan‐binding lectin gene (
+     <italic>
+      MBL2
+     </italic>
+     ), encoding a pattern recognition innate protein/collectin that is instrumental in the inactivation of a variety of respiratory pathogens through direct binding (to repeated mannose and N‐acetylglucosamine entities) and complement activation.     ,     ,     ,     Human clinical studies have provided evidence that MBL deficiency and
+     <italic>
+      MBL2
+     </italic>
+     polymorphisms are associated with morbidity and death as a result of respiratory and other severe infections such as pneumococcal pneumonia, tuberculosis, and meningococcal disease.     ,     ,     ,     ,     A large case‐control study by Ip et al,     which included 569 SARS patients and 1188 controls, demonstrated that lower serum levels of MBL and MBL deficiency are host factors associated with increased susceptibility to SARS. It was found that the median serum MBL in SARS patients was 0.733 μg/mL, which is significantly lower than the MBL level found in healthy control subjects (1.369 μg/mL,
+     <italic>
+      P
+     </italic>
+     ‐value = .0004). The impact of the
+     <italic>
+      MBL
+     </italic>
+     X/Y promoter polymorphisms and the structural A/B polymorphisms, as well as the three
+     <italic>
+      MBL
+     </italic>
+     haplotypes (YA, XA, and YB) on SARS susceptibility, was evaluated in this study. The haplotype YB, associated with MBL deficiency, was found to be more frequent in SARS patients (33.4%) compared to 24.7% frequency in the control group (
+     <italic>
+      P
+     </italic>
+     ‐value &lt; .001, odds ratio/OR 1.52).     The study also elucidated some of the mechanisms underlying MBL effects, such as direct binding of MBL to SARS‐CoV‐1, complement activation, and MBL‐mediated inhibition of viral infection.     A similar study by Zhang et al     studied 353 SARS patients and 392 controls to investigate the genetic influence of several promoter
+     <italic>
+      MBL2
+     </italic>
+     polymorphisms and the codon 54 (exon 1)
+     <italic>
+      MBL2
+     </italic>
+     polymorphism (rs1800450) on SARS susceptibility. The results provided evidence for the significant association (
+     <italic>
+      P
+     </italic>
+     ‐value = .00085) between the codon 54
+     <italic>
+      MBL2
+     </italic>
+     polymorphism (resulting in diminished expression of MBL,
+     <italic>
+      P
+     </italic>
+     ‐value = .00187) and predisposition/susceptibility to SARS.     However, other studies have found no significant difference in MBL genotypes/haplotypes between SARS patients (n = 180 SARS patients from Hong Kong, including 132 patients with moderate disease, 26 patients with severe disease, and 22 patients with lethal SARS) and 200 control subjects.     This study reported a possible link between SARS severity and outcome and discovered a non‐synonymous polymorphism affecting amino acid position 131 (arginine or histidine residue) of the Fc fragment of IgG receptor IIa (
+     <italic>
+      FCGR2A
+     </italic>
+     gene). The FcgammaRIIA‐receptor R131 genotype was found to be significantly associated with SARS severity (
+     <italic>
+      P
+     </italic>
+     ‐value = .03), with a higher homozygosity frequency of this genotype among the ICU SARS patients compared to controls.     The encoded receptor is found on macrophages/neutrophils and other cells and is directly involved in innate/inflammatory response processes such as phagocytosis.     A study from Hong Kong included SARS patients (n = 495) and healthy controls (n = 578) who were genotyped for a panel of SNP markers, such as
+     <italic>
+      IFNγ
+     </italic>
+     ,
+     <italic>
+      IL‐10
+     </italic>
+     ,
+     <italic>
+      TNFα
+     </italic>
+     ,
+     <italic>
+      IL‐12
+     </italic>
+     ,
+     <italic>
+      RANTES
+     </italic>
+     ,
+     <italic>
+      IL‐10
+     </italic>
+     ,
+     <italic>
+      Mig
+     </italic>
+     , and
+     <italic>
+      MCP‐1
+     </italic>
+     genes.     Polymorphisms in the
+     <italic>
+      IFNγ + 874A
+     </italic>
+     and
+     <italic>
+      RANTES‐28G
+     </italic>
+     alleles have been found to be significantly associated with SARS susceptibility and death in patients with SARS.     The IFNG + 874A allele was found more frequently in SARS patients (83.1%) compared to controls (66.3%,
+     <italic>
+      P
+     </italic>
+     ‐value &lt; .001). This allele was significantly associated with SARS susceptibility (ie, subjects with IFNG + 874 AA or AT genotype had the OR of 5.19 and 2.57, respectively, of developing SARS [
+     <italic>
+      P
+     </italic>
+     ‐value &lt; .001]).     In addition, subjects with the RANTES −28 GC and GG genotypes had the OR of 3.28 and 3.06, respectively, of developing SARS (
+     <italic>
+      P
+     </italic>
+     ‐value &lt; .0001).     High circulating levels of the cytokine macrophage migration inhibitory factor (MIF), which is expressed on alveolar epithelial, endothelial, and many immune cells, have been implicated in the pathogenesis of influenza, West Nile, and HIV infections.     For example, functional polymorphisms in the
+     <italic>
+      MIF
+     </italic>
+     gene (CATT7 and −173 C alleles) have been previously reported as potential predictors of community‐acquired pneumonia and morbidity/mortality outcomes in patients with pneumococcal meningitis.     ,     Given the morbidity and mortality of COVID‐19, it seems important to investigate the role of
+     <italic>
+      MIF
+     </italic>
+     gene polymorphisms in disease severity and clinical outcomes.
+    </p>
+    <p>
+     While the listed studies provide valuable insight into plausible host genetic factors influencing SARS susceptibility, pathogenesis, and outcome, no systematic GWAS (agnostic to previous knowledge) for coronavirus infections in humans has been published.
+    </p>
+    <p>
+     The influence of human leukocyte antigen (HLA) gene polymorphisms for SARS susceptibility, pathogenesis, and outcome has also been investigated in a number of studies, predominantly in Asian populations. Several HLA class I polymorphisms (ie, HLA‐B*46:01,     HLA‐B*07:03,     and HLA‐Cw*08:01     ) have been significantly associated with susceptibility to SARS and/or disease severity in various populations (HLA‐B*46:01
+     <italic>
+      P
+     </italic>
+     ‐value = .04 for association with SARS susceptibility and
+     <italic>
+      P
+     </italic>
+     ‐value = .008 for association with SARS severity     ; HLA‐B*07:03
+     <italic>
+      P
+     </italic>
+     ‐value = .00072 for association with SARS susceptibility     ; and HLA‐Cw*08:01
+     <italic>
+      P
+     </italic>
+     ‐value = .007 for association with SARS susceptibility     ). Of these, the HLA‐B*46:01 allele was computationally predicted to bind to the fewest SARS‐CoV‐2 peptides, thus suggesting it as a non‐protective allele for COVID‐19 disease.     Similarly, HLA class II polymorphisms (HLA‐DRB4*01     and HLA‐DRB1*12:02     ) were demonstrated to be significantly associated with the predisposition for SARS infection (HLA‐DRB4*01
+     <italic>
+      P
+     </italic>
+     ‐value = .0031 for association with SARS susceptibility     ; HLA‐DRB1*12:02
+     <italic>
+      P
+     </italic>
+     ‐value = .0065 for association with SARS infection     ). The protective effect of HLA‐DRB1*03:01,     ,     HLA‐Cw*15:02,     and HLA‐A*02:01     has been suggested (
+     <italic>
+      P
+     </italic>
+     ‐value &lt; .05) by studying susceptibility/resistance to SARS in cases‐control studies. Other studies, however, found no evidence of association between SARS susceptibility/disease and HLA‐A, HLA‐B, and HLA‐DRB1 loci in subjects of Chinese ethnicity.     ,     Comprehensive, large, and reproducible studies are still needed to decipher any possible genetic predisposition underlying susceptibility to SARS and disease progression/host immune response.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0004">
+    <label>
+     4
+    </label>
+    <title>
+     HOST GENETIC FACTORS ASSOCIATED WITH MERS SUSCEPTIBILITY, PATHOGENESIS, AND HOST IMMUNE RESPONSE
+    </title>
+    <p>
+     With MERS, a variety of host factors associated with disease susceptibility and virus transmission have been identified, including the virus entry receptor (dipeptidyl peptidase‐4 [
+     <italic>
+      DPP4
+     </italic>
+     ]), presumed attachment factors, sialic acids, host proteases (eg, TMPRSS2, furin, cathepsins), interferons, interferon‐stimulated genes, and adaptive immune response factors.     ,     ,     Unlike for SARS, there are few published reports evaluating host genetic variations associated with MERS susceptibility, pathogenesis, transmission, and morbidity/mortality, with only one published study in the literature.     This study, which examined HLA class II alleles in 23 MERS patients and 161 healthy subjects from Saudi Arabia, concluded that HLA‐DRB1*11:01 (
+     <italic>
+      P
+     </italic>
+     ‐value = .0016) and HLA‐DQB1*02:02 (
+     <italic>
+      P
+     </italic>
+     ‐value = .027) alleles were associated with susceptibility to MERS, but not with disease pathogenesis and outcome.     More comprehensive genetic association studies with larger sample sizes are warranted to both validate these preliminary findings and to further investigate the contribution of HLA to MERS disease susceptibility, clinical course, and sequelae, as well as to assess the role of genetic variation in other crucial host factors (eg,
+     <italic>
+      DPP4
+     </italic>
+     ,
+     <italic>
+      TMPRSS2
+     </italic>
+     ).
+    </p>
+    <p>
+     In summary, the immunogenetics of coronavirus infections are largely understudied, and high‐quality genetic association studies, genetic variant functional studies, and systems biology studies have not been performed, but they are needed in order to provide novel and important data regarding the genetic control of coronavirus infection, as well as host response and immunity.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0005">
+    <label>
+     5
+    </label>
+    <title>
+     HOST GENETIC FACTORS AND SARS‐COV‐2 SUSCEPTIBILITY, PATHOGENESIS, AND HOST IMMUNE RESPONSE
+    </title>
+    <p>
+     As has been described for the other coronaviruses (seasonal, SARS, and MERS), host genetic variation may be a key factor influencing the susceptibility, severity, and overall clinical outcomes of COVID‐19 after infection with SARS‐CoV‐2. It is well known that individuals of diverse racial and ethnic backgrounds harbor different allelic variants,     ,     ,     and gene expression differs based on the biological age and sex of an individual.     ,     ,     In the few short months since the beginning of the COVID‐19 pandemic, researchers have already reported several lines of evidence suggesting genetic factors impact COVID‐19 severity. These include early reports suggesting that males were more likely to suffer from severe disease,     ,     ,     ,     reports that blood type A was a risk factor for severe disease,     ,     and clear racial differences in clinical outcomes observed in the United States.     ,     It has also been suggested that the reduced severity of disease in females may be due to antibody responses that develop more quickly and with higher titers than antibody responses in men following infection.
+    </p>
+    <p>
+     Past reports from studies of other coronaviruses have highlighted the important role that cellular receptors play in disease. Individuals carrying specific variants of genes directly involved in viral infection (eg,
+     <italic>
+      ACE2
+     </italic>
+     ,
+     <italic>
+      TMPRSS2
+     </italic>
+     ) or exhibiting differential expression of those genes may have inherently different susceptibility to SARS‐CoV‐2, which may explain the broad spectrum of symptoms and disease severity associated with COVID‐19.
+    </p>
+    <sec id="imr12897-sec-0006">
+     <label>
+      5.1
+     </label>
+     <title>
+      ACE2
+     </title>
+     <p>
+      As ACE2 is the primary cellular receptor for SARS‐CoV‐2, studies have begun to investigate the relationship between
+      <italic>
+       ACE2
+      </italic>
+      polymorphisms and COVID‐19 severity. A recent study by Renieri and colleagues integrated whole‐exome sequencing data with molecular dynamics simulations to identify and characterize 33 ACE2 variants from ~7000 Italian subjects.      Notably, one variant (N720D) was proximal to the TMPRSS2 cleavage site, while three mutations (W69C, L351V, P389H) were predicted to induce conformational changes that alter interactions with the RBD of the S glycoprotein. Stawiski et al also curated a list of
+      <italic>
+       ACE2
+      </italic>
+      polymorphisms from existing genomic datasets and used structural modeling to identify variants that putatively increase (S19P, I21V, E23K, K26R, T27A, N64K, T92I, Q102P, H378R) or decrease (K31R, N33I, H34R, E35K, E37K, D38V, Y50F, N51S, M62V, K68E, F72V, Y83H, G326E, G352V, D355N, Q388L, D509Y) COVID‐19 susceptibility on the basis of interactions with the S glycoprotein.      A recent study of European and East Asian cohorts also identified two
+      <italic>
+       ACE2
+      </italic>
+      variants (K26R and I468V) as having potentially lower binding affinities for the S protein.      Based on their proximity to important interacting regions on the S protein surface, the variants identified in these studies have the potential to alter the kinetics of viral binding and internalization and may explain the significant observed inter‐individual variability in COVID‐19 case severity.
+     </p>
+     <p>
+      A study by Pinto and colleagues analyzed 700 lung transcriptomic datasets from patients with diabetes, hypertension, and chronic obstructive pulmonary disease and found that global
+      <italic>
+       ACE2
+      </italic>
+      expression was significantly higher than in the lungs of healthy patients.      This may explain why these individuals are predisposed to a higher severity of COVID‐19; however, other studies suggest that higher ACE2 expression may be protective against lung injury, and ACE2 expression decreases with age (at least in an animal model).      ,      ,      Additional studies are required to determine if the modulation of ACE2 is a direct result of underlying comorbidities or if the increased/decreased expression of ACE2 in these individuals in certain anatomical locations/tissues is causal for severe COVID‐19.
+     </p>
+     <p>
+      The increased severity of COVID‐19 in males has also been speculatively associated with
+      <italic>
+       ACE2
+      </italic>
+      polymorphisms and expression levels. Expression of
+      <italic>
+       ACE2
+      </italic>
+      has generally been found to be higher in men than women,      ,      although some studies have reported equivocal expression levels.      ,      These conflicting data have led some studies to suggest that it is either the pattern or density of
+      <italic>
+       ACE2
+      </italic>
+      expression in different anatomical locales rather than global differences in expression levels that influence sex‐based differences in disease severity.      ,      ,      As
+      <italic>
+       ACE2
+      </italic>
+      is encoded on the X chromosome, males only carry and express a single ACE2 variant on all cells, whereas females will likely express a mosaic pattern of ACE2 as determined by early X‐inactivation events.      Thus, if men harbor an
+      <italic>
+       ACE2
+      </italic>
+      variant that is more permissive for SARS‐CoV‐2 infection, all of their cells will express this risk variant.
+     </p>
+    </sec>
+    <sec id="imr12897-sec-0007">
+     <label>
+      5.2
+     </label>
+     <title>
+      TMPRSS2
+     </title>
+     <p>
+      The serine protease TMPRSS2 is the second host protein involved in SARS‐CoV‐2 infection and has received considerably less attention in genetic association studies to date. Russo et al identified an intergenic single nucleotide polymorphism (SNP) that was concomitantly associated with increased expression of
+      <italic>
+       TMPRSS2
+      </italic>
+      and reduced expression of the interferon‐inducible gene
+      <italic>
+       MX1
+      </italic>
+      in lung tissue.      Individuals carrying this SNP may have an increased susceptibility to SARS‐CoV‐2 infection due to the increased expression of TMPRSS2 on the cell surface and the simultaneous dampening of the cellular antiviral response. A second study by Asselta and colleagues identified numerous SNPs in
+      <italic>
+       TMPRSS2
+      </italic>
+      in an Italian cohort that were all predictively associated with higher gene expression levels.      Notably, one of these variants was associated with an androgen‐responsive enhancer upstream of
+      <italic>
+       TMPRSS2
+      </italic>
+      , suggesting another possible mechanism for the enhanced severity of COVID‐19 in males. While the preliminary identification of both ACE2 and TMPRSS2 variants potentially associated with COVID‐19 susceptibility is promising, studies investigating the associations between these genetic variants and clinical outcomes in individuals infected with SARS‐CoV‐2 are lacking. Thus, classification of identified variants as protective or deleterious is premature until additional studies validating their biology can be undertaken.
+     </p>
+    </sec>
+    <sec id="imr12897-sec-0008">
+     <label>
+      5.3
+     </label>
+     <title>
+      HLA loci
+     </title>
+     <p>
+      Currently in the literature, there are limited reports of studies investigating HLA genetic variation and the immune response against SARS‐CoV‐2. A single study reported that HLA‐A*24:02 was associated with COVID‐19 susceptibility after identifying this allele in four of five patients from Wuhan,      although it is highly unlikely this is a reproducible finding given the small sample size. While biological data are limited, several studies have reported the use of predictive algorithms to identify HLA alleles associated with viral peptide epitope recognition.      ,      ,      These studies may provide some evidence as to which HLA alleles play important roles in mediating protection from SARS‐CoV‐2. Nguyen et al sampled peptides from the entire SARS‐CoV‐2 proteome across ~150 HLA class I genotypes to map susceptibility loci for COVID‐19.      They identified HLA‐B*15:03 as having a high capacity for presenting peptides conserved between SARS‐CoV‐2 and other pathogenic coronaviruses, suggesting that this allele may be broadly protective. Conversely, they predicted HLA‐B*46:01 to bind to the fewest number of peptides from SARS‐CoV‐2, suggesting that individuals who carry this allele may mount a weaker immune response and develop more severe symptoms. This allele was previously predicted to be a susceptibility marker for SARS‐CoV infection.      Specifically, in SARS coronavirus infection, the HLA‐B*46:01 (
+      <italic>
+       P
+      </italic>
+      ‐value = .0008) has been significantly associated with the severity of SARS in Asian populations.      Large‐scale GWAS and biological validation studies with larger cohorts of convalescent individuals are warranted to fully understand the immune response to SARS‐CoV‐2. In fact, a recent genome‐wide study involving 1980 COVID‐19 patients in Spain and Italy identified two genetic regions associated with SARS‐CoV‐2‐induced respiratory failure.      One signal was located at 9q34 within the ABO blood group locus, with A‐positive individuals having a higher risk (OR = 1.45,
+      <italic>
+       P
+      </italic>
+      = 1.48 × 10      ) and blood group O individuals at lower risk (O = 0.65,
+      <italic>
+       P
+      </italic>
+      = 1.06 × 10      ), confirming earlier reports linking blood type A to more severe disease and blood type O to a protective effect.      ,      The other locus was found at 3p21.31 in a region including six genes (
+      <italic>
+       SLC6A20
+      </italic>
+      ,
+      <italic>
+       LZTFL1
+      </italic>
+      ,
+      <italic>
+       FYCO1
+      </italic>
+      ,
+      <italic>
+       CXCR6
+      </italic>
+      ,
+      <italic>
+       XCR1
+      </italic>
+      ,
+      <italic>
+       CCR9
+      </italic>
+      ), including chemokine receptors and the SLC6A20 gene that encodes for a transporter protein known to interact with ACE2. Following up on these findings may reveal additional insights into the influence of genetic factors on clinical outcomes to COVID‐19.
+     </p>
+    </sec>
+    <sec id="imr12897-sec-0009">
+     <label>
+      5.4
+     </label>
+     <title>
+      Inflammatory factors and IL‐6
+     </title>
+     <p>
+      The critical role of exaggerated inflammatory responses leading to pathology associated with SARS‐CoV‐2, SARS‐CoV‐1, and MERS infections has been recently reviewed.      The release of proinflammatory cytokines (eg, IL‐6, IL‐1β, TNFα) in the course of infection, referred as “cytokine storm,” is associated with the development of severe alveolar damage and lung inflammation/pathology characteristic of the acute respiratory distress syndrome.      Among the factors associated with increased COVID‐19 severity and lethal outcome (ie, older age, comorbidities, lymphopenia, secondary infections), increased levels of ferritin, D‐dimer, C‐reactive protein, and increased cytokine levels of IL‐2R, IL‐6, IL‐10, and TNF‐α (
+      <italic>
+       P
+      </italic>
+      ‐value &lt; .001;
+      <italic>
+       P
+      </italic>
+      ‐value = .04;
+      <italic>
+       P
+      </italic>
+      ‐value = .001 and
+      <italic>
+       P
+      </italic>
+      ‐value = .04, respectively, when comparing severe vs mild COVID‐19 cases) were reported to correlate with COVID‐19 disease severity.      In addition, chronic inflammation is one of the key characteristics of aging, obesity, and some of the associated comorbidities (eg, hypertension, diabetes) that influence the clinical course and outcome of COVID‐19. The combination of antiviral therapeutics and cytokines is already in clinical trials for the treatment of mild‐to‐moderate COVID‐19.      IL‐6 is a central proinflammatory cytokine with pleiotropic functions and specific effects in the lung microenvironment during viral infections. It can have opposing effects by stimulating adaptive immune responses by antigen‐specific B cells and CD8 + T cells and facilitating the survival of phagocytes, but it can also promote imbalanced Th2 and Th17 T cell differentiation over Th1 T cell differentiation, enhance lung tissue damage, edema, and vascular permeability, and facilitate the infiltration of proinflammatory macrophages and neutrophils.      It has been demonstrated that COVID‐19 pneumonia is characterized by immune system dysregulation with excessive production of IL‐6 and that elevated IL‐6 levels were associated with and can predict respiratory failure and death in COVID‐19 patients.      ,      ,      ,      In view of the role of IL‐6 in COVID‐19‐associated pathology, different anti‐IL‐6 therapeutics have been considered for the treatment of severe COVID‐19, including a monoclonal antibody/Sarilumab, which blocks the IL‐6 receptor, that is currently in clinical trials.      The first studies suggesting the role of IL‐6 polymorphisms in the progression of COVID‐19 are underway.      ,      Using meta‐analysis, a recent study analyzed 671 severe cases of bacterial and viral non‐COVID‐19 pneumonia and 2910 non‐severe case of bacterial and viral pneumonia and found a significant association of the IL‐6‐174C allele (associated with a higher IL‐6 level) with pneumonia severity (C allele vs G allele, OR: 1.33, 95% CI1.04‐1.69,
+      <italic>
+       P
+      </italic>
+      ‐value = .019).      Given the importance of host genetic factors for infectious disease susceptibility and pathogenesis, the probable link between IL‐6 genetic polymorphisms and COVID‐19 warrants comprehensive investigation in large population based studies.
+     </p>
+     <sec id="imr12897-sec-0010">
+      <label>
+       5.4.1
+      </label>
+      <title>
+       COVID‐19 host genetics initiative
+      </title>
+      <p>
+       While reports on the association between viral/host genetics and COVID‐19 susceptibility are still scarce, massive initiatives are currently being undertaken to promote research in this area. The COVID‐19 Host Genetics Initiative       was recently established as a global resource for the generation and exchange of genomic data related to COVID‐19 susceptibility.       As of this writing, more than 190 studies—including several large biobank repositories—are registered with this initiative. The COVID Human Genetic Effort,       another international consortium recently established by the National Institutes of Health and Rockefeller University, which is focused on identifying monogenic variations that underlie COVID‐19 severity or resistance to SARS‐CoV‐2 infection. The Genetics of Mortality in Critical Care (GenOMICC) consortium       recently partnered with Genomics England, Illumina, and United Kingdom National Health Service to sequence the genomes of 20 000 patients hospitalized with COVID‐19. Consumer genetics companies—such as 23andMe and Ancestry—have also initiated efforts to conduct GWAS studies related to COVID‐19 susceptibility and disease severity. Large‐scale studies and consortiums such as these will allow the rapid advancement of science in order to identify and better understand the genetic determinants of SARS‐CoV‐2 infection and immune response.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0011">
+    <label>
+     6
+    </label>
+    <title>
+     SARS‐COV‐2 GENETIC VARIANTS
+    </title>
+    <p>
+     This review has focused on the effect of host genetic variation on disease susceptibility. Alterations in the virus genome, through mutation or recombination events, also have the potential to affect all aspects of the viral life cycle, including transmissibility, cellular tropism, and disease severity. In fact, mutations within the SARS‐CoV‐2 genome are the simplest explanation for the wide variety of clinical outcomes observed with COVID‐19. The genomes of single‐stranded RNA viruses accumulate mutations at a rate of 10     ‐10     per replication cycle,     which is significantly faster than the mutation rate for the human genome (10     per generation).     This leads to the accrual of numerous quasi‐species within a single infected individual, which may account for the observed differences in symptoms and disease severity.     Mutations among viral progeny may result in altered ACE2 binding interactions or shifted tissue tropism that promotes more or less aggressive and widespread infections. Research is needed to investigate SARS‐CoV‐2 mutations within infected individuals to determine if there is a causal relationship between the emergence of specific mutations and disease severity or the spread of infection to specific tissues.
+    </p>
+    <p>
+     Certain mutations may provide a virus with distinct evolutionary advantages, such as changing a primary epitope to mediate escape from the host immune system or altering virulence factors to enhance transmission. These mutations may become established as a result of natural selection or vaccine selective pressure and subsequently give rise to new viral strains.     Forster et al reported the identification of three major variant types (A, B, C) of SARS‐CoV‐2 following phylogenetic analysis of 160 viral genomes.     Interestingly, the B‐type viruses (T8782C + C28144T) were constrained to East Asia, while the A (T29095C) and C‐type (T8782C + C28144T + G26144T) viruses were predominant in Europe and North America, which suggests that selective events have already occurred to allow the spread of SARS‐CoV‐2 variants beyond Asia. Real‐time monitoring of global viral spread     ,     suggests that as many as eight strains of SARS‐CoV‐2 are currently circulating, although they continue to maintain a high degree of sequence similarity. This is consistent with observations from epidemiologic studies in Italy and the United States, suggesting that only 4‐10 stable non‐synonymous mutations have been introduced into the SARS‐CoV‐2 genome since its emergence in Wuhan several months ago.     ,     It is important to note that one such mutation in the S protein (D614G) appears to significantly increase the transmissibility of SARS‐CoV‐2, with strains harboring this mutation spreading rapidly throughout Europe and the United States since their origin.     It has been reported that individuals infected with the 614D variant have a higher case fatality rate that individuals infected with the 614G variant.     The authors suggest that differential S protein stability (and binding to ACE2) may play a role in the varying disease courses.
+    </p>
+    <p>
+     While the genome of SARS‐CoV‐2 appears to be relatively stable, continued surveillance for mutations remains crucial. Vaccine and therapeutic development could be undermined by the introduction of stable mutations that alter epitopes or antiviral binding sites, and mutations that alter infectious processes may give rise to strains that cause more (or less) severe disease. A limited number of studies have undertaken comparative analyses to monitor the emergence of new SARS‐CoV‐2 variants. Pachetti and colleagues characterized eight recurrent mutations across 220 clinical samples, one of which (P323L) was proximal to a putative antiviral binding site in the RNA‐dependent RNA polymerase (RdRp).     Similar mutations in the RdRp of other viruses have been associated with resistance to antiviral therapy.     ,     Jia et al recently reported phylogenetic analysis of the viral S glycoprotein from 106 SARS‐CoV‐2 isolates from 11 countries.     While the S glycoprotein was largely conserved among these samples, a variant from India was identified with a mutation (R408I) in the receptor‐binding domain (RBD) and was predicted to significantly alter ACE2 binding affinity.     A larger study by Ou et al identified 32 non‐synonymous mutations in the S glycoprotein RBD across 1609 viral genomes and employed molecular dynamics simulations to characterize their binding with ACE2.     Three of these variants (V367F, W436R, and D364Y) were predicted to have binding affinities for ACE2 that were 100‐fold higher than wildtype SARS‐CoV‐2, suggesting that these variants may be more infectious.
+    </p>
+    <p>
+     A single study from China has reported that patient‐derived variants of SARS‐CoV‐2 harboring mutations in the S glycoprotein demonstrate markedly different infectivity in vitro.     The authors used ultra‐deep sequencing to characterize 11 viral isolates from a hospital near Wuhan, China. They identified 33 unique mutations (6 in the S glycoprotein), with some variants demonstrating significantly greater cytopathology in Vero E6 cells relative to other viral isolates. While this certainly demonstrates the potential for mutations to drastically alter SARS‐CoV‐2 pathogenicity, we should point out that these results are derived from an in vitro assay employing a non‐human cell line. Furthermore, the studies assessing the effects of S glycoprotein mutations on ACE2 binding affinity are currently limited to computational modeling.     ,     The development of biological assays employing human cell‐based systems are greatly needed in order to validate the results of these early studies and reliably assess the pathogenic potential of SARS‐CoV‐2 variants.
+    </p>
+    <p>
+     A recent report of a SARS‐CoV‐2 genome‐wide SNP association study using 152 full length viral genomes identified a SNP at nucleotide 11 083 associated with COVID‐19 severity. This SNP is located in the non‐structural nsp6 protein.     The authors also identified three host miRNAs (miR‐485‐3p, miR‐539‐3p, and miR‐3149) that target this region of the genome when it contains the 11083G variant but not when it contains 11083T; they speculate that the G variant may sequester these miRNA species, which leads to alterations in the biological pathways (cell proliferation and autophagy) controlled by these miRNAs.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0012">
+    <label>
+     7
+    </label>
+    <title>
+     UNANSWERED QUESTIONS
+    </title>
+    <p>
+     Improving fundamental knowledge of SARS‐CoV‐2 and COVID‐19 is a critical component of the NIAID Strategic Plan for COVID‐19 Research initiative that is aligned with the priorities set by US Government to combat the burden of global COVID‐19 pandemic.     Currently, we do not understand all of the contributing factors to the COVID‐19 pandemic. Elucidating the underlying biology behind COVID‐19 susceptibility is critical to mitigating this disease. Current evidence suggests that genetic variations contribute to inter‐individual variability in immunity in humans. These human genetic factors (genetic variants) may affect innate and adaptive immune responses to SARS‐CoV‐2 and COVID‐19 susceptibility. Genetic variants and their role in controlling immunity to SARS‐CoV‐2 remain unknown. Research efforts to gain a fundamental understanding of epigenetic mechanisms (eg, histone modifications, DNA methylation, and chromatin organization) in innate/cytokine immune response to SARS‐CoV‐2 infection and disease outcome are certainly needed and will help to inform the design of COVID‐19 vaccine candidates.
+    </p>
+    <p>
+     We now understand how two host cell factors, ACE2 and TMPRSS2, are being used by SARS‐CoV‐2 virus for cell entry and spike protein priming.     We are learning more about the concomitant proinflammatory cytokine “storm” phenomenon, particularly in young patients, resulting from COVID‐19. A recent modeling study exploring structural analysis of human ACE2 polymorphic variants and SARS‐CoV‐2 S protein complexes has identified two ACE2 polymorphisms (rs73635825 [S19P] and rs143936283 [E329G]) that may have a functional impact on susceptibility/resistance against SARS‐CoV‐2 infection.     In this regard, further work is required to determine specific host genetic variants in
+     <italic>
+      ACE2
+     </italic>
+     ,
+     <italic>
+      TMPRSS2
+     </italic>
+     ,
+     <italic>
+      CD147
+     </italic>
+     ,
+     <italic>
+      MIF
+     </italic>
+     , cytokine, and other SARS‐CoV‐2‐related host genes and their functional effects that correspond with differential severity to COVID‐19 infection (Figure     ). Consequently, innate, humoral, and cellular genetic risk signatures of infection and/or clinical disease severity can be developed. Replication studies will be critical to the evaluation of significant associations with specific variants in disease susceptibility genes.
+    </p>
+    <p>
+     The novel characteristics of SARS‐CoV‐2 and the general COVID‐19 knowledge gap are impediments to the development of safe and effective vaccines against SARS‐CoV‐2, diagnostics/assays, antivirals, monoclonal antibodies, and outbreak control medical countermeasures that decrease diseases incidence and prevent mortality.     In particular, there is a critical need for both an improved understanding of protective immunity to SARS‐CoV‐2 and for effective and safe vaccines against COVID‐19. Given the global spread of the COVID‐19 pandemic, multiple vaccine candidates for SARS‐CoV‐2 are urgently being developed utilizing diverse technological platforms.     ,     Understanding how SARS‐CoV‐2 interacts with host antiviral defense mechanisms must be considered a research priority, as new vaccines against COVID‐19 are unlikely to be created without this fundamental knowledge. Furthermore, the immunological correlates of protection against COVID‐19 remain undefined. Many questions must be answered concerning genetic variations, cellular components, and molecular mechanisms that are necessary for vaccine‐induced protection and development of the memory CD4 + T, CD8 + T, and B cells. Measures of immune durability in different individuals to these new SARS‐CoV‐2 vaccines are critically needed. In the near future, we assert it will be feasible to identify interrelationships between humoral and cellular immunity and to identify a transcriptomic and/or functional molecular signature(s) of protective immunity to SARS‐CoV‐2.
+    </p>
+    <p>
+     Both host genetic differences and environmental factors may contribute to variability in immune responses to pathogens. For this reason, the outcome of COVID‐19 is, in part, controlled by the SARS‐CoV‐2‐host interaction. Clinical and serologic studies have demonstrated that SARS‐CoV‐2 infection and disease severity can be remarkably heterogeneous, with illness severity ranging from mild to critical.     The functional basis for this predisposition is currently unknown. It is essential to conduct population‐based studies integrating immunogenetics with functional analysis of genetic variants to ensure the understanding of inter‐individual variability in immune response to COVID‐19 and candidate SARS‐CoV‐2 vaccines. Indeed, it is now clear that it is important to use the tools of molecular biology, genetics, immunology, bioinformatics, genetic epidemiology, and statistical genetics to comprehensively define how—and to what degree—inter‐individual variations in SARS‐CoV‐2 susceptibility and subsequent immune responses are determined by gene polymorphisms.
+    </p>
+    <p>
+     To date, there are no systems biology studies that have examined the molecular risk signatures of SARS‐CoV‐2 infection and/or differential severity to COVID‐19 infection, followed by a validation of the mechanism by which any identified signature functions. High‐dimensional DNA (DNA‐Seq) and RNA (RNA‐Seq) sequencing may help discover mechanisms that control gene expression and gene/geneset molecular signatures associated with SARS‐CoV‐2 infection and disease severity. State‐of‐the‐art “omics” technologies, such as single‐cell mRNA sequencing, mass cytometry, proteomics, metabolomics, epigenetics, multiplex cytokine/chemokine measurements, bioinformatics, and others, will need to be applied to identify specific susceptibility markers and precise correlates of protection for immunity with applications to SARS‐CoV‐2 virus or vaccine‐induced immunity. Thus, current scientific efforts demonstrate a crucial need for COVID‐19 host genetics studies.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0013">
+    <label>
+     8
+    </label>
+    <title>
+     PROPOSED RESEARCH AGENDA
+    </title>
+    <p>
+     A critical step toward fully comprehending disease pathogenesis, prevention, and treatment will be attaining a comprehensive understanding of SARS‐CoV‐2 and human host genetics. Although it is an enormous and ongoing task, it is critical to understand viral evolution over time and geography, genetic epidemiology, immune response to virus and vaccines, and how and why different populations experience different manifestations and severity of disease. Such studies must be geographically diverse and take into consideration change over time. For example, as the SARS‐CoV‐2 virus accumulates mutations and unique recombination events, differences in clinical manifestations could result. Similarly, vaccines, monoclonal antibodies, and antivirals developed against one clade of the virus may be more or less effective against another clade of virus. Worse, it is possible that specific viral mutations could occur that increase the risk of antibody‐enhanced disease in prior vaccinees over time.     Antibody‐dependent enhancement (ADE) of disease occurs when non‐ or sub‐neutralizing antibodies bind to a virus and promote its uptake into host cells via alternative mechanisms—most commonly through Fc receptors expressed on the surface of phagocytic immune cells. ADE has been proposed as a potential cause for the severity of COVID‐19 in certain individuals, wherein mutations in the SARS‐CoV‐2 spike protein undermine the initial host antibody response and result in unstable virus‐antibody complexes that promote infection of monocytes and macrophages in numerous tissues, leading to widespread apoptosis of immune cells and the development of a cytokine storm.     Indeed, acute lung injury was observed following viral challenge of vaccinated mice and non‐human primates in trials of SARS‐CoV‐1 candidate vaccines,     ,     and pronounced hepatitis was observed among vaccinated ferrets,     suggesting that ADE may be a concern for vaccine development efforts against SARS‐CoV‐2. A Th2‐biased cellular immune response following vaccination can also predispose individuals to enhanced disease upon viral infection. The production of Th2‐associated cytokines (eg, IL‐4, IL‐5, IL‐13) potentiates granulocyte infiltration, enhanced mucus production, and dampened cytotoxic T cell activity in the respiratory tract, ultimately leading to impaired respiratory function and a significant reduction in viral clearance.     ,     For these reasons, viral genetic sequencing studies over time and geography are critical.
+    </p>
+    <p>
+     Host genetic studies are much more expensive and complex. Such studies run from candidate gene to GWAS and epigenetic studies. Current observations suggest that although infection rates seem to be similar, disease severity appears to be worse in males vs females,     ,     ,     ,     ,     that racial differences in disease severity may also occur,     ,     ,     and that differences in morbidity and mortality vary by age group. The basis for these differences remains unclear.
+    </p>
+    <p>
+     From a viral and host genetics point of view, there are critical knowledge gaps that direct our research agenda. Examples include the following:
+     <list id="imr12897-list-0001" list-type="bullet">
+      <list-item>
+       <p>
+        Understanding the role of ACE2, TMPRSS2, and other specific candidate host genes on COVID‐19 infection, severity, and disease outcome.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Performing candidate gene, epigenetic, and GWAS studies across different racial and ethnic populations in order to identify genes and haplotypes associated with differential factors of infection and clinical outcome, as well as vaccine response.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Systems genetic and biology studies to understand differential and interacting genetic effects on disease severity and outcome through the lens of the immune response network theory.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Studies of any differential effect of viral mutations and recombination events on differential disease severity in the context of host comorbidities and medication usage that blocks, suppresses, or activates differential host gene expression (eg, ACE2, TMPRSS2, etc).
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Understanding SAR‐CoV‐2 viral genetics over time and geography—particularly in terms of number and frequency of viral mutations and recombination events and their relationship to viral infectivity, transmissibility, disease severity, and clinical phenotype, viral burden, disease outcome, etc.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Understanding potential interactions between SARS‐CoV‐2 and other respiratory co‐infections (notably, between 20%‐90% of COVID‐19 patients in the United States were co‐infected with at least one other respiratory pathogen).
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Understanding interactions and functional effects of various viral point mutations and recombination events on therapeutic monoclonal antibody, antiviral, and vaccine efficacy and possible adverse events.
+       </p>
+      </list-item>
+     </list>
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="imr12897-sec-0015" sec-type="COI-statement">
+    <title>
+     CONFLICT OF INTEREST
+    </title>
+    <p>
+     Dr Poland is the chair of a Safety Evaluation Committee for novel investigational vaccine trials being conducted by Merck Research Laboratories. Dr Poland offers consultative advice on vaccine development to Merck &amp; Co. Inc, Avianax, Adjuvance, Valneva, Medicago, Sanofi Pasteur, GlaxoSmithKline, and Emergent Biosolutions. Drs. Poland and Ovsyannikova hold three patents related to measles and vaccinia peptide research. Dr Kennedy holds a patent on vaccinia peptide research. Dr Kennedy has received funding from Merck Research Laboratories to study waning immunity to measles and mumps after immunization with the MMR‐II     vaccine. Drs. Poland, Kennedy, and Ovsyannikova have received grant funding from ICW Ventures for preclinical studies on a peptide‐based COVID‐19 vaccine. All other authors declare no competing financial interests. This research has been reviewed by the Mayo Clinic Conflict of Interest Review Board and was conducted in compliance with Mayo Clinic Conflict of Interest policies.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

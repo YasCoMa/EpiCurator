@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Design of a companion bioinformatic tool to detect the emergence and geographical distribution of SARS-CoV-2 Spike protein genetic variants.
+ </title>
+ <abstract>
+  <AbstractText Label="BACKGROUND">
+   Tracking the genetic variability of Severe Acute Respiratory Syndrome CoronaVirus 2 (SARS-CoV-2) is a crucial challenge. Mainly to identify target sequences in order to generate robust vaccines and neutralizing monoclonal antibodies, but also to track viral genetic temporal and geographic evolution and to mine for variants associated with reduced or increased disease severity. Several online tools and bioinformatic phylogenetic analyses have been released, but the main interest lies in the Spike protein, which is the pivotal element of current vaccine design, and in the Receptor Binding Domain, that accounts for most of the neutralizing the antibody activity.
+  </AbstractText>
+  <AbstractText Label="METHODS">
+   Here, we present an open-source bioinformatic protocol, and a web portal focused on SARS-CoV-2 single mutations and minimal consensus sequence building as a companion vaccine design tool. Furthermore, we provide immunogenomic analyses to understand the impact of the most frequent RBD variations.
+  </AbstractText>
+  <AbstractText Label="RESULTS">
+   Results on the whole GISAID sequence dataset at the time of the writing (October 2020) reveals an emerging mutation, S477N, located on the central part of the Spike protein Receptor Binding Domain, the Receptor Binding Motif. Immunogenomic analyses revealed some variation in mutated epitope MHC compatibility, T-cell recognition, and B-cell epitope probability for most frequent human HLAs.
+  </AbstractText>
+  <AbstractText Label="CONCLUSIONS">
+   This work provides a framework able to track down SARS-CoV-2 genomic variability.
+  </AbstractText>
+ </abstract>
+</article>

@@ -1,0 +1,24 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+2700067	body	A3G|-|CY|and|CD1|domain|mutant|H65R|-|CY|,|F70A|-|CY|,|and|Y91A|-|CY|be|transfecte|into|293T|cell|with|and|without|Vif|expression|plasmid|.	A3G|H65R|F70A|Y91A|Vif	5
+2700067	body	We|seek|to|determine|whether|the|RNA|-|bind|defective|mutant|H65R|-|CY|,|F70A|-|CY|,|and|Y91A|-|CY|be|sensitive|to|Vif|binding|and|proteasomal|degradation|(|Fig|.	H65R|F70A|Y91A|Vif	4
+2700067	body	We|cotransfecte|A3G|-|CY|,|H65R|-|CY|,|F70A|-|CY|,|and|Y91A|-|CY|in|the|presence|or|absence|of|pcDNA|-|hVif|,|a|codon|-|optimize|Vif|expression|vector|[|40|]|,|and|perform|western|blot|analysis|.	A3G|H65R|F70A|Y91A|hVif	5
+2700067	body	(|D|)|Western|blotting|analysis|of|lysate|of|293T|cell|and|viral|lysate|produce|from|cell|transfecte|with|CD1|mutant|F70A|-|NY|,|F70A|-|CY|,|Y91A|-|NY|,|and|Y91A|-|CY|.	CD1|mutants|F70A|F70A|Y91A|Y91A	6
+2700067	body	(|E|)|BiFC|assay|with|CD1|mutant|F70A|and|Y91A|.	CD1|mutants|F70A|Y91A	4
+2700067	body	To|address|this|concern|,|we|generate|F70A|-|NY|,|F70A|-|CY|,|Y91A|-|NY|,|and|Y91A|-|CY|construct|that|have|mutation|of|the|aromatic|residue|F70|and|Y91|that|be|previously|implicate|as|be|critical|for|RNA|binding|[|18|,|41|]|.	F70A|F70A|Y91A|Y91A|Y91	5
+2700067	body	The|F70A|-|NY|and|Y91A|-|NY|reconstitute|weak|fluorescence|with|wild|-|type|A3G|-|CY|,|indicate|that|the|low|expression|level|of|these|mutant|be|not|responsible|for|the|lack|of|fluorescence|(|show|in|Fig|.	F70A|Y91A|wild|-|type|A3G	6
+2700067	body	We|also|determine|whether|CD1|domain|mutant|that|be|defective|in|RNA|binding|,|H65R|-|NY|,|F70A|-|NY|and|Y91A|-|NY|could|interact|with|Gag|-|CY|to|reconstitute|YFP|fluorescence|(|Fig|.	CD1|domain|mutants|H65R|F70A|Y91A|Gag	7
+2700067	body	9A|-|III|)|,|or|Y91A|-|NY|(|Fig|.	9A|Y91A	2
+2700067	body	(|E|)|BiFC|assay|to|evaluate|interaction|between|HIV|-|1|Gag|and|RNA|-|bind|defective|A3G|mutant|H65R|,|F70A|,|and|Y91A|.	F70A|Y91A	2
+2700067	body	Similarly|,|the|RNA|-|bind|defective|mutant|F70A|-|NY|,|Y91A|-|NY|,|and|H65R|-|NY|reconstitute|weak|fluorescence|with|wild|-|type|A3G|-|CY|(|Fig|.	F70A|Y91A|H65R|wild|-|type|A3G	7
+2700067	body	When|both|fusion|protein|be|unable|to|bind|to|RNA|(|H65R|-|NY|+|H65R|-|CY|,|F70A|-|NY|+|F70A|-|CY|,|and|Y91A|-|NY|+|Y91A|-|CY|)|,|less|than|0.1|%|of|the|mRFP+|cell|be|YFP+|.	fusion|proteins|H65R|NY|+|H65R|F70A|F70A|Y91A|Y91A	10
+2700067	body	As|note|above|,|when|one|of|the|A3G|fusion|protein|be|RNA|-|bind|competent|and|the|other|fusion|protein|be|RNA|-|bind|defective|(|H65R|-|NY|+|A3G|-|CY|,|F70A|-|NY|+|A3G|-|CY|,|and|Y91A|-|NY|+|A3G|-|CY|)|,|fluorescence|be|reconstitute|in|35|–|40|%|of|the|mRFP+|cell|.	A3G|fusion|proteins|fusion|protein|H65R|A3G|F70A|A3G|Y91A|A3G	11
+2700067	body	The|result|show|that|compare|to|the|A3G|-|NY|and|A3G|-|CY|positive|control|,|the|fluorescence|intensity|of|YFP+|cell|be|10–15|%|when|the|cell|express|A3G|-|CY|and|RNA|-|bind|defective|mutant|H65R|-|NY|,|F70A|-|NY|or|Y91A|-|NY|.	A3G|A3G|A3G|H65R|F70A|Y91A	6
+2700067	body	First|,|it|be|unlikely|that|all|three|CD1|domain|mutation|(|H65R|,|F70A|,|and|Y91A|)|cause|conformational|change|that|result|in|the|loss|of|a|direct|protein|-|protein|interaction|.	CD1|H65R|F70A|Y91A|direct|protein	6
+2700067	body	A3G|BiFC|construct|contain|H65R|,|C97S|,|F70A|,|Y91A|,|H257R|,|or|C288S|mutation|be|generate|by|the|QuikChange|Mutagenesis|Kit|(|Stratagene|)|.	H65R|C97S|F70A|Y91A|H257R	5
+2843411	body	Der|p|2|(|Y91A|)|be|generate|by|PCR|-|mediate|mutagenesis|.	Der|p|2|Y91A	4
+2843411	body	The|ability|of|Der|p|2|(|Y91A|)|to|bind|TLR4|be|consistent|with|crystallographic|datum|that|do|not|show|direct|involvement|of|MD|-|2|Tyr102|in|the|TLR4|interaction4|.	Der|p|2|Y91A|TLR4|TLR4	6
+2843411	body	On|the|other|hand|,|mutant|(|Y91A|)|Der|p|2|fail|to|induce|experimental|allergic|asthma|(|Suppl|Fig|.	mutant|(|Y91A|)|Der|p|2	7
+3794927	body	Similarly|,|the|activity|of|all|agonist|be|affect|by|Y91A|and|N244A|mutation|;|however|,|the|effect|be|more|drastic|on|the|potency|of|fasiglifam|and|GW9508|(|Figure|5E|,|I|and|Table|S2|)|.	Y91A	1
+3794927	body	HEK293T|cell|be|transiently|transfecte|with|mock|vector|(|B|)|,|wild|-|type|(|C|)|,|S8A|(|D|)|,|Y91A|(|E|)|,|H137A|(|F|)|,|R183A|(|G|)|,|L186F|(|H|)|,|N244A|(|I|)|,|and|R258A|(|J|)|construct|.	wild|-|type|(|C|)|S8A|Y91A|R183A|L186F|N244A	11
+6927759	body	Two|of|these|seven|variant|,|namely|VL|Y55A|and|Y91A|,|also|retain|antigen|-|binding|affinity|for|GCGR|,|a|desirable|attribute|for|a|potential|antibody|clinical|candidate|(|Table|3|)|.10.1080|/|19420862.2019.1692764|-|T0003Table|3.Antigen|-|bind|kinetic|and|viscosity|of|anti|-|GCGR|antibody|variant|.	VL|Y55A|Y91A|GCGR|T0003Table|3.Antigen|-|GCGR	8
+6748609	body	As|few|as|two|alanine|replacement|in|CDR|L3|,|namely|VL|Y91A|:|Y94A|,|abolish|the|high|bispecific|yield|(|84|%|to|23|%|)|.	CDR|L3|VL|Y91A|Y94A	5

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Benchmarking evolutionary tinkering underlying human-viral molecular mimicry shows multiple host pulmonary-arterial peptides mimicked by SARS-CoV-2.
+ </title>
+ <abstract>
+  <AbstractText>
+   The hand of molecular mimicry in shaping SARS-CoV-2 evolution and immune evasion remains to be deciphered. Here, we report 33 distinct 8-mer/9-mer peptides that are identical between SARS-CoV-2 and the human reference proteome. We benchmark this observation against other viral-human 8-mer/9-mer peptide identity, which suggests generally similar extents of molecular mimicry for SARS-CoV-2 and many other human viruses. Interestingly, 20 novel human peptides mimicked by SARS-CoV-2 have not been observed in any previous coronavirus strains (HCoV, SARS-CoV, and MERS). Furthermore, four of the human 8-mer/9-mer peptides mimicked by SARS-CoV-2 map onto HLA-B*40:01, HLA-B*40:02, and HLA-B*35:01 binding peptides from human PAM, ANXA7, PGD, and ALOX5AP proteins. This mimicry of multiple human proteins by SARS-CoV-2 is made salient by single-cell RNA-seq (scRNA-seq) analysis that shows the targeted genes significantly expressed in human lungs and arteries; tissues implicated in COVID-19 pathogenesis. Finally, HLA-A*03 restricted 8-mer peptides are found to be shared broadly by human and coronaviridae helicases in functional hotspots, with potential implications for nucleic acid unwinding upon initial infection. This study presents the first scan of human peptide mimicry by SARS-CoV-2, and via its benchmarking against human-viral mimicry more broadly, presents a computational framework for follow-up studies to assay how evolutionary tinkering may relate to zoonosis and herd immunity.
+  </AbstractText>
+ </abstract>
+</article>

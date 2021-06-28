@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.w3.org/1998/Math/MathML">
+ <title>
+  The impact of HLA class I and EBV latency‐II antigen‐specific CD8
+ </title>
+ <abstract>
+  <p>
+   In 40% of cases of classical Hodgkin lymphoma (cHL), Epstein–Barr virus (EBV) latency‐II antigens [EBV nuclear antigen 1 (EBNA1)/latent membrane protein (LMP)1/LMP2A] are present (EBV   cHL) in the malignant cells and antigen presentation is intact. Previous studies have shown consistently that HLA‐A*02 is protective in EBV   cHL, yet its role in disease pathogenesis is unknown. To explore the basis for this observation, gene expression was assessed in 33 cHL nodes. Interestingly, CD8 and LMP2A expression were correlated strongly and, for a given LMP2A level, CD8 was elevated markedly in HLA‐A*02
+   <italic>
+    versus
+   </italic>
+   HLA‐A*02   EBV   cHL patients, suggesting that LMP2A‐specific CD8   T cell anti‐tumoral immunity may be relatively ineffective in HLA‐A*02   EBV   cHL. To ascertain the impact of HLA class I on EBV latency antigen‐specific immunodominance, we used a stepwise functional T cell approach. In newly diagnosed EBV   cHL, the magnitude of
+   <italic>
+    ex‐vivo
+   </italic>
+   LMP1/2A‐specific CD8   T cell responses was elevated in HLA‐A*02   patients. Furthermore, in a controlled
+   <italic>
+    in‐vitro
+   </italic>
+   assay, LMP2A‐specific CD8   T cells from healthy HLA‐A*02 heterozygotes expanded to a greater extent with HLA‐A*02‐restricted compared to non‐HLA‐A*02‐restricted cell lines. In an extensive analysis of HLA class I‐restricted immunity, immunodominant EBNA3A/3B/3C‐specific CD8   T cell responses were stimulated by numerous HLA class I molecules, whereas the subdominant LMP1/2A‐specific responses were confined largely to HLA‐A*02. Our results demonstrate that HLA‐A*02 mediates a modest, but none the less stronger, EBV‐specific CD8   T cell response than non‐HLA‐A*02 alleles, an effect confined to EBV latency‐II antigens. Thus, the protective effect of HLA‐A*02 against EBV   cHL is not a surrogate association, but reflects the impact of HLA class I on EBV latency‐II antigen‐specific CD8   T cell hierarchies.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="cei12716-sec-0001">
+    <title>
+     Introduction
+    </title>
+    <p>
+     Epstein–Barr virus (EBV) is a ubiquitous, persistent B cell‐trophic virus that typically establishes a benign infection of minimal clinical consequence. However, in a minority of hosts, EBV is associated with particular malignancies. In these conditions, EBV resides within the malignant cell in a restricted state of latent antigen expression. The frequency of association and expression of latent proteins is distinctive to the type of cancer. In classical Hodgkin lymphoma (cHL), approximately 40% of cases are associated with EBV (EBV     cHL), and virus expression in the Hodgkin–Reed–Sternberg (HRS) cells is limited to the EBV nuclear antigen 1 (EBNA1) and latent membrane proteins (LMP1 and LMP2)     ,     ,     . These are collectively termed EBV latency‐II antigens, a pattern of expression also observed in undifferentiated nasopharyngeal carcinoma. EBV     cHL is characterized by intact human leucocyte antigen (HLA) class I antigen processing and presentation     ,     ,     ,     , enabling successful treatment of relapsed EBV     cHL by adoptive immunotherapy targeting EBV latency‐II antigens     ,     ,     ,     .
+    </p>
+    <p>
+     A well‐established hierarchy exists among CD8     T cell responses that target EBV latency antigens. In particular, EBV latency‐III antigens EBNA3A/3B/3C are immunodominant, whereas the EBV latency‐II antigens (EBNA1/LMP1/LMP2A) are subdominant and more challenging to detect without
+     <italic>
+      in‐vitro
+     </italic>
+     expansion     ,     . However, the impact of HLA class I on EBV latency antigen‐specific CD8     T cell immunity has not been determined systematically. Interestingly, large epidemiological and genomewide association studies have consistently reported differential HLA class I susceptibility to EBV     cHL (Supporting information, Table S1)     ,     ,     ,     . In western European populations, HLA‐A*01 and HLA‐B*37 are associated with increased susceptibility to EBV     cHL, while HLA‐A*02 is associated with protection     ,     ,     . By contrast, the HLA‐A*02 subtype HLA‐A*0207, which presents HLA‐A*0201‐restricted LMP2A‐derived peptides poorly     , is over‐represented in northern Chinese EBV     cHL patients     . Non‐HLA‐linked genetic susceptibility loci have also been identified for cHL, as has a single nucleotide polymorphism (SNP) found in association with an HLA class II locus. However, these associations were not specific for EBV     cHL     ,     ,     .
+    </p>
+    <p>
+     The aim of this study was to understand the role of HLA class I in the pathogenesis of EBV     cHL. The presentation of viral peptide determinants by HLA‐A*02 and non‐HLA‐A*02 molecules provides a potential mechanistic link between EBV latency‐II‐specific CD8     T cell immunity and the described genetic associations with EBV     cHL. However, there are many genes with diverse functions in close proximity to HLA class I. Therefore, such associations may simply reflect linkage disequilibrium between HLA class I and the ‘true’ predisposition locus. To distinguish these possibilities, we analysed the impact of HLA‐A*02 and non‐HLA‐A*02 molecules on EBV latency‐II antigen‐specific effector CD8     T cell immunity in EBV     cHL.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cei12716-sec-0002">
+    <title>
+     Materials and methods
+    </title>
+    <sec id="cei12716-sec-0003">
+     <title>
+      Sample cohorts
+     </title>
+     <p>
+      Blood samples and diseased tissue from newly diagnosed cHL patients and blood samples from healthy participants were acquired as part of an Australasian Leukaemia and Lymphoma Group prospective observational study. EBV association was confirmed via EBV‐encoded‐RNA
+      <italic>
+       in‐situ
+      </italic>
+      hybridization (EBER‐ISH), as described previously      . Peripheral blood mononuclear cells (PBMCs) were isolated and cryopreserved in 90% fetal bovine serum (FBS) with 10% dimethylsulphoxide (DMSO). This study conformed to the Declaration of Helsinki and was approved by the Human Research Ethics Committees at all participating institutions. Written informed consent was obtained in all cases.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0004">
+     <title>
+      Digital multiplex gene expression by NanoString nCounter
+     </title>
+     <p>
+      Nucleic acid was extracted from 33 cHL formalin‐fixed paraffin‐embedded (FFPE) diseased node tissues (17 EBV      cHL, 16 EBV      cHL) using a RecoverAll Total Nucleic Acid Extraction Kit (Life Technologies, Paisley, UK). Gene expression profiling was conducted using the nCounter platform (NanoString Technologies). All analyses were performed using NCounter software. For normalization, gene expression data were controlled internally to the mean of the positive control probes to account for interassay variability. Gene normalization was performed using the geometric mean of four housekeeper genes [phosphoglycerate kinase 1 (PGK1), glyceraldehyde‐3‐phosphate dehydrogenase (GAPDH), phosphoglycerate mutase 1 (PGAM1), ornithine decarboxylase anti‐zyme 1(OAZ1)], selected as per the manufacturers recommendation.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0005">
+     <title>
+      <italic>
+       Ex‐vivo
+      </italic>
+      EBV‐specific CD8      T cell responses
+     </title>
+     <p>
+      Peptide pools (17‐mers overlapping by 10 amino acids) were synthesized to span the entire lengths of LMP1, LMP2A and
+      <italic>
+       Bam
+      </italic>
+      HI Z fragment leftward open reading frame 1 (BZLF1) (Synbiosci, San Francisco, CA, USA and Mimotopes, Notting Hill, VIC, Australia). Each individual peptide in each pool was used at a final concentration of 2 μg/ml to stimulate EBV‐specific CD8      T cells. Initially, PBMCs from 19 pretreatment EBV‐seropositive cHL patients (eight EBV      cHL, 11 EBV      cHL) were assayed. Subsequently, PBMCs from 14 EBV‐seropositive healthy volunteers were analysed at a separate site. PBMCs were resuspended in culture medium containing the co‐stimulatory antibodies αCD28 and αCD49d (1 μg/ml each; BD Pharmingen, Franklin Lakes, NJ, USA), brefeldin A (Golgi Plug, 10 μg/ml; BD Biosciences), monensin (Golgi Stop, 0.7 μg/ml; BD Biosciences) and fluorochrome‐labelled αCD107a. Each sample was divided into five stimulations: LMP1, LMP2A, BZLF1, an unstimulated control (co‐stimulation only) and a positive control comprising either
+      <italic>
+       Staphyloccoccus
+      </italic>
+      enterotoxin B (0·1 μg/ml; Sigma‐Aldrich, St Louis, MO, USA) or phorbol myristate acetate (10 ng/μl) with ionomycin (2 μg/ml). Cells were cultured overnight at 1–2 × 10      cells/ml in a 37°C, 5% CO
+      <sub>
+       2
+      </sub>
+      incubator. The following day, PBMCs were washed, labelled with a viability dye to enable dead cell exclusion and surface‐stained for CD3, CD4 and CD8. Cells were then fixed/permeabilized and stained intracellularly for interferon (IFN)‐γ and tumour necrosis factor (TNF)‐α. All staining procedures were conducted as described previously      . Samples were acquired on an LSRII flow cytometer (BD Biosciences) and data analysis was performed using FlowJo version 9·2 (TreeStar Inc., Ashland, OR, USA). The gating strategy followed previously published standard practice and is shown in Supporting information, Fig. S1      .
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0006">
+     <title>
+      LMP2A‐specific CD8      T cell expansion using monogenic HLA class I cell lines
+     </title>
+     <p>
+      Nine healthy EBV‐seropositive HLA‐A*02 heterozygotes (three HLA‐A*01/A*02, three HLA‐A*02/A*03 and three HLA‐A*01/A*02/B*08) were tested. PBMCs were stimulated with HLA class I‐deficient, EBV‐infected 721·221 lymphoblastoid cell lines transfected separately with HLA‐A*01, A*02, A*03 or B*08. Procedures were adapted from a previously published protocol      . Each transfected 721·221 cell line was pulsed with overlapping LMP2A peptide pools spanning the entire protein (Synbiosci). Peptides were divided into six pools (Supporting information, Table S2), each comprising 10–11 peptides at a final individual concentration of 10 μg/ml. These smaller pools at higher concentrations were used to maximize the antigen‐specific stimulus (a single pool of all 65 peptides at this high concentration would have been toxic). The corresponding unpulsed cells served as baseline controls in all experiments. Cultures were expanded for 10 days under standard conditions. The relative strength of the HLA class I‐restricted EBV‐specific CD8      T cell response was assessed using intracellular cytokine staining for IFN‐γ after a 5‐h restimulation. Samples were acquired on a fluorescence activated cell sorter (FACS)Canto flow cytometer (BD Biosciences) and data analysis was performed using FlowJo version 9·2 (TreeStar Inc.).
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0007">
+     <title>
+      <italic>
+       In‐vitro
+      </italic>
+      LMP2A‐specific CD8      T cell cytotoxicity
+     </title>
+     <p>
+      EBV‐specific T cells were expanded by repeated stimulation with autologous EBV‐transformed B cells for 6–8 weeks using a published expansion protocol      ,      in four EBV‐seropositive healthy control donors (two HLA‐A*02      and two HLA‐A*02      ). Direct lysis of autologous EBV‐transformed B cells was confirmed in all cases, demonstrating successful expansion of cytotoxic EBV‐specific T cells. LMP2A‐specific cytotoxicity was quantified using autologous carboxyfluorescein succinimidyl ester (CFSE)‐labelled phytohaemagglutinin (PHA) blasts (target cells) incubated with 2 μg/ml of peptides from each of six LMP2A overlapping peptide pools (Supporting information, Table S2) in duplicate. The ratio of effector to target cells was 20 : 1. After 6 h incubation, the number of CFSE‐labelled targets remaining was determined by comparison to a constant number of CountBright absolute counting beads (ThermoFisher, Scoresby, Australia). LMP2A‐specific lysis was calculated for each well relative to the unpulsed control sample.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0008">
+     <title>
+      HLA class I‐restricted EBV latency antigen‐specific CD8      T cell responses
+     </title>
+     <p>
+      <italic>
+       Ex‐vivo
+      </italic>
+      CD107ab      CD8      T cell responses to HLA class I‐restricted peptides were assayed in 30 healthy EBV‐seropositive donors. PBMCs were resuspended in culture medium containing monensin (GolgiStop, 0.7 μg/ml; BD Biosciences), αCD107a‐fluorescein isothiocyanate (FITC) and αCD107b‐FITC (BD Pharmingen), and incubated for 5 h with peptide (2 μg/ml). Samples were acquired on a FACSCanto flow cytometer (BD Biosciences) and data analysis was performed using FlowJo version 9·2 (TreeStar Inc.). To minimize bias, an equivalent number of ‘predicted’ and ‘defined’ (31 and 30, respectively) peptides were included. The peptides were derived from LMP1/LMP2A or EBNA3A/3B/3C and restricted by one of the following HLA class I allotypes: HLA‐A*01, A*02, A*03, A*11, A*24, B*07, B*08, B*35, B*37, B*44 or B*60 (B*40:01). Equivalent numbers of defined epitopes covering comparable numbers of HLA class I alleles were used for the immunodominant EBNA3A/3B/3C (15 peptides, six alleles) and the subdominant LMP1/LMP2A (15 peptides, seven alleles) proteins. Combined, these alleles cover 75% of HLA‐A and 57% of HLA‐B alleles in the Australian population      . Peptides (and references) are listed in Supporting information, Table S3. All defined epitopes were validated previously in functional assays. For HLA class I alleles with few or no known epitopes, predicted peptides were identified
+      <italic>
+       in silico
+      </italic>
+      (
+      <ext-link ext-link-type="uri" ns0:href="http://www.syfpeithi.de">
+       http://www.syfpeithi.de
+      </ext-link>
+      ) using a previously described algorithm [29]. The ‘SYFPEITHI’ scores of defined epitopes were used to delineate a threshold score for the predicted peptides.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0009">
+     <title>
+      HLA class I peptide binding of algorithm‐predicted peptides
+     </title>
+     <p>
+      Binding of predicted HLA‐A*03‐restricted peptides was confirmed using HLA‐A*03‐expressing T2 cell lines, as described previously      . Expression of stabilized HLA‐A*03 on the cell surface after peptide pulsing was assessed by flow cytometry. Results are reported as the mean fluorescence intensity above the negative (no peptide) control.
+     </p>
+     <p>
+      Binding of predicted HLA‐A*01‐restricted peptides was confirmed by
+      <italic>
+       in‐vitro
+      </italic>
+      HLA‐A*0101‐peptide complex refolding and thermal stability analysis by circular dichroism (CD) spectroscopy. Competent Rosetta DE3
+      <italic>
+       Escherichia coli
+      </italic>
+      cells were used to produce the HLA‐A*0101 and beta 2‐microglobulin (β2M) chains, as described previously      . For a 1‐l refold, 30 mg of HLA‐A*0101 was mixed with 30 mg of β2M and 4 mg of peptide at 37°C for 15 min. The mixture was then added to cold refold buffer [50 mM Tris pH 8, 2 mM ethylenediamine tetraacetic acid (EDTA), 400 mM L‐arginine, 6 mM cysteamine hydrochloride and 4 mM cystamine]. Refolds were stirred at 4°C for &gt; 1 h. Dialysis was carried out against 10 mM Tris pH 8.1 until the conductivity of the refolds was &lt;2 mS/cm. The refolds were then filtered, purified by ion exchange using a Poros50HQ      column and gel filtered into phosphate‐buffered saline (PBS) using a Superdex200HR      column. Protein quality was analysed by Coomassie‐stained sodium dodecyl sulphate‐polyacrylamide gel electrophoresis (SDS‐PAGE). After ion exchange, the central five fractions around the maximum HLA class I peak (by SDS gel) from each refold were selected for gel filtration. After gel filtration, the central four fractions around the maximum HLA class I peak from each refold were selected for analysis by spectrometry (A280 nm) to determine the final protein yield. Two positive control peptides from cytomegalovirus, VTEHDTLLY      and YSEHPTFTSQY      , and a negative control peptide with a binding sequence optimal for HLA‐A*0201 (ALAAAAAAV), were used in addition to the 13 predicted HLA‐A*01‐restricted EBV‐derived peptides.
+     </p>
+     <p>
+      Thermal stability of HLA‐A*0101/β2M/peptide complexes was assessed by CD spectroscopy. Data were collected on an Aviv Model 215 spectropolarimeter (Aviv Biomedical Inc., Lakewood, NJ, USA) equipped with a Peltier thermostatted cell holder using a 0·1‐cm quartz cell. Proteins were dissolved in 75 mM NaCl, 20 mM
+      <ns1:math id="nlm-math-1">
+       <ns1:msubsup>
+        <ns1:mrow>
+         <ns1:mtext>
+          PO
+         </ns1:mtext>
+        </ns1:mrow>
+        <ns1:mrow>
+         <ns1:mn>
+          4
+         </ns1:mn>
+        </ns1:mrow>
+        <ns1:mrow>
+         <ns1:mi>
+          –
+         </ns1:mi>
+        </ns1:mrow>
+       </ns1:msubsup>
+      </ns1:math>
+      , pH 7·5. Melting curves were recorded in 0·5°C intervals from 4°C up to a maximum temperature when protein aggregation was observed with settings resulting in an average heating rate of ∼30°C/h. Values were corrected to a calibration curve recorded with the temperature measured in the cell. Melting curves were analysed assuming a two‐state trimer‐to‐monomer transition from the native (N) to unfolded (U) conformation N
+      <sub>
+       3
+      </sub>
+      ↔ 3U with an equilibrium constant K = [U]      /[N
+      <sub>
+       3
+      </sub>
+      ] = F/[3c      (1‐F)      ], where F and c are the degree of folding and protein concentration, respectively. Data were fitted as described      using the non‐linear least‐squares routine of Origin version 7·5 (OriginLab, Northampton, MA, USA). Fitted parameters were the melting temperature T
+      <sub>
+       M
+      </sub>
+      , at which 50% of proteins are in the folded and unfolded state, vant Hoffs enthalpy ΔH
+      <sub>
+       vH
+      </sub>
+      at the transition midpoint and the slope and Θ‐intercept of the native baseline assumed as a linear function of the temperature. As all protein complexes aggregated at various degrees of unfolding, the ellipticity of the unfolded state was set as a constant of −4400 degrees cm      dmol      ; this value resulted from fitting melting curves of LMP2A
+      <sub>
+       LTE
+      </sub>
+      and positive control peptide VTEHDTLLY‐containing complexes, which showed the least aggregation tendency, and is in good agreement with values reported for other thermally denatured proteins      . For all peptides, the coefficient of determination for fitted curves
+      <italic>
+       versus
+      </italic>
+      measurements was
+      <italic>
+       r
+      </italic>
+      &gt; 0·99.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0010">
+     <title>
+      Statistical analysis
+     </title>
+     <p>
+      Combined (but not summed) IFN‐γ, TNF‐α and CD107a responses to EBNA1/LMP1/LMP2A/BZLF1 in patients with cHL and healthy volunteers were compared using a linear mixed‐effects model (with a random effect for subject). This enabled comparison of groups while accounting for the correlation induced by measuring multiple (but not necessarily comparable) responses in the same individual      . Using
+      <sc>
+       spice
+      </sc>
+      (software version 5·3, downloaded from
+      <ext-link ext-link-type="uri" ns0:href="http://exon.niaid.nih.gov">
+       http://exon.niaid.nih.gov
+      </ext-link>
+      ), individual and polyfunctional IFN‐γ, TNF‐α and CD107a responses in patients with cHL were compared by Wilcoxons signed‐rank tests and a partial permutation test, as described previously      . Healthy donor
+      <italic>
+       ex‐vivo
+      </italic>
+      CD107ab      CD8      T cell responses against defined and predicted HLA class I‐restricted peptides from LMP1/LMP2A and EBNA3A/3B/3C were compared using the Mann–Whitney
+      <italic>
+       U
+      </italic>
+      ‐test. In cases where responses against multiple peptides were measured in the same individual, individual responses were considered independent. Significance above zero was determined using a one‐sample
+      <italic>
+       t
+      </italic>
+      ‐test with one‐tailed
+      <italic>
+       P
+      </italic>
+      ‐values. Cytotoxicity was compared using Fishers exact test with a two‐tailed
+      <italic>
+       P
+      </italic>
+      ‐value. Statistical analysis was performed using GraphPad Prism version 5·0 (Graphpad Software Inc., San Diego, CA, USA) and
+      <sc>
+       spss
+      </sc>
+      statistics version 19 (IBM, Armonk, NY, USA).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cei12716-sec-0011">
+    <title>
+     Results
+    </title>
+    <sec id="cei12716-sec-0012">
+     <title>
+      Intratumoral CD8 : LMP2A ratios are enriched in HLA‐A*02      EBV      cHL
+     </title>
+     <p>
+      Gene expression was quantified in 33 cHL diseased node FFPE tissues (17 EBV      cHL, 16 EBV      cHL) using NanoString nCounter      . The expression levels of CD8 and β2M as markers of immune effector and antigen presentation, respectively, and the EBV latency II genes (EBNA1, LMP1 and LMP2A with the EBV‐lytic gene BZLF1 as a comparator) were measured. CD8 expression correlated with β2M in the entire cHL cohort (
+      <italic>
+       r
+      </italic>
+      = 0·5906,
+      <italic>
+       P
+      </italic>
+      = 0·0003), consistent with intratumoral CD8 being proportional to antigen presentation. In the EBV      cHL subgroup, the β2M–CD8 correlation was more marked (
+      <italic>
+       r
+      </italic>
+      = 0·7176,
+      <italic>
+       P
+      </italic>
+      = 0·0024, Fig.      a). In this subgroup, β2M also correlated with LMP2A levels (
+      <italic>
+       r
+      </italic>
+      = 0·5685,
+      <italic>
+       P
+      </italic>
+      = 0·0216, Fig.      b). Accordingly, CD8 expression correlated with LMP2A (
+      <italic>
+       r
+      </italic>
+      = 0·7938,
+      <italic>
+       P
+      </italic>
+      = 0·0004, Fig.      c). No correlations were found for the other EBV genes with either CD8 or β2M, and there was no difference in expression of CD8 or β2M between EBV      and EBV      cHL.
+     </p>
+     <p>
+      Both EBNA1 and LMP1 are known to encode for antigenic peptides that expand IL‐10‐secreting regulatory CD4      T cells      ,      . However, no correlations were found between the EBV latency II genes and expression of either CD4 or the regulatory T cell markers IL‐10, lymphocyte‐activation gene 3 (LAG3) and forkead box protein 3 (FoxP3) [
+      <italic>
+       P
+      </italic>
+      = not significant (n.s.)].
+     </p>
+     <p>
+      Comparisons of HLA‐A*02      (
+      <italic>
+       n =
+      </italic>
+      5) and HLA‐A*02      (
+      <italic>
+       n =
+      </italic>
+      11) patients with EBV      cHL showed no difference in expression levels of β2M, CD8, LMP2A or any of the other EBV genes. However, CD8 and β2M (normalized to the expression of LMP2A) were elevated markedly in HLA‐A*02
+      <italic>
+       versus
+      </italic>
+      HLA‐A*02      patients (
+      <italic>
+       P
+      </italic>
+      = 0·0087,
+      <italic>
+       P
+      </italic>
+      = 0·0087 Fig.      d,e). This was not observed when expression was normalized to the other EBV latency II genes. These results demonstrate that, for a given LMP2A expression level, there is more CD8 and β2M expression within the malignant lymph node in HLA‐A*02      compared to HLA‐A*02      patients with EBV      cHL.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0013">
+     <title>
+      HLA‐A*02      patients with EBV      cHL exhibit increased responses to EBV latency‐II antigens relative to HLA‐A*02      patients
+     </title>
+     <p>
+      The observation that CD8 is relatively enriched within HLA‐A*02      EBV      cHL nodes suggests that EBV latency‐II‐specific effector CD8      T cell immunity is relatively ineffective in these patients. To investigate the impact of HLA‐A*02 on EBV latency‐II‐specific effector CD8      T cell immunity, a series of functional assays were performed. Initially, we tested CD8      T cell immunity against relevant EBV latency antigens in pretherapy cHL patients, with EBV tissue status and HLA class I as covariates. Previous studies in cHL have not evaluated the contribution of non‐defined subdominant epitopes to the total CD8      T cell response or assessed whether HLA class I alleles impact the magnitude of the response      ,      . Effector molecule testing in these studies was also limited to IFN‐γ production.
+     </p>
+     <p>
+      First, we tested 19 cHL patients (Table      ). Blood samples were collected at diagnosis prior to therapy. Age and gender were not significantly different between subgroups, which were also comparable for Ann Arbor stage and prognostic score      . To ensure that multi‐faceted CD8      effector T cell immunity was assayed, we used polychromatic flow cytometry to measure
+      <italic>
+       ex‐vivo
+      </italic>
+      IFN‐γ and TNF‐α production together with CD107a mobilization. Overlapping peptide pools spanning EBNA1 and the latent proteins LMP1 and LMP2A were used to ensure comprehensive antigenic coverage. A peptide pool spanning the EBV lytic protein BZLF1 (not expressed by EBV      HRS cells) was included as a comparator. Peptide stimulations were conducted overnight to enhance sensitivity, and highly stringent gating strategies were employed to maximize specificity (Supporting information, Fig. S1). A linear mixed‐effects model was used to incorporate and compare all three effector markers and any compounding significance while accounting for multiple measurements within a given individual (represented in Fig.      a as summed percentages of IFN‐γ, TNF‐α and CD107a responses).
+      <sc>
+       spice
+      </sc>
+      software, designed specifically for post‐cytometric complex multivariate data sets, was used to conduct Wilcoxon signed‐rank tests and permutation comparisons on individual (Fig.      b,c) and polyfunctional (Fig.      d,e) responses.
+     </p>
+     <table-wrap id="cei12716-tbl-0001" orientation="portrait" position="float" xml:lang="en">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Characteristics of classical Hodgkin lymphoma (cHL) patients tested
+        <italic>
+         ex vivo
+        </italic>
+        for CD8        T cell responses
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <col span="1" style="border-bottom:solid 1px #000000border-right:solid 1px #000000"/>
+       <thead valign="bottom">
+        <tr style="border-bottom:solid 1px #000000">
+         <th align="left" colspan="1" rowspan="1" valign="bottom">
+          Patient no.
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          EBER‐ISH
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          Age
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          Gender
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          ‘B’ symptoms
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          Stage
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          Prognostic score
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          Classical subtype
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          HLA‐A*02
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="bottom">
+          HLA class I
+         </th>
+        </tr>
+       </thead>
+       <tbody valign="top">
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          79
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          III
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*30, B*51/*62
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IIIb
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*11/*11, B*60/*60
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          79
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          III
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*31, B*57/*61
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          33
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IIb
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LD
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*25, B*62/*63
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          55
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          II
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MC
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*03, B*13/*51
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          54
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IVb
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*31, B*44/*60
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          7
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          22
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IVb
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Classical unspecified
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*02, B*35/*57
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          8
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*03, B*07/*51
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          9
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          27
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          III
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*03, B*07/*51
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          10
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IVa
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Classical unspecified
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*02, B*07/*35
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          11
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          20
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IIIb
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*02, B*08/*49
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          12
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          III
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*11/*24, B*18/*60
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          13
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          48
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          II
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          LR
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*24/*24, B*18/*51
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          14
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          40
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          II
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          MC
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*24, B*08/*51
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          15
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          40
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IVb
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Negative
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*03, B*35/*75
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          16
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          33
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Yes
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          II
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*29, B*07/B*44
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          17
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          25
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IIa
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*02, B*44/*44
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          18
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          49
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          M
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IV
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01/*02, B*37/*57
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          19
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          21
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          F
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          No
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          IIa
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NS
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Positive
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02/*66, B*41/*44
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="cei12716-note-0001">
+        <label>
+         a
+        </label>
+        <p>
+         *Hasenclever         . LD = lymphocyte‐depleted; MC = mixed‐cellularity; NS = nodular sclerosing; LR = lymphocyte‐rich; M = male; F = female; HLA = human leucocyte antigen; EBER‐ISH = Epstein–Barr virus‐encoded‐RNA
+         <italic>
+          in‐situ
+         </italic>
+         hybridization.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Global effector CD8      T cell responses (defined as combined IFN‐γ, TNF‐α and CD107a) were compared for the EBV latency II proteins (EBNA1, LMP1, LMP2A). Responses were analysed as total EBV latency II (summed EBNA1, LMP1/2A‐specific), LMP1/2A (summed LMP1/2A‐specific) and individual protein responses. No significant differences were found between patients with EBV      cHL and EBV      cHL. Furthermore, response magnitudes across all patients with cHL independent of EBV tissue status were equivalent irrespective of HLA‐A*02 expression (Fig.      a). In addition, the relevant EBV‐specific CD8      T cell responses in patients with EBV      cHL were not influenced by HLA‐A*02 status.
+     </p>
+     <p>
+      Interestingly, the combined IFN‐γ, TNF‐α and CD107a CD8      T cell responses were significantly greater in HLA‐A*02      compared to HLA‐A*02      patients with EBV      cHL for the LMP1/2A proteins (
+      <italic>
+       P
+      </italic>
+      = 0·0371, Fig.      a). Although elevated response levels were seen in HLA‐A*02      EBV      cHL patients for total EBV latency II (
+      <italic>
+       P
+      </italic>
+      = 0·0753) and individual EBNA1, LMP1 and LMP2A proteins (
+      <italic>
+       P
+      </italic>
+      = 0·3329,
+      <italic>
+       P
+      </italic>
+      = 0·0525 and
+      <italic>
+       P
+      </italic>
+      = 0·0983, respectively), these did not reach significance.
+     </p>
+     <p>
+      We then compared individual immune effector molecules stratified by HLA‐A*02 status using
+      <sc>
+       spice
+      </sc>
+      . Although all three functional markers were elevated in HLA‐A*02      compared to HLA‐A*02      patients with EBV      cHL for LMP1/2A proteins (CD107a, 4·3‐fold; IFN‐γ, 3·0‐fold; TNF‐α, 1·4‐fold), only CD107a reached significance (
+      <italic>
+       P
+      </italic>
+      = 0·007, Fig.      b). Across all LMP1/2A‐specific effector CD8      T cells, the proportion of individual effector molecules was significantly different between HLA‐A*02      and HLA‐A*02      patients (
+      <italic>
+       P
+      </italic>
+      = 0·0041, Fig.      c). By polyfunctional analysis, this significant increase was attributable to CD107a single‐positive CD8      T cells (CD107a      IFN‐γ      TNF‐α      ;
+      <italic>
+       P
+      </italic>
+      = 0·007, Fig.      d) and the proportion of polyfunctional immune effectors within all LMP1/2A‐specific CD8      T cells was also significantly different (
+      <italic>
+       P
+      </italic>
+      = 0·043, Fig.      e). In HLA‐A*02      EBV      cHL patients, the majority of immune effector cells were CD107a single‐positive CD8      T cells. No differences (
+      <italic>
+       P
+      </italic>
+      = n.s.) were observed for BZLF1‐specific CD8      T cell responses between any patient categories.
+     </p>
+     <p>
+      In line with our findings that differences between HLA‐A*02      and HLA‐A*02      patients were detectable only in EBV      cHL, analysis of 14 healthy age‐/sex‐matched controls (using the linear mixed‐effects model to evaluate comprehensive CD8      T cell responses to the EBV latency‐II proteins) revealed no significant differences between HLA‐A*02      (
+      <italic>
+       n =
+      </italic>
+      7) and HLA‐A*02      (
+      <italic>
+       n =
+      </italic>
+      7) individuals (Supporting information, Fig. S2a). In patients with cHL, global effector CD8      T cell responses were greater for LMP2A compared with LMP1 (
+      <italic>
+       P
+      </italic>
+      = 0·016) and EBNA1 (
+      <italic>
+       P
+      </italic>
+      &lt; 0·0001) (Supporting information, Fig. S2b). Similarly, for healthy controls global effector CD8      T cell responses were greater for LMP2A compared with LMP1 (
+      <italic>
+       P
+      </italic>
+      = 0·011) and EBNA1, although the latter did not reach statistical significance (Supporting information, Fig. S2c).
+     </p>
+     <p>
+      Thus, by
+      <italic>
+       ex‐vivo
+      </italic>
+      analysis, we observed modest differences in CD8      T cell responses against relevant EBV latency‐II proteins between HLA‐A*02      and to HLA‐A*02      patients with EBV      cHL. These results were not observed in EBV      cHL patients or healthy participants. In line with our tissue expression data, these results suggest that EBV latency‐II‐specific effector CD8      T cell immunity may be less effective in HLA‐A*02      EBV      cHL.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0014">
+     <title>
+      LMP2A‐specific responses restricted by HLA‐A*02 achieve greater magnitudes than those restricted by other HLA class I molecules
+     </title>
+     <p>
+      <italic>
+       Ex‐vivo
+      </italic>
+      assays are less sensitive than
+      <italic>
+       in‐vitro
+      </italic>
+      expansion for the detection of low‐frequency EBV‐specific CD8      T cells      . Indeed, low‐frequency responses can be detected via
+      <italic>
+       in‐vitro
+      </italic>
+      expansion in patients receiving immunosuppressive therapies      . Furthermore, up to four different HLA‐A/B molecules can potentially present relevant EBV‐derived epitopes in each individual, adding a confounding layer of complexity to single allele‐based effects.
+     </p>
+     <p>
+      To overcome these limitations, we generated mutant HLA class I‐negative 721·221 cell lines transfected individually with HLA‐A*01, HLA‐A*02, HLA‐A*03 and HLA‐B*08. Previous work with these cell lines demonstrated an absence of HLA‐A*01‐restricted responses to endogenously processed EBV latency antigens. However, this system was biased preferentially towards the immunodominant EBNA3A/3B/3C antigens that are not expressed by HRS cells      . In order to use this single allele system to evaluate responses relevant to the EBV      cHL setting, transfected 721·221 cells were pulsed with LMP2A peptides. LMP2A was chosen for this purpose, as it is the most immunogenic of the three EBV genes expressed in EBV      cHL and because it was the only gene we found to associate significantly with HLA‐A*02 in diagnostic tissues. Overlapping peptides divided into six pools spanning the entire LMP2A protein were used to ensure inclusion of the total CD8      T cell response restricted by each HLA class I molecule, regardless of the specific target epitopes (Supporting information, Table S2). PBMCs from healthy EBV‐seropositive participants were stimulated separately with each peptide pool to expand LMP2A‐specific CD8      T cells. The results were summed for each allele. Nine EBV‐seropositive donors were tested, all heterozygous for HLA‐A*02. Other HLA class I donor alleles were selected based on the literature. Notably, HLA‐A*01 has been associated consistently with an increased incidence of EBV      cHL      ,      ,      . HLA‐B*08 is known to be in linkage disequilibrium with HLA‐A*01      , and a functionally defined HLA‐B*08‐restricted LMP2A‐derived epitope was identified recently      . Finally, HLA‐A*03 was chosen as a relatively common HLA class I allele in Australia. Together, these four alleles represent &gt; 75% of the Australian population      . Accordingly, donors 1–3 were HLA‐A*01/A*02, donors 4–6 were HLA‐A*02/A*03 and donors 7–9 were HLA‐A*01/A*02/B*08.
+     </p>
+     <p>
+      IFN‐γ‐specific CD8      T cells inhibit
+      <italic>
+       in‐vitro
+      </italic>
+      transformation of EBV‐infected B cells      ,      . The cytokine may also play a critical role in the pathogenesis of cHL via the canonical Janus kinase–signal transducer and activator of transcription (JAK–STAT) pathway known to be over‐expressed in HRS cells      . Therefore, identifying any differences in IFN‐γ‐specific CD8      T cell responses has important implications.
+      <italic>
+       In‐vitro
+      </italic>
+      expansion permitted more sensitive discrimination of the impact of HLA class I status on IFN‐γ      responses. As shown in Fig.      , HLA‐A*02 uniformly expanded more LMP2A‐specific IFN‐γ      CD8      T cells. The total response for each HLA class I allele (i.e. all HLA‐A*01, all HLA‐A*02, all HLA‐A*03 and all HLA‐B*08) was significantly greater than zero only for HLA‐A*02 (
+      <italic>
+       P
+      </italic>
+      = 0·0034). Thus, in an
+      <italic>
+       in‐vitro
+      </italic>
+      system with few confounding influences, HLA‐A*02 generated more LMP2A‐specific IFN‐γ      CD8      T cells compared to HLA‐A*01, HLA‐A*03 and HLA‐B*08.
+     </p>
+     <p>
+      Of note, peptide pool 5 generated the greatest response (37% of the total HLA‐A*02‐restricted responses) and contained the sequences of two known HLA‐A*02 epitopes (FLYALALLL, LLWTLVVL)      . Peptide pool 6 contained the sequences of three known HLA‐A*02 epitopes (CLGGLLTMV, LTAGFLIFL and LLSAWILTA) and generated 22% of the total HLA‐A*02‐restricted responses. Peptide pool 4 also generated 22% and contained the sequence of an identified HLA‐A*02 epitope (GLGTLGAAL). Pools 1–3 did not contain known HLA‐A*02 epitopes and generated 4, 8 and 7% of the total HLA‐A*02‐restricted responses, respectively.
+     </p>
+     <p>
+      To confirm that functional LMP2A‐specific responses restricted by HLA‐A*02 achieve greater magnitudes than those restricted by other HLA class I molecules in conventional cytotoxicity assays, we took advantage of a published expansion protocol that generates EBV‐specific CD8      T cells for therapeutic use      ,      . This method uses autologous EBV‐transformed B cells as antigen‐presenting cells, thus not only is it physiologically relevant but it expands a broad range of EBV latent antigen‐specific CD8      T cells across multiple HLA class I alleles. The latter is an important point, because it permits a comparison of HLA‐A*02
+      <italic>
+       versus
+      </italic>
+      non‐HLA‐A*02 LMP2A‐specific CD8      T cells in a setting in which other EBV latent antigens, including those presented by other HLA class I alleles, are also presented. Consistent with earlier results, minimal killing was observed in non‐HLA‐A*02 participants (&lt;5% mean LMP2A‐specific killing), whereas strong killing was observed in HLA‐A*02 individuals (&gt;54% mean LMP2A‐specific killing;
+      <italic>
+       P
+      </italic>
+      &lt; 0·0001; Supporting information, Fig. S3).
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0015">
+     <title>
+      Prediction and verification of HLA class I‐binding EBV latency antigen‐derived peptides
+     </title>
+     <p>
+      Next, we assessed the impact of multiple HLA class I alleles on the hierarchy of CD8      T cell responses against the spectrum of EBV latency proteins. For immunodominant proteins, we tested EBNA3A/3B/3C (very few EBNA2 and EBNA‐LP epitopes have been identified)      . Based on our earlier findings, subdominant proteins were restricted to LMP1/LMP2A and not EBNA1. Initially, we selected ‘defined’ epitopes shown previously to elicit CD8      effector T cell immunity. For EBNA3A/3B/3C proteins, several such epitopes presented by a variety of HLA class I molecules are known. By contrast, for LMP1/LMP2A, there are relatively few defined HLA class I epitopes, with the exception of peptides presented by HLA‐A*02      ,      ,      . As HLA‐A*01, HLA‐A*03 and HLA‐B*37 have each been associated with differential susceptibility to EBV      lymphomas      ,      ,      ,      , we aimed to increase the number of defined EBV latency antigen‐derived epitopes restricted by these HLA class I molecules. To achieve this, we screened for potential HLA class I binding peptides using the bioinformatic algorithm ‘SYFPEITHI’      . Thirty functionally defined epitopes (Supporting information, Table S3) were scored by the algorithm in order to define the parameters by which predicted peptides were to be selected. Defined epitopes had a ‘SYFPEITHI’ score ranging from 7 to 36 (mean: 23·4). To reduce the likelihood of predicted peptides being unable to bind to the relevant HLA class I molecule, we selected a cut‐off value that excluded the bottom 20th centile of the defined epitopes (‘SYFPEITHI’ score: ≥ 21). A total of 31 predicted peptides were used with HLA class I peptide binding scores ≥ 21 (range = 21–31; mean score = 26·1).
+     </p>
+     <p>
+      Binding of predicted HLA‐A*03‐restricted peptides was confirmed using the HLA class I stabilization assay on live T2 cells, which lack the transporter associated with antigen processing, transfected with HLA‐A*03 (Fig.      a)      . Using this approach, we confirmed that all 10 predicted peptides bound HLA‐A*03. As no stable HLA‐A*01‐transfected T2 cell line was available, binding was confirmed for all predicted HLA‐A*01‐restricted peptides using
+      <italic>
+       in‐vitro
+      </italic>
+      HLA‐A*0101‐peptide refolding and thermal stability CD analysis. The maximum mAU at 280 nm for each 1l HLA‐A*0101 refold is shown in Fig.      b. For all peptides, the purity of the peak containing properly refolded HLA‐A*0101‐peptide was confirmed by SDS gel electrophoresis. All the peptides, with the exception of the negative control, generated detectable amounts of conformationally intact HLA‐A*0101. Melting temperatures (T
+      <sub>
+       M
+      </sub>
+      ) ranged between 40°C and 72°C (Fig.      c), indicating that all the HLA‐A*0101‐peptide variants were stable at or above body temperature. Values for vant Hoffs enthalpy of unfolding ranged from −110 to −700 KJ mol      , with more negative values indicating a higher ratio of folded to misfolded peptide. Consistent with the indications from the refolding data, the positive control peptides and LMP2A
+      <sub>
+       ESE
+      </sub>
+      were the most stable complexes overall (i.e. highest overall T
+      <sub>
+       M
+      </sub>
+      range and most negative vant Hoffs enthalpy of unfolding values). Peptides LMP2A
+      <sub>
+       LTE
+      </sub>
+      and LMP1
+      <sub>
+       LLA
+      </sub>
+      were also towards the high end of the stability range. Although the other peptides tested demonstrated a range of different stabilities, all the HLA‐A*0101‐peptide variants generated a CD signal consistent with the presence of properly refolded HLA class I. The predicted HLA‐B*37‐restricted peptides are identified in Supporting information, Table S3 and Fig.      , but HLA class I binding was not tested directly, as neither the
+      <italic>
+       in‐vitro
+      </italic>
+      HLA‐B*37‐peptide refolding system nor a stable HLA‐B*37‐transfected T2 cell line was available.
+     </p>
+    </sec>
+    <sec id="cei12716-sec-0016">
+     <title>
+      LMP1/LMP2A‐specific CD8      T cell responses are confined to HLA‐A*02
+     </title>
+     <p>
+      The defined and predicted peptide epitopes listed in Supporting information, Table S3 were used to investigate the HLA class I hierarchy of
+      <italic>
+       ex‐vivo
+      </italic>
+      effector CD8      T cell responses to immunodominant and subdominant EBV latency proteins. Blood samples were obtained for this purpose from 30 healthy participants (mean age = 44 years; female/male ratio: 15 : 15). CD107 was selected as the single functional readout, as it was the only functional marker to reach significance in the previous
+      <italic>
+       ex‐vivo
+      </italic>
+      assays reported above. As we were testing for individual and not pooled (total) peptide responses, CD107b was combined with CD107a to enhance sensitivity.
+     </p>
+     <p>
+      Initially, we compared CD107ab      CD8      T cell responses against 30 subdominant LMP1/LMP2A peptides (15 predicted and 15 defined, presented by nine different HLA class I allotypes; Fig.      a). The defined epitopes were presented by HLA‐A*02, A*11, A*24, B*08, B*35 or B*60. Each of these alleles is present at a carrier frequency of &gt; 10% in the Australian population. The predicted peptides were presented by HLA‐A*01, A*03 or B*37. The rationale for focusing on these three HLA class I alleles has already been outlined. Within the Australian population, the total frequencies of HLA‐A and HLA‐B allotypes that restrict these peptides (defined and predicted) are ∼75 and ∼33%, respectively.
+     </p>
+     <p>
+      We were unable to detect
+      <italic>
+       ex‐vivo
+      </italic>
+      responses significantly above zero for any of the individual peptides, regardless of HLA class I restriction (Fig.      a). However, by grouping the individual peptide responses into the total response for each HLA class I allele, we found that the HLA‐A*02‐restricted responses were significantly greater than zero (
+      <italic>
+       P
+      </italic>
+      = 0·016). This was not observed for HLA‐A*01, HLA‐A*03, HLA‐B*37 or the group of defined peptides for HLA‐A*11, A*24, B*08, B*35 and B*60. These results indicate that, despite their modesty in the
+      <italic>
+       ex‐vivo
+      </italic>
+      setting, HLA‐A*02‐restricted responses are dominant for LMP1/LMP2A.
+     </p>
+     <p>
+      Next, we compared
+      <italic>
+       ex‐vivo
+      </italic>
+      CD8      T cell responses to the immunodominant EBV latency‐III proteins EBNA3A/3B/3C, which are not expressed in EBV      cHL. To keep the analysis comparable with EBV latency‐II antigens, we used 31 peptides (16 predicted and 15 defined, presented by eight different allotypes; Fig.      b). As with LMP1/LMP2A, we included peptides presented by HLA‐A*01, A*02, A*03 and B*37, including a defined EBNA3A‐derived HLA‐A*03‐restricted epitope and a defined EBNA3C‐derived HLA‐B*37‐restricted epitope. Other defined EBNA3A/3B/3C‐derived epitopes were presented by HLA‐B*07, B*08, B*35 or B*44, which account for ∼50% of HLA‐B alleles in Australian populations.
+     </p>
+     <p>
+      As shown in Fig.      b, we were able to detect responses to EBNA3A/3B/3C that were significantly greater than zero for one of two HLA‐A*02‐restricted peptides (EBNA3A
+      <sub>
+       SVR
+      </sub>
+      ) and five of 11 HLA‐B*07/B*08/B*35/B*44‐restricted peptides (EBNA3A
+      <sub>
+       FLR, QAK, YPL
+      </sub>
+      , EBNA3C
+      <sub>
+       EGG, KEH
+      </sub>
+      ). None of the other alleles generated responses significantly greater than zero. The total responses to peptides presented by HLA‐A*02 and HLA‐B*07/B*08/B*35/B*44 were both significantly greater than zero (
+      <italic>
+       P
+      </italic>
+      = 0·0126 and
+      <italic>
+       P
+      </italic>
+      &lt; 0·0001, respectively). The magnitudes of the HLA‐B*07/B*08/B*35/B*44‐restricted EBNA3A/3B/3C‐specific responses were significantly greater than the HLA‐A*02‐restricted EBV latency‐II responses (
+      <italic>
+       P
+      </italic>
+      = 0·0008).
+     </p>
+     <p>
+      In summary, we were able to detect
+      <italic>
+       ex‐vivo
+      </italic>
+      responses to EBNA3A/3B/3C‐derived peptides restricted by several HLA class I allotypes. By contrast, responses to EBV latency‐II peptides were detected only in the context of HLA‐A*02. Thus, the immunodominant EBV latency‐III proteins generate strong CD8      T cell responses through a broad range of HLA class I allotypes, whereas the subdominant proteins expressed in EBV      cHL generate modest responses through a single common allotype, namely HLA‐A*02.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cei12716-sec-0017">
+    <title>
+     Discussion
+    </title>
+    <p>
+     In this study, we investigated the immunopathology underpinning the decreased frequency of HLA‐A*02 carriers observed in EBV     cHL. The results indicate that this is not a surrogate association, but rather reflects the impact of HLA class I on the established hierarchy of CD8     T cell responses against EBV latency‐II antigens. To reach these conclusions, we used a series of distinct but complementary approaches.
+    </p>
+    <p>
+     Our initial investigation assessed relevant gene expression in the diseased tissues of cHL patients. Intriguingly, we observed a strong correlation between LMP2A and CD8 in diagnostic EBV     cHL lymph nodes. Importantly, for a given level of LMP2A, intratumoral CD8 expression was higher in HLA‐A*02     compared to HLA‐A*02     EBV     cHL patients. These data imply that CD8     T cell anti‐tumoral immunity is relatively ineffective in HLA‐A*02     EBV     cHL. This is consistent with a study that found intratumoral LMP2A‐specific CD8     T cells difficult to detect in EBV     cHL     .
+    </p>
+    <p>
+     To test if the presence of HLA‐A*02 impacts anti‐tumoral immunity in EBV     cHL, we assessed
+     <italic>
+      ex‐vivo
+     </italic>
+     responses to relevant EBV latency antigens in pretherapy cHL patients. In order to obtain an unbiased and more comprehensive assessment of CD8     T cell immunity with high sensitivity and specificity, we used overlapping EBNA1/LMP1/LMP2A peptide pools and measured both cytokine production (IFN‐γ and TNF‐α) and degranulation (CD107a)     ,     . Even a modest cohort size was sufficient to observe significantly reduced LMP1/LMP2A antigen‐specific CD8     T cell immunity in newly diagnosed HLA‐A*02
+     <italic>
+      versus
+     </italic>
+     HLA‐A*02     EBV     cHL patients. No differences between HLA‐A*02     and HLA‐A*02     immune responses were observed in either EBV     cHL patients or healthy participants. These findings suggest that diminished immune‐surveillance as a result of HLA class I hierarchies may be pertinent only to the pathogenesis of EBV     cHL. Although this approach enabled an unbiased evaluation of relevant anti‐tumoral immunity in EBV     cHL,
+     <italic>
+      ex‐vivo
+     </italic>
+     assays are less sensitive than
+     <italic>
+      in‐vitro
+     </italic>
+     expansion for the detection of low‐frequency EBV‐specific CD8     T cells     . Furthermore, these results were confounded by the presence of additional HLA‐A/B molecules potentially masking single allele‐based effects.
+    </p>
+    <p>
+     To overcome these limitations and specifically test the impact of individual HLA class I alleles on relevant EBV‐specific CD8     T cell immunodominance hierarchies, peptide‐pulsed single HLA class I‐restricted cell lines were used to expand LMP2A‐specific CD8     T cells
+     <italic>
+      in vitro
+     </italic>
+     from EBV‐seropositive healthy HLA‐A*02 heterozygotes.
+     <italic>
+      In‐vitro
+     </italic>
+     expansion would permit more sensitive discrimination of the impact of HLA class I status on CD8     T cell immunodominance hierarchies than
+     <italic>
+      ex‐vivo
+     </italic>
+     analysis. IFN‐γ‐specific CD8     T cells inhibit
+     <italic>
+      in‐vitro
+     </italic>
+     transformation of EBV‐infected B cells     ,     . The cytokine exerts its effects via the canonical JAK–STAT pathway that is known to be over‐expressed in HRS cells     , and therefore the IFN‐γ‐specific CD8     T cell response is likely to be important in the pathogenesis of EBV     cHL. Thus IFN‐γ production was chosen as a highly relevant
+     <italic>
+      in‐vitro
+     </italic>
+     measure of effector function. Strikingly, approximately 90% of all HLA class I‐restricted LMP2A‐specific IFN‐γ‐producing CD8     T cell responses generated were elicited through HLA‐A*02 compared to the A*01, A*03 and B*08 allotypes. Previous work using these cell lines assessed the response to endogenously processed EBV latency‐III antigens. In contrast, our novel approach enabled us to narrow our assessment to the EBV     cHL‐relevant protein LMP2A     . From our
+     <italic>
+      ex‐vivo
+     </italic>
+     analysis (and consistent with previous work in healthy EBV‐seropositive individuals)     , LMP2A‐specific IFN‐γ     effector CD8     T cell responses were modest, but none the less higher than for LMP1 or EBNA1. These data implicate LMP2A as a critical target for effector CD8     T cells in the immunopathogenesis of EBV     cHL. This is consistent with the correlation between LMP2A, but not LMP1 or EBNA1, and intratumoral CD8 expression, with data showing that LMP1 and EBNA1 encode for peptides that stimulate IL‐10‐secreting regulatory T cells     ,     , and with the observation that EBNA1 predominantly (but not exclusively) generates a CD4     effector T cell response     .
+    </p>
+    <p>
+     To substantiate the emerging hypothesis, we tested the influence of HLA class I on the hierarchy of CD8     T cell responses across the spectrum of EBV latency antigens in healthy seropositive donors. The immunodominant (EBNA3A/3B/3C) and subdominant (LMP1/LMP2A) viral antigens were compared. To enable a comprehensive evaluation, in addition to functionally defined epitopes, we adopted computational analysis to predict novel HLA class I‐restricted epitopes. Predicted epitopes were selected using stringent criteria. The prerequisite for a predicted peptide to be a potentially immunogenic CD8     T cell epitope is an ability to bind to an HLA class I molecule (although the magnitude of binding is not in itself an accurate forecast of immunogenicity)     . Extensive assays were used to confirm HLA class I binding in all cases, with the exception of HLA‐B*37‐restricted LMP1/LMP2A peptides for which validated reagents were lacking. Equal numbers of defined and predicted peptides with equivalent HLA class I coverage for the immunodominant and subdominant EBV latency proteins were tested in a large number of healthy EBV‐seropositive donors. Strikingly, EBNA3A/3B/3C‐specific CD8     T cell responses were stimulated by peptides presented by numerous HLA class I allotypes. By contrast, the relatively modest EBV latency‐II‐specific CD8     T cell responses were confined largely to HLA‐A*02.
+    </p>
+    <p>
+     These findings indicate that HLA class I impacts EBV latency‐II antigen‐specific CD8     T cell response hierarchies and provide a mechanistic basis for the immunopathogenesis of EBV     cHL. In EBV     HRS cells, antigen presentation is intact and restoration of relevant EBV‐specific T cell immunity can induce EBV     cHL regression     ,     ,     ,     . Indeed, HLA class I expression is more evident in EBV     cHL than EBV     cHL     ,     . The lack of selection pressure to down‐regulate HLA class I in virus‐associated cHL indicates that this strategy is not required to evade tumour‐associated CD8     T cell immunity. These results provide a mechanism by which HRS cells can avoid CD8     T cell‐mediated immune attack despite intact antigen presentation.
+    </p>
+    <p>
+     The factors that determine CD8     T cell immunodominance have largely been investigated in animal models and include antigen abundance, temporal antigen presentation, CD8     T cell precursor frequency, the priming environment and T cell receptor (TCR)/peptide‐HLA class I binding affinity     . Here, we demonstrate that HLA class I restrictions influence established EBV latency antigen‐specific CD8     T cell hierarchies. One explanation for this observation might be preferential handling of EBV latency‐II antigens by the HLA‐A*02 processing pathway. Notably, for human cytomegalovirus, strong viral epitope‐specific responses restricted by HLA‐A*02 and HLA‐A*01 have been identified     , suggesting that the influence of HLA class I on CD8     T cell immunodominance may be virus‐dependent. Further studies are required to address the issue.
+    </p>
+    <p>
+     A limitation of this study is that the findings do not discriminate between reduced immune reactivity being due to diminished antigen recognition of non‐HLA‐A*02 latency‐II antigens, or alternatively an anergic phenotype or a reduced frequency of memory T cell precursors. After acute EBV infection, a large CD8     T cell response is elicited which contracts subsequently into a smaller memory pool     ,     ,     . Interestingly, it is known that at least one HLA‐A*02‐restricted lytic epitope reactivity present in the acute phase consistently disappears once infection resolves     . Although this phenomenon has not been observed for latent epitope reactivity, we cannot rule out definitively that non‐HLA‐A*02 latency‐II antigens induced a T cell response in the acute phase, which was subsequently extinguished in the memory phase. Alternatively, non‐HLA‐A*02 latency‐II antigen‐specific CD8     T cells may be relatively enriched in inhibitory receptors such as programmed cell death protein 1 (PD‐1), relative to HLA‐A*02 latency‐II antigen‐specific CD8     T cells. Although there are major histocompatibility complex (MHC) class I multimers for HLA‐A*02 latency‐II antigen‐specific CD8     T cells, the lack of defined epitopes means there are no such reagents to directly visualize and phenotype non‐HLA‐A*02 latency‐II antigen‐specific CD8     T cells.
+    </p>
+    <p>
+     Population‐based studies have demonstrated a positive association between infectious mononucleosis and cHL     . However, this does not necessarily implicate EBV in the aetiology of cHL. It may, instead, reflect a predisposition to a particular clinical response to primary EBV infection, perhaps as a consequence of a predating immune impairment. In addition, transformation of EBV latency‐II‐expressing benign B cells may represent an initiating event in the pathogenesis of EBV     cHL. EBV‐infected germinal centre B cells have been shown to express the EBV latency‐II pattern     ,     , identical to that seen in the HRS cells of EBV     cHL, which are known to have an atypical germinal centre derivation     . In this situation, differential EBV latency‐II‐specific effector CD8     T cell immune surveillance might contribute to the pathogenesis of EBV     cHL by attenuating immune‐mediated destruction of premalignant B cells. Using functional assays that removed the confounding influence of co‐expressed HLA alleles, we confirmed that HLA class I status indeed conferred differential levels of EBV latency‐II‐specific effector CD8     T cell immunity in healthy seropositive participants. Here, those peptide pools (4–6) that contained HLA‐A*02 restricted defined LMP2A epitopes contributed &gt; 80% of the HLA‐A*02 CD8     T cell response, whereas the remaining pools (1–3) provided &lt; 20%. However, reduced
+     <italic>
+      ex‐vivo
+     </italic>
+     HLA‐A*02     global (i.e. mediated through all co‐expressed HLA‐alleles) LMP1/LMP2A‐specific effector CD8     T cell responses were observed only in EBV     cHL patients. These results suggest that EBV latency‐II‐specific effector CD8     T cell immune surveillance is particularly relevant to the pathogenesis of EBV     cHL. Further investigations into associations with disease outcome may be informative; however, given the high response rate in cHL very large numbers of uniformly treated patients would be required to be sufficiently powered.
+    </p>
+    <p>
+     Collectively, our data provide new insights into the immunopathogenesis of EBV     cHL and suggest that even modest CD8     T cell responses directed against tumour‐associated viral proteins may reduce the incidence of malignant disease. Further studies are required to determine if similar mechanisms are applicable to other malignancies with EBV latency‐II expression patterns, such as extranodal natural killer (NK)/T cell lymphoma and undifferentiated nasopharyngeal carcinoma     ,     .
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="cei12716-sec-0019">
+    <title>
+     Disclosure
+    </title>
+    <p>
+     The authors declare no disclosures.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supporting information
+    </title>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Immunoinformatic approach to assess SARS-CoV-2 protein S epitopes recognised by the most frequent MHC-I alleles in the Brazilian population
+ </title>
+ <abstract>
+  <p>
+   Brazil is nowadays one of the epicentres of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic and new therapies are needed to face it. In the context of specific immune response against the virus, a correlation between Major Histocompatibility Complex Class I (MHC-I) and the severity of the disease in patients with COVID-19 has been suggested. Aiming at better understanding the biology of the infection and the immune response against the virus in the Brazilian population, we analysed SARS-CoV-2 protein S peptides in order to identify epitopes able to elicit an immune response mediated by the most frequent MHC-I alleles using in silico methods.
+  </p>
+  <p>
+   Our analyses consisted in searching for the most frequent Human Leukocyte Antigen (HLA)-A, HLA-B and HLA-C alleles in the Brazilian population, excluding the genetic isolates; then, we performed: molecular modelling for unsolved structures, MHC-I binding affinity and antigenicity prediction, peptide docking and molecular dynamics of the best fitted MHC-I/protein S complexes.
+  </p>
+  <p>
+   We identified 24 immunogenic epitopes in the SARS-CoV-2 protein S that could interact with 17 different MHC-I alleles (namely, HLA-A*01:01; HLA-A*02:01; HLA-A*11:01; HLA-A*24:02; HLA-A*68:01; HLA-A*23:01; HLA-A*26:01; HLA-A*30:02; HLA-A*31:01; HLA-B*07:02; HLA-B*51:01; HLA-B*35:01; HLA-B*44:02; HLA-B*35:03; HLA-C*05:01; HLA-C*07:01 and HLA-C*15:02) in the Brazilian population.
+  </p>
+  <p>
+   Being aware of the intrinsic limitations of in silico analysis (mainly the differences between the real and the Protein Data Bank (PDB) structure; and accuracy of the methods for simulate proteasome cleavage), we identified 24 epitopes able to interact with 17 MHC-I more frequent alleles in the Brazilian population that could be useful for the development of strategic methods for vaccines against SARS-CoV-2.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     In December 2019, a novel coronavirus strain was detected and isolated in the city of Wuhan, Hubei province, China.     This emerging viral infection was associated with severe human respiratory disease with a fatality rate of ~2%–3%.     Despite the strict containment measures, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has spread rapidly worldwide, with cases now confirmed in multiple countries and propagation still ongoing. On 30 January 2020, the WHO declared COVID-19 a public health emergency of international concern.
+    </p>
+    <p>
+     Brazil is actually one of the epicentres of the pandemic.     Day by day, the epidemic advances with a high daily rate of cases per million people. Nonetheless, these data may be underestimated because of the reduced number of SARS-CoV-2 molecular detection tests being made.
+    </p>
+    <p>
+     The SARS-CoV-2 is an enveloped positive-strand RNA virus belonging to the
+     <italic>
+      Betacoronavirus
+     </italic>
+     genus of the
+     <italic>
+      Coronaviridae
+     </italic>
+     family of the
+     <italic>
+      Nidovirales
+     </italic>
+     order.     SARS-CoV-2 genome has ~30 kilobases that encode structural and non-structural proteins.     The 5′ encodes two large genes (ORF1a and ORF1b), which are translated into two polyproteins (pp1a and pp1ab), which are cleaved in a set of non-structural proteins essential for virus replication.     The 3′-terminal region of the genome encodes four structural proteins, namely spike (S), nucleocapsid (N) envelope (E) and membrane (M).
+    </p>
+    <p>
+     The protein S on the virion surface mediates receptor binding and membrane fusion.     For SARS-CoV-2 to infect a host cell, it is mandatory that protein S is cleaved (S1/S2 cleavage) by host cell proteases into two units: the N-terminal ectodomain (S1) subunit and the C-terminal membrane-anchored (S2) subunit.     During the receptor binding process, S1 binds via its receptor binding domain to the extracellular peptidase domain of the host receptor ACE-2, which is mainly expressed in the lung, gastrointestinal tract, kidney and heart tissues, although it is also present in other tissues, dictating viral tropism.     After that, S2 subunit mediates membrane fusion. Although cell entry is not yet fully understood, it is likely that a second proteolytic site (S2′) at subunit S2 is required for viral entry.     Viral entry triggers the host’s immune system and initiates an inflammatory cascade that starts with the mechanism of antigen presentation.
+    </p>
+    <p>
+     During the process of presentation of antigenic peptides to CD8     (cytotoxic) T cells by Class I Major Histocompatibility Complex (MHC-I) molecules, peptides are generated by proteasomal cleavage in the cytosol and transported to the lumen of the endoplasmic reticulum by a transporter associated with antigen processing protein before they can bind MHC groove and trigger an immune response.     The correlation between MHC-I and the severity of the disease in patients with COVID-19 has been previously hypothesised.
+    </p>
+    <p>
+     The understanding of which SARS-CoV-2 epitopes are immunogenic may help advances in the development of diagnostic kits and prophylactic vaccines. An immunoinformatic approach is suitable for an initial screening, since it may predict algorithms and test for the immunogenicity of a vast quantity of peptides and alleles in a cost-effective manner, reducing the costs and time on workbench. Here, we analysed SARS-CoV-2 protein S peptides aiming to prospect epitopes and their ability to elicit an immune response mediated by the most frequent MHC-I alleles in the Brazilian population.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="methods">
+    <title>
+     Methods
+    </title>
+    <sec id="s2-1">
+     <title>
+      Selection of the MHC-I alleles
+     </title>
+     <p>
+      We searched for the most frequent MHC-I alleles in the Brazilian population through the Human Leukocyte Antigen (HLA) Allele Frequency Database.      We selected allele frequency data from overall Brazilian populations, excluding genetic isolates, such as indigenous tribes or
+      <italic>
+       Quilombos
+      </italic>
+      . After that, we calculated the average allelic frequency for each HLA-A, HLA-B and HLA-C allele with data from more than one population data. Finally, we chose the 10 most frequent class I alleles.
+     </p>
+    </sec>
+    <sec id="s2-2">
+     <title>
+      Molecular modelling
+     </title>
+     <p>
+      The Protein Data Bank (PDB) structure of some alleles was not available (      ). Therefore, we used SWISS-MODEL      to perform modelling by homology. The best model was chosen using the default parameters. Model refinement was made using 3Drefine software.      The quality of the refinement was evaluated by the MolProbity score. For model validation, ERRAT      and RAMPAGE      softwares were used with their default parameters.
+     </p>
+     <table-wrap id="T1" orientation="portrait" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Average allele frequency and its respective Protein Data Bank (PDB) structure indentifiers (when available) of the top 10 most frequent Class I Major Histocompatibility Complex HLA-A, HLA-B and HLA-C alleles in the general Brazilian population
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <td align="left" colspan="3" rowspan="1" valign="bottom">
+          HLA-A
+         </td>
+         <td align="left" colspan="3" rowspan="1" valign="bottom">
+          HLA-B
+         </td>
+         <td align="left" colspan="3" rowspan="1" valign="bottom">
+          HLA-C
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          Allele
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          Frequency
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          PDB
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          Allele
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          Frequency
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          PDB
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          Allele
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          Frequency
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="bottom">
+          PDB
+         </td>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*02:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.2145
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4L29
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*07:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0870
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          5EO0
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*07:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.156
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*24:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.1010
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          2BCK
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*51:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0840
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          5VUE
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*04:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.1370
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1QQD
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*01:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0850
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4NQX
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*08:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0585
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3×13
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*07:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0800
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          5VGE
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*03:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0755
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6O9B
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*18:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0570
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6MT3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*08:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0750
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*23:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0457
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*35:03
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0470
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*05:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0610
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*11:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0435
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1X7Q
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*35:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0465
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1XH3
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*03:03
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0470
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*31:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0330
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*44:03
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0445
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          4JQX
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*12:03
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0380
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*26:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0310
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*14:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0375
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          3BVN
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*15:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0330
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*30:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0285
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*44:02
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0355
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1M6O
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*17:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0330
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          A*68:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0285
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          6PBH
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          B*38:01
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0320
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          –
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          C*03:04
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.0280
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1EFX
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          Total
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.6862
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.5295
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+         </td>
+         <td align="char" char="." colspan="1" rowspan="1" valign="top">
+          0.6880
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn id="T1_FN1">
+        <p>
+         HLA, Human Leukocyte Antigen.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s2-3">
+     <title>
+      MHC binding affinity and antigenicity prediction
+     </title>
+     <p>
+      For immunogenicity inference, we used the NetMHCPan V.4.0      server, by importing the FASTA sequence of the SARS-CoV-2 spike protein retrieved from PDB (PDB id: 6VSB) that will be subsequently cleaved in peptides with a length of 10-mer. The interrogation of each 10-mer peptide was made querying the selected alleles ranked in the previous section. We accepted as possible candidates, those allele:peptide complexes with strong binding affinity, that is, those with %Rank score &lt;0.50.
+     </p>
+     <p>
+      After that, we tested the strong binding peptides for probable antigenicity using Vaxijen V.2.0,      using a threshold of score &lt;0.5 to filter out possible non-antigenic peptides.
+     </p>
+    </sec>
+    <sec id="s2-4">
+     <title>
+      Peptide docking
+     </title>
+     <p>
+      Peptide docking was carried out using the CABS-dock server.      We submitted to a docking simulation, those peptides that showed strong binding affinity and probable antigenicity to their specific MHC-I allele using the default parameters. After the docking, we excluded the complexes that showed root mean squared deviation (RMSD) values above 3 Å to follow the molecular dynamics (MD).
+     </p>
+    </sec>
+    <sec id="s2-5">
+     <title>
+      Molecular dynamics
+     </title>
+     <p>
+      The complexes from the docking simulations (RMSD values below 3 Å) were further investigated by MD simulations using GROMACS 2020.1.      The complex was inserted in a 0.7 nm cubic box, filling the voided space with SPC-E water molecules. Calcium and sodium ions were added for reaching the system electronic equilibrium. Energy minimisation was carried out using default parameters. The equilibrium phase was made during 10 ns (for temperature and pressure), while the production phase lasted 100 ns. These steps were also performed using default parameters.
+     </p>
+     <p>
+      In order to investigate the stability of the complexes, we calculated RMSD, root mean squared fluctuation, radius of gyration (Rg), solvent accessible surface area and the determination of hydrogen bonds.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     Results and discussion
+    </title>
+    <p>
+     shows the most frequent HLA-A, HLA-B and HLA-C alleles, according to the HLA Allele Frequency Database. The top 10 HLA-A alleles correspond to 68.7% of the A* alleles, whereas the top 10 HLA-B alleles represent 53% and the HLA-C alleles 68.8%. These values may not be sufficient to depict the MCH-I allelic variation, but it can give an estimation of the major diversity of the class I genes.
+    </p>
+    <p>
+     We modelled the MHC-I alleles, whose PDB structures were not available. The templates used for model prediction, refinement and validations are reported in     . Overall, the models were considered suitable for docking analysis since they presented significant amino acid sequence similarity to the templates and were above RAMPAGE and ERRAT thresholds (98% and 80%, respectively).
+    </p>
+    <p>
+     Two hundred twenty-eight peptides were considered with strong binding affinity, according to NetMHCpan V.4.0 results (     ); of these, 73 were also considered probably antigenic based on the Vaxijen V.2.0 results. We carried out peptide docking simulations for all of them except for two (pep88 and pep111), which could not be docked by CABS-dock server, possibly due to some issues with the MHC-I structure. As result, 61 peptides had good docking predictions, as they showed average RMSD &lt;3 Å (     ).
+    </p>
+    <p>
+     These complexes comprised 24 different MHC-I alleles: HLA-A*01:01 (four epitopes), HLA-A*02:01 (2), HLA-A*03:01 (3), HLA-A*11:01 (5), HLA-A*23:01 (4), HLA-A*24:02 (3), HLA-A*26:01 (3), HLA-A*30:02, HLA-A*31:01 (3), HLA-A*68:01 (5), HLA-B*07:02 (3), HLA-B*18:01 (1), HLA-B*35:01 (4), HLA-B*35:03 (2), HLA-B*38:01 (2), HLA-B*44:02 (2), HLA-B*44:03 (1), HLA-B*51:01 (1), HLA-C*05:01 (2), HLA-C*07:01 (2), HLA-C*07:02 (1), HLA-C*08:02 (1), HLA-C*15:02 (1) and HLA-C*17:01 (1). To evaluate the stability of these complexes, we completed MD simulations to make trajectory analyses.
+    </p>
+    <p>
+     Twenty-four MHC-I and protein S peptides (pep) complexes presented good results from MD simulations; these are summarised in     . Trajectory analysis of HLA-A alleles showed that the most compact and rigid complexes were: HLA-A*01:01 with the peptides pep2 and pep3 (     ); HLA-A*02:01 with pep6 and pep7 (     ); HLA-A*11:01 combined with pep15 and pep18 (     ); HLA-A*24:02 with pep24 (     ); HLA-A*68:01 with pep65 (     ); HLA-A*23:01 in complex with pep83 (     ); HLA-A*26:01 with pep85 and pep87 (     ); HLA-A* 30:02 with pep92 (     ); and HLA-A*31:01 in complex with pep96 (     ). It is worth noting that even among the most stable complexes, the solvent accessibility varied.
+    </p>
+    <table-wrap id="T2" orientation="portrait" position="float">
+     <label>
+      Table 2
+     </label>
+     <caption>
+      <p>
+       Best protein S epitope is bound to its respective Major Histocompatibility Complex Class I alleles according to molecular dynamics results
+      </p>
+     </caption>
+     <table frame="hsides" rules="groups">
+      <thead>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         Allele
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         PDB
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         Peptide
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         Code
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         %Rank
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         OPPA prediction
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="bottom">
+         Average RMSD (Å)
+        </td>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*01:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         4NQX
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         NLDSKVGGNY
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep2
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.1041
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.7882
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.5624
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*01:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         4NQX
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         GWTAGAAAYY
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep3
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2305
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.5358
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.6896
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*02:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         4L29
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         KLNDLCFTNV
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep6
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2287
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.6927
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.1479
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*02:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         4L29
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         FELLHAPATV
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep7
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.3513
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.5982
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.1796
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*11:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         1X7Q
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         VTLADAGFIK
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep15
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.1366
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.8702
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.1979
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*11:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         1X7Q
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         SLIDLQELGK
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep18
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2777
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.0275
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.9232
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*24:02
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         2BCK
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         TYVPAQEKNF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep24
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.0424
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.7276
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.0925
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*68:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         6PBH
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HVTYVPAQEK
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep65
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2517
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.0786
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.1007
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*23:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         CYFPLQSYGF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep83
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.3803
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.7776
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.8308
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*26:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         EILDITPCSF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep85
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.1991
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.2698
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.7413
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*26:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         GWTAGAAAYY
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep87
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2372
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.5358
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.9260
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*30:02
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         IGAEHVNNSY
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep92
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4353
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.2671
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.5989
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-A*31:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         RKSNLKPFER
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep96
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4348
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.8187
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.4331
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*07:02
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         5EO0
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         TPCSFGGVSV
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep59
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.3909
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.7080
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.7139
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*51:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         5VUE
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         VAYSNNSIAI
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep70
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4565
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.0545
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.2241
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*35:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         1XH3
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         LPIGINITRF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep72
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.0959
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.3027
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.2773
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*35:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         1XH3
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         QIPFAMQMAY
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep73
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2719
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.2149
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.6030
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*35:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         1XH3
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         FPNITNLCPF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep75
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4307
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.3964
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.4222
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*44:02
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         1M6O
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         TESNKKFLPF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep79
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4851
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.0405
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.4687
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*35:03
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         LPIGINITRF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep97
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.1519
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.3027
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.0459
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-B*35:03
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         LPFFSNVTWF
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep98
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4127
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.6567
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4809
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-C*05:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         LVDLPIGINI
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep103
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.1770
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         1.3499
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.2044
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-C*07:01
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         IVRFPNITNL
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep105
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.1311
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.5548
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         4.0092
+        </td>
+       </tr>
+       <tr>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         HLA-C*15:02
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         swissmodel
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         AVRDPQTLEI
+        </td>
+        <td align="left" colspan="1" rowspan="1" valign="top">
+         pep109
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.4849
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         0.7083
+        </td>
+        <td align="char" char="." colspan="1" rowspan="1" valign="top">
+         2.5140
+        </td>
+       </tr>
+      </tbody>
+     </table>
+     <table-wrap-foot>
+      <fn id="T2_FN1">
+       <p>
+        It is possible to see the Protein Data Bank (PDB) ID for the structures used (or the indication that the structure was modelled using Swiss-model); the amino acid sequence; the code that we used during the simulations; %Rank value from NetMHC Pan; Vaxijen’s OPPA score and average root mean squared deviation (RMSD) for the docking simulations according to CABS dock.
+       </p>
+      </fn>
+      <fn id="T2_FN2">
+       <p>
+        HLA, Human Leukocyte Antigen.
+       </p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+    <p>
+     This variation was due to the peptides binding in different positions to the HLA-A alleles. The other peptides (less compact and more flexible) showed more fluctuations in the loop conformations of the complex, including in the peptide structure by itself. In fact, a comparison among the structures confirmed that the major difference among the complex is in the peptides and not in the regions of HLA-A without secondary conformation (     ). However, although these differences may affect the stability of the complexes, they do not induce structural modifications sufficient to unfold the protein.
+    </p>
+    <p>
+     Regarding HLA-B alleles, the complexes with minimal changes from the initial form during the simulations were: HLA-B*07:02 with pep59 (     ); HLA-B*51:01 in complex with pep70 (     ); HLA-B*35:01 with pep72, pep73 and pep75 (     ); HLA-B*38:01 with pep79 (     ); and HLA-B*35:03 in complex with the peptides pep97 and pep98 (     ). Similar to the most compact and stable complexes of HLA-A, the major differences among the most rigid and flexible complexes were not in the peptides itself but in regions of HLA-B alleles without secondary conformations (     ).
+    </p>
+    <p>
+     Analysing the trajectories for HLA-C, it was possible to observe that the most stable complexes were HLA-C*05:01, with pep103 (     ); HLA-C*07:01, with pep105 (     ) and HLA-C*15:02, with pep109 (     ). The latter complex, though, appeared to be stable only by the end of the simulation.
+    </p>
+    <p>
+     There are a few works in the literature using a similar approach to evaluate possible immunogenic peptides in the SARS-CoV-2 protein S. One study identified five CD8     T cells epitopes (YLQPRTFLL, GVYFASTEK, EPVLKGVKL, VVNQNAQAL and WTAGAAAYY) and eight B cell epitopes that bind the MHC class I and II alleles more frequent in China.     A second study found 13 MHC-I (SQCVNLTTR, GVYYHKNNK, GKQGNFKNL, GIYQTSNFR, VSPTKLNDL, KIADYNYKL, KVGGNYNYL, EGFNCYFPL, GPKKSTNLV, SPRRARSVA, LGAENSVAY, FKNHTSPDV and DEDDSEPVL) and three MHC-II possible protein S antigenic peptides.     Joshi
+     <italic>
+      et al
+     </italic>
+     reported the MHC-I ITLCFTLKR as a possible candidate for vaccine development. Comparing these previous results with our simulations, only GWTAGAAAYY complexed with HLA-A*01:01 and HLA-A*26:01 presented good NetMHC-Pan and Vaxijen scores, as well as good docking stability and RMSD during the MD.
+    </p>
+    <p>
+     In conclusion, being aware of the intrinsic limitations of in silico analysis (differences between the real and the PDB structure, accuracy of the methods for simulate proteasome cleavage, as well as molecular modelling, docking and dynamics’ shortcomings), we described 24 epitopes present in the SARS-CoV-2 protein S that could interact with 17 different MHC-I alleles in the Brazilian population. These epitopes can elicit an effective CD8     T cells immune response and could be useful to develop strategic methods for vaccines against COVID-19. Finally, our immunoinformatic approach could be a useful tool to determine a guided starting point to design and develop epitope-based vaccines.
+    </p>
+    <boxed-text id="BX1" orientation="portrait" position="float">
+     <caption>
+      <title>
+       Take home messages
+      </title>
+     </caption>
+     <list list-type="bullet">
+      <list-item>
+       <p>
+        The understanding of which severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) epitopes are immunogenic may help in the development of diagnostic kits and prophylactic vaccines.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        An immunoinformatic approach is suitable for Major Histocompatibility Complex Class I (MHC-I) screening, to predict the immunogenicity of a vast quantity of peptides and alleles in a cost-effective manner.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        SARS-CoV-2 protein S peptides have been analysed in silico aiming to prospect epitopes and their ability to elicit an immune response mediated by the most frequent MHC-I alleles in the Brazilian population.
+       </p>
+      </list-item>
+      <list-item>
+       <p>
+        Twenty-four epitopes present in the SARS-CoV-2 protein S have been observed, which could interact with 17 different MHC-I alleles identified in the Brazilian population.
+       </p>
+      </list-item>
+     </list>
+    </boxed-text>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

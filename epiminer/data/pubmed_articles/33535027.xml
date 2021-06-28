@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Identification of SARS-CoV-2 spike mutations that attenuate monoclonal and serum antibody neutralization.
+ </title>
+ <abstract>
+  <AbstractText>
+   Neutralizing antibodies against the SARS-CoV-2 spike (S) protein are a goal of COVID-19 vaccines and have received emergency use authorization as therapeutics. However, viral escape mutants could compromise efficacy. To define immune-selected mutations in the S protein, we exposed a VSV-eGFP-SARS-CoV-2-S chimeric virus, in which the VSV glycoprotein is replaced with the S protein, to 19 neutralizing monoclonal antibodies (mAbs) against the receptor-binding domain (RBD) and generated 50 different escape mutants. Each mAb had a unique resistance profile, although many shared residues within an epitope of the RBD. Some variants (e.g., S477N) were resistant to neutralization by multiple mAbs, whereas others (e.g., E484K) escaped neutralization by convalescent sera. Additionally, sequential selection identified mutants that escape neutralization by antibody cocktails. Comparing these antibody-mediated mutations with sequence variation in circulating SARS-CoV-2 revealed substitutions that may attenuate neutralizing immune responses in some humans and thus warrant further investigation.
+  </AbstractText>
+ </abstract>
+</article>

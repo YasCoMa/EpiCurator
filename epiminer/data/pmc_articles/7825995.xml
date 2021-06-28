@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  The presentation of SARS-CoV-2 peptides by the common HLA-A
+ </title>
+ <abstract>
+  <p>
+   CD8+ T cells are crucial for anti-viral immunity; however, understanding T cell responses requires the identification of epitopes presented by human leukocyte antigens (HLA). To date, few SARS-CoV-2-specific CD8+ T cell epitopes have been described. Internal viral proteins are typically more conserved than surface proteins and are often the target of CD8+ T cells. Therefore, we have characterized eight peptides derived from the internal SARS-CoV-2 nucleocapsid protein predicted to bind HLA-A   02:01, the most common HLA molecule in the global population. We determined not all peptides could form a complex with HLA-A   02:01, and the six crystal structures determined revealed that some peptides adopted a mobile conformation. We therefore provide a molecular understanding of SARS-CoV-2 CD8+ T cell epitopes. Furthermore, we show that there is limited pre-existing CD8+ T cell response toward these epitopes in unexposed individuals. Together, these data show that SARS-CoV-2 nucleocapsid might not contain potent epitopes restricted to HLA-A   02:01.
+  </p>
+  <p>
+   Immunology; structural biology; virology
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="p0025">
+     Following the emergence of SARS-CoV-2 out of Wuhan, China in late 2019, there have been over 92 million infections and over 1.9 million deaths worldwide (     ). This novel and highly infectious coronavirus has significantly encumbered the majority of the world, resulting in massive economic “loss” in all global economies. Worldwide, significant efforts are being made toward the development of a SARS-CoV-2 vaccine (     ).
+    </p>
+    <p id="p0030">
+     Studies have shown that SARS-CoV-2-specific antibodies might not be long-lived (     ;     ), and it is unclear if they could provide long-term protective immunity. It is well established that cytotoxic CD8+ T cells play a vital role in the control and clearance of viral pathogens. This is particularly well characterized in other viral respiratory infections, such as influenza (     ), where pre-existing CD8+ T cells can decrease disease severity and overall symptom scores (     ;     ). In addition, CD8+ T cell immunity can be long-lasting, with longitudinal studies showing that CD8+ T cell immunity can be detected 10–50 years following vaccination (     ;     ) and at least 13 years following natural influenza infection (     ). Furthermore, CD8+ T cells can be cross-reactive, recognizing variants within viral epitopes (     ;     ), meaning that they can occasionally recognize distinct viral strains (     ;     ). As such, there is a great interest in understanding the CD8+ T cell response toward SARS-CoV-2 to determine if a CD8+ T-cell-mediated vaccine can provide broad and long-lasting protection. Indeed, there is emerging evidence that CD8+ T cells can be detected following infection with SARS-CoV-2 (     ;     ;     ), but their role in protective immunity is yet to be fully understood.
+    </p>
+    <p id="p0035">
+     A significant challenge to investigating epitope-specific CD8+ T cell responses toward novel viruses is the lack of defined epitopes. CD8+ T cells recognize small peptides, derived from self or pathogenic proteins that are bound by human leukocyte antigen (HLA) molecules. HLA molecules are themselves highly polymorphic, where the majority of their diversity lies within their antigen binding cleft, ensuring the presentation of a wide range of peptides from diverse pathogens. HLA molecules are divided into HLA class I and II, which are recognized by CD8+ and CD4+ T cells, respectively. HLA class I molecules bind small peptides (8–10 residues) in their antigen binding cleft through a series of pockets termed A–F. The second and last residues of the peptide (P2 and PΩ, respectively) bind within the B and F pockets, respectively. These residues are often referred to as anchor residues, due to their critical role in anchoring the peptide into the HLA cleft. Each HLA molecule binds peptides with characteristic motifs that comprise particular anchor residues (P2 and PΩ) that are well adapted to the chemical properties of the HLA B and F pockets, respectively. For example, in HLA-A     02:01-restricted peptides, a Leucine or Methionine is often preferred at P2, a smaller hydrophobic residue such as Valine or Leucine being characteristic of the PΩ residue (     ). To date, only a few SARS-CoV-2 epitopes have been identified, and this limited knowledge represents a major roadblock to studying T cell immunity toward this new virus. There are numerous technical challenges to overcome, including limited access to patient samples, limited sample volume (e.g. blood), the need for HLA typing, and confirming the HLA restriction for each peptide. An approach to identify potential epitopes to a novel virus is to use known epitopes from a closely related virus or the use of peptide prediction algorithms.
+    </p>
+    <p id="p0040">
+     In this study, we selected eight SARS-CoV-2 peptides that were likely to bind to the HLA-A     02:01 molecule, an allele common to ∼40% of the global population. These peptides are a mix of predicted SARS-CoV-2 peptides and previously described SARS peptides (     ;     ). We have focused on the nucleocapsid (N) protein, which is typically conserved between closely related viruses, due to its important function. This makes the N protein an ideal target for CD8+ T cells and therefore, a CD8+ T cell-mediated vaccine. We firstly determined the ability of each peptide to form a stable complex with the HLA-A     02:01 molecule, showing that one was unable to form a complex with HLA-A     02:01, and three form a poorly stable complex. We then determined the crystal structure of six HLA-A     02:01-SARS-CoV-2 complexes, providing the first description of CD8+ T cell SARS-CoV-2 epitopes at an atomic level. Interestingly, three of our selected peptides have since been shown to be immunogenic (N
+     <sub>
+      219-227
+     </sub>
+     (     ), N
+     <sub>
+      222-230
+     </sub>
+     (     ;     ), and N
+     <sub>
+      316-324
+     </sub>
+     (     ;     )) in COVID-19 recovered individuals. As expected, these immunogenic peptides were able to form a stable complex with the HLA-A     02:01 molecule. Furthermore, we compared the sequences of our selected peptides with other circulating common cold coronaviruses and found that some of our peptides were highly conserved. As such, we assessed the functional CD8+ T cell response toward these peptides in healthy HLA-A     02:01 individuals with no known exposure to SARS-CoV-2. We found that, despite some conservation, there was limited pre-existing CD8+ T cell immunity toward these peptides.
+    </p>
+    <p id="p0045">
+     Overall, we demonstrate that not all selected peptides were able to form stable complexes with HLA-A     02:01, which was a consequence of unfavourable P2 and/or PΩ residues and an important factor for immunogenicity. In addition, we saw limited pre-existing CD8+ T cell response for these peptides in unexposed donors, whereas peptides that have subsequently been shown to be immunogenic in COVID-19 recovered patients were stable and adopted a canonical conformation in the cleft of HLA-A     02:01. Altogether, our data provide molecular insight into CD8+ T cell epitopes from SARS-CoV-2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Results
+    </title>
+    <sec id="sec2.1">
+     <title>
+      SARS-CoV-2 and SARS nucleocapsid proteins are highly identical
+     </title>
+     <p id="p0050">
+      Viral nucleocapsid (N) proteins are typically highly conserved due to their important functions, making them ideal targets for vaccine design. The N protein of SARS-CoV-2 is particularly important for RNA packaging during the release of the virion. Because internal proteins are more conserved than surface proteins, the N protein is an excellent target for the adaptive immune system and particularly cytotoxic CD8+ T cells.
+     </p>
+     <p id="p0055">
+      The SARS-CoV-2 N protein is composed of 419 residues and divided into two main domains, the N-terminal (NTD) and the C-terminal domains (CTD) that are connected via a Ser-Arg rich linker (LKR) and flanked by a N-arm and C-tail loops, similar to the N protein of SARS (      ) (      ). Alignment of the N proteins from SARS-CoV-2 with SARS and four other coronavirus strains responsible for the common cold (NL63, OC43, HKU1, and 229E (      )) revealed that SARS-CoV-2 had a higher sequence identity with SARS (90%) than with the remaining four coronaviruses (23%–29% sequence identity). The NTD and LKR domains exhibited the highest sequence homology between the six viruses (      ). We selected a total of eight N-derived peptides; six from the conserved NTD and LKR domains and two from the CTD section (      ). Out of the eight peptides predicted to bind the HLA-A∗02:01 (      ) that are conserved in SARS (      ), six of the peptides are known SARS CD8+ T cell epitopes (all except N
+      <sub>
+       351-358
+      </sub>
+      and N
+      <sub>
+       351-359
+      </sub>
+      ) (      ). We then compared the sequence conservation within each of the peptides. These conserved SARS-CoV-2 peptides (exceptions of N
+      <sub>
+       222-230
+      </sub>
+      and N
+      <sub>
+       226-234
+      </sub>
+      ) had 22%–44% sequence identity or homology with OC43, HKU1, or 229E virus and none with NL63 virus (      ).
+      <table-wrap id="tbl1" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         SARS-CoV-2 potential HLA-A         02:01-restricted CD8+ T cell epitopes
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Name
+          </th>
+          <th>
+           Sequence
+          </th>
+          <th>
+           Tm (°C)
+          </th>
+          <th>
+           Immunogenicity
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           N
+           <sub>
+            138-146
+           </sub>
+          </td>
+          <td>
+           ALNTPKDHI
+          </td>
+          <td align="char">
+           35.7 ± 0.6
+          </td>
+          <td>
+           Null (0/11, (           ))
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            159-167
+           </sub>
+          </td>
+          <td>
+           LQLPQGTTL
+          </td>
+          <td align="char">
+           35.8 ± 1.5
+          </td>
+          <td>
+           Null (0/11, (           ))
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            219-227
+           </sub>
+          </td>
+          <td>
+           LALLLLDRL
+          </td>
+          <td align="char">
+           41.5 ± 0.5
+          </td>
+          <td>
+           Weak (2/11, (           ))
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            222-230
+           </sub>
+          </td>
+          <td>
+           LLLDRLNQL
+          </td>
+          <td align="char">
+           54.7 ± 0.4
+          </td>
+          <td>
+           Weak (3/11, (           ))
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            226-234
+           </sub>
+          </td>
+          <td>
+           RLNQLESKM
+          </td>
+          <td align="char">
+           39.2 ± 1.0
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            316-324
+           </sub>
+          </td>
+          <td>
+           GMSRIGMEV
+          </td>
+          <td align="char">
+           49.0 ± 0.1
+          </td>
+          <td>
+           Weak (2/11, (           )), (           )
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            351-358
+           </sub>
+          </td>
+          <td>
+           ILLNKHID
+          </td>
+          <td>
+           ND
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+         <tr>
+          <td>
+           N
+           <sub>
+            351-359
+           </sub>
+          </td>
+          <td>
+           ILLNKHIDA
+          </td>
+          <td align="char">
+           42.9 ± 0.3
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          ND: not determined, Tm: thermal midpoint temperature.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="p0060">
+      We established if the selected peptide sequences are representative of circulating SARS-CoV-2 strains and determined their conservation within N protein sequences derived from SARS-CoV-2 viruses circulating within Oceania (4049 sequences), Asia (1,152 sequences), Europe (390 sequences), and North America (10,044 sequences). All peptides were shown to be highly conserved, and our selected peptides are represented in 96%–99% of all circulating strains (      ), making them ideal for potential vaccine candidates. Interestingly, the immunogenicity of five of our selected peptides has since been characterized in COVID-19 recovered individuals. Two peptides, N
+      <sub>
+       138-146
+      </sub>
+      and N
+      <sub>
+       159-167
+      </sub>
+      , were not immunogenic in COVID-19-recovered individuals (      ), whereas three peptides, namely N
+      <sub>
+       219-227
+      </sub>
+      (      ), N
+      <sub>
+       222-230
+      </sub>
+      (      ), and N
+      <sub>
+       316-324
+      </sub>
+      (      ;      ), were immunogenic in COVID-19 recovered individuals, further highlighting the importance of further investigation into these epitopes.
+     </p>
+     <p id="p0065">
+      Overall, the selected N-derived SARS-CoV-2 peptides are representative of the currently circulating strains of the virus and share some similarity with coronaviruses responsible for the common cold.
+     </p>
+    </sec>
+    <sec id="sec2.2">
+     <title>
+      Some SARS-CoV-2 N-derived peptides poorly stabilized the HLA-A      02:01 molecule
+     </title>
+     <p id="p0070">
+      To determine if the 8 N-derived peptides (      ) were able to form a complex with HLA-A      02:01, we firstly refolded each peptide separately with the HLA-A      02:01 heavy chain and β2-microglobulin (β2m). Seven of our eight peptides were successfully refolded with the HLA-A      02:01 molecule; however, the N
+      <sub>
+       351-358
+      </sub>
+      peptide (p) failed to stabilize HLA-A      02:01, as no refolded protein was obtained following purification. This result is not completely surprising, as the N
+      <sub>
+       351-358
+      </sub>
+      peptide does not have the favored PΩ-Val/Leu typical of HLA-A      02:01 binding (      ) but instead has a charged Aspartic acid residue. Interestingly, the overlapping N
+      <sub>
+       351-359
+      </sub>
+      peptide, which has a small hydrophobic Alanine residue at PΩ was able to form a complex with HLA-A      02:01 (details below).
+     </p>
+     <p id="p0075">
+      The stability of the pHLA is an important factor, as it influences the half-life of the complex, in turn impacting the likelihood of a peptide being present for long enough at the cell surface to then be recognized by T cells (      ;      ). We therefore assessed the stability of the remaining 7 pHLA complexes and compared them to the well characterized HLA-A      02:01-restricted immunogenic influenza M1 peptide (GILGFVFTL) (      ) using differential scanning fluorimetry (DSF). All 7 HLA-A      02:01-SARS-CoV-2 complexes had a lower thermal shift temperature (Tm) than the highly stable HLA-A∗02:01-M1, which exhibited a Tm of ∼60°C consistent with previously published reports (      ) (      ,      ). The most stable pHLA complexes were the one with the N
+      <sub>
+       222-230
+      </sub>
+      (Tm of 55°C) and N
+      <sub>
+       316-324
+      </sub>
+      (Tm of 49°C) peptides, followed by the one with N
+      <sub>
+       219-227
+      </sub>
+      , N
+      <sub>
+       226-234
+      </sub>
+      , and N
+      <sub>
+       351-359
+      </sub>
+      peptides with a Tm of ∼40°C (      ,      ). Surprisingly, the Tm was ∼35°C for complexes with the NTD-derived peptides N
+      <sub>
+       138-146
+      </sub>
+      and N
+      <sub>
+       159-167
+      </sub>
+      , an extremely low Tm value for pHLA-A      02:01 complexes (      ;      ;      ).
+     </p>
+     <p id="p0080">
+      The three peptides that resulted in a pHLA complex with a Tm above 40°C were recently described as immunogenic in COVID-19-recovered patients (N
+      <sub>
+       219-227
+      </sub>
+      (      ), N
+      <sub>
+       222-230
+      </sub>
+      (      ;      ), and N
+      <sub>
+       316-324
+      </sub>
+      (      ;      )), whereas the two peptides leading to a pHLA with a Tm below 40°C were described as non-immunogenic (N
+      <sub>
+       138-146
+      </sub>
+      and N
+      <sub>
+       159-167
+      </sub>
+      (      )) (      ). This suggests that indeed pHLA complex stability may play a role in peptide immunogenicity.
+     </p>
+     <p id="p0085">
+      Together, our data show that HLA-A      02:01 was poorly stable in complex with some of the predicted N-derived SARS-CoV-2 peptides, which will impact T cell response.
+     </p>
+    </sec>
+    <sec id="sec2.3">
+     <title>
+      SARS-CoV-2 N-derived peptides with low Tm adopt an unusual conformation
+     </title>
+     <p id="p0090">
+      To gain a better understanding of the presentation of SARS-CoV-2 peptide by HLA-A      02:01, and why some of these complexes displayed unusually low Tm values, we solved the structures of 6 HLA-A      02:01-SARS-CoV-2 complexes. Unfortunately, the HLA-A      02:01-N
+      <sub>
+       219-227
+      </sub>
+      structure could not be determined due to low yields of protein required for crystallization. All structures were solved to a high resolution of 1.3–2.15Å (      ), showing unbiased electron density for the peptides (      ). Overall, the pHLA structures were similar, with a root-mean-square deviation (r.m.s.d.) on the antigen binding cleft of 0.14–0.22Å between the six structures (      A) despite the peptides adopting different conformations (      B).
+      <table-wrap id="tbl2" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Data collection and refinement statistics
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th/>
+          <th>
+           HLA-A           02:01-N
+           <sub>
+            138-146
+           </sub>
+          </th>
+          <th>
+           HLA-A           02:01-N
+           <sub>
+            159-167
+           </sub>
+          </th>
+          <th>
+           HLA-A           02:01-N
+           <sub>
+            222-230
+           </sub>
+          </th>
+          <th>
+           HLA-A           02:01-N
+           <sub>
+            226-234
+           </sub>
+          </th>
+          <th>
+           HLA-A           02:01-N
+           <sub>
+            316-324
+           </sub>
+          </th>
+          <th>
+           HLA-A           02:01-N
+           <sub>
+            351-359
+           </sub>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td colspan="7">
+           <bold>
+            Data collection statistics
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Space group
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+          <td>
+           P2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+           2
+           <sub>
+            1
+           </sub>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Cell dimensions (a,b,c) (Å)
+          </td>
+          <td>
+           60.03, 78.90, 110.60
+          </td>
+          <td>
+           53.33, 80.54, 57.06, β = 113.47°
+          </td>
+          <td>
+           60.16, 79.71, 111.47
+          </td>
+          <td>
+           60.29, 79.68, 111.12
+          </td>
+          <td>
+           60.19, 79.55, 111.58
+          </td>
+          <td>
+           59.79, 78.25, 111.51
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Resolution (Å)
+          </td>
+          <td>
+           47.77–1.58 (1.61–1.58)
+          </td>
+          <td>
+           48.92–1.55 (1.58–1.55)
+          </td>
+          <td>
+           48.02–1.34 (1.36–1.3.4)
+          </td>
+          <td>
+           48.08–1.90 (1.94–1.90)
+          </td>
+          <td>
+           48.00–1.40 (1.42–1.40)
+          </td>
+          <td>
+           47.51–2.15 (2.22–2.15)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total number of observations
+          </td>
+          <td>
+           677855 (33071)
+          </td>
+          <td>
+           442231 (22524)
+          </td>
+          <td>
+           1621917 (76338)
+          </td>
+          <td>
+           289860 (42802)
+          </td>
+          <td>
+           1421661 (58020)
+          </td>
+          <td>
+           226686 (29202)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Nb of unique obs
+          </td>
+          <td>
+           72687 (3502)
+          </td>
+          <td>
+           63881 (3135)
+          </td>
+          <td>
+           120760 (5789)
+          </td>
+          <td>
+           17771 (27004)
+          </td>
+          <td>
+           106332 (4607)
+          </td>
+          <td>
+           20120 (2485)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Multiplicity
+          </td>
+          <td>
+           9.3 (9.4)
+          </td>
+          <td>
+           6.9 (7.2)
+          </td>
+          <td>
+           13.4 (13.2)
+          </td>
+          <td>
+           6.8 (6.6)
+          </td>
+          <td>
+           13.4 (12.6)
+          </td>
+          <td>
+           7.8 (8.1)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Data completeness (%)
+          </td>
+          <td>
+           100 (100)
+          </td>
+          <td>
+           99.6 (99.1)
+          </td>
+          <td>
+           99.9 (97.5)
+          </td>
+          <td>
+           99.7 (99.0)
+          </td>
+          <td>
+           99.4 (88.4)
+          </td>
+          <td>
+           100 (100)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           I/σ
+           <sub>
+            I
+           </sub>
+          </td>
+          <td>
+           16.1 (1.9)
+          </td>
+          <td>
+           17.5 (1.7)
+          </td>
+          <td>
+           17.1 (2.0)
+          </td>
+          <td>
+           10.1 (2.3)
+          </td>
+          <td>
+           19.3 (2.1)
+          </td>
+          <td>
+           10.5 (1.7)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           R
+           <sub>
+            pim
+           </sub>
+           (%)
+          </td>
+          <td>
+           2.8 (43.0)
+          </td>
+          <td>
+           2.0 (46.4)
+          </td>
+          <td>
+           2.3 (40.7)
+          </td>
+          <td>
+           5.7 (55.8)
+          </td>
+          <td>
+           1.8 (38.5)
+          </td>
+          <td>
+           5.6 (48.8)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CC
+           <sub>
+            1/2
+           </sub>
+           (%)
+          </td>
+          <td>
+           99.9 (67.6)
+          </td>
+          <td>
+           99.9 (72.8)
+          </td>
+          <td>
+           99.9 (67.4)
+          </td>
+          <td>
+           99.5 (75.8)
+          </td>
+          <td>
+           99.9 (69.7)
+          </td>
+          <td>
+           99.7 (60.8)
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <bold>
+            Refinement statistics
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            R
+           </italic>
+           <sub>
+            <italic>
+             factor
+            </italic>
+           </sub>
+           (%)
+          </td>
+          <td>
+           17.4
+          </td>
+          <td>
+           19.8
+          </td>
+          <td>
+           17.9
+          </td>
+          <td>
+           16.9
+          </td>
+          <td>
+           19.4
+          </td>
+          <td>
+           18.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            R
+           </italic>
+           <sub>
+            <italic>
+             free
+            </italic>
+           </sub>
+           (%)
+          </td>
+          <td>
+           19.7
+          </td>
+          <td>
+           22.1
+          </td>
+          <td>
+           19.8
+          </td>
+          <td>
+           20.5
+          </td>
+          <td>
+           20.3
+          </td>
+          <td>
+           22.9
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           rmsd from ideality
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Bond lengths (Å)
+          </td>
+          <td>
+           0.010
+          </td>
+          <td>
+           0.010
+          </td>
+          <td>
+           0.010
+          </td>
+          <td>
+           0.009
+          </td>
+          <td>
+           0.008
+          </td>
+          <td>
+           0.008
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Bond angles (°)
+          </td>
+          <td>
+           1.02
+          </td>
+          <td>
+           1.02
+          </td>
+          <td>
+           1.04
+          </td>
+          <td>
+           1.18
+          </td>
+          <td>
+           0.94
+          </td>
+          <td>
+           1.10
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           Ramachandran plot (%)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Favoured
+          </td>
+          <td>
+           99.3
+          </td>
+          <td>
+           99
+          </td>
+          <td>
+           100
+          </td>
+          <td>
+           98
+          </td>
+          <td>
+           98.5
+          </td>
+          <td>
+           98
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Allowed
+          </td>
+          <td>
+           0.7
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           2
+          </td>
+          <td>
+           1.5
+          </td>
+          <td>
+           2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Disallowed
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           PBD code
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="PC_linklbBGvdBYQS" ns0:href="http://www.rcsb.org/structure/7KGS">
+            7KGS
+           </ext-link>
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="PC_linkZKtCwcPZ4W" ns0:href="http://www.rcsb.org/structure/7KGR">
+            7KGR
+           </ext-link>
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="PC_linksryqBhsFi5" ns0:href="http://www.rcsb.org/structure/7KGQ">
+            7KGQ
+           </ext-link>
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="PC_link2jOk2uqFj0" ns0:href="http://www.rcsb.org/structure/7KGT">
+            7KGT
+           </ext-link>
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="PC_linkv0DebfIP6Z" ns0:href="http://www.rcsb.org/structure/7KGP">
+            7KGP
+           </ext-link>
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="PC_linktR6Vwj5WWS" ns0:href="http://www.rcsb.org/structure/7KGO">
+            7KGO
+           </ext-link>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn id="tblfn1">
+         <label>
+          a
+         </label>
+         <p id="ntpara0025">
+          R
+          <sub>
+           p.i.m
+          </sub>
+          = Σ
+          <sub>
+           hkl
+          </sub>
+          [1/(N-1)]          Σ
+          <sub>
+           i
+          </sub>
+          | I
+          <sub>
+           hkl, i
+          </sub>
+          - &lt;I
+          <sub>
+           hkl
+          </sub>
+          &gt; | / Σ
+          <sub>
+           hkl
+          </sub>
+          &lt;I
+          <sub>
+           hkl
+          </sub>
+          &gt;.
+         </p>
+        </fn>
+       </table-wrap-foot>
+       <table-wrap-foot>
+        <fn id="tblfn2">
+         <label>
+          b
+         </label>
+         <p id="ntpara0030">
+          R
+          <sub>
+           factor
+          </sub>
+          = Σ
+          <sub>
+           hkl
+          </sub>
+          | | F
+          <sub>
+           o
+          </sub>
+          | - | F
+          <sub>
+           c
+          </sub>
+          | | / Σ
+          <sub>
+           hkl
+          </sub>
+          | F
+          <sub>
+           o
+          </sub>
+          | for all data except ≈ 5%, which were used for R
+          <sub>
+           free
+          </sub>
+          calculation. Values in parentheses are for the highest resolution shell.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="p0095">
+      The N
+      <sub>
+       159-167
+      </sub>
+      peptide adopts a rather flat conformation in the HLA cleft. From P4-Pro to P8-Thr the peptide lays flat, without any secondary anchor residue interactions within the HLA-A      02:01 molecule (      C). This conformation is favored by the P4-Pro that provides a kinked conformation observed in several pHLA structures (      ). Although the residues P2-Gln and P9-Leu anchor the peptide, often observed in other HLA-A      02:01-restricted peptides, the lack of secondary anchors might provide the basis for the low Tm value of HLA-A      02:01-N
+      <sub>
+       159-167
+      </sub>
+      (      ).
+     </p>
+     <p id="p0100">
+      Conversely, the N
+      <sub>
+       138-146
+      </sub>
+      peptide has additional anchor residues relative to the other structures, adopting a constrained conformation within the cleft (      ). The P2-Leu and P9-Ile act as conventional primary anchor residues, and three residues acting as secondary anchors, namely P3-Asn, P5-Pro, and P7-Asp (      D). As a result, the backbone of the peptide adopts a zigzag conformation, with residues pointing up and down spanning P3 to P9. The unusual P5-Pro secondary anchor is located within a pocket that is positively charged, which is not a favourable environment for a hydrophobic Proline residue. This constrained conformation of the N
+      <sub>
+       138-146
+      </sub>
+      peptide and the presence of multiple secondary anchor residues (P5-Pro and P7-Asp) might explain the low Tm value of the pHLA complex (      ).
+     </p>
+     <p id="p0105">
+      The N
+      <sub>
+       226-234
+      </sub>
+      peptide has a P9-Met, which is not anchored into the small hydrophobic F pocket in HLA-A      02:01 within this particular crystal structure. However, two self and one synthetic peptides have been crystallized with a P9-Met binding to the F pocket (      ;      ;      ); therefore other residues within the N
+      <sub>
+       226-234
+      </sub>
+      peptide seems to destabilize the anchoring of the P9-Met. As a result, the Tm of HLA-A      02:01-N
+      <sub>
+       226-234
+      </sub>
+      complex was low (39.2°C,      ) and despite solving the structure of the pHLA at high resolution (1.9Å,      ), the peptide was poorly resolved. We could only observe density for P1, P2, and P3 residues in the Fo-Fc map. The generation of composite omit maps (      ) did not reveal any additional residual density for the peptide. The only residual density observed was shown at the location of carboxylic moiety of the PΩ residue; however, after refinement it was clear that a Methionine could not fit in this density. Instead, an acetate ion was placed mimicking the carboxylic group for PΩ (      E). Although the SARS-CoV-2 N
+      <sub>
+       226-234
+      </sub>
+      peptide was only able to bind to HLA-A      02:01 by its N-terminal region (      E) due to an unfavourable PΩ-Met, the homologous peptide from SARS virus possesses a PΩ-Val (      ), which is favored within the F pocket, able to stabilize HLA-A      02:01, and stimulate CD8+ T cells (      ).
+     </p>
+     <p id="p0110">
+      The N
+      <sub>
+       351-359
+      </sub>
+      peptide overlaps the N
+      <sub>
+       351-358
+      </sub>
+      peptide (      ). The two peptides are different at the C-terminal residue, with a short hydrophobic PΩ-Ala for N
+      <sub>
+       351-359
+      </sub>
+      and a PΩ-Asp residue in N
+      <sub>
+       351-358
+      </sub>
+      . As discussed earlier, the PΩ-Asp is unfavoured to bind within HLA-A      02:01 and could explain why the N
+      <sub>
+       351-358
+      </sub>
+      peptide did not refold with HLA-A      02:01. The N
+      <sub>
+       351-359
+      </sub>
+      peptide PΩ-Ala, despite being hydrophobic, is small and does not fully fill the F pocket as a Val/Leu residue would (      F). In addition, the P5-His acts as a secondary anchor but unfavorably binding into a positively charged C pocket (Arg97, His70). Altogether, these sub-optimal primary and secondary anchors give rise to a low Tm (42.9°C,      ) and leads to poorly defined density around the central part of the peptide that indicates flexibility (      J).
+     </p>
+     <p id="p0115">
+      The low stability of the overall pHLA complexes, and the unusual conformations of the peptides, may explain the lack of immunogenicity of N
+      <sub>
+       138-146
+      </sub>
+      and N
+      <sub>
+       159-167
+      </sub>
+      , due to a short half-life on the cell surface that would compromise T cell interactions.
+     </p>
+    </sec>
+    <sec id="sec2.4">
+     <title>
+      Immunogenic N-derived SARS-CoV-2 epitopes share canonical HLA-A      02:01 anchor residues
+     </title>
+     <p id="p0120">
+      The N
+      <sub>
+       222-230
+      </sub>
+      and N
+      <sub>
+       316-324
+      </sub>
+      peptides have been shown to be weakly immunogenic in a few HLA-A      02:01+ COVID-19-recovered patients (      ;      ;      ). They both share the preferred P2-Met/Leu and PΩ-Val/Leu characteristics of HLA-A      02:01-restricted peptides (      ). As a result, both peptides were able to form a stable pHLA complex, which correlate to the high Tm values observed (      ).
+     </p>
+     <p id="p0125">
+      The HLA-A      02:01-N
+      <sub>
+       222-230
+      </sub>
+      complex exhibited the highest Tm value (54.7°C,      ) among the HLA-A      02:01-N-SARS-CoV-2 complexes tested here and is similar to the HLA-A      02:01-M1 complex (∼60°C (      )). In addition, the N
+      <sub>
+       222-230
+      </sub>
+      peptide showed a well-defined electron density (      F and S2L), suggesting a rigid peptide conformation. The N
+      <sub>
+       316-324
+      </sub>
+      peptide adopts a rather flat conformation in the cleft, where P5-Ile and P7-Met are only partially buried between the peptide backbone and the HLA α2-helix (      G). The N
+      <sub>
+       316-324
+      </sub>
+      peptide P4-Arg and P8-Glu are exposed to the solvent and represent potential contact points for CD8+ T cells. Although the N
+      <sub>
+       316-324
+      </sub>
+      peptide only has two prominent residues exposing their side chains for potential contact with a TCR (      G), the N
+      <sub>
+       222-230
+      </sub>
+      has four large solvent-exposed residues (P4-Asp, P5-Arg, P7-Asn, and P8-Gln,      H). The P5, P7, and P8 side chains are flexible and allowed to sample their molecular surrounding of the pHLA complex (      H). The abundance of solvent-exposed residues in the N
+      <sub>
+       222-230
+      </sub>
+      peptide offers a variety of potential contact points for interaction with TCRs and therefore recognition by CD8+ T cells.
+     </p>
+     <p id="p0130">
+      Altogether, the stability and crystal structures of the N
+      <sub>
+       316-324
+      </sub>
+      and N
+      <sub>
+       222-230
+      </sub>
+      SARS-CoV-2 peptides in complex with HLA-A      02:01 show that favored HLA primary anchor residues promote well-defined and stable peptides in HLA, which in this case underlie immunogenicity.
+     </p>
+    </sec>
+    <sec id="sec2.5">
+     <title>
+      Limited pre-existing immunity toward selected SARS-CoV-2 N-derived peptides in un-exposed individuals
+     </title>
+     <p id="p0135">
+      Because some level of conservation was seen within these eight peptides between SARS-CoV-2 and the coronaviruses that cause the common cold (OC43, HKU1, 229E,      ), we next asked whether HLA-A      02:01 + individuals have some pre-existing immunity toward the SARS-CoV-2 peptides. To test this, we stimulated peripheral blood mononuclear cells (PBMCs) derived from HLA-A      02:01 + individuals without any known infection or exposure to SARS-CoV-2, with a pool of the eight peptides (n = 5 donors) or the immunodominant influenza-derived peptide M1 as a control (n = 3 donors). Functional responses indicative of pre-existing immunity were then assessed using an intracellular cytokine staining (ICS) assay (      ). Limited CD8+ T cell responses were observed toward the pool of peptides in all five donors (      A and 3D), contrasting to the robust CD8+ T cell responses toward the control influenza-derived M1 peptide (      B and 3C) consistent with previous reports (      ). Responses were similarly minimal even when assayed against higher concentrations of the SARS-CoV-2-derived peptides individually (      ). Therefore, even though there was up to 44% sequence identity for N
+      <sub>
+       138-146
+      </sub>
+      and N
+      <sub>
+       159-167
+      </sub>
+      , between SARS/SARS-CoV-2 and some common cold coronaviruses (      ), the remaining differences within the peptides might hinder the cross-reactive potential of CD8+ T cells.
+     </p>
+     <p id="p0140">
+      Therefore, despite the conservation of the selected peptides with other commonly circulating coronaviruses (      ), there is limited pre-existing CD8+ T cell response toward these SARS-CoV-2-derived peptides in HLA-A      02:01 + individuals.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <title>
+     Discussion
+    </title>
+    <p id="p0145">
+     Discovering immunogenic CD8+ T cell epitopes of the SARS-CoV-2 virus is undoubtedly important to help us understand the magnitude and strength of the immune response in COVID-19 patients. However, we currently have limited knowledge on SARS-CoV-2 epitopes and their HLA restriction. Epitope identification is a significant bottleneck when trying to characterize novel viruses. Multiple approaches can be utilized, such as mass spectrometry (     ) or overlapping peptide screening (     ), with each method having its own pros and cons. Mass spectrometry can be utilized to identify peptides presented by a selected HLA allele. Although this is beneficial, it is time consuming, expensive, and without additional screening and does not provide any information on the immunogenicity of the identified peptides. Conversely, overlapping peptide screening identifies only peptides that are immunogenic, and additional screening of HLA restriction is required. This method requires large sample sizes and is not efficient if trying to identify peptides for a particular HLA allele, such as HLA-A     02:01, the most prevalent HLA molecule in the global population.
+    </p>
+    <p id="p0150">
+     An alternate option is to predict which peptide(s) can bind to an HLA molecule based on its preferred anchor residue for the HLA allele of interest (     ). In this study, we have characterized eight SARS-CoV-2 peptides predicted to bind to the highly prevalent HLA-A∗02:01 molecule (     ), six of which are known SARS epitopes. One was unable to form a complex with HLA-A     02:01, and three formed poorly stable complexes. This highlights that, although efficient, peptide prediction algorithms are not always accurate. Indeed, immunogenicity studies by recent groups (     ;     ;     ), along with our previous work (     ), have shown that predictive peptides are not always indicative of immunogenic epitopes. However, when used in combination with functional assays, this method can be a fast and ideal way to identify a range of peptides worthy of further characterization particularly when faced with multiple technical challenges such as access to patient samples and limited sample volume (e.g. blood).
+    </p>
+    <p id="p0155">
+     A particularly important factor to consider when looking at the T cell response toward viral peptides is their ability to form a stable complex with the HLA, ensuring their presence on cell surfaces for long enough to interact with circulating T cells. We have demonstrated that seven of our eight peptides are able to form a complex with HLA-A     02:01; however, the stability of the complexes ranged from 35–54°C. Interestingly, the immunogenicity of five of our selected peptides has since been investigated, and we noticed a trend between the ability of peptides to form a stable complex with HLA-A     02:01 and their ability to stimulate CD8+ T cells in some COVID-19 recovered individuals (     ;     ;     ). Indeed, the N
+     <sub>
+      219-227
+     </sub>
+     , N
+     <sub>
+      222-230
+     </sub>
+     , and N
+     <sub>
+      316-324
+     </sub>
+     peptides have a Tm value above 40°C and have been described as immunogenic in COVID-19-recovered patients (     ;     ;     ), whereas N
+     <sub>
+      138-146
+     </sub>
+     and N
+     <sub>
+      159-167
+     </sub>
+     with a Tm values below 40°C are described as not immunogenic (     ). This correlation between the stability of the pHLA complex and immunogenicity is not surprising and has been observed in previous research (     ;     ), suggesting that Tm should be considered, and may even be predictive, when assessing the immunogenic potential of vaccine peptide candidates.
+    </p>
+    <p id="p0160">
+     It is evident that additional research is required to determine which peptides from SARS-CoV-2 are able to activate CD8+ T cells and identify which HLA molecules they are restricted to. These findings will guide our understanding of the immune response, as well as elucidate the potential for a protective and long-lived immune response. We might uncover whether some HLA molecules are better equipped to bind particularly immunogenic viral epitopes capable of stimulating a potent T cell response that could be the target of future vaccines. Indeed, there are numerous studies that describe a strong link between the expression of certain HLA molecules and improved disease outcome (     ;     ;     ). For example, in the context of human immunodeficiency virus (HIV) infection, certain individuals are naturally able to control the virus and limit the progression to acquired immunodeficiency syndrome (AIDS); this ability has been linked with the expression of protective HLA alleles such as HLA-B     57:01 and HLA-B     27:05 (     ), whereas HLA-B     35:01 is detrimental and allows rapid progression to AIDs (     ). Similarly, during influenza infection, HLA-A     02:01 seems to provide some protection (     ), whereas HLA-A     68:01 is associated with poor clinical outcomes (     ).
+    </p>
+    <p id="p0165">
+     Our data provide some rationale for the weak or lack of immunogenicity observed in HLA-A     02:01 + individuals recovered from COVID-19 toward N-derived SARS-CoV-2 peptides, due to unconventional anchor residues and poor stability of pHLA complexes. It is unclear whether HLA-A∗02:01 can present immunogenic peptides from SARS-CoV-2 that results in a strong CD8+ T cells response or whether these peptides derived from N protein are not strongly immunogenic for CD8+ T cells. Further work is required to uncover the drivers of protective CD8+ T cells response to SARS-CoV-2 infection.
+    </p>
+    <sec id="sec3.1">
+     <title>
+      Limitations of the study
+     </title>
+     <p id="p0170">
+      Our study has focused on a set of eight peptides derived from the N protein of SARS-CoV-2 virus, for their conservation with SARS virus as well as their predicted binding to HLA-A      02:01. It is possible that additional N-derived peptides will be able to stably bind HLA-A      02:01 and therefore extend the epitopes repertoire from this SARS-CoV-2 protein. In addition, some additional work will be required to define if the N
+      <sub>
+       226-234
+      </sub>
+      and N
+      <sub>
+       351-359
+      </sub>
+      peptides are immunogenic in COVID-19-recovered patients, as well as fully characterize the CD8+ T cells that respond towards these peptides.
+     </p>
+    </sec>
+    <sec id="sec3.2">
+     <title>
+      Resource availability
+     </title>
+     <sec id="sec3.2.1">
+      <title>
+       Lead contact
+      </title>
+      <p id="p0175">
+       Further information and requests for resources and materials should be directed to the Lead Contact, Prof. Stephanie Gras (
+       <ext-link ext-link-type="uri" id="intref0010" ns0:href="mailto:S.Gras@latrobe.edu.au">
+        S.Gras@latrobe.edu.au
+       </ext-link>
+       ).
+      </p>
+     </sec>
+     <sec id="sec3.2.2">
+      <title>
+       Materials availability
+      </title>
+      <p id="p0180">
+       Materials are available upon reasonable request.
+      </p>
+     </sec>
+     <sec id="sec3.2.3" sec-type="data-availability">
+      <title>
+       Data and code availability
+      </title>
+      <p id="p0185">
+       The final crystal structure models for the HLA-A       02:01 complexes have been deposited to the Protein DataBank (PDB) under the following accession codes: HLA-A       02:01-N
+       <sub>
+        138-146
+       </sub>
+       (
+       <ext-link ext-link-type="uri" id="intref0015" ns0:href="pdb:7KGS">
+        7KGS
+       </ext-link>
+       ), HLA-A       02:01-N
+       <sub>
+        159-167
+       </sub>
+       (
+       <ext-link ext-link-type="uri" id="intref0020" ns0:href="pdb:7KGR">
+        7KGR
+       </ext-link>
+       ), HLA-A       02:01-N
+       <sub>
+        222-230
+       </sub>
+       (
+       <ext-link ext-link-type="uri" id="intref0025" ns0:href="pdb:7KGQ">
+        7KGQ
+       </ext-link>
+       ), HLA-A       02:01-N
+       <sub>
+        226-234
+       </sub>
+       (
+       <ext-link ext-link-type="uri" id="intref0030" ns0:href="pdb:7KGT">
+        7KGT
+       </ext-link>
+       ), HLA-A       02:01-N
+       <sub>
+        316-324
+       </sub>
+       (
+       <ext-link ext-link-type="uri" id="intref0035" ns0:href="pdb:7KGP">
+        7KGP
+       </ext-link>
+       ), and HLA-A       02:01-N
+       <sub>
+        351-359
+       </sub>
+       (
+       <ext-link ext-link-type="uri" id="intref0040" ns0:href="pdb:7KGO">
+        7KGO
+       </ext-link>
+       ).
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <title>
+     Methods
+    </title>
+    <p id="p0190">
+     All methods can be found in the accompanying     .
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

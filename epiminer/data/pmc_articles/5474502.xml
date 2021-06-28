@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Factors Associated With the Control of Viral Replication and Virologic Breakthrough in a Recently Infected HIV-1 Controller
+ </title>
+ <abstract>
+  <p>
+   HIV-1 controllers are patients who control HIV-1 viral replication without antiretroviral therapy. Control is achieved very early in the course of infection, but the mechanisms through which viral replication is restricted are not fully understood. We describe a patient who presented with acute HIV-1 infection and was found to have an HIV-1 RNA level of &lt; 100 copies/mL. She did not have any known protective HLA alleles, but significant immune activation of CD8 + T cells and natural killer (NK) cells was present, and both cell types inhibited viral replication. Virus cultured from this patient replicated as well in vitro as virus isolated from her partner, a patient with AIDS who was the source of transmission. Virologic breakthrough occurred 9 months after her initial presentation and was associated with an increase in CD4 + T cell activation levels and a significant decrease in NK cell inhibitory capacity. Remarkably, CD8 + T cell inhibitory capacity was preserved and there were no new escape mutations in targeted Gag epitopes. These findings suggest that fully replication-competent virus can be controlled in acute HIV-1 infection in some patients without protective HLA alleles and that NK cell responses may contribute to this early control of viral replication.
+  </p>
+  <p>
+   <list list-type="simple">
+    <list-item id="li0005">
+     <label>
+      •
+     </label>
+     <p>
+      We show that an HIV-1 controller was infected with pathogenic virus yet maintained low viral loads during primary infection.
+     </p>
+    </list-item>
+    <list-item id="li0010">
+     <label>
+      •
+     </label>
+     <p>
+      She had activated NK cells and CD8+ T cells and both cell types suppressed HIV-1 replication shortly after infection.
+     </p>
+    </list-item>
+    <list-item id="li0015">
+     <label>
+      •
+     </label>
+     <p>
+      She eventually lost control of viral replication, and this was associated with a reduction in NK cell suppressive activity.
+     </p>
+    </list-item>
+   </list>
+  </p>
+  <p>
+   HIV-1 controllers are patients who control the virus without HIV-1 medications. These patients may teach us how to design a vaccine against HIV-1. Little is known about how the virus is controlled in the early phase of infection in these patients. Here we show that a recently infected HIV-1 controller had a strong natural killer cell response to the virus. Interestingly, she lost control of the virus 9 months later and her natural killer cell response to the virus was diminished. Our work suggests that natural killer cells may have contributed to viral control in the early phase of infection.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p>
+     Natural control of HIV-1 infection occurs in a small percentage of patients (     ,     ,     ). While there have been many studies analyzing HIV-1-specific CD8 + T cell mediated immune responses (     ,     ,     ,     ,     ,     ,     ) and viral fitness (     ,     ,     ,     ,     ,     ) in these patients, few studies have examined either parameter during the acute and early phase of HIV-1 infection (     ,     ,     ,     ). These studies have suggested that control is achieved shortly after HIV-1 infection (     ), and that virologic escape is seen even when relative control of viral replication is sustained (     ,     ). Studies have also suggested that viral isolates from recently infected HIV-1 controllers have reduced viral fitness potentially because of escape mutations and/or drug resistance mutations (     ). However, fitness of recently transmitted HIV-1 isolates has not been compared to fitness of isolates obtained from the transmitting partners. Furthermore, while ELISpot analyses have been used to identify epitopes targeted during HIV-1 infection, a qualitative analysis of these responses has not been performed. NK cells play a role in innate immune responses, but their role in early control of viral replication in HIV-1 controllers has not been defined. In this study, we examined the suppressive capacity of CD8 + T cells and of NK cells from an HIV-1 controller shortly after she presented with acute HIV-infection. We also isolated virus, performed full genome sequence analysis, and compared the genotype and phenotype of her HIV-1 virus to HIV-1 virus isolated from the partner who transmitted the virus to her. In addition, we examined immune activation and inflammation by flow cytometry and plasma cytokine analysis. The patient eventually developed breakthrough viremia, which enabled a comparison of her immunologic and virologic profiles before and after the loss of elite control. The results further our understanding of the spontaneous control of HIV-1 infection.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Materials and Methods
+    </title>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      Subjects
+     </title>
+     <p>
+      Blood samples were obtained from the following subjects:
+      <list list-type="simple">
+       <list-item id="li0020">
+        <p>
+         AC1: The index patient who was diagnosed with acute HIV-1 infection and had HIV-1 RNA level &lt; 100 copies/mL in the absence of antiretroviral therapy (ART).
+        </p>
+       </list-item>
+       <list-item id="li0025">
+        <p>
+         VP1: The HIV positive transmitting partner of AC1.
+        </p>
+       </list-item>
+       <list-item id="li0030">
+        <p>
+         Acute progressors (APs): These were three acute seroconverters with high HIV RNA levels who were not on ART.
+        </p>
+       </list-item>
+       <list-item id="li0035">
+        <p>
+         Chronic progressors (CPs): Patients on suppressive ART regimens with viral loads below &lt; 50 copies/mL.
+        </p>
+       </list-item>
+       <list-item id="li0040">
+        <p>
+         HIV controllers: These were chronically infected HIV-1 positive patients who controlled HIV replication without ART. There were 2 groups of controllers: elite suppressors (ES) who maintained HIV-1 RNA levels of &lt; 50 copies/mL and viremic controllers (VC) who maintained HIV RNA levels between 50 and 2000 copies/mL
+        </p>
+       </list-item>
+       <list-item id="li0045">
+        <p>
+         Healthy donors (HDs): HIV-1 seronegative donors.
+        </p>
+       </list-item>
+      </list>
+     </p>
+     <p>
+      All subjects signed a written informed consent and samples were handled according to a protocol approved by either The University of Texas Health Science Center at Houston, McGovern Medical School, Committee for the Protection of Human Subjects or by the Johns Hopkins University IRB.
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      Replication-competent Virus Isolation
+     </title>
+     <p>
+      PBMCs were isolated from whole blood via Ficoll-Paque. For each individual, CD4 + T cells isolated from the PBMCs by magnetic isolation (CD4 + T Cell Isolation Kit, Miltenyi Biotech) were cultured as previously described (      ). On day 13, culture supernatants were tested for the presence of HIV-1 p24 antigen with the Perkin Elmer p24 ELISA kit.
+     </p>
+    </sec>
+    <sec id="s0025">
+     <label>
+      2.3
+     </label>
+     <title>
+      Proviral and Replication-competent Viral Sequencing
+     </title>
+     <p>
+      DNA was isolated from cell samples obtained from either primary PBMCs or the cells used to grow replication-competent virus from AC1 and VP1 with the Gentra Puregene Cell Kit (Qiagen) according to manufacturers protocol. Viral gene sequences were amplified via nested PCR with Invitrogen High Fidelity Platinum Taq polymerase as follows. Outer
+      <italic>
+       gag
+      </italic>
+      amplification: 94 °C for 3 min; 34 cycles of 30 s at 94 °C, 30 s of 50 °C, and 2 min 30 s of 68 °C; 5 min at 68 °C followed by a 4 °C hold (primers: 5′-GCGAGAGCGTCAGTATTAAGC, 3′-TCTTTATCTAAGGGAACTGAAAAATATGCATC). Inner
+      <italic>
+       gag
+      </italic>
+      amplification: 94 °C for 3 min; 34 cycles of 30 s at 94 °C, 30 s of 50 °C, and 1 min 45 s of 68 °C; 5 min at 68 °C followed by a 4 °C hold (primers: 5′-GGGAAAAAATTCGGTTAAGGCC, 3′-CGAGGGGTCGTTGCCAAAGA).
+      <italic>
+       nef
+      </italic>
+      amplifications: 94 °C for 3 min; 34 cycles of 30 s at 94 °C, 30 s of 55 °C, and 2 min of 68 °C; 5 min at 68 °C followed by a 4 °C hold (outer primers: 5′-GTAGCTGAGGGGACAGATAGGGTTAT, 3′-GCACTCAAGGCAAGCTTTATTGAGGC; inner primers: 5′-CGTCTAGAACATACCTAGAAGAATAAGACAGG, 3′-CGGAATCCGTCCCCAGCGGAAAGTCCCTTGTA). Inner PCR products were run on a 1% Agarose gel. The target bands were cut out and purified with the QIAquick Gel Extraction Kit (Qiagen), and the purified PCR products were then sequenced by Genewiz using the appropriate
+      <italic>
+       gag
+      </italic>
+      or
+      <italic>
+       nef
+      </italic>
+      inner PCR primers noted above. Individual sequences were analyzed with CodonCode before alignment to the Gag and Nef HIV-1 Consensus B gene sequences obtained from the Los Alamos Database using BioEdit.
+     </p>
+    </sec>
+    <sec id="s0030">
+     <label>
+      2.4
+     </label>
+     <title>
+      Phylogenetic Analysis
+     </title>
+     <p>
+      Trees and bootstrap values were inferred using the Maximum Likelihood method based on the Hasegawa-Kishino-Yaho model (      ), gamma distributed with invariant sites (HKY + G + I model) (
+      <italic>
+       gag
+      </italic>
+      ) or the HKY + G model (
+      <italic>
+       nef
+      </italic>
+      ). The trees with the highest log likelihood are shown with branches drawn to scale. Initial tree(s) for the heuristic search were obtained automatically by applying Neighbor-Joining and BioNJ algorithms to a matrix of pairwise distances estimated using the Maximum Composite Likelihood (MCL) approach, and then selecting the topology with superior log likelihood value. Analyses were implemented in the Mega6 program (
+      <ext-link ext-link-type="uri" id="ir0005" ns0:href="http://www.megasoftware.net/">
+       http://www.megasoftware.net
+      </ext-link>
+      ). Reference sequences for the trees were found using the Los Alamos National Laboratory HIV Sequence Database (
+      <ext-link ext-link-type="uri" id="ir0010" ns0:href="http://hiv.lanl.gov/">
+       http://hiv.lanl.gov
+      </ext-link>
+      ) implementation of the BLAST algorithm, which utilizes sequence data from GenBank to find those sequences in the public domain that are most similar to the query. Clade D reference sequences were obtained from the HIV-1 subtype reference alignments on the Los Alamos National Laboratory server for
+      <italic>
+       gag
+      </italic>
+      and
+      <italic>
+       nef
+      </italic>
+      .
+     </p>
+    </sec>
+    <sec id="s0035">
+     <label>
+      2.5
+     </label>
+     <title>
+      Viral Growth Curves
+     </title>
+     <p>
+      One millilitre of supernatant recovered from the co-culture described above (Proviral and Replication-competent Virus Isolation) with the highest p24 concentration was amplified to generate a stock of patient virus. Pre-stimulated CD4 + T cells from HIV-negative individuals were isolated from PBMCs and spinoculated at 1200 ×
+      <italic>
+       g
+      </italic>
+      and 37°C for 2 h with the three viral stocks obtained as described above with 250 ng p24 per 1 × 10      cells. The cells were washed prior to culturing 1 × 10      cells per mL of STCM in triplicate in a 48-well plate for seven days at 37 °C. Supernatant samples taken immediately after plating and on days 3, 5, and 7 were then tested for p24 concentration with the Perkin-Elmer p24 ELISA kit.
+     </p>
+    </sec>
+    <sec id="s0040">
+     <label>
+      2.6
+     </label>
+     <title>
+      Whole Blood Activation Marker Analysis
+     </title>
+     <p>
+      Blood was collected in EDTA-containing tubes and incubated at room temperature overnight. The next day whole blood stained with the following antibody panel for 15 min at 4 °C: HLA-DR•PerCP-Cy5.5 (Biolegend catalog # 307629, RRID:
+      <ext-link ext-link-type="uri" id="ir0015" ns0:href="nif-antibody:AB_893575">
+       AB_893575
+      </ext-link>
+      ) CD16•FITC (BD Biosciences catalog # 556618, RRID:
+      <ext-link ext-link-type="uri" id="ir0020" ns0:href="nif-antibody:AB_396490">
+       AB_396490
+      </ext-link>
+      ), CD56•FITC (BD Biosciences catalog # 562794), CD38•APC (BD Biosciences catalog # 555462, RRID:
+      <ext-link ext-link-type="uri" id="ir0025" ns0:href="nif-antibody:AB_398599">
+       AB_398599
+      </ext-link>
+      ), CD8•APC-H7 (BD Biosciences catalog # 560179, RRID:
+      <ext-link ext-link-type="uri" id="ir0030" ns0:href="nif-antibody:AB_1645481">
+       AB_1645481
+      </ext-link>
+      ), CD3•PacBlue (BD Biosciences catalog # 558117, RRID:
+      <ext-link ext-link-type="uri" id="ir0035" ns0:href="nif-antibody:AB_397038">
+       AB_397038
+      </ext-link>
+      ), and CD4•BV605 (Biolegend catalog # 317438, RRID:
+      <ext-link ext-link-type="uri" id="ir0040" ns0:href="nif-antibody:AB_11218995">
+       AB_11218995
+      </ext-link>
+      ); all other antibodies were obtained from BD Biosciences). Stained blood was then incubated at room temperature for 10 min in BD FACS Lysis Buffer at a 1:4 ratio of blood to buffer and then washed three times with PBS before running the samples on a BD FACSCanto II. Results were analyzed with FlowJo 10 (TreeStar).
+     </p>
+    </sec>
+    <sec id="s0045">
+     <label>
+      2.7
+     </label>
+     <title>
+      Plasma Cytokine and Chemokine Analysis
+     </title>
+     <p>
+      Whole blood obtained from EDTA tubes were incubated overnight, and Ficoll density centrifugation was performed the next day to obtain plasma. Each plasma sample was subjected to a single free-thaw cycle and tested for 17 distinct analytes. IL-18 was measured using the human IL-18 ELISA kit (MBL). The assay was performed per the manufacturers recommendations. In brief, all samples were diluted 1:5 in assay buffer and reported as pg/mL. Data were acquired using a SpectaMax M5 (Molecular Devices). The LLOQ of IL-18 in serum samples is 25 pg/mL. The Meso Scale Discovery (MSD) multiplex cytokine, proinflammatory and chemokine assays were used to assess 16 additional analytes: IL12/23p40, IL-15, IL-16, IL-7, IFN-g, IL-10, IL-1b, IL-2, IL-6, IL-8,TNF-a, Eotaxin, IP-10, MCP-1, MIP-1a, MIP-1b. The assay was performed per the manufacturers recommendations. Data were acquired on a SECTOR Imager 2400. Results were analyzed using Meso Scale Discovery Workbench software. The LLOQ is for each analyte is indicated where data is shown.
+     </p>
+    </sec>
+    <sec id="s0050">
+     <label>
+      2.8
+     </label>
+     <title>
+      Inhibition Assays
+     </title>
+     <p>
+      PBMCs were isolated via Ficoll density centrifugation. PBMCs were then split to isolate CD8 + T cells and NK cells (Miltenyi Biotech), and CD4 + T cells (Miltenyi Biotech) were subsequently isolated from CD8 + T cell depleted PBMCs. CD4 + T cells (Miltenyi Biotech) were further isolated from CD8 + T cell-depleted PBMCs. CD4 + T cells were spinoculated (or mock spinoculated) with 50 ng of GFP-containing pseudotyped virus at 30 °C for 2 h at 1200 ×
+      <italic>
+       g
+      </italic>
+      (      ). These infected cells were immediately co-cultured with CD8 + T cells or NK cells at 37 °C at a 1:1 ratio. Triplicates were performed in experiments with cells from HIV controllers, but for AC1, replicates were not performed because of the low number of cells available. Infection was measured after 3 days of co-culture by GFP expression in CD3 + (BV421, BioLegend catalog # 317343, RRID:
+      <ext-link ext-link-type="uri" id="ir0045" ns0:href="nif-antibody:AB_2565848">
+       AB_2565848
+      </ext-link>
+      ) CD8- (APC, BioLegend, catalog # 344722, RRID:
+      <ext-link ext-link-type="uri" id="ir0050" ns0:href="nif-antibody:AB_2075388">
+       AB_2075388
+      </ext-link>
+      ) cells by FACS (FACSCanto II, Becton Dickinson) as previously described (      ). The range of GFP positive cells present in wells without effector cells was 2.3 to 12.9% (median of 6.5%).
+     </p>
+    </sec>
+    <sec id="s0055">
+     <label>
+      2.9
+     </label>
+     <title>
+      Antibody Avidity
+     </title>
+     <p>
+      Recency of infection was determined by measuring anti-HIV antibody avidity at two sequential time points (      ). Antibody avidity was measured using a modified Genetic Systems HIV-1/HIV-2 PLUS O EIA (Bio-Rad Laboratories, Redmond, WA, USA) ELISA. Each time point was tested in duplicate, with one well containing diethyl amine (DEA) solution and the other with buffer. The percent avidity (Avidity Index, AI) was calculated for each sample by dividing the optical density of the DEA-treated well by the optical density of the non-treated well for the same sample and multiplying by 100 (      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0060">
+    <label>
+     3
+    </label>
+    <title>
+     Results
+    </title>
+    <sec id="s0065">
+     <label>
+      3.1
+     </label>
+     <title>
+      Clinical History of Patient
+     </title>
+     <p>
+      AC1 presented to the emergency department with a 3-day history of painful cervical and retroauricular lymphadenopathy. She reported not having had a fever, trauma or pet contact. HIV-1 testing resulted in a positive fourth-generation ARCHITECT HIV Ag/Ab Combo (CMIA) test and a negative Bio-Rad Multispot HIV-1/HIV-2 test. Seven days after the onset of clinical signs, HIV-1 RNA levels were 51 copies/mL and Western blot was indeterminate with positive bands at p24, p40, p51/p55 with weak positivity at gp160. The Multispot HIV-1/HIV-2 test turned positive on day 25 and the HIV-1 RNA levels remained low at 37 copies/mL. She continued to have a low viral burden 80 and 157 days after onset of clinical signs (26 and 85 copies/mL respectively), but on day 280, the HIV-1 RNA level increased to 7320 copies/mL and a month later it remained elevated at 7400 copies/mL. The levels of CD4 + T cells dropped from 928 cells/μL (37%) on day 25 to 114 cells/μL (9%) day 315 after onset of clinical signs (      ). She started combination antiretroviral therapy (cART) with lamivudine 300 mg daily and dolutegravir 50 mg daily at this time as part of a clinical trial. The initial diagnosis of acute HIV-1 infection was confirmed by measurement of the avidity of her HIV-specific antibodies using the Bio-Rad assay. On day 33, she had an avidity index of 29.5, much lower than the index seen in our cohort of chronically HIV-1 infected elite controllers or suppressors (      ). The avidity index increased to 88 on day 280, which is more consistent with chronic HIV-1 infection.
+     </p>
+    </sec>
+    <sec id="s0070">
+     <label>
+      3.2
+     </label>
+     <title>
+      Phylogenetic Analysis Reveals Source of Transmission
+     </title>
+     <p>
+      The patient had started a new relationship 4 months prior to the ED visit and her partner, VP1, was found to be HIV-1 positive with levels of CD4 + T cells of 14 cells/μL and HIV-1 RNA levels of 120,000 copies/mL. His HIV-1 antibody index at the time was 95, which is consistent with chronic HIV-1 infection. Therefore, it is unlikely that AC1 transmitted the virus to him. In order to determine whether the two patients were in fact a transmission pair, virus was cultured from their CD4 + T cells on day 33 and full genome sequence was obtained as previously described. As shown in      , the
+      <italic>
+       nef
+      </italic>
+      genes from the 2 patients were very similar. Phylogenetic analysis of the
+      <italic>
+       nef
+      </italic>
+      and
+      <italic>
+       gag
+      </italic>
+      demonstrated that isolates were more closely related to each other than any other isolate reported in the Los Alamos HIV sequence database, strongly suggesting that the patients were in fact a transmission pair (      ).
+     </p>
+    </sec>
+    <sec id="s0075">
+     <label>
+      3.3
+     </label>
+     <title>
+      Viral Fitness Studies Suggest That Transmitted Virus was not Attenuated
+     </title>
+     <p>
+      In order to determine whether a difference in viral fitness could explain AC1s low HIV-1 RNA levels, we compared the kinetics of viral replication of isolates obtained from the 2 patients as well as from an isolate obtained from an acute HIV-1 seroconverter who had very high HIV-1 RNA levels. There was no significant difference in the rate of viral replication (      ). Drug resistance mutations were seen in some recently infected HIV-1 controllers and were shown to contribute to reduced fitness of the viral isolates (      ). Our patient did have the major NNRTI mutation K103N, and the major protease inhibitor mutation, V82L, but the replicative capacity of a chimeric virus containing AC1 RT and protease genes was 77% by the PhenoSense HIV Assay (Monogram Biosciences, South San Francisco, CA). The median replicative capacity of viruses with RT and protease genes amplified from HIV-1 isolates from untreated patients using this assay in a large study was 79% (      ); thus, the data suggest that reduced fitness because of drug resistance mutations was not a major cause of HIV control in this patient.
+     </p>
+    </sec>
+    <sec id="s0080">
+     <label>
+      3.4
+     </label>
+     <title>
+      Host Factors Studies Reveal Protective KIR Alleles
+     </title>
+     <p>
+      HLA and KIR typing were performed on both patients. Interestingly, AC1 did not have any known HLA alleles that traditionally confer protection (      ). Both patients were positive for KIR3DS1 as well as specific KIR3DL1 alleles that are associated with slowly progressive disease at a population level when inherited with HLA-BW4-80-Ile alleles (      ,      ). Of note, both patients had 1 HLA-BW4-80-Ile allele (HLA-B*3801 in AC1, HLA-B*5201 in VP1).
+      <table-wrap id="t0005" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         HLA alleles and KIR3DS1 and KIR3DL1 alleles of patients AC1 and VP1. HLA-BW4-80-lle alleles are underlined.
+        </p>
+       </caption>
+       <alt-text id="al0045">
+        Table 1
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th/>
+          <th>
+           HLA-A
+          </th>
+          <th>
+           HLA-B
+          </th>
+          <th>
+           HLA-C
+          </th>
+          <th>
+           KIR3DS1
+          </th>
+          <th>
+           KIR3DL1
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           AC1
+          </td>
+          <td>
+           02:01 30:01
+          </td>
+          <td>
+           37:01
+           <break/>
+           <underline>
+            38:01
+           </underline>
+          </td>
+          <td>
+           06:02
+           <break/>
+           12:03
+          </td>
+          <td>
+           +
+          </td>
+          <td>
+           +
+           <break/>
+           (*015)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VP1
+          </td>
+          <td>
+           02:01
+           <break/>
+           03:01
+          </td>
+          <td>
+           41:01
+           <break/>
+           <underline>
+            52:01
+           </underline>
+          </td>
+          <td>
+           03:03
+           <break/>
+           17:01
+          </td>
+          <td>
+           +
+          </td>
+          <td>
+           +
+           <break/>
+           (*001)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0085">
+     <label>
+      3.5
+     </label>
+     <title>
+      Changes in Inflammatory Makers and CD4 + T Cell Activation Were Associated With Viremic Breakthrough
+     </title>
+     <p>
+      We looked for signs of immune activation and found that AC1’s CD4 + T cells had little immune activation until her viral load reached 7000 copies/mL (      ). By day 335, the frequency of HLA-DR + CD38 + CD4 + T cells was much higher than the frequency seen in chronically infected HIV-1 controllers and patients on suppressive cART regimens (CPs), and comparable to the frequency seen in VP1. In contrast, a high frequency of her CD8 + T cells and NK cells were activated at days 47 and 157. The magnitude of immune activation of both cell types was comparable to that seen in the 3 viremic acute HIV-1 seroconverters and did not change substantially after her virologic breakthrough (      ).
+     </p>
+     <p>
+      We next analyzed inflammatory cytokines and we found dramatic increases in plasma levels of IP10, IFN-γ and MIP-1 α following virologic breakthrough. Interestingly, the levels present at days 47 and 157 were lower than that seen in the 2 acute HIV-1 seroconverters (AP2 and AP3) with high HIV-1 RNA levels (      ). Other markers including IL-1b, IL-2, IL-6, IL-7, IL-8, IL-10, IL-12/23 p40, IL-15, IL-16, IL-18, Eotaxin, MCP-1, and TNF-alpha were not dramatically elevated in AC1 compared to the HDs or to chronically HIV-1 infected ES and CPs (Supplementary      and      ).
+     </p>
+    </sec>
+    <sec id="s0090">
+     <label>
+      3.6
+     </label>
+     <title>
+      Changes in NK Cell but not CD8 + T Cell Inhibitory Capacity was Associated With Viremic Breakthrough
+     </title>
+     <p>
+      We asked whether immune escape could have contributed to the virologic breakthrough. ELISpot analysis on day 157, when the patient still had low HIV-1 viremia, revealed that 3 epitopes were targeted in Gag (      ) including an overlapping peptide that contained the previously described HLA-B*38 restricted Gag epitope GL9 (193-201,      ). Bulk HIV-1 proviral sequence on days 33 and 335 suggests that there was no evolution in the Gag epitopes following virologic breakthrough (      ). Elispot analyses also revealed a response to pooled Nef overlapping peptides, but we did not have enough PBMCs to map individual epitopes. We therefore screened the Los Alamos Database for potential epitopes that could be presented by the patients MHC Class I proteins. Polymorphisms were seen in 4 of these potential epitopes as shown in Supplementary      .
+     </p>
+     <p>
+      We next examined the inhibitory capacity of CD8 + T cells and NK cells from AC1 on day 47. Autologous CD4 + T cells were isolated and infected with GFP expressing pseudotyped virus in the presence or absence of CD8 + T cells or NK cells at an effector to target ratio of 1:1 and 1:2. The inhibitory responses were compared to those from an acutely infected viremic progressor (AP4) and 12 chronically infected HIV-1 controllers 4 of whom were negative for the protective HLA-B*57/58 and HLA-B*27 alleles (Supplementary Table 2). At an effector to target (E:T) ratio of 1:1, CD8 + T cells from AC1 on day 47 inhibited viral replication by 57%, compared to a median suppression of 88% for HLA-B*57/58 positive controllers and a median suppression of 85% for HLA-B*57/58 negative controllers. This is consistent with our prior results on the suppressive capacity of ES CD8 + T cells (      ,      ) and with studies showing that controller CD8 + T cells are generally very effective at inhibiting viral replication (      ,      ,      ,      ,      ,      ,      ). At the same E:T ratio, NK cells from AC1 on day 47 inhibited suppression of GFP expression by 44%, an index that was similar to the suppressive capacity of NK cells from HLA-B*57/58 positive controllers (median of 34%), but much higher than the median suppressive capacity of 0.3% induced by NK cells from HLA-B*57/58 negative controllers. CD8 + T cells and NK cells from more patients were analyzed at an E:T ratio of 1:2 and a similar pattern was seen. NK cells from a patient with primary HIV infection and a high viral load (AP4) had no suppressive capacity. Interestingly when the suppression assay was repeated on day 277 when the patient had experienced a viremic breakthrough, there was no change in her CD8 + T-cell inhibitory response but, there was a marked decline in her NK cells response (      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0095">
+    <label>
+     4
+    </label>
+    <title>
+     Discussion
+    </title>
+    <p>
+     We present a case of spontaneous control of HIV-1 during acute infection followed by loss of control within the first year of infection. Our study is limited by the fact that we do not have samples over the 4-month period when viremic breakthrough actually occurred, but we were still able to perform a comprehensive analysis of the patients immune system before and after the loss of control of viral replication. While prior reports have suggested that virus amplified from some HIV controllers in early infection are attenuated (     ,     ,     ), our study suggests that the virus cultured from this patient at day 33 replicated as well as virus from her partner who had HIV-1 RNA levels of 120,000 copies/mL. Interestingly, a prior study has shown a correlation between HIV-1 RNA levels of patients in primary infection and the viral load in transmitting partners (     ). This suggests that in most cases, viral fitness of the transmitting partner drives the level of HIV viremia in the recipients. However, this was clearly not the case with AC1 who controlled viremia in spite of high HIV-1 RNA levels in VP1. In fact, the HIV-1 RNA levels from VP1 are a log higher than the HIV-1 RNA levels of the patient who transmitted an attenuated virus to a patient who became a controller in a prior study (     ). While we have documented three cases of transmission of HIV-1 between chronic progressors with high viral loads and HIV controllers (     ,     ), the HIV-RNA levels of the chronic progressors at the time of transmission were unknown. This case is unique as both AC1 and VP1 were studied at the time of primary infection of AC1. Furthermore, we were able to compare the growth kinetics of virus isolated from the index patient to that of virus isolated from the transmitting partner, something that has not been done in prior studies in early and acute infection of HIV controllers. While we did not perform a competition assay between the isolates, the results suggest the transmitted virus had a similar level of fitness as the virus isolated from her partner. The replicative capacity of virus from AC1 also suggested that drug resistance mutations did not lead to significantly reduced viral fitness. Taken together, the data imply that fully pathogenic HIV-1 virus can be controlled in acute infection.
+    </p>
+    <p>
+     Plasma IP-10 concentrations have been reported to be higher in HIV controllers than healthy donors (     ) and have been previously shown to correlate with progression rates in early HIV infection (     ) and with rebound viremia following treatment interruption (     ). Our findings suggest that similar patterns may be seen when natural control of viral replication is lost, and a recent study suggested that HIV-1 controllers with higher IP10 levels at baseline were more likely to have clinical progression (     ). IFN-γ and MIP1-α plasma concentrations do not correlate with disease progression in HIV infection (     ,     ) and it is not clear why elevated levels of both cytokines were present following virologic breakthrough.
+    </p>
+    <p>
+     The patients CD4 + T cell count dropped at a rate that would be consistent with that of a rapid progressor. However, studies have shown that rapid progression is usually associated with very high HIV-1 RNA levels at baseline (     ), whereas this patient had low to undetectable HIV-1 RNA levels during primary infection. A marked increase in CD4 + T cell activation was seen after progression occurred. Its not clear whether this was a cause or consequence of progression, but in a prior study, bacterial and viral infections were associated with immunologic progression in HIV controllers (     ).
+    </p>
+    <p>
+     We show that by day 47, the patient had developed a CD8 + T-cell response that was able to inhibit viral replication. A recent study of hyperacute HIV-1 infection suggested that the high level of immune activation seen in these cells was a reflection of HIV-specific responses (     ). Our patient sustained high levels of immune activation in spite of low level viremia as late as 157 days after the onset of clinical signs, suggesting that her CD8 + T cells may have continued to suppress viral replication over this period of time. Interestingly, this suppressive response was maintained when the patients HIV-1 RNA levels increased to 7320 copies/mL. This relatively low level of viremia is typically seen in controllers who develop viremic breakthrough (     ) and is possibly a manifestation of continued T cell mediated control of viral replication. No mutations were detected in 3 targeted Gag epitopes. This is consistent with studies in HLA-B*57 viremic controllers where mutations in Gag epitopes did not correlate with progression of disease (     ).
+    </p>
+    <p>
+     The role of natural killer cells in elite control has not been fully established (     ,     ) and has not been studied in primary HIV-1 infection in these patients. However, the combined presence of HLA-BW4-80-Ile alleles and the NK cell receptor KIR3DS1 is associated with slow progression to AIDS (     ). A similar pattern is seen when HLA-BW4-80-Ile alleles and specific KIR3DL1 alleles are present in patients (     ), and HIV-1 controllers who have both alleles have more robust NK cell responses following type 1 interferon stimulation (     ). These data strongly suggest that NK cell responses contribute to the control of HIV-1 infection. AC1 was positive for KIR3DS1, the protective KIR3DL1*015 allele, and an HLA-BW4-80-Ile allele (HLA-B*3801). She also had NK cell activation and inhibitory NK cell responses at day 47, suggesting an important role of these cells in primary infection. In contrast, NK cells from AP4 who had a viral load of 3.6 million copies/mL in primary infection had a high level of immune activation but no viral suppressive capacity. Our data are consistent with studies that have also shown marked activation of total and KIR-expressing NK cells in primary HIV-1 infection (     ,     ). These high activation levels were not present in samples collected prior to infection and interestingly, there was a significant decrease in cytotoxic responses of NK cells following infection (     ). Similar impairment of NK cell cytotoxic responses have been seen in chronically infected viremic patients (     ,     ). The results may suggest that NK cells from chronic progressors are initially able to control viral replication and eventually lose this capacity during primary infection, whereas NK cells from HIV controllers maintain control of viral replication until the adaptive immune response is established. Longitudinal analyses of NK cells from HIV-1 controllers and chronic progressors will be needed to test this hypothesis.
+    </p>
+    <p>
+     Taken together, we present a comprehensive analysis of an HIV-1 controller in early infection. We studied viral fitness, HIV-specific CD8 + T cell responses, NK cell inhibitory responses, HIV-specific antibody avidity, immune activation, and plasma inflammatory markers. The same responses were studied before and after virologic breakthrough which enabled us to identify factors that were associated with the loss of control of viral replication. Our data suggest that some patients can control fully replication HIV-1 virus shortly after infection even when protective HLA alleles are not present. AC1 had CD8 + T-cell responses that were capable of inhibiting viral replication as early as 50 days after the onset of clinical signs. Inhibitory NK cell responses were also present at this time and may have helped to control viremia prior to the development of the HIV-specific CD8 + T-cell response. It is interesting that a reduction in this response was associated with loss of virologic control. Further work will be needed to determine whether this was a cause or consequence of virologic breakthrough.
+    </p>
+    <p>
+     The following are the supplementary data related to this article.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0100">
+    <title>
+     Funding Source
+    </title>
+    <p>
+     Funded by the
+     <funding-source id="gts0005">
+      Johns Hopkins University Center for AIDS Research
+     </funding-source>
+     (P30AI094189) and 2R56AI080328-05A1 and 1R01AI120024-01 (JNB) and with federal funds from the
+     <funding-source id="gts0010">
+      Frederick National Laboratory for Cancer Research
+     </funding-source>
+     , under Contract No. HHSN261200800001E and in part by the Intramural Research Program of the
+     <funding-source id="gts0015">
+      NIH
+     </funding-source>
+     ,
+     <funding-source id="gts0020">
+      Frederick National Lab
+     </funding-source>
+     ,
+     <funding-source id="gts0025">
+      Center for Cancer Research
+     </funding-source>
+     . The funding sources had no role in the writing of the manuscript or the decision to submit it for publication. The content of this publication does not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. Government
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0105">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     None of the authors have a conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0110">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     Victoria Walker-Sperling, Christopher Pohlmeyer and Rebecca Veenhuis performed data collection, data analysis and data interpretation.
+    </p>
+    <p>
+     Megan May, Krystle Luna and Allison Kirkpatrick performed data collection and data analysis.
+    </p>
+    <p>
+     Oliver Laeyendecker, Andrea Cox, Mary Carrington, and Justin Bailey performed data analysis and interpretation.
+    </p>
+    <p>
+     Roberto Arduino and Joel Blankson designed the study, performed data analysis and interpretation and wrote the paper.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

@@ -1,0 +1,4 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+6829520	body	This|be|accomplish|by|generate|the|hTREK|-|1|mutant|construct|E113P|and|N137P|as|well|as|E113P|,|N137P|combine|both|mutation|(|Figure|3a|,|c|,|e|,|g|,|i|)|.	hTREK|E113P|N137P|E113P|N137P	5
+6829520	body	Interestingly|,|even|though|introduction|of|the|E113P|mutation|result|in|only|partial|disruption|of|the|N110|glycosylation|site|,|the|proline|mutant|(|E113P|,|N137P|and|E113P|/|N137P|)|display|an|even|more|pronounced|current|reduction|compare|to|asparagine|-|to|-|glutamine|mutant|(|N110|Q|,|N134Q|and|N110Q|/|N134Q|)|.	proline|mutants|E113P|N137P|E113P|glutamine|mutants|N110|Q|N134Q|N110Q|N134Q	12
+6829520	body	Respective|current|of|the|proline|mutant|be|as|low|as|8.8|%|(|E113P|)|,|20.8|%|(|N137P|)|and|19.4|%|(|E113P|/|N137P|)|.	proline|mutants|E113P|N137P|E113P|N137P	6

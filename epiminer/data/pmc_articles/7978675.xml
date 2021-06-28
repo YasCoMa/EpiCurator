@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Hepatitis A and Other Viral Infections
+ </title>
+ <abstract>
+  <p id="Par1">
+   Viral-mediated liver injury can result from infections with the classic hepatotropic viruses, hepatitis A through E, or by other viruses. In the present chapter, we review the immune-based pathogenesis and liver-related manifestations of hepatitis A virus as well as several additional viruses that affect the liver including Epstein-Barr virus (EBV), cytomegalovirus (CMV), herpes simplex virus (HSV), varicella-zoster virus (VZV), human herpesviruses (HHV 6, 7, and 8), human parvovirus B19, adenoviruses, and influenza virus. The clinical presentations range from mild and transient elevation of aminotransferases to severe chronic liver disease and liver failure. These viruses should be considered as possible etiologic agents in patients who manifest liver injury and whose serologic markers for the classic hepatotropic viruses are negative.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="FPar1">
+    <title>
+     Key Points
+    </title>
+    <p id="Par12">
+     <list list-type="bullet">
+      <list-item>
+       <p id="Par13">
+        Hepatitis A virus activates all arms of the immune system. A profound humoral response assists both in diagnosis and in the protective immunity to vaccination.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par14">
+        In addition to the hepatotropic hepatitis viruses A to E, a variety of viruses can affect the liver. These include Epstein-Barr virus, cytomegalovirus, herpes simplex virus, varicella-zoster virus, human herpesviruses (6, 7, and 8), human parvovirus B19, adenoviruses, influenza virus, and others.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par15">
+        The clinical presentation of infections with these viruses may be indistinguishable from that associated with the “classic” hepatotropic viruses and can range from transient elevation of aminotransferases to severe liver failure.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par16">
+        Both the innate and adaptive parts of the immune system play a role in the pathogenesis of virus-mediated target organ involvement.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par17">
+        In most immunocompetent patients, an asymptomatic or mild disease occurs, while immunosuppressed patients and organ transplant recipients are at high risk for the development of severe infections and associated complications.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par18">
+        Antiviral agents, as well as immune-based therapies, have a role in the treatment of immunocompromised patients and in immunocompetent patients who present with severe life-threatening disease.
+       </p>
+      </list-item>
+     </list>
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par19">
+     Viral-mediated liver injury can result from infections with the classic hepatotropic viruses, hepatitis A through E, or by other viruses [     ]. In the present chapter, we review the immune-based pathogenesis and liver-related manifestations of hepatitis A virus as well as several additional viruses that affect the liver including Epstein-Barr virus (EBV), cytomegalovirus (CMV), herpes simplex virus (HSV), varicella-zoster virus (VZV), human herpesviruses (HHV 6, 7, and 8) , human parvovirus B19, adenoviruses, and influenza virus (Table     ). The clinical presentations range from mild and transient elevation of aminotransferases to severe chronic liver disease and liver failure [     ]. These viruses should be considered as possible etiologic agents in patients who manifest liver injury and whose serologic markers for the classic hepatotropic viruses are negative [     ] (Table     ).
+     <table-wrap id="Tab1">
+      <label>
+       Table 15.1
+      </label>
+      <caption>
+       <p>
+        Non-hepatotropic viruses that affect the liver
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <tbody>
+        <tr>
+         <td>
+          Herpesviruses: Epstein-Barr virus, cytomegalovirus, Varicella-zoster virus, human herpesvirus 6, human herpesvirus 7, and human herpesvirus 8
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Erythrovirus: Parvovirus B19
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Adenoviruses
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Orthomyxoviruses: Influenza
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Arenaviruses: Guanarito virus, Junín virus, Lassa fever virus, Machupo virus, and Sabiá virus
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Bunyaviruses: Crimean-Congo hemorrhagic fever virus, Dobrava virus, Hantaan virus, Puumala virus, Rift Valley fever virus, and Seoul virus
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Coronavirus: Severe acute respiratory syndrome virus
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Filoviruses: Ebola virus and Marburg virus
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Flaviviruses: Dengue, Lujo virus, Kyasanur Forest disease virus, Omsk hemorrhagic fever virus, and Yellow fever virus
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Picornaviruses: Echovirus
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Reovirus: Colorado tick fever virus and Reovirus 3
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <table-wrap id="Tab2">
+      <label>
+       Table 15.2
+      </label>
+      <caption>
+       <p>
+        Clinical features, diagnosis, and treatment summary table
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          Virus
+         </th>
+         <th>
+          Population at risk
+         </th>
+         <th>
+          Clinical and laboratory features
+         </th>
+         <th>
+          Acute liver failure
+         </th>
+         <th>
+          Unique complications
+         </th>
+         <th>
+          Diagnostic tests
+         </th>
+         <th>
+          Treatment
+         </th>
+         <th>
+          Active antivirals
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          EBV
+         </td>
+         <td>
+          <p>
+           IC
+          </p>
+          <p>
+           Age &gt;30 (esp. &gt;60)
+          </p>
+          <p>
+           XLP
+          </p>
+          <p>
+           Solid organ transplant recipients (especially pediatric)
+          </p>
+         </td>
+         <td>
+          <p>
+           Lymphocytosis
+          </p>
+          <p>
+           Monocytosis
+          </p>
+          <p>
+           Splenomegaly
+          </p>
+          <p>
+           Gradually rising liver enzymes
+          </p>
+         </td>
+         <td>
+          <p>
+           Rare
+          </p>
+          <p>
+           More common in immunosuppressed patients (60% in patients with XLP)
+          </p>
+         </td>
+         <td>
+          <p>
+           Splenic rupture
+          </p>
+          <p>
+           PTLD
+          </p>
+          <p>
+           HLH
+          </p>
+          <p>
+           AIH exac.
+          </p>
+         </td>
+         <td>
+          <p>
+           Monospot
+          </p>
+          <p>
+           EBV VCA IgM
+          </p>
+          <p>
+           PCR (blood/tissue)
+          </p>
+          <p>
+           Liver biopsy – rarely
+          </p>
+         </td>
+         <td>
+          <p>
+           ICP: For severe complications
+          </p>
+          <p>
+           Steroids
+          </p>
+          <p>
+           Antivirals (if steroid refractory)
+          </p>
+          <p>
+           IC: Anti-EBV CTLs
+          </p>
+          <p>
+           Antivirals
+          </p>
+         </td>
+         <td>
+          <p>
+           Ganciclovir
+          </p>
+          <p>
+           Valganciclovir
+          </p>
+          <p>
+           Valacyclovir
+          </p>
+          <p>
+           Famciclovir
+          </p>
+          <p>
+           Foscarnet
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          CMV
+         </td>
+         <td>
+          <p>
+           IC
+          </p>
+          <p>
+           Solid organ transplant recipients
+          </p>
+          <p>
+           Neonates (congenital CMV)
+          </p>
+          <p>
+           IBD
+          </p>
+         </td>
+         <td>
+          <p>
+           Hepatosplenomegaly
+          </p>
+          <p>
+           Aminotransferases lower than in “classic viral hepatitis”
+          </p>
+          <p>
+           Leukopenia
+          </p>
+          <p>
+           Thrombocytopenia
+          </p>
+         </td>
+         <td>
+          <p>
+           Rare
+          </p>
+          <p>
+           More common in IC
+          </p>
+         </td>
+         <td>
+          Graft loss, encephalitis, pneumonitis, hepatitis, uveitis, retinitis, and colitis
+         </td>
+         <td>
+          <p>
+           CMV IgM
+          </p>
+          <p>
+           PCR (blood and tissue)
+          </p>
+          <p>
+           Liver biopsy important
+          </p>
+         </td>
+         <td>
+          <p>
+           ICP – only in severe end-organ disease
+          </p>
+          <p>
+           IC – antivirals ± IVIG
+          </p>
+          <p>
+           Organ transplant – prophylactic versus preemptive treatment
+          </p>
+         </td>
+         <td>
+          <p>
+           Ganciclovir
+          </p>
+          <p>
+           Valganciclovir
+          </p>
+          <p>
+           Foscarnet
+          </p>
+          <p>
+           Cidofovir
+          </p>
+          <p>
+           CMV hyperimmune globulin
+          </p>
+          <p>
+           Leflunomide
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          HSV
+         </td>
+         <td>
+          <p>
+           IC
+          </p>
+          <p>
+           Pregnancy (3rd trimester)
+          </p>
+          <p>
+           Neonates
+          </p>
+         </td>
+         <td>
+          <p>
+           Leukopenia, thrombocytopenia, relatively mild elevation in bilirubin
+          </p>
+          <p>
+           Mucocutaneous lesions (50%)
+          </p>
+         </td>
+         <td>
+          <p>
+           Rare
+          </p>
+          <p>
+           More common in pregnancy, IC, and neonates
+          </p>
+         </td>
+         <td>
+          <p>
+           Esophagitis
+          </p>
+          <p>
+           Pneumonitis
+          </p>
+         </td>
+         <td>
+          <p>
+           HSV PCR (blood and tissue)
+          </p>
+          <p>
+           Liver biopsy essential
+          </p>
+         </td>
+         <td>
+          Early high-dose acyclovir
+         </td>
+         <td>
+          Acyclovir
+         </td>
+        </tr>
+        <tr>
+         <td>
+          VZV
+         </td>
+         <td>
+          <p>
+           Adults
+          </p>
+          <p>
+           IC
+          </p>
+          <p>
+           Liver transplant recipients
+          </p>
+         </td>
+         <td>
+          Cutaneous rash
+         </td>
+         <td>
+          <p>
+           Rare
+          </p>
+          <p>
+           More common in IC
+          </p>
+         </td>
+         <td>
+          Graft loss
+         </td>
+         <td>
+          <p>
+           Viral isolation from skin lesions
+          </p>
+          <p>
+           HSV PCR (blood/tissue)
+          </p>
+          <p>
+           Liver biopsy
+          </p>
+         </td>
+         <td>
+          Early therapy with acyclovir in severe disease or IC patients
+         </td>
+         <td>
+          Acyclovir
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        Abbreviations:
+        <italic>
+         IC
+        </italic>
+        immunocompromised,
+        <italic>
+         ICP
+        </italic>
+        immunocompetent,
+        <italic>
+         XLP
+        </italic>
+        X-linked lymphoproliferative disorder,
+        <italic>
+         PTLD
+        </italic>
+        posttransplant lymphoproliferative disorder,
+        <italic>
+         HLH
+        </italic>
+        hemophagocytic lymphohistiocytosis,
+        <italic>
+         AIH
+        </italic>
+        autoimmune hepatitis,
+        <italic>
+         CTLs
+        </italic>
+        cytotoxic T lymphocytes
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Hepatitis A Virus
+    </title>
+    <p id="Par20">
+     Hepatitis A virus (HAV) is a member of the Picornavirus family, with a genome consisting of 7.5 kbs single-strand positive-sense RNA [     ]. This single strand of RNA is translated into a polypeptide, cleaved to structural and nonstructural proteins, mostly via the viral protease 3Cpro, the only viral protease elaborated by the virus [     ]. These proteins play a major part in the typical cellular membrane rearrangement observed in HAV -infected cells. This membranous complex has a role in further amplifying viral RNA replication [     ]. Probably working within or proximally to these membranous complexes, cellular poly(rC) binding protein 2 (PCEP2), ATP binding cassette transporters, and FK506 binding proteins were shown to be essential for viral replication and translation [     ,     ]. Once structural proteins are translated and the viral capsid is constructed, HAV virions are secreted in a non-cytopathic manner from the cell [     ]. Both naked and quasi-enveloped virion are released from infected cells, and during infection, they may be found in the blood, feces, and hepatocytes [     ,     ]. Quasi-enveloped virions are wrapped in cellular membranes, imparting resistance to neutralizing antibodies during acute HAV infection [     ,     ].
+    </p>
+    <p id="Par21">
+     Following ingestion of HAV virions, the initial site of replication and bloodstream entry is unclear. Initial infection and replicating have been posited to occur within gastrointestinal mucosal epithelial cells by direct invasion and replication at these sites, this hypothesis being supported by better virus replication when introduced to apical membranes of epithelial cells [     ]. Replication or direct transcytosis via M cells located in Peyer’s patches has been demonstrated in poliovirus [     ], with which HAV shares several protein homologies [     ]. Within this lack of clarity, further hypotheses have been made including amplification of viral uptake by IgA-mediated endocytosis [     ]. It is likely these mechanisms work in cohort and need not be viewed as mutually exclusive.
+    </p>
+    <p id="Par22">
+     Once infection has occurred, HAV localizes to hepatocytes, inside of which its replication is nearly exclusive. Entry into hepatocytes has also not been clearly elucidated as a single mechanism. A receptor for HAV intake into hepatocytes in humans has been recognized [     ], and here also, the IgA-HAV complex has been demonstrated to take part in the virion endocytosis into hepatocytes [     ], likely via the basolateral part of the hepatocyte [     ].
+    </p>
+    <p id="Par23">
+     With viral replication taking place mostly within hepatocyte, the mechanism for HAV-induced hepatitis also remains unclear. Liver biopsies performed during clinical and biochemical acute hepatitis reveal necroinflammation and ballooning degeneration of hepatocytes, accompanied by an inflammatory infiltrate [     ]. HAV is largely agreed to be non-cytopathic and does not seem to greatly interfere with intracellular homeostasis. In tune with this assumption, peak HAV replication and shedding occur before maximal ALT elevation in infected patients [     ].
+    </p>
+    <p id="Par24">
+     HAV acts through nonstructural proteins 3ABC and 2B to inhibit cellular production of type 1 interferons [     ]. Plasmacytoid dendritic cells have been shown to be recruited to the liver early in the process of infection and to be robustly stimulated to secrete interferon by infected hepatocytes. However, the presence of type 1 interferons remains low, and its peak seems to far predate the peak of hepatitis , and is thus unlikely to be the direct cause of hepatitis or directly aid in viral defense [     ,     ]. Interferon-γ (IFN-γ) has been shown to be robustly secreted from infected hepatocytes in culture. These cells also secrete chemokines with the ability to attract other immune cells, but this secretion has been shown to be unrelated to IFN-γ secretion [     ]. With no clear model of type 2 interferon (i.e., IFN-γ) secretion in vivo, it is difficult to allocate specific activity to these findings.
+    </p>
+    <p id="Par25">
+     Chemokine secretion is likely an important part in the attraction of adaptive immunity cells to the liver. CD8+ T cells from HAV-infected patients have been shown to become activated after ex vivo reintroduction of HAV-infected cells and HAV-related peptides [     ,     ]. Regulatory T cells (Tregs) have also been shown to be reduced in number and activity during acute HAV hepatitis [     ], possibly driving CD8+ cell activation. While this mechanism was never directly demonstrated in vivo, it is likely CD8+ cell activity and regulation play a major part in both HAV-induced hepatitis and viral clearance.
+    </p>
+    <p id="Par26">
+     Further studies have illuminated the role of other adaptive immunity cell in HAV infection. In HAV-infected chimpanzees, CD4+ T cells were demonstrated to be more robust in comparison to CD8+ cells and were characterized by cytokine production and a course of activity and proliferation related to HAV activity [     ]. It is interesting to speculate whether this evidence for more robust CD4+ than CD8+ activation has to do with the function of hepatocytes as antigen-presenting cells [     ].
+    </p>
+    <p id="Par27">
+     While classically adaptive immunity cells have been associated with immune-mediated apoptosis, innate immunity mechanisms have been shown to take a large and active part in this process. In a model of HAV hepatitis, NK cells demonstrated strong lytic activity against infected cells, augmented by anti-HAV antibodies [     ].
+    </p>
+    <p id="Par28">
+     The innermost layer of innate immunity may be localized to the hepatocyte themselves. Despite HAVs ability to disrupt cellular immunity and type 1 interferon pathways, it appears intrinsic hepatocyte mechanisms including activation of mitochondrial-associated antiviral signaling (MAVS) and basal expression of interferon regulatory factors (IRFs) act to drive both hepatocyte immunity to RNA virus invasion and hepatocyte apoptosis [     ,     ]. These mechanisms may have a heretofore unrecognized significance in both viral clearance and clinical hepatitis.
+    </p>
+    <p id="Par29">
+     The most widely referred to layer of HAV immunity is humoral immunity. Robust IgM secretion appears concomitantly with the appearance of symptomatic hepatitis and aids in diagnosis [     ]. Class switching later becomes the dominant response and IgG provides lifelong immunity against reinfection, with possible rare exceptions in the case of severe immunosuppression and lymphocyte depletion [     ,     ]. A highly effective HAV vaccination has been licensed since the mid-90s and has been recommended to all US children since 2006. These developments have seen a drastic fall in epidemiological reports of HAV hepatitis cases in vaccinating countries. Predictions have the length of immunity at ~25 years, less than the lifelong immunity of persons previously infected with HAV. The clinical relevance of this predicted gap has yet to be encountered, though further booster shots may conceivably be needed to prevent waning immunity during middle age [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec3">
+    <title>
+     Epstein-Barr Virus
+    </title>
+    <sec id="Sec4">
+     <title>
+      EBV Infection (Fig.      )
+     </title>
+     <p id="Par30">
+      Epstein-Barr virus ( EBV), also known as human herpesvirus 4 (HHV-4), is a member of the Herpesviridae family and is a double-stranded DNA virus [      ]. Its genome consists of a linear DNA molecule that encodes nearly 100 viral proteins. Expression of different combinations of these proteins allows the virus to establish different forms of infection [      ]. Cell entry and translocation of EBV particles to the nucleus are confirmed by the detection of the EBV genome in isolated nuclei [      ]. EBV infection is a common and lifelong infection affecting over 90% of humans worldwide [      ]. In the United States, EBV affects 95% of the young population between 35 and 40 years of age. The virus replicates in nasopharyngeal epithelial cells, and seropositive persons actively shed the virus in saliva [      ,      ]. Transmission of EBV usually occurs by contact with oral secretions.
+     </p>
+     <p id="Par31">
+      Diagnosis of EBV infection is based on clinical features and on laboratory and serological findings indicative of a recent infection. The most common is leukocytosis, which appears in 70% of cases, predominantly as lymphocytosis and monocytosis, and mild thrombocytopenia in up to 50% of affected individuals. EBV-specific IgG and IgM antibodies directed against the viral capsid antigens (VCA), the early antigens (EBV anti-D and anti-R), the nuclear antigen (EBVNA), and soluble complement-fixing antigens (anti-S) are used for viral detection [      ]. The “monospot” test that detects heterophilic antibodies is sensitive but not specific. The diagnosis of EBV-associated hepatitis is established based on a combination of elevated aminotransferases, serology compatibility with active EBV infection, typical findings in liver biopsy, and the presence of the viral genome in liver tissue. A liver biopsy shows portal and sinusoidal mononuclear cell infiltration with focal hepatic necrosis or fatty infiltration [      ,      ].
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      The Role of the Immune System in EBV Infection
+     </title>
+     <p id="Par32">
+      Both the innate and the adaptive parts of the immune system play a role in anti-EBV immunity [      ,      ]. B cells in the oropharynx may be the primary site of infection; resting memory B cells are thought to be the sites of persistent infection with EBV throughout the body. EBV infection of B cells triggers activation of several signaling pathways which are critical for cell survival, virus latency, and growth transformation [      ]. Consequently, EBV has evolved several strategies to evade immune system recognition and to establish latent infection in memory B cells, where it resides lifelong without any ill effects in a majority of individuals [      ].
+     </p>
+     <p id="Par33">
+      After infecting B lymphocytes, the linear EBV genome becomes circular, forming an episome, which usually remains latent in these B cells. Several of the viral proteins are expressed in latently infected B cells in vitro. In immunocompetent individuals, EBV establishes in B cells as an asymptomatic lifelong latent infection controlled by the immune system. CCR1/CCR2B is involved in clearing latently infected B cells in immunocompetent individuals via directing migration of these cells and attracting chemokines-expressing immune cells [      ]. However, limited gene expression during latency ensures successful escape of the infected B cells from cytotoxic T-cell (CTL) recognition [      ]. Viral replication is spontaneously activated in only a small percentage of latently infected B cells [      ]. Thus, imbalances in equilibrium between the virus and the host’s immune system lead to the development of liver damage in EBV-infected patients.
+     </p>
+     <p id="Par34">
+      Innate sensing and the resulting innate immune responses against EBV impact viral transmission between epithelial cells and B cells and their life cycle stages. Innate recognition and the resulting innate immune responses against EBV also involve myeloid cells, dendritic cells, monocytes, macrophages, neutrophils, and natural killer cells. Posttranscriptional gene regulatory factors are required for EBV lytic replication [      ].
+     </p>
+     <p id="Par35">
+      The tonsils are a primary site for EBV infection. EBV triggers monocyte toll-like receptors (TLRs) inducing maturation of dendritic cells (DCs), which activate CD16
+      <italic>
+       −
+      </italic>
+      CD56 bright NK cells via IL12. NK cells hamper pathogen entry at mucosal sites, restricting EBV infection until adaptive immunity establishes control on the virus [      ]. NK cells respond against EBV-infected B cells in the lytic cycle and control the viral infection by the involvement of IFN-
+      <italic>
+       γ
+      </italic>
+      secretion. IFN-
+      <italic>
+       γ
+      </italic>
+      secreted by DC-activated NK cells is associated with delayed expression of latent EBV antigens. It inhibits B-cell transformation, decreasing their proliferation during the first week postinfection [      ,      ]. IFN-
+      <italic>
+       γ
+      </italic>
+      also promotes an EBV-specific adaptive immune response by favoring a Th1 polarization. NK cell Ab-dependent cellular cytotoxicity (ADCC) is triggered via FcgammaR-IIIA (CD16) in the response to EBV. Serum from EBV(+) individuals triggered vigorous NK cell degranulation and cytokine production (TNF-alpha and IFN-gamma) against EBV-infected cells, enhancing NK cell activation [      ].
+     </p>
+     <p id="Par36">
+      In an early phase after a primary viral infection, NK cells limit the viral burden until virus-specific T cells eliminate the infection or maintain viral titers at low levels. Innate immunity uses several “pattern recognition” receptors to sense pathogen-associated molecular patterns (PAMPs) [      ]. TLR activation has downstream effects during primary EBV infection that favor viral latency or reactivation and facilitate immune control. Intact viral particles are recognized by the membrane surface receptor, TLR2 [      ]. Following viral entry into cells, viral DNA is recognized by TLR9. Dual interactions via TLR2 on the cell membrane and intracellular TLR9 lead to a rapid production of IL-8, initiating effective antiviral immunity. Programmed death ligand 1 (PD-L1) is a membrane immunomodulatory protein, whose overexpression on the surface of tumor cells and antigen-processing cells (APCs) impairs T-cell-mediated killing. EBV infects monocytes using HLA-DR and induces a strong upregulation of PD-L1 expression on their surface. EBV activated TLR signaling, increased intracellular reactive oxygen species (ROS), and phosphorylated STAT3. Targeting these molecules reverted PD-L1 upregulation, altering cytokine production, and reduced monocyte cell survival, impairing the antiviral immune response [      ].
+     </p>
+     <p id="Par37">
+      EBV expresses several viral noncoding RNAs (ncRNAs) during latent infection, which have regulatory functions and can posttranscriptionally regulate viral and/or cellular gene expression. EBV-encoded RNAs (EBERs), the BamHI-A rightward transcripts (BARTs), a small nucleolar RNA (snoRNA), and viral microRNAs (miRNAs) are expressed during EBV infection in a variety of cell types [      ]. EBV counteracts or exploits innate immunity in its latent and lytic life cycle stages via TLRs, EBERs, and microRNAs [      ]. EBV encodes 25 viral precursor microRNAs within its genome that are expressed during lytic and latent infection. These viral miRNAs regulate the expression of viral and host genes. EBV infection induces the expression of cellular oncogenic miRNAs, such as miR-155, miR-146a, and miR-21, which contribute to the persistence of latently infected cells [      ]. Several miRNAs, such as miR-BHRF16, show higher expression levels during primary infection [      ]. Moreover, type I IFNs play critical roles in orchestrating the antiviral defense. It is observed that EBV-encoded miR-BART16 interferes with the type I IFN signaling pathway and directly targets CREB-binding protein, a key transcriptional coactivator in IFN signaling. Additionally, it abrogates the production of IFN-stimulated genes by inhibiting the antiproliferative effect of IFN-alpha, thus facilitating latency of EBV infection and enhancing viral replication [      ]. EBERs are released from EBV-infected cells and induce biological changes in cells via signaling from TLR3. EBER-1 and EBER-2 are excreted from infected cells in exosomal fractions and are found to be present in the purified exosome fractions of EBV-infected cells [      ].
+     </p>
+     <p id="Par38">
+      An increase in neutrophils is observed during the initial phases of EBV infection, whereas a transient episode of acute neutropenia is often observed in infectious mononucleosis (IM) during the third week of illness [      ]. Infected neutrophils rapidly die by apoptosis [      ]. Secretion of various cytokines and chemokines (e.g., IL-1, IL-8, MIP-1
+      <italic>
+       α
+      </italic>
+      , LTB4, and reactive superoxide anion) promotes the development of EBV-specific immunity, whereas upregulation of IL-1R and induction of apoptosis in neutrophils inhibit anti-EBV immune responses [      ].
+     </p>
+     <p id="Par39">
+      Episodes of monocytopenia are observed during the acute phase of IM [      ]. EBV impairs monocyte differentiation into DCs and reduces their survival. These effects correlate with macroautophagy/autophagy, ROS, and reduction of mitochondrial biogenesis. By inhibiting autophagy, EBV reduces ROS negatively, thereby affecting autophagy. It was revealed that reduction of autophagy correlated with the downregulation of RAB7 and ATG5 expression and STAT3 activation, thus upregulating the antioxidant response, reducing ROS, and further inhibiting autophagy [      ]. By inhibiting the differentiation of monocytes into mature DCs, EBV temporarily halts the onset of immune responses during primary infection, enabling efficient viral replication. This permits the accumulation of a large pool of virus-infected B lymphocytes, allowing viral access to memory B-cell compartment, interfering with the functions of DCs during the initiation of virus-specific immunity, and modifying the profile of secreted cytokines, thus creating a favorable environment for viral propagation [      ,      ]. Patients with EBV-associated malignancy show a deficiency in monocyte-mediated ADCC, along with a reduced phagocytic activity of EBV-infected monocytes [      ]. In addition, EBV infection inhibits the functional ability of macrophages to respond to bacterial challenge by reducing their phagocytic potential [      ].
+     </p>
+     <p id="Par40">
+      CTLs are major determinants in the control of acute EBV infection and are directed against both lytic and latent antigens [      ]. EBV induces strong CD8+ T-cell responses in primary infection yet persists for life, continually challenging T-cell memory through recurrent lytic replication and potentially influencing the spectrum of antigen-specific responses [      ]. About half of the total CD8+ T cells in an acute infection are specific for a single lytic EBV epitope, and most of these epitope-specific cells have an activated/memory phenotype. In the late stages of infection, the frequency of epitope-specific CD8+ T cells directed against latent EBV proteins increases, confirming that CTLs are important for limiting infection in the convalescent phase of virus infection. Long-term EBV carriers generate robust polyfunctional T-cell (PFC) responses against lytic and latent EBV antigens. EBV antigen-specific CD4+ and CD8+ PFC responses emerge during the first year of primary EBV infection, with the greatest responses toward immunodominant epitopes in both lytic and latent proteins, correlating to a steady decline in peripheral blood mononuclear cells (PBMCs) and plasma viral loads. Both IM and asymptomatic (AS) patients had elevated PBMCs and plasma viral loads, which declined steadily during a 12-month period from the time of diagnosis. There was a decrease in the magnitude of CD8+ T-cell responses toward EBV lytic peptides, in contrast to an increase toward latent peptides [      ]. An interferon-gamma (IFN-gamma) enzyme-linked immunospot (ELISPOT) assay using isolated CD8(+) and CD4(+) T cells stimulated with mRNA-transfected DCs showed that the frequency of latent membrane protein 1 (LMP1)-specific IFN-gamma-producing CD4(+) T cells was higher than that of LMP2a. Furthermore, the frequency of IFN-gamma producing CD4(+) T cells correlated with that of CD8(+) T cells in LMP1-specific immune responses. It was observed that CD8(+) and CD4(+) T cells from EBV-seropositive donors secreted only the Th1 cytokines – IFN-gamma, TNF-alpha, and IL-2 [      ].
+     </p>
+     <p id="Par41">
+      In lytic infections, the virus expresses a full complement of immediate early, early, and late lytic cycle proteins and is capable of replicating within the host cell [      ]. In latent infection, the virus expresses fewer proteins, does not replicate, and persists within the host cell. EBV has developed an ability to rapidly promote the expression of its own genes while simultaneously shutting down the transcriptional program of its host cell [      ]. TNF-
+      <italic>
+       α
+      </italic>
+      levels are increased in IM patients, indicating its importance in ongoing antiviral response. However, the virus inhibits TNF-
+      <italic>
+       α
+      </italic>
+      secretion by monocytes and macrophages [      ] and downregulates TNF-
+      <italic>
+       α
+      </italic>
+      mRNA transcripts via suppressive action at the transcriptional level [      ]. Besides, EBV proteins are also known to modulate IFN signaling [      ,      ].
+     </p>
+     <p id="Par42">
+      The life cycle of EBV is dependent on many viral proteins but also regulates a number of endogenous proteins. The 7TM receptor encoded by EBV
+      <italic>
+       BILF1
+      </italic>
+      downregulates cell surface MHC class I expression as part of the immune evasion strategy of EBV [      ]. An EBV tegument protein, BGLF2, activates members of the mitogen-activated protein kinase signaling pathway. The protein is delivered to cells upon infection, activating signaling pathways to enhance viral production and reactivation from latency. Expression of
+      <italic>
+       BGLF2
+      </italic>
+      increased expression of EBV
+      <italic>
+       BZLF1
+      </italic>
+      , which in turn activates a switch from latent to lytic virus infection, and increased production of EBV [      ].
+     </p>
+     <p id="Par43">
+      EBV nuclear antigen 1 (EBNA1) is an EBV-encoded nuclear antigen and sequence-specific DNA binding protein required for viral binding and episome maintenance during latency. It binds directly to the promoter regulatory regions and upregulates the transcription of host genes that are important for the survival of EBV-infected cells [      ].
+     </p>
+     <p id="Par44">
+      Long-term virus carrier state along with a low-level virus replication and lytic antigen release is associated with a reshaping of the virus-specific response [      ]. Screening against each of 70 EBV lytic cycle proteins in combination with HLA class I alleles revealed multiple reactivities against immediate early (IE), early (E), and late (L) lytic cycle proteins. Primary responses targeted IE and a small group of E proteins, in line with their presentation on the infected cell surface before late-expressed viral evasions occur.
+     </p>
+     <p id="Par45">
+      EBV reactivation associated with increased specific CTL response to a lytic EBV epitope can lead to EBV-associated chronic hepatitis [      ]. EBV reactivation in these patients is based on an increased percentage of terminally differentiated CD28−CD27−CD8+ T cells, suggestive of chronic antigen stimulation [      ]. Diminished expression of co-stimulatory molecules, CD28 and CD27, compromises CD8+ reactivation, making cells more resistant to apoptosis [      ,      ,      ].
+     </p>
+     <p id="Par46">
+      While cellular immunity is fundamental for controlling both the primary and persistent phases of EBV propagation, the humoral response controls viral spread in late phases of infection [      ]. EBV stimulates strong humoral responses to lytic cycle proteins. IgM and developing IgG responses to nucleocapsid and envelope proteins are detectable in primary EBV infections [      ]. IgG responses to immediate-early and early lytic cycle proteins and to the latent proteins, EBNA1 and EBNA 2, are also detectable, together with neutralizing antibodies directed against gp350 [      ].
+     </p>
+     <p id="Par47">
+      EBV makes more than 12 glycoproteins, providing flexibility in the mode by which it colonizes its human host. Some of these are associated with transporting the virus through the cell membrane and toward the nucleus, and some glycoproteins help the virus to exit and infect the next cell in the same or a new host. They also weaken host defenses, helping the virus persist for a lifetime [      ].
+     </p>
+     <p id="Par48">
+      EBV represents a potentially important factor in the pathogenesis of several T-cell-mediated autoimmune disorders, with molecular mimicry as a likely mechanism. T-cell cross-reactivity reinforces the molecular mimicry in which microbial peptides sharing structural features with host peptides stimulate T cells that cross-react with self-peptides, initiating autoimmune disease. Natural presentation of a self-peptide is cross-recognized in the context of self-HLA by EBV-reactive CD8(+) T cells. As reported in a study, a human self-peptide (DELEIKAY) is a homolog of a highly immunogenic EBV T-cell epitope (SELEIKRY) presented by HLA-B*18:01. This self-peptide binds to HLA-B*18:01 and is presented by this HLA molecule on the surface of human cells. A significant proportion of CD8(+) T cells raised in some healthy individuals against this EBV epitope cross-reacted with the self-peptide [      ].
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Role of the Immune System in EBV-Mediated Malignancy
+     </title>
+     <p id="Par49">
+      EBV is a contributory factor in 1–2% of all cancers and is associated with the development of tumors such as lymphoproliferative disorders, Hodgkin’s lymphoma, Burkitt’s lymphoma, and nasopharyngeal carcinoma [      ,      ].
+     </p>
+     <p id="Par50">
+      Upon primary infection, EBV transiently undergoes a short lytic cycle and then predominantly establishes a latent infection. Only a small percentage of infected cells switch from the latent stage to the lytic cycle to produce progeny viruses. EBV in cancer cells is mostly in the latent state; however, the lytic cycle of the virus also contributes to tumorigenesis via the secretion of cytokines or growth factors [      ]. Transforming growth factor beta 1 (TGFβ1) contributes to the pathogenesis of EBV-mediated cancer [      ]. EBV is latent in lymphocytes and can detach from the cytoplasm to form a circular DNA molecule integrating into cellular the chromosomes. The interaction between EBV latent genes and oncogenes leads to host cell cycle disturbances, including the promotion of G1/S phase transition and inhibition of cell apoptosis, promoting the development of EBV-associated neoplasms [      ]. The latent genes of EBV modulate cell death associated with growth transformation and lymphomagenesis and also regulate cell death pathways in Burkitt’s lymphoma and lymphoblastoid cell lines (LCLs) [      ]. Reactivation of the virus from latency is dependent on expression of the viral BZLF1 protein. The BZLF1 promoter (Zp) exhibits low basal activity but is activated in response to chemical or biological inducers. These mechanisms control the EBV lytic switch and contribute to the oncogenesis [      ]. EBV-associated malignancies and LCLs express latent viral proteins and maintain an ability to grow indefinitely through the inappropriate activation of telomere-specific reverse transcriptase (TERT) – a catalytic component of a telomerase. BATF, a transcription factor activated by NOTCH2, the major NOTCH family member in B cells, negatively affects the expression of BZLF1, the master regulator of viral lytic cycle. High levels of endogenous TERTs are associated with high NOTCH2 and BATF expression levels, contributing to the preservation of EBV latency in B cells via the NOTCH2/BAFT pathway [      ]. In EBV-induced cancers of epithelial origin, including nasopharyngeal carcinomas (NPCs) and gastric carcinomas, the latent EBV genome expresses high levels of a cluster of 22 viral pre-miRNAs. miR-BARTs exert an antiapoptotic effect in EBV-infected epithelial cells [      ].
+     </p>
+     <p id="Par51">
+      Epigenetic modifications of the viral and host cell genomes occur in EBV-associated lymphomas and carcinomas. Viral oncoproteins interact with the same epigenetic regulators and alter their cellular epigenotype and gene expression patterns. Hypermethylated promoters are unique EBV-associated epigenetic signatures in EBV-positive gastric carcinomas. EBV-immortalized B-lymphoblastoid cell lines are characterized by genome-wide demethylation and loss and rearrangement of heterochromatic histone marks [      ]. In the initial stages after EBV infection, B cells undergo a transient period of hyper-proliferation, which results in replicative stress and DNA damage, activation of the DNA damage response (DDR) pathway, and, ultimately, senescence. Arrested EBV-infected B cells manifest an increase in the presence of telomere dysfunction-induced foci. Increasing human TERT expression permitted early EBV-infected B cells to overcome cellular senescence and enhanced transformation [      ].
+     </p>
+     <p id="Par52">
+      Epstein-Barr virus nuclear antigens (EBNA3A, EBNA3B, and EBNA3C) are latency-associated proteins expressed in B cells that are induced to proliferate by the virus. Together with other nuclear antigens, they are expressed from a polycistronic transcription unit that is unique to B cells. EBNA3s are required for the persistence of EBV in the B-cell system and in modulating B-cell lymphomagenesis, restraining the oncogenic capacity of EBV [      ].
+     </p>
+     <p id="Par53">
+      Mutations in SAP (signaling lymphocyte activation molecule (SLAM)-associated protein) are associated with a loss of EBV-specific immune control [      ]. During EBV latency, the virus develops mechanisms of immune escape from innate immunity-dependent mechanisms, including the inhibition of NK cell activation through EBV-induced gene 3 (EBI3) [      ]. EBV-transformed B lymphocytes express high levels of EBI3 protein, which has an immunosuppressive activity [      ]. The expression of viral antigens by malignant cells makes them suitable targets for immune therapy. The demonstration that immunotherapeutic approaches are effective for some of these cancer patients further supports a role for the immune system in limiting the pathogenesis of EBV virus [      ]. Infusion of EBV-specific cytotoxic T lymphocytes has proved to be safe and effective and induces protective antivirus immunity, which is lacking in EBV-associated malignancy [      ]. Innate lymphocytes also play a role in resistance to EBV-associated malignancies. EBV type II latency tumors, such as Hodgkin lymphoma (HL), non-Hodgkin lymphoma (NHL), and nasopharyngeal carcinoma, express a limited array of EBV antigens including Epstein-Barr nuclear antigen (EBNA)1, latent membrane protein (LMP)1, LMP2, and BamH1-A right frame 1 (BARF1). Adoptive immunotherapy for these malignancies has focused on EBNA1, LMP1, and LMP2. BARF1-specific T-cell lines contain CD4- and CD8-positive T-cell subpopulations. Targeting BARF1, in addition to EBNA1, LMP1, and LMP2, improves the efficacy of T-cell immunotherapy against these malignancies [      ]. Epstein-Barr virus LMP1 is an oncoprotein required for immortalizing B lymphocytes and transforms nonlymphoid tissue. Over 1000 proteins with direct or indirect relationships to LMP1 are discovered, some of which are involved in signal transduction and protein or vesicle trafficking [      ]. Latent membrane protein 2A (LMP2A) promotes activation and proliferation of infected B cells and is expressed in many types of EBV-associated cancers and reduces the reactivity of CD8+ T cells against EBV-infected cells [      ]. LMP2A mediates a rapid onset of lymphoma by allowing B cells to bypass apoptosis mediated by the p53 pathway in mice [      ]. Overexpression of human MutS homologue 2 (hMSH2), a stress-inducible protein ligand for human gammadelta T cells, was shown in EBV-transformed B lymphoblastic cell lines (B-LCLs) and EBV-positive B lymphoma cell lines. Consequently, its overexpression can serve as a potential target for establishing gammadelta T-cell-based immunotherapies [      ]. Besides, COX-2, a key mediator of the inflammatory processes, is frequently overexpressed in EBV-positive cancer cells. Upregulated COX-2 levels modulate the events in EBV life cycle related to latency-lytic reactivation through its downstream effector PGE2 [      ]. It is observed that EBV-positive lymphoproliferative disorders express PDL1. PD1-positive tumor-infiltrating lymphocytes are found in these tumors. An active engagement between PD1 and PDL1 and EBV-positive LPDs that are positive for PDL1 may be suitable for PD1/PDL1 antibody therapies [      ].
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Clinical Manifestations Affecting the Liver in Acute EBV Infection
+     </title>
+     <p id="Par54">
+      EBV infects up to 95% of the adult human population, with a primary infection typically occurring during childhood, and is usually asymptomatic. However, EBV infection can result in infectious mononucleosis, as well as in various and often fatal clinical sequelae, including fulminant infectious mononucleosis, hemophagocytic lymphohistiocytosis, lymphoproliferative disease, organomegaly, and/or malignancy. Such clinical outcomes are typically observed in immunosuppressed individuals [      ,      ]. Various additional clinical conditions have been associated with EBV, including chronic infections, Burkitt’s lymphoma, nasopharyngeal carcinoma, Hodgkin’s disease, peripheral T-cell lymphoma, and posttransplant lymphoproliferative disease (PTLD) [      ,      ]. Proteins produced by EBV in latent infections suppress cytokines or upregulate PD-1 in B cells to repress the cytotoxic T-cell response. Many malignancies, including Hodgkin lymphoma and non-Hodgkin’s lymphomas, occur at a much higher frequency in EBV-positive individuals during HIV infection [      ].
+     </p>
+     <p id="Par55">
+      Transmission of EBV generally occurs not only through oral secretions but also via blood transfusions and organ transplantations. A primary EBV infection takes place in the oropharyngeal region; the virus is transported by saliva droplets from infected individuals. The primary infection leads to transient viremia followed by a strong T-cell adaptive immune response that retains the infection in a latent stage in immunocompetent individuals [      ,      ]. If the infection occurs in adolescence or adulthood, it can cause infectious mononucleosis (IM), a self-resolving lymphoid disorder largely resulting from an uncontrolled T-cell reaction directed against EBV-infected cells. In IM patients, EBV is found in blast cells that proliferate under the influence of latent genes [      ]. Following resolution of the primary infection, EBV establishes a lifelong persistence in memory B cells, in which the virus remains clinically silent. In this B-cell reservoir, viral expression is repressed, a process described as “true latency.” Short episodes of spontaneous reactivation and consequent viral replication normally occur in healthy individuals [      ]. Manifestations affecting the liver in immunocompetent hosts range from mild self-limiting acute hepatitis to occasional reports of fatal acute fulminant hepatitis. Abnormal liver blood tests are common in EBV infection and occur in more than up to 90% of patients, but symptomatic hepatitis is rare [      ]. Jaundice is present in only 5–10% of cases. Typically, the rise in aminotransferases is gradual, reaching a peak that is lower than that encountered in acute viral hepatitis [      ]. The diagnosis of EBV infection is confirmed by the presence of a lymphocytosis and/or splenomegaly [      ].
+     </p>
+     <p id="Par56">
+      Compared with IM, which usually affects young patients, EBV hepatitis usually affects older people. In a review reporting a large cohort of patients, 59% were aged &gt;30, and 41% were ≥60 years [      ]. While 88% had clinical or biochemical jaundice, 100% had lymphocytosis and 88% had splenomegaly; only 12% manifested the classic symptoms of IM. Symptoms lasted for a median of 8 weeks, and only a minority of patients required brief hospitalization. However, severe cholestatic jaundice and right upper quadrant abdominal pain, which could be mistaken for bile duct obstruction, may occur in elderly patients [      ]. In this setting, indirect hyperbilirubinemia resulting from EBV-associated autoimmune hemolytic anemia is more commonly the cause of jaundice than viral-induced cholestasis. Other occasional clinical settings for the involvement of EBV in manifesting liver disease include posttransfusion hepatitis, granulomatous hepatitis, and fatal fulminant hepatitis [      ,      ]. Primary EBV infection accounts for &lt;1% of adult acute liver failure (ALF) cases but is associated with a high case fatality rate. Liver transplantation (LT) is associated with favorable short- and long-term outcomes. Among the 1887 adult ALF patients enrolled in the US ALF Study, there were four patients (0.21%) with EBV-related ALF. All patients were treated with antiviral agents – two died, one underwent LT, and one survived with supportive care [      ]. EBV superinfection may occur in patients with preexisting autoimmune hepatitis, resulting in severe hepatic decompensation [      ]. Cases of liver failure were described both in immunocompromised and immunocompetent hosts [      ,      ,      ].
+     </p>
+     <p id="Par57">
+      Viral replication may cause significant clinical symptoms and severe complications in patients with diminished cell-mediated immunity [      ,      ].
+     </p>
+     <p id="Par58">
+      EBV DNA in blood can be quantified in PBMCs, in circulating cell-free (CCF) DNA specimens, or in whole blood. CCF viral DNA may be actively released or extruded from viable cells, packaged in virions, or passively shed from cells during apoptosis or necrosis. In infectious mononucleosis, viral DNA is detected in each of these specimens [      ]. In a population survey, anti-EBV capsid (VCA; IgG and IgM), nuclear (EBNA; IgG), and early (EA-D; IgG) antigens were studied. DNA was extracted from the buffy coat and subjected to EBV-DNA quantification using qRT-PCR. It was observed that 97.9% of the samples were seropositive for VCA-IgG, while 52.6% had detectible EBV-DNA. EBV seroprevalence and viremia rates increased with age [      ]. A high level of HEV, EBV, and CMV IgM cross-reactivity was demonstrated, indicating that serology is unreliable in the diagnosis of acute viral hepatitis. Thus, it is suggested that the diagnosis of viral hepatitis should be based on clinical features, raised transaminases, serology, and confirmatory PCR testing [      ]. Quantification of EBV copy numbers is a useful diagnostic marker. Furthermore, 25% of EBV viral DNA was detected in plasma or PBMCs, which was clinically significant. When EBV was detected in the absence of an EBV(+) disease, it was present only in the PBMCs in 69% of cases. Immunocompromised patients were less likely to have EBV in plasma than in PBMCs in the absence of EBV(+) disease. In patients with active, systemic EBV(+) disease, EBV was detected in plasma in 99% of the cases but was present in PBMCs in only 54% cases. EBV in plasma had higher specificity and sensitivity for EBV(+) disease than those with EBV in PBMCs [      ].
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      EBV-Mediated Chronic Liver Damage
+     </title>
+     <p id="Par59">
+      Persistent infection by EBV is explained by the germinal center model (GCM). The virus persists quiescently in resting memory B cells for a lifetime of the host in a nonpathogenic state that is undetectable to the immune response elements. EBV infects naive B cells in the lymphoepithelium of the tonsils and activates these cells using the growth transcription program. These cells migrate to the GC and switch to a more limited transcription program, holding them into a memory compartment where the virus persists. Infected memory cells return to the lymphoepithelium and differentiate into plasma cells, thereby activating viral replication. The released virus infects more naive B cells or is amplified in the epithelium for shedding. This cycle of infection and the quiescent state in memory B cells allows for a lifetime persistence of EBV at very low levels and is stable over a period of time [      ].
+     </p>
+     <p id="Par60">
+      Chronic active EBV infection (CAEBV) may result from a disturbance in the host-virus balance and Th1/Th2 imbalance, associated with an aggressive clinical course. CAEBV is defined by chronic severe illness, which begins as a primary EBV infection manifested by elevated transaminases, abnormal EBV serology, suggestive histopathological features, serological profile, and detection of viral genome in the liver tissue. Evidence of recurrent EBV reactivation, increased circulating EBV-specific CTLs, and increased CD38 B-cell expression, along with increased LDH levels, mild splenomegaly, and thrombocytopenia, supports the diagnosis [      ,      ]. Severe CAEBV disease is defined as a severe progressive illness lasting 6 months or longer with infiltration of tissues with EBV-positive lymphocytes, markedly elevated levels of EBV DNA in the blood, and no known immunodeficiency. These patients usually have fever, splenomegaly, and lymphadenopathy and may have markedly elevated EBV antibody titers to viral capsid antigen. However, for most cases of severe CAEBV, the cause is unknown [      ]. Specific latent antigens, as well as EBER transcripts, were detected in infiltrating CD8+ CTLs [      ]. Chronic hepatitis can be induced by soluble Fas-ligand, TNF-
+      <italic>
+       α
+      </italic>
+      , and IFN-γ. Activated CD8+ cells are trapped in the liver via specific adhesive molecules expressed by Kupffer cells and sinusoidal endothelial cells [      –      ]. Reactivation of infection leading to liver damage may occur whether the infected lymphocytes are incidentally or intentionally present in the liver. CAEBV may progress to a chronic or recurrent IM-like disease [      ]. In Western countries, CAEBV is milder than in Asian countries [      ]. The mild form is characterized by intact immune control of B cells, low viremia, and EBV-specific CTL expansion comparable to those of seropositive patients.
+     </p>
+     <p id="Par61">
+      Patients with iatrogenic, congenital, or acquired immunodeficiency are at increased risk for EBV-associated lymphomas and CAEBV. Immune senescence in the elderly is also associated with both reactive and neoplastic EBV-driven lymphoproliferative disorders. EBV may also trigger autoimmune hepatitis [      ], chronic granulomatous hepatitis [      ], and vanishing bile duct syndrome [      ]. Chronic EBV hepatitis in immunocompetent patients was suggested in several studies [      ]; however, EBV was not detected in human hepatocytes [      ]. EBV in this setting may be referred to as an “incidental virus,” reflecting a coinfection with other hepatotropic viruses that are a more likely cause of chronic liver disease; moreover, they cause amplification of the EBV genome in circulating B cells rather than the liver [      ].
+     </p>
+     <p id="Par62">
+      In some patients with chronic liver disease caused by a major hepatotropic virus, a co-EBV infection was suggested. In a cohort of patients with chronic hepatitis B and C, patients with reactivated EBV infection had lower levels of HBV DNA and higher mean values of serum hepatitis C virus (HCV) RNA, respectively, than those in EBV patients without reactivated infection [      ]. Moreover, EBV reactivations may precede HBV flares. Reactivation of EBV-specific T cells promotes production of several cytokines such as interferon-γ (IFN-γ), interleukin (IL)-1, IL-2, and IL-10. EBV BCRF1 shares a high-sequence homology with IL-10, and it is known exogenous IL-10 enhances HCV replication. In addition, EBNA1 can also promote HCV replication. However, IFN-γ inhibits HBV replication in the absence of cell necrosis. Furthermore, studies have revealed that T-cell cross-activation may also explain HBV or HCV reactivation [      ].
+     </p>
+     <p id="Par63">
+      Epstein-Barr virus-associated T-/natural killer cell lymphoproliferative diseases (EBV-T/NK-LPDs) are a group of rare diseases resulting from ectopic infection of T or NK lymphocytes with EBV. EBV-T/NK-LPDs include chronic active EBV infection, EBV-associated hemophagocytic lymphohistiocytosis, hydroa vacciniforme-like lymphoproliferative disease, and severe mosquito bite allergy [      ]. CAEBV of T-cell or NK-cell type is an EBV+ polyclonal, oligoclonal, or often a monoclonal LPD with different clinical presentations, including systemic and cutaneous disorders, hydroa vacciniforme-like T-cell LPD, and mosquito bite hypersensitivity. The systemic form of the disease is characterized by fever, persistent hepatitis, hepatosplenomegaly, and lymphadenopathy, which shows varying degrees of clinical severity depending on the immune response of the host and the EBV viral load [      ].
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Posttransplant Lymphoproliferative Disorder
+     </title>
+     <p id="Par64">
+      Posttransplant lymphoproliferative disorder (PTLD) is a spectrum of lymphoproliferative diseases occurring in a posttransplantation setting. Most PTLDs are caused due to activation of B cells, whereas two-thirds of the cases showed an EBV infection of the neoplastic cells [      ]. The incidence of PTLD ranges from 0.5% to 30% [      ]. Risk factors include EBV seronegativity at the time of transplantation, the type of organ transplanted (being highest in lung and heart and lowest in liver and kidney recipients), and the level and type of immunosuppression (specifically anti-T-cell immunosuppression) [      ]. PTLD causes complications of up to 10% in pediatric liver graft recipients, with a mortality of up to 50%. In the pediatric population, posttransplant primary infection within 3 months of orthotropic liver transplantation (OLT) was associated with sustained EBV detection and increased the risk of the late occurrence of PTLD [      ]. PTLD emerges either from a recipient or donor origin depending on the type of transplant. Bone marrow transplant (BMT) patients develop PTLD of donor origin when EBV-infected B cells derived from the donor marrow proliferate into a lymphoma. Conversely, solid organ transplant patients develop PTLD of recipient origin, in which the EBV released from the transplanted organ infects the recipient’s B cells [      ,      ].
+     </p>
+     <p id="Par65">
+      The spectrum of PTLD ranges from polymorphic lymphocyte proliferation to high-grade life-threatening monoclonal lymphomas [      ]. The interplay between the EBV life cycle, latency, and nonviral factors determines the histology and clinical presentation of the disease. In vitro transforming abilities of EBVs, distinctive latency, and clonality within the malignant cells determine the biology of the disease [      ]. Measurement of viral load by quantitative PCR can assist in the surveillance and diagnosis of PTLD [      ]. Posttransplantation patients should be monitored for EBV PCR levels in the peripheral blood to detect active EBV infection early, and preemptive therapy should be instituted prior to the development of overt PTLD.
+     </p>
+     <p id="Par66">
+      In transplanted patients, miR-BART22 serum levels in patients with positive EBV PCR were significantly higher than those in patients with negative EBV PCR and served as a potential biomarker for EBV reactivation [      ]. A total of 304 patients with PTLD were followed, of whom 103 tested seronegative for EBV at transplantation. Following transplantation, 48% of seronegative patients initially developed EBV infection (based on PCR assays for EBV DNA), several of whom ultimately reverting to the negative state. Among the 201 seropositive patients, only 19% presented a reactivation of EBV. Having a maximum peak of EBV viral load above the median value was an independent predictor of PTLD [      ]. NF-kappa B signaling components were present in a majority of PTLD-derived B cells. Subgroups related to EBV infection, mainly latency type III and mostly lacking CD19; upstream B-cell signaling and NF-kappa B constituents related to EBV infection with expression of the alternative NF-kappa B pathway compounds, RelB, CD10, FOXP1, or MUM1; and compound p65m unrelated to virus infection with expression of the classic NF-kappa B pathway were identified [      ]. In a study of 176 adults with PTLD, 33% were EBV negative and 67% EBV positive. EBV-negative PTLD had distinct characteristics (monomorphic histology, longer latency) though high-risk features (advanced stage, older age, high lactate dehydrogenase, central nervous system involvement) were not common compared to EBV-positive PTLD. EBV negativity was not significantly associated with a weak response to initial therapy. The likelihood of achieving a complete remission (CR) was not significantly different for EBV-negative versus EBV-positive PTLD including when therapy of immunosuppression was reduced either alone or with rituximab. EBV negativity was also not associated with poorer overall survival [      ].
+     </p>
+     <p id="Par67">
+      Management options for PTLD include reduction of immunosuppression, biological therapy with anti-B-cell antibodies, combination chemotherapy, and adoptive immunotherapy using EBV-specific CTLs [      ]. Surgery may be considered for localized PTLDs. Reduction of immune suppression alone results in clinical remission in 25–63% of adults and in 40–86% of pediatric PTLD patients by restoring EBV-specific immunity [      ]. These patients should be monitored closely for acute allograft rejection. Newer immunosuppressants, including mycophenolate mofetil and sirolimus, appear to be associated with fewer posttransplant malignancies. Out of patients with X-linked lymphoproliferative disorder (XLP), approximately 60% may develop a severe form of IM with hemophagocytic lymphohistiocytosis and fulminant hepatitis. Treatment consists of etoposide-based chemotherapy and hematopoietic stem cell transplantation. Early treatment of primary EBV infection in these patients (prior to development of HLH) may comprise treatment with anti-CD20 antibodies in combination with antivirals (acyclovir or ganciclovir), IVIG, or steroids.
+     </p>
+     <p id="Par68">
+      Pretransplant administration of rituximab is an effective and nontoxic intervention that drastically reduces EBV reactivation and PTLD in high-risk patients. Among 147 patients who did not receive rituximab, the cumulative incidence of posttransplant EBV reactivation and of EBV PTLD was 13% and 8%, respectively. Among 51 who received pretransplant rituximab, the incidences were 2% and 0%, respectively [      ]. Adoptive transfer of EBV-specific CTLs was suggested as an immunotherapy to effectively prevent or treat these complications. Identifying HLA-A*03:01-restricted EBV-CTL epitopes as immunodominant targets was performed for improving the efficacy of these therapies [      ].
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      EBV-Mediated Liver Cancer
+     </title>
+     <p id="Par69">
+      EBV or infected cell clones can promote the replication of HCV and have been suggested to be involved in the development of hepatocellular carcinoma (HCC). EBV-infected cells support HCV replication better than uninfected cells, suggesting that EBV may act as a helper virus to promote HCV replication in HCV-positive HCCs. A higher amount of EBV DNA was reported in HCV-positive HCC compared to that in HBV-associated HCC. In some studies, up to 30% of liver cancers were found to harbor EBV DNA [      ]. This finding, however, was not confirmed in other studies. A possible source of the detected EBV DNA could be the infiltrating lymphocytes [      ]. The weak positivity of EBV DNA in some liver tissues was explained by amplification of EBV DNA in the lymphoid infiltrate or blood, reflecting a high EBV DNA load in these patients. A retrospective analysis of 15 studies containing a total of 918 cases of HCC, cholangiocarcinoma, and gallbladder carcinoma and 157 controls showed that the infection rate of EBV was 23% among all the patients. Comparable EVB infection rates were observed in hepatobiliary system cancer [      ].
+     </p>
+    </sec>
+    <sec id="Sec11">
+     <title>
+      Treatment of EBV Hepatitis
+     </title>
+     <p id="Par70">
+      Primary EBV infection is subclinical in the majority of immunocompetent individuals; and it may lead to IM in adolescents and adults and is generally self-limiting. Therefore, in immunocompetent individuals, symptomatic treatment alone is recommended. In patients suffering from IM, avoiding exertion and participation in sports is recommended for at least 3 weeks due to the rare risk of splenic rupture. A few patients who suffer from severe complications of acute EBV are usually treated with corticosteroids even though there is little evidence to support their use [      ,      ]. The use of antivirals in the management of severe EBV infections in immunocompetent hosts is debatable. However, it is suggested as an adjunct to steroid treatment [      ] and mainly for refractory disease [      ]. Several antiviral drugs, including acyclic nucleoside and nucleotide analogues and pyrophosphate analogues, inhibit replication of EBV in cell culture via inhibition of EBV DNA polymerase. Acyclovir inhibits in vitro EBV replication and transiently reduces viral shedding in the oropharynx but does not reduce viremia or symptoms. Ganciclovir was effective in the treatment of EBV hepatitis in a small number of children and in adults [      ]. Valganciclovir, the oral pro-drug of ganciclovir, has been successfully used in the treatment of severe acute EBV hepatitis (900 mg × 2, daily for 15 days) [      ]. Additional drugs with antiviral activity against EBV include valacyclovir, famciclovir, and foscarnet. Patients with acute liver failure should be considered for urgent liver transplantation as the likelihood of spontaneous recovery is small [      ]. Patients with immunodeficiencies are at an increased risk of liver failure and development of lethal lymphoproliferative diseases. The major pathogenic causes thought to be important in the development of lymphoproliferative disorders/lymphomas are primary immunodeficiency [X-linked lymphoproliferative syndrome (XLP), ataxia telangiectasia syndrome, Wiskott-Aldrich syndrome, Chediak-Higashi syndrome, SCID, CVID, and others], immunosuppressive therapy, and HIV/AIDS. In these patients, primary EBV infection should be treated preemptively with ex vivo-generated EBV-specific CTLs or with effective antiviral medication. In seronegative patients with XLP, monthly prophylaxis with IVIG is recommended [      ]. Several experimental therapies are being evaluated. Heat shock protein 90 (HSP90) inhibitors have been shown to kill EBV-infected cells by reducing the level of EBV EBNA-1 and/or LMP1. Ganetespib is an HSP90 inhibitor evaluated in clinical trials for cancer and was demonstrated to kill EBV-positive B and T cells and reduce the levels of both EBV EBNA-1 and LMP1. Treatment of cells with ganetespib also reduced the level of pAkt. Treatment of a patient with T-cell chronic active EBV with ganetespib reduced the percentage of EBV-positive cells in the peripheral blood [      ]. Herpesvirus entry into cells requires a coordinated action of multiple virus envelope glycoproteins, including gH, gL, and gB. Regarding EBV, the gp42 protein assembles into complexes with gHgL heterodimers and binds HLA class II to activate gB-mediated membrane fusion with B cells. EBV tropism is dictated by gp42 levels in the virion. The gHgL and gB proteins are targets for neutralizing antibodies and potential candidates for subunit vaccine development. Anti-gHgL neutralizing antibodies block gHgL-mediated activation of gB through different surface epitopes and mechanisms [      ]. Ideally, prophylactic EBV vaccines should be capable of priming the immune system against lytic and latent proteins. In one study, immunogenic particles that contained antigens from both these cycles were prepared. These particles enabled the ex vivo expansion of cytolytic EBV-specific T cells that efficiently control EBV-infected B cells, preventing their growth. It was observed that particles containing the latent protein, EBNA1, provided protection against wild-type EBV in a humanized mouse model [      ]. Furthermore, linear and conformational B-cell epitopes as well as CTL epitopes were predicted by using Web servers for EBV proteins (GH, GL, GB, GN, GM, GP42, and GP350). A panel of epitopes that could be used for immunization against multiple diseases caused by EBV were detected [      ].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec12">
+    <title>
+     Cytomegalovirus
+    </title>
+    <sec id="Sec13">
+     <title>
+      CMV Infection and Diagnosis
+     </title>
+     <p id="Par71">
+      Human cytomegalovirus (CMV) is a ubiquitous virus that causes chronic infection and, thus, is one of the causes of the most common infectious complications of immunosuppression. CMV both evades and shapes the immune responses [      ]. CMV is a double-stranded DNA virus, the largest member of the beta Herpesviridae family. CMV infection is characterized by a spectrum of clinical syndromes ranging from asymptomatic infection to life-threatening congenital CMV syndrome in neonates, to infectious mononucleosis syndrome in young adults, and to severe pulmonary, retinal, neurological, gastrointestinal, and hepatic diseases in immunocompromised hosts [      ]. Infection can be acquired in the perinatal period and infancy or in adulthood through sexual contact, blood transfusion, or organ transplantation [      ].
+     </p>
+     <p id="Par72">
+      Serologic studies of CMV-IgM antibodies are helpful for the diagnosis of primary infections. Viral culture techniques have been largely superseded, making way for molecular techniques to detect early antigen or CMV DNA, thus increasing sensitivity for detecting CMV infection in blood and end-organ tissue. However, to establish the diagnosis of active CMV infection, it is necessary to have histological evidence of cellular injury associated with the infection. Distinct pathologic findings of liver biopsy are important for the diagnosis of CMV hepatitis, especially in immunocompromised hosts. Giant multinucleated cells with an associated inflammatory response, multifocal necrosis, and biliary stasis are common. Large nuclear inclusion-bearing cells, so-called “owl’s eye” inclusions, can be detected in hepatocytes or bile duct epithelium.
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      The Immune Response to CMV
+     </title>
+     <p id="Par73">
+      The immune response to CMV is characterized by extremely elevated T-cell and antibody responses that persist for a lifetime but do not prevent superinfection with other CMV strains [      ]. CMV shapes both innate and adaptive immunity in humans [      ]. Changes in the T-cell pool caused by CMV infection contribute to immunosenescence, but CMV may also have beneficial effects in young individuals, improving the immune response to other pathogens [      ]. The CD8 T-cell response is the most important effector response. However, CD4 T cells and also gamma/delta T cells and NK cells are involved in the response [      ]. CMV-specific CD4(+) T cells possess antiviral functions and participate in anti-CMV humoral/cellular responses [      ]. Subjects with effective CMV control, evidenced by low CMV IgG titers, have effective responses to CMV driven by either NKG2C+ NK cells or CMV-specific T cells [      ]. It is ascertained that regulatory T cells (Tregs) have divergent control of CMV infection in a mouse model. In the spleen, Tregs antagonize CD8+ effector function and promote viral persistence, while in the salivary gland, Tregs prevent IL-10 production and limit viral reactivation and replication [      ].
+     </p>
+     <p id="Par74">
+      Tissue T-cell reservoirs for CMV control are shaped by both viral and tissue-intrinsic factors. T-cell differentiation is enhanced in sites of viral persistence with age. CMV-specific T cells were found to be present in the blood, bone marrow (BM), or lymph nodes (LN). CMV genomes were detected predominantly in the lungs and also in spleen, BM, blood, and LN [      ].
+     </p>
+     <p id="Par75">
+      Adoptive transfer of CMV-specific T cells has emerged as an effective method to reduce the risk of infection and/or reactivation by restoring immunity in transplant recipients. A majority of CMV-specific CD8(+) T-cell population is made up of terminally differentiated effector T cells with effector functions. Self-renewing memory T cells within the CMV-specific population retain the capacity to expand and differentiate upon rechallenge and are important for long-term persistence of the CD8(+) T-cell response. Mucosal organs, the sites of CMV reactivation, are primarily inhabited by tissue-resident memory T cells, which do not recirculate [      ]. NK cells also play a role in the control of CMV; the virus developed immunoevasion mechanisms targeting these cells [      ]. CMV infection is associated with the presence of a population of CD16(+) CD56(dim) NKG2C(+) NK cells in both acutely and latently infected individuals. An accumulation of NKG2C(+) NK cells over a period of time, which preferentially expressed CD57, was shown during the infection. This accumulation is particularly prominent in elderly. Latent CMV infection is sufficient for NKG2C(+) CD57(+) NK cells to persist in healthy individuals but is not necessarily required in old age [      ]. A study reported that CMV is associated with autoimmune diseases. CMV cross-reactive autoantibodies that recognize CIP2A on NK possibly impact their function in autoimmune patients [      ].T cells expressing CD56 (NKT-like cells) are cytotoxic effector cells. The percentage of NKT-like cells increases with the combination of both CMV and age. The response to Staphylococcal enterotoxin B (SEB) and polyfunctional index of NKT-like cells increases with age in CMV-seropositive individuals [      ].
+     </p>
+     <p id="Par76">
+      CMV encodes numerous proteins and microRNAs that assist in evading the immune response, enabling the virus to replicate and disseminate in the face of a competent immune system. A latent infection by CMV, if quiescent at the level of viral gene expression, represents an ultimate strategy in immune evasion but is not sufficient for lifelong persistence and dissemination of the virus. CMV needs to reactivate and replicate in a lytic cycle of infection in order to disseminate further in the face of a primed immune response. Therefore, there is a balance between virus immune evasion and host immune recognition over a lifetime [      ]. CMV affects T-cell subset composition and exhaustion and can cause large expansions of CMV-specific T cells, particularly in older people. This phenomenon undermines immunity to other pathogens, accelerating immunosenescence.
+     </p>
+     <p id="Par77">
+      Thus, in the elderly, CMV infection impairs immunity to other viruses and is associated with T-cell senescence, while in younger people, CMV confers a degree of protection from other pathogens [      ]. Polyfunctionality is a property of central memory CD4(+) T cells in CMV-seronegative individuals. Following CMV infection, polyfunctional T cells become highly differentiated, enabling eradication of infections. CD57 is a polyfunctionality marker of T cells which shows an increase after CMV infection. CD4(+) T cells that coexpress CD57 and CD154 are exclusively present in CMV-positive individuals and belong to the most polyfunctional CD4(+) subset. Conversely, the frequency of CD4(+)CD28(+) T cells correlates with higher polyfunctionality of CD4(+)CD57(−) T cells from CMV-seronegative individuals and CD4(+)CD57(+)CD154(+) T cells from CMV-seropositive individuals [      ]. Chronic infection with CMV, along with aging, is associated with the expansion of highly differentiated CD4+, CD4(hi)CD8(lo), and CD8+ T cells, which express T-bet and Eomes that may promote effector memory and effector T lymphocytes involved in conferring protection against chronic CMV. The percentage of CD4+ T cells expressing T-bet or Eomes was low in CD4+ T cells from young CMV-seronegative individuals and higher in CMV-seropositive older individuals, in both CD57 T cells and CD57+ CD4+ T cells. CD4(hi)CD8(lo) T cells expressing T-bet are associated with CMV seropositivity, and coexpression of Eomes, T-bet, and CD57 in CD4(hi)CD8(lo) T cells is observed in CMV-seropositive donors [      ].
+     </p>
+     <p id="Par78">
+      The numbers of classical, intermediate, and nonclassical monocytes slightly increased with age, while the numbers of myeloid (mDC) and plasmacytoid DC (pDC) did not vary significantly. A decrease in the numbers of pDC with age was noted in CMV-positive individuals [      ]. Aging and CMV persistence impact DN and CD8+TCRgammadelta+ T cells. A progressive decrease in absolute numbers of total TCR gammadelta+ T cells in blood, affecting the predominant Vgamma9/Vdelta2 population, was noted with aging. Aged TCR gammadelta+ T cells shift from naive to late-stage effector phenotypes and are more prominent in cases of persistent CMV infections [      ].
+     </p>
+     <p id="Par79">
+      CMV primary infection and periodic reactivation of latent virus are controlled by T-cell responses in healthy people. In healthy aged donors, CMV-specific changes in the T-cell compartment were not affected by age and were effective as viremia is a very rare event in healthy donors. In older donors, overt CMV disease is not generally seen despite the association of CMV infection with increased risk of mortality. Increases in CMV DNA in urine of older people suggest that, although the immune response retains its functionality, immunomodulation due to a lifelong viral carrier state may alter its efficacy. IFN gamma responses by CD4(+) and CD8(+) T cells to all CMV proteins were detected, with no age-related association [      ].
+     </p>
+     <p id="Par80">
+      CMV reactivation is under the control of the cellular immune response; however, both the humoral and innate arms play a role in this process. CMV displays an array of several Fcgamma-binding glycoproteins with cell surface disposition and incorporation into the virion. The virus-encoded Fcgamma receptors differ in their Fcgamma-binding mode but function as adversaries of host FcgammaRs to prevent IgG-mediated triggering of the activating host FcgammaRs, such as FcgammaRI, FcgammaRIIA, and FcgammaRIIIA [      ].
+     </p>
+     <p id="Par81">
+      A recent study demonstrated a CMV immune response in immunodeficient CMV-positive human leukocyte antigen (HLA)-matched bone marrow recipients after immunoablative conditioning, showing a decrease in immunity. Reconstitution of marrow-derived B and NK cells was noted prior to that of thymic origin T cells. In this study, the lowest levels of CMV-IgG were found just prior to CMV viremia. The sole factor in this CMV-specific immune response is a residual recipient antibody class IgG which corresponds to the increase of NK cells and undetected CMV-specific CD8 cells. In an immunocompetent adult who was CMV negative, the cellular and humoral immune response increased in a parallel manner, but symptoms of CMV mononucleosis persisted until the increase of specific IgG. During infancy, decrease in maternal CMV-IgG levels was followed by detectable sequelae, such as CMV replication. Before development of a primary cellular immune response, high levels of residual CMV-IgG (about &gt;100 R/mL) from the mother prevents virus reactivation [      ].
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      CMV Infection in the Immunocompetent Host
+     </title>
+     <p id="Par82">
+      The seroprevalence for CMV, worldwide, ranges from 60% to 100% [      ]. In a large cohort of adults, the overall CMV seroprevalence was 56.7%, with a higher seroprevalence in women (62%) than in men (51%). Seroprevalence increased with age: from 31% to 63% in men and from 44% to 77% in women when comparing the 18- to 29- with the 70- to 79-year-old groups, respectively. Factors associated with CMV seropositivity were age, country of birth, smoking status, education, number of household members, and having resided in child care homes [      ].
+     </p>
+     <p id="Par83">
+      Most primary CMV infections in immunocompetent adults are asymptomatic or associated with a mild IM syndrome. Symptomatic CMV infections in non-immunocompromised hosts display a benign self-limited course resembling EBV-IM syndrome. Most primary infections resolve and enter a lifelong latency period, in which viruses are sequestered in a non-replicative state. Persons with latent infections and intact immune systems have no symptoms but exhibit antibodies to CMV. Circulating lymphocytes, monocytes, and polymorphonuclear leukocytes may serve as the reservoir sites of viral latency [      ]. Nevertheless, the virus can be reactivated in the case of immunosuppression. The risk of CMV recurrence is dependent on the level of incompetency of the immune system, manifested as an impairment of T-cell immunity, including the presence and functioning of CMV-specific cytotoxic T lymphocytes [      ].
+     </p>
+     <p id="Par84">
+      Liver dysfunction is commonly associated with CMV mononucleosis. It is usually mild and rarely symptomatic in an immunocompetent patient. Hepatosplenomegaly and laboratory evidence of mild to moderate elevations of liver enzymes are the predominant features, with increased aminotransferases and alkaline phosphatase in majority of cases but lower than those encountered in acute hepatitis due to “classic” hepatitis viruses [      ,      ]. Rare manifestations of CMV hepatitis include tender hepatomegaly, granulomatous hepatitis, anicteric or icteric cholestatic hepatitis, and acute hepatitis with massive necrosis [      ].
+     </p>
+     <p id="Par85">
+      Severe CMV infections may occur in immunocompetent hosts affecting many organs. The gastrointestinal tract (duodenitis, ileitis, colitis) and the central nervous system (meningitis, encephalitis, transverse myelitis, nerve palsies) are most frequent [      ,      ]. In addition, hematological manifestations (hemolytic anemia and thrombocytopenia), ocular (uveitis, retinitis), liver (hepatitis), pulmonary (pneumonitis), and thrombosis of the arterial and venous systems may occur [      ,      ]. Several cases were treated with ganciclovir or valganciclovir, some with fatal outcome despite therapy.
+     </p>
+     <p id="Par86">
+      A special population afflicted by CMV disease consists of patients with preexisting inflammatory bowel disease [      ]. TNF-α and IFN-γ are frequently elevated in these patients, an environment of chronic inflammation promoting reactivation of a latent CMV infection, further driving additional cytokine release, mainly IL-6. This in turn leads to a vicious circle of exacerbation of the inflammatory bowel disease. This sequence of events may be observed in patients with inflammatory bowel disease who have not recently received any steroid treatment. CMV colitis in patients with underlying inflammatory bowel disease has the potential to lead to severe complications including toxic megacolon and perforation.
+     </p>
+     <p id="Par87">
+      Perinatal infection with CMV may promote bile duct damage in biliary atresia (BA). A decreased Treg percentage associated with BA further contributes to bile duct damage. In mice, autoimmune-mediated and inflammatory responses induced by CMV infection in Treg-depleted mice resulted in increased intrahepatic and extrahepatic bile duct injury and contributed to disease progression [      ].
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      CMV Infection in the Immunocompromised Host
+     </title>
+     <p id="Par88">
+      In immunocompromised patients, CMV disease results from either a primary infection or, more commonly, from reactivation of a latent infection [      ,      ]. Disseminated CMV infections in immunocompromised patients, including HIV-infected patients, transplant recipients, and congenitally infected patients, are associated with increased morbidity and mortality. Anti-CMV antibodies are detected during episodes of reactivation. The incidence and severity of CMV disease closely parallel the degree of cellular immune dysfunction, characterized by decreased numbers of CTLs and NK cells [      ].
+     </p>
+     <p id="Par89">
+      The median rate of CMV recurrence in hematopoietic stem cells transplantation (HSCT) recipients was estimated as 30–40% after allogeneic HSCT or solid organ transplant and 5–20% during active HIV replication, primary immunodeficient patients, and patients receiving chemotherapy or immunotherapy. In perinatal infections, recurrence rates near 0.5%. The highest risk of CMV recurrence and CMV disease is reported for HSCT CMV-seropositive recipients, regardless of donor serostatus [      ]. A negative correlation between CMV+ and CD4:CD8 ratio was shown for HIV patients. This correlation was observed among patients displaying optimal CD4 recovery, suggesting that the CMV+ serostatus antagonizes normalization of the CD4:CD8 ratio [      ].
+     </p>
+     <p id="Par90">
+      CMV infections in HSCT recipients cause substantial morbidity and mortality. A strong association between low CMV cell-mediated immunity and progression to clinically significant CMV infection is seen in HSCT recipients [      ]. Clinical syndromes observed in these patients include encephalitis, pneumonitis, hepatitis, uveitis, retinitis, colitis, and graft rejection. CMV infection affecting the human embryo, a host with immature immunologic responses, may lead to serious neurological, hematological, and hepatic complications [      ].
+     </p>
+     <p id="Par91">
+      In AIDS patients, CMV is the most common opportunistic viral infection. Most HIV-infected persons are CMV seropositive and retain latent virus prone to reactivation. Humoral and T-cell responses to CMV remained elevated in HIV patients &gt;12 years on ART. A report indicated that age and presence of CMV disease influenced CD8 T-cell phenotypes. CMV antibody titers were higher in HIV patients, and levels of soluble B-cell activating factor (sBAFF) were elevated and correlated with levels of CMV antibodies. CD8 T-cell IFN-gamma responses to the IE1 peptide, related to early viral activation, remained elevated in the HIV patients [      ]. CD4(+) T cells specific for CMV are elevated in HIV(+) CMV(+) subjects [      ]. Clinically, patients may develop retinitis, central nervous system infections, esophagitis, and colitis. CMV can also invade the hepatobiliary tract in AIDS patients, causing hepatitis, pancreatitis, and acute acalculous cholecystitis [      ]. In AIDS patients, CMV manifestations in other organs increase the risk for a cholestatic syndrome caused by papillary stenosis and sclerosing cholangitis (AIDS cholangiopathy), which does not usually respond to antiviral therapy.
+     </p>
+    </sec>
+    <sec id="Sec17">
+     <title>
+      CMV in Liver Transplant Recipients (Fig.      )
+     </title>
+     <p id="Par92">
+      Overall, 18–29% of liver transplant recipients develop CMV disease [      ]. Hepatitis is the most frequent organ-specific complication of CMV infection following liver transplantation, affecting 10% of recipients albeit with a higher incidence among seronegative recipients than among seropositive patients (26% vs. 9%, respectively). In these cases, infection occurs as a consequence of reactivation rather than primary infection [      ,      ]. CMV evades the immune system resulting in a state of latency in host cells. Cellular sites of viral latency become reservoirs of reactivation during periods of stress and cytokine release and serve as vehicles for transmission to susceptible hosts. Pharmacologically induced impairment of immune response to “endogenously reactivated” or “allograft-transmitted” CMV leads to febrile and tissue-invasive diseases in liver transplant recipients [      ]. Viral “blips” reflecting polymerase chain reaction (PCR) artifacts or transient low-level replication are frequent when the viral load of the first positive PCR analysis is &lt;910 IU/mL and serostatus risk is intermediary/low [      ].
+     </p>
+     <p id="Par93">
+      Knowledge regarding serostatus of donor and recipient (D/R) cytomegalovirus (CMV) is critical for risk stratification of CMV infection and disease in transplant recipients. However, up to 20% of seropositive recipients, classically considered at intermediate risk, develop episodes of CMV infection and disease after transplantation. CMV-specific T-cell-mediated immunity, neutralizing antibodies, and host genetics impact the risk of CMV infection and disease [      ]. Pretransplant CMV serology is currently the only tool for assessing the risk of CMV infection although cellular immune responses driven by CMV-specific CD4 and CD8 T lymphocytes are important for controlling viral replication [      ]. Defects in innate immunity and in CMV-specific cell-mediated immunity predispose these patients to severe infections. Mutations in innate immunity-associated genes increase the risk of CMV disease after liver transplantation. TLR2, expressed in innate immune cells, senses the glycoprotein B of CMV, thereby signaling immune cells to produce cytokines and antiviral peptides. A genetic polymorphism in the TLR-2 gene was associated with a higher CMV replication and a higher incidence of CMV disease by decreasing cellular recognition of CMV by TLR2-expressing cells. Programmed death-1 receptor expression and immune evasion genes have also been assessed as prognostic indicators of CMV disease following liver transplantation.
+     </p>
+     <p id="Par94">
+      Pretransplant assessment of CMV immunity in organ transplant recipients, in which CMV-seropositive recipients had undetectable cell-mediated responses despite past immunity, showed that they were at a higher risk of developing CMV reactivation. Posttransplant CMV immune monitoring can act as a guide to predict the duration of antiviral prophylaxis, identify recipients at risk of post-prophylaxis CMV disease, and predict recurrent CMV reactivation [      ]. A lack of a preexisting CMV-specific immunity in CMV-seronegative recipients of liver allograft from CMV-seropositive donors (CMV D+/R−) exposes these patients to the highest risk of CMV disease and its complications (44–65% in CMV D+/R− vs. 8–19% in CMV-seropositive [CMV R+] recipients) [      ]. The CD8 responses to IE-1 antigen were absent at the pretransplant stage in patients who developed CMV infection posttransplant. Nonspecific and CMV-specific CD8+ T-cell functions were found to correlate with the course of CMV, and measuring these has the potential to assist in its clinical management [      ]. Assessment of CMV-specific CD8+ response is recommended in all R+ candidates and is suggested to be essential in patients with a lower probability of being reactive, such as nonrenal transplant candidates, candidates less than 50 years of age, or those with non-HLA-A1/non-HLA-A2 alleles [      ]. Assessment of IE-1-specific CD8 T-cell frequencies can identify seropositive patients at risk of developing CMV infection at the posttransplant stage [      ]. Having CMV-specific CD8(+)IFN-gamma(+) cells ≥0.25% before transplant, 0.15% at 2 weeks, or 0.25% at 4 weeks after transplantation identifies patients that may spontaneously control CMV infection and may require less monitoring [      ]. Solid organ transplant recipients with a positive pretransplant serology for CMV (CMV-R+) are at intermediate risk for CMV infection posttransplantation. Only one-third of R+ recipients had CMV-specific T-cell immunity [CD8(+)CD69(+)INF-gamma(+) T cells &gt;0.25%] before transplantation. Patients with negative pretransplant immunity had more CMV infections and received more antiviral therapy. A study revealed that having CMV-specific immunity was an independent factor for protection from developing viremia ≥2000 IU/mL. Only patients with no pretransplant CMV-specific T-cell response were diagnosed with CMV disease [      ]. The prevalence of CMV disease increased with increasing diagnostic PCR load of CMV and with screening intervals &gt;14 days. Despite weekly screening intervals, patients can present with CMV disease at the time of diagnosis of CMV DNAemia [      ]. Even in the absence of the disease, antigenic exposure may shape the CMV-responsive T-cell population posttransplantation. Transplant recipients have reduced memory T-cell function due to chronic immunosuppressive therapies. The frequency of CMV-responsive CD8(+) T cells, defined by the production of effector molecules in response to CMV peptides, increased during a course of 1 year posttransplantation. The increase commenced after the completion of antiviral prophylaxis, and these T cells were terminally differentiated effector cells [      ].
+     </p>
+     <p id="Par95">
+      Despite a trend toward immunity, 22% of patients developed symptoms in spite of having pretransplant CD8+IFNG+ response, suggesting that other immunological parameters may be involved [      ]. ELiSpot IFN-gamma ( CMVspot) is an additional method for establishing a treatment strategy that includes regular monitoring for risk stratification of reactivation [      ]. In R(+)D(−) patients, immunity against CMV is mediated by recipient T cells. The donor CMV serostatus affects the clinical severity of CMV reactivation due to the CMV-specific memory T cells transferred with the graft, despite the formation of primary donor-derived CMV-specific T-cell responses in R(+)D(−) patients [      ].
+     </p>
+     <p id="Par96">
+      The use of highly potent pharmacologic immunosuppression severely impairs the ability of liver transplant recipients to mount an effective immune response against reactivating CMV, thereby predisposing them to increased risk of CMV disease [      ]. The drug Sirolimus acts selectively on human naive and memory T cells and improves CMV-specific T-cell function. Sirolimus improved CMV-specific effector memory T-cell function and negatively influenced naive T cells. This unique mechanism is characterized by increased secretion of interferon-gamma (IFN-gamma) and granzyme B (GzB) and enhanced target-cell-dependent cytotoxic capacity of activated CMV-CTLs. IL-2 receptor (IL-2R)-driven signal transducer and activator of transcription-5 (STAT-5) signaling under mammalian target of rapamycin (mTOR) inhibition allowed the fine-tuning of T-cell programming for enhanced antiviral response [      ]. In a cohort of high-risk CMV D+/R− kidney transplant recipients receiving treatment with rabbit antithymocyte globulin (rATG) and tacrolimus, the use of mTOR inhibitors showed delayed CMV infection and less recurrences, with no difference in overall disease or acute rejection [      ].
+     </p>
+     <p id="Par97">
+      CMV disease in liver recipients manifests with fever, bone marrow suppression, and organ-invasive diseases. These direct clinical effects are classified as CMV syndrome (fever with myelosuppression) or as tissue invasive CMV disease, which most often involves the gastrointestinal tract, although any other organ may be involved. CMV hepatitis is common in liver transplant recipients compared to other than in solid organ transplant recipients and manifests with symptoms indistinguishable from acute allograft rejection [      ]. The availability of sensitive tests for the rapid detection of CMV in the blood may obviate the need for a liver biopsy to differentiate between CMV infection and graft rejection. However, in many cases, a liver biopsy is required to differentiate or demonstrate a coexistence of CMV disease and allograft rejection.
+     </p>
+     <p id="Par98">
+      Several indirect outcomes in these patients are mediated by the ability of the virus to modulate the immune system [      ]. CMV is a potent upregulator of alloantigens, increasing the risk of acute rejection and chronic allograft dysfunction. CMV infection may promote tolerance to liver allografts, and CMV status should be considered when tapering or withdrawing immunosuppression. CMV positivity was associated with the expansion of peripheral effector memory T-cell subsets. Patients with CMV primary infection showed donor-specific CD8(+) T cell hyporesponsiveness. While terminally differentiated effector memory cells comprised a majority of peripheral donor-specific CD8(+) T cells in CMV primary infection patients, they were rarely present in liver allografts. R(−)D(+) serostatus was an independent protective factor for late acute rejection. CMV primary infection patients showed the highest Vdelta1/Vdelta2 gammadelta T cell ratio, which has been shown to be associated with operational tolerance after liver transplantation (LT) [      ]. CMV is associated with the vanishing bile duct syndrome and ductopenic rejection, leading to chronic cholestasis and allograft failure and a higher incidence of hepatic artery thrombosis. The immunomodulatory effects of CMV predispose to other opportunistic infective agents, including fungi, other viruses, and bacteria such as
+      <italic>
+       Nocardia
+      </italic>
+      . CMV infection in liver transplant recipients may potentiate hepatitis C infection and increase the risk of posttransplant lymphoproliferative disease [      ,      ]. Such recipients are more likely to develop EBV-associated PTLD or to develop coinfections with other viruses, such as human herpesvirus, HHV-6, and HHV-7 [      ].
+     </p>
+     <p id="Par99">
+      CMV infection is an independent predictor of mortality after solid organ transplantation. An analysis of 437 liver transplant recipients demonstrated that CMV disease occurred in 8.5% of the patients and that its occurrence was independently associated with a 5-fold increased risk of all-cause mortality and an 11-fold increased risk of infection-related mortality. The use of anti-CMV drugs, either through antiviral prophylaxis or preemptive therapy, led to reduction in the overall mortality [      ]. Allograft rejection can promote CMV reactivation and is a risk factor for CMV disease following liver transplantation [      ]. Cytokines released during acute rejection, particularly TNF-α, are potent activators of latent CMV. Therapy for allograft rejection, which involves intensification of the immunosuppressive regimen, further increases the risk of CMV disease [      ].
+     </p>
+     <p id="Par100">
+      There are two strategies for prevention of CMV disease after liver transplantation: preemptive therapy and antiviral prophylaxis [      ]. For preemptive therapy, CMV reactivation is monitored by sensitive assays; upon detection, antiviral drugs are administered early to halt progression of the asymptomatic infection to full-blown clinical disease [      ]. Preemptive therapy with oral ganciclovir, intravenous ganciclovir, or valganciclovir resulted in reduction of the disease by 70% [      ] and, unlike antiviral prophylaxis, was not associated with a late onset of the disease. Valganciclovir is the most commonly used drug for preemptive therapy. However, this therapy may not be completely effective in CMV D+/R− liver transplant recipients because the replication kinetics of CMV in immune-deficient individuals is very rapid [      ]. It was demonstrated that oral valganciclovir was effective as a preemptive treatment for CMV infection in transplant recipients with stable graft function [      ].
+     </p>
+     <p id="Par101">
+      CMV prophylaxis is efficacious and can safely prevent direct and indirect effects of CMV infection in CMV-seropositive liver transplant recipients. Independent factors associated with CMV reactivation were an absence of CMV prophylaxis, CMV serological status of the donor, cold ischemia time, and HLA A + B + DR compatibility [      ]. For antiviral prophylaxis, drugs such as ganciclovir and valganciclovir are administered to patients at risk of CMV disease after transplantation [      –      ]. It is offered by the majority of transplant centers for prevention of primary CMV disease in high-risk CMV D+/R− transplant recipients [      ,      ]. Several clinical trials have demonstrated its effectiveness in preventing direct and indirect effects of CMV after liver transplantation [      ]. Compared to placebo, patients who received antiviral prophylaxis had a 58–80% reduction in CMV disease and a 40% reduction in CMV infection [      ]. The use of acyclovir as anti-CMV prophylaxis after liver transplantation has been supplanted by ganciclovir and valganciclovir because of their superior efficacy [      ,      ,      ]. The incidence of CMV is reduced in liver transplant recipients who receive antiviral prophylaxis with valganciclovir or oral ganciclovir for the first 3 months following liver transplantation. CMV disease rates of 12–30% in high-risk CMV D+/R− and less than 10% in CMV R+ were reported in patients who received antiviral prophylaxis [      ,      ]. A randomized control trial showed that 200 days of prophylaxis are more effective than 100 days of therapy in high-risk (D+/R−) patients [      ]. In individuals who received antiviral prophylaxis, CMV disease may occur 3–6 months after completing antiviral prophylaxis, hence the term “delayed-onset” or “late-onset” CMV disease [      ]. The effects of different immunoprophylaxis regimens on CMV infection in liver transplant recipients was studied in a cohort of CMV-seropositive recipient (R+) and seronegative donor/recipient (D−/R) patients. Such regimens included steroid-only, steroids plus rATG, and steroids plus basiliximab. The use of rATG immunoprophylaxis increases the risk of CMV infection in CMV-seropositive recipients, mainly in the CMV D−/R+ group. However, prophylaxis with valganciclovir in this group, for at least 6 weeks, decreased the risk of CMV infection [      ]. A 14-day delay in CMV prophylaxis in D+/R− recipients was safe and could reduce the incidence of late CMV end-organ disease [      ]. Primary CMV infections after cessation of prophylaxis were common but were successfully treated with valganciclovir or ganciclovir [      ]. In prospective long-term follow-up of CMV (D+/R−) adult liver transplant recipients after 3 months of valganciclovir prophylaxis, 13% were CMV D+/R− and received antiviral prophylaxis up to 3 months after transplantation. No breakthrough CMV infections were recorded during the prophylaxis period. After cessation of valganciclovir prophylaxis, 90% of patients demonstrated CMV-DNAemia following a posttransplantation mean interval of 165 days and were treated successfully [      ].
+     </p>
+     <p id="Par102">
+      Prophylactic versus preemptive therapy for intermediate- and low-risk groups (D+/R+, D−/R+ and D−/R−) is based on the local expertise of each transplant center. However, the general approach for D−/R− patients is that only seronegative blood products are used, and no prophylaxis is administered. In contrast, D+/R+ or D−/R+ patients are monitored for CMV reactivation and treated preemptively for 7 days. Where available, “protective matching” of donor and recipient based on CMV serological status is advocated because it has been shown to reduce the risk of posttransplant CMV disease [      ]. The current recommendation for antiviral treatment of CMV disease after liver transplantation is intravenous ganciclovir along with a reduction in the degree of pharmacologic immunosuppression [      ]. Besides, valganciclovir is a possible oral treatment for mild to moderate diseases [      ]. In cases of ganciclovir-resistant CMV disease, treatment options include foscarnet, cidofovir, CMV hyperimmune globulins, or leflunomide [      ].
+     </p>
+     <p id="Par103">
+      Compartmentalized CMV disease refers to clinical syndromes wherein the virus is detected in the affected tissues but is minimally detectable or undetectable in blood [      ,      ]. In the gastrointestinal system, “compartmentalized” CMV disease in the form of gastritis, esophagitis, enteritis, or colitis constitutes a vast majority of tissue-invasive conditions [      ].
+     </p>
+    </sec>
+    <sec id="Sec18">
+     <title>
+      Treatment of CMV Infection
+     </title>
+     <p id="Par104">
+      CMV infection in immunocompetent patients does not require treatment [      ]. Data on a need for antiviral treatment in immunocompetent patients with severe CMV infection is conflicting. The improvement observed in some treated patients may have been related to the typically self-limiting course of the disease and thus cannot be attributed with certainty to the effect of treatment [      ]. Nevertheless, in severe cases, particularly in patients with impaired cell-mediated immunity, therapy can be lifesaving [      ]. Drugs used for the treatment of CMV disease include antivirals, such as ganciclovir, valganciclovir, foscarnet, and cidofovir. Ganciclovir is considered as the antiviral agent of choice against CMV. The duration of therapy is guided by repeated measurements of CMV in blood samples. Emerging strains resistant to ganciclovir pose a therapeutic challenge for which foscarnet or cidofovir may be alternative antiviral agents [      ]. Ganciclovir can lead to myelosuppression, central nervous system disorders, hepatotoxicity, irreversible infertility, or teratogenesis, whereas foscarnet can cause disturbances in mineral and electrolyte homeostasis and nephrotoxicity. Additionally, long-term administration of these agents may lead to an emergence of resistant viral strains [      ].
+     </p>
+     <p id="Par105">
+      Intravenous administration of hyperimmunoglobulins (HIGs) was applied to women with primary CMV infection as “off-label use” in some countries. All HIGs and standard intravenous immunoglobulins (IVIGs) showed similar CMV-neutralizing capacity following CMV IgG normalization [      ]. Adoptive transfer of CMV-specific T cells has shown promising results in preventing pathological effects caused by opportunistic CMV infection in immunocompromised patients following allogeneic hematopoietic stem cell transplantation. CMV-specific CTLs can be efficiently isolated from G-CSF mobilized samples and are able to express activation markers and produce cytokines in response to antigenic stimulation. However, this antiviral functionality is moderately reduced when compared to non-mobilized products [      ].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec19">
+    <title>
+     Herpes Simplex Virus
+    </title>
+    <p id="Par106">
+     Herpes simplex viruses , HSV-1 and HSV-2, commonly infect humans and produce a wide variety of illnesses. The clinical manifestations and course of HSV infections depend on the sites involved and the patient’s age and immune status [     ]. Defects in interferon (IFN) responses can result in lethal herpes simplex virus 1 (HSV-1) infections, such as encephalitis. IFN-alphabetagammaR(−/−) mice are susceptible to liver infection following corneal infection with HSV-1. An inability of IFN-alphabetagammaR(−/−) immune cells to control liver infection in IFN-alphabetagammaR(−/−) mice manifested as profoundly elevated aspartate transaminase (AST) and alanine transaminase (ALT) levels was observed in a mouse model [     ].
+    </p>
+    <p id="Par107">
+     HSV viremia results in visceral involvement, affecting mainly the esophagus, lungs, and liver. Liver involvement occurs in neonatal infections, pregnancy, and immunocompromised hosts, in which it is frequently a fulminant disease [     ]. HSV is not a common cause of hepatitis in immunocompetent patients . A mild asymptomatic elevation of aminotransferase levels can be detected in 14% of healthy adults with genital infection [     ]. In neonates, hepatitis occurs with multi-organ involvement and carries a high mortality rate. HSV during pregnancy is rare. It occurs as a disseminated primary infection during the third trimester and presents as fulminant hepatitis. Mucocutaneous lesions are present in half of the cases; thus, many cases are not diagnosed until autopsy [     ]. It was reported that maternal death did not occur in patients administered with acyclovir (ACV) as empiric therapy [     ]. The incidence of HSV hepatitis was reported to be up to 6% of fulminant hepatitis cases and could be associated with a favorable outcome after antiviral therapy [     ].
+    </p>
+    <p id="Par108">
+     In immunocompromised hosts, HSV hepatitis occurs during primary and, rarely, during recurrent infection, with a triad of fever, leukopenia, and markedly elevated liver enzymes, as well as thrombocytopenia and a relatively mild increase in bilirubin [     ]. Liver biopsy is required for the diagnosis, manifesting focal or sometimes extensive hemorrhagic or coagulative necrosis of the hepatocytes with limited inflammatory response. Typical intranuclear inclusions (Cowdry type A) are often identified at the margins of the foci of necrosis. The diagnosis is confirmed by detection of HSV DNA sequences by molecular techniques [     ]. The treatment of choice for HSV is an early high dose of acyclovir [     ,     ]. With this treatment, recurrence is not observed, suggesting that disseminated HSV infection should not be an absolute contraindication for transplantation in certain clinical settings [     ,     ,     ].
+    </p>
+    <p id="Par109">
+     The importance of additional human herpesviruses (HHV6 and HHV 7) has been debated in recent years. According to some reports, HHV6-infection may be associated with higher rates of acute and chronic allograft rejection , bacterial and opportunistic infections, CMV disease, and shorter graft survival [     ]. While HHV6 reactivation is common after solid organ transplantation, a clinical disease is rare. Reactivation may manifest as fever, myelosuppression, and end-organ disease including encephalitis and hepatitis. Treatment is indicated for end-organ disease and includes foscarnet, ganciclovir, and cidofovir [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec20">
+    <title>
+     Varicella-Zoster Virus
+    </title>
+    <p id="Par110">
+     Varicella-zoster virus (VZV) is a causative agent of both chickenpox (varicella) and shingles (zoster). VZV survives host defenses, even with an intact immune system, and disseminates in the host before causing disease [     ]. Several immunomodulatory strategies used by VZV to undermine host immunity have been identified. Expression of CD59, a member of host regulators of complement activation (RCA), is upregulated in response to VZV infection in human T cells and dorsal root ganglia (DRG) [     ].
+    </p>
+    <p id="Par111">
+     Primary varicella infection is usually benign with mild transient elevation in liver enzymes in up to 25% of children; however, it can cause severe acute hepatitis and even ALF in immunocompetent adults. In transplanted patients, primary infection can present with an aggressive liver disease. It may occur in the immediate postoperative period or up to several months after liver transplantation and is usually associated with rapid-onset and fatal hepatitis [     ]. Serologic testing is of little value in immunocompromised patients. Confirmation of diagnosis is made through isolation of VZV from skin lesions or from the affected organs. Liver biopsy often shows foci of coagulative necrosis and intranuclear inclusions with an inflammatory response [     ]. Early administration of intravenous acyclovir is critical in treating VZV hepatitis, especially in immunocompromised patients [     ,     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec21">
+    <title>
+     Parvovirus (B19)
+    </title>
+    <p id="Par112">
+     Parvovirus (B19) , a small DNA virus, is a member of the Parvoviridae family. B19V infection exhibits high tropism for human erythroid progenitor cells (EPCs) in the bone marrow and fetal liver. The virus can only replicate in pronormoblasts and hepatocytes and in other cells that have globosides and glycosphingolipids in their membranes due to persistence of nonstructural protein 1 and indirectly by immune-mediated injury [     ]. The exclusive restriction of B19V replication to erythroid lineage cells is partly due to the expression of receptor and co-receptor(s) on the cell surface of human EPCs and partly depends on the intracellular factors essential for virus replication [     ]. Hypoxia, erythropoietin signaling, and STAT5 activation facilitate viral replication. The B19V infection-induced DNA damage response and cell cycle arrest at late S-phase promote its replication. It causes G2 arrest, followed by extensive cell death of EPCs, leading to anemia. B19V encodes a single precursor mRNA (pre-mRNA), which undergoes alternate splicing and alternative polyadenylation to generate at least 12 different species of mRNA transcripts. The posttranscriptional processing of B19V pre-mRNA is regulated via cis-acting elements and trans-acting factors, flanking the splice donor or acceptor sites [     ,     ]. According to a study, phosphorylated STAT5 specifically interacted with viral DNA replication origins and was recruited within the viral DNA replication centers. STAT5 facilitates viral DNA replication by recruiting the helicase complex of the cellular DNA replication machinery to viral DNA replication centers [     ]. During infection, B19V expresses three nonstructural proteins (NS1, 11-kDa, and 7.5-kDa) and two structural proteins (VP1 and VP2). NS1 is essential for B19V DNA replication, and the 11-kDa protein enhances viral DNA replication. The 11-kDa protein is tightly associated with cellular growth factor receptor-bound protein 2 (Grb2) during infection. The interaction of the 11-kDa protein with Grb2 disrupts the extracellular signal-regulated kinase (ERK) signaling that mediates upregulation of B19V replication [     ].
+    </p>
+    <p id="Par113">
+     B19 is pathogenic to humans and causes bone marrow failure diseases and various other inflammatory disorders. Infection is usually benign and self-limiting, and symptomatic therapy alone is recommended [     ]. Its clinical manifestations may include erythema infectiosum, hydrops fetalis, and fetal death in children and arthritis in adults. Leukopenia, thrombocytopenia, and aplastic crisis in patients with chronic hemolytic anemia are additional features. Rare manifestations include neurological, cardiac, and hepatic end-organ damage and vasculitis. Hepatic manifestations range from mild transient hepatitis to acute liver failure with or without associated aplastic anemia. Sudden drop of hemoglobin and onset of transient aplastic anemia in immunosuppressed or immunocompetent patients can be the first manifestation, and the virus can be identified in bone marrow aspiration, confirmed either by IgM- and IgG-positive serology, PCR analysis, or in situ hybridization in biopsy specimens [     ]. In adults, skin lesions were common along with mild to moderate abnormalities in liver enzymes which resolved spontaneously in immunocompetent patients [     ]. B19 infections can cause a spectrum of liver diseases, from elevation of transaminases to acute hepatitis to fulminant liver failure and even chronic hepatitis. It can also cause fatal macrophage activation syndrome and fibrosing cholestatic hepatitis [     ]. Severe aplastic anemia associated with human parvovirus B19 infection is a rare complication following liver transplantation [     ].
+    </p>
+    <p id="Par114">
+     There is no specific treatment for parvovirus B19-related liver diseases, but triple therapy regimen may be effective , consisting of immunoglobulin, dehydrohydrocortisone, and cyclosporine [     ]. The FDA-approved drug pimozide dephosphorylates STAT5, thereby inhibiting B19V replication in ex vivo-expanded human erythroid progenitors [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec22">
+    <title>
+     Adenoviruses
+    </title>
+    <p id="Par115">
+     Adenoviruses (AdVs) are DNA viruses that typically cause mild infections involving the upper or lower respiratory tract, gastrointestinal tract, or conjunctiva, which are usually self-limiting. Rare manifestations of AdV infections include hemorrhagic cystitis, hepatitis, hemorrhagic colitis, pancreatitis, nephritis, or meningoencephalitis. AdV infections are more common in young children due to a lack of humoral immunity. Epidemics of AdV infection may occur in healthy children or adults in closed or crowded settings (particularly military recruits). Different serotypes display different tissue tropisms that correlate with clinical manifestations of the infection. The disease is more severe, and dissemination is more likely in patients with impaired immunity (e.g., organ transplant recipients and human immunodeficiency virus infection) [     ].
+    </p>
+    <p id="Par116">
+     In the immunocompromised host, they can cause severe infections involving multiple organs, including the liver [     ,     ]. Fatal cases of adenovirus infection with fulminant hepatitis were reported in immunosuppressed adults [     ]. In a study of twelve cases of severe adenovirus hepatitis, there were eight pediatric patients, seven of whom had received orthotropic liver transplants and one of which was receiving chemotherapy for leukemia. There were four adult patients, of which one was actively receiving chemotherapy for leukemia and two had undergone hematopoietic stem cell transplantation. In all cases, histologic sections showed nonzonal coagulative hepatocyte necrosis and characteristic intranuclear inclusions. Hepatocyte necrosis ranged from spotty to massive. Most cases had no associated inflammation. However, in some cases, the inflammation was focal and lymphohistiocytic. Among the pediatric patients, 63% died secondary to organ failure, while there was 100% mortality in the adult population [     ]. In a study of 89 cases of adenovirus-related hepatitis, 48% were liver transplant recipients, 21% were bone marrow transplant recipients, 12% had received chemotherapy, 6% had severe combined immunodeficiency, and 4% were HIV infected. Ninety percent of patients presented clinical symptoms within 6 months following transplantation, of which fever was the most common initial symptom. Abdominal CT scan revealed hypodense lesions in eight of nine patients. Diagnosis was made by liver biopsy in 48%, and on autopsy in 52% of the patients. Only 27% survived [     ].
+    </p>
+    <p id="Par117">
+     The mechanisms underlying the pathogenesis of severe adenovirus infections in non-immunocompromised individuals remain unclear. The host immunologic response determines the severity of adenoviral infection . Presence of parapneumonic effusion was associated with a longer febrile duration and a higher risk of hepatitis. Alterations of CD4+, CD8+, and CD20+ T cells were associated with more severe disease courses [     ]. Human adenovirus type 5 drives the antiviral immune system to enter polarized epithelial cells. Blood-derived macrophages facilitate epithelial infection, which can occur in the absence of macrophages and in the presence of chemotactic cytokine CXCL8 (interleukin-8). In polarized cells, CXCL8 activates a Src-family tyrosine kinase via the apical CXCR1 and CXCR2 receptors. This activation relocates the viral co-receptor alphanubeta3 integrin to the apical surface, allowing apical binding with the adenovirus, depending on the primary adenovirus receptor, CAR [     ]. Cidofovir is the drug of choice for severe AdV infections, although not all patients require treatment. Live oral vaccines are highly efficacious in reducing the risk of respiratory AdV infection and are in routine use in the military in the United States; however, they are currently not available to civilians [     ].
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec23">
+    <title>
+     Influenza Virus
+    </title>
+    <p id="Par118">
+     Elevation of liver transaminase levels may occur during systemic infections with influenza viruses . Serum levels of aspartate aminotransferase, alanine aminotransferase, and gamma-glutamyl transpeptidase were significantly higher in patients with pandemic A/H1N1 influenza compared to those with seasonal influenza, which were correlated with the degree of hypoxia [     ]. The pandemic of influenza A/H1N1 was associated with a significant immune response to the infection associated with liver damage. Avian influenza A(H7N9) virus were reported to affect the liver in 29% of patients. Hypoxic hepatitis (HH) manifested by acute severe liver injury and characterized by an abrupt, massive increase in serum aminotransferases resulting from anoxic centrilobular necrosis of liver cells was described in 1.8% of infected subjects. HH patients presented with severe liver impairment, accompanied by multiple organ failure (MOF) involving respiratory, cardiac, circulatory, and renal failure. Liver biopsy showed centrilobular necrosis, and real-time reverse transcription polymerase chain reaction of A(H7N9)-specific genes was negative, which excluded A(H7N9)-related hepatitis suggesting that the liver damage was associated with the hemodynamic changes [     ].
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

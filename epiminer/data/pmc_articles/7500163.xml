@@ -1,0 +1,2810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  SARS-CoV-2 transcriptome analysis and molecular cataloguing of immunodominant epitopes for multi-epitope based vaccine design
+ </title>
+ <abstract>
+  <p>
+   Genomics-led researches are engaged in tracing virus expression pattern, and induced immune responses in human to develop effective vaccine against COVID-19. In this study, targeted expression profiling and differential gene expression analysis of major histocompatibility complexes and innate immune system genes were performed through SARS-CoV-2 infected RNA-seq data of human cell line, and virus transcriptome was generated for T-and B-cell epitope prediction. Docking studies of epitopes with MHC and B-cell receptors were performed to identify potential T-and B-cell epitopes. Transcriptome analysis revealed the specific multiple allele expressions in cell line, genes for elicited induce immune response, and virus gene expression. Proposed T- and B-cell epitopes have high potential to elicit equivalent immune responses caused by SARS-CoV-2 infection which can be useful to provide links between elicited immune response and virus gene expression. This study will facilitate
+   <italic>
+    in vitro
+   </italic>
+   and
+   <italic>
+    in vivo
+   </italic>
+   vaccine related research studies in disease control.
+  </p>
+  <p>
+   <list id="l0005" list-type="simple">
+    <list-item id="li0005">
+     <label>
+      •
+     </label>
+     <p id="p0005">
+      SARS-CoV-2 transcriptome construction from RNA-seq data of infected human cell-lines.
+     </p>
+    </list-item>
+    <list-item id="li0010">
+     <label>
+      •
+     </label>
+     <p id="p0010">
+      T- and B-cell epitopes from SARS-CoV-2 transcriptome
+     </p>
+    </list-item>
+    <list-item id="li0015">
+     <label>
+      •
+     </label>
+     <p id="p0015">
+      Gene expression profiling of MHC alleles and innate immune system genes
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0020">
+     Corona viruses are a group of related viruses that are responsible for causing diseases ranging from the common cold to severe diseases like Middle East respiratory syndrome (MERS), SARS-CoV-2 in mammals and birds. SARS-CoV-2 is a positive sense single-stranded RNA virus belonging to the family
+     <italic>
+      Coronaviridae
+     </italic>
+     and subgenus
+     <italic>
+      Sarbecovirus
+     </italic>
+     . It is responsible for the widespread global pandemic causing an upper respiratory tract infection of humans [     ]. SARS-CoV-2 virion ranges from approximately 50–200 nm in diameter [     ]. SARS-CoV-2 is made up of four structural proteins known as the spike (S), envelope (E), membrane (M) and nucleocapsid (N) proteins. The nucleocapsid protein contains the viral RNA and the spike, membrane, envelope make up the viral envelope. The spike protein is responsible for the viral attachment with angiotensin-converting enzyme 2 (ACE2) receptors and facilitates entry into the host cells [     ]. The ACE2 receptors are present in the goblet (secretory) cells of ciliated cells in the nose, back of the throat, lungs, gut, heart muscles and kidney which facilitates the hand to mouth transmission route. The viral RNA is released in the nasal cells when the transmembrane serine protease 2 (TMPRSS2) splits the spike proteins, and enters inside the cell, the viral genetic material replicates into millions. Seroconversion of SARS-CoV-2 took place within four days of infection and found in most of patients by day 14. Moreover, persistence of specific IgG and antibody production was reported even after 2 years of infection [     ]. Whereas limited serological details of SARS-CoV-2 are available at the moment, it is reported that a patient showed the presence of IgM after 9 days of infection, and later production of IgG after 2 weeks [     ]. In an
+     <italic>
+      in vitro
+     </italic>
+     plaque testing with patient sera, it was confirmed that it is able to neutralize SARS-CoV highlighting the successful mounting of humoral response [     ]. The current evidences have shown that Th1 immune response can be successful for controlling SARS-CoV [     ] and may work for SARS-CoV-2 as well. The immune system responds in two ways, the innate immune response is a quick response which leads to inflammation, the immune cells kills the pathogens and induces adaptive immunity. The Adaptive immunity is slower and involves two types of cells the T-cell and the B-cell that react with the pathogens. T-cell kills the infected cells and the pathogens, while B-cells produce specific antibodies against the pathogens. Some of the T-cell and B-cell form the memory cells which are stored in the lymph nodes, in case the person is infected with the same infection memory cells produce antibodies against to combat the infection [     ]. The epitopes are the antigenic regions of an antigens, causing an immune response which is identified by antibodies generated from T-and B-cells. T-cell epitopes present on the cell surface binds to the major histocompatibility complex (MHC) molecules. The MHC I molecules presents peptides of 8–11 amino acids in length, which are CD8+ T-cell epitopes. In contrast, MHC II molecules present longer peptides of 13–17 amino acids in length, which are CD4+ T-cell epitopes. The epitope-based vaccine development offers prospective advantages over the whole protein approach because the immune response against highly reserved epitopes over a widespread population can be used for the treatment of highly variable pathogens [     ,     ]. Various successful studies were reported for the epitope-based vaccine design against West Nile virus [     ], dengue virus [     ], chikungunya virus [     ], shigellosis [     ]
+     <italic>
+      etc.
+     </italic>
+     COVID-19 first cases were observed in Wuhan, China in December 2019, which seems to be the origin of SARS-CoV-2 virus. As of July 2020, there are more than 13.5 million confirmed cases, with 584 thousand deaths globally. Vaccines are mostly in the developmental stages, and no approved drug or vaccine triggering the immune response in the body against SARS-CoV-2 in the market.
+    </p>
+    <p id="p0025">
+     In the present study, an integrated bioinformatics approach was used to identify expressed T- and B-cell epitopes from RNA-seq data of SARS-CoV-2 infection in human cell lines. To the best of our knowledge, no previous study has been reported a list of expressed T-and B-cell epitopes for multi-epitope based vaccine development. The specific objectives of this research study were: (1) Gene expression analysis of MHC gene and alleles, and innate immune system genes, (2) SARS-CoV-2 transcriptome construction, and annotation to explore expressed region of SARS-CoV-2 genome, (3) identification of potential T-and B-cell epitopes by using SARS-CoV-2 transcriptome, and (4) modelling and docking studies to explore structural compatibility of epitopes with MHC and B-cell receptors.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Materials and methods
+    </title>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      SARS-CoV-2 data retrieval, processing and transcriptome assembly
+     </title>
+     <p id="p0030">
+      Due to the recent outbreak of SARS-CoV-2, several countries have started to generate molecular resources to understand pandemic caused by SARS-CoV-2. We used publically available transcriptome data (PRJNA615032) of SARS-CoV-2 infection in normal human bronchial epithelial (NHBE) and human adeno carcinomic alveolar basal epithelial (A549) [      ]. All the available data were download from the sequence read archive of NCBI database, and fastq-dump program of SRAtoolkit [      ] was used to extract fastq reads. Quality assessment and control of RNA-seq data was performed through the FastQC version 0.11.5 [      ], MultiQC version 1.8 [      ] and trimmomatic version 0.39 software [      ]. All high-quality reads were mapped over SARS-CoV-2 isolate Wuhan-Hu-1(MN908947.3) by using HISAT2 version 2.1.0 on default parameters [      ]. Samtools version 1.1.0 [      ] and Bedtools version 2.26.0 [      ] were used to extract all the mapped read from each sample and extracted reads were used to construct
+      <italic>
+       de novo
+      </italic>
+      transcriptome assemblies by using the Trinity assembler version 2.5.1 [      ]. TransDecoder program [      ] was used to generate protein sequence from assembled transcriptome. Kallisto, a pseudo aligner for bulk RNA-seq data alignment, was used for expression quantification [      ]. Kallisto-sleuth pipeline was used for differential gene expression (DGE) analysis [      ]. Human innate immune system genes were downloaded from innate database [      ].
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      T-cell epitope prediction from SARS-CoV-2 transcriptome sequences
+     </title>
+     <p id="p0035">
+      T-cell epitopes has potential to induce specific immune responses to control the disease which can be used as a key molecular resource for epitope-based vaccine design. NetCTL 1.2 program [      ] was used to predict cytotoxic T-lymphocyte (CTL) epitopes from protein sequences, translated from assembled SARS-CoV-2 transcriptome. Epitopes were identified for all the 12 super types
+      <italic>
+       i.e.
+      </italic>
+      A1, A2, A3, A24, A26, B7, B8, B27, B39, B44, B58, and B62 at the combined score threshold value 1.00. Antigenic potential of identified peptides were explored through VaxiJen v2.0 [      ] at the threshold value 0.4, and IEDB program (
+      <ext-link ext-link-type="uri" id="ir0005" ns0:href="http://tools.iedb.org/immunogenicity/">
+       http://tools.iedb.org/immunogenicity/
+      </ext-link>
+      ) was used to identify immunogenicity score for each identified epitopes. To predict MHC genes and alleles for all the identified epitopes, IEDB program mhci (
+      <ext-link ext-link-type="uri" id="ir0010" ns0:href="http://tools.iedb.org/mhci/download/">
+       http://tools.iedb.org/mhci/download/
+      </ext-link>
+      ) and mhcii (
+      <ext-link ext-link-type="uri" id="ir0015" ns0:href="http://tools.iedb.org/mhcii/download/">
+       http://tools.iedb.org/mhcii/download/
+      </ext-link>
+      ) were used. Peptide length 9 and inhibitory concentration (IC50) value less than or equal to 200 nM were selected as parameters for the identification of MHC class I and II binding genes and alleles. IEDB program conservancy (
+      <ext-link ext-link-type="uri" id="ir0020" ns0:href="http://tools.iedb.org/conservancy/">
+       http://tools.iedb.org/conservancy/
+      </ext-link>
+      ) was used to identify conservation level of epitopes. IEDB population coverage tool (
+      <ext-link ext-link-type="uri" id="ir0025" ns0:href="http://tools.iedb.org/population/">
+       http://tools.iedb.org/population/
+      </ext-link>
+      ) was used to analyse population coverage through predicted MHC alleles of epitopes [      ], and peptide toxicity prediction was performed through the ToxinPred web server [      ]. Cross-reactivity with host antigenic proteins might leads to adverse immune responses. Therefore, selected epitope sequences were checked for similarities with the human proteome sequences (
+      <italic>
+       Homo sapiens
+      </italic>
+      : GRCh38) through standalone NCBI BLAST similarity search tool.
+     </p>
+    </sec>
+    <sec id="s0025">
+     <label>
+      2.3
+     </label>
+     <title>
+      B-cell epitopes prediction from SARS-CoV-2 transcriptome sequences
+     </title>
+     <p id="p0040">
+      Sequence and structure based approaches were used to identify B-cell epitopes. In the sequence based approach, VaxiJen server was used to identify most antigenic proteins from translated transcriptome, and BepiPred-2.0 program [      ] was used to identify B-cell epitopes from the identified antigenic protein. IEDB conformational B-cell prediction tool ElliPro (
+      <ext-link ext-link-type="uri" id="ir0030" ns0:href="http://tools.iedb.org/ellipro/">
+       http://tools.iedb.org/ellipro/
+      </ext-link>
+      ) were used to predict epitopes based on protein structure with the parameters PI (protrusion index) value 0.8 as minimum score, and 7 Å as maximum distance [      ]. Protein sequences of SARS-CoV-2 transcriptome were showed strong sequence similarity with modelled 3D structure of SARS-CoV-2 genome at Zhang lab. Hence, we downloaded 24 structure of SARS-CoV-2 genome from Zhang lab (
+      <ext-link ext-link-type="uri" id="ir0035" ns0:href="https://zhanglab.ccmb.med.umich.edu/">
+       https://zhanglab.ccmb.med.umich.edu/
+      </ext-link>
+      ) for structure-based epitope prediction. Epitopes identified by both the approaches were evaluated for toxicity, antigenicity, immunogenicity and cross-reactivity same as done for T-cell epitopes.
+     </p>
+    </sec>
+    <sec id="s0030">
+     <label>
+      2.4
+     </label>
+     <title>
+      Molecular docking studies
+     </title>
+     <p id="p0045">
+      Selected epitopes were studied for structural compatibility and interaction analysis with available MHC class I and II genes, and B-cell receptor structures. Protein structure of MHC class genes, and B-cell receptors were retrieved from RCSB Protein Data Bank (PDB) (
+      <ext-link ext-link-type="uri" id="ir0040" ns0:href="https://www.rcsb.org/">
+       https://www.rcsb.org/
+      </ext-link>
+      ) in PDB format. Docking studies were performed using AutoDockTools, AutoDock Vina and CABS-dock server to identify structural compatibility between T- and B- cell epitopes and protein receptors [      ,      ,      ]. Prediction of conformation compatibility between peptide and receptor in real world is even more complex and challenging. Therefore, initial screening of peptides for receptors were performed through Autodock, whereas CABSdocks was used for final binding and compatibility analysis. Protein complex visualization and hydrogen bonds were calculated through UCSF chimera [      ] and LIGPLOT software package [      ], and also ensured the number of genuine hydrogen bonds through cavity prediction by using D3Packets server [      ].
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0035">
+    <label>
+     3
+    </label>
+    <title>
+     Results
+    </title>
+    <sec id="s0040">
+     <label>
+      3.1
+     </label>
+     <title>
+      Gene expression analysis of MHC genes and alleles
+     </title>
+     <p id="p0050">
+      The MHC genes and alleles are the well explored regions of human genome because it is highly associated with different diseases, immune responses, and very well characterized at functional levels [      ]. To explore expressed MHC gene and alleles, MHC gene expression profiling was performed by exploiting SARS-CoV-2 infected NHBE and A549 cell lines RNA-seq data. In our analysis, HLA-A variants (HLA-A*01, HLA-A*02, HLA-A*03, HLA-A*11, HLA-A*24, HLA-A*25, HLA-A*26, HLA-A*30, HLA-A*31, HLA-A*32, HLA-A*33, HLA-A*34) were more expressed than HLA-B (HLA-B*08, HLA-B*15,HLA-B*18,HLA-B*37,HLA-B*44,HLA-B*45) and HLA-C variants (HLA-C*03, HLA-C*04, HLA-C*06, HLA-C*07, HLA-C*12, HLA-C*16). In MHC class II analysis, HLA-DMA*01, HLA-DMB*01, HLA-DOB*01, HLA-DPB1*08, HLA-DPB1*75, HLA-DQA1*01, HLA-DQB1*06, HLA-DRA*01 and HLA-DRB1*13 gene variants were highly expressed to present exogenous antigens to CD4+ T cells. Cell line samples, expression of MHC class genes and alleles, and expression count (TPM) of alleles with respective to human cell line were given in      , Tables S1 and S2). In the differential gene expression analysis of MHC genes by using mock and infected sample of NHBE cell lines, HLA-A*24:02 is the only significantly expressed alleles between infected (TPM: 12331.79) and mock samples (TPM: 3822.033) (      , Table S4).
+     </p>
+    </sec>
+    <sec id="s0045">
+     <label>
+      3.2
+     </label>
+     <title>
+      Gene expression analysis of innate immune genes
+     </title>
+     <p id="p0060">
+      Role of innate immune system is very important against respiratory diseases because human body is exposed to thousands of pathogens in daily life. Therefore, gene expression pattern information of innate immune gene can help us to improve our understanding about induced immune response for diseases. In differential gene expression analysis of human innate immune genes, 209 genes were differentially expressed between infected and mock samples of NHBE cell line. Differentially expressed gene, annotation, and involved pathways are given in      , Tables S5 and S6. In differential gene expression analysis, myxovirus (influenza virus) resistance 1 (ENSG00000157601), ribosomal protein S19 (ENSG00000105372), phospholipid transfer protein (ENSG00000100979), signal transducer and activator of transcription 2 (ENSG00000170581), calmodulin 3 (ENSG00000160014), interferon (ENSG00000165949), SWI/SNF related gene (ENSG00000080503), intercellular adhesion molecule 1 (ENSG00000090339), TNFAIP3 interacting protein 1 (ENSG00000145901), adenosine deaminase (ENSG00000160710), and ubiquilin 1 (ENSG00000135018) are found most differentially up regulated in infected samples of NHBE cell line. In the list of down regulated genes, tumor necrosis factor (ligand) superfamily (ENSG00000121858), actin (ENSG00000075624), amyloid beta (A4) precursor protein (ENSG00000142192), activating transcription factor 3 (ENSG00000162772), clathrin (ENSG00000141367), phosphatidylinositol 3-kinase (ENSG00000078142), interleukin 1 (ENSG00000125538), a kinase (PRKA) anchor protein 10 (ENSG00000108599), zinc finger (ENSG00000015171) and apolipoprotein B mRNA editing enzyme (ENSG00000179750) were found in infected cells (      ).
+     </p>
+     <p id="p0070">
+      Majority of differentially expressed genes were belonging to NF-kappa B pathway, PI3K-AKT pathway, MAPK/ERK pathway, cAMP pathway, and interleukin pathway, and MHC class 1 mediated antigen processing pathway (      ). NF-kappa B pathway acts as an enhancer for B cell activation. This pathway controls the transcription of DNA, cytokine production, cell survival [      ]. This pathway is prevalent in all cell types and helps in regulation of immune response against infections. NF-kappa B activation involves canonical as well as non-canonical pathway which is important in regulation of immune and inflammatory response [      ]. It includes ligand for various cytokine receptors, pattern recognition receptors (PRRs) and T cell, B cell receptors. The innate immune cells express PRRs which detect microbial components that is, pathogen associated molecular patterns (PAMPs) and damage associated molecular patters (DAMPs) [      ]. PI3K/AKT is an intracellular signal transduction pathway which controls the metabolism, proliferation, cell survival, and angiogenesis in presence of an external signal [      ]. They are mediated
+      <italic>
+       via
+      </italic>
+      serine/threonine phosphorylation. The major proteins involved in this pathway are phosphatidylinositol 3-kinase (PI3K) and AKT/Protein kinase B [      ]. AKT regulates the function of various proteins
+      <italic>
+       via
+      </italic>
+      phosphorylation which promotes cell growth and proliferation. AKT negatively regulates the Bcl-2 members and prevents apoptosis. Over activation of this pathway leads to abnormal cell proliferation which leads to tumorigenesis [      ]. MAPK/ERK pathway is also called Ras-Ref-MEK-ERK, its a chain of protein that passes on the signal from the receptor to the DNA in the nucleus in cells [      ]. GPCR leads to the activation MAPKs by phosphorylation of receptor tyrosine kinase such as epidermal growth factor receptor (EGFR) gets activated in presence of extracellular ligand [      ]. This pathway regulates cell growth and proliferation in mammalian cells. The canonical pathway is triggered in presence of mitogen and other growth factors which leads to the activation of GTPase Ras, followed by the series of phosphorylation and activation of MAPK cascade which ultimately leads to the activation of ERK. ERK promotes gene activation that induces cell cycle entry and downregulates the negative regulators of cell cycle, loss of control can lead to cancer [      ]. cAMP pathway is a G protein coupled receptor relates signalling cascade. cAMP regulates metabolism, secretion, calcium homeostasis and gene transcription [      ]. cAMP acts as secondary messenger in various signalling pathways. AC is regulated by G-alpha which induces conversion of ATP into cAMP [      ]. cAMP has three major targets protein kinase A (PKA), exchange protein activation and cyclic nucleotide gated ion channels. This pathway activates enzyme and regulation of genes. If the cAMP dependent pathways arent controlled leads to hyper proliferation which leads to progression of cancer [      ]. Interleukin family of cytokines are composed of 11 proteins encoded by 11 different genes. They act as major mediators of innate immune response. They induce a cascade of proinflammatory cytokines
+      <italic>
+       via
+      </italic>
+      the expression of integrins on leukocytes and endothelial cells, which in turn regulates and controls inflammatory response [      ]. IL-6 acts a proinflammatory cytokine and an anti-inflammatory myokine. IL-6 is an important mediator of fever and of acute phase response. They are secreted by macrophages in presence of microbial components referred to as PAMPs [      ]. PAMPs bind to PRRs and Toll like receptors which induces intracellular signalling cascade, which is responsible for inflammatory cytokine production. As a stress response our body produces stress hormones like cortisol which triggers IL-6 and releases it in circulation. There is some early evidence that IL-6 can be used as an inflammatory marker for severe COVID-19 infection with poor prognosis [      ]. MAPK/ERK pathway upregulates the production of epidermal growth factors and down regulates the negative regulators of cell cycle whereas interleukin/MHC pathway regulates the level of cytokines which can mediate the innate immune response. NF-kappa B pathway acts as an enhancer for the B cell activation and PI3K-AKT a signal transduction pathway which is known to controls the proliferation and survival of the cells.
+      <table-wrap id="t0005" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         List of top 10 up and down regulated genes in SARS-CoV-2 infected NHBE cell lines.
+        </p>
+       </caption>
+       <alt-text id="al0020">
+        Table 1
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Genes
+          </th>
+          <th>
+           P value
+          </th>
+          <th>
+           Fold change
+          </th>
+          <th>
+           TPM (Mock)
+          </th>
+          <th>
+           TPM (Infection)
+          </th>
+          <th>
+           Description
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           ENSG00000121858
+          </td>
+          <td>
+           2.95E-07
+          </td>
+          <td>
+           −3.252
+          </td>
+          <td>
+           73.471
+          </td>
+          <td>
+           9.201
+          </td>
+          <td>
+           Tumor necrosis factor (ligand) superfamily
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000075624
+          </td>
+          <td>
+           0.0018
+          </td>
+          <td>
+           −3.034
+          </td>
+          <td>
+           5489.099
+          </td>
+          <td>
+           1796.564
+          </td>
+          <td>
+           Actin
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000142192
+          </td>
+          <td>
+           0.0002
+          </td>
+          <td>
+           −2.832
+          </td>
+          <td>
+           210.277
+          </td>
+          <td>
+           15.893
+          </td>
+          <td>
+           Amyloid beta (A4) precursor protein
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000162772
+          </td>
+          <td>
+           4.19E-06
+          </td>
+          <td>
+           −2.763
+          </td>
+          <td>
+           24.919
+          </td>
+          <td>
+           5.715
+          </td>
+          <td>
+           Activating transcription factor 3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000141367
+          </td>
+          <td>
+           0.0005
+          </td>
+          <td>
+           −2.461
+          </td>
+          <td>
+           63.660
+          </td>
+          <td>
+           14.057
+          </td>
+          <td>
+           Clathrin
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000078142
+          </td>
+          <td>
+           0.0009
+          </td>
+          <td>
+           −2.191
+          </td>
+          <td>
+           13.849
+          </td>
+          <td>
+           5.136
+          </td>
+          <td>
+           Phosphatidylinositol 3-kinase
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000125538
+          </td>
+          <td>
+           0.0013
+          </td>
+          <td>
+           −2.052
+          </td>
+          <td>
+           149.285
+          </td>
+          <td>
+           53.990
+          </td>
+          <td>
+           Interleukin 1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000108599
+          </td>
+          <td>
+           0.0003
+          </td>
+          <td>
+           −2.031
+          </td>
+          <td>
+           30.403
+          </td>
+          <td>
+           8.495
+          </td>
+          <td>
+           A kinase (PRKA) anchor protein 10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000179750
+          </td>
+          <td>
+           0.0005
+          </td>
+          <td>
+           −1.986
+          </td>
+          <td>
+           25.141
+          </td>
+          <td>
+           6.919
+          </td>
+          <td>
+           Apolipoprotein B mRNA editing enzyme
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000015171
+          </td>
+          <td>
+           0.0021
+          </td>
+          <td>
+           −1.737
+          </td>
+          <td>
+           80.428
+          </td>
+          <td>
+           21.587
+          </td>
+          <td>
+           Zinc finger
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000157601
+          </td>
+          <td>
+           1.64E-08
+          </td>
+          <td>
+           3.607
+          </td>
+          <td>
+           11.958
+          </td>
+          <td>
+           120.264
+          </td>
+          <td>
+           Myxovirus (influenza virus) resistance 1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000105372
+          </td>
+          <td>
+           0.0029
+          </td>
+          <td>
+           3.165
+          </td>
+          <td>
+           1576.726
+          </td>
+          <td>
+           3727.784
+          </td>
+          <td>
+           Ribosomal protein S19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000100979
+          </td>
+          <td>
+           2.38E-05
+          </td>
+          <td>
+           3.098
+          </td>
+          <td>
+           3.235
+          </td>
+          <td>
+           52.695
+          </td>
+          <td>
+           Phospholipid transfer protein
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000170581
+          </td>
+          <td>
+           4.10E-06
+          </td>
+          <td>
+           2.912
+          </td>
+          <td>
+           6.547
+          </td>
+          <td>
+           53.179
+          </td>
+          <td>
+           Signal transducer and activator of transcription 2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000160014
+          </td>
+          <td>
+           7.21E-05
+          </td>
+          <td>
+           2.904
+          </td>
+          <td>
+           78.825
+          </td>
+          <td>
+           338.738
+          </td>
+          <td>
+           Calmodulin 3 (phosphorylase kinase
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000165949
+          </td>
+          <td>
+           8.43E-07
+          </td>
+          <td>
+           2.840
+          </td>
+          <td>
+           12.392
+          </td>
+          <td>
+           128.770
+          </td>
+          <td>
+           Interferon
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000080503
+          </td>
+          <td>
+           0.0005
+          </td>
+          <td>
+           2.765
+          </td>
+          <td>
+           18.355
+          </td>
+          <td>
+           41.172
+          </td>
+          <td>
+           SWI/SNF related
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000090339
+          </td>
+          <td>
+           1.15E-06
+          </td>
+          <td>
+           2.726
+          </td>
+          <td>
+           27.981
+          </td>
+          <td>
+           174.443
+          </td>
+          <td>
+           Intercellular adhesion molecule 1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000145901
+          </td>
+          <td>
+           0.0014
+          </td>
+          <td>
+           2.523
+          </td>
+          <td>
+           56.837
+          </td>
+          <td>
+           254.358
+          </td>
+          <td>
+           TNFAIP3 interacting protein 1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000160710
+          </td>
+          <td>
+           0.0008
+          </td>
+          <td>
+           2.450
+          </td>
+          <td>
+           6.969
+          </td>
+          <td>
+           26.304
+          </td>
+          <td>
+           Adenosine deaminase
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ENSG00000135018
+          </td>
+          <td>
+           1.53E-05
+          </td>
+          <td>
+           2.335
+          </td>
+          <td>
+           32.631
+          </td>
+          <td>
+           158.313
+          </td>
+          <td>
+           Ubiquilin 1
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0050">
+     <label>
+      3.3
+     </label>
+     <title>
+      SARS-CoV-2 transcriptome assembly and annotation
+     </title>
+     <p id="p0075">
+      <italic>
+       De novo
+      </italic>
+      SARS-CoV-2 transcriptome was constructed through high quality of reads from cell line transcriptome. Total, 87,716 reads were extracted from all the samples for SARS-CoV-2 genome. Detail description of experiment, sample name, description was given in      , Table S1. All the extracted RNA-seq reads were used to construct
+      <italic>
+       de novo
+      </italic>
+      SARS-CoV-2 transcriptome through Trinity software. In total, 54,814 bases were assembled into 27 transcripts with median contig length 650 bps, N50 value of 10,677 bps and approximate average transcript length of 2030 bps. The generated transcriptome assembly was clustered at 90% sequence identity through CD-HIT software that produced 27 non-redundant transcripts, the same number of non-redundant transcripts showed the sequence variability among assembled transcripts. Non-redundant transcripts were translated into 44 protein sequences, and annotated against NCBI non-redundant and Uniport databases by using BLAST similarity search. All the reads were mapped over constructed transcriptome by using Kallisto software to estimate expression of transcripts. Detail description of transcripts class, annotation and expression was given in      .
+     </p>
+    </sec>
+    <sec id="s0055">
+     <label>
+      3.4
+     </label>
+     <title>
+      T-cell epitopes identification of SARS-CoV-2 transcriptome
+     </title>
+     <p id="p0085">
+      T-cell epitopes are presented by MHC class I and II that are recognized by two distinct subsets of T-cells, CD8+ and CD4+ T-cells, respectively. NetCTL 1.2 program was used for the prediction of T-cell epitopes, and 1144 epitopes were selected for 12 super type categories
+      <italic>
+       i.e.
+      </italic>
+      A1 (330), A24(314), A26(242), A2(247), A3(328), B27(175), B39(263), B44(133), B58(284), B62(473), B7(157), and B8(193). On the basis of antigenicity and immunogenicity potential, 598 epitopes were selected for further study. Peptide length nine and the IC50 value ≤ 200 nM parameters were selected to identify MHC alleles and genes, and ToxinPred was used to explore toxicity of predicted epitopes. Finally, 40 CD8+ T-cell epitopes were selected as high immunogenic, antigenic, non-toxic epitopes with good binding affinity to MHC class I alleles (      , Table S1). In MHC-I allele analysis, HLA-A type alleles were found as more frequently occurring alleles (HLA-A*01:01, HLA-A*02:01, HLA-A*02:03, HLA-A*02:06, HLA-A*03:01, HLA-A*11:01, HLA-A*23:01, HLA-A*24:02, HLA-A*26:01, HLA-A*30:01, HLA-A*30:02, HLA-A*31:01, HLA-A*32:01, HLA-A*33:01, HLA-A*68:01, HLA-A*68:02) than HLA-B type alleles (HLA-B*07:02, HLA-B*08:01, HLA-B*15:01, HLA-B*35:01, HLA-B*40:01, HLA-B*44:02, HLA-B*44:03, HLA-B*53:01, HLA-B*57:01).
+     </p>
+     <p id="p0095">
+      Similarly, MHC class II gene and alleles prediction was performed through IEDB analysis resources by using SMM method for the prediction of a distinct set of MHC class II alleles. Total, 4072 epitopes were identified from protein sequences with good binding affinity to MHC class II alleles. To select MHC class II alleles and epitopes, we decided to take those MHC class II alleles and epitopes which have MHC class I epitopes peptide sequence as a core sequence. Total, 34 MHC class II epitope sequences (15-mer) were selected by using previously selected 40 (9-mer) antigenic and immunogenic epitope sequences as core sequences (      , Table S2). Among all MHC class II alleles, HLA-DPA1*01:03/DPB1*04:01, HLA-DPA1*02:01/DPB1*14:01, HLA-DRB3*02:02, HLA-DRB1*01:01, HLA-DRB1*07:01, HLA-DPA1*01:03/DPB1*02:01, and HLA-DRB5*01:01 were the most frequent occurring alleles. Finally, twelve most antigenic and immunogenic MHC class II epitopes (APHGVVFLHVTYVPA, FLHVTYVPAQEKNFT, GVVFLHVTYVPAQEK, HGVVFLHVTYVPAQE, PHGVVFLHVTYVPAQ, QSAPHGVVFLHVTYV, QYIKWPWYIWLGFIA, SAPHGVVFLHVTYVP, VFLHVTYVPAQEKNF, VVFLHVTYVPAQEKN, and YIKWPWYIWLGFIAG) were selected which contains 9-mer core sequences of four epitopes from previously selected 40 epitopes (      ).
+     </p>
+     <p id="p0105">
+      Genetic variability among MHC alleles is a major obstacles in the development of peptide-based vaccines. Therefore, population coverage is an important criterion to design a generalized an effective vaccine [      ]. In population coverage analysis, MHC class I alleles of 40 epitopes and MHC class II alleles of 33 epitopes were used, and a significant population coverage was found for different geographic regions around the world. MHC class alleles of selected epitopes were covered approximately 90% of the world population. Highest population coverage was found for Sweden (100%) which was closely followed by England, Germany, France, Belgium, United States, Russia, Italy, South Korea, Japan, Mexico, Iran, Chile, Brazil, China, Singapore, Pakistan, India, Spain, Thailand, Israel, Philippines, Australia, and Vietnam with a population coverage of 99.99%, 99.99%, 99.97%, 99.87%, 99.87%, 99.81%, 99.78%, 99.66%, 99.55%, 99.02%, 98.84%, 98.55%, 98.43%, 97.6%, 97.24%, 97.13%, 97.05%, 96.9%, 96.48%, 96.47%, 96.41%, 96.17%, and 95.91% respectively. The lowest population coverage were found for Canada (38.31%), Srilanka (42.04) and Ukrain (46.48). United States and Europe has highest number of COVID-19 cases [      ]. Hence, the population coverage prediction is essential for vaccine design. Population of ethnic groups were also significantly covered (      , Table S3), and average coverage for ethnic group across the world is around 93%.
+     </p>
+    </sec>
+    <sec id="s0060">
+     <label>
+      3.5
+     </label>
+     <title>
+      B-cell epitope identification of SARS-CoV-2 transcriptome
+     </title>
+     <p id="p0115">
+      B-cell epitope is a precise region of the antigenic protein that is detected by B-cell receptors (BCR) through membrane-bound immunoglobulins. Once B-cell activated, it secretes soluble forms of the immunoglobulins to neutralize antigenic proteins. Thus, B-cell epitope and B-cell receptor information is essential for epitope-based vaccine design. Prediction of B-cell epitopes was performed by using protein sequences of the assembled transcriptome and SARS-CoV-2 protein structures. Total, 330 B-cells epitopes were predicted through BepiPred-2.0 program by using protein sequences whereas 77 B-cell epitopes were predicted through the IEDB conformational tool ElliPro by using 24 SARS-CoV-2 protein structure. B-cell epitopes prediction from the protein structure is highly useful information for epitope-based vaccine design and development [      ,      ]. Therefore, a separate analysis was performed for B-cell epitopes identified from protein structures (      , Table S4). In order to explore most suitable B-cell epitopes, epitopes generated by both the approaches were combined, and 16 non-toxic, immunogenic and antigenic B-cell epitopes were identified. A cross-reactivity analysis of epitopes were performed against human proteome sequences through BLAST similarity search, and found that two B-cell epitopes (DNNFCGPDGYPLE, NQDLNGNWYD) showed significant similarity with human proteins ENSP00000390696.1 and ENSP00000263390.3 respectively. Finally, 14 epitopes were selected as most potential B-cell epitopes for further analysis (      ).
+     </p>
+     <p id="p0125">
+      On the basis of immunological parameters, the five B-cell epitopes, NSP2 (SEQLDFIDTKRGV, HCGETSWQTGDFV), Helicase (KGTLEPEYF), NSP3 Papain-like (KTVGELGDVRE), and Surface glycoprotein (LTGTGVLTESNK) were selected from      for molecular docking studies of B-cell receptors.
+      <table-wrap id="t0010" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         SARS-CoV-2 transcriptome annotation through BLAST similarity search at e-value threshold 1e-10 along with their expression values.
+        </p>
+       </caption>
+       <alt-text id="al0025">
+        Table 2
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Transcripts ids
+          </th>
+          <th>
+           Functional class
+          </th>
+          <th>
+           Uniport annotation
+          </th>
+          <th>
+           Expression (TPM)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           TRINITY_DN10_c0_g1_i1_p1
+          </td>
+          <td>
+           H
+          </td>
+          <td>
+           ORF1ab polyprotein Tax = BtRs-BetaCoV/YN2013 TaxID = 1,503,303
+          </td>
+          <td>
+           3661.09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i1_p3
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Membrane protein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           91,746.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p5
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Membrane protein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p5
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Membrane protein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p5
+          </td>
+          <td>
+           M
+          </td>
+          <td>
+           Membrane protein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i1_p1
+          </td>
+          <td>
+           N
+          </td>
+          <td>
+           Nucleoprotein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           91,746.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p3
+          </td>
+          <td>
+           N
+          </td>
+          <td>
+           Nucleoprotein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p3
+          </td>
+          <td>
+           N
+          </td>
+          <td>
+           Nucleoprotein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p3
+          </td>
+          <td>
+           N
+          </td>
+          <td>
+           Nucleoprotein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i7_p1
+          </td>
+          <td>
+           N
+          </td>
+          <td>
+           Nucleoprotein Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           838,657
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p2
+          </td>
+          <td>
+           NendoU
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p2
+          </td>
+          <td>
+           NendoU
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p2
+          </td>
+          <td>
+           NendoU
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i3_p1
+          </td>
+          <td>
+           NSP1
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           10,488.1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i5_p1
+          </td>
+          <td>
+           NSP1
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           3765.1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN20_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP2
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           1786.89
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN4_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP2
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           3107.15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN13_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           1009.35
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN17_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           1416.36
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN19_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           1759.06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN2_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           1602.68
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN5_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           553.586
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN6_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           1813.9
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN7_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP6
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Betacoronavirus TaxID = 694,002
+          </td>
+          <td>
+           697.846
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN1_c0_g1_i1_p1
+          </td>
+          <td>
+           NSP8
+          </td>
+          <td>
+           Non-structural polyprotein 1ab Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           1941.65
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i1_p2
+          </td>
+          <td>
+           ORF3a
+          </td>
+          <td>
+           Uncharacterized protein Tax = Human SARS coronavirus TaxID = 694,009
+          </td>
+          <td>
+           91,746.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p4
+          </td>
+          <td>
+           ORF3a
+          </td>
+          <td>
+           Uncharacterized protein Tax = Human SARS coronavirus TaxID = 694,009
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p4
+          </td>
+          <td>
+           ORF3a
+          </td>
+          <td>
+           Uncharacterized protein Tax = Human SARS coronavirus TaxID = 694,009
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p4
+          </td>
+          <td>
+           ORF3a
+          </td>
+          <td>
+           Uncharacterized protein Tax = Human SARS coronavirus TaxID = 694,009
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i1_p4
+          </td>
+          <td>
+           ORF7a
+          </td>
+          <td>
+           SARS_X4 domain-containing protein Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           91,746.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p6
+          </td>
+          <td>
+           ORF7a
+          </td>
+          <td>
+           SARS_X4 domain-containing protein Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p6
+          </td>
+          <td>
+           ORF7a
+          </td>
+          <td>
+           SARS_X4 domain-containing protein Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p6
+          </td>
+          <td>
+           ORF7a
+          </td>
+          <td>
+           SARS_X4 domain-containing protein Tax = Bat SARS-like coronavirus
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i1_p5
+          </td>
+          <td>
+           ORF8
+          </td>
+          <td>
+           Uncharacterized protein, Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           91,746.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p7
+          </td>
+          <td>
+           ORF8
+          </td>
+          <td>
+           Uncharacterized protein, Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p7
+          </td>
+          <td>
+           ORF8
+          </td>
+          <td>
+           Uncharacterized protein, Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p7
+          </td>
+          <td>
+           ORF8
+          </td>
+          <td>
+           Uncharacterized protein, Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN15_c0_g1_i1_p1
+          </td>
+          <td>
+           Proteinase
+          </td>
+          <td>
+           UPI0001D192D5 related cluster, TaxID = RepID = UPI0001D192D5
+          </td>
+          <td>
+           1706.65
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN9_c0_g1_i1_p1
+          </td>
+          <td>
+           Proteinase
+          </td>
+          <td>
+           UPI000181CE36 related cluster, TaxID = RepID = UPI000181CE36
+          </td>
+          <td>
+           811.289
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN11_c0_g1_i1_p1
+          </td>
+          <td>
+           RdRp
+          </td>
+          <td>
+           ORF1ab polyprotein
+           <italic>
+            n
+           </italic>
+           = 1 Tax = BtRf-BetaCoV/JL2012 TaxID = 1,503,299
+          </td>
+          <td>
+           1168.03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN12_c0_g1_i1_p1
+          </td>
+          <td>
+           RdRp
+          </td>
+          <td>
+           RNA-dependent RNA polymerase Tax = Human SARS coronavirus
+          </td>
+          <td>
+           1833.88
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i2_p1
+          </td>
+          <td>
+           SG
+          </td>
+          <td>
+           Spike protein n = 1 Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           1716.75
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i4_p1
+          </td>
+          <td>
+           SG
+          </td>
+          <td>
+           Spike protein n = 1 Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           3188.07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TRINITY_DN0_c0_g1_i6_p1
+          </td>
+          <td>
+           SG
+          </td>
+          <td>
+           Spike protein n = 1 Tax = Bat SARS-like coronavirus TaxID = 1,508,227
+          </td>
+          <td>
+           12,432
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          H: Helicase, M: Membrane protein, N: Nucleoprotein, NendoU: Uridylate-specific endoribonuclease, NSP: Non-structural protein, ORF: open reading frame, SG: Surface glycoprotein, RdRp: RNA-dependent RNA polymerase, TPM: Transcript per million.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="t0015" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         MHC class II alleles and epitopes along with their core 9-mer epitopes.
+        </p>
+       </caption>
+       <alt-text id="al0030">
+        Table 3
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Anno
+          </th>
+          <th>
+           MHC class I epitope sequences
+          </th>
+          <th>
+           Immscore
+          </th>
+          <th>
+           Antiscore
+          </th>
+          <th>
+           MHC class II alleles
+          </th>
+          <th>
+           MHC class II epitope sequences
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="2">
+           SG
+          </td>
+          <td>
+           QYIKWPWYI
+          </td>
+          <td rowspan="2">
+           0.41673
+          </td>
+          <td rowspan="2">
+           1.4953
+          </td>
+          <td>
+           HLA-DPA1*01:03/DPB1*02:01
+          </td>
+          <td>
+           QYIKWPWYIWLGFIA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           WPWYIWLGF
+          </td>
+          <td>
+           HLA-DPA1*01:03/DPB1*04:01
+          </td>
+          <td>
+           YIKWPWYIWLGFIAG
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="4">
+           SG
+          </td>
+          <td rowspan="4">
+           VVFLHVTYV
+          </td>
+          <td rowspan="4">
+           0.1278
+          </td>
+          <td rowspan="4">
+           1.5122
+          </td>
+          <td>
+           HLA-DRB1*01:01;
+          </td>
+          <td>
+           QSAPHGVVFLHVTYV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*04:05;
+          </td>
+          <td>
+           SAPHGVVFLHVTYVP
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*07:01;
+          </td>
+          <td>
+           APHGVVFLHVTYVPA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB3*02:02;
+          </td>
+          <td>
+           PHGVVFLHVTYVPAQ
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="7">
+           SG
+          </td>
+          <td rowspan="7">
+           FLHVTYVPA
+          </td>
+          <td rowspan="7">
+           0.11472
+          </td>
+          <td rowspan="7">
+           1.3346
+          </td>
+          <td>
+           HLA-DPA1*01:03/DPB1*02:01;
+          </td>
+          <td>
+           APHGVVFLHVTYVPA
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DPA1*01:03/DPB1*04:01;
+          </td>
+          <td>
+           PHGVVFLHVTYVPAQ
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DPA1*02:01/DPB1*14:01;
+          </td>
+          <td>
+           HGVVFLHVTYVPAQE
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*01:01;
+          </td>
+          <td>
+           GVVFLHVTYVPAQEK
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*04:05;
+          </td>
+          <td>
+           VVFLHVTYVPAQEKN
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*07:01;
+          </td>
+          <td>
+           VFLHVTYVPAQEKNF
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB3*02:02;
+          </td>
+          <td>
+           FLHVTYVPAQEKNFT
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          Immscore: Immunogencity score, Antiscore: Antigencity score, SG: Surface glycoprotein.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="t0020" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         B-cell epitopes identified form protein sequences of assembled transcriptome and modelled protein structure of various coding protein of SAR-CoV-2 genome.
+        </p>
+       </caption>
+       <alt-text id="al0035">
+        Table 4
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           B-cell Epitopes
+          </th>
+          <th>
+           Anno
+          </th>
+          <th>
+           Len
+          </th>
+          <th>
+           Start
+          </th>
+          <th>
+           End
+          </th>
+          <th>
+           Immscore
+          </th>
+          <th>
+           Antiscore
+          </th>
+          <th>
+           Toxicity
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           SEQLDFIDTKRGV
+          </td>
+          <td>
+           NSP2
+          </td>
+          <td>
+           13
+          </td>
+          <td>
+           36
+          </td>
+          <td>
+           48
+          </td>
+          <td>
+           0.13632
+          </td>
+          <td>
+           1.7773
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           KGTLEPEYF
+          </td>
+          <td>
+           H
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           414
+          </td>
+          <td>
+           422
+          </td>
+          <td>
+           0.17084
+          </td>
+          <td>
+           1.3504
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HCGETSWQTGDFV
+          </td>
+          <td>
+           NSP2
+          </td>
+          <td>
+           13
+          </td>
+          <td>
+           145
+          </td>
+          <td>
+           157
+          </td>
+          <td>
+           0.24817
+          </td>
+          <td>
+           1.1314
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           KTVGELGDVRE
+          </td>
+          <td>
+           NSP3
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           902
+          </td>
+          <td>
+           912
+          </td>
+          <td>
+           0.25316
+          </td>
+          <td>
+           0.9231
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LTGTGVLTESNK
+          </td>
+          <td>
+           SG
+          </td>
+          <td>
+           12
+          </td>
+          <td>
+           546
+          </td>
+          <td>
+           557
+          </td>
+          <td>
+           0.10111
+          </td>
+          <td>
+           0.8122
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           TGVVGEGSEGLN
+          </td>
+          <td>
+           NSP2
+          </td>
+          <td>
+           12
+          </td>
+          <td>
+           256
+          </td>
+          <td>
+           267
+          </td>
+          <td>
+           0.17371
+          </td>
+          <td>
+           0.7539
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QTTETAHSC
+          </td>
+          <td>
+           H
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           548
+          </td>
+          <td>
+           556
+          </td>
+          <td>
+           0.11862
+          </td>
+          <td>
+           0.7078
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           MEVTPSGTWLT
+          </td>
+          <td>
+           N
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           322
+          </td>
+          <td>
+           332
+          </td>
+          <td>
+           0.13056
+          </td>
+          <td>
+           0.5982
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SDARTAPHG
+          </td>
+          <td>
+           NSP1
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           74
+          </td>
+          <td>
+           82
+          </td>
+          <td>
+           0.14895
+          </td>
+          <td>
+           0.5706
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LKATEETFK
+          </td>
+          <td>
+           H
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           138
+          </td>
+          <td>
+           146
+          </td>
+          <td>
+           0.34467
+          </td>
+          <td>
+           0.5278
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NENGTITDA
+          </td>
+          <td>
+           SG
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           280
+          </td>
+          <td>
+           288
+          </td>
+          <td>
+           0.2408
+          </td>
+          <td>
+           0.5257
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           KGHFDGQQGEVPVS
+          </td>
+          <td>
+           NendoU
+          </td>
+          <td>
+           14
+          </td>
+          <td>
+           12
+          </td>
+          <td>
+           25
+          </td>
+          <td>
+           0.14142
+          </td>
+          <td>
+           0.5183
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LQAGNATEVPANS
+          </td>
+          <td>
+           NSP10
+          </td>
+          <td>
+           13
+          </td>
+          <td>
+           1
+          </td>
+          <td>
+           11
+          </td>
+          <td>
+           0.2729
+          </td>
+          <td>
+           0.4491
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VQIPTTCANDPVGFT
+          </td>
+          <td>
+           NSP10
+          </td>
+          <td>
+           15
+          </td>
+          <td>
+           97
+          </td>
+          <td>
+           111
+          </td>
+          <td>
+           0.2336
+          </td>
+          <td>
+           0.4488
+          </td>
+          <td>
+           NT
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          Immscore: Immunogenicity score, Antiscore: Antigenicity score, NT: Non-toxic, H: Helicase, M: Membrane protein, N: Nucleoprotein, NendoU: Uridylate-specific endoribonuclease, NSP: Non-structural protein, ORF: open reading frame, SG: Surface glycoprotein, RdRp: RNA-dependent RNA polymerase, 2′-O-MT: 2′-
+          <italic>
+           O
+          </italic>
+          -methyltransferase, ExoN: Guanine-N7 methyltransferase.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0065">
+     <label>
+      3.6
+     </label>
+     <title>
+      Molecular docking analysis of T- and B cell epitopes
+     </title>
+     <p id="p0130">
+      Cellular immunity gets activated when MHC molecules binds to intracellular and extracellular proteins displayed on the cell surface. Therefore, molecular docking studies of epitopes and MHC molecules can enhance our knowledge about molecular binding of peptide and receptors. Docking studies were performed between MHC protein and T-cell epitopes to evaluate binding affinities of epitopes. Twenty-two MHC proteins were explored with selected three T-cell epitopes, and the best interaction was identified with the highest binding affinity. The docked complexes of epitopes (WPWYIWLGF, VVFLHVTYV, and FLHVTYVPA) and the HLA molecules were retaining a binding affinity range from of −136.54 to −7.12 kcal/mol. Detail description of molecular interaction analysis of peptide VVFLHVTYV and identified protein structure of MHC genes were given in      . Detail docking descriptions of other two epitopes with MHC molecules were given in      , Table S5.
+     </p>
+     <p id="p0140">
+      HLA-A*24:02 allele was highly expressed among most frequent occurring MHC alleles, but highest interaction of peptide (VVFLHVTYV) was shown with HLA-DRB3*02:02 allele (−1560.1 kcal) and contained two hydrogen bonds (THR7-ASP152, LEU4-SER120). The epitope position in protein structure and the binding interactions were shown in      . We were also ensured genuine hydrogen bonds interaction with receptors through cavity prediction (      ).
+     </p>
+     <p id="p0150">
+      Similarly, five most antigenic and immunogenic B-cell epitopes were selected for molecular docking studies with two B-cell receptors (5DRW and 1K1F). 5DRW protein structure is a crystal structure of BCR Fab fragment from subset of chronic lymphocytic leukaemia whereas 1KF1 is dimer structure of Bcr-Abl oncoprotein. 1K1F protein structure provided a base to design an inhibitor to disrupt Bcr-Abl oligomerization. Moreover, 1K1F was without Fab region unlike to 5DRW [      ]. In our analysis, most of the peptides were shown higher binding affinities with 5DRW than 1K1F. Detail description of docking study of B-cell receptor and peptides are given in      .
+      <table-wrap id="t0025" position="float">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         Docking analysis of T-cell epitope (VVFLHVTYV) and MHC protein structures.
+        </p>
+       </caption>
+       <alt-text id="al0040">
+        Table 5
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           MHC alleles (PDB code)
+          </th>
+          <th>
+           Expression (TPM)
+          </th>
+          <th>
+           Protein chain
+          </th>
+          <th>
+           Interaction energy
+          </th>
+          <th>
+           Total energy
+          </th>
+          <th>
+           Hydrogen bond (Peptide – Receptor)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           HLA-DRB3*02:02 (2Q6W)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −96.73
+          </td>
+          <td>
+           −1560.1
+          </td>
+          <td>
+           THR7-ASP152, LEU4-SER120
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*02:03 (3OX8)
+          </td>
+          <td>
+           46.1625
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −63.72
+          </td>
+          <td>
+           −1937.21
+          </td>
+          <td>
+           THR7-ASP77, THR7-TYR84
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DQA1*05:01/DQB1*03:01 (4D8P)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −69.82
+          </td>
+          <td>
+           −890.23
+          </td>
+          <td>
+           VAL1-SER8, TYR8-THR93, VAL1-VAL6, PHE3-SER8, TYR8-THR83, TYR8-ASP142
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*04:01 (5JLZ)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −57.25
+          </td>
+          <td>
+           −1377.11
+          </td>
+          <td>
+           THR7-GLU187, HIS5-GLU187, PHE3-VAL101
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*01:01 (5V4N)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           C
+          </td>
+          <td>
+           −63.35
+          </td>
+          <td>
+           −1430.47
+          </td>
+          <td>
+           VAL1-HIS360, THR7-GLU411
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*23:01 (5WWJ)
+          </td>
+          <td>
+           78.8768
+          </td>
+          <td>
+           C
+          </td>
+          <td>
+           −95.26
+          </td>
+          <td>
+           −1611.15
+          </td>
+          <td>
+           TYR8-CYS264, TYR8-CYS388, VAL9-TYR327, VAL9-ASN331
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*24:02 (5XOV)
+          </td>
+          <td>
+           2597.88
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −82.36
+          </td>
+          <td>
+           −2186.76
+          </td>
+          <td>
+           THR90-HIS5, HIS191-HIS5, THR190-THR7, THR190-THR7
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*11:01 (6ID4)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −7.12
+          </td>
+          <td>
+           −1452.3
+          </td>
+          <td>
+           LEU4-TYR27, LEU4-ARG6, TYR8-SER4, SER4-VAL9
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B*44:02 (3DX6)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −83.81
+          </td>
+          <td>
+           −2384.29
+          </td>
+          <td>
+           THR7-ASP114,VAL1-SER167, VAL1-GLU55
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DPA1*01:03/DPB1*02:01 (3LQZ)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −75.51
+          </td>
+          <td>
+           −3195.72
+          </td>
+          <td>
+           HIS5-GLU134, HIS5-HIS144
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*02:06 (3OXR)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           C
+          </td>
+          <td>
+           −47.82
+          </td>
+          <td>
+           −2993.06
+          </td>
+          <td>
+           VAL1-HGLN54, PHE3-GLN54, HIS5-GLU55, HIS5-TRP51
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B*57:01 (3X11)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −31.02
+          </td>
+          <td>
+           −2183.55
+          </td>
+          <td>
+           TYR8-GLN155, VAL9-TYR99, VAL1-SER116, PHE3-SER8
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*68:02 (4HWZ)
+          </td>
+          <td>
+           61.582
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −56.06
+          </td>
+          <td>
+           −2054.65
+          </td>
+          <td>
+           PHE3-ARG144, VAL1-ASP77, VAL9-THR73, HIS5-THR73
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B*44:03 (4JQX)
+          </td>
+          <td>
+           38.0344
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −39.35
+          </td>
+          <td>
+           −1709.95
+          </td>
+          <td>
+           THR7-ASN77, VAL9-SER69, TYR6-GLN89
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B*35:01 (4PRA)
+          </td>
+          <td>
+           53.433
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −22.74
+          </td>
+          <td>
+           −1780.49
+          </td>
+          <td>
+           VAL1-ARG6, VAL9-SER116, THR7-ASP144, TYR8-TYR74
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*02:01(4U6Y)
+          </td>
+          <td>
+           27.0879
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −29.1
+          </td>
+          <td>
+           −1507.37
+          </td>
+          <td>
+           VAL1-GLU63, VAL1-TYR99, HIS5-HIS114, THR7-HIS144
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-DRB1*11:01(5NI9)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −90.52
+          </td>
+          <td>
+           −1566.14
+          </td>
+          <td>
+           VAL6-TYR30, TYR8-TYR48
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-B*58:01 (5VWH)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −76.23
+          </td>
+          <td>
+           −2288.87
+          </td>
+          <td>
+           THR7-ARG14, HIS5-ARG21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*30:02 (6J1V)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −80.19
+          </td>
+          <td>
+           −2377.92
+          </td>
+          <td>
+           VAL6-ARG202
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*30:01 (6J1W)
+          </td>
+          <td>
+           NoExp
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −46.93
+          </td>
+          <td>
+           −1869.26
+          </td>
+          <td>
+           PHE3-ARG273, HIS5-THR271
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*03:01 (6O9B)
+          </td>
+          <td>
+           23.4843
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −62.78
+          </td>
+          <td>
+           −2263.52
+          </td>
+          <td>
+           TYR8-TYR-123, TYR8-ARG114, HIS5-ARG114
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HLA-A*68:01 (6PBH)
+          </td>
+          <td>
+           61.582
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −88.24
+          </td>
+          <td>
+           −2076.8
+          </td>
+          <td>
+           TYR6-TYR99, ALA9-THR143
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          TPM (Transcript per million).
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="t0030" position="float">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         Molecular docking and interaction analysis of B-cell epitope to B-cell protein receptor.
+        </p>
+       </caption>
+       <alt-text id="al0045">
+        Table 6
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Peptide
+          </th>
+          <th>
+           PDB code
+          </th>
+          <th>
+           Protein chain
+          </th>
+          <th>
+           Interaction energy
+          </th>
+          <th>
+           Total energy
+          </th>
+          <th>
+           Hydrogen bonds (Peptide – Receptor)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="2">
+           SEQLDFIDTKRGV
+          </td>
+          <td>
+           5DRW
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −94.17
+          </td>
+          <td>
+           −1656.88
+          </td>
+          <td>
+           THR9-PRO49, THR9-SER48, THR9-ARG51, GLU7-LYS55
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1K1F
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −25.53
+          </td>
+          <td>
+           −362.98
+          </td>
+          <td>
+           THR9-ARG50, TRP7-ARG51, GLU4ARG51,CYS2-ASN39
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           HCGETSWQTGDFV
+          </td>
+          <td>
+           5DRW
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −85.9
+          </td>
+          <td>
+           −1579.94
+          </td>
+          <td>
+           SER6-GLN205, THR9-GLN205
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1K1F
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −29.14
+          </td>
+          <td>
+           −366.08
+          </td>
+          <td>
+           GLN8-ARG22
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           KGTLEPEYF
+          </td>
+          <td>
+           5DRW
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −91.21
+          </td>
+          <td>
+           −1767.94
+          </td>
+          <td>
+           THR3-SER20, GLU7-SER10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1K1F
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −35.76
+          </td>
+          <td>
+           −629.66
+          </td>
+          <td>
+           GLU5-GLN51
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           KTVGELGDVRE
+          </td>
+          <td>
+           5DRW
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −37.47
+          </td>
+          <td>
+           −1490.12
+          </td>
+          <td>
+           THR2-PRO125, VAL3-SER127, GLU11-ASN144, GLY7-SER168, GLY7-SER182
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1K1F
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −54.36
+          </td>
+          <td>
+           −686.76
+          </td>
+          <td>
+           THR5-ARG25
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           LTGTGVLTESNK
+          </td>
+          <td>
+           5DRW
+          </td>
+          <td>
+           B
+          </td>
+          <td>
+           −40.46
+          </td>
+          <td>
+           −1235.01
+          </td>
+          <td>
+           THR4-TYR37, THR4-ASN39, SER10-GLN43
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1K1F
+          </td>
+          <td>
+           A
+          </td>
+          <td>
+           −110.1
+          </td>
+          <td>
+           −652.47
+          </td>
+          <td>
+           GLU9-SER18, GLU9-SER41
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0155">
+      For protein structure 5DRW, interaction and total energy of peptide and B-cell receptor were varied from −94.17 to −37.47 kcal/mol and − 1656.88 to −1235.01 kcal/mol respectively. Whereas interaction and total energy for 1K1F were varied from −110.1 to −25 kcal/mol and − 686.76 to −362.98 kcal/mol respectively (      , Table S6).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0070">
+    <label>
+     4
+    </label>
+    <title>
+     Discussion
+    </title>
+    <p id="p0165">
+     Contagious nature of SARS-CoV-2 virus, infected more than thirteen million people worldwide has imposed the biggest challenge of COVID-19 treatment and prevention. In order to develop epitope-based vaccine, the surface glycoprotein is the primary interest because it is involved in the interaction between virus and human cell receptor. But, other viral elements are also important to cause disease [     ]. Information of expressed regions of virus genome is very important to identify potential vaccine candidates. In the present study, MHC gene alleles and innate immune response were analysed through transcriptome data of cell lines, and SARS-CoV-2 transcriptome was generated for the molecular cataloguing of immunodominant epitopes. The result of performed analysis is summarized in     . In this study, SARS-CoV-2 transcriptome was constructed through RNA-seq data of SARS-CoV-2 infection in human cell lines NHBE and A549 to explore expressed regions of SARS-CoV-2 genome. In assembled transcripts, non-structural polyprotein 1ab related transcripts were found as most abundant transcripts, whereas nucleoprotein, membrane protein, SARS_X4 domain-containing protein, spike protein were also found in significant numbers. Targeted expression profiling of MHCs gene and alleles was performed through two different kind of cell line data to explore expression variation between cell lines against the infection. To overcome the effects of reads fail to capture and ambiguously mapping reads, differential gene expression analysis was performed between mock and infected samples of NHBE cell line through Kallisto-Sleuth pipeline [     ]. Workflow of study was given in     .
+    </p>
+    <p id="p0175">
+     The largest region of SARS-CoV-2 genome (ORF1ab) was expressed various smaller proteins such as non-structural proteins (NSP1, NSP2, NSP3, NSP4, NSP6 and NSP8), helicase, uridylate-specific endoribonuclease, RNA-dependent RNA polymerase. Expression of polyprotein 1ab subcomponent (     ) is clearly reflecting about disease initiation and progression such as expression of NSP1 protein was indicating the inhibition of host translation machinery by making NSP1-40S ribosome complex which can cause an endonucleolytic cleavage near the 5’ UTR of host mRNAs for degradation. NSP1 also facilitates viral gene expression in infected cells by suppressing host gene expression [     ]. Role of EIF4E gene is very important for cellular growth control because it initiates protein synthesis on capped mRNAs in the cytoplasm [     ]. In our DGE analysis, ENST00000450253 and ENST00000505992 transcripts of eukaryotic translation initiation factor 4E (EIF4E) were found as down regulated in infected samples which might influence the ribosomal protein turnover in cytoplasm. Reduced protein turnover in cytoplasm was reflected by down regulation of RPS27A and RPS19 genes in our analysis. Two transcript of RPS19 gene (ENSG00000105372) were down regulated whereas third transcript (ENST00000221975) was three fold up regulated. The up regulation of ENST00000221975 might be because of viral mRNA translation for disease initiation. NSP2 is another expressed transcripts that may have a role in the alteration of host cell survival signalling pathway by interacting with host prohibitin (PHB) and prohibitin-2(PHB2) [     ]. Gene FOXO1 (ENSG00000150907), GSK3B (ENSG00000082701), TRIM14 (ENSG00000106785), VNN1 (ENSG00000112299) and PIK3C3 (ENSG00000078142) genes were found related to cell survival AKT-signalling pathway in host cell. Acute inflammatory response (VNN1) and negative regulation of viral transcription associated genes (TRIM14) were up regulated to elite primary immune response.
+    </p>
+    <p id="p0180">
+     Papain-like proteinase (NSP3) is responsible for N-terminus cleavage of the replicase polyprotein and involved in the assembly of virally-induced cytoplasmic double-membrane vesicles together with NSP4, necessary for viral replication. NSP3 is an important viral molecular factor to suppress innate immune induction of type I interferon by blocking the phosphorylation, dimerization and subsequent nuclear translocation of host interferon regulatory transcription factor (IRF3), and also suppress NF-kappa-B signalling of host [     ,     ]. In DGE analysis, Gene (ENSG00000119922) encodes interferon induce protein in response to virus and interleukin 1 (ENSG00000125538) were down regulated, whereas IFI27, IFI6, IFITM1, IFITM3, IRF9, IL32, IL8, IRAK2, and IRAK3 were up regulated. It has been demonstrated that SARS-CoV-2 infection fails to induce significant type I interferon responses in blood but induces the subsequent upregulation of IFN-stimulated genes [     ,     ]. NSP6 initiate induction of autophagosomes from host reticulum endoplasmic. But later, it reduces the expansion of phagosomes to stop delivery of viral components to lysosomes [     ]. Transcription factor EB, E2 transcription factor, and forkhead box O genes are involved in autophagosome biogenesis and upregulation of target genes such as LC3, cathepsin D, and LAMP1 to the increasing activity of autophagy-lysosome pathway (ALP). Genes associated with ALP, FOXO1 (ENSG00000150907), cathepsin D (ENSG00000117984) and cathepsin H (ENSG00000103811) were found down regulated and down regulation of these genes might be the reason of reduce delivery of viral components to lysosomes. NSP8, together with NSP7 forms hexadecamer act as a primase to participate in a viral replication. Expression of helicase is required for the RNA and DNA duplex-unwinding activities [     ].
+    </p>
+    <p id="p0185">
+     Constructed SARS-CoV-2 transcriptome sequences were used to identify potential epitopes for T- and B-cells. Best immunodominant epitopes were identified after the careful filtering with different parameters such as antigenicity (≥ 1) and immunogenicity (≥ 0.1), IC50 values (IC50 = 〈200), toxicity, population coverage and conservation. Antigenicity of epitopes represents the ability to bind or interact with B-cell or T-cell receptors, whereas immunogenic features of epitopes triggers the innate immune response to induce adaptive immune responses [     ]. IC50 threshold 500 nM or lower values were suggested to selects strong binding affinity between MHC class protein and epitopes [     ]. When MHC molecules binds to epitopes, infected cell presents itself as an antigen-presenting cell for self-destruction. For better sensitivity, CD8+ T-cell epitopes were generated from both structural and non-structural proteins because both types of proteins will be processed by infected cells in the cytoplasm. Whereas structural proteins are of interest for CD4+ T-cell epitopes, as it might provide help to cognate interaction [     ,     ,     ]. In this study, we selected CD4+ T-cell epitopes on the basis of CD8+ T-cell epitope core sequences to find out the best T-cell epitopes which might provide an immune response for both kinds of MHC classes. Twelve 15-mer MHC class II epitopes were selected which have core sequences of four 9-mer epitopes of MHC class I, and all four CD8+ cell epitopes belong to surface glycoprotein (     ). To understand demographic coverage of epitopes, population coverage analysis was performed through selected T-cell epitopes, and analysis revealed that approximately 89.44% and 93% average coverage can be achieved for world population and population of ethnic groups respectively (     , Table S3). A particular antigen induces distinct class or subclass of antibodies such as schistosomiasis and filariasis induced a mixed response of IgE and IgG [     ,     ]. Predicted epitopes may or may not carry key feature of proteins because most of prediction methods ignored epitope and receptor interaction which might lead to produce an antibody of no use [     ]. Therefore, sequence and structure-based dual approaches were used to identify distinct class of B-cell epitopes and 14 non-toxic, non-cross-reactive, antigenic, and immunogenic B-cell epitopes were identified of different length (     ). The molecular docking approach was used to validate the interaction of three T-cell epitopes to most frequently occurring twenty two MHC alleles structures (     ). Similarly, the top five B-cell epitopes were used to explore peptide interaction with two different kind of B-cell receptor proteins (5DRW and 1K1F). First protein structure, 5DRW was considered to evaluate binding affinity of peptides to BCR antibody light chain, whereas 1K1F was a Bcr-Abl oncoprotein and formed a tetramer through oligomerization. Monomer of 1K1F protein provided a basis to design an inhibitors to disrupt Bcr-Abl oligomerization [     ]. Therefore, 1K1F was considered as control to compare the peptide binding affinity to B-cell receptor Fab region binding affinity (     ). All peptides showed higher binding affinity to 5DRW than 1K1F except peptide KTVGELGDVRE (     , Table S8). Docked complex of 1K1F and peptides was contained good interaction and total energy (−37.47, and −1490.12) and six hydrogen bonds (THR2-PRO125, VAL3-SER127, GLU11-ASN144, GLY7-SER168, GLY7-SER182). Hydrogen bond visualization of 1K1F protein and peptide were given in     .
+    </p>
+    <p id="p0195">
+     In gene expression profiling of MHC genes and alleles, distinct gene expression patterns were observed for SARS-CoV-2 infection. Total, 92 gene variants of HLA-A*24 were expressed in both cell lines and very low or no expression of HLA-A*24 gene variants were found in A549 cell line. In literature, prevalence of HLA-A*24 alleles was suggested as risk factors for severe H1N1 infection [     ], and HLA-A*24:02 alleles were also reported to increase diabetes-associated risk together with HLA-B*39:01 gene [     ]. A HLA-C allele, HLA-C*03:03, associated with male infertility was also highly expressed in SARS-CoV-2 infected NHBE cell lines. The performed study on semen quality was reported that HLA-C*03:03 allele expression was increased two fold in human papillomavirus virus infected individuals [     ]. Three genetic variant of HLA-B*08:01 genes, myasthenia gravis autoimmune disease characterized by muscle weakness and abnormal fatigability were also highly expressed in NHBE cell lines [     ]. In present, a combination of malaria and AIDS drugs are in use for the treatment of COVID-19. So, it would be interesting to explore malaria and HIV associated MHC class alleles in SARS-CoV-2 infected samples. Therefore, all the MHC class genes were analysed and filtered, and a list of expressed MHC class alleles for malaria and HIV were generated by using IEDB resources along with expression counts for human cell lines (     , Table S3). HLA-A*02:01:131, HLA-A*02:01:160 and HLA-A*03:01:01:02 N were expressed for malaria and HIV in NHBE cell lines. SARS related two HLA genes (HLA-A*23:01:03, HLA-A*23:01:31) were expressed, and 34 HLA-A*24:02 were expressed for HIV gag polyprotein in NHBE cell lines. In our analysis, HLA-A*23:01 HLA-A*24:02 and HLA-A*02:01 were predicted for proposed T-cell epitopes.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0075">
+    <label>
+     5
+    </label>
+    <title>
+     Conclusion
+    </title>
+    <p id="p0205">
+     This study has high scientific relevance to understand induced immune responses upon SARS-CoV-2 infection. Performed study has provided the extremely useful information about the expressed region of SARS-CoV-2 genome, expression profiling and differential gene expression of innate immune system genes and MHC class gene and alleles, T- and B- cell epitopes, and molecular interaction of identified epitopes to receptors. Expressed regions of SARS-CoV-2 genome and putative expressed targets of human immune response will facilitate vaccine related research studies. Proposed epitopes are possessing T- and B-cell selectivity, nontoxicity, higher population coverage, and significant interaction with MHC classes, and B-cell receptors. However, the presented list of T-and B-cell epitopes is an outcome of computational analysis. But, all the epitopes were identified from transcriptome data of SARS-CoV-2 infection in human cell-lines. Therefore, these epitopes have high potential to reflect SARS-CoV-2 immune response in human, and become vaccine candidates after experimental validation.
+    </p>
+    <p id="p0210"/>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0080" sec-type="data-availability">
+    <title>
+     Data availability
+    </title>
+    <p id="p0220">
+     All the used RNA-seq data is available at
+     <funding-source id="gts0005">
+      NCBI SRA
+     </funding-source>
+     under the project accession number PRJNA615032.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0085">
+    <title>
+     Authors contributions
+    </title>
+    <p id="p0225">
+     S.K., conceptualized the study and drafted the manuscript. S.K., V.B. and S.S. analyzed the data. S.C. and S.G. involved in data curation, review and editing of manuscripts. All authors read and approved the manuscript.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of Competing Interest
+    </title>
+    <p id="p0230">
+     Authors have declared that they have no competing interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

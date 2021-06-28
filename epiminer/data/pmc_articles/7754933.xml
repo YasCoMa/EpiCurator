@@ -1,0 +1,2648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Design of a multi-epitope-based vaccine targeting M-protein of SARS-CoV2: an immunoinformatics approach
+ </title>
+ <abstract>
+  <p>
+   In the present study, one of the targets present on the envelopes of coronaviruses, membrane glycoprotein (M) was chosen for the design of a multi-epitope vaccine by Immunoinformatics approach. The B-cell and T-cell epitopes used for the construction of vaccine were antigenic, nonallergic and nontoxic. An adjuvant, β-defensin and PADRE sequence were included at the N-terminal end of the vaccine. All the epitopes were joined by linkers for decreasing the junctional immunogenicity. Various physicochemical parameters of the vaccine were evaluated. Secondary and tertiary structures were predicted for the vaccine construct. The tertiary structure was further refined, and various parameters related to the refinement of the protein structure were validated by using different tools. Humoral immunity induced by B-cells relies upon the identification of antigenic determinants on the surface of the vaccine construct. In this regard, the vaccine construct was found to consist of several B-cell epitopes in its three-dimensional conformation. Molecular docking of the vaccine was carried out with TLR-3 receptor to study their binding and its strength. Further, protein–protein interactions in the docked complex were visualized using LigPlot+. Population coverage analysis had shown that the multi-epitope vaccine covers 94.06% of the global population. The vaccine construct was successfully cloned
+   <italic>
+    in silico
+   </italic>
+   into pET-28a (+). Immune simulation studies showed the induction of primary, secondary and tertiary immune responses marked by the increased levels of antibodies, INF-γ, IL-2, TGF-β, B- cells, CD4+ and CD8+ cells. Finally, the vaccine construct was able to elicit immune response as desired.
+  </p>
+  <p>
+   Communicated by Ramaswamy H. Sarma
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec disp-level="1" id="S0001">
+    <label>
+     1.
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p>
+     The outbreak of Coronavirus disease − 19 (COVID-19) is caused by the Severe Acute Respiratory Syndrome – related Coronavirus 2 (SARS-CoV2) has brought the world to a standstill (Dagur &amp; Dhakar,     ). The outbreak of SARS-CoV2 had its origin in Wuhan, China (Prasad &amp; Prasad,     ). It has now spread to over 216 countries. The number of confirmed cases crossed 29 million, with more than 0.9 million confirmed deaths reported worldwide (
+     <ext-link ext-link-type="uri" ns0:href="https://covid19.who.int/">
+      https://covid19.who.int/
+     </ext-link>
+     accessed on 16 September 2020). World Health Organization characterized COVID-19 as a pandemic on 11 March 2020 (
+     <ext-link ext-link-type="uri" ns0:href="https://www.who.int/news-room/detail/27-04-2020-who-timeline">
+      https://www.who.int/news-room/detail/27-04-2020-who-timeline
+     </ext-link>
+     —covid-19/ accessed on 23 July 2020). COVID-19 outbreak is the result of transmission of the virus to humans from animals (Gorbalenya et al.,     ). There is neither a drug nor a vaccine available for SARS-CoV2 (Prasad &amp; Prasad,     ).
+    </p>
+    <p>
+     SARS-CoV2 belongs to the genus – Betacoronavirus, Subfamily – Orthocoronavirinae, Family – Coronaviridae, Suborder – Cornidovirineae and Order – Nidovirales. MERS-CoV and SARS-CoV also belongs to the same genus Betacoronavirus (Gorbalenya et al.,     ). The genome of the SARS-CoV2 is a positive sense single stranded RNA that acts as mRNA immediately after its release into the host cell. The genome of coronavirus is approximately 20 kb–30 kb. Two-third of the genome of Coronavirus towards 5′ - end is made up of two overlapping open reading frames, ORF1a and ORF1b that codes for the synthesis of several nonstructural proteins. ORF1a is translated and results in the synthesis of ORF1a polyprotein. However, due to ribosomal frame shifting, the ribosome continues to translate the ORF1b resulting in the synthesis of ORF1ab polyprotein. Cleavage of the mature peptide of ORF1ab gives rise to the following peptides – nsp2 to nsp4, nsp6 to nsp11, 3C-like proteinase, RNA-dependent RNA polymerase, helicase, 3′- to 5′-exonuclease, endoRNAse and 2′-O-ribose methyltransferase. Remaining one-third of the genome of Coronavirus towards 3′-end is made up of structural proteins consisting of Surface Glycoprotein (S), Envelope (E), Membrane Glycoprotein (M) and Nucleocapsid phosphoprotein (N). Interspersed between these four structural genes are ORF3a, ORF6, ORF7a–ORF7b, ORF8 and ORF10 genes (NCBI Accession MT434760) (Graham et al.,     ; Joshi et al.,     ; Kim et al.,     ; Prasad &amp; Prasad,     ).
+    </p>
+    <p>
+     Membrane glycoprotein is the most abundant protein in the Coronaviruses (Rottier,     ). As the name indicates, the ‘M’ protein is embedded in the viral lipid bilayer. The N- terminal end is exposed outside and the C- terminal end is present inside the virus with three transmembrane helices embedded in the lipid bilayer (Bianchi et al.,     ; Kumar et al.,     ). It is an important glycoprotein that alone plays an important role in intracellular budding (Kumar et al.,     ; Rottier,     ; Tang et al.,     ). It is different from the remaining glycoproteins of Coronavirus in terms of its structure and function (Rottier,     ). It is flanked on its 5′-end by gene ‘E’ coding for Envelope protein and towards 3′ – end by gene ORF6 (NCBI Accession MT434760).
+    </p>
+    <p>
+     Vaccines provide protection from infectious diseases (Thomas &amp; Luxon,     ). For the successful development of a vaccine candidate till its release into the market takes considerable amount of time as it needs to qualify in different phases in the clinical trials along with the huge investment involved. However, at times, the rate of success of the vaccine is also bleak. In such a scenario, Immunoinformatics approach is helpful in reducing the time taken for the development of vaccines compared with the conventional approaches and there are examples of the successful development of vaccine candidates by adopting
+     <italic>
+      in silico
+     </italic>
+     approaches (Ada et al.,     ; Bhatnager et al.,     ; He et al.,     ; Kim et al.,     ; Oli et al.,     ; Patronov &amp; Doytchinova,     ; Tordello et al.,     and the appropriate references cited therein). The whole genome sequence of the SARS-CoV2 is made available in the public domain by next generation sequencing. This enabled the design of several multi-epitope
+     <italic>
+      in silico
+     </italic>
+     vaccine candidates targeting different structural and nonstructural proteins of the SARS-CoV2 (Bhatnager et al.,     ; Bhattacharya et al.,     ; Devi &amp; Chaitanya,     ; Dong et al.,     ; Enayatkhani et al.,     ; Kar et al.,     ; Lizbeth et al.,     ; Peele et al.,     ; Samad et al.,     ). In the present study, we aimed to design a novel multi-epitope vaccine targeting membrane glycoprotein by immunoinformatics approach.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0002">
+    <label>
+     2.
+    </label>
+    <title>
+     Methods
+    </title>
+    <p>
+     A flowchart summarizing the steps involved in the design of the multi-epitope vaccine in the present study is shown in     .
+    </p>
+    <sec disp-level="2" id="S0002-S2001">
+     <label>
+      2.1.
+     </label>
+     <title>
+      Retrieval of nucleotide sequences from NCBI GenBank
+     </title>
+     <p>
+      Amino acid sequences of the Membrane glycoprotein corresponding to different geographical regions with the following accession numbers viz. MT434760, MT259226, MT066156, MT292577 and MT339041 were retrieved from NCBI GenBank. Multiple sequence alignment of the retrieved sequences was carried out online using Clustal Omega available at
+      <ext-link ext-link-type="uri" ns0:href="https://www.ebi.ac.uk/Tools/msa/clustalo/">
+       https://www.ebi.ac.uk/Tools/msa/clustalo/
+      </ext-link>
+      to find out the extent of similarity among the sequences. It was observed that the extent of similarity among all the accessions is 100%. Subsequently, 222 amino acid sequences were used for the design of multi-epitope vaccine. Beta- Defensin 3 amino acid sequence was retrieved from UniProt database (Q5U7J2).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2002">
+     <label>
+      2.2.
+     </label>
+     <title>
+      HLA-1 &amp; II molecules utilized in the present study
+     </title>
+     <p>
+      A total of 27 HLA-I alleles and 27 HLA-II alleles (HLA-A*01:01, HLA-A*02:01, HLA-A*02:03, HLA-A*02:06, HLA-A*03:01, HLA-A*11:01, HLA-A*23:01, HLA-A*24:02, HLA-A*26:01, HLA-A*30:01, HLA-A*30:02, HLA-A*31:01, HLA-A*32:01, HLA-A*33:01, HLA-A*68:01, HLA-A*68:02, HLA-B*07:02, HLA-B*08:01, HLA-B*15:01, HLA-B*35:01, HLA-B*40:01, HLA-B*44:02, HLA-B*44:03, HLA-B*51:01, HLA-B*53:01, HLA-B*57:01, HLA-B*58:01; HLA-DRB1*01:01, HLA-DRB1*03:01, HLA-DRB1*04:01, HLA-DRB1*04:05, HLA-DRB1*07:01, HLA-DRB1*08:02, HLA-DRB1*09:01, HLA-DRB1*11:01, HLA-DRB1*12:01, HLA-DRB1*13:02, HLA-DRB1*15:01, HLA-DRB3*01:01, HLA-DRB3*02:02, HLA-DRB4*01:01, HLA-DRB5*01:01, HLA-DQA1*05:01/DQB1*02:01, HLA-DQA1*05:01/DQB1*03:01, HLA-DQA1*03:01/DQB1*03:02, HLA-DQA1*04:01/DQB1*04:02, HLA-DQA1*01:01/DQB1*05:01, HLA-DQA1*01:02/DQB1*06:02, HLA-DPA1*02:01/DPB1*01:01, HLA-DPA1*01:03/DPB1*02:01, HLA-DPA1*01:03/DPB1*04:01, HLA-DPA1*03:01/DPB1*04:02, HLA-DPA1*02:01/DPB1*05:01, HLA-DPA1*02:01/DPB1*14:01) were used in the present study for predicting the affinities of different peptides derived from the membrane glycoprotein of SARS-CoV2 for HLA - I &amp; II. These alleles are considered to occur more frequently than others. (
+      <ext-link ext-link-type="uri" ns0:href="https://help.iedb.org/hc/en-us/articles/114094151851">
+       https://help.iedb.org/hc/en-us/articles/114094151851
+      </ext-link>
+      accessed on 05 July 2020 and the appropriate references cited therein).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2003">
+     <label>
+      2.3.
+     </label>
+     <title>
+      Prediction of HLA-I restricted (CTL) epitopes
+     </title>
+     <p>
+      MHC class-I Epitopes were identified in the present study using NetCTLpan − 1.1 (
+      <ext-link ext-link-type="uri" ns0:href="https://services.healthtech.dtu.dk/service.php?NetCTLpan-1.1">
+       https://services.healthtech.dtu.dk/service.php?NetCTLpan-1.1
+      </ext-link>
+      ) (Stranzl et al.,      ). It is considered to outperform any other CTL epitope predictor tools. Apart from this, it is more efficient in predicting new HLA-I/CTL epitopes compared to NetMHCpan and NetCTL tools (Stranzl et al.,      ). The output of the programme gives prediction scores for MHC- I binding affinity, TAP transport efficiency, Proteasomal C terminal cleavage, Ligand combined score and Percentage rank. Threshold for epitope identification was set at its default value of 1.0. The peptides whose %Rank was less than 1.0 were considered qualified for further analyses.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2004">
+     <label>
+      2.4.
+     </label>
+     <title>
+      Prediction of HLA-II restricted epitopes
+     </title>
+     <p>
+      NetMHCIIpan–4.0 (
+      <ext-link ext-link-type="uri" ns0:href="https://services.healthtech.dtu.dk/service.php?NetMHCIIpan-4.0">
+       https://services.healthtech.dtu.dk/service.php?NetMHCIIpan-4.0
+      </ext-link>
+      ) was used in the present study to predict the peptides that bind to a HLA-II molecule using Artificial Neural Networks. NetMHCIIpan is superior in terms of prediction of ligand compared to any of the existing T
+      <sub>
+       H
+      </sub>
+      cell epitope prediction tools (Reynisson et al.,      ). The output of the programme gives information on the peptide sequence, core peptide region, eluted ligand prediction score, Percentile rank of eluted ligand prediction score and Bind level (binding affinity of the peptide). Threshold for strong binding peptides was set to default value. Only strong binding peptides, whose %Rank was less than the threshold value of 2.0, were included in the present study.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2005">
+     <label>
+      2.5.
+     </label>
+     <title>
+      Population coverage analysis
+     </title>
+     <p>
+      HLA genotype frequencies vary across different populations in the world. The nature of HLA polymorphism has its influence on the binding of a given peptide derived from the multi-epitope vaccine to HLA-I/II molecules (Bui et al.,      ). Therefore, it is important to know the extent of coverage of world population by the multi-epitope vaccine constructed in the present study. To determine this, IEDB Analysis Resource available at
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/population/">
+       http://tools.iedb.org/population/
+      </ext-link>
+      (Bui et al.,      ) was used. A comprehensive account on the fundamental principles of the tool is available at
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/population/help/for">
+       http://tools.iedb.org/population/help/for
+      </ext-link>
+      further reading. In the present study, population (World) coverage analysis was carried for HLA class I and class II combined. A total of eight T-cell epitopes as well as their corresponding HLA alleles were given as input.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2006">
+     <label>
+      2.6.
+     </label>
+     <title>
+      Prediction of B-cell epitopes
+     </title>
+     <p>
+      Linear B-cell epitopes were predicted using BepiPred-2.0 (
+      <ext-link ext-link-type="uri" ns0:href="https://services.healthtech.dtu.dk/service.php?BepiPred-2.0">
+       https://services.healthtech.dtu.dk/service.php?BepiPred-2.0
+      </ext-link>
+      ) at the default threshold of 0.5 (Jespersen et al.,      ). Only peptides which are of a minimum of 10 amino acids long are considered for further analyses.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2007">
+     <label>
+      2.7.
+     </label>
+     <title>
+      Prediction of antigenicity, allergenicity and toxicity of HLA – I, II &amp; B-cell epitopes
+     </title>
+     <p>
+      Initially each of the peptide was analyzed for important parameters viz. antigenicity, allergenicity and toxicity. Antigenicity of the peptides was determined using VaxiJen v2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html">
+       http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html
+      </ext-link>
+      ). Allergenicity of the peptides was determined using AllerTOP v2.0 (
+      <ext-link ext-link-type="uri" ns0:href="https://www.ddg-pharmfac.net/AllerTOP/">
+       https://www.ddg-pharmfac.net/AllerTOP/
+      </ext-link>
+      ) (Dimitrov et al.,      ) and Toxicity of the peptides was determined using ToxinPred (
+      <ext-link ext-link-type="uri" ns0:href="https://webs.iiitd.edu.in/raghava/toxinpred/design.php">
+       https://webs.iiitd.edu.in/raghava/toxinpred/design.php
+      </ext-link>
+      ) (Gupta et al., 2013). Determination of all the above three properties for the individual peptides as well as for the entire vaccine construct was carried out at default settings (unless stated otherwise). However, for B-cell epitopes, the threshold for VaxiJen was set to 0.4 to accommodate for a greater number of B-cell epitopes in the final vaccine construct.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2008">
+     <label>
+      2.8.
+     </label>
+     <title>
+      Construction of multi-epitope vaccine
+     </title>
+     <p>
+      For the construction of a multi-epitope vaccine, β - defensin was used as an adjuvant. PADRE sequence was also included in the final vaccine construct. The following four linkers viz. EAAAK, GPGPG, AAY and KK were used for joining the epitopes. EAAAK was used for joining adjuvant and PADRE sequence. CTL, HTL and B-cell epitopes were joined by AAY, GPGPG and KK, respectively. A His6 tag was added to the c-terminal end of the vaccine construct to aid in purification.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2009">
+     <label>
+      2.9.
+     </label>
+     <title>
+      Interferon-γ inducing epitope prediction
+     </title>
+     <p>
+      Interferon-γ (IFN-γ) inducing ability of the vaccine was determined using IFNepitope (
+      <ext-link ext-link-type="uri" ns0:href="https://webs.iiitd.edu.in/raghava/ifnepitope/scan.php">
+       https://webs.iiitd.edu.in/raghava/ifnepitope/scan.php
+      </ext-link>
+      ) (Dhanda et al.,      ). The online server generates overlapping peptides (15 amino acids long) and predicts the IFN-γ inducing ability of each of the peptide generated. ‘Motif and SVM hybrid’ method of prediction was selected in the ‘Scan’ module.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2010">
+     <label>
+      2.10.
+     </label>
+     <title>
+      Evaluation of physicochemical properties of the vaccine
+     </title>
+     <p>
+      ProtParam (
+      <ext-link ext-link-type="uri" ns0:href="https://web.expasy.org/protparam/">
+       https://web.expasy.org/protparam/
+      </ext-link>
+      ) Gasteiger et al. (      ) was used to predict the physicochemical properties of the vaccine viz. molecular weight, theoretical pI, amino acid composition, atomic composition, extinction co-efficient, estimated half-life, instability index, aliphatic index and grand average of hydropathicity (GRAVY).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2011">
+     <label>
+      2.11.
+     </label>
+     <title>
+      Prediction of discontinuous B-cell epitopes in the final vaccine construct
+     </title>
+     <p>
+      Linear and discontinuous B-cell epitopes in the final vaccine construct were predicted using BepiPred − 2.0 (
+      <ext-link ext-link-type="uri" ns0:href="https://services.healthtech.dtu.dk/service.php?BepiPred-2.0">
+       https://services.healthtech.dtu.dk/service.php?BepiPred-2.0
+      </ext-link>
+      ) and DiscoTope v2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/DiscoTope/">
+       http://www.cbs.dtu.dk/services/DiscoTope/
+      </ext-link>
+      &amp;
+      <ext-link ext-link-type="uri" ns0:href="http://tools.iedb.org/discotope/">
+       http://tools.iedb.org/discotope/
+      </ext-link>
+      ) (Kringelum et al.,      ), respectively. Default threshold value of 0.5 and −3.7 were used for the prediction of epitopes in BepiPred and DiscoTope, respectively.
+     </p>
+     <p>
+      For the prediction of discontinuous B-cell epitopes using DiscoTope, three dimensional structure of the vaccine construct in ‘.PDB’ format was given as an input. The output of the programme consists of chain id, residue number, amino acid, contact number, propensity score, DiscoTope score and identified B cell epitope (shown against the residue).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2012">
+     <label>
+      2.12.
+     </label>
+     <title>
+      Prediction of the secondary structure
+     </title>
+     <p>
+      Secondary structure of the vaccine construct was predicted using PSIPRED 4.0 web server (
+      <ext-link ext-link-type="uri" ns0:href="http://bioinf.cs.ucl.ac.uk/psipred/">
+       http://bioinf.cs.ucl.ac.uk/psipred/
+      </ext-link>
+      ) (Buchan &amp; Jones,      ; Jones,      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2013">
+     <label>
+      2.13.
+     </label>
+     <title>
+      Prediction, refinement and validation of tertiary structure
+     </title>
+     <p>
+      I-TASSER (Iterative Threading ASSEmbly Refinement) available online at
+      <ext-link ext-link-type="uri" ns0:href="https://zhanglab.ccmb.med.umich.edu/I-TASSER/">
+       https://zhanglab.ccmb.med.umich.edu/I-TASSER/
+      </ext-link>
+      was used for the prediction of tertiary structure of the protein (Roy et al.,      ). In the first step, it employs LOMETS, a meta-server threading programme for template-based protein structure prediction. It contains 11 threading programs. Each threading programme generates many templates from PDB that are aligned with the query sequence. However, only one template that has shown the highest
+      <italic>
+       z
+      </italic>
+      -score from each of the threading programs is selected. Subsequently, 10 threading programs are ranked. Thus, the output from LOMETS contains the top 10 threading programs along with their respective high score template. Using the templates generated from LOMETS, in the next series of steps, I-TASSER generates top five final models. Each model is given a Confidence score (
+      <italic>
+       C
+      </italic>
+      -score). The quality of each of the predicted models is estimated by means of
+      <italic>
+       C
+      </italic>
+      -score. A higher
+      <italic>
+       C
+      </italic>
+      -score implies higher confidence in the particular model generated. Apart from
+      <italic>
+       C
+      </italic>
+      -score, I-TASSER computes TM-score and RMSD value for all the five models. I-TASSER chooses the top model out of the five models generated which has a strong correlation between
+      <italic>
+       C
+      </italic>
+      -score and TM-score.
+     </p>
+     <p>
+      The tertiary structure generated by I-TASSER was submitted to ‘GalaxyRefine2’ (
+      <ext-link ext-link-type="uri" ns0:href="http://galaxy.seoklab.org/cgi-bin/submit.cgi?type=REFINE2">
+       http://galaxy.seoklab.org/cgi-bin/submit.cgi?type=REFINE2
+      </ext-link>
+      ) available at GalaxyWEB server (
+      <ext-link ext-link-type="uri" ns0:href="http://galaxy.seoklab.org/index.html">
+       http://galaxy.seoklab.org/index.html
+      </ext-link>
+      ) for the refinement of protein structure obtained from the top model generated by I-TASSER. GalaxyRefine2 is an advanced version of ‘GalaxyRefine’, utilizes local operators and global operators as well as local error estimation and homology structure information for the improvement of the accuracy of the structure of the input protein (Lee et al.,      ). It generates 10 refined models and provides information related to RMSD, MolProbity, Clash score, Poor rotamers, Rama favored and ‘GALAXY energy’ for all the ten models in comparison with the user submitted model. The refined model obtained from GalaxyRefine2 was used as a final vaccine candidate for docking and
+      <italic>
+       in silico
+      </italic>
+      cloning.
+     </p>
+     <p>
+      The refined tertiary structure obtained from GalaxyRefine2 was further validated using ProSA-web, a protein structure analysis tool available at
+      <ext-link ext-link-type="uri" ns0:href="https://prosa.services.came.sbg.ac.at/prosa.php">
+       https://prosa.services.came.sbg.ac.at/prosa.php
+      </ext-link>
+      (Sippl,      ; Wiederstein &amp; Sippl,      ). The overall quality of the protein is indicated by the
+      <italic>
+       z
+      </italic>
+      -score. The output of the programme is represented in the form of a graph consisting of
+      <italic>
+       z
+      </italic>
+      -scores (
+      <italic>
+       y
+      </italic>
+      -axis) of the structures of native proteins deduced from X-ray and NMR spectroscopy against the number of residues (
+      <italic>
+       x
+      </italic>
+      -axis).
+     </p>
+     <p>
+      The Ramachandran plot of the protein was obtained using RAMPAGE (accessed at
+      <ext-link ext-link-type="uri" ns0:href="http://mordred.bioc.cam.ac.uk/~rapper/rampage.php">
+       http://mordred.bioc.cam.ac.uk/∼rapper/rampage.php
+      </ext-link>
+      ). The output of the programme gives information on the number of residues in favored region, allowed region and in the outlier region. Overall quality factor of the unrefined and refined protein was computed using ERRAT web server available at
+      <ext-link ext-link-type="uri" ns0:href="https://servicesn.mbi.ucla.edu/ERRAT/">
+       https://servicesn.mbi.ucla.edu/ERRAT/
+      </ext-link>
+      (Colovos &amp; Yeates,      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2014">
+     <label>
+      2.14.
+     </label>
+     <title>
+      Docking of the vaccine with TLR-3
+     </title>
+     <p>
+      TLRs (Toll Like Receptors) are immune receptors play an important role in eliciting immune responses against infection by bacteria and viruses. Adjuvants have an ability to induce innate and adaptive immune responses upon their interaction with TLRs. In the present study, β – defensin was included in the vaccine construct as an adjuvant for enhancing the efficacy of the vaccine. It acts as an agonist for TLR3. As a result, docking study was carried out between TLR3 (Receptor) and Vaccine (Ligand) to study the binding affinity of the ligand with the receptor (Bhatnager et al.,      ; Pandey et al.,      ).
+     </p>
+     <p>
+      Docking of the Vaccine with TLR-3 (PDB: 1ZIW) was performed online using PatchDock available at
+      <ext-link ext-link-type="uri" ns0:href="https://bioinfo3d.cs.tau.ac.il/PatchDock/php.php">
+       https://bioinfo3d.cs.tau.ac.il/PatchDock/php.php
+      </ext-link>
+      (Duhovny et al.,      ; Schneidman-Duhovny et al.,      ) with the following default parameters consisted of (i) Clustering RMSD: 4.0, (ii) Complex type: default. Prior to docking, the ligands (NDG, NAG, SO
+      <sub>
+       4
+      </sub>
+      &amp; Glycerol) and water molecules associated with the crystal structure of the TLR-3 was removed using PyMOL. The top-10 binding modes generated from PatchDock were submitted to FireDock (Fast Interaction Refinement in molecular Docking) available online at
+      <ext-link ext-link-type="uri" ns0:href="http://bioinfo3d.cs.tau.ac.il/FireDock/php.php">
+       http://bioinfo3d.cs.tau.ac.il/FireDock/php.php
+      </ext-link>
+      (Andrusier et al.,      ; Mashiach et al.,      ). FireDock yields a refined output consisting of the ranked list of the top 10 models generated by PatchDock.
+     </p>
+     <p>
+      DIMPLOT under LigPlot + v2.2 was used for studying the interactions between the residues of Chain-A (TLR-3) and Chain-B (Vaccine construct) in the docked complex.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2015">
+     <label>
+      2.15.
+     </label>
+     <title>
+      Codon adaptation and in silico cloning of vaccine candidate
+     </title>
+     <p>
+      JCat (JAVA Codon Adaptation Tool), an online tool available at
+      <ext-link ext-link-type="uri" ns0:href="http://www.jcat.de/Start.jsp">
+       http://www.jcat.de/Start.jsp
+      </ext-link>
+      (Grote et al.,      ) was utilized for the Codon-adaptation of the vaccine construct in
+      <italic>
+       Escherichia coli
+      </italic>
+      (Strain K12). Standard genetic code was used for the conversion of input amino acid sequence of the vaccine construct to the DNA sequence. Apart from this, additional options such as (i) avoid rho-independent transcription terminators, (ii) avoid prokaryotic ribosome binding sites and (iii) avoid cleavage sites of restriction enzymes, were selected for the generation of the optimized DNA sequence corresponding to the input amino acid sequence of the vaccine construct.
+     </p>
+     <p>
+      SnapGene® 5.1.4.1 was utilized for the
+      <italic>
+       in silico
+      </italic>
+      cloning of the DNA sequence (obtained from JCat) into pET-28a (+) vector. Prior to cloning, the DNA sequence of the vaccine construct was verified for the absence of specific restriction enzyme recognition sites that were to be utilized for cloning into the vector. After confirmation, those restriction enzyme sequences were added on N- terminal and C-terminal regions of the vaccine construct for successful cloning.
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0002-S2016">
+     <label>
+      2.16.
+     </label>
+     <title>
+      Immune-simulation
+     </title>
+     <p>
+      In the present study, C-IMMSIM an agent-based model available at
+      <ext-link ext-link-type="uri" ns0:href="http://150.146.2.1/C-IMMSIM/index.php?page=1">
+       http://150.146.2.1/C-IMMSIM/index.php?page=1
+      </ext-link>
+      (accessed on 25 July 2020) was used to simulate the immune response of host for the vaccine designed in the present study. A new fast Position Specific Scoring Matrix (PSSM) was utilized in C-IMMSIMM for the prediction of epitopes that binds to HLA molecules. Further, the strength of interaction of a given peptide-HLA complex with a T-cell receptor is scored using Miyazawa–Jernigan residue–residue potential in the tool (Rapin et al.,      ). For the immune-simulation studies, host HLA selection consisted of heterozygous combination of HLA-A (HLA-A*01:01, HLA-A*02:01), HLA-B (HLA-B*15:01, HLA-B*57:01) and HLA-II (DRB1_0101, DRB1_1302). These HLA molecules were randomly chosen from among the HLA alleles, whose interacting peptides were utilized for the construction of multi-epitope vaccine. Three injections of the vaccine (without LPS) were given at four weeks interval with the following time steps (one time step corresponds to 8 h): 1, 84 and 168. (Nain et al., 2020; Shey et al., 2019). Rest of the parameters viz. Random seed, simulation volume, number of antigens to inject were set to their default values except for ‘Simulation Steps’ that was set to 1050.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0003">
+    <label>
+     3.
+    </label>
+    <title>
+     Results and discussion
+    </title>
+    <sec disp-level="2" id="S0003-S2001">
+     <label>
+      3.1.
+     </label>
+     <title>
+      Selection of epitopes for vaccine design
+     </title>
+     <sec disp-level="3" id="S0003-S2001-S3001">
+      <label>
+       3.1.1.
+      </label>
+      <title>
+       Prediction of HLA-I &amp; II epitopes
+      </title>
+      <p>
+       A total of 37 and 24 peptides which have binding affinity for chosen HLA-I (HLA-A &amp; HLA-B) (       ) and HLA-II alleles (       ) were identified by NetCTLpan and NetMHCIIpan, respectively. These peptides were selected from among many peptides predicted by NetCTLpan and NetMHCIIpan on the basis of their percentage rank.
+      </p>
+      <table-wrap id="t0001" orientation="portrait" position="float">
+       <label>
+        Table 1.
+       </label>
+       <caption>
+        <p>
+         Prediction of HLA-I epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <colgroup>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+        </colgroup>
+        <thead>
+         <tr>
+          <th align="left">
+           Sr. No.
+          </th>
+          <th align="center">
+           Position
+          </th>
+          <th align="center">
+           Allele
+          </th>
+          <th align="center">
+           Peptide
+          </th>
+          <th align="center">
+           Antigenicity (Prediction score)
+          </th>
+          <th align="center">
+           Allergenicity
+          </th>
+          <th align="center">
+           Toxicity
+          </th>
+         </tr>
+        </thead>
+        <tbody valign="top">
+         <tr>
+          <td align="left">
+           <bold>
+            1
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            14
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            HLA-A*02:01, HLA-A*02:06
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            KLLEQWNLV
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen* (0.8252)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2
+          </td>
+          <td align="center">
+           28
+          </td>
+          <td align="left">
+           HLA-B*57:01, HLA-B*58:01
+          </td>
+          <td align="left">
+           LTWICLLQF
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           3
+          </td>
+          <td align="center">
+           38
+          </td>
+          <td align="left">
+           HLA-A*01:01, HLA-A*30:02
+           <break/>
+           HLA-B*35:01, HLA-B*53:01
+          </td>
+          <td align="left">
+           YANRNRFLY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4
+          </td>
+          <td align="center">
+           46
+          </td>
+          <td align="left">
+           HLA-A*23:01
+           <break/>
+           HLA-B*57:01, HLA-B*58:01
+          </td>
+          <td align="left">
+           YIIKLIFLW
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5
+          </td>
+          <td align="center">
+           49
+          </td>
+          <td align="left">
+           HLA-A*32:01
+           <break/>
+           HLA-B*57:01, HLA-B*58:01
+          </td>
+          <td align="left">
+           KLIFLWLLW
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6
+          </td>
+          <td align="center">
+           53
+          </td>
+          <td align="left">
+           HLA-A*23:01, HLA-A*24:02
+          </td>
+          <td align="left">
+           LWLLWPVTL
+          </td>
+          <td align="left">
+           Antigen* (0.7272)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            7
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            56
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            HLA-A*23:01, HLA-A*24:02
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            LWPVTLACF
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen*
+           </bold>
+           <break/>
+           <bold>
+            (0.5599)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8
+          </td>
+          <td align="center">
+           63
+          </td>
+          <td align="left">
+           HLA-A*33:01
+          </td>
+          <td align="left">
+           CFVLAAVYR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           9
+          </td>
+          <td align="center">
+           64
+          </td>
+          <td align="left">
+           HLA-A*02:01, HLA-A*02:06
+          </td>
+          <td align="left">
+           FVLAAVYRI
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10
+          </td>
+          <td align="center">
+           66
+          </td>
+          <td align="left">
+           HLA-B*57:01, HLA-B*58:01
+          </td>
+          <td align="left">
+           LAAVYRINW
+          </td>
+          <td align="left">
+           Antigen* (0.6884)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11
+          </td>
+          <td align="center">
+           71
+          </td>
+          <td align="left">
+           HLA-A*32:01
+          </td>
+          <td align="left">
+           RINWITGGI
+          </td>
+          <td align="left">
+           Antigen*
+           <break/>
+           (0.5347)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12
+          </td>
+          <td align="center">
+           83
+          </td>
+          <td align="left">
+           HLA-B*57:01, HLA-B*58:01
+          </td>
+          <td align="left">
+           MACLVGLMW
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13
+          </td>
+          <td align="center">
+           86
+          </td>
+          <td align="left">
+           HLA-A*01:01, HLA-A*30:02
+          </td>
+          <td align="left">
+           LVGLMWLSY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14
+          </td>
+          <td align="center">
+           88
+          </td>
+          <td align="left">
+           HLA-A*02:01, HLA-A*02:03, HLA-A*02:06, HLA-A*32:01
+          </td>
+          <td align="left">
+           GLMWLSYFI
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15
+          </td>
+          <td align="center">
+           91
+          </td>
+          <td align="left">
+           HLA-A*26:01, HLA-A*32:01
+           <break/>
+           HLA-B*08:01, HLA-B*15:01, HLA-B*35:01,
+          </td>
+          <td align="left">
+           WLSYFIASF
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16
+          </td>
+          <td align="center">
+           92
+          </td>
+          <td align="left">
+           HLA-A*11:01, HLA-A*31:01, HLA-A*33:01, HLA-A*68:01
+          </td>
+          <td align="left">
+           LSYFIASFR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           17
+          </td>
+          <td align="center">
+           93
+          </td>
+          <td align="left">
+           HLA-A*23:01, HLA-A*24:02
+          </td>
+          <td align="left">
+           SYFIASFRL
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           18
+          </td>
+          <td align="center">
+           94
+          </td>
+          <td align="left">
+           HLA-A*23:01, HLA-A*24:02
+          </td>
+          <td align="left">
+           YFIASFRLF
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           19
+          </td>
+          <td align="center">
+           96
+          </td>
+          <td align="left">
+           HLA-A*31:01, HLA-A*33:01, HLA-A*68:01
+          </td>
+          <td align="left">
+           IASFRLFAR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            20
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            98
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            HLA-A*31:01
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            SFRLFARTR
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen* (0.5617)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           21
+          </td>
+          <td align="center">
+           100
+          </td>
+          <td align="left">
+           HLA-A*30:01, HLA-A*32:01
+           <break/>
+           HLA-B*07:02, HLA-B*08:01, HLA-B*15:01
+          </td>
+          <td align="left">
+           RLFARTRSM
+          </td>
+          <td align="left">
+           Antigen* (0.6876)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           22
+          </td>
+          <td align="center">
+           101
+          </td>
+          <td align="left">
+           HLA-A*23:01, HLA-A*24:02
+          </td>
+          <td align="left">
+           LFARTRSMW
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           23
+          </td>
+          <td align="center">
+           135
+          </td>
+          <td align="left">
+           HLA-B*40:01, HLA-B*44:02, HLA-B*44:03
+          </td>
+          <td align="left">
+           SELVIGAVI
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           24
+          </td>
+          <td align="center">
+           137
+          </td>
+          <td align="left">
+           HLA-A*68:01
+          </td>
+          <td align="left">
+           LVIGAVILR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           25
+          </td>
+          <td align="center">
+           141
+          </td>
+          <td align="left">
+           HLA-A*31:01
+          </td>
+          <td align="left">
+           AVILRGHLR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           26
+          </td>
+          <td align="center">
+           147
+          </td>
+          <td align="left">
+           HLA-A*30:01
+           <break/>
+           HLA-B*07:02, HLA-B*08:01, HLA-B*15:01
+          </td>
+          <td align="left">
+           HLRIAGHHL
+          </td>
+          <td align="left">
+           Antigen* (0.6265)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            27
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            149
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            HLA-A*31:01
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            RIAGHHLGR
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen* (0.5394)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           28
+          </td>
+          <td align="center">
+           169
+          </td>
+          <td align="left">
+           HLA-A*01:01, HLA-A*30:02
+           <break/>
+           HLA-B*15:01, HLA-B*35:01, HLA-B*53:01, HLA-B*58:01
+          </td>
+          <td align="left">
+           VATSRTLSY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            29
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            170
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            HLA-A*01:01, HLA-A*03:01, HLA-A*11:01, HLA-A*26:01, HLA-A*30:02
+           </bold>
+           <break/>
+           <bold>
+            HLA-B*15:01, HLA-B*57:01, HLA-B*58:01
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            ATSRTLSYY
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen*
+           </bold>
+           <break/>
+           <bold>
+            (0.5067)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           30
+          </td>
+          <td align="center">
+           171
+          </td>
+          <td align="left">
+           HLA-A*03:01, HLA-A*11:01, HLA-A*30:01, HLA-A*31:01, HLA-A*68:01
+          </td>
+          <td align="left">
+           TSRTLSYYK
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            31
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            177
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            HLA-A*33:01
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            YYKLGASQR
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen*
+           </bold>
+           <break/>
+           <bold>
+            (0.9954)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           32
+          </td>
+          <td align="center">
+           187
+          </td>
+          <td align="left">
+           HLA-A*01:01, HLA-A*30:02
+          </td>
+          <td align="left">
+           AGDSGFAAY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           33
+          </td>
+          <td align="center">
+           190
+          </td>
+          <td align="left">
+           HLA-A*30:02
+           <break/>
+           HLA-B*15:01
+          </td>
+          <td align="left">
+           SGFAAYSRY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           34
+          </td>
+          <td align="center">
+           195
+          </td>
+          <td align="left">
+           HLA-A*26:01, HLA-A*01:01, HLA-A*30:02,
+           <break/>
+           HLA-B*15:01
+          </td>
+          <td align="left">
+           YSRYRIGNY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           35
+          </td>
+          <td align="center">
+           197
+          </td>
+          <td align="left">
+           HLA-A*23:01, HLA-A*24:02, HLA-A*30:01
+          </td>
+          <td align="left">
+           RYRIGNYKL
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           36
+          </td>
+          <td align="center">
+           211
+          </td>
+          <td align="left">
+           HLA-A*68:02
+          </td>
+          <td align="left">
+           SSSDNIALL
+          </td>
+          <td align="left">
+           Antigen* (1.4683)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           37
+          </td>
+          <td align="center">
+           212
+          </td>
+          <td align="left">
+           HLA-A*01:01
+          </td>
+          <td align="left">
+           SSDNIALLV
+          </td>
+          <td align="left">
+           Antigen*
+           <break/>
+           (1.0318)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0002" orientation="portrait" position="float">
+       <label>
+        Table 2.
+       </label>
+       <caption>
+        <p>
+         Prediction of HLA-II epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <colgroup>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+        </colgroup>
+        <thead>
+         <tr>
+          <th align="left">
+           Sr.No.
+          </th>
+          <th align="center">
+           Pos.
+          </th>
+          <th align="center">
+           MHC
+          </th>
+          <th align="center">
+           Peptide
+          </th>
+          <th align="center">
+           Antigenicity (Prediction score)
+          </th>
+          <th align="center">
+           Allergenicity
+          </th>
+          <th align="center">
+           Toxicity
+          </th>
+         </tr>
+        </thead>
+        <tbody valign="top">
+         <tr>
+          <td align="left">
+           1
+          </td>
+          <td align="center">
+           1
+          </td>
+          <td align="left">
+           HLA-DQA10301-DQB10302,
+           <break/>
+           HLA-DQA10401-DQB10402
+          </td>
+          <td align="left">
+           MADSNGTITVEELKK
+          </td>
+          <td align="left">
+           Antigen*(0.7854)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           2
+          </td>
+          <td align="center">
+           5
+          </td>
+          <td align="left">
+           HLA-DPA10201-DPB10101,
+           <break/>
+           HLA-DPA10301-DPB10402,
+           <break/>
+           HLA-DPA10201-DPB10501
+          </td>
+          <td align="left">
+           NGTITVEELKKLLEQ
+          </td>
+          <td align="left">
+           Antigen*(0.6935)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            3
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            34
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            DRB1_1302
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            LLQFAYANRNRFLYI
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen*(0.5577)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           4
+          </td>
+          <td align="center">
+           67
+          </td>
+          <td align="left">
+           DRB3_0202
+          </td>
+          <td align="left">
+           LAAVYRINWITGGIA
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           5
+          </td>
+          <td align="center">
+           71
+          </td>
+          <td align="left">
+           HLA-DQA10501-DQB10301
+          </td>
+          <td align="left">
+           YRINWITGGIAIAMA
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           6
+          </td>
+          <td align="center">
+           94
+          </td>
+          <td align="left">
+           HLA-DPA10201-DPB10501
+          </td>
+          <td align="left">
+           SYFIASFRLFARTRS
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           7
+          </td>
+          <td align="center">
+           97
+          </td>
+          <td align="left">
+           DRB1_0802, DRB1_1101
+          </td>
+          <td align="left">
+           IASFRLFARTRSMWS
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           8
+          </td>
+          <td align="center">
+           107
+          </td>
+          <td align="left">
+           DRB3_0202,
+          </td>
+          <td align="left">
+           RSMWSFNPETNILLN
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            9
+           </bold>
+          </td>
+          <td align="center">
+           <bold>
+            109
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            DRB1_0101
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            MWSFNPETNILLNVP
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen*
+           </bold>
+           <break/>
+           <bold>
+            (0.5349)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           10
+          </td>
+          <td align="center">
+           114
+          </td>
+          <td align="left">
+           DRB1_1302, DRB3_0202
+          </td>
+          <td align="left">
+           PETNILLNVPLHGTI
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           11
+          </td>
+          <td align="center">
+           136
+          </td>
+          <td align="left">
+           HLA-DQA10102-DQB10602,
+           <break/>
+           HLA-DQA10501-DQB10301
+          </td>
+          <td align="left">
+           SELVIGAVILRGHLR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           12
+          </td>
+          <td align="center">
+           146
+          </td>
+          <td align="left">
+           DRB1_0802, DRB1_1101
+          </td>
+          <td align="left">
+           RGHLRIAGHHLGRCD
+          </td>
+          <td align="left">
+           Antigen*(0.5183)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           13
+          </td>
+          <td align="center">
+           148
+          </td>
+          <td align="left">
+           HLA-DPA10103-DPB10201
+          </td>
+          <td align="left">
+           HLRIAGHHLGRCDIK
+          </td>
+          <td align="left">
+           Antigen*(0.5755)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           14
+          </td>
+          <td align="center">
+           164
+          </td>
+          <td align="left">
+           DRB1_0701
+          </td>
+          <td align="left">
+           LPKEITVATSRTLSY
+          </td>
+          <td align="left">
+           Antigen*(0.5118)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           15
+          </td>
+          <td align="center">
+           165
+          </td>
+          <td align="left">
+           DRB1_0101, DRB1_0901,
+           <break/>
+           DRB1_1201, DRB1_1302,
+           <break/>
+           DRB1_1501, DRB5_0101,
+          </td>
+          <td align="left">
+           PKEITVATSRTLSYY
+          </td>
+          <td align="left">
+           Antigen*(0.5797)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           16
+          </td>
+          <td align="center">
+           166
+          </td>
+          <td align="left">
+           DRB1_1201
+          </td>
+          <td align="left">
+           KEITVATSRTLSYYK
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           17
+          </td>
+          <td align="center">
+           175
+          </td>
+          <td align="left">
+           DRB5_0101
+          </td>
+          <td align="left">
+           TLSYYKLGASQRVAG
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           18
+          </td>
+          <td align="center">
+           176
+          </td>
+          <td align="left">
+           DRB1_0101, DRB1_0701, DRB1_0901, DRB3_0202,
+           <break/>
+           DRB5_0101, HLA-DQA10501-DQB10301
+          </td>
+          <td align="left">
+           LSYYKLGASQRVAGD
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           19
+          </td>
+          <td align="center">
+           177
+          </td>
+          <td align="left">
+           DQA10501-DQB10301
+          </td>
+          <td align="left">
+           SYYKLGASQRVAGDS
+          </td>
+          <td align="left">
+           Antigen*(0.6318)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           20
+          </td>
+          <td align="center">
+           184
+          </td>
+          <td align="left">
+           DRB1_0301, DRB3_0101
+          </td>
+          <td align="left">
+           SQRVAGDSGFAAYSR
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           21
+          </td>
+          <td align="center">
+           190
+          </td>
+          <td align="left">
+           DRB1_1302,
+           <break/>
+           HLA-DPA10201-DPB10501
+          </td>
+          <td align="left">
+           DSGFAAYSRYRIGNY
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           22
+          </td>
+          <td align="center">
+           196
+          </td>
+          <td align="left">
+           HLA-DPA10103-DPB10201
+          </td>
+          <td align="left">
+           YSRYRIGNYKLNTDH
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           23
+          </td>
+          <td align="center">
+           201
+          </td>
+          <td align="left">
+           DRB1_0401, DRB1_0405,
+           <break/>
+           DRB1_0802, DRB1_1302,
+           <break/>
+           DRB3_0202
+          </td>
+          <td align="left">
+           IGNYKLNTDHSSSSD
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Nonallergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           24
+          </td>
+          <td align="center">
+           202
+          </td>
+          <td align="left">
+           DRB1_0401, DRB3_0101
+          </td>
+          <td align="left">
+           GNYKLNTDHSSSSDN
+          </td>
+          <td align="left">
+           Nonantigen
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </sec>
+     <sec disp-level="3" id="S0003-S2001-S3002">
+      <label>
+       3.1.2.
+      </label>
+      <title>
+       Prediction of linear and discontinuous B-cell epitopes
+      </title>
+      <p>
+       BepiPred predicted a total of five epitopes. Of these, three epitopes were more than 10 amino acids long. Among the three epitopes, two were found to be nonallergic, nontoxic and antigenic. Hence, these two epitopes, KLGASQRVAGDS and RYRIGNYKLNTDHSSSSDNIA were included in the vaccine construct (       ).
+      </p>
+      <table-wrap id="t0003" orientation="portrait" position="float">
+       <label>
+        Table 3.
+       </label>
+       <caption>
+        <p>
+         Linear B-cell epitopes predicted by BepiPred.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <colgroup>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+         <col width="80pt"/>
+        </colgroup>
+        <thead>
+         <tr>
+          <th align="left">
+           Position
+          </th>
+          <th align="center">
+           Peptide
+          </th>
+          <th align="center">
+           Antigenicity (Prediction score)
+          </th>
+          <th align="center">
+           Allergenicity
+          </th>
+          <th align="center">
+           Toxicity
+          </th>
+         </tr>
+        </thead>
+        <tbody valign="top">
+         <tr>
+          <td align="left">
+           5-20
+          </td>
+          <td align="left">
+           NGTITVEELKKLLEQW
+          </td>
+          <td align="left">
+           Antigen
+           <break/>
+           (0.4974)
+          </td>
+          <td align="left">
+           Allergen
+          </td>
+          <td align="left">
+           Nontoxin
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            180-191
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            KLGASQRVAGDS
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen
+           </bold>
+           <break/>
+           <bold>
+            (0.6960)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            198-218
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            RYRIGNYKLNTDHSSSSDNIA
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Antigen
+           </bold>
+           <break/>
+           <bold>
+            (0.4339)
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nonallergen
+           </bold>
+          </td>
+          <td align="left">
+           <bold>
+            Nontoxin
+           </bold>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <p>
+       Unlike BepiPred, which predicts B-cell epitopes that are continuous in a linear peptide sequence, DiscoTope predicts B-cell residues present on the surface of the three-dimensional structure of a protein. This implies that those residues what are distant in a linear peptide sequence, can come close when the protein assumes three-dimensional conformation to form a B-cell epitope (Kringelum et al.,       ). DiscoTope at a threshold of −3.7 identified 25 B-cell epitope residues (residue numbers 172, 182, 186, 188, 192, 195–196, 202–203, 207–211, 213–223) out of 223 total residues (       ).
+      </p>
+      <p>
+       The final vaccine construct consists of both linear and discontinuous epitopes as determined from the results obtained using BepiPred and DiscoTope, respectively, which can induce humoral immune responses. This was also evident from the results obtained from Immune simulation.
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2001-S3003">
+      <label>
+       3.1.3.
+      </label>
+      <title>
+       Antigenicity and allergenicity
+      </title>
+      <p>
+       All the T and B- cell epitopes in the present study were screened for their antigenicity, allergenicity and toxicity. Only those peptides which were antigenic, nonallergic and nontoxic were used in the present study for the design of vaccine construct. The final vaccine construct (223 amino acids) was found to be antigenic in all the three models viz. Tumor (threshold: 0.49), Virus (threshold: 0.4) and Bacteria (threshold: 0.4). It was also found to be nonallergic.
+      </p>
+     </sec>
+    </sec>
+    <sec disp-level="2" id="S0003-S2002">
+     <label>
+      3.2.
+     </label>
+     <title>
+      Design of vaccine construct
+     </title>
+     <p>
+      The final vaccine construct is 223 amino acids long (      ). It consists of a total of six HLA-I, two HLA-II and two B-cell epitopes. Apart from this, at the N-terminal end, β-defensin was included in the vaccine construct for increasing the immunogenicity of the multi-epitope vaccine. β-defensin acts as an adjuvant and elicits antiviral responses (Kim et al.,      ; Lei et al.,      ). β-defensins are anti-microbial peptides involved in eliciting innate immune responses. Apart from this, β-defensin interact with the immune receptors such as TLRs or CCR6 and induces innate and adaptive immune responses (Lei et al.,      ). It is used as an adjuvant in the construction of several vaccines by Immunoinformatics approach (Ali et al.,      ; Bhatnager et al.,      ; Dong et al.,      ; Narula et al.,      ).
+     </p>
+     <p>
+      Apart from β-defensin, PADRE (pan DR epitope) sequence was also included in the vaccine construct to increase the immunogenicity of the vaccine construct as well as to enhance the T-cell help (Alexander et al.,      ; Sarkar et al.,      ; Wu et al.,      ). PADRE sequence acts as a TLR agonist adjuvant. It is a 13 amino acid long synthetic peptide that has an ability to effectively induce CD4+ T cell help. It has got several advantages, e.g. ability to bind to most of the HLA-DR molecules, clinically safe for humans and more potent than other universally available T
+      <sub>
+       H
+      </sub>
+      cell epitopes (Ghaffari-Nazari et al.,      ). In the present study, it is placed at the N-terminal end between β-defensin and HLA-I epitopes and was connected to these two by EAAAK and AAY linkers, respectively.
+     </p>
+     <table-wrap id="t0004" orientation="portrait" position="float">
+      <label>
+       Table 4.
+      </label>
+      <caption>
+       <p>
+        Vaccine construct.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <col width="80pt"/>
+       <tbody valign="top">
+        <tr>
+         <td align="left">
+          <bold>
+           EAAAK
+          </bold>
+          GIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK
+          <bold>
+           EAAAK
+          </bold>
+          AKFVAAWTLKAAA
+          <bold>
+           AAY
+          </bold>
+          KLLEQWNLV
+          <bold>
+           AAY
+          </bold>
+          LWPVTLACF
+          <bold>
+           AAY
+          </bold>
+          SFRLFARTR
+          <bold>
+           AAY
+          </bold>
+          RIAGHHLGR
+          <bold>
+           AAY
+          </bold>
+          ATSRTLSYY
+          <bold>
+           AAY
+          </bold>
+          YYKLGASQR
+          <bold>
+           GPGPG
+          </bold>
+          LLQFAYANRNRFLYI
+          <bold>
+           GPGPG
+          </bold>
+          MWSFNPETNILLNVP
+          <bold>
+           KK
+          </bold>
+          KLGASQRVAGDS
+          <bold>
+           KK
+          </bold>
+          RYRIGNYKLNTDHSSSSDNIAHHHHHH
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <p>
+      In the present study, EAAAK linker was attached at the N-terminal end of the vaccine construct (Mittal et al.,      ; Sarkar et al.,      ) and was also used to join the β-defensin sequence with PADRE sequence (Sarkar et al.,      ). EAAAK is a rigid α-helix forming peptide linker, with intramolecular hydrogen bonding having a closed packed backbone. Rigid linkers possess several advantages when compared to the flexible linkers. EAAAK linkers offer efficient separation of the functional domains by keeping a fixed distance with minimal interference between the epitopes thereby maintaining their individual functional properties (Chen et al.,      ). This helps in the effective separation of domains in a bifunctional fusion protein (Arai et al.,      ).
+     </p>
+     <p>
+      GPGPG linker was used to join the HLA-II epitopes (Livingston et al.,      ; Sarkar et al.,      ) in the present study. GPGPG linker was designed by Livingston et al. (      ) as a universal spacer (Li et al.,      ). GPGPG linkers were demonstrated to be able to induce T
+      <sub>
+       H
+      </sub>
+      lymphocyte (HTL) responses which is crucial for a multi-epitope vaccine. Further, GPGPG linker is a valuable tool in breaking the junctional immunogenicity, which leads to the restoration of immunogenicity of the individual epitopes. This was experimentally demonstrated by Livingston et al. (      ) in mice models.
+     </p>
+     <p>
+      HLA-I epitopes were joined by AAY linker (Bhatnager et al.,      ) in the present study. AAY (Ala-Ala-Tyr) linker is the cleavage site for the proteasomes in mammalian cells. Therefore, epitopes joined using AAY linker gets separated effectively within the cells; thereby reducing the junctional immunogenicity. AAY linker also increases the immunogenicity of the multi-epitope vaccine (Yang et al.,      ).
+     </p>
+     <p>
+      In the present study, KK linker was used to join the B-cell epitopes (Gu et al.,      ; Nain et al., 2020; Sarkar et al.,      ). The Lysine linker is the target for the Cathepsin B, a lysosomal protease involved in processing of the antigenic peptides for their presentation on the cell surface in an MHC-II restricted antigen presentation. It also plays a crucial role in reducing the junctional immunogenicity by avoiding the induction of antibodies for the peptide sequence that individual epitopes can form when they are joined linearly (Yano et al.,      ). KK linkers also increase the immunogenicity (Li et al.,      ).
+     </p>
+     <p>
+      Linkers play an important role in minimizing the junctional immunogenicity and also in preserving the identity of each individual epitope during the processing of the vaccine within the cells thereby ensuring the immunogenicity of each epitope (Bhatnager et al.,      ; Meza et al.,      ; Shey et al.,      ). A multi-epitope vaccine without linkers may result in a new protein with unknown properties or may result in the formation of neoepitopes/junctional epitopes (Livingston et al.,      ; Meza et al.,      ).
+     </p>
+    </sec>
+    <sec disp-level="2" id="S0003-S2003">
+     <label>
+      3.3.
+     </label>
+     <title>
+      Evaluation of the designed vaccine
+     </title>
+     <sec disp-level="3" id="S0003-S2003-S3001">
+      <label>
+       3.3.1.
+      </label>
+      <title>
+       Population coverage analysis
+      </title>
+      <p>
+       Population coverage analysis using the T-cell epitopes used for the construction of the vaccine covers 94.06% of world’s population (HLA-I &amp; II combined).
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3002">
+      <label>
+       3.3.2.
+      </label>
+      <title>
+       IFN-γ inducing epitope prediction
+      </title>
+      <p>
+       IFN- γ is a cytokine that modulates various immune responses. It is mainly secreted by activated T- cells and Natural Killer cells. It plays an important role in promoting macrophage activation, enhancing the antigen presentation, activation of the innate immune system, promoting antiviral and antibacterial immunity, etc. (Tau &amp; Rothman,       ). IFNepitope generated a total of 215 epitopes. Out of these, 88 epitopes had positive score and 127 had negative score. The IFN-γ inducing epitopes constitute around 41% of the total number of peptides. This is consistent with the results obtained from the Immune-simulation studies (       ) which had showed an increase in the levels of IFN-γ at all the three stages of the immune response towards the vaccine.
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3003">
+      <label>
+       3.3.3.
+      </label>
+      <title>
+       Evaluation of physicochemical properties of the vaccine
+      </title>
+      <p>
+       Molecular weight and theoretical pI of the protein was 24.9 kDa and 10.16, respectively. Based on the theoretical pI of the vaccine, it is basic in nature. Extinction coefficient of the protein was found to be 45,840 M       cm       at 280 nm when all Cys residues are reduced. Total number of negatively charged residues (Asp + Glu) is nine and the total number of positively charged residues (Arg + Lys) is 37. Estimated half-life was 1 h in mammalian reticulocytes (
+       <italic>
+        in vitro
+       </italic>
+       ), 30 min in yeast,
+       <italic>
+        in vivo
+       </italic>
+       and more than 10 h in
+       <italic>
+        Escherichia coli
+       </italic>
+       ,
+       <italic>
+        in vivo
+       </italic>
+       . The instability index of the protein vaccine was computed to be 36.21; this classifies the vaccine as stable. A protein whose instability index is greater than 40 is considered unstable and vice-versa (
+       <ext-link ext-link-type="uri" ns0:href="https://web.expasy.org/protparam/protparam-doc.html">
+        https://web.expasy.org/protparam/protparam-doc.html
+       </ext-link>
+       ; accessed on 28 July 2020). Aliphatic index (defined as the relative volume occupied by aliphatic side chains) of the protein is 73.77. This indicates that the vaccine is thermo stable. The GRAVY value for the protein is −0.400. This indicates that the protein is hydrophilic
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3004">
+      <label>
+       3.3.4.
+      </label>
+      <title>
+       Prediction of the secondary structure
+      </title>
+      <p>
+       The secondary structure of the final vaccine construct contained 16% beta strand, 39% alpha helix and 44% coil (       ).
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3005">
+      <label>
+       3.3.5.
+      </label>
+      <title>
+       Prediction, refinement and validation of tertiary structure
+      </title>
+      <p>
+       <bold>
+        <italic>
+         I-TASSER
+        </italic>
+        :
+       </bold>
+       PDB ID codes of the top threading templates generated in I-TASSER by LOMETS were as follows: 1kj6, 2z36A, 3r9cA, 1gh6B, 6gk5A, 5id6A (
+       <italic>
+        z
+       </italic>
+       score &lt;1). I-TASSER reported five models which correspond to five large structure clusters. Model 1 was chosen as the best template out of the five models generated by I-TASSER. It has the
+       <italic>
+        C
+       </italic>
+       -score of −4.67, Exp.TM-Score: 0.23 ± 0.07 &amp; Exp. RMSA value of 17.2. This model has shown comparatively strong correlation between
+       <italic>
+        C
+       </italic>
+       -score and TM-score. For the remaining models, a weak correlation was observed between
+       <italic>
+        C
+       </italic>
+       -score and TM-score.
+      </p>
+      <p>
+       <bold>
+        <italic>
+         GalaxyRefine2
+        </italic>
+        :
+       </bold>
+       GalaxyRefine2 was used for the refinement of tertiary structure predicted by I-TASSER (       ). Of the 10 models generated, Model 7 was selected for further analyses and consisted of the following parameters viz. RMSD, 2.089; MolProbity, 1.903; Clash score, 5.4; Poor rotamers, 0; Rama favored, 87.3 and GALAXY energy, −4085.36.
+      </p>
+      <p>
+       <bold>
+        <italic>
+         ProSA-web
+        </italic>
+        :
+       </bold>
+       The
+       <italic>
+        z
+       </italic>
+       -value of the protein was −5.77, which fell within the range characteristic for native proteins of similar sizes as can be observed from       . This is an indication that the predicted tertiary structure probably does not contain errors. Visual interpretation of
+       <italic>
+        z
+       </italic>
+       -value obtained for the tertiary structure predicted by I-TASSER (image not shown) as well as for the refined models generated using GalaxyRefine (image not shown) and GalaxyRefine2 (       ) indicated that
+       <italic>
+        Z
+       </italic>
+       -values fell within the region normally observed for native proteins of similar size.
+      </p>
+      <p>
+       <bold>
+        <italic>
+         RAMPAGE
+        </italic>
+        :
+       </bold>
+       Analysis of the Ramachandran plot of the refined protein obtained from GalaxyRefine2 showed that 88.7% of residues in favored region, 8.1% of residues in allowed region and 3.2% of residues in outlier region (       ). When the parameters of Ramachandran plot obtained for the model generated and refined using I-TASSER (60.6% of residues in favored region, 20.4% residues in allowed region and 19% of residues in outlier region) and GalaxyRefine (81% of the residues are in favored region, 13.1% of the residues in the allowed region and 5.9% of the residues are in outlier region), respectively, were evaluated, the model obtained from GalaxyRefine2 is better when compared with the models obtained from GalaxyRefine and I-TASSER.
+      </p>
+      <p>
+       The ERRAT score for the refined protein obtained using GalaxyRefine2 was found to be 70% (data not shown); whereas, for the unrefined (I-TASSER) and refined (GalaxyRefine) models, the ERRAT score was found to be 54% and 46%, respectively (data not shown).
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3006">
+      <label>
+       3.3.6.
+      </label>
+      <title>
+       Docking of the vaccine with TLR-3
+      </title>
+      <p>
+       All the top 10 models obtained as a result of docking the vaccine with TLR-3 in PatchDock were refined further and ranked by FireDock. Solution number 6 was the refined docked complex ranked as number 1 by FireDock (       ), with the following parameters: Global energy, 8.71; Attractive VdW, −47.04; Repulsive VdW, 27.04; ACE, 23.02; and HB, −6.25.
+      </p>
+      <p>
+       The docked complex showed interactions between the ligand and the receptor. The interacting residues between the receptor and ligand in the docked complex was visualized using DIMPLOT module in LigPlot + as shown in       .
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3007">
+      <label>
+       3.3.7.
+      </label>
+      <title>
+       Codon adaptation
+      </title>
+      <p>
+       The multi-epitope vaccine construct consisted of 223 amino acids and the total number of nucleotides present in the DNA sequence generated by JCat after codon-adaptation consisted of 669. CAI value and GC-content of the improved sequence were 0.96 and 52.31, respectively. The CAI value &gt;0.8 is considered as a good value for high-level expression and the range for optimal GC content is 30–70% (Nezafat et al.,       ). Thus, the CAI value and GC-content obtained are highly satisfactory for the expression of the multi-epitope vaccine in the
+       <italic>
+        E coli
+       </italic>
+       (strain K12) (Nezafat et al.,       ; Pandey et al.,       ).
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3008">
+      <title>
+       <italic>
+        3.3.8.
+       </italic>
+       In silico
+       <italic>
+        cloning of vaccine candidate
+       </italic>
+      </title>
+      <p>
+       DNA sequence was cloned into pET-28a (+) vector in between Pae71-PspXI-XhoI and MluI restriction sites. These restriction sites were not present at both the ends as well as within the DNA sequence of the vaccine construct. As a result, the XhoI and MluI restriction sites were added at the N- terminal and C- terminal ends, respectively. After this, the insert was treated with these two restriction enzymes
+       <italic>
+        in silico
+       </italic>
+       in SnapGene and the insert DNA was successfully cloned into the vector (       ). The vector along with the insert was 5079 bp in length.
+      </p>
+     </sec>
+     <sec disp-level="3" id="S0003-S2003-S3009">
+      <label>
+       3.3.9.
+      </label>
+      <title>
+       Immune simulation
+      </title>
+      <p>
+       Immune simulation results obtained from C-ImmSim showed increased levels of IgM + IgG, IgM, IgG1 and IgG1 + IgG2 antibodies in the secondary and tertiary immune responses when compared to primary immune response. IgM and IgM + IgG antibodies were seen in the primary immune response. However, the peaks depicting the titers of IgM and IgM + IgG are distinctly separated in the secondary and tertiary responses than in primary response. There is a decrease in the levels of antigen at each stage of immune response with the increase in the levels of antibodies (       ). The decrease in antigen count is also attributed to the increase in the total count of B (       ) and T-lymphocytes. Apart from B-lymphocytes, active (       ) and total T
+       <sub>
+        H
+       </sub>
+       (helper) (       ) cell populations along with memory T
+       <sub>
+        H
+       </sub>
+       cell (       ) populations were increased during the secondary and tertiary immune responses. The T
+       <sub>
+        H
+       </sub>
+       cell count (active and total) in the secondary and tertiary immune responses is more when compared to primary immune response. There is also an increase in the active T
+       <sub>
+        C
+       </sub>
+       (Cytotoxic) cell population per state (       ).
+      </p>
+      <p>
+       Immune simulation studies showed an increase in the levels of antibodies, B- lymphocytes, T
+       <sub>
+        H
+       </sub>
+       (including memory cells) and T
+       <sub>
+        C
+       </sub>
+       cells owing to the administration of the vaccine designed in the present study. This is evident with the development of primary, secondary and tertiary immune responses’ and subsequent clearance of antigen from the system.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec disp-level="1" id="S0004">
+    <label>
+     4.
+    </label>
+    <title>
+     Conclusion
+    </title>
+    <p>
+     In the present study, a vaccine was designed against membrane glycoprotein of SARS-CoV2 by different
+     <italic>
+      in silico
+     </italic>
+     tools. T-cell and B- cell epitopes were designed using different online servers that are efficient in predicting the epitopes. Only those epitopes which are antigenic, nonallergic and nontoxic were used for the construction of vaccine. Epitopes were joined by different linkers to reduce junctional immunogenicity and also for efficient separation and presentation to T-cell and B- cell receptors. Population coverage analysis (using the epitopes that were used for the construction of the vaccine) had shown that the vaccine can cover 94.06% of the world-wide population. Secondary and tertiary structures were predicted for the protein. Subsequently, the tertiary model generated was further refined and validated. Molecular docking was performed between the vaccine construct and TLR-3 receptor. Various molecular interactions, i.e. hydrogen bonding, hydrophobic interactions, etc. were visualized between the protein and TLR-3 receptors. Condon optimization was carried for cloning and expression of the vaccine in
+     <italic>
+      E. coli
+     </italic>
+     . CAI value of 0.9 was obtained for codon-optimization; indicating the high-level of protein expression in the
+     <italic>
+      E coli
+     </italic>
+     host. The vaccine was successfully cloned into pET-28a (+) vector. The multi-epitope vaccine was efficient in eliciting primary, secondary and tertiary immune responses as evident from Immune simulation studies. The proposed vaccine needs to be further validated for its efficacy by
+     <italic>
+      in vivo
+     </italic>
+     studies.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

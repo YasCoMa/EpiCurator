@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  SARS-CoV-2 Epitopes Are Recognized by a Public and Diverse Repertoire of Human T Cell Receptors
+ </title>
+ <abstract>
+  <p>
+   Understanding the hallmarks of the immune response to SARS-CoV-2 is critical for fighting the COVID-19 pandemic. We assessed antibody and T cell reactivity in convalescent COVID-19 patients and healthy donors sampled both prior to and during the pandemic. Healthy donors examined during the pandemic exhibited increased numbers of SARS-CoV-2-specific T cells, but no humoral response. Their probable exposure to the virus resulted in either asymptomatic infection without antibody secretion or activation of preexisting immunity. In convalescent patients, we observed a public and diverse T cell response to SARS-CoV-2 epitopes, revealing T cell receptor (TCR) motifs with germline-encoded features. Bulk CD4   and CD8   T cell responses to the spike protein were mediated by groups of homologous TCRs, some of them shared across multiple donors. Overall, our results demonstrate that the T cell response to SARS-CoV-2, including the identified set of TCRs, can serve as a useful biomarker for surveying antiviral immunity.
+  </p>
+  <p>
+   <list id="ulist0010" list-type="simple">
+    <list-item id="u0010">
+     <label>
+      •
+     </label>
+     <p id="p0010">
+      Healthy donors sampled in 2020 had an increased T cell response to SARS-CoV-2
+     </p>
+    </list-item>
+    <list-item id="u0015">
+     <label>
+      •
+     </label>
+     <p id="p0015">
+      SARS-CoV-2 glycoprotein S-specific TCR repertoire features public CDR3 motifs
+     </p>
+    </list-item>
+    <list-item id="u0020">
+     <label>
+      •
+     </label>
+     <p id="p0020">
+      Two epitopes are recognized by the majority of the HLA-A2+ COVID-19 convalescents
+     </p>
+    </list-item>
+   </list>
+  </p>
+  <p>
+   Shomuradova et al. assessed the immune response to SARS-CoV-2 in convalescent patients and healthy donors. Antigen-specific T cells were increased in convalescents and in donors sampled during the pandemic. The work identified two public epitopes from S-glycoprotein. T cell receptor repertoire profiling of S-glycoprotein-specific lymphocytes revealed public CDR3 motifs.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="p0025">
+     Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the virus responsible for the global coronavirus disease 2019 (COVID-19) pandemic (     ;     ;     ;     ;     ). Elucidating the mechanisms underlying the adaptive immune response to SARS-CoV-2 will be crucial for predicting vaccine efficacy and assessing the possibility of reinfection.
+    </p>
+    <p id="p0030">
+     It is commonly assumed that antibody response is required for viral clearance (     ). Multiple serological tests for detection of SARS-CoV-2-specific antibodies are being developed (     ;     ;     ), and massive efforts are being undertaken in many countries to estimate the number of seropositive individuals in the population. Monoclonal antibodies (     ;     ;     ) and plasma of convalescent patients (CPs) are also being developed as therapy for COVID-19 (     ;     ). For example, administration of monoclonal neutralizing antibodies against the spike (S) protein of SARS-CoV-2 protects experimental animals from high doses of virus (     ). However, about 30% of CPs have no or very low titers of SARS-CoV-2 neutralizing antibodies (     ), suggesting that other immune mechanisms are involved in viral elimination.
+    </p>
+    <p id="p0035">
+     There is strong evidence for an important role of T cell immunity in the clearance of respiratory viruses, such as the SARS-CoV that caused an atypical pneumonia outbreak in 2003. Memory T cell responses to SARS-CoV epitopes were detectable in 50% of CPs at 12 months post-infection (     ). Moreover, CD8     T cells specific to the immunodominant epitope of S protein of a mouse-adapted SARS-CoV strain protected aged mice from otherwise lethal infection (     ). In another study, the adoptive transfer of SARS-CoV-specific CD8     or CD4     T cells or immunization with a peptide-pulsed dendritic cell-based vaccine reduced viral titers in the lungs and enhanced survival of mice, showing that T cells are sufficient for virus clearance even in the absence of antibodies or activation of the innate immune system (     ). Other studies in mice likewise suggest a leading role for CD4     T cells in SARS-CoV clearance. For example, depletion of CD4     T cells at the time of SARS-CoV infection delayed viral clearance, whereas depletion of CD8     T cells had no such effect (     ). Furthermore, CD4     T cell response was found to be correlated with a positive outcome of SARS-CoV infection (     ).
+    </p>
+    <p id="p0040">
+     In humans, severe SARS-CoV infection was characterized by the delayed development of the adaptive immune response and delayed viral clearance (     ). Decreased numbers of T cells were strongly correlated with disease severity (     ). T cells not only contribute to the resolution of infection but also form a long-lasting memory response to SARS-CoV. For example, CD8     and CD4     cells isolated from CPs 4 years after recovery secreted interferon-γ (IFNγ) in response to stimulation by peptide pools derived from the S, N, and M proteins of SARS-CoV (     ). SARS-CoV antigen-specific T cells have been shown to persist in CPs for up to 11 years post-infection (     ). The S protein in particular has been shown to be the most immunogenic among all the SARS-CoV antigens (     ;     ), and specific T cell epitopes have been identified for the SARS-CoV S protein. For example, two CD8     epitopes were presented in HLA-A     02:01 and elicited a specific response in SARS-CoV CPs but not in healthy donors (     ). Several CD8     T cell epitopes have also been identified for the M (     ,     ) and N (     ) proteins of SARS-CoV.
+    </p>
+    <p id="p0045">
+     Growing evidence likewise supports an important role for the T cell response to SARS-CoV-2 in disease control. High CD8     T cell counts in the lungs are correlated with better control of SARS-CoV-2 progression (     ). The presence of T follicular helper cells and CD8     T cells with activated phenotypes in the blood at the time of virus clearance suggests active involvement in the immune response in recovered patients (     ). On the other hand, an exhausted phenotype for CD8     T cells in the peripheral blood may serve as an indicator of poor disease prognosis (     ).
+    </p>
+    <p id="p0050">
+     In all likelihood, the immune memory is capable of protecting against reinfection by SARS-CoV-2. Studies in primates have demonstrated that repeated virus challenge failed to provoke reinfection once the initial infection was eliminated (     ). The T cells of CPs are responsive to stimulation by peptide pools covering the SARS-CoV-2 proteome. In particular, S protein is a strong inducer of Th1-type response in CD4     cells (     ). Interestingly, CD4     cells reactive to SARS-CoV-2 antigens were found not only in COVID-19 CPs but also in healthy donors (     ). A recent publication demonstrated that these T cells are cross-reactive to common cold coronaviruses (     ), although further studies are necessary to clarify whether this preexisting T cell response is protective. Other studies hint at a possible role of patient HLA genotype in response to the virus. According to bioinformatic predictions, some HLA alleles present more SARS-CoV-2 epitopes than others, possibly affecting the severity of disease (     ). Some known immunogenic T cell epitopes of SARS-CoV are conserved in SARS-CoV-2 (     ), suggesting that they might also play a role in the immune response to SARS-CoV-2. However, no experimental data about the targets of T cell reactivity are currently available.
+    </p>
+    <p id="p0055">
+     In order to investigate this question, we analyzed the adaptive immune response to SARS-COV-2 in COVID-19 CPs, with the aim of describing the underlying structure, clonality, and epitope specificity of the T cell immune response to the S protein. Here we examined the frequency of T cells specific to SARS-CoV-2 S protein in COVID-19 CPs and two cohorts of the healthy donors, revealing the higher magnitude of the immune response in individuals sampled during the COVID-19 pandemic compared with the biobanked samples. We were able to identify multiple similarity groups in the S protein-reactive TCR repertoires of CPs, some of which were statistically linked to particular HLA alleles and even tentative major histocompatibility complex (MHC) class I and II epitopes. The most prominent finding of our study was the discovery of two S protein epitopes, YLQ and RLQ, that elicit immune response in almost all HLA-A     02:01+ CPs. The analysis of the epitope-specific TCR repertoire revealed that YLQ epitope is recognized by the public CDR3 motifs with germline-like features.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Results
+    </title>
+    <sec id="sec2.1">
+     <title>
+      Virus-Specific T Cells but Not Antibodies Were Present in Healthy Donors during the Pandemic
+     </title>
+     <p id="p0060">
+      To study the adaptive immune response to SARS-CoV-2, we recruited 34 CPs. According to the classification developed by the U.S. National Institutes of Health, the patients were categorized as having asymptomatic (n = 2), mild (n = 20), or moderate to severe (n = 12) disease. None of the patients required treatment in the intensive care unit, oxygen supplementation, or invasive ventilation support. The cohort was gender balanced (17 male, 17 female), with ages ranging from 17 to 59 years and a median age of 35 years. Peripheral blood was collected between days 17 and 49 (median day 34) after the onset of symptoms or a positive PCR test result (      A). The control group included 14 healthy volunteers recruited during the COVID-19 pandemic (HD(CoV)) with no symptoms and negative PCR test results. We also obtained 10 samples of peripheral blood mononuclear cells (PBMCs) from biobanked healthy hematopoietic stem cell donors (HD(BB)), which were cryopreserved no later than September 2019, and 10 serum samples from healthy blood donors that were cryopreserved no later than 2017 (HD(S)). We tested all serum samples for the presence of SARS-CoV-2-specific antibodies, and cell samples were used to study the T cell response to pools of membrane (M), nucleoprotein (N), and S protein-derived peptides and to recombinant S protein in order to determine the T cell receptor (TCR) repertoire of S protein-specific cells.
+     </p>
+     <p id="p0065">
+      Analysis of the humoral immune response to SARS-CoV-2 demonstrated that the majority of CPs had IgG antibodies specific to all of the tested viral antigens. IgGs from the HD(CoV) and HD(BB) groups showed no reactivity to the S protein of SARS-CoV-2 or its receptor-binding domain (RBD) (      B and 1C). The presence of antibodies specific to the N protein in the various HD samples could be explained by either their cross-reactivity (N is among the most highly conserved SARS-CoV-2 genes) or by recognition of bacterial products co-purified with the antigen, which was expressed in
+      <italic>
+       E. coli
+      </italic>
+      (      B and      A). Despite the variability of the antibody response, in most cases the levels of IgG specific to all three antigens distinguished CP from HD (      B, 1C,      A, and S1B), and the response to RBD in particular exhibited the lowest background. Only two patients (p1472 and p1473) did not demonstrate IgG response to any of the tested viral antigens. In our cohort the level of humoral response did nor correlate with time since disease onset (      F–S1H), patient age (      I–S1K), or disease severity (      L–S1N). It should be noted that levels of IgG antibodies specific to different antigens positively correlated in CP (      D and      C–S1E), but with the strongest correlation (r = 0.83, p &lt; 0.0001) observed between RBD and S protein.
+     </p>
+     <p id="p0070">
+      The T cell response as measured by IFNγ secretion assay was highly variable across donors, with some CPs lacking detectable virus-reactive T cells (      E–1G). We did not observe any clear association between the magnitude of T cell response and the time since disease onset, disease severity, or patient age (      O–S1T). We observed a significant increase in activated (CD38      , HLA-DR      ) CD4      cells in the CP group compared with HD(CoV) (      H). We also observed only mild correlation between the magnitude of the T cell and humoral response in our cohort (for anti-RBD IgG and CD8      T cell response, r = 0.392 and p = 0.0219) whereas the magnitude of the CD8      and CD4      responses were interdependent (      D).
+     </p>
+     <p id="p0075">
+      All tested HD(CoV) sera lacked antibodies against SARS-CoV-2 antigens. Surprisingly, some exhibited comparable frequencies of S protein-specific T cells to donors from the CP group (      E and 1F). In addition to the significant difference in T cell response between CP and HD(BB) (CD4      , p &lt; 0.0001; CD8      , p = 0.0014), we also observed a significant increase in S protein-specific CD4      and CD8      T cells in HD(CoV) compared with HD(BB) (CD4      , p = 0.0108; CD8      , p = 0.045) (      G). This might indicate that some HD(CoV) patients were exposed to the virus but rapidly cleared it via T cells without developing a humoral response.
+     </p>
+     <p id="p0080">
+      S protein-specific T cells in CPs exhibited a conventional phenotype distribution typical to CD4      and CD8      cells. S protein-reactive CD4      T cells were represented predominantly by a central memory phenotype (CD45RO      , CD197      ) and, to a lesser extent, an effector memory phenotype (CD45RO      , CD197      ). Antigen-specific CD8      cells mostly had an effector memory phenotype, with the terminal effector (CD45RO      , CD197      ) phenotype second most abundant (      I and 1J). The level of PD-1 expression by CD4      , but not CD8      , cells was significantly higher in the IFNγ-secreting population (      K). The flow cytometry gating strategy for all populations is shown in      .
+     </p>
+     <p id="p0085">
+      We also measured the T cell immune response to recombinant S protein using ELISPOT and to peptide pools covering the S, M, and N proteins. Some patients responded to recombinant S protein while demonstrating no response to S protein-derived peptide pools (      ). This might be explained by incomplete coverage of the protein sequence (see      for details). Activation of T cells upon stimulation with full-length S protein was equally effective in both CD4      and CD8      lymphocytes (      A and S3B). The M protein-directed immune response was significantly stronger compared with the response to S protein (p = 0.0125) (      C and S3D). All CPs exhibited either CD8      or CD4      T cell reactivity to at least one of the proteins of SARS CoV-2 (      E and      ).
+     </p>
+    </sec>
+    <sec id="sec2.2">
+     <title>
+      Immune Response to Two HLA-A      02:01-Restricted S Protein Epitopes Discriminates CP and HD Samples
+     </title>
+     <p id="p0090">
+      The most common MHC I allele in the CP cohort was HLA-A      02:01 (      ), present in 17 of the 34 patients. We selected 13 potential S protein epitopes that were predicted to be presented by HLA-A      02:01; some of these shared 100% sequence homology with SARS-CoV and were previously shown to be immunogenic (      ). The magnitude of the S protein-directed response was less than 0.1% of the total CD8      population in some patients, so we decided to perform rapid
+      <italic>
+       in vitro
+      </italic>
+      antigen-specific expansion of memory cells using a previously published protocol (      ). Epitope-specific cells were detected by flow cytometry using MHC-tetramers (      A and 2B). Strikingly, 16 of 17 CPs with the HLA-A      02:01 allele reacted to a single epitope, S protein
+      <sub>
+       269–277
+      </sub>
+      YLQPRTFLL (YLQ), while only one HD(CoV) sample had cells recognizing this epitope. Response to another epitope, S protein
+      <sub>
+       1000–1008
+      </sub>
+      RLQSLQTYV (RLQ), was also characteristic for this group of patients, albeit to a lesser extent (      A). The proportion of positive wells that underwent expansion in response to both epitopes could be used to confirm previous COVID-19 (      C). The low level of homology of these two epitopes to common cold coronaviruses explains the almost complete absence of cross-reactive response in the HD group. The remaining 11 tested epitopes yielded only sporadic T cell responses (      A).
+      <table-wrap id="tbl1" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         HLA-A         02:01-Restricted Peptides of S Protein Used in This Study
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           N
+          </th>
+          <th>
+           Start Position
+          </th>
+          <th>
+           End Position
+          </th>
+          <th>
+           Length
+          </th>
+          <th>
+           AA Sequence
+          </th>
+          <th>
+           Cleavage Probability
+          </th>
+          <th>
+           Binding Score
+          </th>
+          <th>
+           Binding Rank
+          </th>
+          <th>
+           SARS-CoV-1 Identity
+          </th>
+          <th>
+           Link
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           1
+          </td>
+          <td>
+           269
+          </td>
+          <td>
+           277
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           YLQPRTFLL
+          </td>
+          <td>
+           0.977383
+          </td>
+          <td>
+           0.973032
+          </td>
+          <td>
+           0.015
+          </td>
+          <td>
+           6/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td>
+           417
+          </td>
+          <td>
+           425
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           KIADYNYKL
+          </td>
+          <td>
+           0.966616
+          </td>
+          <td>
+           0.908998
+          </td>
+          <td>
+           0.0583
+          </td>
+          <td>
+           8/9
+          </td>
+          <td>
+           –
+          </td>
+         </tr>
+         <tr>
+          <td>
+           3
+          </td>
+          <td>
+           424
+          </td>
+          <td>
+           433
+          </td>
+          <td>
+           10
+          </td>
+          <td>
+           KLPDDFTGCV
+          </td>
+          <td>
+           0.896237
+          </td>
+          <td>
+           0.591582
+          </td>
+          <td>
+           0.3676
+          </td>
+          <td>
+           8/10
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           4
+          </td>
+          <td>
+           691
+          </td>
+          <td>
+           699
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           SIIAYTMSL
+          </td>
+          <td>
+           0.951629
+          </td>
+          <td>
+           799,513
+          </td>
+          <td>
+           0.11
+          </td>
+          <td>
+           8/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           5
+          </td>
+          <td>
+           821
+          </td>
+          <td>
+           829
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           LLFNKVTLA
+          </td>
+          <td>
+           0.859019
+          </td>
+          <td>
+           0.785743
+          </td>
+          <td>
+           0.1599
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           6
+          </td>
+          <td>
+           958
+          </td>
+          <td>
+           966
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           ALNTLVKQL
+          </td>
+          <td>
+           0.943025
+          </td>
+          <td>
+           0.450592
+          </td>
+          <td>
+           0.6159
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           7
+          </td>
+          <td>
+           976
+          </td>
+          <td>
+           984
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           VLNDILSRL
+          </td>
+          <td>
+           0.97061
+          </td>
+          <td>
+           0.950712
+          </td>
+          <td>
+           0.0356
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           8
+          </td>
+          <td>
+           983
+          </td>
+          <td>
+           991
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           RLDKVEAEV
+          </td>
+          <td>
+           0.969105
+          </td>
+          <td>
+           0.860941
+          </td>
+          <td>
+           0.0962
+          </td>
+          <td>
+           9/9
+          </td>
+          <td>
+           –
+          </td>
+         </tr>
+         <tr>
+          <td>
+           9
+          </td>
+          <td>
+           996
+          </td>
+          <td>
+           1004
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           LITGRLQSL
+          </td>
+          <td>
+           0.891839
+          </td>
+          <td>
+           0.957880
+          </td>
+          <td>
+           1.98
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           10
+          </td>
+          <td>
+           1000
+          </td>
+          <td>
+           1008
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           RLQSLQTYV
+          </td>
+          <td>
+           0.748401
+          </td>
+          <td>
+           0.743108
+          </td>
+          <td>
+           0.199
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           11
+          </td>
+          <td>
+           1185
+          </td>
+          <td>
+           1193
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           RLNEVAKNL
+          </td>
+          <td>
+           0.9655
+          </td>
+          <td>
+           0.618928
+          </td>
+          <td>
+           0.3295
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           12
+          </td>
+          <td>
+           1192
+          </td>
+          <td>
+           1200
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           NLNESLIDL
+          </td>
+          <td>
+           0.945978
+          </td>
+          <td>
+           0.697243
+          </td>
+          <td>
+           0.2411
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           13
+          </td>
+          <td>
+           1220
+          </td>
+          <td>
+           1228
+          </td>
+          <td>
+           9
+          </td>
+          <td>
+           FIAGLIAIV
+          </td>
+          <td>
+           0.179154
+          </td>
+          <td>
+           0.82072
+          </td>
+          <td>
+           0.1288
+          </td>
+          <td>
+           9/9
+          </td>
+          <td/>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0095">
+      To describe the structure and clonality of the SARS-CoV-2 T cell response, we analyzed the TCR repertoires of fluorescence-activated cell sorting (FACS)-sorted IFNγ-secreting CD8      /CD4      cells and MHC-tetramer-positive populations as well as the total fraction of PBMCs by Illumina high-throughput sequencing. We observed only negligible intersection between the MHC-tetramer-positive and IFNγ-secreting populations (a single YLQ-specific clone was enriched in the IFNγ      population of p1445), indicating only a minimal presence of RLQ- and YLQ-specific clones in the peripheral blood. The YLQ-specific response was significantly more diverse than the RLQ-specific clones, with medians of 37 and 8 clones per individual, respectively (      D). T cell clones specific for both antigens were either undetectable or observed at a very low frequency in the total TCR repertoire of the peripheral blood (      E).
+     </p>
+     <p id="p0100">
+      We designated antigen and epitope-specific TCRs as those sequences that were strongly (≥10-fold) and significantly (p &lt; 10      , Fisher’s exact test) enriched (      F). The clonality of IFNγ-secreting cells was higher in CD8      T cells (      G); the number of IFNγ-secreting CD4      clones ranged between 0 and 545 (median 18), whereas the CD8      IFNγ-secreting cell population ranged from 0 to 121 (median 2) clones. Sequences of YLQ- and RLQ-specific clonotypes were deposited into the VDJdb database (
+      <ext-link ext-link-type="uri" id="intref0010" ns0:href="http://vdjdb.cdr3.net">
+       http://vdjdb.cdr3.net
+      </ext-link>
+      ) according to the recommendations of the Adaptive Immune Receptor Repertoire Community (      ). Clonotypes significantly enriched in the IFNγ-secreting CD4      and CD8      populations are listed in      .
+     </p>
+    </sec>
+    <sec id="sec2.3">
+     <title>
+      TCRs Specific to Two SARS-CoV-2 Epitopes Display Prominent Motifs Shared across Individuals
+     </title>
+     <p id="p0105">
+      Statistical analysis of V(D)J rearrangements in RLQ- and YLQ-specific TCRs revealed biases in the complementarity-determining region 3 (CDR3) length distribution (      A) and V gene usage (      B) for both TCRα (TRA) and β (TRB) chains. The CDR3 regions of these TCRs, with the exception of RLQ-specific TRB, appear to be substantially shorter than in a control PBMC repertoire. This is a feature previously shown to be associated with public TCRs that have higher V(D)J rearrangement probability and incidence rate across individuals (      ). TRB CDR3 length difference can also explain why YLQ-specific T cells are more frequent than RLQ-specific ones. We also observed some notable differences in the frequency of certain V genes. For example, TRAV12-1 and TRBV7-9 were used by 71% and 16% of YLQ-specific TCRs, and TRAV13-2 and TRBV6-5 were used by 15% and 25% of RLQ-specific TCRs, compared with just 3%–4% gene usage in control TCRs. Strong biases in V-gene usage in YLQ-specific α and β chains and RLQ-specific β chain (      A and S4B) might suggest the importance of germline-encoded features in TCR recognition of these peptides, as previously seen in other antiviral immune responses (      ;      ;      ;      ;      ;      ).
+     </p>
+     <p id="p0110">
+      We performed TCR sequence similarity analysis to extract the set of motifs that governs the recognition of RLQ and YLQ epitopes (see      ). Our analysis revealed a set of three distinct CDR3α and three distinct CDR3β motifs, each containing more than 10 highly similar sequences, from YLQ-specific T cells (      C). Interestingly, all of these motifs were encountered in the majority of donors surveyed (      D), suggesting the public nature of the response and little difference between motifs in terms of publicity. Moreover, some YLQ-specific TCRs were shared between multiple individuals, while others exhibited a high degree of global similarity (      C–S4F). Position-weight matrices of the motifs demonstrated a set of highly dissimilar consensuses (      E), suggesting that while RLQ- and YLQ-specific TCR repertoires are highly public, they are also diverse.
+     </p>
+    </sec>
+    <sec id="sec2.4">
+     <title>
+      Repertoire Analysis of CD4      and CD8      T Cell Responses to S Protein Reveals Public TCR Motifs
+     </title>
+     <p id="p0115">
+      We analyzed the repertoire sequencing data for bulk T cell responses to full-length S protein using the TCRNET algorithm described previously (      ). This algorithm detects groups of homologous TCR sequences that are unlikely to arise because of convergent V(D)J recombination and thus indicate an antigen-specific response. We scored each TCR sequence in a pooled dataset of IFNγ-producing CD4      and CD8      T cells by quantifying the number of similar TCR sequences observed in the same dataset and in the dataset of pooled corresponding PBMCs (      A). This analysis revealed 1,388 and 1,017 unique TRB clonotypes that are part of homologous TCR clusters for CD4      and CD8      subsets, respectively (      ). Of these, 227 CD4      and 109 CD8      TRB clonotypes overlapped with those determined above on the basis of the increased clonotype abundance in the stimulated fraction compared with control. Only two CDR3 amino acid sequences of tetramer-positive T cells were matched to these clusters when allowing a single amino acid substitution, both coming from YLQ-specific T cells.
+     </p>
+     <p id="p0120">
+      Plotting the CDR3 similarity graph revealed many large (in terms of the number of members) homologous clusters of various CDR3 lengths, with the CD4      subset displaying higher cluster density than CD8      (      B). The total number of clusters was higher for the CD8      subset than CD4      (220 versus 199 clusters), and the average CD4      cluster size was larger than CD8      in terms of the number of unique CDR3 amino acid sequences (5.8 versus 3.9). However, the average frequency of a given cluster in the corresponding datasets in terms of number of cells was larger for CD8      than CD4      (0.24% versus 0.11%), highlighting greater diversity of CD4      response, in line with previous reports (      ).
+     </p>
+     <p id="p0125">
+      We then mapped the set of detected TCR clusters back to the original donor samples (      C) and found that all donors exhibited some level of homologous TCR response. Yet there were also some prominent inter-donor differences. For example, donors p1448 and p1449 displayed many CD4      clusters; donors p1465 and p1480 displayed almost exclusively CD8      clusters; and donor p1484 displayed few clusters, although some exhibited high frequency in terms of the number of cells. Analysis of cluster sharing across donors (      D and 4E) revealed that most clusters are private to donors. That is expected, as donors have multiple unmatched HLAs, and cells are stimulated with whole protein. However, there were 12 CD4      and 13 CD8      clusters shared between stimulated cells of multiple donors (      F). One of these public clusters (C2) contained sequences matching those found in YLQ-specific T cells. We explored this cluster further by mapping it to IFNγ-producing CD8      T cell populations from all donors (      E); this revealed a set of TCR sequences in multiple donors matching cluster C2, all sharing the highly-conserved CDR3 motif CASS[YD][SGR][DTGN]TGELFF.
+     </p>
+     <p id="p0130">
+      To investigate the origins of the increased levels of S protein-specific CD4      and CD8      cells in the HD(CoV) cohort, we additionally analyzed TCR repertoires of FACS-sorted IFNγ-secreting CD8      /CD4      cells from the top five responders in this group. In three donors, we found TCRs homologous to six and two public CD8      and CD4      clusters, respectively (      G), whereas we found no public clusters within the HD(CoV) group. However, two clusters that were private in CP became public when we included HD(CoV) samples. This suggests that T cell response in healthy donors sampled during the pandemic is largely focused on the same set of epitopes.
+     </p>
+     <p id="p0135">
+      Next, we analyzed co-occurrence of public TCR clusters with HLA alleles in our CP cohort. Four CD8      clusters and two CD4      clusters were associated with HLA class I and II alleles with p value &lt; 0.05 by Fisher’s exact test (      A and S5B). In particular, CD8      cluster 72 and CD4      cluster 112 were strongly associated with HLA-B      15:01 (p = 0.0059) and HLA-DRB1      04:01 (p = 0.0074), respectively. This suggested that TCRs belonging to those clusters might recognize one of the S protein-derived peptides presented by these alleles. As some peptides might be presented by more than one HLA allele, we predicted all S protein-derived epitopes presented by class I and class II HLA alleles of the donors in our cohort, and analyzed the association of TCR cluster occurrence with the ability of the donor cells to present a particular peptide. This allowed us to pinpoint HLA-associated CD8      and CD4      clusters to a limited set of HLA class I- and class II-presented peptides (      C and S5D). Furthermore, some clusters lacking any association with HLA alleles were strongly correlated with the potential presence of particular peptides. For example, CD8      cluster 103 was associated with peptide DIADTTDAV, which can be presented by HLA-A      25:01, HLA-A      26:01 and HLA-B      35:02. For a complete list of predicted peptides and associated TCR clusters, refer to      .
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <title>
+     Discussion
+    </title>
+    <p id="p0140">
+     We analyzed T cell and humoral immune response to SARS-COV-2 in 34 donors who had recently recovered from COVID-19 and control cohorts of healthy donors sampled before or during the pandemic. Two patients (p1472 and p1473) had no detectable antibodies to any of the tested SARS-CoV-2 antigens and no T cell response to any of the peptide pools, but both had CD4     and CD8     T cells reactive to recombinant S protein. This finding is in line with other recent studies, where certain CPs had a T cell response in the absence of virus-specific antibodies (     ;     ;     ). This suggests that the T cell-mediated immune response has the potential to achieve virus clearance without the participation of the humoral immune response. We also cannot exclude reactivity to other viral proteins, such as ORF1ab, for which a strong T cell response has been demonstrated (     ;     ;     ).
+    </p>
+    <p id="p0145">
+     Like     , we found that detection of anti-RBD IgG yielded more reliable results than other tested antigens. On the other hand, although it was previously demonstrated that titers of anti-SARS-CoV-2 antibodies positively correlate with patient age (     ), we did not observe this pattern in our cohort.
+    </p>
+    <p id="p0150">
+     Accumulating data indicate that some healthy COVID-19-naive donors have T cells specific to SARS-CoV-2 antigens, in particular S protein (     ;     ;     ). Our findings support this, with the caveat that the significant increase in S protein-reactive T cells that we observed in healthy donors sampled during the pandemic was accompanied by a complete lack of SARS-CoV-2-specific antibodies in that group. This suggests that some donors may have had contact with SARS-CoV-2 before blood sampling and were either protected by the preexisting cross-reactive T cell response induced by other coronaviruses or developed an asymptomatic infection that was cleared without the help of the humoral response. This is illustrated by donor p1477, who is known to have cohabited with a COVID-19 patient but was negative in multiple PCR tests, did not have any COVID-19-typical or flu-like symptoms and had no detectable antibodies to any SARS-CoV-2 antigens. However, this hypothesis needs to be validated on a larger cohort of donors.
+    </p>
+    <p id="p0155">
+     As others have shown before (     ;     ), we observed that significantly more CD4     T cells in convalescent donors express HLA-DR and CD38. We have also shown the same tendency for CD8     T cells, although the difference here was not significant. As shown before (     ), the majority of SARS-CoV-2-specific CD4     cells belonged to the T central memory (T
+     <sub>
+      CM
+     </sub>
+     ) cell subpopulation, whereas CD8     cells predominantly exhibited T terminal effector (T
+     <sub>
+      TE
+     </sub>
+     ) or T effector memory (T
+     <sub>
+      EM
+     </sub>
+     ) phenotypes. However, it should be noted that the expression of surface markers might have been affected by the antigen stimulation used in our assay.
+    </p>
+    <p id="p0160">
+     We aimed to describe the structure of the antigen-specific repertoire, as was done previously for other viruses (     ) and for SARS-CoV-2 (     ). In this work, we used IFNγ secretion upon antigen stimulation as a criterion for identifying antigen-specific cells. This approach might miss some relevant T cells, as there are other modes of T cell reactivity, particularly for CD4     T cells. Nevertheless, previous studies have shown that CD4     T cells react to stimulation by SARS-CoV-2 antigens (and S protein in particular) primarily by Th1-type response (     ). In another study, IFNγ was the predominant cytokine produced by memory T cells after stimulation with SARS-CoV-2 peptides (     ). The results we obtained for T cells stimulated by full-length S protein reveal a highly specific response in terms of the TCR repertoire structure of both CD8     and CD4     T cells. The IFNγ-producing T cell repertoires of CPs featured multiple groups of homologous TCR sequences that are in a good agreement with TCR variants found to be enriched on the basis of corresponding clonal abundances. Thus, we were able to identify hundreds of TCR motifs, 25 of which were shared across multiple donors. Moreover, in three of the five HD(CoV) donors with the strongest T cell response to SARS-CoV-2 S protein, the IFNγ-secreting fraction contained TCRs belonging to three or more of the public clusters. Combined with the absence of TCR clusters characteristic for HD(CoV), this suggests that the T cell response in that group is by a large extent is focused on the same epitopes. Furthermore, for 19 of the public TCR clusters, we were able to predict a potential cognate epitope or restricting HLA allele using a statistical approach. These predicted S protein-derived peptides represent attractive targets for further studies.
+    </p>
+    <p id="p0165">
+     In this work, we tested 13 epitopes; for 11 of these, presentation by HLA-A     02 was previously confirmed and immunogenicity demonstrated in SARS-CoV CPs (     ) and healthy donors (     ). Eight were also proposed as potential immune targets in a recent study (     ). Despite using antigen-specific expansion for all peptides to detect even minor T cell clones, we observed a consistent epitope-specific response to only 2 of the 13 peptides. Notably, we did not see a strong response to the RLN peptide despite its previously reported immunodominance in SARS-CoV-2 CPs (     ). KLP-specific T cells were detected only in one CP, contrary to findings from SARS-CoV, which showed this epitope to be highly immunogenic in CPs but not healthy donors (     ). The KLP peptide of SARS-CoV-2 differs from SARS-CoV by a single amino acid substitution (M-T), whereas the RLN peptide is 100% homologous. The lack of an immune response to these epitopes in SARS-CoV-2 patients may be attributable to the existence of more immunodominant epitopes, which elicit T cell expansion that outcompetes RLN- and KLP-specific T cells. It was previously shown that the T cell immune response in healthy donors is focused predominantly on epitopes in the C-terminal part of the SARS-CoV-2 S protein, which may be explained by higher homology of this region with common cold coronaviruses (     ). In our study, only one epitope (YLQ) was derived from the N-terminal part of the S protein. We described an immune response to YLQ and RLQ in 16 and 13 of 17 convalescent donors, respectively. YLQ-specific TCRs corresponded to one of the detected motifs in IFNγ-secreting repertoires. This motif was extensively shared between donors and was also found in an unstimulated PBMC fraction. In contrast, we saw almost no response to this epitope in healthy donors. This is unsurprising, as these epitopes have very limited homology to common cold coronaviruses. Nevertheless, T cells specific to both epitopes occupied only a negligible fraction of the total TCR repertoire, explaining the almost complete lack of intersection between tetramer-positive and IFNγ-secreting repertoires. It is possible that YLQ- and RLQ-specific clones are localized in the peripheral tissues, and that only a limited number of cells are present in the circulation. Indeed, it was previously shown that clonal CD8     T cell expansions in SARS-CoV-2 are tissue-resident (     ).
+    </p>
+    <p id="p0170">
+     The YLQ epitope was previously identified as potentially immunogenic in SARS-CoV-2 (     ;     ) and was predicted to bind to HLA-A     01:01 and HLA-C     07:02 as well as HLA-A     02:01 (     ). In this study, we showed that it is not only highly immunogenic but is also recognized by T cells sharing the same TRAV segment (TRAV12-1), suggesting an important role for the TCRα chain in recognizing this epitope. Notably, this epitope was not present in the utilized S protein-derived peptide pool, possibly explaining the discrepancy between reactivity to the recombinant S protein and peptide pools seen in     . Our analysis of T cells specific to RLQ and YLQ epitopes using tetramer-based enrichment revealed a set of highly conserved TCR sequences shared across multiple donors. These sequences feature highly restricted V segment usage and relatively short CDR3 length, suggesting that RLQ and YLQ are targeted by public TCRs with germline-based motifs. YLQ is recognized by several unrelated motifs that are shared across several donors, suggesting that the response is both public and diverse.
+    </p>
+    <sec id="sec3.1">
+     <title>
+      Limitations of Study
+     </title>
+     <p id="p0175">
+      Natural limitations of our study arise from the size of the studied cohort (n = 34) and the fact that it lacked any patients who required treatment in the intensive care unit. Because of the limitations of the methods used (IFNγ cytokine secretion assay and IFNγ ELISPOT), we were not able to detect T cells responding by expressing other cytokines, so the magnitude of the virus-specific T cell response was potentially underestimated in this study. Predicted S protein-derived epitopes are limited to the set of MHC class I and II alleles common in the population of the European decent and require further experimental validation.
+     </p>
+     <p id="p0180">
+      Alongside the work described by      , this study provides a glimpse into the structure of T cell response to SARS-CoV-2. Further studies on the specificity of the SARS-CoV-2 targeted response and deconvolution of SARS-CoV-2 epitopes will provide crucial information for vaccine design and disease diagnosis.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <title>
+     STAR★Methods
+    </title>
+    <sec id="sec4.1">
+     <title>
+      Key Resources Table
+     </title>
+     <p id="p0185">
+      <table-wrap id="undtbl1" position="float">
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           REAGENT or RESOURCE
+          </th>
+          <th>
+           SOURCE
+          </th>
+          <th>
+           IDENTIFIER
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Antibodies
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           AF700 anti-human CD3 (OKT3)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2186700; RRID:
+           <ext-link ext-link-type="uri" id="intref0015" ns0:href="nif-antibody:AB_2861432">
+            AB_2861432
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           FITC anti-human CD4 (RPA-T4)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2102690; RRID:
+           <ext-link ext-link-type="uri" id="intref0020" ns0:href="nif-antibody:AB_2861437">
+            AB_2861437
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           PerCP/Cy5.5 anti-human CD8 (RPA-T8)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2105160; RRID:
+           <ext-link ext-link-type="uri" id="intref0025" ns0:href="nif-antibody:AB_2861438">
+            AB_2861438
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           PE/Dazzle594 anti-human CCR7(CD197) (G043H7)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2366180; RRID:
+           <ext-link ext-link-type="uri" id="intref0030" ns0:href="nif-antibody:AB_2861439">
+            AB_2861439
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           BV421 anti-human PD1(CD279) (EH12.2H7)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2249600; RRID:
+           <ext-link ext-link-type="uri" id="intref0035" ns0:href="nif-antibody:AB_2861440">
+            AB_2861440
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           BV711 anti-human CD27 (O323)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2114170; RRID:
+           <ext-link ext-link-type="uri" id="intref0040" ns0:href="nif-antibody:AB_2861442">
+            AB_2861442
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           BV785 anti-human CD28 (CD28.2)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2114750; RRID:
+           <ext-link ext-link-type="uri" id="intref0045" ns0:href="nif-antibody:AB_2861443">
+            AB_2861443
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           PE/Cy7 anti-human CD45RO (UCHL1)
+          </td>
+          <td>
+           Sony Biotechnology
+          </td>
+          <td>
+           Cat# 2121150; RRID:
+           <ext-link ext-link-type="uri" id="intref0050" ns0:href="nif-antibody:AB_2861444">
+            AB_2861444
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Bacterial and Virus Strains
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Escherichia coli
+           </italic>
+           strain BL21(DE3) pLysS
+          </td>
+          <td>
+           Novagen
+          </td>
+          <td>
+           Cat# 69451
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Biological Samples
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Blood sample from healthy donors sampled during the pandemic
+          </td>
+          <td>
+           National Research Center for Hematology
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Blood sample from biobanked healthy donors
+          </td>
+          <td>
+           National Research Center for Hematology
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Blood sample from COVID-19 convalescent patients
+          </td>
+          <td>
+           National Research Center for Hematology
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Chemicals, Peptides, and Recombinant Proteins
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Human IL-2
+          </td>
+          <td>
+           Miltenyi Biotec
+          </td>
+          <td>
+           Cat# 130-097-743
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Human IL-7
+          </td>
+          <td>
+           Miltenyi Biotec
+          </td>
+          <td>
+           Cat# 130-095-367
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Human IL-15
+          </td>
+          <td>
+           Miltenyi Biotec
+          </td>
+          <td>
+           Cat# 130-095-760
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 S-glycoprotein-His (truncated recombinant)
+          </td>
+          <td>
+           In house
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 S-glycoprotein receptor-binding domain (RBD-His; recombinant)
+          </td>
+          <td>
+           In house
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 N protein (full-length recombinant)
+          </td>
+          <td>
+           In house
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 S protein peptide pool
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat# 130-126-701
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 M protein peptide pool
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat# 130-126-702
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 N protein peptide pool
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat# 130-126-698
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2 S protein A02-restricted peptides
+          </td>
+          <td>
+           Shemyakin-Ovchinnikov IBCH RAS
+          </td>
+          <td>
+           custom-made
+          </td>
+         </tr>
+         <tr>
+          <td>
+           UV-cleavable peptide KILGFVFJV
+          </td>
+          <td>
+           Thermo Fisher Scientific custom peptide synthesis
+          </td>
+          <td>
+           custom-made
+          </td>
+         </tr>
+         <tr>
+          <td>
+           UV-cleavable peptide AARGJTLAM
+          </td>
+          <td>
+           Thermo Fisher Scientific custom peptide synthesis
+          </td>
+          <td>
+           custom-made
+          </td>
+         </tr>
+         <tr>
+          <td>
+           MES buffer
+          </td>
+          <td>
+           Sigma Aldrich
+          </td>
+          <td>
+           Cat# M3671
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Sodium pyruvate
+          </td>
+          <td>
+           Thermo Fisher Scientific
+          </td>
+          <td>
+           Cat#11360070
+          </td>
+         </tr>
+         <tr>
+          <td>
+           DMSO
+          </td>
+          <td>
+           Sigma Aldrich
+          </td>
+          <td>
+           Cat# 472301
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Expi293 expression medium
+          </td>
+          <td>
+           Thermo
+          </td>
+          <td>
+           Cat# A1435101
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ExpiFectamine 293 transfection kit
+          </td>
+          <td>
+           Thermo
+          </td>
+          <td>
+           Cat# A14524
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Opti-MEM I medium
+          </td>
+          <td>
+           Thermo
+          </td>
+          <td>
+           Cat# 31985070
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Filter cartridge UFP-10-C-4X2MA
+          </td>
+          <td>
+           Cytiva
+          </td>
+          <td>
+           Cat# 56-4102-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Ni-NTA agarose
+          </td>
+          <td>
+           QIAGEN
+          </td>
+          <td>
+           Cat# 30210
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Slide-A-Lyzer dialysis cassette, 20K MWCO, 3.0 ml
+          </td>
+          <td>
+           Thermo Fisher Scientific
+          </td>
+          <td>
+           Cat# 87735
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Superdex 75 pg
+          </td>
+          <td>
+           Cytiva
+          </td>
+          <td>
+           Cat# 17104401
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Imidazole
+          </td>
+          <td>
+           Sigma Aldrich
+          </td>
+          <td>
+           Cat# 56748
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Reduced glutathione
+          </td>
+          <td>
+           Sigma Aldrich
+          </td>
+          <td>
+           Cat# G6529
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Oxidized glutathione
+          </td>
+          <td>
+           Sigma Aldrich
+          </td>
+          <td>
+           Cat# G4626
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Protease inhibitor cocktail, tablets
+          </td>
+          <td>
+           Thermo
+          </td>
+          <td>
+           Cat# A32963
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Protease inhibitor cocktail, EDTA-free, tablets
+          </td>
+          <td>
+           Thermo
+          </td>
+          <td>
+           Cat# A32965
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GeneJET endo-free plasmid maxiprep kit
+          </td>
+          <td>
+           Thermo
+          </td>
+          <td>
+           Cat# K0861
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Critical Commercial Assays
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ELISPOT interferon gamma
+          </td>
+          <td>
+           CTL
+          </td>
+          <td>
+           Cat# HIFNGP-2M/5
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Human CD8 microbeads
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat# 130-097-057
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Human CD4 microbeads
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat# 130-091-893
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2-IgG-ELISA kit
+          </td>
+          <td>
+           National Research Center for Hematology
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IFNγ secretion assay - detection kit (PE)
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat#130-054-2020
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IFNγ secretion assay - detection kit (APC)
+          </td>
+          <td>
+           Miltenyi
+          </td>
+          <td>
+           Cat#130-090-762
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Deposited Data
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Tetramer-positive TCR sequencing data
+          </td>
+          <td>
+           vdjdb.cdr3.net
+          </td>
+          <td>
+           N/A
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Experimental Models: Cell Lines
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Expi293FTM
+          </td>
+          <td>
+           ThermoFisher Scientific
+          </td>
+          <td>
+           Cat# A14527
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Software and Algorithms
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           FLOWJO X 10.0.7r2
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0055" ns0:href="https://www.flowjo.com/solutions/flowjo/">
+            https://www.flowjo.com/solutions/flowjo/
+           </ext-link>
+          </td>
+          <td>
+           RRID:
+           <ext-link ext-link-type="uri" id="intref0060" ns0:href="rridsoftware:SCR_008520">
+            SCR_008520
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GraphPad Prism 8
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0065" ns0:href="https://www.graphpad.com/scientific-software/prism/">
+            https://www.graphpad.com/scientific-software/prism/
+           </ext-link>
+          </td>
+          <td>
+           RRID:
+           <ext-link ext-link-type="uri" id="intref0070" ns0:href="rridsoftware:SCR_002798">
+            SCR_002798
+           </ext-link>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="sec4.2">
+     <title>
+      Resource Availability
+     </title>
+     <sec id="sec4.2.1">
+      <title>
+       Lead contact
+      </title>
+      <p id="p0190">
+       Further information and requests for resources and reagent should be directed to and will be fulfilled by the lead contact, Grigory Efimov (
+       <ext-link ext-link-type="uri" id="intref0075" ns0:href="mailto:efimov.g@blood.ru">
+        efimov.g@blood.ru
+       </ext-link>
+       )
+      </p>
+     </sec>
+     <sec id="sec4.2.2">
+      <title>
+       Materials availability
+      </title>
+      <p id="p0195">
+       This study did not generate new unique reagents
+      </p>
+     </sec>
+     <sec id="sec4.2.3" sec-type="data-availability">
+      <title>
+       Data and code availability
+      </title>
+      <p id="p0200">
+       Tetramer-positive TCR sequencing data was formatted and deposited to the VDJdb database (
+       <ext-link ext-link-type="uri" id="PC_linkWg4zAwx135" ns0:href="http://vdjdb.cdr3.net">
+        vdjdb.cdr3.net
+       </ext-link>
+       ) - issue#315.
+      </p>
+      <p id="p0205">
+       R markdown notebooks used for data analysis are available at
+       <ext-link ext-link-type="uri" id="intref0080" ns0:href="https://github.com/antigenomics/covid19-tcr-analysis">
+        https://github.com/antigenomics/covid19-tcr-analysis
+       </ext-link>
+       .
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec4.3">
+     <title>
+      Experimental Model and Subject Details
+     </title>
+     <sec id="sec4.3.1">
+      <title>
+       Human subjects
+      </title>
+      <p id="p0210">
+       34 COVID-19 convalescent patients from Moscow, Russia were recruited voluntarily. COVID-19 was confirmed either by positive SARS-CoV-2 RT-PCR test, or retrospectively by the detection of anti-RBD antibodies. All donors signed the informed consent form approved by the National Research Center for Hematology ethical committee before enrollment. The severity of disease was defined from the patient’s case history according to the classification scheme used by the US National Institutes of Health: asymptomatic (lack of symptoms), mild severity (fever, cough, muscle pain, but without respiratory difficulty or abnormal chest imaging) and moderate/severe (lower respiratory disease at CT scan or clinical assessment, oxygen saturation (SaO
+       <sub>
+        2
+       </sub>
+       ) &gt; 93% on room air, but lung infiltrates less than 50%). We also recruited 7 healthy volunteers who were sampled during COVID-19 pandemic but without known contact with COVID-19 patients (except p1477, who was cohabiting with a COVID-19 patient) and confirmed negative infection. Additionally, 10 healthy hematopoietic stem cell donor samples and 10 healthy donor serum samples were obtained from the blood bank with the approval of the local ethical committee. Cell and serum samples were cryopreserved no later than September 2019 and 2017, respectively.
+      </p>
+     </sec>
+     <sec id="sec4.3.2">
+      <title>
+       Cell lines
+      </title>
+      <p id="p0215">
+       Expi293F cells were maintained in Expi293 expression medium at 37°C in 8% CO
+       <sub>
+        2.
+       </sub>
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec4.4">
+     <title>
+      Method Details
+     </title>
+     <sec id="sec4.4.1">
+      <title>
+       Peripheral blood mononuclear cell (PBMC) isolation
+      </title>
+      <p id="p0220">
+       30 mL of venous blood from healthy donors and recovered COVID-19 patients was collected into EDTA tubes (Sarstedt) and subjected to Ficoll (Paneco) density gradient centrifugation (400 x
+       <italic>
+        g
+       </italic>
+       , 30 min). Isolated PBMCs were washed with ice-cold PBS containing 2 mM EDTA and used for multiple assays.
+      </p>
+     </sec>
+     <sec id="sec4.4.2">
+      <title>
+       HLA genotyping
+      </title>
+      <p id="p0225">
+       For most donors HLA genotyping was performed using the One Lambda ALLType kit, which uses multiplex PCR to amplify full HLA-A/B/C gene sequences, and from exon 2 to the 3′ UTR of the HLA-DRB1/3/4/5/DQB1 genes. Prepared libraries were run on an Illumina MiSeq sequencer using standard flow-cell with 2 × 150 paired-end sequencing. Reads were analyzed using the One Lambda HLA TypeStream Visual Software (TSV), version 2.0.0.27232 and the IPD-IMGT/HLA database 3.39.0.0. Other donors were HLA genotyped by Sanger sequencing for loci HLA-A, B, C, DRB1 and DQB1, using Protrans S4 and Protrans S3 reagents, respectively. The PCR products were prepared for sequencing with BigDye Terminator v1.1. Capillary electrophoresis was performed on a Genetic Analyzer Nanophore05. One donor’s HLA genotyping was determined based on existing exome sequencing data.
+      </p>
+     </sec>
+     <sec id="sec4.4.3">
+      <title>
+       SARS-CoV-2 S protein peptides
+      </title>
+      <p id="p0230">
+       Putative HLA-A       02:01 epitopes of S protein were included in the analysis if they meet the following criteria: 1) weak binders (0.5 &lt; rank &lt; 2) or strong binders (rank &lt; 0.5) according to NetMHCpan 4.0, and 2) full or partial homologs of existing SARS-CoV S protein epitopes (identity &gt; 60%). Detailed information about selected peptides is listed in       . Predicted proteasomal cleavage score of the C-terminal amino acid was estimated using NetChop 3.1 (       ). HLA-A       02:01 binding affinity score and rank were estimated by NetMHCpan 4.0 (       ). SARS-CoV identity was measured as the count of identical positions in an amino acid alignment of SARS-CoV and SARS-CoV-2 (MN908947.3) S protein performed by QIAGEN CLC Genomic Workbench software. Peptides were synthesized by solid-phase synthesis and purified by high-performance liquid chromatography (HPLC) (greater than 95% purity). All peptides were dissolved in DMSO, except cysteine-containing peptides, which were dissolved in MES buffer, pH 6.5 / isopropanol mixture (1:1 vol.).
+      </p>
+     </sec>
+     <sec id="sec4.4.4">
+      <title>
+       Flow cytometry
+      </title>
+      <p id="p0235">
+       Surface staining and phenotype analysis of PBMCs was performed with the following antibodies: CD3-AF700 (OKT3; Sony), CD4-FITC (RPA-T4; Sony), CD8-PerCP/Cy5.5 (RPA-T8; Sony), CCR7 (CD197)-PE/Dazzle594 (G043H7; Sony), PD1 (CD279)-BV421 (EH12.2H7; Sony), CD27-BV711 (0323; Sony), CD28-BV785 (CD28.2; Sony) and CD45RO-PE/Cy7 (UCHL1; Sony). Cells were analyzed on the FACS Aria III cell sorter (BD Biosciences). FlowJo Software (version 10.6.1) was used for analysis.
+      </p>
+     </sec>
+     <sec id="sec4.4.5">
+      <title>
+       IFNγ ELISPOT
+      </title>
+      <p id="p0240">
+       Measurement of antigen-specific IFNγ production by T cells was performed with the ImmunoSpot human IFNγ single-color ELISPOT kit (CTL) with a 96-well nitrocellulose plate precoated with human IFNγ capture antibody. CD8       and CD4       T cells isolated from thawed PBMCs were plated at a density of 10       cells/well in duplicate in CTL-test medium. Unlabeled cells obtained after the selection of CD8       and CD4       T cells were used as antigen-presenting cells at a density of 2 × 10       /well. SARS-CoV-2 S protein was added at a final concentration of 10 μg/mL in serum-free testing medium (CTL) containing 1 mM GlutaMAX (GIBCO) at a final volume 200 μL/well. Total PBMCs were seeded at a concentration of 5 × 10       /well in duplicate and pulsed with M, N or S protein-derived peptide pools (Miltenyi Biotec) at a final concentration of 1 μM. Plates were incubated for 18h at 37°C in 5% CO
+       <sub>
+        2
+       </sub>
+       . Assays were then performed according to manufacturer’s instructions. Briefly, plates were washed twice with PBS and then twice with PBS + 0.05% Tween-20, followed by incubation with biotinylated anti-human IFNγ detection antibody for 2h at room temperature (RT). Wells were washed three times with PBS + 0.05% Tween-20, and streptavidin-AP was added for 30 min at RT. After a few washes, the colorimetric reaction was started by adding substrate components for 15 min at RT. The reaction was stopped by gently rinsing the plate with tap water. Spots were counted by CTL ImmunoSpot Analyzer using ImmunoSpot software. For group comparison, the data were log(2)-transformed, normality was assessed by Shapiro-Wilk test, and two-way ANOVA with Tukey’s multiple comparisons test was performed. The negative control was subtracted from each value as background.
+      </p>
+     </sec>
+     <sec id="sec4.4.6">
+      <title>
+       Expression and purification of recombinant proteins
+      </title>
+      <p id="p0245">
+       Recombinant SARS-Co-2 S protein-His6 was expressed in Expi293F cells (Thermo Fisher Scientific) maintained in Expi293 expression medium (Thermo Fisher Scientific), which were transfected with the ExpiFectamine 293 transfection kit (ThermoFisher Scientific) for five days according to manufacturer`s instructions. After harvesting, the medium was centrifuged at 15,600 x
+       <italic>
+        g
+       </italic>
+       , and the supernatant was concentrated 10 times and diafiltered into buffer A (10 mM phosphate buffer, 2.7 mM KCl, 500 mM NaCl, pH 8.0) using the ÄKTATM flux tangential flow filtration system (Cytiva, filter cartridge UFP-10-C-4X2MA). 50 volumes of concentrate were mixed with 3 volumes of Ni-NTA agarose resin (QIAGEN), which had been previously equilibrated with buffer A and incubated 2h at 22°C with agitation. The resin mix was packed into a Tricorn 10/150 column (Cytiva) and washed with 10 volumes of buffer A with 30 mM imidazole and eluted with buffer A with 200 mM imidazole. The eluate was dialyzed against 100 volumes of PBS (10 mM phosphate buffer, 2.7 mM KCl, 137 mM NaCl, pH 7.5) using Slide-A-Lyzer Dialysis cassettes (20K MWCO, Thermo Fisher Scientific).
+      </p>
+      <p id="p0250">
+       Biotinylated MHC class I/UV-cleavable peptide complexes for UV-mediated ligand exchange were produced as described (       ;       ). Briefly, heavy (HLA-A       02:01 with biotinylation tag) and light (β-2 microglobulin) chains were expressed in
+       <italic>
+        E. coli
+       </italic>
+       strain BL21(DE3) pLysS as inclusion bodies. Proteins were dissolved in denaturation buffer (50 mM Tris-HCl, pH 8.0, and 8 M urea) to a final concentration of 10–20 mg/ml.
+       <italic>
+        In vitro
+       </italic>
+       folding was set up in 50 mL of folding buffer (100 mM Tris-HCl, 400 mM arginine, 5 mM reduced glutathione, 0.5 mM oxidized glutathione, 2 mM EDTA, protease inhibitors, 1 mM PMSF, рН 8.0). UV-cleavable peptide (KILGFVFJV for HLA-A       02:01 and AARGJTLAM for HLA-B       07:02, Thermo Fisher Scientific custom peptide synthesis), light and heavy chains were mixed in folding buffer at a 30:2:3 molar ratio. Correctly-folded complexes were purified on a Superdex 75 pg 16/600 column (Cytiva) using Tris-buffered saline (20 mM Tris-HCl, 150 mM NaCl, pH 8.0) as mobile phase. Complexes were biotinylated with in-house made biotin ligase and purified on a Superdex 75 pg 10/300 column. Concentrations were determined using specific absorbance (A
+       <sub>
+        280
+       </sub>
+       ) = 1.03, 2.36, and 1.68 for S protein-His6, HLA-A, and hB2M, respectively (calculated based on amino acid sequence).
+      </p>
+      <p id="p0255">
+       Recombinant SARS-CoV-2 N protein was a generous gift from Vasily Lazarev. The plasmid encoding S protein-His6 of SARS-CoV-2 was kindly provided by Prof. Florian Krammer (       ). The plasmids encoding HLA and b2-microglobulin were kindly provided by Ton Schumacher (the Netherlands Cancer Institute, Amsterdam, the Netherlands).
+      </p>
+     </sec>
+     <sec id="sec4.4.7">
+      <title>
+       ELISA
+      </title>
+      <p id="p0260">
+       The IVD ELISA kit developed by the National Research Center for Hematology for the detection of anti-RBD IgG was used according to the manufacturers’ instructions. For N protein and full-length S protein, we used an in-house ELISA assay according to a protocol adapted from Krammer et al. (       ). In brief, 96-well plates (Thermo Fisher Scientific) were coated with 50 μL per well of 1.4 μg/mL N protein or 0.4 μg/mL S protein in coating buffer (100 mM bicarbonate/carbonate, pH 9.6). After 14h, the plates were washed three times with 250 μL PBS + 0.1% Tween 20 (TPBS) and blocked with 200 μl of 3% non-fat dry milk (Thermo Fisher Scientific) in PBS for 1.5h. Then the plates were washed thrice, and 100 μl of serum samples diluted 1:100 in TPBS + 1% non-fat dry milk were added in duplicate and incubated for 2h. The wells were washed three times and then incubated for one more hour with 100 μL of anti-human IgG monoclonal HRP-conjugated antibodies (supplied with the RBD ELISA kit). Finally, the plates were washed three times, and 100 μL of 3′,5,5′-tetramethylbenzidine (TMB) substrate was added to each well. 10 min later, 50 μl of 1
+       <sub>
+        3
+       </sub>
+       PO
+       <sub>
+        4
+       </sub>
+       was added as a stop solution, and the optical density (OD) was measured at 450 nm with a reference of 650 nm on a MultiScan FC (Thermo Fisher Scientific) instrument. To compare samples within one plate and normalize values across different plates for comparison, we performed serial dilutions of p1484 serum (from 1:200 to 1:51,200) in each plate. A sigmoid four-parameter logistic (4PL) fitting curve model was used to fit the calibration curve based on the serial dilution. For each plate, an EC
+       <sub>
+        50
+       </sub>
+       value (the half OD between the top and bottom segment of a curve) was used as a coefficient of normalization. The mean of two OD values for each sample was divided by the coefficient of normalization for the given plate. For group comparison, the Kruskal–Wallis test and Dunn’s multiple comparison test were used.
+      </p>
+     </sec>
+     <sec id="sec4.4.8">
+      <title>
+       Antigen-specific T cell expansion
+      </title>
+      <p id="p0265">
+       PBMCs of HLA-A       02:01 positive donors were used for rapid
+       <italic>
+        in vitro
+       </italic>
+       expansion. Briefly, 3 × 10       cells were incubated for 8–12 days in RPMI 1640 culture medium supplemented with 10% normal human A/B serum, 1 mM sodium pyruvate, IL-7 (25 ng/mL), IL-15 (40 ng/mL), and IL-2 (50 ng/mL) (Miltenyi) at a final volume of 2 ml/well. Half of the medium was replaced on days 3, 5, and 7. A mix of HLA-A       02:01-restricted peptides (see       ) of S protein in DMSO or MES buffer (Sigma-Aldrich) (final concentration of each peptide in medium = 10 ng/mL) was added at day 0.
+      </p>
+     </sec>
+     <sec id="sec4.4.9">
+      <title>
+       Tetramer staining
+      </title>
+      <p id="p0270">
+       Antigen-specific cells were detected by staining with CD3-AF700, CD8-FITC, and 7AAD (Sony), along with seven combinations of two different peptide-tetramer complexes conjugated with streptavidin-allophycocyanin and streptavidin-R-phycoerythrin (Thermo Fisher Scientific). A FACS Canto II cell analyzer and Aria III cell sorter (BD Biosciences) were used. Data were analyzed using FlowJo Software.
+      </p>
+     </sec>
+     <sec id="sec4.4.10">
+      <title>
+       IFNγ-secretion assay
+      </title>
+      <p id="p0275">
+       Measurement of IFNγ secretion in CD4       and CD8       T cells was performed using the IFN-γ secretion assay - detection kit (Miltenyi) according to the manufacturer’s protocol. Briefly, fresh PBMCs of CPs and thawed PBMCs of HD(BB) and HD(CoV) were resuspended in RPMI 1640 culture medium (GIBCO) supplemented with 5% normal human A/B serum (obtained from pooled, inactivated human AB Rh- male serum) and 1 mM sodium pyruvate (GIBCO) and plated at a density of 1–10 × 10       cells/ml. Cells were treated for 16h with 10 μg/mL of SARS-CoV-2 S protein, followed by incubation for 5 min at 4°C with IFNγ Catchmatrix reagent (Miltenyi). Cells were then transferred into warm medium (37°C) for 45 min to re-initiate secretion of IFNγ, washed with ice-cold PBS containing 2 mM EDTA and 0.5% BSA, and stained with surface and phenotype markers together with IFNγ detection antibody-APC (Miltenyi) for 10 min at 4°C. CD4       IFNγ       and CD8       IFNγ       populations were sorted directly into TRIzol reagent (Thermo Fisher Scientific) using a FACS Aria III cell sorter. Data were analyzed using FlowJo software. For group comparison, we used the Kruskal–Wallis test, Dunn’s multiple comparison test, and the Mann-Whitney test.
+      </p>
+     </sec>
+     <sec id="sec4.4.11">
+      <title>
+       Immunomagnetic isolation of CD4       and CD8       T cells
+      </title>
+      <p id="p0280">
+       CD4       and CD8       T cells were isolated using human CD4       and human CD8       microbeads (Miltenyi), respectively, according to the manufacturer’s protocol. Briefly, PBMCs isolated from CP donors were incubated for 15 min at 4°C with lyophilized CD8       microbeads, washed with ice-cold PBS containing 2 mM EDTA and 0.5% BSA, and loaded onto an MS MACS column (Miltenyi), and placed in the MACS Separator. After the columns were removed and magnetically-labeled CD8       cells were eluted, the flow-through fraction was collected and used for isolation of CD4       cells by lyophilized CD4       microbeads according to manufacturer’s instructions. Isolated CD8       and CD4       T cells and unlabeled cells were counted using the LUNA Automated Cell Counter and used for the IFNγ ELISPOT assay.
+      </p>
+     </sec>
+     <sec id="sec4.4.12">
+      <title>
+       TCR repertoire sequencing
+      </title>
+      <p id="p0285">
+       TCR libraries were processed as described previously (       ). The cDNA synthesis reaction for TCRα and β chains was carried out with a primer to the C-terminal region and SMART-Mk, providing a 5′ template switch effect and containing a sample barcode for contamination control and unique molecular identifier. TCR repertoire data were analyzed using MIXCR software with default settings.
+      </p>
+     </sec>
+     <sec id="sec4.4.13">
+      <title>
+       TCR repertoire motif discovery and analysis
+      </title>
+      <p id="p0290">
+       Motif discovery for TCR repertoires corresponding to tetramer-positive TCRs specific to SARS-CoV-2 epitopes was performed as described previously       using TCRNET method (       ;       ). Briefly, the TCR similarity network was constructed, allowing a single amino acid substitution in the CDR3 sequence (Hamming distance of 1). The number of similar sequences (“neighbors”) for each CDR3 was counted and compared to the expected number of neighbors predicted using a reference dataset containing ∼10       amino acid sequences of TCRα or β chains. CDR3 sequences having more neighbors than would be expected at random were considered to be representative (“core”) sequences, TCR motifs were defined as connected components of the TCR similarity network containing at least one core sequence.
+      </p>
+      <p id="p0295">
+       A similar analysis was performed to detect TCR motifs in pooled IFNγ       fractions of stimulated CD4       and CD8       T cells, using a control made from the pooled PBMC repertoire of the convalescent patients cohort and counting neighbors based on CDR3 nucleotide sequences as described in       .
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec4.5">
+     <title>
+      Quantification and Statistical Analysis
+     </title>
+     <p id="p0300">
+      Shannon diversity of V-gene usage was calculated using python3. All data comparisons were performed using GraphPad Prizm 8 software. Association between the presence of cluster-related TCRs and HLA alleles was calculated by Fisher exact test using the SciPy python3 library. The patient-specific set of peptides predicted to bind to HLA class I (8-11 amino acids) and class II (15 amino acids) was calculated by NetMHCpan 4.1, and NetMHCIIpan 4.0, respectively. Associations between the presence of cluster-related TCRs and S protein-derived peptides in the donor immunopeptidome were calculated by Fisher’s exact test using the SciPy python3 library. Only public clusters and the instances where TCR was present in the relevant fraction (i.e., a TCR belonging to a CD4      cluster was detected in a CD4+ population) were taken into account. A pseudocount of 0.5 was added to each value.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

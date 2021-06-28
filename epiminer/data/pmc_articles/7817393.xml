@@ -1,0 +1,2747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Predictive immunogenetic markers in COVID-19
+ </title>
+ <abstract>
+  <p>
+   Immunorelevant genes are among the most probable modulators of coronavirus disease 2019 (COVID-19) progression and prognosis. However, in the few months of the pandemic, data generated on host genetics has been scarce. The present study retrieved data sets of
+   <italic>
+    HLA-B
+   </italic>
+   alleles, KIR genes and functional single nucleotide polymorphisms (SNPs) in cytokines related to COVID-19 cytokine storm from two publicly available databases: Allele Frequency Net Database and Ensembl, and correlated these frequency data with Case Fatality Rate (CFR) and Daily Death Rates (DDR) across countries. Correlations of eight
+   <italic>
+    HLA-B
+   </italic>
+   alleles and polymorphisms in three cytokine genes (
+   <italic>
+    IL6
+   </italic>
+   ,
+   <italic>
+    IL10
+   </italic>
+   , and
+   <italic>
+    IL12B
+   </italic>
+   ) were observed and were mainly associated with DDR. Additionally,
+   <italic>
+    HLA-B
+   </italic>
+   correlations suggest that differences in allele affinities to SARS-CoV-2 peptides are also associated with DDR. These results may provide rationale for future host genetic marker surveys on COVID-19.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0005">
+     The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) strain which has caused the coronavirus disease 2019 (COVID-19) pandemic was originated in China in December 2019 and suddenly dispersed worldwide. The clinical manifestations vary from few or no symptoms to acute respiratory illness along with a wide spectrum of non-respiratory symptoms, including gastrointestinal, neurological, cardiovascular and ophthalmologic     . As of 10 November 2020, over 52 million cases were confirmed and more than 1.2 million deaths worldwide. Moreover, similarly to disease progression, lethality and mortality rates across different countries are also very heterogeneous, varying from 0 to 31% and from 0 to 48 daily deaths per 10 million inhabitants (rates estimated from WHO data as of 10 November 2020;
+     <ext-link ext-link-type="uri" id="ir005" ns0:href="https://covid19.who.int/">
+      https://covid19.who.int/
+     </ext-link>
+     ). Interestingly, the fatality rate has been observed to be higher in Europe (1.8%) than in Asia (lower than 1.3%), but almost reaching 2.2% in Americas, where the European ancestry is high. Despite of the many intervening factors in these statistics, this trend should not be ignored, suggesting a genetic modulation of COVID-19 progression and outcomes.
+    </p>
+    <p id="p0010">
+     Some preliminary evidences have pointed out to associations with ABO blood groups     and
+     <italic>
+      in silico
+     </italic>
+     predictions of some
+     <italic>
+      ACE2
+     </italic>
+     genetic variants as predisposing/protective markers     , reinforcing the genetic basis of COVID-19 heterogeneity. In this scenario, immunorelevant genes should be also highlighted as potential predictive markers, due to important immunological features of COVID-19, like the cytokine storm involving TNFa, IFNg, IL-6 and IL-10, CD4+/CD8+ lymphopenia     and development of Th17 responses     . Additional evidences may be inferred from studies with previous respiratory coronavirus epidemics, like SARS and Middle East respiratory syndrome (MERS), that showed association with human leukocyte antigen (HLA) alleles     ,     and the decrease of Natural Killer cells     .
+    </p>
+    <p id="p0015">
+     Hence, the present study retrieved worldwide allele frequencies, stored in the Allele Frequency Net Database (AFND)     and Ensembl database     , for several immune-related genes including
+     <italic>
+      HLA-B
+     </italic>
+     , killer-cell immunoglobulin-like receptors (KIR) genes and genotypes, and functional polymorphisms related to cytokine expression, revealing correlation of
+     <italic>
+      HLA-B
+     </italic>
+     and cytokine polymorphisms with worldwide COVID-19 incidence and fatality rates. Additionally,
+     <italic>
+      HLA-B
+     </italic>
+     correlations seemed to be associated to differences in allele affinities to SARS-CoV-2 peptides. The present metanalysis may provide rationale for future host genetic marker surveys on COVID-19.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Material and methods
+    </title>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      COVID-19 epidemiological statistics
+     </title>
+     <p id="p0020">
+      Data on number of cases, daily deaths since the beginnings of the COVID-19 pandemic for all countries with genetic data available were retrieved from World Health Organization (
+      <ext-link ext-link-type="uri" id="ir010" ns0:href="https://covid19.who.int/">
+       https://covid19.who.int/
+      </ext-link>
+      ), along with their respective inhabitant numbers. These data were used to estimate for each country: (i) the Case Fatality Rate (CFR), i.e. the number of deaths by COVID-19 divided by the number of confirmed cases and (ii) the Daily Death Rate (DDR), represented as the average number of deaths per day (since the first confirmed case) per ten million inhabitants. The data were obtained as of Nov 10, 2020. CFR and DDR estimates for all countries with genetic data are presented in      .
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      Choice of candidate markers
+     </title>
+     <p id="p0025">
+      A total of 98 countries have any kind of genetic data available, about 50% of the countries in the world. We avoid polymorphisms with few population data and used SNPs, KIR and HLA data with available genetic data in at least 30 populations.
+     </p>
+     <p id="p0030">
+      For multiple populations of a given country direct inspection for very discrepant frequencies was performed, if detected the cause was investigated and the more representative populations were chosen, likely these outlier populations were small aboriginal populations or immigrated populations. The preference was always the more urban populations because of their correspondence with DDR and CFR estimates that are more influenced by the great urban centers.
+     </p>
+     <sec id="s0025">
+      <label>
+       2.2.1
+      </label>
+      <title>
+       HLA-B
+      </title>
+      <p id="p0035">
+       HLA genes have been postulated to be under pathogen-driven selection       , revealing their importance in immune response to infections. Among class I HLA loci,
+       <italic>
+        HLA-B
+       </italic>
+       has shown the strongest selective signal       . Association studies showed
+       <italic>
+        HLA-B
+       </italic>
+       as a major locus associated with viruses and other infectious diseases       . Moreover, HLA-B-restricted viral derived epitopes have been reported to be targeted by CD8+ T cells more frequently than those presented by HLA-A       ,       ,       . Therefore, HLA-B becomes good candidate to be a marker of COVID-19 outcome.
+      </p>
+      <p id="p0040">
+       Consulting AFND, data on 420
+       <italic>
+        HLA-B
+       </italic>
+       alleles were obtained from 209 worldwide populations from 60 different countries. The allele frequencies of each country were obtained averaging the allele frequencies of the populations of each country they belong to.
+      </p>
+      <p id="p0045">
+       <italic>
+        HLA-B
+       </italic>
+       frequency data were retrieved only for populations that belong to the Gold Standard Dataset, described elsewhere       . This data set is composed of populations, where at least one HLA locus fulfill the criteria of high resolution allele genotyping (two fields), sample size larger than 50 and allele frequencies sum to 1       .       presents
+       <italic>
+        HLA-B
+       </italic>
+       allele frequencies by country.
+      </p>
+      <p id="p0050">
+       The entire FASTA-formatted proteome of a SARS-CoV-2 strain (Accession number: MN988713.1) was obtained from National Center of Biotechnology Information and used as input for predictions using NetMHCpan v4.0 online server       . Peptides with length 9mer were evaluated, because the preference of almost all HLA molecules for this length       , and those assigned as strong binders (SB) to each
+       <italic>
+        HLA-B
+       </italic>
+       allele were recorded. The server’s default value of 0.5%-ranked as the threshold for SB was adopted. Running options included “Make BA predictions” (method that use binding affinity data for training model), “Sort by prediction score” (order from higher to lower scores) and “Save predictions to XLS file” (to save predictions in a Excel compatible file).
+      </p>
+      <p id="p0055">
+       The total numbers of SB peptides for each allele were recorded and is showed in       .
+      </p>
+      <p id="p0060">
+       Additionally, for each country, the average number of SB was estimated, weighting the number of SB of the alleles observed in a given country by their respective frequencies. This average number of SB was correlated with CFR and DDR using Spearman’s correlation.
+      </p>
+      <p id="p0065">
+       The
+       <italic>
+        HLA-B
+       </italic>
+       alleles with an average frequency of 1% or higher, considering all 60 countries, were then selected and their allele frequencies were correlated with CFR and DDR using Spearman’s correlation.       presents
+       <italic>
+        HLA-B
+       </italic>
+       allele frequencies by country. This approach allowed to pinpoint relevant alleles in terms of frequency and correlation with CFR and DDR.
+      </p>
+      <p id="p0070">
+       Additionally, using HLA-B peptide sequence data obtained from IPD-IMGT/HLA database       , the dimorphism at position −21 (M/T) were inferred for each
+       <italic>
+        HLA-B
+       </italic>
+       allele. This polymorphism in the gene segment encoding the leader peptide modulates whether NK cell regulation primarily relies on the KIRs or the NKG2A/CD94 receptor       ,       . Allele frequencies of
+       <italic>
+        HLA-B
+       </italic>
+       alleles were then pooled according their M or T dimorphism and correlated with DDR and CFR. The rationale of this approach are evidences that allele M is detrimental in HIV infection
+      </p>
+     </sec>
+     <sec id="s0030">
+      <label>
+       2.2.2
+      </label>
+      <title>
+       Cytokines
+      </title>
+      <p id="p0075">
+       The cytokine storm observed in COVID-19 highlighted the relevance of inflammatory cytokines in disease pathogenesis. Consistently, high levels of IL-6, TNFa, IFNg, IL-1b, IL-2 and IL-10 have been reported       ,       . Their genes have mutations that affect the gene expression and may be associated with COVID-19 progression. The allele frequencies were obtained mainly from AFND (two
+       <italic>
+        IL1B
+       </italic>
+       polymorphisms have data only for less than four populations and were not considered) and complemented with data from Ensembl database release 100       . The number of countries with data on cytokine polymorphisms frequencies varied from 16 to 54. The cytokine polymorphisms used, with their respective number of countries, are listed in       The allele frequencies were correlated (Spearman’s correlation) with CFR and DDR estimates.       presents cytokine polymorphism frequencies by country.
+       <table-wrap id="t0005" position="float">
+        <label>
+         Table 1
+        </label>
+        <caption>
+         <p>
+          Correlation of CFR and DDR with
+          <italic>
+           HLA-B
+          </italic>
+          allele frequencies across 60 countries.
+         </p>
+        </caption>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Allele
+           </th>
+           <th rowspan="2">
+            Number of SB
+           </th>
+           <th rowspan="2">
+            Average allele frequency
+           </th>
+           <th colspan="2">
+            CFR
+            <hr/>
+           </th>
+           <th colspan="2">
+            DDR
+            <hr/>
+           </th>
+          </tr>
+          <tr>
+           <th>
+            rs
+           </th>
+           <th>
+            p
+           </th>
+           <th>
+            rs
+           </th>
+           <th>
+            P
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>
+            −21 M
+           </td>
+           <td>
+            –
+           </td>
+           <td align="char">
+            0.165
+           </td>
+           <td align="char">
+            0.03
+           </td>
+           <td align="char">
+            0.78
+           </td>
+           <td align="char">
+            0.37
+           </td>
+           <td align="char">
+            0.0032
+           </td>
+          </tr>
+          <tr>
+           <td>
+            −21 T
+           </td>
+           <td>
+            –
+           </td>
+           <td align="char">
+            0.590
+           </td>
+           <td align="char">
+            −0.02
+           </td>
+           <td align="char">
+            0.84
+           </td>
+           <td align="char">
+            −0.15
+           </td>
+           <td align="char">
+            0.23
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*07:02
+            </italic>
+           </td>
+           <td>
+            61
+           </td>
+           <td align="char">
+            0.053
+           </td>
+           <td align="char">
+            0.02
+           </td>
+           <td align="char">
+            0.85
+           </td>
+           <td align="char">
+            0.35
+           </td>
+           <td align="char">
+            0.0053
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*08:01
+            </italic>
+           </td>
+           <td>
+            82
+           </td>
+           <td align="char">
+            0.045
+           </td>
+           <td align="char">
+            0.10
+           </td>
+           <td align="char">
+            0.40
+           </td>
+           <td align="char">
+            <bold>
+             0.5
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*13:01
+            </italic>
+           </td>
+           <td>
+            125
+           </td>
+           <td align="char">
+            0.017
+           </td>
+           <td align="char">
+            −0.02
+           </td>
+           <td align="char">
+            0.90
+           </td>
+           <td align="char">
+            <bold>
+             −0.45
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             0.0003
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*13:02
+            </italic>
+           </td>
+           <td>
+            122
+           </td>
+           <td align="char">
+            0.015
+           </td>
+           <td align="char">
+            −0.17
+           </td>
+           <td align="char">
+            0.19
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.76
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*14:02
+            </italic>
+           </td>
+           <td>
+            167
+           </td>
+           <td align="char">
+            0.017
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.76
+           </td>
+           <td align="char">
+            0.37
+           </td>
+           <td align="char">
+            0.0031
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*15:01
+            </italic>
+           </td>
+           <td>
+            128
+           </td>
+           <td align="char">
+            0.032
+           </td>
+           <td align="char">
+            −0.01
+           </td>
+           <td align="char">
+            0.91
+           </td>
+           <td align="char">
+            0.22
+           </td>
+           <td align="char">
+            0.09
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*15:02
+            </italic>
+           </td>
+           <td>
+            195
+           </td>
+           <td align="char">
+            0.019
+           </td>
+           <td align="char">
+            0.17
+           </td>
+           <td align="char">
+            0.19
+           </td>
+           <td align="char">
+            −0.25
+           </td>
+           <td align="char">
+            0.06
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*15:03
+            </italic>
+           </td>
+           <td>
+            180
+           </td>
+           <td align="char">
+            0.015
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.76
+           </td>
+           <td align="char">
+            0.09
+           </td>
+           <td align="char">
+            0.50
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*18:01
+            </italic>
+           </td>
+           <td>
+            101
+           </td>
+           <td align="char">
+            0.037
+           </td>
+           <td align="char">
+            −0.22
+           </td>
+           <td align="char">
+            0.08
+           </td>
+           <td align="char">
+            0.14
+           </td>
+           <td align="char">
+            0.27
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*27:05
+            </italic>
+           </td>
+           <td>
+            41
+           </td>
+           <td align="char">
+            0.015
+           </td>
+           <td align="char">
+            0.12
+           </td>
+           <td align="char">
+            0.36
+           </td>
+           <td align="char">
+            <bold>
+             0.53
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*35:01
+            </italic>
+           </td>
+           <td>
+            191
+           </td>
+           <td align="char">
+            0.051
+           </td>
+           <td align="char">
+            0.09
+           </td>
+           <td align="char">
+            0.46
+           </td>
+           <td align="char">
+            <bold>
+             0.42
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*35:03
+            </italic>
+           </td>
+           <td>
+            147
+           </td>
+           <td align="char">
+            0.016
+           </td>
+           <td align="char">
+            −0.11
+           </td>
+           <td align="char">
+            0.40
+           </td>
+           <td align="char">
+            <bold>
+             0.41
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             0.0011
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*35:05
+            </italic>
+           </td>
+           <td>
+            184
+           </td>
+           <td align="char">
+            0.015
+           </td>
+           <td align="char">
+            0.15
+           </td>
+           <td align="char">
+            0.24
+           </td>
+           <td align="char">
+            −0.15
+           </td>
+           <td align="char">
+            0.24
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*38:01
+            </italic>
+           </td>
+           <td>
+            134
+           </td>
+           <td align="char">
+            0.012
+           </td>
+           <td align="char">
+            −0.06
+           </td>
+           <td align="char">
+            0.64
+           </td>
+           <td align="char">
+            <bold>
+             0.51
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*39:01
+            </italic>
+           </td>
+           <td>
+            157
+           </td>
+           <td align="char">
+            0.015
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.78
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.76
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*40:01
+            </italic>
+           </td>
+           <td>
+            71
+           </td>
+           <td align="char">
+            0.038
+           </td>
+           <td align="char">
+            0.01
+           </td>
+           <td align="char">
+            0.91
+           </td>
+           <td align="char">
+            −0.4
+           </td>
+           <td align="char">
+            0.06
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*40:02
+            </italic>
+           </td>
+           <td>
+            70
+           </td>
+           <td align="char">
+            0.03
+           </td>
+           <td align="char">
+            −0.04
+           </td>
+           <td align="char">
+            0.75
+           </td>
+           <td align="char">
+            0.03
+           </td>
+           <td align="char">
+            0.83
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*40:06
+            </italic>
+           </td>
+           <td>
+            91
+           </td>
+           <td align="char">
+            0.01
+           </td>
+           <td align="char">
+            −0.03
+           </td>
+           <td align="char">
+            0.82
+           </td>
+           <td align="char">
+            −0.10
+           </td>
+           <td align="char">
+            0.42
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*42:01
+            </italic>
+           </td>
+           <td>
+            80
+           </td>
+           <td align="char">
+            0.011
+           </td>
+           <td align="char">
+            −0.03
+           </td>
+           <td align="char">
+            0.80
+           </td>
+           <td align="char">
+            0.008
+           </td>
+           <td align="char">
+            0.95
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*44:02
+            </italic>
+           </td>
+           <td>
+            58
+           </td>
+           <td align="char">
+            0.027
+           </td>
+           <td align="char">
+            0.03
+           </td>
+           <td align="char">
+            0.79
+           </td>
+           <td align="char">
+            <bold>
+             0.45
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             0.0003
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*44:03
+            </italic>
+           </td>
+           <td>
+            62
+           </td>
+           <td align="char">
+            0.033
+           </td>
+           <td align="char">
+            0.05
+           </td>
+           <td align="char">
+            0.70
+           </td>
+           <td align="char">
+            0.18
+           </td>
+           <td align="char">
+            0.15
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*45:01
+            </italic>
+           </td>
+           <td>
+            95
+           </td>
+           <td align="char">
+            0.013
+           </td>
+           <td align="char">
+            0.06
+           </td>
+           <td align="char">
+            0.64
+           </td>
+           <td align="char">
+            0.08
+           </td>
+           <td align="char">
+            0.53
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*46:01
+            </italic>
+           </td>
+           <td>
+            225
+           </td>
+           <td align="char">
+            0.012
+           </td>
+           <td align="char">
+            −0.06
+           </td>
+           <td align="char">
+            0.61
+           </td>
+           <td align="char">
+            −0.37
+           </td>
+           <td align="char">
+            0.0034
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*48:01
+            </italic>
+           </td>
+           <td>
+            119
+           </td>
+           <td align="char">
+            0.012
+           </td>
+           <td align="char">
+            0.08
+           </td>
+           <td align="char">
+            0.56
+           </td>
+           <td align="char">
+            −0.16
+           </td>
+           <td align="char">
+            0.22
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*49:01
+            </italic>
+           </td>
+           <td>
+            77
+           </td>
+           <td align="char">
+            0.013
+           </td>
+           <td align="char">
+            −0.05
+           </td>
+           <td align="char">
+            0.69
+           </td>
+           <td align="char">
+            0.20
+           </td>
+           <td align="char">
+            0.12
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*50:01
+            </italic>
+           </td>
+           <td>
+            103
+           </td>
+           <td align="char">
+            0.018
+           </td>
+           <td align="char">
+            −0.15
+           </td>
+           <td align="char">
+            0.24
+           </td>
+           <td align="char">
+            0.27
+           </td>
+           <td align="char">
+            0.03
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*51:01
+            </italic>
+           </td>
+           <td>
+            111
+           </td>
+           <td align="char">
+            0.059
+           </td>
+           <td align="char">
+            −0.08
+           </td>
+           <td align="char">
+            0.50
+           </td>
+           <td align="char">
+            0.38
+           </td>
+           <td align="char">
+            0.0022
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*52:01
+            </italic>
+           </td>
+           <td>
+            147
+           </td>
+           <td align="char">
+            0.022
+           </td>
+           <td align="char">
+            −0.04
+           </td>
+           <td align="char">
+            0.74
+           </td>
+           <td align="char">
+            0.13
+           </td>
+           <td align="char">
+            0.30
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*53:01
+            </italic>
+           </td>
+           <td>
+            108
+           </td>
+           <td align="char">
+            0.023
+           </td>
+           <td align="char">
+            −0.07
+           </td>
+           <td align="char">
+            0.56
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.71
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*56:01
+            </italic>
+           </td>
+           <td>
+            113
+           </td>
+           <td align="char">
+            0.015
+           </td>
+           <td align="char">
+            −0.08
+           </td>
+           <td align="char">
+            0.50
+           </td>
+           <td align="char">
+            −0.38
+           </td>
+           <td align="char">
+            0.0027
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*57:01
+            </italic>
+           </td>
+           <td>
+            71
+           </td>
+           <td align="char">
+            0.016
+           </td>
+           <td align="char">
+            0.09
+           </td>
+           <td align="char">
+            0.48
+           </td>
+           <td align="char">
+            <bold>
+             0.48
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             HLA-B*58:01
+            </italic>
+           </td>
+           <td>
+            87
+           </td>
+           <td align="char">
+            0.028
+           </td>
+           <td align="char">
+            −0.07
+           </td>
+           <td align="char">
+            0.57
+           </td>
+           <td align="char">
+            −0.34
+           </td>
+           <td align="char">
+            0.0062
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <table-wrap-foot>
+         <fn>
+          <p>
+           The correlations that remained significant after correction for multiple tests are highlighted in bold. CFR = case fatality rate; DDR = daily death rate; rs = Spearman’s correlation coefficient; ns = not significant.           The number of strong binders is the number of peptides of the SARS-CoV-2 proteome that binds strongly each
+           <italic>
+            HLA-B
+           </italic>
+           allele. Significant p values after correction (pc):
+           <italic>
+            HLA-B*08:01, pc
+           </italic>
+           = 0.00016;
+           <italic>
+            HLA-B*13:01, pc
+           </italic>
+           = 0.0096;
+           <italic>
+            HLA-B*27:05, pc
+           </italic>
+           = 0.0000000032;
+           <italic>
+            HLA-B*35:01, pc
+           </italic>
+           = 0.0022;
+           <italic>
+            HLA-B*35:03, pc
+           </italic>
+           = 0.03;
+           <italic>
+            HLA-B*38:01, pc
+           </italic>
+           = 0.00022;
+           <italic>
+            HLA-B*44:02, pc
+           </italic>
+           = 0.0096;
+           <italic>
+            HLA-B*57:01, pc
+           </italic>
+           = 0.00013.
+          </p>
+         </fn>
+        </table-wrap-foot>
+       </table-wrap>
+       <table-wrap id="t0010" position="float">
+        <label>
+         Table 2
+        </label>
+        <caption>
+         <p>
+          Correlation of CFR and DDR with cytokine polymorphisms.
+         </p>
+        </caption>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Marker
+           </th>
+           <th rowspan="2">
+            Number of countries
+           </th>
+           <th rowspan="2">
+            Average allele frequency (frequency range)
+           </th>
+           <th colspan="2">
+            CFR
+            <hr/>
+           </th>
+           <th colspan="2">
+            DDR
+            <hr/>
+           </th>
+          </tr>
+          <tr>
+           <th>
+            rs
+           </th>
+           <th>
+            p
+           </th>
+           <th>
+            rs
+           </th>
+           <th>
+            p
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>
+            <italic>
+             IL6 −174C
+            </italic>
+           </td>
+           <td>
+            47
+           </td>
+           <td>
+            0.21 (0 – 0.5)
+           </td>
+           <td>
+            −0.099
+           </td>
+           <td align="char">
+            0.51
+           </td>
+           <td align="char">
+            <bold>
+             0.54
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL6 + 565A
+            </italic>
+           </td>
+           <td>
+            19
+           </td>
+           <td>
+            0.26 (0–0.442)
+           </td>
+           <td>
+            0.16
+           </td>
+           <td align="char">
+            0.49
+           </td>
+           <td align="char">
+            0.43
+           </td>
+           <td align="char">
+            0.06
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             TNFA −238A
+            </italic>
+           </td>
+           <td>
+            40
+           </td>
+           <td>
+            0.07 (0.007–0.225)
+           </td>
+           <td>
+            0.31
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.41
+           </td>
+           <td align="char">
+            0.0081
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             TNFA −308A
+            </italic>
+           </td>
+           <td>
+            54
+           </td>
+           <td>
+            0.11 (0.017–0.267)
+           </td>
+           <td>
+            0.32
+           </td>
+           <td align="char">
+            0.04
+           </td>
+           <td align="char">
+            0.35
+           </td>
+           <td align="char">
+            0.0079
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             TNFA −1031C
+            </italic>
+           </td>
+           <td>
+            17
+           </td>
+           <td>
+            0.21 (0.103–0.436)
+           </td>
+           <td>
+            −0.17
+           </td>
+           <td align="char">
+            0.51
+           </td>
+           <td align="char">
+            −0.1
+           </td>
+           <td align="char">
+            0.68
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             TNFA −857 T
+            </italic>
+           </td>
+           <td>
+            21
+           </td>
+           <td>
+            0.21 (0.010–0.282)
+           </td>
+           <td>
+            −0.8
+           </td>
+           <td align="char">
+            0.71
+           </td>
+           <td align="char">
+            0.24
+           </td>
+           <td align="char">
+            0.30
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             TNFA −863A
+            </italic>
+           </td>
+           <td>
+            17
+           </td>
+           <td>
+            0.15 (0.065–0.331)
+           </td>
+           <td>
+            −0.09
+           </td>
+           <td align="char">
+            0.73
+           </td>
+           <td align="char">
+            −0.32
+           </td>
+           <td align="char">
+            0.20
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IFNG + 874 T
+            </italic>
+           </td>
+           <td>
+            31
+           </td>
+           <td>
+            0.34 (0.072–0.579)
+           </td>
+           <td>
+            −0.22
+           </td>
+           <td align="char">
+            0.23
+           </td>
+           <td align="char">
+            0.46
+           </td>
+           <td align="char">
+            0.0092
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IFNG + 5644 T
+            </italic>
+           </td>
+           <td>
+            16
+           </td>
+           <td>
+            0.55 (0.225–0.584)
+           </td>
+           <td>
+            −0.04
+           </td>
+           <td align="char">
+            0.87
+           </td>
+           <td align="char">
+            0.28
+           </td>
+           <td align="char">
+            0.28
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL10 −1082G
+            </italic>
+           </td>
+           <td>
+            46
+           </td>
+           <td>
+            0.32 (0.024–0.549)
+           </td>
+           <td>
+            0.11
+           </td>
+           <td align="char">
+            0.46
+           </td>
+           <td align="char">
+            <bold>
+             0.58
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL10 −592C
+            </italic>
+           </td>
+           <td>
+            41
+           </td>
+           <td>
+            0.61 (0.258–0.796)
+           </td>
+           <td>
+            −0.02
+           </td>
+           <td align="char">
+            0.89
+           </td>
+           <td align="char">
+            <bold>
+             0.60
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL10 −819C
+            </italic>
+           </td>
+           <td>
+            42
+           </td>
+           <td>
+            0.62 (0.249–0.800)
+           </td>
+           <td>
+            0.03
+           </td>
+           <td align="char">
+            0.87
+           </td>
+           <td align="char">
+            <bold>
+             0.59
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL1B + 3962 T
+            </italic>
+           </td>
+           <td>
+            31
+           </td>
+           <td>
+            0.18 (0.010–0.316)
+           </td>
+           <td>
+            −0.06
+           </td>
+           <td align="char">
+            0.72
+           </td>
+           <td align="char">
+            0.55
+           </td>
+           <td align="char">
+            0.0013
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL1B −511C
+            </italic>
+           </td>
+           <td>
+            34
+           </td>
+           <td>
+            0.45 (0.275–0.700)
+           </td>
+           <td>
+            −0.25
+           </td>
+           <td align="char">
+            0.14
+           </td>
+           <td align="char">
+            0.34
+           </td>
+           <td align="char">
+            0.05
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL2B −330G
+            </italic>
+           </td>
+           <td>
+            38
+           </td>
+           <td>
+            0.31 (0–0.567)
+           </td>
+           <td>
+            −0.2
+           </td>
+           <td align="char">
+            0.21
+           </td>
+           <td align="char">
+            −0.05
+           </td>
+           <td align="char">
+            0.78
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL2B −166 T
+            </italic>
+           </td>
+           <td>
+            32
+           </td>
+           <td>
+            0.30 (0.053–0.640)
+           </td>
+           <td>
+            0.13
+           </td>
+           <td align="char">
+            0.45
+           </td>
+           <td align="char">
+            0.15
+           </td>
+           <td align="char">
+            0.38
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             IL12B + 1188A
+            </italic>
+           </td>
+           <td>
+            32
+           </td>
+           <td>
+            0.68 (0.456–0.833)
+           </td>
+           <td>
+            −0.04
+           </td>
+           <td align="char">
+            0.80
+           </td>
+           <td align="char">
+            <bold>
+             0.62
+            </bold>
+           </td>
+           <td align="char">
+            <bold>
+             &lt;0.0001
+            </bold>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <table-wrap-foot>
+         <fn id="tblfn1">
+          <label>
+           a
+          </label>
+          <p id="np005">
+           Number of countries with cytokine data available. The correlations that remained significant after correction for multiple tests are highlighted in bold. CFR = case fatality rate; DDR = daily death rate; rs = Spearmans correlation coefficient; ns = not significant. Significant p values after correction (pc):
+           <italic>
+            IL6
+           </italic>
+           −174C
+           <italic>
+            , pc
+           </italic>
+           = 0.000064;
+           <italic>
+            IL10
+           </italic>
+           −1082G
+           <italic>
+            , pc
+           </italic>
+           = 0.000064;
+           <italic>
+            IL10
+           </italic>
+           −592C
+           <italic>
+            , pc
+           </italic>
+           = 0.00019;
+           <italic>
+            IL10
+           </italic>
+           −819C
+           <italic>
+            , pc
+           </italic>
+           = 0.000032;
+           <italic>
+            IL12b
+           </italic>
+           + 1188A
+           <italic>
+            , pc
+           </italic>
+           = 0.00013.
+          </p>
+         </fn>
+        </table-wrap-foot>
+       </table-wrap>
+      </p>
+     </sec>
+     <sec id="s0035">
+      <label>
+       2.2.3
+      </label>
+      <title>
+       Killer-cell immunoglobulin-like receptors (KIR)
+      </title>
+      <p id="p0080">
+       KIR polymorphism relies most importantly on gene rearrangements that might delete one or more of the 15 genes of the KIR gene cluster, whose ligands are commonly HLA class I molecules. The presence or absence of these genes, as well as the KIR profiles, have been associated with some viral diseases       . In addition, a decay in Natural Killer (NK) cells number has been reported in SARS       . Together, these results encourage the investigation of KIR polymorphisms as marker for COVID-19.
+      </p>
+      <p id="p0085">
+       Data for presence/absence frequencies of nine polymorphic KIR genes (framework genes were not included in the analysis) were retrieved from AFND for 70 countries. Framework genes are those present in almost all individuals.
+      </p>
+      <p id="p0090">
+       Additionally, the KIR genotype AA frequencies for 64 countries were also retrieved from AFND. AA genotype was defined according AFND criteria that considers as AA genotypes where genes
+       <italic>
+        KIR2DL2, KIR2DL5, KIR3DS1, KIR2DS1, KIR2DS2, KIR2DS3
+       </italic>
+       and
+       <italic>
+        KIR2DS5
+       </italic>
+       are absent.
+      </p>
+      <p id="p0095">
+       The list of polymorphic KIR genes are presented in       . These frequencies were correlated (Spearman’s correlation) with CFR and DDR estimates.       presents KIR gene and AA genotype frequencies by country.
+       <table-wrap id="t0015" position="float">
+        <label>
+         Table 3
+        </label>
+        <caption>
+         <p>
+          Correlation of CFR and DDR with KIR polymorphisms.
+         </p>
+        </caption>
+        <table frame="hsides" rules="groups">
+         <thead>
+          <tr>
+           <th rowspan="2">
+            Marker
+           </th>
+           <th rowspan="2">
+            Number of countries
+           </th>
+           <th rowspan="2">
+            Average allele frequency (frequency range)
+           </th>
+           <th colspan="2">
+            CFR
+            <hr/>
+           </th>
+           <th colspan="2">
+            DDR
+            <hr/>
+           </th>
+          </tr>
+          <tr>
+           <th>
+            rs
+           </th>
+           <th>
+            p
+           </th>
+           <th>
+            rs
+           </th>
+           <th>
+            p
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>
+            Genotype AA
+           </td>
+           <td>
+            64
+           </td>
+           <td>
+            0.29 (0.015 – 0.552)
+           </td>
+           <td>
+            −0.09
+           </td>
+           <td align="char">
+            0.44
+           </td>
+           <td>
+            −0.29
+           </td>
+           <td align="char">
+            0.02
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DL2
+            </italic>
+           </td>
+           <td>
+            69
+           </td>
+           <td>
+            0.51 (0.134 – 0.719)
+           </td>
+           <td>
+            −0.18
+           </td>
+           <td align="char">
+            0.12
+           </td>
+           <td>
+            0.11
+           </td>
+           <td align="char">
+            0.33
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DL3
+            </italic>
+           </td>
+           <td>
+            69
+           </td>
+           <td>
+            0.87 (0.565 – 0.997)
+           </td>
+           <td>
+            0.14
+           </td>
+           <td align="char">
+            0.22
+           </td>
+           <td>
+            −0.26
+           </td>
+           <td align="char">
+            0.02
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DL5
+            </italic>
+           </td>
+           <td>
+            58
+           </td>
+           <td>
+            0.55 (0.284 – 0.780)
+           </td>
+           <td>
+            −0.11
+           </td>
+           <td align="char">
+            0.37
+           </td>
+           <td>
+            0.15
+           </td>
+           <td align="char">
+            0.22
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DS1
+            </italic>
+           </td>
+           <td>
+            68
+           </td>
+           <td>
+            0.37 (0.014 – 0.646)
+           </td>
+           <td>
+            0.13
+           </td>
+           <td align="char">
+            0.28
+           </td>
+           <td>
+            0.14
+           </td>
+           <td align="char">
+            0.25
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DS2
+            </italic>
+           </td>
+           <td>
+            68
+           </td>
+           <td>
+            0.49 (0.138 – 0.717)
+           </td>
+           <td>
+            −0.08
+           </td>
+           <td align="char">
+            0.51
+           </td>
+           <td>
+            0.27
+           </td>
+           <td align="char">
+            0.02
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DS3
+            </italic>
+           </td>
+           <td>
+            65
+           </td>
+           <td>
+            0.30 (0.103 – 0.522)
+           </td>
+           <td>
+            0.03
+           </td>
+           <td align="char">
+            0.82
+           </td>
+           <td>
+            0.13
+           </td>
+           <td align="char">
+            0.29
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR2DS5
+            </italic>
+           </td>
+           <td>
+            64
+           </td>
+           <td>
+            0.34 (0.190 – 0.830)
+           </td>
+           <td>
+            0.15
+           </td>
+           <td align="char">
+            0.21
+           </td>
+           <td>
+            0.06
+           </td>
+           <td align="char">
+            0.63
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR3DL1
+            </italic>
+           </td>
+           <td>
+            69
+           </td>
+           <td>
+            0.93 (0.755 – 0.990)
+           </td>
+           <td>
+            −0.13
+           </td>
+           <td align="char">
+            0.26
+           </td>
+           <td>
+            −0.14
+           </td>
+           <td align="char">
+            0.24
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <italic>
+             KIR3DS1
+            </italic>
+           </td>
+           <td>
+            69
+           </td>
+           <td>
+            0.35 (0.007 – 0.620)
+           </td>
+           <td>
+            0.28
+           </td>
+           <td align="char">
+            0.02
+           </td>
+           <td>
+            0.23
+           </td>
+           <td align="char">
+            0.05
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <table-wrap-foot>
+         <fn>
+          <p>
+           CFR = case fatality rate; DDR = daily death rate; rs = Spearman’s correlation coefficient; ns = not significant.
+          </p>
+         </fn>
+        </table-wrap-foot>
+       </table-wrap>
+      </p>
+     </sec>
+     <sec id="s0040">
+      <label>
+       2.2.4
+      </label>
+      <title>
+       Statistical analysis
+      </title>
+      <p id="p0100">
+       All polymorphisms frequency sets were tested for correlation with DDR and CFR, using the Spearman’s correlation test and p values were corrected for multiple tests using Bonferroni correction method. All tests were performed using the BioEstat 5.3 software       .
+      </p>
+      <p id="p0105">
+       Additionally, an ethnicity-based approach was carried out. Alleles that correlated significantly with DDR were evaluated in three major ethnicities, European (EUR), East Asian (EAS; includes North and South East Asia) and Sub-Saharan Africans (SSA). The regions each country belongs to, are given in Supplementary Table and follow AFND classification. Comparisons were made by Mann-Whitney test.
+      </p>
+     </sec>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0045">
+    <label>
+     3
+    </label>
+    <title>
+     Results
+    </title>
+    <sec id="s0050">
+     <label>
+      3.1
+     </label>
+     <title>
+      Low affinity
+      <italic>
+       HLA-B
+      </italic>
+      alleles and COVID-19 outcomes
+     </title>
+     <p id="p0110">
+      The number of strong binder peptides for each
+      <italic>
+       HLA-B
+      </italic>
+      allele is presented in      A, as well as a correlation between the average number of SB of each country (weighted by allele frequencies) and DDR (Spearmans correlation coefficient = −0.49; p &lt; 0.0001) (      B). The correlation between the average number of SB of each country and CFR was also significant, however, this correlation was weaker (Spearman’s correlation coefficient = −0.30; p = 0.018).
+     </p>
+     <p id="p0115">
+      The polymorphic
+      <italic>
+       HLA-B
+      </italic>
+      alleles, with average frequencies over 1%, were tested for correlation of their frequencies with CFR and DDR estimates (      ). This approach allowed to identify the putative alleles associated with COVID-19 outcome. CFR did not correlate with any
+      <italic>
+       HLA-B
+      </italic>
+      alleles. The allele frequencies correlated more strongly with DDR, where fifteen alleles showed significance at 0.05 level. However, after correction for multiple tests only eight remained significant, being only
+      <italic>
+       HLA-B*13:01
+      </italic>
+      negatively correlated (protective). The significant
+      <italic>
+       HLA-B
+      </italic>
+      allele frequencies along with average DDR in each world region, defined by AFND dataset, is showed in      .
+     </p>
+     <p id="p0120">
+      The frequencies of
+      <italic>
+       HLA-B
+      </italic>
+      −21 M allele correlated positively with DDR (      ). The spearmans correlation coefficient for
+      <italic>
+       HLA-B
+      </italic>
+      −21 M allele (rs) was 0.37, however it loses significance after correction for multiple tests (      ).
+     </p>
+    </sec>
+    <sec id="s0055">
+     <label>
+      3.2
+     </label>
+     <title>
+      Influence of KIR and cytokine polymorphisms in COVID-19 outcomes
+     </title>
+     <p id="p0125">
+      The frequencies of KIR genes
+      <italic>
+       KIR2DL3, KIR2DS2
+      </italic>
+      and genotype AA showed significant correlation with DDR and
+      <italic>
+       KIR3DS1
+      </italic>
+      with CFR, but these significances were lost after correlation for multiple tests. However, some significant correlations were observed for cytokine polymorphisms (      ). Two cytokine polymorphisms correlated with CFR but none remained significant after correction for multiple tests. Otherwise, the correlations with DDR were stronger and from nine correlations observed, five remained significant after correction for multiple tests (      ). The significant cytokine allele frequencies along with average DDR in each world region, defined by AFND dataset, can be seen in      . This trend followed the same from
+      <italic>
+       HLA-B
+      </italic>
+      , with DDR showing the stronger correlation signals.
+     </p>
+    </sec>
+    <sec id="s0060">
+     <label>
+      3.3
+     </label>
+     <title>
+      Ethnicity analysis
+     </title>
+     <p id="p0130">
+      The      clearly shows a higher DDR in European that is associated with the higher average frequencies of predisposing
+      <italic>
+       HLA-B
+      </italic>
+      and cytokine alleles. Moreover, East Asians and the Sub-Saharan have the lowest DDR estimate and the highest frequencies of protective
+      <italic>
+       HLA-B*13:01
+      </italic>
+      (protective allele).
+      <table-wrap id="t0020" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Average frequencies of
+         <italic>
+          HLA-B
+         </italic>
+         and cytokine alleles that correlated with DDR in three major well defined ethnic regions.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Ethnicity
+          </th>
+          <th>
+           EUR
+          </th>
+          <th>
+           EAS
+          </th>
+          <th>
+           SSA
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           DDR
+          </td>
+          <td align="char">
+           12.6
+          </td>
+          <td align="char">
+           0.90
+          </td>
+          <td align="char">
+           1.95
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Alleles
+          </td>
+          <td/>
+          <td/>
+          <td/>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            IL6 −174C
+           </italic>
+          </td>
+          <td align="char">
+           0.383
+          </td>
+          <td align="char">
+           0.103
+          </td>
+          <td align="char">
+           0.003
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            IL10 −1082G
+           </italic>
+          </td>
+          <td align="char">
+           0.434
+          </td>
+          <td align="char">
+           0.168
+          </td>
+          <td align="char">
+           0.321
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            IL10 −592C
+           </italic>
+          </td>
+          <td align="char">
+           0.731
+          </td>
+          <td align="char">
+           0.344
+          </td>
+          <td align="char">
+           0.567
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            IL10 −819C
+           </italic>
+          </td>
+          <td align="char">
+           0.731
+          </td>
+          <td align="char">
+           0.341
+          </td>
+          <td align="char">
+           0.573
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            IL12B + 1188A
+           </italic>
+          </td>
+          <td align="char">
+           0.775
+          </td>
+          <td align="char">
+           0.502
+          </td>
+          <td align="char">
+           0.632
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*08:01
+           </italic>
+          </td>
+          <td align="char">
+           0.080
+          </td>
+          <td align="char">
+           0.003
+          </td>
+          <td align="char">
+           0.043
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <bold>
+            <italic>
+             B*13:01
+            </italic>
+           </bold>
+          </td>
+          <td align="char">
+           0.001
+          </td>
+          <td align="char">
+           0.045
+          </td>
+          <td align="char">
+           0.002ª
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*27:05
+           </italic>
+          </td>
+          <td align="char">
+           0.036
+          </td>
+          <td align="char">
+           0.004
+          </td>
+          <td align="char">
+           0.004
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*35:01
+           </italic>
+          </td>
+          <td align="char">
+           0.063
+          </td>
+          <td align="char">
+           0.030
+          </td>
+          <td align="char">
+           0.073ª
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*35:03
+           </italic>
+          </td>
+          <td align="char">
+           0.034
+          </td>
+          <td align="char">
+           0.006
+          </td>
+          <td align="char">
+           0.003
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*38:01
+           </italic>
+          </td>
+          <td align="char">
+           0.024
+          </td>
+          <td align="char">
+           0.002
+          </td>
+          <td align="char">
+           0.002
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*44:02
+           </italic>
+          </td>
+          <td align="char">
+           0.057
+          </td>
+          <td align="char">
+           0.007
+          </td>
+          <td align="char">
+           0.006
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B*57:01
+           </italic>
+          </td>
+          <td align="char">
+           0.030
+          </td>
+          <td align="char">
+           0.011
+          </td>
+          <td align="char">
+           0.007
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Sum of Predisposing
+           <italic>
+            HLA-B
+           </italic>
+           Alleles
+          </td>
+          <td align="char">
+           0.324
+          </td>
+          <td align="char">
+           0.063
+          </td>
+          <td align="char">
+           0.138
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            HLA-B
+           </italic>
+           −21 allele M
+          </td>
+          <td align="char">
+           0.238
+          </td>
+          <td align="char">
+           0.080
+          </td>
+          <td align="char">
+           0.178
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            HLA-B
+           </italic>
+           −21 allele T
+          </td>
+          <td align="char">
+           0.623
+          </td>
+          <td align="char">
+           0.670
+          </td>
+          <td align="char">
+           0.553
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          DDR = daily Death Rate, EUR = Europe, EAS = East Asia, SSA = Sub-Saharan Africa, in bold HLA-B alleles that correlated negatively with DDR (protective). Mann-Whitney tests for comparison between European and the other ethnicities:          = p not significant;          = p &lt; 0.05 but lost significance after correction for multiple tests;          = p &lt; 0.05 and remain significant after correction for multiples tests.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0065">
+    <label>
+     4
+    </label>
+    <title>
+     Discussion
+    </title>
+    <sec id="s0070">
+     <label>
+      4.1
+     </label>
+     <title>
+      Mortality rates of COVID-19
+     </title>
+     <p id="p0135">
+      The results showed that
+      <italic>
+       HLA-B
+      </italic>
+      and cytokine polymorphisms correlations are stronger and more extensive with DDR than CFR. The CFR is obtained by dividing the number of deaths by the number of confirmed cases. The denominator is known to be compromised by low testing coverage, asymptomatic or mild cases      that depends on socio-economic and political management factors. Moreover, CFR’s denominator is composed by both active and recovered cases, being the proportion of active cases that would evolve to death not yet detectable.
+     </p>
+     <p id="p0140">
+      The testing, in most countries, have been preferentially applied to severe/critical cases and to clear suspect death by COVID-19. Hence, differences in testing coverage would impact less in the number of deaths than in the number of cases, because the resources in countries with limited testing capacity would be redirected to resolve the cause of deaths. This scenario favors epidemiological statistics like DDR that considers country’s population as denominator and take in account the time. Thus, DDR, while an average daily incidence, seems to be more suitable to COVID-19 that is still ongoing.
+     </p>
+     <p id="p0145">
+      The results showed consistently stronger correlation signals with DDR than with CFR, suggesting that DDR is a more accurate to represent the death rates of COVID-19.
+     </p>
+    </sec>
+    <sec id="s0075">
+     <label>
+      4.2
+     </label>
+     <title>
+      HLA-B
+     </title>
+     <p id="p0150">
+      The strong correlation of the average number of SB with DDR (      B) suggests a functional role of peptide affinity with COVID-19 prognosis, in agreement with a previous study that, using a similar approach, associated fewer predicted binding peptides with COVID-19 vulnerability      .
+     </p>
+     <p id="p0155">
+      The first association studies with SARS-CoV suggested that
+      <italic>
+       HLA-B*07:03
+      </italic>
+      and
+      <italic>
+       HLA-B*46:01
+      </italic>
+      would be predisposing alleles. However, these associations could not be confirmed afterward      ,      ,      . An important point is that all studies were carried out with SARS-CoV patients and restricted to Chinese/Taiwanese samples. Thus, extrapolation to other ethnicities must be carefully considered.
+     </p>
+     <p id="p0160">
+      In this scenario, the pooled frequencies of all seven alleles that correlated positively with DDR are lower in SEA (0.1), NEA (0.13) and SSA (0.14) than in those with predominantly European ancestry (EUR, 0.32 and NAM 0.23), where the DDR are higher. These data corroborate the best performance of East Asia countries against COVID-19, if using as criteria the death rates.
+     </p>
+     <p id="p0165">
+      The MHC region is known by the strong linkage disequilibrium between alleles from different loci. Although HLA-B displays the strongest selective signal      and associations with infectious diseases      the linkage of HLA-B alleles with other HLA alleles should be considered, in special with HLA-C alleles because of the close distance between both loci. Moreover, HLA-C alleles are ligands to KIRs that regulate NK cell responses to viral infection      . In this context, along with evidences that HLA-B molecules affinity to SARS-CoV-2 epitopes play a role in the infection, future studies should consider additional HLA loci and haplotypes and their functional relationship with KIR.
+     </p>
+    </sec>
+    <sec id="s0080">
+     <label>
+      4.3
+     </label>
+     <title>
+      KIR and cytokine polymorphisms
+     </title>
+     <p id="p0170">
+      The literature reported that the Natural Killer cell counts decrease      in SARS, suggesting that low NK cell activity would be relevant in SARS, being interesting to highlight that, although the lack of significance after correction for multiple tests, the trend for positive correlation of inhibitory genotype AA and KIR2DL3 with DDR and negative correlation of stimulatory KIR2DS2 with DDR could be observed. Additionally,
+      <italic>
+       HLA-B*27:05
+      </italic>
+      ,
+      <italic>
+       *38:01
+      </italic>
+      ,
+      <italic>
+       *44:02
+      </italic>
+      and
+      <italic>
+       *57:01
+      </italic>
+      are Bw4 and KIR3DL1 ligands while
+      <italic>
+       HLA-B*08:01
+      </italic>
+      ,
+      <italic>
+       *35:01
+      </italic>
+      and
+      <italic>
+       *35:03
+      </italic>
+      are the Bw6 and the most frequent alleles. Thus, HLA-B ligands also do not show a clear pattern. NK cells also respond to several cytokines like IL-12 and IL-2 and produce many others like IFNg, TNFa and IL-6      , being all these cytokines augmented in COVID-19 cytokine storm. Additionally,
+      <italic>
+       TNFA
+      </italic>
+      is close to
+      <italic>
+       HLA-B
+      </italic>
+      and
+      <italic>
+       -C
+      </italic>
+      genes and the determination of
+      <italic>
+       HLA-B, -C
+      </italic>
+      and
+      <italic>
+       TNFA
+      </italic>
+      SNP haplotypes would be relevant in the determination of possible association of these haplotypes with COVID-19.
+     </p>
+     <p id="p0175">
+      Despite of the absence of clear correlation with KIR and their ligands, polymorphisms at other NK receptors, like NKG2D, and their ligands may still be evaluated as candidate marker, once they have been also associated with infectious and inflammatory diseases      . In this context the correlation with
+      <italic>
+       HLA-B
+      </italic>
+      signal peptide allele M suggests an effect similar to observe for HIV, where allele M compromise antiviral NK-mediated activity      .
+     </p>
+     <p id="p0180">
+      Cytokine polymorphisms showed stronger correlation with DDR. A clear trend showing that alleles that augment the gene expression correlate consistently with a poor COVID-19 prognosis (      ). Considering that all these cytokines display elevated levels in the COVID-19 cytokine storm the correlations may directly reflect their functional role.
+      <table-wrap id="t0025" position="float">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         Cytokine polymorphisms found to be correlated significantly with COVID-19 Daily Death Rate and their respective functional effects and associations with comorbidities that give poor prognosis in COVID-19.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           <bold>
+            Cytokine polymorphisms
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Functional effect
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Association comorbities
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           IL6 −174C
+          </td>
+          <td>
+           Increase
+           <italic>
+            IL6
+           </italic>
+           expression
+          </td>
+          <td>
+           Hypertension           , cardiovascular diseases           , diabetes           , obesity
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IL10 −1082G/ IL10 −592C/ IL10 −819C
+          </td>
+          <td>
+           Linked in a haplotype that increases IL-10 expression
+          </td>
+          <td>
+           Diabetes           , cardiovascular diseases
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IL12B + 1188A
+          </td>
+          <td>
+           Controversy
+          </td>
+          <td>
+           Diabetes           , asthma
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0185">
+      Alternatively, underlying medical conditions with poor prognosis to COVID-19, like cardiovascular disease, diabetes, chronic respiratory disease, hypertension, and cancer      , have been also reported as associated to these polymorphisms (      ). Hence, the correlations could represent, indirectly, correlation of the prevalence of these comorbidities with cytokine polymorphisms.
+     </p>
+     <p id="p0190">
+      Noteworthy, all cytokines and
+      <italic>
+       HLA-B
+      </italic>
+      alleles positively correlated with DDR reached their highest frequencies in Europe and lowest frequencies in Sub-Saharan and East Asia. The populations in these regions belongs mainly to major ethnicities and reinforces the relevance of genetic backgrounds in COVID-19 context.
+     </p>
+    </sec>
+    <sec id="s0085">
+     <label>
+      4.4
+     </label>
+     <title>
+      Studies on host genetics
+     </title>
+     <p id="p0195">
+      There are a few studies that associates COVID-19 with genetics factors, mostly related to the immune response, like the HLA Class I genes      . ABO blood group and single nucleotide polymorphisms (SNP) in 3p21.31 and 9q34.2      ; 19p13.3, 12q24.13 and 21q22.1      regions were also recently reported as associated in genome wide association studies (GWAS). Ongoing GWAS initiatives may reveals additional key genetic markers      .
+     </p>
+     <p id="p0200">
+      Moreover, an exome approach identified polymorphisms at immune related genes in regions 4q35.1, 11q13.2, 19p13.3, 12q14.2, 19q13.33, 11p15.5 and 21q22.11      , where three of them at chromosomes 12, 19 and 21 are coincident with previous GWAS studies.
+     </p>
+     <p id="p0205">
+      Hence, the trend towards association with immunorrelevant genes corroborates indirectly the results suggesting that immunological status would be a major player in COVID-19 context.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0090">
+    <label>
+     5
+    </label>
+    <title>
+     Concluding remarks
+    </title>
+    <p id="p0210">
+     The present study provided preliminary evidence that death by COVID-19 could be associated with immunogenetic markers (
+     <italic>
+      HLA-B, IL6, IL10 and IL12B
+     </italic>
+     ). However, these results should be considered for future evaluation and need to be corroborated in more structured protocols. Noteworthy, the design of further studies must consider poor prognosis underlying disorders, due to their association with these immunogenetic markers. Additionally, careful sampling strategies should be employed avoiding stratification     , because these polymorphisms have a wide range of variability associated with ethnicity. Finally, additive effects also should be considered and approached in the evaluation of these markers.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of Competing Interest
+    </title>
+    <p id="p0215">
+     The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

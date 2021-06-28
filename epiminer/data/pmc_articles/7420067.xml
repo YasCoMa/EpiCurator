@@ -1,0 +1,2917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  The Role of Host Genetic Factors in Coronavirus Susceptibility: Review of Animal and Systematic Review of Human Literature
+ </title>
+ <abstract>
+  <p>
+   The SARS-CoV-2 pandemic raises many scientific and clinical questions. These include how host genetic factors affect disease susceptibility and pathogenesis. New work is emerging related to SARS-CoV-2; previous work has been conducted on other coronaviruses that affect different species. We reviewed the literature on host genetic factors related to coronaviruses, systematically focusing on human studies. We identified 1,832 articles of potential relevance. Seventy-five involved human host genetic factors, 36 of which involved analysis of specific genes or loci; aside from one meta-analysis, all were candidate-driven studies, typically investigating small numbers of research subjects and loci. Three additional case reports were described. Multiple significant loci were identified, including 16 related to susceptibility (seven of which identified protective alleles) and 16 related to outcomes (three of which identified protective alleles). The types of cases and controls used varied considerably; four studies used traditional replication/validation cohorts. Among other studies, 30 involved both human and non-human host genetic factors related to coronavirus, 178 involved study of non-human (animal) host genetic factors related to coronavirus, and 984 involved study of non-genetic host factors related to coronavirus, including involving immunopathogenesis. Previous human studies have been limited by issues that may be less impactful now, including low numbers of eligible participants and limited availability of advanced genomic methods; however, these may raise additional considerations. We outline key genes and loci from animal and human host genetic studies that may bear investigation in the study of COVID-19. We also discuss how previous studies may direct current lines of inquiry.
+  </p>
+  <p>
+   The SARS-CoV-2 pandemic raises many scientific and clinical questions. These include how host genetic factors affect disease susceptibility and pathogenesis. New work is emerging related to SARS-CoV-2; previous work has been conducted on other coronaviruses that affect different species. We reviewed the literature on host genetic factors related to coronaviruses, systematically focusing on human studies. We identified 1,832 articles of potential relevance. Seventy-five involved human host genetic factors, 36 of which involved analysis of specific genes or loci; aside from one meta-analysis, all were candidate-driven studies, typically investigating small numbers of research subjects and loci. Three additional case reports were described. Multiple significant loci were identified, including 16 related to susceptibility (seven of which identified protective alleles) and 16 related to outcomes (three of which identified protective alleles). The types of cases and controls used varied considerably; four studies used traditional replication/validation cohorts. Among other studies, 30 involved both human and non-human host genetic factors related to coronavirus, 178 involved study of non-human (animal) host genetic factors related to coronavirus, and 984 involved study of non-genetic host factors related to coronavirus, including involving immunopathogenesis. Previous human studies have been limited by issues that may be less impactful now, including low numbers of eligible participants and limited availability of advanced genomic methods; however, these may raise additional considerations. We outline key genes and loci from animal and human host genetic studies that may bear investigation in the study of COVID-19. We also discuss how previous studies may direct current lines of inquiry.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="p0010">
+     The ongoing severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic raises many scientific and clinical questions. One set of questions involves susceptibility and outcomes related to SARS-CoV-2 infection (COVID-19). Hypotheses suggested to explain observed differences include host sex, age, comorbidities, and genetic factors.     As with many complex diseases, the reality for most individuals most likely involves a combination of genetic—including viral and host genetics —and non-genetic variables. Large, international studies and collaborations have formed to investigate host genetic factors related to COVID-19. These investigations include analyses of existing public and private datasets, as well as the establishment of new cohorts (e.g., see “The COVID-19 Host Genetics Initiative” and “23andMe/23andMe Research Blog” entries in the     ).
+    </p>
+    <p id="p0015">
+     Relative to other coronaviruses, SARS-CoV-2 has unique biological properties and related clinical impact, but data regarding other coronaviruses may be relevant. Previous studies have been disparate in terms of the virus and species studied, as well as the aims and methods. This has resulted in a rich body of literature that is difficult to efficiently leverage for SARS-CoV-2-related work.
+    </p>
+    <p id="p0020">
+     To address this, we aimed to perform a review of the literature to outline previous studies of host genetic factors related to coronaviruses. Our first objective is to systematically encapsulate genes and loci interrogated through these efforts. This can help populate lists of genes that—along with data from related biological studies—may bear scrutiny in the developing and important large-scale host genetic studies of SARS-CoV-2. Our second objective is to present an overview of themes from animal and human studies in order to inform current efforts. A systematic analysis may in turn help bolster efforts to identify susceptibility alleles and, eventually, potential avenues for treatment not yet well defined through human studies.
+    </p>
+    <sec id="sec1.1">
+     <title>
+      Literature Search and Sources
+     </title>
+     <p id="p0025">
+      The methods we used to systematically identify and categorize published articles are described in the      (see the      and the PRISMA checklist). Of note, we did not include articles on preprint servers, though a growing number are available.
+     </p>
+     <p id="p0030">
+      In summary, our search identified 1,832 unique articles of potential relevance (      and      ). After initial review, 105 were included in our qualitative synthesis; 75 of these involved study of human host genetic factors related to coronavirus (      ). Thirty-six of the 75 human studies involved analysis of specific genes or loci (one was a meta-analysis study of multiple respiratory pathogens), while 39 involved biological, computational, or case report studies of human host genetic factors. Thirty involved both human and non-human host genetic factors (these largely investigated inter-species differences in disease susceptibility and pathogenesis); 178 involved study of non-human (animal) host genetic factors; 984 involved non-genetic host factors, including immunopathogenesis; 17 involved study of other pathogens (not coronavirus); and 528 involved other studies of coronavirus. Twenty studies were assigned to the other categories and removed. We use themes identified in our review of these articles to highlight areas that are particularly relevant to human studies of COVID-19; in addition to the limited references cited here, please refer to      for the additional literature identified through this search, as well as section-specific references not included in the main manuscript.
+      <table-wrap id="tbl1" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Summary of Human Studies (Including Those Related to Specific Genes or Loci) on Host Genetic Factors Related to Coronaviruses
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           <bold>
+            Human Coronavirus Studied (Other Coronaviruses or Pathogens)
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Method(s) or Approach(es)
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Key Findings
+           </bold>
+          </th>
+          <th>
+           <bold>
+            PMID
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           (including MIM:
+           <ext-link ext-link-type="omim" id="intref0110" ns0:href="142800">
+            142800
+           </ext-link>
+           ,
+           <ext-link ext-link-type="omim" id="intref0115" ns0:href="142830">
+            142830
+           </ext-link>
+           ,
+           <ext-link ext-link-type="omim" id="intref0120" ns0:href="142857">
+            142857
+           </ext-link>
+           ) gene polymorphisms with susceptibility to SARS-CoV-1 infection or clinical parameters
+          </td>
+          <td>
+           association of HLA-B           4601 with severity of SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0125" ns0:href="pmid:12969506">
+            12969506
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           gene polymorphisms with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           HLA-B           0703, HLA-DRB1           0301 and co-inheritance of HLA-B           0703 and HLA-B60 were associated with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0130" ns0:href="pmid:15243926">
+            15243926
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            ACE2
+           </italic>
+           (MIM; 30035) polymorphisms with SARS-CoV-1 clinical parameters
+          </td>
+          <td>
+           no association of
+           <italic>
+            ACE2
+           </italic>
+           polymorphisms with SARS-CoV-1 outcomes
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0135" ns0:href="pmid:15331509">
+            15331509
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            ACE
+           </italic>
+           (MIM; 106180) polymorphism with susceptibility to SARS-CoV-1 or clinical parameters
+          </td>
+          <td>
+           <italic>
+            ACE
+           </italic>
+           D allele (rs4646994) was associated with hypoxemia in SARS-CoV-1 infections
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0140" ns0:href="pmid:15381116">
+            15381116
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            OAS1
+           </italic>
+           (MIM; 164350),
+           <italic>
+            PKR
+           </italic>
+           (MIM; 176871), and
+           <italic>
+            MX1
+           </italic>
+           (MIM; 147150) polymorphisms with susceptibility to SARS-CoV-1 or clinical parameters
+          </td>
+          <td>
+           OAS1 rs3741981/rs1131454 (NC_000012.12:g.112911065G&gt;A) and rs2660 (NC_000012.12:g.112919637G&gt;A) were associated with SARS-CoV-1 susceptibility;
+           <italic>
+            MX1
+           </italic>
+           rs2071430 (NC_000021.9:g.41426138G&gt;T) was associated in hypoxemia in SARS-CoV-1 infections
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0145" ns0:href="pmid:15766558">
+            15766558
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            ACE
+           </italic>
+           insertion/deletion (I/D) polymorphism with susceptibility to SARS-CoV-1 or clinical parameters
+          </td>
+          <td>
+           no association was found with
+           <italic>
+            ACE
+           </italic>
+           insertion/deletion (I/D) polymorphism (rs4646994) and susceptibility to SARS-CoV-1 or clinical parameters
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0150" ns0:href="pmid:15819995">
+            15819995
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            MBL
+           </italic>
+           (MIM; 614372) polymorphisms susceptibility to SARS-CoV-1 or clinical parameters and biological study of MBL
+          </td>
+          <td>
+           serum MBL was lower in patients with SARS-CoV-1 infections than controls, and haplotypes associated with lower serum MBL were more frequent in patients with SARS-CoV-1 infections than in control subjects, but there was not association with mortality
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0155" ns0:href="pmid:15838797">
+            15838797
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            ACE2
+           </italic>
+           polymorphisms and susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           no association was found with
+           <italic>
+            ACE2
+           </italic>
+           polymorphisms and susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0160" ns0:href="pmid:15937940">
+            15937940
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            MBL
+           </italic>
+           polymorphisms and susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <italic>
+            MBL
+           </italic>
+           rs1800450 (NC_000010.11:g.52771475C&gt;T) was associated with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0165" ns0:href="pmid:16170752">
+            16170752
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            FCGR2A
+           </italic>
+           (MIM; 146790) and
+           <italic>
+            MBL
+           </italic>
+           polymorphisms and susceptibility to SARS-CoV-1 infection or clinical parameters
+          </td>
+          <td>
+           homozygosity for
+           <italic>
+            FCGR2A
+           </italic>
+           rs1801274 (NC_000001.11:g.161509955A&gt;C), as well as a linear trend of
+           <italic>
+            FCGR2A
+           </italic>
+           genotypes, was associated with severe SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0170" ns0:href="pmid:16185324">
+            16185324
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CLEC4M
+           </italic>
+           (MIM; 605872) VNTR polymorphism with susceptibility to SARS-CoV-1 and biological studies of cells with these polymorphisms
+          </td>
+          <td>
+           homozygosity for the
+           <italic>
+            CLEC4M
+           </italic>
+           VNTR polymorphism was associated with susceptibility to SARS-CoV-1, and homozygous cells had higher binding capacity for SARS-CoV-1, higher proteasome-dependent viral degradation, and lower capacity for trans infection.
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0175" ns0:href="pmid:16369534">
+            16369534
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           polymorphisms with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           HLA-Cw           0801 was associated with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0180" ns0:href="pmid:16455884">
+            16455884
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of polymorphisms in 65 genes with SARS-CoV-1 viral shedding
+          </td>
+          <td>
+           SARS-CoV-1 shedding was associated with alleles of
+           <italic>
+            IL18
+           </italic>
+           ,
+           <italic>
+            IL1A
+           </italic>
+           ,
+           <italic>
+            RELB
+           </italic>
+           , and
+           <italic>
+            FLG2
+           </italic>
+           (see           for alleles)
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0185" ns0:href="pmid:16652313">
+            16652313
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            OAS1
+           </italic>
+           and
+           <italic>
+            MX1
+           </italic>
+           polymorphisms with susceptibility to SARS-CoV-1
+          </td>
+          <td>
+           <italic>
+            OAS1
+           </italic>
+           rs2660 (NC_000012.12:g.112919637G&gt;A) and
+           <italic>
+            MX1
+           </italic>
+           rs2071430 (NC_000021.9:g.41426138G&gt;T) were associated with susceptibility to SARS-CoV-1
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0190" ns0:href="pmid:16824203">
+            16824203
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CLEC4M
+           </italic>
+           VNTR polymorphism with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           no association was found with homozygosity for the
+           <italic>
+            CLEC4M
+           </italic>
+           VNTR polymorphism and susceptibility to SARS-CoV-1
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0195" ns0:href="pmid:17534354">
+            17534354
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CLEC4M
+           </italic>
+           VNTR polymorphism with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           no association was found with homozygosity for the
+           <italic>
+            CLEC4M
+           </italic>
+           VNTR polymorphism and susceptibility to SARS-CoV-1
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0200" ns0:href="pmid:17534355">
+            17534355
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CCL5
+           </italic>
+           (MIM; 187011),
+           <italic>
+            CXCL9
+           </italic>
+           (MIM; 601704), and
+           <italic>
+            CXCL10
+           </italic>
+           (MIM; 147310) polymorphisms with susceptibility to SARS-CoV-1 infection or clinical parameters
+          </td>
+          <td>
+           <italic>
+            CCL5
+           </italic>
+           rs2107538 (NC_000017.11:g.35880776C&gt;T) was associated with susceptibility to SARS-CoV-1 in one cohort and severe outcomes of SARS-CoV-1 infection in another cohort
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0205" ns0:href="pmid:17540042">
+            17540042
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            FCER2
+           </italic>
+           (MIM; 151445) and
+           <italic>
+            ICAM3
+           </italic>
+           (MIM; 146631) polymorphisms with susceptibility to SARS-CoV-1 or clinical parameters
+          </td>
+          <td>
+           homozygosity for
+           <italic>
+            ICAM
+           </italic>
+           rs2304237 (NC_000019.10:g.10335892T&gt;C) was associated with higher LDH levels and lower total WBC counts
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0210" ns0:href="pmid:17570115">
+            17570115
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CD14
+           </italic>
+           (MIM; 158120),
+           <italic>
+            TLR2
+           </italic>
+           (MIM; 603028), and
+           <italic>
+            TLR4
+           </italic>
+           (MIM; 603030) polymorphisms with susceptibility to SARS-CoV-1 or clinical parameters
+          </td>
+          <td>
+           <italic>
+            CD14
+           </italic>
+           rs2569190 (NC_000005.10:g.140633331A&gt;C) was associated with severe SARS-CoV-1 infection (this data was also combined with previous data, suggesting that this and an
+           <italic>
+            FCGR2A
+           </italic>
+           allele are risk genotypes for severe SARS-CoV-1 infection)
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0215" ns0:href="pmid:17913858">
+            17913858
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            TNF
+           </italic>
+           (MIM; 191160) polymorphisms with interstitial lung fibrosis and femoral head osteonecrosis in discharged SARS-CoV-1patients
+          </td>
+          <td>
+           <italic>
+            TNF
+           </italic>
+           rs1800630 (NC_000006.12:g.31574699C&gt;A) status was associated with susceptibility to SARS-CoV-1 and with femoral head necrosis in discharged SARS-CoV-1patients
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0220" ns0:href="pmid:18312678">
+            18312678
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of polymorphisms in
+           <italic>
+            IL12RB1
+           </italic>
+           (MIM; 601604) with susceptibility to SARS-CoV-1 or clinical outcomes
+          </td>
+          <td>
+           IL12RB1
+           <italic>
+            rs11575932
+           </italic>
+           (NC_000019.10:g.18063894G&gt;A) was associated with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0225" ns0:href="pmid:18478121">
+            18478121
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of polymorphisms in 4 C-type lectin genes with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           no association of polymorphisms in C-type lectin genes with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0230" ns0:href="pmid:18697825">
+            18697825
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of polymorphisms in 9 inflammatory response genes with susceptibility to SARS-CoV-1 or clinical outcomes
+          </td>
+          <td>
+           no association of polymorphisms in inflammatory response genes with SARS-CoV-1 susceptibility or clinical outcomes
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0235" ns0:href="pmid:18708672">
+            18708672
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of polymorphisms in
+           <italic>
+            MASP2
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0240" ns0:href="605102">
+            605102
+           </ext-link>
+           ) with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           no association of
+           <italic>
+            MASP2
+           </italic>
+           polymorphisms with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0245" ns0:href="pmid:19405982">
+            19405982
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           polymorphisms with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           HLA-DRB1           12 was more frequent in SARS-CoV-1 patients versus controls; HLA-DRB1           1202 showed the strongest association with SARS-CoV-1 infection in a dominant model
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0250" ns0:href="pmid:19445991">
+            19445991
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of polymorphisms in 64 genes with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           CXCL10(−938AA) is protective (but appears jointly with other variants);
+           <italic>
+            FGL2
+           </italic>
+           (+158T/           )           is associated with higher susceptibility unless combined with CXCL10/(−938AA), when jointly is associated with lower susceptibility
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0255" ns0:href="pmid:19590927">
+            19590927
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CD209
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0260" ns0:href="604672">
+            604672
+           </ext-link>
+           ) polymorphism with SARS-CoV-1 outcomes
+          </td>
+          <td>
+           <italic>
+            CD209
+           </italic>
+           polymorphism rs4804803 (NC_000019.10:g.7747847A&gt;G) and ICAM3 rs2304237 (NC_000019.10:g.10335892T&gt;C) are associated with lower LDH levels (and therefore, worse prognosis)
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0265" ns0:href="pmid:20359516">
+            20359516
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           biological study and analysis of
+           <italic>
+            MX1
+           </italic>
+           promoter polymorphisms with suppressed interferon beta induction and association of
+           <italic>
+            MX1
+           </italic>
+           promoter polymorphisms with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           differences were observed in binding affinity to nuclear proteins related to IFN-beta stimulation;
+           <italic>
+            MX1
+           </italic>
+           rs2071430 (NC_000021.9:g.41426138G&gt;T) was associated with lower risk of SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0270" ns0:href="pmid:20462354">
+            20462354
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           gene polymorphisms with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           no significant associations (after correction)
+           <italic>
+            HLA
+           </italic>
+           gene polymorphisms with SARS-CoV-1 susceptibility were identified
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0275" ns0:href="pmid:20864745">
+            20864745
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           biological study of
+           <italic>
+            in vitro
+           </italic>
+           functional effects of
+           <italic>
+            CD209
+           </italic>
+           polymorphism and analysis of association of
+           <italic>
+            CD209
+           </italic>
+           polymorphism with SARS-CoV-1 outcomes
+          </td>
+          <td>
+           <italic>
+            CD209
+           </italic>
+           polymorphism rs4804803 (NC_000019.10:g.7747847A&gt;G) was associated with lower risk of high admission LDH levels, and may contribute to a reduced immune response/reduced lung injury during disease progression
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0280" ns0:href="pmid:20864747">
+            20864747
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            AHSG
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0285" ns0:href="138680">
+            138680
+           </ext-link>
+           ) and
+           <italic>
+            CYP4F3
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0290" ns0:href="601270">
+            601270
+           </ext-link>
+           ) polymorphisms with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           <italic>
+            AHSG
+           </italic>
+           polymorphism rs2248690 (NC_000003.12:g.186612299T&gt;A) was associated with SARS-CoV-1 susceptibility (as well as higher AHSG serum concentration)
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0295" ns0:href="pmid:21904596">
+            21904596
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           polymorphisms with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           HLA-Cw           1502 conferred resistance against SARS infection is associated with resistance to SARS-CoV-1 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0300" ns0:href="pmid:21958371">
+            21958371
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            HLA
+           </italic>
+           polymorphisms with SARS-CoV-1 susceptibility and outcome
+          </td>
+          <td>
+           no association of
+           <italic>
+            HLA
+           </italic>
+           polymorphisms with SARS-CoV-1 susceptibility and outcome were identified
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0305" ns0:href="pmid:24643938">
+            24643938
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            CCL2
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0310" ns0:href="158105">
+            158105
+           </ext-link>
+           ) and
+           <italic>
+            MBL
+           </italic>
+           polymorphisms with susceptibility to SARS-CoV-1 infection
+          </td>
+          <td>
+           <italic>
+            MBL
+           </italic>
+           rs1800450 (NC_000010.11:g.52771475C&gt;T) and
+           <italic>
+            CCL2
+           </italic>
+           rs1024611 (NC_000017.11:g.34252769A&gt;G) were cumulatively associated with SARS-CoV-1 susceptibility
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0315" ns0:href="pmid:25818534">
+            25818534
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-1 (and other respiratory pathogens)
+          </td>
+          <td>
+           meta-analysis of 386 studies on susceptibility to tuberculosis, influenza, respiratory syncytial virus, SARS-CoV-1, and pneumonia
+          </td>
+          <td>
+           in a pooled model,
+           <italic>
+            IL4
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0320" ns0:href="147780">
+            147780
+           </ext-link>
+           ) rs2070874 (NC_000005.10:g.132674018C&gt;T) status was positively associated with susceptibility after multiple testing correction
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0325" ns0:href="pmid:26524966">
+            26524966
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2
+          </td>
+          <td>
+           case report of death due to COVID-19 in three previously healthy adult brothers
+          </td>
+          <td>
+           suggestion of genetic predisposition due to apparent familial clustering
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0330" ns0:href="pmid:32277694">
+            32277694
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2
+          </td>
+          <td>
+           case reports of two patients with X-linked agammaglobulinemia (and documented pathogenic variants in
+           <italic>
+            BTK
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0335" ns0:href="300300">
+            300300
+           </ext-link>
+           ])
+          </td>
+          <td>
+           patients recovered, suggesting that B cell response might not be required to overcome the SARS-CoV-2 infection
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0340" ns0:href="pmid:32319118">
+            32319118
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2
+          </td>
+          <td>
+           analysis of association of
+           <italic>
+            IFITM3
+           </italic>
+           (MIM:
+           <ext-link ext-link-type="omim" id="intref0345" ns0:href="605579">
+            605579
+           </ext-link>
+           ) polymorphism with clinical outcomes of SARS-CoV-2 infection
+          </td>
+          <td>
+           significant association of homozygosity
+           <italic>
+            IFITM3
+           </italic>
+           rs12252 (NC_000011.10:g.320772A&gt;G) with disease severity
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0350" ns0:href="pmid:32348495">
+            32348495
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           SARS-CoV-2
+          </td>
+          <td>
+           case report of a large family cluster with more severe disease compared to other patients presenting at the same time
+          </td>
+          <td>
+           suggestion of genetic predisposition due to apparent familial clustering of severity
+          </td>
+          <td align="right">
+           <ext-link ext-link-type="uri" id="intref0355" ns0:href="pmid:32492209">
+            32492209
+           </ext-link>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          More details are available in          (see also          ). Abbreviations are as follows: CCoV, canine coronavirus; FCoV, feline coronavirus; HCoV-229E, human coronavirus 229E;HCoV NL63, human coronavirus NL63; HCoV OC43, human coronavirus OC43; LDH, lactate-dehydrogenase; MBL, Mannose-binding lectin; MERS-CoV, middle east respiratory syndrome coronavirus; SARS-CoV-1, severe acute respiratory syndrome coronavirus 1; SARS-CoV-2, severe acute respiratory syndrome coronavirus 2; SL-CoV, SARS-Cov-1-like coronaviruses; TGEV, porcine transmissible gastroenteritis coronavirus; WBC, white blood cell; WT, wild-type.
+         </p>
+        </fn>
+       </table-wrap-foot>
+       <table-wrap-foot>
+        <fn id="tblfn1">
+         <label>
+          a
+         </label>
+         <p id="ntpara0010">
+          Data describing variant specifics to enable HGVS nomenclature are not available (i.e., online databases do not appear to contain live data).
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="sec1.2">
+     <title>
+      Coronaviruses: General Background
+     </title>
+     <p id="p0035">
+      Although SARS-CoV-2 has seized recent attention, there are other coronaviruses with a large related body of literature. The
+      <italic>
+       Coronavirinae
+      </italic>
+      subfamily of the
+      <italic>
+       Coronaviridae
+      </italic>
+      family consists of four genera.      Among these, the alphacoronaviruses include two major human coronaviruses, HCoV-229E (multiple HCoV-229E-like strains have been identified) and HCoV-NL63.      Alphacoronaviruses that affect other species include feline coronavirus (FCoV), which includes feline infectious peritonitis virus (FIPV) and feline enteric coronavirus (FECV), canine coronavirus (CCoV), and transmissible gastroenteritis virus (TGEV) and porcine epidemic diarrhea virus (PEDV) in pigs.      The betacoronaviruses consist of four lineages: lineage A (HCoV-OC43 and HCoV-HKU1, as well as coronaviruses affecting other species, such as mouse hepatitis virus [MHV]), lineage B (SARS-CoV-1 and SARS-CoV-2), lineage C (Middle East respiratory syndrome (MERS) and many bat coronaviruses), and lineage D (coronaviruses only identified in bats to date).      HCoV-OC43, HCoV-229E, HCoV-HKU1, and HCoV-NL63 can result in a variety of presentations, including “common cold” and severe but rarely fatal disease; they are also frequently detected as co-infections with other viruses.      There are other rare coronaviruses observed in humans as well as in other species      (see for further details as described by the International Committee on Taxonomy of Viruses [ICTV]; see      ).
+     </p>
+     <sec id="sec1.2.1">
+      <title>
+       Animal Studies of Coronavirus: General Background
+      </title>
+      <p id="p0040">
+       Coronaviruses affect many species, from Beluga whales to spotted hyenas to turkeys. Sequelae of disease can range from apparently asymptomatic infections to severe or lethal effects on different organ systems, potentially manifesting as diarrheal, encephalitic, nephritic, respiratory, and other findings.
+      </p>
+      <p id="p0045">
+       In addition to ecologic studies of wild animals, there are numerous non-observational animal studies of coronaviruses, such as those involving ferrets,       hamsters,       guinea pigs,       rats,       and non-human primates.       Formal host genetic studies have been described for some but not all species. Many studies have simply involved examination of differences in species susceptibility and pathogenesis related to human and non-human coronaviruses without interrogation of specific variants in a particular species.
+      </p>
+      <p id="p0050">
+       Among the host genetic work in animals, the objectives and methods used depend on the species studied. For example, in chickens and pigs, the types of published studies predictably differ from those conducted on experimental mice. That is, although MHV represents a problem for mouse colonies, the rationale of the livestock studies may focus more purely on economic repercussions versus attempts to use a model organism to understand immunopathogenesis. The degree to which results may be reported through the scientific literature (versus other routes) is also anticipated to differ between these groups. See       for a summary of reported interrogated loci in animal studies.
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec1.3">
+     <title>
+      Species Susceptibility
+     </title>
+     <p id="p0055">
+      One type of study of host genetic factors involves trying to understand whether and how different species are susceptible to infections. This has several important implications related to human health. A first implication involves the zoonotic potential of a pathogen.      Relevant studies have explored host ranges and reservoirs. For example, bats, camels, and humans can be infected by MERS, unlike mice, ferrets, hamsters, and guinea pigs. SARS-CoV-2 replicates better in ferrets and cats than in dogs, pigs, chickens, and ducks. One explanation involves genetic characteristics of the host receptor for the relevant virus (see      below for further discussion).
+     </p>
+     <p id="p0060">
+      As a natural reservoir for many coronaviruses, bats have been investigated more extensively than other species outside of laboratory-based animals and livestock. One interesting aspect involves host/pathogen co-evolution. That is, research has included co-evolutionary studies between coronaviruses and the genomes of bat hosts (e.g., by correlating phylogenetic analyses of bat coronaviruses with
+      <italic>
+       CYTB
+      </italic>
+      in multiple bat species)      as well as other genetic/biologic studies related to host genetic factors. These have involved relatively well-characterized genes, such as the
+      <italic>
+       ACE2
+      </italic>
+      receptor gene with SARS-CoV-1      and the
+      <italic>
+       DPP4
+      </italic>
+      receptor gene with MERS.      Specific residues in the
+      <italic>
+       ANPEP
+      </italic>
+      receptor gene influence species susceptibility to multiple different coronaviruses.      In addition to allowing analyses of host susceptibility, these and similar studies help provide estimates for the time-frame of coronavirus circulation in species and populations.
+     </p>
+     <p id="p0065">
+      As a second example, camels are an important reservoir of coronaviruses that can infect humans; this became especially relevant in the context of MERS. Several host genetic studies have looked at
+      <italic>
+       DPP4
+      </italic>
+      receptor characteristics and species tropism, including comparisons between camels, humans, and other species.      To underscore the importance of considering host factors beyond genetics, many studies have analyzed non-genetic correlations with the spread from camels to humans. Examples in this context include the size of the domesticated camel herds, what the herds were used for (e.g., food or transport), and how active the herds were.      In the burgeoning studies of COVID-19 host genetic factors, controlling for these types of other variables will be challenging and important. However, it is possible that sheer statistical power may be able to address some of these issues. Similar approaches have achieved significant results for other etiologically and medically complex diseases (such as preterm birth), including using some of the same datasets and approaches being proposed for COVID-19 studies.
+     </p>
+     <p id="p0070">
+      As a final example, palm civets (as well as other species) have been examined in relation to zoonotic implications of coronavirus disease. Specifically, questions about
+      <italic>
+       ACE2
+      </italic>
+      have been described in the context of SARS-CoV-1 and the impact of species-specific variants in this and other genes.      This work has emphasized interactions of viral and host genetics.      This aspect bears further scrutiny in COVID-19 studies, especially given recent data regarding SARS-CoV-2 genetic changes detected in different areas of the world (e.g., see data from Nextstrain under      ).
+     </p>
+     <p id="p0075">
+      In addition to observational studies, experimental approaches have been used to study species susceptibility. Hamsters have been used as model organisms to study coronaviruses, including via standard hamster cell lines as well as other approaches with hamster models.      For example, hamsters have been used to study species susceptibility to MHV (related to the
+      <italic>
+       Ceacam1
+      </italic>
+      receptor),      how alterations of specific Dpp4 amino acids in hamsters affect susceptibility to MERS,      and the roles of ACE2 and CD209L in SARS-CoV-1 susceptibility.      Related to the human implications of this type of work, newer gene editing techniques may be an efficient way to provide experimental validation of specific variants that have been implicated in COVID-19.
+     </p>
+     <p id="p0080">
+      A second, related implication involves identifying experimental animals that mimic human response to the virus (or that can be used to understand the disease in other species). Among other reasons, this can be important for understanding human infection and developing and testing possible treatments; in addition to the above-mentioned experimental animals, other animals, including non-human primates, have been used to study coronavirus in this way.      As usual, these studies have included host receptors as well as genes and mechanisms involved in downstream viral pathogenesis and have employed a variety of computational and experimental approaches.
+     </p>
+     <p id="p0085">
+      Beyond receptor studies (see further details below), the site of viral replication appears to vary according to the species and coronavirus. This may be potentially related to tissue-specific receptor expression, such as has been shown in studies of cats and ferrets.      This line of reasoning may also be relevant to age-specific differences observed with COVID-19 in humans.      That is, one of several potential factors that may explain why most children are more mildly affected by COVID-19 is age-related differences in ACE2 receptor expression.
+     </p>
+    </sec>
+    <sec id="sec1.4">
+     <title>
+      Receptor Studies
+     </title>
+     <p id="p0090">
+      In various species, efforts have focused on genes encoding the relevant coronavirus receptor, including effects of viral and host genetic changes and how these may impact the disease process. Among other cell surface determinants,      these receptor genes include
+      <italic>
+       ACE2
+      </italic>
+      (MIM: 30035) for HCoV-NL63,      SARS-CoV-1,      and SARS-CoV-2,
+      <italic>
+       ANPEP
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0010" ns0:href="151530">
+       151530
+      </ext-link>
+      ) for HCoV-229,      FIPV,      CCoV,      and TGEV,
+      <italic>
+       DPP4
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0015" ns0:href="102720">
+       102720
+      </ext-link>
+      ) for MERS,      and
+      <italic>
+       Ceacam1
+      </italic>
+      for MHV (see      , which summarizes key genes investigated in animal studies on coronaviruses).      In animals, significant work has been done related to host genetic factors involving these receptor genes. For example, studies in rats include computational approaches examining receptor characteristics, such as
+      <italic>
+       Ace2
+      </italic>
+      in the context of SARS-CoV-1,      and experimental approaches that suggest that rats are not susceptible to MERS on the basis of
+      <italic>
+       Dpp4
+      </italic>
+      characteristics.
+     </p>
+     <p id="p0095">
+      In humans (see      and      and      and      for details on human studies of these genes, including specific references), studies of specific
+      <italic>
+       ACE2
+      </italic>
+      polymorphisms have not shown significant associations with SARS-CoV-1 susceptibility or outcome.
+      <italic>
+       CLEC4M
+      </italic>
+      (
+      <italic>
+       CD209L
+      </italic>
+      ) (MIM:
+      <ext-link ext-link-type="omim" id="intref0020" ns0:href="605872">
+       605872
+      </ext-link>
+      ) encodes an alternate receptor with lower viral affinity. There is mixed evidence for an association of susceptibility to SARS-CoV-1 with
+      <italic>
+       CLEC4M
+      </italic>
+      polymorphisms (tandem repeats). Several studies have used (and are using) existing datasets to explore allele frequencies (such as in
+      <italic>
+       ACE2
+      </italic>
+      ) in various geographic/ancestral populations: the hypothesis is that differences in allele frequencies—as well as observed differences in gene expression—may be one reason for differential impacts of COVID-19 in different parts of the world.      In conjunction with population studies, computational functional studies have been performed on identified
+      <italic>
+       ACE2
+      </italic>
+      variants.
+     </p>
+     <p id="p0100">
+      Following up these data through host genetic studies with cases and controls will help further examine variants in these and other genes. Validating findings with biological data will also be helpful—for example, a recent study on COVID-19 showed that certain immune mediators, cytokines, and chemokines correlate with aspects of disease.      Because of today’s availability of genomic approaches, and in contrast to the previously published studies (described in      and      ), emerging studies on COVID-19 will most likely have to consider both rare and common variants in these and other genes, as well as combinatorial models explaining susceptibility and outcomes.
+     </p>
+     <p id="p0105">
+      Multiple studies have examined mutant
+      <italic>
+       ACE2
+      </italic>
+      . Studying the effects of mutant
+      <italic>
+       ACE2
+      </italic>
+      on SARS-CoV-1 entry provided evidence that the cytoplasmic tail of ACE2 is not required for SARS-CoV-1 penetration.      SARS-CoV-2 studies have suggested that truncated ACE2 could act as a COVID-19 therapeutic through inhibition of SARS-CoV-2 spike protein activity.      Computational models suggest that, although most
+      <italic>
+       ACE2
+      </italic>
+      variants result in similar binding affinity for SARS-CoV-2 spike protein, certain variants in the gene (rs73635825 and rs143936283) demonstrate different intermolecular interactions with the spike protein.
+     </p>
+    </sec>
+    <sec id="sec1.5">
+     <title>
+      Extensions of Receptor Studies to Interventional Approaches in Animal Studies
+     </title>
+     <p id="p0110">
+      Pigs can be infected by TGEV and PEDV, as well as the more recently-identified porcine deltacoronavirus (PDCoV). Similar to coronavirus disease in chickens, these diseases can affect the food industry, and studies have aimed to address ways to ameliorate disease, such as through vaccines and other methods.      Modern gene editing techniques have been studied in this context; these have also garnered recent interest in COVID-19.
+     </p>
+     <p id="p0115">
+      In pig studies, variants (both naturally occurring and experimentally induced) have been shown to have varying effects on different coronaviruses. For example, aminopeptidase N, encoded by
+      <italic>
+       ANPEP
+      </italic>
+      (also called
+      <italic>
+       APN
+      </italic>
+      ), was reported as a functional receptor for TGEV and PEDV (as well as HCoV-229E), but multiple models, including CRISPR/Cas9-generated knockouts, show differences in cellular susceptibility to TGEV and PEDV.      In another study, infection by PEDV and TGEV correlated positively with ANPEP expression, but PEDV and TGEV could infect ANPEP-positive and ANPEP-negative enterocytes: differences were observed between viral strains. Overall, the results suggested the presence of an additional receptor.      Similar to work on SARS-CoV-1 in humans, variants in these additional receptor genes may be clinically relevant.
+     </p>
+     <p id="p0120">
+      Building on this type of work, site-specific editing of
+      <italic>
+       ANPEP
+      </italic>
+      has been raised as a potential means to breed resistant animals.      In a similar vein, knockout of
+      <italic>
+       CMAH
+      </italic>
+      (hypothesized to affect cellular binding) does not result in immunity to PEDV but appears to improve outcomes.
+     </p>
+     <p id="p0125">
+      This line of thinking can be extended to human studies. In COVID-19, the use of splice-switching antisense oligonucleotides has been proposed to affect ACE2 in order to limit SARS-CoV-2 entry.      Other modern techniques, such as CRISPR, have emerged as powerful tools for many research and a growing number of potential clinical applications. CRISPR has been described as a potential diagnostic and therapeutic tool to test for and combat SARS-CoV-2 infection.      CRISPR applications to host cells has also been suggested as a therapeutic avenue.      It is likely that additional ethical and biological questions will arise that may echo previous discussions about these approaches in other clinical areas.      As with other questions in COVID-19 (e.g., ethical questions pertaining to human challenge studies in vaccine trials      ), balancing risks and benefits will be critical.
+     </p>
+    </sec>
+    <sec id="sec1.6">
+     <title>
+      Major Histocompatibility Complex (MHC)
+     </title>
+     <p id="p0130">
+      The major histocompatibility complex (MHC) has been explored in studies of multiple species related to coronavirus, including chickens,      domestic cats,      and cheetahs.      As with the human studies summarized below (see also      and      ), the evidence has been mixed and unclear.
+     </p>
+     <p id="p0135">
+      Studies of cheetahs present an interesting example related to MHC genes, which may have connections to human COVID-19 studies. Among wild animals, severe population bottlenecks (resulting in reduced genetic diversity) in cheetahs has been used to explain their increased susceptibility to infection by FIPV as well as other infectious diseases. Several such bottlenecks appear to have occurred in cheetahs as a result of a combination of factors.      Among possible explanations for cheetahs’ coronavirus susceptibility, genetic uniformity of the MHC has been proposed.
+     </p>
+     <p id="p0140">
+      In humans, severe COVID-19 outcomes have already been reported in peer-reviewed literature      (as well as many lay articles), but specific suggestions of associations with consanguinity have not been identified. However, analyzing such families may be informative, as has been the case for many conditions with genetic underpinnings.
+     </p>
+     <p id="p0145">
+      Separate from the above, HLA genes (including MIM:
+      <ext-link ext-link-type="omim" id="intref0025" ns0:href="142800">
+       142800
+      </ext-link>
+      ,
+      <ext-link ext-link-type="omim" id="intref0030" ns0:href="142830">
+       142830
+      </ext-link>
+      ,
+      <ext-link ext-link-type="omim" id="intref0035" ns0:href="142857">
+       142857
+      </ext-link>
+      ) have also been studied in humans in relation to SARS-CoV-1, again with overall mixed evidence (see      and      and      and      for details on human HLA studies, including specific references). HLA alleles that appear to be related to susceptibility and/or outcome of disease have been identified. This mixed evidence may reflect issues with study design, such as sample size and ascertainment. The HLA genes remain a logical target of interest in relation to COVID-19.      As a preface to case-control host genetic studies, a recent report has described peptide-binding affinities between hundreds of HLA class I and class II proteins and the proteomes of seven pandemic viruses, including coronaviruses. Similar to human population work on
+      <italic>
+       ACE2
+      </italic>
+      and other genes in humans, the HLA alleles have been examined in relation to peptide-binding affinities.      An
+      <italic>
+       in silico
+      </italic>
+      analysis of viral peptide-MHC class I binding affinity in relation to HLA genotypes for SARS-CoV-2 peptides, as well as potential cross-protective immunity related to four common human coronaviruses, provides evidence that HLA-B      46:01 may be associated with COVID-19 vulnerability, whereas HLA-B      15:03 may enable cross-protective T-cell-based immunity.      Correlating these theoretical data with case-control results is a logical next step.
+     </p>
+    </sec>
+    <sec id="sec1.7">
+     <title>
+      Other Immune Genes
+     </title>
+     <p id="p0150">
+      Beyond the HLA genes, other key genes involved in immune processes have been investigated in host genetic studies. We use the extensive mouse studies to illustrate this point.
+     </p>
+     <p id="p0155">
+      Differences in the susceptibility of various mouse lines to MHV has been noted for seven decades.      This coronavirus remains a challenge for the health of mouse colonies, although relatively recent improvements in animal care practices have been beneficial.      Various MHV strains show a range of tissue tropism and host effects on different mouse lines.      For example, the JHM strain of MHV causes encephalitis in susceptible animal lines.
+     </p>
+     <p id="p0160">
+      Unsurprisingly, the majority of host genetic research in mouse models has centered on pathways known to be implicated in viral infection susceptibility. MHV-based mouse studies have used transgenic models to directly test the role of implicated immunologic and related pathways (summarized in      ). Work in humans so far has also concentrated on key immune genes (see      and      ); similar work in relation to COVID-19 has been proposed.
+      <table-wrap id="tbl2" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Summary of Relevant Mouse Studies Related to Coronavirus (See Also         )
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           <bold>
+            Mouse (Human Gene)
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Method(s) or Approach(es)
+           </bold>
+          </th>
+          <th>
+           <bold>
+            Pathway: Key Findings
+           </bold>
+          </th>
+          <th>
+           <bold>
+            PMID
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <italic>
+            Ace2 (ACE2
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0360" ns0:href="300335">
+            300335
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           humanized mice, SARS-CoV1
+          </td>
+          <td>
+           viral receptor: humanized
+           <italic>
+            Ace2
+           </italic>
+           mice, increased infection, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0365" ns0:href="pmid:18495771">
+            18495771
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Atg5 (ATG5
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0370" ns0:href="604261">
+            604261
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           autophagy: required for MHV replication, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0375" ns0:href="pmid:14699140">
+            14699140
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Atp1a1 (ATP1A1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0380" ns0:href="182310">
+            182310
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           knockdown and chemical inhibition across many coronaviruses
+          </td>
+          <td>
+           ion channel: chemical inhibition or gene silencing, results in blocking viral entry, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0385" ns0:href="pmid:25653449">
+            25653449
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            B2m (B2M
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0390" ns0:href="109700">
+            109700
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           adaptive immunity: MHC class I/CD8 T cells required for host immune response, protective gene
+          </td>
+          <td>
+           8799201;
+           <ext-link ext-link-type="uri" id="intref0395" ns0:href="pmid:10023135">
+            10023135
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Bnip3 (BNIP3
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0400" ns0:href="603293">
+            603293
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           cell culture model, MHV infection
+          </td>
+          <td>
+           apoptosis: pro-apoptotic gene is suppressed upon viral entry, likely protective
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0405" ns0:href="pmid:14599795">
+            14599795
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            C3 (C3
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0410" ns0:href="120700">
+            120700
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           complement pathway: decreased complement activation leads to less severe disease, implicated immune driven component of disease, gene is permissive
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0415" ns0:href="pmid:30301856">
+            30301856
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            C5ar1(C5AR1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0420" ns0:href="113995">
+            113995
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           complement pathway: complement pathway exacerbates hepatitis, KO decreases manifestations, decreased susceptibility, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0425" ns0:href="pmid:24604562">
+            24604562
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ccr1 (CCR1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0430" ns0:href="601159">
+            601159
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: loss of
+           <italic>
+            Ccr1
+           </italic>
+           increased mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0435" ns0:href="pmid:18158733">
+            18158733
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ccr2 (CCR2
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0440" ns0:href="601267">
+            601267
+           </ext-link>
+           ])
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways:
+           <italic>
+            Ccr2
+           </italic>
+           required for clearance of the virus from CNS, KO increased susceptibility, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0445" ns0:href="pmid:15518805">
+            15518805
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ccr5 (CCR5
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0450" ns0:href="601373">
+            601373
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: KO decreased severity of demyelination disease, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0455" ns0:href="pmid:11543653">
+            11543653
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Cd200r1 (CD200R1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0460" ns0:href="607546">
+            607546
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           immune receptor: Cd200 KO increases clearance of MHV, decreases susceptibility, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0465" ns0:href="pmid:22615569">
+            22615569
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ceacam1 (CEACAM1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0470" ns0:href="109770">
+            109770
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           isoform specific transgenic and KO, MHV infection
+          </td>
+          <td>
+           viral receptor: KOs are fully resistant to infection, liver, and CNS manifestations, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0475" ns0:href="pmid:11483763">
+            11483763
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0480" ns0:href="pmid:15331748">
+            15331748
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Cxcl10 (CXCL10
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0485" ns0:href="147310">
+            147310
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T2), KO leads to increased mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0490" ns0:href="pmid:17142734">
+            17142734
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0495" ns0:href="pmid:17617609">
+            17617609
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Cxcl9 (CXCL9
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0500" ns0:href="601704">
+            601704
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T2), KO had increased MHV associated mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0505" ns0:href="pmid:18973912">
+            18973912
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Dpp4 (DPP4
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0510" ns0:href="102720">
+            102720
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           various transgenic and humanized models, MERS infection
+          </td>
+          <td>
+           viral receptor: humanized
+           <italic>
+            Dpp4
+           </italic>
+           or mutations, deletions in mouse
+           <italic>
+            Dpp4
+           </italic>
+           leads to MERS induced ARDS, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0515" ns0:href="pmid:24574399">
+            24574399
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0520" ns0:href="pmid:25653445">
+            25653445
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0525" ns0:href="pmid:29691378">
+            29691378
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0530" ns0:href="pmid:30142928">
+            30142928
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0535" ns0:href="pmid:31883094">
+            31883094
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ebi3 (EBI3
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0540" ns0:href="605816">
+            605816
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T2), KO leads to increased mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0545" ns0:href="pmid:23102608">
+            23102608
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Foxn1 (FOXN1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0550" ns0:href="600838">
+            600838
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           adaptive immunity: athymic mice lacking T cells unable to clear infection cause severe disseminated disease, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="interref845" ns0:href="pmid:8799201">
+            8799201
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0555" ns0:href="pmid:15070459">
+            15070459
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            H2-Ab1 (H2AB1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0560" ns0:href="301037">
+            301037
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           adaptive immunity: MHC class I/CD4 T cells required for host immune response, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="interref850" ns0:href="pmid:8799201">
+            8799201
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ifih1 (IFIH1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0565" ns0:href="606951">
+            606951
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T1), KO more severe, disseminated MHV infection, decreased survival, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0570" ns0:href="pmid:26423942">
+            26423942
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ifnar1, (IFNAR1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0575" ns0:href="107450">
+            107450
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T1), KO leads to increased mortality and higher viral titers, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0580" ns0:href="pmid:18667505">
+            18667505
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0585" ns0:href="pmid:19215224">
+            19215224
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0590" ns0:href="pmid:19650917">
+            19650917
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ifnar1 (IFNAR1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0595" ns0:href="107450">
+            107450
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           interferon pathway: type I, II, and III interferons do not alter infection for SARS-CoV-1, in contrast to MHV
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0600" ns0:href="pmid:20386712">
+            20386712
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ifng (IFNG
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0605" ns0:href="147570">
+            147570
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T2), KO has increased mortality, decreased viral clearance, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="interref855" ns0:href="pmid:9973424">
+            9973424
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0610" ns0:href="pmid:11864749">
+            11864749
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ifngr1 (IFNGR1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0615" ns0:href="107470">
+            107470
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T2), KO has increased mortality, decreased viral clearance, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="interref860" ns0:href="pmid:8752933">
+            8752933
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0620" ns0:href="pmid:15039522">
+            15039522
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0625" ns0:href="pmid:20042510">
+            20042510
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ifngr1 (IFNGR1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0630" ns0:href="107470">
+            107470
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           interferon pathway: type I, II, and III interferons do not alter infection for SARS-CoV-1, in contrast to MHV
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0635" ns0:href="pmid:20386712">
+            20386712
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ighm (IGHM
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0640" ns0:href="147020">
+            147020
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           adaptive immunity: B cell deficient develop subclinical infection and transmit virus for increased time span, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0645" ns0:href="pmid:15027615">
+            15027615
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Il1r1 (IL1R1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0650" ns0:href="147810">
+            147810
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: KO shows reduced viral replication, mortality, and disease progression, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0655" ns0:href="pmid:26367131">
+            26367131
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Mavs (MAVS
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0660" ns0:href="609676">
+            609676
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T1), viral sensor, studied in the presence of attenuated virus, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0665" ns0:href="pmid:29717007">
+            29717007
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Myd88 (MYD88
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0670" ns0:href="602170">
+            602170
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, rMA15 infection
+          </td>
+          <td>
+           cytokine pathways: downstream of multiple pathways, KO increased susceptibility to MHV infection and mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0675" ns0:href="pmid:19079579">
+            19079579
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Prkdc (PRKDC
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0680" ns0:href="600899">
+            600899
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           adaptive immunity: loss of T and B cells causes severe disseminated infection, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="interref865" ns0:href="pmid:8799201">
+            8799201
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Rag1 (RAG1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0685" ns0:href="179615">
+            179615
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           adaptive immunity: loss of mature T and B cells leads to failure to clear infection, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0690" ns0:href="pmid:17142734">
+            17142734
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0695" ns0:href="pmid:18973912">
+            18973912
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0700" ns0:href="pmid:25428866">
+            25428866
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0705" ns0:href="pmid:27604627">
+            27604627
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Serpine1 (SERPINE1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0710" ns0:href="173360">
+            173360
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1 infection
+          </td>
+          <td>
+           tissue remodeling: KO mice are more susceptible to infection and inflammation, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0715" ns0:href="pmid:23919993">
+            23919993
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Stat1 (STAT1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0720" ns0:href="600555">
+            600555
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO/KI, HCoV-229E infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T1), KO increased susceptibility HCoV in transgenic
+           <italic>
+            APN
+           </italic>
+           model, protective
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0725" ns0:href="pmid:15919828">
+            15919828
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Stat1 (STAT1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0730" ns0:href="600555">
+            600555
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV-1
+          </td>
+          <td>
+           cytokine pathways: KO worsens disease, increases susceptibility, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0735" ns0:href="pmid:20386712">
+            20386712
+           </ext-link>
+           ;
+           <ext-link ext-link-type="uri" id="intref0740" ns0:href="pmid:23142821">
+            23142821
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Stat6 (STAT6
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0745" ns0:href="601512">
+            601512
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           conditional KO,
+           <italic>
+            LysM and FoxJ1, Stat1/Stat6 −/− double knockout,
+           </italic>
+           SARS-CoV-1
+          </td>
+          <td>
+           cytokine pathways: conditional KO of Stat1 in macrophages but not ciliated epithelial cells showed pulmonary disease, double knockout of
+           <italic>
+            Stat1
+           </italic>
+           and
+           <italic>
+            Stat6
+           </italic>
+           relieves pulmonary disease, implicates alternatively activated macrophages, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0750" ns0:href="pmid:23015710">
+            23015710
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Ticam2 (TICAM2
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0755" ns0:href="608321">
+            608321
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           immune receptor: TLR mediated, KO developed more severe infection, increased viral titer, and increased weight loss, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0760" ns0:href="pmid:28592648">
+            28592648
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Tlr2 (TLR2
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0765" ns0:href="603028">
+            603028
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           immune receptor: KO decreases inflammatory response, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0770" ns0:href="pmid:19740307">
+            19740307
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Tlr3 (TLR3
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0775" ns0:href="603029">
+            603029
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           immune receptor: TLR mediated, KO more susceptible for SARS-CoV-1 infection, although no increased mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0780" ns0:href="pmid:26015500">
+            26015500
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Tlr4 (TLR4
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0785" ns0:href="603030">
+            603030
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           immune receptor: TLR mediated, KO more susceptible for SARS-CoV-1 infection, although no increased mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0790" ns0:href="pmid:26015500">
+            26015500
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Tlr7 (TLR7
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0795" ns0:href="300365">
+            300365
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           immune receptor: viral sensor, KO prolonged infection, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0800" ns0:href="pmid:29717007">
+            29717007
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Tram1 (TRAM1
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0805" ns0:href="605190">
+            605190
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           immune receptor: TLR mediated, KO more susceptible for SARS-CoV-1 infection, although no increased mortality, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0810" ns0:href="pmid:26015500">
+            26015500
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Trif (TRIF
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0815" ns0:href="607601">
+            607601
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           immune receptor: TLR mediated, KO more susceptible to SARS-CoV-1 infection, more severe infection with increased interferon signaling, protective gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0820" ns0:href="pmid:26015500">
+            26015500
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Trim55 (TRIM55
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0825" ns0:href="606469">
+            606469
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, SARS-CoV1
+          </td>
+          <td>
+           uncharacterized pathway: contributed to lung pathology, KO decreased severity, permissive gene
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0830" ns0:href="pmid:26452100">
+            26452100
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <italic>
+            Usp18 (USP18
+           </italic>
+           [MIM:
+           <ext-link ext-link-type="omim" id="intref0835" ns0:href="607057">
+            607057
+           </ext-link>
+           ]
+           <italic>
+            )
+           </italic>
+          </td>
+          <td>
+           KO, MHV infection
+          </td>
+          <td>
+           cytokine pathways: interferon related (T1), KO leads to increased survival, decreased pathology and viral titer, gene is permissive
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0840" ns0:href="pmid:24648452">
+            24648452
+           </ext-link>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn>
+         <p>
+          Note that the different studies have disparate objectives, many of which more directly involve aspects of immunopathogenesis versus standard host genetic questions regarding why specific genetic variants may affect disease susceptibility and outcomes. See also          . Abbreviations are as follows: ARDS, acute respiratory distress syndrome; CNS, central nervous system; KI, knock-in; KO, knockout; MERS, middle east respiratory syndrome; MHC, major histocompatibility complex; MHV, mouse hepatitis virus; SARS-CoV-1, severe acute respiratory syndrome coronavirus 1; T1, type 1; T2, type 2; TLR, Toll-like receptor.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="p0165">
+      Mouse host genetic studies include investigations of humoral and cellular adaptive immune responses, specific cytokine and immune receptor pathways, viral receptors, complement pathways, apoptosis, autophagy, and tissue repair. These studies have prominently implicated types I (ɑβ) and II (γ) interferon responses in host response and predominant protection against MHV infection. However, not all pro-inflammatory pathways have been shown to be protective. For example, complement activation promotes tissue damage caused by MHV infection, highlighting the complex interplay between the host and virus. These transgenic models have also returned to questions regarding the susceptibility of different strains.      In addition to targeted gene disruptions described above, a GWAS using a recombinant inbred mouse panel implicated
+      <italic>
+       Trim55
+      </italic>
+      , which is involved in vascular cuffing and inflammation in response to SARS-CoV-1.
+     </p>
+     <p id="p0170">
+      Although these studies have provided much better understanding of the disease process, it is not always clear how well the results for one viral strain and mouse line can be extrapolated more broadly. Similar themes emerge in human studies of other conditions. That is, the clinical effects of particular variants may differ from one population to the next, most likely because of other, interacting genetic and non-genetic factors. This may make findings in one population difficult to generalize or may mean that certain genetic variants are most clinically relevant in certain populations. In humans, this issue becomes especially important in clinically-oriented variant analysis.      Similar concerns might arise in related situations, such as the use of genetic data to help drive therapeutic development. An example of a population-specific consideration has already been mentioned in relation to COVID-19 is that a variant in
+      <italic>
+       SCN5A
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0040" ns0:href="600163">
+       600163
+      </ext-link>
+      ) that is common in individuals of recent African descent may increase the risk of cardiovascular morbidity and mortality, including upon exposure to hydroxychloroquine and azithromycin.
+     </p>
+     <p id="p0175">
+      In addition to the human host genetic studies that examined this broad category of genes, biologic investigations have been performed. For example, the TRIM proteins play regulatory roles in innate antiviral responses; TRIM56 had been shown to inhibit replication of the flavivirus bovine viral diarrhea virus. Studies of mutant
+      <italic>
+       TRIM56
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0045" ns0:href="616996">
+       616996
+      </ext-link>
+      ) on antiviral activity against HCoV-OC43 and other viruses showed that anti-HCoV-OC43 activity relies solely upon TRIM56 E3 ligase activity; this appears different from the mechanisms for other viral pathogens.      Depletion or expression of a catalytically inactive version of
+      <italic>
+       PPIA
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0050" ns0:href="123840">
+       123840
+      </ext-link>
+      ), also known as cyclophilin A, results in impaired HCoV-229E replication.      Cyclophilin A is a peptidyl-prolyl
+      <italic>
+       cis
+      </italic>
+      /
+      <italic>
+       trans
+      </italic>
+      isomerase that binds CoV proteins and is required for viral propagation through an unclear mechanism. Specific variants in
+      <italic>
+       IFITM
+      </italic>
+      genes encoding interferon-induced transmembrane proteins (
+      <italic>
+       IFITM1
+      </italic>
+      [MIM:
+      <ext-link ext-link-type="omim" id="intref0055" ns0:href="604456">
+       604456
+      </ext-link>
+      ] and
+      <italic>
+       IFITM3
+      </italic>
+      [MIM:
+      <ext-link ext-link-type="omim" id="intref0060" ns0:href="605579">
+       605579
+      </ext-link>
+      ] were studied) facilitate the entry of multiple human coronaviruses (HCoV-229E, HCoV-NL63, HCoV OC43, MERS-CoV, and SARS-CoV-1 were studied) despite surprisingly inhibiting the entry of other viruses.      Finally, studies have manipulated various genes/proteins involved in viral pathogenesis to explore functional effects, including
+      <italic>
+       GLTSCR2
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0065" ns0:href="605691">
+       605691
+      </ext-link>
+      ),
+      <italic>
+       IFITM1
+      </italic>
+      ,
+      <italic>
+       IFITM2
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0070" ns0:href="605578">
+       605578
+      </ext-link>
+      ),
+      <italic>
+       IFITM3
+      </italic>
+      ,      and
+      <italic>
+       MAVS
+      </italic>
+      (MIM:
+      <ext-link ext-link-type="omim" id="intref0075" ns0:href="609676">
+       609676
+      </ext-link>
+      ).
+     </p>
+    </sec>
+    <sec id="sec1.8">
+     <title>
+      Evidence of Interactions of Viral and Host Genetic Factors
+     </title>
+     <p id="p0180">
+      Multiple lines of evidence suggest a complex relationship between viral and host genetics. Again, mouse studies have focused on this area, as well as exploring other questions regarding susceptibility and pathogenesis.
+     </p>
+     <p id="p0185">
+      Examinations of different laboratory mouse strains have suggested that multiple loci are involved in host genetic factors related to MHV.      Early mouse studies yielded various models, including potential monogenic/Mendelian explanations as well as more complex explanations involving interacting loci.      Human studies will be more complex than those on inbred mouse lines. Some of the small candidate-driven association studies in humans have tried to use combinatorial models but were most likely hampered by multiple issues, including the numbers of available cases and controls and the ability to query multiple common and rare variants simultaneously (see      and      for details). In addition to potentially addressing this complexity with large numbers of participants, elegant approaches have been proposed. For example, deep investigation of outliers may yield answers that can be further investigated in the general population.      These outliers may represent extremes of clinical sequelae, such as those who appear to be unaffected or otherwise young and healthy individuals who are more severely affected than would be anticipated. Specific examples have already been reported in the literature on COVID-19.      Another area of interest may involve studying individuals with identified pathogenic or severe variants (e.g., “human knockouts”) to determine correlations with COVID-19. Studies of populations that have already been genotyped and extensively studied may be especially powerful.
+     </p>
+    </sec>
+    <sec id="sec1.9">
+     <title>
+      Sex Effects
+     </title>
+     <p id="p0190">
+      As described, work in human and animals has explored various host factors related to coronavirus infection. For example, human      and animal      studies have implicated age as having significant associations with outcomes in coronavirus infections. Currently, age appears to be strongly correlated with COVID-19 outcomes.      The overall explanations for this remain unclear but could involve age-related gene expression. Sex also appears to be correlated with outcomes. Animal studies identify sex effects, such as those related to disease severity, in multiple species.      Human studies of SARS-CoV-1 and SARS-CoV-2 suggest a correlation between sex and certain clinical parameters, perhaps rooted in sex-based or related immunologic differences or gene dosage effects.      However, separating biological differences from sex-related cultural practices (e.g., different rates of social distancing) and body habitus (i.e., potential correlations of body mass index with sex separate from strict genetic correlations) may be difficult.
+     </p>
+    </sec>
+    <sec id="sec1.10">
+     <title>
+      Hypothesis-free versus Candidate Approaches
+     </title>
+     <p id="p0195">
+      Human host genetic studies on coronavirus have been largely candidate driven to date (see      and      and      and      for details on human studies, including specific references), though many hypothesis-free studies on COVID-19 are in various phases of completion. As shown in      and      , human studies have examined susceptibility to infection as well as questions regarding various outcomes (some studies investigated both areas). Animal studies on coronaviruses have employed hypothesis-free as well as candidate approaches.
+     </p>
+     <p id="p0200">
+      In chickens, the infectious bronchitis virus (IBV) coronavirus can cause disease that affects different organ systems and tissues, such as IBV-associated nephritis. As with other species, inbred status and specific chicken lines have been shown to impact host susceptibility, immune response, and outcomes, and virus-host genetic interactions have been described.      ,      ,      Breeding experiments have suggested different inheritance patterns related to susceptibility and outcomes and have implicated both MHC and non-MHC loci.      Multiple GWASs investigating immune response to IBV have identified significantly associated polymorphisms in the breeds studied;      the implicated or nearest genes include
+      <italic>
+       AKT1
+      </italic>
+      ,
+      <italic>
+       AvBD12
+      </italic>
+      ,
+      <italic>
+       CEP170B
+      </italic>
+      ,
+      <italic>
+       CRYL1
+      </italic>
+      ,
+      <italic>
+       CWF19L2
+      </italic>
+      ,
+      <italic>
+       DHRSX
+      </italic>
+      ,
+      <italic>
+       FAM19A2
+      </italic>
+      ,
+      <italic>
+       GABRB3
+      </italic>
+      ,
+      <italic>
+       INTS9
+      </italic>
+      ,
+      <italic>
+       NMNAT3
+      </italic>
+      ,
+      <italic>
+       PINX1
+      </italic>
+      ,
+      <italic>
+       RAB39A
+      </italic>
+      ,
+      <italic>
+       VRK1
+      </italic>
+      ,
+      <italic>
+       YEATS2,
+      </italic>
+      and
+      <italic>
+       SETBP1
+      </italic>
+      (see      , including related to genes identified through studies of other animals as described below).
+     </p>
+     <p id="p0205">
+      Felines can be infected by FCoV, which includes FIPV and FECV.      As with other species, cats demonstrate a range of potential effects. In addition to association with traits such as age, sex, and reproductive status, purebred status and loss of heterozygosity has been shown to be associated with the effects of disease. Susceptibility and outcomes also appear to vary between different breeds.      ,      ,      A small study of feline leukocyte antigen (FLA)-DRB alleles did not show a statistically significant association between FLA-DRB alleles and FCoV infection outcome.      Polymorphisms in
+      <italic>
+       IFNG
+      </italic>
+      (investigated because FIP can result in decreased interferon-gamma levels) were shown to correlate with plasma interferon-gamma levels and outcomes.      Polymorphisms in
+      <italic>
+       TNFA
+      </italic>
+      and
+      <italic>
+       CD209
+      </italic>
+      were also shown to be associated with outcomes in one inbred breed.
+     </p>
+     <p id="p0210">
+      In addition to candidate studies, several GWASs have been performed in cats. One small study on outcomes in experimentally induced infections in random-bred cats identified one associated genomic region (which did not harbor any obvious candidate genes).      Another small study on an inbred breed identified multiple candidate genes (
+      <italic>
+       ELMO1
+      </italic>
+      ,
+      <italic>
+       ERAP1
+      </italic>
+      ,
+      <italic>
+       ERAP2
+      </italic>
+      ,
+      <italic>
+       RRAGA
+      </italic>
+      , and
+      <italic>
+       TNSF10
+      </italic>
+      ) but none were fully concordant with the FIP disease phenotype.
+     </p>
+     <p id="p0215">
+      The GWAS approach (which has also been used to study mice, resulting in implication of
+      <italic>
+       Trim55
+      </italic>
+      as described above      ) raises several important issues. A first issue involves immediate clinical applicability. That is, GWAS approaches may reveal findings that were not immediately hypothesized to be involved, such as variants in genes other than those known to be involved in viral pathogenesis and immunity.      These findings may be statistically significant, but translating results to clinical uses in the near-term may be challenging despite excitement and perhaps incomplete understanding in the lay press. However, these insights may be important for longer-term and equally important purposes, such as in relation to therapeutic development or understanding which populations may be overall more or less vulnerable to disease. In other words, pertinent host genetic findings identified in hypothesis-free ways may unearth unexpected findings (beyond receptor, HLA, and well-characterized immune genes) that may yield important next steps to help combat the disease.
+     </p>
+     <p id="p0220">
+      A second issue—which has received more recent attention in many genomic studies—involves important secondary information that may be revealed through host genetic research or through genomic testing and studies done for other purposes. Previously, lists of recommended secondary genes have been compiled in general contexts, and recommendations have been made about informing individuals about these findings (prior to the COVID-19 pandemic). With COVID-19, genomic investigators have newly assembled lists of secondary genetic information that may be relevant to the pandemic. These include genes involved in pharmacogenomics, conditions that involve metabolic or thrombotic crises, and cardiopulmonary conditions.      Beyond this overarching framework, specific papers have already been published about pharmacogenomic considerations for medications, such as anti-IL-6 agents for the treatment of COVID-19 (as well as hydroxychloroquine and azithromycin).
+     </p>
+    </sec>
+    <sec id="sec1.11">
+     <title>
+      Human Studies
+     </title>
+     <p id="p0225">
+      Details of the human studies are presented in the section on      , and in      , S2, and      ,      , and      .
+     </p>
+     <p id="p0230">
+      Of the 39 human studies on host genetic study factors, 35 (90%) involved SARS-CoV-1, whereas 4 (10%) involved SARS-CoV-2. Thirty-six of the 39 studies examined specific genes and loci; three of the SARS-CoV-2 studies were case reports (two on single families and the other on two patients with a rare immunodeficiency) without specific studies related to host factors. All of the association studies except one were candidate-gene analyses based on genes hypothesized to be important in disease susceptibility or clinical variables/outcome. The exception to date was a meta-analysis of 386 studies on susceptibility to tuberculosis, influenza, respiratory syncytial virus, SARS-CoV-1, and pneumonia.
+     </p>
+     <p id="p0235">
+      As summarized in      and      , candidate studies ranged from studies of single variants to studies of over 50 genes selected because of biological plausibility; seven of these studies focused on HLA alleles. Sixteen significant loci related to susceptibility to coronavirus were reported (seven of which identified protective alleles) (      ). Sixteen significant loci related to outcomes or clinical variables were reported (three which identified protective alleles) (      ). The types of cases and controls used varied considerably. For example, some studies compared healthcare workers with SARS-CoV-1 infection with healthcare workers who tested negative. Others compared data from individuals with documented infection with data from control samples taken from blood donors. Only four studies used separate cohorts for replication/validation.
+     </p>
+     <p id="p0240">
+      Four studies conducted laboratory-based biological studies in addition to association analyses. Of note, one study related to allele frequencies and expression in SARS-CoV-2 focused on specific genes but used data generated via exome sequencing and SNP-arrays.      Large amounts of data generated through these types of genomic assays are currently being analyzed; some results are available on preprint servers and through other data sharing mechanisms.
+     </p>
+     <p id="p0245">
+      In addition to the germline variants described in these previous studies, non-germline changes are discussed as possibly pertinent to COVID-19. Correlations between clonal hematopoiesis and COVID-19 mortality have been suggested,      as have the potential importance of tumor-based
+      <italic>
+       ACE2
+      </italic>
+      genetics and epigenetics.
+     </p>
+    </sec>
+    <sec id="sec1.12">
+     <title>
+      Limitations to Human Studies to Date
+     </title>
+     <p id="p0250">
+      Traditional genome-wide methods have been applied to human viral infections generally,      but results have not been specific to coronaviruses, and it is unclear to what extent the observations are relevant to the current pandemic. Several dozen studies have investigated human genetic factors related to coronavirus infection. However, these studies have been limited by several factors. Although the previous endemic human coronaviruses are common, the mildness of disease may have deprioritized recruitment into these studies. Similar observations may explain the relative dearth of serologic knowledge related to these pathogens. MERS and SARS-CoV-1 are severe, but the fact that these epidemics were limited more than the COVID-19 pandemic may have fortunately led to a lack of cases to conduct traditional association studies (unlike some other respiratory infections leading to more widespread disease).      See      for a depiction of study locations and the relative numbers of cases included in each study, as well as      for details of the corresponding studies. Additionally, MERS and SARS-CoV-1 primarily affected humans prior to the technological developments that led to wide availability of much cheaper and faster genomic sequencing.
+     </p>
+     <p id="p0255">
+      As shown (      ), the small sample sizes of previous studies may have led to the preponderance of candidate gene studies. The sample sizes may also have precluded significant findings because of limitations of statistical power and the ability to replicate or validate findings. As previous research took place in certain countries and regions (      ), it is possible that the results would not extrapolate to other populations. Finally, candidate approaches can be inherently limited because non-hypothesized loci may be significantly involved.
+     </p>
+     <p id="p0260">
+      On the basis of announcements about multiple large-scale projects on COVID-19 host genetic factors, as well as the existence of larger genomic datasets that can be mined quickly and new methods that can be used to address biological questions, it is anticipated that considerable efforts—and an unfortunately large pool of research subjects—will yield significant new results quickly.
+     </p>
+    </sec>
+    <sec id="sec1.13">
+     <title>
+      Implications Related to Genetic Conditions
+     </title>
+     <p id="p0265">
+      Although separate from the bulk of the material reviewed here, another area is worthy of brief mention. This is the rapid and sometimes dramatic changes that have been necessary to manage patients with genetic and related conditions. Just as many genetic researchers have pivoted to address the pandemic, clinical genetic experts have modified their practices to support the patients they serve. The literature already reflects specific guidance and lessons learned for many genetic conditions, such as Charcot-Marie-Tooth, G6PD deficiency, Gaucher disease, inherited arrhthymias, and inborn errors of metabolism (see      for references for COVID-19 guidance related to these conditions). The information takes into account how the known genetic and biologic underpinnings of disease—as well as related considerations such as pharmacogenomics—should be considered to optimize outcomes. In addition to these pragmatic guidelines, understanding gained from studying the impact of COVID-19 on people with these rare diseases may yield insights that can be applied to the population at large, much like how unraveling the causes of primary immunodeficiencies can lead to generalizable knowledge about the immune system.
+     </p>
+    </sec>
+    <sec id="sec1.14">
+     <title>
+      Limitations to Our Findings
+     </title>
+     <p id="p0270">
+      There are multiple limitations to our summaries and analyses. First, it is likely that relevant articles were missed by our search process, and that key findings—including the study of certain genes—were therefore omitted. Along these lines, important findings within identified articles may also have been missed. Due to publication biases, some studies that have been conducted may not have reported relevant data. Second, this analysis focused on DNA-based variants. These DNA-based genetic changes include those studied and identified through association studies as well as genes that were manipulated in experimental approaches, such as via knockout models to understand disease pathogenesis. Related “omic” approaches, such as targeted or broad transcriptomic or proteomic studies, are frequently used to understand important aspects of disease. These approaches can lead to knowledge regarding specific genetic changes. For example, observed transcriptomic changes may enable the identification of important DNA-based variants that explain disease by correlating transcriptomic data with results of DNA sequencing.      As another example from proteomics, a recent paper describes the human/SARS-CoV-2 protein-protein interactome, which may be highly relevant for understanding host genetic factors.      However, we categorized non-DNA-based “omic” approaches separately from DNA-based studies and did not attempt to comprehensively recapitulate what is known about host reaction to disease. Finally, as the studies varied in many aspects, such as how cases and controls were defined, and which loci were interrogated, we were careful about comparing or combining data between different studies.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Conclusions
+    </title>
+    <p id="p0275">
+     Human studies on other coronaviruses and model organism work has provided us with a guide for potential classes of genomic variants that are relevant to SARS-CoV-2 infection. Although we only addressed one facet of host responses to COVID-19, our analyses may help bolster the investigation of specific candidate loci. Future work involving in-depth phenotypic characterization, extensive patient sequencing (including that of outliers with severe and mild disease), and modeling efforts will allow clinicians and researchers to use this information to directly impact clinical care.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="app1" sec-type="data-availability">
+    <title>
+     Data and Code Availability
+    </title>
+    <p id="p0290">
+     This study did not generate any new data.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3" sec-type="COI-statement">
+    <title>
+     Declaration of Interests
+    </title>
+    <p id="p0280">
+     B.D.S. previously worked for a subsidiary of Opko Health, a company whose subsidiary companies currently perform genetic testing as well as COVID-19-related testing.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

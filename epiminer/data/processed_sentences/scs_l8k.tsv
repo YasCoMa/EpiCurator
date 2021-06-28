@@ -1,0 +1,5 @@
+id_pmc	sentence location	highlighted phrase	protein entities found	number of protein entities
+2812552	body	Qdm|(|AMAPRTLLL|)|or|Qdm|L8K|(|AMAPRTLKL|)|peptide|be|load|exogenously|at|the|indicate|concentration|on|EC7.1.Qa|-|1b|cell|and|IFN|-|γ|release|by|CTL|be|measure|.	Qdm|Qdm|L8K|IFN	4
+2812552	body	The|Qdm|L8K|mutant|peptide–Qa|-|1b|complex|fail|to|interact|with|CD94|/|NKG2A|or|CD94|/|NKG2C|(|Kraft|et|al.|,|2000|)|,|indicate|that|the|loaded|peptide|interfere|with|T|cell|receptor–mediated|reactivity|.	L8K|1b|complexes|CD94|NKG2A|CD94|NKG2C	7
+2812552	body	Similar|competition|be|find|when|the|Qdm|variant|L8K|be|use|(|AMAPRTLKL|)|,|but|not|with|irrelevant|control|peptide|(|Fig|.	L8K	1
+2812552	body	The|fact|that|the|position|8|substitution|in|the|peptide|L8K|prevent|engagement|to|CD94|/|NKG2A|receptor|(|Kraft|et|al.|,|2000|)|,|but|retain|the|capacity|to|inhibit|T|cell|reactivity|in|our|assay|,|substantiate|our|finding|that|target|cell|recognition|be|regulate|by|TCR|-|mediate|interaction|with|Qa|-|1b|and|not|by|NK|receptor|.	L8K|CD94|NKG2A|receptors|TCR|Qa|-|1b|NK|receptors	10

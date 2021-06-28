@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Decreasing the immunogenicity of Erwinia chrysanthemi asparaginase via protein engineering: computational approach.
+ </title>
+ <abstract>
+  <AbstractText>
+   Immunogenicity of therapeutic proteins is one of the main challenges in disease treatment. L-Asparaginase is an important enzyme in cancer treatment which sometimes leads to undesirable side effects such as immunogenic or allergic responses. Here, to decrease Erwinase (Erwinia chrysanthemiL-Asparaginase) immunogenicity, which is the main drawback of the enzyme, firstly conformational B cell epitopes of Erwinase were predicted from three-dimensional structure by three different computational methods. A few residues were defined as candidates for reducing immunogenicity of the protein by point mutation. In addition to immunogenicity and hydrophobicity, stability and binding energy of mutants were also analyzed computationally. In order to evaluate the stability of the best mutant, molecular dynamics simulation was performed. Among mutants, H240A and Q239A presented significant reduction in immunogenicity. In contrast, the immunogenicity scores of D235A slightly decreased according to two servers. Binding affinity of substrate to the active site reduced significantly in K265A and E268A. The final results of molecular dynamics simulation indicated that H240A mutation has not changed the stability, flexibility, and the total structure of desired protein. Overall, point mutation can be used for reducing immunogenicity of therapeutic proteins, in this context, in silico approaches can be used to screen suitable mutants.
+  </AbstractText>
+ </abstract>
+</article>

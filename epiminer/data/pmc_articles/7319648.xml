@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Designing a novel mRNA vaccine against SARS-CoV-2: An immunoinformatics approach
+ </title>
+ <abstract>
+  <p>
+   SARS-CoV-2 is the deadly virus behind COVID-19, the disease that went on to ravage the world and caused the biggest pandemic 21st century has witnessed so far. On the face of ongoing death and destruction, the urgent need for the discovery of a vaccine against the virus is paramount. This study resorted to the emerging discipline of immunoinformatics in order to design a multi-epitope mRNA vaccine against the spike glycoprotein of SARS-CoV-2. Various immunoinformatics tools were utilized to predict T and B lymphocyte epitopes. The epitopes were channeled through a filtering pipeline comprised of antigenicity, toxicity, allergenicity, and cytokine inducibility evaluation with the goal of selecting epitopes capable of generating both T and B cell-mediated immune responses. Molecular docking simulation between the epitopes and their corresponding MHC molecules was carried out. 13 epitopes, a highly immunogenic adjuvant, elements for proper sub-cellular trafficking, a secretion booster, and appropriate linkers were combined for constructing the vaccine. The vaccine was found to be antigenic, almost neutral at physiological pH, non-toxic, non-allergenic, capable of generating a robust immune response and had a decent worldwide population coverage. Based on these parameters, this design can be considered a promising choice for a vaccine against SARS-CoV-2.
+  </p>
+  <p>
+  </p>
+  <p>
+   <list id="l0005" list-type="simple">
+    <list-item id="li0005">
+     <label>
+      •
+     </label>
+     <p id="p0005">
+      SARS-CoV-2, the causative agent for COVID-19, has caused the biggest pandemic 21st century has witnessed so far.
+     </p>
+    </list-item>
+    <list-item id="li0010">
+     <label>
+      •
+     </label>
+     <p id="p0010">
+      Here, immunoinformatics was used for designing a muti-epitope mRNA vaccine against the spike glycoprotein of SARS-CoV-2.
+     </p>
+    </list-item>
+    <list-item id="li0015">
+     <label>
+      •
+     </label>
+     <p id="p0015">
+      Through stringent selection of T and B cell epitopes and other necessary elements, a vaccine was constructed
+      <italic>
+       in silico
+      </italic>
+      .
+     </p>
+    </list-item>
+    <list-item id="li0020">
+     <label>
+      •
+     </label>
+     <p id="p0020">
+      Proposed mechanism of its synthesis, delivery and action has also been presented.
+     </p>
+    </list-item>
+    <list-item id="li0025">
+     <label>
+      •
+     </label>
+     <p id="p0025">
+      The vaccine was found to be immunogenic, almost neutral, non-toxic, non-allergenic and has a decent worldwide coverage.
+     </p>
+    </list-item>
+   </list>
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s0005">
+    <label>
+     1
+    </label>
+    <title>
+     Introduction
+    </title>
+    <p id="p0030">
+     After more than a century has passed since the 1918 influenza pandemic and after two other pandemics caused by the coronavirus family called the Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS) in the past two decades, the world has been visited by a novel coronavirus. As of mid-April 2020, the Coronavirus Disease (COVID-19) has reached 213 countries, areas and territories of the world infecting nearly two million people and leaving over a hundred thousand dead since the first case of hospitalization on 12th December 2019 in Wuhan, China [     ,     ]. The causative entity for COVID-19 was named by the International Committee on Taxonomy of Viruses (ICTV) on 11th February 2020 as “Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)”, previously known as 2019-novel Coronavirus (2019-nCoV) [     ,     ]. Coronaviruses are members of the subfamily
+     <italic>
+      Coronavirinae
+     </italic>
+     (family:
+     <italic>
+      Coronaviridae
+     </italic>
+     ) which consists of four genera-
+     <italic>
+      Alphacoronavirus
+     </italic>
+     ,
+     <italic>
+      Betacoronavirus
+     </italic>
+     ,
+     <italic>
+      Gammacoronavirus
+     </italic>
+     and
+     <italic>
+      Deltacoronavirus
+     </italic>
+     . Among the six zoonotic viruses known prior to identification of SARS-CoV-2 in 2019, only the SARS-CoV and MERS-CoV belonging to the
+     <italic>
+      Betacoronavirus
+     </italic>
+     genera were considered highly pathogenic [     ,     ]. The virus has been reported to cause Acute Respiratory Distress Syndrome (ARDS) in humans by infecting the upper and lower respiratory tract. Even though the SARS-CoV-2 has been found to infect principally
+     <italic>
+      via
+     </italic>
+     the respiratory tract from human to human, evidence from multiple studies indicated the gastrointestinal tract to be another potential route of infection [     ,     ,     ,     ]. Typical symptoms of the disease include fever, cough, dyspnea, diarrhea, fatigue and vomiting [     ,     ,     ,     ,     ]. The median incubation period of the virus and the median time from the first symptom to death are 3 days (with a range of 0 to 24 days) and 14 days (with a range of 6 to 41 days) respectively [     ,     ].
+    </p>
+    <p id="p0035">
+     Like other coronaviruses, the SARS-CoV-2 is an enveloped virus with a linear single-stranded positive-sense RNA (+ssRNA) as its genomic material [     ,     ,     ]. Its 29,881 bases long genome encodes at least four major structural proteins, namely spike glycoprotein (S), membrane protein (M), envelope protein (E), and nucleocapsid protein (N). The virus also possesses a probable proofreading function using a Replication/Transcription Complex (RTC) [     ,     ,     ,     ,     ,     ,     ]. In coronaviruses, homotrimers of the S protein radiate from the virus surface giving the virus a characteristic crown-like appearance and these crown-like structures are what is behind their name (“corona” means crown in Latin). In case of SARS-CoV-2, the S protein mediates viral entry into host cells by binding to the host receptor, Angiotensin-converting Enzyme 2 (ACE2) through the Receptor-binding Domain (RBD) of the S1 subunit. Upon S1-ACE2 binding, the cleavage of the S1-S2 fusion peptide by the cellular protease, ‘Transmembrane Protease Serine S1 Member 2’ (TMPRSS2) takes place. This is followed by the fusion of viral and host membranes through the S2 subunit [     ,     ,     ,     ,     ,     ]. However, one study has proposed that the cleavage of a furin dependent furin-cleavage site in S protein takes place prior to membrane fusion [     ]. TMPRSS2 expression is restricted to lung and gastrointestinal tract only, whereas ACE2 is found to be expressed in cells of other organs including liver, heart, vascular endothelium, testis, and kidney [     ,     ,     ].
+    </p>
+    <p id="p0040">
+     High degree of contagiousness and community transmission of COVID-19 leading to the World Health Organizations (WHO) declaration of a Public Health Emergency of International Concern (PHEIC) calls for immediate development of safe and effective prophylactics or therapeutics. To date, there is no approved vaccine or drug in the market for the disease although some pre-clinical and clinical trials are underway [     ]. As S protein plays a crucial role in viral fusion and entry, it is widely considered as a prime target for the development of antibodies, entry inhibitors and vaccines against SARS-CoV-2 by the scientific community [     ,     ,     ,     ,     ,     ,     ,     ,     ,     ]. In our study, we have also decided to target this S protein for designing an mRNA vaccine.
+    </p>
+    <p id="p0045">
+     Conventional vaccine approaches, such as live attenuated and inactivated pathogens and subunit vaccines successfully provide durable protection against infectious diseases [     ,     ], but the need for more rapid development and large-scale production is hard to meet through these means. Also peptide-based vaccines have been reported to have lower immunogenicity indexes [     ]. Although genetic immunization such as DNA vaccines showed promise [     ]
+     <sub>
+      ,
+     </sub>
+     plasmid DNA (pDNA) based delivery evokes safety concerns such as the possibility of insertional mutagenesis. To address these complications, the rapidly growing field of mRNA therapeutics can be a potent platform because of its safety, comparatively low-cost of production, capability of rapid development and higher efficacy. Except for a few rare cases of recombination between single-stranded RNA molecules [     ,     ], lack of genomic integration and replication makes mRNA vaccines a non-infectious agent [     ,     ]. On top of that, natural degradation and adjustable half-life provides a strong safety advantage [     ]. As mRNA vaccines do not have to pass through nuclear envelope for translation, it possesses higher efficacy over DNA vaccines [     ,     ]. Mere alteration of an mRNA sequence can express a different protein having new indications and antigens using the already established production process, resulting in manufactural versatility, flexibility, time-saving and cost-reduction [     ,     ]. Although mRNA vaccines come with inherent shortcomings such as- instability, immunogenicity, delivery inefficiency [     ,     ], these have been addressed by recent advancements in synthesis and manipulation
+     <italic>
+      via
+     </italic>
+     structural modifications of mRNA leading to some successful outcomes [     ,     ,     ].
+    </p>
+    <p id="p0050">
+     Immunoinformatics is a branch of bioinformatics that deals with the computational analysis of immunological data. It is also a powerful computational tool for designing vaccines [     ]. By predicting appropriate antigens, epitopes, carriers, and adjuvants for a vaccine, immunoinformatics is able to reduce the timeframe and cost of vaccine development [     ]. Immunoinformatics approach has been followed for designing vaccines against many infectious agents such as ebola virus, Human Immunodeficiency Virus (HIV-1), Herpes Simplex Virus (HSV)-1 &amp; 2, sudan virus, Venezuelan equine encephalitis virus, human norovirus,
+     <italic>
+      Staphylococcus aureus
+     </italic>
+     ,
+     <italic>
+      Shig
+     </italic>
+     e
+     <italic>
+      lla
+     </italic>
+     spp. and so on [     ,     ,     ,     ,     ,     ,     ,     ].
+    </p>
+    <p id="p0055">
+     Some of the recently published bioinformatic studies on SARS-CoV-2 vary from our work in several ways. Two studies have selected epitopes from SARS-CoV-2 domains homologous to SARS-CoV [     ,     ]. One of them has identified the epitopes associated with previous experimental success in SARS-CoV neutralization. However, practically, the antibodies working against SARS-CoV (S230, m9396,80R) have been found to show no cross-reactivity except for one case (CR3022) as of 14 June 2020 [     ,     ]. These findings stress the importance of focusing on the sequence of SARS-CoV-2 as we did in our study. Besides, unlike these studies which took into consideration proteins other than S, we attended only to the S protein because of its promising therapeutic importance in previous cases of corona viruses [     ,     ,     ,     ]. Besides, in the aforementioned studies, only potential epitopes have been predicted, but no vaccine construct has been designed.
+    </p>
+    <p id="p0060">
+     Two other studies also have designed vaccines for SARS-CoV-2 in an approach similar to ours mainly differing in the fact that we opted for more effective, flexible and safe approach of mRNA-vaccination rather than peptide-based vaccines [     ,     ]. Contextually, Lucchese et al. [     ] sought out epitopes unmatched to human ones in order to minimize the risk for cross-reactions and increase anti-viral specificity. In our study, we also ensured avoiding human proteome cross-reactivity while filtering the epitopes. Robson et al. [     ] found out one conserved region in coronaviruses using the programming language Q-UEL.
+    </p>
+    <p id="p0065">
+     In this study, we aimed at designing a novel multi-epitope mRNA vaccine consisting of Cytotoxic T Lymphocyte (CTL), Helper T Lymphocyte (HTL), Linear B Lymphocyte (LBL) epitopes derived from SARS-CoV-2 spike glycoprotein, a highly immunogenic adjuvant and other necessary elements through immunoinformatics.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0010">
+    <label>
+     2
+    </label>
+    <title>
+     Materials and methods
+    </title>
+    <sec id="s0015">
+     <label>
+      2.1
+     </label>
+     <title>
+      Workflow used for the study
+     </title>
+     <p id="p0070">
+      shows the workflow that has been followed in this study. The analyses conducted in this study can be broken down into 9 sections - 1. Retrieval of SARS-CoV-2 spike glycoprotein sequence 2. Prediction and assessment of CTL epitopes 3. Prediction and assessment of HTL epitopes 4. Prediction and assessment of LBL epitopes 5. Multiple Sequence Alignment of S protein sequences 6. Molecular docking between T lymphocyte epitopes and MHC alleles 7. Prediction of population coverage 8. Designing the vaccine construct 9. Prediction of antigenicity, allergenicity, toxicity and physicochemical properties of the vaccine construct 10.
+      <italic>
+       In silico
+      </italic>
+      immune simulation.
+     </p>
+    </sec>
+    <sec id="s0020">
+     <label>
+      2.2
+     </label>
+     <title>
+      Retrieval of SARS-CoV-2 spike glycoprotein sequence
+     </title>
+     <p id="p0075">
+      The Virus Pathogen Database and Analysis Resource (ViPR) was used to search the complete SARS-CoV-2 genomes [      ]. From the results, the FASTA sequence of the surface glycoprotein, also known as the spike glycoprotein, from the “2019-nCoV WHU01” strain was downloaded. This strain was isolated on 2nd January 2020 from Wuhan, China. The GenBank [      ] accession number of the protein was QHO62107.1.
+     </p>
+    </sec>
+    <sec id="s0025">
+     <label>
+      2.3
+     </label>
+     <title>
+      Prediction and assessment of CTL epitopes
+     </title>
+     <p id="p0080">
+      CTLs also known as CD8+ T cells play a cardinal role in the battle against viral infections. The mechanism of CTL response against viruses has been elucidated in great detail by various studies [      ,      ,      ,      ]. Class I MHC-bound epitopes generated from degraded fragments of viral proteins are recognized on the surface of infected cells by CTLs [      ]. Prediction of potential CTL epitopes is an essential and widely used step in
+      <italic>
+       in silico
+      </italic>
+      vaccine design [      ,      ,      ]. There are various immunoinformatics tools that are used for CTL epitope prediction. In this study, NetCTL v1.2 server was used for the prediction of 9-mer CTL epitopes for 12 MHC class I supertypes, namely A1, A2, A3, A24, A26, B7, B8, B27, B39, B44, B58, and B62. 0.75 was used as the threshold for epitope identification. For any given protein, NetCTL v1.2 integrates information about proteasomal cleavage, Transporter Associated with Antigen Processing (TAP) transport efficiency, and MHC class I affinity to deliver its final output [      ]. Class I immunogenicity tool of the IEDB Analysis Resource [      ] was used to predict the immunogenicity of the CTL epitopes. Only epitopes that showed a positive value for immunogenicity were kept for the next stage of evaluation. Toxicity and allergenicity of the immunogenic epitopes were checked using ToxinPred [      ] and AllerTOP 2.0 [      ] servers respectively. The non-toxic and non-allergenic epitopes were subjected to VaxiJen server [      ] for antigenicity evaluation. Epitopes showing antigenicity prediction values ≥0.5 were considered antigenic. Using the consensus algorithm [      ] in the IEDB server, MHC class I allelic partners of the antigenic epitopes were predicted. A percentile rank score ≤2 was considered for this study.
+     </p>
+    </sec>
+    <sec id="s0030">
+     <label>
+      2.4
+     </label>
+     <title>
+      Prediction and assessment of HTL epitopes
+     </title>
+     <p id="p0085">
+      After proteolytic cleavage of viral antigens, antigen presenting cells such as B cells, macrophages and dendritic cells present epitopes to HTLs or CD4+ T cells in the epitope-MHC class II complex form [      ]. Almost all immunoinformatics studies for vaccine construction incorporate the prediction of HTL epitopes as part of their work [      ,      ,      ]. In our study, 15-mer HTL epitopes and their corresponding MHC class II alleles were predicted using the consensus algorithm of the IEDB MHC-II binding tool [      ]. Host species was selected as human. A percentile rank ≤0.25 was considered for filtering the epitopes. Antigenicity of the epitopes were then calculated using the VaxiJen server [      ]. ToxinPred and AllerTOP 2.0 servers were used in subsequent order to select the non-toxic and non-allergenic epitopes respectively. The remaining epitopes were then checked for their inducibility of interferon-γ (IFN-γ), interleukin-4 (IL-4) and interleukin-10 (IL-10) using the IFNepitope [      ], IL4pred [      ], and IL10pred [      ] servers respectively. Based on these criteria, only the antigenic and all three cytokine inducing epitopes were selected for vaccine construction.
+     </p>
+    </sec>
+    <sec id="s0035">
+     <label>
+      2.5
+     </label>
+     <title>
+      Prediction and assessment of LBL epitopes
+     </title>
+     <p id="p0090">
+      B lymphocytes secrete specific antibodies in order to neutralize specific viral invaders. Through differentiation into long-lived plasma cells and memory B lymphocytes they ensure long term immunological protection [      ,      ,      ,      ,      ,      ]. Activation of B lymphocytes takes place through the binding of B cell receptor to either soluble or membrane bound epitopes [      ]. In vaccine design, reliable prediction of B lymphocyte epitopes through the use of various computational tools plays an important part [      ,      ]. B lymphocyte epitopes can be of two types-linear and conformational [      ]. In this study, iBCE-EL server was used for the prediction of LBL epitopes [      ]. Only the ones positively predicted to be LBL epitopes by the server were chosen for further analysis. The antigenicity of the probable LBL epitopes was checked by the VaxiJen server [      ]. Epitopes having antigenicity values ≥0.5 were then evaluated for toxicity and allergenicity using the ToxinPred [      ] and AllerTOP 2.0 [      ] servers respectively.
+     </p>
+    </sec>
+    <sec id="s0040">
+     <label>
+      2.6
+     </label>
+     <title>
+      Multiple sequence alignment of S protein sequences
+     </title>
+     <p id="p0095">
+      To check on whether the regions selected for epitopes have faced any mutation, 200 randomly selected S protein sequences from 6 continents (Asia, Africa, Europe, Oceania, North and South America) were downloaded from ViPR database and then aligned using Clustal Omega server [      ]. The results were viewed using MView multiple alignment viewer [      ].
+     </p>
+    </sec>
+    <sec id="s0045">
+     <label>
+      2.7
+     </label>
+     <title>
+      Molecular docking between T lymphocyte epitopes and MHC alleles
+     </title>
+     <p id="p0100">
+      Binding affinity of CTL and HTL epitopes for their corresponding MHC alleles was evaluated using molecular docking simulation. At first, the MHC alleles were downloaded from the RCSB PDB [      ,      ] and processed using the PyMOL software [      ] for getting rid of unnecessary ligands. The structures were then energy minimized using the Swiss-PdbViewer [      ]. The epitopes were folded into their 3 dimensional form using the PEP-FOLD 3.5 server [      ]. They were then also energy minimized using the Swiss-PdBViewer. The docking between the epitopes and the MHC molecules were carried using Autodock Vina [      ] in PyRx [      ]. PyRx, PyMOL and Discovery Studio [      ] were used for analyzing the binding affinity, pose and interactions respectively. For MHC alleles which were not available in RCSB PDB, homology modelling was carried out using the SWISS-MODEL server [      ]. Ramachandran Plots and
+      <italic>
+       Z
+      </italic>
+      -scores obtained from the PROCHECK [      ] and ProSA [      ] servers were used for the validation of the models.
+     </p>
+    </sec>
+    <sec id="s0050">
+     <label>
+      2.8
+     </label>
+     <title>
+      Prediction of population coverage
+     </title>
+     <p id="p0105">
+      The geographical and ethnic diversity of the world encompasses the diversity in distribution of MHC alleles. Therefore, a vaccines coverage depends upon the coverage of the MHC alleles that its epitopes recognize. We analyzed the combined coverage of our T lymphocyte epitopes using the IEDB population coverage tool with the epitopes and their corresponding MHC class I and class II alleles as the input [      ].
+     </p>
+    </sec>
+    <sec id="s0055">
+     <label>
+      2.9
+     </label>
+     <title>
+      Designing the vaccine construct
+     </title>
+     <p id="p0110">
+      A highly-immunogenic mRNA vaccine construct requires the presence of five main elements in the Open Reading Frame (ORF) - 1. Kozak sequence 2. Epitopes 3. Adjuvant 4. Linkers (or spacers) and 5. Stop codon. The start codon should be part of a Kozak sequence [      ] while the sequence surrounding the stop codon may be optimized [      ]. The criteria used in this study for an epitope to be included in the vaccine construct are antigenicity, non-allergenicity, non-toxicity and cytokine-inducing properties (for HTLs only). Along with appropriate antigenic epitopes, a strong adjuvant can boost the adaptive immune response [      ,      ,      ]. In our design, co-stimulatory molecule CD40 ligand (CD40L) has been added to the vaccine construct since its inclusion was previously reported to be of significant impact and promise [      ]. CD40L is able to activate professional Antigen Presenting Cells (pAPCs) [      ]. For our purpose, CD40L sequence was retrieved from the UniProt database (UniProt ID:
+      <ext-link ext-link-type="uri" id="ir0005" ns0:href="uniprotkb:P29965">
+       P29965
+      </ext-link>
+      ) [      ]. Selection of an appropriate epitope-specific linker (
+      <italic>
+       e.g.
+      </italic>
+      , flexible, rigid, cleavable) is an essential step in designing an immunogenic multi-epitope vaccine so that the domains can work independently avoiding interaction and interference between them [      ,      ]. We chose linkers based on their length and rigidity-flexibility properties and in accordance with some previous studies [      ,      ,      ,      ,      ,      ,      ,      ,      ]. However, the precise order and position of the epitopes and spacers need to be elucidated through experimental evidences.
+     </p>
+     <p id="p0115">
+      The epitopes and the linkers have been combined in the following ways-
+      <list id="l0010" list-type="simple">
+       <list-item id="li0030">
+        <label>
+         -
+        </label>
+        <p id="p0120">
+         The adjuvant and the HTL epitopes were combined together by GPGPG linkers.
+        </p>
+       </list-item>
+       <list-item id="li0035">
+        <label>
+         -
+        </label>
+        <p id="p0125">
+         HTL and LBL epitopes were linked by (EAAK)
+         <sub>
+          2
+         </sub>
+         .
+        </p>
+       </list-item>
+       <list-item id="li0040">
+        <label>
+         -
+        </label>
+        <p id="p0130">
+         Intra-LBL epitopes were spaced using (EAAK)
+         <sub>
+          2
+         </sub>
+         or (EAAK)
+         <sub>
+          2
+         </sub>
+         E.
+        </p>
+       </list-item>
+       <list-item id="li0045">
+        <label>
+         -
+        </label>
+        <p id="p0135">
+         LBL and CTL epitopes were linked by AAY.
+        </p>
+       </list-item>
+       <list-item id="li0050">
+        <label>
+         -
+        </label>
+        <p id="p0140">
+         Intra-CTL epitopes were combined using AAY linkers.
+        </p>
+       </list-item>
+      </list>
+     </p>
+     <p id="p0145">
+      For increased antigen presentation, sequences for two more elements have been reported to be useful, they are - 1. Signal peptide (for secretion of translated epitopes that need to move out of the cell) and 2. MHC I-targeting domain (MITD) (for directing CTL epitopes to MHC-I compartment of the endoplasmic reticulum) [      ,      ,      ,      ]. Therefore, we included tissue Plasminogen Activator (tPA) secretory signal sequence and MITD in the 5′ and 3′ region of the ORF respectively. The sequences for tPA (UniProt ID:
+      <ext-link ext-link-type="uri" id="ir0010" ns0:href="uniprotkb:P00750">
+       P00750
+      </ext-link>
+      ) and MITD (UniProt ID:
+      <ext-link ext-link-type="uri" id="ir0015" ns0:href="uniprotkb:Q8WV92">
+       Q8WV92
+      </ext-link>
+      ) were retrieved from the UniProt database. Instability being a major concern for mRNA based therapeutics, having the elements that are typically found in eukaryotic mRNAs is crucial [      ,      ]. So, the incorporation of sequences for 5′ cap, poly(A) tail, and 5′ and 3′ Untranslated Regions (UTRs) was necessary. The length of the poly (A) tail holds significance, since too long or too short tails are associated with translation inefficiency [      ,      ]. We proposed the length of the poly (A) tail to be 120–150 bases long as it is considered to be optimum by several earlier studies [      ,      ,      ]. Poly (A) tails are found to work synergistically with 5′ m      G cap sequences [      ]. Combination of β globin 5′-UTR and α globin 3′-UTR being known to stabilize mRNAs [      ], we included those in our vaccine design.
+     </p>
+    </sec>
+    <sec id="s0060">
+     <label>
+      2.10
+     </label>
+     <title>
+      Prediction of antigenicity, allergenicity, toxicity and physicochemical properties of the vaccine construct
+     </title>
+     <p id="p0150">
+      For predicting different properties of the vaccine construct, we used the translated peptide form of mRNA vaccine
+      <italic>
+       i.e.
+      </italic>
+      the single-letter amino acid sequence of the translated form of the ORF as the input. However, tPA and MITD sequences were excluded as they were supposed to be cleaved while entering the secretory pathway and the MHC I pathway respectively. As antigenicity determines the ability of an antigen to evoke an immune response and memory cell formation, the vaccine candidate should be highly antigenic in nature. Therefore, the antigenicity of the vaccine construct was predicted with VaxiJen 2.0 server [      ] and ANTIGENpro server [      ]. Both of the methods being alignment-free, VaxiJen 2.0 works based on various physicochemical characteristics of the protein, whereas ANTIGENpro is a microarray analysis data based server using machine learning algorithms. To predict whether the vaccine construct was allergenic or not, we used AllerTOP 2.0 server [      ]. AllerTOP 2.0 predicts allergenicity based on a method using auto cross-covariance (ACC) transformation of protein sequences into uniform equal-length vector. Toxicity of the vaccine construct was predicted using the ToxinPred server [      ]. Various physiochemical features such as amino acid composition, molecular weight, theoretical Isoelectric point (pI), Instability Index (II), Aliphatic Index (AI), and Grand Average of Hydropathicity (GRAVY) were assessed by using the online web server ProtParam [      ].
+     </p>
+    </sec>
+    <sec id="s0065">
+     <label>
+      2.11
+     </label>
+     <title>
+      <italic>
+       In silico
+      </italic>
+      immune simulation
+     </title>
+     <p id="p0155">
+      For estimation of the real-life immunogenic profile of the multi-epitope mRNA vaccine,
+      <italic>
+       in silico
+      </italic>
+      immune simulation was carried out using the C-ImmSim server [      ]. For the prediction of epitopes and immune interactions, this simulator uses Position-specific Scoring Matrix (PSSM) and machine learning, respectively. According to most vaccines currently in use, the minimum recommended interval between the first and second dose is 4 weeks [      ]. For our immune simulation, three injections, each containing 1000 vaccine construct units, were administered four weeks apart. C-ImmSim server uses a “time-step” scale for calculating durations of simulations. In this scale, each time step is equivalent of 8 h in real life. The total number of time steps for simulation was set at 1050 with the points of the three injections were set at time step 1, 84, and 168 respectively. Rest of the parameters was set at default.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0070">
+    <label>
+     3
+    </label>
+    <title>
+     Results
+    </title>
+    <sec id="s0075">
+     <label>
+      3.1
+     </label>
+     <title>
+      Prediction and assessment of CTL epitopes
+     </title>
+     <p id="p0160">
+      NetCTL v1.2 server predicted a total of 269 unique CTL epitopes for 12 MHC class I supertypes. 145 of them had been predicted to be positive in terms of immunogenicity by the IEDB class I immunogenicity tool. Out of these 145 epitopes, all had been found to be non-toxic and 79 to be non-allergenic by the ToxinPred and AllerTOP 2.0 servers respectively. VaxiJen analysis of the 79 immunogenic, non-toxic, and non-allergenic epitopes revealed only 36 epitopes to be successful of crossing the antigenicity threshold of 0.5. Out of these 36 epitopes, most antigenic 6 (RQIAPGQTG, VVFLHVTYV, GVVFLHVTY, GQTGKIADY, QLTPTWRVY, IAIVMVTIM) had been selected for vaccine construction (      ). The IEDB MHC-I allele binding prediction tool returned 192 epitopes within the ≤2 percentile rank.
+      <table-wrap id="t0005" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         List of selected epitopes for vaccine construction.
+        </p>
+       </caption>
+       <alt-text id="al0045">
+        Table 1
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Recognizing cell
+          </th>
+          <th>
+           Epitope sequence
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="6">
+           CD8+ cytotoxic T lymphocyte
+          </td>
+          <td>
+           RQIAPGQTG
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VVFLHVTYV
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVVFLHVTY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GQTGKIADY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QLTPTWRVY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IAIVMVTIM
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CD4+ helper T lymphocyte
+          </td>
+          <td>
+           DLPIGINITRFQTLL
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="6">
+           B lymphocyte
+          </td>
+          <td>
+           GVSPTKLNDLCF
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IAPGQTGKIADY
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QIAPGQTGKIAD
+          </td>
+         </tr>
+         <tr>
+          <td>
+           LVDLPIGINITR
+          </td>
+         </tr>
+         <tr>
+          <td>
+           DLPIGINITRFQ
+          </td>
+         </tr>
+         <tr>
+          <td>
+           PLVDLPIGINIT
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0080">
+     <label>
+      3.2
+     </label>
+     <title>
+      Prediction and assessment of HTL epitopes
+     </title>
+     <p id="p0165">
+      The IEDB MHC-II allele binding prediction tool returned 82 unique epitopes that recognized 119 alleles in total within the ≤0.25 percentile rank. Among them, 23 epitopes met the VaxiJen threshold (≥0.5) for antigenicity. All of the 23 antigenic epitopes had been found to be non-toxic by the ToxinPred server. Only 6 of them had been considered as non-allergenic by the AllerTOP 2.0 server. After considering the IFN-γ, IL-4 and IL-10 inducibility using the IFNepitope, IL4pred, and IL10pred servers respectively, only 1 epitope (DLPIGINITRFQTLL) was left which had satisfied all the criteria (      ).
+     </p>
+    </sec>
+    <sec id="s0085">
+     <label>
+      3.3
+     </label>
+     <title>
+      Prediction and assessment of LBL epitopes
+     </title>
+     <p id="p0170">
+      iBCE-EL server predicted 117 probable LBL epitopes. Among them, 54 met the VaxiJen criteria (≥0.5) for being antigenic. All 54 of these epitopes had been predicted to be non-toxic by ToxinPred server and 24 of them had been predicted to be non-allergenic by AllerTOP 2.0 server. Out of the 24, the most antigenic 6 epitopes (GVSPTKLNDLCF, IAPGQTGKIADY, QIAPGQTGKIAD, LVDLPIGINITR, DLPIGINITRFQ, PLVDLPIGINIT) had been selected for the construction of the vaccine (      ).
+     </p>
+    </sec>
+    <sec id="s0090">
+     <label>
+      3.4
+     </label>
+     <title>
+      Multiple sequence alignment of S protein sequences
+     </title>
+     <p id="p0175">
+      Clustal Omega and MView multiple alignment viewer found zero mutations within our selected 13 epitopes in 200 SARS-CoV-2 S proteins (      ).
+     </p>
+    </sec>
+    <sec id="s0095">
+     <label>
+      3.5
+     </label>
+     <title>
+      Molecular docking between T lymphocyte epitopes and MHC alleles
+     </title>
+     <p id="p0180">
+      7 T lymphocyte epitopes recognized 32 MHC alleles in total. With the exception of only two epitopes (GQTGKIADY and DLPIGINITRFQTLL) the rest had more than one binding alleles. Some had even as high as 8 (IAIVMVTIM) or 12 (VVFLHVTYV) alleles (      ). Out of these 7 epitopes and their 32 allelic partners, we decided to perform molecular docking between each epitope and one of their corresponding alleles for a representative docking analysis.      shows the T lymphocyte epitopes and their MHC alleles chosen for docking. Among the 7 MHC alleles 3 had their crystallographic structures deposited at RCSB PDB. These 3 alleles and their PDB IDs were- HLA-B*15:01 (PDB ID- 5V4M) [      ], HLA-C*06:02 (PDB ID- 5W6A) [      ], and HLA-B*46:01 (PDB ID- 4LCY) [      ]. The rest 4 alleles (HLA-A*29:02, HLA-A*30:02, HLA-A*32:01, HLA-DRB1*04:02) were modelled using SWISS-MODEL. From the validation data of the homology models of MHC alleles whose structures were not available in RCSB PDB, it is obvious that in case of all 4 alleles over 90% residues belonged to the most favored regions in the Ramachandran plot. They have also demonstrated pretty decent Z scores (      ). Ramachandran plots and Z score diagrams revealed that most of the amino acids of the homology models fell within the desired zones (      ).      shows the molecular docking results obtained from AutoDock Vina in terms of binding affinity. The epitope VVFLHVTYV showed the strongest affinity (−9.9 kcal/mol) for its corresponding MHC allele. Docking analysis shows that the epitope VVFLHVTYV nicely fits into the epitope binding cleft of the HLA-C*06:02 molecule (      A, B). It has also been revealed that the epitope had 6 types of interactions with various residues of the molecule. The favorable interactions include conventional hydrogen bonds, salt bridges, attractive charge interactions, and hydrophobic interactions. On the contrary, the unfavorable interactions include acceptor-acceptor clashes and positive-positive charge repulsions (      ). In terms of number of interactions there were 7 conventional hydrogen bonds, 2 salt bridges, 2 attractive charge interactions, 11 hydrophobic interactions, 1 acceptor-acceptor clashes, and 2 positive-positive charge repulsions. The length of the bonds ranged from 2.06 to 5.48 Å (      ).
+      <table-wrap id="t0010" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Selected T lymphocyte epitopes (CTL + HTL epitopes) and their corresponding MHC alleles.
+        </p>
+       </caption>
+       <alt-text id="al0050">
+        Table 2
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           CTL epitopes
+          </th>
+          <th>
+           MHC I binding alleles
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           RQIAPGQTG
+          </td>
+          <td>
+           HLA-B*15:01, HLA-A*32:07, HLA-B*48:01, HLA-B*15:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VVFLHVTYV
+          </td>
+          <td>
+           HLA-C*06:02, HLA-A*02:03, HLA-A*02:06, HLA-A*68:02, HLA-C*07:01, HLA-A*69:01, HLA-A*02:19, HLA-A*02:01, HLA-A*02:11, HLA-A*68:23, HLA-A*02:16, HLA-A*02:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVVFLHVTY
+          </td>
+          <td>
+           HLA-A*29:02, HLA-A*80:01, HLA-A*66:01, HLA-A*32:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GQTGKIADY
+          </td>
+          <td>
+           HLA-A*30:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QLTPTWRVY
+          </td>
+          <td>
+           HLA-A*29:02, HLA-A*80:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IAIVMVTIM
+          </td>
+          <td>
+           HLA-B*46:01, HLA-B*58:01, HLA-B*51:01, HLA-B*15:17, HLA-B*53:01, HLA-B*35:01, HLA-C*03:03, HLA-B*57:01
+          </td>
+         </tr>
+         <tr>
+          <td colspan="2">
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           HTL epitopes
+          </th>
+          <th>
+           MHC II binding alleles
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           DLPIGINITRFQTLL
+          </td>
+          <td>
+           HLA-DRB1*04:02
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0015" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         CTL and HTL epitopes and their corresponding MHC alleles chosen for docking analysis.
+        </p>
+       </caption>
+       <alt-text id="al0055">
+        Table 3
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           T lymphocyte type
+          </th>
+          <th>
+           Epitope sequence
+          </th>
+          <th>
+           MHC alleles
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td rowspan="6">
+           CTL
+          </td>
+          <td>
+           RQIAPGQTG
+          </td>
+          <td>
+           HLA-B*15:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           VVFLHVTYV
+          </td>
+          <td>
+           HLA-C*06:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IAIVMVTIM
+          </td>
+          <td>
+           HLA-B*46:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QLTPTWRVY
+          </td>
+          <td>
+           HLA-A*29:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GQTGKIADY
+          </td>
+          <td>
+           HLA-A*30:02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVVFLHVTY
+          </td>
+          <td>
+           HLA-A*32:01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HTL
+          </td>
+          <td>
+           DLPIGINITRFQTLL
+          </td>
+          <td>
+           HLA-DRB1*04:02
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0020" position="float">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         Validation of the homology models.
+        </p>
+       </caption>
+       <alt-text id="al0060">
+        Table 4
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th colspan="2" rowspan="2">
+           Quality parameters
+          </th>
+          <th colspan="4">
+           MHC alleles
+           <hr/>
+          </th>
+         </tr>
+         <tr>
+          <th>
+           HLA-A*29:02
+          </th>
+          <th>
+           HLA-A*30:02
+          </th>
+          <th>
+           HLA-A*32:01
+          </th>
+          <th>
+           HLA-DRB1*04:02
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td colspan="2">
+           Z score
+          </td>
+          <td align="char">
+           −8.80
+          </td>
+          <td align="char">
+           −8.84
+          </td>
+          <td align="char">
+           −8.76
+          </td>
+          <td align="char">
+           −5.42
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="4">
+           Ramachandran Plot
+          </td>
+          <td>
+           Residues in most favored regions (%)
+          </td>
+          <td align="char">
+           93.0
+          </td>
+          <td align="char">
+           92.2
+          </td>
+          <td align="char">
+           93.1
+          </td>
+          <td align="char">
+           94.0
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Residues in additional allowed regions (%)
+          </td>
+          <td align="char">
+           6.6
+          </td>
+          <td align="char">
+           7.4
+          </td>
+          <td align="char">
+           6.5
+          </td>
+          <td align="char">
+           5.4
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Residues in generously allowed regions (%)
+          </td>
+          <td align="char">
+           0.0
+          </td>
+          <td align="char">
+           0.0
+          </td>
+          <td align="char">
+           0.0
+          </td>
+          <td align="char">
+           0.6
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Residues in disallowed regions (%)
+          </td>
+          <td align="char">
+           0.4
+          </td>
+          <td align="char">
+           0.4
+          </td>
+          <td align="char">
+           0.4
+          </td>
+          <td align="char">
+           0.0
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0025" position="float">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         Binding affinity (kcal/mol) between the epitopes and their corresponding MHC alleles.
+        </p>
+       </caption>
+       <alt-text id="al0065">
+        Table 5
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Ligand
+          </th>
+          <th>
+           Allele
+          </th>
+          <th>
+           Binding affinity
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           VVFLHVTYV
+          </td>
+          <td>
+           HLA-C*06:02
+          </td>
+          <td align="char">
+           −9.9
+          </td>
+         </tr>
+         <tr>
+          <td>
+           IAIVMVTIM
+          </td>
+          <td>
+           HLA-B*46:01
+          </td>
+          <td align="char">
+           −8.3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GQTGKIADY
+          </td>
+          <td>
+           HLA-A*30:02
+          </td>
+          <td align="char">
+           −7.4
+          </td>
+         </tr>
+         <tr>
+          <td>
+           QLTPTWRVY
+          </td>
+          <td>
+           HLA-A*29:02
+          </td>
+          <td align="char">
+           −7.2
+          </td>
+         </tr>
+         <tr>
+          <td>
+           GVVFLHVTY
+          </td>
+          <td>
+           HLA-A*32:01
+          </td>
+          <td align="char">
+           −7.1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           RQIAPGQTG
+          </td>
+          <td>
+           HLA-B*15:01
+          </td>
+          <td align="char">
+           −6.6
+          </td>
+         </tr>
+         <tr>
+          <td>
+           DLPIGINITRFQTLL
+          </td>
+          <td>
+           HLA-DRB1*04:02
+          </td>
+          <td align="char">
+           −3.7
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <table-wrap id="t0030" position="float">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         Docking output between the epitope VVFLHVTYV and HLA-C*06:02 in terms of interactions.
+        </p>
+       </caption>
+       <alt-text id="al0070">
+        Table 6
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Conventional hydrogen bonds
+          </th>
+          <th>
+           Salt bridge
+          </th>
+          <th>
+           Charge-Charge interactions
+          </th>
+          <th>
+           Hydrophobic interactions
+          </th>
+          <th>
+           Acceptor-acceptor clash
+          </th>
+          <th>
+           Positive-Positive repulsion
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Gln70 (2.36), Asn77 (2.30), Asn77 (2.06), Trp147 (2.49), Trp156 (2.69), Thr163 (2.52), Trp167 (2.67)
+          </td>
+          <td>
+           Lys66 (2.98), Lys66 (3.00)
+          </td>
+          <td>
+           Lys66 (2.98), Lys66 (3.00)
+          </td>
+          <td>
+           Arg69 (4.93), Ala73 (4.56), Trp97 (3.54), Trp97(4.15), Tyr99 (4.65), Trp156 (5.28), Trp156 (5.48), Tyr159 (4.65), Lys80 (5.47), Leu81 (4.95), Tyr123 (5.32)
+          </td>
+          <td>
+           Tyr99 (2.87)
+          </td>
+          <td>
+           Lys80 (4.70), Lys146 (4.60)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="s0100">
+     <label>
+      3.6
+     </label>
+     <title>
+      Prediction of population coverage
+     </title>
+     <p id="p0185">
+      Combined population coverage of the 7 T lymphocyte epitopes used in this vaccine construction has been the focus of our IEDB population coverage analysis. The distribution of their 32 corresponding MHC alleles in 17 geographical regions and 101 countries found in the IEDB database has been evaluated.      depicts the region-wise coverage of the alleles. The global coverage of our vaccine stands at 82.25%. European, North American and African regions showed some of the highest regional coverage while Central America and Oceania region showed some of the least. In terms of country-specific coverage, European and African countries have topped the list. Since the beginning of the COVID-19 outbreak, Italy, Spain, France, and the United States have been the hardest hit countries in the world till April 2020. So we were especially interested in seeing how our vaccine coverage did with respect to these countries. Our IEDB analysis showed that the vaccine would cover 89.07%, 87.43%, 89.64%, and 85.65% of the population of Italy, Spain, France and the United States respectively.
+     </p>
+    </sec>
+    <sec id="s0105">
+     <label>
+      3.7
+     </label>
+     <title>
+      Vaccine construct design
+     </title>
+     <p id="p0190">
+      The final entire construct of the vaccine contained the following elements in order from the N-terminal to C-terminal direction:
+     </p>
+     <p id="p0195">
+      5′m      G Cap – 5′UTR – Kozak sequence – tPA (Signal peptide) – CD40L (Adjuvant) – GPGPG linker – HTL epitope – EAAKEAAK linker – LBL epitope – EAAKEAAK linker – LBL epitope – EAAKEAAK linker – LBL epitope – EAAKEAAKE linker – LBL epitope – EAAKEAAKE linker – LBL epitope – EAAKEAAKE linker – LBL epitope – AAY linker – CTL epitope – AAY linker – CTL epitope – AAY linker – CTL epitope – AAY linker – CTL epitope – AAY linker – CTL epitope – AAY linker – CTL epitope – AAY linker – MITD sequence – Stop codon – 3′UTR – Poly (A) tail.
+     </p>
+     <p id="p0200">
+      The proposed mechanism of synthesis, delivery and action of our vaccine has been presented in      .
+     </p>
+    </sec>
+    <sec id="s0110">
+     <label>
+      3.8
+     </label>
+     <title>
+      Antigenicity, allergenicity, toxicity and physicochemical evaluation of the vaccine construct
+     </title>
+     <p id="p0205">
+      Results of the antigenicity, allergenicity, toxicity and physicochemical analyses have been listed in      .
+      <table-wrap id="t0035" position="float">
+       <label>
+        Table 7
+       </label>
+       <caption>
+        <p>
+         Antigenic, allergenic, toxicity and physiochemical assessments of the translated protein form of mRNA vaccine translated peptide.
+        </p>
+       </caption>
+       <alt-text id="al0075">
+        Table 7
+       </alt-text>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           Features
+          </th>
+          <th>
+           Assessment
+          </th>
+          <th>
+           Remark
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Number of amino acids
+          </td>
+          <td>
+           478
+          </td>
+          <td>
+           Suitable
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Molecular weight
+          </td>
+          <td>
+           52,222.98
+          </td>
+          <td>
+           Average
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Chemical formula
+          </td>
+          <td>
+           C
+           <sub>
+            2346
+           </sub>
+           H
+           <sub>
+            3713
+           </sub>
+           N
+           <sub>
+            619
+           </sub>
+           O
+           <sub>
+            695
+           </sub>
+           S
+           <sub>
+            16
+           </sub>
+          </td>
+          <td>
+           –
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Theoretical pI
+          </td>
+          <td>
+           7.59
+          </td>
+          <td>
+           Slightly basic
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total number of negatively charged residues (Asp+Glu)
+          </td>
+          <td>
+           47
+          </td>
+          <td>
+           –
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total number of positively charged residues (Arg + Lys)
+          </td>
+          <td>
+           48
+          </td>
+          <td>
+           –
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Total number of atoms
+          </td>
+          <td>
+           7389
+          </td>
+          <td>
+           –
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Instability Index (II)
+          </td>
+          <td>
+           32.08
+          </td>
+          <td>
+           Stable
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Aliphatic index (AI)
+          </td>
+          <td>
+           90.33
+          </td>
+          <td>
+           Thermostable
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Grand Average of hydropathicity (GRAVY)
+          </td>
+          <td>
+           −0.064
+          </td>
+          <td>
+           Hydrophilic
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           Antigenicity
+          </td>
+          <td>
+           0.6547 (VaxiJen)
+          </td>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+           0.8504 (ANTIGENpro)
+          </td>
+          <td>
+           Antigenic
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Allergenicity
+          </td>
+          <td>
+           Probable non-allergen (AllerTOP 2.0)
+          </td>
+          <td>
+           Non-allergen
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Toxicity
+          </td>
+          <td>
+           Non-toxin (ToxinPred)
+          </td>
+          <td>
+           Non-toxic
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+     <p id="p0210">
+      Vaxigen and ANTIGENpro both predicted the vaccine to be antigenic with scores of 0.6547 and 0.8504 respectively. AllerTOP predicted the vaccine to be non-allergic. ToxinPred revealed it to be non-toxic. The ProtParam server calculated the molecular weight of the construct as ~52 kDa, while 7.59 pI indicated the vaccine construct to be close to neutral in nature. Total number of amino acids were 478, while the number of negatively and positively charged residues were similar (47 and 48 respectively). In terms of instability, the II was computed to be 32.08, implying that the construct would retain its stability after expression (II of &gt;40 indicates instability). The AI was calculated as 90.33, indicating the construct to be thermostable. The Grand Average of Hydropathicity (GRAVY) was calculated to be negative (−0.064), which indicated the hydrophilic nature of the vaccine. Based on these results, this multi-epitope mRNA vaccine construct can be predicted as a potential vaccine candidate.
+     </p>
+    </sec>
+    <sec id="s0115">
+     <label>
+      3.9
+     </label>
+     <title>
+      Evaluation of the simulated immune response against the vaccine
+     </title>
+     <p id="p0215">
+      As expected, the secondary and tertiary responses were higher than the primary response (      ). Primarily, high concentrations of Immunoglobulin (Ig) M compared to IgG were detected. In both the secondary and tertiary responses, typical high levels of immunoglobulin activities (
+      <italic>
+       i.e.
+      </italic>
+      , IgG1 + IgG2, IgM, and IgG + IgM antibodies) were evident with concomitant antigen reduction. This indicates the emergence of immunological memory and thereby proficient immunity upon subsequent exposures of the antigen. Moreover, several B-cell isotypes were observed to be existent for a long period of time, suggesting the potential for isotype switching and memory formation. A similarly elevated response was observed in the CTL and HTL populations with their respective memory development. Additionally, an increase in macrophage activity was observed while dendritic cell activity was found to be consistent. High levels of IFN- γ and IL-2 were also obvious. Besides, components of the innate immune system (
+      <italic>
+       e.g.
+      </italic>
+      epithelial cell) were also active. Furthermore, a lower Simpson index (D) indicated a possibility of a variety of immune responses.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0120">
+    <label>
+     4
+    </label>
+    <title>
+     Discussion
+    </title>
+    <p id="p0220">
+     Since the first successful case of mRNA therapeutics in 1990, mRNA vaccines such as those against HIV-1, Zika, rabies, influenza virus
+     <italic>
+      etc.
+     </italic>
+     have represented a versatile and highly effective subset of vaccine candidates [     ,     ,     ,     ,     ,     ,     ]. Despite hurdles like instability of mRNA due to degradation by ubiquitous RNases [     ] and inherent immunogenicity due to recognition by innate immune sensors [     ,     ,     ,     ], mRNA vaccine technology has made great progress.
+    </p>
+    <p id="p0225">
+     Vaccines are capable of providing immunological memory that persists for several years to several decades [     ,     ,     ]. Stimulation of both B and T lymphocyte mediated immune responses is considered crucial for any successful vaccination strategy since it is able to provide a faster and more efficient immune response when the host encounters the target pathogen in the future [     ]. The goal of vaccination is to trick the body into thinking that it has been attacked by a pathogen and so generate an immune response that leads to the production of memory B and T lymphocytes [     ,     ]. Generation of effector and memory B and T lymphocytes depends upon the successful recognition of specific target antigens, more specifically, parts of the specific antigens called epitopes. Therefore, it is of great interest to predict B and T lymphocyte epitopes on target antigens when it comes to designing vaccines [     ].
+    </p>
+    <p id="p0230">
+     CTL mediated cytotoxic activity is a crucial part of the immune response to viral infections. Virus infected cells degrade some of the viral proteins and present them to the CTLs in combination with MHC class I molecules. Recognition of degraded parts of viral proteins called epitopes by CTLs leads to the killing of infected cells through the release of cytotoxic granules [     ]. Filtering through various parameters, 6 CTL epitopes have been extracted in this study for construction of a vaccine against SARS-CoV-2 (     ).
+    </p>
+    <p id="p0235">
+     Antigen-presenting cells display viral particles to HTLs in combination with MHC class II molecules which leads to the activation of HTLs. Upon recognition of the epitopes, the HTLs secrete a wide range of cytokines and chemokines such as IFN-γ, IL-4, IL-10
+     <italic>
+      etc.
+     </italic>
+     which play diverse roles in the immune response against the invaders [     ,     ,     ,     ]. Once the antigens are cleared, most effector T lymphocytes (meaning CTLs and HTLs) perish but a small population of them survive this phase and make up the reservoir of memory T cells [     ,     ,     ]. Based on our analysis, one HTL epitope was selected for vaccine construction (     ).
+    </p>
+    <p id="p0240">
+     Using B cell receptors which are basically membrane-bound immunoglobulins, B lymphocytes bind to antigenic epitopes found on the surface of target cells and subsequently internalize, process and present them to T cells [     ]. The processed epitopes are presented in combination with MHC class II on the surface of B lymphocytes and are recognized by HTLs possessing a cognate T-cell Receptor (TCR). This leads to the differentiation of B lymphocytes into antibody secreting plasma cells [     ,     ,     ]. These antibodies are extremely important in neutralizing pathogens [     ]. Alternatively, the activated B lymphocytes might initiate germ line center reactions that leads to the generation of memory B cells and long lived plasma cells [     ]. In this study, 6 LBLs have been identified as suitable for including in the vaccine construct (     ).
+    </p>
+    <p id="p0245">
+     Primarily, we used the “2019-nCoV WHU01” strain for epitope prediction. But SARS-CoV-2 being an RNA virus additional mutations are unavoidable [     ]. To address this situation, we conducted multiple sequence alignment of randomly selected 200 SARS-CoV-2 S proteins from all over the world covering all but one (Antarctica) continents. The result showing no mutation in our selected epitope area (     ) indicates the vaccine design to be efficacious. Since it is an mRNA vaccine, the vaccine construct can be modified following the filtering principle we have employed in case of possible future mutation within the epitope regions.
+    </p>
+    <p id="p0250">
+     Molecular docking is a key bioinformatics tool that is widely utilized to predict the binding affinity and pose between a ligand and its corresponding receptor [     ,     ,     ,     ]. Not just in computational drug design, molecular docking has also become an integral part of vaccine design studies. In immunoinformatics, one crucial use of molecular docking is the simulation of binding between T lymphocyte epitopes and their respective MHC molecules [     ,     ,     ]. The binding affinity between a receptor and its ligand can be defined by the energy released during spontaneous bond formation between the two and the lower the energy, the more tightly bound the receptor is to its ligand [     ,     ]. Our selected 7 T lymphocyte epitopes had 32 corresponding MHC alleles (     ). We subjected each of these CTL and HTL epitopes and one of their corresponding alleles to molecular docking (     ). 4 out of the 7 alleles of our epitopes did not have their 3 dimensional structures available in RCSB PDB database. Therefore, we had to model these receptor molecules using the SWISS-MODEL server. The quality of the models was judged based on Ramachandran Plots and Z scores. In structural biology, Ramachandran plots are considered as one of the most pivotal concepts. It categorizes the amino acids of any given 3 dimensional protein structure into 4 groups - amino acids in most favored regions, amino acids in additional allowed regions, amino acids in generously allowed regions, and amino acids in disallowed regions. For any protein model to be considered a good model, over 90% of its amino acids need to be in the most favored regions [     ,     ]. In our case, all 4 of the models satisfied this condition and so could be considered reliable (     ). Another indicator of protein model quality is the Z score. A Z score plot describes how a model compares with experimentally determined protein structures of similar size from different sources (X-ray, NMR) [     ]. All our models fell within the acceptable zone in the Z score plots (     ). Based on the molecular docking of our selected epitopes with their corresponding alleles, we have found out that the epitope VVFLHVTYV possessed the highest binding affinity for its corresponding MHC allele, HLA-C*06:02 (     ) and exhibited a wide array of interactions (     ). It bound successfully to the epitope binding pocket of HLA-C*06:02 (     ) and took part in bond formation with neighboring residues (     ).
+    </p>
+    <p id="p0255">
+     In vaccine design, careful consideration needs to be put on the population coverage of the T lymphocyte epitopes. The presence of over a thousand human MHC alleles around the globe is a factor that must be addressed because only those who possess a particular MHC allele recognizing the epitopes in our vaccine construct will launch an immune response when exposed to the vaccine [     ]. In this study, the combined coverage of the CTL and HTL epitopes was checked to predict the effectiveness of our vaccine across various geographical regions of the world. The IEDB population coverage tool predicted a decent worldwide coverage (     ) while higher degree of coverage was predicted for countries that saw the most devastating effects of the SARS-CoV-2 pandemic.
+    </p>
+    <p id="p0260">
+     While developing an mRNA-vaccine, important factors such as mRNA manufacturing, quality control, formulation, immunological and physicochemical properties of the vaccine as well as the translated form of the peptide come into question. For successful cellular uptake, immune stimulation and induction of long-term memory, emphasis should be put on designing the vaccine construct in a way that avoids interaction with RNA-sensors. For ensuring Good Manufacturing Practice (GMP), some perspectives such as cost-effectiveness are major issues. Industrially, mRNA is obtained by
+     <italic>
+      in vitro
+     </italic>
+     transcription of DNA (linearized plasmid DNA or PCR template) containing a recognition site for RNA polymerase attachment [     ,     ,     ]. This mRNA preparation contains double-stranded RNA (dsRNA) contaminants [     ], which being a potent Pathogen-associated Molecular Pattern (PAMP) result in robust type I interferon production. This leads to the inhibition of translation [     ] and the degradation of cellular mRNA and ribosomal RNA [     ]. To solve this problem, purification of mRNA using High-performance Liquid Chromatography (HPLC) has resulted in increase of translation upto 1000-fold [     ]. A chromatographic purification technology named PUREmessenger has obtained highly pure mRNA transcripts by elimination of contaminating shorter or longer transcripts [     ]. However, the highest level of protein production has been reported when the mRNA was both HPLC-purified and nucleoside-modified [     ]. Apparently, the transcription step in mRNA vaccines makes the production more expensive compared to DNA vaccines. But in practice, it is actually less costly in the long run because of higher transfection rate.
+    </p>
+    <p id="p0265">
+     Developing an effective and safe adjuvant requires an intricate balance between immunogenicity and safety because of the risk of undesired level of host immune system activation and inflammatory responses in some cases. Several approaches showed promise in this aspect, such as those using protamine and cytokine granulocyte macrophage colony-stimulating factor (GM-CSF) [     ,     ,     ,     ,     ,     ,     ,     ,     ]. Besides, when administered naked, mRNA itself has been reported to be self-adjuvanting [     ]. But
+     <italic>
+      in vivo
+     </italic>
+     degradation makes it a poor approach. We included co-stimulatory molecule CD40L considering its ability to stimulate pAPCs and thereby induce immune response molecules [     ,     ]. However, excluding the adjuvant would certainly reduce time and costs. Therefore, further experimentation can tell whether the inclusion was absolutely necessary. Optimum spacers with a balance between flexibility and rigidity also contribute to the proper functioning of the mRNA vaccine by preventing inter-domain interactions. [     ,     ]
+    </p>
+    <p id="p0270">
+     During
+     <italic>
+      in vitro
+     </italic>
+     transcription, mRNA can be capped co-transcriptionally using enzymatic action of vaccinia virus capping complex [     ,     ] or “Anti-reverse” Cap Analogs (ARCAs) [     ,     ,     ,     ]. Poly(A) tails have been found to work synergistically with 5′ m     G cap sequences with optimum length being 120–150 base pairs [     ,     ,     ,     ,     ]. For increased translation and stability, 5′ and 3′ UTRs need to flank the mRNA ORF [     ,     ,     ]. Globin UTRs are commonly used for
+     <italic>
+      in vitro
+     </italic>
+     transcription of mRNA. Incorporation of both the Xenopus β globin 5′ and 3′-UTRs have been found to increase translational efficiency by about 1000-fold [     ]. We decided to use a combination of β globin 5′-UTR and α globin 3′-UTR, which had been known to stabilize mRNAs [     ,     ]. Sequences surrounding the stop codon might be optimized and the Kozak sequence also demands attention [     ,     ].
+    </p>
+    <p id="p0275">
+     Inclusion of sequences for a secretory signal as well as those that contain directional information regarding specific compartments of endoplasmic reticulum (
+     <italic>
+      e.g.
+     </italic>
+     MHC I), have been associated with higher efficiency of mRNA and DNA based vaccines [     ,     ,     ]. Enrichment of G:C content has been shown to increase steady-state mRNA levels
+     <italic>
+      in vitro
+     </italic>
+     [     ] and protein expression
+     <italic>
+      in vivo
+     </italic>
+     [     ]. In some species, codon bias
+     <italic>
+      i.e.
+     </italic>
+     replacement of rare codons with frequently used synonymous codons have been associated with both efficiency [     ] and probable adverse effect [     ,     ,     ]. But it does not correlate with tRNA levels and gene expression in humans [     ,     ]. Therefore, it has been avoided in our mRNA vaccine designing. Incorporation of naturally occurring chemically modified nucleosides, such as pseudouridine [     ], and 1-methylpseudouridine [     ] has been reported to enhance
+     <italic>
+      in vitro
+     </italic>
+     translation. Its efficacy is based on escaping Toll-like Receptor (TLR) 7, 8 and other innate immune sensors [     ,     ] and thus reducing type I interferon signaling [     ]. However, whether it can have an impact upon
+     <italic>
+      in vivo
+     </italic>
+     translation remains to be tested.
+    </p>
+    <p id="p0280">
+     mRNA formulation and administration are also crucial factors for antigen expression. Recently, Lipid Nanoparticle (LNP) has emerged as a promising vector for mRNA vaccines. Route of administration is also a contributing factor here. Intramuscular and intradermal delivery of mRNA–LNPs has been shown to result in three-fold more persistent protein expression than intravenous delivery. As sustained antigen availability during vaccination drives higher antibody titres and pronounced immune responses, higher half-life can contribute to higher potency of the vaccine. [     ,     ,     ,     ,     ]. In the case of our vaccine, intranasal administration is a probable option, as the virus has been reported to infect the respiratory tract. After incorporation into the cytosol, mRNA comes into contact of the cytosolic translation complex. After translation and post-translational modifications, the vaccine gets ready to generate immune response (     ). The translated form of our mRNA construct was predicted to be almost neutral, stable, highly antigenic, non-allergenic and hydrophilic, thermostable in nature by various
+     <italic>
+      in silico
+     </italic>
+     tools making it a potential candidate for a vaccine.
+    </p>
+    <p id="p0285">
+     <italic>
+      In silico
+     </italic>
+     immune response simulation showed an overall increase in immune responses following repeated exposure to the antigen (     ). The higher B and T-cell activity and lasting of B cell memory for several months indicated humoral immunity; which is essential for complementing the immune response. High levels of IFN-γ and IL-2 production during repeated exposure indicated cell mediated immune response. The cytokine IFN-γ being involved in B-cell proliferation and Ig isotype switching [     ,     ], it can support a humoral response as well. Moderate levels of IL-10 and IL-4 activity were observed since IL-10 and IL-4 positive HTL epitopes were selected and incorporated into the vaccine construct. Dendritic cell and macrophage activities and Simson index were found to be up to the mark. This profile of the vaccine suggests immune memory development and, thereby, natural immune protection against SARS-CoV-2.
+    </p>
+    <p id="p0290">
+     Instead of beginning with the laboratory-based expensive and time-consuming methods, immunoinformatics provides the advantage of low cost and fast identification and screening of epitopes and designing a vaccine. In the face of worldwide transmission of the COVID-19 pandemic at an alarming rate, rapid and high-yield technologies like mRNA vaccine production is the one to meet the challenge. Our immunoinformatics based approach for designing a multi-epitope mRNA vaccine against the spike glycoprotein of SARS-CoV-2 have demonstrated that this novel vaccine candidate can be a useful tool in mankinds arsenal against the deadly virus. This can only come to fruition after further validation of its performance
+     <italic>
+      in vitro
+     </italic>
+     and
+     <italic>
+      in vivo
+     </italic>
+     through coordinated action between the relevant quarters.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s0125">
+    <title>
+     Author contributions
+    </title>
+    <p id="p0295">
+     Samia Sultana Lira and Ishtiaque Ahammad contributed equally to this research work. More specifically, Samia Sultana Lira designed the mRNA vaccine construct, performed antigenicity, allergenicity, toxicity, physicochemical assessment, and immune simulation of the constructed vaccine, and wrote the related parts in material and methods, results and discussion sections in addition to writing the introduction section of the manuscript. Ishtiaque Ahammad predicted and assessed the CTL, HTL and LBL epitopes, performed homology modelling and molecular docking, population coverage analysis and wrote the related parts in material and methods, results and discussion sections of the manuscript. Both authors contributed equally in writing the abstract, conducting multiple sequence alignment, preparing the figures and editing the manuscript.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="COI-statement">
+    <title>
+     Declaration of competing interest
+    </title>
+    <p id="p0305">
+     None.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

@@ -1,0 +1,6040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  In silico discovery of antigenic proteins and epitopes of SARS-CoV-2 for the development of a vaccine or a diagnostic approach for COVID-19
+ </title>
+ <abstract>
+  <p id="Par1">
+   In the genome of SARS-CoV-2, the 5′-terminus encodes a polyprotein, which is further cleaved into 15 non-structural proteins whereas the 3′ terminus encodes four structural proteins and eight accessory proteins. Among these 27 proteins, the present study aimed to discover likely antigenic proteins and epitopes to be used for the development of a vaccine or serodiagnostic assay using an in silico approach. For this purpose, after the full genome analysis of SARS-CoV-2 Wuhan isolate and variant proteins that are detected frequently, surface proteins including spike, envelope, and membrane proteins as well as proteins with signal peptide were determined as probable vaccine candidates whereas the remaining were considered as possible antigens to be used during the development of serodiagnostic assays. According to results obtained, among 27 proteins, 26 of them were predicted as probable antigen. In 26 proteins, spike protein was selected as the best vaccine candidate because of having a signal peptide, negative GRAVY value, one transmembrane helix, moderate aliphatic index, a big molecular weight, a long-estimated half-life, beta wrap motifs as well as having stable, soluble and non-allergic features. In addition, orf7a, orf8, and nsp-10 proteins with signal peptide were considered as potential vaccine candidates. Nucleocapsid protein and a highly antigenic GGDGKMKD epitope were identified as ideal antigens to be used in the development of serodiagnostic assays. Moreover, considering MHC-I alleles, highly antigenic KLNDLCFTNV and ITLCFTLKRK epitopes can be used to develop an epitope-based peptide vaccine.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="Sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="Par2">
+     Coronaviruses belonging to the family Coronaviridae and the order Nidovirales are a large family of enveloped positive-strand RNA viruses. Coronaviruses are zoonotic pathogens that infect both animals and humans, and may cause diseases in intestinal, liver, respiratory, and nervous systems. It has been stated that, among known coronaviruses, CoV-229E (alpha coronavirus), CoV-NL63 (alpha coronavirus), CoV-OC43 (beta coronavirus), CoV-HKU1 (beta coronavirus), severe acute respiratory syndrome coronavirus (SARS-CoV), Middle East respiratory syndrome coronavirus (MERS-CoV), and current SARS-CoV-2 can infect humans     .
+    </p>
+    <p id="Par3">
+     In the genome of SARS-CoV-2, the 5′-terminus encodes a polyprotein (pp1ab), which is further cleaved into 15 non-structural proteins (nsp-1 to nsp-10 and nsp-12 to nsp-16) whereas the 3′ terminus encodes four structural proteins including spike (S), envelope (E), membrane (M), and nucleocapsid (N) proteins and eight accessory proteins (3a, 3b, p6, 7a, 7b, 8b, 9b, and orf14)     . Comparative genomic analyses have revealed that SARS-CoV-2 shared more nucleotide homology with SARS-CoV than MERS-CoV     . Also, it has been reported that RBD of SARS-CoV-2 binds to the human ACE2 receptor in a higher affinity than that of SARS-CoV as well as the presence of an insertion in the polybasic cleavage region in SARS-CoV-2 may increase the infectivity of the virus     . The novel coronavirus, SARS-CoV-2 causing COVID-19 has been first reported in Wuhan City of Hubei Province in China in December 2019, and then, COVID-19 has spread from China to 211 different countries with more than 28 million cases including more than 900 thousand deaths in record time     .
+    </p>
+    <p id="Par4">
+     Since it has been known that no specific therapeutic agents that target SARS-CoV-2 are currently available, the development of an urgent vaccine against SARS-CoV-2 is inevitable. In vaccine development, traditional or recombinant vaccine methods are being used. Traditional approaches, based on inactivated or live attenuated viruses, can be applied for vaccine development but it has been reported that these approaches have some limitations such as being time-consuming, having problems in the production of non-abundant proteins and pathogens     . This condition prevents the development of new vaccines against pathogens causing the outbreaks leading to a pandemic. On the other hand, to overcome these problems, new recombinant vaccine development strategies allowing several genes obtained from different pathogenic agents to be cloned, expressed, and purified to be used as vaccine candidates are applied     . During new recombinant vaccine design, reverse vaccinology (RV) in silico approach provides detailed preliminary prediction about vaccine candidates by using genome sequences that can be ultimately translated into proteins. Utilisation of RV in silico approach is rather crucial because of offering a prediction for the antigenicity, the epitope regions of B and T cells as well as other parameters such as signal peptide, subcellular localisation, and solubility about targeted proteins     . Currently, docking analysis demonstrating the binding among predicted epitopes and selected alleles of MHC-I and MHC-II became an important part of RV in silico approach     . Result obtained from in silico prediction has utmost importance for preventing the failures that can be encountered at the end of wet lab studies or even late stages of clinical trials.
+    </p>
+    <p id="Par5">
+     In this context, the present study aimed to analyse the full genome of SARS-CoV-2 (reference isolate Wuhan-Hu-1; Accession number: NC_045512.2) in order to discover likely antigenic proteins and epitopes to be used for the development of a vaccine candidate or serodiagnostic assay using an RV in silico approach as previously described     . For this purpose, surface proteins including S, E, and M proteins as well as proteins that were predicted to have a signal peptide were identified as probable vaccine candidates whereas the remaining were considered as probable antigens to be used in the development of a serodiagnostic assay. During in silico analyses, physico-chemical parameters, secondary structure, subcellular localisation, transmembrane helices, antigenicity, and signal peptide were predicted for 27 proteins of the reference Wuhan genome. Later, for structural proteins as well as proteins that have a signal peptide, allergenicity, BetaWrap motifs, similarity with host proteins, post-translational modifications (PTMs), and B/T cell epitopes were predicted and selected epitopes were docked with receptors of MHC-I/II alleles. Finally, effects of variations frequently occurred in structural proteins and the proteins that were predicted to have signal peptide on antigenicity, signal peptide, solubility, BetaWrap motifs, PTMs and epitope regions were investigated.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec2">
+    <title>
+     Results
+    </title>
+    <sec id="Sec3">
+     <title>
+      Physico-chemical parameters
+     </title>
+     <p id="Par6">
+      The number of amino acids varied from 75 to 1273 among structural proteins. The largest one was S protein with ~ 142 kDa whereas E protein with ~ 8.4 kDa was the smallest one (Table      ). Among non-structural proteins, except orf1ab, the number of amino acids varied from 43 to 275. Orf3a with ~ 32 kDa was the largest protein whereas orf7b with 5.2 kDa was the smallest protein (Table      ). Each non-structural protein that is encoded by orf1ab was also analysed, and the number of amino acids was detected to vary from 83 to 1945. Nsp-3 with ~ 218 kDa molecular weight was one of the largest proteins whereas the smallest one was nsp-7 with ~ 9.3 kDa size (Table      ). When all proteins encoded by the full genome were analysed, the theoretical PI value was between 4.6 and 10.07. Among structural proteins, only S protein was negatively charged whereas E, M, and N protein were positively charged. In addition, orf7a, orf10, nsp-6, nsp-9, nsp-13, nsp-14, and nsp-16 proteins were positively charged whereas the remaining proteins were negatively charged except nsp-4 and nsp-8 that were neutral. The estimated half-life was 30 h for all proteins, except proteins that were encoded by orf1ab. Only nsp-1 in orf1ab had 30 h estimated half-life. According to the instability index, N protein was found as instable while S, E, M structural proteins and most of the non-structural proteins were found as stable. The aliphatic index showed a significant variation ranging between 52.53 to 144 among all proteins. The grand average of hydropathicity value was found negative in S and N proteins as well as in most of the non-structural proteins that were encoded by orf1ab (Table      ).
+      <table-wrap id="Tab1">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Physico-chemical parameter results predicted by ExPASyProtParam.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Protein name
+          </th>
+          <th align="left">
+           Number of amino acids
+          </th>
+          <th align="left">
+           Molecular weight
+          </th>
+          <th align="left">
+           Theoretical PI
+          </th>
+          <th align="left">
+           Total number of negatively charged residues (Asp + Glu)
+          </th>
+          <th align="left">
+           Total number of positively charged residues (Arg + Lys)
+          </th>
+          <th align="left">
+           The estimated half-life (hour)
+          </th>
+          <th align="left">
+           The instability index (II)
+          </th>
+          <th align="left">
+           Aliphatic index
+          </th>
+          <th align="left">
+           GRAVY
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="4">
+           Structural proteins
+          </td>
+          <td align="left">
+           S protein
+          </td>
+          <td align="char" char=".">
+           1273
+          </td>
+          <td align="char" char=".">
+           141,178.47
+          </td>
+          <td align="char" char=".">
+           6.24
+          </td>
+          <td align="char" char=".">
+           110
+          </td>
+          <td align="char" char=".">
+           103
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           33.01/stable
+          </td>
+          <td align="char" char=".">
+           84.67
+          </td>
+          <td align="char" char=".">
+           − 0.079
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E protein
+          </td>
+          <td align="char" char=".">
+           75
+          </td>
+          <td align="char" char=".">
+           8365.04
+          </td>
+          <td align="char" char=".">
+           8.57
+          </td>
+          <td align="char" char=".">
+           3
+          </td>
+          <td align="char" char=".">
+           5
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           38.68/stable
+          </td>
+          <td align="char" char=".">
+           144.00
+          </td>
+          <td align="char" char=".">
+           1.128
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M protein
+          </td>
+          <td align="char" char=".">
+           222
+          </td>
+          <td align="char" char=".">
+           25,146.62
+          </td>
+          <td align="char" char=".">
+           9.51
+          </td>
+          <td align="char" char=".">
+           13
+          </td>
+          <td align="char" char=".">
+           21
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           39.14/stable
+          </td>
+          <td align="char" char=".">
+           120.86
+          </td>
+          <td align="char" char=".">
+           0.446
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N protein
+          </td>
+          <td align="char" char=".">
+           419
+          </td>
+          <td align="char" char=".">
+           45,625.70
+          </td>
+          <td align="char" char=".">
+           10.07
+          </td>
+          <td align="char" char=".">
+           36
+          </td>
+          <td align="char" char=".">
+           60
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           55.09/unstable
+          </td>
+          <td align="char" char=".">
+           52.53
+          </td>
+          <td align="char" char=".">
+           − 0.971
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           Non-structural proteins
+          </td>
+          <td align="left">
+           orf3a
+          </td>
+          <td align="char" char=".">
+           275
+          </td>
+          <td align="char" char=".">
+           31,122.94
+          </td>
+          <td align="char" char=".">
+           5.55
+          </td>
+          <td align="char" char=".">
+           24
+          </td>
+          <td align="char" char=".">
+           17
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           32.96/stable
+          </td>
+          <td align="char" char=".">
+           103.42
+          </td>
+          <td align="char" char=".">
+           0.275
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf6
+          </td>
+          <td align="char" char=".">
+           61
+          </td>
+          <td align="char" char=".">
+           7272.54
+          </td>
+          <td align="char" char=".">
+           4.60
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           5
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           31.16/stable
+          </td>
+          <td align="char" char=".">
+           130.98
+          </td>
+          <td align="char" char=".">
+           0.233
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf7a
+          </td>
+          <td align="char" char=".">
+           121
+          </td>
+          <td align="char" char=".">
+           13,744.17
+          </td>
+          <td align="char" char=".">
+           8.23
+          </td>
+          <td align="char" char=".">
+           10
+          </td>
+          <td align="char" char=".">
+           12
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           48.66/unstable
+          </td>
+          <td align="char" char=".">
+           100.74
+          </td>
+          <td align="char" char=".">
+           0.318
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf7b
+          </td>
+          <td align="char" char=".">
+           43
+          </td>
+          <td align="char" char=".">
+           5180.27
+          </td>
+          <td align="char" char=".">
+           4.17
+          </td>
+          <td align="char" char=".">
+           5
+          </td>
+          <td align="char" char=".">
+           0
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           50.96/unstable
+          </td>
+          <td align="char" char=".">
+           156.51
+          </td>
+          <td align="char" char=".">
+           1.449
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf8
+          </td>
+          <td align="char" char=".">
+           121
+          </td>
+          <td align="char" char=".">
+           13,831.01
+          </td>
+          <td align="char" char=".">
+           5.42
+          </td>
+          <td align="char" char=".">
+           13
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           45.79/unstable
+          </td>
+          <td align="char" char=".">
+           97.36
+          </td>
+          <td align="char" char=".">
+           0.219
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf10
+          </td>
+          <td align="char" char=".">
+           38
+          </td>
+          <td align="char" char=".">
+           4449.23
+          </td>
+          <td align="char" char=".">
+           7.93
+          </td>
+          <td align="char" char=".">
+           1
+          </td>
+          <td align="char" char=".">
+           2
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           16.06/stable
+          </td>
+          <td align="char" char=".">
+           107.63
+          </td>
+          <td align="char" char=".">
+           0.637
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="15">
+           Pp1ab
+          </td>
+          <td align="left">
+           nsp-1
+          </td>
+          <td align="char" char=".">
+           180
+          </td>
+          <td align="char" char=".">
+           19,775.31
+          </td>
+          <td align="char" char=".">
+           5.36
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="char" char=".">
+           19
+          </td>
+          <td align="left">
+           30
+          </td>
+          <td align="left">
+           28.83/stable
+          </td>
+          <td align="char" char=".">
+           89.72
+          </td>
+          <td align="char" char=".">
+           − 0.378
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-2
+          </td>
+          <td align="char" char=".">
+           638
+          </td>
+          <td align="char" char=".">
+           70,511.38
+          </td>
+          <td align="char" char=".">
+           6.25
+          </td>
+          <td align="char" char=".">
+           74
+          </td>
+          <td align="char" char=".">
+           70
+          </td>
+          <td align="left">
+           4.4
+          </td>
+          <td align="left">
+           36.06/stable
+          </td>
+          <td align="char" char=".">
+           88.93
+          </td>
+          <td align="char" char=".">
+           − 0.062
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-3
+          </td>
+          <td align="char" char=".">
+           1945
+          </td>
+          <td align="char" char=".">
+           217,252.61
+          </td>
+          <td align="char" char=".">
+           5.56
+          </td>
+          <td align="char" char=".">
+           222
+          </td>
+          <td align="char" char=".">
+           185
+          </td>
+          <td align="left">
+           4.4
+          </td>
+          <td align="left">
+           36.56/stable
+          </td>
+          <td align="char" char=".">
+           86.22
+          </td>
+          <td align="char" char=".">
+           − 0.175
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-4
+          </td>
+          <td align="char" char=".">
+           500
+          </td>
+          <td align="char" char=".">
+           56,183.98
+          </td>
+          <td align="char" char=".">
+           7.16
+          </td>
+          <td align="char" char=".">
+           37
+          </td>
+          <td align="char" char=".">
+           37
+          </td>
+          <td align="left">
+           1.3
+          </td>
+          <td align="left">
+           34.09/stable
+          </td>
+          <td align="char" char=".">
+           95.50
+          </td>
+          <td align="char" char=".">
+           0.343
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-5
+          </td>
+          <td align="char" char=".">
+           306
+          </td>
+          <td align="char" char=".">
+           33,796.64
+          </td>
+          <td align="char" char=".">
+           5.95
+          </td>
+          <td align="char" char=".">
+           26
+          </td>
+          <td align="char" char=".">
+           22
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           27.65/stable
+          </td>
+          <td align="char" char=".">
+           82.12
+          </td>
+          <td align="char" char=".">
+           − 0.019
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-6
+          </td>
+          <td align="char" char=".">
+           290
+          </td>
+          <td align="char" char=".">
+           33,033.69
+          </td>
+          <td align="char" char=".">
+           9.11
+          </td>
+          <td align="char" char=".">
+           11
+          </td>
+          <td align="char" char=".">
+           21
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           22.94/stable
+          </td>
+          <td align="char" char=".">
+           111.55
+          </td>
+          <td align="char" char=".">
+           0.790
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-7
+          </td>
+          <td align="char" char=".">
+           83
+          </td>
+          <td align="char" char=".">
+           9239.82
+          </td>
+          <td align="char" char=".">
+           5.18
+          </td>
+          <td align="char" char=".">
+           10
+          </td>
+          <td align="char" char=".">
+           8
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           51.97/unstable
+          </td>
+          <td align="char" char=".">
+           117.35
+          </td>
+          <td align="char" char=".">
+           0.199
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-8
+          </td>
+          <td align="char" char=".">
+           198
+          </td>
+          <td align="char" char=".">
+           21,881.08
+          </td>
+          <td align="char" char=".">
+           6.58
+          </td>
+          <td align="char" char=".">
+           22
+          </td>
+          <td align="char" char=".">
+           22
+          </td>
+          <td align="left">
+           4.4
+          </td>
+          <td align="left">
+           37.78/stable
+          </td>
+          <td align="char" char=".">
+           88.33
+          </td>
+          <td align="char" char=".">
+           − 0.192
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-9
+          </td>
+          <td align="char" char=".">
+           113
+          </td>
+          <td align="char" char=".">
+           12,378.20
+          </td>
+          <td align="char" char=".">
+           9.10
+          </td>
+          <td align="char" char=".">
+           9
+          </td>
+          <td align="char" char=".">
+           13
+          </td>
+          <td align="left">
+           1.4
+          </td>
+          <td align="left">
+           34.17/stable
+          </td>
+          <td align="char" char=".">
+           82.92
+          </td>
+          <td align="char" char=".">
+           − 0.227
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-10
+          </td>
+          <td align="char" char=".">
+           139
+          </td>
+          <td align="char" char=".">
+           14,789.92
+          </td>
+          <td align="char" char=".">
+           6.29
+          </td>
+          <td align="char" char=".">
+           11
+          </td>
+          <td align="char" char=".">
+           10
+          </td>
+          <td align="left">
+           4.4
+          </td>
+          <td align="left">
+           34.56/stable
+          </td>
+          <td align="char" char=".">
+           61.80
+          </td>
+          <td align="char" char=".">
+           − 0.068
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-12
+          </td>
+          <td align="char" char=".">
+           932
+          </td>
+          <td align="char" char=".">
+           106,660.24
+          </td>
+          <td align="char" char=".">
+           6.14
+          </td>
+          <td align="char" char=".">
+           106
+          </td>
+          <td align="char" char=".">
+           94
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           28.32/stable
+          </td>
+          <td align="char" char=".">
+           78.43
+          </td>
+          <td align="char" char=".">
+           − 0.224
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-13
+          </td>
+          <td align="char" char=".">
+           601
+          </td>
+          <td align="char" char=".">
+           66,854.75
+          </td>
+          <td align="char" char=".">
+           8.66
+          </td>
+          <td align="char" char=".">
+           52
+          </td>
+          <td align="char" char=".">
+           64
+          </td>
+          <td align="left">
+           4.4
+          </td>
+          <td align="left">
+           33.31/stable
+          </td>
+          <td align="char" char=".">
+           84.49
+          </td>
+          <td align="char" char=".">
+           − 0.096
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-14
+          </td>
+          <td align="char" char=".">
+           527
+          </td>
+          <td align="char" char=".">
+           59,815.67
+          </td>
+          <td align="char" char=".">
+           7.80
+          </td>
+          <td align="char" char=".">
+           50
+          </td>
+          <td align="char" char=".">
+           52
+          </td>
+          <td align="left">
+           4.4
+          </td>
+          <td align="left">
+           28.85/stable
+          </td>
+          <td align="char" char=".">
+           78.96
+          </td>
+          <td align="char" char=".">
+           − 0.134
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-15
+          </td>
+          <td align="char" char=".">
+           346
+          </td>
+          <td align="char" char=".">
+           38,813.40
+          </td>
+          <td align="char" char=".">
+           5.06
+          </td>
+          <td align="char" char=".">
+           46
+          </td>
+          <td align="char" char=".">
+           34
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           36.28/stable
+          </td>
+          <td align="char" char=".">
+           95.09
+          </td>
+          <td align="char" char=".">
+           − 0.076
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-16
+          </td>
+          <td align="char" char=".">
+           298
+          </td>
+          <td align="char" char=".">
+           33,323.32
+          </td>
+          <td align="char" char=".">
+           7.59
+          </td>
+          <td align="char" char=".">
+           26
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           26.11/stable
+          </td>
+          <td align="char" char=".">
+           90.64
+          </td>
+          <td align="char" char=".">
+           − 0.086
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         GRAVY means the Grand average of hydropathicity.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Secondary structure
+     </title>
+     <p id="Par7">
+      According to results obtained from structural proteins, the alpha helix was between ~ 22 and 47%, that of the extended strand was between ~ 10 and 22%, and that of the random coil was between ~ 40 and 60%. For non-structural proteins, the alpha helix varied between 0 and 69%, that of the extended strand varied between ~ 3 and 47%, and that of the random coil varied between ~ 28 and 58% (Table      ).
+      <table-wrap id="Tab2">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Secondary structures results predicted by GOR IV.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Protein name
+          </th>
+          <th align="left">
+           Alpha helix (%)
+          </th>
+          <th align="left">
+           Extended strand (%)
+          </th>
+          <th align="left">
+           Random coil (%)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="4">
+           Structural proteins
+          </td>
+          <td align="left">
+           S protein
+          </td>
+          <td align="char" char=".">
+           21.52
+          </td>
+          <td align="char" char=".">
+           22.07
+          </td>
+          <td align="char" char=".">
+           56.40
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E protein
+          </td>
+          <td align="char" char=".">
+           33.33
+          </td>
+          <td align="char" char=".">
+           13.33
+          </td>
+          <td align="char" char=".">
+           53.33
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M protein
+          </td>
+          <td align="char" char=".">
+           46.85
+          </td>
+          <td align="char" char=".">
+           13.51
+          </td>
+          <td align="char" char=".">
+           39.64
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N protein
+          </td>
+          <td align="char" char=".">
+           30.55
+          </td>
+          <td align="char" char=".">
+           9.79
+          </td>
+          <td align="char" char=".">
+           59.67
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           Non-structural proteins
+          </td>
+          <td align="left">
+           orf3a
+          </td>
+          <td align="char" char=".">
+           18.91
+          </td>
+          <td align="char" char=".">
+           32.73
+          </td>
+          <td align="char" char=".">
+           48.36
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf6
+          </td>
+          <td align="char" char=".">
+           50.82
+          </td>
+          <td align="char" char=".">
+           3.28
+          </td>
+          <td align="char" char=".">
+           45.90
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf7a
+          </td>
+          <td align="char" char=".">
+           23.97
+          </td>
+          <td align="char" char=".">
+           26.45
+          </td>
+          <td align="char" char=".">
+           49.59
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf7b
+          </td>
+          <td align="char" char=".">
+           55.81
+          </td>
+          <td align="char" char=".">
+           6.98
+          </td>
+          <td align="char" char=".">
+           37.21
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf8
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           46.28
+          </td>
+          <td align="char" char=".">
+           53.72
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf10
+          </td>
+          <td align="char" char=".">
+           0.00
+          </td>
+          <td align="char" char=".">
+           44.74
+          </td>
+          <td align="char" char=".">
+           55.26
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="15">
+           Pp1ab
+          </td>
+          <td align="left">
+           nsp-1
+          </td>
+          <td align="char" char=".">
+           26.11
+          </td>
+          <td align="char" char=".">
+           15.56
+          </td>
+          <td align="char" char=".">
+           58.33
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-2
+          </td>
+          <td align="char" char=".">
+           26.33
+          </td>
+          <td align="char" char=".">
+           18.97
+          </td>
+          <td align="char" char=".">
+           54.70
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-3
+          </td>
+          <td align="char" char=".">
+           26.12
+          </td>
+          <td align="char" char=".">
+           24.27
+          </td>
+          <td align="char" char=".">
+           49.61
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-4
+          </td>
+          <td align="char" char=".">
+           19.00
+          </td>
+          <td align="char" char=".">
+           28.40
+          </td>
+          <td align="char" char=".">
+           52.60
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-5
+          </td>
+          <td align="char" char=".">
+           14.05
+          </td>
+          <td align="char" char=".">
+           37.58
+          </td>
+          <td align="char" char=".">
+           48.37
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-6
+          </td>
+          <td align="char" char=".">
+           28.28
+          </td>
+          <td align="char" char=".">
+           34.48
+          </td>
+          <td align="char" char=".">
+           37.24
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-7
+          </td>
+          <td align="char" char=".">
+           68.67
+          </td>
+          <td align="char" char=".">
+           3.61
+          </td>
+          <td align="char" char=".">
+           27.71
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-8
+          </td>
+          <td align="char" char=".">
+           64.14
+          </td>
+          <td align="char" char=".">
+           7.07
+          </td>
+          <td align="char" char=".">
+           28.79
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-9
+          </td>
+          <td align="char" char=".">
+           30.97
+          </td>
+          <td align="char" char=".">
+           19.47
+          </td>
+          <td align="char" char=".">
+           49.56
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-10
+          </td>
+          <td align="char" char=".">
+           11.51
+          </td>
+          <td align="char" char=".">
+           34.53
+          </td>
+          <td align="char" char=".">
+           53.96
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-12
+          </td>
+          <td align="char" char=".">
+           27.15
+          </td>
+          <td align="char" char=".">
+           23.50
+          </td>
+          <td align="char" char=".">
+           49.36
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-13
+          </td>
+          <td align="char" char=".">
+           17.64
+          </td>
+          <td align="char" char=".">
+           26.29
+          </td>
+          <td align="char" char=".">
+           56.07
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-14
+          </td>
+          <td align="char" char=".">
+           13.85
+          </td>
+          <td align="char" char=".">
+           29.79
+          </td>
+          <td align="char" char=".">
+           56.36
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-15
+          </td>
+          <td align="char" char=".">
+           18.79
+          </td>
+          <td align="char" char=".">
+           26.59
+          </td>
+          <td align="char" char=".">
+           54.62
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-16
+          </td>
+          <td align="char" char=".">
+           14.43
+          </td>
+          <td align="char" char=".">
+           33.22
+          </td>
+          <td align="char" char=".">
+           52.35
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      Antigenicity
+     </title>
+     <p id="Par8">
+      All structural proteins were predicted as probable antigen. Antigenicity value varied from 0.4661 to 0.6025. E protein had the highest antigenicity value whereas S protein had the lowest antigenicity value. Antigenicity values did not dramatically change among the original Wuhan and variant proteins. Interestingly, all non-structural proteins were also predicted as probable antigen, except nsp-16 encoded by orf1ab. In addition, orf7b had the highest antigenicity value with 0.8462 among all proteins. According to Wuhan orf8 antigenicity value, variant V62L had a higher antigenicity value whereas variant L84S had a lower antigenicity value (Table      ).
+      <table-wrap id="Tab3">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Solubility, transmembrane helices, localisation and antigenicity results predicted by SolPro, TMHMM, Virus-mPLoc and Vaxijen, respectively.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Proteins
+          </th>
+          <th align="left">
+           SolPro
+          </th>
+          <th align="left">
+           TMHMM
+          </th>
+          <th align="left">
+           Virus-mPLoc
+          </th>
+          <th align="left">
+           Vaxijen v2.0 value
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="4">
+           Structural proteins
+          </td>
+          <td align="left">
+           S protein
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           Host endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.4661 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E protein
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           Host endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.6025 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M protein
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           3
+          </td>
+          <td align="left">
+           Host cell membrane, endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.5102 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N protein
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cell membrane
+          </td>
+          <td align="left">
+           0.5059 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           Non-structural proteins
+          </td>
+          <td align="left">
+           orf3a
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           3
+          </td>
+          <td align="left">
+           Host cell membrane
+          </td>
+          <td align="left">
+           0.4945 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf6
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.6131 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf7a
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left">
+           Host endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.6441 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf7b
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           1
+          </td>
+          <td align="left"/>
+          <td align="left">
+           0.8462 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf8
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cell membrane, endoplasmic reticulum, cytoplasm
+          </td>
+          <td align="left">
+           0.6502 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf10
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left"/>
+          <td align="left">
+           0.7185 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="15">
+           Pp1ab
+          </td>
+          <td align="left">
+           nsp-1
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.4064 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-2
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.4034 (Probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-3
+          </td>
+          <td align="left"/>
+          <td align="left">
+           4
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.5142 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-4
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           4
+          </td>
+          <td align="left">
+           Host cell membrane, endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.4691 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-5
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cell membrane
+          </td>
+          <td align="left">
+           0.4159 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-6
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           8
+          </td>
+          <td align="left">
+           Host cell membrane
+          </td>
+          <td align="left">
+           0.5813 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-7
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.4167 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-8
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.4008 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-9
+          </td>
+          <td align="left">
+           Soluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cell membrane, cytoplasm
+          </td>
+          <td align="left">
+           0.6476 (Probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-10
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cell membrane, endoplasmic reticulum
+          </td>
+          <td align="left">
+           0.4039 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-12
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.4064 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-13
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host nucleus
+          </td>
+          <td align="left">
+           0.4480 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-14
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm, nucleus
+          </td>
+          <td align="left">
+           0.4138 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-15
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.5554 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-16
+          </td>
+          <td align="left">
+           Insoluble
+          </td>
+          <td align="left">
+           0
+          </td>
+          <td align="left">
+           Host cytoplasm
+          </td>
+          <td align="left">
+           0.3800 (probable non-antigen)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Could not be retrieved.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec6">
+     <title>
+      Solubility
+     </title>
+     <p id="Par9">
+      According to solubility prediction, S, E, and N proteins were soluble. Among non-structural proteins, orf3a as well as nsp-2, 4, 5, 7, 10, 12, 13, 14, 15, and 16 proteins encoded by orf1ab were predicted as insoluble whereas the remaining orf6 to orf10 and nsp-1, 6, 8, 9 were predicted as soluble. The solubility prediction of another protein, nsp-3 encoded by orf1ab, could not be retrieved due to large fragment size (Table      ).
+     </p>
+    </sec>
+    <sec id="Sec7">
+     <title>
+      Subcellular localisation and transmembrane helices
+     </title>
+     <p id="Par10">
+      The number of transmembrane helices varied from 0 to 3 among structural proteins. The number of transmembrane helices was the lowest in N protein whereas it was the highest in M protein. Among non-structural proteins, although the number of transmembrane helices varied from 0 to 8, most of them had no transmembrane helices (Table      ). When subcellular localisation predictions were examined, S, M, and N proteins were predicted to be in the host endoplasmic reticulum. E as well as M proteins were also predicted to be in the host cell membrane. Non-structural proteins were predicted to locate in cell membrane, endoplasmic reticulum, cytoplasm, nucleus (Table      ).
+     </p>
+    </sec>
+    <sec id="Sec8">
+     <title>
+      Signal peptide
+     </title>
+     <p id="Par11">
+      According to the prediction of signal peptide based on four different parameters, only S protein and its variant were predicted to have a signal peptide during the analyses of structural proteins. Among non-structural proteins, orf7a, orf8, variant of orf8, and nsp-10 were predicted to have a signal peptide (Table      ). Any variations did not change the results of signal peptide.
+      <table-wrap id="Tab4">
+       <label>
+        Table 4
+       </label>
+       <caption>
+        <p>
+         The signal peptide results predicted by Signal-BLAST.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Protein name
+          </th>
+          <th align="left">
+           Sensitivity
+          </th>
+          <th align="left">
+           Specificity
+          </th>
+          <th align="left">
+           Balanced prediction
+          </th>
+          <th align="left">
+           Cleavage site
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="11">
+           Structural proteins
+          </td>
+          <td align="left">
+           <bold>
+            S protein
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            Variant D614G
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E protein
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant L37H
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M protein
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant M T175M
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           N protein
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N P13L
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N S194L
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant NS197L
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N R203K/G204R
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="9">
+           Non-structural proteins
+          </td>
+          <td align="left">
+           orf3a
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf6
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            orf7a
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ORF7b
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            orf8
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            Variant orf8 S24L
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            Variant orf8 V62L
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            Variant orf8 L84S
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf10
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="15">
+           Pp1ab
+          </td>
+          <td align="left">
+           nsp-1
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-2
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-3
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-4
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-5
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-6
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-7
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-8
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-9
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <bold>
+            nsp-10
+           </bold>
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-12
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           Yes
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-13
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-14
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-15
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-16
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Bold indicates proteins that have a signal peptide.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Allergenicity
+     </title>
+     <p id="Par12">
+      None of the proteins including variant proteins showed allergenic properties for MEME/MAST motif and IgE epitopes (Table      ).
+      <table-wrap id="Tab5">
+       <label>
+        Table 5
+       </label>
+       <caption>
+        <p>
+         Allergenicity, BetaWrap motifs and host proteome similarity results predicted by AlgPred, BetaWrap and BlastP, respectively.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" rowspan="2"/>
+          <th align="left" rowspan="2">
+           Proteins
+          </th>
+          <th align="left" colspan="2">
+           AlgPred
+          </th>
+          <th align="left" rowspan="2">
+           BetaWrap motifs
+          </th>
+          <th align="left" rowspan="2">
+           BlastP
+          </th>
+         </tr>
+         <tr>
+          <th align="left">
+           IgE epitopes
+          </th>
+          <th align="left">
+           MEME/MAST motif
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="4">
+           Structural proteins
+          </td>
+          <td align="left">
+           <p>
+            S protein
+           </p>
+           <p>
+            Variant S (D614G)
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           P value: 0.014
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <p>
+            E protein
+           </p>
+           <p>
+            Variant E (L37H)
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <p>
+            M protein
+           </p>
+           <p>
+            Variant M (T175M)
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <p>
+            N protein
+           </p>
+           <p>
+            Variant N (P13L)
+           </p>
+           <p>
+            Variant N (S194L)
+           </p>
+           <p>
+            Variant N (S197L)
+           </p>
+           <p>
+            Variant N (R203K 204R)
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="2">
+           Non-structural proteins
+          </td>
+          <td align="left">
+           orf7a
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <p>
+            orf8
+           </p>
+           <p>
+            Variant orf8 (S24L)
+           </p>
+           <p>
+            Variant orf8 (V62L)
+           </p>
+           <p>
+            Variant orf8 (L84S)
+           </p>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Pp1ab
+          </td>
+          <td align="left">
+           nsp-10
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           Non allergen
+          </td>
+          <td align="left">
+           No
+          </td>
+          <td align="left">
+           No
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      BetaWrap motifs
+     </title>
+     <p id="Par13">
+      Among all proteins analysed, only S protein and its variant (D614G) were predicted to contain BetaWrap motifs (Table      ).
+     </p>
+    </sec>
+    <sec id="Sec11">
+     <title>
+      Similarity with host proteome
+     </title>
+     <p id="Par14">
+      No significant similarity was predicted between analysed viral proteins including variant proteins and host proteins (Table      ).
+     </p>
+    </sec>
+    <sec id="Sec12">
+     <title>
+      B cell epitopes
+     </title>
+     <p id="Par15">
+      A lot of linear B cell epitopes were predicted for S, variant S (D614G), N and variants of N (P13L, S194L, S197L, and R203K/G204R), E, and variant E (L37H), orf8 and variants of orf8 (S24L, V62L and L84S) and nsp-10 proteins using Bcepred and IEDB. Epitopes that were predicted in both Bcepred and IEDB, and detected as probable antigen were presented in Table      . Obtained predictions showed that nearly all epitopes had more antigenicity value than those of their own proteins. Interestingly, an epitope (VDEAGSKS) corresponding to variant orf8 (S24L) was predicted non-antigen because of adding valine amino acid to lead of epitope as different from the original Wuhan sequence. Variant N (P13L) had a specific epitope (AEGSRGGSQASSRSSSRSRNS) with a high antigenicity value that was not predicted for N or other variant N proteins. Among these analysed proteins, the highest antigenicity value (1.4530) was predicted for an epitope (GGDGKMKD) belonging to N protein and its variants. Another epitope (THTGTGQ) that had a high antigenicity value of 1.0789 was predicted in Nsp-10 encoded by orf1ab. Also, any antigenic epitope was not predicted for M and orf7a proteins. All predicted probable antigenic epitopes were depicted in Table      .
+      <table-wrap id="Tab6">
+       <label>
+        Table 6
+       </label>
+       <caption>
+        <p>
+         B cell epitopes predicted by both Bcepred and IEDB and antigenicity value predicted by Vaxijen v2.0.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Proteins
+          </th>
+          <th align="left">
+           Antigenicity value
+          </th>
+          <th align="left">
+           B cell epitopes
+          </th>
+          <th align="left">
+           Antigenicity value for epitopes
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="11">
+           Vaccine candidate epitopes
+          </td>
+          <td align="left">
+           S protein
+          </td>
+          <td align="left">
+           0.4661 (probable antigen)
+          </td>
+          <td align="left" rowspan="2">
+           <p>
+            VYYHKNNKSW
+           </p>
+           <p>
+            YAWNRKRISN
+           </p>
+           <p>
+            GDEVRQ
+           </p>
+           <p>
+            NLDSKV
+           </p>
+          </td>
+          <td align="left" rowspan="2">
+           <p>
+            0.4497 (probable antigen)
+           </p>
+           <p>
+            0.5855 (probable antigen)
+           </p>
+           <p>
+            0.6701 (probable antigen)
+           </p>
+           <p>
+            0.7443 (probable antigen)
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant (D614G)
+          </td>
+          <td align="left">
+           0.4638 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E protein
+          </td>
+          <td align="left">
+           0.6025 (probable antigen)
+          </td>
+          <td align="left" rowspan="2">
+           SRVKNLNSSRVP
+          </td>
+          <td align="left" rowspan="2">
+           0.5572 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant E (L37H)
+          </td>
+          <td align="left">
+           0.6298 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M protein
+          </td>
+          <td align="left">
+           0.5102 (probable antigen)
+          </td>
+          <td align="left" rowspan="2">
+           ND
+          </td>
+          <td align="left" rowspan="2">
+           –
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant M (T175M)
+          </td>
+          <td align="left">
+           0.4990 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf8
+          </td>
+          <td align="left">
+           0.6502 (probable antigen)
+          </td>
+          <td align="left" rowspan="3">
+           DEAGSKS
+          </td>
+          <td align="left" rowspan="3">
+           0.5885 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant orf8 (V62L)
+          </td>
+          <td align="left">
+           0.6734 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant orf8 (L84S)
+          </td>
+          <td align="left">
+           0.6063 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant orf8 (S24L)
+          </td>
+          <td align="left">
+           0.6581 (probable antigen)
+          </td>
+          <td align="left">
+           VDEAGSKS
+          </td>
+          <td align="left">
+           0.2132 (probable NON-antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           nsp-10
+          </td>
+          <td align="left">
+           0.4039 (probable antigen)
+          </td>
+          <td align="left">
+           THTGTGQ
+          </td>
+          <td align="left">
+           1.0789 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           Diagnostic epitopes
+          </td>
+          <td align="left">
+           N protein
+          </td>
+          <td align="left">
+           0.5059 (probable antigen)
+          </td>
+          <td align="left" rowspan="5">
+           <p>
+            NGPQNQRNAP
+           </p>
+           <p>
+            NTNSSPDDQI
+           </p>
+           <p>
+            GGDGKMKD
+           </p>
+           <p>
+            AEGSRGGSQASSRSSSRSRNSSRNS
+           </p>
+           <p>
+            AGNGGD
+           </p>
+           <p>
+            ESKMSGKGQQQQGQT
+           </p>
+           <p>
+            PQRQKKQQT
+           </p>
+           <p>
+            QSMSSADS
+           </p>
+          </td>
+          <td align="left" rowspan="5">
+           <p>
+            0.5058 (probable antigen)
+           </p>
+           <p>
+            0.4913 (probable antigen)
+           </p>
+           <p>
+            1.4530 (probable antigen)
+           </p>
+           <p>
+            0.8682 (probable antigen)
+           </p>
+           <p>
+            0.8201 (probable antigen)
+           </p>
+           <p>
+            0.8163 (probable antigen)
+           </p>
+           <p>
+            0.5997 (probable antigen)
+           </p>
+           <p>
+            0.4864 (probable antigen)
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N (P13L)
+          </td>
+          <td align="left">
+           0.5119 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N (S194L
+          </td>
+          <td align="left">
+           0.4989 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N (S197L)
+          </td>
+          <td align="left">
+           0.5139 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N (R203K/G204R)
+          </td>
+          <td align="left">
+           0.5068 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N (P13L)
+          </td>
+          <td align="left">
+           0.5119 (probable antigen)
+          </td>
+          <td align="left">
+           AEGSRGGSQASSRSSSRSRNS
+          </td>
+          <td align="left">
+           0.9061 (probable antigen)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         <italic>
+          ND
+         </italic>
+         not detected.
+        </p>
+        <p>
+         Vaccine candidate epitopes can also be used to develop serodiagnostic assays.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec13">
+     <title>
+      MHC-I and MHC-II epitopes
+     </title>
+     <p id="Par16">
+      A lot of MHC-I epitopes were predicted as probable antigen (Table      ). Antigenicity values belonging to epitopes were generally predicted higher than those of their own proteins. Among structural proteins, an epitope (KLNDLCFTNV) that had the highest antigenicity value (2.6927) was predicted in S protein and its variant (D614G). For non-structural proteins, an epitope (ITLCFTLKRK) in orf7a had the highest antigenicity value (2.5150). Any antigenic epitope was not predicted for nsp-10. On the other hand, KWPWYIWLGF, FLAFVVFLLV, FARTRSMWSF, and RNRFLYIIKL, AQFAPSASAF and LGIITTVAAF epitopes belonging to S (including variant D614G), E (including variant L37H), M (including variant T175M), N (including variants P13L, S194L, S197L, and R203K/G204R) and orf8 (including S24L, V62L, and L84S), respectively, had an IC50 value lower than 10 and a percentile rank varying from 0.02 from 0.1, indicating a strong binding among the epitope and MHC-I alleles. Also, T175M and S194L variations in M and N proteins caused the prediction of additional epitopes that are specific to own themselves.
+      <table-wrap id="Tab7">
+       <label>
+        Table 7
+       </label>
+       <caption>
+        <p>
+         Epitopes specific to selected MHC-I alleles.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Proteins
+          </th>
+          <th align="left">
+           Allele
+          </th>
+          <th align="left">
+           Start
+          </th>
+          <th align="left">
+           End
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+          <th align="left">
+           IC50
+          </th>
+          <th align="left">
+           Percentile rank
+          </th>
+          <th align="left">
+           Antigenicity
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="44">
+           Vaccine candidate epitopes
+          </td>
+          <td align="left" rowspan="16">
+           <p>
+            S protein
+           </p>
+           <p>
+            Variant S (D614G)
+           </p>
+          </td>
+          <td align="left">
+           HLA-A*24:02
+          </td>
+          <td align="char" char=".">
+           1211
+          </td>
+          <td align="char" char=".">
+           1220
+          </td>
+          <td align="left">
+           KWPWYIWLGF
+          </td>
+          <td align="char" char=".">
+           9.04
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           1.3904 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           754
+          </td>
+          <td align="char" char=".">
+           763
+          </td>
+          <td align="left">
+           LQYGSFCTQL
+          </td>
+          <td align="char" char=".">
+           13.44
+          </td>
+          <td align="char" char=".">
+           0.06
+          </td>
+          <td align="left">
+           1.4443 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           386
+          </td>
+          <td align="char" char=".">
+           395
+          </td>
+          <td align="left">
+           KLNDLCFTNV
+          </td>
+          <td align="char" char=".">
+           15.27
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           2.6927 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*07:02
+          </td>
+          <td align="char" char=".">
+           680
+          </td>
+          <td align="char" char=".">
+           689
+          </td>
+          <td align="left">
+           SPRRARSVAS
+          </td>
+          <td align="char" char=".">
+           18.4
+          </td>
+          <td align="char" char=".">
+           0.07
+          </td>
+          <td align="left">
+           0.5591 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           1209
+          </td>
+          <td align="char" char=".">
+           1218
+          </td>
+          <td align="left">
+           YIKWPWYIWL
+          </td>
+          <td align="char" char=".">
+           18.81
+          </td>
+          <td align="char" char=".">
+           0.2
+          </td>
+          <td align="left">
+           0.8847 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           515
+          </td>
+          <td align="char" char=".">
+           524
+          </td>
+          <td align="left">
+           FELLHAPATV
+          </td>
+          <td align="char" char=".">
+           20.98
+          </td>
+          <td align="char" char=".">
+           0.23
+          </td>
+          <td align="left">
+           0.5982 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*24:02
+          </td>
+          <td align="char" char=".">
+           488
+          </td>
+          <td align="char" char=".">
+           497
+          </td>
+          <td align="left">
+           CYFPLQSYGF
+          </td>
+          <td align="char" char=".">
+           27.59
+          </td>
+          <td align="char" char=".">
+           0.04
+          </td>
+          <td align="left">
+           0.7776 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           49
+          </td>
+          <td align="char" char=".">
+           58
+          </td>
+          <td align="left">
+           HSTQDLFLPF
+          </td>
+          <td align="char" char=".">
+           27.79
+          </td>
+          <td align="char" char=".">
+           0.17
+          </td>
+          <td align="left">
+           0.5162 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           2
+          </td>
+          <td align="char" char=".">
+           11
+          </td>
+          <td align="left">
+           FVFLVLLPLV
+          </td>
+          <td align="char" char=".">
+           32.64
+          </td>
+          <td align="char" char=".">
+           0.37
+          </td>
+          <td align="left">
+           0.8044 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           268
+          </td>
+          <td align="char" char=".">
+           277
+          </td>
+          <td align="left">
+           GYLQPRTFLL
+          </td>
+          <td align="char" char=".">
+           36.12
+          </td>
+          <td align="char" char=".">
+           0.4
+          </td>
+          <td align="left">
+           0.7535 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           698
+          </td>
+          <td align="char" char=".">
+           707
+          </td>
+          <td align="left">
+           SLGAENSVAY
+          </td>
+          <td align="char" char=".">
+           37.99
+          </td>
+          <td align="char" char=".">
+           0.22
+          </td>
+          <td align="left">
+           0.6175 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           408
+          </td>
+          <td align="char" char=".">
+           417
+          </td>
+          <td align="left">
+           RQIAPGQTGK
+          </td>
+          <td align="char" char=".">
+           38.0
+          </td>
+          <td align="char" char=".">
+           0.15
+          </td>
+          <td align="left">
+           1.7893 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           1064
+          </td>
+          <td align="char" char=".">
+           1073
+          </td>
+          <td align="left">
+           HVTYVPAQEK
+          </td>
+          <td align="char" char=".">
+           38.88
+          </td>
+          <td align="char" char=".">
+           0.15
+          </td>
+          <td align="left">
+           1.0786 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*24:02
+          </td>
+          <td align="char" char=".">
+           897
+          </td>
+          <td align="char" char=".">
+           906
+          </td>
+          <td align="left">
+           PFAMQMAYRF
+          </td>
+          <td align="char" char=".">
+           38.93
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="left">
+           1.1051 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           724
+          </td>
+          <td align="char" char=".">
+           733
+          </td>
+          <td align="left">
+           TEILPVSMTK
+          </td>
+          <td align="char" char=".">
+           42.81
+          </td>
+          <td align="char" char=".">
+           0.17
+          </td>
+          <td align="left">
+           1.4160 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*24:02
+          </td>
+          <td align="char" char=".">
+           1207
+          </td>
+          <td align="char" char=".">
+           1216
+          </td>
+          <td align="left">
+           EQYIKWPWYI
+          </td>
+          <td align="char" char=".">
+           45.33
+          </td>
+          <td align="char" char=".">
+           0.06
+          </td>
+          <td align="left">
+           1.1122 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           E protein
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           20
+          </td>
+          <td align="char" char=".">
+           29
+          </td>
+          <td align="left">
+           FLAFVVFLLV
+          </td>
+          <td align="char" char=".">
+           9.95
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           0.5651 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant E (L37H)
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           18
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="left">
+           LLFLAFVVFL
+          </td>
+          <td align="char" char=".">
+           32.72
+          </td>
+          <td align="char" char=".">
+           0.37
+          </td>
+          <td align="left">
+           0.6159 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="7">
+           orf7a
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           101
+          </td>
+          <td align="char" char=".">
+           110
+          </td>
+          <td align="left">
+           FLIVAAIVFI
+          </td>
+          <td align="char" char=".">
+           13.43
+          </td>
+          <td align="char" char=".">
+           0.13
+          </td>
+          <td align="left">
+           0.6283 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*40:01
+          </td>
+          <td align="char" char=".">
+           40
+          </td>
+          <td align="char" char=".">
+           49
+          </td>
+          <td align="left">
+           YEGNSPFHPL
+          </td>
+          <td align="char" char=".">
+           18.20
+          </td>
+          <td align="char" char=".">
+           0.06
+          </td>
+          <td align="left">
+           0.6193 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           76
+          </td>
+          <td align="char" char=".">
+           85
+          </td>
+          <td align="left">
+           QLRARSVSPK
+          </td>
+          <td align="char" char=".">
+           28.96
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           1.4738 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           56
+          </td>
+          <td align="char" char=".">
+           65
+          </td>
+          <td align="left">
+           LTCFSTQFAF
+          </td>
+          <td align="char" char=".">
+           29.06
+          </td>
+          <td align="char" char=".">
+           0.18
+          </td>
+          <td align="left">
+           1.1543 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           23
+          </td>
+          <td align="char" char=".">
+           32
+          </td>
+          <td align="left">
+           CVRGTTVLLK
+          </td>
+          <td align="char" char=".">
+           36.79
+          </td>
+          <td align="char" char=".">
+           0.15
+          </td>
+          <td align="left">
+           0.7426 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*07:02
+          </td>
+          <td align="char" char=".">
+           47
+          </td>
+          <td align="char" char=".">
+           56
+          </td>
+          <td align="left">
+           HPLADNKFAL
+          </td>
+          <td align="char" char=".">
+           39.32
+          </td>
+          <td align="char" char=".">
+           0.16
+          </td>
+          <td align="left">
+           0.6385 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           110
+          </td>
+          <td align="char" char=".">
+           119
+          </td>
+          <td align="left">
+           ITLCFTLKRK
+          </td>
+          <td align="char" char=".">
+           39.65
+          </td>
+          <td align="char" char=".">
+           0.15
+          </td>
+          <td align="left">
+           2.5150 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           orf8
+          </td>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           7
+          </td>
+          <td align="char" char=".">
+           16
+          </td>
+          <td align="left">
+           LGIITTVAAF
+          </td>
+          <td align="char" char=".">
+           6.51
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           0.7595 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           <p>
+            Variant orf8 (S24L)
+           </p>
+           <p>
+            Variant orf8 (V62L)
+           </p>
+           <p>
+            Variant orf8 (L84S)
+           </p>
+          </td>
+          <td align="left">
+           HLA-B*40:01
+          </td>
+          <td align="char" char=".">
+           109
+          </td>
+          <td align="char" char=".">
+           118
+          </td>
+          <td align="left">
+           LEYHDVRVVL
+          </td>
+          <td align="char" char=".">
+           41.00
+          </td>
+          <td align="char" char=".">
+           0.12
+          </td>
+          <td align="left">
+           0.9885 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="15">
+           <p>
+            M protein
+           </p>
+           <p>
+            Variant M (T175M)
+           </p>
+          </td>
+          <td align="left">
+           HLA-B*08:01
+          </td>
+          <td align="char" char=".">
+           103
+          </td>
+          <td align="char" char=".">
+           112
+          </td>
+          <td align="left">
+           FARTRSMWSF
+          </td>
+          <td align="char" char=".">
+           7.87
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           0.9202 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*27:05
+          </td>
+          <td align="char" char=".">
+           42
+          </td>
+          <td align="char" char=".">
+           51
+          </td>
+          <td align="left">
+           RNRFLYIIKL
+          </td>
+          <td align="char" char=".">
+           8.00
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           0.7016 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           51
+          </td>
+          <td align="char" char=".">
+           60
+          </td>
+          <td align="left">
+           LIFLWLLWPV
+          </td>
+          <td align="char" char=".">
+           10.14
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           0.5633 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           26
+          </td>
+          <td align="char" char=".">
+           35
+          </td>
+          <td align="left">
+           FLFLTWICLL
+          </td>
+          <td align="char" char=".">
+           10.42
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           1.1459 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           56
+          </td>
+          <td align="char" char=".">
+           65
+          </td>
+          <td align="left">
+           LLWPVTLACF
+          </td>
+          <td align="char" char=".">
+           11.12
+          </td>
+          <td align="char" char=".">
+           0.05
+          </td>
+          <td align="left">
+           0.9864 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*27:05
+          </td>
+          <td align="char" char=".">
+           71
+          </td>
+          <td align="char" char=".">
+           80
+          </td>
+          <td align="left">
+           YRINWITGGI
+          </td>
+          <td align="char" char=".">
+           11.15
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           1.3250 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           17
+          </td>
+          <td align="char" char=".">
+           26
+          </td>
+          <td align="left">
+           LEQWNLVIGF
+          </td>
+          <td align="char" char=".">
+           14.47
+          </td>
+          <td align="char" char=".">
+           0.07
+          </td>
+          <td align="left">
+           1.0564 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           53
+          </td>
+          <td align="char" char=".">
+           62
+          </td>
+          <td align="left">
+           FLWLLWPVTL
+          </td>
+          <td align="char" char=".">
+           16.02
+          </td>
+          <td align="char" char=".">
+           0.15
+          </td>
+          <td align="left">
+           0.9162 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           88
+          </td>
+          <td align="char" char=".">
+           97
+          </td>
+          <td align="left">
+           VGLMWLSYFI
+          </td>
+          <td align="char" char=".">
+           17.08
+          </td>
+          <td align="char" char=".">
+           0.18
+          </td>
+          <td align="left">
+           0.6741 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*40:01
+          </td>
+          <td align="char" char=".">
+           136
+          </td>
+          <td align="char" char=".">
+           145
+          </td>
+          <td align="left">
+           SELVIGAVIL
+          </td>
+          <td align="char" char=".">
+           17.83
+          </td>
+          <td align="char" char=".">
+           0.06
+          </td>
+          <td align="left">
+           0.6521 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           61
+          </td>
+          <td align="char" char=".">
+           70
+          </td>
+          <td align="left">
+           TLACFVLAAV
+          </td>
+          <td align="char" char=".">
+           20.28
+          </td>
+          <td align="char" char=".">
+           0.22
+          </td>
+          <td align="left">
+           1.2318 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           171
+          </td>
+          <td align="char" char=".">
+           180
+          </td>
+          <td align="left">
+           ATSRTLSYYK
+          </td>
+          <td align="char" char=".">
+           21.49
+          </td>
+          <td align="char" char=".">
+           0.08
+          </td>
+          <td align="left">
+           0.4317 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*27:05
+          </td>
+          <td align="char" char=".">
+           100
+          </td>
+          <td align="char" char=".">
+           109
+          </td>
+          <td align="left">
+           FRLFARTRSM
+          </td>
+          <td align="char" char=".">
+           31.60
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           0.4609 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           169
+          </td>
+          <td align="char" char=".">
+           178
+          </td>
+          <td align="left">
+           TVATSRTLSY
+          </td>
+          <td align="char" char=".">
+           40.92
+          </td>
+          <td align="char" char=".">
+           0.23
+          </td>
+          <td align="left">
+           0.8259 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*58:01
+          </td>
+          <td align="char" char=".">
+           22
+          </td>
+          <td align="char" char=".">
+           31
+          </td>
+          <td align="left">
+           LVIGFLFLTW
+          </td>
+          <td align="char" char=".">
+           46.78
+          </td>
+          <td align="char" char=".">
+           0.22
+          </td>
+          <td align="left">
+           1.3639 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="2">
+           Variant M (T175M)
+          </td>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           89
+          </td>
+          <td align="char" char=".">
+           98
+          </td>
+          <td align="left">
+           GLMWLSYFIA
+          </td>
+          <td align="char" char=".">
+           32.32
+          </td>
+          <td align="char" char=".">
+           0.29
+          </td>
+          <td align="left">
+           0.2752 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           45
+          </td>
+          <td align="char" char=".">
+           54
+          </td>
+          <td align="left">
+           FLYIIKLIFL
+          </td>
+          <td align="char" char=".">
+           36.01
+          </td>
+          <td align="char" char=".">
+           0.32
+          </td>
+          <td align="left">
+           0.5871 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="8">
+           Diagnostic epitopes
+          </td>
+          <td align="left" rowspan="7">
+           <p>
+            N protein
+           </p>
+           <p>
+            Variant N (P13L)
+           </p>
+           <p>
+            Variant N (S194L
+           </p>
+           <p>
+            Variant N (S197L)
+           </p>
+           <p>
+            R203K/G204R
+           </p>
+          </td>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           305
+          </td>
+          <td align="char" char=".">
+           314
+          </td>
+          <td align="left">
+           AQFAPSASAF
+          </td>
+          <td align="char" char=".">
+           3.58
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           0.5986 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*03:01
+          </td>
+          <td align="char" char=".">
+           361
+          </td>
+          <td align="char" char=".">
+           370
+          </td>
+          <td align="left">
+           KTFPPTEPKK
+          </td>
+          <td align="char" char=".">
+           11.43
+          </td>
+          <td align="char" char=".">
+           0.02
+          </td>
+          <td align="left">
+           0.7657 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*40:01
+          </td>
+          <td align="char" char=".">
+           322
+          </td>
+          <td align="char" char=".">
+           331
+          </td>
+          <td align="left">
+           MEVTPSGTWL
+          </td>
+          <td align="char" char=".">
+           28.62
+          </td>
+          <td align="char" char=".">
+           0.09
+          </td>
+          <td align="left">
+           0.6342 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*01:01
+          </td>
+          <td align="char" char=".">
+           78
+          </td>
+          <td align="char" char=".">
+           87
+          </td>
+          <td align="left">
+           SSPDDQIGYY
+          </td>
+          <td align="char" char=".">
+           33.46
+          </td>
+          <td align="char" char=".">
+           0.1
+          </td>
+          <td align="left">
+           0.4533 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*07:02
+          </td>
+          <td align="char" char=".">
+           66
+          </td>
+          <td align="char" char=".">
+           75
+          </td>
+          <td align="left">
+           FPRGQGVPIN
+          </td>
+          <td align="char" char=".">
+           33.85
+          </td>
+          <td align="char" char=".">
+           0.14
+          </td>
+          <td align="left">
+           0.7135 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-A*02:01
+          </td>
+          <td align="char" char=".">
+           315
+          </td>
+          <td align="char" char=".">
+           324
+          </td>
+          <td align="left">
+           FGMSRIGMEV
+          </td>
+          <td align="char" char=".">
+           36.81
+          </td>
+          <td align="char" char=".">
+           0.4
+          </td>
+          <td align="left">
+           0.8800 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-B*08:01
+          </td>
+          <td align="char" char=".">
+           104
+          </td>
+          <td align="char" char=".">
+           113
+          </td>
+          <td align="left">
+           LSPRWYFYYL
+          </td>
+          <td align="char" char=".">
+           37.51
+          </td>
+          <td align="char" char=".">
+           0.11
+          </td>
+          <td align="left">
+           1.3486 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant N (S194L)
+          </td>
+          <td align="left">
+           HLA-B*15:01
+          </td>
+          <td align="char" char=".">
+           8
+          </td>
+          <td align="char" char=".">
+           17
+          </td>
+          <td align="left">
+           NQRNALRITF
+          </td>
+          <td align="char" char=".">
+           37.01
+          </td>
+          <td align="char" char=".">
+           0.2
+          </td>
+          <td align="left">
+           1.1293 (probable antigen)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Vaccine candidate epitopes can also be used to develop serodiagnostic assays.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="Par17">
+      Similarly, a lot of MHC-II epitopes were predicted as probable antigen (Table      ). Also, nearly all epitopes had higher antigenicity values than those of their own proteins. Among structural proteins, PTNFTISVTTEILPV and VTLAILTAHRLCAYC epitopes predicted in S protein (including variant D614G) and variant L37H had the highest antigenicity value. For non-structural proteins, orf7a had an epitope (IVFITLCFTLKRKTE) that was predicted as a probable antigen with a high antigenicity value (1.8597). Any antigenic epitope was not predicted for nsp-10. Among MHC-II epitopes, although there were a lot of epitopes with low percentile rank, only two epitopes (SKWYIRVGARKSAPL and KWYIRVGARKSAPLI) that had an IC50 value lower than 10, indicating a strong binding among epitope and MHC-II alleles, was detected in orf8 and its variants. In addition, variant M protein (T175M) and orf8 variants (S24L and V62L) had specific epitopes with high antigenicity values as different from original Wuhan M and orf8 proteins.
+      <table-wrap id="Tab8">
+       <label>
+        Table 8
+       </label>
+       <caption>
+        <p>
+         Epitopes specific to selected MHC-II alleles.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left"/>
+          <th align="left">
+           Proteins
+          </th>
+          <th align="left">
+           Allele
+          </th>
+          <th align="left">
+           Start
+          </th>
+          <th align="left">
+           End
+          </th>
+          <th align="left">
+           Peptide
+          </th>
+          <th align="left">
+           IC50
+          </th>
+          <th align="left">
+           Percentile rank
+          </th>
+          <th align="left">
+           Antigenicity
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" rowspan="29">
+           Vaccine candidate epitopes
+          </td>
+          <td align="left">
+           S protein
+          </td>
+          <td align="left">
+           HLA-DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           115
+          </td>
+          <td align="char" char=".">
+           129
+          </td>
+          <td align="left">
+           QSLLIVNNATNVVIK
+          </td>
+          <td align="char" char=".">
+           13.08
+          </td>
+          <td align="left">
+           0.02
+          </td>
+          <td align="left">
+           0.4343 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="6">
+           D614G
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           894
+          </td>
+          <td align="char" char=".">
+           908
+          </td>
+          <td align="left">
+           LQIPFAMQMAYRFNG
+          </td>
+          <td align="char" char=".">
+           20.96
+          </td>
+          <td align="left">
+           0.59
+          </td>
+          <td align="left">
+           0.7205 (probable antigen
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           715
+          </td>
+          <td align="char" char=".">
+           729
+          </td>
+          <td align="left">
+           PTNFTISVTTEILPV
+          </td>
+          <td align="char" char=".">
+           25.32
+          </td>
+          <td align="left">
+           0.63
+          </td>
+          <td align="left">
+           1.1349 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           1091
+          </td>
+          <td align="char" char=".">
+           1105
+          </td>
+          <td align="left">
+           REGVFVSNGTHWFVT
+          </td>
+          <td align="char" char=".">
+           25.75
+          </td>
+          <td align="left">
+           0.2
+          </td>
+          <td align="left">
+           0.4461 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           691
+          </td>
+          <td align="char" char=".">
+           705
+          </td>
+          <td align="left">
+           SIIAYTMSLGAENSV
+          </td>
+          <td align="char" char=".">
+           35.71
+          </td>
+          <td align="left">
+           1.4
+          </td>
+          <td align="left">
+           0.5691 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           199
+          </td>
+          <td align="char" char=".">
+           213
+          </td>
+          <td align="left">
+           GYFKIYSKHTPINLV
+          </td>
+          <td align="char" char=".">
+           40.49
+          </td>
+          <td align="left">
+           1.9
+          </td>
+          <td align="left">
+           0.9278 (Probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           52
+          </td>
+          <td align="char" char=".">
+           66
+          </td>
+          <td align="left">
+           QDLFLPFFSNVTWFH
+          </td>
+          <td align="char" char=".">
+           44.58
+          </td>
+          <td align="left">
+           0.77
+          </td>
+          <td align="left">
+           0.4159 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           Variant E (L37H)
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           29
+          </td>
+          <td align="char" char=".">
+           43
+          </td>
+          <td align="left">
+           VTLAILTAHRLCAYC
+          </td>
+          <td align="char" char=".">
+           33.95
+          </td>
+          <td align="left">
+           1.90
+          </td>
+          <td align="left">
+           1.0545 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           M protein
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           98
+          </td>
+          <td align="char" char=".">
+           112
+          </td>
+          <td align="left">
+           ASFRLFARTRSMWSF
+          </td>
+          <td align="char" char=".">
+           16.26
+          </td>
+          <td align="left">
+           0.29
+          </td>
+          <td align="left">
+           0.7304 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="8">
+           Variant M (T175M)
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           175
+          </td>
+          <td align="char" char=".">
+           189
+          </td>
+          <td align="left">
+           TLSYYKLGASQRVAG
+          </td>
+          <td align="char" char=".">
+           16.67
+          </td>
+          <td align="left">
+           0.30
+          </td>
+          <td align="left">
+           0.4376 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           34
+          </td>
+          <td align="char" char=".">
+           48
+          </td>
+          <td align="left">
+           LLQFAYANRNRFLYI
+          </td>
+          <td align="char" char=".">
+           26.30
+          </td>
+          <td align="left">
+           1.10
+          </td>
+          <td align="left">
+           0.7387 (Probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           174
+          </td>
+          <td align="char" char=".">
+           188
+          </td>
+          <td align="left">
+           RTLSYYKLGASQRVA
+          </td>
+          <td align="char" char=".">
+           31.50
+          </td>
+          <td align="left">
+           1.10
+          </td>
+          <td align="left">
+           0.5644 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           165
+          </td>
+          <td align="char" char=".">
+           179
+          </td>
+          <td align="left">
+           PKEITVATSRTLSYY
+          </td>
+          <td align="char" char=".">
+           37.66
+          </td>
+          <td align="left">
+           1.60
+          </td>
+          <td align="left">
+           0.7003 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           31
+          </td>
+          <td align="char" char=".">
+           45
+          </td>
+          <td align="left">
+           WICLLQFAYANRNRF
+          </td>
+          <td align="char" char=".">
+           44.95
+          </td>
+          <td align="left">
+           3.10
+          </td>
+          <td align="left">
+           0.6994 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB3*02:02
+          </td>
+          <td align="char" char=".">
+           34
+          </td>
+          <td align="char" char=".">
+           48
+          </td>
+          <td align="left">
+           LLQFAYANRNRFLYI
+          </td>
+          <td align="char" char=".">
+           46.63
+          </td>
+          <td align="left">
+           0.75
+          </td>
+          <td align="left">
+           0.7387 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*15:01
+          </td>
+          <td align="char" char=".">
+           32
+          </td>
+          <td align="char" char=".">
+           46
+          </td>
+          <td align="left">
+           ICLLQFAYANRNRFL
+          </td>
+          <td align="char" char=".">
+           47.01
+          </td>
+          <td align="left">
+           0.82
+          </td>
+          <td align="left">
+           0.6221 (Probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           139
+          </td>
+          <td align="char" char=".">
+           153
+          </td>
+          <td align="left">
+           VIGAVILRGHLRIAG
+          </td>
+          <td align="char" char=".">
+           48.64
+          </td>
+          <td align="left">
+           3.40
+          </td>
+          <td align="left">
+           0.4903 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="3">
+           Variant M (T175M)
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           100
+          </td>
+          <td align="char" char=".">
+           114
+          </td>
+          <td align="left">
+           FRLFARTRSMWSFNP
+          </td>
+          <td align="char" char=".">
+           28.34
+          </td>
+          <td align="left">
+           1.20
+          </td>
+          <td align="left">
+           0.8873 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           35
+          </td>
+          <td align="char" char=".">
+           49
+          </td>
+          <td align="left">
+           LQFAYANRNRFLYIL
+          </td>
+          <td align="char" char=".">
+           36.31
+          </td>
+          <td align="left">
+           2.10
+          </td>
+          <td align="left">
+           0.9542 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           138
+          </td>
+          <td align="char" char=".">
+           152
+          </td>
+          <td align="left">
+           LVIGAVILRGHLRIA
+          </td>
+          <td align="char" char=".">
+           48.98
+          </td>
+          <td align="left">
+           3.40
+          </td>
+          <td align="left">
+           0.8769 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="2">
+           orf7a
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           71
+          </td>
+          <td align="char" char=".">
+           85
+          </td>
+          <td align="left">
+           VKHVYQLRARSVSPK
+          </td>
+          <td align="char" char=".">
+           40.51
+          </td>
+          <td align="left">
+           2.6
+          </td>
+          <td align="left">
+           1.0865 (Probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           107
+          </td>
+          <td align="char" char=".">
+           121
+          </td>
+          <td align="left">
+           IVFITLCFTLKRKTE
+          </td>
+          <td align="char" char=".">
+           49.35
+          </td>
+          <td align="left">
+           3.4
+          </td>
+          <td align="left">
+           1.8597 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="7">
+           <p>
+            orf8
+           </p>
+           <p>
+            Variant orf8 (S24L)
+           </p>
+           <p>
+            Variant orf8 (V62L)
+           </p>
+           <p>
+            Variant orf8 (L84S)
+           </p>
+           <p>
+            Variant orf8 (S24L)
+           </p>
+           <p>
+            Variant orf8 (V62L)
+           </p>
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           43
+          </td>
+          <td align="char" char=".">
+           57
+          </td>
+          <td align="left">
+           SKWYIRVGARKSAPL
+          </td>
+          <td align="char" char=".">
+           8.77
+          </td>
+          <td align="left">
+           0.05
+          </td>
+          <td align="left">
+           0.8829 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB3*01:01
+          </td>
+          <td align="char" char=".">
+           28
+          </td>
+          <td align="char" char=".">
+           42
+          </td>
+          <td align="left">
+           HQPYVVDDPCPIHFY
+          </td>
+          <td align="char" char=".">
+           19.07
+          </td>
+          <td align="left">
+           0.06
+          </td>
+          <td align="left">
+           0.5587 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           44
+          </td>
+          <td align="char" char=".">
+           58
+          </td>
+          <td align="left">
+           KWYIRVGARKSAPLI
+          </td>
+          <td align="char" char=".">
+           9.66
+          </td>
+          <td align="left">
+           0.07
+          </td>
+          <td align="left">
+           0.9009 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           45
+          </td>
+          <td align="char" char=".">
+           59
+          </td>
+          <td align="left">
+           WYIRVGARKSAPLIE
+          </td>
+          <td align="char" char=".">
+           15.09
+          </td>
+          <td align="left">
+           0.27
+          </td>
+          <td align="left">
+           1.0427 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB3*01:01
+          </td>
+          <td align="char" char=".">
+           27
+          </td>
+          <td align="char" char=".">
+           41
+          </td>
+          <td align="left">
+           QHQPYVVDDPCPIHF
+          </td>
+          <td align="char" char=".">
+           21.85
+          </td>
+          <td align="left">
+           0.07
+          </td>
+          <td align="left">
+           0.8637 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           39
+          </td>
+          <td align="char" char=".">
+           53
+          </td>
+          <td align="left">
+           IHFYSKWYIRVGARK
+          </td>
+          <td align="char" char=".">
+           23.64
+          </td>
+          <td align="left">
+           0.77
+          </td>
+          <td align="left">
+           1.0268 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           46
+          </td>
+          <td align="char" char=".">
+           60
+          </td>
+          <td align="left">
+           YIRVGARKSAPLIEL
+          </td>
+          <td align="char" char=".">
+           40.62
+          </td>
+          <td align="left">
+           2.60
+          </td>
+          <td align="left">
+           0.9809 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left" rowspan="5">
+           Diagnostic epitopes
+          </td>
+          <td align="left" rowspan="5">
+           <p>
+            N protein
+           </p>
+           <p>
+            Variant N (P13L)
+           </p>
+           <p>
+            Variant N (S194L
+           </p>
+           <p>
+            Variant N (S197L)
+           </p>
+           <p>
+            Variant N (R203K/G204R)
+           </p>
+           <p>
+            Variant N (P13L)
+           </p>
+           <p>
+            Variant N (S197L)
+           </p>
+          </td>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           264
+          </td>
+          <td align="char" char=".">
+           278
+          </td>
+          <td align="left">
+           ATKAYNVTQAFGRRG
+          </td>
+          <td align="char" char=".">
+           29.21
+          </td>
+          <td align="left">
+           1.40
+          </td>
+          <td align="left">
+           0.7146 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           303
+          </td>
+          <td align="char" char=".">
+           317
+          </td>
+          <td align="left">
+           QIAQFAPSASAFFGM
+          </td>
+          <td align="char" char=".">
+           32.18
+          </td>
+          <td align="left">
+           1.10
+          </td>
+          <td align="left">
+           0.4032 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB5*01:01
+          </td>
+          <td align="char" char=".">
+           84
+          </td>
+          <td align="char" char=".">
+           98
+          </td>
+          <td align="left">
+           IGYYRRATRRIRGGD
+          </td>
+          <td align="char" char=".">
+           15.45
+          </td>
+          <td align="left">
+           0.27
+          </td>
+          <td align="left">
+           0.6649 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           328
+          </td>
+          <td align="char" char=".">
+           342
+          </td>
+          <td align="left">
+           GTWLTYTGAIKLDDK
+          </td>
+          <td align="char" char=".">
+           24.62
+          </td>
+          <td align="left">
+           0.58
+          </td>
+          <td align="left">
+           0.9934 (probable antigen)
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           HLA-DRB1*07:01
+          </td>
+          <td align="char" char=".">
+           305
+          </td>
+          <td align="char" char=".">
+           319
+          </td>
+          <td align="left">
+           AQFAPSASAFFGMSR
+          </td>
+          <td align="char" char=".">
+           41.34
+          </td>
+          <td align="left">
+           2
+          </td>
+          <td align="left">
+           0.5266 (probable antigen)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Vaccine candidate epitopes can also be used to develop serodiagnostic assays.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec14">
+     <title>
+      Post-translational modifications
+     </title>
+     <p id="Par18">
+      S protein and its variant (D614G) were predicted to have highly N-glycosylated and phosphorylated sites as well as a few O-glycosylated and acetylated sites. M (including T175M), E (including L37H), orf7a, and nsp10 proteins were predicted to have N-glycosylated and phosphorylated sites while orf7a was predicted to have an acetylation site. Orf8 and its variants were predicted to have N-glycosylated and phosphorylated sites whereas two additional phosphorylation sites, one of which locate in the exposed surface and the other one is buried, were predicted in only variant L84S. In addition, N protein and its four variants were predicted to have N-/O-glycosylated, phosphorylated and acetylated sites. When N protein and its variant were compared, the number of O-glycosylation, acetylation, or phosphorylation sites showed minor alterations. In addition, post-translational modifications within significant epitopes were shown in Table      .
+      <table-wrap id="Tab9">
+       <label>
+        Table 9
+       </label>
+       <caption>
+        <p>
+         Additional analysis performed for significant epitopes.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left">
+           Epitopes
+          </th>
+          <th align="left">
+           N glycosylation region
+          </th>
+          <th align="left">
+           Acetylation region
+          </th>
+          <th align="left">
+           Phosphorylation region
+          </th>
+          <th align="left">
+           Solvent-exposure amino acids
+          </th>
+          <th align="left">
+           Lineages
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left">
+           THTGTGQ
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            <underline>
+             THTGT
+            </underline>
+           </bold>
+           G
+           <underline>
+            Q
+           </underline>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           GGDGKMKD
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           GGDG
+           <bold>
+            K
+           </bold>
+           M
+           <bold>
+            K
+           </bold>
+           D
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           G
+           <underline>
+            GD
+           </underline>
+           G
+           <bold>
+            <underline>
+             KMKD
+            </underline>
+           </bold>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KLNDLCFTNV
+          </td>
+          <td align="left">
+           KLNDLCFTNV
+          </td>
+          <td align="left">
+           <bold>
+            K
+           </bold>
+           LNDLCFTNV
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <underline>
+            K
+           </underline>
+           L
+           <underline>
+            ND
+           </underline>
+           L
+           <underline>
+            C
+           </underline>
+           FTNV
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           ITLCFTLKRK
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           ITLCFTL
+           <bold>
+            K
+           </bold>
+           R
+           <bold>
+            K
+           </bold>
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            <underline>
+             IT
+            </underline>
+           </bold>
+           L
+           <underline>
+            CFTLKRK
+           </underline>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           PTNFTISVTTEILPV
+          </td>
+          <td align="left">
+           PT
+           <bold>
+            N
+           </bold>
+           FTISVTTEILPV
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           PTNFTI
+           <bold>
+            S
+           </bold>
+           VTTEILPV
+          </td>
+          <td align="left">
+           P
+           <underline>
+            TN
+           </underline>
+           F
+           <bold>
+            <underline>
+             T
+            </underline>
+           </bold>
+           I
+           <underline>
+            SVTTEI
+           </underline>
+           LPV
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           IVFITLCFTLKRKTE
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           IVFITLCFTL
+           <bold>
+            K
+           </bold>
+           R
+           <bold>
+            K
+           </bold>
+           TE
+          </td>
+          <td align="left">
+           IVFITLCF
+           <bold>
+            T
+           </bold>
+           LKRKTE
+          </td>
+          <td align="left">
+           <bold>
+            <underline>
+             IVFIT
+            </underline>
+           </bold>
+           L
+           <underline>
+            CFTLKRKTE
+           </underline>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KWPWYIWLGF
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            K
+           </bold>
+           WPWYIWLGF
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            <underline>
+             KWPWYIWLGF
+            </underline>
+           </bold>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FLAFVVFLLV
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            <underline>
+             FLAFVVFLLV
+            </underline>
+           </bold>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           LGIITTVAAF
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           LGI
+           <underline>
+            ITT
+           </underline>
+           V
+           <underline>
+            AAF
+           </underline>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           FARTRSMWSF
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <underline>
+            FAR
+           </underline>
+           T
+           <bold>
+            <underline>
+             RSMW
+            </underline>
+           </bold>
+           S
+           <bold>
+            <underline>
+             F
+            </underline>
+           </bold>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           RNRFLYIIKL
+          </td>
+          <td align="left">
+           RNRFLYIIKL
+          </td>
+          <td align="left">
+           RNRFLYII
+           <bold>
+            K
+           </bold>
+           L
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            <underline>
+             RNRFLYII
+            </underline>
+           </bold>
+           KL
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           SKWYIRVGARKSAPL
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           S
+           <bold>
+            K
+           </bold>
+           WYIRVGAR
+           <bold>
+            K
+           </bold>
+           SAPL
+          </td>
+          <td align="left">
+           SKW
+           <bold>
+            Y
+           </bold>
+           IRVGARK
+           <bold>
+            S
+           </bold>
+           APL
+          </td>
+          <td align="left">
+           <underline>
+            SKW
+           </underline>
+           YI
+           <underline>
+            RVG
+           </underline>
+           A
+           <bold>
+            <underline>
+             RKSAPL
+            </underline>
+           </bold>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+         <tr>
+          <td align="left">
+           KWYIRVGARKSAPLI
+          </td>
+          <td align="left">
+           –
+          </td>
+          <td align="left">
+           <bold>
+            K
+           </bold>
+           WYIRVGAR
+           <bold>
+            K
+           </bold>
+           SAPLI
+          </td>
+          <td align="left">
+           KW
+           <bold>
+            Y
+           </bold>
+           IRVGARK
+           <bold>
+            S
+           </bold>
+           APLI
+          </td>
+          <td align="left">
+           <underline>
+            KW
+           </underline>
+           YI
+           <underline>
+            RVG
+           </underline>
+           A
+           <bold>
+            <underline>
+             RKSAPLI
+            </underline>
+           </bold>
+          </td>
+          <td align="left">
+           All lineages
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         Only underlined amino acid shows the moderate solvent exposure intensity.
+        </p>
+        <p>
+         Both underlined and bold amino acids show the high solvent exposure intensity.
+        </p>
+        <p>
+         Analysed common lineages are A, A.1, A.2, A.3, A.5, B, B.1, B.1.1, B.2, B.3, B.4.
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="Sec15">
+     <title>
+      Docking analysis
+     </title>
+     <p id="Par19">
+      All probable antigenic epitopes that have a low IC50 value and percentile rank could not be docked with their MHC-I or MHC-II alleles because of limitations associated with available MHC-I and MHC-II alleles variations in data bank or server. Accordingly, KWPWYIWLGF, KLNDLCFTNV, FLAFVVFLLV, LIFLWLLWPV, MEVTPSGTWL, FLIVAAIVFI, and LEYHDVRVVL epitopes belonging to S (including variant D614G), E (including variant L37H), M (including variant T175M, N (including variants P13L, S194L, S197L, and R203K/G204R), orf7a and orf8 (including variants S24L, V62L, and L84S), respectively, were docked with receptors of selected MHC-I alleles (Figs.      ,      , and      ).
+     </p>
+     <p id="Par20">
+      During docking analysis conducted by MHC-II alleles, in S protein, core regions of PTNFTISVTTEILPV, SIIAYTMSLGAENSV, and GYFKIYSKHTPINLV epitopes were docked with the receptor of HLA-DRB1*07:01. Also, the core region of another epitope (QDLFLPFFSNVTWFH) in S protein was docked with the receptor of HLA-DRB1*15:01. In M protein, core regions of ASFRLFARTRSMWSF, RTLSYYKLGASQRVA and PKEITVATSRTLSYY epitopes were docked with the receptor of HLA-DRB1*07:01. Also, the core region of an epitope (QIAQFAPSASAFFGM) in N protein was docked with the receptor of HLA-DRB1*07:01. Similarly, the core region of an epitope (VTLAILTAHRLCAYC) in variant L37H was docking to the receptor of HLA-DRB1*1501. These epitopes that were docked with own MHC-II alleles were also available in their variant proteins.
+     </p>
+    </sec>
+    <sec id="Sec16">
+     <title>
+      Solvent-exposure positions in epitopes
+     </title>
+     <p id="Par21">
+      The amino acids exposed to the solvent were detected in all significant epitopes. Among these epitopes, the whole of only two epitopes (FLAFVVFLLV and KWPWYIWLGF) were in the solvent accessible region on protein structure (Table      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec17">
+    <title>
+     Discussion
+    </title>
+    <p id="Par22">
+     Reverse vaccinology plays an important role in the development of recombinant vaccines by allowing in silico analyses of the genome of pathogens. In silico analyses enables identifying the highly antigenic and secreted proteins which are crucial in vaccine development before the beginning of the wet lab studies     . Using this approach, the present study aimed to discover likely antigenic proteins as well as epitope regions that are targeted by both B and T cell arms of the adaptive immune response for the development of a vaccine or serodiagnostic assay as described by Dangi et al.     and Goodswen et al.     .
+    </p>
+    <p id="Par23">
+     All proteins of SARS-CoV-2, except nsp-16 encoded by orf1ab, were predicted as probable antigen. Although, there was no major difference between predicted antigenicity values for probable vaccine candidate proteins, S protein was selected as a better vaccine candidate protein compared to others depending on in silico analyses results. The physico-chemical analysis showed that S protein had a negative GRAVY value indicating that S protein is hydrophilic and has a better interaction with surrounding water molecules     . Also, it had stable and soluble characteristics which are important parameters for biophysical studies on epitope-based vaccine design. Moreover, S protein had a moderate aliphatic index which indicates stability in a wide spectrum of temperature     , fewer than two transmembrane helices facilitating cloning, expression, and purification     , and a big molecular weight and long estimated half-life (more than 10 h). These properties show that S protein can be used as a vaccine candidate antigen. In addition to these physico-chemical properties, other predicted parameters such as the presence of a signal peptide that increase the immune response and the presence of betawrap motifs that are a virulence factor, as well as a non-allergic property also showed that S protein was a better vaccine candidate. In addition, orf7a, orf8 and nsp-10 proteins were predicted to have a signal peptide. This feature is an important parameter which indicates that the protein can be destined towards the secretory pathway     . Moreover, the signal peptide promotes protein secretion, and thus, the signal peptide is used to improve the protein secretion level in recombinant techniques     . For example, a study showed that vaccination with an unconventionally secreted viral nonstructural protein (NS1) protected mouse from murine norovirus     . Also, it has been reported that proteins with the signal peptide should be taken into consideration as vaccine candidates both they have been targeted to the secretory pathway and have high antigenicity and specificity     . Accordingly, these probable secreted and antigenic three proteins (orf7a, orf8, and nsp-10) can also be considered as potential vaccine candidate proteins. As S, orf7a, orf8, and nsp-10 proteins examined with regard to secondary structure, random coils were detected higher than 49%. The presence of this highly predicted random coil shows that these proteins can be preferably recognised by an antibody     . Another critical point for these proteins was the prediction of post-translational modifications. The presence of these modifications indicates that if these proteins are produced by recombinant technology, eukaryotic expression systems such as yeast, insect or mammalian should be preferred instead of bacterial systems     .
+    </p>
+    <p id="Par24">
+     In previous vaccine studies, S and M proteins have been used for the development of DNA or recombinant protein vaccines against SARS-CoV that affected 30 countries in five continents     . Also, S protein has been used to develop a vaccine against MERS CoV which is another zoonotic pathogen that has infected approximately 2500 people in over 25 countries     . According to the results obtained from these studies, S and M proteins were reported to induce a strong immune response. For the vaccine development against SARS-CoV-2, it has been stated that S protein is a promising candidate because it plays role in viral attachment, fusion, and entry     . In addition, a report showing that antibodies against S protein of SARS-CoV inhibit the SARS-CoV-2 S protein-mediated entry into cells encourages the use of this molecular target for vaccination     . Currently, a lot of companies or research groups target the S protein to develop a vaccine against SARS-CoV-2 using various recombinant vaccine technologies. For example, Inovio using S protein with a DNA vaccine technology is in Phase I. Another company, Moderna, is in Phase I/II with an RNA based vaccine targeting S protein     . Consequently, these findings of recent studies and our in silico study support that only S proteins can be a strong vaccine candidate protein in the development of a recombinant vaccine against SARS-CoV-2 causing COVID-19.
+    </p>
+    <p id="Par25">
+     Since N protein does not locate at the surface of SARS-CoV-2, it was thought that N protein may not be a proper vaccine candidate but could be a good antigen for serodiagnosis of COVID-19 because of having a negative GRAVY value and soluble characteristics and not transmembrane helices. There were several studies for the previous coronavirus (SARS-CoV) supporting our predictions. For example, a previous study reported a strong antibody response against recombinant N protein in 10 of 12 SARS patients     . In a different study, a B cell epitope region between 156 and 175 positions of N protein reacted strongly with sera from SARS patients     .
+    </p>
+    <p id="Par26">
+     Among structural proteins, subcellular localisations of S and E proteins were predicted as endoplasmic reticulum using in silico methods in the current study, and this result was found to be compatible with the results of SARS-CoV performed with an in vitro immunofluorescent analysis showing the localisation of S protein in several compartments of host secretory pathway from the endoplasmic reticulum to cell membrane as well as E protein in endoplasmic reticulum     . However, subcellular localisation of M protein was predicted as the host cell membrane and endoplasmic reticulum in the current in silico analysis while it was shown in the Golgi apparatus in the same in vitro analysis     . In fact it was also thought to be compatible with in silico results because endoplasmic reticulum, Golgi, and cell membrane are parts of the same host secretory pathway and all surface proteins may be detected in each part of the pathway.
+    </p>
+    <p id="Par27">
+     In this study, the immunological effects of prevalent variant proteins belonging to E, M, N, S, and orf8 proteins were also analysed. Accordingly, the comparison of reference S protein and its variant (D614G) showed no difference in antigenicity values, epitope regions, and antigenicity values of epitopes. However, detecting D614G variation as prevalent has been associated with selection advantage and random founder effect     . In addition to these, a study reported that the D614G variant was more stable and enhanced its infectious nature     whereas another study reported that there was not enough evidence to express that the variant is more infectious     . For N protein, among five variations (P13L, S194L, S197L, R203K/G204R), P13L and S197L variations were predicted to increase the antigenicity value of N protein and thus, utilise of P13L and S197L variants was thought to be a better antigen for studies conducted in countries harboring SARS-CoV-2 isolates with P13L or S197L variant. A similar result was also detected in E protein and a higher antigenicity value was predicted in variant L37H. Variant orf8 (L84S) had a lower antigenicity value whereas a higher antigenicity value was predicted in variant orf8 (V62L) compared to orf8 of Wuhan isolate. Also, variant M protein (T175M) had a lower antigenicity value. As depending on these results, since a higher antigenicity value is associated with a stronger immune response in the host, selection of the proteins with high antigenicity values in vaccinological or serodiagnostic studies would be useful.
+    </p>
+    <p id="Par28">
+     In the second part of our study, epitope regions specific to B and T cells were predicted in all structural proteins, variants of structural proteins, and non-structural proteins that have a signal peptide, and antigenicity control was performed for all predicted epitopes. Results associated with B cell epitopes showed that there were a lot of highly antigenic epitopes. Antigenicity value was very high for GGDGKMKD, THTGTGQ, and NLDSKV epitopes corresponding to N, nsp-10 encoded by orf1ab and S proteins. Similarly, epitopes that have high antigenicity values were also predicted for MHC-I and II alleles. Among these predicted epitopes, for MHC-I alleles, KLNDLCFTNV (Fig.     ) and ITLCFTLKRK epitopes belonging to S and orf7a proteins had very high antigenicity values whereas for MHC-II alleles, PTNFTISVTTEILPV and IVFITLCFTLKRKTE epitopes belonging to S and orf7a proteins also had significant antigenicity values.
+    </p>
+    <p id="Par29">
+     These findings indicate that a cocktail/mixture composed of these epitopes may induce a neutralising antibody response or can be used in the development of an epitope-based peptide vaccine because of their association with both B and T cells. Also, it was thought that they can be used as antigens that capture IgM and IgG antibodies against SARS-CoV-2 during viral infection in ELISA or Western blotting tests. In previous wet lab studies, the presence of neutralising epitopes has been reported to bind with S protein of SARS-CoV     . For example, in a study conducted in mice, a major neutralisation determinant was reported in receptor-binding domain (RBD) of S protein in SARS-CoV     . Another study reported that the epitope NYNWKR in S protein had a neutralising effect against SARS-CoV     . There are also some new studies using wet lab techniques and in silico approaches associated with SARS-CoV-2. In a study, splenocytes were stimulated with plenty of T cell epitopes belonging to S protein, and nine of them were reported to induce a cellular immune response. Among these epitopes, only one of them (VGGNYNYLYRLFRKS; between 445 and 459 positions) was inside RBD, five of them (YNYKLPDDFTGCVIA; DDFTGCVIAWNSNNL; VVLSFELLHAPATVC; LLHAPATVCGPKKST; KNKCVNFNFNGLTGT) were located nearby RBD whereas the remaining three (SFPQSAPHGVVFLHV; PHGVVFLHVTYVPAQ; FTTAPAICHDGKAHF) were inside S2 segment of S protein     . Interestingly, in our study, an epitope (CYFPLQSYGF; between 488 and 497 positions) with a relatively lower antigenicity value was predicted in RBD of S protein and four epitopes (NLDSKV, KLNDLCFTNV, RQIAPGQTGK, GDEVRQ) were also predicted in a very close region. Docking results supported that the epitope KLNDLCFTNV was targeted by HLA-A*02:01 allele (Fig.     ). These findings indicate that the above-mentioned epitopes may have a promising neutralising effect against SARS-CoV-2. In a previous in silico study, five different epitopes (SYGFQPTNGVGYQPY; SQSIIAYTMSLGAEN; IPTNFTISVTTEILP; AAAYYVGYLQPRTFL; APHGVVFLHVTYVPA) related to both MHC-I and II were predicted in S protein     and only one of them overlapped with a highly antigenic epitope (PTNFTISVTTEILPV) predicted in our study. In another in silico study, 14 epitopes were predicted in S protein for T cells     and six of them were detected to overlap with epitopes predicted in our study. However, none of these overlapped epitopes were among the significant epitopes identified in this study.
+    </p>
+    <p id="Par30">
+     Docking analysis confirming the interaction among predicted epitopes and MHC-I/II alleles allows the prediction of more reliable epitopes that can be used for wet lab studies. In this study, docking analysis could not be performed for each of the all MHC-I or MHC-II epitopes due to the lack of 3D structures of some MHC-I/II alleles in protein database or server. This situation limits the docking analysis part of this study as preventing the analysis of all epitopes. Therefore, it was thought that increasing the number of 3D models of MHC-I or II alleles in PDB or servers would be useful for the analysis of a more robust epitope.
+    </p>
+    <p id="Par31">
+     Development of computer-based methodologies enhances the credibility of in silico approaches in biological studies. Based on that, the methods of predicting vaccine candidate proteins are always favored even though they are not expressed in vitro. In silico methods also have the advantage of being able to make a fast and cost-efficient analysis. The other advantage of these methods is that they make predictions depending on the structure of vaccine candidate proteins and constitute a major way for vaccine design. Thus, in silico methods can be used at a very early stage in the vaccine development process and this makes in silico methods essential as a pre-analysis approach before starting wet lab studies. Although the multiple numbers of proteins can be analysed by in silico methods for vaccine design studies, there are some limitations that should be taken into consideration. The lack of information in databases, inaccuracies of software algorithms, and usage of inappropriate tools for data are known limitations in terms of in silico studies. Therefore, it is important to select the right tools for analysis and utilize different parameters to find the correct results for in silico-based studies.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec18">
+    <title>
+     Conclusion
+    </title>
+    <p id="Par32">
+     As spike protein has important roles such as viral attachment, fusion and, entry, it is a very significant strategic target for vaccine studies and a lot of companies and research groups use the protein for vaccine development. Our reverse vaccinology in silico approach also supports that S protein is the best vaccine candidate protein. In addition, probable secreted orf7a, orf8, and nsp-10 proteins with signal peptide can be promising vaccine candidates. Epitopes predicted in S protein and other proteins having a signal peptide may have a potential neutralising effect and can be used to develop an epitope-based peptide vaccine or a serodiagnostic assay. In the future, in addition to the currently studied S protein, antigenicity of orf7a, orf8, and nsp-10 proteins as well as significant epitopes selected in this study should be checked by wet lab studies and antigenic proteins/epitopes should be studied as vaccine or serodiagnostic candidates.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="Sec19">
+    <title>
+     Methods
+    </title>
+    <sec id="Sec20">
+     <title>
+      SARS-CoV-2 Wuhan isolate and variant proteins
+     </title>
+     <p id="Par33">
+      NCBI (National Center for Biotechnology Information) (
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov">
+       https://www.ncbi.nlm.nih.gov
+      </ext-link>
+      ) was used to obtain the full genome of SARS-CoV-2 isolate (reference isolate Wuhan-Hu-1; Accession number: NC_045512.2 and sequenced in December 2019) and alignment and editing of the full genome was performed by MEGA 7 and BioEdit (Version 7.2)      . In addition to this reference genome, according to Nextstrain results showing the prevalent variations, variant D614G corresponding for S protein, variant T175M corresponding for M protein, variants P13L, S194L, S197L, R203K, and G204R corresponding for N protein, and variants S24L, V62L, and L84S corresponding for orf8 were selected as additional proteins to investigate the immunological effects associated with antigenicity, signal peptide, BetaWrap motifs, PTMs and, epitope regions. Variants were selected for only structural proteins and the proteins that were predicted to have a signal peptide.
+     </p>
+    </sec>
+    <sec id="Sec21">
+     <title>
+      Prediction of physico-chemical parameters and secondary structures
+     </title>
+     <p id="Par34">
+      The reference genome proteins were investigated using Expasy ProtParam online server (
+      <ext-link ext-link-type="uri" ns0:href="https://web.expasy.org/protparam/">
+       https://web.expasy.org/protparam/
+      </ext-link>
+      ) for the prediction of physico-chemical properties      . The prediction of solubility was performed by SolPro (
+      <ext-link ext-link-type="uri" ns0:href="http://scratch.proteomics.ics.uci.edu/">
+       http://scratch.proteomics.ics.uci.edu/
+      </ext-link>
+      )      . Also, prediction of secondary structures was performed by GOR IV online server (
+      <ext-link ext-link-type="uri" ns0:href="https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_gor4.html">
+       https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_gor4.html
+      </ext-link>
+      )      .
+     </p>
+    </sec>
+    <sec id="Sec22">
+     <title>
+      Prediction of antigenicity
+     </title>
+     <p id="Par35">
+      The reference genome proteins as well as variant proteins and predicted epitopes were analysed by Vaxijen v2.0 online server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html">
+       http://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html
+      </ext-link>
+      ) for the prediction of antigenicity using a threshold value of 0.4      .
+     </p>
+    </sec>
+    <sec id="Sec23">
+     <title>
+      Prediction of subcellular localisation and number of transmembrane helices
+     </title>
+     <p id="Par36">
+      The subcellular localisation of virus proteins in infected host cells were predicted by Virus-mPLoc (
+      <ext-link ext-link-type="uri" ns0:href="http://www.csbio.sjtu.edu.cn/bioinf/virus-multi/">
+       http://www.csbio.sjtu.edu.cn/bioinf/virus-multi/
+      </ext-link>
+      )      . For the prediction of the number of transmembrane helices, TMHMM Server v. 2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/TMHMM/">
+       http://www.cbs.dtu.dk/services/TMHMM/
+      </ext-link>
+      ) was used      .
+     </p>
+    </sec>
+    <sec id="Sec24">
+     <title>
+      Prediction of signal peptide
+     </title>
+     <p id="Par37">
+      The reference genome proteins and variant proteins were analysed by Signal-BLAST (
+      <ext-link ext-link-type="uri" ns0:href="http://sigpep.services.came.sbg.ac.at/signalblast.html">
+       http://sigpep.services.came.sbg.ac.at/signalblast.html
+      </ext-link>
+      )      .
+     </p>
+    </sec>
+    <sec id="Sec25">
+     <title>
+      Prediction of allergenicity
+     </title>
+     <p id="Par38">
+      The allergenicity of the reference genome structural proteins, variant proteins, and the proteins that have a signal peptide was predicted by Algpred online server (
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/algpred/">
+       http://crdd.osdd.net/raghava/algpred/
+      </ext-link>
+      ) using a prediction approach of MEME/MAST motif and IgE epitopes      .
+     </p>
+    </sec>
+    <sec id="Sec26">
+     <title>
+      Prediction of BetaWrap motifs
+     </title>
+     <p id="Par39">
+      The prediction of BetaWrap motifs of the reference genome structural proteins, variant proteins, and the proteins that have a signal peptide was carried out by BetaWrap online server (
+      <ext-link ext-link-type="uri" ns0:href="http://cb.csail.mit.edu/cb/betawrap/betawrap.html">
+       http://cb.csail.mit.edu/cb/betawrap/betawrap.html
+      </ext-link>
+      )      .
+     </p>
+    </sec>
+    <sec id="Sec27">
+     <title>
+      Prediction of similarity with host proteome
+     </title>
+     <p id="Par40">
+      The reference genome structural proteins, variant proteins, and the proteins that have a signal peptide were examined by BlastP (
+      <ext-link ext-link-type="uri" ns0:href="https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins">
+       https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins
+      </ext-link>
+      ) to predict the similarity with the host proteome. In analysis,
+      <italic>
+       Homo sapiens
+      </italic>
+      was selected as a host organism.
+     </p>
+    </sec>
+    <sec id="Sec28">
+     <title>
+      Prediction of post-translational modifications
+     </title>
+     <p id="Par41">
+      The prediction of post-translational modifications of the reference genome structural proteins, variant proteins, and the proteins that have a signal peptide were carried out using NetNGlyc 1.0 server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetNGlyc/">
+       http://www.cbs.dtu.dk/services/NetNGlyc/
+      </ext-link>
+      )      , NetOGlyc 4.0 server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetOGlyc/">
+       http://www.cbs.dtu.dk/services/NetOGlyc/
+      </ext-link>
+      )      , NetPhos 3.1 server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetPhos/">
+       http://www.cbs.dtu.dk/services/NetPhos/
+      </ext-link>
+      )      and, GPS-MSP and GPS-PAIL running under CSS-Palm Online Service (
+      <ext-link ext-link-type="uri" ns0:href="http://csspalm.biocuckoo.org/online.php">
+       http://csspalm.biocuckoo.org/online.php
+      </ext-link>
+      )      . In addition, NetSurfP 2.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetSurfP/">
+       http://www.cbs.dtu.dk/services/NetSurfP/
+      </ext-link>
+      ) was used for the prediction of surface accessibility of post-translational modification sites in proteins      .
+     </p>
+    </sec>
+    <sec id="Sec29">
+     <title>
+      Prediction of B cell epitopes
+     </title>
+     <p id="Par42">
+      Linear B cell epitopes of the reference genome structural proteins, variant proteins, and the proteins that have a signal peptide were predicted by Bcepred (
+      <ext-link ext-link-type="uri" ns0:href="http://crdd.osdd.net/raghava/bcepred/">
+       http://crdd.osdd.net/raghava/bcepred/
+      </ext-link>
+      )      and Bepipred Linear Epitope Prediction 2.0 running under IEDB (the immune epitope database,
+      <ext-link ext-link-type="uri" ns0:href="https://www.iedb.org/">
+       https://www.iedb.org/
+      </ext-link>
+      )      online servers.
+     </p>
+    </sec>
+    <sec id="Sec30">
+     <title>
+      Prediction of MHC-I and MHC-II epitopes
+     </title>
+     <p id="Par43">
+      The prediction of MHC-I and MHC-II epitopes of the reference genome structural proteins, variant proteins, and the proteins that have a signal peptide were analysed by IEDB (
+      <ext-link ext-link-type="uri" ns0:href="https://www.iedb.org/">
+       https://www.iedb.org/
+      </ext-link>
+      )      . For the prediction of MHC-I epitopes, twelve different MHC-I alleles (A01.01, A02.01, A03.01, A24.02, A26.01, B07.02, B08.01, B27.05, B39.01, B40.01, B58.01 and B15.01) which are HLA super-type representative were utilised in the analysis. For the prediction of MHC-II epitopes, seven different MHC-II alleles (DRB1.03.01, DRB1.07.01, DRB1.15.01, DRB3.01.01, DRB3.02.02, DRB4.01.01 and DRB5.01.01) were used in the analysis.
+     </p>
+    </sec>
+    <sec id="Sec31">
+     <title>
+      Docking analysis with MHC-I and II alleles
+     </title>
+     <p id="Par44">
+      For docking analyses conducted with MHC-I alleles, receptor alleles that were specific to each epitope were retrieved from Protein Data Bank (PDB;
+      <ext-link ext-link-type="uri" ns0:href="http://www.rcsb.org/pdb/">
+       http://www.rcsb.org/pdb/
+      </ext-link>
+      ). In selection of MHC-I receptor models, the presence of free (undocked) 3D protein structures were considered. Models of epitopes that were selected based on low IC50 value and being probable antigen were predicted by I-TASSER Server (
+      <ext-link ext-link-type="uri" ns0:href="http://zhanglab.ccmb.med.umich.edu/I-TASSER">
+       http://zhanglab.ccmb.med.umich.edu/I-TASSER
+      </ext-link>
+      )      . In addition, epitopes that have the highest antigenicity value were also selected for docking. Each modelled epitope ligand was docked to its specific MHC-I allele receptor by ClusPro Server (
+      <ext-link ext-link-type="uri" ns0:href="https://cluspro.bu.edu/home.php">
+       https://cluspro.bu.edu/home.php
+      </ext-link>
+      )      and visualised on UCSF Chimera 1.14 tool      . For docking analyses conducted with MHC-II alleles, each epitope that was selected based on low IC50 value and being probable antigen was docked to its specific MHC-II allele by selecting specific alleles from the EpiDock Server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.ddg-pharmfac.net/epidock/EpiDockPage.html">
+       http://www.ddg-pharmfac.net/epidock/EpiDockPage.html
+      </ext-link>
+      )      .
+     </p>
+    </sec>
+    <sec id="Sec32">
+     <title>
+      Prediction of solvent-exposure positions in epitopes
+     </title>
+     <p id="Par45">
+      Each protein was aligned with its variants by Clustal Omega (
+      <ext-link ext-link-type="uri" ns0:href="https://www.ebi.ac.uk/Tools/msa/clustalo/">
+       https://www.ebi.ac.uk/Tools/msa/clustalo/
+      </ext-link>
+      )      . Then, a 3D structure pdb file for each protein was downloaded from the Protein Data Bank (PDB;
+      <ext-link ext-link-type="uri" ns0:href="http://www.rcsb.org/pdb/">
+       http://www.rcsb.org/pdb/
+      </ext-link>
+      ) or constructed by modelling using Swiss-Model (
+      <ext-link ext-link-type="uri" ns0:href="https://swissmodel.expasy.org">
+       https://swissmodel.expasy.org
+      </ext-link>
+      ). As an input for each protein, an alignment file and a 3D protein model file were uploaded and run on ESPript 3.0 (
+      <ext-link ext-link-type="uri" ns0:href="http://espript.ibcp.fr/ESPript/ESPript/">
+       http://espript.ibcp.fr/ESPript/ESPript/
+      </ext-link>
+      )      to predict amino acid solvent-exposure (accessibility) properties for epitopes.
+     </p>
+    </sec>
+    <sec id="Sec33">
+     <title>
+      Comparison of significant epitopes among major lineages
+     </title>
+     <p id="Par46">
+      For representation of each of 11 major lineage (including A, A.1, A.2, A.3, A.5, B, B.1, B.1.1, B.2 B.3, B.4) given in a study      , 11 SARS-CoV-2 genome sequences were retrieved from GISAID database (
+      <ext-link ext-link-type="uri" ns0:href="https://www.gisaid.org">
+       https://www.gisaid.org
+      </ext-link>
+      ) and checked for lineage analysis using Pangolin (
+      <ext-link ext-link-type="uri" ns0:href="https://pangolin.cog-uk.io">
+       https://pangolin.cog-uk.io
+      </ext-link>
+      ). Then, protein coding regions for S, M, N, E, orf7a, orf8, and nsp-10 were translated and compared to find epitope differences among 11 SARS-CoV-2 sequences representing major lineages. Accession numbers for major lineages are MT049951, EPI_ISL_420879, LC528233, EPI_ISL_416538, EPI_ISL_530117, MT020781, EPI_ISL_420910, EPI_ISL_418263, MT039890, EPI_ISL_529598, NC_045512.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Structural and Epitope Analysis (T- and B-Cell Epitopes) of Hepatitis C Virus (HCV) Glycoproteins: An
+ </title>
+ <abstract>
+  <AbstractText Label="Background" NlmCategory="UNASSIGNED">
+   Chronic infection with Hepatitis C Virus (HCV) poses a major risk for liver disease like cirrhosis, liver failure and hepatocellular carcinoma. In terms of percentage, the prevalence of HCV in India was found to be low to moderate (1-1.5%), but in terms of sheer numbers, India has a significant number of global HCV patients. Presently, HCV can be treated with direct acting-antibody drugs but there is no prophylactic or therapeutic vaccine available against it. In HCV infection, T- and B-cell immunity is important for clearing the virus. In the present study immunoinformatics was used to identify potent vaccine target for HCV vaccine development.
+  </AbstractText>
+  <AbstractText Label="Methods" NlmCategory="UNASSIGNED">
+   Sequence of HCV was retrieved from NCBI and their structural analysis was done by using Protpram, PSIPRED, iTASSER and PDBsum servers. T-cell and B-cell epitopes were predicted by Immune Epitope Database and ACBPRED servers.
+  </AbstractText>
+  <AbstractText Label="Results" NlmCategory="UNASSIGNED">
+   On epitope prediction, 25 and 55 potent MHC-I epitopes and 7 and 13 potent B-cell epitopes were predicted for E1 and E2 protein respectively. Their antigenicity score was also calculated. The most potent MHC-I epitopes were MMMNWSPAV and MAWDMMMNW for HLA-A*02:01 and HLA-B*53:01 and most potent B-cell epitope was TGHRMAWDMMMNWSPA for E1 protein. For E2, four MHC-I epitopes having the lowest binding energy and most potent B-cell epitope was DRPYCWHYAPRPCDTI.
+  </AbstractText>
+  <AbstractText Label="Conclusion" NlmCategory="UNASSIGNED">
+   In the present study, most potent epitopes for HCV was determined on the basis of their antigenicity along with 3D modeling and docking. Identified B- and T-cell epitopes can be used for the development of potent vaccine against most prevalent HCV type in India to limit its infection.
+  </AbstractText>
+ </abstract>
+</article>

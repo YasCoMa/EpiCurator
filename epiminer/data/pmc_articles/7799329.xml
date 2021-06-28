@@ -1,0 +1,3543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Design of an epitope-based peptide vaccine against the SARS-CoV-2: a vaccine-informatics approach
+ </title>
+ <abstract>
+  <p>
+   The recurrent and recent global outbreak of the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has turned into a global concern which has infected more than 42 million people all over the globe, and this number is increasing in hours. Unfortunately, no vaccine or specific treatment is available, which makes it more deadly. A vaccine-informatics approach has shown significant breakthrough in peptide-based epitope mapping and opens the new horizon in vaccine development. In this study, we have identified a total of 15 antigenic peptides [including thymus cells (T-cells) and bone marrow or bursa-derived cells] in the surface glycoprotein (SG) of SARS-CoV-2 which is nontoxic and nonallergenic in nature, nonallergenic, highly antigenic and non-mutated in other SARS-CoV-2 virus strains. The population coverage analysis has found that cluster of differentiation 4 (CD4   ) T-cell peptides showed higher cumulative population coverage over cluster of differentiation 8 (CD8   ) peptides in the 16 different geographical regions of the world. We identified 12 peptides ((LTDEMIAQY, WTAGAAAYY, WMESEFRVY, IRASANLAA, FGAISSVLN, VKQLSSNFG, FAMQMAYRF, FGAGAALQI, YGFQPTNGVGYQ, LPDPSKPSKR, QTQTNSPRRARS and VITPGTNTSN) that are
+   <inline-formula>
+    <tex-math id="M1">
+     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$80\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\hbox{--} 90\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+    </tex-math>
+   </inline-formula>
+   identical with experimentally determined epitopes of SARS-CoV, and this will likely be beneficial for a quick progression of the vaccine design. Moreover, docking analysis suggested that the identified peptides are tightly bound in the groove of human leukocyte antigen molecules which can induce the T-cell response. Overall, this study allows us to determine potent peptide antigen targets in the SG on intuitive grounds, which opens up a new horizon in the coronavirus disease (COVID-19) research. However, this study needs experimental validation by
+   <italic>
+    in vitro
+   </italic>
+   and
+   <italic>
+    in vivo
+   </italic>
+   .
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Introduction
+    </title>
+    <p>
+     History is witness to the fact that whenever a major disease comes, it brings tremendous destruction with itself, and these destructions are physical and economical. Previously, cholera, smallpox, bubonic plague and influenza are some of the most brutal killers in human history and killed millions of people all over the world. Nowadays, the world is scared of the coronavirus disease 2019 (COVID-19), and its outbreak continues to spread from China to all over the world, and we do not yet know when it will stop. It is a contagious disease caused by a SARS family virus named ‘severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)’, which has not been previously identified in humans. The initial symptoms of COVID-19 are dry cough, throat infection, fever, breath shortness, loss of taste or smell, rashes in skin, conjunctivitis, tiredness, muscles pain and, diarrhea; most of the individuals (about 80%) recover without any special treatment, but older people and a person with preexisting medical conditions or comorbidities (cardiovascular disease, diabetes, lungs disease and cancer) are more likely to develop a serious illness. The incubation period for the infection with SARS-CoV-2 ranges from
+     <inline-formula>
+      <tex-math id="M2">
+       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$2\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{to}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 14$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+      </tex-math>
+     </inline-formula>
+     days after its exposure [     ]. The transmissibility of the virus is shown by its reproductive number (R0), and it varies from area to area. The World Health Organization (WHO) has estimated R0 between 1.4 and 2.5, but some other studies have estimated it as 2.24–3.58 for COVID-19 [     ,     ].
+    </p>
+    <p>
+     In just 9 months, the COVID-19 that originally emerged from the Wuhan province of China is posing major public health and governance challenges. The cases have now spread in 213 countries and territories around the globe. Till 24 October 2020, more than 42.5 million infected individuals, with over 1 134 940 deaths around the globe, have been reported to WHO (WHO COVID-19 Dashboard), and these numbers are rapidly increasing in hours. At present, unfortunately, no vaccine or specific treatment is available. However, the WHO listed (as per 19 October 2020) more than 200 vaccines in development at various stages (preclinical evaluation: 154, clinical evaluation: 44). The vaccine candidates which are listed in the clinical evaluation stage seven have reached phase III trial, including Ad5-nCoV (CanSino Biologics, China), AZD1222 (The University of Oxford; AstraZeneca; IQVIA; Serum Institute of India), CoronaVac (Sinovac), JNJ-78436735 or Ad26.COV2-S (Johnson &amp; Johnson), mRNA-1273 (Moderna) and unknown vaccine [(no name announced by the Wuhan Institute of Biological Products; China, National Pharmaceutical Group (Sinopharm) and NVX-CoV2373 (Novavax)]. Further, the University of Melbourne and Murdoch Children’s Research Institute, Radboud University Medical Center and the Faustman Lab at the Massachusetts General Hospital’s BCG live-attenuated vaccine are also in the phase II/III combined phase. The AstraZeneca/University of Oxford vaccine candidate (AZD1222) looks the most promising vaccine candidate, which is in the phase II/III combined phase (WHO: Draft landscape of COVID-19 candidate vaccines).
+    </p>
+    <p>
+     Moreover, there are no chemotherapeutic agents available to curb this menace; however, few agents are being used, including natural compounds [     ], western medicines [     ,     ] and traditional Chinese medicines (TCN) [     ,     ], which may have potential efficacy against the SARS-CoV-2. Moreover, other drugs like interferon-α (IFN-α), lopinavir/ritonavir, chloroquine phosphate, ribavirin, favipiravir, disulfiram, arbidol and hydroxychloroquine are recommended as the tentative treatments for COVID-19 [     ,     ]. Currently, there is no specific treatment/medicine or vaccine to cure COVID-19, so there is an urgent need to develop new vaccines or drugs against this deadly disease. In this way, the integration of computational techniques provides a novel approach to integrating the vaccine-informatics approach for the development of vaccines. These methods had earlier been used in the development of vaccines against several diseases, including dengue [     ], malaria [     ], influenza [     ], multiple sclerosis [     ] and tumor [     ]. However, this approach generally works through the identification of major histocompatibility complex (MHC)-1 and II molecules and thymus cells (T-cell) epitopes (CD8     and CD4     ) [     ], which particularize the selection of the potential vaccine agents related to the transporter of antigen presentation (TAP) molecules [     ,     ].
+    </p>
+    <p>
+     The beginning of 2020 has seen the emergence of the deadly COVID-19 pandemic, and currently, we are drowning with an enormous amount of articles, with their probable epitope-based peptide vaccine for COVID-19 in which the bone marrow or bursa-derived cells (B-cells) and T-cell epitopes have been analyzed, which have anticipated the possibility of antigenic epitopes which can be used to design a novel vaccine candidate against the SARS-CoV-2 [     ]. In the current study, we have also predicted epitope-based vaccine candidates against the SARS-CoV-2 using the systematic vaccine-informatics approach. We considered surface glycoprotein (SG) of SARS-CoV-2 due to its specific functions; SARS-CoV-2 uses surface spike protein to mediate entry into the host cells. To fulfill its purpose, the SARS-CoV-2 spike binds to the receptor ‘hACE2’ through its receptor-binding domain (RBD) and is proteolytically triggered by human proteases [     ,     ]. Notably, we not only prognosticate the most potential vaccine candidate but have also cross-checked the resemblance, congruity and the compatibility of these selected epitopes with humans to circumvent any possible risk of autoimmunity. Additionally, we had checked the resemblance of our epitopes with those which are already experimentally verified epitopes of different organisms, including SARS-CoV, which not only makes our study more precise and noteworthy but also expands our views for the vaccine-informatics approach in planning for the next global pandemic. Our work can save the time needed to screen a large number of possible epitopes compared with the experimental techniques and also guide the experimental work with high confidence of finding the desired results in vaccine development.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Materials and methods
+    </title>
+    <sec id="sec3">
+     <title>
+      Sequence retrieval and analysis
+     </title>
+     <p>
+      The SG sequence (ID: QHO62112.1) was obtained from the NCBI gene bank database (
+      <ext-link ext-link-type="uri" ns0:href="https://www.ncbi.nlm.nih.gov/gene/">
+       https://www.ncbi.nlm.nih.gov/gene/
+      </ext-link>
+      ) in the FASTA format. Additionally, we checked the sequence similarity of peptide sequences with other SG proteins of other SARS-CoV-19 isolates from different geographical regions using the Clustal Omega tool [      ] to analyze the variation in epitopes sequences, which can determine whether the epitopes are conserved or have altered peptide ligands.
+     </p>
+    </sec>
+    <sec id="sec4">
+     <title>
+      T-cell peptides (epitopes) prediction
+     </title>
+     <p>
+      The NETCTL_1.2 server [      ] was used to identify the CD8      T-cell peptides at a set threshold value of 0.95 to sustain the sensitivity and specificity of 0.90 and 0.95, respectively. We used all the expanded 12 MHC class-I supertypes (including
+      <italic>
+       A1
+      </italic>
+      ,
+      <italic>
+       A2
+      </italic>
+      ,
+      <italic>
+       A3
+      </italic>
+      ,
+      <italic>
+       A24
+      </italic>
+      ,
+      <italic>
+       A26
+      </italic>
+      ,
+      <italic>
+       B7
+      </italic>
+      ,
+      <italic>
+       B8
+      </italic>
+      ,
+      <italic>
+       B27
+      </italic>
+      ,
+      <italic>
+       B39
+      </italic>
+      ,
+      <italic>
+       B44
+      </italic>
+      ,
+      <italic>
+       B58
+      </italic>
+      and
+      <italic>
+       B62
+      </italic>
+      ) and incorporated the peptide prediction of MHC class-I binding molecules and proteasomal C-terminal cleavage with TAP transport efficiency. These results were accomplished by the weighted TAP transport efficiency matrix. Then MHC class-I binding and proteasomal cleavage efficiency were used to obtain the total scores and translate it into the sensitivity and specificity. We selected peptides as the epitope candidate on the basis of the overall score. Further, we checked the peptides binding to MHC class-I molecules by using the MHC class-I binding predictions tool [      ]. The predicted output was given in units of IC
+      <sub>
+       50
+      </sub>
+      <inline-formula>
+       <tex-math id="M3">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (IC
+      <sub>
+       50
+      </sub>
+      values
+      <inline-formula>
+       <tex-math id="M4">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$&lt;50$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M5">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      = high affinity, IC
+      <sub>
+       50
+      </sub>
+      <inline-formula>
+       <tex-math id="M6">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$&lt;500$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M7">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      moderate affinity and IC
+      <sub>
+       50
+      </sub>
+      <inline-formula>
+       <tex-math id="M8">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$&lt;5000$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M9">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      low affinity) [      ]. The MHC-NP (Naturally Processed) tool used for assesses the probability of naturally processing and binding of peptides to the given MHC molecules. This tool predicts naturally processed epitopes based on the physiochemical properties and comparison of residual position with experimentally verified epitopes [      ]. Further, we identified CD4      T-cell peptides with IC50 ≤ 100 ((IC
+      <sub>
+       50
+      </sub>
+      values
+      <inline-formula>
+       <tex-math id="M10">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$&lt;50$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M11">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      = high affinity, IC
+      <sub>
+       50
+      </sub>
+      <inline-formula>
+       <tex-math id="M12">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$&lt;500$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M13">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      moderate affinity and IC
+      <sub>
+       50
+      </sub>
+      <inline-formula>
+       <tex-math id="M14">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$&lt;5000$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M15">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nM}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      low affinity) by using MHC class-II binding predictions tool [      ].
+     </p>
+    </sec>
+    <sec id="sec5">
+     <title>
+      B-cell peptides (epitopes) prediction
+     </title>
+     <p>
+      The identification of B-cell peptides (epitopes) in the SG of SARS-CoV-2 was accomplished to find the potent antigen, which gives an assurance of humoral immunity. Here, we used Antibody Epitope Prediction tool [      ] to find the B-cell antigenicity with classical propensity scale methods, including Bepipred Linear Epitope Prediction 2.0 [      ], Chou &amp; Fasman Beta-Turn Prediction [      ], Emini Surface Accessibility Prediction [      ], Karplus &amp; Schulz Flexibility Prediction [      ], Kolaskar &amp; Tongaonkar Antigenicity [      ] and Parker Hydrophilicity Prediction [      ]. In this study, we selected that region in the protein sequence, which was cross-referenced, and common findings were considered as the B-cell antigenic region based on the above six classical propensity scale methods.
+     </p>
+    </sec>
+    <sec id="sec6">
+     <title>
+      Epitope conservancy and immunogenicity analysis
+     </title>
+     <p>
+      The epitope conservation defined the degree of a resemblance betwixt the peptide and query sequences. Hence, we used the Epitope Conservancy Analysis (ECA) tool [      ] to find the conservancy of our peptides among the other SARS coronaviruses, bat SARS-like coronaviruses and bat coronaviruses. Additionally, the immunogenicity prediction can reveal the degree of efficiency for individual peptides to produce an immunogenic response. In our study, we used the Class I Immunogenicity [      ] tool to predict the immunogenicity of the MHC class-I binding peptides.
+     </p>
+    </sec>
+    <sec id="sec7">
+     <title>
+      Peptide structural modeling and retrieval of human leukocyte antigen molecules
+     </title>
+     <p>
+      The structure of CD      8 and CD      4 T-cell peptides were modeled by a biased modeling method using an online server, PEP-FOLD 3.5 server, at the RPBS MOBYL portal [      ]. The crystal structure of the SARS-CoV-2 spike glycoprotein (6VSB-A) was used as the reference model together with a mask representing the structure fragments for which the local conformation of this structure has been imposed. Additionally, The structure of human leukocyte antigen (HLA) molecules, including HLA-B      53:01 (PDB ID: 1A1M) [      ], HLA-B      44:03 (PDB ID: 4JQX) [      ] and HLA-DRB1      01:01 (1AQD) [      ] were retrieved from the Protein Data Bank (PDB) [      ]. The structure of peptides and HLA molecules are depicted in      .
+     </p>
+    </sec>
+    <sec id="sec8">
+     <title>
+      Population coverage analysis
+     </title>
+     <p>
+      The population coverage analysis (PCA) tool [      ] gives the idea about the probable response of each peptide in different countries of the world based on peptide–HLA data genotypic frequency. Our CD8      T-cell (three peptides) and CD4      T-cell (six peptides) peptides and their respective HLA alleles were used for PCA. We selected 16 geographical areas (115 countries and 21 different ethnicities grouped), which were East Asia, Northeast Asia, South Asia, Southeast Asia, Southwest Asia, Europe, East Africa, West Africa, Central Africa, North Africa, South Africa, West Indies, North America, Central America, South America and Oceania. These 16 geographical regions cover the HLA allele frequencies and associated data for different individual populations from the most popular countries.
+     </p>
+    </sec>
+    <sec id="sec9">
+     <title>
+      Predicted peptides versus epitope database and peptide screening for autoimmune, allergic and toxic response
+     </title>
+     <p>
+      In this section, we used predicted peptides (including T- and B-cell peptides) to search for homologous epitopes at 80–90% identity in the Epitope database [      ,      ]. The current limited accessible data is not sufficient to recognize the antigenic region in the spike proteins of SARS-CoV-2 by human immune responses. Herein, the homologous epitopes (derived from other pathogens) would expedite the evaluation of vaccine candidate immunogenicity, as well as observing the possible outcomes of mutational events and epitope escape as the virus is transmitted through human populations [      ]. Based on initially full-length genomic phylogenetic analysis, the precursory studies suggested that SARS-CoV-2 is quite similar to SARS-CoV and the putatively same cell entry mechanism and human cell receptor usage. And due to conspicuous resemblance amid these viruses, the previous study that gave us a basic understanding of protective immune responses against SARS-CoV, which may potentially be leveraged to aid vaccine development against the SARS-CoV-2 [      ]. This study also helps to check the peptides identity with human proteome because there is a chance of an autoimmune response due to any kind of molecular mimicry between the predicted peptides (epitopes) and the human proteome. Moreover, we checked the allergic and toxic nature of the predicted peptides using AlgPred [      ] and ToxinPred [      ] tools, respectively.
+     </p>
+    </sec>
+    <sec id="sec10">
+     <title>
+      Molecular docking studies
+     </title>
+     <p>
+      In this study, molecular docking studies produced important information regarding the orientation pattern of the peptides in the binding groove of the HLA molecules as well as which residues are actively involved in the binding. In this study, we selected three CD8      T-cell peptides (LTDEMIAQY, WTAGAAAYY and WMESEFRVY) and five CD4      T-cell peptides (IRASANLAA, FGAISSVLN, VKQLSSNFG, FAMQMAYRF and FGAGAALQ) for molecular docking against the HLA molecule, including HLA-B      53:01 (PDB ID: 1A1M), HLA-B      44:03 (PDB ID: 4JQX) and HLA-DRB1      01:01 (PDB ID: 1AQD). We used the glide module [      ] of Schrödinger suite for peptides–HLA molecules docking. All peptides were prepared using the LigPrep module of the Schrodinger suite and docked in the binding site of protein using the SP-peptide mode of Glide. Receptor grid was generated using the receptor grid generation in the Glide application by specifying the binding (active) site residues, which was identified by the SiteMap tool [      ]. The docked conformers were evaluated using Glide (G) Score, and the best docked pose with lowest Glide score value was recorded for each peptide.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec11">
+    <title>
+     Results
+    </title>
+    <sec id="sec12">
+     <title>
+      Sequence retrieval and structure prediction
+     </title>
+     <p>
+      Viral glycoproteins have a major role in its pathogenesis. The main goal of viral infection is to recognize and bind a receptor on the cell surface of the host. It has been considered that SG plays an important role in immunity and infection, So we have retrieved the envelope SG of SARS-CoV-19 from the NCBI gene bank database (ID: QHO62112.1). Moreover, the sequence similarity of query proteins and peptides was done with the other SG proteins of other SARS-CoV-19 isolates from the various regions of the world (including China, Columbia, Japan, Malaysia, Israel, Iran, India, Sri Lanka, Vietnam, South Korea, Pakistan, United States, Hong Kong, Taiwan, Spain, South Africa, Serbia, Greece, Nederland, France and the Czech Republic), and it was found that all the predicted peptides are conserved in all of the isolates (As per 10 August 2020) (      available online at https://academic.oup.com/bib).
+     </p>
+    </sec>
+    <sec id="sec13">
+     <title>
+      Identification of T-cell epitopes from SG protein of SARS-CoV-19
+     </title>
+     <p>
+      The NETCTL server predicted several peptides in the SARS-CoV-19 SG, but only nine most potent peptides were chosen, which have a high combinatorial score. We considered only those alleles of MHC class-I for which the peptides showed higher binding affinity (
+      <inline-formula>
+       <tex-math id="M16">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$IC50\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\le 400\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{nm}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Big)$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      . Proteasomes played a key role in cleaving the peptide bonds and converting the protein into a peptide. The total score of each peptide–HLA interaction was taken into consideration, and a greater score meant greater processing efficiency. The three peptides LTDEMIAQY (P1), WTAGAAAYY (P2) and WMESEFRVY (P3) among the nine were found to bind with most of the MHC class-I molecules, including HLA-B      15:01, HLA-B      53:01, HLA-A      68:02, HLA-B      44:03 and HLA-B      57:01, but peptides P1, P2 and P3 had a maximum probable value of
+      <inline-formula>
+       <tex-math id="M17">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$0.8203$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      ,
+      <inline-formula>
+       <tex-math id="M18">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$0.8185$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      and
+      <inline-formula>
+       <tex-math id="M19">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$0.7539$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      for the HLA-B      53:01, HLA-B      44:03 and HLA-B      44:03, respectively. These peptides (P1, P2 and P3) also have a maximum identity
+      <inline-formula>
+       <tex-math id="M20">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$(100\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%)$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      for the conservancy. Moreover, we made the immunogenicity prediction of peptides and got the highest pMHC-I immunogenicity scores of
+      <inline-formula>
+       <tex-math id="M21">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$0.02757$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (P1),
+      <inline-formula>
+       <tex-math id="M22">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$0.15259$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (P2) and
+      <inline-formula>
+       <tex-math id="M23">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$0.14153$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (P3). The details are given in      . Additionally, we identified
+      <inline-formula>
+       <tex-math id="M24">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$162$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      CD4      T-cell peptides (epitopes) with
+      <inline-formula>
+       <tex-math id="M25">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$IC50\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\le 100;$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      however, only six peptides (FVSNGTHWF, IRASANLAA, FGAISSVLN, VKQLSSNFG, FAMQMAYRF, and FGAGAALQ) were found to interact with most of the HLA-DRB-1 molecules, and the details are given in      .
+     </p>
+     <table-wrap id="TB1" orientation="portrait" position="float">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        The three potential CD8+ T-cell epitopes along with their interacting MHC class-I alleles and NetCTL combine score, epitopes conservancy hits and pMHC-I immunogenicity score
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup span="1">
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1">
+          Peptide
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Position
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          NetCTL combined score
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          MHC-1 IC50 score &lt; 400
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          MHC-NP prediction result
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          pMHC-I immunogenicity score
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Epitope conservancy hit (%)
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          LTDEMIAQY
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          865–873
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A1 = 3.66
+          <break/>
+          A2 = 1.06
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          3.37 (0.2)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.9457 HLA-B          57:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.02757
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          100
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          156 (0.74)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8907 HLA-B          57:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          261 (0.54)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8203 HLA-B          53:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          330 (0.79)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.7935 HLA-B          53:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          359 (0.81)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.7806 HLA-B          53:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          376 (0.87)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.7793 HLA-B          15:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          WTAGAAAYY
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          258–266
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A1 = 3.11
+          <break/>
+          A26 = 2.00
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          68.6 (0.18)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.9404 HLA-B          44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.15259
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          100
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          48.4 (0.44)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.873 HLA-B          53:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          132 (0.66)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8287 HLA-B          44:03
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          93.7 (0.6)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8185 HLA-B          44:03
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          91.8 (0.59)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.7519 HLA-B          57:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          89.9 (0.55)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.7412 HLA-A          68:02
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          WMESEFRVY
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          152–160
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          A1 = 1.92
+          <break/>
+          B62 = 1.24
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          49.7 (0.29)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8901 HLA-B          57:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.14153
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          100
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          265.7 (0.55)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8378 HLA-B          44:03
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          142.2 (0.43)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.8341 HLA-B          57:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          63.8 (0.33)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.7539 HLA-B          44:03
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          179 (0.47)
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          0.734 HLA-B          57:01
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <table-wrap id="TB2" orientation="portrait" position="float">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        The selected six most potential CD4+ T-cell epitopes along with their interacting MHC class-II alleles with affinity IC50 &lt; 100
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup span="1">
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1">
+          S. No.
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Epitopes
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Position
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Interacting MHC class-II allele
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          IC50 values (&lt;100)
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          1
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          FVSNGTHWF
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1095–1103
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          21.43
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          13:02
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          93.35
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          89.95
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          13:02
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          47.25
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          98.31
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          2
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          IRASANLAA
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1018–1026
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          19.9
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          97.67
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          13:02
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          42.12
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          84
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          88.15
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          3
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          FGAISSVLN
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          970–978
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          20.2
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          98.03
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          04:05
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          96.39
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          86.61
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          88.46
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          4
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          VKQLSSNFG
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          963–971
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          22.84
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          91.6
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          04:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          85.68
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          5
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          FAMQMAYRF
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          898–906
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          12.49
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          42.09
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          53.55
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          11:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          48.76
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          15:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          50.31
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          6
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          FGAGAALQI
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          888–896
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          16.21
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          09:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          24.83
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td colspan="1" rowspan="1">
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          HLA-DRB1          07:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          48.18
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec id="sec14">
+     <title>
+      Identification of linear B-cell epitopes from SG protein of SARS-CoV-19
+     </title>
+     <p>
+      The B-cell epitopes comprise of peptides which can easily be used to take the place of antigens for immunizations and antibody production. In this study, we used an amino acid scale-based method in the B-cell antibody epitope prediction tool in which we predict linear epitopes from the protein sequence. We found six B-cell linear epitopes (including LTPGDSSSGWTAG, YQAGSTPCNGV, YGFQPTNGVGYQ, VITPGTNTSN, QTQTNSPRRARS and LPDPSKPSKR) in the surface glycoprotein of SARS-CoV-19, which may be capable of inducing the desired immune response as B-cell epitopes (      ).
+     </p>
+    </sec>
+    <sec id="sec15">
+     <title>
+      Population coverage analysis of T-Cell peptides
+     </title>
+     <p>
+      The population coverage analysis calculates the expected response of the predicted peptides (including B- and T-cells) in populations from different geographical areas. In this study, PCA for 16 different geographical regions was carried out for the predicted peptides by considering all the MHC class-I and II molecules. These results suggested that the expected response of these peptides is varying for populations residing in different geographical regions, as shown in      . The tool predicted average population coverage of
+      <inline-formula>
+       <tex-math id="M26">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$21.50\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      and
+      <inline-formula>
+       <tex-math id="M27">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$51.09\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      for MHC class-I and II binding peptide fragments, respectively. The PCA of MHC class-II binding peptide fragments of SARS-CoV-19 SG revealed maximum population coverage, for example,
+      <inline-formula>
+       <tex-math id="M28">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$75.57\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      ,
+      <inline-formula>
+       <tex-math id="M29">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$73.61\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      and
+      <inline-formula>
+       <tex-math id="M30">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$72.91\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      for North America, Europe and East Asia populations (the details are given in      and      ).
+     </p>
+    </sec>
+    <sec id="sec16">
+     <title>
+      Autoimmune, allergic and toxic response
+     </title>
+     <p>
+      In the past, many cases have been reported for the development of autoimmune diseases, like systemic lupus anemia, mysthemia gravis (hepatitis B), multiple sclerosis (swine flu), diabetes mellitus (mumps) and Gullian Barr syndrome (influenza and oral polio vaccine) [      ,      ]. To avoid autoimmunity, it becomes important to discard those peptide agents which are similar to the human proteome. So, we have mapped all the predicted peptides sequences against the human and other viruses, including SARS-CoV, which has a maximum sequence identity to SARS-CoV-2 and is the best-characterized coronavirus in respect to epitopic responses. We have identified most of the peptide sequences (including B- and T-cell peptides) that were found to be similar with the experimentally determined epitopes of SARS-CoV virus, except for two peptides (FVSNGTHWF and LTPGDSSSGWTAG) which resemble with
+      <italic>
+       Mus musculus
+      </italic>
+      and human’s proteome; these peptides were eliminated from further study due to autoimmunity risk. The details of the identified peptides and their resemblance with another organism’s proteome are given in      . Next, we have screened all the peptides to check their allergic and toxic nature, and all these peptides were found to be non-allergen as well as nontoxic in nature (      available online at
+      <ext-link ext-link-type="uri" ns0:href="https://academic.oup.com/bib">
+       https://academic.oup.com/bib
+      </ext-link>
+      ).
+     </p>
+     <table-wrap id="TB3" orientation="portrait" position="float">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        List of peptides which are resembled with other organisms’ proteome (homologous epitopes at 80–90% identity), including SARS-CoV, human herpesvirus 4,
+        <italic>
+         Leishmania infantum
+        </italic>
+        ,
+        <italic>
+         Bordetella pertussis
+        </italic>
+        ,
+        <italic>
+         Homo sapiens
+        </italic>
+        and
+        <italic>
+         Mus musculus
+        </italic>
+        . The similar fragments of peptides are shown in underline and bold letter along with their source epitopes (epitope ID), antigen and organism
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup span="1">
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1">
+          Peptides (epitopes)
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Epitope ID
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Antigen
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Organism
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           MHC Class-I
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           1. LTDEMIAQY
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           VLPPL
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             LTDEMIAQY
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           T
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075094
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GFIKQYGDCLGDIAARDLICAQKFNGLTVLPPL
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             LTDEMIAQY
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           T
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074907
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-COV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           2. WTAGAAAYY
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             WTAGAAAYY
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           VGY
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075117
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           TLLALHRSYLTPGDSSSG
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             WTAGAAAYY
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           VGYLQPRTFLLKYNEN
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075077
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-COV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           ATIASSGIEWT
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             AGAA
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          693949
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Major DNA-binding protein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Human herpesvirus 4
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           EW
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             TAGAA
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           RDFLEGVW
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          694386
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Major DNA-binding protein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Human herpesvirus 4
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           SSGIEW
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             TAGAA
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           RDFL
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          696497
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Major DNA-binding protein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Human herpesvirus 4
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           3. WMESEFRVY
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           KS
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             WMESEFRVY
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074961
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           KVCEFQFCNDPFLGVYYHKNNKS
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             WMESEFRVY
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           SSANNCTFEYV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074963
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           MHC Class-II
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           1. FVSNGTHWF
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           RG
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VSNGTH
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           V
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          834339
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Oncoprotein-induced transcript 3 protein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           Mus musculus
+          </italic>
+          (mouse)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           REGV
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FVSNGTHW
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075025
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           2. IRASANLAA
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           AE
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             IRASANLA
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          999
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             ASANLA
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           <bold>
+            A
+           </bold>
+           TK
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          4321
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           QLIRAAEIRASANLAAT
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          51379
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           QQLIRAAE
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             IRASANL
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          52057
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             RASANLAA
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           TKMSECVLG
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          53202
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           QLIRAAE
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             IRASANLAA
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           TK
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          100428
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           AE
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             IRASANLAA
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           TK
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074838
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           3. FGAISSVLN
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             AISSVLN
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           DILSRLDKVE
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          2092
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           KQLSSNF
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAISSVLN
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           DI
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          33032
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           SSNF
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAISSVLN
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           DIL
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          61229
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           NF
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAISSVL
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          923559
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           4. VKQLSSNFG
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           QALNTL
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VKQLSSNFG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           AI
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          50311
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             KQLSSNFG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           AISSVLNDI
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          33032
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           LNTL
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VKQLSSNFG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           AI
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          38353
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           5. FAMQMAYRF
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           AMQMAYRF
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          3176
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GAALQIP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAYR
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          18514
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GAALQIP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAYRF
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           N
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          18515
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           P
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAYRF
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           NGIGVTQ
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          47479
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           QIP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAYRF
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           NGI
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          51112
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GAALQIP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAYRF
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          100048
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           LQIP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAY
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074986
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           MIAQYTSALLAGTITSGWTFGAGAALQIP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FAMQMAYRF
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           NGIGV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074998
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           6. FGAGAALQI
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GWT
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FGAGAALQI
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PFA
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          23293
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           TAGWT
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FGAGAALQI
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PFA
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          62872
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GWT
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             FGAGAALQI
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PFA
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          23293
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAALQI
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PFAMQMAYRFN
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          18515
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAALQI
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PFAMQMAYRF
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          100048
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAALQI
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PFAMQMAYR
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          18514
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           SGP
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GAGAAL
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          230418
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Other Leishmania infantum protein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Leishmania infantum
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           B-cell linear epitope
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           1. LTPGDSSSGWTAG
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           G
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GDSSSG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PQRLV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          616721
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Transmembrane protein 199
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           Homo sapiens
+          </italic>
+          (human)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GDSSSG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PQRLV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          690393
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Transmembrane protein 199
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           H. sapiens
+          </italic>
+          (human)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           KG
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GDSSSG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PQRLV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          691072
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Transmembrane protein 200
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           H. sapiens
+          </italic>
+          (human)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GYD
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             GDSSSG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           SGR
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          760719
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Tight junction protein ZO-3
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           H. sapiens
+          </italic>
+          (human)
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           TLLALHRSY
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             LTPGDSSSGWTAG
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           AAAYYVGYLQPRTFLLKYNEN
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075077
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           2. YGFQPTNGVGYQ
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             PTNGVGYQ
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           PYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNF
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075016
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           F
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             QPTNGVGY
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1087346
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           3. VITPGTNTSN
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GVS
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VITPGTN
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           ASSEV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          23158
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           ISPCAFGGVS
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VITPGTN
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          28643
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           PCSFGGVS
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VITPGTN
+            </italic>
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          47041
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VITPGTN
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           ASSEVAVLY
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          69129
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           VS
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             VITPGTN
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           ASSEVAVL
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          71189
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           4. QTQTNSPRRARS
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           AGCLIGAEHVNNSYECDIPIGAGICASY
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             QTQTNSPRRARS
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           VAS
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074840
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           SY
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             QTQTNSPRRARS
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           VA
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1075070
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           5. YQAGSTPCNG
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <bold>
+           No Hit
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <bold>
+           No Hit
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <bold>
+           No Hit
+          </bold>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <bold>
+           No Hit
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          <bold>
+           6. LPDPSKPSKR
+          </bold>
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             PSKPSKR
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           SFIEDLLFNKV
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1071808
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           I
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             L
+            </italic>
+            PDPSKPSK
+           </bold>
+          </underline>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074928
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           KDFGGFNFSQI
+          </italic>
+          <underline>
+           <bold>
+            <italic toggle="yes">
+             LPDPSKPSKR
+            </italic>
+           </bold>
+          </underline>
+          <italic>
+           SFIEDLLFNKVTLADAGFIKQY
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          1074948
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Spike glycoprotein
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          SARS-CoV
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+    <sec id="sec17">
+     <title>
+      Peptide–HLA interaction analysis
+     </title>
+     <p>
+      To ensure the interaction between the CD      8 T-cell peptides (LTDEMIAQY, WTAGAAAYY and WMESEFRVY) and HLA molecules [HLA-B      53:01(1A1M), HLA-B      44:03(4JQX) and HLA-B      44:03(4JQX), respectively], we performed molecular docking analysis and found that the peptide
+      <italic>
+       LTDEMIAQY
+      </italic>
+      binds with HLA-B      53:01, having a good docking score of
+      <inline-formula>
+       <tex-math id="M31">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-9.54\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol}.$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      Similarly, WTAGAAAYY and WMESEFRVY bind with HLA-B      44:03, having a binding affinity of
+      <inline-formula>
+       <tex-math id="M32">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-8.80\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      and
+      <inline-formula>
+       <tex-math id="M33">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-9.22\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol},$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      respectively. Moreover, all the CD      4 T-cell peptides were binding into the groove of HLA-DR molecules [HLA-DRB1      01:01(1AQD)] with a good docking score, for example,
+      <inline-formula>
+       <tex-math id="M34">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-10.63$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      <inline-formula>
+       <tex-math id="M35">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (with IRASANLAA),
+      <inline-formula>
+       <tex-math id="M36">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-12.19\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (with
+      <italic>
+       FGAISSVLN
+      </italic>
+      ),
+      <inline-formula>
+       <tex-math id="M37">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-8.74\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mo}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      l (with VKQLSSNFG),
+      <inline-formula>
+       <tex-math id="M38">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-8.59\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (with FAMQMAYRF), and
+      <inline-formula>
+       <tex-math id="M39">
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\documentclass[12pt]{minimal}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsmath}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{wasysym} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsfonts} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amssymb} \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{amsbsy}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{upgreek}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\usepackage{mathrsfs}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\setlength{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\oddsidemargin}{-69pt}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\begin{document}}{}$-9.28\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{kcal}/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\mathrm{Mol}$\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\end{document}
+       </tex-math>
+      </inline-formula>
+      (with FGAGAALQ), and all the interactions are shown in      and      , and the docking details are given in      .
+     </p>
+     <table-wrap id="TB4" orientation="portrait" position="float">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        The details of molecular docking results, including docking score (kcal/Mol), interacting amino acids, and various types of interactions involved in the binding of potential Peptides (epitopes)to HLA molecules.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <colgroup span="1">
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+        <col align="left" span="1"/>
+       </colgroup>
+       <thead>
+        <tr>
+         <th align="left" colspan="1" rowspan="1">
+          Peptides + HLA molecules
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Docking score (kcal/Mol)
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Interacting residues
+         </th>
+         <th align="left" colspan="1" rowspan="1">
+          Interaction types
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          CD + 8 T-cell peptides interactions
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          LTDEMIAQY + HLA-B          53:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −9.54
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           LYS-146
+          </italic>
+          ,
+          <italic>
+           TYR-84
+          </italic>
+          ,
+          <italic>
+           ASN-77
+          </italic>
+          ,
+          <italic>
+           GLU-76
+          </italic>
+          ,
+          <italic>
+           THR-73
+          </italic>
+          ,
+          <italic>
+           ASN-70
+          </italic>
+          ,
+          <italic>
+           ARG-97
+          </italic>
+          and
+          <italic>
+           TYR-99
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Salt bridges, hydrogen bond, Pi-cation, Pi-anion, Pi-Pi stacked and Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          WTAGAAAYY + HLA-B          44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −8.80
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GLU-76
+          </italic>
+          ,
+          <italic>
+           THR-80
+          </italic>
+          ,
+          <italic>
+           ALA-81
+          </italic>
+          ,
+          <italic>
+           ILE-95
+          </italic>
+          ,
+          <italic>
+           ASP-116
+          </italic>
+          ,
+          <italic>
+           TYR-123
+          </italic>
+          ,
+          <italic>
+           LYS-146
+          </italic>
+          ,
+          <italic>
+           TRP-147
+          </italic>
+          ,
+          <italic>
+           ALA-158
+          </italic>
+          ,
+          <italic>
+           LEU-163
+          </italic>
+          and
+          <italic>
+           GLU-166
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Salt bridges, hydrogen bond, Pi-cation, Pi-anion, Pi-Pi stacked, Amide-Pi stacked and Pi-Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          WMESEFRVY + HLA-B          44:03
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −9.22
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           THR-73 GLU-76 ARG-83
+          </italic>
+          ,
+          <italic>
+           TYR-84
+          </italic>
+          ,
+          <italic>
+           ARG-97
+          </italic>
+          ,
+          <italic>
+           ASP-114
+          </italic>
+          ,
+          <italic>
+           ASP-116
+          </italic>
+          ,
+          <italic>
+           LYS-146 TRP-147
+          </italic>
+          ,
+          <italic>
+           ALA-149, ALA-150
+          </italic>
+          and
+          <italic>
+           LEU-156
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Hydrogen bond, Pi-Pi stacked and Pi-Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="4" rowspan="1">
+          CD + 4 T-cell peptides interactions
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          IRASANLAA + HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −10.63
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GLN-09
+          </italic>
+          ,
+          <italic>
+           PHE-32
+          </italic>
+          ,
+          <italic>
+           PHE-54
+          </italic>
+          ,
+          <italic>
+           ASN-62
+          </italic>
+          ,
+          <italic>
+           LEU-67
+          </italic>
+          ,
+          <italic>
+           GLN-70
+          </italic>
+          ,
+          <italic>
+           ARG-71
+          </italic>
+          and
+          <italic>
+           TYR-78
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Hydrogen bond, Pi-Sigma, Akyl and Pi-Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          VKQLSSNFG + LA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −8.74
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GLN-09
+          </italic>
+          ,
+          <italic>
+           PHE-13
+          </italic>
+          ,
+          <italic>
+           GLY-58
+          </italic>
+          ,
+          <italic>
+           TYR-60
+          </italic>
+          ,
+          <italic>
+           TRP-61
+          </italic>
+          ,
+          <italic>
+           ASN-62
+          </italic>
+          ,
+          <italic>
+           GLN-64
+          </italic>
+          ,
+          <italic>
+           VAL-65
+          </italic>
+          ,
+          <italic>
+           ASN-69
+          </italic>
+          ,
+          <italic>
+           ARG-71
+          </italic>
+          and
+          <italic>
+           TYR-78
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Hydrogen bond, Akyl and Pi-Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          FAMQMAYRF + HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −8.59
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           PHE-13
+          </italic>
+          ,
+          <italic>
+           PHE-24
+          </italic>
+          ,
+          <italic>
+           SER-53
+          </italic>
+          ,
+          <italic>
+           GLY-58
+          </italic>
+          ,
+          <italic>
+           ASN-62
+          </italic>
+          ,
+          <italic>
+           VAL-65
+          </italic>
+          ,
+          <italic>
+           GLN-70
+          </italic>
+          ,
+          <italic>
+           ARG-71
+          </italic>
+          ,
+          <italic>
+           THR-77
+          </italic>
+          ,
+          <italic>
+           TRY-78
+          </italic>
+          ,
+          <italic>
+           ASN-82
+          </italic>
+          and
+          <italic>
+           VAL-85
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Hydrogen bond, Pi-cation, Pi-sulfur, Pi-Pi T-shaped and Pi-Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          FGAGAALQ + HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −9.28
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           ILE-07
+          </italic>
+          ,
+          <italic>
+           GLN-09
+          </italic>
+          ,
+          <italic>
+           ILE-31
+          </italic>
+          ,
+          <italic>
+           SER-53
+          </italic>
+          ,
+          <italic>
+           ASN-62
+          </italic>
+          ,
+          <italic>
+           VAL-65
+          </italic>
+          ,
+          <italic>
+           GLN-70
+          </italic>
+          ,
+          <italic>
+           ARG-71
+          </italic>
+          ,
+          <italic>
+           ALA-74
+          </italic>
+          and
+          <italic>
+           ASN-82
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Salt bridges, hydrogen bond, Akyl and Pi-Akyl
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1">
+          FGAISSVLN + HLA-DRB1          01:01
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          −12.19
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          <italic>
+           GLN-09
+          </italic>
+          ,
+          <italic>
+           PHE-13
+          </italic>
+          ,
+          <italic>
+           PRO-56
+          </italic>
+          ,
+          <italic>
+           TYR-60
+          </italic>
+          ,
+          <italic>
+           TRP-61
+          </italic>
+          ,
+          <italic>
+           ASN-62
+          </italic>
+          ,
+          <italic>
+           LEU-67
+          </italic>
+          ,
+          <italic>
+           ASN-69
+          </italic>
+          ,
+          <italic>
+           GLU-71
+          </italic>
+          ,
+          <italic>
+           ALA-74
+          </italic>
+          ,
+          <italic>
+           LYS-75
+          </italic>
+          ,
+          <italic>
+           LYS-75
+          </italic>
+          ,
+          <italic>
+           ATG-76
+          </italic>
+          and
+          <italic>
+           TYR-78
+          </italic>
+         </td>
+         <td align="left" colspan="1" rowspan="1">
+          Salt bridges, hydrogen bond, Pi-Pi stacked, Pi-Pi T-shaped and Akyl and Pi-Akyl
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec18">
+    <title>
+     Discussion
+    </title>
+    <p>
+     The development of vaccines refers to one of the most effective and cost-effective medical and public health achievements of all time. It is a very lengthy, complex and costly process and requires the collaborative involvement of public and private sectors. In each year, vaccination programs save over 3 million lives globally. The peptide, as a choice of vaccine agent, has made the astonishing move toward vaccine design against the viruses, bacteria and cancer. The peptide vaccine is often synthetic and mimics naturally occurring proteins from pathogens, and these peptide-based vaccines have shown promising successful results in the past for diseases like malaria, dengue, multiple sclerosis and influenza. Besides these diseases, the peptide-based vaccines have also been developed against several types of cancer like colorectal cancer, myeloid leukemia and gastric cancer [     ]. The identification and design of immunogenic peptides (epitopes) are expensive as well as time consuming process. So the vaccine-informatics approach has made it easy to identify potent peptides. In the present study, we have identified CD8     T-cell (three peptides), CD4     T-cell (six peptides) and B-cell linear peptides (six peptides) from the SARS-CoV-19 SG; however, we were more emphasized to study T-cell peptides because vaccines against the T-cell epitopes are more promising as they evoke a long-lasting immune response, with antigenic drift, and an antigen can easily escape the memory response of antibody [     ,     ].
+    </p>
+    <p>
+     For the MHC class-I binding peptides, the immune responses for the top five different geographical regions (highest population coverage range 30–34%) were: South Africa: 33.78% (South Africa), West Indies: 33.12% (Cuba, Jamaica, Martinique, Trinidad and Tobago), East Africa: 32.25% (Kenya, Uganda, Zambia and Zimbabwe), Central Africa: 30.70% (Cameroon, Central African Republic, Congo, Equatorial Guinea, Gabon, Rwanda and Sao Tome and Principe) and East Asia: 30% (Japan, South Korea and Mongolia). Similarly, for the MHC class-II binding peptides, the excepted immune response was found to be remarkable (PCA range: 60–76%) for North America (Canada, Mexico and the United States), Europe (Austria, Belarus, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, England, France, Georgia, Germany, Greece, Ireland Northern, Ireland South, Italy, Macedonia, Netherlands, Norway, Poland, Portugal, Romania, Russia, Scotland, Serbia, Slovakia, Spain, Sweden, Switzerland, Turkey, Ukraine, United Kingdom and Wales), East Asia (Japan, South Korea and Mongolia), South Asia (India, Pakistan and Sri Lanka), North Africa (Algeria, Ethiopia, Mali, Morocco, Sudan and Tunisia) and West Indies (Cuba, Jamaica, Martinique, Trinidad and Tobago). Thus, our results suggested that the MHC class-II binding peptides may be potent vaccine agents for different populations of the globe.
+    </p>
+    <p>
+     We know that vaccination is the utmost prevention of epidemiologic infectious diseases, but it has a low incidence of serious systemic adverse effects (like autoimmune diseases). We have predicted a total of 15 peptides (B- and T-cells),and among those, 12 peptides are very important, including LTDEMIAQY, WTAGAAAYY, WMESEFRVY, IRASANLAA, FGAISSVLN, VKQLSSNFG, FAMQMAYRF, FGAGAALQI, YGFQPTNGVGYQ, LPDPSKPSKR, QTQTNSPRRARS and VITPGTNTSN because their peptide fragments are matching with the experimentally identified epitopes of the glycoprotein of SARS-CoV [     ]; thus, these peptides are seemingly a more rational set of potential vaccine agents against the SARS-CoV-2.
+    </p>
+    <p>
+     Moreover, the other two peptides LTPGDSSSGWTAG and FVSNGTHWF, which resemble with the
+     <italic>
+      Homo sapiens
+     </italic>
+     (human) and
+     <italic>
+      Mus musculus
+     </italic>
+     proteomes, were eliminated from the study to avoid autoimmunity risk. Besides, we did not find any resemblance of one peptide (YQAGSTPCNG) with any organism’s proteome. Hence, this unique peptide can also be proposed as a candidate for further studies in the area of vaccines development, therapeutic antibodies and diagnostic tools against the SARS-CoV-2.
+    </p>
+    <p>
+     As we know that HLA alleles are polymorphic in nature; so peptides can interact with them. In our study, MHC class-I binding peptides (8–9 residues long) are bound in the wide groove (~1.25À) of HLA molecules (HLA-B     53:01 and HLA-B     44:03). Among them, the peptide LTDEMIAQY bound with HLA-B*53:01 molecule by. ILE-66, THR-69, ASN-70, THR-73, GLU-76, ASN-77, TYR-84, ARG-97, TYR-99, TYR-123, THR-143, TRP-147, TYR-159 residues and other surrounding residues, which gives it polymorphic nature lie at the interface of this helix and the bottom of the peptide-binding site. In docking with HLA-B     44:03, the peptides WTAGAAAYY (interacted with
+     <italic>
+      GLU-76
+     </italic>
+     ,
+     <italic>
+      THR-80
+     </italic>
+     ,
+     <italic>
+      ALA-81
+     </italic>
+     ,
+     <italic>
+      ILE-95
+     </italic>
+     ,
+     <italic>
+      ASP-116
+     </italic>
+     ,
+     <italic>
+      TYR-123
+     </italic>
+     ,
+     <italic>
+      LYS-146
+     </italic>
+     ,
+     <italic>
+      TRP-147, ALA-158
+     </italic>
+     ,
+     <italic>
+      LEU-163
+     </italic>
+     and
+     <italic>
+      GLU-166
+     </italic>
+     ) and WMESEFRVY (interacted with
+     <italic>
+      THR-73 GLU-76 ARG-83
+     </italic>
+     ,
+     <italic>
+      TYR-84
+     </italic>
+     ,
+     <italic>
+      ARG-97
+     </italic>
+     ,
+     <italic>
+      ASP-114
+     </italic>
+     ,
+     <italic>
+      ASP-116
+     </italic>
+     ,
+     <italic>
+      LYS-146 TRP-147
+     </italic>
+     ,
+     <italic>
+      ALA-149
+     </italic>
+     ,
+     <italic>
+      ALA-150
+     </italic>
+     and
+     <italic>
+      LEU-156
+     </italic>
+     ) got expanded conformation within the same trench, and both peptides were surrounded by the polymorphic region. Further, we checked the interaction of MHC class-II binding peptides with HLA-DR molecules and noted that all the five peptides are buried by interactions with the most important pocket residues, for example,
+     <italic>
+      GLN-09
+     </italic>
+     ,
+     <italic>
+      PHE-13
+     </italic>
+     ,
+     <italic>
+      ASN-62
+     </italic>
+     ,
+     <italic>
+      VAL-65
+     </italic>
+     ,
+     <italic>
+      GLN-70
+     </italic>
+     ,
+     <italic>
+      ARG-71
+     </italic>
+     ,
+     <italic>
+      TYR-78
+     </italic>
+     , etc., and are the preferred bind in the groove of HLA-DR molecules. The docking studies suggested that these peptides are preferably bound into the groove of respective alleles and can induce the CD     8 and CD     4 T-cell immunity.
+    </p>
+    <p>
+     In our study, integrated computational approaches have identified a total of 15 peptides (T- and B-cells) from SARS-CoV-19 SG, of which 12 peptides have resemblance with experimentally identified epitopes of SARS-CoV and other pathogens. There is no vaccine or specific treatment currently available for COVID-19, and vaccine development is a long way from being translated into practical applications. So at this crunch situation, we have suggested that the predicted peptides (epitopes) would be capable to prompt an effective immune response as a peptide vaccine against the SARS-CoV-2. Consequently, these peptides may be used for synthetic vaccine design to combat the emerging COVID-19. However,
+     <italic>
+      in vivo
+     </italic>
+     and
+     <italic>
+      in vitro
+     </italic>
+     , experimental validation is needed for their efficient use as a vaccine candidate.
+    </p>
+    <boxed-text id="box01" orientation="portrait" position="float">
+     <sec id="sec18a">
+      <title>
+       Key Points
+      </title>
+      <list list-type="bullet">
+       <list-item>
+        <p>
+         As we aware, the COVID-19 infection is the current global health epidemic, with very high infection and spreading rate, which is changing the deadly global figure, hour by hour. Unluckily, no vaccines or specific treatment is available, which makes it more deadly.
+        </p>
+       </list-item>
+       <list-item>
+        <p>
+         This study provides knowledge about the involvement of SARS-CoV-2 spike glycoprotein in the immune pathogenesis of the virus as well as induced the protective immune response.
+        </p>
+       </list-item>
+       <list-item>
+        <p>
+         In this study, we have identified 15 antigenic peptides (epitopes) in SARS-CoV-2 spike glycoprotein. These epitopes are capable of evoking the T-cell immune response via interacting with the MHC class-I and II molecules, and few epitopes are also capable of inducing the B-cell immune response.
+        </p>
+       </list-item>
+       <list-item>
+        <p>
+         Notably, we found 12 peptides (epitopes) that have 80–90% identity with experimentally identified epitopes of SARS-CoV, and this will likely be beneficial for a quick progression of the vaccine design.
+        </p>
+       </list-item>
+       <list-item>
+        <p>
+         All peptides are nontoxic and nonallergenic in nature, highly antigenic and non-mutated in other SARS-CoV-2 virus strains.
+        </p>
+       </list-item>
+       <list-item>
+        <p>
+         Our study provides the knowledge and boosts the ongoing and struggling scientific society for designing an effective vaccine to stop the current global health emergency.
+        </p>
+       </list-item>
+      </list>
+     </sec>
+    </boxed-text>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec sec-type="supplementary-material">
+    <title>
+     Supplementary Material
+    </title>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

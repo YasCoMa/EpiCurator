@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Variations in SARS-CoV-2 Spike Protein Cell Epitopes and Glycosylation Profiles During Global Transmission Course of COVID-19
+ </title>
+ <abstract>
+  <p>
+   Coronavirus disease 2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has led to an outbreak of a pandemic worldwide. For better understanding the viral spike (S) protein variations and its potential effects on the interaction with the host immune system and also in vaccine development, the cell epitopes, glycosylation profile and their changes during the global transmission course were characterized and compared with SARS-CoV for their glycosylation profile. We analyzed totally 7,813 sequences screened from 8,897 whole genome sequences on GISAID database up to April 26, and 18 S protein amino acid variations with relatively high frequency (≥10   ) were identified. A total of 228 sequences of variants had multiple variations, of note, most of them harboring the D614G mutation. Among the predicted 69 linear B cell epitopes, 175 discontinuous B cell epitopes and 41 cytotoxic T lymphocyte epitopes in the viral S protein, we found that the protein structure and its potential function of some sites changed, such as the linear epitope length shortened and discontinuous epitope disappeared of G476S. In addition, we detected 9 predicted N-glycosylation sites and 3 O-glycosylation sites unique to SARS-CoV-2, but no evidently observed variation of the glycan sites so far. Our findings provided an important snapshot of temporal and geographical distributions on SARS-CoV-2 S protein cell epitopes and glycosylation sites, which would be an essential basis for the selection of vaccine candidates.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     The emergence of coronavirus disease 2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has led to an outbreak of a global pandemic (     ). As no specific anti-viral therapies or vaccines have been developed yet, there is an urgent need for research regarding the structure and function of proteins of the virus.
+    </p>
+    <p>
+     SARS-CoV-2 is a single, positive stranded RNA virus, which codes for ORF1a, ORF1b, Spike (S), ORF3a, ORF3b, Envelope, Membrane, ORF6, ORF7a, ORF7b, ORF8, ORF9b, ORF14, Nucleocapsid, and ORF10 proteins. The S protein is a class I viral fusion protein. It is composed of an S1 subunit that binds to the host cell receptor, and an S2 subunit that mediates the fusion of the viral cellular membrane and is important for cell adhesion and the induction of protective immunity (     ). Thus, the efficacy of neutralizing antibodies targeting the S protein may be affected by variations in its sequence (     ). So far, the evolutionary pattern of S protein during the epidemic course remains unclear.
+    </p>
+    <p>
+     Several clinical studies have confirmed that host immune response was involved COVID-19 pathogenesis. Researchers detected IgM antibodies in 73% of patients and IgG in 54% of patients at day 14 after disease onset in COVID-positive patients (     ). While circulating SARS-CoV-2-specific CD8     and CD4     T cells were identified in 70 and 100% of convalescent patients with COVID-19, respectively (     ). The prediction of T and B cell epitopes in the S protein would provide valuable information for the development of vaccines and antibody-based therapeutics due to their dominant and long-lasting immune response. Viral S protein is modified by glycosylation, which may be implicated in immune evasion from the host immune system, shielding the protein surface from detection by antibodies, and affects the ability of the host to mount an effective adaptive immune response (     ,     ). Indeed, the recently reported cryo-EM structure of SARS-CoV-2 suggested that, like SARS-CoV, the S protein of SARS-CoV-2 is also extensively glycosylated (     ).
+    </p>
+    <p>
+     Therefore, investigating the glycosylation pattern and cell epitopes of the viral S protein may help understand its interaction with the host immune system and accelerate vaccine development. However, immunological information available on SARS-CoV-2 is lacking. In the present study, we compared the glycosylation of the S proteins of SARS-CoV-2 and SARS-CoV. Furthermore, we identified the variations in glycosylation and cell epitopes of SARS-CoV-2 during the global transmission course, and further explored the significance of these changes.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="materials and methods">
+    <title>
+     Materials and Methods
+    </title>
+    <sec>
+     <title>
+      Sequence Analysis
+     </title>
+     <p>
+      SARS-CoV-2 genomic sequences submitted to Global Initiative of Sharing All Influenza Data (GISAID) database (
+      <ext-link ext-link-type="uri" ns0:href="https://www.gisaid.org/">
+       https://www.gisaid.org/
+      </ext-link>
+      ) till April 26, 2020, that met the following criteria, were retrieved: (1) whole genome sequence; (2) sequence length &gt;29,000 bp; and (3) high coverage. Totally, 8,897 SARS-CoV-2 whole genome sequences were collected.
+     </p>
+     <p>
+      To identify the S gene of each viral strain, the viral genomes were aligned to the S gene of reference sequence (SARS-CoV-2 virus isolate Wuhan-Hu-1, MN908947) using BLAST (      ), and sequences with unspecified bases (N) in the S gene were filtered out. Sequence manipulations were carried out using in-house Perl scripts. Further screening of SARS-CoV-2 nucleotide sequences was conducted according to the transmission course (December 2019–April 2020) and regions (Asia, Europe, North America, South America and Oceania) the samples were collected in.
+     </p>
+     <p>
+      The filtered SARS-CoV-2 S gene sequences were translated to amino acid sequences and aligned by using MEGA X software (      ). Amino acid variations with frequency higher than 10      were detected by using the QAP software and defined as relatively high frequency variations (      ). All sequences selected were classified by transmission course and region. In addition, the strains with multiple variations were also analyzed.
+     </p>
+    </sec>
+    <sec>
+     <title>
+      Cell Epitope Prediction
+     </title>
+     <p>
+      Linear B cell epitopes for SARS-CoV-2 S protein (wild type and variant) were determined in BepiPred (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/BepiPred">
+       http://www.cbs.dtu.dk/services/BepiPred
+      </ext-link>
+      ), which combines a hidden Markov model and a propensity scale method. Briefly, protein sequences were uploaded in FASTA form, and score threshold for the epitope was set to 0.35. So those residues with scores above 0.35 were predicted to be part of an epitope. Discontinuous epitopes were predicted by the DiscoTope method (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.immuneepitope.org/discotope/">
+       http://tools.immuneepitope.org/discotope/
+      </ext-link>
+      ), we used 6VSB PDB as a 3D structure model of the wild-type SARS-CoV-2 S protein (). For variant S protein, we modeled a 3D structure of S protein harboring each amino acid variation.
+     </p>
+     <p>
+      Cytotoxic T lymphocyte (CTL) epitopes for the S protein of the SARS-CoV-2 reference sequence were identified with TepiTool from the Immune Epitope Data-base and Analysis Resource (IEDB) analysis resource (
+      <ext-link ext-link-type="uri" ns0:href="http://tools.immuneepitope.org/tepitool/">
+       http://tools.immuneepitope.org/tepitool/
+      </ext-link>
+      ) using the recommended method (      ). After submitting protein sequences, we selected a panel of the 27 most frequent alleles in the global population and “moderate number of peptides” (8, 9, 10, and 11 mers) for prediction. IEDB recommended was chosen as the prediction method. CTL epitopes obtained were further confirmed using the NetMHCpan-4.0 server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetMHCpan-4.0/">
+       http://www.cbs.dtu.dk/services/NetMHCpan-4.0/
+      </ext-link>
+      ), which utilizes ANN trained on quantitative binding data and mass spectroscopy-derived major histocompatibility complex (MHC) eluted ligands to predict epitope-MHC-I binding (      ). We selected the 12 most frequent human leukocyte antigen (HLA) class I alleles in the worldwide population (      ), including HLA-A      01:01, HLA-A      02:01, HLA-A      03:01, HLA-A      11:01, HLA-A      23:01, HLA-A      24:02, HLA-B      07:02, HLA-B      08:01, HLA-B      35:01, HLA-B      40:01, HLA-B      44:02, and HLA-B      44:03. The rank thresholds for strong and weak binding peptides were 0.5 and 2%, respectively. The effects of corresponding amino acid variations on MHC class I binding levels were compared.
+     </p>
+    </sec>
+    <sec>
+     <title>
+      Glycosylation Site Analysis
+     </title>
+     <p>
+      To identify significant differences in glycosylation patterns, N-linked glycosylation sites of SARS-CoV-2 and SARS-CoV were analyzed using the relevant web server (
+      <ext-link ext-link-type="uri" ns0:href="http://www.cbs.dtu.dk/services/NetNGlyc">
+       http://www.cbs.dtu.dk/services/NetNGlyc
+      </ext-link>
+      ), we chose 0.5 as the predication threshold. The results were shown as a graphic illustrating the potential glycosylation sites. O-linked glycosylation sites were also predicted using NetOGlyc (version 1.0) to examine sequence context. The glycosylation sites of the two viruses were compared based on the transmission course and region, and the characteristics of variations were analyzed.
+     </p>
+     <p>
+      A 3D protein structure of SARS-CoV-2 S protein was obtained from the SWISS-MODEL server (swissmodel.expasy.org) using protein homology modeling, based on a cryo-EM structure (PDB ID: 6VSB) (      ). To structurally model SARS-CoV-2 S protein glycosylation, all predicted O- and N-linked glycosylation sites were introduced into the crystal structure using the PyMol program (version 2.4.3). Different colors were used to mark several essential parts to help understand this more intuitively.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec>
+     <title>
+      Basic Information on All Sequences
+     </title>
+     <sec>
+      <title>
+       Temporal and Regional Distributions of Sequences
+      </title>
+      <p>
+       According to the filtering criteria, finally 7,813 full-length S gene sequences of SARS-CoV-2 and 96 S gene sequences of SARS-CoV were retrieved. The glycosylation analysis of these two viruses was conducted using these sequences, while cell epitope prediction was based on the reference sequence. All sequences were classified to explore whether SARS-CoV-2 had a special evolutionary pattern or variation mode during the global transmission course (       ). Consistent with previous results, the sequences from cases from December 2019 to February 2020 were concentrated in Asia, and the subsequent sequences in March and April were spread in Europe and North America. The total number of sequences detected in March was much higher than that in January and February.
+      </p>
+     </sec>
+     <sec>
+      <title>
+       Amino Acid Variations of SARS-CoV-2 Spike Protein
+      </title>
+      <p>
+       We generated a scatter diagram to analyze amino acid variations in S protein for the selected sequences (       ). A total of 18 relatively high frequency amino acid variation sites were detected. The temporal and geographical distributions of the sequences containing amino acid variations above were comprehensively analyzed (       ) and a detailed report regarding these distributions was summarized (       ).
+      </p>
+      <p>
+       Among the 18 amino acid variation sites, the highest frequency substitution was D614G. This variant was globally distributed and propagated throughout the timeline of viral transmission (first appeared in Zhejiang on January 24, 2020). This indicated a more aggressive feature that made it spreading more quickly (       ). We observed that most remaining sites had their special temporal and regional propensities, such as Q239K, A831V, D839Y, A879S, D936Y, S943P, and P1263L, which were mainly concentrated in Europe in March, 2020. There was an increasing tendency in the number of the variety of variants in the sequence as the spread of the virus continued; Europe had the most kinds of amino acid variants, some of which were unique to the region.
+      </p>
+      <p>
+       Unexpectedly, variants with multiple relatively high frequency variations were found in 228 sequences (       and       ). All contained two the more frequency variations, a total of 18 types, except for one triple variations (T29I, D614G, and G1124V). Remarkably, most of them harbored with D614G mutation (226 of 228). It is obvious that most sequences with multi-variations were from Europe, and no one was in South America and Africa. Regarding the temporal distribution, the majority of these were concentrated in March 2020, but none was detected in January.
+      </p>
+     </sec>
+    </sec>
+    <sec>
+     <title>
+      Cell Epitope Predictions of SARS-CoV-2 Spike Protein and Its Variations
+     </title>
+     <sec>
+      <title>
+       B Cell Epitopes
+      </title>
+      <p>
+       Altogether, 69 peptides of S protein were predicted as linear B cell epitopes (       and       ). Among them, amino acid substitutions T29I, G476S, D936Y, S943P, and P1263L changed the length of the linear B cell epitopes, whereas V483A, Q675H, and A706V had no influence on the length of linear epitopes, and the others had no effect on linear B cell epitopes (       ). Notably, two amino acid substitutions within receptor-binding domain (RBD) had different impacts. G476S shortened epitope length from 13 to 11 amino acids (YQAGSTPCNGAEG to YQASSTPCNGV), whereas V483A remained the same. D936Y nearly abolished the original epitope (DSLSST, 936–941), whereas S943P induced the formation of a novel 9 amino acid epitope (DSLSSTAPAL, 936–945).
+      </p>
+      <table-wrap id="T1" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         Variations in linear B cell epitope prediction of SARS-CoV-2 spike protein and its impacts.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            No
+           </bold>
+           .
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Variation
+           </bold>
+          </th>
+          <th align="center" colspan="2" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+           <bold>
+            Wide type epitopes
+           </bold>
+          </th>
+          <th align="center" colspan="2" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+           <bold>
+            Variant epitopes
+           </bold>
+          </th>
+         </tr>
+         <tr>
+          <th colspan="1" rowspan="1"/>
+          <th colspan="1" rowspan="1"/>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Length (start-end)
+           </bold>
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Peptides
+           </bold>
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Length (start-end)
+           </bold>
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Peptides
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           1
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           T29I
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           11 (21–31)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           RTQLPPAYTNS
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           7 (21–27)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           RTQLPPA
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           2
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           G476S
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           13 (473–485)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           YQAGSTPCNGAEG
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           11 (473–483)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           YQASSTPCNGV
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           3
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           V483A
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           13 (473–485)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           YQAGSTPCNGAEG
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           13 (473–485)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           YQAGSTPCNGAEG
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           4
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Q675H
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           13 (675–687)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           QTQTNSPRRARSV
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           13 (675–687)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           HTQTNSPRRARSV
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           5
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           A706V
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           4 (704–707)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           SVAY
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           4 (704–707)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           SVVY
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           6
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           D936Y
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           6 (936–941)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           DSLSST
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           1 (939–939)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           7
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           S943P
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           1 (943–943)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           9 (936–945)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           DSLSSTAPAL
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           8
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           P1263L
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           10 (1,256–1,265)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           FDEDDSEPVL
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           6 (1,256–1,261)
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           FDEDDS
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+      <p>
+       Using 3D structures of SARS-CoV-2 S protein, 175 discontinuous B cell epitopes were predicted (       ). Among the 18 substitution sites, only sites 476 and 706 were in discontinuous epitopes (       ). By construction of the 3D structures of S protein with the amino acid substitutions, we found that G476S substitution rendered the peptide as a non-epitope and A706V had no effect on epitope prediction.
+      </p>
+      <table-wrap id="T2" position="float">
+       <label>
+        Table 2
+       </label>
+       <caption>
+        <p>
+         Variations in discontinuous B cell epitope prediction of SARS-CoV-2 spike protein and its impacts.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            No
+           </bold>
+           .
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Position
+           </bold>
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Wide type
+           </bold>
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Variant type
+           </bold>
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Variation impact
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           1
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           476
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Gly
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Ser
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Epitope disappear
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           2
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           706
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Ala
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Val
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Epitope unchanged
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </sec>
+     <sec>
+      <title>
+       T Cell Epitopes
+      </title>
+      <p>
+       To assess the effects of amino acid substitution on CTL epitopes of SARS-CoV-2 S protein, we first predicted epitopes of “wild type” S protein based on the 27 most frequent alleles in the global population because there is significant overlapping among different HLA class I alleles. We further confirmed CTL epitopes with the 12 most frequent HLA class I alleles in the population according to a previous report (       ). Here, we identified 41 peptides as strong binders, indicated by a % rank below the specified threshold of 0.5% (       ). For variant S proteins, T29I, H49Y, Q239K, V367F, V483A, A706V, A831V, D839Y, S943P, A1078S, and P1263L were located in the predicted CTL epitopes according to the HLA class I allele (       ). In contrast, G476S, D614G, Q675H, A879S, D936Y, and G1124V were outside of the CTL epitopes. Binding level results of T29I, V367F, A706V, and A831V demonstrated that these substitutions had low binding affinity in HLA-A01:01, HLA-B07:02, and HLA-B35:01 compared to the wild type, while H49Y, Q239K, V483A, D839Y, S943P, A1078S, and P1263L substitutions still had strong binding affinity with HLA molecules.
+      </p>
+      <table-wrap id="T3" position="float">
+       <label>
+        Table 3
+       </label>
+       <caption>
+        <p>
+         Variations in cytotoxic T lymphocyte cell epitope prediction of SARS-CoV-2 spike protein and its impacts.
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            No
+           </bold>
+           .
+          </th>
+          <th align="left" colspan="1" rowspan="1" valign="top">
+           <bold>
+            Variation
+           </bold>
+          </th>
+          <th align="center" colspan="12" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+           <bold>
+            Bind level
+           </bold>
+          </th>
+         </tr>
+         <tr>
+          <th colspan="1" rowspan="1"/>
+          <th colspan="1" rowspan="1"/>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-A01:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-A02:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-A03:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-A11:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-A23:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-A24:02
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-B07:02
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-B08:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-B40:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-B35:01
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-B44:02
+           </bold>
+          </th>
+          <th align="center" colspan="1" rowspan="1" valign="top">
+           <bold>
+            HLA-B44:03
+           </bold>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           1
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           T29I
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ W
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ W
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ W
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           2
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           H49Y
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           3
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           Q239K
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           4
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           V367F
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ W
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           5
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           V483A
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           6
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           A706V
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ W
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           7
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           A831V
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ W
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           8
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           D839Y
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           9
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           S943P
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           10
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           A1078S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+         <tr>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           11
+          </td>
+          <td align="left" colspan="1" rowspan="1" valign="top">
+           P1263L
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           S→ S
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+          <td align="center" colspan="1" rowspan="1" valign="top">
+           /
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <p>
+         <italic>
+          HLA, human leukocyte antigen; S, strong binder; W, weak binder; /, no predicted T cell epitope; S→ W represents decreased binding affinity after variation; S→ S represents no change in binding affinity
+         </italic>
+         .
+        </p>
+       </table-wrap-foot>
+      </table-wrap>
+     </sec>
+    </sec>
+    <sec>
+     <title>
+      Glycosylation Site Analysis of SARS-CoV-2 Spike Protein and Comparison With SARS-CoV
+     </title>
+     <p>
+      To explore the characteristic glycosylation pattern of the viral S protein in both viruses, we first detected all N- and O-glycosylation sites on the SARS-CoV-2 and SARS-CoV. This data was used for comparative analysis (      and      ).
+     </p>
+     <table-wrap id="T4" position="float">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        Comparison of N- and O-glycosylation sites on spike proteins between SARS-CoV-2 and SARS-CoV.
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="center" colspan="5" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           SARS-CoV-2
+          </bold>
+         </th>
+         <th align="center" colspan="5" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           SARS-CoV
+          </bold>
+         </th>
+        </tr>
+        <tr>
+         <th align="center" colspan="3" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           N-linked
+          </bold>
+         </th>
+         <th align="center" colspan="2" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           O-linked
+          </bold>
+         </th>
+         <th align="center" colspan="3" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           N-linked
+          </bold>
+         </th>
+         <th align="center" colspan="2" rowspan="1" style="border-bottom: thin solid #000000;" valign="top">
+          <bold>
+           O-linked
+          </bold>
+         </th>
+        </tr>
+        <tr>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Position
+          </bold>
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Sites
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Subunit
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Position
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Subunit
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Position
+          </bold>
+         </th>
+         <th align="left" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Sites
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Subunit
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Position
+          </bold>
+         </th>
+         <th align="center" colspan="1" rowspan="1" valign="top">
+          <bold>
+           Subunit
+          </bold>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          61
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NVTW
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          673
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          29
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NYTQ
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          336
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          74
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NGTK
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          678
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          65
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NVTG
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          924
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          234
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NITR
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          686
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          119
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NSTN
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          282
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NGTI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          227
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NITN
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          616
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NCTE
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          269
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NGTI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          709
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NNSI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          318
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NITN
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          717
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NFTI
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          602
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NCTD
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S1
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1158
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NHTS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          783
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NFSQ
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          1194
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NESL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1140
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NHTS
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          1176
+         </td>
+         <td align="left" colspan="1" rowspan="1" valign="top">
+          NESL
+         </td>
+         <td align="center" colspan="1" rowspan="1" valign="top">
+          S2
+         </td>
+         <td colspan="1" rowspan="1"/>
+         <td colspan="1" rowspan="1"/>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <sec>
+      <title>
+       SARS-CoV-2 vs. SARS-CoV
+      </title>
+      <p>
+       A total of 22 and 24 potential N-glycosylation sites were found on the S protein of SARS-CoV-2 and SARS-CoV, respectively, as predicted by the NetNGlyc web server. A total of 9 sites on SARS-CoV-2 S protein and 10 sites on SARS-CoV S protein sites were identified as N-glycosylation sites (crossing the default threshold of 0.5). The threshold and glycosylation potential of the two viruses are shown in       .
+      </p>
+      <p>
+       N-linked glycosylation sites on SARS-CoV-2 S protein were one less than SARS-CoV, including N61, N74, N234, N282, N616, N709, N717, N1158, and N1194 (       ). These results are consistent with those of other studies, even though not as many glycosylation sites were reported (       ). The glycosylation sites of the two viruses were different, with no regular pattern, although the number was almost the same. Despite these gaps, the most significant difference observed was in sites N269 and N318 in the RBD region of SARS-CoV. We observed only two O-glycosylation sites on SARS-CoV S protein, with one in the RBD region, whereas three sites (S673, T678, and S686) were O-glycosylated on SARS-CoV-2 S protein (       ). Interestingly, these three sites flanked a polybasic cleavage site (RRAR) at the junction of S1 and S2 adjacent to the RBD.
+      </p>
+     </sec>
+     <sec>
+      <title>
+       Changes During the Transmission Course and Different Regions
+      </title>
+      <p>
+       Surprisingly, the genomic sequences collected at each month were similar from December 2019 to April 2020, indicating that no substantial variation had occurred during that time. The sequences of SARS-CoV-2 S protein did not reveal any unexpected variations, indicating the genetic stability of S protein during transmission.
+      </p>
+      <p>
+       In agreement with previous results, the geographical distribution of this virus was also similar all over the world. From the beginning of the outbreak at Wuhan and in other cities in China later to East Asia and part of European cities from February to March, and North America now, no significant variation was observed in the S protein sequence.
+      </p>
+     </sec>
+     <sec>
+      <title>
+       Structural Modeling of Glycosylation on SARS-CoV-2 Spike Protein
+      </title>
+      <p>
+       Using the cryo-EM structure of the trimeric SARS-CoV-2 S protein, we mapped the glycosylation status of the virus S protein onto the experimentally determined 3D structure (       ). Our results showed that the RBD and all glycosylation sites, including N- and O-glycosylation, were clearly observed from the marked and annotated protein structure.
+      </p>
+     </sec>
+    </sec>
+    <sec>
+     <title>
+      Receptor Binding Domain of the SARS-CoV-2 Spike Protein
+     </title>
+     <p>
+      We explored the molecular structure and evolutionary pattern of the RBD, a critical element for coronavirus infection, during the COVID-19 transmission course. We observed that three amino acid substitutions within the RBD (V367F, G476S, and V483A) were identified, whose impacts in predicted cell epitope were different. Of note, G476S shortened a linear B cell epitope length and even abolished the discontinuous B cell epitope. V367F decreased the peptide binding affinity for the HLA-B35:01 allele, whereas V483A had no effect on either cell epitope. With three O-linked glycosylation sites adjacent to the domain, the evolutionary glycosylation pattern remained conserved.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     In this study, we explored the evolutionary pattern including cell epitopes and glycosylation on the SARS-CoV-2 S protein during the global transmission course. We identified 18 S protein variations and explored their potential impacts on cell epitopes. To our knowledge, this is the first comparative study analyzing immune epitopes and glycosylation of SARS-CoV-2 variants.
+    </p>
+    <p>
+     According to the analysis of all sequences classified by transmission course and region, confirmed COVID-19 cases were concentrated in Asia during the early stage of epidemic, and then spread to Europe and North America. The rapid global spread of the virus provided opportunities for natural selection and to develop favorable variations facilitated transmission. Up to now, there has been limited variations on SARS-CoV-2 S protein detected, which is consistent with the results of published studies. An error-prone reverse transcription in RNA virus life circle usually drives nucleotide and amino acid substitutions in the genome, and viral evolution is also impacted by pressure from host immune response. For SARS-CoV-2, variations were also driven by this two factors, especially some amino acid substitutions had altered cell epitopes. In addition, acute transmission maybe one reason for the limited number of variations. During the pandemic, rapid transmission of SARS-CoV-2, together with lower immune response (compared with SARS-CoV) in the host may not provide enough time and selection pressure for the virus to evolve quickly.
+    </p>
+    <p>
+     We identified 18 relatively high frequency variants on S protein that accumulated during transmission. Among them, the D614G mutant has aroused urgent concern recently, because of its extraordinarily high frequency (     ). A study suggested that the D614G mutant may have originated either in China or Europe, but spread rapidly first in Europe, and then to other parts of the world. It is now the dominant pandemic across the world (     ). Another study indicated that the D614G mutant was first collected on January 28, 2020 in Germany (     ). However, given the small sample size, it is hard to ascertain whether D614G is the dominant strain in these countries. Our results suggested that this variant first appeared in Zhejiang earlier (January 24, 2020) but did not become prevalent in China. Based on a recent article, the G614 variant spread faster than D614 (     ). The author explained as the virus was likely to be more infectious, a hypothesis consistent with the higher infectivity observed with G614 S-pseudotyped viruses observed
+     <italic>
+      in vitro
+     </italic>
+     , and this variant association with higher patient Ct values, indicative of potentially higher
+     <italic>
+      in vivo
+     </italic>
+     viral loads. Another study reported an association between the G614 variant and higher fatality rates in a comparison of mortality rates across countries (     ). Interestingly, we also found that many sequences of variants had multi-variations, of note, most of which were combined with D614G mutant. These variants, especially harboring variations would be implicated in vaccine development and antiviral therapy.
+    </p>
+    <p>
+     Recently, there has been published papers on the definition of B and T cell epitopes (     –     ). Most defined cell epitopes on S protein were within or close to the RBD region (amino acids 319–541). Another study identified three ID sites, S370–394, S450–469, and S480–499, which were considered as T and B cell linear epitopes (     ). In comparison, we identified 3 amino acid substitutions (V367F, G476S, and V483A) in the RBD region, and V483A was in one epitope. The A831V located in a defined linear B cell epitope (amino acids 818–835) was a part of the fusion peptide of S protein. Therefore, the alterations to immune response by these substitutions need further investigation. Several known coronaviruses that infect humans could trigger antibody and T cell responses in infected patients: however, antibody levels appear to wane faster than T cells. SARS-CoV-specific antibodies dropped below the detection limit within 2–3 years, whereas SARS-CoV-specific memory T cells have been detected even 11 years after SARS infection (     ). An article showed that SARS-recovered patients still possess long-lasting memory T cells reactive to SARS-nucleocapsid protein 17 years. Surprisingly, they also frequently detected SARS-CoV-2 specific T cells in individuals with no history of SARS, COVID-19 or contact with SARS/COVID-19 patients (     ). That indicates that T cell response may be more common and lasting than B cell response.
+    </p>
+    <p>
+     Many variations related to epitopes were predicted to have effects on the epitopes. Changes in the peptide length of linear B cell epitopes and discontinuous epitope conformation may affect the host immune response. The binding affinity of some epitopes switched from strong to weak binder due to specific variations (including T29I, V367F, A706V, and A831V) in context of HLA alleles. Weaker binding affinity with HLA-I usually induces lower CTL immune response in the host or even viral immune escape, and thus it is necessary to clarify whether the outcomes of patients infected with variants are different from those infected with wild types and how these variants spread during global transmission. Although a single amino acid change in an epitope may not affect recognition by antibodies, a new variant in the same epitope may emerge as the variations accumulate (     ). Further experimental studies, including those on T cell and B cell, are required to determine the potential of identified epitopes to induce a positive immune response against SARS-CoV-2.
+    </p>
+    <p>
+     The glycosylation of viral proteins has a broad role in the field of viral physiology and pathology, including mediating protein folding and stability, and influencing viral infectivity (     ,     ). The impacts of glycosylation on immune evasion have been studied for other coronaviruses (     ,     ). We observed differential glycosylation in SARS-CoV-2, compared to SARS-CoV. For instance, there was no N-linked glycosylation site in the RBD region of SARS-CoV-2, whereas two sites, N269 and N318, are present in the SARS-CoV RBD region. Whether this variation is correlated with differential receptor binding affinities of the two viruses remains unclear. There were two O-glycosylation sites on the SARS-CoV S protein, one of which was in the RBD region. In contrast, there were three predicted O-glycosylation sites on the SARS-CoV-2 S protein, although none were in the RBD region. Conserved glycosylation sites during the global transmission course was another characteristic of the SARS-CoV-2 S protein. Previous researchers generated 3D structures of glycoforms of the S protein and determined the extent to which the heterogeneity of glycans impacts antigenicity (     ,     ,     ). The results indicated that although glycan-heterogeneity impacted various factors (such as abundance, cell type, etc.), the efficacy of antisera does not appear to be impacted by such differences, which is consistent with our study. These results suggested that the SARS-CoV-2 S protein contains a different masking or glycan camouflage pattern compared to other coronaviruses, which may provide an evidence for the differences in host immunity.
+    </p>
+    <p>
+     So far, of the 3 amino acid variations identified in the RBD of SARS-CoV-2, G476S was directly in an angiotensin-converting enzyme 2 contact residue. No variation in N- or O-linked glycosylation have been observed in the RBD of SARS-CoV-2 reported, but the predicted three O-glycosylation sites (Ser673, Thr678, and Ser686) are close to each other and adjacent to the RBD. Additionally, there is a polybasic furin cleavage site (RRAR) and a leading proline inserted at the junction of S1 and S2, which allows for effective cleavage of the S protein by proteases (     ). The unique structure probably impacts viral infectivity and receptor binding in the RBD. It is believed that these three predicted O-glycosylation sites can form a “mucin-like domain” to protect S protein epitopes or key residues of SARS-CoV-2 from the immune system (     ,     ). Although no studies have confirmed the role of these O-linked glycosylation until now, it is likely that they make a great contribution in the immune-evasion mechanism of the virus.
+    </p>
+    <p>
+     Due to the various factors, such as the economic level, scientific and technological development, the number and quality of SARS-CoV-2 sequences uploaded from different countries and regions may vary widely and lack of representative. The result is probably subject to sampling biases, although it is an unavoidable objective factor. In order to mitigate this potential possibility, we downloaded all sequences (including as many countries and regions as possible) in the specified time period and excluded incomplete and low quality sequences. We analyzed all sequences available and high quality without selecting the representatives.
+    </p>
+    <p>
+     In conclusion, our research offers a novel perspective on the distribution characteristics of relatively high frequency amino acid variations, the impacts of T and B cell epitope variants, and the conserved evolution of glycosylation sites of SARS-CoV-2 S protein during the global transmission course. It would contribute to the evaluation of vaccine candidate immunogenicity, as well as monitoring of the potential consequences of glycosylation and cell epitope variations in the process of viral transmission.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s5" sec-type="data-availability">
+    <title>
+     Data Availability Statement
+    </title>
+    <p>
+     Publicly available datasets were analyzed in this study. This data can be found here: GISAID database.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s6">
+    <title>
+     Author Contributions
+    </title>
+    <p>
+     XZ and DY conceived of the paper. DY, WX, and MW performed the research. MW and WX designed tables and figures. WX and DY wrote the paper. XZ monitored the project. All authors contributed to the article and approved the submitted version.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s7">
+    <title>
+     Conflict of Interest
+    </title>
+    <p>
+     The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+    </p>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

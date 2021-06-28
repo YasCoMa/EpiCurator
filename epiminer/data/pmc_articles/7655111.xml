@@ -1,0 +1,2622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Dynamically evolving novel overlapping gene as a factor in the SARS-CoV-2 pandemic
+ </title>
+ <abstract>
+  <p>
+   Understanding the emergence of novel viruses requires an accurate and comprehensive annotation of their genomes. Overlapping genes (OLGs) are common in viruses and have been associated with pandemics but are still widely overlooked. We identify and characterize
+   <italic>
+    ORF3d
+   </italic>
+   , a novel OLG in SARS-CoV-2 that is also present in Guangxi pangolin-CoVs but not other closely related pangolin-CoVs or bat-CoVs. We then document evidence of
+   <italic>
+    ORF3d
+   </italic>
+   translation, characterize its protein sequence, and conduct an evolutionary analysis at three levels: between taxa (21 members of
+   <italic>
+    Severe acute respiratory syndrome-related coronavirus
+   </italic>
+   ), between human hosts (3978 SARS-CoV-2 consensus sequences), and within human hosts (401 deeply sequenced SARS-CoV-2 samples).
+   <italic>
+    ORF3d
+   </italic>
+   has been independently identified and shown to elicit a strong antibody response in COVID-19 patients. However, it has been misclassified as the unrelated gene
+   <italic>
+    ORF3b
+   </italic>
+   , leading to confusion. Our results liken
+   <italic>
+    ORF3d
+   </italic>
+   to other accessory genes in emerging viruses and highlight the importance of OLGs.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="s1" sec-type="intro">
+    <title>
+     Introduction
+    </title>
+    <p>
+     The COVID-19 pandemic raises urgent questions about the properties that allow animal viruses to cross species boundaries and spread within humans. Addressing these questions requires an accurate and comprehensive understanding of viral genomes. One frequently overlooked source of novelty is the evolution of new overlapping genes (OLGs), wherein a single stretch of nucleotides encodes two distinct proteins in different reading frames. Such ‘genes within genes’ compress genomic information and allow genetic innovation via
+     <italic>
+      overprinting
+     </italic>
+     (     ), particularly as frameshifted sequences preserve certain physicochemical properties of proteins (     ). However, OLGs also entail the cost that a single mutation may alter two proteins, constraining evolution of the pre-existing open reading frame (ORF) and complicating sequence analysis. Unfortunately, genome annotation methods typically miss OLGs, instead favoring one ORF per genomic region (     ).
+    </p>
+    <p>
+     OLGs are known entities but remain inconsistently reported in viruses of the species
+     <italic>
+      Severe acute respiratory syndrome-related coronavirus
+     </italic>
+     (subgenus
+     <italic>
+      Sarbecovirus
+     </italic>
+     ; genus
+     <italic>
+      Betacoronavirus
+     </italic>
+     ;     ). For example, annotations of
+     <italic>
+      ORF9b
+     </italic>
+     and
+     <italic>
+      ORF9c
+     </italic>
+     are absent or conflicting in SARS-CoV-2 reference genome Wuhan-Hu-1 (NCBI: NC_045512.2) and genomic studies (e.g.     ;     ), and OLGs are often not displayed in genome browsers (e.g.     ). Further,
+     <italic>
+      ORF3b
+     </italic>
+     , an extensively characterized OLG within
+     <italic>
+      ORF3a
+     </italic>
+     that is present in other species members including SARS-CoV (SARS-CoV-1) (     ), has sometimes been annotated in SARS-CoV-2 even though it contains four early STOP codons in this virus. Such inconsistencies complicate research, because OLGs may play key roles in the emergence of new viruses. For example, in human immunodeficiency virus-1 (HIV-1), the novel OLG
+     <italic>
+      asp
+     </italic>
+     within
+     <italic>
+      env
+     </italic>
+     is actively expressed in human cells (     ) and is associated with the pandemic M group lineage (     ).
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s2" sec-type="results">
+    <title>
+     Results
+    </title>
+    <sec id="s2-1">
+     <title>
+      Novel overlapping gene candidates
+     </title>
+     <p>
+      To identify novel OLGs within the SARS-CoV-2 genome, we first generated a list of candidate overlapping ORFs in the Wuhan-Hu-1 reference genome (NCBI: NC_045512.2). Specifically, we used the codon permutation method of      to detect unexpectedly long ORFs while controlling for codon usage. One unannotated OLG candidate, here named
+      <italic>
+       ORF3d
+      </italic>
+      , scored highly (p=0.0104), exceeding the significance of two known OLGs annotated in Uniprot (
+      <italic>
+       ORF9b
+      </italic>
+      and
+      <italic>
+       ORF9c
+      </italic>
+      , both within
+      <italic>
+       N
+      </italic>
+      ;
+      <ext-link ext-link-type="uri" ns0:href="https://viralzone.expasy.org/8996">
+       https://viralzone.expasy.org/8996
+      </ext-link>
+      ) (      ,      , and      ).
+     </p>
+     <p>
+      <italic>
+       ORF3d
+      </italic>
+      comprises 58 codons (including STOP) near the beginning of
+      <italic>
+       ORF3a
+      </italic>
+      (      ), making it longer than the known genes
+      <italic>
+       ORF7b
+      </italic>
+      (44 codons) and
+      <italic>
+       ORF10
+      </italic>
+      (39 codons) (      ).
+      <italic>
+       ORF3d
+      </italic>
+      was discovered independently by      as ‘
+      <italic>
+       ORF3b
+      </italic>
+      ’ and      as ‘hypothetical protein’. Due to this naming ambiguity and its location within
+      <italic>
+       ORF3a
+      </italic>
+      ,
+      <italic>
+       ORF3d
+      </italic>
+      has subsequently been conflated with the previously documented
+      <italic>
+       ORF3b
+      </italic>
+      in multiple studies (e.g.      ;      ;      ;      ;      ;      ). Critically,
+      <italic>
+       ORF3d
+      </italic>
+      is unrelated (i.e. not homologous) to
+      <italic>
+       ORF3b
+      </italic>
+      , as the two genes occupy different genomic positions within
+      <italic>
+       ORF3a: ORF3d
+      </italic>
+      ends 39 codons upstream of the genome region homologous to
+      <italic>
+       ORF3b
+      </italic>
+      , and the
+      <italic>
+       ORF3b
+      </italic>
+      start site encodes only 23 codons in SARS-CoV-2 due to a premature STOP (      ;      ,      ,      , and      ). Furthermore, the two genes occupy different reading frames: codon position 1 of
+      <italic>
+       ORF3a
+      </italic>
+      overlaps codon position 2 of
+      <italic>
+       ORF3d
+      </italic>
+      (frame ss12) but codon position 3 of
+      <italic>
+       ORF3b
+      </italic>
+      (frame ss13).
+      <italic>
+       ORF3d
+      </italic>
+      is also distinct from other OLGs hypothesized within
+      <italic>
+       ORF3a
+      </italic>
+      (      ). Thus,
+      <italic>
+       ORF3d
+      </italic>
+      putatively encodes a novel protein not present in previously discovered
+      <italic>
+       Severe acute respiratory syndrome-related coronavirus
+      </italic>
+      genomes, while the absence of full-length
+      <italic>
+       ORF3b
+      </italic>
+      in SARS-CoV-2 distinguishes it from SARS-CoV (      ).
+     </p>
+     <table-wrap id="table1" orientation="portrait" position="float">
+      <label>
+       Table 1.
+      </label>
+      <caption>
+       <title>
+        Nomenclature and reading frames for overlapping gene candidates in SARS-CoV-2
+        <italic>
+         ORF3a
+        </italic>
+        .
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th colspan="1" rowspan="1" valign="top">
+          Gene
+         </th>
+         <th colspan="1" rowspan="1" valign="top">
+          Reading frame
+         </th>
+         <th colspan="1" rowspan="1" valign="top">
+          Genome positions, Wuhan-Hu-1
+          <break/>
+          (CDS positions,
+          <italic>
+           ORF3a
+          </italic>
+          )
+         </th>
+         <th colspan="1" rowspan="1" valign="top">
+          Length
+         </th>
+         <th colspan="1" rowspan="1" valign="top">
+          Description
+         </th>
+         <th colspan="1" rowspan="1" valign="top">
+          References
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          <italic>
+           ORF3a
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ss11 (reference)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25393–26220
+          <break/>
+          (1-828)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          276 codons
+          <break/>
+          (828 nt)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Ion channel formation and virus release in SARS-CoV infection; host cell apoptosis; triggers inflammation; antagonizes interferon
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ;
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          <italic>
+           ORF3c
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ss13
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25457–25582
+          <break/>
+          (65-190)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          42 codons
+          <break/>
+          (126 nt)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Features suggestive of a viroporin (          ); lowest
+          <italic>
+           π
+          </italic>
+          <sub>
+           N
+          </sub>
+          /
+          <italic>
+           π
+          </italic>
+          <sub>
+           S
+          </sub>
+          ratio estimated for any gene in our between-host selection analysis (          ); overlaps codons 22–64 of
+          <italic>
+           ORF3a
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          First discovered by          as
+          <italic>
+           ORF3h
+          </italic>
+          ;
+          <italic>
+           ORF3c
+          </italic>
+          in          ;
+          <italic>
+           ORF3c
+          </italic>
+          in          ;
+          <italic>
+           ORF3a.iORF1
+          </italic>
+          in          ;
+          <italic>
+           ORF3b
+          </italic>
+          in
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          <italic>
+           ORF3d
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ss12
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25524–25697
+          <break/>
+          (132-305)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          58 codons
+          <break/>
+          (174 nt)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Aligned to and named
+          <italic>
+           ORF3b
+          </italic>
+          by          but is not homologous to
+          <italic>
+           ORF3b
+          </italic>
+          ; interferon antagonism has not been demonstrated; binds STOML2 mitochondrial protein (          ); contains a predicted signal peptide in the region encoding
+          <italic>
+           ORF3d-2
+          </italic>
+          ; contains an
+          <italic>
+           X
+          </italic>
+          motif in pangolin-CoV but not SARS-CoV-2 (          ); may contribute to differences between SARS-CoV and SARS-CoV-2 in immune response as a unique antigenic target (          ; Niloufar Kavian, pers. comm.); overlaps codons 44–102 of
+          <italic>
+           ORF3a
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Present study; first discovered by          but misclassified as
+          <italic>
+           ORF3b
+          </italic>
+          ;
+          <italic>
+           ORF3b
+          </italic>
+          in          ,          , and citing studies; ‘hypothetical protein’ in          ; ‘a completely different ORF’ in
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          <italic>
+           ORF3d-2
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ss12
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25596–25697
+          <break/>
+          (204-305)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          34 codons
+          <break/>
+          (102 nt)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          A shorter isoform of
+          <italic>
+           ORF3d
+          </italic>
+          that starts after the first 24 codons, where the majority of premature STOP codons in SARS-CoV-2 are located; contains a predicted signal peptide (          ); likely expressed at higher levels than full-length
+          <italic>
+           ORF3d
+          </italic>
+          (          ) overlaps codons 68–102 of
+          <italic>
+           ORF3a
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Discovered by          as
+          <italic>
+           ORF3a-iORF2
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          <italic>
+           ORF3a-2
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ss11 (reference)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25765–26220
+          <break/>
+          (373-828)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          152 codons
+          <break/>
+          (456 nt)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          A shorter isoform of
+          <italic>
+           ORF3a
+          </italic>
+          that starts after the first 124 codons; evidence of expression separate from that of
+          <italic>
+           ORF3a
+          </italic>
+          (          ); has also been conflated with
+          <italic>
+           ORF3b
+          </italic>
+          ; equivalent to codons 124–276 of
+          <italic>
+           ORF3a
+          </italic>
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Discovered by          (pers. comm.) but referred to as
+          <italic>
+           ORF3b
+          </italic>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="top">
+          <italic>
+           ORF3b
+          </italic>
+          region
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          ss13
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          25814–26281; four ORFs at 25814–82, 25910–84, 26072–170, and 26183–281 (422-889; ORFs at 422–90, 518–92, 680–778, and 791–889)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          156 codons
+          <break/>
+          (468 nt); the four ORFs are 23, 25, 33, and 33 codons
+          <break/>
+          (69, 75, 99, and 99 nt)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          Full-length in some related viruses, but truncated by multiple in-frame STOP codons in SARS-CoV-2; longer forms function as an interferon antagonist in SARS-related viruses; may contribute to differences between SARS-CoV and SARS-CoV-2 in immune response; although aligned to
+          <italic>
+           ORF3d
+          </italic>
+          by          , the two are not homologous; overlaps codons 141–276 of
+          <italic>
+           ORF3a
+          </italic>
+          (first ORF overlaps codons 141–164)
+         </td>
+         <td colspan="1" rowspan="1" valign="top">
+          claim functionality for the first (23-codon) ORF in SARS-CoV-2; the first ORF is also mentioned by
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         Genes are listed by position of start site in the genome from 5′ (top) to 3′ (bottom).
+        </p>
+        <p>
+         Nomenclature as described in         and         : ss = sense-sense (same strand); ss12 = codon position 1 of the reference frame overlaps codon position 2 of the overlapping frame on the same strand; ss13 = codon position 1 of the reference frame overlaps codon position 3 of the overlapping frame on the same strand. Frame is indicated from the perspective of
+         <italic>
+          ORF3a
+         </italic>
+         as the reference gene, i.e.
+         <italic>
+          ORF3d
+         </italic>
+         starts at codon position 3 of
+         <italic>
+          ORF3a
+         </italic>
+         , while
+         <italic>
+          ORF3c
+         </italic>
+         and
+         <italic>
+          ORF3b
+         </italic>
+         start at codon position 2 of
+         <italic>
+          ORF3a
+         </italic>
+         .
+        </p>
+       </fn>
+       <fn>
+        <p>
+         Positions and counts include STOP codons. Positions or sequences were indicated by the original publications or verified by personal communication if ambiguous.
+        </p>
+        <p>
+         The SARS-CoV-2 region homologous to
+         <italic>
+          ORF3b
+         </italic>
+         of SARS-CoV contains four premature STOP codons and four distinct ORFs (AUG-to-STOP); see         ,         , and         .
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s2-2">
+     <title>
+      <italic>
+       ORF3d
+      </italic>
+      molecular biology and expression
+     </title>
+     <p>
+      To assess the expression of
+      <italic>
+       ORF3d
+      </italic>
+      , we re-analyzed the SARS-CoV-2 ribosome profiling (Ribo-seq) data of      . This approach allows the study of gene expression and reading frame at single nucleotide (nt) resolution by sequencing mRNA fragments bound by actively translating ribosomes (ribosome footprints) (      ). To do this, we focused on samples with reads reliably associated with ribosomes stalled at translation start sites, i.e. lactimidomycin and harringtonine treatments at 5 hr post-infection. After trimming reads to their 5′ ends (first nt), we observe a consistent peak in read depth ~12 nt upstream of the start site of
+      <italic>
+       ORF3d
+      </italic>
+      (      ), the expected ribosomal P-site offset (      ). Similar peaks are also observed for previously annotated genes (      ,      ).
+     </p>
+     <p>
+      To investigate the relationship between ribosome profiling read depth and expressed protein levels, we re-analyzed five publicly available SARS-CoV-2 mass spectrometry (MS) datasets (      ;      ;      ; PRIDE Project PXD018581;      ; Materials and methods). We were unable to detect ORF3c, ORF3d, ORF3b, ORF9c, or ORF10 when employing a 1% false-discovery threshold. This result may reflect the limitations of MS for detecting proteins that are very short, weakly expressed under the specific conditions tested, or lack detectable peptides; for example, even the envelope protein E is not detected in some SARS-CoV-2 datasets (      ;      ). However, we do find a strong correlation between protein expression as estimated from MS and the ribosome profiling read depth observed at upstream peaks, with
+      <italic>
+       r
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.89 (p=0.0004, Spearman’s rank) (      ,      ). This suggests that the presence and depth of an upstream peak is a reliable indicator of expression. Specifically, results from both proteomic and ribosome profiling approaches confirm that N, M, and S are the most highly expressed proteins, with N constituting ~80% of the total viral protein content. We also observe that the number of reads determined to be in the correct reading frame (codon position 1) along the gene is moderately correlated with MS expression values (
+      <italic>
+       r
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.60, p=0.056), while this is not true for out-of-frame (codon position 2 and 3) reads (
+      <italic>
+       r
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.39, p=0.237) (      ,      ).
+     </p>
+     <p>
+      Ribosome profiling reads have a strong tendency to map with their first nucleotide occupying a particular codon position (i.e. in-frame) (      ). We therefore examined codon position mapping across
+      <italic>
+       ORF3a
+      </italic>
+      to explore whether the proportions of reads in alternative frames are higher in the
+      <italic>
+       ORF3c
+      </italic>
+      /
+      <italic>
+       ORF3d
+      </italic>
+      region. Analyses were limited to reads of length 30 nt, the expected size of ribosome-bound fragments, which exhibit positioning indicative of the correct reading frame (codon position 1) of annotated genes, as well as the highest total coverage (      ,      ). Sliding windows reveal a peak in the fraction of reads mapping to the reading frame of
+      <italic>
+       ORF3d
+      </italic>
+      at its hypothesized locus, with this frame’s maximum occurring at the center of
+      <italic>
+       ORF3d
+      </italic>
+      , co-located with a dip in the fraction of reads mapping to the frame of
+      <italic>
+       ORF3a
+      </italic>
+      (      ). These observations are reproducible across treatments (      ), robust to sliding window size (      ), and similar to the reading frame perturbations observed for the OLG
+      <italic>
+       ORF9b
+      </italic>
+      within
+      <italic>
+       N
+      </italic>
+      (      ). At the same time, the
+      <italic>
+       ORF3d
+      </italic>
+      peak stands in contrast to the remainder of
+      <italic>
+       ORF3a
+      </italic>
+      , where the reading frame of
+      <italic>
+       ORF3a
+      </italic>
+      predominates, and smaller peaks in the frame of
+      <italic>
+       ORF3d
+      </italic>
+      are not accompanied by a large dip in the frame of
+      <italic>
+       ORF3a
+      </italic>
+      (      ). These observations suggest that
+      <italic>
+       ORF3d
+      </italic>
+      is actively translated. Similar conclusions can be drawn for
+      <italic>
+       ORF3c
+      </italic>
+      ,
+      <italic>
+       ORF3d-2
+      </italic>
+      , and
+      <italic>
+       ORF9b
+      </italic>
+      , but not
+      <italic>
+       ORF9c
+      </italic>
+      (      ,      ,      ).
+     </p>
+     <p>
+      Additional experiments have also provided evidence of ORF3d translation.      used overexpression experiments to demonstrate that ORF3d (referred to as ‘ORF3b’;      ) can be stably expressed and that it interacts with the mitochondrial protein STOML2. Most compellingly, ORF3d, ORF8, and N elicit the strongest antibody responses observed in COVID-19 patient sera, with ORF3d sufficient to accurately diagnose the majority of COVID-19 cases (      ). Because
+      <italic>
+       ORF3d
+      </italic>
+      is restricted to SARS-CoV-2 and pangolin-CoV (see below), this finding is unlikely to be due to cross-reactivity with another coronavirus and provides strong independent evidence of ORF3d translation during infection.
+     </p>
+    </sec>
+    <sec id="s2-3">
+     <title>
+      Protein sequence properties
+     </title>
+     <p>
+      To further investigate the antigenic properties of ORF3d, we predicted linear T cell epitopes for each SARS-CoV-2 protein. We employed NetMHCpan (      ) for MHC class I (cytotoxic CD8+ T cells), an approach shown to accurately predict SARS-CoV-2 epitopes shared with SARS-CoV (      ), and NetMHCIIpan (      ) for MHC class II (helper CD4+ T cells). Specifically, we tested all 9 amino acid (MHC I) or 15 amino acid (MHC II) substrings of each viral protein for predicted weak or strong binding by MHC. Epitope density was estimated as the mean number of predicted epitopes overlapping each residue for each protein. We also tested two sets of negative controls: (1) randomized peptides generated from each protein, representing the result expected given amino acid content alone and (2) short unannotated ORFs present in the SARS-CoV-2 genome, representing the result expected for ORFs that have been evolving without functional constraint.
+     </p>
+     <p>
+      For CD8+ T cells, the lowest predicted epitope density occurs in ORF3d (1.5 per residue), which is unexpected given its own amino acid content (p=0.150) and compared to short unannotated ORFs (p=0.078; permutation tests). The next lowest densities occur in N and ORF8 (      ). Intriguingly, as previously mentioned, these three peptides (ORF3d, N, and ORF8) also elicit the strongest antibody (B cell epitope) responses measured in COVID-19 patient sera (      ), suggesting a possible balance between CD8+ T and B cell epitopes. For CD4+ T cells, again, ORF3d has one of the lowest predicted epitope densities (5.6 per residue; p≥0.291), with lower values seen in only three other genes. Focusing instead on the shorter ORF3d-2 isoform, this protein contains zero predicted epitopes, which is a highly significant depletion given its own amino acid content (p=0.001) and compared to short unannotated ORFs (p=0.001). These observations suggest either a predisposition toward immune escape, allowing gene survival, or the action of selective pressures on
+      <italic>
+       ORF3d
+      </italic>
+      or
+      <italic>
+       ORF3d-2
+      </italic>
+      to remove epitopes. In stark contrast to ORF3d, ORF3c has the highest predicted CD8+ T cell epitope density (8.4 per residue), apparently as a function of its amino acid content (i.e. not differing from its randomized peptides; p=0.996). The enrichment of predicted epitopes in unannotated proteins (e.g. ORF3c and randomized peptides) but not N, for which numerous epitopes are documented (      ), demonstrates that ascertainment or methodological biases cannot account for the depletion of predicted epitopes in ORF3d.
+     </p>
+     <p>
+      Our structural prediction for the ORF3d protein suggests
+      <italic>
+       α
+      </italic>
+      -helices connected with coils and an overall fold model that matches known protein structures (e.g. Protein Data Bank IDs 2WB7 and 6A93) with borderline confidence (      ), similar to the predictions of      . Remarkably, biochemical properties that influence the structure of this novel protein appear to be inherited from the pre-existing ORF3a protein sequence encoded by the overlapping reading frame. It has recently been shown that frame-shifted nucleotide sequences tend to encode proteins with similar hydrophobicity profiles as a consequence of the standard genetic code (      ). To explore whether this is the case for
+      <italic>
+       ORF3d
+      </italic>
+      , we used the VOLPES server (      ) to calculate the hydrophobicity profiles (      ) of the peptides encoded by all three frames of
+      <italic>
+       ORF3a
+      </italic>
+      . The maximum correlation observed occurs between the frames of
+      <italic>
+       ORF3a
+      </italic>
+      (ss11) and
+      <italic>
+       ORF3d
+      </italic>
+      (ss12) in the region encoding ORF3d (ORF3a residues 64–102), with
+      <italic>
+       r
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.87 (p=5.79 × 10      , Spearman’s rank), which is much stronger than the correlation between these frames observed for the non-OLG residues of ORF3a (
+      <italic>
+       r
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.27, p=8.70 × 10      ) (      ;      ). This conservation of a structure-related property with the ORF3a protein provides further evidence for
+      <italic>
+       ORF3d
+      </italic>
+      functionality, and may predispose this region toward de novo gene birth. Again,
+      <italic>
+       ORF3c
+      </italic>
+      shows the opposite pattern, as the minimum correlation observed between hydrophobicity profiles occurs between the frames of
+      <italic>
+       ORF3a
+      </italic>
+      (ss11) and
+      <italic>
+       ORF3c
+      </italic>
+      (ss13) in the region encoding ORF3c (ORF3a residues 22–43), with
+      <italic>
+       r
+      </italic>
+      <sub>
+       S
+      </sub>
+      = −0.40 (p=6.16 × 10      ). Such disparate hydrophobicity profiles may be due to the strong conservation of
+      <italic>
+       ORF3c
+      </italic>
+      (see below).
+     </p>
+    </sec>
+    <sec id="s2-4">
+     <title>
+      <italic>
+       ORF3d
+      </italic>
+      taxonomic distribution and origins
+     </title>
+     <p>
+      To assess the origin of
+      <italic>
+       ORF3d
+      </italic>
+      and its conservation within and among host taxa, we aligned 21
+      <italic>
+       Severe acute respiratory syndrome-related coronavirus
+      </italic>
+      genomes reported by      (      ), limiting our analysis to those with an annotated
+      <italic>
+       ORF1ab
+      </italic>
+      and no frameshift variants relative to SARS-CoV-2 in the core genes
+      <italic>
+       ORF1ab
+      </italic>
+      ,
+      <italic>
+       S
+      </italic>
+      ,
+      <italic>
+       ORF3a
+      </italic>
+      ,
+      <italic>
+       E
+      </italic>
+      ,
+      <italic>
+       M
+      </italic>
+      ,
+      <italic>
+       ORF7a
+      </italic>
+      ,
+      <italic>
+       ORF7b
+      </italic>
+      , and
+      <italic>
+       N
+      </italic>
+      (      ; SARS-related-CoV_ALN.fasta, supplementary data). All other genes are also intact (i.e. there are no mid-sequence STOP codons) in all genomes (      ), with the exception of
+      <italic>
+       ORF3d
+      </italic>
+      ,
+      <italic>
+       ORF3b
+      </italic>
+      , and
+      <italic>
+       ORF8
+      </italic>
+      (      ). Specifically,
+      <italic>
+       ORF3d
+      </italic>
+      is intact in only two sequences: SARS-CoV-2 Wuhan-Hu-1 and pangolin-CoVs from Guangxi (GX/P5L). Full-length
+      <italic>
+       ORF3b
+      </italic>
+      is intact in only three sequences: SARS-CoV TW11, SARS-CoV Tor2, and bat-CoV Rs7327, with the remainder having premature STOP codons (      ). Finally,
+      <italic>
+       ORF8
+      </italic>
+      is intact in all but five sequences, where it contains premature STOP codons or large-scale deletions (      ).
+     </p>
+     <p>
+      The presence of intact
+      <italic>
+       ORF3d
+      </italic>
+      homologs among viruses infecting different host species (human and pangolin) raises the possibility of functional conservation. However, the taxonomic distribution of this ORF is incongruent with whole-genome phylogenies in that
+      <italic>
+       ORF3d
+      </italic>
+      is intact in the pangolin-CoV more distantly related to SARS-CoV-2 (GX/P5L) but not the more closely related one (GD/1) (      ), a finding confirmed by the alignment of      . New sequence data reveal similarly puzzling trends:
+      <italic>
+       ORF3d
+      </italic>
+      contains STOP codons in the closely related bat-CoV RmYN02 (GISAID: EPI_ISL_412977; data not shown), but it is intact in three more distantly related bat-CoVs discovered in Rwanda and Uganda, where it is further extended by 20 codons (total 78 codons) but shows no evidence of conservation with SARS-CoV-2 (      and pers. comm; data not shown). Further, phylogenies of the 21
+      <italic>
+       Severe acute respiratory syndrome-related coronavirus
+      </italic>
+      genomes built on
+      <italic>
+       ORF3a
+      </italic>
+      are incongruent with whole-genome phylogenies, likely due to the presence of recombination breakpoints in
+      <italic>
+       ORF3a
+      </italic>
+      near
+      <italic>
+       ORF3d
+      </italic>
+      (      ;      ). Recombination, convergence, or recurrent loss may therefore have played a role in the origin and taxonomic distribution of
+      <italic>
+       ORF3d
+      </italic>
+      .
+     </p>
+    </sec>
+    <sec id="s2-5">
+     <title>
+      Between-taxa divergence
+     </title>
+     <p>
+      To estimate natural selection on
+      <italic>
+       ORF3d
+      </italic>
+      , we measured viral diversity at three hierarchical evolutionary levels: between-taxa, between-host, and within-host. Specifically, between-taxa refers to divergence (
+      <italic>
+       d
+      </italic>
+      ) among the 21 aforementioned viruses infecting bat, human, or pangolin (      ); between-host refers to diversity (
+      <italic>
+       π
+      </italic>
+      ) between consensus-level SARS-CoV-2 genomes infecting different human individuals; and within-host refers to
+      <italic>
+       π
+      </italic>
+      in deeply sequenced ‘intrahost’ SARS-CoV-2 samples from single human individuals. At each level, we inferred selection by estimating mean pairwise nonsynonymous (
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      or
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      ; amino acid changing) and synonymous (
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      or
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      ; not amino acid changing) distances among all sequences. Importantly, we combined standard (non-OLG) methods (      ;      ) with OLGenie, a new
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      method tailored for OLGs (hereafter OLG
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      ), which we previously used to verify purifying selection on a novel OLG in HIV-1 (      ).
+     </p>
+     <p>
+      The only gene to show significant evidence of purifying selection at all three evolutionary levels is the nucleocapsid gene
+      <italic>
+       N
+      </italic>
+      (      ), which undergoes disproportionately low rates of nonsynonymous change (
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      &lt; 1 and
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      &lt; 1) specifically in its non-OLG regions, evidencing strict functional constraint.
+      <italic>
+       N
+      </italic>
+      is also the most highly expressed gene (      ), confirming that selection has more opportunity to act when a protein is manufactured in abundance (      ;      ) (Materials and methods). Importantly, this signal can be missed if non-OLG methods are applied to
+      <italic>
+       N
+      </italic>
+      without accounting for its internal OLGs,
+      <italic>
+       ORF9b
+      </italic>
+      and
+      <italic>
+       ORF9c
+      </italic>
+      (e.g. at the between-host level, p=0.0268 when excluding OLG regions, but p=0.411 when including them;      ).
+     </p>
+     <p>
+      With respect to
+      <italic>
+       ORF3d
+      </italic>
+      , comparison of Wuhan-Hu-1 to pangolin-CoV GX/P5L (NCBI: MT040335.1) yields OLG
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.14 (p=0.264) (      ), whereas inclusion of a third allele found in pangolin-CoV GX/P4L (NCBI: MT040333.1) yields 0.43 (p=0.488) (      ). Because this is suggestive of constraint, we performed sliding windows of OLG
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      across the length of
+      <italic>
+       ORF3a
+      </italic>
+      . Pairwise comparisons of each sequence to SARS-CoV-2 reveal OLG
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      &lt; 1 that is specific to the reading frame, genome positions, and species in which
+      <italic>
+       ORF3d
+      </italic>
+      is intact (pangolin-CoV GX/P5L) (      , left). This signal is independent of whether STOP codons are present, so its consilience with the only intact ORF in this region and species is highly suggestive of purifying selection. We note that this conclusion does not contradict studies which fail to find evidence of
+      <italic>
+       ORF3d
+      </italic>
+      conservation when comparing taxa where
+      <italic>
+       ORF3d
+      </italic>
+      is absent (e.g.      ), because
+      <italic>
+       ORF3d
+      </italic>
+      is a novel gene and would by definition lack such conservation. This contrastive signal is also similar to what is observed for the known OLGs
+      <italic>
+       ORF3b
+      </italic>
+      (in comparisons to SARS-CoV;      , right), and
+      <italic>
+       ORF9b
+      </italic>
+      and
+      <italic>
+       ORF9c
+      </italic>
+      (in both viruses;      ).
+     </p>
+    </sec>
+    <sec id="s2-6">
+     <title>
+      Between-host evolution and pandemic spread
+     </title>
+     <p>
+      Purifying selection can be specific to just one taxon, as in the case of novel genes. Thus, to measure selection within SARS-CoV-2 only, we obtained 3978 high-quality human SARS-CoV-2 consensus sequences from GISAID (accessed April 10, 2020;      ;      ). Between-host diversity was sufficient to detect marginally significant purifying selection across all genes (
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0.50, p=0.0613,
+      <italic>
+       Z
+      </italic>
+      -test;      ) but not most individual genes (      ). Therefore, we instead investigated single mutations over time, limiting to 27 high-frequency variants (minor allele frequency ≥2%;      ).
+     </p>
+     <p>
+      One high-frequency mutation occurred in
+      <italic>
+       ORF3d
+      </italic>
+      : G25563U, here denoted
+      <italic>
+       ORF3d
+      </italic>
+      -LOF (
+      <italic>
+       ORF3d
+      </italic>
+      -loss-of-function). This mutation causes a STOP codon in
+      <italic>
+       ORF3d
+      </italic>
+      (ORF3d-E14*) but nonsynonymous changes in both
+      <italic>
+       ORF3a
+      </italic>
+      (ORF3a-Q57H) and
+      <italic>
+       ORF3c
+      </italic>
+      (ORF3c-R36I), another OLG that overlaps this site (      ).
+      <italic>
+       ORF3d
+      </italic>
+      -LOF is not observed in any other species member included in our analysis (      ; SARS-related-CoV_ALN.fasta, supplementary data). During the first months of the COVID-19 pandemic,
+      <italic>
+       ORF3d
+      </italic>
+      -LOF increased in frequency (      ) in multiple locations (      ;      ), making this mutation a candidate for natural selection on ORF3a, ORF3c, ORF3d, or any combination thereof (      ). However, temporal allele frequency trajectories (      ) and similar signals from phylogenetic branch tests may also be caused by founder effects or genetic drift, and are susceptible to ascertainment bias (e.g. preferential sequencing of imported infections and uneven geographic sampling) and stochastic error (e.g. small sample sizes).
+     </p>
+     <p>
+      To partially account for these confounding factors, we instead constructed the mutational path leading from the SARS-CoV-2 haplotype collected in December 2019 to the haplotype carrying
+      <italic>
+       ORF3d
+      </italic>
+      -LOF. This path involves five mutations (C241U, C3037U, C14408U, A23403G, G25563U), constituting five observed haplotypes (EP–3 → EP–2 → EP → EP+1 → EP+1+LOF), shown in      . Here, EP is suggested to have driven the European Pandemic (detected in German patient #4; see footnote 3 of      ;      ;      ); EP–3 is the Wuhan founder haplotype; EP–1 is never observed in our dataset; and LOF refers to
+      <italic>
+       ORF3d
+      </italic>
+      -LOF. We then documented the frequencies and earliest collection date of each haplotype (      ) to determine when
+      <italic>
+       ORF3d
+      </italic>
+      -LOF occurred on the EP background.
+     </p>
+     <table-wrap id="table2" orientation="portrait" position="float">
+      <label>
+       Table 2.
+      </label>
+      <caption>
+       <title>
+        The mutational path to European pandemic founder haplotypes        .
+       </title>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th colspan="1" rowspan="1" valign="bottom">
+          Variant
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          EP–3
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          EP–2
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          EP
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          EP+1
+         </th>
+         <th colspan="1" rowspan="1" valign="bottom">
+          EP+1+LOF
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          C241U (5′-UTR)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          C3037U (nsp3-F106F)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          C14408U (RdRp-P323L)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          A23403G (Spike-D614G)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          G25563U (ORF3a-Q57H/ORF3c-R36I/ORF3d-E14*)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          -
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          +
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Earliest collection
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          24-Dec
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          7-Feb
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          28-Jan
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          20-Feb
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          21-Feb
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Earliest location
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Wuhan
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Wuhan
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Munich (Shanghai)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Lombardy
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Hauts de France
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in China
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          233
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1 (2)
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in Europe
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          458
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          21
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1153
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          310
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in Italy
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          27
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in Germany
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          15
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          11
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          21
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in Belgium
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          27
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          20
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          187
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          27
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in UK
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          210
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          338
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          38
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in Iceland
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          56
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          212
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          54
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in France
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          14
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom"/>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          72
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          102
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Occurrence in US
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          467
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          0
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          88
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          326
+         </td>
+        </tr>
+        <tr>
+         <td colspan="1" rowspan="1" valign="bottom">
+          Total in GISAID
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1610
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          2
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          22
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          1455
+         </td>
+         <td colspan="1" rowspan="1" valign="bottom">
+          752
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <fn>
+        <p>
+         Haplotypes are here defined by the presence (+) or absence (-) of five high-frequency variants (rows 1–5), and other variants with lower frequencies on these backgrounds are ignored. EP-1 is not observed in our dataset.
+        </p>
+        <p>
+         The EP haplotype is first detected in German patient #4 and is a documented founder for coronavirus spread in Germany (         ). Neither the EP nor EP+1 haplotypes were detectable between January 28 and February 20, although they immediately became a major haplotype once EP+1 was detectable. Failure to detect these two haplotypes during these 3 weeks could potentially be explained by ascertainment bias, for example lack of testing for travel-independent cases.
+        </p>
+       </fn>
+       <fn>
+        <p>
+         This Shanghai sample (GISAID: EPI_ISL_416327) comprises 1.32% poly-Ns and failed our quality control criteria, but is added here since it is potentially relevant to the origin of the EP haplotype. Including this sample, the EP haplotype is observed in Shanghai twice.
+        </p>
+        <p>
+         The earliest collection location and time are highly subject to collection and submission bias and do not necessarily reflect where the mutation/haplotype first occurred.
+        </p>
+       </fn>
+       <fn>
+        <p>
+         There is likely a testing bias in the United States, as the EP+1+LOF haplotype was often detected in Washington but EP+1 was not.
+        </p>
+        <p>
+         These numbers are based on 3853 samples from December 24 to April 1 at the time of GISAID accession that passed both our quality control criteria for alignment and for this particular analysis (i.e. no ambiguous genotype calls among the five SNPs in this table), unless otherwise stated.
+        </p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+     <p>
+      Surprisingly, despite its expected predominance in Europe due to a founder effect, the EP haplotype is extremely rare. By contrast, haplotypes with one additional mutation (C14408U; RdRp-P323L) on the EP background are common in Europe, and
+      <italic>
+       ORF3d
+      </italic>
+      -LOF occurred very early on this background to create EP+1+LOF from EP+1. Neither of these two haplotypes was initially observed in China (      ), suggesting that they might have arisen in Europe. Thus, we further partitioned the samples into two groups, corresponding to countries with early founders (January samples) or only late founders (no January samples) (      ). In the early founder group, EP–3 (Wuhan) is the first haplotype detected in most countries, consistent with most early COVID-19 cases being related to travel from Wuhan. Because this implies that genotypes EP–3 and EP had longer to spread in the early founder group, it is surprising that their spread is dwarfed by an increase in EP+1 and EP+1+LOF starting in late February. This turnover is most evident in the late founder group, where multiple haplotypes are detected in a narrow time window, and the number of cumulative samples is always dominated by EP+1 and EP+1+LOF. Thus, while founder effects and drift are plausible explanations, it is also worth investigating whether the early spread of
+      <italic>
+       ORF3d
+      </italic>
+      -LOF may have been caused by its linkage with another driver, either C14408U (+1 variant) or a subsequent variant(s) occurring on the EP+1+LOF background (Discussion).
+     </p>
+    </sec>
+    <sec id="s2-7">
+     <title>
+      Within-host diversity and mutational bias
+     </title>
+     <p>
+      Examination of within-host variation across multiple samples allows detection of recurrent mutations, which might indicate mutation bias or within-host selection. To investigate these possibilities, we obtained 401 high-depth ‘intrahost’ human SARS-CoV-2 samples from the Sequence Read Archive (      ) and called SNPs relative to the Wuhan-Hu-1 reference genome. Within human hosts, 42% of SNPs passed our false-discovery rate criterion (Materials and methods), with a median passing minor allele frequency of 2% (21 of 1344 reads). Using these variants to estimate within-host diversity,
+      <italic>
+       ORF3d
+      </italic>
+      does not show significant evidence of selection, with OLG
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 1.5 (p=0.584) (      ). We also examined six high-depth samples of pangolin-CoVs from Guangxi, but no conclusions could be drawn due to low sequence quality (Materials and methods;      ).
+     </p>
+     <p>
+      To identify recurrent mutations in multiple SARS-CoV-2 samples, separately for each site, we limited to samples for which the major or fixed allele is also ancestral (i.e. matches Wuhan-Hu-1). At such sites, precluding sequencing artifacts or coinfection by multiple genotypes, minor alleles occurring in more than one sample are expected to be derived and recurrent (i.e. identical by state but not descent). For
+      <italic>
+       ORF3d
+      </italic>
+      , we observe
+      <italic>
+       ORF3d
+      </italic>
+      -LOF as a minor allele in three (0.94%) of 320 samples (frequencies of 20.7%, 6.0%, and 2.2% in samples SRR11410536, SRR11479046, and SRR11494643, respectively). This proportion of samples with a recurrent mutation is high but not unusual, as 1.7% of observed minor variants have an equal or higher proportion of recurrence. Additionally, no mutations in
+      <italic>
+       ORF3d
+      </italic>
+      recur in &gt;2.5% of samples (      ). Thus, we find no evidence that within-host selection or mutation pressure are involved in the spread of
+      <italic>
+       ORF3d
+      </italic>
+      -LOF. However, a small number of other loci exhibit high rates of recurrent mutation, with five mutations independently observed in ~10% of samples or more (Materials and methods;      ). Surprisingly, another STOP mutation (A404U; NSP1-L47*) is never a major allele but is observed at low frequencies in 44% of samples (      ,      ), unexplainable by mutational bias and warranting investigation.
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s3" sec-type="discussion">
+    <title>
+     Discussion
+    </title>
+    <p>
+     Our analyses provide strong evidence that SARS-CoV-2 contains a novel overlapping gene (OLG),
+     <italic>
+      ORF3d
+     </italic>
+     , that has not been consistently identified or fully analyzed before this study. The annotation of a newly emerged virus is difficult, particularly in genome regions subject to frequent gene gain and loss. Moreover, due to the inherent difficulty of studying OLGs, they tend to be less carefully documented than non-OLGs; for example,
+     <italic>
+      ORF9b
+     </italic>
+     and
+     <italic>
+      ORF9c
+     </italic>
+     are still not annotated in the most-used reference genome, Wuhan-Hu-1 (last accessed September 26, 2020). Therefore, de novo and homology-based annotation are both essential, followed by careful expression analyses using multi-omic data and evolutionary analyses within and between species. In particular, we emphasize the importance of using whole-gene or genome alignments when inferring homology for both OLGs and non-OLGs, taking into account genome positions and all reading frames. Unfortunately, in the case of SARS-CoV-2, the lack of such inspections has led to mis-annotation and a domino effect. For example, homology between
+     <italic>
+      ORF3b
+     </italic>
+     (SARS-CoV) and
+     <italic>
+      ORF3d
+     </italic>
+     (SARS-CoV-2) has erroneously been implied, leading to unwarranted inferences of shared functionality (     ). Given the rapid growth of the SARS-CoV-2 literature, it is likely this mistake will be further propagated. We therefore provide a detailed annotation of Wuhan-Hu-1 protein-coding genes and codons in     , as a resource for future studies.
+    </p>
+    <p>
+     Our study highlights the highly dynamic process of frequent losses and gains of accessory genes in the species
+     <italic>
+      Severe acute respiratory syndrome-related coronavirus
+     </italic>
+     , with the greatest functional constraint typically observed for the most highly expressed genes (     ). With respect to gene loss, while many accessory genes may be dispensable for viruses in cell culture, they often play an important role in natural hosts (     ). Thus, their loss may represent a key step in adaptation to new hosts after crossing a species barrier (     ). For example, the absence of full-length
+     <italic>
+      ORF3b
+     </italic>
+     in SARS-CoV-2 has received attention from only a few authors (e.g.     ), even though it plays a central role in SARS-CoV infection and early immune interactions as an interferon antagonist (     ), with effects modulated by ORF length (     ). Thus, the absence or truncation of
+     <italic>
+      ORF3b
+     </italic>
+     in SARS-CoV-2 may be immunologically important (     ), for example in the suppression of type I interferon induction (     ;     ). Further, loss of function (LOF) mutations in
+     <italic>
+      ORF3d
+     </italic>
+     and any other ORFs need to be taken into account for testing or therapeutics, particularly in light of predicted cellular interactions (     ).
+    </p>
+    <p>
+     With respect to gene gain, the apparent presence of
+     <italic>
+      ORF3d
+     </italic>
+     coincident with the inferred entry of SARS-CoV-2 into humans from a hitherto undetermined reservoir host suggests that this gene is functionally relevant for the emergent properties of SARS-CoV-2, analogous to
+     <italic>
+      asp
+     </italic>
+     for HIV-1-M (     ). The mechanisms and detailed histories of gene birth, neo-functionalization, and survival of novel genes remain unclear. However, our findings that ORF3d remarkably inherited its hydrophobicity profile from the overlapping region of ORF3a, that ORF3d is depleted for predicted CD8+ and CD4+ T cell epitopes, and that
+     <italic>
+      ORF3d
+     </italic>
+     exhibits potential purifying selection between SARS-CoV-2 and pangolin-CoV GX/P5L, provide strong leads for further research. Indeed, both the structural and immunogenic properties of new viral proteins deserve further attention and are important parts of their evolutionary story.
+    </p>
+    <p>
+     Failure to account for OLGs can lead to erroneous inference of (or failure to detect) natural selection in known genes, and vice versa. For example, a synonymous variant in one reading frame is very likely to be nonsynonymous in a second overlapping frame. As a result, purifying selection in the second frame usually lowers
+     <italic>
+      d
+     </italic>
+     <sub>
+      S
+     </sub>
+     (raises
+     <italic>
+      d
+     </italic>
+     <sub>
+      N
+     </sub>
+     /
+     <italic>
+      d
+     </italic>
+     <sub>
+      S
+     </sub>
+     ) in the first frame, increasing the likelihood of mis-inferring positive selection (     ;     ;     ). Such errors could, in turn, lead to mischaracterization of the genetic contributions of OLG loci to important viral properties such as incidence and persistence. One potential consequence is misguided countermeasure efforts, for example through failure to detect functionally conserved or immunologically important genome regions.
+    </p>
+    <p>
+     Although our study focuses on
+     <italic>
+      ORF3d
+     </italic>
+     , other OLGs have been proposed in SARS-CoV-2 and warrant investigation.
+     <italic>
+      ORF3d-2
+     </italic>
+     , a shorter isoform of
+     <italic>
+      ORF3d
+     </italic>
+     (     ), shows evidence of higher overall expression than
+     <italic>
+      ORF3d
+     </italic>
+     (     ). However, analysis of full-length
+     <italic>
+      ORF3d
+     </italic>
+     is confounded by its 20 codon triple overlap with both
+     <italic>
+      ORF3a
+     </italic>
+     and
+     <italic>
+      ORF3c
+     </italic>
+     , making expression and selection results difficult to compare between the two isoforms. Although not evolutionarily novel, the recently discovered
+     <italic>
+      ORF3c
+     </italic>
+     (     ) shows deep conservation among viruses of this species (     ;     ;     ), the lowest
+     <italic>
+      π
+     </italic>
+     <sub>
+      N
+     </sub>
+     /
+     <italic>
+      π
+     </italic>
+     <sub>
+      S
+     </sub>
+     ratio observed in our between-host analysis (     ), strong evidence for translation in SARS-CoV-2 (     ), and the highest predicted CD8+ T cell epitope density (     ). Within
+     <italic>
+      S
+     </italic>
+     ,
+     <italic>
+      S-iORF2
+     </italic>
+     (genome positions 21768–21863) also shows evidence of translation from ribosome profiling (     ), and between-host comparisons suggest purifying selection (
+     <italic>
+      π
+     </italic>
+     <sub>
+      N
+     </sub>
+     /
+     <italic>
+      π
+     </italic>
+     <sub>
+      S
+     </sub>
+     = 0.22, p=0.0278) (     ). We therefore suggest that the SARS-CoV-2 genome could contain additional undocumented or novel OLGs.
+    </p>
+    <p>
+     Our comprehensive evolutionary analysis of the SARS-CoV-2 genome demonstrates that many genes are under relaxed purifying selection, consistent with the exponential growth of the virus (     ). At the between-host level, nucleotide diversity increases somewhat over the initial period of the COVID-19 pandemic, tracking the number of locations sampled, while the
+     <italic>
+      π
+     </italic>
+     <sub>
+      N
+     </sub>
+     /
+     <italic>
+      π
+     </italic>
+     <sub>
+      S
+     </sub>
+     ratio remains relatively constant at 0.46 (±0.030 SEM) (     ). Other genes differ in the strength and direction of selection at the three evolutionary levels, for example
+     <italic>
+      ORF9c
+     </italic>
+     (     ), suggesting a shift in function or importance over time or between different host species or individuals.
+     <italic>
+      ORF3d
+     </italic>
+     and
+     <italic>
+      ORF8
+     </italic>
+     are among the youngest genes in SARS-CoV-2, being taxonomically restricted to a subset of betacoronaviruses (     ), and both exhibit high rates of change and turnover (     ;     ; SARS-related-CoV_ALN.fasta, supplementary data). High between-host
+     <italic>
+      π
+     </italic>
+     <sub>
+      N
+     </sub>
+     /
+     <italic>
+      π
+     </italic>
+     <sub>
+      S
+     </sub>
+     was also observed in
+     <italic>
+      ORF8
+     </italic>
+     of SARS-CoV, perhaps due to a relaxation of purifying selection upon entry into civet cats or humans (     ). However,
+     <italic>
+      ORF3d
+     </italic>
+     and
+     <italic>
+      ORF8
+     </italic>
+     both exhibit strong antibody (B cell epitope) responses (     ) and predicted T cell epitope depletion (     ) in SARS-CoV-2. This highlights the important connection between evolutionary and immunologic processes (     ), as antigenic peptides may impose a fitness cost for the virus by allowing immune detection. Thus, the loss or truncation of these genes may share an immunological basis and deserves further attention.
+    </p>
+    <p>
+     The quick expansion of
+     <italic>
+      ORF3d
+     </italic>
+     -LOF (EP+1+LOF) and its background (EP+1) during this pandemic is surprising, given that a founder effect would have favored other variants that arrived earlier. However, newer data show that
+     <italic>
+      ORF3d
+     </italic>
+     -LOF has remained at relatively low frequencies compared to EP+1 variants (     ), and plausible explanations exist which do not require invoking natural selection. First, the slower ‘spread’ of EP–3 and EP may be an artifact of a sampling policy bias in case isolation: testing and quarantine were preferentially applied to travellers who had recently visited Wuhan, which may have led to selective detection, isolation, and tracing of these haplotypes rather than those with mutations occurring within Europe (e.g. C14408U and G25563U). (However, the EP+1 and EP+1+LOF haplotypes also increase faster in the late founder group, where it is unclear which haplotype was more travel-related.) Second, it is possible that the EP haplotype was effectively controlled, while EP+1 was introduced independently (     ). Third, although G25563U itself simultaneously causes ORF3a-Q57H, ORF3c-R36I, and ORF3d-E14* (
+     <italic>
+      ORF3d
+     </italic>
+     -LOF), its spread seems to be linked with RdRp-P323L and Spike-D614G, a variant with predicted functional relevance (e.g. see     ;     ;     ). Thus, it is possible that G25563U is neutral while a linked variant(s) is under selection. These observations highlight the necessity of empirically evaluating the effects of these mutations and their interactions. Lastly, because only five major polymorphisms are considered in this analysis (     ), it is possible that the spread of
+     <italic>
+      ORF3d
+     </italic>
+     -LOF or other haplotypes was further assisted or hindered by subsequent mutations.
+    </p>
+    <p>
+     Our study has several limitations. First, we were not able to confirm the translation of ORF3d using mass spectrometry (MS). This may be due to several reasons: (1) ORF3d may be expressed at low levels; (2) ORF3d is short, and tryptic digestion of ORF3d generates only two peptides potentially detectable by MS; (3) the tryptic peptides derived from ORF3d may not be amenable to detection by MS even under the best possible conditions, as suggested by its relatively low MS intensity even in an overexpression experiment (‘ORF3b’ in     ); and (4) hitherto unknown post-translational modifications of ORF3d could prohibit detection. Other possibilities for validation of ORF3d include MS with other virus samples; affinity purification MS; fluorescent tagging and cell imaging; Western blotting; and the sequencing of additional genomes in this virus species, which would potentiate more powerful tests of purifying selection and a better understanding of the history and origin of
+     <italic>
+      ORF3d
+     </italic>
+     . With respect to between-host diversity, we focused on consensus-level sequence data; however, this approach can miss important variation (     ), stressing the importance of deeply sequenced within-host samples using technology appropriate for calling within-host variants (     ). As we use Wuhan-Hu-1 for reference-based read mapping and remove duplicate reads as possible PCR artifacts, reference bias (     ) or bias against natural duplicates at high-coverage loci (     ) could potentially affect our within-host results. Additionally, we detected natural selection using so-called counting methods that examine all pairwise comparisons between or within specific groups of sequences, which may have less power than methods that trace changes over a phylogeny. However, this approach is robust to errors in phylogenetic and ancestral sequence reconstruction, and to artifacts due to linkage or recombination (     ;     ). Additionally, although our method for measuring selection in OLGs does not explicitly account for mutation bias, benchmarking suggests inference of purifying selection is conservative (     ). Finally, given multiple recombination breakpoints in
+     <italic>
+      ORF3a
+     </italic>
+     (     ) and the relative paucity of sequence data for viruses closely related to SARS-CoV-2, our analysis could not differentiate between convergence, recombination, or recurrent loss in the origin of
+     <italic>
+      ORF3d
+     </italic>
+     .
+    </p>
+    <p>
+     In conclusion, OLGs are an important part of viral biology and deserve more attention. We document several lines of evidence for the expression and functionality of a novel OLG in SARS-CoV-2,
+     <italic>
+      ORF3d
+     </italic>
+     , and compare it to other hypothesized OLG candidates in
+     <italic>
+      ORF3a
+     </italic>
+     . Finally, as a resource for future studies, we provide a detailed annotation of the SARS-CoV-2 genome and highlight mutations of potential relevance to the within- and between-host evolution of SARS-CoV-2.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="s4" sec-type="materials|methods">
+    <title>
+     Materials and methods
+    </title>
+    <sec id="s4-1">
+     <title>
+      Data and software
+     </title>
+     <p>
+      Supplementary scripts and documentation are freely available on GitHub at
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/chasewnelson/SARS-CoV-2-ORF3d">
+       https://github.com/ chasewnelson/SARS-CoV-2-ORF3d
+      </ext-link>
+      (      ; copy archived at
+      <ext-link ext-link-type="uri" ns0:href="https://archive.softwareheritage.org/swh:1:rev:469689991e7dbce2be4c4f618584304d91841c49">
+       swh:1:rev:469689991e7dbce2be4c4f618584304d91841c49
+      </ext-link>
+      ). Supplementary data not included in main figure source data are freely available on Zenodo at
+      <ext-link ext-link-type="uri" ns0:href="https://zenodo.org/record/4052729">
+       https://zenodo.org/record/4052729
+      </ext-link>
+      .
+     </p>
+    </sec>
+    <sec id="s4-2">
+     <title>
+      Genomic features and coordinates
+     </title>
+     <p>
+      All genome coordinates are given with respect to the Wuhan-Hu-1 reference sequence (NCBI: NC_045512.2; GISAID: EPI_ISL_402125) unless otherwise noted. SARS-CoV (SARS-CoV-1) genome coordinates are given with respect to the Tor2 reference sequence (NC_004718.3). SARS-CoV-2 Uniprot peptides were obtained from
+      <ext-link ext-link-type="uri" ns0:href="https://viralzone.expasy.org/8996">
+       https://viralzone.expasy.org/8996
+      </ext-link>
+      , where
+      <italic>
+       ORF9c
+      </italic>
+      is currently referred to as
+      <italic>
+       ORF14
+      </italic>
+      . Nucleotide sequences were translated using R::Biostrings (      ), Biopython (      ), or SNPGenie (      ). Alignments were viewed and edited in AliView v1.20 (      ). To identify overlapping genes (OLGs) using the codon permutation method of      , all 12 open reading frames (ORFs) annotated in Wuhan-Hu-1 were used as a reference (
+      <italic>
+       ORF1a
+      </italic>
+      ,
+      <italic>
+       ORF1b
+      </italic>
+      ,
+      <italic>
+       S
+      </italic>
+      ,
+      <italic>
+       ORF3a
+      </italic>
+      ,
+      <italic>
+       E
+      </italic>
+      ,
+      <italic>
+       M
+      </italic>
+      ,
+      <italic>
+       ORF6
+      </italic>
+      ,
+      <italic>
+       ORF7a
+      </italic>
+      ,
+      <italic>
+       ORF7b
+      </italic>
+      ,
+      <italic>
+       ORF8
+      </italic>
+      ,
+      <italic>
+       N
+      </italic>
+      , and
+      <italic>
+       ORF10
+      </italic>
+      ) (      ;      ). Only forward-strand (same-strand; sense-sense) OLGs were considered in the codon permutation analysis.
+     </p>
+    </sec>
+    <sec id="s4-3">
+     <title>
+      SARS-CoV-2 genome data, alignments, and between-host analyses
+     </title>
+     <p>
+      SARS-CoV-2 genome sequences were obtained from GISAID on April 10, 2020 (      ). Whole genomes were aligned using MAFFT v7.455 (      ), and subsequently discarded if they contained internal gaps (-) located &gt;900 nt from either terminus, a distance sufficient to exclude sequences with insertions or deletions (indels) in protein-coding regions. A total of 3978 sequences passed these filtering criteria, listed in      . Coding regions were identified using exact or partial homology to SARS-CoV-2 or SARS-CoV annotations. To quantify the diversity and evenness of sample locations, we quantified their entropy as -∑
+      <italic>
+       p
+      </italic>
+      *ln(
+      <italic>
+       p
+      </italic>
+      ), where
+      <italic>
+       p
+      </italic>
+      is the number of distinct (unique) locations or countries reported for a given window (      ;      ).
+     </p>
+    </sec>
+    <sec id="s4-4">
+     <title>
+      <italic>
+       Severe acute respiratory syndrome-related coronavirus
+      </italic>
+      genome data and alignments
+     </title>
+     <p>
+      <italic>
+       Severe acute respiratory syndrome-related coronavirus
+      </italic>
+      genome IDs were obtained from      and downloaded from GenBank or GISAID. Wuhan-Hu-1 was used to represent SARS-CoV-2. Unless otherwise noted, isolates GX/P5L (NCBI: MT040335.1; GISAID: EPI_ISL_410540) and GD/1 (GISAID: EPI_ISL_410721) were used to represent pangolin-COVs; GD/1 was chosen as a representative because the other Guangdong (GD) sequence lacks the
+      <italic>
+       S
+      </italic>
+      gene and contains 27.76% Ns, while GX/P5L was chosen because it is one of two high-coverage Guangxi (GX) sequences derived from lung tissue that also contains no undetermined nucleotides (Ns). Other sequences were excluded if they lacked an annotated
+      <italic>
+       ORF1ab
+      </italic>
+      with a ribosomal slippage, or contained a frameshift indel in any gene (      ), leaving 21 sequences for analysis (      ).
+     </p>
+     <p>
+      To produce whole-genome alignments, we first aligned all genome sequences using MAFFT. Then, coding regions were identified using exact or partial sequence identity to SARS-CoV-2 or SARS-CoV annotations, translated, and individually aligned at the amino acid level using ProbCons v1.12 (      ). In the case of OLGs, the longest (reference) protein was used (e.g. N rather than ORF9b or ORF9c). Amino acid alignments were then imposed on the coding sequence of each gene using PAL2NAL v14 (      ) to maintain intact codons. Finally, whole genomes were manually shifted to match the individual codon alignments in AliView. Codon breaks were preferentially resolved to align S/Q/T at 3337–3339, and L/T/I at 3343–3345. This preserved all nucleotides of each genome while concurrently producing codon-aware alignments. The alignment is available in the supplementary data as SARS-related-CoV_ALN.fasta, where pangolin-CoV GD/1 has been masked (Ns) because it is only available from GISAID (i.e. permission is required for data access).
+     </p>
+     <p>
+      Phylogenetic relationships among isolates were explored using maximum likelihood phylogenetic inference, as implemented in IQ-tree (      ), using the generalized time-reversible (GTR;      ) substitution model combined with the FreeRate model (      ) to account for among-site rate heterogeneity. Trees were rooted a priori following      .
+     </p>
+    </sec>
+    <sec id="s4-5">
+     <title>
+      Proteomics analysis
+     </title>
+     <p>
+      We used MaxQuant (      ) to re-analyze five publicly available SARS-CoV-2 mass spectrometry (MS) datasets:      (PRIDE accession PXD018760);      (PXD017710);      (PXD018241); PRIDE Project PXD018581; and      (PXD019645). However, peptide spectrum matches for ORF3d (possible tryptic peptides CTSCCFSER and FQNHNPQK) did not pass our 1% false-discovery threshold in any of these datasets, and ORF3d-2 (      ) does not encode any peptides detectable by this method. ORF3c, ORF9c, and ORF10 could also not be reliably detected. For peptides that were successfully detected in the datasets of      and      , protein concentrations were estimated using intensity-based absolute quantification (iBAQ) (      ). iBAQ values were computed using the Max-Quant software (      ) as the sum of all peptide intensities per protein divided by the number of theoretical peptides per protein. Thus, iBAQ values are proportional estimates of the molar protein quantity of a protein in a given sample, allowing relative quantitative comparisons of protein expression levels.
+     </p>
+    </sec>
+    <sec id="s4-6">
+     <title>
+      Ribosome profiling analysis
+     </title>
+     <p>
+      The 16 ribosome profiling (Ribo-seq) datasets of      using SARS-CoV-2 infected Vero E6 cells were downloaded from the Sequence Read Archive (accession numbers SRR11713354-SRR11713369). These samples comprise four treatments for ribosome stalling: (1) lactimidomycin (LTM) or (2) harringtonine (Harr), which are biased towards stalling at translation initiation sites; (3) cyclohexamide (CHX), which stalls along a gene during active translation; and (4) mRNA, which serves as a control (i.e. total RNA content rather than ribosome footprints). Two time points are represented: (1) 5 hr and (2) 24 hr post-infection (hpi), labeled ‘05 hr’ and ‘4 hr’, respectively, in the SRA data. The FASTQ format reads were mapped to Wuhan-Hu-1 using Bowtie2 local alignment (      ), with a seed length of 20 and up to one mismatch allowed, after substituting the isolate’s mutations listed in      into the reference genome. Mapped reads were then classified by read length and trimmed to their first (5′-end) nucleotide for downstream analyses.
+     </p>
+    </sec>
+    <sec id="s4-7">
+     <title>
+      NetMHCpan T cell epitope analysis
+     </title>
+     <p>
+      For predicted MHC class I binding, viral protein sequences were analyzed in 9 amino acid (aa) substrings using NetMHCpan4.0 (      ). Twelve (12) representative HLA class I alleles (      ) were tested: HLA-A*01:01 (A1), HLA-A*02:01 (A2), HLA-A*03:01 (A3), HLA-A*24:02 (A24), HLA-A*26:01 (A26), HLA-B*07:02 (B7), HLA-B*08:01 (B8), HLA-B*27:05 (B27), HLA-B*39:01 (B39), HLA-B*40:01 (B44), HLA-B*58:01 (B58), and HLA-B*15:01 (B62). NetMHCpan4.0 returns percentile ranks that characterize a peptide’s likelihood of antigen presentation compared to a set of random natural peptides. We employed the suggested threshold of 2% to determine potential presented peptides, and 0.5% to identify strong MHC class I binders. Both strong and weak binders were considered predicted epitopes. For predicted MHC class II binding, viral protein sequences were analyzed in 15 aa substrings using NetMHCIIpan4.0 (      ). Twenty-six (26) representative HLA class II alleles (      ;      ) were tested: HLA-DPA1*0201-DPB1*0401, HLA-DPA1*0103-DPB1*0201, HLA-DPA1*0201-DPB1*0101, HLA-DPA1*0201-DPB1*0501, HLA-DPA1*0301-DPB1*0402, HLA-DQA1*0101-DQB1*0501, HLA-DQA1*0102-DQB1*0602, HLA-DQA1*0301-DQB1*0302, HLA-DQA1*0401-DQB1*0402, HLA-DQA1*0501-DQB1*0201, HLA-DQA1*0501-DQB1*0301, DRB1*0101, DRB1*0301, DRB1*0401, DRB1*0405, DRB1*0701, DRB1*0802, DRB1*0901, DRB1*1101, DRB1*1201, DRB1*1302, DRB1*1501, DRB3*0101, DRB3*0202, DRB4*0101, and DRB5*0101. NetMHCIIpan4.0 returns percentile ranks based on an eluted ligand prediction score. We employed the suggested threshold of 10% to determine potential presented peptides, and 2% to identify strong MHC class II binders. Both strong and weak binders were considered predicted epitopes.
+     </p>
+    </sec>
+    <sec id="s4-8">
+     <title>
+      Hydrophobicity profile analysis
+     </title>
+     <p>
+      The sequence of
+      <italic>
+       ORF3a
+      </italic>
+      was translated in all three forward-strand reading frames and uploaded to the VOLPES server (
+      <ext-link ext-link-type="uri" ns0:href="http://volpes.univie.ac.at/">
+       http://volpes.univie.ac.at/
+      </ext-link>
+      ;      ) to determine hydrophobicity profiles using the unitless scale ‘FAC1’ (Factor 1;      ) with a window size of 25 aa. The correlations between the profiles for the reading frames were calculated for peptides encoded by the following subregions of
+      <italic>
+       ORF3a
+      </italic>
+      , from 5′ to 3′: (1)
+      <italic>
+       ORF3a
+      </italic>
+      , codons not overlapping any known or hypothesized overlapping genes; (2)
+      <italic>
+       ORF3a
+      </italic>
+      /
+      <italic>
+       ORF3c
+      </italic>
+      , encoding residues of both ORF3a and ORF3c; (3)
+      <italic>
+       ORF3a
+      </italic>
+      /
+      <italic>
+       ORF3c
+      </italic>
+      /
+      <italic>
+       ORF3d
+      </italic>
+      , encoding residues of ORF3a, ORF3c, and ORF3d; (4)
+      <italic>
+       ORF3a
+      </italic>
+      /
+      <italic>
+       ORF3d
+      </italic>
+      , encoding residues of both ORF3a and ORF3d; and (5)
+      <italic>
+       ORF3a
+      </italic>
+      /
+      <italic>
+       ORF3b
+      </italic>
+      , encoding residues of both ORF3a and ORF3b. Spearman’s rank correlation was computed using stats::cor.test with method=spearman in R, treating mean 25-residue window values as the observational unit.
+     </p>
+    </sec>
+    <sec id="s4-9">
+     <title>
+      Statistics and tests of natural selection
+     </title>
+     <p>
+      All p-values reported in this study are two-tailed. Statistical and data analyses and visualization were carried out in R v3.5.2 (      ) (libraries: boot, feather, ggrepel, patchwork, RColorBrewer, scales, tidyverse), Python (BioPython, pandas) (      ), Microsoft Excel, Google Sheets, and PowerPoint. Colors were explored using Coolors (
+      <ext-link ext-link-type="uri" ns0:href="https://coolors.co">
+       https://coolors.co
+      </ext-link>
+      ). Copyright-free images of a bat, human, and pangolin were obtained from Pixabay (
+      <ext-link ext-link-type="uri" ns0:href="https://pixabay.com">
+       https://pixabay.com
+      </ext-link>
+      ). All
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      or
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      ratios were estimated for non-OLG regions using SNPGenie scripts snpgenie.pl or snpgenie_within_group.pl (      ;
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/chasewnelson/SNPGenie">
+       https://github.com/chasewnelson/SNPGenie
+      </ext-link>
+      ), and for OLG regions using OLGenie script OLGenie.pl (      ;
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/chasewnelson/OLGenie">
+       https://github.com/chasewnelson/OLGenie
+      </ext-link>
+      ). All OLG
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      (
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      ) estimates refer to
+      <italic>
+       d
+      </italic>
+      <sub>
+       NN
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       SN
+      </sub>
+      (
+      <italic>
+       π
+      </italic>
+      <sub>
+       NN
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       SN
+      </sub>
+      ) for the reference frame and
+      <italic>
+       d
+      </italic>
+      <sub>
+       NN
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       NS
+      </sub>
+      (
+      <italic>
+       π
+      </italic>
+      <sub>
+       NN
+      </sub>
+      /
+      <italic>
+       π
+      </italic>
+      <sub>
+       NS
+      </sub>
+      ) for the alternate frame (ss12 or ss13), as described in      , because the number of SS (synonymous/synonymous) sites was insufficient to estimate
+      <italic>
+       d
+      </italic>
+      <sub>
+       SS
+      </sub>
+      (
+      <italic>
+       π
+      </italic>
+      <sub>
+       SS
+      </sub>
+      ). The null hypothesis that
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      -
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0 (
+      <italic>
+       π
+      </italic>
+      <sub>
+       N
+      </sub>
+      -
+      <italic>
+       π
+      </italic>
+      <sub>
+       S
+      </sub>
+      = 0) was evaluated using both
+      <italic>
+       Z
+      </italic>
+      and achieved significance level (ASL) tests (      ) with 10,000 and 1000 bootstrap replicates for genes and sliding windows, respectively, using individual codons (alignment columns) as the resampling unit (      ). The main text reports only
+      <italic>
+       Z
+      </italic>
+      -test results, because this test was used to benchmark OLGenie (      ) and appears to be more conservative. For ASL, p-values of 0 were reported as the lowest non-zero value possible given the number of bootstrap replicates. Benjamini-Hochberg (      ) or Benjamini-Yekutieli (      ) false-discovery rate corrections (
+      <italic>
+       Q
+      </italic>
+      -values) were used for genes (independent regions) and sliding windows (contiguous overlapping regions), respectively.
+     </p>
+    </sec>
+    <sec id="s4-10">
+     <title>
+      Between-species analyses
+     </title>
+     <p>
+      Because uncorrected
+      <italic>
+       d
+      </italic>
+      values &gt;0.1 were observed in between-taxa comparisons, a Jukes-Cantor correction (      ) was applied to
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      and
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      estimates. For each ORF, sequences were only used to estimate
+      <italic>
+       d
+      </italic>
+      <sub>
+       N
+      </sub>
+      /
+      <italic>
+       d
+      </italic>
+      <sub>
+       S
+      </sub>
+      if a complete, intact ORF (no STOPs) was present. Most notably, for
+      <italic>
+       ORF3b
+      </italic>
+      , only the region corresponding to the first ORF in SARS-CoV-2 was analyzed, and these sites were also considered an OLG region of
+      <italic>
+       ORF3a
+      </italic>
+      . The remaining 3’-proximal portion of
+      <italic>
+       ORF3a
+      </italic>
+      (codons 165–276) was considered a non-OLG region, and only genomes lacking the full-length
+      <italic>
+       ORF3b
+      </italic>
+      (i.e. those with mid-sequence STOP codons) were included in these estimates. Similarly, for
+      <italic>
+       ORF3d
+      </italic>
+      , only SARS-CoV-2 and pangolin-CoV GX/P5L were analyzed for      . For this analysis,
+      <italic>
+       ORF3a
+      </italic>
+      codon 71 in SARS-CoV-2 (CTA) differed by two nucleotides from the codon in pangolin-CoV GX/P5L (TTT), resulting in a multi-hit approximation being employed by the OLGenie method (      ). Thus, for greater accuracy, we instead estimated changes in this codon using the method of      across two mutational pathways, which yields 0.5 nonsynonymous/nonsynonymous, 0.5 nonsynonymous/synonymous, and 1.0 synonymous/nonsynonymous changes. The region occupied by the triple overlap of
+      <italic>
+       ORF3a
+      </italic>
+      /
+      <italic>
+       ORF3c
+      </italic>
+      /
+      <italic>
+       ORF3d
+      </italic>
+      (
+      <italic>
+       ORF3a
+      </italic>
+      codons 44–64;      ) was excluded from analysis for all three genes. The following codons (or their homologous positions) were also excluded from all analyses: all codons occupying a non-OLG/OLG boundary; codons 4460–4466 of
+      <italic>
+       ORF1ab
+      </italic>
+      , which constitute either
+      <italic>
+       nsp11
+      </italic>
+      or
+      <italic>
+       nsp12
+      </italic>
+      depending on a ribosomal frameshift; codons 1–13 of
+      <italic>
+       E
+      </italic>
+      , which overlap
+      <italic>
+       ORF3b
+      </italic>
+      in some genomes; codons 62–64 of
+      <italic>
+       ORF6
+      </italic>
+      , which follow a premature STOP in some genomes; codons 122–124 of
+      <italic>
+       ORF7a
+      </italic>
+      and 1–3 of
+      <italic>
+       ORF7b
+      </italic>
+      , which overlap each other; and codons 72–74 of
+      <italic>
+       ORF9c
+      </italic>
+      , which follow a premature STOP in some genomes.
+     </p>
+    </sec>
+    <sec id="s4-11">
+     <title>
+      Cumulative haplotype frequencies
+     </title>
+     <p>
+      We defined haplotypes along the mutational path to EP+1+LOF using all five high-derived allele frequency (DAF) mutations from Wuhan-Hu-1 to
+      <italic>
+       ORF3d
+      </italic>
+      -LOF. Subsequent mutations after
+      <italic>
+       ORF3d
+      </italic>
+      -LOF were ignored in the haplotype analysis. Samples with missing data at any of the five loci were also ignored. We calculated the cumulative frequency of each haplotype in Germany (where the EP haplotype is a documented founder) and five other countries with the most abundant samples at the time of data accession. Cumulative frequencies were calculated as the total number of occurrences of each haplotype collected on or before each day, divided by the total number of samples from the same country. Countries were subsequently divided into early founders and late founders to investigate founder effects, where early founder countries tend to have several samples from January, and late founder countries tend to have samples collected only after mid-February.
+     </p>
+    </sec>
+    <sec id="s4-12">
+     <title>
+      Within-host diversity
+     </title>
+     <p>
+      For within-host analyses, we obtained
+      <italic>
+       n
+      </italic>
+      = 401 high-depth (at least 50-fold mean coverage) human SARS-CoV-2 samples from the Sequence Read Archive (listed in      ). Only Illumina samples were used, as some Nanopore samples exhibit apparent systematic bias in calling putative intrahost SNPs, and this technology has also been shown to be unsuitable for intra-host analysis (      ). Reads were trimmed with BBTools BBDUK (      ) and mapped against the Wuhan-Hu-1 reference sequence using Bowtie2 (      ) with local alignment, seed length 20, and up to one mismatch. SNPs were called from mapped reads using the LoFreq (      ) variant caller, requiring both sequencing quality and MAPQ to be ≥30. Only single-end or the first of paired-end reads were used. Within-host variants were dynamically filtered based on each site’s coverage using a binomial cutoff to ensure a false-discovery rate of ≤1 across our entire study (401 samples), assuming a mean sequencing error rate of 0.2% (      ).
+     </p>
+     <p>
+      To estimate
+      <italic>
+       π
+      </italic>
+      , numbers of nonsynonymous and synonymous differences and sites were first calculated individually for all genes in each of the 401 samples using SNPGenie (      ; snpgenie.pl,
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/chasewnelson/SNPGenie">
+       https://github.com/chasewnelson/SNPGenie
+      </ext-link>
+      ). OLG regions were then analyzed separately using OLGenie (      ; OLGenie.pl,
+      <ext-link ext-link-type="uri" ns0:href="https://github.com/chasewnelson/OLGenie">
+       https://github.com/chasewnelson/OLGenie
+      </ext-link>
+      ). Because OLGenie requires a multiple sequence alignment as input, a pseudo-alignment of 1000 sequences was constructed for each OLG region in each sample by randomly substituting single nucleotide variants according to their within-host frequencies into the Wuhan-Hu-1 reference genome. For non-OLG and OLG regions alike, average within-host numbers of differences and sites were calculated for each codon by taking the mean across all samples. For example, if a particular codon contained nonsynonymous differences in two of 401 samples, with the two samples exhibiting mean numbers of 0.01 and 0.002 pairwise differences per site, this codon was considered to exhibit a mean of (0.01+0.002)/401 = 0.0000299 pairwise differences per site across all samples. These codon means were then treated as independent units of observation during bootstrapping.
+     </p>
+     <p>
+      Pangolin samples refer to Sequence Read Archive records SRR11093266, SRR11093267, SRR11093268, SRR11093269, SRR11093270, and SRR11093271. Only 179 single nucleotide variants could be called prior to our FDR filtering, and samples SRR11093271 and SRR11093270 were discarded entirely due to low mapping quality. We also note that after our quality filtering, four samples contain consensus alleles that do not match their reference sequence (available from GISAID): P1E, P4L, P5E, and P5L (      ).
+     </p>
+    </sec>
+    <sec id="s4-13">
+     <title>
+      Within-host recurrent mutations analyses
+     </title>
+     <p>
+      We assume that each host was infected by a single genotype. Under this assumption, the minor allele at each segregating site within-host is either due to genotyping or sequencing artifacts, or new mutations. Because there are very few loci with high-frequency derived alleles between hosts, and because Wuhan-Hu-1 is used as the reference in read mapping, we here only consider within-host mutations that differ from this reference background. There are four possible bases at each locus (A, C, G, and U), and three possible mutational changes away from the reference. For each locus, we calculated the number of samples matching the reference allele as
+      <italic>
+       N
+      </italic>
+      =
+      <italic>
+       N
+      </italic>
+      <sub>
+       1
+      </sub>
+      +
+      <italic>
+       N
+      </italic>
+      <sub>
+       2
+      </sub>
+      , where
+      <italic>
+       N
+      </italic>
+      <sub>
+       1
+      </sub>
+      is the number of samples in which the Wuhan-Hu-1 reference allele is the only observed allele (fixed), and
+      <italic>
+       N
+      </italic>
+      <sub>
+       2
+      </sub>
+      is the number of samples in which the site is polymorphic but the reference allele is still the major (most common) allele. Given
+      <italic>
+       N
+      </italic>
+      <sub>
+       2
+      </sub>
+      , we further determined the number of samples carrying each of the three possible non-reference alleles as
+      <italic>
+       N
+      </italic>
+      <sub>
+       A
+      </sub>
+      ,
+      <italic>
+       N
+      </italic>
+      <sub>
+       C
+      </sub>
+      ,
+      <italic>
+       N
+      </italic>
+      <sub>
+       G
+      </sub>
+      , and
+      <italic>
+       N
+      </italic>
+      <sub>
+       U
+      </sub>
+      . For example, if the reference allele was U, we calculated
+      <italic>
+       p
+      </italic>
+      <sub>
+       A
+      </sub>
+      ,
+      <italic>
+       p
+      </italic>
+      <sub>
+       C
+      </sub>
+      , and
+      <italic>
+       p
+      </italic>
+      <sub>
+       G
+      </sub>
+      , where
+      <italic>
+       p
+      </italic>
+      <sub>
+       All
+      </sub>
+      =
+      <italic>
+       p
+      </italic>
+      <sub>
+       A
+      </sub>
+      +
+      <italic>
+       p
+      </italic>
+      <sub>
+       C
+      </sub>
+      +
+      <italic>
+       p
+      </italic>
+      <sub>
+       G
+      </sub>
+      . If A was an observed non-reference allele, we calculated the frequency of A among samples as
+      <italic>
+       p
+      </italic>
+      <sub>
+       A
+      </sub>
+      =
+      <italic>
+       N
+      </italic>
+      <sub>
+       A
+      </sub>
+      /
+      <italic>
+       N
+      </italic>
+      . Thus, a larger frequency indicates the derived allele is observed in a higher proportion of samples (      ). The within-host derived allele frequency (DAF) for each sample was estimated as the total number of reads matching the observed minor allele divided by the total number of reads mapped to the locus. If all reads matched the reference allele, then DAF = 0. Five mutations (four nonsynonymous) occur in ≥10% of samples (after rounding to the nearest percent), with their DAFs plotted in      . For this analysis, we did not apply the per-site FDR cutoff, thus a DAF = 0 is equivalent to the absence of mapped reads with the mutation, after reads are filtered by sequence quality, mapping quality, and LoFreq’s default significance threshold (p=0.01).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>

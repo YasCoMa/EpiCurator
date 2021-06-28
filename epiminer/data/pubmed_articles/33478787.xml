@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Immuno-informatics approach for B-cell and T-cell epitope based peptide vaccine design against novel COVID-19 virus.
+ </title>
+ <abstract>
+  <AbstractText>
+   COVID-19 has brought the world to a standstill with a wave of destruction in country after country with tremendous loss of lives and livelihood in advanced to developing nations. Whole world is staring at the prospect of repeated lockdowns with another wave of COVID-19 predicted to hit the world in September of 2020. The second wave is assumed to be even more destructive with severe impact across much of the world. The only way to defeat this pandemic is to quickly develop a safe and effective vaccine against this raging menace and initiate a global vaccination drive. Our study is an attempt to deploy various computational methods to identify B-cell and T-cell epitopes from the spike surface glycoprotein of SARS-COV-2 which have the novel potential for vaccine development against COVID-19. For this we have taken 8 unique strains with one each from India, China, France, USA, Italy, Australia, Iran and Pakistan. The strain data was extracted from NCBI Database. By analyzing the immune parameters like surface accessibility, antigenicity, variability, conservancy, flexibility, hydrophilicity, allergenicity and toxicity of the conserved sequences of spike glycoprotein using various databases and bioinformatics tools, we identified two potential novel linear (SGTNGTKRFDN and ASVYAWNRK) and one structural B-cell epitope as well as two T-cell epitopes (RLFRKSNLK and IPTNFTISV) which can be used as epitope-based peptide vaccines. Docking simulation assay revealed that above T-cell epitopes have minimum free binding energy and showed strong hydrogen bond interaction which strengthened its potential as being a T-cell epitope for the epitope-based novel vaccine against SARS-CoV-2. This study allows us to claim that B-cell and T-cell epitopes mentioned above provide potential pathways for developing an exploratory vaccine against spike surface glycoprotein of SARS-CoV-2 with high confidence for the identified strains. We will need to confirm our findings with biological assays.
+  </AbstractText>
+ </abstract>
+</article>

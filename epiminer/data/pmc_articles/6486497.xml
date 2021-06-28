@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink">
+ <title>
+  Mutations in Hepatitis D Virus Allow It to Escape Detection by CD8
+ </title>
+ <abstract>
+  <p>
+   Hepatitis D virus (HDV) superinfection in patients with hepatitis B virus (HBV) is associated with rapid progression to liver cirrhosis and hepatocellular carcinoma. Treatment options are limited, and no vaccine is available. Although HDV-specific CD8   T cells are thought to control the virus, little is known about which HDV epitopes are targeted by virus-specific CD8   T cells or why these cells ultimately fail to control the infection. We aimed to define how HDV escapes the CD8   T-cell–mediated response.
+  </p>
+  <p>
+   We collected plasma and DNA samples from 104 patients with chronic HDV and HBV infection at medical centers in Europe and the Middle East, sequenced HDV, typed human leukocyte antigen (HLA) class I alleles from patients, and searched for polymorphisms in HDV RNA associated with specific HLA class I alleles. We predicted epitopes in HDV that would be recognized by CD8   T cells and corresponded with the identified virus polymorphisms in patients with resolved (n = 12) or chronic (n = 13) HDV infection.
+  </p>
+  <p>
+   We identified 21 polymorphisms in HDV that were significantly associated with specific HLA class I alleles (
+   <italic>
+    P
+   </italic>
+   &lt; .005). Five of these polymorphisms were found to correspond to epitopes in HDV that are recognized by CD8   T cells; we confirmed that CD8   T cells in culture targeted these HDV epitopes. HDV variant peptides were only partially cross-recognized by CD8   T cells isolated from patients, indicating that the virus had escaped detection by these cells. These newly identified HDV epitopes were restricted by relatively infrequent HLA class I alleles, and they bound most frequently to HLA-B. In contrast, frequent HLA class I alleles were not associated with HDV sequence polymorphisms.
+  </p>
+  <p>
+   We analyzed sequences of HDV RNA and HLA class I alleles that present epitope peptides to CD8   T cells in patients with persistent HDV infection. We identified polymorphisms in the HDV proteome that associate with HLA class I alleles. Some variant peptides in epitopes from HDV were only partially recognized by CD8   T cells isolated from patients; these could be mutations that allow HDV to escape the immune response, resulting in persistent infection. HDV escape from the immune response was associated with uncommon HLA class I alleles, indicating that HDV evolves, at the population level, to evade recognition by common HLA class I alleles.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Materials and Methods
+    </title>
+    <sec id="sec1.1">
+     <title>
+      Patients and Samples
+     </title>
+     <p id="p0050">
+      Patients with chronic HDV/HBV infection (n = 104) were recruited from 8 medical centers located in Germany (Bonn, Düsseldorf, Essen, Hannover, and Munich), Spain, Italy, and Iran.      Viral sequences and HLA class I genotypes were determined according to standard protocols.      CD8      T-cell assays were performed with additional samples obtained from 12 patients with resolved HDV infection and 13 patients with chronic HDV/HBV infection, recruited from Freiburg, Hamburg, and Munich (Germany). All patients were infected with HDV genotype 1. Patient characteristics are summarized in      and      . Ethical approval was granted by the Ethik-Kommission der Albert-Ludwigs-Universität Freiburg (no. 369/15). Written informed consent was obtained in all cases according to federal guidelines and the Declaration of Helsinki. Venous blood samples (50 mL per draw) were collected in EDTA-anticoagulated tubes. Peripheral blood mononuclear cells (PBMCs) were isolated with lymphocyte separation medium density gradients (Pancoll separation medium, PAN Biotech GmbH; Aidenbach, Germany) and resuspended in RPMI 1640 medium supplemented with 10% fetal calf serum, 1% penicillin/streptomycin, and 1.5% HEPES buffer 1 mol/L (complete medium; all additives from Thermo Scientific (Waltham, MA).
+     </p>
+    </sec>
+    <sec id="sec1.2">
+     <title>
+      Peptides, Antibodies, and Tetramers
+     </title>
+     <p id="p0055">
+      Peptides were synthesized with a free amine NH
+      <sub>
+       2
+      </sub>
+      terminus and a free acid COOH terminus with standard Fmoc chemistry (Genaxxon Bioscience, Ulm, Germany). Anti-CD8 (RPA-T8, 1:100; SK1, 1:300), anti-CD38 (Hb7, 1:200), anti-CD45RA (HI100, 1:50), anti-IFN-γ (4S.B3, 1:50), and anti–programmed cell death protein 1 (PD-1) (EH12.1, 1:33) were purchased from BD Biosciences (Germany). Anti-Bcl-2 (Bcl-2/100, 1:200), anti-CCR7 (G043H7, 1:33), anti-CD8 (RPA-T8, 1:400), and anti-CD127 (A019D5, 1:33) were purchased from BioLegend (San Diego, CA). Anti-CD14 (61D3, 1:100), anti-CD19 (HIB19, 1:100), anti-Eomes (WD1928, 1:50), anti-killer cell lectin-like receptor G1 (KLRG1) (13F12F2, 1:33), and anti-T-bet (4B10, 1:200) were purchased from Thermo Scientific. Anti-T-cell factor (1TCF1) (C63D9, 1:100) was purchased from Cell Signaling Technology (Danvers, MA). Tetrameric complexes of HLA-B*15:01/L-HDAg
+      <sub>
+       170–179
+      </sub>
+      SMQGVPESPF were generated as described previously.
+     </p>
+    </sec>
+    <sec id="sec1.3">
+     <title>
+      Analysis of HDV Sequences and HLA Class I-Associated Viral Polymorphisms
+     </title>
+     <p id="p0060">
+      Total RNA was extracted from serum samples and reverse transcribed into cDNA with Moloney Murine Leukemia Virus Reverse Transcriptase (Promega, Madison, WI) and the HDV-specific primer 771R (5′-CGGTCCCCTCGGAATGTTG-3′). The L-HDAg-encoding region was amplified from cDNA with Pfu DNA Polymerase (Promega) in a 2-step nested polymerase chain reaction (PCR) incorporating the HDV-specific primers 891-F (5′-AGGTCGGACCGCGAGGAGGT-3′), 339-R (5′-GCTGAAGGGGTCCTCTGGAGGTG-3′), 912-F (5′-GAGATGCCATGCCGACCCGAAGAG-3′), and 1674-R (5′-AGAAAAGAGTAAGAGYACTGAGG-3′). The following thermal profile was used for all PCRs: (i) 94°C for 10 minutes; (ii) 94°C for 30 seconds, 54°C for 45 seconds, and 72°C for 90 seconds (35 cycles); and (iii) 72°C for 7 minutes. PCR products were purified with a QIAquick Gel Extraction Kit (Qiagen, Hilden, Germany) and sequenced on an ABI 3730xl DNA Analyzer (Eurofins Genomics Germany GmbH; Ebersberg, Germany) with the internal primers 912-F and 1674-R. All sequences were submitted to GenBank (accession nos. MF175257–MF175360). HDV sequences were aligned with ClustalX2 software.      HLA class I associations with amino acid residues at each alignment position were tested using the R package SeqFeatR (
+      <ext-link ext-link-type="uri" id="intref0010" ns0:href="https://seqfeatr.zmb.uni-due.de">
+       https://seqfeatr.zmb.uni-due.de
+      </ext-link>
+      ).      The Fisher exact test was used to determine significant associations in a 2 × 2 contingency table format with counts for observed combinations of amino acids and HLA class I allotypes at each alignment position. Further analyses were based on a cutoff
+      <italic>
+       P
+      </italic>
+      value of &lt;.005.
+     </p>
+    </sec>
+    <sec id="sec1.4">
+     <title>
+      Prediction of HDV-Specific CD8      T-Cell Epitopes
+     </title>
+     <p id="p0065">
+      Viral amino acid sequences, 15 residues N-terminal and 15 residues C-terminal, of the identified HLA class I–associated viral sequence polymorphisms were analyzed for the corresponding binding motifs with 4 online prediction tools: ANN 3.4 and netMHCpan 2.8 on the Immune Epitope Database website,      ,      SYFPEITHI,      and BIMAS.      The 8mer, 9mer, and 10mer peptides were tested if available via the respective prediction tool. A half maximal inhibitory concentration (IC
+      <sub>
+       50
+      </sub>
+      ) of ≤1000 nmol/L, a SYFPEITHI score of ≥20, and a BIMAS score of ≥20 were used as cutoffs. Candidate epitopes were ranked against epitopes predicted across the entire sequence of L-HDAg.
+     </p>
+    </sec>
+    <sec id="sec1.5">
+     <title>
+      Peptide-Specific CD8      T-Cell Lines
+     </title>
+     <p id="p0070">
+      PBMCs were activated with peptides, as described previously.      Briefly, 4 × 10      PBMCs were stimulated once with 10 μg/mL peptide and 0.5 μg/mL anti-CD28 (BD Biosciences) and fed every 3 days with complete medium containing 20 U/mL recombinant interleukin (IL)-2 (Miltenyi Biotec, Bergisch Gladbach, Germany). Peptide-specific CD8      T-cell lines were used for experimental purposes after 14 days.
+     </p>
+    </sec>
+    <sec id="sec1.6">
+     <title>
+      Intracellular IFN Gamma Staining
+     </title>
+     <p id="p0075">
+      Procedures were carried out as described previously.      Brieﬂy, expanded CD8      T cells or peptide-speciﬁc CD8      T-cell lines (0.2 × 10      cells per well in a 96-well plate) were stimulated with peptides (10 μg/mL) in the presence of 50 U/mL recombinant IL-2 and 1 μL/mL brefeldin A (BD Biosciences). After 5 hours, cells were stained with 7-aminoactinomycin D and anti-CD8, fixed/permeabilized with Cytoﬁx/Cytoperm, and stained with anti-IFN gamma (all reagents from BD Biosciences). Stained cells were ﬁxed in phosphate-buffered saline (PBS) containing 2% paraformaldehyde. Data were acquired with an BD FACSCanto II flow cytometer (BD Biosciences) and analyzed with FlowJo software, version 10 (FlowJo, Ashland, OR).
+     </p>
+    </sec>
+    <sec id="sec1.7">
+     <title>
+      HLA Class I Tetramer-Based Analysis and Cell Enrichment
+     </title>
+     <p id="p0080">
+      Tetramer staining procedures were carried out as described previously.      Briefly, 1 × 10      PBMCs per well were incubated in a 96-well plate with the relevant HLA class I tetramer for 15 minutes at 37°C. Cells were then washed 3 times with PBS containing 1% fetal calf serum and stained with the indicated surface and/or intracellular antibodies. Dead cells were excluded from the analysis with the fixable viability dye eFluor780 (1:5000, eBioscience, Germany). Cytoplasmic and nuclear molecules were shown with a FoxP3/Transcription Factor Staining Buffer Set (eBioscience). Stained cells were fixed in PBS containing 2% paraformaldehyde. Tetramer-based enrichment was performed as described by Alanio et al
+      <italic>
+       .
+      </italic>
+      Briefly, 10–15 × 10      PBMCs were labeled for 30 minutes at room temperature with the HLA-B*15:01/L-HDAg
+      <sub>
+       170–179
+      </sub>
+      SMQGVPESPF tetramer coupled to phycoerythrin and enriched using anti-PE beads with MACS technology (Miltenyi Biotec, Germany). Frequencies of virus-specific CD8      T cells were calculated as described previously.      Data were acquired using an LSRFortessa flow cytometer and analyzed with FlowJo software version 10 (FlowJo, Ashland, OR).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Results
+    </title>
+    <sec id="sec2.1">
+     <title>
+      Identification of HLA Class I–Associated Viral Sequence Polymorphisms in L-HDAg
+     </title>
+     <p id="p0085">
+      To assess the impact of HDV-specific CD8      T-cell–mediated selection pressure in vivo, we analyzed a cohort of 104 patients with chronic HDV/HBV infection for HLA class I–associated viral sequence polymorphisms (HLA footprints) in L-HDAg. Using a highly significant cutoff value (
+      <italic>
+       P
+      </italic>
+      &lt; .005) based on studies of other persistent viral infections,      ,      we identified 21 viral sequence polymorphisms that were associated with specific HLA class I alleles (      ).
+      <table-wrap id="tbl1" position="float">
+       <label>
+        Table 1
+       </label>
+       <caption>
+        <p>
+         HLA Class I–Associated Viral Sequence Polymorphisms and HDV-Specific CD8         T Cell Epitopes
+        </p>
+       </caption>
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           No.
+          </th>
+          <th>
+           HLA
+          </th>
+          <th>
+           AA position
+          </th>
+          <th>
+           Mutation
+          </th>
+          <th>
+           <italic>
+            P
+           </italic>
+           value
+          </th>
+          <th>
+           AA sequence epitope candidate
+          </th>
+          <th>
+           AA range
+          </th>
+          <th>
+           Positive responses/number of patients tested
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           1
+          </td>
+          <td align="char">
+           <bold>
+            B*15
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            170
+           </bold>
+          </td>
+          <td>
+           <bold>
+            S170N
+           </bold>
+          </td>
+          <td>
+           <bold>
+            2.9 × 10
+           </bold>
+          </td>
+          <td>
+           <bold>
+            <underline>
+             S
+            </underline>
+            MQGVPESPF
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            170–179
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            10/14
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td align="char">
+           B*13
+          </td>
+          <td align="char">
+           33
+          </td>
+          <td>
+           D33E
+          </td>
+          <td align="char">
+           .0001
+          </td>
+          <td>
+           <underline>
+            D
+           </underline>
+           LRKVKKKI
+          </td>
+          <td align="char">
+           33–41
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+         <tr>
+          <td>
+           3
+          </td>
+          <td align="char">
+           <bold>
+            B*37
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            101
+           </bold>
+          </td>
+          <td>
+           <bold>
+            D101E
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            .0002
+           </bold>
+          </td>
+          <td>
+           <bold>
+            Q
+            <underline>
+             D
+            </underline>
+            HRRRKAL
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            100–108
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            1/1
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           4
+          </td>
+          <td align="char">
+           A*29
+          </td>
+          <td align="char">
+           63
+          </td>
+          <td>
+           K63R
+          </td>
+          <td align="char">
+           .0002
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+         </tr>
+         <tr>
+          <td>
+           5
+          </td>
+          <td align="char">
+           A*30
+          </td>
+          <td align="char">
+           47
+          </td>
+          <td>
+           D47E
+          </td>
+          <td align="char">
+           .0010
+          </td>
+          <td>
+           KVKKKIKK
+          </td>
+          <td align="char">
+           36–43
+          </td>
+          <td align="char">
+           0/3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           6
+          </td>
+          <td align="char">
+           <bold>
+            B*37
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            89
+           </bold>
+          </td>
+          <td>
+           <bold>
+            P89T/I
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            .0011
+           </bold>
+          </td>
+          <td>
+           <bold>
+            VDSGPRKR
+            <underline>
+             P
+            </underline>
+            L
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            81–90
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            1/1
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           7
+          </td>
+          <td align="char">
+           B*49
+          </td>
+          <td align="char">
+           37
+          </td>
+          <td>
+           V37A/T
+          </td>
+          <td align="char">
+           .0015
+          </td>
+          <td>
+           EELERDLRK
+           <underline>
+            V
+           </underline>
+          </td>
+          <td align="char">
+           28–37
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+         <tr>
+          <td>
+           8
+          </td>
+          <td align="char">
+           B*13
+          </td>
+          <td align="char">
+           100
+          </td>
+          <td>
+           Q100K
+          </td>
+          <td align="char">
+           .0018
+          </td>
+          <td>
+           R
+           <underline>
+            Q
+           </underline>
+           DHRRRKAL
+          </td>
+          <td align="char">
+           99–108
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+         <tr>
+          <td>
+           9
+          </td>
+          <td align="char">
+           B*51
+          </td>
+          <td align="char">
+           81
+          </td>
+          <td>
+           V81I
+          </td>
+          <td align="char">
+           .0019
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+         </tr>
+         <tr>
+          <td>
+           10
+          </td>
+          <td align="char">
+           B*13
+          </td>
+          <td align="char">
+           43
+          </td>
+          <td>
+           K43R
+          </td>
+          <td align="char">
+           .0021
+          </td>
+          <td>
+           DLRKVKKKI
+          </td>
+          <td align="char">
+           33–41
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+         <tr>
+          <td>
+           11
+          </td>
+          <td align="char">
+           B*41
+          </td>
+          <td align="char">
+           158
+          </td>
+          <td>
+           G158A/D/M
+          </td>
+          <td align="char">
+           .0023
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+         </tr>
+         <tr>
+          <td>
+           12
+          </td>
+          <td align="char">
+           <bold>
+            B*18
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            47
+           </bold>
+          </td>
+          <td>
+           <bold>
+            E47D
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            .0027
+           </bold>
+          </td>
+          <td>
+           <bold>
+            D
+            <underline>
+             E
+            </underline>
+            NPWLGNI
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            46–54
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            1/5
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           13
+          </td>
+          <td align="char">
+           A*33
+          </td>
+          <td align="char">
+           37
+          </td>
+          <td>
+           V37T/A
+          </td>
+          <td align="char">
+           .0028
+          </td>
+          <td>
+           EELERDLR
+          </td>
+          <td align="char">
+           28–35
+          </td>
+          <td>
+           ND
+          </td>
+         </tr>
+         <tr>
+          <td>
+           14
+          </td>
+          <td align="char">
+           B*14
+          </td>
+          <td align="char">
+           107
+          </td>
+          <td>
+           A107T
+          </td>
+          <td align="char">
+           .0028
+          </td>
+          <td>
+           DHRRRK
+           <underline>
+            A
+           </underline>
+           L
+          </td>
+          <td align="char">
+           101–108
+          </td>
+          <td align="char">
+           0/1
+          </td>
+         </tr>
+         <tr>
+          <td>
+           15
+          </td>
+          <td align="char">
+           A*30
+          </td>
+          <td align="char">
+           49
+          </td>
+          <td>
+           P49L/S
+          </td>
+          <td align="char">
+           .0031
+          </td>
+          <td>
+           KVKKKIKK
+          </td>
+          <td align="char">
+           36–43
+          </td>
+          <td align="char">
+           0/3
+          </td>
+         </tr>
+         <tr>
+          <td>
+           16
+          </td>
+          <td align="char">
+           <bold>
+            B*41
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            139
+           </bold>
+          </td>
+          <td>
+           <bold>
+            R139K
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            .0034
+           </bold>
+          </td>
+          <td>
+           <bold>
+            RERRVAGPPV
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            140–149
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            1/1
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           17
+          </td>
+          <td align="char">
+           B*13
+          </td>
+          <td align="char">
+           96
+          </td>
+          <td>
+           D96E
+          </td>
+          <td align="char">
+           .0035
+          </td>
+          <td>
+           RQDHRRRKAL
+          </td>
+          <td align="char">
+           99–108
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           18
+          </td>
+          <td align="char" rowspan="2">
+           <bold>
+            B*27
+           </bold>
+          </td>
+          <td align="char" rowspan="2">
+           <bold>
+            105
+           </bold>
+          </td>
+          <td rowspan="2">
+           <bold>
+            R105K
+           </bold>
+          </td>
+          <td align="char" rowspan="2">
+           <bold>
+            .0039
+           </bold>
+          </td>
+          <td>
+           <bold>
+            R
+            <underline>
+             R
+            </underline>
+            KALENKK
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            104–112
+           </bold>
+          </td>
+          <td>
+           <bold>
+            Previously described
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <bold>
+            RRDHRR
+            <underline>
+             R
+            </underline>
+            KAL
+           </bold>
+          </td>
+          <td align="char">
+           <bold>
+            99–108
+           </bold>
+          </td>
+          <td>
+           <bold>
+            Previously described
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           19
+          </td>
+          <td align="char">
+           B*38
+          </td>
+          <td align="char">
+           131
+          </td>
+          <td>
+           K131G
+          </td>
+          <td align="char">
+           .0039
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+          <td>
+           —
+          </td>
+         </tr>
+         <tr>
+          <td rowspan="2">
+           20
+          </td>
+          <td align="char" rowspan="2">
+           B*13
+          </td>
+          <td align="char" rowspan="2">
+           113
+          </td>
+          <td rowspan="2">
+           K113R
+          </td>
+          <td align="char" rowspan="2">
+           .0043
+          </td>
+          <td>
+           RQDHRRRKAL
+          </td>
+          <td align="char">
+           99–108
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <underline>
+            K
+           </underline>
+           QLSAGGKNL
+          </td>
+          <td align="char">
+           113–122
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+         <tr>
+          <td>
+           21
+          </td>
+          <td align="char">
+           A*68
+          </td>
+          <td align="char">
+           134
+          </td>
+          <td>
+           T134A
+          </td>
+          <td align="char">
+           .0045
+          </td>
+          <td>
+           L
+           <underline>
+            T
+           </underline>
+           EEDERR
+          </td>
+          <td align="char">
+           133–140
+          </td>
+          <td align="char">
+           0/5
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <table-wrap-foot>
+        <fn id="tspara0015">
+         <p>
+          NOTE. Confirmed epitopes are displayed in bold.
+         </p>
+        </fn>
+        <fn id="tspara0020">
+         <p>
+          AA, amino acid; ND, not done.
+         </p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </p>
+     <p id="p0090">
+      The strongest association linked residue 170 in L-HDAg with HLA-B*15. All 8 HLA-B*15      patients harbored viruses with a serine (S) to asparagine (N) substitution at this position (S170N) compared with only 16 of 96 HLA-B*15      patients (
+      <italic>
+       P
+      </italic>
+      = 2.9 × 10      ) (
+      <italic>
+       A
+      </italic>
+      and
+      <italic>
+       C
+      </italic>
+      ).
+     </p>
+     <p id="p0095">
+      Only 5 of 21 significant polymorphisms (24%) were associated with HLA-A alleles, whereas 16 of 21 significant polymorphisms (76%) were associated with HLA-B alleles (      ). Moreover, these HLA footprints were distributed quite evenly across the central region of HDAg, sparing the N-terminal 30 amino acids of S/L-HDAg, the C-terminal 25 amino acids of S-HDAg, and the entire C-terminal extension unique to L-HDAg (
+      <italic>
+       A
+      </italic>
+      ).
+     </p>
+    </sec>
+    <sec id="sec2.2">
+     <title>
+      Validation of CD8      T-Cell Epitopes and Viral Escape Mutations in L-HDAg
+     </title>
+     <p id="p0100">
+      To confirm the relevance of these associations, we used in silico prediction tools to analyze viral amino acid sequences for HLA class I binding motifs, guided by the corresponding footprint data (see Materials and Methods). In addition to 8mer, 9mer, and 10mer peptides, an extended window incorporating 15 residues either side of the HLA footprint was tested to allow the identification of CD8      T-cell epitopes associated with flanking mutations, which can disrupt antigen processing and facilitate viral escape.      ,      ,      ,      ,      Using this approach with defined cutoffs (an IC
+      <sub>
+       50
+      </sub>
+      ≤ 1000 nmol/L, a SYFPEITHI score ≥ 20, or a BIMAS score ≥ 20), we identified 18 candidate CD8      T-cell epitopes spanning 17 of the 21 HLA footprints (
+      <italic>
+       B
+      </italic>
+      ,
+      <italic>
+       B
+      </italic>
+      , and
+      <italic>
+       B
+      </italic>
+      ;      ; and      ). As expected, these candidates included 2 HLA-B*27-restricted epitopes identified previously with the same sequence data set, validating the overall strategy.      Of note, 12 of 18 HLA footprints were located within the respective candidate epitopes, whereas 6 of 18 HLA footprints were located in the regions flanking the respective candidate epitopes. These latter footprints did not affect antigen processing in silico, as predicted with an online algorithm (
+      <ext-link ext-link-type="uri" id="intref0015" ns0:href="http://www.iedb.org">
+       www.iedb.org
+      </ext-link>
+      ),      but negative results were also obtained in similar analyses of flanking mutations known to impair the generation of epitopes derived from HCV and HIV (      ).
+     </p>
+     <p id="p0105">
+      We then evaluated the immunogenicity of candidate epitopes in functional assays using peptide-stimulated CD8      T-cell lines generated from HLA class I–matched patients with resolved HDV infection (n = 12) or chronic HDV/HBV infection (n = 13) (      ). Five novel HDV-specific CD8      T-cell epitopes were identified with this approach (      ), including 1 restricted by HLA-B*15 (      ), 1 restricted by HLA-B*18 (      ), 2 restricted by HLA-B*37 (      ), and 1 restricted by HLA-B*41 (data not shown). In further experiments, we generated peptide-specific CD8      T-cell lines targeting either the prototype or variant epitopes and tested the impact of viral sequence variation using IFN gamma production assays. As shown in
+      <italic>
+       D
+      </italic>
+      ,
+      <italic>
+       D
+      </italic>
+      , and
+      <italic>
+       D
+      </italic>
+      , and more clearly in serial dilution assays (
+      <italic>
+       E
+      </italic>
+      ,
+      <italic>
+       E
+      </italic>
+      , and
+      <italic>
+       E
+      </italic>
+      ), the variant peptides were recognized suboptimally by some, but not all, prototype-specific CD8      T cells. Conversely, variant-specific CD8      T cells responded poorly to the corresponding prototype and variant peptides without exception, consistent with population-level viral escape (
+      <italic>
+       D
+      </italic>
+      and
+      <italic>
+       E
+      </italic>
+      ,
+      <italic>
+       D
+      </italic>
+      and
+      <italic>
+       E
+      </italic>
+      ,
+      <italic>
+       D
+      </italic>
+      and
+      <italic>
+       E
+      </italic>
+      ).
+     </p>
+     <p id="p0110">
+      An association of special interest was detected at residue 47 (
+      <italic>
+       A
+      </italic>
+      and
+      <italic>
+       C
+      </italic>
+      ). Here, the consensus aspartate (D) was conserved in 13 of 14 HLA-B*18      patients, whereas the variant glutamate (E) was found in 42 of 90 HLA-B*18      patients (
+      <italic>
+       P
+      </italic>
+      = .0027). This observation is compatible with the notion that HLA-B*18 drives population-level evolution from glutamate, which likely represents the ancestral residue, to aspartate and further suggests that the E47D substitution does not markedly impair viral fitness, given the relative paucity of sequence revertants in the absence of HLA-B*18. In line with these interpretations, the variant peptide (47E) induced a small but reproducible IFN gamma response, whereas the consensus peptide (47D) was not recognized in parallel assays (
+      <italic>
+       D
+      </italic>
+      and
+      <italic>
+       E
+      </italic>
+      ).
+     </p>
+    </sec>
+    <sec id="sec2.3">
+     <title>
+      Viral Evolution During Superinfection With HDV
+     </title>
+     <p id="p0115">
+      To probe the biological implications of these findings, we characterized the emergence of viral escape mutations in longitudinal samples from an HLA-B*15      patient with acute HDV/HBV superinfection (P18 in      ). This patient presented with alanine aminotransferase levels approaching 2000 U/L, which declined to &lt;500 U/L over a period of 1 week, and serum HDV RNA levels approaching 10      IU/mL, which declined by approximately 2 orders of magnitude in the first week and subsequently relapsed to plateau at &gt;10      IU/mL (
+      <italic>
+       A
+      </italic>
+      ). Over a period of &gt;200 weeks before initiation of antiviral therapy with pegylated IFN alfa, viral sequence analysis showed a total of 4 amino acid substitutions in L-HDAg. Two of these mutations were reversions toward the consensus sequence, and 2 mutations encoded de novo substitutions away from the consensus sequence (
+      <italic>
+       B
+      </italic>
+      ). One of the reversion mutations occurred at an HLA-A*02 anchor residue, suggesting primary acquisition of an escape virus from an HLA-A*02      individual (patient P18 lacked HLA-A*02). More importantly, 1 of the de novo mutations (S170N) was a bone fide escape variant located in L-HDAg
+      <sub>
+       170–179
+      </sub>
+      SMQGVPESPF, matching the HLA-B*15 footprint identified in our cohort of patients with chronic HDV/HBV infection (      and      ). These observations clearly show the longitudinal accumulation of viral escape mutations in L-HDAg and tentatively link this phenomenon with CD8      T-cell failure in the context of superinfection with HDV.
+     </p>
+    </sec>
+    <sec id="sec2.4">
+     <title>
+      HDV Sequence Polymorphisms Are Associated With Infrequent HLA Class I Alleles
+     </title>
+     <p id="p0120">
+      As noted, most of the HLA class I footprints identified in our cohort were associated with HLA-B alleles (      ). In further analyses, we realized that common HLA class I alleles, such as HLA-A*01, -A*02, -A*03, -B*07, -B*08, -B*35, and -B*44, all of which occurred at frequencies &gt;10% in the German reference population, were not associated with viral sequence polymorphisms (
+      <italic>
+       B
+      </italic>
+      ). Conversely, significant footprints in the HDV genome were almost exclusively associated with relatively uncommon HLA class I alleles, namely HLA-A*29, -A*30, -B*13, -B*14, -B*15, -B*18, -B*27, -B*37, -B*38, -B*41, -B*49, and -B*51 (
+      <italic>
+       B
+      </italic>
+      and      ).
+     </p>
+     <p id="p0125">
+      To extend these observations, we compared HLA class I allele frequencies in our cohort of patients with chronic HDV/HBV infection with the corresponding HLA class I allele frequencies in Germany, Italy, and Iran, where the primary medical centers were located for recruitment purposes (
+      <italic>
+       B
+      </italic>
+      ). Additional patients were recruited from a medical center in Barcelona, but HLA class I allele frequency data were not available for the general population in Spain. The overall distribution of HLA class I allele frequencies in our cohort of patients with chronic HDV/HBV infection was similar to the overall distribution of HLA class I allele frequencies in Germany, Italy, and Iran (
+      <italic>
+       B
+      </italic>
+      ). However, the footprint-linked allele HLA-B*51 was relatively common in our study cohort and in the general populations of Italy and Iran (10%–11%), and we were unable to identify an HLA-B*51–restricted candidate epitope in HDV (      and      ). Other immune selection pressures, such as interactions between the Bw4 motif and killer cell immunoglobulin-like receptors, may therefore drive viral mutation in the context of HLA-B*51. Similarly, the footprint-linked allele HLA-B*18 was relatively common in our study cohort (6.7%) and in the general population of Italy (9.7%). This observation is compatible with the negative association between HLA-B*18 and sequence variation at residue 47 in L-HDAg.
+     </p>
+     <p id="p0130">
+      These data can be explained by the concept of viral evolution at the population level. Accordingly, relatively infrequent HLA class I allotypes continue to drive the accumulation of escape variants in vivo, whereas more common HLA class I allotypes shape the circulating quasi-species and therefore no longer select for de novo mutations in HDV.
+     </p>
+    </sec>
+    <sec id="sec2.5">
+     <title>
+      HDV-Specific CD8      T Cells Are Maintained at Very Low Frequencies After Viral Escape
+     </title>
+     <p id="p0135">
+      In line with previous studies,      ,      we were unable to detect HDV-specific CD8      T cells directly ex vivo, even with the aid of fluorochrome-labeled tetramers corresponding to the HLA-B*15-restricted epitope L-HDAg
+      <sub>
+       170–179
+      </sub>
+      SMQGVPESPF (
+      <italic>
+       A
+      </italic>
+      , upper panels). We therefore characterized these cells using a tetramer-based enrichment strategy.      ,      Distinct populations of tetramer      CD8      T cells were detected after enrichment in all 7 HLA-B*15      patients with chronic HDV/HBV infection (patients 13, 14, 16, 17, 18, 21, and 23) (
+      <italic>
+       A
+      </italic>
+      ,
+      <italic>
+       lower panels
+      </italic>
+      , and
+      <italic>
+       B
+      </italic>
+      ). The frequencies of these HLA-B*15–restricted HDV-specific CD8      T cells were low, however, subordinate even to rarely detectable virus-specific CD8      T cells in patients with chronic HCV infection (
+      <italic>
+       B
+      </italic>
+      ). In patients 13, 14, 17, 18, 21, and 23, SMQGVPESPF-specific CD8      T cells displayed a predominant effector-memory phenotype, whereas in patient 16, SMQGVPESPF-specific CD8      T cells displayed a predominant central-memory phenotype (
+      <italic>
+       C
+      </italic>
+      ). These HDV-specific CD8      T cells expressed intermediate to high levels of PD-1 (
+      <italic>
+       D
+      </italic>
+      ), intermediate levels of the inhibitory receptor KLRG1 (
+      <italic>
+       D
+      </italic>
+      ), and intermediate levels of the transcription factors T-bet and Eomes (
+      <italic>
+       E
+      </italic>
+      ). In line with these characteristics, which contrast with the typical phenotype of terminally exhausted cells (PD-1      KLRG1      T-bet      Eomes      ), SMQGVPESPF-specific CD8      T cells also expressed low levels of the activation marker CD38, akin to HCV-specific CD8      T cells targeting escape variants (
+      <italic>
+       F
+      </italic>
+      ). Moreover, SMQGVPESPF-specific CD8      T cells preferentially displayed a PD-1      CD127      phenotype (
+      <italic>
+       G
+      </italic>
+      ) and expressed relatively high levels of TCF1 (
+      <italic>
+       H
+      </italic>
+      ), a transcription factor that defines memory-like cells with proliferative capacity.      Similar levels of TCF1 were expressed by SMQGVPESPF-specific CD8      T cells in a patient (patient 5) with resolved HDV infection (
+      <italic>
+       H
+      </italic>
+      ). Expression of the pro-survival factor BCL2 was more variable, however, with the highest levels expressed by SMQGVPESPF-specific CD8      T cells in patient 5 (
+      <italic>
+       H
+      </italic>
+      ). These phenotypic characteristics broadly mirror those reported previously for HCV-specific CD8      T cells in the absence of antigenic stimulation, reflecting viral escape or viral clearance.      ,      Although further studies are required to establish such parallels across different viral infections, it is notable that SMQGVPESPF-specific CD8      T cells in patient 14, who retained a subpopulation of prototype viruses, expressed relatively low levels of TCF1 and BCL2 in conjunction with an atypical CD38      PD-1      CD127      phenotype (
+      <italic>
+       F
+      </italic>
+      and
+      <italic>
+       G
+      </italic>
+      ).
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <title>
+     Discussion
+    </title>
+    <p id="p0140">
+     HDV/HBV infection is one of the few remaining difficult-to-treat conditions in viral hepatitis, leading to liver cirrhosis, liver failure, and hepatocellular carcinoma in many patients.     ,     Despite the urgent need for novel prophylactic and therapeutic interventions, remarkably little is known about the natural repertoire of virus-specific CD8     T cells, which are thought to play a key role in immune protection against HDV. In this study, we analyzed HLA class I–associated viral sequence polymorphisms in L-HDAg, giving new insights into the immunobiology of HDV infection. First, we extended the repertoire of defined HDV-specific CD8     T-cell epitopes from 4, encompassing 2 restricted by HLA-A*02     and 2 restricted by HLA-B*27,     to 9, now also encompassing 1 restricted by HLA-B*15, 1 restricted by HLA-B*18, 2 restricted by HLA-B*37, and 1 restricted by HLA-B*41. Second, we showed that viral escape occurs during persistent HDV infection. Third, we uncovered a link between viral escape and infrequent HLA class I alleles, indicating population-level adaptation of HDV. Finally, we showed that HDV-specific CD8     T cells in patients with resolved or persistent HDV infection display similar non–terminally exhausted phenotypes, consistent with viral escape in the absence of clearance. In line with this interpretation, HLA-B*15–restricted HDV-specific CD8     T cells that reproducibly select for viral escape could be expanded from patients with chronic HDV/HBV infection, whereas HDV-specific CD8     T cells restricted by HLA class I allotypes that less commonly select for viral escape could not be expanded from patients with chronic HDV/HBV infection.
+    </p>
+    <p id="p0145">
+     The phenomenon of viral adaptation at the population level may lead to a relative paucity of CD8     T-cell epitopes restricted by common HLA class I allotypes, which in turn may impede the development of an effective vaccine against HDV. In line with this prediction, viral sequence polymorphisms were not associated with the common HLA alleles A*01, A*02, A*03, A*24, B*07, B*08, B*35, and B*44, and suitable binding motifs for many of the corresponding allotypes were not present in the HDV proteome (L-HDAg).     However, these findings need to be confirmed with direct immunogenicity assays, because prediction algorithms are potentially fallible, and certain epitopes may not be subject to viral escape, particularly if they are located in biologically constrained regions of L-HDAg. In this context, our experimental strategy was not designed to identify CD8     T-cell epitopes that are not subject to viral escape. Moreover, our study cohort did not include patients with acute HDV infection, potentially limiting the detection of novel CD8     T-cell specificities. An unbiased approach will therefore be required to define the full range of immunogenic epitopes derived from HDV.     The association between immunogenicity and infrequent allotypes reported here may also be confounded by HLA class I polymorphisms. For example, the viral mutation S170N was found in all patients with HLA-B*15:01 but was not found in patients with HLA-B*15:10 or HLA-B*15:18 (data not shown). Similarly, common polymorphisms in HLA-B*27 can lead to subtype-specific patterns of epitope targeting in the context of other persistent viral infections, including HCV and HIV.     ,
+    </p>
+    <p id="p0150">
+     Viral escape has direct implications for immune efficacy and the development of immunotherapeutic strategies in the setting of chronic HDV/HBV infection. Recent vaccine studies in chimpanzees and humans with chronic HCV infection showed good immunogenicity against nonconserved viral epitopes, but the corresponding vaccine-boosted CD8     T cells were ineffective, because they failed to recognize the circulating virus.     ,     Effective therapeutic vaccines will therefore likely need to prime and/or boost virus-specific CD8     T cells that target conserved epitopes.
+    </p>
+    <p id="p0155">
+     The most significant footprint-linked allele in the present study was HLA-B*15, which has also been shown to select for viral escape mutations during persistent HCV infection.     In addition, genetic association studies have linked HLA-B*15 and/or its serological equivalent (B62) with better outcomes after infection with HCV.     ,     ,     However, it remains unclear if HLA-B*15 is associated with spontaneous clearance of HDV, and, moreover, any such associations will be extremely difficult to identify, given the clinical heterogeneity of HDV-infected patients and the requirement for co-infection with HBV. In our study cohort, the presence of HDV-specific CD8     T-cell responses did not correlate with the outcome of infection (clearance vs persistence). However, the presence of HDV amino acid variations corresponding to polymorphisms associated with the patient’s HLA alleles (     ) displayed a trend for association with both lower HDV RNA titers (median, 20,638 IU/mL [range, 6 –20,098,000,000 IU/mL] in patients with ≥1 variation vs median, 61,930 IU/mL [range, 10–9,804,000 IU/mL] in patients without any variation;
+     <italic>
+      P
+     </italic>
+     = .054 [Mann–Whitney test]) and lower alanine aminotransferase levels (median, 73 U/L [range, 19–281 U/L] in patients with ≥1 variation vs median 86 U/L [range, 31–507 U/L] in patients without any variation;
+     <italic>
+      P
+     </italic>
+     = .070 [Mann–Whitney test]), respectively. These results suggest that HLA class I footprint mutations indicate efficient CD8     T cell pressure, leading to partial control of viremia and liver inflammation. This interpretation is based on the assumption, however, that partial cross-recognition of escape variants occurs and is sufficient to exert pressure on the virus.
+    </p>
+    <p id="p0160">
+     It is particularly notable that our findings considerably overlap with those reported previously in the setting of persistent infection with HCV or HIV. For example, in all 3 infections, virus-specific CD8     T-cell pressure can select escape variants to fixation (HDV: HLA-B*15–associated polymorphism S170N; HCV: HLA-A*01–associated polymorphism Y1444F)     and drive viral evolution at the population level to extinguish commonly restricted epitopes (HDV: HLA-B*18–restricted epitope L-HDAg
+     <sub>
+      47–54
+     </sub>
+     ; HCV: HLA-A*01–restricted epitope NS3
+     <sub>
+      1436–1444
+     </sub>
+     ;     HIV: HLA-B*51–-restricted epitope RT
+     <sub>
+      128–135
+     </sub>
+     ).     Similarly, in all 3 infections, virus-specific CD8     T cells are preferentially restricted by HLA-B,     ,     ,     ,     rare allotypes confer a particular advantage,     and viral escape mutations undergo reversion in the absence of selection pressure after transmission.     ,     Finally, in all 3 infections, CD8     T cells targeting escape variants display a memory-like phenotype, indicating a loss of antigenic drive.     ,     ,
+    </p>
+    <p id="p0165">
+     Despite these striking parallels across distinct viruses with respect to adaptive host–pathogen interactions, the immunobiology of HDV infection is complicated by the mandatory requirement for co-infection with HBV. Much work will therefore be required to unravel the parameters that govern clinical outcome in the midst of constantly shifting immune responses that simultaneously target rapidly evolving antigens derived from 2 different viruses in a genetically diverse host population. The findings reported here are nonetheless informative with respect to the underlying cellular and molecular processes and can be considered as an early step on a challenging journey.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <p id="p0010">
+    <boxed-text id="dtbox1">
+     <caption>
+      <title>
+       What You Need to Know
+      </title>
+     </caption>
+     <sec id="dtbox1sec1">
+      <title>
+       Background and Context
+      </title>
+      <p id="p0015">
+       HDV infection is associated with severe liver disease, but little is known about the corresponding virus-specific CD8       T cells, which are thought to mediate immune protection against HDV.
+      </p>
+     </sec>
+     <sec id="dtbox1sec2">
+      <title>
+       New Findings
+      </title>
+      <p id="p0020">
+       In persistent infection, HDV mutates to escape from the virus-specific CD8       T cell response. At the population-level, HDV has evolved to evade from recognition in the context of common HLA class I alleles.
+      </p>
+     </sec>
+     <sec id="dtbox1sec3">
+      <title>
+       Limitations
+      </title>
+      <p id="p0025">
+       The observational nature of this study precludes formal identification of a causal association between viral escape and CD8       T-cell failure in the context of infection with HDV.
+      </p>
+     </sec>
+     <sec id="dtbox1sec4">
+      <title>
+       Impact
+      </title>
+      <p id="p0030">
+       These results suggest that viral escape should be considered as a key parameter in the design of immune-based interventions to prevent and treat liver disease associated with HDV.
+      </p>
+     </sec>
+    </boxed-text>
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0035">
+    Hepatitis D virus (HDV) has infected approximately 10% of hepatitis B virus (HBV)–seropositive individuals, affecting 15–20 million people worldwide.    Patients with simultaneous HDV/HBV infection often experience severe acute hepatitis, with an enhanced risk of fulminant disease, but frequently clear both viruses. In contrast, HBV-seropositive patients who become superinfected with HDV generally develop chronic HDV/HBV infection. These patients have a high risk of rapid progression to liver cirrhosis and hepatocellular carcinoma. At present, the sole treatment option for chronic HDV/HBV infection is pegylated interferon (IFN) alfa, which is usually administered for 48 weeks. However, only approximately 30% of patients respond to treatment, and many subsequently develop viral relapse.
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0040">
+    Virus-specific CD8    T cells are thought to play a key role in the outcome of HDV/HBV infection. This contention has been supported by vaccination studies in mice and woodchucks.    However, little is known about naturally occurring HDV-specific CD8    T-cell responses, despite the urgent need for novel prophylactic and therapeutic interventions. The HDV genome encodes a single viral protein, hepatitis delta antigen (HDAg), translated as large and small variants (L-HDAg and S-HDAg, respectively). The only difference between these 2 proteins is a 19–amino acid extension at the C-terminus of L-HDAg. An initial report described 2 HDV-specific CD8    T-cell epitopes in human leukocyte antigen (HLA)-A*02 transgenic mice and patients with resolved HDV infection, but these findings were not confirmed in patients with persistent HDV infection.    A subsequent report suggested that immune exhaustion may impair the efficacy of HDV-specific CD8    T cells in vivo.    In a recent study, we identified 2 HLA-B*27–restricted HDV-specific CD8    T-cell epitopes, both of which were subject to viral escape by mutation.    Of note, HLA-B*27 is associated with spontaneous clearance of hepatitis C virus (HCV) and elite control of human immunodeficiency virus (HIV), and HLA-B*27–restricted CD8    T-cell responses drive viral evolution in patients infected with HCV or HIV.    It nonetheless remains unclear if viral escape is a generalizable phenomenon that underlies immune failure in patients infected with HDV.
+   </p>
+  </textgroup>
+  <textgroup>
+   <p id="p0045">
+    In the present study, we analyzed HLA class I–associated viral sequence polymorphisms across the entire HDV genome as surrogate markers of CD8    T-cell–driven viral escape. These “HLA footprints” were used to identify CD8    T-cell epitopes, confirm predicted escape mutations, and explore features of the host–virus interactome, providing mechanistic insights into adaptive immunity against HDV.
+   </p>
+  </textgroup>
+ </sentences>
+</article>

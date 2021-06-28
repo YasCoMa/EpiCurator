@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  Design of an epitope-based peptide vaccine against the SARS-CoV-2: a vaccine-informatics approach.
+ </title>
+ <abstract>
+  <AbstractText>
+   The recurrent and recent global outbreak of the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has turned into a global concern which has infected more than 42 million people all over the globe, and this number is increasing in hours. Unfortunately, no vaccine or specific treatment is available, which makes it more deadly. A vaccine-informatics approach has shown significant breakthrough in peptide-based epitope mapping and opens the new horizon in vaccine development. In this study, we have identified a total of 15 antigenic peptides [including thymus cells (T-cells) and bone marrow or bursa-derived cells] in the surface glycoprotein (SG) of SARS-CoV-2 which is nontoxic and nonallergenic in nature, nonallergenic, highly antigenic and non-mutated in other SARS-CoV-2 virus strains. The population coverage analysis has found that cluster of differentiation 4 (CD4+) T-cell peptides showed higher cumulative population coverage over cluster of differentiation 8 (CD8+) peptides in the 16 different geographical regions of the world. We identified 12 peptides ((LTDEMIAQY, WTAGAAAYY, WMESEFRVY, IRASANLAA, FGAISSVLN, VKQLSSNFG, FAMQMAYRF, FGAGAALQI, YGFQPTNGVGYQ, LPDPSKPSKR, QTQTNSPRRARS and VITPGTNTSN) that are $80\\\\\\\\\\\\\\\\hbox{--} 90\\\\\\\\\\\\\\\\%$ identical with experimentally determined epitopes of SARS-CoV, and this will likely be beneficial for a quick progression of the vaccine design. Moreover, docking analysis suggested that the identified peptides are tightly bound in the groove of human leukocyte antigen molecules which can induce the T-cell response. Overall, this study allows us to determine potent peptide antigen targets in the SG on intuitive grounds, which opens up a new horizon in the coronavirus disease (COVID-19) research. However, this study needs experimental validation by in vitro and in vivo.
+  </AbstractText>
+ </abstract>
+</article>

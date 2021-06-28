@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+ <title>
+  CAR-T cells and TRUCKs that recognize an EBNA-3C-derived epitope presented on HLA-B*35 control Epstein-Barr virus-associated lymphoproliferation.
+ </title>
+ <abstract>
+  <AbstractText Label="BACKGROUND">
+   Immunosuppressive therapy or T-cell depletion in transplant patients can cause uncontrolled growth of Epstein-Barr virus (EBV)-infected B cells resulting in post-transplant lymphoproliferative disease (PTLD). Current treatment options do not distinguish between healthy and malignant B cells and are thereby often limited by severe side effects in the already immunocompromised patients. To specifically target EBV-infected B cells, we developed a novel peptide-selective chimeric antigen receptor (CAR) based on the monoclonal antibody T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 which recognizes an Epstein-Barr nuclear antigen (EBNA)-3C-derived peptide in HLA-B*35 context in a T-cell receptor (TCR)-like manner. In order to attract additional immune cells to proximity of PTLD cells, based on the T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 CAR, we moreover generated T cells redirected for universal cytokine-mediated killing (TRUCKs), which induce interleukin (IL)-12 release on target contact.
+  </AbstractText>
+  <AbstractText Label="METHODS">
+   T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165-based CAR-T cells (CAR-Ts) and TRUCKs with inducible IL-12 expression in an all-in-one construct were generated. Functionality of the engineered cells was assessed in co-cultures with EBNA-3C-peptide-loaded, HLA-B*35-expressing K562 cells and EBV-infected B cells as PTLD model. IL-12, secreted by TRUCKs on target contact, was further tested for its chemoattractive and activating potential towards monocytes and natural killer (NK) cells.
+  </AbstractText>
+  <AbstractText Label="RESULTS">
+   After co-cultivation with EBV target cells, T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 CAR-Ts and TRUCKs showed an increased activation marker expression (CD137, CD25) and release of proinflammatory cytokines (interferon-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb3 and tumor necrosis factor-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xb1). Moreover, T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 CAR-Ts and TRUCKs released apoptosis-inducing mediators (granzyme B and perforin) and were capable to specifically lyse EBV-positive target cells. Live cell imaging revealed a specific attraction of T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 CAR-Ts around EBNA-3C-peptide-loaded target cells. Of note, T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 TRUCKs with inducible IL-12 showed highly improved effector functions and additionally led to recruitment of monocyte and NK cell lines.
+  </AbstractText>
+  <AbstractText Label="CONCLUSIONS">
+   Our results demonstrate that T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 CAR-Ts recognize EBV peptide/HLA complexes in a TCR-like manner and thereby allow for recognizing an intracellular EBV target. T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\xc3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\x9c165 TRUCKs equipped with inducible IL-12 expression responded even more effectively and released IL-12 recruited additional immune cells which are generally missing in proximity of lymphoproliferation in immunocompromised PTLD patients. This suggests a new and promising strategy to specifically target EBV-infected cells while sparing and mobilizing healthy immune cells and thereby enable control of EBV-associated lymphoproliferation.
+  </AbstractText>
+ </abstract>
+</article>

@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:ns0="http://www.w3.org/1998/Math/MathML" xmlns:ns1="http://www.w3.org/1999/xlink">
+ <title>
+  Estimating the Binding of Sars-CoV-2 Peptides to HLA Class I in Human Subpopulations Using Artificial Neural Networks
+ </title>
+ <abstract>
+  <p>
+   Epidemiological studies show that SARS-CoV-2 infection leads to severe symptoms only in a fraction of patients, but the determinants of individual susceptibility to the virus are still unknown. The major histocompatibility complex (MHC) class I exposes viral peptides in all nucleated cells and is involved in the susceptibility to many human diseases. Here, we use artificial neural networks to analyze the binding of SARS-CoV-2 peptides with polymorphic human MHC class I molecules. In this way, we identify two sets of haplotypes present in specific human populations: the first displays weak binding with SARS-CoV-2 peptides, while the second shows strong binding and T cell propensity. Our work offers a useful support to identify the individual susceptibility to COVID-19 and illustrates a mechanism underlying variations in the immune response to SARS-CoV-2. A record of this paper’s transparent peer review process is included in the   .
+  </p>
+  <p>
+   <list id="ulist0010" list-type="simple">
+    <list-item id="u0010">
+     <label>
+      •
+     </label>
+     <p id="p0010">
+      Binding of SARS-CoV-2 peptides to HLA molecules is computed
+     </p>
+    </list-item>
+    <list-item id="u0015">
+     <label>
+      •
+     </label>
+     <p id="p0015">
+      Weakly or strongly binding haplotypes are identified in human populations
+     </p>
+    </list-item>
+    <list-item id="u0020">
+     <label>
+      •
+     </label>
+     <p id="p0020">
+      Results explain variations in the individual immune response to SARS-CoV-2
+     </p>
+    </list-item>
+   </list>
+  </p>
+  <p>
+   The response to SARS-CoV-2 infection differs from person to person, with some patients developing more severe symptoms than others. In this paper, Caterina La Porta and Stefano Zapperi show that the immune recognition of SARS-CoV-2 viral peptides differs widely among individuals and could thus explain why they may respond differently to the virus.
+  </p>
+ </abstract>
+ <sentences>
+  <textgroup>
+   <sec id="sec1">
+    <title>
+     Introduction
+    </title>
+    <p id="p0025">
+     SARS-CoV-2, the coronavirus causing the COVID-19 pandemic, is the seventh coronavirus known to infect humans. SARS-CoV, MERS-CoV, and SARS-CoV-2 can cause severe disease, whereas HCoV-HKU1, HCoV-NL63, HCoV-OC43, and HCoV-229E are associated with mild symptoms (     ). For a successful infection, multiple elements of the host immune response must be overcome, including both innate and adaptive immunities (     ). The human leukocyte antigen (HLA) system or the major histocompatibility complex (MHC) is a very polymorphic region of the human genome, which plays an important role in the individual genetic susceptibility to human diseases (     ). For example, in infectious diseases, HIV infection was shown to be highly correlated with HLA-A     29, HLA-B     35, and HLA-B     57 (     ;     ;     ;     ;     ;     ), and H1N1 flu was shown to be associated with several HLAs (     ;     ). Association between disease severity and HLA was also reported in SARS-CoV patients (     ;     ;     ;     ;     ).
+    </p>
+    <p id="p0030">
+     According to the structure and function of its genes, the human MHC has been classified into three main regions: class I, class II, and class III. The class I regions are located on the most telomeric part of the human MHC and include three highly polymorphic HLA genes, known as classical (class Ia: HLA-A, HLA-B, and HLA-C), and three lowly polymorphic HLA genes, known as non-classical (class Ib: HLA-E, HLA-F, and HLA-G) (     ). These molecules display small protein fragments at the cell surface, mostly originated in the cytosol. Thus, when a cell expresses foreign proteins, due, for example, to a viral infection, peptides created in the cytosol through proteasome-dependent processes could bind MHC class I. This MHC-peptide complex can then be exposed on the cellular membrane, triggering an immune response if it is recognized by CD8     T cells (     ;     ). Among HLA class I, HLA-B is the most polymorphic classical class I gene, with 4,077 alleles identified to date in different human populations, followed by HLA-A (3,285 alleles) and HLA-C (2,801 alleles) (     ).
+    </p>
+    <p id="p0035">
+     Due to the rapid spread of the SARS-CoV-2 virus, a crucial question is to understand why there is individual susceptibility to the virus in the population. Epidemiological studies show that only a fraction of the infected individuals experience severe respiratory symptoms due to SARS-CoV-2 (     ), with an infection fatality ratio estimated for China at around 0.6% and increasing with age (     ). Another recent work estimated that in France, on an average, 2.6% of the infected individuals were hospitalized, while 0.53% died, again with dependence on the age of the patient (     ). In light of these results, it would be extremely important to identify possible susceptible subjects in advance to protect them with adequate prevention strategies (     ).
+    </p>
+    <p id="p0040">
+     In this paper, we propose a method to identify the dependence on HLA class I polymorphic alleles of the individual immune response to SARS-CoV-2. We focus on this class of the MHC, since it is expressed by all nucleated cells, including antigen-presenting cells. In practice, we estimate the aggressiveness of COVID-19 based on the compatibility between the specific HLA I polymorphism and SARS-CoV-2 peptides. Because experimental characterization of neoantigens is costly and time consuming, there is a growing effort in the development of computational methods that are able to predict peptide-MHC binding and the subsequent immune response. Supervised neural network machine learning approaches are currently showing an increasing performance and are widely used as
+     <italic>
+      in silico
+     </italic>
+     epitope prediction tools (     ;     ;     ). Here, we use two of these epitope prediction algorithms to compute binding affinities between SARS-CoV-2 peptides and 79 HLA class I. Similar calculations are performed to identify peptides for vaccine development (     ).
+    </p>
+    <p id="p0045">
+     We compare our predictions for SARS-CoV-2 with analogous predictions for SARS-CoV and HCoV-OC43, a coronavirus responsible for the common cold. We also assess the stability and T cell propensity of these peptides for a smaller number of HLA alleles (     ). Using this method, we identify a set of weakly binding haplotypes and assess their prevalence in specific human subpopulations, as well as a set of strongly binding haplotypes for which we also compute peptide stability and T cell propensity (     ). All together, our strategy paves the way to the development of a general screening method to assess individual COVID-19 susceptibility in the population.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec2">
+    <title>
+     Results
+    </title>
+    <p id="p0050">
+     To compute the binding affinities of coronavirus peptides, we combine the predictions of two state-of-the-art methods (     ): netMHCpan (     ) and MHCflurry (     ), both based on artificial neural networks. The combination of the two methods allows us to have a more robust result that is independent of the artificial neural networks used. We consider 79 common polymorphic HLA class I alleles supported by both methods and combine their predictions for the binding affinities for peptides of lengths 8–11. These 79 HLA alleles are present in a considerable fraction of the human population as illustrated in     . We scan peptides that are produced by proteasome degradation (     ) considering only the structural proteins of SARS-CoV-2, which are the most abundant proteins in coronaviruses (     ). We then compared the results obtained from the structural proteins of SARS-CoV and HCOV-OC43.
+    </p>
+    <p id="p0055">
+     As shown in     for HLA-A, HLA-B, and HLA-C alleles and SARS-CoV-2 peptides, binding affinities are broadly distributed with a peak at high affinities so that the majority of peptides display weak binding to the HLA. Furthermore, the distributions differ between the various alleles (     ), confirming the presence of a heterogeneous binding pattern. To encapsulate the binding affinity distributions into a simple parameter, we counted all the peptides displaying a strong binding affinity (
+     <inline-formula>
+      <ns0:math altimg="si1.gif" id="M1">
+       <ns0:mi>
+        I
+       </ns0:mi>
+       <ns0:msub>
+        <ns0:mi>
+         C
+        </ns0:mi>
+        <ns0:mn>
+         50
+        </ns0:mn>
+       </ns0:msub>
+       <ns0:mo>
+        &lt;
+       </ns0:mo>
+       <ns0:mn>
+        1,000
+       </ns0:mn>
+       <ns0:mspace width="0.25em"/>
+       <ns0:mi>
+        nM
+       </ns0:mi>
+      </ns0:math>
+     </inline-formula>
+     ) for each of the 79 alleles. We carried out the same analysis for all the three coronaviruses.     A displays the number of strongly binding peptides for each allele showing that there is a close similarity between SARS-CoV-2 and SARS-CoV. In particular, alleles with a few strongly binding peptides in SARS-CoV-2 also display small numbers in SARS-CoV, while alleles with many strongly binding peptides in SARS-CoV-2 also show many strong peptides in SARS-CoV (     A). We can also observe similarities between SARS-CoV-2 and HCoV-OC43, but typically, HCoV-OC43 displays more strongly binding peptides than SARS-CoV-2 or SARS-CoV (see     A).
+    </p>
+    <p id="p0060">
+     To confirm that our results do not depend on the particular cutoff chosen, we also repeated the analysis with a smaller cutoff for strong binding (
+     <inline-formula>
+      <ns0:math altimg="si2.gif" id="M4">
+       <ns0:mi>
+        I
+       </ns0:mi>
+       <ns0:msub>
+        <ns0:mi>
+         C
+        </ns0:mi>
+        <ns0:mn>
+         50
+        </ns0:mn>
+       </ns0:msub>
+       <ns0:mo>
+        &lt;
+       </ns0:mo>
+       <ns0:mn>
+        500
+       </ns0:mn>
+       <ns0:mspace width="0.25em"/>
+       <ns0:mi>
+        nM
+       </ns0:mi>
+      </ns0:math>
+     </inline-formula>
+     ). In     , we compare the number of strongly binding peptides in SARS-CoV-2 for the two different cutoffs. The outcome is very similar, apart from small quantitative differences. To obtain a cutoff-independent assessment of the binding of viral peptides to each HLA molecule, we computed a total binding affinity
+     <inline-formula>
+      <ns0:math altimg="si3.gif" id="M5">
+       <ns0:mrow>
+        <ns0:msub>
+         <ns0:mi>
+          K
+         </ns0:mi>
+         <ns0:mrow>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+         </ns0:mrow>
+        </ns0:msub>
+       </ns0:mrow>
+      </ns0:math>
+     </inline-formula>
+     by weighting the binding affinity of all the peptides, as described in the STAR Methods section. The values of
+     <inline-formula>
+      <ns0:math altimg="si3.gif" id="M6">
+       <ns0:mrow>
+        <ns0:msub>
+         <ns0:mi>
+          K
+         </ns0:mi>
+         <ns0:mrow>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+         </ns0:mrow>
+        </ns0:msub>
+       </ns0:mrow>
+      </ns0:math>
+     </inline-formula>
+     for the binding among SARS-CoV-2, SARS-CoV, and HCoV-OC43 peptides to all the considered HLA molecules are reported in     . Comparing the patterns in     A and     , we can see that the HLA molecules with few strongly binding peptides are also those with higher values of
+     <inline-formula>
+      <ns0:math altimg="si3.gif" id="M7">
+       <ns0:mrow>
+        <ns0:msub>
+         <ns0:mi>
+          K
+         </ns0:mi>
+         <ns0:mrow>
+          <ns0:mi>
+           t
+          </ns0:mi>
+          <ns0:mi>
+           o
+          </ns0:mi>
+          <ns0:mi>
+           t
+          </ns0:mi>
+         </ns0:mrow>
+        </ns0:msub>
+       </ns0:mrow>
+      </ns0:math>
+     </inline-formula>
+     , confirming the robustness of our results.
+    </p>
+    <p id="p0065">
+     A visual representation of how much strongly binding peptides are shared among different HLA alleles is provided in     B for the case of SARS-CoV-2. The figure shows that some peptides display strong affinity (in yellow) for a number of HLA molecules, but in general, peptides only bind strongly to relatively small numbers of HLA molecules, highlighting the heterogeneity of MHC-peptide interactions across human haplotypes.
+    </p>
+    <p id="p0070">
+     To understand the similarities between SARS-CoV-2 and SARS-CoV in more depth, we report in     A peptides that are common to both viruses and that bind strongly to more than one HLA molecule. We observe that some peptides bind strongly to up to 8 HLA molecules. Conversely, for each HLA molecule, there are strongly binding peptides that are unique to SARS-CoV-2 or SARS-CoV. The numbers of these peptides are summarized in     B for each HLA molecule.
+    </p>
+    <p id="p0075">
+     We then analyzed the stability between peptides and HLA class I as well as T cell propensity. To this end, we used NetTepi (     ) to find the putative T cell epitopes for SARS-CoV-2 and SARS-CoV considering all 13 alleles available for this method. These alleles are widely frequent in human populations: the HLA-A alleles are present in around 60% of the populations, while the HLA-B alleles are present in around 30% of the populations. As shown in     A, the number of highly ranked peptides are very similar in the case of SARS-CoV-2 and SARS-CoV. Highly ranked peptides that are common to the two coronaviruses are reported in     B, together with their rank. In     , we display distributions of binding stability, T cell propensity, and T cell epitope score for the 13 supported HLA alleles and all the strongly binding peptides previously identified in SARS-CoV-2. By ranking the HLA molecules as based on the T cell epitope score, we can identify the list of HLA molecules that are most likely to bind SARS-CoV-2 peptides that are recognized by T cells.
+    </p>
+    <p id="p0080">
+     Having characterized the binding propensity of each molecule to SARS-CoV-2 peptides, we thus investigated how individuals from different human populations are likely to respond to SARS-CoV-2 infection in terms of peptide presentation by HLA class I. To this end, we collected haplotype frequencies from different human populations (i.e., Europeans, Chinese, Japanese, Hispanic, and African Americans) and inspected the prevalence of weakly binding molecules, defined as those who display no strongly binding peptide from SARS-CoV-2 structural proteins. This list included: HLA-A     25:01, HLA-A     26:03, HLA-A     66:01, HLA-B     08:02, HLA-B     14:02, HLA-B     15:09, HLA-B     27:02, HLA-B     27:03, HLA-B     27:04, HLA-B     27:06, HLA-B     37:01, HLA-B     39:06, HLA-B     46:01, HLA-B     83:01, HLA-C     04:01, HLA-C     08:02, and HLA-C     12:03. Since HLA is codominant and all the alleles (A, B, and C) were expressed by each individual, we determined the haplotype that contains three, two, or one of the alleles contained in the list. We then plotted their prevalence in the different human populations (see     B). The results showed that haplotypes with three weakly binding alleles are generally quite rare, amounting to up to two individuals over 1,000. The frequency of haplotypes with two weakly binding alleles is around 1%–4% depending on the populations, with the exception of Japan, where those haplotypes amount only to 0.16%, and Germans of Chinese origin, where this frequency is 0.59%. Finally, haplotypes with only one weakly binding peptide were more common, showing frequencies of around 20% with small variations among different populations.
+    </p>
+    <p id="p0085">
+     We finally report the frequency of haplotypes containing either one or two of the HLA alleles that are most likely to bind SARS-CoV2 peptides and be recognized by T cells.     A shows variations of the frequency in the populations, with Chinese and Japanese displaying the highest frequency of these haplotypes.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec3">
+    <title>
+     Discussion
+    </title>
+    <p id="p0090">
+     The possibility to screen the population and predict a score of aggressiveness for each specific individual is a critical issue to develop personalized therapeutic strategies and to mitigate the effects of the infection in the shortest time. To reach this final goal, we focused on HLA class I, which is involved in presenting viral peptides to CD8     T cells, mounting the immune response. A more complete picture of the immune response could be obtained by studying HLA class II molecules, but the performance of peptide-HLA class II binding prediction algorithms is still inferior to that of HLA class I predictors (     ).
+    </p>
+    <p id="p0095">
+     SARS-CoV-2 and SARS-CoV share 80% of the genome, while the similarity between SARS-CoV-2 and HCOV-OC43 is only 50% (     ). We have thus compared the variations in binding affinities between coronavirus-derived peptides and a large number of HLA class I molecules for SARS-CoV-2, SARS-CoV, and HCoV-OC43. Our results show that the binding patterns are similar for SARS-CoV-2 and SARS-CoV, while they differ more for HCoV-OC43. We then identified a list of HLA class I alleles, where the binding with SARS-CoV-2 peptides is particularly weak. This means that these HLA alleles have a smaller probability to immediately start an adaptive immune response. In contrast, we also identified the list of HLA alleles whose binding with SARS-CoV-2 peptides is particularly strong and are most likely to activate a T cell response.
+    </p>
+    <p id="p0100">
+     Our results clearly show the heterogeneity of the human population in responding to SARS-CoV-2 infection. To quantify this heterogeneity, we computed the frequency of haplotypes that are predicted to display a weak SARS-CoV-2 peptide-HLA class I binding in different human populations. In particular, we measured the prevalence of haplotypes that contain one, two, or three weakly binding alleles. Individuals with these haplotypes are likely to display a weaker immune response to SARS-Cov-2 infection. In this way, we developed a clear parameter that can be useful to screen the population.
+    </p>
+    <p id="p0105">
+     Earlier studies in SARS-CoV revealed association between the presence of HLA-B     46:01, one of the weakly binding alleles in our list, and the observation of severe symptoms in a cohort of Taiwanese patients (     ). Similar associations were found with HLA-B     07:01 (     ) and HLA-C     08-01 (     ) that are, however, not among the alleles we were able to study with our method. Since SARS-CoV-2 and SARS-CoV share most of the genome and we show that they display similar HLA binding profiles, it is expected that the weakly binding HLA molecules are similar for both viruses. While these early studies confirm the relevance of our approach, in light of our results it would be more appropriate to investigate the correlations between disease severity and the complete haplotype, instead of focusing on individual alleles.
+    </p>
+    <p id="p0110">
+     Furthermore, we also identified the HLA haplotypes associated with a strong combined peptide affinity, stability, and T cell propensity and measured their prevalence in different human populations. We found that these haplotypes are more present in Asian populations. This might be a relevant parameter to study the diffusion of the disease across the world. Simulations of diffusion of the virus might take this effect into account. Altogether, our strategy could be the basis to develop individualized tests to assess the immune susceptibility to COVID-19 in the population. To reach this goal, it would be important to extend our analysis also to HLA class II molecules.
+    </p>
+   </sec>
+  </textgroup>
+  <textgroup>
+   <sec id="sec4">
+    <title>
+     STAR★Methods
+    </title>
+    <sec id="sec4.1">
+     <title>
+      Key Resources Table
+     </title>
+     <p id="p0115">
+      <table-wrap id="undtbl1" position="float">
+       <table frame="hsides" rules="groups">
+        <thead>
+         <tr>
+          <th>
+           REAGENT or RESOURCE
+          </th>
+          <th>
+           SOURCE
+          </th>
+          <th>
+           IDENTIFIER
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Software and Algorithms
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           netMHCpan 4.0
+          </td>
+          <td/>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0010" ns1:href="https://services.healthtech.dtu.dk/service.php?NetMHCpan-4">
+            https://services.healthtech.dtu.dk/service.php?NetMHCpan-4
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           MHCflurry
+          </td>
+          <td/>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0015" ns1:href="https://github.com/openvax/mhcflurry">
+            https://github.com/openvax/mhcflurry
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NetChop 3.1
+          </td>
+          <td/>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0020" ns1:href="http://www.cbs.dtu.dk/services/NetChop/">
+            http://www.cbs.dtu.dk/services/NetChop/
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NetTepi
+          </td>
+          <td/>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0025" ns1:href="http://www.cbs.dtu.dk/services/NetTepi/">
+            http://www.cbs.dtu.dk/services/NetTepi/
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Code for analysis pipeline
+          </td>
+          <td>
+           This paper
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0030" ns1:href="https://github.com/ComplexityBiosystems/hla-covid">
+            https://github.com/ComplexityBiosystems/hla-covid
+           </ext-link>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <bold>
+            Other
+           </bold>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="3">
+           <hr/>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Sequence data, statistical analyses, and raw data
+          </td>
+          <td>
+           This paper
+          </td>
+          <td>
+           <ext-link ext-link-type="uri" id="intref0035" ns1:href="https://github.com/ComplexityBiosystems/hla-covid">
+            https://github.com/ComplexityBiosystems/hla-covid
+           </ext-link>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </table-wrap>
+     </p>
+    </sec>
+    <sec id="sec4.2">
+     <title>
+      Resource Availability
+     </title>
+     <sec id="sec4.2.1">
+      <title>
+       Lead Contact
+      </title>
+      <p id="p0120">
+       Further information and requests for resources should be directed to and will be fulfilled by the Lead Contact, Caterina A. M. La Porta (
+       <ext-link ext-link-type="uri" id="intref0050" ns1:href="mailto:caterina.laporta@unimi.it">
+        caterina.laporta@unimi.it
+       </ext-link>
+       ).
+      </p>
+     </sec>
+     <sec id="sec4.2.2">
+      <title>
+       Materials Availability
+      </title>
+      <p id="p0125">
+       This study did not generate new unique reagents or materials.
+      </p>
+     </sec>
+     <sec id="sec4.2.3" sec-type="data-availability">
+      <title>
+       Data and Code Availability
+      </title>
+      <p id="p0130">
+       The source codes generated to obtain the results presented in this paper are available at
+       <ext-link ext-link-type="uri" id="intref0055" ns1:href="https://github.com/ComplexityBiosystems/hla-covid">
+        https://github.com/ComplexityBiosystems/hla-covid
+       </ext-link>
+       . Binding affinities for SARS-CoV-2, SARS-CoV and HCoV-OC43 are reported in       . The protein sequences used in this paper are also available at
+       <ext-link ext-link-type="uri" id="intref0060" ns1:href="https://github.com/ComplexityBiosystems/hla-covid/">
+        https://github.com/ComplexityBiosystems/hla-covid/
+       </ext-link>
+       . Haplotype frequencies for different population are retrieved from the Allele Frequency Net Database (
+       <ext-link ext-link-type="uri" id="intref0065" ns1:href="http://www.allelefrequencies.net/">
+        http://www.allelefrequencies.net/
+       </ext-link>
+       ) (       ) and available at
+       <ext-link ext-link-type="uri" id="intref0070" ns1:href="https://github.com/ComplexityBiosystems/hla-covid/">
+        https://github.com/ComplexityBiosystems/hla-covid/
+       </ext-link>
+       .
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec4.3">
+     <title>
+      Method Details
+     </title>
+     <sec id="sec4.3.1">
+      <title>
+       Calculation of Binding Affinities for Individual Peptides
+      </title>
+      <p id="p0135">
+       We downloaded the fasta sequences for SARS-CoV-2 (GenBank: MN908947.3), SARS-CoV (NCBI Reference Sequence:
+       <ext-link ext-link-type="uri" id="intref0075" ns1:href="ncbi-n:NC_004718.3">
+        NC_004718.3
+       </ext-link>
+       ) and HCoV-OC43 (NCBI Reference Sequence:
+       <ext-link ext-link-type="uri" id="intref0080" ns1:href="ncbi-n:NC_006213.1">
+        NC_006213.1
+       </ext-link>
+       ). We restrict our analysis to the most abundant structural proteins (       ): S,N,E,M for SARS-Cov and SARS-Cov-2 and S,N,E,M,HE for HCOV-OC43. In order to estimate binding affinities for peptides, we combine two recent algorithms based on artificial neural networks (ANN): netMHCpan 4.0 (       ) and MHCflurry (       ). NetMHCpan uses a pan-allele approach to provide predictions for binding affinities of peptides to any MHC molecule by an ANN trained on a combination of more than 180000 quantitative binding data (       ). MHCflurry uses instead an allele specific algorithm where each MHC allele is associated with 8-16 neural networks trained on affinity measurements (       ). Here, we run netMHCpan 4.0 and MHCflurry on a set of 79 HLA-A, HLA-B and HLA-C alleles supported by both algorithm. We run netMHCpan 4.0 predictions on the DTU server (
+       <ext-link ext-link-type="uri" id="intref0085" ns1:href="https://services.healthtech.dtu.dk/service.php?NetMHCpan-4.0">
+        https://services.healthtech.dtu.dk/service.php?NetMHCpan-4.0
+       </ext-link>
+       ) while MHCflurry predictions are obtained using the epitopepredict python code (
+       <ext-link ext-link-type="uri" id="intref0090" ns1:href="https://github.com/dmnfarrell/epitopepredict">
+        https://github.com/dmnfarrell/epitopepredict
+       </ext-link>
+       ). In both cases, we scan all the peptides of lengths 8-11 for the proteins of interest. We only consider peptides that are likely to be produced by proteasome degradation. To this end, we employ NetChop 3.1 (       ) a neural network based algorithm that scans proteins for probable cleavage sites of the human proteasome. We next compare the predictions for the binding affinities obtained by netMHCpan 4.0 and MHCflurry for each peptide and MHC allele. As shown in       , there is a strong correlation between the two predictions but in some cases the two predictions sometimes display large differences. We discard these values considering only peptides for which
+       <inline-formula>
+        <ns0:math altimg="si6.gif" id="M8">
+         <ns0:mrow>
+          <ns0:mrow>
+           <ns0:mo>
+            |
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             p
+            </ns0:mi>
+            <ns0:mn>
+             1
+            </ns0:mn>
+           </ns0:msub>
+           <ns0:mo linebreak="badbreak">
+            −
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             p
+            </ns0:mi>
+            <ns0:mn>
+             2
+            </ns0:mn>
+           </ns0:msub>
+           <ns0:mo>
+            |
+           </ns0:mo>
+          </ns0:mrow>
+          <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+           /
+          </ns0:mo>
+          <ns0:mrow>
+           <ns0:mo>
+            |
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             p
+            </ns0:mi>
+            <ns0:mn>
+             1
+            </ns0:mn>
+           </ns0:msub>
+           <ns0:mo linebreak="badbreak">
+            +
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             p
+            </ns0:mi>
+            <ns0:mn>
+             2
+            </ns0:mn>
+           </ns0:msub>
+           <ns0:mo>
+            |
+           </ns0:mo>
+          </ns0:mrow>
+          <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+           &lt;
+          </ns0:mo>
+          <ns0:mn>
+           0.25
+          </ns0:mn>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       , where
+       <inline-formula>
+        <ns0:math altimg="si7.gif" id="M9">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mn>
+            1
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       and
+       <inline-formula>
+        <ns0:math altimg="si8.gif" id="M10">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mn>
+            2
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       are the predictions for binding affinity (
+       <inline-formula>
+        <ns0:math altimg="si5.gif" id="M11">
+         <ns0:mrow>
+          <ns0:mi>
+           I
+          </ns0:mi>
+          <ns0:msub>
+           <ns0:mi>
+            C
+           </ns0:mi>
+           <ns0:mn>
+            50
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       ) obtained by the two algorithms. The binding affinity is then taken to be the average of
+       <inline-formula>
+        <ns0:math altimg="si7.gif" id="M12">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mn>
+            1
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       and
+       <inline-formula>
+        <ns0:math altimg="si8.gif" id="M13">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mn>
+            2
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       . Finally, peptides for which both
+       <inline-formula>
+        <ns0:math altimg="si7.gif" id="M14">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mn>
+            1
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       and
+       <inline-formula>
+        <ns0:math altimg="si8.gif" id="M15">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mn>
+            2
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       are smaller than 1000 nM are defined as strongly binding. We thus count the number of strongly binding peptides for each allele.
+      </p>
+     </sec>
+     <sec id="sec4.3.2">
+      <title>
+       Calculation of the Total Binding Affinity to HLA Molecules
+      </title>
+      <p id="p0140">
+       Consider a set of
+       <italic>
+        n
+       </italic>
+       peptides with concentrations
+       <inline-formula>
+        <ns0:math altimg="si9.gif" id="M16">
+         <ns0:mrow>
+          <ns0:mo>
+           [
+          </ns0:mo>
+          <ns0:msub>
+           <ns0:mi>
+            P
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+          </ns0:msub>
+          <ns0:mo>
+           ]
+          </ns0:mo>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       with
+       <inline-formula>
+        <ns0:math altimg="si10.gif" id="M17">
+         <ns0:mrow>
+          <ns0:mi>
+           i
+          </ns0:mi>
+          <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+           =
+          </ns0:mo>
+          <ns0:mn>
+           1
+          </ns0:mn>
+          <ns0:mo>
+           ,
+          </ns0:mo>
+          <ns0:mo>
+           …
+          </ns0:mo>
+          <ns0:mo>
+           ,
+          </ns0:mo>
+          <ns0:mi>
+           n
+          </ns0:mi>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       that can bind with HLA molecules with dissociation constants
+       <inline-formula>
+        <ns0:math altimg="si11.gif" id="M18">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            K
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       . We denote by
+       <inline-formula>
+        <ns0:math altimg="si12.gif" id="M19">
+         <ns0:mrow>
+          <ns0:mo>
+           [
+          </ns0:mo>
+          <ns0:mi>
+           H
+          </ns0:mi>
+          <ns0:mo>
+           ]
+          </ns0:mo>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       the concentration of free HLA molecules and by
+       <inline-formula>
+        <ns0:math altimg="si13.gif" id="M20">
+         <ns0:mrow>
+          <ns0:mo>
+           [
+          </ns0:mo>
+          <ns0:mi>
+           H
+          </ns0:mi>
+          <ns0:msub>
+           <ns0:mi>
+            P
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+          </ns0:msub>
+          <ns0:mo>
+           ]
+          </ns0:mo>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       the concentration of HLA molecules bound to a peptide
+       <italic>
+        i
+       </italic>
+       . According to the law of mass action, we have that
+       <disp-formula id="fd1">
+        <label>
+         (Equation 1)
+        </label>
+        <ns0:math altimg="si14.gif" id="M21">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            K
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+          </ns0:msub>
+          <ns0:mo linebreak="badbreak">
+           =
+          </ns0:mo>
+          <ns0:mfrac>
+           <ns0:mrow>
+            <ns0:mrow>
+             <ns0:mo>
+              [
+             </ns0:mo>
+             <ns0:msub>
+              <ns0:mi>
+               P
+              </ns0:mi>
+              <ns0:mi>
+               i
+              </ns0:mi>
+             </ns0:msub>
+             <ns0:mo>
+              ]
+             </ns0:mo>
+            </ns0:mrow>
+            <ns0:mrow>
+             <ns0:mo>
+              [
+             </ns0:mo>
+             <ns0:mi>
+              H
+             </ns0:mi>
+             <ns0:mo>
+              ]
+             </ns0:mo>
+            </ns0:mrow>
+           </ns0:mrow>
+           <ns0:mrow>
+            <ns0:mo>
+             [
+            </ns0:mo>
+            <ns0:mi>
+             H
+            </ns0:mi>
+            <ns0:msub>
+             <ns0:mi>
+              P
+             </ns0:mi>
+             <ns0:mi>
+              i
+             </ns0:mi>
+            </ns0:msub>
+            <ns0:mo>
+             ]
+            </ns0:mo>
+           </ns0:mrow>
+          </ns0:mfrac>
+          <ns0:mo>
+           .
+          </ns0:mo>
+         </ns0:mrow>
+        </ns0:math>
+       </disp-formula>
+      </p>
+      <p id="p0145">
+       The probability for a HLA molecule to be bound by any peptide
+       <italic>
+        i
+       </italic>
+       can be written as
+       <disp-formula id="fd2">
+        <label>
+         (Equation 2)
+        </label>
+        <ns0:math altimg="si15.gif" id="M22">
+         <ns0:msub>
+          <ns0:mi>
+           p
+          </ns0:mi>
+          <ns0:mi>
+           b
+          </ns0:mi>
+         </ns0:msub>
+         <ns0:mo>
+          =
+         </ns0:mo>
+         <ns0:mfrac>
+          <ns0:mrow>
+           <ns0:msub>
+            <ns0:mo>
+             ∑
+            </ns0:mo>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+           <ns0:mfenced close="]" open="[">
+            <ns0:mrow>
+             <ns0:mi>
+              H
+             </ns0:mi>
+             <ns0:msub>
+              <ns0:mi>
+               P
+              </ns0:mi>
+              <ns0:mi>
+               i
+              </ns0:mi>
+             </ns0:msub>
+            </ns0:mrow>
+           </ns0:mfenced>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mfenced close="]" open="[">
+            <ns0:mi>
+             H
+            </ns0:mi>
+           </ns0:mfenced>
+           <ns0:mo>
+            +
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mo>
+             ∑
+            </ns0:mo>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+           <ns0:mfenced close="]" open="[">
+            <ns0:mrow>
+             <ns0:mi>
+              H
+             </ns0:mi>
+             <ns0:msub>
+              <ns0:mi>
+               P
+              </ns0:mi>
+              <ns0:mi>
+               i
+              </ns0:mi>
+             </ns0:msub>
+            </ns0:mrow>
+           </ns0:mfenced>
+          </ns0:mrow>
+         </ns0:mfrac>
+         <ns0:mo>
+          =
+         </ns0:mo>
+         <ns0:mfrac>
+          <ns0:mrow>
+           <ns0:msub>
+            <ns0:mo>
+             ∑
+            </ns0:mo>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+           <ns0:mfenced close="]" open="[">
+            <ns0:msub>
+             <ns0:mi>
+              P
+             </ns0:mi>
+             <ns0:mi>
+              i
+             </ns0:mi>
+            </ns0:msub>
+           </ns0:mfenced>
+           <ns0:mo>
+            /
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             K
+            </ns0:mi>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+          </ns0:mrow>
+          <ns0:mrow>
+           <ns0:mn>
+            1
+           </ns0:mn>
+           <ns0:mo>
+            +
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mo>
+             ∑
+            </ns0:mo>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+           <ns0:mfenced close="]" open="[">
+            <ns0:msub>
+             <ns0:mi>
+              P
+             </ns0:mi>
+             <ns0:mi>
+              i
+             </ns0:mi>
+            </ns0:msub>
+           </ns0:mfenced>
+           <ns0:mo>
+            /
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             K
+            </ns0:mi>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+          </ns0:mrow>
+         </ns0:mfrac>
+         <ns0:mo>
+          .
+         </ns0:mo>
+        </ns0:math>
+       </disp-formula>
+      </p>
+      <p id="p0150">
+       For peptides with uniform concentration
+       <inline-formula>
+        <ns0:math altimg="si16.gif" id="M23">
+         <ns0:mrow>
+          <ns0:mrow>
+           <ns0:mo>
+            [
+           </ns0:mo>
+           <ns0:msub>
+            <ns0:mi>
+             P
+            </ns0:mi>
+            <ns0:mi>
+             i
+            </ns0:mi>
+           </ns0:msub>
+           <ns0:mo>
+            ]
+           </ns0:mo>
+          </ns0:mrow>
+          <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+           =
+          </ns0:mo>
+          <ns0:msub>
+           <ns0:mi>
+            P
+           </ns0:mi>
+           <ns0:mn>
+            0
+           </ns0:mn>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       , we can write
+       <disp-formula id="fd3">
+        <label>
+         (Equation 3)
+        </label>
+        <ns0:math altimg="si17.gif" id="M24">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            p
+           </ns0:mi>
+           <ns0:mi>
+            b
+           </ns0:mi>
+          </ns0:msub>
+          <ns0:mo linebreak="badbreak">
+           =
+          </ns0:mo>
+          <ns0:mfrac>
+           <ns0:mrow>
+            <ns0:msub>
+             <ns0:mi>
+              P
+             </ns0:mi>
+             <ns0:mn>
+              0
+             </ns0:mn>
+            </ns0:msub>
+            <ns0:mo linebreak="badbreak">
+             /
+            </ns0:mo>
+            <ns0:msub>
+             <ns0:mi>
+              K
+             </ns0:mi>
+             <ns0:mrow>
+              <ns0:mi>
+               t
+              </ns0:mi>
+              <ns0:mi>
+               o
+              </ns0:mi>
+              <ns0:mi>
+               t
+              </ns0:mi>
+             </ns0:mrow>
+            </ns0:msub>
+           </ns0:mrow>
+           <ns0:mrow>
+            <ns0:mn>
+             1
+            </ns0:mn>
+            <ns0:mo linebreak="badbreak">
+             +
+            </ns0:mo>
+            <ns0:msub>
+             <ns0:mi>
+              P
+             </ns0:mi>
+             <ns0:mn>
+              0
+             </ns0:mn>
+            </ns0:msub>
+            <ns0:mo linebreak="badbreak">
+             /
+            </ns0:mo>
+            <ns0:msub>
+             <ns0:mi>
+              K
+             </ns0:mi>
+             <ns0:mrow>
+              <ns0:mi>
+               t
+              </ns0:mi>
+              <ns0:mi>
+               o
+              </ns0:mi>
+              <ns0:mi>
+               t
+              </ns0:mi>
+             </ns0:mrow>
+            </ns0:msub>
+           </ns0:mrow>
+          </ns0:mfrac>
+          <ns0:mo>
+           ,
+          </ns0:mo>
+         </ns0:mrow>
+        </ns0:math>
+       </disp-formula>
+       where
+       <inline-formula>
+        <ns0:math altimg="si18.gif" id="M25">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            K
+           </ns0:mi>
+           <ns0:mrow>
+            <ns0:mi>
+             t
+            </ns0:mi>
+            <ns0:mi>
+             o
+            </ns0:mi>
+            <ns0:mi>
+             t
+            </ns0:mi>
+           </ns0:mrow>
+          </ns0:msub>
+          <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+           =
+          </ns0:mo>
+          <ns0:mrow>
+           <ns0:mn>
+            1
+           </ns0:mn>
+           <ns0:mo>
+            /
+           </ns0:mo>
+           <ns0:mrow>
+            <ns0:mrow>
+             <ns0:mo>
+              (
+             </ns0:mo>
+             <ns0:mrow>
+              <ns0:msubsup>
+               <ns0:mo>
+                ∑
+               </ns0:mo>
+               <ns0:mrow>
+                <ns0:mi>
+                 i
+                </ns0:mi>
+                <ns0:mo linebreak="badbreak">
+                 =
+                </ns0:mo>
+                <ns0:mn>
+                 1
+                </ns0:mn>
+               </ns0:mrow>
+               <ns0:mi>
+                n
+               </ns0:mi>
+              </ns0:msubsup>
+              <ns0:mrow>
+               <ns0:mrow>
+                <ns0:mn>
+                 1
+                </ns0:mn>
+                <ns0:mo linebreak="badbreak">
+                 /
+                </ns0:mo>
+                <ns0:mrow>
+                 <ns0:msub>
+                  <ns0:mi>
+                   K
+                  </ns0:mi>
+                  <ns0:mi>
+                   i
+                  </ns0:mi>
+                 </ns0:msub>
+                </ns0:mrow>
+               </ns0:mrow>
+              </ns0:mrow>
+             </ns0:mrow>
+             <ns0:mo>
+              )
+             </ns0:mo>
+            </ns0:mrow>
+           </ns0:mrow>
+          </ns0:mrow>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       is a measure of the total binding affinity of all the peptides to a given HLA molecule. To estimate
+       <inline-formula>
+        <ns0:math altimg="si3.gif" id="M26">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            K
+           </ns0:mi>
+           <ns0:mrow>
+            <ns0:mi>
+             t
+            </ns0:mi>
+            <ns0:mi>
+             o
+            </ns0:mi>
+            <ns0:mi>
+             t
+            </ns0:mi>
+           </ns0:mrow>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       , we use the predicted binding affinities as a proxy for the dissociation constants
+       <inline-formula>
+        <ns0:math altimg="si11.gif" id="M27">
+         <ns0:mrow>
+          <ns0:msub>
+           <ns0:mi>
+            K
+           </ns0:mi>
+           <ns0:mi>
+            i
+           </ns0:mi>
+          </ns0:msub>
+         </ns0:mrow>
+        </ns0:math>
+       </inline-formula>
+       . The binding affinity is strictly equal to the dissociation constant only for non-competitive binding, while the two quantities are just proportional in competitive binding assays (       ;       ).
+      </p>
+     </sec>
+     <sec id="sec4.3.3">
+      <title>
+       Identification of T Cell Epitopes
+      </title>
+      <p id="p0155">
+       To identify potential T cell epitopes, we use NetTepi 1.0 server (
+       <ext-link ext-link-type="uri" id="intref0095" ns1:href="https://services.healthtech.dtu.dk/service.php?NetTepi-1.0">
+        https://services.healthtech.dtu.dk/service.php?NetTepi-1.0
+       </ext-link>
+       ) which combines estimates for peptide-MHC binding affinity, peptide-MHC stability and T cell propensity (       ). Peptides are then ranked against a set of 200000 natural peptides to obtain a global rank score. Here we scan all SARS-Cov-2 and SARS-Cov peptides with lengths 8–11 from the 4 structural viral proteins and retain the peptides with rank score lower than 2%. We perform the calculations for all the available class I MHC allele using the default values for the relative weight on stability prediction and the relative weight on T cell propensity prediction. The alleles suppored by NetTepi are well represented in human populations. In particular, the supported HLA-A alleles are present in around 60% of the populations, while the HLA-B are present in around 30% of the populations.
+      </p>
+     </sec>
+    </sec>
+    <sec id="sec4.4">
+     <title>
+      Quantification of Haplotype Frequencies and Statistical Analysis
+     </title>
+     <p id="p0160">
+      We consider populations with a sample size larger than 1000 individuals and containing data for all the three classical polymorphic HLA genes. We include data from the German Bone Marrow Donor File (Deutsche KnochenMarkSpenderdate, DKMS) which provides thousands of haplotypes for Germans with different origins. We also include a large dataset from Japan, sample over more than 18000 individuals, and two large datasets from the United States of America (African-Americans and Hispanics). Confidence intervals for haplotype frequencies
+      <italic>
+       f
+      </italic>
+      are estimated assuming binomial statistics (i.e.
+      <inline-formula>
+       <ns0:math altimg="si19.gif" id="M28">
+        <ns0:mrow>
+         <ns0:mi>
+          C
+         </ns0:mi>
+         <ns0:mi>
+          I
+         </ns0:mi>
+         <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+          =
+         </ns0:mo>
+         <ns0:mi>
+          f
+         </ns0:mi>
+         <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+          ±
+         </ns0:mo>
+         <ns0:mi>
+          z
+         </ns0:mi>
+         <ns0:msqrt>
+          <ns0:mrow>
+           <ns0:mi>
+            f
+           </ns0:mi>
+           <ns0:mrow>
+            <ns0:mo>
+             (
+            </ns0:mo>
+            <ns0:mrow>
+             <ns0:mn>
+              1
+             </ns0:mn>
+             <ns0:mo linebreak="badbreak">
+              −
+             </ns0:mo>
+             <ns0:mi>
+              f
+             </ns0:mi>
+            </ns0:mrow>
+            <ns0:mo>
+             )
+            </ns0:mo>
+           </ns0:mrow>
+           <ns0:mo>
+            /
+           </ns0:mo>
+           <ns0:mi>
+            N
+           </ns0:mi>
+          </ns0:mrow>
+         </ns0:msqrt>
+        </ns0:mrow>
+       </ns0:math>
+      </inline-formula>
+      , with
+      <inline-formula>
+       <ns0:math altimg="si20.gif" id="M29">
+        <ns0:mrow>
+         <ns0:mi>
+          z
+         </ns0:mi>
+         <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+          =
+         </ns0:mo>
+         <ns0:mn>
+          1.96
+         </ns0:mn>
+        </ns0:mrow>
+       </ns0:math>
+      </inline-formula>
+      for a 95% confidence interval, where
+      <italic>
+       N
+      </italic>
+      is the sample size). When
+      <inline-formula>
+       <ns0:math altimg="si21.gif" id="M30">
+        <ns0:mrow>
+         <ns0:mi>
+          f
+         </ns0:mi>
+         <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+          =
+         </ns0:mo>
+         <ns0:mn>
+          0
+         </ns0:mn>
+        </ns0:mrow>
+       </ns0:math>
+      </inline-formula>
+      we use instead the rule of three:
+      <inline-formula>
+       <ns0:math altimg="si22.gif" id="M31">
+        <ns0:mrow>
+         <ns0:mi>
+          C
+         </ns0:mi>
+         <ns0:mi>
+          I
+         </ns0:mi>
+         <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+          =
+         </ns0:mo>
+         <ns0:mn>
+          3
+         </ns0:mn>
+         <ns0:mo linebreak="goodbreak" linebreakstyle="after">
+          /
+         </ns0:mo>
+         <ns0:mi>
+          N
+         </ns0:mi>
+        </ns0:mrow>
+       </ns0:math>
+      </inline-formula>
+      . Statistical analysis is implemented in python and available within the released code
+      <ext-link ext-link-type="uri" id="intref0100" ns1:href="https://github.com/ComplexityBiosystems/hla-covid">
+       https://github.com/ComplexityBiosystems/hla-covid
+      </ext-link>
+      .
+     </p>
+    </sec>
+   </sec>
+  </textgroup>
+ </sentences>
+</article>
