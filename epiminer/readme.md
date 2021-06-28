@@ -46,6 +46,7 @@ The EpiMiner starts getting all papers that mention the epitope and extrating th
 		````python3 epiminer.py -rt 2 -fo data/ -fp literature_evaluation_pairs.tsv````
 
 ## Reference
+Article in process.
 
 ## Bug Report
 Please, use the [Issue](https://github.com/YasCoMa/Epicurator/issues) tab to report any bug.

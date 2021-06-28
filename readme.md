@@ -57,6 +57,7 @@ This tool consists of a set of filtering steps to enhance the discovery of new e
 	````python3 epicurator.py [function] [folder] ````
 
 ## Reference
+Article in process.
 
 ## Bug Report
 Please, use the [Issue](https://github.com/YasCoMa/Epicurator/issues) tab to report any bug.
