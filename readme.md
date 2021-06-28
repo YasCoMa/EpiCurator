@@ -22,8 +22,10 @@ This tool consists of a set of filtering steps to enhance the discovery of new e
 	2. ````cd EpiCurator````
 	3. ````unzip human_38_proteins````
 	4. ````move human_38_proteins.faa into the same directory as epicurator.py````
-	5. ````unzip blastdb````
-	6. ````Go to EpiMiner folder to see its specific instructions, if you want to use it````
+	5. ````unzip lineages````
+	6. ````move lineages folder files into the same directory as epicurator.py````
+	7. ````unzip blastdb````
+	8. ````Go to EpiMiner folder to see its specific instructions, if you want to use it````
 
 * Pipeline parameters:
 	- [function] <br>
