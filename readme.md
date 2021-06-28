@@ -43,7 +43,7 @@ This tool consists of a set of filtering steps to enhance the discovery of new e
 		11 - Get epitopes coordinates in genome
 
 	- [file] <br>
-		File containing the epitopes separated by comma, with header in the fololowing order (identification, epitope sequence and original protein/epitopes class (for function 2)) <br>
+		File containing the epitopes separated by comma, with header in the following order (identification, epitope sequence and original protein/epitopes class (for function 2)) <br>
 		This parameter is used in all functions except 4, 9 and 10
 	
 	- [folder] <br>
