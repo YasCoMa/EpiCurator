@@ -57,7 +57,8 @@ This tool consists of a set of filtering steps to enhance the discovery of new e
 	````python3 epicurator.py [function] [folder] ````
 
 ## Reference
-Article in process.
+Ferreira CS, Martins YC, Souza RC, Vasconcelos AT. EpiCurator: an immunoinformatic workflow to predict and prioritize SARS-CoV-2 epitopes. PeerJ. 2021 Nov 30;9:e12548.
+https://peerj.com/articles/12548/
 
 ## Bug Report
 Please, use the [Issue](https://github.com/YasCoMa/Epicurator/issues) tab to report any bug.
